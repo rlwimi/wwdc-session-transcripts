@@ -1,19 +1,19 @@
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:00:06.716 --> 00:00:10.806 A:middle
+00:00:29.046 --> 00:00:29.966 A:middle
 &gt;&gt; RICKY MONDELLO: Good
 afternoon everyone.
 
-00:00:22.376 --> 00:00:32.066 A:middle
+00:00:30.456 --> 00:00:33.106 A:middle
 Welcome. Before we get
 started I just want
 
-00:00:32.066 --> 00:00:34.256 A:middle
+00:00:33.106 --> 00:00:34.966 A:middle
 to get a little feel
 for the crowd.
 
-00:00:34.606 --> 00:00:36.036 A:middle
+00:00:35.136 --> 00:00:36.036 A:middle
 Little show of hands.
 
 00:00:36.716 --> 00:00:37.796 A:middle
@@ -95,10 +95,10 @@ of you out of the business
 of writing those
 miniature web browsers.
 
-00:01:25.186 --> 00:01:27.126 A:middle
-(Cheers and applause.)
+00:01:25.516 --> 00:01:30.646 A:middle
+[ Cheers and applause ]
 
-00:01:29.806 --> 00:01:31.336 A:middle
+00:01:31.146 --> 00:01:31.336 A:middle
 &gt;&gt; RICKY MONDELLO: I'm going
 
 00:01:31.336 --> 00:01:33.726 A:middle
@@ -283,10 +283,10 @@ of WKWebView that were missing.
 First and foremost, you can
 securely loadFileURLs now.
 
-00:03:45.146 --> 00:03:45.436 A:middle
-(Applause.)
+00:03:45.516 --> 00:03:50.546 A:middle
+[ Applause ]
 
-00:03:49.726 --> 00:03:52.306 A:middle
+00:03:51.046 --> 00:03:52.306 A:middle
 &gt;&gt; RICKY MONDELLO:
 You can also loadData,
 
@@ -297,20 +297,20 @@ that you wanted this way.
 00:03:55.806 --> 00:03:57.126 A:middle
 No need to spin up a server.
 
-00:03:57.426 --> 00:04:02.066 A:middle
-And if you like, you can set
-your own customUserAgent string.
+00:03:57.426 --> 00:04:01.906 A:middle
+And if you like, you can
+set your own customUserAgent
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:03:57.426 --> 00:04:02.066 A:middle
-And if you like, you can set
-your own customUserAgent string.
+00:03:57.426 --> 00:04:01.906 A:middle
+And if you like, you can
+set your own customUserAgent
 
-00:04:02.866 --> 00:04:03.246 A:middle
-(Applause.)
+00:04:02.896 --> 00:04:03.296 A:middle
+string [applause].
 
 00:04:07.966 --> 00:04:11.206 A:middle
 We've also added a new API to
@@ -465,14 +465,14 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 makes this a better
 option than ever.
 
-00:06:00.696 --> 00:06:02.626 A:middle
+00:06:00.696 --> 00:06:02.606 A:middle
 It's more lightweight
 than iOS 8 was.
 
-00:06:02.626 --> 00:06:02.856 A:middle
-(Applause.)
+00:06:03.516 --> 00:06:08.596 A:middle
+[ Applause ]
 
-00:06:08.036 --> 00:06:10.796 A:middle
+00:06:09.096 --> 00:06:10.796 A:middle
 &gt;&gt; RICKY MONDELLO: And
 delegating the responsibility
 
@@ -818,17 +818,14 @@ View Controller.
 This next feature is really
 awesome and it's new to iOS 9.
 
-00:10:24.006 --> 00:10:27.316 A:middle
-It's called Content
-Blocking -- go ahead!
+00:10:24.006 --> 00:10:27.836 A:middle
+It's called Content Blocking
+-- go ahead [chuckles]!
 
-00:10:27.316 --> 00:10:27.736 A:middle
-(Chuckles.)
+00:10:28.516 --> 00:10:31.546 A:middle
+[ Applause ]
 
-00:10:27.736 --> 00:10:27.926 A:middle
-(Applause.)
-
-00:10:31.966 --> 00:10:33.786 A:middle
+00:10:32.046 --> 00:10:33.786 A:middle
 &gt;&gt; RICKY MONDELLO: So the big
 idea behind Content Blocking,
 
@@ -880,19 +877,17 @@ So if you install the right
 content blocker you won't
 
 00:11:05.056 --> 00:11:06.156 A:middle
-believe what happens next.
+believe what happens
+next [chuckles].
 
-00:11:06.566 --> 00:11:06.796 A:middle
-(Chuckles.)
-
-00:11:07.046 --> 00:11:08.586 A:middle
+00:11:06.666 --> 00:11:08.586 A:middle
 Oh, well, you will.
 
 00:11:10.266 --> 00:11:11.196 A:middle
 The content disappears.
 
-00:11:15.626 --> 00:11:15.806 A:middle
-(Applause.)
+00:11:12.516 --> 00:11:16.096 A:middle
+[ Applause ]
 
 00:11:16.596 --> 00:11:17.356 A:middle
 &gt;&gt; RICKY MONDELLO:
@@ -1301,7 +1296,7 @@ This will let Safari
 open the URL.
 
 00:16:16.806 --> 00:16:18.146 A:middle
-Lets test it.
+Let's test it.
 
 00:16:19.516 --> 00:16:25.286 A:middle
 I run the app and select
@@ -1566,12 +1561,12 @@ and password autofilled.
 So it will be harder for me
 to order pizza now especially
 
-00:19:45.316 --> 00:19:47.806 A:middle
+00:19:45.316 --> 00:19:46.866 A:middle
 when I'm hungry, and impatient,
-and I don't have my password.
 
-00:19:48.326 --> 00:19:48.476 A:middle
-(Laughter.)
+00:19:46.866 --> 00:19:47.806 A:middle
+and I don't have my
+password [laughter].
 
 00:19:49.616 --> 00:19:54.176 A:middle
 &gt;&gt; YONGJUN ZHANG: So, what
@@ -1724,12 +1719,15 @@ really happy about it.
 00:21:56.956 --> 00:21:57.526 A:middle
 Thank you.
 
-00:21:57.706 --> 00:21:57.896 A:middle
-(Applause.)
+00:21:58.516 --> 00:22:02.926 A:middle
+[ Applause ]
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:21:58.516 --> 00:22:02.926 A:middle
+[ Applause ]
 
 00:22:03.426 --> 00:22:07.176 A:middle
 &gt;&gt; YONGJUN ZHANG:
@@ -2390,11 +2388,11 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 00:29:59.686 --> 00:30:00.946 A:middle
 out over the next few months,
 
-00:30:01.396 --> 00:30:03.916 A:middle
+00:30:01.396 --> 00:30:04.976 A:middle
 please let us know how we can
 make it more useful to you.
 
-00:30:04.706 --> 00:30:08.866 A:middle
+00:30:05.056 --> 00:30:08.866 A:middle
 We really do appreciate
 your feedback.
 
@@ -2486,10 +2484,10 @@ hour in Media Lab A.
 Alright, thank you
 so much everybody.
 
-00:31:06.566 --> 00:31:14.736 A:middle
+00:31:06.566 --> 00:31:08.336 A:middle
 I hope you have a
 fantastic WWDC.
 
-00:31:14.736 --> 00:31:14.886 A:middle
-(Applause.)
+00:31:10.516 --> 00:31:23.690 A:middle
+[ Applause ]
 

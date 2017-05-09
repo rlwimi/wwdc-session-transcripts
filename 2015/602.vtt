@@ -1,11 +1,11 @@
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:00:06.686 --> 00:00:07.646 A:middle
+00:00:25.046 --> 00:00:25.496 A:middle
 &gt;&gt; NICK PORCINO:
 Hello, everybody.
 
-00:00:24.556 --> 00:00:28.086 A:middle
+00:00:25.796 --> 00:00:28.086 A:middle
 Welcome to managing 3D
 Assets with Model I/O.
 
@@ -344,10 +344,10 @@ features and voxels
 and some advanced lighting
 and our baking steps.
 
-00:04:53.126 --> 00:04:53.406 A:middle
+00:04:57.096 --> 00:04:57.426 A:middle
 All right.
 
-00:04:56.476 --> 00:05:01.426 A:middle
+00:04:57.516 --> 00:05:01.426 A:middle
 So here we go, bread and
 butter, reading things in.
 
@@ -355,7 +355,7 @@ butter, reading things in.
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:04:56.476 --> 00:05:01.426 A:middle
+00:04:57.516 --> 00:05:01.426 A:middle
 So here we go, bread and
 butter, reading things in.
 
@@ -416,9 +416,9 @@ available everywhere.
 And for exporting at the
 moment, you can export
 
-00:05:51.336 --> 00:05:57.196 A:middle
+00:05:51.336 --> 00:05:57.246 A:middle
 out to your CAD/CAM
-stuff and (inaudible).
+stuff and [inaudible].
 
 00:05:57.756 --> 00:05:59.746 A:middle
 So importing is that easy.
@@ -1015,10 +1015,10 @@ that have got his hat in it.
 So by rendering or not
 rendering that submesh, he does
 
-00:13:11.726 --> 00:13:14.566 A:middle
+00:13:11.726 --> 00:13:13.286 A:middle
 or does not have a hat.
 
-00:13:14.836 --> 00:13:17.126 A:middle
+00:13:14.496 --> 00:13:17.126 A:middle
 Submeshes can share the
 data in the vertex buffers
 
@@ -1165,10 +1165,10 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 to specify whether the
 material is dialectic
 
-00:15:01.556 --> 00:15:04.056 A:middle
+00:15:01.556 --> 00:15:03.976 A:middle
 like clay or if it's a metal.
 
-00:15:04.056 --> 00:15:07.266 A:middle
+00:15:04.046 --> 00:15:07.266 A:middle
 If you set this value all the
 way to one end, it's dialectic
 
@@ -1784,8 +1784,8 @@ pass the mic to Claudia Roberts
 to talk about geometry
 and voxels.
 
-00:23:11.006 --> 00:23:11.156 A:middle
-(Applause).
+00:23:10.516 --> 00:23:17.716 A:middle
+[ Applause ]
 
 00:23:18.216 --> 00:23:18.946 A:middle
 &gt;&gt; CLAUDIA ROBERTS:
@@ -2319,11 +2319,11 @@ routine.
 00:29:30.716 --> 00:29:31.676 A:middle
 Simple as that.
 
-00:29:32.556 --> 00:29:38.556 A:middle
+00:29:32.556 --> 00:29:35.236 A:middle
 And now, I will show you voxels
 in action with a quick demo.
 
-00:29:38.906 --> 00:29:55.856 A:middle
+00:29:55.046 --> 00:29:55.856 A:middle
 &gt;&gt; CLAUDIA ROBERTS: So
 here we have this demo.
 
@@ -2410,14 +2410,14 @@ to Remi now who will talk
 about advanced topics in
 lighting and Xcode support.
 
-00:30:59.826 --> 00:30:59.986 A:middle
-(Applause).
-
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:31:08.716 --> 00:31:11.936 A:middle
+00:31:00.516 --> 00:31:09.156 A:middle
+[ Applause ]
+
+00:31:09.656 --> 00:31:11.936 A:middle
 &gt;&gt; REMI PALANDRI: Hey,
 everyone, and thanks, Claudia.
 
@@ -2735,7 +2735,7 @@ Mostly white, because
 most light can go there.
 
 00:34:28.346 --> 00:34:31.466 A:middle
-But you see some (inaudible)
+But you see some [inaudible]
 physical data there.
 
 00:34:32.315 --> 00:34:33.775 A:middle
@@ -2745,11 +2745,11 @@ How do we compute that.
 We compute that using
 offline raytracing.
 
-00:34:37.166 --> 00:34:40.036 A:middle
+00:34:37.166 --> 00:34:39.545 A:middle
 So your mesh gets
-into a (inaudible)
+into a [inaudible]
 
-00:34:40.036 --> 00:34:41.795 A:middle
+00:34:39.596 --> 00:34:41.795 A:middle
 and we send rays everywhere.
 
 00:34:42.096 --> 00:34:44.106 A:middle
@@ -3158,7 +3158,7 @@ and give a better look.
 
 00:39:06.816 --> 00:39:09.136 A:middle
 And that's available in the
-(inaudible) of SceneKit.
+[inaudible] of SceneKit.
 
 00:39:09.936 --> 00:39:12.486 A:middle
 So let's go back to the slides.
@@ -3241,10 +3241,10 @@ look at the scene,
 00:40:08.516 --> 00:40:09.796 A:middle
 that's what it looks like.
 
-00:40:09.856 --> 00:40:11.046 A:middle
+00:40:09.856 --> 00:40:11.976 A:middle
 It's really realistic.
 
-00:40:11.046 --> 00:40:12.896 A:middle
+00:40:12.066 --> 00:40:12.896 A:middle
 We've got the shadows
 and the lights
 
@@ -3355,7 +3355,7 @@ ray tracing.
 So we just send the ray and see
 
 00:41:25.226 --> 00:41:27.376 A:middle
-which ones arrive (inaudible)
+which ones arrive [inaudible]
 and which ones don't.
 
 00:41:28.036 --> 00:41:29.946 A:middle
@@ -3449,6 +3449,6 @@ and tomorrow morning at 9AM.
 Thank you all for your
 time and have a great WWDC.
 
-00:42:35.656 --> 00:42:35.846 A:middle
-(Applause)
+00:42:33.516 --> 00:42:45.850 A:middle
+[ Applause ]
 
