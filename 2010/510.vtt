@@ -1091,7 +1091,7 @@ the JavaScript for the iAd system.
 
 228
 00:20:07,530 --> 00:20:13,260
-Now what this means is every ad actually has 
+Now what this means is every ad actually has
 runtime packaged with it or if you're using iAd JS.
 
 229
@@ -2812,4 +2812,3 @@ there that has CSS effects and another important one was how
 00:51:42,650 --> 00:51:45,410
 to do touch events which is something
 quite tricky on iPhone.
-

@@ -125,4 +125,3 @@ One last thing I wanted to show you with this demo is the custom rendering facil
 Let's do a quick recap. You've seen how to give life to your scene using animation. It's really easy, they're really fast so use them extensively. We've also seen how to customize your rendering using delegates and custom programs. Use them wisely. We've seen how to populate easily your scene by using the provided parametric geometries. Finally, how to get the best of both worlds by using the tight integration of Core Animation.
 
 For more information, please contact our evangelist, Allan Schaffer and Mike Jurewitz. You can find online our reference API and we have set up a Scene Kit dedicated forum on our devforums website.
-

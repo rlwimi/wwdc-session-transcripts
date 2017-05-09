@@ -273,6 +273,3 @@ In summary, layout allows for sophisticated and powerful layout with less code o
 Be wary of issues like ambiguity or unsatisfiablity, but log messages are there to help, so when you get one, you want to take the time to read it and understand it by overriding methods like intrinsic content size, you can integrate your custom control with Auto Layout and it will save you a lot of work and now you can localize with a single nib file and multiple strings files.
 
 For more information, contact our Evangelist Paul Marcos, see the Coco Auto Layout guide, it’s really great, it’s got a ton of complete information. You don’t have to write down the address, you can just Google Coco Auto Layout guide. The developer forums as well, of course.
-
-
-

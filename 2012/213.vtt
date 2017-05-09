@@ -77,11 +77,3 @@ You can use a delegate method. Let's replace this with … I’m going to make m
 Okay. These are some simple problems you may have drawing images. For more information on all of this you can bug our frame works evangelist and we highly encourage you to check out the documentation. These are all new guides on High Resolution. I highly recommend you check these out. It's a great read. It really keep you up at night. The Apple Developer Forums are there for any help that you may need from your fellow developers and us.
 Okay, a summary of what we've covered today. The new High Resolution display modes for your hardware. It corresponds to four pixels on screen for every point. What you need to do to adapt this you need to add 2X bitmaps to your apps for all of your 1X and you need to look at your icons and up rise them as well. You need to look at your code and see what you can clean up for 2X. It may not be a lot and user will definitely thank you. You need to make sure that you're handling display changes, not just I launch a 2X I’m going to always be a 2X, but I need to handle going from 1X to 2X and then back again. Then please read the documentation. We worked on it very hard and it's great.
 Thank you very much for coming. Have a great week.
-
-
-
-
-
-
-
-
