@@ -1,0 +1,2961 @@
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:00:07.516 --> 00:00:17.500 A:middle
+[ Music ]
+
+00:00:21.626 --> 00:00:22.206 A:middle
+&gt;&gt; Good morning.
+
+00:00:25.816 --> 00:00:27.626 A:middle
+My name is Steve Breen.
+
+00:00:27.826 --> 00:00:31.086 A:middle
+&gt;&gt; And my name is Peter Hajas,
+and we're both engineers
+
+00:00:31.086 --> 00:00:32.906 A:middle
+on the UIKit Frameworks Team.
+
+00:00:34.076 --> 00:00:35.496 A:middle
+&gt;&gt; We're really excited to share
+
+00:00:35.496 --> 00:00:37.336 A:middle
+with what we're working
+on in CollectionView.
+
+00:00:37.996 --> 00:00:39.896 A:middle
+So let's get right into it.
+
+00:00:41.246 --> 00:00:43.506 A:middle
+We've got three big topics
+to talk about this morning.
+
+00:00:44.206 --> 00:00:47.416 A:middle
+Our first topic is going
+to be smooth scrolling.
+
+00:00:48.466 --> 00:00:50.816 A:middle
+Now, every iOS app expects
+
+00:00:50.816 --> 00:00:52.686 A:middle
+to have great scrolling
+performance,
+
+00:00:52.966 --> 00:00:55.096 A:middle
+and we got some great
+additions to CollectionView
+
+00:00:55.096 --> 00:00:58.606 A:middle
+to help your apps scroll better
+than ever, and the best part
+
+00:00:58.606 --> 00:01:01.046 A:middle
+about this is many of these
+additions require little
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:00:58.606 --> 00:01:01.046 A:middle
+about this is many of these
+additions require little
+
+00:01:01.286 --> 00:01:03.266 A:middle
+to no work in your applications.
+
+00:01:03.716 --> 00:01:06.486 A:middle
+Next, we're going to talk
+
+00:01:06.486 --> 00:01:09.126 A:middle
+about improvements
+to self-sizing cells.
+
+00:01:09.696 --> 00:01:12.626 A:middle
+Now this API was
+introduced in iOS 8,
+
+00:01:12.626 --> 00:01:15.626 A:middle
+and we're bringing some great
+improvements to it in iOS 10
+
+00:01:15.626 --> 00:01:17.326 A:middle
+to make it easier to adopt.
+
+00:01:18.446 --> 00:01:22.656 A:middle
+And, finally, we're going to
+go over interactive reordering.
+
+00:01:23.256 --> 00:01:26.196 A:middle
+This API was introduced
+last year in iOS 9,
+
+00:01:26.596 --> 00:01:28.496 A:middle
+and we've got some great
+enhancements that we're going
+
+00:01:28.496 --> 00:01:30.296 A:middle
+to go over for iOS 10.
+
+00:01:30.956 --> 00:01:33.236 A:middle
+&gt;&gt; Let's start off
+with smooth scrolling.
+
+00:01:33.806 --> 00:01:39.396 A:middle
+A hallmark of the iOS device
+experience is responding
+
+00:01:39.396 --> 00:01:44.286 A:middle
+immediately to the user's
+touch, and a big part
+
+00:01:44.286 --> 00:01:48.036 A:middle
+of this responsive user
+experience is making sure
+
+00:01:48.706 --> 00:01:51.436 A:middle
+that as I scroll my
+finger across the screen,
+
+00:01:51.816 --> 00:01:53.606 A:middle
+the objects onscreen move
+
+00:01:53.606 --> 00:01:55.766 A:middle
+as if they're moving
+in the real world.
+
+00:01:56.556 --> 00:01:59.746 A:middle
+This is really important
+to keep your users immersed
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:02:00.066 --> 00:02:01.106 A:middle
+in their applications.
+
+00:02:02.006 --> 00:02:04.016 A:middle
+We're going to talk
+through smooth scrolling
+
+00:02:04.206 --> 00:02:07.146 A:middle
+and some enhancements we've
+made to UI CollectionView
+
+00:02:07.906 --> 00:02:10.936 A:middle
+by talking through a demo app.
+
+00:02:10.936 --> 00:02:14.446 A:middle
+As you'll see, this application
+starts off not scrolling
+
+00:02:14.446 --> 00:02:15.126 A:middle
+that great.
+
+00:02:15.126 --> 00:02:17.536 A:middle
+We wanted to scroll like
+butter, but right now,
+
+00:02:17.536 --> 00:02:20.086 A:middle
+it's scrolling a lot more
+like chunky peanut butter.
+
+00:02:20.506 --> 00:02:21.546 A:middle
+So let's go to the iPad.
+
+00:02:25.596 --> 00:02:27.696 A:middle
+I'm going to switch
+over to the iPad.
+
+00:02:29.276 --> 00:02:32.906 A:middle
+Just to clarify, blue squares
+are usually pretty cheap,
+
+00:02:32.906 --> 00:02:34.936 A:middle
+but we've intentionally
+made these slow.
+
+00:02:35.576 --> 00:02:37.066 A:middle
+So imagine they're
+more complicated.
+
+00:02:37.066 --> 00:02:39.086 A:middle
+For example, maybe they
+have two colors in them.
+
+00:02:40.406 --> 00:02:44.486 A:middle
+Anyways, we've got this
+CollectionView, and we can see
+
+00:02:44.486 --> 00:02:47.416 A:middle
+that scrolling already
+loaded content is nice
+
+00:02:47.416 --> 00:02:50.166 A:middle
+and fast, but check this out.
+
+00:02:50.166 --> 00:02:51.426 A:middle
+Steve, watch closely.
+
+00:02:52.016 --> 00:02:53.486 A:middle
+When I scroll a little bit more.
+
+00:02:54.656 --> 00:02:55.646 A:middle
+&gt;&gt; Ooh, ouch.
+
+00:02:56.086 --> 00:02:59.236 A:middle
+One star, do not buy.
+
+00:02:59.476 --> 00:03:00.966 A:middle
+&gt;&gt; I wouldn't buy it either.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:02:59.476 --> 00:03:00.966 A:middle
+&gt;&gt; I wouldn't buy it either.
+
+00:03:01.136 --> 00:03:04.336 A:middle
+This type of user experience
+is something we really want
+
+00:03:04.336 --> 00:03:04.776 A:middle
+to avoid.
+
+00:03:05.306 --> 00:03:06.276 A:middle
+So what's going on here?
+
+00:03:07.036 --> 00:03:10.306 A:middle
+Well, we said before that these
+are some really expensive blue
+
+00:03:10.306 --> 00:03:13.966 A:middle
+squares to simulate to really
+expensive complicated cell
+
+00:03:14.166 --> 00:03:17.646 A:middle
+in your app, and that's running
+up against CollectionView
+
+00:03:18.306 --> 00:03:21.286 A:middle
+and the fact that it loads cells
+exactly when they're required.
+
+00:03:21.436 --> 00:03:22.706 A:middle
+Let me show you what I mean.
+
+00:03:24.116 --> 00:03:26.386 A:middle
+We'll reload our data
+here, and I'm going to turn
+
+00:03:26.386 --> 00:03:29.166 A:middle
+on a view that's going to show
+all the cells that are loaded
+
+00:03:29.166 --> 00:03:29.946 A:middle
+in the CollectionView.
+
+00:03:30.076 --> 00:03:33.526 A:middle
+So you can see those bottom
+cells are just peaking
+
+00:03:33.526 --> 00:03:35.156 A:middle
+up beyond the visible bounds.
+
+00:03:35.876 --> 00:03:37.796 A:middle
+Now watch what happens
+when I scroll.
+
+00:03:38.346 --> 00:03:42.986 A:middle
+We're bringing in an
+entire row of cells at once.
+
+00:03:43.416 --> 00:03:46.396 A:middle
+This is what's leading to that
+stuttery scrolling performance.
+
+00:03:47.376 --> 00:03:50.396 A:middle
+In performance terminology,
+we would say
+
+00:03:50.476 --> 00:03:52.876 A:middle
+that the app is dropping frames.
+
+00:03:53.516 --> 00:03:55.686 A:middle
+Let's switch back to slides
+to hear a little bit more.
+
+00:03:56.086 --> 00:03:58.066 A:middle
+&gt;&gt; So what exactly do
+we mean when we talk
+
+00:03:58.066 --> 00:03:59.896 A:middle
+about dropping frames.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:04:00.456 --> 00:04:02.276 A:middle
+Now, in your applications,
+
+00:04:02.546 --> 00:04:04.906 A:middle
+the users expect a smooth
+scrolling performance,
+
+00:04:04.906 --> 00:04:07.686 A:middle
+which means your app wants
+to hit that magical number
+
+00:04:07.946 --> 00:04:09.446 A:middle
+of 60 frames per second.
+
+00:04:10.616 --> 00:04:11.616 A:middle
+Now if we do the math,
+
+00:04:11.806 --> 00:04:15.086 A:middle
+that means that for every time
+we refresh the display we need
+
+00:04:15.086 --> 00:04:17.536 A:middle
+to hit that window
+in 16 milliseconds.
+
+00:04:18.565 --> 00:04:20.426 A:middle
+OK. So let's look
+at a couple frames.
+
+00:04:20.476 --> 00:04:23.836 A:middle
+Here we have a diagram that
+shows three distinct frames.
+
+00:04:25.076 --> 00:04:29.566 A:middle
+In our first frame, we got
+very little work to do.
+
+00:04:29.906 --> 00:04:33.486 A:middle
+Now as Peter mentioned before,
+we're moving existing content
+
+00:04:33.486 --> 00:04:34.606 A:middle
+up and down the display.
+
+00:04:35.026 --> 00:04:37.216 A:middle
+It's a highly optimized
+situation on iOS.
+
+00:04:37.216 --> 00:04:38.486 A:middle
+So it's superfast.
+
+00:04:38.486 --> 00:04:41.716 A:middle
+Not much work to hit, and
+we've got this great five-star
+
+00:04:41.716 --> 00:04:42.716 A:middle
+scrolling performance.
+
+00:04:43.156 --> 00:04:43.916 A:middle
+That's a good frame.
+
+00:04:45.916 --> 00:04:49.066 A:middle
+However, in the demo, it
+wasn't always so great.
+
+00:04:50.506 --> 00:04:52.306 A:middle
+Occasionally, we'd
+have this situation
+
+00:04:52.416 --> 00:04:54.196 A:middle
+where we have a lot
+of work to do.
+
+00:04:54.426 --> 00:04:56.856 A:middle
+Not only do we fill
+up our current frame,
+
+00:04:57.196 --> 00:04:58.966 A:middle
+we went into the next frame.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:05:00.516 --> 00:05:02.446 A:middle
+This is our ad frame.
+
+00:05:02.446 --> 00:05:04.226 A:middle
+We drop a frame, one star.
+
+00:05:04.226 --> 00:05:08.356 A:middle
+Let's look at this in a
+little bit different light.
+
+00:05:08.926 --> 00:05:12.696 A:middle
+Now on this graph, we can see
+we've got two distinct regions.
+
+00:05:13.266 --> 00:05:14.746 A:middle
+We have the region on the top,
+
+00:05:14.746 --> 00:05:16.446 A:middle
+which we're going to
+call the red zone.
+
+00:05:16.446 --> 00:05:19.966 A:middle
+This is the area where we miss
+a frame, and we're up above
+
+00:05:19.966 --> 00:05:22.026 A:middle
+that magical 16 millisecond
+line.
+
+00:05:22.406 --> 00:05:25.186 A:middle
+Let's check out the labels
+that we have on the axes.
+
+00:05:25.826 --> 00:05:29.116 A:middle
+So on our y-axis, we're
+going to graph the CPU time
+
+00:05:29.116 --> 00:05:31.856 A:middle
+on the main thread,
+and on the x,
+
+00:05:32.166 --> 00:05:36.256 A:middle
+this is the display fresh events
+as the scrolling's occurring.
+
+00:05:36.556 --> 00:05:38.206 A:middle
+OK. So let's look at a graph.
+
+00:05:39.466 --> 00:05:40.716 A:middle
+Alright. So in this graph,
+
+00:05:41.046 --> 00:05:43.136 A:middle
+this shows what Peter was
+demonstrating a second ago
+
+00:05:43.136 --> 00:05:45.546 A:middle
+where we have these visits
+up into that red zone
+
+00:05:45.546 --> 00:05:48.326 A:middle
+where we're dropping
+frames, but most importantly,
+
+00:05:48.326 --> 00:05:49.776 A:middle
+look at these quiet times
+
+00:05:50.066 --> 00:05:52.256 A:middle
+where the CollectionView's
+doing very little work,
+
+00:05:53.136 --> 00:05:54.136 A:middle
+but then we have
+this other visit
+
+00:05:54.136 --> 00:05:55.116 A:middle
+to the red zone at the end.
+
+00:05:55.246 --> 00:05:59.666 A:middle
+So what if we could change this
+behavior a little bit and smooth
+
+00:05:59.666 --> 00:06:02.626 A:middle
+out the amount of work we're
+doing as the user's scrolling.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:05:59.666 --> 00:06:02.626 A:middle
+out the amount of work we're
+doing as the user's scrolling.
+
+00:06:03.056 --> 00:06:05.236 A:middle
+OK, cool. Look at this.
+
+00:06:05.236 --> 00:06:08.846 A:middle
+So now instead of these
+visits up into that red zone
+
+00:06:09.656 --> 00:06:12.896 A:middle
+and those periods of quiescence,
+we've got a nice even amount
+
+00:06:12.896 --> 00:06:15.046 A:middle
+of work, and we're spreading
+the work out across time.
+
+00:06:16.396 --> 00:06:18.206 A:middle
+&gt;&gt; To help talk through
+how we're going
+
+00:06:18.206 --> 00:06:20.936 A:middle
+to flatten these peaks
+and bring up this valley
+
+00:06:21.236 --> 00:06:24.956 A:middle
+to create this nice, consistent
+line of work, I'd like to talk
+
+00:06:24.956 --> 00:06:29.176 A:middle
+through the life cycle of a
+cell as it existed on iOS 9.
+
+00:06:29.816 --> 00:06:32.566 A:middle
+We're going to go through the
+whole circle of life of a cell.
+
+00:06:33.026 --> 00:06:33.656 A:middle
+It's beautiful.
+
+00:06:34.536 --> 00:06:36.106 A:middle
+Let's bring our CollectionView
+cells,
+
+00:06:37.186 --> 00:06:39.176 A:middle
+and we're scrolling along,
+and let's say we need
+
+00:06:39.176 --> 00:06:40.426 A:middle
+to bring in a new cell.
+
+00:06:41.776 --> 00:06:43.156 A:middle
+We'll take it out
+of the reuse queue,
+
+00:06:43.156 --> 00:06:45.306 A:middle
+and we'll call prepareForReuse
+on it.
+
+00:06:46.316 --> 00:06:49.356 A:middle
+This gives the cell an
+opportunity to reset itself
+
+00:06:49.576 --> 00:06:53.396 A:middle
+to its default state, ready to
+receive new data from your app.
+
+00:06:54.316 --> 00:06:58.576 A:middle
+Next, we'll continue calling the
+rest of cellForItemAtIndexPath.
+
+00:06:59.446 --> 00:07:01.406 A:middle
+This is where you should
+be doing the majority
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:06:59.446 --> 00:07:01.406 A:middle
+This is where you should
+be doing the majority
+
+00:07:01.406 --> 00:07:02.956 A:middle
+of your work populating
+the cell.
+
+00:07:03.426 --> 00:07:06.056 A:middle
+You'll access your data
+models, set them on the cell,
+
+00:07:06.246 --> 00:07:08.006 A:middle
+and return them back
+to the system.
+
+00:07:09.076 --> 00:07:12.026 A:middle
+Now, right before that
+cell's about to go on screen,
+
+00:07:12.306 --> 00:07:14.336 A:middle
+we'll call willDisplayCell.
+
+00:07:15.556 --> 00:07:16.996 A:middle
+This will give your app a chance
+
+00:07:17.306 --> 00:07:20.976 A:middle
+to do any other last-minute
+work it needs to do before
+
+00:07:20.976 --> 00:07:22.276 A:middle
+that cell goes on screen.
+
+00:07:23.156 --> 00:07:26.526 A:middle
+And for any outgoing cells,
+we'll call didEndDisplayingCell.
+
+00:07:27.806 --> 00:07:31.716 A:middle
+&gt;&gt; OK. So that's the life cycle
+of the cell before iOS 10.
+
+00:07:32.746 --> 00:07:35.336 A:middle
+Now let's check out what
+this looks like in iOS 10.
+
+00:07:35.956 --> 00:07:37.476 A:middle
+So here we have the
+same type of layout
+
+00:07:37.476 --> 00:07:38.576 A:middle
+that Peter just talked about.
+
+00:07:38.876 --> 00:07:39.696 A:middle
+The single column.
+
+00:07:39.696 --> 00:07:41.566 A:middle
+It's simple for demonstration
+purposes.
+
+00:07:42.496 --> 00:07:44.776 A:middle
+So now as the user scrolls up,
+
+00:07:44.846 --> 00:07:47.616 A:middle
+notice here that well
+before this cell is needed
+
+00:07:47.616 --> 00:07:49.866 A:middle
+to be displayed on screen,
+we're going to bring it
+
+00:07:49.866 --> 00:07:50.976 A:middle
+in from the reuse queue.
+
+00:07:51.106 --> 00:07:54.236 A:middle
+And then following that familiar
+pattern Peter was talking about,
+
+00:07:54.546 --> 00:07:56.366 A:middle
+we're going to send
+it a prepareForReuse,
+
+00:07:56.856 --> 00:07:59.696 A:middle
+and then construct the rest
+of the content in your cell
+
+00:07:59.696 --> 00:08:01.186 A:middle
+with cellForItemAtIndexPath.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:07:59.696 --> 00:08:01.186 A:middle
+with cellForItemAtIndexPath.
+
+00:08:01.616 --> 00:08:05.306 A:middle
+Now as the user continues to
+scroll, here's what's different.
+
+00:08:06.106 --> 00:08:08.086 A:middle
+Now we didn't call
+willDisplayCell right
+
+00:08:08.086 --> 00:08:09.136 A:middle
+when we created this cell.
+
+00:08:09.136 --> 00:08:12.536 A:middle
+We have a hesitant, hesitation,
+and then right when it displays,
+
+00:08:12.666 --> 00:08:14.496 A:middle
+we're going to call
+willDisplayCell.
+
+00:08:15.596 --> 00:08:17.766 A:middle
+OK. So now the user
+continues to scroll.
+
+00:08:19.046 --> 00:08:20.826 A:middle
+We're going to fade away
+those other cells to focus
+
+00:08:20.826 --> 00:08:23.776 A:middle
+on the lifetime of this
+cell, and now the cell is
+
+00:08:23.776 --> 00:08:26.286 A:middle
+about to exit the visible
+bounds from the CollectionView.
+
+00:08:26.746 --> 00:08:29.676 A:middle
+So we'll send it the
+expected didEndDisplayingCell.
+
+00:08:30.236 --> 00:08:33.356 A:middle
+Now what Peter was talking
+about iOS 9, at this point,
+
+00:08:33.476 --> 00:08:36.155 A:middle
+the cell entered the reuse
+queue, and we'd be done with it.
+
+00:08:36.686 --> 00:08:39.196 A:middle
+To display the data in
+this particular cell again,
+
+00:08:39.515 --> 00:08:41.265 A:middle
+we'd have to go through the
+beginning of the life cycle
+
+00:08:41.265 --> 00:08:43.976 A:middle
+to cell and call
+cellForItemAtIndexPath.
+
+00:08:44.756 --> 00:08:46.666 A:middle
+But in iOS 10, we're
+going to hold
+
+00:08:46.666 --> 00:08:48.336 A:middle
+onto that cell just
+a little bit longer.
+
+00:08:49.166 --> 00:08:50.626 A:middle
+So if the user scrolls
+up a little bit,
+
+00:08:50.626 --> 00:08:51.736 A:middle
+and then says, "Oh,
+wait a minute.
+
+00:08:51.736 --> 00:08:53.406 A:middle
+That was a picture of
+my sister's new kid.
+
+00:08:53.406 --> 00:08:55.756 A:middle
+I'm going to scroll back
+down," we're going to hang
+
+00:08:55.756 --> 00:08:58.906 A:middle
+onto that cell, and send
+it a willDisplayCell again.
+
+00:08:59.086 --> 00:09:01.896 A:middle
+Now the content will
+continue on in the cell.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:08:59.086 --> 00:09:01.896 A:middle
+Now the content will
+continue on in the cell.
+
+00:09:02.516 --> 00:09:07.500 A:middle
+[ Applause ]
+
+00:09:21.176 --> 00:09:24.516 A:middle
+&gt;&gt; So notice as Steve's showing
+you here, this also applies
+
+00:09:24.516 --> 00:09:26.066 A:middle
+to multicolumn layouts.
+
+00:09:26.856 --> 00:09:29.996 A:middle
+We're going to be bringing in
+the cells one at a time instead
+
+00:09:29.996 --> 00:09:32.456 A:middle
+of all at once to get better
+scrolling performance.
+
+00:09:32.456 --> 00:09:34.056 A:middle
+&gt;&gt; That's right,
+Peter, and notice here,
+
+00:09:34.056 --> 00:09:36.546 A:middle
+these cells aren't actually
+displayed on screen quite yet.
+
+00:09:36.766 --> 00:09:38.046 A:middle
+They're still off the screen.
+
+00:09:38.226 --> 00:09:40.856 A:middle
+And now that we sent the
+second cell that we DQ'd,
+
+00:09:41.166 --> 00:09:44.776 A:middle
+the cellForItemIndexPath,
+and scroll up both cells,
+
+00:09:44.866 --> 00:09:47.796 A:middle
+now we're going to send
+the willDisplayCellMessage
+
+00:09:47.796 --> 00:09:50.296 A:middle
+to both right before
+they appear on screen.
+
+00:09:51.486 --> 00:09:53.676 A:middle
+&gt;&gt; While this may seem
+like a subtle change,
+
+00:09:53.826 --> 00:09:55.856 A:middle
+it's actually a lot
+bigger than that.
+
+00:09:56.246 --> 00:09:59.096 A:middle
+By adopting this new
+life cycle in iOS 10,
+
+00:09:59.486 --> 00:10:01.976 A:middle
+we get automatic faster
+scrolling performance.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:09:59.486 --> 00:10:01.976 A:middle
+we get automatic faster
+scrolling performance.
+
+00:10:02.406 --> 00:10:03.326 A:middle
+Let's go back to iPad.
+
+00:10:06.186 --> 00:10:11.716 A:middle
+So I'm going to switch back
+to the iPad, and here you see
+
+00:10:11.716 --> 00:10:15.146 A:middle
+that same CollectionView we
+were just looking at in iOS 9.
+
+00:10:15.766 --> 00:10:19.516 A:middle
+Remember, scrolling existing
+content is nice and fast,
+
+00:10:19.756 --> 00:10:21.256 A:middle
+but when we have to
+bring in more cells,
+
+00:10:22.506 --> 00:10:23.766 A:middle
+that's when things get choppy.
+
+00:10:24.346 --> 00:10:26.256 A:middle
+Now, while preparing
+this CollectionView,
+
+00:10:26.486 --> 00:10:29.676 A:middle
+we also prepared one in the
+oven cooking under iOS 10.
+
+00:10:30.006 --> 00:10:31.816 A:middle
+So I'm going to switch
+over to that,
+
+00:10:32.936 --> 00:10:35.816 A:middle
+and here we've got the
+exact same CollectionView
+
+00:10:36.066 --> 00:10:40.236 A:middle
+with those same really expensive
+blue squares running on iOS 10.
+
+00:10:41.606 --> 00:10:45.556 A:middle
+We can see that scrolling
+existing content is still nice,
+
+00:10:45.556 --> 00:10:48.576 A:middle
+fast, and fluid, but
+watch closely, Steve.
+
+00:10:48.766 --> 00:10:49.046 A:middle
+&gt;&gt; Alright.
+
+00:10:49.046 --> 00:10:50.616 A:middle
+&gt;&gt; When I scroll
+a little bit more.
+
+00:10:51.656 --> 00:10:52.786 A:middle
+&gt;&gt; Oh, that's great.
+
+00:10:52.786 --> 00:10:53.686 A:middle
+Five stars.
+
+00:10:54.246 --> 00:10:54.966 A:middle
+&gt;&gt; That's exactly right.
+
+00:10:55.516 --> 00:11:00.536 A:middle
+[ Applause ]
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:10:55.516 --> 00:11:00.536 A:middle
+[ Applause ]
+
+00:11:01.036 --> 00:11:04.386 A:middle
+This is because we're using
+this new cell life cycle.
+
+00:11:04.676 --> 00:11:06.426 A:middle
+The application hasn't
+changed at all.
+
+00:11:07.176 --> 00:11:09.256 A:middle
+I'm going to turn on that
+same view, which is going
+
+00:11:09.256 --> 00:11:11.626 A:middle
+to show you all the cells
+that CollectionView's loaded
+
+00:11:11.846 --> 00:11:13.246 A:middle
+to help highlight
+this difference.
+
+00:11:13.756 --> 00:11:15.936 A:middle
+So let me turn that on.
+
+00:11:16.746 --> 00:11:18.526 A:middle
+So here you can see
+that bottom row
+
+00:11:18.526 --> 00:11:20.446 A:middle
+of cells is just peaking above,
+
+00:11:20.486 --> 00:11:22.676 A:middle
+but watch what happens
+when I scroll faster.
+
+00:11:23.396 --> 00:11:25.786 A:middle
+Instead of bringing in a
+row of cells at a time,
+
+00:11:26.676 --> 00:11:29.006 A:middle
+we're now spreading that
+work out during the scroll.
+
+00:11:29.286 --> 00:11:32.366 A:middle
+This is what leads to that much
+smoother scrolling performance.
+
+00:11:32.446 --> 00:11:33.136 A:middle
+Isn't that great?
+
+00:11:38.926 --> 00:11:41.066 A:middle
+To learn more about this,
+let's go back to slides.
+
+00:11:44.896 --> 00:11:46.136 A:middle
+&gt;&gt; So this is pretty great.
+
+00:11:46.596 --> 00:11:48.226 A:middle
+So today we're very pleased
+
+00:11:48.226 --> 00:11:51.436 A:middle
+to announce UI CollectionView
+Cell Pre-Fetching.
+
+00:11:52.816 --> 00:11:54.206 A:middle
+Now this is enabled by default
+
+00:11:54.206 --> 00:11:56.176 A:middle
+when you compile
+your apps on iOS 10.
+
+00:11:57.636 --> 00:11:59.856 A:middle
+There's no step one.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:12:00.006 --> 00:12:01.866 A:middle
+Now for any reason you need
+
+00:12:01.866 --> 00:12:05.296 A:middle
+to use the old life cycle
+behavior pre-iOS 10,
+
+00:12:05.376 --> 00:12:06.666 A:middle
+opting out is easy.
+
+00:12:07.206 --> 00:12:09.616 A:middle
+Just set the new property
+on UICollectionView
+
+00:12:09.616 --> 00:12:11.996 A:middle
+to isPrefetchingEnabled
+defaults.
+
+00:12:11.996 --> 00:12:16.316 A:middle
+Now we've got some
+best practices
+
+00:12:16.316 --> 00:12:17.866 A:middle
+for adopting this
+new technology.
+
+00:12:19.136 --> 00:12:21.186 A:middle
+The first thing we want
+to talk about is we want
+
+00:12:21.186 --> 00:12:23.866 A:middle
+to do all the heavy lifting
+in cellForItemAtIndexPath.
+
+00:12:23.866 --> 00:12:26.036 A:middle
+All the, all the content
+creation for your cell.
+
+00:12:26.036 --> 00:12:28.956 A:middle
+Everything should be centered
+in cellForItemAtIndexPath.
+
+00:12:30.816 --> 00:12:33.466 A:middle
+Additionally, we want to
+make sure we do minimal work
+
+00:12:33.786 --> 00:12:36.586 A:middle
+willDisplayCell in
+didEndDisplayCell.
+
+00:12:38.416 --> 00:12:40.736 A:middle
+And, finally, it's
+important to note
+
+00:12:41.376 --> 00:12:44.556 A:middle
+that cellForItemaAtIndexPath
+may prepare a cell that's never
+
+00:12:44.556 --> 00:12:45.636 A:middle
+actually displayed.
+
+00:12:45.756 --> 00:12:48.836 A:middle
+The user may scroll away before
+the cell has an opportunity
+
+00:12:48.836 --> 00:12:49.686 A:middle
+to be displayed.
+
+00:12:51.096 --> 00:12:52.756 A:middle
+&gt;&gt; So this is great.
+
+00:12:53.446 --> 00:12:55.406 A:middle
+By just recompiling in iOS 10
+
+00:12:55.666 --> 00:12:58.316 A:middle
+and doing what you're likely
+already doing with the majority
+
+00:12:58.316 --> 00:13:00.706 A:middle
+of your work in
+cellForItemAtIndexPath,
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:12:58.316 --> 00:13:00.706 A:middle
+of your work in
+cellForItemAtIndexPath,
+
+00:13:01.126 --> 00:13:04.516 A:middle
+you automatically get better
+scrolling performance for free.
+
+00:13:05.706 --> 00:13:07.736 A:middle
+But we wanted to
+go a step further.
+
+00:13:08.306 --> 00:13:10.416 A:middle
+We understand that there's
+a class of application
+
+00:13:10.736 --> 00:13:13.746 A:middle
+which has a simple question for
+preparing their CollectionViews.
+
+00:13:14.226 --> 00:13:17.336 A:middle
+What do I do about my
+expensive data models?
+
+00:13:18.476 --> 00:13:19.866 A:middle
+The fact of the matter is
+
+00:13:20.056 --> 00:13:23.506 A:middle
+that many CollectionView cells
+require expensive data model
+
+00:13:23.506 --> 00:13:24.986 A:middle
+access to create.
+
+00:13:25.676 --> 00:13:28.596 A:middle
+I'm talking about things
+like decoding images,
+
+00:13:28.946 --> 00:13:30.976 A:middle
+talking to your database,
+or loading things
+
+00:13:30.976 --> 00:13:32.266 A:middle
+out of your core data store.
+
+00:13:32.836 --> 00:13:35.596 A:middle
+And we understand that for
+this class of application,
+
+00:13:36.196 --> 00:13:37.216 A:middle
+we don't want to show things
+
+00:13:37.216 --> 00:13:40.266 A:middle
+like template cells while we do
+an asynchronous network request.
+
+00:13:41.456 --> 00:13:44.416 A:middle
+To help solve this problem,
+we're introducing new API
+
+00:13:44.606 --> 00:13:49.016 A:middle
+in iOS 10 to help inform how
+your data model loads content.
+
+00:13:50.196 --> 00:13:51.536 A:middle
+Since its introduction,
+
+00:13:51.676 --> 00:13:55.416 A:middle
+UI CollectionView has always
+had two companion objects:
+
+00:13:56.126 --> 00:13:58.106 A:middle
+The data source and
+the delegate.
+
+00:13:58.516 --> 00:14:02.356 A:middle
+And new in iOS 10 we have
+this third companion object.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:13:58.516 --> 00:14:02.356 A:middle
+And new in iOS 10 we have
+this third companion object.
+
+00:14:02.666 --> 00:14:05.866 A:middle
+It's optional, and it's
+called the prefetchDataSource.
+
+00:14:06.786 --> 00:14:08.766 A:middle
+There's just one
+required method.
+
+00:14:09.046 --> 00:14:10.766 A:middle
+It's really easy to implement.
+
+00:14:11.546 --> 00:14:14.616 A:middle
+ColletionView prefetchItemsAt
+indexPaths.
+
+00:14:15.746 --> 00:14:18.526 A:middle
+This will be called on
+your prefetch data source
+
+00:14:18.826 --> 00:14:21.316 A:middle
+when it's time for
+you to preload content
+
+00:14:21.616 --> 00:14:23.006 A:middle
+from your asynchronous model.
+
+00:14:23.936 --> 00:14:28.036 A:middle
+That argument index paths is
+an ordered array of index paths
+
+00:14:28.756 --> 00:14:31.756 A:middle
+so earlier items in that
+array are coming up sooner.
+
+00:14:32.456 --> 00:14:35.926 A:middle
+You can use this to influence
+your asynchronous model reads.
+
+00:14:36.816 --> 00:14:39.276 A:middle
+There's a second optional
+method in this protocol.
+
+00:14:39.756 --> 00:14:42.776 A:middle
+CollectionView
+cancelPrefetcingForItemsAt
+
+00:14:42.776 --> 00:14:43.616 A:middle
+indexPaths.
+
+00:14:45.416 --> 00:14:48.296 A:middle
+This will be called on
+your prefetch data source
+
+00:14:49.436 --> 00:14:52.756 A:middle
+when we determine that we're no
+longer scrolling towards a set
+
+00:14:52.966 --> 00:14:53.716 A:middle
+of index paths.
+
+00:14:54.666 --> 00:14:56.456 A:middle
+You can use this to cancel
+
+00:14:56.876 --> 00:15:00.516 A:middle
+or lower the priority
+of any pending loads.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:14:56.876 --> 00:15:00.516 A:middle
+or lower the priority
+of any pending loads.
+
+00:15:01.376 --> 00:15:03.416 A:middle
+Now there's something really
+important about this API
+
+00:15:03.416 --> 00:15:04.846 A:middle
+that I want to highlight.
+
+00:15:05.766 --> 00:15:07.886 A:middle
+This is not a replacement
+for the data model
+
+00:15:07.886 --> 00:15:08.936 A:middle
+that you've already written.
+
+00:15:09.466 --> 00:15:13.716 A:middle
+Instead, it works alongside your
+existing asynchronous solution
+
+00:15:13.716 --> 00:15:16.506 A:middle
+that you've built for
+loading data in your app.
+
+00:15:17.836 --> 00:15:21.446 A:middle
+What you'll do is use this as
+an additional hint for when
+
+00:15:21.446 --> 00:15:23.226 A:middle
+to load content in
+your CollectionView.
+
+00:15:26.046 --> 00:15:28.536 A:middle
+&gt;&gt; So let's tie all this
+together with a demo
+
+00:15:28.536 --> 00:15:31.676 A:middle
+that shows all of the concepts
+we've talked about so far,
+
+00:15:31.756 --> 00:15:36.246 A:middle
+and we're going to introduce
+a little science, too.
+
+00:15:36.466 --> 00:15:37.076 A:middle
+&gt;&gt; Check this out.
+
+00:15:37.076 --> 00:15:38.756 A:middle
+Steve's about to
+do some real magic.
+
+00:15:39.566 --> 00:15:40.326 A:middle
+&gt;&gt; Science, man.
+
+00:15:44.116 --> 00:15:46.716 A:middle
+Alright. We're going to
+switch back to our demo app,
+
+00:15:46.716 --> 00:15:47.626 A:middle
+which we showed before.
+
+00:15:48.116 --> 00:15:53.106 A:middle
+OK. So here's the demo app
+we've been looking at so far,
+
+00:15:53.106 --> 00:15:55.396 A:middle
+but we've hidden this really
+great feature we call the
+
+00:15:55.396 --> 00:15:56.306 A:middle
+science panel.
+
+00:15:56.936 --> 00:15:58.476 A:middle
+Alright, so I'm going
+to turn that on now.
+
+00:15:58.476 --> 00:16:02.576 A:middle
+OK. So we have these two
+distinct regions, right.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:15:58.476 --> 00:16:02.576 A:middle
+OK. So we have these two
+distinct regions, right.
+
+00:16:02.576 --> 00:16:03.586 A:middle
+We've got that red zone.
+
+00:16:03.586 --> 00:16:05.476 A:middle
+That's the one star bad
+zone, and then we've got
+
+00:16:05.476 --> 00:16:07.386 A:middle
+that nice fat green
+zone at the bottom
+
+00:16:07.726 --> 00:16:10.506 A:middle
+where we get the super
+smooth scrolling performance.
+
+00:16:11.466 --> 00:16:13.296 A:middle
+So what I'm going to do
+now is I'm going to run
+
+00:16:13.296 --> 00:16:17.546 A:middle
+through with the iOS 9 version
+of the app, and I'm going
+
+00:16:17.546 --> 00:16:20.536 A:middle
+to play back a scrolling
+session that I recorded earlier
+
+00:16:20.536 --> 00:16:23.006 A:middle
+to show you what this looks
+like and do the science.
+
+00:16:24.196 --> 00:16:25.216 A:middle
+OK. So here we go.
+
+00:16:26.276 --> 00:16:28.246 A:middle
+Scrolling along,
+doing our science.
+
+00:16:29.396 --> 00:16:29.986 A:middle
+Chop, chop.
+
+00:16:29.986 --> 00:16:32.526 A:middle
+OK. What do we have here?
+
+00:16:33.516 --> 00:16:34.766 A:middle
+So check out this graph.
+
+00:16:35.236 --> 00:16:37.316 A:middle
+We got eight visits
+up into that red zone.
+
+00:16:37.786 --> 00:16:38.906 A:middle
+Eight dropped frames.
+
+00:16:40.146 --> 00:16:42.596 A:middle
+But also we can see that
+we've got these long periods
+
+00:16:42.596 --> 00:16:44.246 A:middle
+of quiescence like we
+talked about earlier.
+
+00:16:44.916 --> 00:16:47.206 A:middle
+So the area on the graph
+is this big spiky thing,
+
+00:16:47.206 --> 00:16:48.986 A:middle
+and then going back
+down to the valley.
+
+00:16:49.526 --> 00:16:51.026 A:middle
+Let's see what this
+looks like in iOS 10.
+
+00:16:51.466 --> 00:16:55.726 A:middle
+OK. I'm going to switch
+back to that iOS 10 mode
+
+00:16:55.726 --> 00:16:57.976 A:middle
+that Peter was talking about
+earlier, and now I'm going
+
+00:16:57.976 --> 00:17:01.566 A:middle
+to playback that same scrolling
+session with [inaudible].
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:16:57.976 --> 00:17:01.566 A:middle
+to playback that same scrolling
+session with [inaudible].
+
+00:17:01.666 --> 00:17:02.256 A:middle
+Check it out, Peter.
+
+00:17:02.256 --> 00:17:03.666 A:middle
+&gt;&gt; It's a lot smoother, Steve.
+
+00:17:03.666 --> 00:17:04.646 A:middle
+&gt;&gt; Yeah, that definitely
+looks better.
+
+00:17:04.646 --> 00:17:06.746 A:middle
+See what we get.
+
+00:17:07.185 --> 00:17:08.256 A:middle
+Hey, look at that.
+
+00:17:08.695 --> 00:17:09.856 A:middle
+No missed frames.
+
+00:17:13.276 --> 00:17:13.715 A:middle
+Pretty great.
+
+00:17:16.175 --> 00:17:18.096 A:middle
+Now check out what we've
+got under the curve
+
+00:17:18.096 --> 00:17:19.506 A:middle
+on this particular graph.
+
+00:17:19.935 --> 00:17:22.726 A:middle
+Instead of those peaks way up in
+the air and the quiet periods,
+
+00:17:23.016 --> 00:17:24.496 A:middle
+we've blended those together,
+
+00:17:24.496 --> 00:17:26.346 A:middle
+and now we have this
+smooth amount of work
+
+00:17:26.636 --> 00:17:29.346 A:middle
+that makes your app much more
+responsive on the main thread.
+
+00:17:30.056 --> 00:17:32.356 A:middle
+OK. You ready for this, Peter?
+
+00:17:33.076 --> 00:17:33.526 A:middle
+&gt;&gt; I'm set.
+
+00:17:33.526 --> 00:17:34.326 A:middle
+&gt;&gt; Let's do it.
+
+00:17:35.276 --> 00:17:38.206 A:middle
+OK. So now we're going to
+look at the iOS 10 version,
+
+00:17:38.206 --> 00:17:40.116 A:middle
+but we're going to have
+the API, pre-fetch API's
+
+00:17:40.116 --> 00:17:41.946 A:middle
+that Peter talked about earlier.
+
+00:17:41.946 --> 00:17:43.876 A:middle
+We're going to adopt
+those in this application.
+
+00:17:44.126 --> 00:17:46.336 A:middle
+Alright. So I'm all
+set in the demo app.
+
+00:17:46.666 --> 00:17:48.666 A:middle
+I'm going to play back that
+same scrolling session.
+
+00:17:49.676 --> 00:17:50.886 A:middle
+Whoa, Peter, look at that.
+
+00:17:50.886 --> 00:17:52.036 A:middle
+&gt;&gt; Now that's butter, Steve.
+
+00:17:52.116 --> 00:17:52.886 A:middle
+&gt;&gt; That's looking pretty good.
+
+00:17:53.876 --> 00:17:54.546 A:middle
+Five stars.
+
+00:17:54.576 --> 00:17:56.976 A:middle
+And the science agrees.
+
+00:17:57.516 --> 00:18:03.656 A:middle
+[ Applause ]
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:17:57.516 --> 00:18:03.656 A:middle
+[ Applause ]
+
+00:18:04.156 --> 00:18:06.786 A:middle
+OK. So, but, Peter, something's
+different here, right.
+
+00:18:06.786 --> 00:18:09.976 A:middle
+The area on the curve between
+this main queue activity
+
+00:18:09.976 --> 00:18:11.846 A:middle
+and the prior version
+don't match.
+
+00:18:11.846 --> 00:18:12.666 A:middle
+This is a lot lower.
+
+00:18:12.666 --> 00:18:13.446 A:middle
+What's going on here?
+
+00:18:14.136 --> 00:18:17.246 A:middle
+&gt;&gt; So if we're adopting the
+pre-fetch API correctly,
+
+00:18:17.556 --> 00:18:19.526 A:middle
+we're probably moving
+that data model read
+
+00:18:19.746 --> 00:18:22.386 A:middle
+onto a background queue
+to free up the main queue.
+
+00:18:23.326 --> 00:18:24.176 A:middle
+&gt;&gt; That's exactly right.
+
+00:18:25.056 --> 00:18:25.876 A:middle
+That's what's going on.
+
+00:18:25.876 --> 00:18:28.216 A:middle
+So now we've moved all that
+work onto a background queue,
+
+00:18:28.346 --> 00:18:30.976 A:middle
+and we no longer have to
+clutter up the main thread.
+
+00:18:31.496 --> 00:18:32.796 A:middle
+Let's switch back the slides.
+
+00:18:39.756 --> 00:18:41.556 A:middle
+So next I'd like to
+talk a little bit
+
+00:18:41.556 --> 00:18:45.176 A:middle
+about some pre-fetching API tips
+to make your apps adopt this API
+
+00:18:45.176 --> 00:18:47.126 A:middle
+in the best possible way.
+
+00:18:48.236 --> 00:18:51.136 A:middle
+The first, when you
+get the pre-fetch call,
+
+00:18:51.256 --> 00:18:52.616 A:middle
+you want to make sure
+you do all the work
+
+00:18:52.616 --> 00:18:54.186 A:middle
+on the background
+[inaudible] right away.
+
+00:18:54.346 --> 00:18:57.086 A:middle
+Now we've got two great
+technologies for this:
+
+00:18:57.416 --> 00:19:00.036 A:middle
+GCD and NSOperationQueue.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:18:57.416 --> 00:19:00.036 A:middle
+GCD and NSOperationQueue.
+
+00:19:00.536 --> 00:19:05.266 A:middle
+Now it's also important
+to remember
+
+00:19:05.266 --> 00:19:07.726 A:middle
+that pre-fetch is an
+adaptive technology.
+
+00:19:07.726 --> 00:19:09.726 A:middle
+Now what do I mean by
+adaptive technology?
+
+00:19:10.346 --> 00:19:12.946 A:middle
+Well, remember when we talked
+about those quiet periods
+
+00:19:12.946 --> 00:19:14.776 A:middle
+and how pre-fetch takes
+advantage of those
+
+00:19:15.036 --> 00:19:16.706 A:middle
+by doing additional work.
+
+00:19:17.376 --> 00:19:19.206 A:middle
+There are times in
+an application
+
+00:19:19.466 --> 00:19:21.346 A:middle
+where the user's
+scrolling so fast
+
+00:19:21.346 --> 00:19:22.776 A:middle
+that there's no quiet times.
+
+00:19:23.286 --> 00:19:24.596 A:middle
+During these times when we have
+
+00:19:24.596 --> 00:19:25.976 A:middle
+to update the display
+very often,
+
+00:19:26.056 --> 00:19:29.376 A:middle
+we will not do pre-fetching.
+
+00:19:30.876 --> 00:19:34.526 A:middle
+[Inaudible] And, finally,
+use the cancelPrefetchingAPI
+
+00:19:34.526 --> 00:19:36.986 A:middle
+to adapt to your
+user's shifting focus.
+
+00:19:37.116 --> 00:19:39.266 A:middle
+Now it's possible that
+the user is moving
+
+00:19:39.266 --> 00:19:41.286 A:middle
+up in their CollectionView,
+and they're scrolling along
+
+00:19:41.286 --> 00:19:43.086 A:middle
+with the content, but then
+they change their mind
+
+00:19:43.086 --> 00:19:44.136 A:middle
+and move in another direction.
+
+00:19:44.756 --> 00:19:47.286 A:middle
+We will notify you of this
+event with a cancel message
+
+00:19:47.526 --> 00:19:50.566 A:middle
+so you can deprioritize
+those prior ones and focus
+
+00:19:50.566 --> 00:19:54.716 A:middle
+on the new content that
+the views are scrolling to.
+
+00:19:54.936 --> 00:19:57.186 A:middle
+&gt;&gt; So this is really
+great for CollectionView.
+
+00:19:57.696 --> 00:20:01.106 A:middle
+By doing no work at all, you get
+better scrolling performance,
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:19:57.696 --> 00:20:01.106 A:middle
+By doing no work at all, you get
+better scrolling performance,
+
+00:20:01.336 --> 00:20:03.196 A:middle
+and by doing just a
+little bit of work
+
+00:20:03.506 --> 00:20:05.556 A:middle
+and using the classes
+you've already written,
+
+00:20:05.766 --> 00:20:07.716 A:middle
+you get even better
+scrolling performance.
+
+00:20:08.536 --> 00:20:10.616 A:middle
+And if you're using
+UITableView, don't worry.
+
+00:20:10.656 --> 00:20:11.616 A:middle
+You're not chopped liver.
+
+00:20:11.926 --> 00:20:14.736 A:middle
+We've brought the exact
+same API to TableView, too.
+
+00:20:15.516 --> 00:20:21.716 A:middle
+[ Applause ]
+
+00:20:22.216 --> 00:20:26.276 A:middle
+It's got a very similar optional
+pre-fetch data source companion
+
+00:20:26.276 --> 00:20:30.526 A:middle
+object with a similar
+required method, just one.
+
+00:20:31.396 --> 00:20:34.306 A:middle
+TableView prefetchRowsAt
+indexPaths.
+
+00:20:34.846 --> 00:20:39.296 A:middle
+Again, index paths is an array
+ordered by their proximity
+
+00:20:39.296 --> 00:20:41.016 A:middle
+to the table's visible area.
+
+00:20:41.486 --> 00:20:43.996 A:middle
+So earlier index paths
+are coming up sooner.
+
+00:20:44.856 --> 00:20:46.366 A:middle
+Just like with the
+CollectionView API,
+
+00:20:46.366 --> 00:20:50.746 A:middle
+you can use this to inform your
+asynchronous data model reads.
+
+00:20:51.306 --> 00:20:54.846 A:middle
+And it's got that same second
+optional delegate method.
+
+00:20:55.686 --> 00:20:58.286 A:middle
+TableView
+cancelPrefetchingForRowsAt
+
+00:20:58.286 --> 00:20:59.076 A:middle
+indexPaths.
+
+00:20:59.076 --> 00:21:02.956 A:middle
+As Steve just mentioned to
+you earlier, you can use this
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:20:59.076 --> 00:21:02.956 A:middle
+As Steve just mentioned to
+you earlier, you can use this
+
+00:21:03.196 --> 00:21:07.696 A:middle
+to cancel or deprioritize
+any pending data model loads.
+
+00:21:08.606 --> 00:21:10.326 A:middle
+And this is what's really great.
+
+00:21:10.786 --> 00:21:12.696 A:middle
+Just like with the
+CollectionView API,
+
+00:21:13.206 --> 00:21:16.186 A:middle
+this works alongside your
+existing asynchronous
+
+00:21:16.186 --> 00:21:17.046 A:middle
+model solution.
+
+00:21:17.496 --> 00:21:18.906 A:middle
+You don't have to
+throw anything away.
+
+00:21:19.286 --> 00:21:22.846 A:middle
+Instead, use this to inform the
+loads that you're already doing.
+
+00:21:23.446 --> 00:21:25.976 A:middle
+So that's it for cell
+pre-fetching in iOS 10.
+
+00:21:26.516 --> 00:21:32.076 A:middle
+[ Applause ]
+
+00:21:32.576 --> 00:21:34.696 A:middle
+&gt;&gt; So we're really excited about
+bringing this technology, guys.
+
+00:21:34.696 --> 00:21:36.426 A:middle
+I mean, we can't wait
+to see the actual build
+
+00:21:36.426 --> 00:21:37.946 A:middle
+with the smoother
+scrolling experience.
+
+00:21:37.946 --> 00:21:41.966 A:middle
+So next up, we're going
+to talk a little bit
+
+00:21:41.966 --> 00:21:45.386 A:middle
+about improvements we've made
+this year to self-sizing cells.
+
+00:21:46.066 --> 00:21:48.016 A:middle
+This API was introduced in iOS 8
+
+00:21:48.016 --> 00:21:50.116 A:middle
+and we're bringing some
+additional enhancements this
+
+00:21:50.116 --> 00:21:52.686 A:middle
+year to make it easier
+to adopt in your apps.
+
+00:21:53.616 --> 00:21:55.566 A:middle
+Now, before we get
+into this, I want to go
+
+00:21:55.566 --> 00:22:01.286 A:middle
+over the existing API,
+chat a little bit about it.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:21:55.566 --> 00:22:01.286 A:middle
+over the existing API,
+chat a little bit about it.
+
+00:22:01.286 --> 00:22:04.316 A:middle
+So we shift a concrete
+layout class
+
+00:22:04.316 --> 00:22:07.326 A:middle
+in CollectionView called
+UICollectionViewFlowLayout,
+
+00:22:07.326 --> 00:22:09.046 A:middle
+and we have full support
+
+00:22:09.046 --> 00:22:11.016 A:middle
+for self-sizing cells
+with this class.
+
+00:22:12.066 --> 00:22:15.486 A:middle
+To enable this, we just need
+to set estimated item size
+
+00:22:15.486 --> 00:22:18.876 A:middle
+to some non-zero CG size,
+and this tells Collection
+
+00:22:18.876 --> 00:22:21.956 A:middle
+that you want to, you want to
+calculate the layout dynamically
+
+00:22:22.016 --> 00:22:23.506 A:middle
+as content is displayed.
+
+00:22:23.506 --> 00:22:27.936 A:middle
+Now as far as getting the
+actual sizes of your cells,
+
+00:22:27.936 --> 00:22:30.096 A:middle
+there's three different
+methods for doing this.
+
+00:22:31.036 --> 00:22:33.206 A:middle
+The first method is
+using auto layout.
+
+00:22:33.206 --> 00:22:37.426 A:middle
+If you can fully constrain the
+content view of your hierarchy
+
+00:22:37.506 --> 00:22:39.436 A:middle
+to the content view of
+the CollectionView cell,
+
+00:22:39.816 --> 00:22:41.906 A:middle
+we'll ask the auto
+layout system how large
+
+00:22:41.906 --> 00:22:44.296 A:middle
+that cell should be
+and use that value.
+
+00:22:44.296 --> 00:22:47.426 A:middle
+Now if you don't
+use auto layout,
+
+00:22:47.426 --> 00:22:51.886 A:middle
+or you need more manual control,
+you can override sizeThatFits.
+
+00:22:52.396 --> 00:22:55.716 A:middle
+And, finally, for
+the ultimate control,
+
+00:22:56.236 --> 00:22:58.366 A:middle
+you can override
+preferredLayoutAttributes
+
+00:22:58.576 --> 00:23:01.656 A:middle
+FittingAttributes, and provide
+not only the size information
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:22:58.576 --> 00:23:01.656 A:middle
+FittingAttributes, and provide
+not only the size information
+
+00:23:01.866 --> 00:23:03.256 A:middle
+but also you can
+tweak the attributes
+
+00:23:03.256 --> 00:23:04.896 A:middle
+like alpha and transform.
+
+00:23:06.286 --> 00:23:08.906 A:middle
+&gt;&gt; So specifying the
+cell size using one
+
+00:23:08.906 --> 00:23:11.386 A:middle
+of these three mechanisms,
+it's pretty easy.
+
+00:23:11.866 --> 00:23:14.856 A:middle
+Most apps will use auto layout,
+but for those that don't,
+
+00:23:14.856 --> 00:23:16.826 A:middle
+they can take on
+more manual control
+
+00:23:17.046 --> 00:23:18.546 A:middle
+with the second two
+mechanisms there.
+
+00:23:19.336 --> 00:23:22.246 A:middle
+But we found that
+for types of layouts,
+
+00:23:22.646 --> 00:23:25.026 A:middle
+picking a good estimated
+item size turns
+
+00:23:25.026 --> 00:23:26.476 A:middle
+out to be really challenging
+
+00:23:27.096 --> 00:23:29.126 A:middle
+because sometimes it's
+just hard to guess.
+
+00:23:30.076 --> 00:23:32.146 A:middle
+I mean, sometimes
+what do you use?
+
+00:23:32.216 --> 00:23:35.286 A:middle
+50 by 50, 100 by 100, even more.
+
+00:23:35.506 --> 00:23:36.446 A:middle
+It's hard to say.
+
+00:23:37.456 --> 00:23:41.036 A:middle
+For these types of layouts,
+what would be really cool is
+
+00:23:41.036 --> 00:23:45.076 A:middle
+if flow layout could adapt
+its estimate and do the math
+
+00:23:45.076 --> 00:23:48.776 A:middle
+on your behalf and instead
+compute that estimated size
+
+00:23:48.836 --> 00:23:51.816 A:middle
+from actual sizes of
+content that we've sized.
+
+00:23:53.086 --> 00:23:56.666 A:middle
+So in iOS 10, we've got new
+API on flow layout to do that.
+
+00:23:57.936 --> 00:24:01.086 A:middle
+All you have to do is set your
+flow layout.EstimatedItemSize
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:23:57.936 --> 00:24:01.086 A:middle
+All you have to do is set your
+flow layout.EstimatedItemSize
+
+00:24:01.086 --> 00:24:01.996 A:middle
+to a new constant,
+
+00:24:02.426 --> 00:24:05.456 A:middle
+UICollectionViewFlowLayout
+AutomaticSize.
+
+00:24:11.906 --> 00:24:15.236 A:middle
+By setting your estimated
+item size to automatic size,
+
+00:24:15.606 --> 00:24:17.766 A:middle
+you'll indicate to the
+CollectionViewFlowLayout
+
+00:24:17.896 --> 00:24:19.376 A:middle
+that it should do
+the math for you.
+
+00:24:19.876 --> 00:24:22.446 A:middle
+It'll keep a running
+tally of all the cells
+
+00:24:22.446 --> 00:24:24.486 A:middle
+that it's already sized, and use
+
+00:24:24.486 --> 00:24:27.556 A:middle
+that to influence its
+future sizing estimates.
+
+00:24:28.136 --> 00:24:29.186 A:middle
+As we'll see in a minute,
+
+00:24:29.576 --> 00:24:32.646 A:middle
+this makes the flow layout much
+more accurate while it's sizing
+
+00:24:32.646 --> 00:24:35.426 A:middle
+your CollectionView cells
+leading to better performance
+
+00:24:35.556 --> 00:24:38.066 A:middle
+and a more accurate
+layout while we're sizing.
+
+00:24:38.816 --> 00:24:42.346 A:middle
+So we're going to do a demo
+to show you the benefits
+
+00:24:42.346 --> 00:24:45.636 A:middle
+of UICollectionViewFlowLayout
+automatic size.
+
+00:24:50.276 --> 00:24:51.946 A:middle
+So I'm going to switch
+back to the iPad.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:25:00.156 --> 00:25:03.026 A:middle
+Now here we've got a
+CollectionView using a
+
+00:25:03.026 --> 00:25:03.606 A:middle
+flow layout.
+
+00:25:04.256 --> 00:25:07.626 A:middle
+Each cell represents a
+word in a run of text.
+
+00:25:08.546 --> 00:25:10.506 A:middle
+Just to clarify,
+we're not recommending
+
+00:25:10.506 --> 00:25:13.596 A:middle
+that you build a text viewer or
+editor using UICollectionView,
+
+00:25:14.446 --> 00:25:15.986 A:middle
+but this does make
+a really good demo.
+
+00:25:16.856 --> 00:25:19.046 A:middle
+I'm going to put
+the app into a mode
+
+00:25:19.466 --> 00:25:21.806 A:middle
+where we can watch
+the flow layout
+
+00:25:21.806 --> 00:25:24.156 A:middle
+as it sizes each
+individual cell.
+
+00:25:24.976 --> 00:25:27.696 A:middle
+No user would ever see
+this, but it's really great
+
+00:25:27.696 --> 00:25:30.506 A:middle
+for visualizing the
+advantages of this new API.
+
+00:25:31.446 --> 00:25:33.856 A:middle
+Let's start out with
+fixed estimates
+
+00:25:33.976 --> 00:25:35.586 A:middle
+like we'd use on iOS 9.
+
+00:25:35.586 --> 00:25:37.716 A:middle
+So I'm going to turn
+on the simulation.
+
+00:25:39.016 --> 00:25:41.856 A:middle
+Here, you can see that
+we've seeded each cell
+
+00:25:42.006 --> 00:25:45.666 A:middle
+with that initial estimated
+item size where we just guessed.
+
+00:25:46.426 --> 00:25:50.496 A:middle
+And I'm going to size the first
+word in this run of text, Lorem,
+
+00:25:51.136 --> 00:25:52.146 A:middle
+and watch what happens.
+
+00:25:54.356 --> 00:25:57.786 A:middle
+So we size Lorem, and now
+it's the correct size,
+
+00:25:58.126 --> 00:26:01.376 A:middle
+but notice the CollectionView
+is really no closer
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:25:58.126 --> 00:26:01.376 A:middle
+but notice the CollectionView
+is really no closer
+
+00:26:01.376 --> 00:26:03.916 A:middle
+to what its destination
+layout size will be.
+
+00:26:04.496 --> 00:26:07.316 A:middle
+We didn't use that estimate
+to influence anything else,
+
+00:26:07.686 --> 00:26:10.646 A:middle
+and everything else is still
+this large initial estimate
+
+00:26:10.646 --> 00:26:11.376 A:middle
+that we passed in.
+
+00:26:11.906 --> 00:26:17.436 A:middle
+Now this continues as we
+size each cell individually
+
+00:26:17.646 --> 00:26:18.476 A:middle
+in this CollectionView.
+
+00:26:19.856 --> 00:26:23.196 A:middle
+Notice how we're not actually
+adopting, adapting any
+
+00:26:23.196 --> 00:26:25.806 A:middle
+of the other cell sizes
+to account for the sizes
+
+00:26:25.806 --> 00:26:26.946 A:middle
+that we've already computed.
+
+00:26:27.836 --> 00:26:31.136 A:middle
+This is especially obvious
+when we size the last word
+
+00:26:31.136 --> 00:26:35.416 A:middle
+in this run of text, Fusce,
+and as we go to size this word,
+
+00:26:36.596 --> 00:26:39.446 A:middle
+you'll notice that we slide
+up all the other cells,
+
+00:26:39.516 --> 00:26:41.166 A:middle
+invalidating their y-positions,
+
+00:26:42.096 --> 00:26:44.626 A:middle
+and we haven't used the
+information from that first line
+
+00:26:44.626 --> 00:26:48.356 A:middle
+of text to influence the sizes
+of any of the other cells.
+
+00:26:49.606 --> 00:26:51.186 A:middle
+So now I'm going
+to turn the device
+
+00:26:51.186 --> 00:26:55.456 A:middle
+into iOS 10 mode using
+UICollectionViewFlowLayout
+
+00:26:55.896 --> 00:26:56.816 A:middle
+automatic size.
+
+00:26:56.816 --> 00:26:58.206 A:middle
+So let's switch over.
+
+00:26:59.456 --> 00:27:00.206 A:middle
+OK, great.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:26:59.456 --> 00:27:00.206 A:middle
+OK, great.
+
+00:27:00.276 --> 00:27:02.956 A:middle
+So we've seeded this with
+the same initial size
+
+00:27:03.306 --> 00:27:04.866 A:middle
+to help you visualize
+the difference.
+
+00:27:05.586 --> 00:27:07.896 A:middle
+I'm going to size the
+first word, Lorem,
+
+00:27:08.316 --> 00:27:09.576 A:middle
+and watch what happens.
+
+00:27:10.916 --> 00:27:15.876 A:middle
+Wow. So we size that first
+cell, and use that cell size
+
+00:27:16.196 --> 00:27:19.526 A:middle
+as a running estimate for all
+the other CollectionView cells.
+
+00:27:20.196 --> 00:27:22.286 A:middle
+Now the layout's not
+totally accurate yet,
+
+00:27:22.746 --> 00:27:25.696 A:middle
+but notice how it's a lot closer
+to what it will eventually be.
+
+00:27:26.116 --> 00:27:27.426 A:middle
+In fact, the heights
+
+00:27:27.426 --> 00:27:29.426 A:middle
+in y-positions are
+pretty much spot on.
+
+00:27:30.416 --> 00:27:34.406 A:middle
+And notice that as I size this
+run of text, we're adapting
+
+00:27:34.406 --> 00:27:37.496 A:middle
+that estimated size, making
+it more and more accurate
+
+00:27:37.876 --> 00:27:39.966 A:middle
+for your CollectionView
+cells holistically.
+
+00:27:41.876 --> 00:27:44.966 A:middle
+And notice when we size the
+last word in this run of text,
+
+00:27:45.826 --> 00:27:48.066 A:middle
+we're no longer invalidating
+the y-positions
+
+00:27:48.166 --> 00:27:49.576 A:middle
+of all the other cells.
+
+00:27:50.006 --> 00:27:52.506 A:middle
+This is really great
+and can help out a lot
+
+00:27:52.506 --> 00:27:55.096 A:middle
+when you're doing things like
+scrollToItemAt indexPath.
+
+00:27:56.296 --> 00:27:59.686 A:middle
+Now due to the nature of this
+API, you'll get the most bang
+
+00:27:59.686 --> 00:28:01.846 A:middle
+for your buck using
+automatic size
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:27:59.686 --> 00:28:01.846 A:middle
+for your buck using
+automatic size
+
+00:28:02.336 --> 00:28:05.436 A:middle
+if your cells have
+similar widths or heights.
+
+00:28:06.156 --> 00:28:08.706 A:middle
+So that's it for self-sizing
+improvements in iOS 10.
+
+00:28:08.706 --> 00:28:09.976 A:middle
+Let's go back to slides.
+
+00:28:10.516 --> 00:28:15.726 A:middle
+[ Applause ]
+
+00:28:16.226 --> 00:28:20.656 A:middle
+So that wraps up our
+self-sizing cell segment,
+
+00:28:20.656 --> 00:28:22.246 A:middle
+and now we're going
+to talk a little bit
+
+00:28:22.246 --> 00:28:26.396 A:middle
+about an API we introduced last
+year, interactive reordering.
+
+00:28:27.776 --> 00:28:30.196 A:middle
+Now, this is a familiar
+user experience
+
+00:28:30.196 --> 00:28:31.716 A:middle
+to users of TableView cells.
+
+00:28:31.716 --> 00:28:34.956 A:middle
+They like to, users might grab
+a piece of content and move it
+
+00:28:34.956 --> 00:28:37.656 A:middle
+and rearrange it
+vertically in your TableView.
+
+00:28:38.136 --> 00:28:41.106 A:middle
+So we brought this technology
+to CollectionView last year
+
+00:28:41.426 --> 00:28:43.296 A:middle
+with a new interactive
+reordering API.
+
+00:28:43.716 --> 00:28:45.026 A:middle
+Let's run back over to the iPad
+
+00:28:45.026 --> 00:28:46.946 A:middle
+and see what this might
+look like in the demo.
+
+00:28:57.536 --> 00:28:58.726 A:middle
+Switch back over to the iPad.
+
+00:28:58.916 --> 00:28:59.306 A:middle
+&gt;&gt; Alright.
+
+00:28:59.306 --> 00:28:59.726 A:middle
+&gt;&gt; Here we are.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:29:00.386 --> 00:29:03.116 A:middle
+OK. So we've got this really
+pretty looking custom layout.
+
+00:29:03.116 --> 00:29:05.826 A:middle
+Oh, man, look at
+that scroll, Peter.
+
+00:29:06.236 --> 00:29:08.316 A:middle
+&gt;&gt; We probably adapted
+pre-fetching,
+
+00:29:08.316 --> 00:29:09.326 A:middle
+which is really easy.
+
+00:29:09.546 --> 00:29:10.386 A:middle
+&gt;&gt; That's probably it.
+
+00:29:10.706 --> 00:29:11.726 A:middle
+OK. So check it out.
+
+00:29:11.726 --> 00:29:13.836 A:middle
+So let's say the user
+loves this content,
+
+00:29:13.836 --> 00:29:14.986 A:middle
+but they want to rearrange it.
+
+00:29:15.406 --> 00:29:19.056 A:middle
+Might drag their finger around
+and move the content smoothly
+
+00:29:19.056 --> 00:29:20.176 A:middle
+around the CollectionView,
+
+00:29:20.176 --> 00:29:22.476 A:middle
+and notice how it
+reflows automatically.
+
+00:29:22.546 --> 00:29:24.926 A:middle
+And not only that, if
+we change to an item
+
+00:29:24.926 --> 00:29:27.486 A:middle
+that has a different
+size, let's you be able
+
+00:29:27.486 --> 00:29:28.056 A:middle
+to do the right thing.
+
+00:29:28.536 --> 00:29:31.356 A:middle
+Now when the user's done
+reordering, they might let go.
+
+00:29:31.766 --> 00:29:34.316 A:middle
+Smoothly animates into
+place, and that's it.
+
+00:29:35.136 --> 00:29:37.126 A:middle
+Let's switch back to slides, and
+let Peter go through that API.
+
+00:29:37.126 --> 00:29:41.656 A:middle
+&gt;&gt; So that's interactive
+reordering as it existed
+
+00:29:41.656 --> 00:29:44.966 A:middle
+on iOS 9, and this
+API is really simple.
+
+00:29:46.336 --> 00:29:48.676 A:middle
+To start an interactive
+movement, you're going
+
+00:29:48.676 --> 00:29:51.136 A:middle
+to call CollectionViews
+beginInteractive
+
+00:29:51.136 --> 00:29:53.176 A:middle
+MovementForItemat indexPath
+
+00:29:53.766 --> 00:29:57.436 A:middle
+where index path represents
+the index path of the cell
+
+00:29:57.616 --> 00:29:58.856 A:middle
+that we'd like to move around.
+
+00:29:59.696 --> 00:30:01.686 A:middle
+If you're doing this in
+response to a gesture,
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:29:59.696 --> 00:30:01.686 A:middle
+If you're doing this in
+response to a gesture,
+
+00:30:02.016 --> 00:30:05.936 A:middle
+you can hit test the
+CollectionView using index path
+
+00:30:06.196 --> 00:30:07.286 A:middle
+for item at location.
+
+00:30:08.126 --> 00:30:11.606 A:middle
+Next, each time the gesture
+updates, we're going to want
+
+00:30:11.606 --> 00:30:14.856 A:middle
+to update the cell's position
+in response to our finger.
+
+00:30:15.206 --> 00:30:18.186 A:middle
+For this, we're going to call
+updateInteractiveMovement
+
+00:30:18.576 --> 00:30:19.456 A:middle
+TargetPosition.
+
+00:30:20.076 --> 00:30:22.086 A:middle
+Passing in the location
+of the gesture
+
+00:30:22.266 --> 00:30:24.146 A:middle
+in the CollectionView's
+coordinate space.
+
+00:30:24.526 --> 00:30:28.846 A:middle
+Next, when we'd like to end
+the interactive movement
+
+00:30:29.016 --> 00:30:30.286 A:middle
+and confirm the reorder,
+
+00:30:30.596 --> 00:30:32.996 A:middle
+we're going to call
+endInteractiveMovement
+
+00:30:33.096 --> 00:30:33.956 A:middle
+on the CollectionView.
+
+00:30:35.196 --> 00:30:37.416 A:middle
+CollectionView will
+put the cell down,
+
+00:30:37.696 --> 00:30:39.746 A:middle
+handling all the layout
+attributes correctly,
+
+00:30:40.086 --> 00:30:42.416 A:middle
+and then message back to
+your app's data source
+
+00:30:42.466 --> 00:30:45.496 A:middle
+so that you could do the
+actual rearrange in your model.
+
+00:30:47.216 --> 00:30:49.916 A:middle
+Now, if the gesture cancels,
+
+00:30:49.916 --> 00:30:52.196 A:middle
+or if you'd like to not allow
+reordering at this time,
+
+00:30:52.696 --> 00:30:55.676 A:middle
+you can call CollectionView's
+cancelInteractiveMovement.
+
+00:30:56.466 --> 00:30:58.946 A:middle
+Here, we'll put everything
+back to where it was before,
+
+00:30:59.566 --> 00:31:01.396 A:middle
+and we won't call
+your data source.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:30:59.566 --> 00:31:01.396 A:middle
+and we won't call
+your data source.
+
+00:31:02.466 --> 00:31:05.376 A:middle
+Now for those of you using
+UICollectionViewController,
+
+00:31:05.766 --> 00:31:07.656 A:middle
+this is even easier
+for you to use.
+
+00:31:08.366 --> 00:31:10.756 A:middle
+You just have to set the
+install standard gesture
+
+00:31:10.756 --> 00:31:13.326 A:middle
+for interactive movement
+property to true,
+
+00:31:14.086 --> 00:31:16.906 A:middle
+and CollectionViewController
+will add a gesture
+
+00:31:17.006 --> 00:31:19.886 A:middle
+that will call these
+methods on your behalf.
+
+00:31:20.196 --> 00:31:23.176 A:middle
+All you have to do is
+implement the data source parts.
+
+00:31:23.516 --> 00:31:27.976 A:middle
+&gt;&gt; So that's the API that we
+shipped last year in iOS 9.
+
+00:31:29.326 --> 00:31:31.546 A:middle
+This year we're very proud
+to announce we're going
+
+00:31:31.546 --> 00:31:33.346 A:middle
+to add paging support to this.
+
+00:31:33.396 --> 00:31:37.286 A:middle
+Now there's no new API, which
+is the best kind of API,
+
+00:31:37.286 --> 00:31:40.046 A:middle
+and since CollectionView is
+derived from UIScrollView,
+
+00:31:40.496 --> 00:31:44.416 A:middle
+all you need to do is set
+the isPagingEnabled property
+
+00:31:44.416 --> 00:31:46.836 A:middle
+of the ScrollView's
+inheritive property to true,
+
+00:31:46.996 --> 00:31:48.516 A:middle
+and that'll enable the support.
+
+00:31:48.516 --> 00:31:51.106 A:middle
+Let's switch back to the iPad
+and check this out in a demo.
+
+00:31:52.106 --> 00:31:53.916 A:middle
+&gt;&gt; And here, we've
+got a horizontal
+
+00:31:53.916 --> 00:31:55.396 A:middle
+scrolling CollectionView.
+
+00:31:56.566 --> 00:31:59.076 A:middle
+This is currently
+not using paging.
+
+00:31:59.076 --> 00:32:00.706 A:middle
+It's just continuous, and look
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:31:59.076 --> 00:32:00.706 A:middle
+It's just continuous, and look
+
+00:32:00.706 --> 00:32:02.776 A:middle
+at that smooth scrolling
+performance.
+
+00:32:02.776 --> 00:32:04.156 A:middle
+&gt;&gt; Hey, hey.
+
+00:32:04.356 --> 00:32:07.986 A:middle
+&gt;&gt; So in reordering when
+we're scrolling continuously,
+
+00:32:08.626 --> 00:32:11.396 A:middle
+we pick up the CollectionView
+cell and move it to the edge
+
+00:32:11.396 --> 00:32:14.726 A:middle
+of the screen, and then we
+get this really nice auto
+
+00:32:14.726 --> 00:32:15.586 A:middle
+scrolling behavior.
+
+00:32:15.936 --> 00:32:17.916 A:middle
+This is familiar to users
+
+00:32:18.016 --> 00:32:19.936 A:middle
+of many CollectionView
+based applications.
+
+00:32:19.936 --> 00:32:24.556 A:middle
+Now I'm going to turn on
+paging support, and we'll see
+
+00:32:24.556 --> 00:32:27.816 A:middle
+that CollectionView now advances
+in page size increments.
+
+00:32:28.306 --> 00:32:31.366 A:middle
+This is really natural for
+some types of CollectionViews.
+
+00:32:31.976 --> 00:32:33.166 A:middle
+Now here's what's new.
+
+00:32:34.246 --> 00:32:35.986 A:middle
+We're calling the
+same reordering API,
+
+00:32:36.646 --> 00:32:38.116 A:middle
+but new in iOS 10,
+
+00:32:38.116 --> 00:32:41.076 A:middle
+that reordering works
+alongside paging.
+
+00:32:41.736 --> 00:32:44.066 A:middle
+So as I move my cell to
+the edge of the screen,
+
+00:32:44.576 --> 00:32:49.566 A:middle
+we're going to automatically
+scroll in page size increments.
+
+00:32:50.916 --> 00:32:53.626 A:middle
+This can give your app a
+really home screen style
+
+00:32:53.626 --> 00:32:54.806 A:middle
+reordering experience.
+
+00:32:55.006 --> 00:32:56.946 A:middle
+I'm going to let
+go, and that's it.
+
+00:32:57.516 --> 00:33:03.366 A:middle
+[ Applause ]
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:32:57.516 --> 00:33:03.366 A:middle
+[ Applause ]
+
+00:33:03.866 --> 00:33:05.016 A:middle
+Let's go back to slides.
+
+00:33:10.756 --> 00:33:12.546 A:middle
+&gt;&gt; So they're a little
+[inaudible].
+
+00:33:12.706 --> 00:33:15.886 A:middle
+So while we were developing
+iOS 10 in the early phases,
+
+00:33:16.316 --> 00:33:19.156 A:middle
+Pete would often come to my
+office very enthusiastic.
+
+00:33:19.916 --> 00:33:22.076 A:middle
+"Steve, I'm working
+on this great feature.
+
+00:33:22.076 --> 00:33:23.866 A:middle
+Developers are going to flip."
+
+00:33:24.376 --> 00:33:24.906 A:middle
+He's like that.
+
+00:33:25.426 --> 00:33:27.926 A:middle
+And I agree, it's
+a great feature.
+
+00:33:27.926 --> 00:33:29.806 A:middle
+I can't wait to show it
+to developers everywhere.
+
+00:33:30.606 --> 00:33:34.066 A:middle
+So during the run up to WWDC,
+now he's looking for a place
+
+00:33:34.066 --> 00:33:36.766 A:middle
+to land this particular
+slide so we can talk about it
+
+00:33:36.766 --> 00:33:37.636 A:middle
+and share it to people.
+
+00:33:38.706 --> 00:33:40.466 A:middle
+So even a couple days ago,
+
+00:33:40.616 --> 00:33:42.426 A:middle
+he made the pitch again,
+"We've got to do it."
+
+00:33:43.156 --> 00:33:44.276 A:middle
+So I said, "OK, fine."
+
+00:33:44.836 --> 00:33:47.176 A:middle
+Two slides, ninety
+seconds, Peter.
+
+00:33:47.406 --> 00:33:48.536 A:middle
+Can you get it done?
+
+00:33:48.536 --> 00:33:49.146 A:middle
+&gt;&gt; Thanks, Steve.
+
+00:33:49.146 --> 00:33:50.276 A:middle
+It'll just take a minute.
+
+00:33:50.806 --> 00:33:53.886 A:middle
+Another feature that I'm
+really excited about that's new
+
+00:33:53.886 --> 00:33:57.456 A:middle
+in CollectionView in iOS
+10 is UIRefreshControl!
+
+00:33:58.096 --> 00:33:58.746 A:middle
+That's right!
+
+00:33:58.786 --> 00:34:01.796 A:middle
+UIRefreshControl is now
+directly supported inside
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:33:58.786 --> 00:34:01.796 A:middle
+UIRefreshControl is now
+directly supported inside
+
+00:34:01.796 --> 00:34:02.526 A:middle
+of CollectionView.
+
+00:34:05.936 --> 00:34:09.025 A:middle
+But not only that, it's also
+directly supported inside
+
+00:34:09.025 --> 00:34:12.386 A:middle
+of UITableView without
+using UITableViewController!
+
+00:34:12.775 --> 00:34:16.516 A:middle
+And not only that, it's also
+supported inside of UIScrollView
+
+00:34:16.686 --> 00:34:19.866 A:middle
+because RefreshControl is now
+just a ScrollView property!
+
+00:34:21.666 --> 00:34:27.505 A:middle
+It's really easy to use, too.
+
+00:34:27.985 --> 00:34:30.866 A:middle
+All you have to use, do is
+create the RefreshControl,
+
+00:34:31.565 --> 00:34:33.946 A:middle
+add yourself as a target
+to it with an action,
+
+00:34:34.505 --> 00:34:35.896 A:middle
+and set it on your
+CollectionView,
+
+00:34:36.235 --> 00:34:38.485 A:middle
+and you'll be pulling
+to refresh in no time.
+
+00:34:38.795 --> 00:34:39.616 A:middle
+Thanks a lot, Steve.
+
+00:34:39.616 --> 00:34:40.315 A:middle
+It means a lot to me.
+
+00:34:40.315 --> 00:34:41.045 A:middle
+&gt;&gt; Hey, great job.
+
+00:34:41.755 --> 00:34:42.206 A:middle
+Great job.
+
+00:34:46.956 --> 00:34:48.795 A:middle
+It's like the summarizer
+we talked about today.
+
+00:34:48.795 --> 00:34:51.235 A:middle
+We went over the brand
+new UICollectionView cell
+
+00:34:51.235 --> 00:34:53.306 A:middle
+pre-fetching stuff,
+and we can't wait
+
+00:34:53.306 --> 00:34:55.315 A:middle
+to see what you guys are going
+to do in your apps with this.
+
+00:34:55.846 --> 00:34:58.916 A:middle
+And then we covered the new
+pre-fetch data source API
+
+00:34:58.916 --> 00:35:00.926 A:middle
+for Collection and TableView.
+
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:34:58.916 --> 00:35:00.926 A:middle
+for Collection and TableView.
+
+00:35:02.476 --> 00:35:04.136 A:middle
+Next, we covered
+the improvements
+
+00:35:04.136 --> 00:35:07.286 A:middle
+to self-sizing cells with the
+new automatic size constant.
+
+00:35:07.786 --> 00:35:10.186 A:middle
+And then we chatted a little bit
+
+00:35:10.186 --> 00:35:13.176 A:middle
+about the iOS 9 introduced
+API interactive reordering
+
+00:35:13.176 --> 00:35:15.906 A:middle
+and the new paging
+support we have in iOS 10.
+
+00:35:15.906 --> 00:35:19.566 A:middle
+You want to check out the
+sample code and other resources
+
+00:35:19.566 --> 00:35:22.556 A:middle
+for this app, for this session,
+we can see the address there
+
+00:35:22.556 --> 00:35:24.126 A:middle
+on the developer website.
+
+00:35:24.836 --> 00:35:26.776 A:middle
+We got some great
+related sessions
+
+00:35:26.776 --> 00:35:27.696 A:middle
+with these technologies
+[inaudible].
+
+00:35:27.696 --> 00:35:29.936 A:middle
+We want to thank you
+very much for coming out.
+
+00:35:29.936 --> 00:35:30.606 A:middle
+Have a great --
+
+00:35:30.746 --> 00:35:31.516 A:middle
+&gt;&gt; Thank you so much.
+
