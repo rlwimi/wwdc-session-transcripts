@@ -59,8 +59,13 @@ I'm Greg Christie and I'm here
 to introduce Mike Stern
 eventually and talk
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:00:56.516 --> 00:01:00.156 A:middle
+to introduce Mike Stern
+eventually and talk
 
 00:01:00.156 --> 00:01:02.176 A:middle
 about what the new
@@ -117,8 +122,13 @@ It's the whole thing.
 The way something actually works
 on so many different levels.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:01:57.766 --> 00:02:05.586 A:middle
+The way something actually works
+on so many different levels.
 
 00:02:05.806 --> 00:02:07.936 A:middle
 Ultimately, of course,
@@ -160,8 +170,13 @@ representation of these goals.
 It has a whole new
 structure that is coherent
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:02:57.106 --> 00:03:00.856 A:middle
+It has a whole new
+structure that is coherent
 
 00:03:01.336 --> 00:03:08.166 A:middle
 and it is applied
@@ -213,8 +228,12 @@ gives you a sense
 00:03:59.076 --> 00:04:01.066 A:middle
 of your context.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:03:59.076 --> 00:04:01.066 A:middle
+of your context.
 
 00:04:01.606 --> 00:04:06.036 A:middle
 These planes, combined with
@@ -265,8 +284,12 @@ your iPhone looks and feels
 00:04:57.916 --> 00:05:00.466 A:middle
 across the entire system.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:04:57.916 --> 00:05:00.466 A:middle
+across the entire system.
 
 00:05:00.466 --> 00:05:01.056 A:middle
 [ Music ]
@@ -317,8 +340,12 @@ and in many ways, a beginning.
 00:05:58.096 --> 00:06:00.096 A:middle
 [ Applause ]
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:05:58.096 --> 00:06:00.096 A:middle
+[ Applause ]
 
 00:06:00.566 --> 00:06:02.436 A:middle
 &gt;&gt; Greg Christie: I won't
@@ -392,8 +419,13 @@ maximizing the screen size,
 blowing out the edges, removing
 unnecessary edges and borders,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:06:58.406 --> 00:07:03.626 A:middle
+blowing out the edges, removing
+unnecessary edges and borders,
 
 00:07:04.266 --> 00:07:06.876 A:middle
 refining the typography,
@@ -465,8 +497,13 @@ as large as possible,
 yet fit in a sound design with
 the rest of the information.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:07:58.256 --> 00:08:01.366 A:middle
+yet fit in a sound design with
+the rest of the information.
 
 00:08:02.716 --> 00:08:06.216 A:middle
 Being clear means clearly
@@ -538,8 +575,13 @@ customer's content.
 Another way that we're
 reinforcing clarity
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:08:57.456 --> 00:09:01.366 A:middle
+Another way that we're
+reinforcing clarity
 
 00:09:01.816 --> 00:09:04.316 A:middle
 and this difference between
@@ -598,8 +640,12 @@ know just the incredible variety
 00:09:59.786 --> 00:10:01.456 A:middle
 of apps that are on iOS.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:09:59.786 --> 00:10:01.456 A:middle
+of apps that are on iOS.
 
 00:10:02.416 --> 00:10:04.516 A:middle
 This also applies to the
@@ -674,13 +720,86 @@ with you this morning to go
 into some detail about iOS
 7 and some of the new apps
 
-<HTML><HEAD>
-<TITLE>Request Timeout</TITLE>
-</HEAD><BODY>
-<H1>Request Timeout</H1>
-The server timed out while waiting for the browser's request.<P>
-Reference&#32;&#35;2&#46;d5524817&#46;1373789674&#46;0
-</BODY></HTML>
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:10:59.706 --> 00:11:03.406 A:middle
+into some detail about iOS
+7 and some of the new apps
+
+00:11:03.406 --> 00:11:04.636 A:middle
+like Mail and Calendar.
+
+00:11:04.736 --> 00:11:07.386 A:middle
+We're going to compare
+how they are now
+
+00:11:07.386 --> 00:11:10.496 A:middle
+with how they were before and
+I'm going to talk a little bit
+
+00:11:10.696 --> 00:11:14.116 A:middle
+about why things have changed,
+the thought process that went
+
+00:11:14.116 --> 00:11:17.386 A:middle
+into the new apps and I'm
+really hoping that you'll take
+
+00:11:17.386 --> 00:11:18.746 A:middle
+from this hour some ideas
+
+00:11:18.746 --> 00:11:21.436 A:middle
+about how you can make
+your apps more dynamic,
+
+00:11:22.526 --> 00:11:24.986 A:middle
+easier to use and
+more delightful.
+
+00:11:24.986 --> 00:11:28.636 A:middle
+I've got a lot to
+cover so let's dive in.
+
+00:11:31.716 --> 00:11:34.936 A:middle
+This was how the design
+for iOS 7 started.
+
+00:11:36.106 --> 00:11:38.346 A:middle
+We started with a
+totally blank slate.
+
+00:11:38.346 --> 00:11:42.446 A:middle
+We had to think about what's
+the most important thing
+
+00:11:42.446 --> 00:11:43.436 A:middle
+that people care about.
+
+00:11:44.416 --> 00:11:46.186 A:middle
+What's the content that
+they care about most?
+
+00:11:46.796 --> 00:11:48.646 A:middle
+So in Mail it's this.
+
+00:11:49.066 --> 00:11:51.056 A:middle
+It's the message,
+it's a single thing.
+
+00:11:51.646 --> 00:11:54.896 A:middle
+Of all else that you see in
+mail that's the most important.
+
+00:11:55.196 --> 00:11:56.716 A:middle
+Everything else is secondary.
+
+00:11:57.236 --> 00:11:59.786 A:middle
+And for what was
+added, it was added
+
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
@@ -746,8 +865,13 @@ the star of the show.
 Then this is the
 final design for Mail.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:12:56.766 --> 00:13:00.126 A:middle
+Then this is the
+final design for Mail.
 
 00:13:00.676 --> 00:13:03.676 A:middle
 As you can see when photos
@@ -811,8 +935,13 @@ is the size of type.
 I've worked as an interface
 designer for 17 years
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:13:57.686 --> 00:14:00.666 A:middle
+I've worked as an interface
+designer for 17 years
 
 00:14:01.086 --> 00:14:03.296 A:middle
 and I've worked on countless
@@ -887,6 +1016,7 @@ because it allows for that
 00:14:57.246 --> 00:14:59.136 A:middle
 and it's really easy to use.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
@@ -960,8 +1090,13 @@ It looks great at every size,
 but of course we
 didn't stop there.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:15:58.776 --> 00:16:00.516 A:middle
+but of course we
+didn't stop there.
 
 00:16:01.496 --> 00:16:03.706 A:middle
 Text that has more
@@ -1045,8 +1180,13 @@ using type styles.
 The Inbox, the title for the
 screen is the most important
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:16:59.346 --> 00:17:02.266 A:middle
+The Inbox, the title for the
+screen is the most important
 
 00:17:02.266 --> 00:17:04.195 A:middle
 thing here so you
@@ -1120,8 +1260,13 @@ matter what the text scale is.
 These kinds of details
 are really important
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:17:58.686 --> 00:18:00.356 A:middle
+These kinds of details
+are really important
 
 00:18:00.356 --> 00:18:02.636 A:middle
 with visual design.
@@ -1190,6 +1335,7 @@ between iOS 7 and iOS 6 Mail.
 
 00:18:57.426 --> 00:18:59.586 A:middle
 Let's talk about bars.
+
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
@@ -1273,6 +1419,7 @@ it comes to the foreground more.
 It's not stuck behind
 these two blue bars
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
@@ -1355,8 +1502,13 @@ text, this isn't something
 that we particularly innovated
 but we improved upon it,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:20:59.676 --> 00:21:02.136 A:middle
+that we particularly innovated
+but we improved upon it,
 
 00:21:02.276 --> 00:21:03.116 A:middle
 we can make it better.
@@ -1444,8 +1596,13 @@ people already knew before
 which is to go into this Edit
 mode, so it's really seamless.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:21:57.396 --> 00:22:00.526 A:middle
+which is to go into this Edit
+mode, so it's really seamless.
 
 00:22:00.836 --> 00:22:02.086 A:middle
 Think about that with your apps.
@@ -1529,6 +1686,7 @@ that's remained exactly the same
 00:22:57.126 --> 00:22:58.436 A:middle
 so it's instantly familiar.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
@@ -1606,6 +1764,7 @@ natural fit for that.
 I'll explain more
 about what I mean.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
@@ -1675,8 +1834,13 @@ So it's a really nice design.
 Now I also want to
 talk about animation
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:24:57.856 --> 00:25:00.446 A:middle
+Now I also want to
+talk about animation
 
 00:25:00.446 --> 00:25:01.766 A:middle
 and moving across days.
@@ -1763,8 +1927,13 @@ to see what's going on there.
 So the next thing I want to
 talk about with animation is
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:25:58.656 --> 00:26:04.696 A:middle
+So the next thing I want to
+talk about with animation is
 
 00:26:04.696 --> 00:26:07.956 A:middle
 that making really
@@ -1841,8 +2010,13 @@ we've built in, you can apply
 that to your apps to make them
 feel more deeply lifelike.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:26:59.156 --> 00:27:02.466 A:middle
+that to your apps to make them
+feel more deeply lifelike.
 
 00:27:03.686 --> 00:27:07.356 A:middle
 It's great stuff.
@@ -1925,8 +2099,13 @@ to where the Month is now.
 Your eye follows it so there's
 no doubt where, how you get back
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:27:59.826 --> 00:28:03.896 A:middle
+Your eye follows it so there's
+no doubt where, how you get back
 
 00:28:03.896 --> 00:28:04.996 A:middle
 to where you were before.
@@ -2006,6 +2185,7 @@ Let's watch as we dive back in
 00:28:57.386 --> 00:28:58.576 A:middle
 and just see it all
 come together.
+
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
@@ -2091,8 +2271,13 @@ put at the top right corner
 so it's immediately
 available at any point
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:29:59.026 --> 00:30:01.046 A:middle
+so it's immediately
+available at any point
 
 00:30:01.586 --> 00:30:02.536 A:middle
 when you're using Calendar.
@@ -2181,8 +2366,13 @@ in, but it totally works.
 And it works because you've
 seen these icons a million times
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:30:57.236 --> 00:31:00.446 A:middle
+And it works because you've
+seen these icons a million times
 
 00:31:00.976 --> 00:31:04.346 A:middle
 and every time you've pressed
@@ -2266,8 +2456,13 @@ What does this do?
 You might be really surprised
 to find the answers you get.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:31:58.856 --> 00:32:01.226 A:middle
+You might be really surprised
+to find the answers you get.
 
 00:32:02.086 --> 00:32:05.256 A:middle
 It's often more clear
@@ -2340,8 +2535,12 @@ realism for a second.
 00:32:59.906 --> 00:33:02.166 A:middle
 This was Notes.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:32:59.906 --> 00:33:02.166 A:middle
+This was Notes.
 
 00:33:02.766 --> 00:33:05.106 A:middle
 This was Notes from iOS 6
@@ -2408,8 +2607,12 @@ a trip back in time.
 00:33:58.426 --> 00:34:00.866 A:middle
 It's 2007, there is no iPhone,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:33:58.426 --> 00:34:00.866 A:middle
+It's 2007, there is no iPhone,
 
 00:34:01.056 --> 00:34:02.546 A:middle
 you don't know what
@@ -2480,8 +2683,13 @@ can't search a notepad.
 So when you add that it
 starts to ruin the illusion.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:34:57.085 --> 00:35:00.066 A:middle
+So when you add that it
+starts to ruin the illusion.
 
 00:35:00.676 --> 00:35:01.886 A:middle
 Things start to breakdown.
@@ -2557,8 +2765,13 @@ between these two versions.
 There's something missing in
 iOS 7 and that's the title.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:35:58.956 --> 00:36:02.486 A:middle
+There's something missing in
+iOS 7 and that's the title.
 
 00:36:03.326 --> 00:36:06.066 A:middle
 Now we've always advised
@@ -2639,8 +2852,13 @@ about Notes is color.
 Now you'll see that the color,
 you'll see this yellow color
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:36:56.806 --> 00:37:00.286 A:middle
+Now you'll see that the color,
+you'll see this yellow color
 
 00:37:00.286 --> 00:37:02.946 A:middle
 in Notes and that's the tint
@@ -2712,8 +2930,12 @@ iOS 7 and they were redesigned
 00:37:58.966 --> 00:38:00.576 A:middle
 so that they matched each other.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:37:58.966 --> 00:38:00.576 A:middle
+so that they matched each other.
 
 00:38:01.886 --> 00:38:04.196 A:middle
 They're straightforward,
@@ -2785,8 +3007,13 @@ we measure them against that.
 Now it wasn't sufficient to just
 make icons match each other,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:38:57.176 --> 00:39:02.206 A:middle
+Now it wasn't sufficient to just
+make icons match each other,
 
 00:39:03.156 --> 00:39:06.316 A:middle
 they also match the
@@ -2860,8 +3087,13 @@ I want to talk about affordance.
 Now this is a $5 word and I know
 a lot of you know what it means
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:39:58.346 --> 00:40:03.116 A:middle
+Now this is a $5 word and I know
+a lot of you know what it means
 
 00:40:04.036 --> 00:40:05.966 A:middle
 but I've heard different
@@ -2943,8 +3175,13 @@ rectangle in the background
 of all this data that we saw in
 the previous version of Weather
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:40:58.376 --> 00:41:01.276 A:middle
+of all this data that we saw in
+the previous version of Weather
 
 00:41:01.556 --> 00:41:03.406 A:middle
 and it was there for a
@@ -3028,8 +3265,13 @@ We try to pinch everything,
 rotate everything,
 we play with it.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:41:58.546 --> 00:42:01.066 A:middle
+rotate everything,
+we play with it.
 
 00:42:01.066 --> 00:42:02.106 A:middle
 It feels comfortable.
@@ -3110,8 +3352,12 @@ done with text.
 00:42:57.466 --> 00:43:02.306 A:middle
 As a result Weather is a simple,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:42:57.466 --> 00:43:02.306 A:middle
+As a result Weather is a simple,
 
 00:43:02.846 --> 00:43:05.786 A:middle
 beautiful app that's
@@ -3182,8 +3428,13 @@ design it this way
 so you understood
 what this was for?
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:43:59.946 --> 00:44:02.146 A:middle
+so you understood
+what this was for?
 
 00:44:02.656 --> 00:44:06.276 A:middle
 No. And did it limit what
@@ -3248,8 +3499,13 @@ face a different direction,
 the letters stay upright
 so they're more legible.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:44:59.996 --> 00:45:02.426 A:middle
+the letters stay upright
+so they're more legible.
 
 00:45:02.766 --> 00:45:05.996 A:middle
 Again, if we had done this
@@ -3321,6 +3577,7 @@ to your app.
 If you use color, use
 it with restraint.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
@@ -3387,8 +3644,13 @@ that you'll see in iOS 7.
 Selection is shown in
 this consistent way
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:46:58.316 --> 00:47:00.716 A:middle
+Selection is shown in
+this consistent way
 
 00:47:00.986 --> 00:47:05.696 A:middle
 so each control reinforces
@@ -3461,8 +3723,13 @@ will do the trick just fine,
 and which value is selected
 is really easy to see
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:47:56.996 --> 00:48:00.746 A:middle
+and which value is selected
+is really easy to see
 
 00:48:00.876 --> 00:48:01.906 A:middle
 because it's darker text,
@@ -3540,8 +3807,13 @@ And finally, Back buttons.
 Now, to get back previously you
 would press on the Back button.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:48:56.626 --> 00:49:00.686 A:middle
+Now, to get back previously you
+would press on the Back button.
 
 00:49:01.176 --> 00:49:04.746 A:middle
 That makes sense and you still
@@ -3626,8 +3898,13 @@ provides this sense of depth
 and the colors coming through
 just reinforces that sense
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:49:57.906 --> 00:50:01.786 A:middle
+and the colors coming through
+just reinforces that sense
 
 00:50:01.786 --> 00:50:05.266 A:middle
 of depth, and that's
@@ -3710,8 +3987,13 @@ the icons have changed
 so we'll spend a little bit of
 time talking about these icons.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:50:58.646 --> 00:51:01.116 A:middle
+so we'll spend a little bit of
+time talking about these icons.
 
 00:51:02.446 --> 00:51:06.726 A:middle
 Gone are the heaviest of
@@ -3788,8 +4070,12 @@ a bunch of other app icons
 00:51:59.866 --> 00:52:00.576 A:middle
 that all have a bunch
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:51:59.866 --> 00:52:00.576 A:middle
+that all have a bunch
 
 00:52:00.576 --> 00:52:02.686 A:middle
 of ornamentation it
@@ -3868,8 +4154,13 @@ more visually interesting.
 Now these icons they're
 simpler but the approach
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:52:56.956 --> 00:53:00.146 A:middle
+Now these icons they're
+simpler but the approach
 
 00:53:00.146 --> 00:53:01.916 A:middle
 to designing them
@@ -3929,8 +4220,13 @@ I was impressed.
 But as a result of following
 this template our icons share
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:53:56.036 --> 00:54:02.416 A:middle
+But as a result of following
+this template our icons share
 
 00:54:02.796 --> 00:54:06.236 A:middle
 things like this blue dot
@@ -4005,8 +4301,12 @@ It's easier on the eye.
 00:54:59.706 --> 00:55:02.386 A:middle
 So some final thoughts.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:54:59.706 --> 00:55:02.386 A:middle
+So some final thoughts.
 
 00:55:03.916 --> 00:55:09.716 A:middle
 The values that were at the
@@ -4054,8 +4354,12 @@ gorgeous, and photos are large
 00:55:56.646 --> 00:56:02.576 A:middle
 so you can see the detail.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:55:56.646 --> 00:56:02.576 A:middle
+so you can see the detail.
 
 00:56:04.296 --> 00:56:06.206 A:middle
 Depth. Now I didn't
@@ -4114,6 +4418,7 @@ movement of the device.
 00:56:53.476 --> 00:56:55.676 A:middle
 And detail, detail
 brings it all together.
+
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
@@ -4190,8 +4495,13 @@ talking about it and thinking
 about it, for you
 developers making apps.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:57:58.196 --> 00:58:01.026 A:middle
+about it, for you
+developers making apps.
 
 00:58:02.056 --> 00:58:06.416 A:middle
 There's some amazing new tools
@@ -4264,8 +4574,13 @@ It's going to be mind-blowing.
 So go out there,
 make some cool stuff
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:58:57.556 --> 00:59:00.576 A:middle
+So go out there,
+make some cool stuff
 
 00:59:01.436 --> 00:59:02.726 A:middle
 and let's regroup in a year.
@@ -4278,4 +4593,3 @@ Thank you very much.
 
 00:59:13.513 --> 00:59:21.600 A:middle
 [ Silence ]
-

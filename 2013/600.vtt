@@ -73,8 +73,12 @@ to know about the latest
 00:00:59.616 --> 00:01:01.066 A:middle
 and greatest WebKit changes.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:00:59.616 --> 00:01:01.066 A:middle
+and greatest WebKit changes.
 
 00:01:01.656 --> 00:01:06.116 A:middle
 You're probably wondering
@@ -153,6 +157,7 @@ about the dash WebKit prefix.
 00:01:57.396 --> 00:01:59.786 A:middle
 This is a technique that
 we've been using for years
+
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
@@ -239,8 +244,13 @@ Columns and Pagination.
 Columns are obviously
 very fundamental
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:02:59.786 --> 00:03:01.736 A:middle
+Columns are obviously
+very fundamental
 
 00:03:01.736 --> 00:03:04.286 A:middle
 in Print Media Designs so
@@ -319,8 +329,13 @@ layout defined
 in the W3C's multi-column
 layout specification.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:03:58.346 --> 00:04:01.226 A:middle
+in the W3C's multi-column
+layout specification.
 
 00:04:01.926 --> 00:04:05.586 A:middle
 Having a way to create rich
@@ -405,8 +420,13 @@ alternative design there.
 So, the syntax is
 incredibly simple.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:04:59.316 --> 00:05:01.276 A:middle
+So, the syntax is
+incredibly simple.
 
 00:05:01.276 --> 00:05:03.906 A:middle
 All I have to do is to start
@@ -489,8 +509,13 @@ around to see the whole thing.
 So, if we take this
 really long UIWebView
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:05:57.896 --> 00:06:00.686 A:middle
+So, if we take this
+really long UIWebView
 
 00:06:00.686 --> 00:06:03.486 A:middle
 and set pagination parameters
@@ -578,8 +603,12 @@ mode parameter.
 00:06:59.206 --> 00:07:01.026 A:middle
 This property-- excuse me,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:06:59.206 --> 00:07:01.026 A:middle
+This property-- excuse me,
 
 00:07:01.646 --> 00:07:04.506 A:middle
 this property takes an
@@ -665,8 +694,13 @@ slides ago then the value
 of this property will determine
 whether those styles are honored
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:07:59.066 --> 00:08:03.686 A:middle
+of this property will determine
+whether those styles are honored
 
 00:08:03.686 --> 00:08:04.506 A:middle
 or ignored.
@@ -741,8 +775,13 @@ indicate that a different part
 of your markup is being used to
 define the content that you want
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:08:58.046 --> 00:09:01.556 A:middle
+of your markup is being used to
+define the content that you want
 
 00:09:01.556 --> 00:09:02.776 A:middle
 to flow through that layout.
@@ -834,8 +873,13 @@ my article is the content
 that is meant to flow through
 these regions then instead
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:09:57.606 --> 00:10:00.286 A:middle
+that is meant to flow through
+these regions then instead
 
 00:10:00.286 --> 00:10:03.516 A:middle
 of laying out just in a normal
@@ -927,8 +971,13 @@ bit of styling with the ID.
 I've also given them
 a shared class name
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:10:58.836 --> 00:11:00.846 A:middle
+I've also given them
+a shared class name
 
 00:11:01.046 --> 00:11:02.186 A:middle
 so that they can share the CSS
@@ -1017,8 +1066,13 @@ thing about regions
 as it you can style content
 based on which region
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:11:57.416 --> 00:12:00.116 A:middle
+as it you can style content
+based on which region
 
 00:12:00.116 --> 00:12:01.196 A:middle
 that it's flowing through.
@@ -1101,8 +1155,13 @@ on the Safari WebKit team.
 So, I prepared for you an
 interactive region state mode
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:12:58.716 --> 00:13:02.856 A:middle
+So, I prepared for you an
+interactive region state mode
 
 00:13:02.926 --> 00:13:06.726 A:middle
 to show you how flexible and
@@ -1166,8 +1225,13 @@ the three regions we have here.
 The numbers on each
 region indicate the order,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:13:58.086 --> 00:14:02.666 A:middle
+The numbers on each
+region indicate the order,
 
 00:14:02.666 --> 00:14:04.926 A:middle
 the content flow
@@ -1234,8 +1298,13 @@ very, very simple.
 To make it even clearer how the
 content reflows from one region
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:14:59.516 --> 00:15:03.866 A:middle
+To make it even clearer how the
+content reflows from one region
 
 00:15:03.866 --> 00:15:08.326 A:middle
 to another, pay attention as
@@ -1296,6 +1365,7 @@ my image and stretch that over
 
 00:15:57.286 --> 00:15:59.686 A:middle
 to meet the region number 2.
+
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
@@ -1358,8 +1428,13 @@ responsive layout.
 It's very easy to
 manage and as the size
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:16:56.996 --> 00:17:00.926 A:middle
+It's very easy to
+manage and as the size
 
 00:17:00.926 --> 00:17:03.186 A:middle
 of the viewport changes,
@@ -1425,8 +1500,13 @@ Very, very easy.
 So, before I turn
 it back to Beth,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:17:58.076 --> 00:18:01.536 A:middle
+So, before I turn
+it back to Beth,
 
 00:18:02.146 --> 00:18:06.196 A:middle
 I'd like to show you a
@@ -1480,8 +1560,13 @@ very simple markup.
 We have our section here
 that contains our entire text
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:18:54.756 --> 00:19:01.276 A:middle
+We have our section here
+that contains our entire text
 
 00:19:01.576 --> 00:19:04.726 A:middle
 and the text is simply
@@ -1552,8 +1637,12 @@ flexible boxes.
 00:19:58.946 --> 00:20:00.526 A:middle
 Flexible boxes are defined
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:19:58.946 --> 00:20:00.526 A:middle
+Flexible boxes are defined
 
 00:20:00.526 --> 00:20:03.906 A:middle
 in the W3Cs Flexible
@@ -1639,8 +1728,13 @@ performance and of course,
 that's the version that
 we will be improving
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:20:59.816 --> 00:21:02.306 A:middle
+that's the version that
+we will be improving
 
 00:21:02.306 --> 00:21:03.796 A:middle
 and maintaining going forward.
@@ -1728,8 +1822,13 @@ is difficult without Flexbox.
 All right, first of all at
 the smaller window size,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:21:58.456 --> 00:22:00.766 A:middle
+All right, first of all at
+the smaller window size,
 
 00:22:00.766 --> 00:22:03.386 A:middle
 we can clearly see that
@@ -1818,8 +1917,12 @@ and doing all of that
 00:22:59.176 --> 00:23:00.496 A:middle
 up until a certain point
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:22:59.176 --> 00:23:00.496 A:middle
+up until a certain point
 
 00:23:00.696 --> 00:23:03.266 A:middle
 at which time it's
@@ -1912,8 +2015,12 @@ to set the display property
 00:23:59.366 --> 00:24:00.986 A:middle
 to either flex or inline flex.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:23:59.366 --> 00:24:00.986 A:middle
+to either flex or inline flex.
 
 00:24:01.436 --> 00:24:03.586 A:middle
 And now, it will indicate
@@ -2006,6 +2113,7 @@ to the initial height.
 And in fact, in this case, if I
 didn't specify a basis at all,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
@@ -2092,8 +2200,13 @@ with other growing elements.
 But in this example, there
 are no other growing elements
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:25:59.106 --> 00:26:01.556 A:middle
+But in this example, there
+are no other growing elements
 
 00:26:01.556 --> 00:26:05.806 A:middle
 so we'll take all of
@@ -2179,8 +2292,12 @@ finally provided an easy way
 00:26:59.506 --> 00:27:00.436 A:middle
 to center something.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:26:59.506 --> 00:27:00.436 A:middle
+to center something.
 
 00:27:00.996 --> 00:27:02.386 A:middle
 As I'm sure you all
@@ -2267,8 +2384,12 @@ finer grain control
 00:27:59.966 --> 00:28:02.276 A:middle
 over how things are positioned,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:27:59.966 --> 00:28:02.276 A:middle
+over how things are positioned,
 
 00:28:02.686 --> 00:28:04.446 A:middle
 aligned items in
@@ -2347,6 +2468,7 @@ we've talked extensively
 00:28:58.306 --> 00:28:59.866 A:middle
 about the many things
 that you can do
+
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
@@ -2452,8 +2574,13 @@ to provide customer controls.
 And here I have some controls
 for our Play and Pause button.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:29:59.746 --> 00:30:02.416 A:middle
+And here I have some controls
+for our Play and Pause button.
 
 00:30:02.416 --> 00:30:03.976 A:middle
 Custom controls are
@@ -2548,8 +2675,13 @@ has come on to the network
 or when one has left
 the network.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:30:59.896 --> 00:31:02.016 A:middle
+or when one has left
+the network.
 
 00:31:02.366 --> 00:31:05.116 A:middle
 And it's also guaranteed--
@@ -2645,8 +2777,13 @@ adding an EventListener
 for the click event
 on that button.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:31:59.046 --> 00:32:00.536 A:middle
+for the click event
+on that button.
 
 00:32:00.886 --> 00:32:02.326 A:middle
 And whenever that
@@ -2727,6 +2864,7 @@ styles whenever that changes.
 00:32:55.546 --> 00:32:59.486 A:middle
 OK, so that summarizes the new
 AirPlay API available on iOS.
+
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
@@ -2814,8 +2952,13 @@ with the Cue Sudo element.
 There are a limited
 set of CSS properties
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:33:58.756 --> 00:34:00.686 A:middle
+There are a limited
+set of CSS properties
 
 00:34:00.686 --> 00:34:02.386 A:middle
 that you can use
@@ -2884,8 +3027,13 @@ and switch the text to French
 and I also have captions
 in Italian.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:34:59.656 --> 00:35:04.086 A:middle
+and I also have captions
+in Italian.
 
 00:35:04.086 --> 00:35:08.086 A:middle
 The system will remember the
@@ -2944,6 +3092,7 @@ another one all I have
 00:35:55.906 --> 00:35:59.836 A:middle
 to do is add another track
 element have the source
+
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
@@ -3008,8 +3157,13 @@ and its format is very simple.
 Each entry of the VTT file is
 one corresponds to one line
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:36:58.056 --> 00:37:03.306 A:middle
+Each entry of the VTT file is
+one corresponds to one line
 
 00:37:03.306 --> 00:37:05.296 A:middle
 of the caption and
@@ -3071,8 +3225,13 @@ but this is not all.
 You can also style
 separately individual elements
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:37:59.446 --> 00:38:03.376 A:middle
+You can also style
+separately individual elements
 
 00:38:03.376 --> 00:38:05.416 A:middle
 of the captions by
@@ -3144,13 +3303,92 @@ I'll give it back to Beth
 to continue the rest
 of our session.
 
-<HTML><HEAD>
-<TITLE>Request Timeout</TITLE>
-</HEAD><BODY>
-<H1>Request Timeout</H1>
-The server timed out while waiting for the browser's request.<P>
-Reference&#32;&#35;2&#46;c6524817&#46;1373787861&#46;0
-</BODY></HTML>
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:39:01.076 --> 00:39:02.156 A:middle
+&gt;&gt; That was awesome.
+
+00:39:02.246 --> 00:39:03.926 A:middle
+Isn't that video mesmerizing?
+
+00:39:04.216 --> 00:39:06.826 A:middle
+I could watch it all day.
+
+00:39:08.236 --> 00:39:12.586 A:middle
+OK. So, those are two cool new
+media features that we've added
+
+00:39:12.586 --> 00:39:14.746 A:middle
+to WebKit this year for
+a better integration
+
+00:39:14.746 --> 00:39:17.726 A:middle
+with the iOS platform
+and AairPlay devices.
+
+00:39:18.006 --> 00:39:20.386 A:middle
+And for an improved
+accessibility experience.
+
+00:39:21.606 --> 00:39:25.026 A:middle
+OK. So, we've added a bunch of
+other things to WebKit this year
+
+00:39:25.026 --> 00:39:27.046 A:middle
+that are smaller
+little enhancements.
+
+00:39:27.046 --> 00:39:29.356 A:middle
+I think that these
+things will be great tools
+
+00:39:29.356 --> 00:39:30.906 A:middle
+that you can add
+to your toolbox.
+
+00:39:31.746 --> 00:39:33.386 A:middle
+So, we'll cover some
+enhancements
+
+00:39:33.746 --> 00:39:35.216 A:middle
+in four categories here.
+
+00:39:35.216 --> 00:39:37.656 A:middle
+First, we'll talk about
+some font enhancements.
+
+00:39:37.656 --> 00:39:40.166 A:middle
+We'll talk about a few
+smaller CSS things.
+
+00:39:40.406 --> 00:39:43.486 A:middle
+We'll talk about graphics.
+
+00:39:44.406 --> 00:39:46.666 A:middle
+And finally, I want to tell
+you about a few changes
+
+00:39:46.666 --> 00:39:47.696 A:middle
+that might affect you.
+
+00:39:48.286 --> 00:39:50.826 A:middle
+So, will start with fonts.
+
+00:39:50.906 --> 00:39:55.296 A:middle
+So, one of the many exciting new
+aspects to the new iOS 7 look
+
+00:39:55.296 --> 00:39:59.336 A:middle
+and feel is the beautiful
+extremely readable dynamic type
+
+00:39:59.376 --> 00:40:01.976 A:middle
+which comes in all of this
+different variants depending
+
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
@@ -3240,8 +3478,13 @@ for your content.
 So, if you had a
 chance to browse the web
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:40:59.256 --> 00:41:03.696 A:middle
+So, if you had a
+chance to browse the web
 
 00:41:03.696 --> 00:41:06.476 A:middle
 with Safari 7 yet, you
@@ -3327,8 +3570,13 @@ into a single glyph.
 So, FI is a classic example
 here on the left to have F and I
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:41:57.676 --> 00:42:01.746 A:middle
+So, FI is a classic example
+here on the left to have F and I
 
 00:42:01.746 --> 00:42:04.616 A:middle
 as two separate glyphs and
@@ -3411,8 +3659,13 @@ when kerning
 and ligatures are enabled,
 text will take up less space.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:42:56.396 --> 00:43:01.026 A:middle
+and ligatures are enabled,
+text will take up less space.
 
 00:43:01.026 --> 00:43:04.836 A:middle
 So, if you were expecting your
@@ -3490,8 +3743,13 @@ mix units like I'm doing here
 or I'm setting something to be
 100 percent minus 80 pixels.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:43:58.486 --> 00:44:02.246 A:middle
+or I'm setting something to be
+100 percent minus 80 pixels.
 
 00:44:02.696 --> 00:44:05.486 A:middle
 Our clients at Apple have
@@ -3567,8 +3825,13 @@ rectangle, ellipse and polygon.
 OK. So, those are two
 cool new CSS features.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:44:55.516 --> 00:45:00.566 A:middle
+OK. So, those are two
+cool new CSS features.
 
 00:45:00.566 --> 00:45:02.036 A:middle
 There are so many more I wish
@@ -3655,8 +3918,13 @@ API is the path object.
 So, this is a great new API
 that will let you store paths
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:45:58.766 --> 00:46:02.786 A:middle
+So, this is a great new API
+that will let you store paths
 
 00:46:02.786 --> 00:46:05.466 A:middle
 as variables up until now
@@ -3735,8 +4003,13 @@ to talk about canvas on retina,
 if you were at WWDC last year,
 then you may have seen a session
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:46:57.076 --> 00:47:00.736 A:middle
+if you were at WWDC last year,
+then you may have seen a session
 
 00:47:00.986 --> 00:47:05.196 A:middle
 that we gave all about higher
@@ -3821,8 +4094,13 @@ so much more space.
 Well, people got
 confused and sad
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:47:58.366 --> 00:48:02.416 A:middle
+Well, people got
+confused and sad
 
 00:48:02.776 --> 00:48:05.126 A:middle
 and that was definitely
@@ -3900,8 +4178,13 @@ canvas and I think
 that hopefully we've cleared up
 some confusion by getting rid
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:48:59.486 --> 00:49:01.976 A:middle
+that hopefully we've cleared up
+some confusion by getting rid
 
 00:49:01.976 --> 00:49:06.486 A:middle
 of the auto doubling that
@@ -3989,8 +4272,13 @@ to be on the lookout
 for if you were depending
 on a specific size.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:49:58.916 --> 00:50:01.976 A:middle
+for if you were depending
+on a specific size.
 
 00:50:02.446 --> 00:50:05.446 A:middle
 Another change that we made is
@@ -4083,8 +4371,13 @@ I'm delighted to tell you
 that we've unprefixed
 transition as we call it.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:50:58.496 --> 00:51:02.576 A:middle
+that we've unprefixed
+transition as we call it.
 
 00:51:02.576 --> 00:51:05.666 A:middle
 The transition specification
@@ -4182,8 +4475,13 @@ have better integration
 with our platform
 and our devices.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:51:59.366 --> 00:52:01.076 A:middle
+with our platform
+and our devices.
 
 00:52:01.076 --> 00:52:03.726 A:middle
 I think that the AirPlay
@@ -4269,8 +4567,13 @@ in this session and lots
 of other really great
 tips and tricks
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:52:58.376 --> 00:53:00.526 A:middle
+of other really great
+tips and tricks
 
 00:53:00.566 --> 00:53:03.186 A:middle
 for having a really
@@ -4311,4 +4614,3 @@ Thank you for listening.
 
 00:53:27.603 --> 00:53:29.603 A:middle
 [Applause]
-

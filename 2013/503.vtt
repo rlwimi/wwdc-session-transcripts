@@ -67,8 +67,13 @@ It is the-- since the platform--
 the framework is available
 on both iOS 7 and Mac OS X,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:00:58.646 --> 00:01:03.266 A:middle
+the framework is available
+on both iOS 7 and Mac OS X,
 
 00:01:03.416 --> 00:01:06.936 A:middle
 they allow you to build once and
@@ -141,8 +146,13 @@ various bits and pieces
 from the Adventure demo in
 this talk to show you how quick
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:01:57.666 --> 00:02:00.576 A:middle
+from the Adventure demo in
+this talk to show you how quick
 
 00:02:00.576 --> 00:02:03.386 A:middle
 and easy it is to
@@ -221,8 +231,13 @@ of data that include lots
 of artwork files and we have
 about 1,700 art files to load.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:02:57.506 --> 00:03:01.366 A:middle
+of artwork files and we have
+about 1,700 art files to load.
 
 00:03:02.036 --> 00:03:03.806 A:middle
 We have a lot of
@@ -298,8 +313,13 @@ asset loading in the background
 and get them loaded
 as fast they can.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:03:58.296 --> 00:04:00.356 A:middle
+and get them loaded
+as fast they can.
 
 00:04:01.546 --> 00:04:04.236 A:middle
 Once we have these assets
@@ -370,8 +390,12 @@ to talk a little bit
 00:04:59.516 --> 00:05:00.586 A:middle
 into the Adventure Game.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:04:59.516 --> 00:05:00.586 A:middle
+into the Adventure Game.
 
 00:05:01.226 --> 00:05:02.906 A:middle
 So, the Adventure
@@ -448,8 +472,13 @@ we'll go to--
 we wait until we finish
 simulating all the physics.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:05:58.016 --> 00:06:01.046 A:middle
+we wait until we finish
+simulating all the physics.
 
 00:06:02.236 --> 00:06:05.146 A:middle
 So, if I'm walking from A to
@@ -525,8 +554,13 @@ in each category.
 If you just look at
 the background tiles,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:06:58.486 --> 00:07:00.496 A:middle
+If you just look at
+the background tiles,
 
 00:07:01.046 --> 00:07:05.856 A:middle
 the level itself is a 4K x
@@ -602,8 +636,13 @@ again we have 1660 texture files
 and the game actually used
 Texture Atlas for all of them.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:07:58.156 --> 00:08:01.176 A:middle
+and the game actually used
+Texture Atlas for all of them.
 
 00:08:01.456 --> 00:08:03.766 A:middle
 Character animations are
@@ -679,6 +718,7 @@ always this tank
 
 00:08:58.316 --> 00:08:59.836 A:middle
 of work that need to be done.
+
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
@@ -760,8 +800,13 @@ state, you can combine them
 into a single draw call to
 minimize the amount of overhead
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:09:57.966 --> 00:10:01.366 A:middle
+into a single draw call to
+minimize the amount of overhead
 
 00:10:01.366 --> 00:10:03.516 A:middle
 for the GL render script change.
@@ -829,8 +874,13 @@ the common methods is
 to add transparency borders
 to your animation frame
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:10:59.036 --> 00:11:02.096 A:middle
+to add transparency borders
+to your animation frame
 
 00:11:02.096 --> 00:11:04.996 A:middle
 so that you make sure the
@@ -919,8 +969,13 @@ directly into Xcode.
 It's just a matter of dragging
 a folder into your project
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:11:58.876 --> 00:12:03.776 A:middle
+It's just a matter of dragging
+a folder into your project
 
 00:12:03.836 --> 00:12:05.036 A:middle
 and you'll have your
@@ -995,8 +1050,13 @@ which contains a PNG file
 which is the Texture Atlas
 texture and the plist file.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:12:57.536 --> 00:13:00.606 A:middle
+which is the Texture Atlas
+texture and the plist file.
 
 00:13:00.606 --> 00:13:03.226 A:middle
 And plist file, you can
@@ -1078,8 +1138,13 @@ images that contains Mac,
 Mac OS 2X, iPhone,
 iPhone 2X, iPad, iPad 2X
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:13:58.586 --> 00:14:02.636 A:middle
+Mac OS 2X, iPhone,
+iPhone 2X, iPad, iPad 2X
 
 00:14:02.636 --> 00:14:05.136 A:middle
 and the new iPhone
@@ -1157,8 +1222,13 @@ and look through the light,
 OK, let's rotate it,
 leave it and put it in."
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:14:58.086 --> 00:15:01.646 A:middle
+OK, let's rotate it,
+leave it and put it in."
 
 00:15:01.756 --> 00:15:04.066 A:middle
 We trimmed the transparent
@@ -1233,8 +1303,13 @@ reduced
 and also have some
 memory savings.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:15:57.936 --> 00:16:00.276 A:middle
+and also have some
+memory savings.
 
 00:16:00.276 --> 00:16:03.216 A:middle
 So, if you look at the animation
@@ -1307,6 +1382,7 @@ bit of insight with you.
 00:16:57.116 --> 00:16:59.406 A:middle
 So, Sprite Kit is maintaining
 an internal texture cache.
+
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
@@ -1391,8 +1467,13 @@ It's the exact same API.
 You just reference its loose
 file name, you don't have
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:17:58.596 --> 00:18:01.536 A:middle
+You just reference its loose
+file name, you don't have
 
 00:18:01.536 --> 00:18:04.016 A:middle
 to worry about which
@@ -1472,8 +1553,13 @@ And second, we take loose files,
 loose files will have
 precedents over Texture Atlas.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:18:58.076 --> 00:19:00.406 A:middle
+loose files will have
+precedents over Texture Atlas.
 
 00:19:00.976 --> 00:19:03.236 A:middle
 So, having environment
@@ -1557,8 +1643,13 @@ Construct--
 the Class Initializer initialize
 an environment Texture Atlas.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:19:59.756 --> 00:20:03.636 A:middle
+the Class Initializer initialize
+an environment Texture Atlas.
 
 00:20:03.956 --> 00:20:06.056 A:middle
 We get number of
@@ -1619,6 +1710,7 @@ and drag in a--
 00:20:55.676 --> 00:20:59.176 A:middle
 or borrow some of the
 environment art from Adventure.
+
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
@@ -1688,8 +1780,12 @@ just build and run that.
 00:21:58.516 --> 00:22:02.676 A:middle
 [ Pause ]
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:21:58.516 --> 00:22:02.676 A:middle
+[ Pause ]
 
 00:22:03.176 --> 00:22:03.876 A:middle
 There you go.
@@ -1762,8 +1858,13 @@ animate the character.
 Let's drag in a Boss-- a packet
 animation into our scene.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:22:56.346 --> 00:23:01.726 A:middle
+Let's drag in a Boss-- a packet
+animation into our scene.
 
 00:23:01.876 --> 00:23:03.986 A:middle
 So make sure to copy
@@ -1823,13 +1924,69 @@ matches our folder name.
 We want to iterate through
 this Texture Atlas by look up,
 
-<HTML><HEAD>
-<TITLE>Request Timeout</TITLE>
-</HEAD><BODY>
-<H1>Request Timeout</H1>
-The server timed out while waiting for the browser's request.<P>
-Reference&#32;&#35;2&#46;455732b8&#46;1373789568&#46;0
-</BODY></HTML>
+
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:23:57.946 --> 00:24:02.366 A:middle
+We want to iterate through
+this Texture Atlas by look up,
+
+00:24:02.366 --> 00:24:03.576 A:middle
+how many names are there,
+
+00:24:04.296 --> 00:24:08.136 A:middle
+create a corresponding
+SKTexture instance
+
+00:24:09.816 --> 00:24:15.366 A:middle
+by using the Texture Named
+Selector, here you can see--
+
+00:24:16.516 --> 00:24:22.056 A:middle
+[ Pause ]
+
+00:24:22.556 --> 00:24:26.966 A:middle
+And now we want to add a
+Sprite node called Boss
+
+00:24:27.196 --> 00:24:29.696 A:middle
+and then we set this position
+to be the middle of the screen
+
+00:24:29.696 --> 00:24:33.386 A:middle
+and let's go ahead
+and add that in.
+
+00:24:33.386 --> 00:24:35.806 A:middle
+And we can build
+that and have a look.
+
+00:24:37.836 --> 00:24:38.496 A:middle
+There you go.
+
+00:24:38.606 --> 00:24:39.506 A:middle
+So now we have two nodes.
+
+00:24:41.046 --> 00:24:43.456 A:middle
+One is the tree, one is
+the Boss, so let's go ahead
+
+00:24:43.456 --> 00:24:49.246 A:middle
+and look at the Bundle.
+
+00:24:49.246 --> 00:24:51.466 A:middle
+And notice now, we have
+two compiled Texture Atlas
+
+00:24:51.556 --> 00:24:55.356 A:middle
+and for the Boss,
+42 animations packed
+
+00:24:55.356 --> 00:24:56.606 A:middle
+into a single Texture Atlas.
+
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
@@ -1885,8 +2042,13 @@ It's very simple.
 So now, I would like to
 show you the Build options.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:25:59.156 --> 00:26:01.606 A:middle
+So now, I would like to
+show you the Build options.
 
 00:26:01.976 --> 00:26:04.576 A:middle
 So if you go to Build
@@ -1970,8 +2132,13 @@ we also support particle systems
 that usually people found a very
 large number of small particles
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:26:58.056 --> 00:27:00.776 A:middle
+that usually people found a very
+large number of small particles
 
 00:27:00.776 --> 00:27:03.356 A:middle
 on the screen and
@@ -2045,8 +2212,13 @@ with CIFilters.
 So here, we have a trees
 demo from [inaudible] DC 2012
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:27:59.486 --> 00:28:02.516 A:middle
+So here, we have a trees
+demo from [inaudible] DC 2012
 
 00:28:02.516 --> 00:28:04.676 A:middle
 which was created using
@@ -2105,8 +2277,13 @@ bit deeper for particles.
 So the particle system is being
 heavily used for Adventure.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:28:57.156 --> 00:29:02.096 A:middle
+So the particle system is being
+heavily used for Adventure.
 
 00:29:02.676 --> 00:29:05.416 A:middle
 So the leaves, the
@@ -2181,8 +2358,13 @@ we provided a lot of properties.
 But the [inaudible] property is
 very time consuming therefore we
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:29:59.676 --> 00:30:03.776 A:middle
+But the [inaudible] property is
+very time consuming therefore we
 
 00:30:03.776 --> 00:30:05.896 A:middle
 build a particle
@@ -2254,6 +2436,7 @@ You can use it to apply some
 00:30:56.896 --> 00:30:59.846 A:middle
 of the properties of
 the SKEmitterNode.
+
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
@@ -2335,8 +2518,13 @@ interpolating that
 and you can just set directly
 on a scale of sequence
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:31:57.636 --> 00:32:00.586 A:middle
+and you can just set directly
+on a scale of sequence
 
 00:32:01.016 --> 00:32:05.766 A:middle
 and it will be affecting the
@@ -2403,8 +2591,13 @@ how do we load that at runtime?
 So what we do is we use
 NSKeyedUnarchiver and just say,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:32:54.836 --> 00:33:00.576 A:middle
+So what we do is we use
+NSKeyedUnarchiver and just say,
 
 00:33:00.576 --> 00:33:04.786 A:middle
 we want to unarchive BossDamage,
@@ -2484,8 +2677,13 @@ that you're looking after.
 So with this, I will
 start a quick demo
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:33:56.966 --> 00:34:01.516 A:middle
+So with this, I will
+start a quick demo
 
 00:34:01.516 --> 00:34:02.906 A:middle
 of using a particle system.
@@ -2541,8 +2739,12 @@ Use NSKeyed--
 00:34:57.516 --> 00:35:06.336 A:middle
 [ Pause ]
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:34:57.516 --> 00:35:06.336 A:middle
+[ Pause ]
 
 00:35:06.836 --> 00:35:11.076 A:middle
 -- Unarchive with file,
@@ -2580,8 +2782,12 @@ This is what the error is.
 00:35:57.516 --> 00:36:09.296 A:middle
 [ Pause ]
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:35:57.516 --> 00:36:09.296 A:middle
+[ Pause ]
 
 00:36:09.796 --> 00:36:12.076 A:middle
 All right, so every
@@ -2645,8 +2851,13 @@ bit better.
 And how about we-- now the Y
 value is a little bit flat,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:36:59.926 --> 00:37:04.616 A:middle
+And how about we-- now the Y
+value is a little bit flat,
 
 00:37:04.866 --> 00:37:05.806 A:middle
 let's go ahead and stretch
@@ -2710,8 +2921,13 @@ is only one time, I get hit,
 I spawned 200 particles and
 the particle will finish.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:37:57.486 --> 00:38:02.366 A:middle
+I spawned 200 particles and
+the particle will finish.
 
 00:38:02.606 --> 00:38:05.746 A:middle
 So, let's-- we can set
@@ -2780,6 +2996,7 @@ that's being able to--
 00:38:57.506 --> 00:38:59.596 A:middle
 that we have to do unless
 you're making the demo too.
+
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
@@ -2872,8 +3089,13 @@ nodes, anything that's
 in the game is really
 a sub class of SKNode,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:39:58.946 --> 00:40:01.076 A:middle
+in the game is really
+a sub class of SKNode,
 
 00:40:01.076 --> 00:40:01.966 A:middle
 it's a good way of doing it.
@@ -2960,8 +3182,13 @@ was easy to do.
 We have our little root
 object which is the roots
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:40:59.926 --> 00:41:01.856 A:middle
+We have our little root
+object which is the roots
 
 00:41:01.856 --> 00:41:04.196 A:middle
 of the actual ParallaxNode
@@ -3044,8 +3271,13 @@ to talk about how we
 So, if we look at the SKNode
 and how it's actually set up,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:41:58.736 --> 00:42:01.386 A:middle
+So, if we look at the SKNode
+and how it's actually set up,
 
 00:42:01.386 --> 00:42:04.006 A:middle
 you can see that the SKNode is,
@@ -3128,8 +3360,13 @@ So, we also have the character--
 the trees fade as the
 character approaches that.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:42:59.196 --> 00:43:01.696 A:middle
+the trees fade as the
+character approaches that.
 
 00:43:01.696 --> 00:43:02.466 A:middle
 So how do we do that?
@@ -3227,8 +3464,12 @@ if my guy is standing
 00:43:58.846 --> 00:44:00.646 A:middle
 on black, he can move around.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:43:58.846 --> 00:44:00.646 A:middle
+on black, he can move around.
 
 00:44:00.926 --> 00:44:03.106 A:middle
 My guy is standing
@@ -3313,8 +3554,13 @@ as zero lines of code.
 There is a little bit of set up
 and that's full lines of code.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:44:57.416 --> 00:45:03.146 A:middle
+There is a little bit of set up
+and that's full lines of code.
 
 00:45:03.616 --> 00:45:05.616 A:middle
 So we have a rectangle
@@ -3406,8 +3652,13 @@ or art which is, you know,
 that's awesome, because, you
 know, Graeme will give me a PNG
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:45:59.936 --> 00:46:06.196 A:middle
+that's awesome, because, you
+know, Graeme will give me a PNG
 
 00:46:06.196 --> 00:46:08.446 A:middle
 that is the right
@@ -3485,8 +3736,13 @@ the coastline and you see part
 of the ocean, don't build
 the whole ocean, you know,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:46:58.836 --> 00:47:01.086 A:middle
+of the ocean, don't build
+the whole ocean, you know,
 
 00:47:01.086 --> 00:47:03.346 A:middle
 just get what you need
@@ -3565,8 +3821,13 @@ on alpha, tap down Renders
 in Maya, frame by frame out as
 sequential PNGs to a folder.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:47:56.436 --> 00:48:00.516 A:middle
+in Maya, frame by frame out as
+sequential PNGs to a folder.
 
 00:48:01.016 --> 00:48:04.316 A:middle
 And so this was our-- our fix,
@@ -3640,8 +3901,13 @@ been hearing about.
 This was kind of-- this is
 that wind that I was talking
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:48:57.536 --> 00:49:00.186 A:middle
+This was kind of-- this is
+that wind that I was talking
 
 00:49:00.186 --> 00:49:03.336 A:middle
 about where we have-- it's a
@@ -3728,8 +3994,13 @@ like naming schemes.
 You don't think that these
 things, I just want to make game
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:49:57.456 --> 00:50:00.166 A:middle
+You don't think that these
+things, I just want to make game
 
 00:50:00.166 --> 00:50:01.286 A:middle
 and pull the structure.
@@ -3815,8 +4086,13 @@ the art that you provide
 to us is an invaluable
 tool of communication.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:50:58.466 --> 00:51:02.796 A:middle
+to us is an invaluable
+tool of communication.
 
 00:51:02.796 --> 00:51:07.086 A:middle
 It allows us to iterate back and
@@ -3889,8 +4165,13 @@ Xcode does a lot of the work
 for you and puts things nicely
 into groups and so forth,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:51:59.316 --> 00:52:01.546 A:middle
+for you and puts things nicely
+into groups and so forth,
 
 00:52:01.546 --> 00:52:04.156 A:middle
 resources, but that is not
@@ -3969,8 +4250,13 @@ no spaces,
 and then we pad our revision
 by four because you never know
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:52:55.656 --> 00:53:00.186 A:middle
+and then we pad our revision
+by four because you never know
 
 00:53:00.186 --> 00:53:04.696 A:middle
 when you're going to have 9,999
@@ -4055,8 +4341,13 @@ industry, I never worked
 in my life and that's what
 we do every single day.
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:53:59.896 --> 00:54:04.016 A:middle
+in my life and that's what
+we do every single day.
 
 00:54:05.336 --> 00:54:06.456 A:middle
 So, let's go over
@@ -4126,8 +4417,13 @@ a really cool effect
 or really great looking game out
 of just hardly any resource used
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:54:58.406 --> 00:55:03.336 A:middle
+or really great looking game out
+of just hardly any resource used
 
 00:55:03.336 --> 00:55:07.756 A:middle
 at all, you know, well first off
@@ -4203,8 +4499,12 @@ can be serialize and deserialize
 00:55:59.046 --> 00:56:00.566 A:middle
 to the disk or to the iCloud
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:55:59.046 --> 00:56:00.566 A:middle
+to the disk or to the iCloud
 
 00:56:00.646 --> 00:56:02.356 A:middle
 over the network,
@@ -4275,8 +4575,13 @@ manipulations.
 So if user drag and drop
 some tiles on there,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:56:59.306 --> 00:57:01.536 A:middle
+So if user drag and drop
+some tiles on there,
 
 00:57:01.536 --> 00:57:03.766 A:middle
 you can make it the
@@ -4360,8 +4665,13 @@ trail for beginners to learn
 from their mistakes, "Hey,
 this how far I'm hitting
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:57:58.116 --> 00:58:00.776 A:middle
+from their mistakes, "Hey,
+this how far I'm hitting
 
 00:58:00.776 --> 00:58:02.256 A:middle
 and this is the projectile
@@ -4438,8 +4748,13 @@ layout for your text.
 So, we do provide a SKLabelNode
 for a one line that UI allow you
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:58:58.356 --> 00:59:02.826 A:middle
+So, we do provide a SKLabelNode
+for a one line that UI allow you
 
 00:59:02.826 --> 00:59:06.656 A:middle
 to animate that before any
@@ -4526,8 +4841,13 @@ is great.
 You just drag a folder in
 and you have, therefore,
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+00:59:58.406 --> 01:00:01.646 A:middle
+You just drag a folder in
+and you have, therefore,
 
 01:00:01.646 --> 01:00:03.236 A:middle
 you have your Texture Atlas.
@@ -4605,8 +4925,13 @@ into different scenes.
 Once if you treat scenes as
 the fundamental building block
 
+
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+
+01:00:55.136 --> 01:01:00.086 A:middle
+Once if you treat scenes as
+the fundamental building block
 
 01:01:00.146 --> 01:01:03.256 A:middle
 for your games, you can
@@ -4655,4 +4980,3 @@ and have a great WWDC 2013.
 
 01:01:29.786 --> 01:01:36.420 A:middle
 [Applause]
-
