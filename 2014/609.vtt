@@ -7,12 +7,13 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 00:00:17.646 --> 00:00:18.096 A:middle
 &gt;&gt; Thank you.
 
-00:00:18.396 --> 00:00:20.106 A:middle
-So, good morning, everyone,
+00:00:18.396 --> 00:00:21.336 A:middle
+So, good morning,
+everyone, and welcome to the
 
-00:00:20.386 --> 00:00:23.156 A:middle
-and welcome to the What's
-New in SceneKit session.
+00:00:21.336 --> 00:00:23.156 A:middle
+"What's New in SceneKit"
+session.
 
 00:00:24.476 --> 00:00:28.686 A:middle
 So, SceneKit is a
@@ -28,7 +29,7 @@ different purposes, like UI,
 
 00:00:36.846 --> 00:00:39.866 A:middle
 data visualization, or
-presentations, like here;
+presentations, like here,
 
 00:00:39.866 --> 00:00:44.836 A:middle
 and now with this release
@@ -115,7 +116,7 @@ year is applicable now on iOS.
 
 00:01:49.426 --> 00:01:52.236 A:middle
 Then this session is about
-What's New in SceneKit.
+"What's New in SceneKit."
 
 00:01:52.236 --> 00:01:56.126 A:middle
 We also have a more hands-on
@@ -178,7 +179,7 @@ And then I will present the
 steps to create an application
 
 00:02:33.576 --> 00:02:36.826 A:middle
-that uses SceneKit and I
+that uses SceneKit, and I
 will present the new features
 
 00:02:37.006 --> 00:02:37.746 A:middle
@@ -203,7 +204,7 @@ that's the equivalent
 of SKScene.
 
 00:02:51.756 --> 00:02:54.506 A:middle
-So that's the top-level object,
+So that's [inaudible] object,
 and the scene has a root node
 
 00:02:54.726 --> 00:02:58.866 A:middle
@@ -221,16 +222,19 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 A node may have some child
 nodes that are related
 
-00:03:02.646 --> 00:03:05.936 A:middle
+00:03:02.646 --> 00:03:04.196 A:middle
 to their parent node, just
+
+00:03:04.196 --> 00:03:06.706 A:middle
 like SKNode are related
+to their parent node.
 
-00:03:05.936 --> 00:03:09.276 A:middle
-to their parent node, and then,
+00:03:07.256 --> 00:03:11.216 A:middle
+And then, a node by
+itself doesn't render
 
-00:03:09.376 --> 00:03:12.126 A:middle
-a node by itself doesn't
-render anything onscreen.
+00:03:11.216 --> 00:03:12.126 A:middle
+anything onscreen.
 
 00:03:12.296 --> 00:03:14.076 A:middle
 It's just a location
@@ -253,7 +257,7 @@ So attributes you can
 attach as the following:
 
 00:03:24.976 --> 00:03:28.306 A:middle
-you can attach a light
+You can attach a light
 or a camera or geometry.
 
 00:03:29.046 --> 00:03:32.346 A:middle
@@ -288,12 +292,12 @@ It represents a geometry, so
 a set of triangles, vertices,
 
 00:03:54.976 --> 00:03:56.406 A:middle
-normals, and texture
+no more than textural
 coordinates,
 
 00:03:57.026 --> 00:03:58.626 A:middle
 and it has also a
-a number of materials
+[inaudible] of materials
 
 00:03:58.626 --> 00:04:00.666 A:middle
 that controls the
@@ -315,15 +319,15 @@ attribute is SCNLight.
 It represents a light source.
 
 00:04:07.056 --> 00:04:11.006 A:middle
-We support 4 types of lights:
+We support four types of lights:
 to illuminate from a point,
 
 00:04:11.356 --> 00:04:14.536 A:middle
-in a direction, as a spot,
-or equal in every directions
+in a direction, as a spot
+[inaudible] directions,
 
 00:04:15.146 --> 00:04:16.805 A:middle
-with the ambient light.
+and with the ambient light.
 
 00:04:17.476 --> 00:04:20.286 A:middle
 Then, next attribute, SCNCamera.
@@ -375,7 +379,7 @@ Then you attach geometries
 to these nodes
 
 00:04:54.416 --> 00:04:55.826 A:middle
-to render surfaces on-screen.
+to render surfaces onscreen.
 
 00:04:56.656 --> 00:04:58.096 A:middle
 Then you configure the materials
@@ -463,10 +467,10 @@ let's see how to create one.
 
 00:05:55.416 --> 00:05:58.006 A:middle
 So, to create a scene, you
-have basically 2 options:
+have basically two options:
 
 00:05:58.006 --> 00:06:00.016 A:middle
-you can user-create
+You can user-create
 everything programmatically,
 
 
@@ -474,7 +478,7 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.006 --> 00:06:00.016 A:middle
-you can user-create
+You can user-create
 everything programmatically,
 
 00:06:00.596 --> 00:06:01.956 A:middle
@@ -498,7 +502,7 @@ You can configure the
 parameters, like width, length,
 
 00:06:17.686 --> 00:06:20.076 A:middle
-height, corner radius,
+height, [inaudible],
 segment count, etcetera.
 
 00:06:21.086 --> 00:06:25.406 A:middle
@@ -522,7 +526,7 @@ You can also use SCNShape
 to create a 3D object
 
 00:06:38.716 --> 00:06:42.946 A:middle
-from a 2D Bezier path by
+from a 2D Bezier pass by
 extruding it and chamfering it.
 
 00:06:42.946 --> 00:06:45.096 A:middle
@@ -581,16 +585,16 @@ on the left you have the
 model not subdivided yet,
 
 00:07:22.236 --> 00:07:25.266 A:middle
-and on the right with 1
+and on the right with one
 iteration of subdivision.
 
-00:07:25.756 --> 00:07:30.776 A:middle
+00:07:25.756 --> 00:07:30.626 A:middle
 Okay, so that to create
-scenes programmatically; now,
+scenes programmatically.
 
-00:07:30.776 --> 00:07:32.796 A:middle
-you can also load a
-scene from a file.
+00:07:30.626 --> 00:07:32.796 A:middle
+Now, you can also load
+a scene from a file.
 
 00:07:33.526 --> 00:07:37.026 A:middle
 And loading a scene from a file
@@ -638,10 +642,10 @@ with the extension .abc.
 
 00:08:05.906 --> 00:08:09.946 A:middle
 So, Alembic is quite popular in
-the video industry, for example,
+the video industry, for example.
 
 00:08:10.736 --> 00:08:12.696 A:middle
-and with Alembic you
+And with Alembic you
 can load geometries
 
 00:08:12.696 --> 00:08:14.096 A:middle
@@ -710,7 +714,7 @@ Once you have your
 scene ready to load it
 
 00:09:01.806 --> 00:09:03.546 A:middle
-at run time, it's easy.
+at one time, it's easy.
 
 00:09:03.546 --> 00:09:06.736 A:middle
 You first add your COLLADA
@@ -726,7 +730,7 @@ to load it, or Scene with URL.
 
 00:09:18.116 --> 00:09:21.586 A:middle
 New in this release, we also
-provide an alternate way
+provide an alternative way
 
 00:09:21.586 --> 00:09:22.656 A:middle
 to manage your assets,
@@ -748,7 +752,7 @@ if you put your assets in it,
 Xcode will copy this folder
 
 00:09:39.116 --> 00:09:42.496 A:middle
-at build-time by preserving
+at build time by preserving
 your folder hierarchy.
 
 00:09:43.716 --> 00:09:44.786 A:middle
@@ -789,14 +793,14 @@ give you some options
 
 00:10:03.676 --> 00:10:08.016 A:middle
 because the Assets Catalogs
-are processed at build-time,
+are processed at build time,
 
 00:10:08.446 --> 00:10:11.676 A:middle
 and so you have options
 to optimize your assets
 
 00:10:12.116 --> 00:10:16.766 A:middle
-at build-time by, for example,
+at build time by, for example,
 interleaving the geometry data
 
 00:10:16.996 --> 00:10:22.496 A:middle
@@ -831,7 +835,7 @@ reflect your changes.
 
 00:10:44.666 --> 00:10:47.346 A:middle
 There is no need to call
-setNeedsDisplay,
+[inaudible] display,
 
 00:10:47.956 --> 00:10:49.906 A:middle
 for example.
@@ -911,10 +915,10 @@ frame when your game runs.
 
 00:11:44.286 --> 00:11:48.396 A:middle
 So it's the combination of
-delegate method that we call
+delegate method that we call,
 
 00:11:48.396 --> 00:11:51.646 A:middle
-and you implement and some
+and you implement, and some
 SceneKit internal processes,
 
 00:11:51.746 --> 00:11:52.996 A:middle
@@ -945,7 +949,7 @@ these callbacks essentially
 
 00:12:07.826 --> 00:12:11.876 A:middle
 for performance reasons, because
-when these callback are called,
+when these callbacks are called,
 
 00:12:12.116 --> 00:12:15.016 A:middle
 the scene is already
@@ -972,13 +976,13 @@ some callbacks to be notified
 00:12:29.336 --> 00:12:30.636 A:middle
 when the animations did apply
 
-00:12:30.636 --> 00:12:32.976 A:middle
-and when the physics did
-stimulate if you need
+00:12:30.636 --> 00:12:32.086 A:middle
+and when the physics
+did simulate,
 
-00:12:32.976 --> 00:12:36.356 A:middle
-to do whatever actions
-after these operations.
+00:12:32.526 --> 00:12:36.356 A:middle
+if you need to do whatever
+actions after these operations.
 
 00:12:37.456 --> 00:12:39.296 A:middle
 So, that's for per-frame
@@ -1017,16 +1021,19 @@ So, for implicit animations, it
 works just like Core Animations:
 
 00:13:03.546 --> 00:13:07.756 A:middle
-you first start a transaction
+You first start a transaction
 with a given duration,
 
 00:13:08.836 --> 00:13:10.846 A:middle
 then you modify whatever
 property you want
 
-00:13:10.846 --> 00:13:13.846 A:middle
-on the scene graph, and
-last you commit your changes
+00:13:10.846 --> 00:13:11.666 A:middle
+on the scene graph.
+
+00:13:12.426 --> 00:13:13.846 A:middle
+And last, you commit
+your changes
 
 00:13:13.996 --> 00:13:15.396 A:middle
 and it animates implicitly.
@@ -1057,13 +1064,15 @@ rotation of my node,
 then I configure its duration,
 its destination value,
 
-00:13:38.696 --> 00:13:41.946 A:middle
-and set it to repeat forever,
-and finally, I add my animation
+00:13:38.696 --> 00:13:39.986 A:middle
+and set it to repeat forever.
 
-00:13:41.946 --> 00:13:45.626 A:middle
-with addAnimation forKey -
-so, just like Core Animation.
+00:13:40.366 --> 00:13:43.596 A:middle
+And finally, I add my animation
+with addAnimation forKey - so,
+
+00:13:43.596 --> 00:13:45.626 A:middle
+just like Core Animation.
 
 00:13:46.006 --> 00:13:48.536 A:middle
 And it makes my nodes to
@@ -1107,16 +1116,17 @@ example, is to play a sound
 at some progress
 in the animation.
 
-00:14:19.626 --> 00:14:25.336 A:middle
-For example, here, I'm playing
-a sound at 60% of my animation,
+00:14:19.626 --> 00:14:23.666 A:middle
+For example, here, I'm
+playing a sound at 60 percent
 
-00:14:25.336 --> 00:14:29.246 A:middle
-so if I press Next, you
-can see it calls my block
+00:14:24.206 --> 00:14:26.406 A:middle
+of my animation,
+so if I press Next,
 
-00:14:29.246 --> 00:14:31.116 A:middle
-at 60% and plays that sound.
+00:14:26.836 --> 00:14:31.116 A:middle
+you can see it calls my block at
+60 percent and plays that sound.
 
 00:14:31.986 --> 00:14:33.566 A:middle
 So that's the first addition,
@@ -1163,10 +1173,10 @@ of the attack animation.
 
 00:15:03.556 --> 00:15:06.246 A:middle
 Okay, so this is not super
-smooth, not really great,
+smooth, not really great.
 
 00:15:07.376 --> 00:15:10.726 A:middle
-and if I simply configure
+And if I simply configure
 the fadeInDuration
 
 00:15:10.726 --> 00:15:12.936 A:middle
@@ -1220,7 +1230,7 @@ you already know SKAction.
 
 00:15:47.886 --> 00:15:50.346 A:middle
 Here, SCNAnimations
-just work the same.
+just works the same.
 
 00:15:50.856 --> 00:15:53.566 A:middle
 And the main advantage
@@ -1263,9 +1273,12 @@ my node to rotate forever.
 So with just one line of
 code, it's the equivalent
 
-00:16:23.786 --> 00:16:26.906 A:middle
-of the previous slide with Core
-Animation with 6 lines of code.
+00:16:23.786 --> 00:16:25.716 A:middle
+of the previous slide
+with Core Animation
+
+00:16:25.716 --> 00:16:26.906 A:middle
+with six lines of code.
 
 00:16:27.486 --> 00:16:28.466 A:middle
 So that's much simpler.
@@ -1329,7 +1342,7 @@ of any running animation.
 
 00:17:09.846 --> 00:17:14.346 A:middle
 So, the red dot here
-presents node.position.
+represents node.position.
 
 00:17:14.866 --> 00:17:19.076 A:middle
 You can see that, with actions,
@@ -1407,16 +1420,16 @@ with the physics simulation.
 Now, dynamic bodies
 automatically bounce
 
-00:18:21.496 --> 00:18:24.686 A:middle
-and collide together based on
-their physicsBody properties,
+00:18:21.496 --> 00:18:23.126 A:middle
+and collide together based
 
-00:18:25.316 --> 00:18:29.336 A:middle
-it's automatic, and
-then if you want
+00:18:23.126 --> 00:18:26.846 A:middle
+on their physicsBody
+properties, it's automatic.
 
-00:18:29.336 --> 00:18:31.036 A:middle
-to manipulate those objects,
+00:18:28.246 --> 00:18:31.036 A:middle
+And then if you want to
+manipulate those objects,
 
 00:18:31.706 --> 00:18:35.096 A:middle
 you should not set the position
@@ -1439,8 +1452,8 @@ So for example here, if I
 apply a force from the center
 
 00:18:48.526 --> 00:18:51.326 A:middle
-of the scene to all these cubes,
-I will make them to go away.
+of the scene to all these
+cubes, I will make them go away.
 
 00:18:51.846 --> 00:18:51.946 A:middle
 Okay.
@@ -1524,15 +1537,15 @@ that is set as a kinematic body.
 
 00:19:53.796 --> 00:19:56.506 A:middle
 I can make it to rotate
-with an action, for example,
+with an action, for example.
 
 00:19:56.996 --> 00:19:58.976 A:middle
-and you can see that it
+And you can see that it
 automatically collides
 
 00:19:58.976 --> 00:20:02.616 A:middle
 with dynamic spheres here
-and make them bounce.
+and makes them bounce.
 
 
 WEBVTT
@@ -1540,7 +1553,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.976 --> 00:20:02.616 A:middle
 with dynamic spheres here
-and make them bounce.
+and makes them bounce.
 
 00:20:05.546 --> 00:20:07.586 A:middle
 Okay, so that's for
@@ -1575,7 +1588,7 @@ build a shape for these teapots
 
 00:20:30.286 --> 00:20:31.966 A:middle
 by building the convex
-hull for you.
+hull [phonetic] for you.
 
 00:20:33.096 --> 00:20:37.146 A:middle
 That said, you can still
@@ -1594,10 +1607,10 @@ primitive for the shape,
 
 00:20:44.286 --> 00:20:47.156 A:middle
 it will be more efficient
-than the convex hull,
+than the convex hull.
 
 00:20:47.156 --> 00:20:49.936 A:middle
-and the second reason can
+And the second reason can
 be for better correctness.
 
 00:20:50.706 --> 00:20:54.126 A:middle
@@ -1624,11 +1637,11 @@ geometry.
 So, here are the primitives
 that are natively supported
 
-00:21:05.566 --> 00:21:08.546 A:middle
-by the physics engine,
-so spheres as usual,
+00:21:05.566 --> 00:21:06.576 A:middle
+by the physics engine.
 
-00:21:08.546 --> 00:21:10.126 A:middle
+00:21:07.266 --> 00:21:10.126 A:middle
+So spheres as usual,
 spheres and boxes, etcetera.
 
 00:21:10.936 --> 00:21:12.936 A:middle
@@ -1717,7 +1730,7 @@ behavior.
 
 00:22:21.886 --> 00:22:25.326 A:middle
 When I touch the screen, I will
-apply a force on the wheels
+apply a force on the wheels,
 
 00:22:26.026 --> 00:22:27.576 A:middle
 and so we'll be able
@@ -1729,11 +1742,11 @@ steering of my vehicle
 
 00:22:32.966 --> 00:22:35.886 A:middle
 with the accelerometer and
-also with the game controller,
+also with the game controller.
 
 00:22:36.546 --> 00:22:39.516 A:middle
-and the first thing
-you can see , well,
+And the first thing
+you can see, well,
 
 00:22:39.516 --> 00:22:41.216 A:middle
 the first thing you can see
@@ -1767,7 +1780,7 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.486 --> 00:23:05.726 A:middle
-And -- okay, then you can also
+And - okay, then you can also
 notice the train here is made
 
 00:23:05.726 --> 00:23:08.726 A:middle
@@ -1858,8 +1871,8 @@ Ah! Okay, and you can
 see that the transition
 
 00:24:00.966 --> 00:24:03.736 A:middle
-between the 2 point of view is
-smooth because it's just done
+between the two points of view
+is smooth because it's just done
 
 00:24:03.736 --> 00:24:06.896 A:middle
 between using an
@@ -1913,13 +1926,12 @@ constraints will never modify
 your model tree, so
 models that you set
 
-00:24:43.136 --> 00:24:45.966 A:middle
-and get programmatically,
-it will be applied
+00:24:43.136 --> 00:24:44.096 A:middle
+and get programmatically.
 
-00:24:45.966 --> 00:24:47.696 A:middle
-at the very last
-moment of the rendering.
+00:24:45.136 --> 00:24:47.696 A:middle
+It will be applied at the very
+last moment of the rendering.
 
 00:24:48.546 --> 00:24:52.106 A:middle
 We support custom constraints
@@ -2027,13 +2039,13 @@ adding one more constraint
 00:26:01.916 --> 00:26:04.046 A:middle
 that we named SCNIKConstraint.
 
-00:26:04.526 --> 00:26:09.936 A:middle
+00:26:04.526 --> 00:26:06.566 A:middle
 IK stands for inverse
-kinematics, and this one is hard
+kinematics.
 
-00:26:10.016 --> 00:26:13.896 A:middle
-to explain by a French
-guy, but I'll try.
+00:26:08.386 --> 00:26:13.896 A:middle
+And this one is hard to explain
+by a French guy, but I'll try.
 
 00:26:13.896 --> 00:26:17.066 A:middle
 IK constraints apply
@@ -2044,8 +2056,8 @@ The node chain is specified as
 a base node and a root node,
 
 00:26:21.226 --> 00:26:24.156 A:middle
-and the 2 nodes must be
-in the same hierarchy.
+and the two nodes must
+be in the same hierarchy.
 
 00:26:25.676 --> 00:26:28.516 A:middle
 The IK constraints
@@ -2098,15 +2110,15 @@ By default, it will
 just miss the target.
 
 00:27:03.786 --> 00:27:10.376 A:middle
-Now, I can use an IK
-constraint to move the lift
+Now, I can use an
+IKConstraint to move the lift
 
 00:27:10.376 --> 00:27:12.696 A:middle
 of my node chain in the
 direction of that target,
 
 00:27:12.876 --> 00:27:15.306 A:middle
-and the IK constraint will
+and the IKConstraint will
 automatically make sure
 
 00:27:15.306 --> 00:27:19.416 A:middle
@@ -2115,14 +2127,14 @@ the shoulder stay consistent.
 
 00:27:19.946 --> 00:27:25.836 A:middle
 And I can also modulate the
-effect of the IK constraints
+effect of the IKConstraints
 
 00:27:25.836 --> 00:27:29.406 A:middle
 over time by modifying
 the influence factor
 
 00:27:29.406 --> 00:27:34.076 A:middle
-of the IK constraint to make
+of the IKConstraint to make
 its effect increase during
 
 00:27:34.076 --> 00:27:34.666 A:middle
@@ -2160,7 +2172,7 @@ follows the target.
 
 00:27:54.466 --> 00:27:56.586 A:middle
 I can still use the
-IK constraints
+IKConstraints
 
 00:27:56.586 --> 00:27:58.866 A:middle
 to hit the target like this.
@@ -2228,11 +2240,11 @@ like in JavaScript,
 you can do everything:
 
 00:28:47.236 --> 00:28:50.276 A:middle
-you can allocate objects, modify
-whatever properties of course,
+You can allocate objects, modify
+whatever properties of course.
 
 00:28:50.926 --> 00:28:53.006 A:middle
-you can modify the
+You can modify the
 scene graph if you want,
 
 00:28:53.006 --> 00:28:56.266 A:middle
@@ -2261,10 +2273,10 @@ have at any time to be able
 
 00:29:09.056 --> 00:29:11.316 A:middle
 to write a script in a
-console to debug your game
+consult to debug your game
 
 00:29:11.666 --> 00:29:14.626 A:middle
-or to have it console
+or to have it consult
 in your own tools,
 
 00:29:15.106 --> 00:29:16.376 A:middle
@@ -2378,7 +2390,7 @@ A normal map is used
 to simulate a mountain,
 
 00:30:48.746 --> 00:30:52.536 A:middle
-while an emission maps display
+while an emission map displays
 the city lights shining even
 
 00:30:52.536 --> 00:30:53.046 A:middle
@@ -2400,10 +2412,10 @@ on a separate object.
 
 00:31:02.456 --> 00:31:04.256 A:middle
 All these properties
-uses instances
+uses [inaudible]
 
 00:31:04.396 --> 00:31:07.186 A:middle
-of SCNMaterialProperty class.
+of SCNMaterialsProperty class.
 
 00:31:08.236 --> 00:31:12.816 A:middle
 Let's see how we can
@@ -2419,7 +2431,7 @@ can set an image.
 
 00:31:22.896 --> 00:31:27.396 A:middle
 The easiest way to set an
-image is using an image path,
+image is using an image pass,
 
 00:31:27.636 --> 00:31:29.966 A:middle
 either using an NS
@@ -2445,8 +2457,8 @@ This will allow you to use the
 cool features of SpriteKit,
 
 00:31:52.166 --> 00:31:55.286 A:middle
-like [inaudible],
-procedural node generation,
+like atlases, procedural
+node generation,
 
 00:31:55.456 --> 00:31:59.296 A:middle
 and automatic normal
@@ -2470,7 +2482,7 @@ using a SKVideo node.
 
 00:32:17.356 --> 00:32:20.696 A:middle
 For the reflective property,
-we also support cube maps.
+we [inaudible] cube maps.
 
 00:32:21.496 --> 00:32:22.426 A:middle
 Cube maps are useful
@@ -2479,13 +2491,12 @@ Cube maps are useful
 to represent a complete
 environment.
 
-00:32:25.956 --> 00:32:28.946 A:middle
-To set a cube map
-on the property,
+00:32:25.956 --> 00:32:29.936 A:middle
+To set a cube map on the
+property, simply set an array
 
-00:32:28.946 --> 00:32:31.696 A:middle
-simply set an array
-of 6 separate images.
+00:32:29.936 --> 00:32:31.696 A:middle
+of six separate images.
 
 00:32:37.596 --> 00:32:40.906 A:middle
 If you want to customize the
@@ -2531,7 +2542,7 @@ Here are some examples
 of shader modifiers.
 
 00:33:08.446 --> 00:33:11.456 A:middle
-The first, Ripple Effect is
+The first, Ripple Effect, is
 working at the geometry stage.
 
 00:33:12.456 --> 00:33:15.076 A:middle
@@ -2543,7 +2554,7 @@ while the Rim Lighting Effect is
 obviously at the lighting stage.
 
 00:33:20.746 --> 00:33:25.446 A:middle
-Finally, we fake an old TV interlacing
+Finally, we fake a [inaudible]
 mode using a fragment modifier.
 
 00:33:26.616 --> 00:33:30.856 A:middle
@@ -2567,11 +2578,11 @@ These are GLSL programs like
 Vertex and Fragment shaders,
 
 00:33:48.236 --> 00:33:53.316 A:middle
-and new this year but
+and new this year, but
 only on OS X, geometry
 
 00:33:53.316 --> 00:33:56.736 A:middle
-and tessellation shaders
+and [inaudible] shaders
 are supported too.
 
 00:33:57.066 --> 00:33:59.826 A:middle
@@ -2689,14 +2700,14 @@ with particles.
 
 00:35:35.676 --> 00:35:39.126 A:middle
 Particle systems are commonly
-used in movies and videogames
+used in movies and video games
 
-00:35:39.896 --> 00:35:43.556 A:middle
+00:35:39.896 --> 00:35:42.926 A:middle
 to simulate a large class
-of effects, like fire, rain,
+of effects, like fire,
 
-00:35:43.636 --> 00:35:44.826 A:middle
-smoke, and explosions.
+00:35:43.146 --> 00:35:44.826 A:middle
+rain, smoke and explosions.
 
 00:35:45.656 --> 00:35:49.546 A:middle
 In this release, we introduce
@@ -2790,11 +2801,11 @@ with nodes of any shapes.
 
 00:37:01.076 --> 00:37:03.356 A:middle
 Just beware of your
-triangle counts, though.
+[inaudible], though.
 
 00:37:07.206 --> 00:37:11.446 A:middle
-Particles can be
-affected by physics fields
+Particles can be affected
+by physics fields,
 
 00:37:11.986 --> 00:37:15.446 A:middle
 like this turbulence field
@@ -2810,7 +2821,7 @@ deaths or collision.
 
 00:37:29.276 --> 00:37:33.536 A:middle
 Here, each raindrop
-generates a sub-splash system
+generates a subsplash system
 
 00:37:33.826 --> 00:37:34.946 A:middle
 when hitting the floor.
@@ -2823,7 +2834,7 @@ block on this particle event
 or on each simulation step.
 
 00:37:44.696 --> 00:37:47.436 A:middle
-Here, the confettis are
+Here, the confetti are
 laid down and stand still
 
 00:37:47.846 --> 00:37:48.926 A:middle
@@ -2838,7 +2849,7 @@ or from the surface
 of any shape.
 
 00:37:59.246 --> 00:38:01.976 A:middle
-These shapes are represented
+This shape I represented
 using standard geometries.
 
 
@@ -2846,7 +2857,7 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.246 --> 00:38:01.976 A:middle
-These shapes are represented
+This shape I represented
 using standard geometries.
 
 00:38:02.896 --> 00:38:04.766 A:middle
@@ -2896,7 +2907,7 @@ to later load in your app.
 
 00:38:47.296 --> 00:38:51.146 A:middle
 One of the most important
-visual cue regarding depths
+visual cues regarding depths
 
 00:38:51.146 --> 00:38:52.896 A:middle
 and contact is shadows,
@@ -2918,7 +2929,7 @@ The first way is to
 directly bake your shadow map
 
 00:39:03.436 --> 00:39:05.016 A:middle
-into your authoring tool.
+into your altering tool.
 
 00:39:05.866 --> 00:39:08.866 A:middle
 Then, you will use them
@@ -2929,7 +2940,7 @@ of your receiving materials.
 
 00:39:12.406 --> 00:39:15.136 A:middle
 While this provides the
-best looking shadows,
+best-looking shadows,
 
 00:39:16.446 --> 00:39:20.966 A:middle
 and they are quite efficient
@@ -2968,7 +2979,7 @@ but have a limited GPU budget,
 
 00:39:56.206 --> 00:39:58.046 A:middle
 you can also use
-projected shadows
+projected shadows,
 
 00:39:58.646 --> 00:40:03.626 A:middle
 where a simple texture will fake
@@ -3012,7 +3023,7 @@ in games is the use
 of depth of field.
 
 00:40:35.996 --> 00:40:38.786 A:middle
-Here again, with SceneKit
+Here again, with SceneKit,
 it's really easy to do.
 
 00:40:39.196 --> 00:40:42.236 A:middle
@@ -3020,7 +3031,7 @@ All you have to do is tweak
 a few focal properties
 
 00:40:42.236 --> 00:40:46.106 A:middle
-on the camera and you can
+on the camera, and you can
 achieve effects like out
 
 00:40:46.106 --> 00:40:50.866 A:middle
@@ -3067,11 +3078,11 @@ release that I wanted to talk
 
 00:41:24.626 --> 00:41:29.276 A:middle
 about is the addition
-of multi-pass technique.
+of multipass technique.
 
 00:41:29.556 --> 00:41:32.106 A:middle
 Shadows, Core Image
-filter, depth of field,
+filter, depth of field -
 
 00:41:32.376 --> 00:41:35.326 A:middle
 all of these are internally
@@ -3158,13 +3169,17 @@ your application.
 Let's see how to
 create a technique.
 
-00:42:40.116 --> 00:42:43.756 A:middle
-The easiest way is to load it
-from a dictionary usually coming
+00:42:40.116 --> 00:42:43.006 A:middle
+The easiest way is to
+load it from a dictionary,
 
-00:42:43.756 --> 00:42:46.626 A:middle
-from a property list, but
-you can also create technique
+00:42:43.126 --> 00:42:44.676 A:middle
+usually coming from
+a property list,
+
+00:42:45.346 --> 00:42:46.626 A:middle
+but you can also
+create technique
 
 00:42:46.626 --> 00:42:48.926 A:middle
 by chaining several
@@ -3175,7 +3190,7 @@ When you have a technique,
 simply set it
 
 00:42:51.736 --> 00:42:53.716 A:middle
-to a view and you're done.
+to a view, and you're done.
 
 00:42:55.516 --> 00:42:57.506 A:middle
 Here's an example
@@ -3201,7 +3216,7 @@ Then a second pass takes the
 color buffer from the first one
 
 00:43:10.656 --> 00:43:13.046 A:middle
-and generates a blurred
+and generates a blow-up
 version of it.
 
 00:43:13.316 --> 00:43:17.206 A:middle
@@ -3209,7 +3224,7 @@ Finally, the third pass
 combines the normal color buffer
 
 00:43:17.206 --> 00:43:21.566 A:middle
-and the blurred one
+and the blowed one
 using the depth buffer
 
 00:43:21.566 --> 00:43:22.586 A:middle
@@ -3234,7 +3249,7 @@ games thanks to physics,
 actions and animations.
 
 00:43:42.566 --> 00:43:43.496 A:middle
-It's also lot
+It's also [inaudible]
 
 00:43:43.576 --> 00:43:48.076 A:middle
 of rendering possibilities using
@@ -3290,7 +3305,7 @@ For more information,
 
 00:44:28.636 --> 00:44:31.156 A:middle
 please contact our
-Evangelist Allan and Filip.
+Evangelists Allan and Filip.
 
 00:44:31.666 --> 00:44:34.616 A:middle
 We have a brand new
@@ -3305,4 +3320,3 @@ Thanks.
 
 00:44:41.016 --> 00:44:43.000 A:middle
 [ Applause ]
-

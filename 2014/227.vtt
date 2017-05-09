@@ -278,10 +278,10 @@ some more interesting features.
 
 00:03:21.216 --> 00:03:26.666 A:middle
 And, finally, we are going to
-talk about where to go next,
+talk about where to go next.
 
 00:03:27.976 --> 00:03:30.346 A:middle
-so first up, getting started.
+So first up, getting started.
 
 00:03:30.846 --> 00:03:34.306 A:middle
 Now before we go any
@@ -439,17 +439,16 @@ understand when you're working
 with Storyboards that
 the thing you're looking
 
-00:05:05.706 --> 00:05:07.856 A:middle
-at there is not a
-façade or just a frontend
+00:05:05.706 --> 00:05:08.986 A:middle
+at there is not a façade or just
+a front end to generated code,
 
-00:05:07.996 --> 00:05:11.536 A:middle
-to generated code, those
-are real live controller
+00:05:09.346 --> 00:05:12.566 A:middle
+those are real live
+controller and view objects
 
-00:05:11.536 --> 00:05:13.566 A:middle
-and view objects that
-are in that file.
+00:05:12.566 --> 00:05:13.566 A:middle
+that are in that file.
 
 00:05:14.046 --> 00:05:15.586 A:middle
 However, Xcode makes
@@ -516,7 +515,7 @@ or Storyboards that
 are only loaded
 
 00:05:57.106 --> 00:05:59.346 A:middle
-with the user chooses certain
+when the user chooses certain
 actions, like preferences.
 
 00:05:59.906 --> 00:06:03.896 A:middle
@@ -1190,21 +1189,24 @@ to your app's needs.
 00:13:13.116 --> 00:13:14.226 A:middle
 That means that you can choose
 
-00:13:14.226 --> 00:13:18.686 A:middle
-where in the document stack you
-choose to interact with the code
+00:13:14.226 --> 00:13:17.696 A:middle
+where in the document stack
+you choose to interact
 
-00:13:18.686 --> 00:13:22.096 A:middle
-with the framework and picking
-a higher level lets you get more
+00:13:17.966 --> 00:13:19.376 A:middle
+with the code, with
+the framework
 
-00:13:22.096 --> 00:13:25.446 A:middle
-features for free, picking a
-lower level lets it be more
+00:13:19.906 --> 00:13:22.886 A:middle
+and picking a higher level lets
+you get more features for free,
 
-00:13:25.446 --> 00:13:26.996 A:middle
-customizable to your
-app's needs.
+00:13:23.426 --> 00:13:26.146 A:middle
+picking a lower level lets
+it be more customizable
+
+00:13:26.146 --> 00:13:26.996 A:middle
+to your app's needs.
 
 00:13:27.746 --> 00:13:28.726 A:middle
 So, again, that's up to you,
@@ -1218,7 +1220,7 @@ Now with the document
 architecture you start
 
 00:13:35.086 --> 00:13:38.566 A:middle
-by subclassing in this document,
+by subclassing in NS document,
 and the job of that subclass is
 
 00:13:38.566 --> 00:13:41.506 A:middle
@@ -1240,7 +1242,7 @@ and we're going to
 write it in Swift.
 
 00:13:52.236 --> 00:13:54.576 A:middle
-So here I have subclass
+So here I have subclassed
 NSDocument,
 
 00:13:54.786 --> 00:13:56.496 A:middle
@@ -2146,14 +2148,14 @@ that we've set in the view.
 
 00:24:06.176 --> 00:24:08.446 A:middle
 Because we've set each
-button to be a fixed width
+button to be a fixed width,
 
 00:24:08.446 --> 00:24:11.076 A:middle
 and we've set each
 distance between the button
 
 00:24:11.076 --> 00:24:15.996 A:middle
-to be a fixed width the minimum
+to be a fixed width, the minimum
 size of the window is the sum
 
 00:24:15.996 --> 00:24:16.976 A:middle
@@ -2500,13 +2502,12 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 So now that we've hooked up this
 view controller and the content
 
-00:29:00.056 --> 00:29:02.236 A:middle
-within this view
-controller we want
+00:29:00.056 --> 00:29:01.126 A:middle
+within this view controller,
 
-00:29:02.236 --> 00:29:03.936 A:middle
-to actually present
-this view controller
+00:29:01.396 --> 00:29:03.936 A:middle
+we want to actually
+present this view controller
 
 00:29:03.936 --> 00:29:06.766 A:middle
 when we click the plus button,
@@ -2739,8 +2740,11 @@ that we were provided earlier.
 But with Auto Localization
 all we need
 
-00:31:51.706 --> 00:31:55.556 A:middle
-to do is provide the new strings
+00:31:51.706 --> 00:31:53.186 A:middle
+to do is provide
+the new strings,
+
+00:31:53.706 --> 00:31:55.556 A:middle
 and Auto Localization takes care
 
 00:31:55.556 --> 00:32:00.156 A:middle
@@ -4212,4 +4216,3 @@ to seeing what you can do.
 
 00:48:25.516 --> 00:48:31.500 A:middle
 [ Applause ]
-

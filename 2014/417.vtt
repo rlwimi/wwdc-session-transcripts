@@ -182,16 +182,16 @@ or a few files there,
 but the whole app.
 
 00:02:57.746 --> 00:03:00.586 A:middle
-So, if you're relying
-on third-party libraries
+So, if you're relying on
+third-party libraries,
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.746 --> 00:03:00.586 A:middle
-So, if you're relying
-on third-party libraries
+So, if you're relying on
+third-party libraries,
 
 00:03:01.286 --> 00:03:05.416 A:middle
 and those libraries have
@@ -228,8 +228,8 @@ that we've tightened
 up in the specification
 
 00:03:31.806 --> 00:03:35.406 A:middle
-and what the possible
-impact of that tier app is.
+and what the possible impact
+of that to your app is.
 
 00:03:35.956 --> 00:03:42.556 A:middle
 To start with, in 64-bit iOS all
@@ -324,8 +324,8 @@ To help find this, we
 have a new Xcode setting
 
 00:04:55.536 --> 00:04:58.896 A:middle
-to enable strict checking
-of objc underscore msgSend.
+to enable strict
+checking of objc-msgSend.
 
 
 WEBVTT
@@ -349,12 +349,9 @@ to adopt this setting.
 And what's tricky is
 that every indication
 
-00:05:12.926 --> 00:05:15.816 A:middle
-of objc underscore
-msgSend effectively has a
-
-00:05:15.816 --> 00:05:16.636 A:middle
-different type.
+00:05:12.926 --> 00:05:16.636 A:middle
+of objc-msgSend effectively
+has a different type.
 
 00:05:17.466 --> 00:05:22.196 A:middle
 It has the type of what the
@@ -432,8 +429,8 @@ and ARM64 is the
 Objective-C Boolean type.
 
 00:06:14.276 --> 00:06:17.776 A:middle
-If any of you were at <i>Stump
-the Experts </i>last night,
+If any of you were at Stump
+the Experts last night,
 
 00:06:17.776 --> 00:06:19.916 A:middle
 this topic actually
@@ -555,10 +552,11 @@ casting an integer which came
 00:07:48.946 --> 00:07:50.106 A:middle
 from a pointer somewhere else.
 
-00:07:50.106 --> 00:07:51.816 A:middle
-We're casting that to a void.
+00:07:50.106 --> 00:07:52.156 A:middle
+We're casting that
+to a void (star).
 
-00:07:51.816 --> 00:07:55.186 A:middle
+00:07:52.156 --> 00:07:55.186 A:middle
 But now the compiler
 can help a little bit.
 
@@ -597,12 +595,12 @@ to be a little bit more
 forceful about this.
 
 00:08:15.606 --> 00:08:19.116 A:middle
-If we dereference that pointer
+If we dereference that pointer,
 we're going to get a hard fault
 
 00:08:19.916 --> 00:08:22.936 A:middle
 because the page zero is
-mapped to always give a fault
+mapped to always give a fault,
 
 00:08:22.936 --> 00:08:26.236 A:middle
 so if we miss any of these
@@ -631,7 +629,7 @@ The kernel's just going to
 tell you you did something bad.
 
 00:08:39.246 --> 00:08:43.666 A:middle
-To address this we use
+To address this, we use
 the C language typedefs
 
 00:08:44.456 --> 00:08:46.776 A:middle
@@ -932,7 +930,7 @@ at the WWDC app, itself.
 
 00:12:27.476 --> 00:12:32.406 A:middle
 In the previous versions of
-Xcode the modernizer would go
+Xcode, the modernizer would go
 
 00:12:32.466 --> 00:12:33.716 A:middle
 through and just look
@@ -1305,8 +1303,8 @@ for the system frameworks.
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:17:00.486 --> 00:17:04.286 A:middle
-The new in Xcode 6, you
+00:17:01.106 --> 00:17:04.286 A:middle
+New in Xcode 6, you
 can now define modules
 
 00:17:04.476 --> 00:17:07.906 A:middle
@@ -1743,8 +1741,8 @@ instrumented app
 that as it runs is going
 
 00:22:19.316 --> 00:22:22.276 A:middle
-to count how many times each
-statement will executes.
+to count how many times
+each statement executes.
 
 00:22:22.606 --> 00:22:24.146 A:middle
 And then, when your app finishes
@@ -2062,7 +2060,7 @@ With PGO, if you do just
 a little bit of extra work
 
 00:26:11.856 --> 00:26:15.146 A:middle
-to gather the profile
+to gather the profile,
 you can do even better.
 
 00:26:15.826 --> 00:26:17.666 A:middle
@@ -2730,7 +2728,7 @@ to Nadav Rotem, my colleague,
 
 00:34:04.736 --> 00:34:08.936 A:middle
 to talk about advances
-in vectorization
+in vectorization.
 
 00:34:09.536 --> 00:34:09.966 A:middle
 &gt;&gt; Thank you, Bob.
@@ -3234,16 +3232,18 @@ them together again,
 00:40:09.026 --> 00:40:10.316 A:middle
 and save them back to memory.
 
-00:40:10.316 --> 00:40:19.046 A:middle
-And, this is SLP vectorization
+00:40:10.316 --> 00:40:13.366 A:middle
+And, this is SLP vectorization.
+
+00:40:15.996 --> 00:40:20.766 A:middle
 SLP vectorization is very
+beneficial for some kinds
 
-00:40:19.046 --> 00:40:21.376 A:middle
-beneficial for some
-kinds of application,
+00:40:20.766 --> 00:40:23.296 A:middle
+of applications, mainly
+numeric applications,
 
-00:40:21.786 --> 00:40:24.906 A:middle
-mainly numeric applications,
+00:40:23.296 --> 00:40:24.906 A:middle
 and we see great speedups.
 
 00:40:25.186 --> 00:40:27.386 A:middle
@@ -3271,7 +3271,7 @@ SLP vectorization.
 
 00:40:46.866 --> 00:40:49.676 A:middle
 Now in Xcode 5, when we
-introduced the Loop Vectorizer
+introduced the Loop Vectorizer,
 
 00:40:49.916 --> 00:40:52.646 A:middle
 we did not enable it by default
@@ -3805,7 +3805,7 @@ If you have any more questions,
 
 00:47:12.326 --> 00:47:15.966 A:middle
 you can contact our Developer
-Tools Evangelist, Dave DeLong
+Tools Evangelist, Dave DeLong,
 
 00:47:16.156 --> 00:47:19.276 A:middle
 or you can go to the Apple
@@ -3828,4 +3828,3 @@ Bye-bye.
 
 00:47:33.016 --> 00:47:35.000 A:middle
 [ Applause ]
-

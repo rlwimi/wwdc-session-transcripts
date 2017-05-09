@@ -4,12 +4,12 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 00:00:00.506 --> 00:00:11.536 A:middle
 [ Silence ]
 
-00:00:12.036 --> 00:00:14.796 A:middle
-&gt;&gt; Thanks so much for
-coming to What's New
+00:00:12.036 --> 00:00:15.286 A:middle
+&gt;&gt; Thanks so much for coming
+to "What's New in Table
 
-00:00:14.796 --> 00:00:16.236 A:middle
-in Table and Collection Views.
+00:00:15.286 --> 00:00:16.236 A:middle
+and Collection Views".
 
 00:00:16.976 --> 00:00:20.566 A:middle
 This is a topic of special
@@ -120,8 +120,8 @@ for adopting Dynamic Type
 is self-sizing cells.
 
 00:01:36.856 --> 00:01:39.466 A:middle
-We think this strategy--
-thank you.
+We think this strategy-thank
+you.
 
 00:01:40.516 --> 00:01:44.106 A:middle
 [ Applause ]
@@ -132,34 +132,34 @@ going to improve the way
 
 00:01:48.316 --> 00:01:51.166 A:middle
 that we architect our
-table views, number 1,
+table views, number one,
 
-00:01:51.556 --> 00:01:55.076 A:middle
+00:01:51.556 --> 00:01:53.986 A:middle
 because you can encapsulate
-logic right in the cells, and 2,
+logic right in the cells,
 
-00:01:55.076 --> 00:01:57.976 A:middle
-the fact that you can do that
-will make it so much easier
+00:01:54.596 --> 00:01:57.206 A:middle
+and two, the fact that you
+can do that will make it
 
-00:01:57.976 --> 00:02:02.826 A:middle
-to have cells that are not a
-hard coded compile time known
+00:01:57.256 --> 00:02:01.526 A:middle
+so much easier to have cells
+that are not a hardcoded,
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:01:57.976 --> 00:02:02.826 A:middle
-to have cells that are not a
-hard coded compile time known
+00:01:57.256 --> 00:02:01.526 A:middle
+so much easier to have cells
+that are not a hardcoded,
 
-00:02:02.946 --> 00:02:06.566 A:middle
-height which means you can
-easily adopt the dynamic
+00:02:01.526 --> 00:02:03.236 A:middle
+compile-time, known height
 
-00:02:06.976 --> 00:02:07.836 A:middle
-font changes.
+00:02:03.606 --> 00:02:07.836 A:middle
+which means you can easily
+adopt the dynamic font changes.
 
 00:02:08.795 --> 00:02:11.506 A:middle
 So, additionally, we've got some
@@ -180,8 +180,8 @@ And for all of you custom layout
 authors, I know there's a lot
 
 00:02:25.796 --> 00:02:29.986 A:middle
-of you out there because every
-week at least I see a new app
+of you out there because, every
+week at least, I see a new app
 
 00:02:30.236 --> 00:02:33.336 A:middle
 that has a really great layout
@@ -193,7 +193,7 @@ we want to talk
 
 00:02:36.396 --> 00:02:39.276 A:middle
 about which is smart
-invalidation
+invalidation,
 
 00:02:39.596 --> 00:02:42.236 A:middle
 which will allow you
@@ -216,21 +216,24 @@ and Dynamic Type adoption.
 If you've never seen
 this screen from iOS 7,
 
-00:02:58.726 --> 00:03:01.546 A:middle
-is when we introduced
-Dynamic Type, this is a screen
+00:02:58.726 --> 00:03:00.266 A:middle
+it's when we introduced
+Dynamic Type.
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:02:58.726 --> 00:03:01.546 A:middle
-is when we introduced
-Dynamic Type, this is a screen
+00:02:58.726 --> 00:03:00.266 A:middle
+it's when we introduced
+Dynamic Type.
 
-00:03:01.546 --> 00:03:06.976 A:middle
-in Settings where you
-can change the text size
+00:03:00.666 --> 00:03:02.236 A:middle
+This is a screen in Settings
+
+00:03:02.236 --> 00:03:06.976 A:middle
+where you can change
+the text size
 
 00:03:07.076 --> 00:03:09.456 A:middle
 to fit what feels
@@ -249,7 +252,7 @@ that over and magically the
 text changes in the interface
 
 00:03:20.406 --> 00:03:23.876 A:middle
-and in fact in iOS 8, all
+and in fact, in iOS 8, all
 internal apps will adapt
 
 00:03:24.326 --> 00:03:26.236 A:middle
@@ -360,21 +363,21 @@ on what the user has set.
 So, if we think of simple
 table views like Settings
 
-00:04:58.106 --> 00:05:01.346 A:middle
-or like Messages-- I guess
-that Notes actually--
+00:04:58.106 --> 00:05:03.996 A:middle
+or like Messages-I guess that
+Notes actually-Messages and Mail
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:04:58.106 --> 00:05:01.346 A:middle
-or like Messages-- I guess
-that Notes actually--
+00:04:58.106 --> 00:05:03.996 A:middle
+or like Messages-I guess that
+Notes actually-Messages and Mail
 
-00:05:01.786 --> 00:05:08.166 A:middle
-Messages and Mail or Contacts,
-these are all simple table views
+00:05:04.176 --> 00:05:08.166 A:middle
+or Contacts, these are
+all simple table views
 
 00:05:08.166 --> 00:05:12.866 A:middle
 that in iOS 7, the row height
@@ -482,23 +485,23 @@ cells
 and that's implementing
 the delegate method,
 
-00:06:38.636 --> 00:06:39.786 A:middle
-tableView:heightForRow
-
-00:06:39.786 --> 00:06:40.436 A:middle
-AtIndexPath.
+00:06:38.636 --> 00:06:40.436 A:middle
+tableView:height
+ForRowAtIndexPath.
 
 00:06:41.216 --> 00:06:45.216 A:middle
 That strategy is still valid and
 something you can use in iOS 8
 
-00:06:45.216 --> 00:06:50.206 A:middle
-if you'd like to size your cells
-one at a time, give a height
+00:06:45.216 --> 00:06:49.656 A:middle
+if you'd like to size
+your cells one at a time,
 
-00:06:50.206 --> 00:06:53.826 A:middle
-for each row, you
-can still do that.
+00:06:49.656 --> 00:06:51.156 A:middle
+give a height for each row.
+
+00:06:52.106 --> 00:06:53.826 A:middle
+You can still do that.
 
 00:06:54.336 --> 00:06:56.986 A:middle
 Of course, the disadvantage
@@ -550,7 +553,7 @@ the challenge up to this point.
 
 00:07:28.626 --> 00:07:31.026 A:middle
 So that's why we have
-the third strategy
+the third strategy,
 
 00:07:31.306 --> 00:07:32.856 A:middle
 which is self-sizing cells.
@@ -637,7 +640,7 @@ can really see this.
 
 00:08:28.976 --> 00:08:31.186 A:middle
 Imagine that we've got
-a few rows on screen,
+a few rows onscreen,
 
 00:08:32.086 --> 00:08:35.586 A:middle
 and then we've got a fourth
@@ -666,9 +669,9 @@ So that fourth row is going
 to be sized using an estimated
 height that you provide,
 
-00:08:53.796 --> 00:08:56.666 A:middle
+00:08:53.796 --> 00:08:56.686 A:middle
 either via the property
-estimated height
+estimatedHeight
 
 00:08:57.186 --> 00:08:59.086 A:middle
 or there's a delegate
@@ -684,7 +687,7 @@ you use the scrolls rather,
 
 00:09:05.036 --> 00:09:10.346 A:middle
 at that time, we need to
-bring on screen row 4,
+bring on screen row four,
 
 00:09:10.566 --> 00:09:12.866 A:middle
 which up to this point only
@@ -727,7 +730,7 @@ probably all want
 
 00:09:44.366 --> 00:09:47.496 A:middle
 to know is what happens
-in step 2?
+in step two?
 
 00:09:47.746 --> 00:09:48.986 A:middle
 How do we actually
@@ -758,7 +761,7 @@ so that we can get
 you the right thing.
 
 00:10:00.846 --> 00:10:03.826 A:middle
-And number 1 is you
+And number one is you
 can use Autolayout.
 
 00:10:04.516 --> 00:10:08.886 A:middle
@@ -849,12 +852,13 @@ in the cells content view.
 And this plays into
 what the API contract is
 
-00:11:20.886 --> 00:11:25.276 A:middle
-when we are sizing your cell
-because there's sort of a--
+00:11:20.886 --> 00:11:24.746 A:middle
+when we are sizing your
+cell because there's sort
 
-00:11:25.976 --> 00:11:27.586 A:middle
-there's an in and out situation.
+00:11:24.746 --> 00:11:27.586 A:middle
+of a-there's an in
+and out situation.
 
 00:11:28.116 --> 00:11:30.516 A:middle
 The in to your cell is a width
@@ -942,7 +946,7 @@ in code how to actually do this.
 
 00:12:26.916 --> 00:12:30.916 A:middle
 We're going to see that this
-is quite simple at its base
+is quite simple at its base,
 
 00:12:31.546 --> 00:12:36.076 A:middle
 but I also kind of want
@@ -957,8 +961,8 @@ into in the past so that you
 can kind of keep the idea
 
 00:12:45.076 --> 00:12:47.966 A:middle
-in your head that, hey, this
-is simple, but if I go back
+in your head that, "Hey, this
+is simple," but if I go back
 
 00:12:48.036 --> 00:12:50.266 A:middle
 to my hotel or if I
@@ -1056,30 +1060,32 @@ I'm using a custom label
 
 00:14:14.396 --> 00:14:16.196 A:middle
 that I've called
-headlineLabel here.
+-headlineLabel here.
 
 00:14:16.356 --> 00:14:19.076 A:middle
-I create it right in
-my cells initializer.
+I created it right in
+my cell's initializer.
 
 00:14:19.626 --> 00:14:23.916 A:middle
 The problem is that I have
-set the headline labels font
+set the headline label's font
 
 00:14:24.176 --> 00:14:25.666 A:middle
 to be a specific size.
 
 00:14:26.536 --> 00:14:31.236 A:middle
-And actually what I want is to
-use a dynamic if I typed font.
+And actually what I want is
+to use a Dynamic Type font.
 
-00:14:31.646 --> 00:14:35.606 A:middle
-And so I'll just change this to
-preferred font for text style,
+00:14:31.646 --> 00:14:33.006 A:middle
+And so I'll just change this
 
-00:14:36.976 --> 00:14:41.576 A:middle
-UIFontTextStyleHeadline
-is perfect.
+00:14:33.866 --> 00:14:38.936 A:middle
+to preferredFontForText
+Style:UIFontTextStyleHeadline.
+
+00:14:40.046 --> 00:14:41.576 A:middle
+It's perfect.
 
 00:14:41.646 --> 00:14:45.846 A:middle
 And if I run that now, we'll see
@@ -1142,7 +1148,7 @@ bit more understanding
 about what we're actually doing.
 
 00:15:33.666 --> 00:15:37.326 A:middle
-So, I have 4 sets of
+So, I have four sets of
 constraint logic here.
 
 00:15:37.786 --> 00:15:42.536 A:middle
@@ -1208,7 +1214,7 @@ setting a padding at the bottom.
 
 00:16:31.986 --> 00:16:35.256 A:middle
 So that's just setting
-in attribute bottom
+an AttributeBottom
 
 00:16:35.426 --> 00:16:40.236 A:middle
 for my content view to be
@@ -1256,23 +1262,23 @@ I will still have that padding
 and the cell will
 actually grow with it.
 
-00:17:09.556 --> 00:17:11.626 A:middle
-The last thing I did here
+00:17:09.556 --> 00:17:12.955 A:middle
+The last thing I did
+here for height is,
 
-00:17:11.626 --> 00:17:14.685 A:middle
-for height is I wanted
-to have a minimum.
+00:17:12.955 --> 00:17:14.685 A:middle
+I wanted to have a minimum.
 
 00:17:14.866 --> 00:17:16.695 A:middle
 The human interface
 guideline says,
 
-00:17:16.695 --> 00:17:18.935 A:middle
+00:17:16.695 --> 00:17:18.766 A:middle
 "We want to have touchable
-things like table views be
+things, like table views,
 
-00:17:18.935 --> 00:17:20.746 A:middle
-at least 44 point tall."
+00:17:18.766 --> 00:17:20.746 A:middle
+be at least 44-point tall."
 
 00:17:21.386 --> 00:17:23.415 A:middle
 So, I've set a constraint
@@ -1305,7 +1311,7 @@ I've just used a simple
 visual format language to say
 
 00:17:47.366 --> 00:17:51.646 A:middle
-that I want 15 point margins
+that I want 15-point margins
 around my headlineLabel
 
 00:17:52.146 --> 00:17:53.696 A:middle
@@ -1349,13 +1355,13 @@ constraints failing messages.
 00:18:25.426 --> 00:18:27.686 A:middle
 Thankfully, there is a solution.
 
-00:18:29.306 --> 00:18:34.176 A:middle
+00:18:29.306 --> 00:18:33.006 A:middle
 So, I mentioned this
-earlier but part of being--
+earlier but part
 
-00:18:34.526 --> 00:18:38.416 A:middle
-or self-sizing cell
-aware and using
+00:18:33.006 --> 00:18:38.416 A:middle
+of being dynamic-or
+self-sizing cell-aware and using
 
 00:18:38.416 --> 00:18:40.146 A:middle
 that in your application is
@@ -1412,28 +1418,29 @@ into this problem,
 
 00:19:14.696 --> 00:19:17.996 A:middle
 try to remember Luke said
-use estimated row height,
+use estimatedRowHeight,
 
 00:19:18.216 --> 00:19:20.116 A:middle
-not row height on iOS 8.
+not rowHeight on iOS 8.
 
-00:19:20.616 --> 00:19:22.856 A:middle
-And then when you run this--
+00:19:20.616 --> 00:19:24.796 A:middle
+And then when you
+run this-oh God,
 
-00:19:24.166 --> 00:19:27.966 A:middle
-oh God, Luke's solution
-didn't even work.
+00:19:26.396 --> 00:19:27.966 A:middle
+Luke's solution didn't
+even work.
 
 00:19:30.846 --> 00:19:33.186 A:middle
 Well, so here's one
-of the gotcha here
+other gotcha here,
 
 00:19:33.666 --> 00:19:37.766 A:middle
 which actually will be
 fixed in the next seed,
 
 00:19:38.016 --> 00:19:39.556 A:middle
-but I wanted to show you--
+but I wanted to show you-
 
 00:19:40.516 --> 00:19:43.636 A:middle
 [ Applause ]
@@ -1449,21 +1456,20 @@ when we go back to your rooms.
 So, if your cell or if
 your table view is coming
 
-00:19:56.296 --> 00:20:00.446 A:middle
-out of a nib or a
-storyboard, then it's--
+00:19:56.296 --> 00:19:58.106 A:middle
+out of a NIB or a storyboard,
+
+00:19:59.206 --> 00:20:04.076 A:middle
+then its-row height property
+will be set when it comes
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:19:56.296 --> 00:20:00.446 A:middle
-out of a nib or a
-storyboard, then it's--
-
-00:20:01.226 --> 00:20:04.076 A:middle
-row height property will
-be set when it comes
+00:19:59.206 --> 00:20:04.076 A:middle
+then its-row height property
+will be set when it comes
 
 00:20:04.076 --> 00:20:05.366 A:middle
 out of that storyboard.
@@ -1492,7 +1498,7 @@ And this is already the default
 
 00:20:27.576 --> 00:20:30.916 A:middle
 for programmatically created
-table views and, as of seed 2,
+table views and, as of seed two,
 
 00:20:31.086 --> 00:20:34.346 A:middle
 will be the default for
@@ -1500,19 +1506,19 @@ table views that come
 
 00:20:34.346 --> 00:20:36.356 A:middle
 out of storyboards
-and nibs as well.
+and NIBs as well.
 
 00:20:36.756 --> 00:20:40.396 A:middle
 It's interesting actually
 to know this in general
 
 00:20:40.516 --> 00:20:43.006 A:middle
-that this default has-- this
+that this default has-this
 default value has changed
 
 00:20:43.036 --> 00:20:46.736 A:middle
 because it used to be 44 and
-now it's automatic dimension.
+now it's AutomaticDimension.
 
 00:20:47.256 --> 00:20:51.266 A:middle
 Because if you were doing
@@ -1537,13 +1543,13 @@ you have actually set the
 00:21:03.126 --> 00:21:04.046 A:middle
 rowHeight value.
 
-00:21:04.746 --> 00:21:07.656 A:middle
+00:21:04.746 --> 00:21:06.636 A:middle
 So, if you run into
-weird things like all
+weird things,
 
-00:21:07.656 --> 00:21:11.206 A:middle
-of your table cells
-suddenly shrunk to no width
+00:21:06.636 --> 00:21:11.206 A:middle
+like all of your table cells
+suddenly shrunk to no width,
 
 00:21:11.466 --> 00:21:15.086 A:middle
 or no height rather, look
@@ -1552,12 +1558,13 @@ and see if you're doing math
 00:21:15.526 --> 00:21:16.666 A:middle
 with the rowHeight property.
 
-00:21:17.126 --> 00:21:24.716 A:middle
-So, now that I've done that--
-oh, thank God, no more weird,
+00:21:17.126 --> 00:21:23.106 A:middle
+So, now that I've done
+that-oh, thank God,
 
-00:21:24.806 --> 00:21:26.126 A:middle
-layout constraint messages.
+00:21:23.596 --> 00:21:26.126 A:middle
+no more weird layout
+constraint messages.
 
 00:21:26.126 --> 00:21:29.656 A:middle
 And actually, my cells
@@ -1584,16 +1591,16 @@ of the screen not
 do that anymore.
 
 00:21:56.136 --> 00:22:03.116 A:middle
-So, let me take headlineLabel,
-numberOfLines,
+So, let me take
+-headlineLabel.numberOfLines,
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:56.136 --> 00:22:03.116 A:middle
-So, let me take headlineLabel,
-numberOfLines,
+So, let me take
+-headlineLabel.numberOfLines,
 
 00:22:03.686 --> 00:22:10.306 A:middle
 make it 0 so it should grow the
@@ -1757,7 +1764,7 @@ So, self-sizing cells, we
 think it's a major new feature
 
 00:24:37.536 --> 00:24:40.616 A:middle
-in collection view because
+in collection view because,
 with self-sizing cells,
 
 00:24:40.676 --> 00:24:43.846 A:middle
@@ -1901,11 +1908,11 @@ do now is I'm going
 
 00:27:00.536 --> 00:27:02.386 A:middle
 to use the exact
-same collection view
+same collection view,
 
 00:27:02.546 --> 00:27:05.506 A:middle
-to same flow layout,
-to same cell class.
+the same flow layout,
+the same cell class.
 
 00:27:06.206 --> 00:27:09.626 A:middle
 I'm not going to change
@@ -1926,10 +1933,10 @@ It's dynamically sized.
 
 00:27:24.306 --> 00:27:28.156 A:middle
 The flow layout still
-worked the same usual way
+works the same usual way
 
 00:27:28.406 --> 00:27:34.116 A:middle
-by dynamically flowing
+by dynamically flowing,
 adding cells line by line
 
 00:27:35.166 --> 00:27:38.126 A:middle
@@ -1973,10 +1980,10 @@ to actually have the
 layout compute items,
 
 00:28:16.556 --> 00:28:18.226 A:middle
-size and position on screen.
+size and position onscreen.
 
 00:28:18.896 --> 00:28:24.066 A:middle
-So in that case-- and that was
+So in that case-and that was
 what was happening with iOS 6
 
 00:28:24.116 --> 00:28:31.226 A:middle
@@ -1984,12 +1991,12 @@ and iOS 7, the collection view
 layout decides everything.
 
 00:28:32.366 --> 00:28:36.896 A:middle
-The cell is just-- We are just
+The cell is just-We are just
 enforcing a size for this cell.
 
 00:28:38.256 --> 00:28:44.146 A:middle
 So, in iOS 8, we're adding
-these self-sizing cells mode
+these self-sizing cells' mode,
 
 00:28:44.836 --> 00:28:48.546 A:middle
 which mean that just
@@ -2011,53 +2018,54 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:01.856 --> 00:29:07.386 A:middle
-But when setting cells on
-screen with a collection view,
+But when setting cells
+onscreen with a collection view,
 
 00:29:08.466 --> 00:29:12.006 A:middle
 a layout basically computes
 a set of attributes.
 
-00:29:12.616 --> 00:29:18.226 A:middle
-And in these attributes, we have
-position, size, but only things
+00:29:12.616 --> 00:29:17.106 A:middle
+And in these attributes,
+we have position, size,
 
-00:29:18.226 --> 00:29:20.906 A:middle
-like alpha are even transformed.
+00:29:17.416 --> 00:29:20.896 A:middle
+but all the things like
+alpha or even transform.
 
 00:29:22.186 --> 00:29:27.616 A:middle
 And we are actually opening
 that also at the cell level.
 
 00:29:28.516 --> 00:29:32.976 A:middle
-It mean that if you override
+It means that if you override
 preferredLayoutAttributes
 
 00:29:34.096 --> 00:29:39.146 A:middle
 FittingAttributes in your cell
 class, you can actually tweak
 
-00:29:40.256 --> 00:29:42.886 A:middle
-or the layout itself compute it.
+00:29:40.236 --> 00:29:42.966 A:middle
+for the layout itself
+to compute.
 
 00:29:43.746 --> 00:29:45.036 A:middle
 It's extremely powerful.
 
-00:29:45.246 --> 00:29:49.326 A:middle
-So, to summarize,
-the first mode,
+00:29:45.246 --> 00:29:50.846 A:middle
+So, to summarize, the first
+mode, the classic mode,
 
-00:29:50.116 --> 00:29:53.066 A:middle
-the classic mode,
-the layout, the size.
+00:29:50.896 --> 00:29:54.856 A:middle
+the layout, the size,
+computes attributes
 
-00:29:53.856 --> 00:29:56.016 A:middle
-Computes attributes and the
-collection view is going
+00:29:54.906 --> 00:29:56.926 A:middle
+and the collection view
+is going to create a cell
 
-00:29:56.016 --> 00:29:59.726 A:middle
-to create a cell and
-enforce that size.
+00:29:57.436 --> 00:29:59.726 A:middle
+and enforce that size.
 
 
 WEBVTT
@@ -2080,7 +2088,7 @@ if you create cell and
 then the cell is going
 
 00:30:18.006 --> 00:30:21.186 A:middle
-to adjust if needed, that size.
+to adjust, if needed, that size.
 
 00:30:21.796 --> 00:30:29.446 A:middle
 And the third mode, the layout
@@ -2140,13 +2148,16 @@ How do you enable that?
 
 00:31:27.576 --> 00:31:32.066 A:middle
 You just set this property
-to a non-zero CGsize.
+to a non-zero CGSize.
 
 00:31:32.776 --> 00:31:33.716 A:middle
-That was step 1.
+That was step one.
 
-00:31:34.216 --> 00:31:38.496 A:middle
-Step 2 is there is no step 2.
+00:31:34.216 --> 00:31:36.416 A:middle
+Step two is...
+
+00:31:36.946 --> 00:31:38.496 A:middle
+there is no step two.
 
 00:31:39.696 --> 00:31:42.706 A:middle
 If you want to use
@@ -2256,7 +2267,7 @@ layout attributes we need
 
 00:33:27.486 --> 00:33:30.386 A:middle
 to actually display
-cells on screen.
+cells onscreen.
 
 00:33:31.486 --> 00:33:33.956 A:middle
 So, a very important thing
@@ -2325,7 +2336,7 @@ time we try to present cells
 
 00:34:47.045 --> 00:34:50.505 A:middle
 or supplementary views or
-decoration views on screen,
+decoration views onscreen,
 
 00:34:52.025 --> 00:34:54.656 A:middle
 the first method we are coding
@@ -2363,18 +2374,15 @@ to ask you is the overall
 size of your custom layout.
 
 00:35:27.736 --> 00:35:32.746 A:middle
-And based on that and
+And based on that, and
 based on what section
 
-00:35:33.726 --> 00:35:36.786 A:middle
-of this layout we want
-to show on screen,
+00:35:33.726 --> 00:35:40.756 A:middle
+of this layout we want to show
+onscreen, then to ask the layout
 
-00:35:37.916 --> 00:35:46.746 A:middle
-then to ask the layout to
-provide a list of attributes
-
-00:35:47.316 --> 00:35:49.686 A:middle
+00:35:42.006 --> 00:35:49.686 A:middle
+to provide a list of attributes
 for items in a given rect.
 
 00:35:50.716 --> 00:35:53.806 A:middle
@@ -2410,12 +2418,12 @@ applying Autolayout constraints.
 So, in that case,
 you would return 6
 
-00:36:23.476 --> 00:36:28.736 A:middle
-and 6 plus the several
-[inaudible] attributes
+00:36:23.476 --> 00:36:31.146 A:middle
+and 6 plus the supplementary
+view attributes describing what
 
-00:36:29.746 --> 00:36:35.486 A:middle
-describing what is in this rect.
+00:36:31.146 --> 00:36:35.486 A:middle
+is in this rect.
 
 00:36:36.266 --> 00:36:40.866 A:middle
 Now, you might actually
@@ -2426,12 +2434,12 @@ for instance, because you want
 to apply some special effect
 
 00:36:46.626 --> 00:36:51.946 A:middle
-when you scroll like a
-cover flow like effect.
+when you scroll, like a
+cover flow-like effect.
 
 00:36:53.046 --> 00:36:55.946 A:middle
 In that case, you have
-to call invalidateLayout
+to call invalidateLayout,
 
 00:36:55.946 --> 00:37:00.816 A:middle
 which is basically a way to tell
@@ -2448,8 +2456,11 @@ the collection view that OK,
 00:37:01.216 --> 00:37:02.316 A:middle
 we are starting again.
 
-00:37:02.986 --> 00:37:08.116 A:middle
-What's going to happen is begin
+00:37:02.986 --> 00:37:06.636 A:middle
+What's going to happen
+is we begin
+
+00:37:06.636 --> 00:37:08.116 A:middle
 to call prepareLayout again.
 
 00:37:09.036 --> 00:37:12.606 A:middle
@@ -2464,15 +2475,15 @@ a small problem here.
 If each time we call or
 you call invalidateLayout,
 
-00:37:26.716 --> 00:37:29.776 A:middle
+00:37:26.716 --> 00:37:29.786 A:middle
 you have to re-compute
 all these attributes.
 
-00:37:29.776 --> 00:37:33.926 A:middle
-That's the best way to have
-a high performance layout.
+00:37:30.046 --> 00:37:33.926 A:middle
+Not the best way to have
+a high-performance layout.
 
-00:37:34.666 --> 00:37:40.856 A:middle
+00:37:33.956 --> 00:37:40.856 A:middle
 So, we actually have
 a great solution
 
@@ -2485,11 +2496,11 @@ or lazy and smart
 
 00:37:48.766 --> 00:37:52.286 A:middle
 which basically means
-re-compute only what you need
+re-compute only what you need.
 
 00:37:53.836 --> 00:37:58.796 A:middle
-and that strategy you can
-use right now in iOS 7
+And that's a strategy you
+can use right now in iOS 7
 
 00:37:59.736 --> 00:38:02.856 A:middle
 with something we call
@@ -2504,22 +2515,22 @@ with something we call
 invalidation contexts,
 
 00:38:03.916 --> 00:38:07.696 A:middle
-because that's a class
-that we introduce in iOS 7.
+because that's a class that
+we introduced in iOS 7.
 
 00:38:08.856 --> 00:38:14.856 A:middle
 And this class is basically
 a tool for your custom layout
 
 00:38:15.846 --> 00:38:20.036 A:middle
-to indicate what changed
+to indicate what changed,
 because it's your layout
 
 00:38:20.926 --> 00:38:23.036 A:middle
 so you know what to do.
 
 00:38:23.036 --> 00:38:27.276 A:middle
-So, invalidation context in
+So, invalidation contexts in
 iOS 7 were basically a way
 
 00:38:27.276 --> 00:38:32.356 A:middle
@@ -2565,7 +2576,7 @@ your layout level.
 
 00:39:11.106 --> 00:39:14.886 A:middle
 And instead of coding
-invalidateLayout
+invalidateLayout,
 
 00:39:14.946 --> 00:39:16.846 A:middle
 which is the very generic,
@@ -2592,7 +2603,7 @@ given invalidation situation.
 
 00:39:39.436 --> 00:39:44.386 A:middle
 We also provided an override
-point for bounds change
+point for bounds change,
 
 00:39:44.676 --> 00:39:48.216 A:middle
 which is a common
@@ -2711,7 +2722,7 @@ can be useful for things
 
 00:41:24.856 --> 00:41:29.036 A:middle
 like high-performance floating
-headers, sticky headers
+headers, sticky headers,
 
 00:41:29.036 --> 00:41:31.416 A:middle
 like in table view
@@ -2766,20 +2777,19 @@ invalidation.
 We added three new methods on
 invalidation context in iOS 8,
 
-00:42:25.616 --> 00:42:30.606 A:middle
+00:42:25.616 --> 00:42:28.226 A:middle
 invalidateItemsAtIndexPaths,
-invalidateSupplementary
 
-00:42:30.946 --> 00:42:33.386 A:middle
+00:42:29.236 --> 00:42:33.386 A:middle
+invalidateSupplementary
 ElementsOfKind atIndexPaths
 
-00:42:33.776 --> 00:42:38.206 A:middle
-and
-invalidateDecorationViewsOfKind
+00:42:33.776 --> 00:42:39.626 A:middle
+and invalidateDecoration
+ElementsOfKind atIndexPaths
 
-00:42:38.716 --> 00:42:44.036 A:middle
-atIndexPaths and you
-can access this later.
+00:42:39.766 --> 00:42:44.036 A:middle
+and you can access this later.
 
 00:42:44.756 --> 00:42:45.846 A:middle
 What's great about that?
@@ -2800,11 +2810,11 @@ for your layout?
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:43:00.086 --> 00:43:06.776 A:middle
-Let's take a very
-simple grid-like layout
+00:43:00.086 --> 00:43:03.436 A:middle
+Let's take a very simple,
 
-00:43:07.506 --> 00:43:08.426 A:middle
+00:43:04.476 --> 00:43:08.426 A:middle
+grid-like layout
 with section headers.
 
 00:43:09.466 --> 00:43:15.866 A:middle
@@ -2822,11 +2832,12 @@ that is actually moving is
 00:43:31.926 --> 00:43:33.796 A:middle
 that supplementary view.
 
-00:43:34.456 --> 00:43:39.016 A:middle
-So what you really want to use
-is on your invalidation context,
+00:43:34.456 --> 00:43:36.776 A:middle
+So what you really
+want to use is,
 
-00:43:40.316 --> 00:43:43.416 A:middle
+00:43:37.226 --> 00:43:43.416 A:middle
+on your invalidation context,
 tell us that I'm invalidating
 
 00:43:43.956 --> 00:43:48.286 A:middle
@@ -2839,11 +2850,11 @@ one thing is actually changing.
 
 00:43:55.376 --> 00:43:58.766 A:middle
 So, we're going to
-ask your layout, OK,
+ask your layout, "OK,
 
 00:43:58.766 --> 00:44:04.156 A:middle
 give me an updated version
-of that supplementary view.
+of that supplementary view."
 
 
 WEBVTT
@@ -2851,18 +2862,21 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:58.766 --> 00:44:04.156 A:middle
 give me an updated version
-of that supplementary view.
+of that supplementary view."
 
 00:44:04.426 --> 00:44:07.836 A:middle
 So we are directly going to
 call this fine-grain method
 
-00:44:07.946 --> 00:44:14.356 A:middle
-on your layout which is already
-here, layoutAttributesFor
+00:44:07.946 --> 00:44:12.266 A:middle
+on your layout which
+is already here,
 
-00:44:14.926 --> 00:44:19.556 A:middle
-SupplementaryViewOfKind
+00:44:13.116 --> 00:44:16.256 A:middle
+layoutAttributesFor
+SupplementaryViewOfKind,
+
+00:44:17.316 --> 00:44:19.556 A:middle
 section header atIndexPath.
 
 00:44:20.976 --> 00:44:22.866 A:middle
@@ -2938,7 +2952,7 @@ a very simple property
 
 00:45:27.106 --> 00:45:30.446 A:middle
 on the validation context which
-is a contentSizedAdjustment.
+is a contentSizeAdjustment.
 
 00:45:30.446 --> 00:45:33.746 A:middle
 So you can give us the delta,
@@ -3012,7 +3026,7 @@ And that's a new method
 on UICollectionViewLayout.
 
 00:46:37.836 --> 00:46:42.926 A:middle
-If a cell, return a
+If a cell returns a
 different size, for instance,
 
 00:46:42.926 --> 00:46:46.106 A:middle
@@ -3027,16 +3041,22 @@ the layout.
 And because we want
 fine-grain invalidation,
 
-00:46:54.956 --> 00:46:59.986 A:middle
-we have an override
-point, InvalidationContext
+00:46:54.956 --> 00:46:57.496 A:middle
+we have an override point,
+
+00:46:58.656 --> 00:47:03.436 A:middle
+invalidationContext
+ForPreferredAttributes based
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:47:00.316 --> 00:47:06.156 A:middle
-ForPrefferedAttributes based
+00:46:58.656 --> 00:47:03.436 A:middle
+invalidationContext
+ForPreferredAttributes based
+
+00:47:03.436 --> 00:47:06.156 A:middle
 on the original attributes.
 
 00:47:07.656 --> 00:47:10.186 A:middle
@@ -3056,7 +3076,7 @@ attributes in your layout.
 
 00:47:25.066 --> 00:47:29.886 A:middle
 And again, the layout is
-still the final decision-maker
+still the final decisionmaker
 
 00:47:29.886 --> 00:47:32.226 A:middle
 on what should be on screen.
@@ -3069,8 +3089,8 @@ that technique for
 a custom layout.
 
 00:47:40.156 --> 00:47:45.826 A:middle
-It's a very simple line
-based custom layout,
+It's a very simple,
+line-based custom layout,
 
 00:47:46.996 --> 00:47:47.766 A:middle
 something like that.
@@ -3083,17 +3103,20 @@ collection view layout.
 I have five cells and
 I'm going to compute
 
-00:47:57.626 --> 00:48:02.306 A:middle
-that first approximation by
-using the usual layoutAttributes
+00:47:57.626 --> 00:47:58.856 A:middle
+that first approximation
+
+00:47:58.856 --> 00:48:02.306 A:middle
+by using the usual
+layoutAttributes
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:47:57.626 --> 00:48:02.306 A:middle
-that first approximation by
-using the usual layoutAttributes
+00:47:58.856 --> 00:48:02.306 A:middle
+by using the usual
+layoutAttributes
 
 00:48:02.356 --> 00:48:03.636 A:middle
 ForElementsInRect.
@@ -3224,7 +3247,7 @@ in the exact same state.
 
 00:50:11.376 --> 00:50:13.696 A:middle
 It's, of course,
-completely layout specific.
+completely layout-specific.
 
 00:50:14.436 --> 00:50:18.546 A:middle
 You can imagine using this
@@ -3232,19 +3255,19 @@ technique for circle layouts,
 
 00:50:19.046 --> 00:50:22.906 A:middle
 line layouts, grid
-layouts, base board layouts.
+layouts, baseboard layouts.
 
 00:50:23.236 --> 00:50:29.566 A:middle
 It's an amazing way to implement
-extremely high performance
+extremely high-performance
 
 00:50:30.076 --> 00:50:33.866 A:middle
 layout and add new
 features like Dynamic Type.
 
 00:50:35.196 --> 00:50:39.386 A:middle
-And to conclude I like
-to bring back Luke.
+And to conclude, I'd
+like to bring back Luke.
 
 00:50:40.516 --> 00:50:46.446 A:middle
 [ Applause ]
@@ -3283,13 +3306,13 @@ if you choose
 00:51:07.456 --> 00:51:09.516 A:middle
 to adopt that methodology.
 
-00:51:10.546 --> 00:51:13.826 A:middle
-So, what I want you to
-go home with is remember
+00:51:10.546 --> 00:51:13.506 A:middle
+So, what I want you
+to go home with is,
 
-00:51:13.826 --> 00:51:17.036 A:middle
-that every app should
-be adopting Dynamic Type
+00:51:13.506 --> 00:51:17.036 A:middle
+remember that every app should
+be adopting Dynamic Type,
 
 00:51:17.136 --> 00:51:19.036 A:middle
 if you've got text
@@ -3355,8 +3378,8 @@ that my first question
 for you will be,
 
 00:52:04.586 --> 00:52:06.546 A:middle
-are you using invalidation
-context.
+"Are you using invalidation
+context?"
 
 00:52:07.076 --> 00:52:10.426 A:middle
 And so, if you're not,
@@ -3375,17 +3398,17 @@ particularly for those of you
 00:52:18.396 --> 00:52:20.066 A:middle
 who are writing custom layouts.
 
-00:52:20.626 --> 00:52:23.956 A:middle
-This is Advanced User
-Interfaces with Collection Views
+00:52:20.626 --> 00:52:22.776 A:middle
+This is "Advanced
+User Interfaces
 
-00:52:24.206 --> 00:52:27.396 A:middle
-and there are some really
-great tips in here for how
+00:52:22.776 --> 00:52:26.136 A:middle
+with Collection Views" and
+there are some really great tips
 
-00:52:27.396 --> 00:52:31.016 A:middle
-to accomplish non-standard
-things, you know,
+00:52:26.136 --> 00:52:31.016 A:middle
+in here for how to accomplish
+non-standard things, you know,
 
 00:52:31.016 --> 00:52:33.856 A:middle
 things that aren't built into
@@ -3400,7 +3423,7 @@ For more information,
 always feel free
 
 00:52:40.496 --> 00:52:43.036 A:middle
-to contact our frameworks
+to contact our Frameworks
 evangelist, Jake Behrens,
 
 00:52:43.036 --> 00:52:44.356 A:middle
@@ -3411,4 +3434,3 @@ Thanks for coming.
 
 00:52:45.516 --> 00:52:49.500 A:middle
 [ Applause ]
-

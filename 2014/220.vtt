@@ -13,10 +13,10 @@ a good lunch.
 
 00:00:16.006 --> 00:00:18.486 A:middle
 This is Session 220,
-Adopting Advanced Features
+"Adopting Advanced Features
 
 00:00:18.486 --> 00:00:20.306 A:middle
-of the New UI in
+of the New UI" in
 Mac OS X Yosemite.
 
 00:00:21.146 --> 00:00:26.126 A:middle
@@ -101,10 +101,10 @@ the desktop picture.
 
 00:01:23.296 --> 00:01:24.326 A:middle
 And it's not just
-the background,
+the background.
 
 00:01:24.326 --> 00:01:25.416 A:middle
-also the text is pulling it up
+Also the text is pulling it up
 
 00:01:25.416 --> 00:01:27.676 A:middle
 and the buttons are pulling
@@ -112,7 +112,7 @@ it up, and we're going
 
 00:01:27.676 --> 00:01:30.806 A:middle
 to show you how to build
-UI's that also grab color
+UIs that also grab color
 
 00:01:30.806 --> 00:01:32.706 A:middle
 from the environment like this.
@@ -122,7 +122,7 @@ So to start with I'm going
 to mention a few changes
 
 00:01:37.136 --> 00:01:40.586 A:middle
-in existing AppKit API's,
+in existing AppKit APIs,
 especially NSColor, NSImage.
 
 00:01:40.586 --> 00:01:43.556 A:middle
@@ -168,7 +168,7 @@ these new effects.
 
 00:02:07.536 --> 00:02:11.886 A:middle
 So to begin reviewing our
-oldie but goodie API's,
+oldie but goodie APIs,
 
 00:02:12.366 --> 00:02:15.386 A:middle
 this is NSSegmentedControl
@@ -263,13 +263,13 @@ of some sort, and if you tried
 to stretch it using the
 NSImage API right now,
 
-00:03:08.836 --> 00:03:10.686 A:middle
-you put it in NSImage view
-or you draw it yourself,
+00:03:08.836 --> 00:03:11.446 A:middle
+you put it in NSImageView or you
+draw it yourself, you're going
 
-00:03:11.206 --> 00:03:14.226 A:middle
-you're going to notice the
-image is stretched uniformly.
+00:03:11.446 --> 00:03:14.226 A:middle
+to notice the image is
+stretched uniformly.
 
 00:03:14.566 --> 00:03:17.546 A:middle
 So the corners here distort
@@ -280,7 +280,7 @@ and that's kind of neat but
 if we're going for a button
 
 00:03:21.456 --> 00:03:24.636 A:middle
-or a window background it's
+or a window background, it's
 not really the effect we want.
 
 00:03:24.636 --> 00:03:28.186 A:middle
@@ -296,7 +296,7 @@ capInsets property,
 
 00:03:32.406 --> 00:03:33.926 A:middle
 and this takes an
-NSEdgeinsets struct [applause].
+NSEdgeInsets struct [applause].
 
 00:03:34.386 --> 00:03:34.796 A:middle
 Thank you.
@@ -305,7 +305,7 @@ Thank you.
 Thank you.
 
 00:03:37.206 --> 00:03:38.676 A:middle
-This takes an NSEdgeinsets
+This takes an NSEdgeInsets
 struct
 
 00:03:38.676 --> 00:03:40.296 A:middle
@@ -321,11 +321,11 @@ the image coordinate system,
 
 00:03:46.446 --> 00:03:49.796 A:middle
 so to review, the NSImage
-coordinate system begins at a --
+coordinate system begins at a -
 
 00:03:49.796 --> 00:03:51.996 A:middle
-sorry, zero, zero on the
-lower left, the image size
+sorry, (0,0) on the lower
+left, the image size
 
 00:03:51.996 --> 00:03:52.816 A:middle
 and height on the right.
@@ -365,12 +365,13 @@ backgrounds quite easily.
 There's one other thing I
 want to mention about this.
 
-00:04:11.666 --> 00:04:13.386 A:middle
-So again, if you're familiar
+00:04:11.666 --> 00:04:14.036 A:middle
+So again, if you're
+familiar with UIImage,
 
-00:04:13.386 --> 00:04:15.876 A:middle
-with UIImage you know
-the UIImageResizingMode,
+00:04:14.036 --> 00:04:15.876 A:middle
+you know the
+UIImageResizingMode,
 
 00:04:16.076 --> 00:04:17.696 A:middle
 we now have NSImageResizingMode,
@@ -393,7 +394,7 @@ and these are exposed
 
 00:04:26.986 --> 00:04:29.366 A:middle
 on the surprisingly named
-or resizing mode property
+resizing mode property
 
 00:04:29.396 --> 00:04:30.056 A:middle
 on NSImage [applause].
@@ -481,12 +482,13 @@ a nine slice image.
 You can also do three slice,
 just horizontal, just vertical.
 
-00:05:18.616 --> 00:05:21.496 A:middle
-And if you want to change
-the tiling mode we have the
+00:05:18.616 --> 00:05:20.816 A:middle
+And if you want to
+change the tiling mode,
 
-00:05:21.496 --> 00:05:22.436 A:middle
-Stretches option here.
+00:05:20.816 --> 00:05:22.436 A:middle
+we have the Stretches
+option here.
 
 00:05:22.436 --> 00:05:23.676 A:middle
 So you can do that graphically
@@ -495,16 +497,16 @@ So you can do that graphically
 without ever having
 to change your code.
 
-00:05:25.716 --> 00:05:29.416 A:middle
-That covered NSImage, I'd
-like to mention a few things
+00:05:25.716 --> 00:05:27.966 A:middle
+That covered NSImage.
 
-00:05:29.416 --> 00:05:30.926 A:middle
+00:05:28.286 --> 00:05:30.926 A:middle
+I'd like to mention a few things
 about NSAppearance in Yosemite.
 
 00:05:31.656 --> 00:05:37.746 A:middle
 So, NSAppearance is an API we've
-had a reinterest in Mavericks.
+had a reappearance in Mavericks.
 
 00:05:37.746 --> 00:05:41.146 A:middle
 We offer two appearances in
@@ -602,7 +604,7 @@ some notable mentions here.
 
 00:06:37.326 --> 00:06:40.266 A:middle
 The big one is that system
-colors are appearance sensitive,
+colors are appearance-sensitive,
 
 00:06:40.266 --> 00:06:41.866 A:middle
 so if you use VibrantLight
@@ -661,7 +663,7 @@ title bars and toolbars,
 
 00:07:09.786 --> 00:07:12.826 A:middle
 but in Yosemite they have
-new default appearance,
+a new default appearance,
 
 00:07:13.106 --> 00:07:16.086 A:middle
 and one of the key elements of
@@ -675,16 +677,16 @@ So here's a slightly awkward
 video of me scrolling a picture
 
 00:07:22.686 --> 00:07:26.366 A:middle
-and preview, and you can see
-that as I scroll the title bar
+in Preview, and you can see
+that as I scroll, the title bar
 
 00:07:26.366 --> 00:07:28.236 A:middle
 and toolbar are actually
 absorbing and blurring
 
 00:07:28.236 --> 00:07:31.266 A:middle
-that content in real-time,
-and preview didn't have
+that content in real time,
+and Preview didn't have
 
 00:07:31.326 --> 00:07:32.836 A:middle
 to do anything to
@@ -723,7 +725,7 @@ So you can see on
 the left I've kind
 
 00:07:54.006 --> 00:07:55.956 A:middle
-of made a mock-up showing
+of made a mockup showing
 the title bar blurring
 
 00:07:55.956 --> 00:07:57.306 A:middle
@@ -774,7 +776,7 @@ are in a similar place.
 
 00:08:25.646 --> 00:08:27.776 A:middle
 You may notice kind of a
-hardware accelerated theme going
+hardware-accelerated theme going
 
 00:08:27.776 --> 00:08:30.366 A:middle
 on using the GPU, and
@@ -819,8 +821,7 @@ and we can do this using this
 new window style mask called
 
 00:08:54.806 --> 00:08:56.786 A:middle
-NSFullSize ContentView
-WindowMask.
+NSFullSizeContentViewWindowMask.
 
 00:08:56.786 --> 00:09:00.236 A:middle
 This is a simple demo
@@ -853,8 +854,8 @@ content view just has a slightly
 odd red box and black box.
 
 00:09:13.756 --> 00:09:15.856 A:middle
-If we add the full size
-ContentView WindowMask,
+If we add the
+NSFullSizeContentViewWindowMask,
 
 00:09:16.806 --> 00:09:19.276 A:middle
 all of a sudden the content
@@ -875,11 +876,11 @@ the red and the black
 in the title bar there.
 
 00:09:26.476 --> 00:09:27.866 A:middle
-So, if you look at this mock-up
+So, if you look at this mockup
 
 00:09:27.866 --> 00:09:30.326 A:middle
-and you use the FullSize
-ContentView WindowMask,
+and you use the
+NSFullSizeContentViewWindowMask,
 
 00:09:30.706 --> 00:09:33.566 A:middle
 a problem you'll notice is that
@@ -1005,24 +1006,24 @@ that represents the
 unobscured area of the window.
 
 00:10:56.956 --> 00:10:58.466 A:middle
-Its key-value observing
+It's key-value observing
 compliant,
 
-00:10:58.996 --> 00:11:01.196 A:middle
-which means if you register
-as a key-value observer
+00:10:58.996 --> 00:11:01.526 A:middle
+which means if you register as
+a key-value observer for it,
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:10:58.996 --> 00:11:01.196 A:middle
-which means if you register
-as a key-value observer
+00:10:58.996 --> 00:11:01.526 A:middle
+which means if you register as
+a key-value observer for it,
 
-00:11:01.236 --> 00:11:03.026 A:middle
-for it you're going to get
-called back when it changes,
+00:11:01.526 --> 00:11:03.026 A:middle
+you're going to get called
+back when it changes,
 
 00:11:03.426 --> 00:11:05.696 A:middle
 and that's important
@@ -1121,15 +1122,15 @@ between the top of the window
 and the top of the content area,
 
 00:12:02.376 --> 00:12:04.836 A:middle
-and I had just gone ahead,
+and I had just gone ahead
 and set a contentInsets
 
 00:12:04.836 --> 00:12:06.756 A:middle
 where its top property
-is equal to that offset,
+is equal to that offset.
 
 00:12:07.466 --> 00:12:09.106 A:middle
-there's an easier
+There's an easier
 way of doing this.
 
 00:12:09.106 --> 00:12:10.616 A:middle
@@ -1177,24 +1178,24 @@ this is how the window will look
 like when it's opened
 by the user.
 
-00:12:36.476 --> 00:12:38.916 A:middle
-When they begin scrolling the
-scroll view content can still
+00:12:36.476 --> 00:12:37.556 A:middle
+When they begin scrolling,
 
-00:12:38.916 --> 00:12:41.156 A:middle
-slide under the title
-bar just the way we want
+00:12:37.776 --> 00:12:39.326 A:middle
+the scroll view content
+can still slide
+
+00:12:39.326 --> 00:12:41.156 A:middle
+under the title bar
+just the way we want
 
 00:12:41.156 --> 00:12:45.146 A:middle
 and we can get this appearance
 of blurring the document content
 
-00:12:45.146 --> 00:12:47.876 A:middle
+00:12:45.146 --> 00:12:48.216 A:middle
 or the title bar without
-[inaudible] replicating it
-
-00:12:47.926 --> 00:12:48.216 A:middle
-for you.
+packet replicating it for you.
 
 00:12:48.276 --> 00:12:53.266 A:middle
 So I'd like to show you
@@ -1244,11 +1245,11 @@ your apps, it's not difficult.
 
 00:13:18.796 --> 00:13:21.646 A:middle
 We have a new enumeration
-called NSWindow TitleVisiblity,
+called NSWindowTitleVisiblity.
 
 00:13:21.646 --> 00:13:24.846 A:middle
-it has three states, Visible,
-Hidden, and Hidden When Active.
+It has three states: Visible,
+Hidden and Hidden When Active.
 
 00:13:25.446 --> 00:13:27.716 A:middle
 Hidden When Active adds
@@ -1262,16 +1263,19 @@ background the title comes back.
 That could distinguish it from
 otherwise similar windows.
 
-00:13:34.006 --> 00:13:37.366 A:middle
-These are settable through the
-NSWindowTitleVisiblity property.
+00:13:34.006 --> 00:13:36.986 A:middle
+These are settable through
+the NSWindowTitleVisibility
+
+00:13:36.986 --> 00:13:37.366 A:middle
+property.
 
 00:13:37.696 --> 00:13:40.306 A:middle
 So just a quick example, here's
-that Finder window again,
+that Finder window again.
 
 00:13:40.746 --> 00:13:43.506 A:middle
-this is TitleVisible, and you
+This is TitleVisible, and you
 can see it has a separate row
 
 00:13:43.506 --> 00:13:47.666 A:middle
@@ -1344,7 +1348,7 @@ to the top of the window again.
 
 00:14:23.626 --> 00:14:25.396 A:middle
 And this is also
-easy to accomplish,
+easy to accomplish.
 
 00:14:25.856 --> 00:14:28.506 A:middle
 NSWindow has a new
@@ -1357,12 +1361,12 @@ titlebarAppearsTransparent.
 So, if we go back to my
 silly little red box,
 
-00:14:33.196 --> 00:14:34.526 A:middle
-black box example, this is
+00:14:33.196 --> 00:14:34.656 A:middle
+black box example, this is it
 
-00:14:34.586 --> 00:14:37.076 A:middle
-at when titlebar
-AppearsTransparent equals No,
+00:14:34.656 --> 00:14:37.076 A:middle
+when titlebarAppearsTransparent
+equals No,
 
 00:14:37.076 --> 00:14:37.916 A:middle
 and that's the default.
@@ -1396,7 +1400,7 @@ Corbin on stage.
 
 00:14:56.586 --> 00:14:59.036 A:middle
 He's going to talk about some
-new API's that'll let you take
+new APIs that'll let you take
 
 00:14:59.036 --> 00:15:02.136 A:middle
 advantage of our visual effects,
@@ -1537,7 +1541,7 @@ There's a couple examples of
 how to do some type of blurring
 
 00:16:16.576 --> 00:16:19.906 A:middle
-with a maps type of application,
+with a Maps type of application,
 how to get to blur here,
 
 00:16:19.906 --> 00:16:23.686 A:middle
@@ -1583,16 +1587,17 @@ important difference to note
 because we have two
 concepts here.
 
-00:16:50.316 --> 00:16:53.736 A:middle
-We have behind window blending,
+00:16:50.316 --> 00:16:51.826 A:middle
+We have "behind window"
+blending,
+
+00:16:52.286 --> 00:16:54.956 A:middle
 where whatever's behind the view
-
-00:16:53.736 --> 00:16:56.706 A:middle
 and behind the window is blended
-with what you see and we have
 
-00:16:56.706 --> 00:16:57.866 A:middle
-within window blending.
+00:16:54.956 --> 00:16:57.866 A:middle
+with what you see and we
+have within window blending.
 
 00:16:58.166 --> 00:16:59.726 A:middle
 So there are two
@@ -1607,23 +1612,20 @@ And so that's reflected in the
 API for NSVisualEffectView.
 
 00:17:03.776 --> 00:17:06.836 A:middle
-There's an ENUM and it's
-NSVisualEffect BlendingMode
+There's an enum and it's
+NSVisualEffectBlendingMode
 
 00:17:06.836 --> 00:17:09.836 A:middle
 and it has two options,
-blending mode behind window,
+BlendingModeBehindWindow,
 
-00:17:10.136 --> 00:17:12.566 A:middle
-and a blending mode
-within window,
-
-00:17:12.945 --> 00:17:14.826 A:middle
+00:17:10.136 --> 00:17:14.826 A:middle
+and a BlendingModeWithinWindow,
 and then property to set it.
 
 00:17:15.636 --> 00:17:19.195 A:middle
 So, you can just set
-and code or you can open
+it code or you can open
 
 00:17:19.195 --> 00:17:23.136 A:middle
 up your application
@@ -1673,16 +1675,16 @@ you automatically
 by our Window Server.
 
 00:17:50.626 --> 00:17:54.056 A:middle
-What NSWindow EffectView does
+What NSWindowEffectView does
 is it kind of finds regions
 
 00:17:54.056 --> 00:17:56.676 A:middle
-with the Window Server to
-tell it, hey, this is the area
+with the Window Server to tell
+it, "Hey, this is the area
 
 00:17:56.676 --> 00:17:58.776 A:middle
 that I want to be
-vibrant or to be blurred,
+vibrant or to be blurred,"
 
 00:17:58.916 --> 00:18:00.316 A:middle
 and do it automatically.
@@ -1846,7 +1848,7 @@ easily inside of Xcode,
 
 00:19:39.566 --> 00:19:41.226 A:middle
 if you don't do any code
-for the [inaudible] layer,
+for the wants layer,
 
 00:19:41.226 --> 00:19:43.816 A:middle
 and you can just check that box
@@ -1891,12 +1893,12 @@ So the visual effect view
 has a property called state
 
 00:20:13.226 --> 00:20:16.476 A:middle
-and it's an ENUM value
-NSVisualEffectState
+and it's an enum value,
+NSVisualEffectState,
 
 00:20:17.036 --> 00:20:20.916 A:middle
-and it has NSVisualEffect
-StateFollows WindowActiveState,
+and it has NSVisualEffectState
+FollowsWindowActiveState,
 
 00:20:20.916 --> 00:20:22.736 A:middle
 which is probably
@@ -1918,11 +1920,12 @@ to control it more explicitly.
 So you can explicitly
 set the active state
 
-00:20:34.056 --> 00:20:38.276 A:middle
-or explicitly set the inactive
-state and actually full power,
+00:20:34.056 --> 00:20:36.016 A:middle
+or explicitly set
+the inactive state
 
-00:20:38.276 --> 00:20:39.286 A:middle
+00:20:36.776 --> 00:20:39.286 A:middle
+and actually have full power
 and full control over this.
 
 00:20:40.546 --> 00:20:42.726 A:middle
@@ -2012,16 +2015,16 @@ two screenshots showing two
 different appearances.
 
 00:21:33.666 --> 00:21:36.056 A:middle
-We have the NSAppearance
-NameVibrantLight
+We have the
+NSAppearanceNameVibrantLight
 
 00:21:36.426 --> 00:21:39.206 A:middle
 to get this light
 appearance and light controls.
 
 00:21:39.206 --> 00:21:42.556 A:middle
-And we have NSAppearance
-NameVibrantDark
+And we have
+NSAppearanceNameVibrantDark
 
 00:21:42.916 --> 00:21:45.146 A:middle
 to get the dark look
@@ -2120,8 +2123,8 @@ Visual effect view has a
 property called material.
 
 00:22:51.996 --> 00:22:57.076 A:middle
-The NSVisual EffectMaterial
-has several ENUM values.
+The NSVisualEffectMaterial
+has several enum values.
 
 00:22:57.686 --> 00:23:00.566 A:middle
 The first one is what you
@@ -2135,12 +2138,12 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 The first one is what you
 will probably use the majority
 
-00:23:00.566 --> 00:23:02.646 A:middle
-of the time, and
-it's NSVisualEffect
+00:23:00.566 --> 00:23:03.056 A:middle
+of the time, and it's
+NSVisualEffectMaterial
 
-00:23:02.646 --> 00:23:04.336 A:middle
-MaterialAppearanceBased.
+00:23:03.146 --> 00:23:04.336 A:middle
+AppearanceBased.
 
 00:23:04.886 --> 00:23:06.406 A:middle
 So let me show you
@@ -2151,8 +2154,8 @@ If you have a visual
 effect view and it's set
 
 00:23:11.476 --> 00:23:14.056 A:middle
-to NSVisualEffect
-MaterialAppearanceBased,
+to NSVisualEffectMaterial
+AppearanceBased,
 
 00:23:14.886 --> 00:23:16.406 A:middle
 the actual materials shown
@@ -2189,11 +2192,11 @@ and not set the appearance,
 
 00:23:35.836 --> 00:23:37.416 A:middle
 which is why it's
-an ENUM option.
+an enum option.
 
 00:23:37.916 --> 00:23:42.466 A:middle
 So the last option here is
-NSVisual EffectMaterialTitlebar.
+NSVisualEffectMaterialTitlebar.
 
 00:23:43.166 --> 00:23:45.556 A:middle
 And so what this
@@ -2208,12 +2211,12 @@ So you may have a need
 in your application
 
 00:23:50.916 --> 00:23:53.446 A:middle
-to replicate the titlebar
+to replicate the title bar
 that we do inside the AppKit,
 
 00:23:53.476 --> 00:23:56.826 A:middle
 and we just use this and this
-VisualEffect MaterialTitle Bar
+NSVisualEffectMaterialTitle Bar
 
 00:23:56.856 --> 00:23:58.606 A:middle
 internally, and so
@@ -2298,19 +2301,18 @@ let me give an example.
 
 00:24:44.346 --> 00:24:48.346 A:middle
 So here's just a simple
-image of some flowers,
+image of some flowers.
 
 00:24:48.346 --> 00:24:51.246 A:middle
-and if I drop a little
+And if I drop a little
 square onto it,
 
 00:24:51.606 --> 00:24:54.766 A:middle
 it's just a solid gray
-square with a darker border,
+square with a darker border.
 
-00:24:55.136 --> 00:24:56.636 A:middle
-and if I set it to
-be color burned,
+00:24:55.186 --> 00:24:56.636 A:middle
+If I set it to be color burned,
 
 00:24:57.006 --> 00:24:58.786 A:middle
 as you can see it
@@ -2328,16 +2330,16 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 So effectively this is what
 we're doing to our controls,
 
-00:25:01.856 --> 00:25:04.616 A:middle
+00:25:01.856 --> 00:25:04.696 A:middle
 and this is just a very simple
-example of what color burn
+example of what color burn is
 
 00:25:04.936 --> 00:25:06.436 A:middle
 and what we mean by Vibrancy.
 
 00:25:07.026 --> 00:25:11.466 A:middle
 So how does this work
-with visual effect view,
+with NSVisualEffectView,
 
 00:25:12.156 --> 00:25:14.116 A:middle
 and how does the
@@ -2477,11 +2479,14 @@ automatically get Vibrancy.
 
 00:26:53.006 --> 00:26:55.756 A:middle
 So that begs the question,
-well how does something
+well, how does something
 
-00:26:55.756 --> 00:26:59.616 A:middle
-like Image View say, hey, I want
-to be vibrant or not be vibrant?
+00:26:55.756 --> 00:26:57.776 A:middle
+like ImageView say, "Hey,
+
+00:26:57.776 --> 00:26:59.616 A:middle
+I want to be vibrant
+or not be vibrant?"
 
 00:26:59.616 --> 00:27:01.746 A:middle
 And how does it dynamically
@@ -2496,32 +2501,31 @@ And how does it dynamically
 choose its answer?
 
 00:27:02.106 --> 00:27:06.546 A:middle
-And the answer is we have new
-API and NSView to do this,
+And the answer is we have a
+new API in NSView to do this,
 
 00:27:06.966 --> 00:27:09.486 A:middle
 and this is basically
 the implementation inside
 
-00:27:09.556 --> 00:27:13.306 A:middle
-of NSImageView, it says
-allowsVibrancy is the new API,
+00:27:09.556 --> 00:27:10.586 A:middle
+of NSImageView.
 
-00:27:14.006 --> 00:27:15.996 A:middle
-and the answer to
-allows Vibrancy is
+00:27:10.656 --> 00:27:13.306 A:middle
+It says allowsVibrancy
+is the new API.
 
-00:27:16.436 --> 00:27:18.896 A:middle
-self.image.isTemplate,
-which is saying, hey,
+00:27:14.006 --> 00:27:17.786 A:middle
+And the answer to allowsVibrancy
+is self.image.isTemplate,
 
-00:27:18.896 --> 00:27:20.536 A:middle
-if I'm a template
-I can be vibrant,
+00:27:18.076 --> 00:27:20.536 A:middle
+which is saying, "Hey, if I'm
+a template I can be vibrant,
 
 00:27:20.616 --> 00:27:22.616 A:middle
 if I'm not a template,
-I can't be vibrant.
+I can't be vibrant."
 
 00:27:23.106 --> 00:27:23.666 A:middle
 Very simple.
@@ -2544,7 +2548,7 @@ or whatnot?
 
 00:27:35.766 --> 00:27:39.326 A:middle
 And just like normal AppKit
-things if you change the state
+things, if you change the state
 
 00:27:39.326 --> 00:27:40.906 A:middle
 of Vibrancy or need the question
@@ -2649,11 +2653,11 @@ up here are true.
 
 00:28:50.396 --> 00:28:53.366 A:middle
 The appearance has to say
-Yes from allowsVibrancy.
+Yes from allowsVibrancy,
 
 00:28:54.016 --> 00:28:56.266 A:middle
-Which means currently,
-that is, the VibrantLight
+which means currently,
+that is the VibrantLight
 
 00:28:56.266 --> 00:28:57.356 A:middle
 or VibrantDark appearance.
@@ -2716,7 +2720,8 @@ and then another gray
 oval inside of it.
 
 00:29:36.416 --> 00:29:38.066 A:middle
-And this ones appearing vibrant,
+And this one's appearing
+vibrant,
 
 00:29:38.446 --> 00:29:40.466 A:middle
 you can see how it's
@@ -2783,16 +2788,16 @@ your custom view subclass,
 as I mentioned before, you'll
 override allowsVibrancy
 
-00:30:18.276 --> 00:30:20.586 A:middle
-and you'll prior return
-Yes, that way when you're
+00:30:18.276 --> 00:30:19.266 A:middle
+and you'll prior return Yes.
 
-00:30:20.586 --> 00:30:22.486 A:middle
-in a vibrant appearance
-you automatically will
+00:30:20.076 --> 00:30:21.466 A:middle
+That way, when you're
+in a vibrant appearance,
 
-00:30:22.486 --> 00:30:23.096 A:middle
-appear vibrant.
+00:30:21.466 --> 00:30:23.096 A:middle
+you automatically
+will appear vibrant.
 
 00:30:24.186 --> 00:30:26.486 A:middle
 And then inside of your drawRect
@@ -2858,7 +2863,7 @@ to get Vibrancy in that view.
 
 00:31:07.236 --> 00:31:11.316 A:middle
 However, what you can do is you
-can utilize the system colors
+can utilize named system colors
 
 00:31:11.316 --> 00:31:12.886 A:middle
 to have your application
@@ -2867,12 +2872,12 @@ to have your application
 and your custom view be more
 dynamic depending on what kind
 
-00:31:16.086 --> 00:31:17.036 A:middle
-of appearance it's in.
+00:31:16.086 --> 00:31:17.546 A:middle
+of appearance it's in, if it's
 
-00:31:17.336 --> 00:31:19.186 A:middle
-If it's in a light
-appearance or dark appearance.
+00:31:17.546 --> 00:31:19.186 A:middle
+in a light appearance
+or dark appearance.
 
 00:31:20.016 --> 00:31:20.876 A:middle
 So, for instance, something
@@ -2940,9 +2945,12 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 subviews so you're holding
 onto that color, you don't have
 
-00:32:00.056 --> 00:32:02.626 A:middle
+00:32:00.056 --> 00:32:01.486 A:middle
 to worry about invalidating
-things it's done automatically.
+things.
+
+00:32:01.486 --> 00:32:02.626 A:middle
+It's done automatically.
 
 00:32:02.966 --> 00:32:08.056 A:middle
 So let's take a look at some
@@ -2952,12 +2960,12 @@ code that uses a system color,
 because you may not
 be familiar with it.
 
-00:32:10.026 --> 00:32:13.466 A:middle
+00:32:10.026 --> 00:32:13.036 A:middle
 We have ColorList, and
-so you can easily grab a
+so you can easily grab
 
-00:32:13.466 --> 00:32:14.696 A:middle
-colorListNamed System.
+00:32:13.386 --> 00:32:14.696 A:middle
+a colorListNamed:@"System".
 
 00:32:15.316 --> 00:32:17.746 A:middle
 And what this sample
@@ -3001,15 +3009,15 @@ drawing those colors,
 and this looks very busy,
 so let me explain it.
 
-00:32:45.216 --> 00:32:46.656 A:middle
-This is what we would
-get, this is what
+00:32:45.216 --> 00:32:46.126 A:middle
+This is what we would get.
 
-00:32:46.656 --> 00:32:47.896 A:middle
-that demo application does.
+00:32:46.266 --> 00:32:47.896 A:middle
+This is what that
+demo application does.
 
 00:32:48.986 --> 00:32:51.616 A:middle
-So in the first column this
+So in the first column, this
 is just drawing the name
 
 00:32:52.036 --> 00:32:53.016 A:middle
@@ -3180,7 +3188,7 @@ Let's discuss how you would
 actually achieve something
 
 00:34:43.576 --> 00:34:46.076 A:middle
-like this where the same view --
+like this where the same view -
 
 00:34:46.126 --> 00:34:49.565 A:middle
 where it's in a VisualEffectView
@@ -3241,15 +3249,15 @@ just using different colors.
 00:35:21.296 --> 00:35:23.216 A:middle
 And it's really easy to use.
 
-00:35:23.926 --> 00:35:26.816 A:middle
-As I mentioned before
+00:35:23.926 --> 00:35:25.106 A:middle
+As I mentioned before,
+
+00:35:25.386 --> 00:35:28.946 A:middle
 NSAppearance has an
-
-00:35:26.816 --> 00:35:30.586 A:middle
 allowsVibrancy property,
-and it's Yes when it's
 
-00:35:30.586 --> 00:35:31.436 A:middle
+00:35:29.126 --> 00:35:31.436 A:middle
+and it's Yes when it's
 in a vibrant appearance.
 
 00:35:32.006 --> 00:35:33.486 A:middle
@@ -3279,11 +3287,11 @@ set one particular color,
 if it doesn't you can
 set another color.
 
-00:35:50.186 --> 00:35:52.306 A:middle
+00:35:50.186 --> 00:35:52.696 A:middle
 So here it's just saying
-the redColor when it's
+redColor when it's not
 
-00:35:52.306 --> 00:35:54.006 A:middle
+00:35:52.856 --> 00:35:54.006 A:middle
 in a vibrant appearance.
 
 00:35:55.126 --> 00:35:58.346 A:middle
@@ -3324,17 +3332,17 @@ to allowsVibrancy, what's going
 to happen is all the subviews
 are going to always be vibrant,
 
-00:36:21.216 --> 00:36:24.066 A:middle
+00:36:21.216 --> 00:36:22.886 A:middle
 and so it's a little
-difficult to see here but now
+difficult to see here,
 
-00:36:24.606 --> 00:36:28.726 A:middle
-that subview, that image view
-is doing a different blending
+00:36:23.416 --> 00:36:28.276 A:middle
+but now that subview, that
+image view is doing a different
 
-00:36:28.726 --> 00:36:30.406 A:middle
-and it looks a little
-bit murky and muddy
+00:36:28.276 --> 00:36:30.406 A:middle
+blending and it looks a
+little bit murky and muddy
 
 00:36:30.546 --> 00:36:32.516 A:middle
 because it's doing
@@ -3374,19 +3382,17 @@ to be vibrant.
 Or design it so that your
 parent view is not saying Yes
 
-00:36:58.926 --> 00:37:00.876 A:middle
+00:36:58.926 --> 00:37:02.996 A:middle
 to allowsVibrancy, overlapping
+with the siblings - or children.
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:36:58.926 --> 00:37:00.876 A:middle
+00:36:58.926 --> 00:37:02.996 A:middle
 to allowsVibrancy, overlapping
-
-00:37:00.876 --> 00:37:02.996 A:middle
-with the siblings
--- or children.
+with the siblings - or children.
 
 00:37:03.516 --> 00:37:07.486 A:middle
 There are also some
@@ -3430,10 +3436,10 @@ So the text wants to be vibrant,
 
 00:37:35.376 --> 00:37:37.806 A:middle
 but the thing drawn behind
-it wants to not be vibrant,
+it wants to not be vibrant.
 
 00:37:38.356 --> 00:37:39.986 A:middle
-however, those areas
+However, those areas
 are overlapping,
 
 00:37:39.986 --> 00:37:42.386 A:middle
@@ -3490,7 +3496,8 @@ visual effect view can have a
 maskImage property.
 
 00:38:10.856 --> 00:38:13.356 A:middle
-The mask image allows you to it.
+The mask image allows
+you to mask it.
 
 00:38:14.026 --> 00:38:15.586 A:middle
 So right here are two
@@ -3532,9 +3539,12 @@ now see the poppy flower.
 And again, the demo
 application shows this.
 
-00:38:38.036 --> 00:38:44.056 A:middle
+00:38:38.036 --> 00:38:41.316 A:middle
 You can easily set a maskImage,
-or you can use NSImage with size
+
+00:38:41.516 --> 00:38:44.056 A:middle
+or you can use NSImage
+imageWithSize
 
 00:38:44.536 --> 00:38:47.046 A:middle
 and do the block handler
@@ -3553,7 +3563,7 @@ like this,
 
 00:38:54.846 --> 00:38:57.176 A:middle
 it's how you would achieve
-this shown in the demo app
+this shown in the demo app,
 
 00:38:57.266 --> 00:38:58.186 A:middle
 where it's a RoundRect
@@ -3571,7 +3581,7 @@ for my entire window using
 the maskImage property.
 
 00:39:01.696 --> 00:39:04.976 A:middle
-Some notes about mask image.
+Some notes about maskImage.
 
 00:39:05.356 --> 00:39:08.166 A:middle
 Chris highlighted some of
@@ -3620,10 +3630,10 @@ into a vibrant appearance now.
 
 00:39:40.416 --> 00:39:42.666 A:middle
 So you see that in
-something like the side bar
+something like the sidebar
 
 00:39:42.866 --> 00:39:45.556 A:middle
-in mail, calendars, et cetera.
+in Mail, Calendar, et cetera.
 
 00:39:46.186 --> 00:39:49.886 A:middle
 So how does this work,
@@ -3636,13 +3646,13 @@ with your applications already?
 If you're using the
 selectionHighlightStyle
 
-00:39:54.226 --> 00:39:55.956 A:middle
-of NSTableView
-SelectionHighlight
+00:39:54.226 --> 00:39:56.936 A:middle
+of NSTableViewSelection
+HighlightStyleSourceList,
 
-00:39:55.956 --> 00:39:59.236 A:middle
-StyleSourceList, that tells the
-table, or our only view of that,
+00:39:57.426 --> 00:39:59.236 A:middle
+that tells the table, or
+our only view of that,
 
 00:39:59.586 --> 00:40:01.136 A:middle
 it wants to be a source list.
@@ -3662,12 +3672,13 @@ that, either in code
 or in Interface Builder, it
 has always had side effects,
 
-00:40:07.446 --> 00:40:09.726 A:middle
-and these are documented in
-the release notes I'm going
+00:40:07.446 --> 00:40:09.386 A:middle
+and these are documented
+in the release notes.
 
-00:40:09.726 --> 00:40:10.946 A:middle
-to reiterate them here.
+00:40:09.456 --> 00:40:10.946 A:middle
+I'm going to reiterate
+them here.
 
 00:40:12.066 --> 00:40:14.486 A:middle
 OutlineView's indentation
@@ -3824,7 +3835,7 @@ Another control inside
 of AppKit,
 
 00:41:51.726 --> 00:41:56.446 A:middle
-Popover is now utilizing
+NSPopover is now utilizing
 the Light and Dark materials
 
 00:41:56.446 --> 00:41:59.246 A:middle
@@ -3918,12 +3929,12 @@ the resource utilization.
 00:42:53.126 --> 00:42:55.046 A:middle
 So, here's a small example.
 
-00:42:55.046 --> 00:42:56.996 A:middle
+00:42:55.046 --> 00:42:57.346 A:middle
 These two images on the left
-and right appear [inaudible],
+and right appear as samples.
 
-00:42:57.096 --> 00:42:59.686 A:middle
-it's actually controlled
+00:42:57.346 --> 00:42:59.686 A:middle
+It's actually controlled
 with three image views
 
 
@@ -4000,11 +4011,11 @@ houses is almost identical
 between the left and the right.
 
 00:43:42.066 --> 00:43:45.006 A:middle
-And in that case a single
+And in that case, a single
 VisualEffectView is going
 
 00:43:45.006 --> 00:43:46.026 A:middle
-to mean more performance,
+to mean more performance
 
 00:43:46.026 --> 00:43:47.836 A:middle
 if there's less information
@@ -4114,13 +4125,13 @@ dirty shapes on screen are going
 to be different than if
 you're not using layers.
 
-00:44:47.806 --> 00:44:50.966 A:middle
-So, here's an example of a
-mock text view that just blinks
+00:44:47.806 --> 00:44:50.336 A:middle
+So, here's an example
+of a mock text view
 
-00:44:50.966 --> 00:44:53.076 A:middle
-at insertion point
-in this R rectangle,
+00:44:50.336 --> 00:44:53.076 A:middle
+that just blinks an insertion
+point in this "r" rectangle,
 
 00:44:53.396 --> 00:44:54.366 A:middle
 when it's not layer-backed.
@@ -4130,16 +4141,16 @@ And you can see here we
 have this blinking cursor.
 
 00:44:58.466 --> 00:45:00.616 A:middle
-What you probably can't
-see is I've actually turned
+What you probably can't see
+is, I've actually turned
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:58.466 --> 00:45:00.616 A:middle
-What you probably can't
-see is I've actually turned
+What you probably can't see
+is, I've actually turned
 
 00:45:00.616 --> 00:45:02.376 A:middle
 on color flush in one
@@ -4169,7 +4180,7 @@ the small dirty rect,
 
 00:45:17.186 --> 00:45:20.896 A:middle
 but whenever the view
-updates we see this instead.
+updates, we see this instead.
 
 00:45:21.626 --> 00:45:22.746 A:middle
 The entire layer is flushed.
@@ -4182,13 +4193,13 @@ drawing anymore,
 our application is still just
 drawing that tiny cursor rect,
 
-00:45:27.586 --> 00:45:30.056 A:middle
+00:45:27.586 --> 00:45:29.636 A:middle
 it's just that Core Animation
-has been built for GPU's,
+has been built for GPUs,
 
-00:45:30.356 --> 00:45:32.506 A:middle
+00:45:29.636 --> 00:45:32.506 A:middle
 which involve submitting
-Geometry in large batches,
+geometry in large batches,
 
 00:45:32.826 --> 00:45:34.756 A:middle
 so we just flush
@@ -4207,10 +4218,10 @@ side of this view,
 
 00:45:40.926 --> 00:45:44.476 A:middle
 even though only the insertion
-point on the left is blinking
+point on the left is blinking,
 
 00:45:44.876 --> 00:45:46.536 A:middle
-that blurs going to
+that blur is going to
 have to be recomputed.
 
 00:45:47.186 --> 00:45:49.386 A:middle
@@ -4259,13 +4270,13 @@ view hierarchy a little.
 So, for example, if you have
 frequently updating content,
 
-00:46:14.236 --> 00:46:16.396 A:middle
-try to put it in a
-small view and have --
+00:46:14.236 --> 00:46:17.496 A:middle
+try to put it in a small view
+and have - reserve large views
 
-00:46:16.396 --> 00:46:20.266 A:middle
-reserve large views for static
-or unfrequently updated content.
+00:46:17.736 --> 00:46:20.266 A:middle
+for static or unfrequently
+updated content.
 
 00:46:21.506 --> 00:46:23.956 A:middle
 Something unrelated, but very
@@ -4280,11 +4291,11 @@ with it if you're using
 visual effect views.
 
 00:46:28.616 --> 00:46:31.426 A:middle
-In the past if you needed to
+In the past, if you needed to
 punch a hole through your window
 
 00:46:31.426 --> 00:46:33.616 A:middle
-or have transparency you
+or have transparency, you
 had to set this to Yes.
 
 00:46:34.056 --> 00:46:36.436 A:middle
@@ -4314,16 +4325,19 @@ you're already using it
 00:46:51.676 --> 00:46:52.486 A:middle
 for other reasons.
 
-00:46:52.486 --> 00:46:55.396 A:middle
+00:46:52.486 --> 00:46:53.986 A:middle
 I want to point out this option
-in the Accessibility preference,
+
+00:46:54.096 --> 00:46:55.466 A:middle
+in the Accessibility
+preferences,
 
 00:46:55.636 --> 00:46:57.286 A:middle
 this is in the Display
 subsection called
 
 00:46:57.286 --> 00:46:58.336 A:middle
-reduce transparency.
+Reduce Transparency.
 
 00:46:58.426 --> 00:47:00.676 A:middle
 And that'll actually
@@ -4342,10 +4356,10 @@ on a system-wide basis.
 
 00:47:02.246 --> 00:47:04.736 A:middle
 And I'm not suggesting
-this as a user feature,
+this as a user feature.
 
 00:47:05.186 --> 00:47:07.086 A:middle
-instead I'm suggesting
+Instead I'm suggesting
 this as a diagnostic tool.
 
 00:47:07.616 --> 00:47:09.586 A:middle
@@ -4360,7 +4374,7 @@ that maybe your window
 resizing animations
 
 00:47:12.276 --> 00:47:14.476 A:middle
-or your full screen
+or your fullscreen
 transitions have become slow,
 
 00:47:14.986 --> 00:47:16.276 A:middle
@@ -4370,24 +4384,24 @@ you can set this to Yes,
 and this will avoid the cost
 we pay when doing that blur.
 
-00:47:21.636 --> 00:47:23.006 A:middle
-So if you notice
-when this is turned
+00:47:21.636 --> 00:47:23.286 A:middle
+So if you notice when
+this is turned on,
 
-00:47:23.006 --> 00:47:24.616 A:middle
-on your performance is fine,
+00:47:23.286 --> 00:47:24.616 A:middle
+your performance is fine.
 
-00:47:24.616 --> 00:47:27.416 A:middle
-and when this is turned off your
-performance is kind of sluggish,
+00:47:24.616 --> 00:47:26.836 A:middle
+And when this is turned off,
+your performance is kind
 
-00:47:27.766 --> 00:47:30.786 A:middle
-it's probably you're using a
-VisualEffectView that's too
+00:47:26.836 --> 00:47:30.456 A:middle
+of sluggish, it's probably
+you're using a VisualEffectView
 
-00:47:30.786 --> 00:47:32.916 A:middle
-large or too many
-VisualEffectViews,
+00:47:30.456 --> 00:47:32.916 A:middle
+that's too large or too
+many VisualEffectViews,
 
 00:47:33.136 --> 00:47:36.296 A:middle
 and that's a cue to dial
@@ -4443,13 +4457,16 @@ point out about a lot
 of our drawing here is that the
 blur effect actually happens
 
-00:48:04.806 --> 00:48:06.616 A:middle
-out of process, it happens
-in the Windows Server,
+00:48:04.806 --> 00:48:05.576 A:middle
+out of process.
 
-00:48:06.616 --> 00:48:09.216 A:middle
-and furthermore, it happens
-on the GPU, and that means
+00:48:05.576 --> 00:48:07.156 A:middle
+It happens in the Windows
+Server, and furthermore,
+
+00:48:07.156 --> 00:48:09.216 A:middle
+it happens on the
+GPU, and that means
 
 00:48:09.216 --> 00:48:12.286 A:middle
 that profiling your own process
@@ -4460,7 +4477,7 @@ as much as you would hope.
 
 00:48:13.756 --> 00:48:16.096 A:middle
 I'm still, however, going to
-call out the instruments tool,
+call out the Instruments tool,
 
 00:48:16.716 --> 00:48:20.186 A:middle
 because the Windows Server and
@@ -4468,14 +4485,14 @@ your app are kind of competing
 
 00:48:20.186 --> 00:48:22.496 A:middle
 to get frames on the screen
-in a single display cycle,
+in a single display cycle.
 
 00:48:23.306 --> 00:48:24.976 A:middle
-and the faster you
+And the faster you
 can make your app
 
 00:48:24.976 --> 00:48:28.226 A:middle
-and the less GPU it utilizes
+and the less GPU it utilizes,
 the more that is available
 
 00:48:28.226 --> 00:48:28.986 A:middle
@@ -4490,7 +4507,7 @@ as a whole by just improving
 the performance of your app,
 
 00:48:33.126 --> 00:48:36.016 A:middle
-and instruments gives you the
+and Instruments gives you the
 tools to monitor all that.
 
 00:48:36.286 --> 00:48:39.476 A:middle
@@ -4498,12 +4515,12 @@ If you're just doing a lighter
 development on your app,
 
 00:48:39.476 --> 00:48:41.556 A:middle
-having activity monitor open
+having Activity Monitor open
 can sometimes be useful.
 
 00:48:41.766 --> 00:48:43.926 A:middle
 It's certainly not as
-in-depth as instruments
+in-depth as Instruments
 
 00:48:44.266 --> 00:48:46.066 A:middle
 but it will tell you how
@@ -4521,8 +4538,8 @@ And if you see that
 operating a little higher
 
 00:48:52.686 --> 00:48:54.846 A:middle
-than you're expecting
-that may be another cue
+than you're expecting,
+that may be another clue
 
 00:48:54.846 --> 00:48:58.486 A:middle
 that your VisualEffectView usage
@@ -4542,15 +4559,15 @@ you who really don't want
 
 00:49:02.436 --> 00:49:05.516 A:middle
 to impact what their app is
-doing by adding some gooey stuff
+doing by adding some GUI stuff
 
-00:49:05.516 --> 00:49:07.696 A:middle
-to profile it, you can access
-[inaudible] a new sample
+00:49:05.516 --> 00:49:08.256 A:middle
+to profile it, you can SSH
+in a new sample for example,
 
-00:49:07.696 --> 00:49:09.806 A:middle
-for example, which will tell
-you what your app is doing.
+00:49:08.256 --> 00:49:09.806 A:middle
+which will tell you
+what your app is doing.
 
 00:49:10.806 --> 00:49:11.626 A:middle
 So we've covered a lot.
@@ -4666,9 +4683,11 @@ to you shortly.
 So, I'd like to point
 out Jake Behrens,
 
-00:50:16.166 --> 00:50:19.726 A:middle
-our Frameworks Evangelist,
-he's here in the plaid shirt
+00:50:16.166 --> 00:50:17.416 A:middle
+our Frameworks Evangelist.
+
+00:50:17.706 --> 00:50:19.726 A:middle
+He's here in the plaid shirt
 
 00:50:19.726 --> 00:50:21.766 A:middle
 and the dark vibrant
@@ -4698,15 +4717,15 @@ where you can get the Quartz
 Debug tool I mentioned.
 
 00:50:35.146 --> 00:50:36.496 A:middle
-And of course our
+And, of course, our
 developer forums.
 
 00:50:36.926 --> 00:50:40.656 A:middle
 There's some related
-sessions, Adapting Your App
+sessions, "Adapting Your App
 
 00:50:40.656 --> 00:50:43.306 A:middle
-to the New UI was a session
+to the New UI" was a session
 yesterday that's available
 
 00:50:43.306 --> 00:50:44.156 A:middle
@@ -4714,10 +4733,10 @@ online now.
 
 00:50:44.716 --> 00:50:46.946 A:middle
 Additionally, later this
-afternoon there's What's New
+afternoon there's "What's New
 
 00:50:46.946 --> 00:50:48.986 A:middle
-in Interface Builder, which
+in Interface Builder", which
 will cover not only a bit
 
 00:50:48.986 --> 00:50:50.916 A:middle
@@ -4733,7 +4752,7 @@ for designing your app.
 
 00:50:54.416 --> 00:50:57.616 A:middle
 And tomorrow morning is
-creating Modern Cocoa Apps,
+"Creating Modern Cocoa Apps",
 
 00:50:57.616 --> 00:50:59.546 A:middle
 which if you found some of
@@ -4756,4 +4775,3 @@ Thank you very much.
 
 00:51:04.516 --> 00:51:11.230 A:middle
 [ Applause ]
-

@@ -7,7 +7,7 @@ and welcome to our first
 
 00:00:13.986 --> 00:00:16.206 A:middle
 of two discussions
-about Core Image.
+today about Core Image.
 
 00:00:16.206 --> 00:00:18.036 A:middle
 And we'll be talking
@@ -34,13 +34,13 @@ And it supports all
 of our supported devices
 on both iOS and OS X.
 
-00:00:35.886 --> 00:00:39.996 A:middle
-It's also used by several of our
-key applications such as photos
+00:00:35.886 --> 00:00:38.696 A:middle
+It's also used by several
+of our key applications
 
-00:00:40.966 --> 00:00:42.906 A:middle
-on both platforms
-and it allows you
+00:00:38.696 --> 00:00:42.906 A:middle
+such as photos and, on both
+platforms, and it allows you
 
 00:00:42.906 --> 00:00:44.736 A:middle
 to get very good
@@ -66,8 +66,8 @@ for the rest of the
 discussion today.
 
 00:00:56.766 --> 00:00:59.736 A:middle
-So first off, filters --
-Core Image filters allow you
+So first off, filters: Core
+Image filters allow you
 
 00:00:59.736 --> 00:01:03.036 A:middle
 to perform per-pixel
@@ -205,16 +205,20 @@ object types that you need
 to be familiar with if you
 want to use Core Image.
 
-00:02:23.696 --> 00:02:26.286 A:middle
-The first which we'll be talking
-about a lot today is CIKernel.
+00:02:23.696 --> 00:02:24.716 A:middle
+The first, which
+we'll be talking
+
+00:02:24.716 --> 00:02:26.286 A:middle
+about a lot today, is CIKernel.
 
 00:02:26.836 --> 00:02:28.956 A:middle
-And this represents a
-program that's written in CI's
+And this represents a program
+that's written in CI's --
 
 00:02:28.956 --> 00:02:30.936 A:middle
-or Core Image's Kernel language.
+or Core Image's --
+Kernel language.
 
 00:02:31.876 --> 00:02:36.056 A:middle
 Second object type is a
@@ -235,12 +239,12 @@ or vectors or other types.
 And it also allows you to
 use one or more kernels
 
-00:02:46.456 --> 00:02:49.286 A:middle
+00:02:46.456 --> 00:02:49.296 A:middle
 to create a new image based on
-the current state of the output
+the current state of the output,
 
-00:02:49.286 --> 00:02:51.156 A:middle
-or of the input parameters.
+00:02:49.296 --> 00:02:51.156 A:middle
+uh, of the input parameters.
 
 00:02:52.826 --> 00:02:56.556 A:middle
 Third key type is a CIImage
@@ -330,12 +334,12 @@ we have on the Mac OS X side,
 improve RAW support and
 how to use a second GPU.
 
-00:03:54.716 --> 00:03:56.926 A:middle
-So first and most interesting,
+00:03:54.716 --> 00:03:57.236 A:middle
+So first -- and most
+interesting, I think --
 
-00:03:56.926 --> 00:03:59.236 A:middle
-I think is Custom
-CIKernels on iOS.
+00:03:57.236 --> 00:03:59.236 A:middle
+is Custom CIKernels on iOS.
 
 00:03:59.236 --> 00:04:01.466 A:middle
 As I mentioned, this has been
@@ -402,12 +406,12 @@ or it can just be an
 NSString, if you'd like.
 
 00:04:37.476 --> 00:04:41.356 A:middle
-The kernel is wrapped
-up in CIFilter subclass
+The kernel is wrapped up
+in a CIFilter subclass
 
 00:04:41.356 --> 00:04:43.496 A:middle
 that you provide that
-applies to kernels
+applies their kernels
 
 00:04:43.496 --> 00:04:44.636 A:middle
 to produce an output image.
@@ -456,18 +460,18 @@ you a little teaser now
 of how simple it is.
 
 00:05:12.766 --> 00:05:14.836 A:middle
-Here we have in just
+Here we have, in just
 basically two lines of code,
 
 00:05:15.316 --> 00:05:17.216 A:middle
 how to use a Custom CIKernel.
 
-00:05:17.606 --> 00:05:22.036 A:middle
-We create an NSString which has
-some CI Core Image source code
+00:05:17.606 --> 00:05:19.786 A:middle
+We create an NSString
+which has some CI --
 
-00:05:22.036 --> 00:05:22.276 A:middle
-in it.
+00:05:20.326 --> 00:05:22.276 A:middle
+Core Image source code in it.
 
 00:05:22.646 --> 00:05:24.766 A:middle
 This is a very simple kernel
@@ -483,9 +487,12 @@ subtracting it not from 1
 00:05:30.486 --> 00:05:31.576 A:middle
 but from the alpha value.
 
-00:05:31.576 --> 00:05:34.746 A:middle
+00:05:31.576 --> 00:05:32.956 A:middle
 That's the correct way to invert
-if you've got premultiplied data
+
+00:05:32.956 --> 00:05:34.746 A:middle
+if you've got premultiplied
+data,
 
 00:05:34.856 --> 00:05:36.766 A:middle
 which is what Core
@@ -500,26 +507,27 @@ to do is create a
 CIKernel object
 
 00:05:42.716 --> 00:05:45.416 A:middle
-from the string and
-then apply it.
+from that string
+and then apply it.
 
-00:05:45.776 --> 00:05:47.456 A:middle
-You can specify two things.
+00:05:45.776 --> 00:05:49.906 A:middle
+You can specify two things:
+one is the resulting extent
 
-00:05:47.456 --> 00:05:51.366 A:middle
-One is the resulting
-extent of the produced image
+00:05:49.906 --> 00:05:53.916 A:middle
+of the produced image;
+and also, the arguments
 
-00:05:51.786 --> 00:05:55.816 A:middle
-and also the arguments that
-will be passed to that kernel.
+00:05:53.916 --> 00:05:55.816 A:middle
+that will be passed
+to that kernel.
 
 00:05:56.286 --> 00:05:58.836 A:middle
 In this particular example,
-there is only a single argument
+there is only a single argument,
 
 00:05:58.836 --> 00:06:02.196 A:middle
-which is the input image and
+which is the input image, and
 so as a result, our arguments
 
 
@@ -527,7 +535,7 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.836 --> 00:06:02.196 A:middle
-which is the input image and
+which is the input image, and
 so as a result, our arguments
 
 00:06:02.336 --> 00:06:06.686 A:middle
@@ -629,12 +637,12 @@ video feed and then using
 that to control the size
 
 00:07:11.736 --> 00:07:15.856 A:middle
-of the geometrically
-generated rounded rectangle.
+of a geometrically-generated,
+rounded rectangle.
 
 00:07:16.376 --> 00:07:20.676 A:middle
 And we can change the size
-of that larger or smaller
+of that, larger or smaller,
 
 00:07:21.776 --> 00:07:24.446 A:middle
 or we can change the amount
@@ -649,8 +657,8 @@ when it's smaller but it looks
 more cool when it's bigger.
 
 00:07:34.206 --> 00:07:38.086 A:middle
-So and we're getting about
-30 frames per second on that
+So... And we're getting about
+30 frames per second on that,
 
 00:07:38.086 --> 00:07:40.816 A:middle
 which is probably the frame
@@ -697,20 +705,19 @@ bit about how that works
 00:08:05.346 --> 00:08:06.706 A:middle
 in relationship to Core Image.
 
-00:08:07.326 --> 00:08:08.956 A:middle
-So here's just a
-little short video run
+00:08:07.326 --> 00:08:09.256 A:middle
+So here's just a little
+short video run-through
 
-00:08:08.956 --> 00:08:11.156 A:middle
-through of how this
-works in practice.
+00:08:09.306 --> 00:08:11.156 A:middle
+of how this works in practice.
 
 00:08:11.946 --> 00:08:14.586 A:middle
-What we have is an image
-the user wanted to edit.
+What we have is an image;
+the user went into Edit;
 
 00:08:14.876 --> 00:08:16.996 A:middle
-They brought up a
+they brought up a
 list of extensions.
 
 00:08:16.996 --> 00:08:18.186 A:middle
@@ -718,22 +725,22 @@ We picked the Core Image one
 
 00:08:18.966 --> 00:08:22.196 A:middle
 and this particular Core Image
-based extension has two sliders.
+based extension has two sliders:
 
 00:08:22.196 --> 00:08:25.396 A:middle
-One is the amount of sepia
-tone which we can slide
+one is the amount of sepia
+tone (which we can slide,
 
-00:08:25.806 --> 00:08:27.526 A:middle
-and we're getting
-very good frame rates
+00:08:25.806 --> 00:08:28.856 A:middle
+and we're getting very good
+frame rates to the screen
 
-00:08:27.526 --> 00:08:29.516 A:middle
-to the screen as we do this.
+00:08:28.856 --> 00:08:32.686 A:middle
+as we do this); and then
+the second slider is a
 
-00:08:30.046 --> 00:08:33.866 A:middle
-And then the second slider
-is a vignette amount.
+00:08:32.686 --> 00:08:33.866 A:middle
+vignette amount.
 
 00:08:34.126 --> 00:08:36.056 A:middle
 So it starts out with
@@ -759,8 +766,8 @@ Later on, when you
 hit Save, it's applied
 
 00:08:48.236 --> 00:08:51.206 A:middle
-on a full-sized image which
-is the 12 megapixel image
+on a full-sized image, which
+is a 12 megapixel image
 
 00:08:51.206 --> 00:08:51.736 A:middle
 in this case.
@@ -825,26 +832,26 @@ extension is initialized,
 
 00:09:23.446 --> 00:09:26.486 A:middle
 what you want to do is you want
-to ask the editing input object
+to ask the EditingInput object
 
 00:09:26.486 --> 00:09:28.466 A:middle
 for a display-sized image.
 
 00:09:29.046 --> 00:09:31.256 A:middle
-Initially, that is a UI
-image object and from
+Initially, that is a
+UIImage object and from
 
 00:09:31.256 --> 00:09:34.446 A:middle
 that you can create a CGImage
 and then from that CIImage.
 
-00:09:34.446 --> 00:09:36.496 A:middle
-That sounds like
-a couple of steps
+00:09:34.446 --> 00:09:37.166 A:middle
+That sounds like a couple
+of steps but it's --
 
-00:09:36.496 --> 00:09:39.226 A:middle
-but it's actually those are
-just lightweight wrappers.
+00:09:37.166 --> 00:09:39.226 A:middle
+actually those are just
+lightweight wrappers.
 
 00:09:39.896 --> 00:09:41.876 A:middle
 Once you've created that
@@ -854,13 +861,16 @@ CIImage, we're going to store
 that in a property
 for our delegate.
 
-00:09:45.206 --> 00:09:47.756 A:middle
-The other thing, it's a good
-time to do at that time is
+00:09:45.206 --> 00:09:47.606 A:middle
+The other thing -- it's a good
+time to do at init time --
 
-00:09:47.756 --> 00:09:49.756 A:middle
-to create your view that you're
-going to be rendering into.
+00:09:47.606 --> 00:09:48.656 A:middle
+is to create your view
+
+00:09:48.656 --> 00:09:49.756 A:middle
+that you're going to
+be rendering into.
 
 00:09:49.756 --> 00:09:53.736 A:middle
 We recommend using a GLKView
@@ -883,14 +893,14 @@ Step two is what you do every
 time the user makes an edit
 
 00:10:04.516 --> 00:10:07.316 A:middle
-in your extension so every
-time the slider moves.
+in your extension, so,
+every time the slider moves.
 
 00:10:07.866 --> 00:10:09.136 A:middle
 And this is very simple.
 
 00:10:09.236 --> 00:10:12.166 A:middle
-What you do is you recall
+What you do is you re-call
 the display-sized CIImage
 
 00:10:12.166 --> 00:10:13.386 A:middle
@@ -905,7 +915,7 @@ to those slider adjustments.
 
 00:10:17.886 --> 00:10:21.696 A:middle
 So in that previous example,
-it was the sepia tone filter
+was the sepia tone filter
 
 00:10:21.696 --> 00:10:23.276 A:middle
 and the vignette effect filter.
@@ -943,7 +953,7 @@ on the full-sized image.
 
 00:10:41.516 --> 00:10:44.826 A:middle
 So what we have here is we can
-ask the editing input object
+ask the EditingInput object
 
 00:10:44.826 --> 00:10:46.676 A:middle
 for its fullSizeImageURL.
@@ -959,21 +969,21 @@ filters to this as well.
 Now, for the most part, this is
 the same as we did in step two.
 
-00:10:54.676 --> 00:10:57.696 A:middle
-Some parameters however such as
-radiuses may need to be scaled
+00:10:54.676 --> 00:10:56.996 A:middle
+Some parameters, however,
+such as radiuses may need
 
-00:10:58.176 --> 00:11:00.116 A:middle
-in accordance to the fact
-that you're now working
+00:10:56.996 --> 00:11:00.116 A:middle
+to be scaled in accordance to
+the fact that you're now working
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:10:58.176 --> 00:11:00.116 A:middle
-in accordance to the fact
-that you're now working
+00:10:56.996 --> 00:11:00.116 A:middle
+to be scaled in accordance to
+the fact that you're now working
 
 00:11:00.116 --> 00:11:01.076 A:middle
 on a full-sized image.
@@ -986,40 +996,41 @@ together your filters,
 you ask the output
 image and then you --
 
-00:11:06.936 --> 00:11:10.526 A:middle
-the way this API works is you
-return the CGImage so you can do
+00:11:06.936 --> 00:11:10.156 A:middle
+the way this API works is
+you return a CGImage, so,
 
-00:11:10.526 --> 00:11:11.926 A:middle
-that very easily
-with Core Image.
+00:11:10.156 --> 00:11:11.926 A:middle
+you can do that very
+easily with Core Image:
 
-00:11:12.286 --> 00:11:16.606 A:middle
-You ask a CIContext to create a
-CGImage and this will work even
+00:11:12.286 --> 00:11:14.796 A:middle
+you ask a CIContext
+to create a CGImage.
 
-00:11:16.606 --> 00:11:18.166 A:middle
-on the full-sized image.
+00:11:14.946 --> 00:11:17.546 A:middle
+And this will work even
+on the full-size image.
 
-00:11:19.876 --> 00:11:22.446 A:middle
+00:11:18.056 --> 00:11:22.446 A:middle
 So that brings me to the
 next subject I want to talk
 
 00:11:22.446 --> 00:11:25.426 A:middle
-about today which is working
+about today, which is working
 on large images on iOS.
 
 00:11:25.556 --> 00:11:28.646 A:middle
 So we've made some great
 improvements here in addition
 
-00:11:28.646 --> 00:11:31.436 A:middle
-to the supporting kernels, this
-is I think our second key thing
+00:11:28.646 --> 00:11:30.426 A:middle
+to the supporting
+kernels, this is, I think,
 
-00:11:31.436 --> 00:11:33.026 A:middle
-that we've added
-this year on iOS.
+00:11:30.426 --> 00:11:33.026 A:middle
+our second key thing that
+we've added this year on iOS.
 
 00:11:34.456 --> 00:11:38.116 A:middle
 So now you can -- we have
@@ -1069,12 +1080,14 @@ this automatically is
 that we have automatic
 tiling support in Core Image.
 
-00:12:06.196 --> 00:12:08.486 A:middle
-And this among other
-things leverages some great
+00:12:06.196 --> 00:12:07.646 A:middle
+And this, among other things,
 
-00:12:08.486 --> 00:12:11.496 A:middle
+00:12:07.646 --> 00:12:09.486 A:middle
+leverages some great
 improvements that were made
+
+00:12:09.486 --> 00:12:11.496 A:middle
 in ImageIO and they're JPEG
 
 00:12:11.496 --> 00:12:14.096 A:middle
@@ -1090,7 +1103,7 @@ in the Core Image language
 that allows supporting
 
 00:12:20.346 --> 00:12:21.416 A:middle
-of large image as well.
+of large images as well.
 
 00:12:22.176 --> 00:12:24.516 A:middle
 So let me talk about that last
@@ -1128,7 +1141,7 @@ on OS X and on iOS now.
 
 00:12:48.096 --> 00:12:50.886 A:middle
 The first is a function called
-desk coordinate or deskCoord
+"dest coordinate", or destCoord,
 
 00:12:51.566 --> 00:12:53.216 A:middle
 and that allows Core Image
@@ -1139,7 +1152,7 @@ output automatically.
 
 00:12:56.286 --> 00:12:59.176 A:middle
 It basically allows your kernel
-to see the desk coordinate
+to see the dest coordinate
 
 00:12:59.456 --> 00:13:02.136 A:middle
 in the native images space even
@@ -1183,8 +1196,8 @@ in our second presentation.
 So another great thing about our
 large image support is how we
 
-00:13:27.466 --> 00:13:30.486 A:middle
-work together with CGImageRef
+00:13:27.466 --> 00:13:30.296 A:middle
+work together with CGImageRefs
 
 00:13:30.556 --> 00:13:32.686 A:middle
 and how we get some
@@ -1220,17 +1233,20 @@ because you may be using
 that image multiple
 times and you want
 
-00:13:55.076 --> 00:14:00.896 A:middle
+00:13:55.076 --> 00:13:59.026 A:middle
 to take the performance impact
-of decoding the JPEG once early.
+
+00:13:59.026 --> 00:14:00.896 A:middle
+of decoding the JPEG
+once, early.
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:13:55.076 --> 00:14:00.896 A:middle
-to take the performance impact
-of decoding the JPEG once early.
+00:13:59.026 --> 00:14:00.896 A:middle
+of decoding the JPEG
+once, early.
 
 00:14:01.976 --> 00:14:05.156 A:middle
 However, for large images,
@@ -1280,7 +1296,7 @@ when CGImage is called.
 
 00:14:44.746 --> 00:14:47.856 A:middle
 However, if you're producing
-a large CGImage as an output
+a large CGImage as an output,
 
 00:14:48.286 --> 00:14:51.376 A:middle
 such as an example of
@@ -1306,7 +1322,7 @@ This is also important because
 a very common situation is you
 
 00:15:00.596 --> 00:15:04.106 A:middle
-pass the CGImage, the
+pass the CGImage to
 CGImage DestinationFinalize
 
 00:15:04.356 --> 00:15:08.106 A:middle
@@ -1356,7 +1372,7 @@ On iOS 8, that's 1 second.
 
 00:15:47.256 --> 00:15:50.316 A:middle
 And just as important on iOS
-is the memory high water mark
+is the memory high-water mark,
 
 00:15:50.396 --> 00:15:52.786 A:middle
 because that can really
@@ -1366,23 +1382,24 @@ force your application
 into an unhappy place.
 
 00:15:54.506 --> 00:15:58.016 A:middle
-And our high water mark
-on iOS 7 was 200 megabytes
+And our high-water mark on
+iOS 7 was 200 megabytes,
 
-00:15:58.016 --> 00:15:58.736 A:middle
-which makes sense.
+00:15:58.016 --> 00:15:59.756 A:middle
+which makes sense; we
+have a source image
 
-00:15:58.736 --> 00:16:01.696 A:middle
-We have a source image that was
-fully decompressed and we need
+00:15:59.756 --> 00:16:01.696 A:middle
+that was fully decompressed
+and we need
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:15:58.736 --> 00:16:01.696 A:middle
-We have a source image that was
-fully decompressed and we need
+00:15:59.756 --> 00:16:01.696 A:middle
+that was fully decompressed
+and we need
 
 00:16:01.696 --> 00:16:03.956 A:middle
 to produce a whole new image
@@ -1393,7 +1410,7 @@ However because we
 now have tiling,
 
 00:16:06.286 --> 00:16:09.576 A:middle
-our high water mark
+our high-water mark
 is now 25 megabytes.
 
 00:16:10.516 --> 00:16:15.026 A:middle
@@ -1442,7 +1459,7 @@ just transitioning to background
 
 00:16:46.006 --> 00:16:48.266 A:middle
 or when it's fully in
-the background state.
+a background state.
 
 00:16:48.666 --> 00:16:50.276 A:middle
 On iOS 7, that is supported.
@@ -1500,13 +1517,13 @@ great advantage.
 There are some restrictions
 on this GPU usage.
 
-00:17:23.326 --> 00:17:27.076 A:middle
-It is not allowed if you use
-CIContext drawImage inRect
+00:17:23.326 --> 00:17:26.465 A:middle
+It is not allowed if you
+use CIContext drawImage
 
-00:17:27.076 --> 00:17:29.956 A:middle
-fromRect because in that case,
-Core Image needs to render
+00:17:26.675 --> 00:17:29.956 A:middle
+:inRect:fromRect because in that
+case, Core Image needs to render
 
 00:17:29.956 --> 00:17:32.476 A:middle
 into the client's
@@ -1517,26 +1534,27 @@ However, any of the other render
 methods calling createCGImage
 
 00:17:36.316 --> 00:17:37.916 A:middle
-or render toCVPixelBuffer
+or render:toCVPixelBuffer
 
 00:17:38.166 --> 00:17:43.506 A:middle
-or render toBitmap will
+or render:toBitmap will
 all work in this way.
 
 00:17:44.116 --> 00:17:47.676 A:middle
 Another great improvement we
-have is oftentimes you want
+have is: oftentimes you want
 
-00:17:47.826 --> 00:17:50.246 A:middle
-to do rendering in the
-foreground when your app is
+00:17:47.826 --> 00:17:49.786 A:middle
+to do rendering in
+the foreground --
 
-00:17:50.246 --> 00:17:52.146 A:middle
-in the foreground but do it
+00:17:49.786 --> 00:17:50.826 A:middle
+when your app is in
+the foreground --
 
-00:17:52.196 --> 00:17:54.766 A:middle
-from a secondary thread
-in a polite manner.
+00:17:51.166 --> 00:17:54.766 A:middle
+but do it from a secondary
+thread in a polite manner.
 
 00:17:55.246 --> 00:17:58.336 A:middle
 So if your application
@@ -1585,7 +1603,7 @@ can now render into a context
 
 00:18:24.246 --> 00:18:26.396 A:middle
 that has had this
-new option specified
+new option specified,
 
 00:18:26.436 --> 00:18:29.396 A:middle
 which is CIContext
@@ -1595,12 +1613,12 @@ PriorityRequestLow.
 And the idea now is that
 context renders using
 
-00:18:33.546 --> 00:18:37.486 A:middle
+00:18:33.546 --> 00:18:37.266 A:middle
 that context will not
-interrupt any foreground higher
+interrupt any foreground
 
-00:18:37.486 --> 00:18:38.426 A:middle
-priority renders.
+00:18:37.266 --> 00:18:38.426 A:middle
+higher-priority renders.
 
 00:18:38.786 --> 00:18:40.486 A:middle
 So this is also great
@@ -1679,8 +1697,8 @@ talk about this afternoon is
 about some API modernizations
 
 00:19:38.326 --> 00:19:41.286 A:middle
-that have been made
-both on OS X and on iOS.
+that we made both
+on OS X and on iOS.
 
 00:19:41.856 --> 00:19:45.546 A:middle
 These are small conveniences
@@ -1722,16 +1740,16 @@ By supporting properties,
 that means that code that used
 
 00:20:09.876 --> 00:20:12.656 A:middle
-to look like this where you
-have output image equals filter
+to look like this, where you
+have outputImage = filter
 
 00:20:12.986 --> 00:20:18.296 A:middle
-valueForKey kCIOutputImageKey
+valueForKey: kCIOutputImageKey
 can now be a little cleaner
 
 00:20:18.296 --> 00:20:21.516 A:middle
 and just look like outImage
-equals filter.outputImage.
+= filter.outputImage.
 
 00:20:23.856 --> 00:20:26.986 A:middle
 We also have a convenience
@@ -1817,7 +1835,7 @@ or rotated and we've provided
 a code snippet in the past
 
 00:21:22.446 --> 00:21:25.626 A:middle
-for that but much easier
+for that, but much easier
 is that we provided an API
 
 00:21:25.626 --> 00:21:28.616 A:middle
@@ -1845,22 +1863,22 @@ same thing, we also have an API
 
 00:21:44.376 --> 00:21:47.526 A:middle
 that allows you to get
-back the fine transform
+back an AfffineTransform
 
 00:21:47.526 --> 00:21:48.486 A:middle
 that is equivalent to that.
 
-00:21:49.296 --> 00:21:52.886 A:middle
-And the reason why that's useful
-is usually orienting your image
+00:21:49.296 --> 00:21:51.046 A:middle
+And the reason why
+that's useful is,
 
-00:21:52.886 --> 00:21:57.066 A:middle
-upright is only the
-first of several affines
+00:21:51.046 --> 00:21:54.466 A:middle
+usually orienting your image
+upright is only the first
 
-00:21:57.066 --> 00:21:58.486 A:middle
-that you may apply
-to your image.
+00:21:54.886 --> 00:21:58.486 A:middle
+of several affines that you
+may apply to your image.
 
 00:21:58.486 --> 00:22:00.666 A:middle
 You may also be scaling
@@ -1903,8 +1921,8 @@ the default RGB color space
 00:22:24.176 --> 00:22:25.096 A:middle
 that we have on iOS.
 
-00:22:25.296 --> 00:22:29.376 A:middle
-It also matches what most
+00:22:25.186 --> 00:22:29.376 A:middle
+And it also matches what most
 modern applications expect
 
 00:22:29.376 --> 00:22:31.326 A:middle
@@ -1925,12 +1943,13 @@ the default we have
 00:22:45.676 --> 00:22:47.686 A:middle
 for our working space on iOS
 
-00:22:47.866 --> 00:22:50.526 A:middle
+00:22:47.866 --> 00:22:50.096 A:middle
 and has a great performance
-advantage which means
+advantage,
 
-00:22:50.526 --> 00:22:52.046 A:middle
-that in most typical scenarios
+00:22:50.096 --> 00:22:52.046 A:middle
+which means that in most
+typical scenarios --
 
 00:22:52.046 --> 00:22:55.286 A:middle
 where you have sRGB
@@ -1938,24 +1957,24 @@ content going into a filter
 
 00:22:55.286 --> 00:22:58.226 A:middle
 in its working space and then
-going back to sRGB output,
+going back to sRGB output --
 
 00:22:58.546 --> 00:23:00.226 A:middle
-no matrix math is needed at all
+no matrix math is needed at all.
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.546 --> 00:23:00.226 A:middle
-no matrix math is needed at all
+no matrix math is needed at all.
 
 00:23:00.616 --> 00:23:02.256 A:middle
-so this is a great,
+So this is a great,
 great advantage.
 
 00:23:02.496 --> 00:23:06.676 A:middle
-Next subject, I'd like to talk
+Next subject I'd like to talk
 
 00:23:06.676 --> 00:23:10.506 A:middle
 about today is some new
@@ -2050,9 +2069,12 @@ that I'm really pleased with.
 This is -- we've always had
 filters for doing Gaussian blurs
 
-00:24:10.166 --> 00:24:13.236 A:middle
-on an image but we have a new
-filter called MaskVariableBlur.
+00:24:10.166 --> 00:24:11.746 A:middle
+on an image but we
+have a new filter
+
+00:24:11.746 --> 00:24:13.236 A:middle
+called MaskedVariableBlur.
 
 00:24:13.686 --> 00:24:16.016 A:middle
 And the idea is you want
@@ -2070,7 +2092,7 @@ So the way this filter works is
 you start with an input image
 
 00:24:22.716 --> 00:24:24.586 A:middle
-and you provide a masked image.
+and you provide a mask image.
 
 00:24:24.896 --> 00:24:27.386 A:middle
 In this example, we
@@ -2081,7 +2103,7 @@ in the lower left-hand
 corner, black in the center
 
 00:24:32.086 --> 00:24:35.156 A:middle
-and then white again the
+and then white again in the
 upper right-hand corner.
 
 00:24:35.656 --> 00:24:38.096 A:middle
@@ -2089,7 +2111,7 @@ And what this means when
 we combine these two images
 
 00:24:38.096 --> 00:24:41.146 A:middle
-with masked variable blur
+with the MaskedVariableBlur
 is we get a resulting image
 
 00:24:41.506 --> 00:24:46.036 A:middle
@@ -2106,7 +2128,7 @@ blends but it's actually done
 
 00:24:51.216 --> 00:24:53.716 A:middle
 with variable radius blurs
-which is quite a trick.
+(which is quite a trick).
 
 00:24:54.506 --> 00:24:56.726 A:middle
 So there's a couple of
@@ -2133,7 +2155,7 @@ of your image might be blurry
 and the center may be sharp.
 
 00:25:03.676 --> 00:25:07.836 A:middle
-Or you can actually hand create
+Or you can actually hand-create
 a masked image with a person
 
 00:25:07.836 --> 00:25:10.396 A:middle
@@ -2149,7 +2171,7 @@ of fun examples of that.
 
 00:25:16.416 --> 00:25:19.926 A:middle
 This is another fun one we added
-which is AccordionfoldTransition
+which is AccordionFoldTransition
 
 00:25:19.926 --> 00:25:22.346 A:middle
 and this is something
@@ -2159,16 +2181,17 @@ we did for the mail team
 but we've also provided
 it as a public filter.
 
-00:25:24.846 --> 00:25:27.896 A:middle
-You provide two images, a
-before and an after and a couple
+00:25:24.846 --> 00:25:26.946 A:middle
+You provide two images --
+a before and an after --
 
-00:25:27.896 --> 00:25:30.316 A:middle
-of parameters like how many
-folds and how many pixels
+00:25:27.386 --> 00:25:29.356 A:middle
+and a couple of parameters,
+like how many folds
 
-00:25:30.316 --> 00:25:31.616 A:middle
-at the bottom are shared.
+00:25:29.356 --> 00:25:31.616 A:middle
+and how many pixels at
+the bottom are shared.
 
 00:25:32.296 --> 00:25:34.996 A:middle
 And what this filter looks
@@ -2229,7 +2252,7 @@ We've also added another
 one for Aztec codes.
 
 00:26:13.626 --> 00:26:15.546 A:middle
-Again the same kind
+Again, the same kind
 of idea for the API,
 
 00:26:15.666 --> 00:26:17.666 A:middle
@@ -2263,13 +2286,15 @@ it will create a new image
 that is cropped and undistorted
 preserving the original
 
-00:26:41.636 --> 00:26:45.126 A:middle
-and intended aspect ratio
-so this is again very nice
+00:26:41.636 --> 00:26:43.366 A:middle
+and intended aspect ratio.
 
-00:26:45.126 --> 00:26:52.166 A:middle
-for capturing parts of an
-image and distorting them.
+00:26:43.596 --> 00:26:46.946 A:middle
+So this is again very
+nice for capturing parts
+
+00:26:46.946 --> 00:26:52.166 A:middle
+of an image and distorting them.
 
 00:26:52.646 --> 00:26:55.726 A:middle
 We've added a handful of
@@ -2280,7 +2305,7 @@ dodge and burn, pin
 lights, subtract, divide.
 
 00:26:58.826 --> 00:27:03.206 A:middle
-Also just to be aware, we've
+Also, just to be aware: we've
 made a fix to SoftLightBlendMode
 
 
@@ -2288,7 +2313,7 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.826 --> 00:27:03.206 A:middle
-Also just to be aware, we've
+Also, just to be aware: we've
 made a fix to SoftLightBlendMode
 
 00:27:03.206 --> 00:27:06.606 A:middle
@@ -2388,7 +2413,7 @@ creating a detector of TypeFace
 
 00:28:08.696 --> 00:28:10.736 A:middle
 where we say detector,
-detector of TypeFace
+detectorOfTypeFace
 
 00:28:10.736 --> 00:28:12.536 A:middle
 and we can also specify
@@ -2402,16 +2427,16 @@ options that are very useful
 for all the detectors.
 
 00:28:16.076 --> 00:28:19.856 A:middle
-One is you could say whether
+One is, you could say whether
 you want to have high accuracy
 
-00:28:19.856 --> 00:28:23.126 A:middle
-or low accuracy which depending
-on your need might allow you
+00:28:19.856 --> 00:28:21.826 A:middle
+or low accuracy which --
+depending on your need --
 
-00:28:23.126 --> 00:28:25.416 A:middle
-to trade off performance
-versus precision.
+00:28:21.826 --> 00:28:25.416 A:middle
+might allow you to trade off
+performance versus precision.
 
 00:28:26.606 --> 00:28:29.646 A:middle
 Also, you can tell a detector
@@ -2434,7 +2459,7 @@ or DetectorTypeQRCode as well.
 
 00:28:44.256 --> 00:28:48.036 A:middle
 So just as a reminder, so when
-you're using the FaceDetector,
+you're using the Face detector,
 
 00:28:48.686 --> 00:28:51.116 A:middle
 there's a couple of options
@@ -2460,11 +2485,11 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.746 --> 00:29:02.736 A:middle
-Also you can specify
-options to say I want to look
+Also you can specify options
+to say "I want to look
 
 00:29:02.736 --> 00:29:06.456 A:middle
-for eye blinks or smiles
+for eye blinks or smiles"
 and that's specified
 
 00:29:06.456 --> 00:29:07.566 A:middle
@@ -2487,7 +2512,7 @@ And the idea we wanted
 for this little bit
 
 00:29:18.396 --> 00:29:20.806 A:middle
-of a sample code is we wanted
+of sample code is we wanted
 to start with the input image,
 
 00:29:20.806 --> 00:29:24.246 A:middle
@@ -2698,18 +2723,18 @@ And that filter does two things.
 
 00:31:40.456 --> 00:31:42.196 A:middle
 First of all, you
-specify an extent
+specify an extent --
 
 00:31:42.576 --> 00:31:45.586 A:middle
-which in this case
-we're specifying 0011
+which in this case we're
+specifying zero zero one one --
 
 00:31:45.936 --> 00:31:48.396 A:middle
 so now effectively, we
 have a unit square image.
 
 00:31:49.246 --> 00:31:51.816 A:middle
-And then the other parameters,
+And then the other parameters
 take that unit square
 
 00:31:51.816 --> 00:31:56.456 A:middle
@@ -2737,7 +2762,7 @@ looks like in practice.
 
 00:32:02.596 --> 00:32:06.176 A:middle
 So this is the nameplate from
-my office and we are taking,
+my office and we are taking --
 
 00:32:06.326 --> 00:32:10.326 A:middle
 running it through the Detector,
@@ -2759,15 +2784,15 @@ exactly the same.
 The only difference is
 
 00:32:22.046 --> 00:32:24.826 A:middle
-that we're using the QR
-Code feature instead.
+that we're using the
+QRCodeFeature instead.
 
 00:32:25.486 --> 00:32:28.066 A:middle
 This example, you could
 have also gotten the message
 
 00:32:28.066 --> 00:32:29.666 A:middle
-from the QR Code
+from the QR code
 but in this case,
 
 00:32:29.666 --> 00:32:31.336 A:middle
@@ -2852,7 +2877,7 @@ we've made in OS X this year is
 
 00:33:30.486 --> 00:33:33.256 A:middle
 that we support the latest
-version of DNG specification
+version of the DNG specification
 
 00:33:33.586 --> 00:33:34.966 A:middle
 so that greatly improves
@@ -2867,7 +2892,7 @@ wonderful about our support is
 
 00:33:40.306 --> 00:33:42.476 A:middle
 that it's provided to the
-entire operating system
+entire operating system,
 
 00:33:42.636 --> 00:33:45.126 A:middle
 which means everything
@@ -2972,20 +2997,20 @@ steps in this process.
 They involve extracting
 critical metadata from the file,
 
-00:34:57.316 --> 00:35:00.376 A:middle
+00:34:57.316 --> 00:34:58.546 A:middle
 decoding the raw sensor,
-de-mosaic deconstruction
+
+00:34:58.956 --> 00:35:02.456 A:middle
+de-mosaic deconstruction (which
+is a hugely complex task),
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:34:57.316 --> 00:35:00.376 A:middle
-decoding the raw sensor,
-de-mosaic deconstruction
-
-00:35:00.376 --> 00:35:02.456 A:middle
-which is a hugely complex task,
+00:34:58.956 --> 00:35:02.456 A:middle
+de-mosaic deconstruction (which
+is a hugely complex task),
 
 00:35:02.936 --> 00:35:04.996 A:middle
 lens correction,
@@ -2996,15 +3021,15 @@ And then there's a set
 of operations that are
 
 00:35:06.966 --> 00:35:10.626 A:middle
-in the color domain such as
+in the color domain, such as
 mapping scene-referred color
 
 00:35:10.626 --> 00:35:14.176 A:middle
-values to output-referred
+values to output-referred,
 and then adjusting exposure
 
 00:35:14.176 --> 00:35:17.506 A:middle
-and temperature and tint
+and temperature and tint,
 and then adding contrast
 
 00:35:17.506 --> 00:35:19.036 A:middle
@@ -3018,13 +3043,13 @@ we've made some significant
 improvements to several
 of these in OS X Yosemite.
 
-00:35:27.076 --> 00:35:29.266 A:middle
+00:35:27.076 --> 00:35:29.276 A:middle
 So we've benefitted
 for lens correction,
 
-00:35:29.266 --> 00:35:31.506 A:middle
-a great new noise reduction
-which we'll show in a minute
+00:35:29.376 --> 00:35:31.506 A:middle
+great new noise reduction
+(which we'll show in a minute)
 
 00:35:32.006 --> 00:35:33.996 A:middle
 and also some improvements
@@ -3040,7 +3065,7 @@ RAW support for free.
 
 00:35:43.236 --> 00:35:47.236 A:middle
 And that's because our support
-provides that default rendering
+provides default rendering,
 
 00:35:47.786 --> 00:35:50.566 A:middle
 which is processed according
@@ -3199,8 +3224,8 @@ You can also take the CIImage,
 create a CGImage from that
 
 00:37:41.206 --> 00:37:44.136 A:middle
-and produce a new CG, a
-file on disk from that.
+and produce a new CG -- ah,
+a file on disk from that.
 
 00:37:44.566 --> 00:37:47.476 A:middle
 And this is an example
@@ -3239,14 +3264,14 @@ our default value
 
 00:38:02.286 --> 00:38:03.986 A:middle
 for the luminance
-noise reduction was
+noise reduction was,
 
 00:38:04.286 --> 00:38:05.396 A:middle
 that returns to us as an object.
 
 00:38:06.046 --> 00:38:08.866 A:middle
 We can then make slight changes
-to that like say for example,
+to that, like say for example:
 
 00:38:08.866 --> 00:38:11.876 A:middle
 you want all of your images to
@@ -3299,7 +3324,7 @@ of the great things
 that you can also do
 
 00:38:36.526 --> 00:38:39.666 A:middle
-in your applications
+in your own applications
 using the CIRAWFilter
 
 00:38:39.796 --> 00:38:43.136 A:middle
@@ -3307,19 +3332,16 @@ and OS X's built-in support
 for RAW camera files.
 
 00:38:44.056 --> 00:38:47.866 A:middle
-To do that, we created a
-very basic simple application
+To do that, we created a very
+basic, simple application
 
-00:38:48.446 --> 00:38:52.556 A:middle
-that simply puts
-up an NSOpenGLView
+00:38:48.446 --> 00:38:52.956 A:middle
+that simply puts up an
+NSOpenGLView which is tied
 
-00:38:52.556 --> 00:38:55.136 A:middle
-which is tied up
-to a CIRAWFilter.
-
-00:38:55.776 --> 00:38:59.026 A:middle
-And another NSView which is tied
+00:38:53.056 --> 00:38:59.026 A:middle
+up to a CIRAWFilter, and
+another NSView which is tied
 
 00:38:59.026 --> 00:39:00.946 A:middle
 up to the controls
@@ -3350,8 +3372,8 @@ and make sure that we
 apply the correct set
 
 00:39:18.036 --> 00:39:21.606 A:middle
-of calibration settings that
-are specific to the make
+of calibration settings
+that are specific to make
 
 00:39:21.606 --> 00:39:23.086 A:middle
 and model for this RAW file.
@@ -3360,15 +3382,15 @@ and model for this RAW file.
 And some of the settings are
 for you under lens correction,
 
-00:39:28.626 --> 00:39:33.176 A:middle
+00:39:28.626 --> 00:39:32.036 A:middle
 white balance settings,
-noise reduction settings
 
-00:39:33.176 --> 00:39:36.016 A:middle
-that we will go into more
-detail in just a second,
+00:39:32.036 --> 00:39:34.946 A:middle
+noise reduction settings (that
+we will go into more detail
 
-00:39:36.556 --> 00:39:39.386 A:middle
+00:39:35.096 --> 00:39:39.386 A:middle
+in just a second),
 exposure and boost controls.
 
 00:39:40.726 --> 00:39:42.896 A:middle
@@ -3471,8 +3493,8 @@ So there is something that can
 be done better and the answer
 
 00:40:52.876 --> 00:40:55.406 A:middle
-to that is CI Highlights
-and Shadows Filters.
+to that is
+CIHighlightsAndShadows filters.
 
 00:40:56.186 --> 00:40:59.276 A:middle
 Normally, if you were shooting
@@ -3576,7 +3598,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 that you think is appropriate.
 
 00:42:01.296 --> 00:42:07.236 A:middle
-Next noise filter.
+Next: noise filter.
 
 00:42:08.146 --> 00:42:11.526 A:middle
 Now noise reduction is a
@@ -3590,15 +3612,16 @@ is very computationally
 expensive algorithm.
 
 00:42:18.986 --> 00:42:22.656 A:middle
-We're very happy to offer you
-a new noise reduction algorithm
+We're very happy to offer you a
+new noise reduction algorithm,
 
-00:42:22.656 --> 00:42:24.476 A:middle
-starting in OS X Yosemite.
+00:42:22.656 --> 00:42:26.076 A:middle
+starting in OS X Yosemite,
+that doesn't compromise
 
-00:42:24.976 --> 00:42:28.206 A:middle
-That doesn't compromise on the
-quality and you can still use it
+00:42:26.076 --> 00:42:28.206 A:middle
+on the quality and
+you can still use it
 
 00:42:28.376 --> 00:42:30.696 A:middle
 at an interactive 60
@@ -3690,7 +3713,7 @@ Another good thing that you
 can do is brought back some
 
 00:43:34.006 --> 00:43:36.746 A:middle
-of the fine high
+of the fine, high
 detail back to the image
 
 00:43:36.746 --> 00:43:38.486 A:middle
@@ -3765,15 +3788,15 @@ of the compromises that
 are made in the lenses.
 
 00:44:31.286 --> 00:44:34.226 A:middle
-What I mean by that, the
-input image as you can see
+What I mean by that: the
+input image, as you can see,
 
 00:44:34.296 --> 00:44:36.986 A:middle
 by default is looking
 correct to us.
 
 00:44:37.426 --> 00:44:39.806 A:middle
-But actual, the RAW
+But actually, the RAW
 image that is coming
 
 00:44:39.806 --> 00:44:41.516 A:middle
@@ -3865,15 +3888,18 @@ to take advantage of it.
 
 00:45:44.916 --> 00:45:49.056 A:middle
 So let's talk a little
-of how that can be used.
+about how that can be used.
 
 00:45:49.936 --> 00:45:54.756 A:middle
 So we had some thoughts about
-for Core Image and for RAWs.
+-- for Core Image and for RAWs.
 
-00:45:54.756 --> 00:45:57.926 A:middle
-When is a good time where you
-might want to use a second GPU?
+00:45:54.756 --> 00:45:56.676 A:middle
+When is a good time
+where you might want
+
+00:45:56.676 --> 00:45:57.926 A:middle
+to use the second GPU?
 
 00:45:58.536 --> 00:46:00.366 A:middle
 And a couple of scenarios
@@ -3987,13 +4013,13 @@ offlineGPUAtIndex
 and typically you
 just specify zero.
 
-00:47:13.986 --> 00:47:18.086 A:middle
-So with one API call, you get
-a CIContext and that when using
+00:47:13.986 --> 00:47:17.496 A:middle
+So with one API call, you
+get a CIContext and that --
 
-00:47:18.086 --> 00:47:20.476 A:middle
-that all renders will
-use the second GPU.
+00:47:17.496 --> 00:47:20.476 A:middle
+when using that, all renders
+will use the second GPU.
 
 00:47:20.836 --> 00:47:22.106 A:middle
 So it's very easy.
@@ -4077,16 +4103,15 @@ have written a little bit
 of text application which
 is using the first GPU.
 
-00:48:27.926 --> 00:48:30.486 A:middle
-And when I go back
-to my own application
+00:48:27.926 --> 00:48:31.436 A:middle
+And when I go back to my own
+application (which is now also
 
-00:48:30.546 --> 00:48:32.666 A:middle
-which is now also
-using my first GPU,
+00:48:31.436 --> 00:48:33.296 A:middle
+using my first GPU) I can see
 
-00:48:32.736 --> 00:48:38.246 A:middle
-I can see that the frame rate is
+00:48:33.296 --> 00:48:38.246 A:middle
+that the frame rate is
 actually suffering a little bit.
 
 00:48:38.616 --> 00:48:41.396 A:middle
@@ -4124,7 +4149,7 @@ If we can offload this work
 
 00:49:00.026 --> 00:49:05.366 A:middle
 to our second GPU using
-the CIGLOfflineContext,
+the CIGLOffline context,
 
 00:49:05.536 --> 00:49:11.176 A:middle
 I will get back to my original
@@ -4156,7 +4181,7 @@ in the background.
 
 00:49:38.506 --> 00:49:40.816 A:middle
 I'm going to hand it
-back once over to David.
+back once more to David.
 
 00:49:42.036 --> 00:49:43.666 A:middle
 &gt;&gt; So to summarize what
@@ -4177,21 +4202,19 @@ new in Core Image on iOS 8,
 most notably Custom CIKernels
 and large image support.
 
-00:49:54.856 --> 00:49:57.206 A:middle
-We talked about some
-new things in Core Image
+00:49:54.856 --> 00:49:58.796 A:middle
+We talked about some new things
+in Core Image on Yosemite,
 
-00:49:57.386 --> 00:50:01.896 A:middle
-on Yosemite notably
-some API modernization
+00:49:59.396 --> 00:50:01.896 A:middle
+notably some API modernization
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:49:57.386 --> 00:50:01.896 A:middle
-on Yosemite notably
-some API modernization
+00:49:59.396 --> 00:50:01.896 A:middle
+notably some API modernization
 
 00:50:01.896 --> 00:50:05.196 A:middle
 and some great new noise
@@ -4221,11 +4244,11 @@ to if you have a request
 for more information.
 
 00:50:22.486 --> 00:50:25.746 A:middle
-Related sessions, there's one
+Related sessions: there's one
 I really hope you guys can come
 
 00:50:25.746 --> 00:50:28.726 A:middle
-to is our second session this
+to, is our second session this
 afternoon where we're going
 
 00:50:28.726 --> 00:50:32.496 A:middle
@@ -4252,4 +4275,3 @@ Thank you so much for coming.
 
 00:50:45.516 --> 00:50:53.520 A:middle
 [ Applause ]
-

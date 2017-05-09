@@ -33,7 +33,7 @@ platforms like iOS, Siri,
 and applications like iPhoto.
 
 00:00:37.366 --> 00:00:40.586 A:middle
-Today in this session, David
+Today, in this session, David
 Stites and I are going to talk
 
 00:00:40.586 --> 00:00:45.336 A:middle
@@ -70,16 +70,15 @@ new classes for data isolation,
 00:01:07.846 --> 00:01:09.576 A:middle
 and some privacy best practices.
 
-00:01:10.266 --> 00:01:15.076 A:middle
-So, privacy and reputation.
+00:01:10.266 --> 00:01:18.426 A:middle
+So, privacy and reputation: your
+users are so important to you.
 
-00:01:15.606 --> 00:01:18.426 A:middle
-Your users are so
-important to you.
+00:01:18.616 --> 00:01:19.726 A:middle
+They're the key to your success.
 
-00:01:18.616 --> 00:01:23.376 A:middle
-They're the key to your success,
-so maintaining your relationship
+00:01:21.486 --> 00:01:23.376 A:middle
+So maintaining your relationship
 
 00:01:23.376 --> 00:01:25.676 A:middle
 with them is your
@@ -107,7 +106,7 @@ are the users
 
 00:01:38.796 --> 00:01:43.736 A:middle
 who will uninstall your
-application or think twice
+application, or think twice
 
 00:01:43.736 --> 00:01:46.036 A:middle
 about using location with you.
@@ -128,14 +127,14 @@ about privacy, from
 large stories
 
 00:01:59.816 --> 00:02:01.926 A:middle
-like Target to smaller ones.
+like Target, to smaller ones.
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.816 --> 00:02:01.926 A:middle
-like Target to smaller ones.
+like Target, to smaller ones.
 
 00:02:02.206 --> 00:02:04.436 A:middle
 But, they continue to
@@ -143,7 +142,7 @@ appear over and over again.
 
 00:02:05.266 --> 00:02:08.356 A:middle
 The best bet is to be
-trustworthy with your users
+trustworthy with your users,
 
 00:02:09.276 --> 00:02:11.706 A:middle
 because rebuilding
@@ -186,14 +185,14 @@ Now, I'm not going to talk about
 these in a lot of detail today.
 
 00:02:51.326 --> 00:02:54.856 A:middle
-Last year we talked about
+Last year, we talked about
 them, how to use them,
 
 00:02:55.126 --> 00:02:56.836 A:middle
 their behavior, lifetime.
 
 00:02:57.066 --> 00:02:59.736 A:middle
-So if you're new to the
+So, if you're new to the
 platform, you should go and look
 
 00:02:59.736 --> 00:03:03.186 A:middle
@@ -270,7 +269,7 @@ of discussion about how
 
 00:03:52.306 --> 00:03:54.016 A:middle
 to use the advertising
-identifier,
+identifier -
 
 00:03:54.016 --> 00:03:55.666 A:middle
 what are the supported
@@ -321,13 +320,16 @@ Settings, Privacy,
 Advertising using the Reset
 Advertising ID button.
 
-00:04:25.516 --> 00:04:29.436 A:middle
-Also this year, for TestFlight
-apps the advertising identifier
+00:04:25.516 --> 00:04:27.736 A:middle
+Also this year, for
+TestFlight apps,
 
-00:04:29.436 --> 00:04:32.086 A:middle
-will be different each
-time you call the API.
+00:04:28.066 --> 00:04:31.676 A:middle
+the advertising identifier will
+be different each time you call
+
+00:04:31.676 --> 00:04:32.086 A:middle
+the API.
 
 00:04:32.926 --> 00:04:34.726 A:middle
 This is another reason
@@ -441,13 +443,16 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 fraud detection for advertising,
 and debugging for advertising.
 
-00:06:03.896 --> 00:06:07.986 A:middle
-Note, for fraud detection and
-debugging this can only be used,
+00:06:03.896 --> 00:06:05.536 A:middle
+Note, for fraud detection
+
+00:06:05.536 --> 00:06:07.986 A:middle
+and debugging this
+can only be used -
 
 00:06:08.066 --> 00:06:10.586 A:middle
 not for all fraud detection,
-not for all debugging,
+not for all debugging -
 
 00:06:10.716 --> 00:06:12.846 A:middle
 only debugging advertising
@@ -474,10 +479,10 @@ advertising identifier.
 
 00:06:30.366 --> 00:06:34.176 A:middle
 The first one's pretty
-clear; serve advertisements.
+clear: serve advertisements.
 
 00:06:34.756 --> 00:06:37.876 A:middle
-The second one, attribute
+The second one: attribute
 app installation,
 
 00:06:38.146 --> 00:06:41.396 A:middle
@@ -495,12 +500,13 @@ they may have seen
 00:06:46.496 --> 00:06:48.356 A:middle
 in a different application.
 
-00:06:48.916 --> 00:06:53.716 A:middle
-The last one, attribute an
-action, this could be Coins Bot
+00:06:48.916 --> 00:06:52.256 A:middle
+The last one: attribute
+an action.
 
-00:06:53.986 --> 00:06:55.736 A:middle
-or any other in-app purchase.
+00:06:52.256 --> 00:06:55.736 A:middle
+This could be Coins Bot or
+any other in-app purchase.
 
 00:06:56.996 --> 00:07:00.386 A:middle
 Attribute that action taken to a
@@ -534,15 +540,15 @@ to use the advertising
 identifier, or not?"
 
 00:07:18.216 --> 00:07:21.556 A:middle
-Then select which of the
-three choices or more than one
+Then, select which of the three
+choices, or more than one,
 
 00:07:21.696 --> 00:07:24.146 A:middle
 that you'll be using the
 advertising identifier for.
 
 00:07:24.726 --> 00:07:26.716 A:middle
-And then lastly, you must say
+And then, lastly, you must say
 
 00:07:26.716 --> 00:07:29.606 A:middle
 that you will check Limit
@@ -570,21 +576,21 @@ there'll be an increased number
 of child accounts within
 the Apple ecosystem.
 
-00:07:55.056 --> 00:07:57.386 A:middle
+00:07:55.056 --> 00:07:58.376 A:middle
 There's a great talk by Chris
-Espinoza [assumed spelling]
+Espinosa right after ours
 
-00:07:57.386 --> 00:08:00.446 A:middle
-right after ours that will go
-further into the implications
+00:07:58.376 --> 00:08:00.446 A:middle
+that will go further
+into the implications
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:07:57.386 --> 00:08:00.446 A:middle
-right after ours that will go
-further into the implications
+00:07:58.376 --> 00:08:00.446 A:middle
+that will go further
+into the implications
 
 00:08:00.446 --> 00:08:03.066 A:middle
 that you should be thinking
@@ -603,7 +609,7 @@ more about the relevant laws
 
 00:08:10.356 --> 00:08:13.076 A:middle
 like COPPA to be
-thinking about for this,
+thinking about for this;
 
 00:08:13.416 --> 00:08:19.436 A:middle
 for the additional number
@@ -630,7 +636,7 @@ This means if you
 interact or design a piece
 
 00:08:36.376 --> 00:08:38.525 A:middle
-of external hardware
+of external hardware,
 you should not count
 
 00:08:38.686 --> 00:08:41.616 A:middle
@@ -638,7 +644,7 @@ on a stable Mac address
 until after authentication.
 
 00:08:42.936 --> 00:08:44.436 A:middle
-Go test some iOS state
+Go test some iOS 8
 
 00:08:44.436 --> 00:08:46.616 A:middle
 and understand the impact
@@ -731,7 +737,7 @@ Also in iOS, we've now
 given the ability for you
 
 00:09:54.816 --> 00:09:56.666 A:middle
-to utilize the people picker
+to utilize the People Picker
 
 00:09:56.846 --> 00:09:59.656 A:middle
 without requesting
@@ -767,12 +773,15 @@ going to share every
 00:10:10.406 --> 00:10:12.036 A:middle
 so often with a single user.
 
-00:10:12.796 --> 00:10:17.306 A:middle
-But note, this will provide only
-a static -- static information.
+00:10:12.796 --> 00:10:15.856 A:middle
+But, note, this will
+provide only a static --
+
+00:10:16.256 --> 00:10:17.306 A:middle
+static information.
 
 00:10:17.306 --> 00:10:21.946 A:middle
-If the user then later
+If the user then, later,
 goes and decides to change
 
 00:10:22.046 --> 00:10:24.376 A:middle
@@ -787,12 +796,12 @@ In a future seed, some of the
 iOS 7 delegate methods are going
 
 00:10:31.966 --> 00:10:35.716 A:middle
-to be deprecated so you
+to be deprecated, so you
 need to update and migrate
 
 00:10:35.716 --> 00:10:37.386 A:middle
 if you're currently
-using the people picker.
+using the People Picker.
 
 00:10:38.176 --> 00:10:41.356 A:middle
 We have a great sample code
@@ -804,7 +813,7 @@ implement on iOS 8.
 
 00:10:44.456 --> 00:10:49.136 A:middle
 These are the delegate methods
-that will be deprecated.
+that will be deprecated:
 
 00:10:49.326 --> 00:10:52.166 A:middle
 ABPeoplePicker
@@ -865,7 +874,7 @@ and didSelectPerson
 :property :identifier.
 
 00:11:30.146 --> 00:11:32.146 A:middle
-So go and update,
+So, go and update,
 and migrate early.
 
 00:11:32.146 --> 00:11:37.736 A:middle
@@ -874,7 +883,7 @@ different privacy changes
 
 00:11:37.736 --> 00:11:40.466 A:middle
 and what I want to encourage
-everyone here to do is
+everyone here to do is,
 
 00:11:40.466 --> 00:11:42.936 A:middle
 if they're not already
@@ -923,7 +932,8 @@ be successful at that.
 [ Applause ]
 
 00:12:12.126 --> 00:12:13.366 A:middle
-&gt;&gt; Thank you and good afternoon.
+&gt;&gt; Thank you, and
+good afternoon.
 
 00:12:13.716 --> 00:12:15.586 A:middle
 As Katie mentioned, I'm
@@ -934,18 +944,18 @@ about both prompting your users
 with purpose and then dive
 
 00:12:19.456 --> 00:12:25.636 A:middle
-into data isolation and how
+into data isolation, and how
 it works on both iOS and OS X.
 
-00:12:26.356 --> 00:12:29.586 A:middle
-Prompting with purpose means
-designing the experience your
+00:12:26.356 --> 00:12:27.426 A:middle
+Prompting with purpose,
 
-00:12:29.586 --> 00:12:31.476 A:middle
-users will receive
+00:12:27.546 --> 00:12:30.656 A:middle
+means designing the experience
+your users will receive
+
+00:12:30.706 --> 00:12:32.736 A:middle
 when they're confronted
-
-00:12:31.476 --> 00:12:32.736 A:middle
 with a privacy dialog.
 
 00:12:32.736 --> 00:12:36.826 A:middle
@@ -953,7 +963,7 @@ There are five core
 principles that form the basis
 
 00:12:36.926 --> 00:12:41.536 A:middle
-for prompting with purpose;
+for prompting with purpose:
 consent, transparency, context,
 
 00:12:42.046 --> 00:12:44.526 A:middle
@@ -999,7 +1009,7 @@ time that the access occurs.
 
 00:13:07.396 --> 00:13:10.706 A:middle
 We think that Just in Time
-access is a key differentiating
+access is a key-differentiating
 
 00:13:10.706 --> 00:13:12.006 A:middle
 feature of our platform.
@@ -1016,7 +1026,7 @@ And, if they decide not to allow
 access, you won't get anything.
 
 00:13:20.696 --> 00:13:23.356 A:middle
-Transparency is the
+Transparency, is the
 second principle.
 
 00:13:24.126 --> 00:13:26.386 A:middle
@@ -1030,12 +1040,12 @@ in that it answers the question
 of why an app needs
 access to user data.
 
-00:13:31.886 --> 00:13:33.696 A:middle
-Apps are given a dedicated space
+00:13:31.886 --> 00:13:34.766 A:middle
+Apps are given a dedicated
+space to tell users,
 
-00:13:33.736 --> 00:13:35.786 A:middle
-to tell users called
-a purpose string.
+00:13:34.766 --> 00:13:35.786 A:middle
+called a purpose string.
 
 00:13:36.276 --> 00:13:38.266 A:middle
 And purpose strings
@@ -1082,16 +1092,17 @@ to the consent dialog.
 00:14:04.536 --> 00:14:05.676 A:middle
 Consider this example.
 
-00:14:06.486 --> 00:14:07.546 A:middle
-Here we have the App Store.
+00:14:06.486 --> 00:14:09.626 A:middle
+Here we have the App Store,
+and, when the user goes
 
-00:14:07.906 --> 00:14:10.626 A:middle
-And, when the user
-goes to the Near Me tab
+00:14:09.626 --> 00:14:12.416 A:middle
+to the Near Me tab and
+taps the Show Popular
 
-00:14:10.966 --> 00:14:15.596 A:middle
-and taps the Show Popular and
-Near Me link they're presented
+00:14:12.416 --> 00:14:15.596 A:middle
+and Near Me link
+they're presented
 
 00:14:15.596 --> 00:14:18.906 A:middle
 with this dialog saying the app
@@ -1106,7 +1117,7 @@ of alerts that are presented
 
 00:14:27.816 --> 00:14:30.726 A:middle
 to the user right when the
-application first opens;
+application first opens,
 
 00:14:31.076 --> 00:14:32.656 A:middle
 not a great user experience.
@@ -1116,8 +1127,8 @@ Conga lines don't work
 because they're not presented
 
 00:14:36.086 --> 00:14:38.326 A:middle
-at the correct time so
-make sure you choose
+at the correct time,
+so make sure you choose
 
 00:14:38.326 --> 00:14:41.936 A:middle
 to present yours at
@@ -1162,7 +1173,7 @@ sufficient detail.
 
 00:15:08.306 --> 00:15:10.916 A:middle
 In this example, Reminders
-clearly states what it's using
+clearly states what its using
 
 00:15:10.916 --> 00:15:11.696 A:middle
 Location for.
@@ -1180,7 +1191,7 @@ what it sounds like.
 
 00:15:21.446 --> 00:15:24.866 A:middle
 If you don't need access to that
-data then you shouldn't ask.
+data, then you shouldn't ask.
 
 00:15:25.416 --> 00:15:31.106 A:middle
 Scared users are more
@@ -1199,7 +1210,7 @@ because it makes what
 you're going to do
 
 00:15:39.306 --> 00:15:41.646 A:middle
-with the user data
+with the user data,
 very transparent.
 
 00:15:42.996 --> 00:15:46.426 A:middle
@@ -1258,7 +1269,7 @@ privacy-data class keys.
 
 00:16:18.236 --> 00:16:22.706 A:middle
 Now, X code is simply a
-frontend to the info.plist so,
+front-end to the info.plist so,
 
 00:16:22.706 --> 00:16:25.716 A:middle
 if you want to, you can always
@@ -1326,12 +1337,13 @@ look for the data class
 00:17:14.965 --> 00:17:15.886 A:middle
 that they want to manage.
 
-00:17:16.546 --> 00:17:21.076 A:middle
-Similarly, on OS X users will go
-to System Preferences, Security
+00:17:16.546 --> 00:17:20.256 A:middle
+Similarly, on OS X, users
+will go to System Preferences,
 
-00:17:21.076 --> 00:17:23.036 A:middle
-and Privacy, then Privacy.
+00:17:20.526 --> 00:17:23.036 A:middle
+Security and Privacy,
+then Privacy.
 
 00:17:23.626 --> 00:17:25.876 A:middle
 This is what Apple and
@@ -1492,20 +1504,20 @@ nothing back.
 There are several new data
 classes and updated data classes
 
-00:19:17.006 --> 00:19:21.836 A:middle
+00:19:17.006 --> 00:19:19.846 A:middle
 on iOS 8, including
-Location, Contacts, Camera,
+Location, Contacts,
 
-00:19:21.946 --> 00:19:25.646 A:middle
-which is now worldwide, Motion
-Activity, and HealthKit.
+00:19:21.366 --> 00:19:25.646 A:middle
+Camera (which is now worldwide),
+Motion Activity, and HealthKit.
 
 00:19:26.116 --> 00:19:32.286 A:middle
 OS X Yosemite supports all the
 same data classes that it did
 
 00:19:32.286 --> 00:19:36.626 A:middle
-in OS X Mavericks;
+in OS X Mavericks:
 Location, Contacts, Calendars,
 
 00:19:36.626 --> 00:19:37.926 A:middle
@@ -1670,7 +1682,7 @@ on the user's behalf.
 
 00:21:33.976 --> 00:21:38.696 A:middle
 On OS X applications can
-participate in the app Sandbox
+participate in the app Sandbox,
 
 00:21:38.816 --> 00:21:41.446 A:middle
 and if you ship on the Mac App
@@ -1760,15 +1772,12 @@ entitlements plist or use Xcode
 00:22:38.356 --> 00:22:39.796 A:middle
 to modify those entitlements.
 
-00:22:40.326 --> 00:22:41.626 A:middle
-What you would do
-is you would go
+00:22:40.326 --> 00:22:42.576 A:middle
+What you would do is you
+would go to the targets,
 
-00:22:41.626 --> 00:22:44.846 A:middle
-to the targets My
-Application Capabilities,
-
-00:22:45.176 --> 00:22:46.466 A:middle
+00:22:42.806 --> 00:22:46.466 A:middle
+My Application, Capabilities,
 turn on the App Sandbox,
 
 00:22:47.026 --> 00:22:49.086 A:middle
@@ -1811,7 +1820,7 @@ about data isolation on iOS
 and contrast it to that.
 
 00:23:20.626 --> 00:23:25.976 A:middle
-On iOS data isolation
+On iOS, data isolation
 is obligatory
 
 00:23:26.166 --> 00:23:29.696 A:middle
@@ -1887,21 +1896,22 @@ There's four new APIs in iOS
 
 00:24:26.006 --> 00:24:29.416 A:middle
 that will trigger these
-consents; Location, Photos,
+consents: Location, Photos,
 
-00:24:29.596 --> 00:24:30.906 A:middle
-Camera, and HealthKit.
+00:24:29.596 --> 00:24:31.836 A:middle
+Camera, and HealthKit;
+and, we're going to go
 
-00:24:31.286 --> 00:24:37.956 A:middle
-And, we're going to go over
-some examples of that right now.
+00:24:31.836 --> 00:24:37.956 A:middle
+over some examples
+of that right now.
 
 00:24:39.096 --> 00:24:43.226 A:middle
 Location Services in iOS 8 now
 supports two different modes
 
 00:24:43.296 --> 00:24:47.196 A:middle
-of updating device location;
+of updating device location:
 when in use and always.
 
 00:24:47.876 --> 00:24:49.806 A:middle
@@ -1931,7 +1941,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 to call the appropriate methods.
 
 00:25:03.176 --> 00:25:06.806 A:middle
-When in Use is exactly
+When In Use is exactly
 what it sounds like.
 
 00:25:07.906 --> 00:25:11.436 A:middle
@@ -2015,7 +2025,7 @@ Fitness is using our Location
 in the background.
 
 00:26:15.526 --> 00:26:17.666 A:middle
-Always authorization
+Always Authorization
 is the second mode.
 
 00:26:18.496 --> 00:26:21.966 A:middle
@@ -2036,7 +2046,7 @@ this mode when necessary
 
 00:26:32.736 --> 00:26:35.636 A:middle
 because it has an increased
-privacy impact to the user
+privacy impact to the user,
 
 00:26:37.496 --> 00:26:40.736 A:middle
 because applications can
@@ -2064,11 +2074,11 @@ to take advantage
 
 00:26:55.866 --> 00:26:59.276 A:middle
 of these new APIs will
-be Always authorization.
+be Always Authorization.
 
 00:26:59.976 --> 00:27:04.236 A:middle
 And, if you use Always
-authorization then the OS will
+Authorization then the OS will
 
 
 WEBVTT
@@ -2076,7 +2086,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.976 --> 00:27:04.236 A:middle
 And, if you use Always
-authorization then the OS will
+Authorization then the OS will
 
 00:27:04.236 --> 00:27:07.536 A:middle
 occasionally re-prompt the
@@ -2089,13 +2099,15 @@ You should only use this mode
 if you think your users
 will thank you for doing so.
 
-00:27:16.476 --> 00:27:21.216 A:middle
-So, previously on iOS 7 you
-could implement this info.plist
+00:27:16.476 --> 00:27:19.146 A:middle
+So, previously on iOS 7,
 
-00:27:21.216 --> 00:27:23.596 A:middle
-key, NSLocation
-UsageDescription.
+00:27:19.636 --> 00:27:21.466 A:middle
+you could implement
+this info.plist key,
+
+00:27:21.466 --> 00:27:23.596 A:middle
+NSLocation UsageDescription.
 
 00:27:24.266 --> 00:27:25.496 A:middle
 That's now deprecated.
@@ -2151,7 +2163,7 @@ had some code that looks similar
 to this, CLLocationManager.
 
 00:28:03.546 --> 00:28:05.056 A:middle
-You get a shared manager object
+You get a shared manager object,
 
 00:28:05.436 --> 00:28:07.796 A:middle
 and then you call
@@ -2204,7 +2216,7 @@ or Request When in Use,
 
 00:28:47.766 --> 00:28:50.726 A:middle
 you can't request the
-other mode, you're done.
+other mode; you're done.
 
 00:28:51.476 --> 00:28:55.316 A:middle
 You can't prompt up or down,
@@ -2322,7 +2334,7 @@ if HealthKit data is
 available on this device.
 
 00:30:24.376 --> 00:30:27.586 A:middle
-Then, we're allocinitting
+Then, we're allocinatting
 an HKHealthStore and asking
 
 00:30:27.836 --> 00:30:30.876 A:middle
@@ -2338,19 +2350,21 @@ to HealthKit data types
 is very, very granular.
 
 00:30:37.806 --> 00:30:41.136 A:middle
-And, you should only ask for
+And you should only ask for
 access to the data classes
 
 00:30:41.136 --> 00:30:42.936 A:middle
 that you're going
 to actively use.
 
-00:30:43.426 --> 00:30:46.826 A:middle
-What you would do then is
-call requestAuthorization
+00:30:43.426 --> 00:30:44.986 A:middle
+What you would do then ,
 
-00:30:46.826 --> 00:30:50.626 A:middle
+00:30:45.196 --> 00:30:49.566 A:middle
+s call requestAuthorization
 ToShareTypes completion
+
+00:30:49.626 --> 00:30:50.626 A:middle
 to prompt the user.
 
 00:30:51.456 --> 00:30:53.606 A:middle
@@ -2390,10 +2404,10 @@ response of the user was.
 
 00:31:11.696 --> 00:31:15.986 A:middle
 If the request was not
-successful, then the error --
+successful, then the error,
 
 00:31:16.096 --> 00:31:17.626 A:middle
-the NS error will be populated.
+the NS error, will be populated.
 
 00:31:20.226 --> 00:31:22.526 A:middle
 Writing is slightly different.
@@ -2443,18 +2457,21 @@ those particular objects.
 
 00:32:04.076 --> 00:32:09.486 A:middle
 So, we've talked
-about data isolation.
+about data isolation -
 
 00:32:09.846 --> 00:32:11.926 A:middle
-What are the differences
-on the different platforms,
+what are the differences on
+the different platforms -
 
 00:32:11.926 --> 00:32:13.736 A:middle
 and that's a lot of information.
 
-00:32:13.876 --> 00:32:18.006 A:middle
-So, we need to be able to test
-it and it's really easy to test.
+00:32:13.876 --> 00:32:16.286 A:middle
+So, we need to be
+able to test it,
+
+00:32:16.286 --> 00:32:18.006 A:middle
+and it's really easy to test.
 
 00:32:18.006 --> 00:32:20.516 A:middle
 All you need to do is
@@ -2476,22 +2493,22 @@ Note that apps can only trigger
 the prompt once, so if you need
 
 00:32:32.116 --> 00:32:36.196 A:middle
-to go back and retrigger it
-on the iOS you need to go
+to go back and retrigger it,
+on the iOS, you need to go
 
 00:32:36.196 --> 00:32:40.746 A:middle
 to Settings, General, Reset,
 Reset Location and Privacy,
 
 00:32:41.026 --> 00:32:43.736 A:middle
-or on OS X use tccutil.
+or, on OS X, use tccutil.
 
 00:32:45.056 --> 00:32:49.106 A:middle
 Consider all of the different
 test cases, and there's four
 
 00:32:49.106 --> 00:32:51.586 A:middle
-of them; permission
+of them: permission
 being sought and denied,
 
 00:32:52.366 --> 00:32:54.626 A:middle
@@ -2548,7 +2565,7 @@ privacy settings.
 
 00:33:29.616 --> 00:33:31.756 A:middle
 So, you should try to
-send users to settings,
+send users to Settings,
 
 00:33:32.216 --> 00:33:33.866 A:middle
 but your code should
@@ -2570,7 +2587,7 @@ page indicating the user has
 
 00:33:44.486 --> 00:33:47.046 A:middle
 previously declined
-access to that data type
+access to that data type,
 
 00:33:47.696 --> 00:33:51.286 A:middle
 so you shouldn't design dialogs
@@ -2686,10 +2703,10 @@ transparency already.
 
 00:35:05.706 --> 00:35:08.986 A:middle
 He talked about in terms of
-consent and Just in Time alerts.
+consent and Just in Time alerts,
 
 00:35:09.576 --> 00:35:11.956 A:middle
-But, transparency is
+but transparency is
 important even wider.
 
 00:35:12.266 --> 00:35:13.796 A:middle
@@ -2764,7 +2781,7 @@ via the console on OS X.
 
 00:36:04.436 --> 00:36:07.996 A:middle
 Another example of this on
-OS X is for crash reports.
+OS X is for Crash Reports.
 
 00:36:08.506 --> 00:36:11.356 A:middle
 You can then expand
@@ -2809,7 +2826,7 @@ It's a great tool.
 
 00:36:38.686 --> 00:36:42.646 A:middle
 Your Privacy Policy should
-include what data you collect,
+include: what data you collect,
 
 00:36:43.386 --> 00:36:48.086 A:middle
 what you plan to do with
@@ -2860,7 +2877,7 @@ And lastly, if you want your app
 to show up in the kids' section
 
 00:37:19.456 --> 00:37:22.376 A:middle
-of the app store you will
+of the app store, you will
 also require a Privacy Policy.
 
 00:37:23.296 --> 00:37:26.456 A:middle
@@ -2885,27 +2902,24 @@ you probably know this page,
 it's where you write
 the description
 
-00:37:37.156 --> 00:37:38.826 A:middle
-of what your app
-does, what it is.
+00:37:37.156 --> 00:37:39.956 A:middle
+of what your app does, what
+it is, and at the bottom,
 
-00:37:39.096 --> 00:37:41.716 A:middle
-And at the bottom, here's
-where you add a link
-
-00:37:41.716 --> 00:37:42.796 A:middle
+00:37:40.176 --> 00:37:42.796 A:middle
+here's where you add a link
 to your Privacy Policy.
 
-00:37:44.616 --> 00:37:48.476 A:middle
-Then, in the App Store on
-the first page, if you scroll
+00:37:44.616 --> 00:37:48.746 A:middle
+Then, in the App Store - on the
+first page, if you scroll down -
 
-00:37:48.476 --> 00:37:51.316 A:middle
-down you can see, and
-users can go and click
+00:37:49.096 --> 00:37:51.626 A:middle
+you can see, and users
+can go and click on,
 
-00:37:51.316 --> 00:37:53.486 A:middle
-on your Privacy Policy
+00:37:51.686 --> 00:37:53.486 A:middle
+your Privacy Policy
 and go read it.
 
 00:37:53.906 --> 00:37:56.086 A:middle
@@ -2990,11 +3004,11 @@ of anything that you're
 going to do with the data,
 
 00:38:53.096 --> 00:38:55.216 A:middle
-the best question is -- because
+the best question is - because
 I think it sounds interesting,
 
 00:38:55.506 --> 00:38:57.726 A:middle
-because I wondered,
+because I wondered -
 then that's a good sign
 
 00:38:57.726 --> 00:38:59.936 A:middle
@@ -3002,31 +3016,32 @@ that we shouldn't be
 collecting that amount
 
 00:38:59.936 --> 00:39:01.786 A:middle
-of data and that data.
+of data, and that data.
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:59.936 --> 00:39:01.786 A:middle
-of data and that data.
+of data, and that data.
 
-00:39:02.546 --> 00:39:04.736 A:middle
-So, we've all heard
-about and heard
+00:39:02.546 --> 00:39:04.246 A:middle
+So, we've all heard about,
 
-00:39:04.736 --> 00:39:06.346 A:middle
-in the industry about breaches.
+00:39:04.246 --> 00:39:06.346 A:middle
+and heard in the
+industry about, breaches.
 
-00:39:07.156 --> 00:39:11.046 A:middle
-And one thing to think about is,
-unfortunately, if this happens
+00:39:07.156 --> 00:39:10.266 A:middle
+And, one thing to think
+about is, unfortunately,
 
-00:39:11.046 --> 00:39:14.376 A:middle
-to you, you want to be able to
-explain how you plan you use
+00:39:10.266 --> 00:39:12.296 A:middle
+if this happens to you,
+you want to be able
 
-00:39:14.376 --> 00:39:15.566 A:middle
+00:39:12.296 --> 00:39:15.566 A:middle
+to explain how you plan you use
 and have a clear explanation
 
 00:39:15.566 --> 00:39:17.326 A:middle
@@ -3035,7 +3050,7 @@ that you're storing.
 
 00:39:18.066 --> 00:39:21.136 A:middle
 If you don't have a good
-explanation and users want
+explanation, and users want
 
 00:39:21.136 --> 00:39:23.816 A:middle
 to understand, this will
@@ -3054,19 +3069,16 @@ so you shouldn't think of just
 this on the iOS or OS X side.
 
 00:39:38.936 --> 00:39:41.796 A:middle
-There is six data collection
+There are six data collection
 techniques on this slide.
 
-00:39:42.316 --> 00:39:45.366 A:middle
-Now, last year we got
-into depth about them,
+00:39:42.316 --> 00:39:46.456 A:middle
+Now, last year we got into depth
+about them, we talked about
 
-00:39:45.606 --> 00:39:47.276 A:middle
-we talked about, defined them.
-
-00:39:47.826 --> 00:39:50.626 A:middle
-We gave examples on
-how to apply them.
+00:39:46.556 --> 00:39:50.626 A:middle
+and defined them, we gave
+examples on how to apply them.
 
 00:39:51.206 --> 00:39:54.256 A:middle
 So, if you're interested in
@@ -3114,11 +3126,11 @@ of this, and then they
 can be pieced together
 
 00:40:23.766 --> 00:40:28.426 A:middle
-to form a fairly stable
+to form a fairly stable,
 semi-persistent fingerprint.
 
 00:40:28.836 --> 00:40:31.626 A:middle
-So then, any other
+So, then, any other
 data that is logged
 
 00:40:31.626 --> 00:40:34.586 A:middle
@@ -3141,8 +3153,8 @@ You may think, "Well, there's no
 personal information in my logs,
 
 00:40:48.336 --> 00:40:51.226 A:middle
-in my logging, so
-there's no privacy impact.
+in my logging, so there's
+no privacy impact."
 
 00:40:52.076 --> 00:40:53.076 A:middle
 This is not true.
@@ -3316,7 +3328,7 @@ only on a single device.
 
 00:42:51.496 --> 00:42:56.606 A:middle
 Also, think about Touch ID,
-presence, APIs, can you use this
+presence APIs, can you use this
 
 00:42:56.676 --> 00:42:59.526 A:middle
 to help protect your
@@ -3365,11 +3377,11 @@ couple of things you can do
 and act on immediately.
 
 00:43:36.526 --> 00:43:40.196 A:middle
-Make sure if you don't have a
+Make sure, if you don't have a
 device that's upgraded to iOS 8
 
 00:43:40.566 --> 00:43:43.006 A:middle
-or OS X Yosemite
+or OS X Yosemite,
 that you do today.
 
 00:43:43.926 --> 00:43:45.216 A:middle
@@ -3381,7 +3393,7 @@ this has to your users
 
 00:43:47.566 --> 00:43:50.926 A:middle
 to ensure there's not going
-to be user impact on launch.
+to be user impact upon launch.
 
 00:43:52.356 --> 00:43:55.816 A:middle
 Prompt users well, and this
@@ -3400,10 +3412,10 @@ If you don't have purpose
 strings, go add them.
 
 00:44:00.376 --> 00:44:01.696 A:middle
-Look into the new data classes.
+Look into the new data classes,
 
 00:44:01.756 --> 00:44:03.326 A:middle
-See if you can provide
+see if you can provide
 a great experience
 
 00:44:03.326 --> 00:44:05.036 A:middle
@@ -3419,10 +3431,10 @@ go submit one to iTunes Connect.
 
 00:44:10.786 --> 00:44:15.426 A:middle
 And lastly, think about privacy
-throughout the design process,
+throughout the design process.
 
 00:44:16.046 --> 00:44:20.736 A:middle
-and this will help you
+And this will help you
 maintain your reputation
 
 00:44:21.236 --> 00:44:28.486 A:middle
@@ -3446,7 +3458,7 @@ We have two sample
 code projects.
 
 00:44:44.136 --> 00:44:49.136 A:middle
-The first one, privacy prompts,
+The first one, privacy prompts:
 this is a help start for how
 
 00:44:49.136 --> 00:44:53.286 A:middle
@@ -3458,7 +3470,7 @@ out for the new data
 isolation classes.
 
 00:44:56.376 --> 00:44:58.746 A:middle
-Then, people picker,
+Then, people picker:
 this is good to look
 
 00:44:58.746 --> 00:45:00.706 A:middle
@@ -3478,7 +3490,7 @@ or are wanting to
 adopt it in iOS 8.
 
 00:45:03.256 --> 00:45:08.966 A:middle
-We talked about, today,
+We talked about today
 a few best practices
 
 00:45:09.316 --> 00:45:10.786 A:middle
@@ -3502,12 +3514,9 @@ information to be found
 00:45:19.456 --> 00:45:20.776 A:middle
 at the Apple Developers' Forums.
 
-00:45:22.116 --> 00:45:24.286 A:middle
-We mentioned several talks.
-
-00:45:24.406 --> 00:45:26.316 A:middle
-The first one is
-"Kids and Apps".
+00:45:22.116 --> 00:45:26.316 A:middle
+We mentioned several talks, the
+first one is "Kids and Apps".
 
 00:45:26.316 --> 00:45:28.146 A:middle
 It's happening right
@@ -3549,4 +3558,3 @@ thank you very much.
 
 00:45:53.516 --> 00:45:57.880 A:middle
 [ Applause ]
-

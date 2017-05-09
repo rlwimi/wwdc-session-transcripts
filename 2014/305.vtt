@@ -17,7 +17,7 @@ that power the App Store
 and the iBookstore in OS X,
 
 00:00:21.936 --> 00:00:24.826 A:middle
-which in course -- of course
+which in course - of course
 includes the unified receipt
 
 00:00:24.826 --> 00:00:26.446 A:middle
@@ -25,11 +25,11 @@ format that we introduced
 last year.
 
 00:00:27.726 --> 00:00:30.296 A:middle
-So in this session, Preventing
+So in this session, "Preventing
 Unauthorized Purchases
 
 00:00:30.296 --> 00:00:33.016 A:middle
-with Receipts, what we're
+with Receipts", what we're
 specifically going to talk
 
 00:00:33.016 --> 00:00:37.896 A:middle
@@ -76,7 +76,7 @@ into your app binary itself
 that verifies the receipt,
 
 00:01:02.176 --> 00:01:03.486 A:middle
-knows that it came from Apple,
+knows that it came from Apple
 
 00:01:03.486 --> 00:01:05.576 A:middle
 and knows exactly what
@@ -110,7 +110,7 @@ Now, the receipt is a lot like
 the physical proof of purchase,
 
 00:01:27.516 --> 00:01:30.076 A:middle
-docket, or receipt that you get
+docket or receipt that you get
 when you're shopping in a store.
 
 00:01:30.706 --> 00:01:31.996 A:middle
@@ -452,16 +452,13 @@ Here's one way to look at it.
 If you are a very
 high value product,
 
-00:05:23.996 --> 00:05:25.046 A:middle
-you're typically selling
+00:05:23.996 --> 00:05:26.906 A:middle
+you're typically selling perhaps
+an in-app purchase that's
 
-00:05:25.046 --> 00:05:27.346 A:middle
-in perhaps an in-app
-purchase that's designed
-
-00:05:27.346 --> 00:05:30.156 A:middle
-to be a one-off purchase,
-large value,
+00:05:26.906 --> 00:05:30.156 A:middle
+designed to be a one-off
+purchase, large value,
 
 00:05:30.546 --> 00:05:33.996 A:middle
 and that one single in-app
@@ -611,7 +608,7 @@ and again and keep
 spending with them.
 
 00:07:12.926 --> 00:07:15.386 A:middle
-Grocery stores filled
+Grocery stores are filled
 with hundreds and hundreds
 
 00:07:15.386 --> 00:07:17.386 A:middle
@@ -900,7 +897,7 @@ is a cryptographic library
 
 00:10:22.036 --> 00:10:24.276 A:middle
 that serves many
-functions beyond just HTDPS
+functions beyond just HTTPS
 
 00:10:24.276 --> 00:10:26.936 A:middle
 and secure sockets that
@@ -912,17 +909,15 @@ only doing the PKCS#7 signature
 
 00:10:31.256 --> 00:10:34.106 A:middle
 verification, but also
-for reading asn.1.
+for reading ASN.1.
 
-00:10:34.186 --> 00:10:35.516 A:middle
-So it's kind of a one-stop shop.
+00:10:34.186 --> 00:10:36.666 A:middle
+So it's kind of a one-stop
+shop if you wanted a library
 
-00:10:35.516 --> 00:10:37.326 A:middle
-If you wanted a library
-that was available
-
-00:10:37.326 --> 00:10:38.196 A:middle
-that could do this for you.
+00:10:36.666 --> 00:10:38.196 A:middle
+that was available that
+could do this for you.
 
 00:10:39.266 --> 00:10:41.306 A:middle
 There's also some other command
@@ -1082,7 +1077,7 @@ that validation for me.
 
 00:12:19.116 --> 00:12:24.786 A:middle
 But if not, if I don't have a
-receipt, what I do is on OS X,
+receipt, what I do is, on OS X,
 
 00:12:24.786 --> 00:12:27.956 A:middle
 I exit my app with this
@@ -1105,8 +1100,8 @@ So this is all in
 the documentation
 
 00:12:38.816 --> 00:12:40.506 A:middle
-and it seems pretty straight
-forward at this point.
+and it seems pretty
+straightforward at this point.
 
 00:12:41.126 --> 00:12:42.346 A:middle
 So I'm going to clean
@@ -1123,7 +1118,7 @@ I'm going to run it.
 
 00:12:47.556 --> 00:12:49.606 A:middle
 Now, notice I've got two
-break points set up here.
+breakpoints set up here.
 
 00:12:49.606 --> 00:12:52.656 A:middle
 The first is I wanted to check
@@ -1163,11 +1158,11 @@ have a receipt.
 But we want one so we can
 start testing out validation.
 
-00:13:10.696 --> 00:13:13.726 A:middle
+00:13:10.696 --> 00:13:13.136 A:middle
 So the documentation
-says to exit 173.
+says to exit(173).
 
-00:13:13.726 --> 00:13:17.036 A:middle
+00:13:13.386 --> 00:13:17.036 A:middle
 Let's do that.
 
 00:13:17.196 --> 00:13:18.136 A:middle
@@ -1193,7 +1188,7 @@ The reason for that is when you
 run your app in Xcode like that
 
 00:13:32.226 --> 00:13:36.786 A:middle
-and it hits that exit 173 code,
+and it hits that exit(173) code,
 only Xcode sees that exit code.
 
 00:13:37.296 --> 00:13:39.036 A:middle
@@ -1213,11 +1208,11 @@ to help you do that.
 
 00:13:43.976 --> 00:13:46.216 A:middle
 This time when I run the app
-and I hit the same break point,
+and I hit the same breakpoint,
 
 00:13:46.696 --> 00:13:49.946 A:middle
 I'm going to go down here
-to the Dock, control click
+to the Dock, control+click
 
 00:13:49.946 --> 00:13:54.536 A:middle
 on the app icon down here, and
@@ -1359,7 +1354,7 @@ So we know that this
 receipt is authentic,
 
 00:15:17.996 --> 00:15:19.496 A:middle
-untrusted, and unaltered.
+untrusted and unaltered.
 
 00:15:21.596 --> 00:15:26.176 A:middle
 So this verification
@@ -1413,7 +1408,7 @@ for doing this authenticity
 check,
 
 00:15:54.696 --> 00:15:57.096 A:middle
-we mentioned before there's --
+we mentioned before there's -
 OpenSSL can do this for you,
 
 00:15:57.096 --> 00:15:59.036 A:middle
@@ -1442,8 +1437,8 @@ the first thing we need
 to do is find that receipt.
 
 00:16:08.806 --> 00:16:11.526 A:middle
-We call NSBundle mainBundle
-appStoreReceiptURL.
+We call [NSBundle
+mainBundle] appStoreReceiptURL.
 
 00:16:11.826 --> 00:16:13.556 A:middle
 That gives a URL to the receipt.
@@ -1457,8 +1452,8 @@ so we can start working on
 it, and that's as simple
 
 00:16:20.096 --> 00:16:23.406 A:middle
-as using something like NSData
-initWith ContentsOfURL..
+as using something like [NSData
+alloc] initWithContentsOfURL.
 
 00:16:23.406 --> 00:16:28.066 A:middle
 I'm going to walk you through
@@ -1480,14 +1475,11 @@ example makes two assumptions.
 We assume that you've already
 read the receipt into memory
 
-00:16:39.456 --> 00:16:41.676 A:middle
+00:16:39.456 --> 00:16:41.776 A:middle
 and have stored it in this
-variable called asterick b
+variable called b-receipt;
 
-00:16:41.676 --> 00:16:42.956 A:middle
-underscore receipt;.
-
-00:16:42.956 --> 00:16:46.216 A:middle
+00:16:42.906 --> 00:16:46.216 A:middle
 And we also assume that you've
 got a copy of Apple's root CA,
 
@@ -1497,14 +1489,11 @@ which you can find online,
 
 00:16:49.326 --> 00:16:51.266 A:middle
 and you have that in your
-app bundle and you've read it
+App Bundle and you've read it
 
-00:16:51.266 --> 00:16:52.356 A:middle
-into memory and stored it
-
-00:16:52.356 --> 00:16:54.606 A:middle
-in this variable called
-asterick b underscore x509;.
+00:16:51.266 --> 00:16:54.246 A:middle
+into memory and stored it in
+this variable called -x509;.
 
 00:16:54.776 --> 00:16:57.836 A:middle
 Why 509? Because
@@ -1537,9 +1526,8 @@ that we can start working with.
 And we do that by
 calling the really simply
 
-00:17:14.685 --> 00:17:18.626 A:middle
-and aptly named d2i
-underscore PKCS7 underscore bio.
+00:17:14.685 --> 00:17:18.486 A:middle
+and aptly named d2i-PKCS7-bio.
 
 00:17:20.415 --> 00:17:21.685 A:middle
 Don't let these names fool you.
@@ -1558,7 +1546,7 @@ memory, we're setting it
 
 00:17:30.836 --> 00:17:33.616 A:middle
 up in a structure so we can work
-with it, and we're checking --
+with it, and we're checking -
 
 00:17:33.726 --> 00:17:36.346 A:middle
 we're calling some functions
@@ -1609,12 +1597,13 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 00:17:58.396 --> 00:18:00.166 A:middle
 into that store Apple's Root CA.
 
-00:18:00.746 --> 00:18:02.166 A:middle
-Because if the certificate --
+00:18:00.746 --> 00:18:03.096 A:middle
+Because if the certificate
+- if the signature
 
-00:18:02.166 --> 00:18:05.356 A:middle
-if the signature in the receipt
-is valid, it has to appear
+00:18:03.096 --> 00:18:05.356 A:middle
+in the receipt is
+valid, it has to appear
 
 00:18:05.356 --> 00:18:08.256 A:middle
 that it's come from
@@ -1624,16 +1613,15 @@ Apple's Root CA.
 Now, we get into
 the meat of this.
 
-00:18:10.636 --> 00:18:13.406 A:middle
+00:18:10.636 --> 00:18:13.886 A:middle
 We call the much better
-named PKCS7 underscore verify
+named PKCS7-verify function,
 
-00:18:13.406 --> 00:18:15.666 A:middle
-function, pass into
-it our receipt
-
-00:18:16.306 --> 00:18:19.486 A:middle
+00:18:14.396 --> 00:18:17.486 A:middle
+pass into it our receipt
 and our certificate store,
+
+00:18:17.486 --> 00:18:19.486 A:middle
 and we just check the result.
 
 00:18:20.946 --> 00:18:22.426 A:middle
@@ -1674,8 +1662,8 @@ And you get that
 back in this example
 
 00:18:45.566 --> 00:18:47.246 A:middle
-in the b underscore
-receiptPayload variable.
+in the b-receiptPayload
+variable.
 
 00:18:49.136 --> 00:18:51.926 A:middle
 So I have another project
@@ -1705,7 +1693,7 @@ receipt from the last demo.
 
 00:19:03.176 --> 00:19:06.106 A:middle
 And so, I've fleshed out my
-validate receipted URL method
+validate receipt URL method
 
 00:19:06.766 --> 00:19:08.456 A:middle
 with these exact same calls
@@ -1714,12 +1702,11 @@ with these exact same calls
 that we just saw in
 that slide before.
 
-00:19:11.246 --> 00:19:16.546 A:middle
-So I'm going to build
-this -- huh.
+00:19:11.246 --> 00:19:13.176 A:middle
+So I'm going to build this.
 
-00:19:16.846 --> 00:19:19.666 A:middle
-Twelve warnings, 12 errors.
+00:19:15.256 --> 00:19:19.666 A:middle
+Huh, 12 warnings, 12 errors.
 
 00:19:20.706 --> 00:19:21.826 A:middle
 Not a great start.
@@ -1766,12 +1753,12 @@ stage telling you
 00:19:45.456 --> 00:19:46.706 A:middle
 to use deprecated methods?
 
-00:19:47.746 --> 00:19:52.966 A:middle
-We deprecated these in OS X
-10.7 because we want developers
+00:19:47.746 --> 00:19:53.686 A:middle
+We deprecated these in OS X 10.7
+because we want developers that,
 
-00:19:53.556 --> 00:19:55.436 A:middle
-that especially if you're
+00:19:53.686 --> 00:19:55.436 A:middle
+especially if you're
 concerned about, you know,
 
 00:19:55.436 --> 00:19:58.606 A:middle
@@ -1818,7 +1805,7 @@ and run just fine on
 another version of the OS,
 
 00:20:23.386 --> 00:20:25.836 A:middle
-even thought AppKit and UIKit
+even though AppKit and UIKit
 might be very different.
 
 00:20:26.286 --> 00:20:28.476 A:middle
@@ -1826,7 +1813,7 @@ They're external dependencies
 that can be swapped out from
 
 00:20:28.476 --> 00:20:30.646 A:middle
-under you and as long
+under you and, as long
 as those APIs match
 
 00:20:30.646 --> 00:20:33.076 A:middle
@@ -1850,7 +1837,7 @@ of OpenSSL that they
 brought themselves
 
 00:20:48.866 --> 00:20:49.846 A:middle
-that simply said, yeah.
+that simply said, "Yeah.
 
 00:20:49.846 --> 00:20:50.596 A:middle
 Everything's fine.
@@ -1858,12 +1845,12 @@ Everything's fine.
 00:20:51.286 --> 00:20:52.126 A:middle
 This receipt's valid.
 
-00:20:53.056 --> 00:20:54.786 A:middle
-Trust me. You see?
+00:20:53.056 --> 00:20:53.966 A:middle
+Trust me."
 
-00:20:54.866 --> 00:20:56.626 A:middle
-When you use that
-external dependency
+00:20:54.096 --> 00:20:56.626 A:middle
+You see? When you use
+that external dependency
 
 00:20:56.626 --> 00:20:59.176 A:middle
 for strong cryptography and
@@ -1918,12 +1905,12 @@ Now, when you build OpenSSL,
 it produces two things for you,
 
 00:21:29.836 --> 00:21:32.226 A:middle
-a folder called include,
+a folder called "include",
 full of the header files
 
 00:21:32.226 --> 00:21:34.716 A:middle
 for what we want to work
-with, and also a lib folder
+with, and also a "lib" folder
 
 00:21:34.716 --> 00:21:37.586 A:middle
 that contains that .a static
@@ -1969,10 +1956,10 @@ static libraries.
 
 00:22:01.976 --> 00:22:04.556 A:middle
 Make sure you click
-this copy items
+this "Copy items
 
 00:22:04.556 --> 00:22:06.516 A:middle
-into destination group folder.
+into destination group folder".
 
 00:22:06.886 --> 00:22:08.666 A:middle
 That makes sure that
@@ -2002,17 +1989,17 @@ OpenSSL to my product.
 00:22:20.626 --> 00:22:24.016 A:middle
 Cool. Build it.
 
-00:22:24.276 --> 00:22:27.276 A:middle
+00:22:24.276 --> 00:22:27.696 A:middle
 Build succeeds, but I still
-have 11 compiler warnings
+have 11 compiler warnings and,
 
-00:22:27.456 --> 00:22:28.816 A:middle
-and if you're like
-me, you care a lot
+00:22:27.696 --> 00:22:28.816 A:middle
+if you're like me,
+you care a lot
 
 00:22:28.816 --> 00:22:30.756 A:middle
 about your project
-building with 0 warnings.
+building with zero warnings.
 
 00:22:31.396 --> 00:22:33.506 A:middle
 So why are we still getting
@@ -2047,23 +2034,23 @@ I have clicked on this
 target and I'm going
 
 00:22:57.436 --> 00:22:58.486 A:middle
-to go to build settings.
+to go to Build Settings.
 
 00:22:58.886 --> 00:23:01.366 A:middle
-And as an option, you'll find
-called Header Search Paths.
+And as an option, you'll find an
+item called Header Search Paths.
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.886 --> 00:23:01.366 A:middle
-And as an option, you'll find
-called Header Search Paths.
+And as an option, you'll find an
+item called Header Search Paths.
 
 00:23:01.366 --> 00:23:04.806 A:middle
-I'm going to double
-click on that and I need
+I'm going to double-click
+on that and I need
 
 00:23:04.806 --> 00:23:07.746 A:middle
 to tell Xcode here where
@@ -2074,7 +2061,7 @@ that we just added.
 
 00:23:09.106 --> 00:23:12.226 A:middle
 An easy trick for doing
-that is pop this open here
+that is, pop this open here
 
 00:23:12.226 --> 00:23:14.596 A:middle
 on the side panel, find
@@ -2112,13 +2099,13 @@ and rather than having
 to enter the full directory
 path, I can use a shortcut
 
-00:23:43.596 --> 00:23:48.156 A:middle
-of saying it's in SourceRoot
-/Include/include, because that's
+00:23:43.596 --> 00:23:46.796 A:middle
+of saying it's in
+SourceRoot/Include/include,
 
-00:23:48.156 --> 00:23:49.536 A:middle
-where we saw the
-file just before.
+00:23:47.056 --> 00:23:49.536 A:middle
+because that's where we
+saw the file just before.
 
 00:23:50.516 --> 00:23:52.816 A:middle
 I add that in, put it to
@@ -2177,7 +2164,7 @@ receipt from the earlier demo
 
 00:24:29.266 --> 00:24:32.326 A:middle
 that we did and now we can
-enter our validateReceipt AtURL
+enter our validateReceiptAtURL
 
 00:24:32.436 --> 00:24:32.976 A:middle
 method here.
@@ -2193,9 +2180,9 @@ I load the receipt into memory.
 I load the Root CA
 in the memory.
 
-00:24:39.956 --> 00:24:43.976 A:middle
-d2i underscore PKCS7 underscore
-bio to load that ball of receipt
+00:24:40.126 --> 00:24:43.976 A:middle
+d2i-PKCS7-bio to load
+that ball of receipt
 
 00:24:43.976 --> 00:24:46.326 A:middle
 into a usable data
@@ -2234,7 +2221,7 @@ That means we can now
 move forward knowing
 
 00:25:04.206 --> 00:25:06.736 A:middle
-that we have a real
+that we have a real,
 valid and trusted receipt
 
 00:25:06.876 --> 00:25:09.486 A:middle
@@ -2243,7 +2230,7 @@ purchase information out of.
 
 00:25:09.606 --> 00:25:12.546 A:middle
 And well, before we do that, we
-need to confirm that it's for --
+need to confirm that it's for -
 
 00:25:12.546 --> 00:25:14.156 A:middle
 intended for our
@@ -2258,7 +2245,7 @@ with the receipt that we got
 from the test environment,
 
 00:25:19.656 --> 00:25:22.436 A:middle
-but we're now got OpenSSL
+but we now got OpenSSL
 integrated into our project
 
 00:25:22.926 --> 00:25:25.766 A:middle
@@ -2340,17 +2327,16 @@ is build a separate .a,
 a separate static library,
 for each architecture you want
 
-00:26:11.936 --> 00:26:15.186 A:middle
+00:26:11.936 --> 00:26:15.056 A:middle
 to support, be it
-arm, armv7, arm 64,
+arm, armv7, arm64,
 
-00:26:15.186 --> 00:26:16.876 A:middle
+00:26:15.056 --> 00:26:16.876 A:middle
 whatever you might
 need to build for.
 
 00:26:17.076 --> 00:26:21.086 A:middle
-Or for x86 underscore
-64 in OS X.
+Or for x86-64 in OS X.
 
 00:26:21.376 --> 00:26:24.426 A:middle
 Now, when you create those
@@ -2403,19 +2389,19 @@ you'll find handy.
 
 00:26:54.216 --> 00:26:57.056 A:middle
 If you're building for
-OS X 64bit, configure it
+OS X 64-bit, configure it
 
 00:26:57.056 --> 00:27:01.506 A:middle
-with the darwind64-x86
-underscore 64-cc host type.
+with the darwin64-x86-64-cc
+host type.
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.056 --> 00:27:01.506 A:middle
-with the darwind64-x86
-underscore 64-cc host type.
+with the darwin64-x86-64-cc
+host type.
 
 00:27:01.646 --> 00:27:04.376 A:middle
 If you see documentation
@@ -2428,20 +2414,20 @@ of the BASD generic types,
 you're going to run
 into trouble.
 
-00:27:07.996 --> 00:27:10.406 A:middle
-So this is much easier and
-it ensures a proper build
+00:27:07.996 --> 00:27:09.086 A:middle
+So this is much easier
 
-00:27:10.406 --> 00:27:12.536 A:middle
-of OpenSSL on x86 underscore 64.
+00:27:09.086 --> 00:27:12.536 A:middle
+and it ensures a proper
+build of OpenSSL on x86-64.
 
 00:27:12.536 --> 00:27:16.006 A:middle
-But if you're using -- if
+But if you're using - if
 you're building for iOS,
 
 00:27:16.666 --> 00:27:18.986 A:middle
-try using the iphoneos-cross
-host type
+try using the iPhone
+OS cross host type
 
 00:27:18.986 --> 00:27:19.856 A:middle
 in the configure script
@@ -2463,7 +2449,7 @@ We deprecated OpenSSL
 a while back in OS X
 
 00:27:32.026 --> 00:27:35.976 A:middle
-and we never shipped and OpenSSL
+and we never shipped an OpenSSL
 in iOS that developers can use.
 
 00:27:36.256 --> 00:27:37.786 A:middle
@@ -2490,7 +2476,7 @@ roll your own, or
 another offering,
 
 00:27:51.966 --> 00:27:54.896 A:middle
-do not check the expiry
+do check the expiry
 date on the certificate.
 
 00:27:56.086 --> 00:27:59.576 A:middle
@@ -2542,7 +2528,7 @@ included in that receipt
 that have an expiry date.
 
 00:28:27.586 --> 00:28:30.776 A:middle
-If that -- if someone buys
+If that - if someone buys
 your app today and then a year
 
 00:28:30.776 --> 00:28:33.416 A:middle
@@ -2611,13 +2597,13 @@ Certificate Authority.
 That's the only way you can be
 absolutely certain that it came
 
-00:29:11.236 --> 00:29:15.006 A:middle
+00:29:11.236 --> 00:29:15.016 A:middle
 from us and not from someone
 else trying to pose as Apple.
 
-00:29:15.486 --> 00:29:19.416 A:middle
-Want to take a quick
-word, though,
+00:29:15.016 --> 00:29:19.416 A:middle
+I want to take a
+quick word, though,
 
 00:29:19.416 --> 00:29:21.266 A:middle
 about examples and sample code.
@@ -2626,13 +2612,13 @@ about examples and sample code.
 I've mentioned a lot
 throughout this session
 
-00:29:23.546 --> 00:29:27.266 A:middle
-that there are a lot of samples
-out there, there's examples.
+00:29:23.546 --> 00:29:26.536 A:middle
+that there are a lot
+of samples out there.
 
-00:29:27.266 --> 00:29:29.326 A:middle
-I'm sure there's off
-the shelf offerings
+00:29:26.536 --> 00:29:29.326 A:middle
+There's examples I'm sure,
+there's off the shelf offerings
 
 00:29:29.326 --> 00:29:31.046 A:middle
 that you could literally
@@ -2658,12 +2644,12 @@ vulnerabilities.
 No matter how good
 the developer is,
 
-00:29:45.236 --> 00:29:47.276 A:middle
+00:29:45.236 --> 00:29:47.376 A:middle
 no matter how well you
 use the sample code,
 
-00:29:47.276 --> 00:29:51.976 A:middle
-is no matter how much you might
+00:29:47.376 --> 00:29:51.976 A:middle
+no matter how much you might
 have paid for it, any code comes
 
 00:29:51.976 --> 00:29:53.976 A:middle
@@ -2777,7 +2763,7 @@ business model and level
 of protection you want.
 
 00:30:59.896 --> 00:31:03.946 A:middle
-But either way know the risks
+But either way, know the risks
 and own those risks yourself.
 
 
@@ -2785,7 +2771,7 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.896 --> 00:31:03.946 A:middle
-But either way know the risks
+But either way, know the risks
 and own those risks yourself.
 
 00:31:05.256 --> 00:31:08.696 A:middle
@@ -2805,8 +2791,8 @@ for your app on this
 device only.
 
 00:31:15.986 --> 00:31:20.256 A:middle
-To do that we need to look at
-the receipt payload itself.
+To do that, we need to look
+at the receipt payload itself.
 
 00:31:20.556 --> 00:31:22.616 A:middle
 Now this is a very
@@ -2908,13 +2894,16 @@ are named by a number.
 So attribute Type
 2 in the receipt,
 
-00:32:21.756 --> 00:32:24.196 A:middle
-if you read that attribute's
-value it will be the Bundle
+00:32:21.756 --> 00:32:23.286 A:middle
+if you read that
+attribute's value,
 
-00:32:24.196 --> 00:32:26.186 A:middle
-Identifier that this
-receipt was intended for.
+00:32:23.286 --> 00:32:24.696 A:middle
+it will be the Bundle Identifier
+
+00:32:24.696 --> 00:32:26.186 A:middle
+that this receipt
+was intended for.
 
 00:32:26.766 --> 00:32:28.566 A:middle
 And then Type 3 is
@@ -3037,7 +3026,7 @@ intended for this device only
 
 00:33:40.176 --> 00:33:42.706 A:middle
 because we don't want someone
-to simply be able to copy a --
+to simply be able to copy a -
 
 00:33:42.706 --> 00:33:44.346 A:middle
 a receipt around
@@ -3088,7 +3077,7 @@ So this Type 5 attribute is
 a SHA-1 hash of 3 key values.
 
 00:34:15.366 --> 00:34:19.606 A:middle
-It's a bundle ID, plus a unique
+It's a Bundle ID, plus a unique
 device identifier like the GUI
 
 00:34:19.606 --> 00:34:23.536 A:middle
@@ -3096,7 +3085,7 @@ on OS X or the device
 for vendor on iOS,
 
 00:34:24.295 --> 00:34:26.065 A:middle
-and also this opaque value.
+and also this Opaque Value.
 
 00:34:26.956 --> 00:34:29.795 A:middle
 How does this work to actually
@@ -3127,7 +3116,7 @@ that transaction the app
 store knows three key things.
 
 00:34:46.186 --> 00:34:48.806 A:middle
-One, we know the bundle ID of
+One, we know the Bundle ID of
 the app making the purchase.
 
 00:34:49.496 --> 00:34:52.476 A:middle
@@ -3139,7 +3128,7 @@ because it's sent to the store
 when that transaction is made.
 
 00:34:55.525 --> 00:34:59.176 A:middle
-And three, on service side
+And three, on server side
 we create this opaque value,
 
 00:34:59.176 --> 00:35:01.756 A:middle
@@ -3158,7 +3147,7 @@ we inject into this process
 to make it harder to attack.
 
 00:35:03.926 --> 00:35:06.536 A:middle
-So the app store knows these
+So the App Store knows these
 three key things at the time
 
 00:35:06.536 --> 00:35:08.666 A:middle
@@ -3224,7 +3213,7 @@ to this device.
 
 00:35:48.086 --> 00:35:52.906 A:middle
 Now about ASN.1,
-these high-level --
+these high-level -
 
 00:35:52.906 --> 00:35:54.486 A:middle
 this high-level look
@@ -3298,11 +3287,11 @@ And the receipt attribute
 will be part of a sequence,
 
 00:36:37.026 --> 00:36:39.896 A:middle
-and it contains a type
+and it contains a type,
 which relates to that type
 
 00:36:39.896 --> 00:36:42.816 A:middle
-that we just saw before
+that we just saw before,
 as well as a value
 
 00:36:42.816 --> 00:36:44.896 A:middle
@@ -3311,7 +3300,7 @@ or a bunch of bytes.
 
 00:36:45.516 --> 00:36:47.856 A:middle
 And that refers to things
-like that opaque value
+like that Opaque Value
 
 00:36:47.856 --> 00:36:52.216 A:middle
 in the SHA-1 hash that
@@ -3341,12 +3330,12 @@ to actually being able to read,
 and write, and work
 with it in a code level.
 
-00:37:06.056 --> 00:37:07.976 A:middle
-So there's a few options for you
+00:37:06.056 --> 00:37:08.656 A:middle
+So there's a few options
+for you because, of course,
 
-00:37:07.976 --> 00:37:10.126 A:middle
-because of course this
-is very widely used.
+00:37:08.656 --> 00:37:10.126 A:middle
+this is very widely used.
 
 00:37:11.476 --> 00:37:12.946 A:middle
 One option is, again, OpenSSL.
@@ -3375,7 +3364,7 @@ When we did the first of
 verifying the recipe we got back
 
 00:37:29.646 --> 00:37:31.036 A:middle
-that Pay 7 data structure.
+that P7 data structure.
 
 00:37:31.036 --> 00:37:31.806 A:middle
 Remember that?
@@ -3388,31 +3377,30 @@ structure to actually get
 that payload of receipt data
 that's encoded in ASN.1.
 
-00:37:38.746 --> 00:37:41.226 A:middle
+00:37:38.746 --> 00:37:41.066 A:middle
 It's buried in there in
-the Pay 7 data structure
+the P7 data structure
 
-00:37:41.226 --> 00:37:41.906 A:middle
+00:37:41.066 --> 00:37:41.906 A:middle
 that we see there.
 
-00:37:42.556 --> 00:37:45.066 A:middle
+00:37:42.556 --> 00:37:44.576 A:middle
 Once we've got that we can
-call this function called ASN1
+call this function called
 
-00:37:45.066 --> 00:37:47.526 A:middle
-underscore get underscore object
-to start pulling those objects
+00:37:44.576 --> 00:37:48.356 A:middle
+ASN1-get-object to start
+pulling those objects out of
 
-00:37:47.586 --> 00:37:50.126 A:middle
-out of that ASN.1
-encoded byte stream.
+00:37:48.356 --> 00:37:50.126 A:middle
+that ASN.1-encoded byte stream.
 
 00:37:51.026 --> 00:37:52.656 A:middle
 The objects are things
 like there'll be an object
 
 00:37:52.656 --> 00:37:53.816 A:middle
-for the top level receipt.
+for the top-level receipt.
 
 00:37:54.836 --> 00:37:57.616 A:middle
 There'll be an object in
@@ -3463,7 +3451,7 @@ choose to do this.
 
 00:38:22.896 --> 00:38:26.526 A:middle
 You'd set up a while loop
-to essentially move a --
+to essentially move a -
 
 00:38:26.526 --> 00:38:29.686 A:middle
 move a pointer throughout
@@ -3479,14 +3467,11 @@ We want to basically walk
 through the receipt
 ad read it as we go.
 
-00:38:35.136 --> 00:38:36.196 A:middle
-So we set up the while loop
+00:38:35.136 --> 00:38:37.966 A:middle
+So we set up the while loop and
+start calling ASN1-get-object
 
-00:38:36.196 --> 00:38:38.386 A:middle
-and start calling ASN1
-underscore get underscore object
-
-00:38:38.386 --> 00:38:41.486 A:middle
+00:38:38.226 --> 00:38:41.486 A:middle
 to pull those attributes and
 values out of the receipt.
 
@@ -3502,51 +3487,46 @@ type, and notice I'm moving
 that pointer value around
 like a finger following words
 
-00:38:50.886 --> 00:38:51.276 A:middle
+00:38:50.886 --> 00:38:51.286 A:middle
 in a book.
 
-00:38:51.276 --> 00:38:53.706 A:middle
-And I'm calling ASN1
-underscore get underscore object
+00:38:51.926 --> 00:38:55.176 A:middle
+And I'm calling ASN1-get-object
+to read each of those words out
 
-00:38:53.706 --> 00:38:56.316 A:middle
-to read each of those words
-out and so I can use them.
+00:38:55.176 --> 00:38:56.316 A:middle
+and so I can use them.
 
-00:38:56.976 --> 00:38:59.956 A:middle
-After a few more calls to ASN1
-underscore get underscore object
-
-00:38:59.956 --> 00:39:02.126 A:middle
-I'm ready to switch
-on that attribute type
+00:38:56.976 --> 00:39:00.276 A:middle
+After a few more calls to
+ASN1-get-object I'm ready
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:38:59.956 --> 00:39:02.126 A:middle
-I'm ready to switch
-on that attribute type
+00:38:56.976 --> 00:39:00.276 A:middle
+After a few more calls to
+ASN1-get-object I'm ready
+
+00:39:00.276 --> 00:39:02.126 A:middle
+to switch on that attribute type
 
 00:39:02.126 --> 00:39:03.516 A:middle
 so I can see what
 I'm looking for.
 
-00:39:04.386 --> 00:39:06.336 A:middle
-In this case just for a
-simple example I'm looking
+00:39:04.386 --> 00:39:06.006 A:middle
+In this case, just
+for a simple example,
 
-00:39:06.336 --> 00:39:08.936 A:middle
-for Attribute Type 2 which
-we know is a BundleID.
+00:39:06.006 --> 00:39:08.936 A:middle
+I'm looking for Attribute Type
+2, which we know is a BundleID.
 
-00:39:08.936 --> 00:39:10.756 A:middle
+00:39:08.936 --> 00:39:12.956 A:middle
 And then I can start processing
-
-00:39:10.756 --> 00:39:12.956 A:middle
-that by calling ASN1
-underscore get underscore object
+that by calling ASN1-get-object
 
 00:39:13.296 --> 00:39:15.196 A:middle
 to actually read the
@@ -3579,9 +3559,8 @@ the old familiar loading
 up of the receipt,
 certificate store,
 
-00:39:34.106 --> 00:39:36.406 A:middle
-and then calling PKCS7
-underscore verify.
+00:39:34.106 --> 00:39:36.026 A:middle
+and then calling PKCS7-verify.
 
 00:39:36.526 --> 00:39:38.166 A:middle
 But now when we get
@@ -3591,12 +3570,12 @@ our result of one,
 and we know this thing
 is valid and unaltered,
 
-00:39:41.056 --> 00:39:43.056 A:middle
+00:39:41.056 --> 00:39:43.256 A:middle
 and we want to start reading
-the purchase information
+the purchase information out,
 
-00:39:43.056 --> 00:39:46.286 A:middle
-out I'm going to go ahead and
+00:39:43.646 --> 00:39:46.286 A:middle
+I'm going to go ahead and
 start using OpenSSL to do that,
 
 00:39:46.286 --> 00:39:49.046 A:middle
@@ -3613,22 +3592,22 @@ represents the receipt,
 
 00:39:56.966 --> 00:39:58.656 A:middle
 buried within my
-p7 data structure.
+P7 data structure.
 
-00:39:59.246 --> 00:40:01.496 A:middle
-I start calling this ASN1
-underscore get underscore object
+00:39:59.246 --> 00:40:01.866 A:middle
+I start calling this
+ASN1-get-object method
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:39:59.246 --> 00:40:01.496 A:middle
-I start calling this ASN1
-underscore get underscore object
+00:39:59.246 --> 00:40:01.866 A:middle
+I start calling this
+ASN1-get-object method
 
-00:40:01.546 --> 00:40:03.876 A:middle
-method to start reading those
+00:40:01.866 --> 00:40:03.876 A:middle
+to start reading those
 bits of information out of
 
 00:40:03.876 --> 00:40:04.936 A:middle
@@ -3642,45 +3621,43 @@ while loop to walk over each
 of those bytes you see
 that I set up that pointer,
 
-00:40:11.936 --> 00:40:14.426 A:middle
-and each time I call ASN1
-underscore get underscore object
+00:40:11.936 --> 00:40:15.716 A:middle
+and each time I call
+ASN1-get-object here I advance
 
-00:40:14.666 --> 00:40:16.566 A:middle
-here I advance that
-pointer along,
+00:40:15.716 --> 00:40:16.936 A:middle
+that pointer along, just
 
-00:40:16.716 --> 00:40:18.446 A:middle
-just like the finger
-following the words in a book.
+00:40:16.936 --> 00:40:18.466 A:middle
+like the finger following
+the words in a book.
 
-00:40:18.446 --> 00:40:21.286 A:middle
-So I make a few calls to ASN1
-underscore get underscore object
+00:40:19.456 --> 00:40:21.696 A:middle
+So I make a few calls to
+ASN1-get-object because I want
 
-00:40:21.286 --> 00:40:23.096 A:middle
-because I want to get things
-like the attribute type,
+00:40:21.696 --> 00:40:24.046 A:middle
+to get things like the attribute
+type, attribute version,
 
-00:40:23.096 --> 00:40:25.666 A:middle
-attribute version, and then
-the actual object itself.
+00:40:24.046 --> 00:40:25.666 A:middle
+and then the actual
+object itself.
 
 00:40:26.176 --> 00:40:29.276 A:middle
 Set up my switch statement, and
 I've got a case 2 here looking
 
-00:40:29.276 --> 00:40:31.996 A:middle
-for BundleID, and a
-final call here looking
+00:40:29.276 --> 00:40:32.706 A:middle
+for BundleID, and a final call
+here looking for ASN1-get-object
 
-00:40:31.996 --> 00:40:33.926 A:middle
-for ASN1 underscore get
-underscore object that allows me
+00:40:33.096 --> 00:40:34.706 A:middle
+that allows me to
+form the string
 
-00:40:33.926 --> 00:40:35.886 A:middle
-to form the string which
-will be a bundle ID.
+00:40:34.706 --> 00:40:35.886 A:middle
+which will be a bundle ID.
 
 00:40:36.686 --> 00:40:37.746 A:middle
 Let's run it and see it work.
@@ -3708,8 +3685,8 @@ We move into our
 validateReceipt.
 
 00:40:55.926 --> 00:40:59.776 A:middle
-We've gone and called the
-PKCS7 underscore verify here
+We've gone and called
+the PKCS7-verify here
 
 00:40:59.776 --> 00:41:01.036 A:middle
 to make sure the
@@ -3732,11 +3709,8 @@ Now we can start reading it.
 00:41:04.666 --> 00:41:05.946 A:middle
 So I've got the byte stream.
 
-00:41:06.636 --> 00:41:08.356 A:middle
-I start calling ASN1
-underscore get underscore object
-
-00:41:08.356 --> 00:41:09.626 A:middle
+00:41:06.636 --> 00:41:09.626 A:middle
+I start calling ASN1-get-object
 to read that receipt in.
 
 00:41:10.006 --> 00:41:12.946 A:middle
@@ -3763,23 +3737,23 @@ up the debug console
 here you'll see, in fact,
 
 00:41:28.276 --> 00:41:31.556 A:middle
-what found first is
-Attribute Type 4.
+what it found first
+is Attribute Type 4.
 
-00:41:32.486 --> 00:41:35.096 A:middle
-So as you iterate over this
-While loop it's essentially
+00:41:32.486 --> 00:41:34.536 A:middle
+So as you iterate
+over this while loop,
 
-00:41:35.096 --> 00:41:37.856 A:middle
-finding each of those attributes
-that we saw in the receipt,
+00:41:34.536 --> 00:41:37.226 A:middle
+it's essentially finding each
+of those attributes that we saw
 
-00:41:38.206 --> 00:41:40.316 A:middle
-and you set up the Switch
-statement here to work
+00:41:37.226 --> 00:41:39.746 A:middle
+in the receipt, and you set
+up the Switch statement here
 
-00:41:40.316 --> 00:41:41.156 A:middle
-with them accordingly.
+00:41:39.826 --> 00:41:41.156 A:middle
+to work with them accordingly.
 
 00:41:42.566 --> 00:41:46.236 A:middle
 So in fact, if we let this
@@ -3789,12 +3763,13 @@ run we would see a bunch
 of breakpoints hit here in our
 Switch statement, switching
 
-00:41:49.906 --> 00:41:51.576 A:middle
-and -- as we looped over each
+00:41:49.906 --> 00:41:52.426 A:middle
+and - as we looped over
+each of those attributes,
 
-00:41:51.576 --> 00:41:54.246 A:middle
-of those attributes we can see
-this time we've got Type 4.
+00:41:52.426 --> 00:41:54.246 A:middle
+we can see this time
+we've got Type 4.
 
 00:41:54.556 --> 00:41:56.416 A:middle
 Advance it again and
@@ -3855,7 +3830,7 @@ Attributes Type 2, 3, 4,
 
 00:42:29.346 --> 00:42:32.286 A:middle
 and 5 that we just looked
-at you will also see one
+at, you will also see one
 
 00:42:32.286 --> 00:42:34.446 A:middle
 or more attributes of Type 17.
@@ -3937,23 +3912,20 @@ to do is leave those loyal,
 paying customers
 out in the cold.
 
-00:43:24.356 --> 00:43:25.826 A:middle
-If they've already
-paid the full price
+00:43:24.356 --> 00:43:26.366 A:middle
+If they've already paid the
+full price for your app,
 
-00:43:25.826 --> 00:43:28.036 A:middle
-for your app they shouldn't
-have to go and do a bunch
-
-00:43:28.036 --> 00:43:29.236 A:middle
-of in-app purchases just
+00:43:26.656 --> 00:43:29.236 A:middle
+they shouldn't have to go and do
+a bunch of in-app purchases just
 
 00:43:29.236 --> 00:43:30.696 A:middle
 to get back what
-they've already paid for,
+they've already paid for.
 
 00:43:31.246 --> 00:43:32.386 A:middle
-so here's a trick you can do.
+So here's a trick you can do.
 
 00:43:32.906 --> 00:43:36.236 A:middle
 Included in the receipt now is
@@ -4024,13 +3996,13 @@ of what is seen in the receipt.
 If you are dealing
 with consumable
 
-00:44:16.306 --> 00:44:21.486 A:middle
+00:44:16.306 --> 00:44:21.506 A:middle
 and non-renewing subscriptions,
-so things like gas in a racecar
+so things like gas in a race car
 
-00:44:21.486 --> 00:44:26.576 A:middle
+00:44:21.506 --> 00:44:26.576 A:middle
 in a racing game, coins, blocks,
-currency, non-consumable --
+currency, non-consumable -
 
 00:44:26.576 --> 00:44:29.056 A:middle
 sorry, consumables are
@@ -4060,23 +4032,26 @@ the receipt that's issued
 at the time of purchase.
 
 00:44:46.846 --> 00:44:49.576 A:middle
-So when that purchase is made --
+So when that purchase is made -
 if you have 500 gallons of gas
 
 00:44:49.576 --> 00:44:52.796 A:middle
-in the racecar -- you need
+in the racecar - you need
 to interpret the receipt
 
-00:44:52.796 --> 00:44:55.306 A:middle
-at that point in time and
-validate it, and then stash
+00:44:52.796 --> 00:44:54.266 A:middle
+at that point in
+time and validate it,
 
-00:44:55.306 --> 00:44:58.486 A:middle
-that state -- that is up
-the gas tank by 500 gallons
+00:44:54.446 --> 00:44:55.956 A:middle
+and then stash that state .
+
+00:44:56.456 --> 00:44:58.486 A:middle
+That is, up the gas
+tank by 500 gallons
 
 00:44:58.486 --> 00:44:59.346 A:middle
-or whatever it might be --
+or whatever it might be -
 
 00:44:59.836 --> 00:45:02.406 A:middle
 you need to stash
@@ -4099,8 +4074,8 @@ in any subsequent receipts that
 we issue, nor will it be present
 
 00:45:07.686 --> 00:45:10.236 A:middle
-if you perform the restore
-completed transactions.
+if you perform the
+restoreCompletedTransactions.
 
 00:45:10.576 --> 00:45:11.976 A:middle
 They're a one-shot deal.
@@ -4120,13 +4095,13 @@ to that is non-consumable
 and auto-renewable
 subscriptions.
 
-00:45:22.836 --> 00:45:25.636 A:middle
+00:45:22.836 --> 00:45:24.896 A:middle
 If you're selling
-non-consumables like levels
+non-consumables,
 
-00:45:25.636 --> 00:45:27.656 A:middle
-in a game, for example,
-those are things
+00:45:24.896 --> 00:45:27.656 A:middle
+like levels in a game, for
+example, those are things
 
 00:45:27.656 --> 00:45:30.936 A:middle
 that a user buys once, and they
@@ -4152,7 +4127,7 @@ and auto-renewable subscriptions
 have that sense of permanency
 
 00:45:44.626 --> 00:45:47.036 A:middle
-about them they are
+about them, they are
 always in the receipt.
 
 00:45:48.016 --> 00:45:49.836 A:middle
@@ -4161,7 +4136,7 @@ StoreKit APIs
 
 00:45:49.836 --> 00:45:51.456 A:middle
 to restore completed
-transactions
+transactions,
 
 00:45:51.756 --> 00:45:54.586 A:middle
 which is how the user gets back
@@ -4203,7 +4178,7 @@ or something appears
 wrong with it?
 
 00:46:16.236 --> 00:46:20.016 A:middle
-The fact is that doesn't mean
+The fact is, that doesn't mean
 something bad has happened.
 
 00:46:20.616 --> 00:46:23.306 A:middle
@@ -4231,13 +4206,13 @@ anyone's trying to rip you off.
 
 00:46:38.046 --> 00:46:39.726 A:middle
 But if you see this
-happen what you need
+happen, what you need
 
 00:46:39.726 --> 00:46:41.246 A:middle
 to do is refresh the receipt.
 
 00:46:42.176 --> 00:46:44.476 A:middle
-On iOS if the receipt
+On iOS, if the receipt
 doesn't exist or appears
 
 00:46:44.476 --> 00:46:46.656 A:middle
@@ -4246,21 +4221,22 @@ refresh it using StoreKit.
 
 00:46:47.356 --> 00:46:49.886 A:middle
 StoreKit has the
-SKReceipt Refresh operation
+SKReceiptRefresh operation
 
 00:46:50.756 --> 00:46:52.586 A:middle
 which allows you
-to -- you can alloc
+to - you can alloc
 
-00:46:52.586 --> 00:46:56.536 A:middle
-and init this SKReceiptRefresh
-Request object, set a delegate
+00:46:52.586 --> 00:46:55.136 A:middle
+and init this
+SKReceiptRefreshRequest object,
 
-00:46:56.536 --> 00:46:58.466 A:middle
-so you get the callbacks
+00:46:55.846 --> 00:46:57.446 A:middle
+set a delegate so
+you get the callbacks
+
+00:46:57.446 --> 00:46:59.836 A:middle
 when the refresh is done,
-
-00:46:58.466 --> 00:46:59.836 A:middle
 and then start the refresh.
 
 
@@ -4274,12 +4250,13 @@ should get back a new receipt
 00:47:03.856 --> 00:47:05.576 A:middle
 that you can then re-verify.
 
-00:47:06.186 --> 00:47:09.126 A:middle
-But note that getting
-a new receipt we have
+00:47:06.186 --> 00:47:08.456 A:middle
+But note that, getting
+a new receipt,
 
-00:47:09.126 --> 00:47:10.086 A:middle
-to talk to the App Store.
+00:47:08.866 --> 00:47:10.086 A:middle
+we have to talk to
+the App Store.
 
 00:47:10.836 --> 00:47:12.936 A:middle
 So of course a network
@@ -4310,7 +4287,7 @@ validate, refresh,
 
 00:47:28.806 --> 00:47:31.526 A:middle
 validate because each time
-you do that the user's going
+you do that, the user's going
 
 00:47:31.526 --> 00:47:33.666 A:middle
 to get stuck in this horrible
@@ -4330,8 +4307,8 @@ And all this network traffic
 goes back and forward.
 
 00:47:40.466 --> 00:47:43.766 A:middle
-So what you should do is on
-launch validate the receipt.
+So what you should do is, on
+launch, validate the receipt.
 
 00:47:44.336 --> 00:47:46.886 A:middle
 If it's missing or invalid
@@ -4349,7 +4326,7 @@ But OS X is of course
 a little different.
 
 00:47:55.456 --> 00:47:59.606 A:middle
-As we saw before if the receipt
+As we saw before, if the receipt
 is invalid or missing you exit
 
 00:47:59.606 --> 00:48:02.346 A:middle
@@ -4377,7 +4354,7 @@ and the App Store will go and
 get a new receipt for you.
 
 00:48:11.026 --> 00:48:14.776 A:middle
-But just like on iOS it will
+But just like on iOS, it will
 require a network connection
 
 00:48:15.826 --> 00:48:17.416 A:middle
@@ -4392,7 +4369,7 @@ not something you want
 to do automatically on launch.
 
 00:48:22.576 --> 00:48:27.116 A:middle
-Now when you -- do you receive
+Now when you - do you receive
 validation, and it appears
 
 00:48:27.116 --> 00:48:31.246 A:middle
@@ -4404,7 +4381,7 @@ if then you still don't have
 a receipt or it still appears
 
 00:48:34.406 --> 00:48:38.806 A:middle
-to be invalid what you do
+to be invalid, what you do
 next is entirely up to you.
 
 00:48:40.796 --> 00:48:43.376 A:middle
@@ -4422,31 +4399,28 @@ legitimate.
 00:48:48.526 --> 00:48:49.356 A:middle
 Here's an example.
 
-00:48:49.846 --> 00:48:54.366 A:middle
-If I sync an app from iTunes
-to my iOS device it lands
+00:48:49.846 --> 00:48:53.086 A:middle
+If I sync an app from
+iTunes to my iOS device,
 
-00:48:54.366 --> 00:48:56.446 A:middle
-on the iOS device
-with no receipt.
+00:48:53.766 --> 00:48:56.446 A:middle
+it lands on the iOS
+device with no receipt.
 
-00:48:56.946 --> 00:48:59.766 A:middle
-Because it wasn't
-purchased directly
-
-00:48:59.766 --> 00:49:01.396 A:middle
-from the App Store the
-App store doesn't have
+00:48:56.946 --> 00:49:00.496 A:middle
+Because it wasn't purchased
+directly from the App Store,
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:48:59.766 --> 00:49:01.396 A:middle
-from the App Store the
-App store doesn't have
+00:48:56.946 --> 00:49:00.496 A:middle
+Because it wasn't purchased
+directly from the App Store,
 
-00:49:01.396 --> 00:49:02.776 A:middle
+00:49:00.496 --> 00:49:02.776 A:middle
+the App store doesn't have
 that unique device identifier.
 
 00:49:02.776 --> 00:49:04.126 A:middle
@@ -4469,7 +4443,7 @@ So it's a real world scenario
 that will happen, but you need
 
 00:49:15.336 --> 00:49:17.166 A:middle
-to configure the -- you
+to configure the - you
 need to consider the case
 
 00:49:17.166 --> 00:49:19.596 A:middle
@@ -4477,8 +4451,8 @@ that that refresh of the
 receipt may not be possible.
 
 00:49:19.656 --> 00:49:22.846 A:middle
-All right, what if I got my
-wonderful app from the --
+All right, what if I got
+my wonderful app from the -
 
 00:49:22.966 --> 00:49:26.046 A:middle
 from the iTunes Store or the App
@@ -4522,7 +4496,7 @@ and features even if the
 receipt's invalid if you choose.
 
 00:49:57.676 --> 00:49:59.986 A:middle
-You could maybe have a -- you
+You could maybe have a - you
 could maybe have a grace period
 
 
@@ -4561,7 +4535,7 @@ app do nothing
 until a valid receipt is seen.
 
 00:50:18.836 --> 00:50:21.386 A:middle
-On OS X only you could in
+On OS X only, you could in
 fact force that app to quit
 
 00:50:21.386 --> 00:50:24.276 A:middle
@@ -4569,7 +4543,7 @@ if you wanted to, but that
 concept does not exist on iOS.
 
 00:50:24.426 --> 00:50:26.126 A:middle
-On iOS the app is
+On iOS, the app is
 always running,
 
 00:50:26.566 --> 00:50:28.246 A:middle
@@ -4656,11 +4630,11 @@ issuing content based
 on an in-app purchase being
 made here's what you can do.
 
-00:51:16.966 --> 00:51:19.576 A:middle
-When you request that
-content send the receipt
+00:51:16.966 --> 00:51:18.236 A:middle
+When you request that content,
 
-00:51:19.576 --> 00:51:20.516 A:middle
+00:51:18.846 --> 00:51:20.516 A:middle
+send the receipt
 up to your server.
 
 00:51:20.846 --> 00:51:23.286 A:middle
@@ -4700,7 +4674,7 @@ to that content that
 you're hosting online.
 
 00:51:45.146 --> 00:51:47.116 A:middle
-Now for this server --
+Now for this server -
 
 00:51:47.116 --> 00:51:50.686 A:middle
 server-to-server validation it's
@@ -4733,7 +4707,7 @@ server sends the receipt
 to Apple's validation server.
 
 00:52:05.636 --> 00:52:09.856 A:middle
-Never, never, never, ever
+Never, never, never ever
 send the receipt directly
 
 00:52:09.856 --> 00:52:12.736 A:middle
@@ -4754,12 +4728,13 @@ your shared secret for using
 00:52:19.186 --> 00:52:20.396 A:middle
 that validation service.
 
-00:52:21.256 --> 00:52:23.996 A:middle
-But the good thing is the
-response you get back is in JSON
+00:52:21.256 --> 00:52:23.506 A:middle
+But the good thing is, the
+response you get back is
 
-00:52:23.996 --> 00:52:24.886 A:middle
-which is really easy to pass
+00:52:23.506 --> 00:52:24.886 A:middle
+in JSON, which is
+really easy to pass
 
 00:52:24.886 --> 00:52:28.426 A:middle
 for virtually any server
@@ -4769,12 +4744,12 @@ platform out there.
 Now what you absolutely
 have to make sure you do
 
-00:52:31.916 --> 00:52:34.046 A:middle
+00:52:31.916 --> 00:52:33.706 A:middle
 if you're implementing
-receipt validation is test
+receipt validation is,
 
-00:52:34.046 --> 00:52:34.576 A:middle
-it thoroughly.
+00:52:33.706 --> 00:52:34.576 A:middle
+test it thoroughly.
 
 00:52:35.066 --> 00:52:37.826 A:middle
 A bug in this area of code
@@ -4806,12 +4781,11 @@ when there's no receipt?
 How does it behave when the
 receipt looks to be invalid?
 
-00:52:51.756 --> 00:52:53.416 A:middle
-How does it behave
-when the app --
+00:52:51.756 --> 00:52:54.396 A:middle
+How does it behave when the
+app - when the receipt appears
 
-00:52:53.416 --> 00:52:55.796 A:middle
-when the receipt appears
+00:52:54.396 --> 00:52:55.796 A:middle
 to be valid after refresh?
 
 00:52:56.176 --> 00:52:58.516 A:middle
@@ -4829,12 +4803,12 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 And if you're selling your
 app using the Volume Purchase
 
-00:53:02.166 --> 00:53:04.736 A:middle
+00:53:02.166 --> 00:53:03.846 A:middle
 Program for business
-and education be aware
+and education,
 
-00:53:04.736 --> 00:53:06.496 A:middle
-of the extra fields
+00:53:04.306 --> 00:53:06.496 A:middle
+be aware of the extra fields
 that are in the receipt
 
 00:53:06.816 --> 00:53:08.896 A:middle
@@ -4895,15 +4869,15 @@ things that happen.
 They're definitely
 not edge cases at all.
 
-00:53:45.396 --> 00:53:47.876 A:middle
-Now testing this on iOS you need
+00:53:45.396 --> 00:53:47.616 A:middle
+Now testing this on iOS,
 
-00:53:47.876 --> 00:53:49.766 A:middle
-to use the App Store's
-test environment.
+00:53:47.616 --> 00:53:49.766 A:middle
+you need to use the App
+Store's test environment.
 
 00:53:50.156 --> 00:53:51.906 A:middle
-To do that you run
+To do that, you run
 the app in Xcode,
 
 00:53:52.056 --> 00:53:53.896 A:middle
@@ -4918,14 +4892,14 @@ your app signed
 with a development certificate.
 
 00:53:59.766 --> 00:54:01.756 A:middle
-OS X, similar but different.
+OS X? Similar but different.
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:59.766 --> 00:54:01.756 A:middle
-OS X, similar but different.
+OS X? Similar but different.
 
 00:54:01.896 --> 00:54:05.026 A:middle
 Build it in Xcode, run the
@@ -4941,7 +4915,7 @@ to get a receipt.
 
 00:54:11.296 --> 00:54:14.426 A:middle
 When you exit with that
-receipt you must make sure --
+receipt you must make sure -
 
 00:54:14.426 --> 00:54:16.556 A:middle
 exit with that code,
@@ -5007,33 +4981,36 @@ buying something.
 00:54:53.786 --> 00:54:55.076 A:middle
 But if we see the app is signed
 
-00:54:55.076 --> 00:54:57.746 A:middle
-with a production App Store
-certificate we know this is an
+00:54:55.076 --> 00:54:56.786 A:middle
+with a production App
+Store certificate,
 
-00:54:57.746 --> 00:54:59.786 A:middle
-app that's been purchased;
-it's out there in the wheel --
+00:54:57.106 --> 00:54:59.316 A:middle
+we know this is an app that's
+been purchased; it's out there
 
-00:54:59.786 --> 00:55:02.446 A:middle
-real world, so therefore,
-we route those requests
+00:54:59.316 --> 00:55:01.256 A:middle
+in the wheel - real
+world, so therefore,
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:54:59.786 --> 00:55:02.446 A:middle
-real world, so therefore,
+00:54:59.316 --> 00:55:01.256 A:middle
+in the wheel - real
+world, so therefore,
+
+00:55:01.256 --> 00:55:03.536 A:middle
 we route those requests
-
-00:55:02.446 --> 00:55:04.756 A:middle
 to the production store
-so that you get paid
 
-00:55:04.976 --> 00:55:06.836 A:middle
-for the transactions
-the customer is making.
+00:55:03.866 --> 00:55:06.336 A:middle
+so that you get paid for the
+transactions the customer
+
+00:55:06.336 --> 00:55:06.836 A:middle
+is making.
 
 00:55:09.486 --> 00:55:11.926 A:middle
 Lastly, a quick word on
@@ -5044,8 +5021,8 @@ especially as how it
 pertains to receipts.
 
 00:55:14.926 --> 00:55:18.816 A:middle
-When you're developing your app
-Development signed, of course,
+When you're developing your app,
+Development-signed of course,
 
 00:55:19.026 --> 00:55:21.076 A:middle
 and you're working with the
@@ -5053,10 +5030,10 @@ App Store's test environment
 
 00:55:21.076 --> 00:55:23.266 A:middle
 to test your in-app purchase
-and receipt validation.
+and receipt validation,
 
 00:55:23.686 --> 00:55:26.426 A:middle
-The receipts you get back are
+the receipts you get back are
 test environment receipts.
 
 00:55:27.206 --> 00:55:29.546 A:middle
@@ -5076,7 +5053,7 @@ When your app is on
 sale in the App Store
 
 00:55:36.636 --> 00:55:40.226 A:middle
-and it's Production signed you
+and it's Production-signed you
 will see production receipts
 
 00:55:40.346 --> 00:55:43.216 A:middle
@@ -5091,27 +5068,27 @@ But App Review is different.
 
 00:55:49.336 --> 00:55:54.266 A:middle
 App Review uses test receipts
-using a Production signed app.
+using a Production-signed app.
 
 00:55:54.936 --> 00:55:58.016 A:middle
 That's not something you can
 do, only App Review can do.
 
-00:55:58.196 --> 00:56:01.466 A:middle
-But what you need
-to be aware of is
+00:55:58.196 --> 00:56:01.646 A:middle
+But what you need to
+be aware of is that,
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:55:58.196 --> 00:56:01.466 A:middle
-But what you need
-to be aware of is
+00:55:58.196 --> 00:56:01.646 A:middle
+But what you need to
+be aware of is that,
 
-00:56:01.466 --> 00:56:04.566 A:middle
-that when you're testing your
-app if you try to get too clever
+00:56:01.646 --> 00:56:04.566 A:middle
+when you're testing your app,
+if you try to get too clever
 
 00:56:04.566 --> 00:56:06.536 A:middle
 and think, "Oh, I've
@@ -5137,8 +5114,8 @@ that rejects a test
 environment receipt
 
 00:56:18.156 --> 00:56:21.226 A:middle
-because you're Production
-signed, guess what?
+because you're
+Production-signed, guess what?
 
 00:56:21.686 --> 00:56:23.056 A:middle
 App Review can't
@@ -5154,7 +5131,7 @@ get rejected.
 
 00:56:29.896 --> 00:56:33.756 A:middle
 So just be aware that you will
-have your live Production signed
+have your live Production-signed
 
 00:56:33.756 --> 00:56:35.086 A:middle
 version of the app
@@ -5162,7 +5139,7 @@ that you submitted.
 
 00:56:35.396 --> 00:56:38.136 A:middle
 It will see test receipts
-during app review.
+during App Review.
 
 00:56:38.686 --> 00:56:43.306 A:middle
 So if you'd like more
@@ -5181,14 +5158,14 @@ Validation Programming Guide.
 
 00:56:48.636 --> 00:56:50.336 A:middle
 And of course there's the
-Apple Developer Forums
+Apple Developer Forums,
 
 00:56:50.336 --> 00:56:52.736 A:middle
 which are a great place to
 discuss this and ask for help.
 
 00:56:53.916 --> 00:56:56.496 A:middle
-Some related sessions, on
+Some related sessions: on
 Wednesday I gave a session
 
 00:56:56.496 --> 00:56:58.376 A:middle
@@ -5251,4 +5228,3 @@ Thanks very much.
 
 00:57:24.508 --> 00:57:26.508 A:middle
 [ Applause ]
-

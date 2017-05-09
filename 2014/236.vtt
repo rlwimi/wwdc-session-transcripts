@@ -1,8 +1,8 @@
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:00:11.696 --> 00:00:12.126 A:middle
-&gt;&gt; Alright.
+00:00:11.376 --> 00:00:12.126 A:middle
+&gt;&gt; All right.
 
 00:00:12.266 --> 00:00:14.306 A:middle
 Good morning, still, right?
@@ -15,11 +15,11 @@ here a little while.
 I forgot what time it is.
 
 00:00:19.426 --> 00:00:21.276 A:middle
-Welcome to Building
+Welcome to "Building
 Interruptible
 
 00:00:21.276 --> 00:00:22.596 A:middle
-and Responsive Interactions.
+and Responsive Interactions".
 
 00:00:23.416 --> 00:00:27.526 A:middle
 So Andy and I want to
@@ -253,7 +253,7 @@ comes to rest nice and smoothly.
 
 00:02:53.066 --> 00:02:57.156 A:middle
 The top one, as soon as I lift
-my finger it snaps to a stop
+my finger, it snaps to a stop
 
 00:02:57.156 --> 00:03:00.256 A:middle
 and then slowly starts up
@@ -287,7 +287,7 @@ out what velocity we want
 to start our animation at.
 
 00:03:14.076 --> 00:03:16.646 A:middle
-So number-one concern:
+So number one concern:
 compute velocity.
 
 00:03:17.756 --> 00:03:20.576 A:middle
@@ -339,7 +339,7 @@ that you're computing.
 
 00:03:45.076 --> 00:03:46.626 A:middle
 In the case of
-PinchGestureRecognizer,
+UIPinchGestureRecognizer,
 
 00:03:46.626 --> 00:03:48.276 A:middle
 you're getting the
@@ -426,12 +426,12 @@ be obviously an easy way
 00:04:30.086 --> 00:04:30.856 A:middle
 to go about doing this.
 
-00:04:31.256 --> 00:04:34.376 A:middle
+00:04:31.256 --> 00:04:34.186 A:middle
 But happily last year with
-iOS 7 we introduced a new more
+iOS 7 we introduced a new,
 
-00:04:34.376 --> 00:04:35.846 A:middle
-expressive version
+00:04:34.186 --> 00:04:35.846 A:middle
+more expressive version
 of this method
 
 00:04:36.186 --> 00:04:38.156 A:middle
@@ -516,15 +516,15 @@ So we've got a box.
 We were panning that around.
 
 00:05:17.726 --> 00:05:20.586 A:middle
-It's at point 50 right now, x
-coordinate 50, and we're going
+It's at point 50 right now,
+x-coordinate 50, and we're going
 
 00:05:20.586 --> 00:05:22.356 A:middle
 to have it animate over
 to the right side there
 
 00:05:22.356 --> 00:05:23.966 A:middle
-to x coordinate 150.
+to x-coordinate 150.
 
 00:05:24.496 --> 00:05:27.866 A:middle
 Now, let's assume
@@ -750,7 +750,7 @@ create a UIDynamicAnimator.
 
 00:07:34.946 --> 00:07:36.436 A:middle
 Now I'm doing this in
-SWF, so there's a couple
+Swift, so there's a couple
 
 00:07:36.436 --> 00:07:37.366 A:middle
 of interesting things
@@ -760,14 +760,14 @@ we can talk
 about while we go through this.
 
 00:07:38.846 --> 00:07:41.366 A:middle
-Here -- I'm assuming this is a
+Here, I'm assuming this is a
 property on our view controller
 
-00:07:41.366 --> 00:07:45.996 A:middle
-and I've typed it as a
-UIDynamicAnimator question mark.
+00:07:41.366 --> 00:07:45.956 A:middle
+and I've typed it as
+a "UIDynamicAnimator?"
 
-00:07:45.996 --> 00:07:48.616 A:middle
+00:07:45.956 --> 00:07:48.616 A:middle
 And I actually just
 made that an equal sign.
 
@@ -827,12 +827,11 @@ because UIDynamicAnimator,
 when you create one,
 
 00:08:15.016 --> 00:08:18.206 A:middle
-takes a UI view at
-creation time.
+takes a UIView at creation time.
 
 00:08:18.286 --> 00:08:21.286 A:middle
-And you don't have a UI
-view at creation time
+And you don't have a
+UIView at creation time
 
 00:08:21.286 --> 00:08:23.346 A:middle
 of UIViewController because
@@ -1093,8 +1092,8 @@ from the gesture to an
 animation, so we won't worry
 
 00:10:36.136 --> 00:10:38.026 A:middle
-about any state other
-than ended because that's
+about any state other than
+".Ended" because that's
 
 00:10:38.026 --> 00:10:39.416 A:middle
 when you perform
@@ -1102,7 +1101,7 @@ this transition.
 
 00:10:39.416 --> 00:10:41.856 A:middle
 So let's go and deal
-with the ended case.
+with the .Ended case.
 
 00:10:43.056 --> 00:10:45.456 A:middle
 So now we have to get the
@@ -1149,7 +1148,7 @@ is going to be in.
 So we'll get the velocity
 
 00:11:02.116 --> 00:11:04.836 A:middle
-in that target view's
+in that targetView's
 superview's coordinate space.
 
 00:11:05.426 --> 00:11:07.596 A:middle
@@ -1500,7 +1499,7 @@ before CADisplayLink existed.
 
 00:14:12.316 --> 00:14:15.226 A:middle
 You just set NSTimer, set
-it callback at 60 Hertz,
+it to call back at 60 Hertz,
 
 00:14:15.606 --> 00:14:16.776 A:middle
 and drive animations off that.
@@ -1663,7 +1662,7 @@ we had 16 milliseconds
 for this whole frame.
 
 00:15:46.086 --> 00:15:47.996 A:middle
-With NSTimer there we've
+With NSTimer there, we've
 got about 8 milliseconds
 
 00:15:47.996 --> 00:15:50.556 A:middle
@@ -1690,7 +1689,7 @@ You can probably get
 done in less than eight,
 
 00:15:59.886 --> 00:16:01.926 A:middle
-or if you can't, then alright,
+or if you can't, then all right,
 you're always in the next frame.
 
 
@@ -1698,7 +1697,7 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.886 --> 00:16:01.926 A:middle
-or if you can't, then alright,
+or if you can't, then all right,
 you're always in the next frame.
 
 00:16:02.496 --> 00:16:03.746 A:middle
@@ -1821,7 +1820,7 @@ going to miss that frame.
 
 00:17:07.526 --> 00:17:10.945 A:middle
 Now, if you do take 16
-milliseconds you might get back
+milliseconds, you might get back
 
 00:17:10.945 --> 00:17:13.675 A:middle
 into that same situation, but if
@@ -2049,12 +2048,12 @@ additive animations are actually
 going to be the default behavior
 
 00:19:41.506 --> 00:19:43.056 A:middle
-for all UIKit created
+for all UIKit-created
 animations,
 
 00:19:44.756 --> 00:19:46.696 A:middle
-[applause] most UIKit
-created animations.
+[applause] most UIKit-created
+animations.
 
 00:19:47.576 --> 00:19:50.166 A:middle
 We'll talk a little bit
@@ -2154,7 +2153,7 @@ happens is the distinction
 
 00:20:47.506 --> 00:20:52.076 A:middle
 between presentation layers and
--- presentation layer's values
+- presentation layer's values
 
 00:20:52.286 --> 00:20:53.806 A:middle
 and model layer's values.
@@ -2163,21 +2162,19 @@ and model layer's values.
 So if you're unfamiliar
 with that distinction,
 
-00:20:56.146 --> 00:20:58.116 A:middle
-I suggest watching the
-talk that Josh and I gave
+00:20:56.146 --> 00:20:59.096 A:middle
+I suggest watching the talk that
+Josh and I gave in 2011 called
 
-00:20:58.116 --> 00:21:00.546 A:middle
-in 2011 called Understand
-UIKit Rendering.
+00:20:59.226 --> 00:21:00.546 A:middle
+"Understand UIKit Rendering".
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:20:58.116 --> 00:21:00.546 A:middle
-in 2011 called Understand
-UIKit Rendering.
+00:20:59.226 --> 00:21:00.546 A:middle
+"Understand UIKit Rendering".
 
 00:21:00.726 --> 00:21:02.256 A:middle
 I'm mostly going to
@@ -2188,7 +2185,7 @@ that distinction already.
 
 00:21:03.656 --> 00:21:07.696 A:middle
 The point is that where the
-layer's value is -- I'm sorry.
+layer's value is ,- I'm sorry.
 
 00:21:07.696 --> 00:21:09.776 A:middle
 The layer's current
@@ -2229,10 +2226,10 @@ the model value of the layer.
 
 00:21:32.096 --> 00:21:34.876 A:middle
 The model value of the layer
-was 00, so the fromValue
+was (0,0), so the fromValue
 
 00:21:34.876 --> 00:21:36.086 A:middle
-of this animation is 00.
+of this animation is (0,0).
 
 00:21:37.066 --> 00:21:39.316 A:middle
 You'll note that there
@@ -2259,7 +2256,7 @@ would say, "Okay,
 
 00:21:52.536 --> 00:21:56.236 A:middle
 this is an animation that's
-going to animate from 00
+going to animate from (0,0)
 
 00:21:56.686 --> 00:21:58.666 A:middle
 to the current model
@@ -2279,15 +2276,15 @@ to be 500
 
 00:22:00.776 --> 00:22:03.146 A:middle
 over one second starting
-from 1000.1.
+from 1000.1."
 
 00:22:04.346 --> 00:22:08.236 A:middle
 So this animation emits a
-value of 00 for time 1000.1
+value of (0,0) for time 1000.1
 
 00:22:09.486 --> 00:22:11.896 A:middle
 and that's why the
-presentation value is 00.
+presentation value is (0,0).
 
 00:22:12.886 --> 00:22:15.496 A:middle
 The next frame we render, it
@@ -2647,13 +2644,16 @@ additive flag set to YES.
 This is a property that
 already exists on CAAnimation.
 
-00:26:05.966 --> 00:26:07.426 A:middle
+00:26:05.966 --> 00:26:07.606 A:middle
 You can use it in
 previous versions of iOS.
 
-00:26:07.426 --> 00:26:10.396 A:middle
-It's just that UI is configuring
-this for you now by default.
+00:26:07.816 --> 00:26:09.266 A:middle
+It's just that UIKit
+is configuring this
+
+00:26:09.306 --> 00:26:10.396 A:middle
+for you now by default.
 
 00:26:12.716 --> 00:26:14.626 A:middle
 The fromValue is a
@@ -2694,24 +2694,21 @@ by just assigning it to 0.
 So what that's going to
 do is at every frame,
 
-00:26:40.636 --> 00:26:43.826 A:middle
-that animation is going
-to emit a contribution --
+00:26:40.636 --> 00:26:46.526 A:middle
+that animation is going to emit
+a contribution - here, -500 -
 
-00:26:45.226 --> 00:26:49.386 A:middle
-here, minus 500 -- which,
-when added to the model value,
+00:26:46.716 --> 00:26:51.306 A:middle
+which, when added to the
+model value, currently 500,
 
-00:26:50.406 --> 00:26:54.976 A:middle
-currently 500, will form
-the presentation value, 0.
+00:26:51.616 --> 00:26:54.976 A:middle
+will form the presentation
+value, 0.
 
-00:26:55.166 --> 00:26:57.906 A:middle
-So 500 plus negative 500 is 0
-
-00:26:57.906 --> 00:26:59.596 A:middle
-and that's why the
-first frame is
+00:26:55.166 --> 00:26:59.596 A:middle
+So 500 plus -500 is 0 and
+that's why the first frame is
 
 00:26:59.596 --> 00:27:00.856 A:middle
 that circle all the
@@ -2736,13 +2733,9 @@ decreases.
 00:27:05.586 --> 00:27:06.996 A:middle
 It's always getting closer to 0.
 
-00:27:07.566 --> 00:27:10.516 A:middle
-So minus 500, minus
-450, minus 400,
-
-00:27:10.686 --> 00:27:12.196 A:middle
-and the sum is getting
-closer to 0.
+00:27:07.566 --> 00:27:12.196 A:middle
+So -500, -450, -400, and the
+sum is getting closer to 0.
 
 00:27:12.626 --> 00:27:16.616 A:middle
 So now partway through, if
@@ -2765,8 +2758,7 @@ So now we're going to use both
 of those animations' values,
 
 00:27:31.216 --> 00:27:36.096 A:middle
-0 plus negative 300
-plus 500 is 200.
+0 plus -300 plus 500 is 200.
 
 00:27:37.076 --> 00:27:38.976 A:middle
 And you'll see even though
@@ -2830,7 +2822,7 @@ We had this graph, and
 now we have this graph.
 
 00:28:15.576 --> 00:28:18.666 A:middle
-[applause] Alright, excellent.
+[applause] All right, excellent.
 
 00:28:19.166 --> 00:28:21.886 A:middle
 So I promised that I would
@@ -2906,12 +2898,12 @@ applied.
 So the bird on the left, we've
 rotated it about the z-axis.
 
-00:29:03.426 --> 00:29:04.646 A:middle
-Those parallel lines --
+00:29:03.426 --> 00:29:05.206 A:middle
+Those parallel lines
+- I'm sorry,
 
-00:29:04.866 --> 00:29:06.276 A:middle
-I'm sorry, parallel
-lines are not smooth.
+00:29:05.206 --> 00:29:06.276 A:middle
+parallel lines are not smooth.
 
 00:29:06.276 --> 00:29:06.966 A:middle
 They're still parallel.
@@ -3221,7 +3213,7 @@ animation
 
 00:32:08.026 --> 00:32:12.806 A:middle
 with completion handler and then
-you reverse directions, then --
+you reverse directions, then -
 
 00:32:12.806 --> 00:32:15.116 A:middle
 remember, we don't throw
@@ -3335,7 +3327,7 @@ from animation to animation.
 
 00:33:22.206 --> 00:33:23.876 A:middle
 And now that you've got
-these animations inflight,
+these animations in-flight,
 
 00:33:24.876 --> 00:33:27.906 A:middle
 you do still want to be able to
@@ -3352,7 +3344,7 @@ from animations to gestures.
 [ Applause ]
 
 00:33:38.646 --> 00:33:39.016 A:middle
-&gt;&gt; Alright.
+&gt;&gt; All right.
 
 00:33:39.056 --> 00:33:39.636 A:middle
 Thanks, Andy.
@@ -3520,12 +3512,9 @@ that, and the way that we can go
 about doing it is by using an
 animation option called UIView
 
-00:35:18.526 --> 00:35:20.576 A:middle
-animation option called
-UIViewAnimationOption
-
-00:35:20.576 --> 00:35:21.126 A:middle
-AllowsUserInteraction.
+00:35:18.526 --> 00:35:20.646 A:middle
+animation option
+.AllowsUserInteraction.
 
 00:35:21.126 --> 00:35:22.196 A:middle
 Not too surprising, the name.
@@ -3847,16 +3836,13 @@ and now the right view is going
 to get hit giving what we
 were trying to accomplish.
 
-00:38:25.406 --> 00:38:30.286 A:middle
-Now, keep in mind
-that other APIs --
+00:38:25.406 --> 00:38:31.866 A:middle
+Now, keep in mind that other
+APIs - like touch, location
 
-00:38:30.656 --> 00:38:32.386 A:middle
-like touch, location and view --
-
-00:38:32.856 --> 00:38:35.066 A:middle
-are also assuming model
-space conversions.
+00:38:31.866 --> 00:38:35.066 A:middle
+and view - are also assuming
+model space conversions.
 
 00:38:35.306 --> 00:38:36.406 A:middle
 All the UIKit behaviors
@@ -4069,16 +4055,15 @@ view, get its layer,
 get the layer's presentation
 layer, which is going to be
 
-00:40:28.156 --> 00:40:30.346 A:middle
-where it is on screen right
-now; and in this case,
+00:40:28.156 --> 00:40:29.386 A:middle
+where it is on screen right now.
 
-00:40:30.346 --> 00:40:32.006 A:middle
-I'm asking for its position
-because that's where --
+00:40:29.806 --> 00:40:31.806 A:middle
+And in this case, I'm asking
+for its position because that's
 
-00:40:32.476 --> 00:40:33.586 A:middle
-its location on screen.
+00:40:31.806 --> 00:40:33.586 A:middle
+where - its location on screen.
 
 00:40:33.586 --> 00:40:34.556 A:middle
 So we'll store that away here.
@@ -4208,7 +4193,7 @@ this same complication of having
 
 00:41:36.326 --> 00:41:38.026 A:middle
 to figure out where it
-is on-screen compared
+is on screen compared
 
 00:41:38.026 --> 00:41:39.526 A:middle
 to where the model is
@@ -4245,7 +4230,7 @@ in our GestureRecognizer method
 
 00:41:54.946 --> 00:41:56.576 A:middle
 where we were handling
-the ended case.
+the .Ended case.
 
 00:41:56.996 --> 00:41:59.016 A:middle
 Now, of course, we're trying
@@ -4253,7 +4238,7 @@ to deal with new touches coming
 
 00:41:59.016 --> 00:42:00.776 A:middle
 down so we want to
-handle the began case
+handle the .Began case
 
 
 WEBVTT
@@ -4261,7 +4246,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.016 --> 00:42:00.776 A:middle
 down so we want to
-handle the began case
+handle the .Began case
 
 00:42:00.776 --> 00:42:01.786 A:middle
 on our Gesture Recognizer.
@@ -4270,27 +4255,27 @@ on our Gesture Recognizer.
 So we'll make some
 space for that.
 
-00:42:04.386 --> 00:42:06.396 A:middle
-And my suggestion for
-what you would do here --
+00:42:04.386 --> 00:42:06.926 A:middle
+And my suggestion for what you
+would do here - there's a couple
 
-00:42:06.566 --> 00:42:08.336 A:middle
-there's a couple of things you
-could do, but the one I'm going
+00:42:06.926 --> 00:42:08.766 A:middle
+of things you could do, but
+the one I'm going to suggest
 
-00:42:08.336 --> 00:42:09.366 A:middle
-to suggest as a good option --
+00:42:08.766 --> 00:42:11.186 A:middle
+as a good option - is to
+actually just remove the thing
 
-00:42:09.366 --> 00:42:12.016 A:middle
-is to actually just remove
-the thing that was animating
+00:42:11.186 --> 00:42:13.446 A:middle
+that was animating from
+the dynamic item behavior,
 
-00:42:12.016 --> 00:42:14.766 A:middle
-from the dynamic item behavior,
+00:42:13.826 --> 00:42:15.846 A:middle
 because once you've removed it,
-
-00:42:14.766 --> 00:42:16.896 A:middle
 it's no longer going to interact
+
+00:42:15.846 --> 00:42:16.896 A:middle
 with any of the other views;
 
 00:42:16.896 --> 00:42:20.086 A:middle
@@ -4308,13 +4293,17 @@ able to manipulate it
 00:42:24.106 --> 00:42:24.936 A:middle
 and move it around yourself.
 
-00:42:25.506 --> 00:42:27.826 A:middle
-So we can take the dynamic item
-behavior and remove the thing
+00:42:25.506 --> 00:42:27.066 A:middle
+So we can take the
+dynamicItemBehavior
 
-00:42:27.826 --> 00:42:29.506 A:middle
-that we're trying to interact
-with, our target view.
+00:42:27.066 --> 00:42:28.266 A:middle
+and remove the thing
+that we're trying
+
+00:42:28.266 --> 00:42:29.506 A:middle
+to interact with,
+our target view.
 
 00:42:30.466 --> 00:42:32.416 A:middle
 Now, of course, once we've
@@ -4397,7 +4386,7 @@ So it seems like
 everything's good.
 
 00:43:12.106 --> 00:43:13.726 A:middle
-We all -- visually,
+We all - visually,
 everything looks great.
 
 00:43:14.756 --> 00:43:17.406 A:middle
@@ -4427,7 +4416,7 @@ If you're just doing animations,
 it's all pretty easy.
 
 00:43:32.426 --> 00:43:34.726 A:middle
-But if you -- in any real
+But if you - in any real
 application you have other
 
 00:43:34.726 --> 00:43:36.976 A:middle
@@ -4597,13 +4586,12 @@ That's great.
 But, sometimes you're
 indecisive.
 
-00:45:13.886 --> 00:45:15.396 A:middle
+00:45:13.886 --> 00:45:15.606 A:middle
 You say, "Okay, well,
-does this bird --
+does this bird - no,
 
-00:45:15.396 --> 00:45:17.056 A:middle
-no, I don't actually
-want the bird.
+00:45:15.606 --> 00:45:17.056 A:middle
+I don't actually want the bird.
 
 00:45:17.276 --> 00:45:19.526 A:middle
 I was overeager with the bird.
@@ -4717,7 +4705,7 @@ by making a UIView
 animation block
 
 00:46:26.546 --> 00:46:27.686 A:middle
-that is a 0-length duration.
+that is a zero-length duration.
 
 00:46:27.776 --> 00:46:29.636 A:middle
 So you'll see here
@@ -4757,8 +4745,8 @@ We want it to animate from,
 you know, being full-width
 
 00:46:53.096 --> 00:46:56.166 A:middle
-but 0 height, so we do a
-little layout initially.
+but zero height, so we do
+a little layout initially.
 
 00:46:56.206 --> 00:46:57.766 A:middle
 So this is kind of
@@ -4891,8 +4879,8 @@ And here in the code I've
 only changed a few lines.
 
 00:48:26.836 --> 00:48:29.866 A:middle
-I've got a new ibar,
-and that ibar is going
+I've got a new i-bar,
+and that i-bar is going
 
 00:48:29.866 --> 00:48:33.496 A:middle
 to be tracking how many
@@ -5142,12 +5130,12 @@ is always the same.
 So this is a solution
 which generalizes
 
-00:51:25.636 --> 00:51:29.766 A:middle
+00:51:25.636 --> 00:51:27.766 A:middle
 and which doesn't have anything
 to do with birds or toggling.
 
-00:51:29.886 --> 00:51:31.556 A:middle
-&gt;&gt; Alright, let's head
+00:51:28.316 --> 00:51:31.556 A:middle
+&gt;&gt; All right, let's head
 back to slides to wrap up.
 
 00:51:32.036 --> 00:51:33.966 A:middle
@@ -5230,9 +5218,9 @@ for dealing with it.
 00:52:19.016 --> 00:52:20.336 A:middle
 And, finally, keep in mind
 
-00:52:20.546 --> 00:52:22.576 A:middle
+00:52:20.546 --> 00:52:22.636 A:middle
 that there may be
-additional associated state
+additional associated states
 
 00:52:22.826 --> 00:52:24.596 A:middle
 on top of these animations.
@@ -5268,8 +5256,8 @@ Programming Guide
 which actually does talk
 about many of these topics
 
-00:52:45.766 --> 00:52:46.706 A:middle
-and the developer forum
+00:52:45.726 --> 00:52:46.706 A:middle
+and there's a developer forum
 
 00:52:46.706 --> 00:52:48.556 A:middle
 where you can ask
@@ -5288,4 +5276,3 @@ Thank you.
 
 00:52:55.516 --> 00:52:57.850 A:middle
 [ Applause ]
-

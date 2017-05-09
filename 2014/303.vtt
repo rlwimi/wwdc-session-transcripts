@@ -149,7 +149,7 @@ And lastly it can be
 used for receipt renewal.
 
 00:01:49.826 --> 00:01:51.836 A:middle
-Not receipts are a
+Now receipts are a
 really powerful way
 
 00:01:52.146 --> 00:01:55.286 A:middle
@@ -225,7 +225,7 @@ if you're part
 
 00:02:41.736 --> 00:02:44.886 A:middle
 of that affiliate program you
-can get paid for those products
+can get paid for those items
 
 00:02:44.886 --> 00:02:47.446 A:middle
 that you are selling
@@ -883,8 +883,8 @@ or whatever it might
 be to load them,
 
 00:09:28.076 --> 00:09:30.966 A:middle
-that you have a super
-reliable, font tolerant,
+that you have a super-reliable,
+font-tolerant,
 
 00:09:31.016 --> 00:09:33.756 A:middle
 really performant server
@@ -1086,9 +1086,9 @@ of currency around the world.
 This is just a very
 small subset of examples.
 
-00:11:53.496 --> 00:11:57.496 A:middle
+00:11:53.496 --> 00:11:57.606 A:middle
 This is all different ways
-to represent 1234 and56
+to represent 1234 and 56
 
 00:11:58.236 --> 00:11:59.566 A:middle
 in currencies around the world.
@@ -1197,7 +1197,7 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.336 --> 00:13:03.256 A:middle
-And you get that by using the
+And you do that by using the
 price locale that you get back
 
 00:13:03.256 --> 00:13:04.636 A:middle
@@ -1243,7 +1243,7 @@ for the user.
 
 00:13:32.066 --> 00:13:36.686 A:middle
 But really importantly is
-this absolutely no need
+there's absolutely no need
 
 00:13:36.686 --> 00:13:39.896 A:middle
 and you definitely should
@@ -1523,17 +1523,17 @@ and messaging ahead
 00:16:34.096 --> 00:16:35.306 A:middle
 of the In-App Purchase flow.
 
-00:16:35.826 --> 00:16:37.466 A:middle
-If that's something
-you feel you need to.
+00:16:35.826 --> 00:16:38.336 A:middle
+If that's something you feel
+you need to do, that's fine,
 
-00:16:37.716 --> 00:16:40.106 A:middle
-That's fine but I'd
-strongly encourage you
+00:16:38.846 --> 00:16:41.206 A:middle
+but I'd strongly encourage
+you to come along tomorrow
 
-00:16:40.106 --> 00:16:43.286 A:middle
-to come along tomorrow to a
-session given my Chris Espinosa
+00:16:41.206 --> 00:16:43.286 A:middle
+to a session given
+my Chris Espinosa
 
 00:16:43.616 --> 00:16:45.806 A:middle
 at 3:15 about apps and kids.
@@ -1679,12 +1679,12 @@ reasons I see developers attempt
 to tack on a side cache of
 state about In-App Purchases,
 
-00:18:24.406 --> 00:18:27.206 A:middle
+00:18:24.406 --> 00:18:27.106 A:middle
 rather than just holy and
-solely trusting the queue is
+solely trusting the queue,
 
-00:18:27.666 --> 00:18:30.826 A:middle
-because they feel that in
+00:18:27.106 --> 00:18:30.826 A:middle
+is because they feel that in
 order to update UI elements,
 
 00:18:31.256 --> 00:18:33.566 A:middle
@@ -1812,12 +1812,12 @@ transactions using receipts
 and you'll see that it's the
 receipt that holds that source
 
-00:19:51.516 --> 00:19:54.276 A:middle
+00:19:51.516 --> 00:19:53.816 A:middle
 of truth about whether
-something was a real valid,
+something was a real,
 
-00:19:54.356 --> 00:19:55.386 A:middle
-monetary transaction.
+00:19:53.816 --> 00:19:55.386 A:middle
+valid monetary transaction.
 
 00:19:56.246 --> 00:19:57.416 A:middle
 But otherwise for all intents
@@ -2151,7 +2151,7 @@ monetary transaction,
 
 00:23:34.296 --> 00:23:35.716 A:middle
 not a fraudulent
-one that's occurred
+one that's occurred,
 
 00:23:35.966 --> 00:23:38.456 A:middle
 and then unlock those features
@@ -2161,7 +2161,7 @@ and content accordingly.
 But don't do this.
 
 00:23:45.576 --> 00:23:48.106 A:middle
-Don't set up that pay
+Don't set up that case
 statement to look for the state
 
 00:23:48.106 --> 00:23:51.316 A:middle
@@ -2531,12 +2531,12 @@ is because you didn't remove
 that transaction from the queue,
 when your app launches we get --
 
-00:27:50.906 --> 00:27:53.086 A:middle
+00:27:50.906 --> 00:27:53.266 A:middle
 and you add that
-transaction queue observer
+transaction queue observer in,
 
-00:27:53.086 --> 00:27:56.206 A:middle
-in the first thing we do is
+00:27:53.826 --> 00:27:56.206 A:middle
+the first thing we do is
 go and look at the history
 
 00:27:56.286 --> 00:27:57.796 A:middle
@@ -2551,11 +2551,11 @@ Finished called on them,
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:28:00.246 --> 00:28:02.466 A:middle
+00:28:00.246 --> 00:28:02.556 A:middle
 and we'll go and
-replay all those update
+replay all those updates
 
-00:28:02.466 --> 00:28:03.496 A:middle
+00:28:02.556 --> 00:28:03.496 A:middle
 through to your app.
 
 00:28:04.276 --> 00:28:07.066 A:middle
@@ -2700,13 +2700,12 @@ very simple app for OS X
 00:29:49.166 --> 00:29:50.986 A:middle
 that does an In-App Purchase.
 
-00:29:51.756 --> 00:29:53.216 A:middle
-Everything I talk
-about in this session,
+00:29:51.756 --> 00:29:54.136 A:middle
+Everything I talk about in this
+session, including this demo,
 
-00:29:53.216 --> 00:29:55.976 A:middle
-including this demo applies
-equally to iOS and OS X.
+00:29:54.136 --> 00:29:55.976 A:middle
+applies equally to iOS and OS X.
 
 00:29:56.396 --> 00:29:58.386 A:middle
 StoreKit is the same
@@ -2796,7 +2795,7 @@ before any other
 user interaction,
 
 00:30:49.056 --> 00:30:52.196 A:middle
-I straightaway my
+I've straightaway my
 breakpoint was hit that I set
 
 00:30:52.456 --> 00:30:54.796 A:middle
@@ -2964,7 +2963,7 @@ And see here when we
 get the final thank you
 
 00:32:34.406 --> 00:32:36.736 A:middle
-through form StoreKit
+through from StoreKit
 and from the App store,
 
 00:32:37.166 --> 00:32:39.136 A:middle
@@ -3006,23 +3005,23 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 But right now, at this point
 because of the breakpoint,
 
-00:33:01.336 --> 00:33:02.566 A:middle
-notice that I have not
+00:33:01.336 --> 00:33:04.636 A:middle
+notice that I have not yet
+called FinishTransaction.
 
-00:33:02.656 --> 00:33:07.086 A:middle
-yet called FinishTransaction
-I've made breakpoint right
+00:33:05.766 --> 00:33:07.516 A:middle
+I've made breakpoint
+right at the point
 
-00:33:07.086 --> 00:33:08.176 A:middle
-at the point when
-I would normally go
+00:33:07.516 --> 00:33:09.016 A:middle
+when I would normally
+go and check the receipt
 
-00:33:08.176 --> 00:33:10.046 A:middle
-and check the receipt
+00:33:09.016 --> 00:33:12.016 A:middle
 to know what they bought
-
-00:33:10.936 --> 00:33:12.996 A:middle
 and unlock those features
+
+00:33:12.016 --> 00:33:12.996 A:middle
 and content accordingly.
 
 00:33:14.276 --> 00:33:17.156 A:middle
@@ -3041,10 +3040,10 @@ through the In-App
 Purchase, or what would happen
 
 00:33:24.436 --> 00:33:25.496 A:middle
-if user killed your app,
+if the user killed your app,
 
 00:33:25.496 --> 00:33:27.236 A:middle
-or quite your app
+or quit your app
 during the purchase.
 
 00:33:27.236 --> 00:33:28.446 A:middle
@@ -3427,7 +3426,7 @@ of okay to do.
 
 00:37:50.166 --> 00:37:53.636 A:middle
 But when we introduced iOS 7
-we introduce the grand unified
+we introduced the grand unified
 
 00:37:53.636 --> 00:37:54.486 A:middle
 receipt format.
@@ -3796,11 +3795,11 @@ those updates.
 00:41:48.116 --> 00:41:49.066 A:middle
 That's a dispatch queue.
 
-00:41:50.736 --> 00:41:52.166 A:middle
+00:41:50.736 --> 00:41:52.246 A:middle
 This will be familiar
-with anyone that's work
+with anyone that's worked
 
-00:41:52.166 --> 00:41:53.736 A:middle
+00:41:52.246 --> 00:41:53.736 A:middle
 with NS URL connection before.
 
 00:41:54.136 --> 00:41:57.206 A:middle
@@ -4101,7 +4100,7 @@ about making sure you
 call finishTransaction
 
 00:44:58.266 --> 00:44:59.346 A:middle
-at the right point and time.
+at the right point in time.
 
 
 WEBVTT
@@ -4172,7 +4171,7 @@ to know what purchases were
 restored, unlock those features
 
 00:45:42.666 --> 00:45:49.446 A:middle
-and content, but, note that this
+and content; but, note that this
 requires a network connection
 
 00:45:49.536 --> 00:45:53.316 A:middle
@@ -4227,12 +4226,12 @@ don't they always want
 to get back what
 they've paid for?
 
-00:46:27.326 --> 00:46:30.796 A:middle
-Yes, but when they
-have to sign in to do
+00:46:27.326 --> 00:46:31.076 A:middle
+Yes, but when they have
+to sign in to do that,
 
-00:46:30.796 --> 00:46:34.126 A:middle
-that it becomes too much of a
+00:46:31.406 --> 00:46:34.126 A:middle
+it becomes too much of a
 heavy-weight process on launch.
 
 00:46:34.736 --> 00:46:37.126 A:middle
@@ -4285,7 +4284,7 @@ them into your app yourself.
 
 00:47:08.546 --> 00:47:11.086 A:middle
 Because if that first experience
-is a spinner while you want
+is a spinner while you wait
 
 00:47:11.086 --> 00:47:13.306 A:middle
 for that to load, or
@@ -4300,7 +4299,7 @@ that totally derails
 your sales experience.
 
 00:47:18.896 --> 00:47:21.436 A:middle
-Cache appropriately if
+Cache it appropriately if
 you can and avoid delay
 
 00:47:21.436 --> 00:47:24.136 A:middle
@@ -4489,7 +4488,7 @@ about how to provide a great
 In-App Purchase experience.
 
 00:49:17.756 --> 00:49:20.366 A:middle
-But from a code level make sure
+But from a code level, make sure
 
 00:49:20.366 --> 00:49:22.746 A:middle
 that you ensure proper
@@ -4628,10 +4627,10 @@ if you can.
 
 00:50:46.926 --> 00:50:49.106 A:middle
 If not, if you're going
-to download it yourself.
+to download it yourself,
 
 00:50:49.586 --> 00:50:52.886 A:middle
-Make sure you use those
+make sure you use those
 background download APIs.
 
 00:50:54.546 --> 00:50:58.776 A:middle
@@ -4666,13 +4665,12 @@ Purchase programming guide
 available online and also the
 StoreKit framework reference.
 
-00:51:14.496 --> 00:51:16.006 A:middle
-And there's the Apple
-developer forums
+00:51:14.496 --> 00:51:16.986 A:middle
+And there's the Apple developer
+forums that are great resources
 
-00:51:16.006 --> 00:51:18.256 A:middle
-that are great resources
-wealth for discussion and help.
+00:51:16.986 --> 00:51:18.256 A:middle
+as well for discussion and help.
 
 00:51:19.116 --> 00:51:21.416 A:middle
 There are some related
@@ -4750,4 +4748,3 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:00.516 --> 00:52:07.550 A:middle
 [ Applause ]
-

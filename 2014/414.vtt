@@ -77,12 +77,12 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 00:01:02.646 --> 00:01:06.876 A:middle
 So why should we test?
 
-00:01:07.096 --> 00:01:10.336 A:middle
-Obviously, every time moment
-we spend developing is an
+00:01:07.096 --> 00:01:10.886 A:middle
+Obviously, every moment we spend
+developing is an investment
 
-00:01:10.336 --> 00:01:11.596 A:middle
-investment of a resource.
+00:01:10.886 --> 00:01:11.596 A:middle
+of a resource.
 
 00:01:11.596 --> 00:01:14.216 A:middle
 Our resource is time
@@ -321,12 +321,13 @@ necessary steps to fix the bug
 00:03:50.706 --> 00:03:52.476 A:middle
 and return to a green state.
 
-00:03:52.766 --> 00:03:53.476 A:middle
-And what you really like,
+00:03:52.766 --> 00:03:53.686 A:middle
+And what you really
+want to think,
 
-00:03:53.476 --> 00:03:56.816 A:middle
-I think is a green state
-represents known quality.
+00:03:53.686 --> 00:03:56.816 A:middle
+s a green state represents
+known quality.
 
 00:03:57.276 --> 00:04:00.476 A:middle
 And having tests and having
@@ -510,7 +511,7 @@ And this may be something
 you want to do to a project
 
 00:06:07.216 --> 00:06:09.976 A:middle
-that hasn't a test or it
+that has no test or it
 also be a step you take
 
 00:06:09.976 --> 00:06:13.796 A:middle
@@ -552,16 +553,17 @@ these into your apps.
 So your test can be written
 against your application
 
-00:06:44.386 --> 00:06:47.676 A:middle
-and it can access all the code
-in your application which means
+00:06:44.386 --> 00:06:46.786 A:middle
+and it can access all the
+code in your application,
 
-00:06:47.676 --> 00:06:49.216 A:middle
-when we run the test, we run it
+00:06:47.146 --> 00:06:48.736 A:middle
+which means when
+we run the test,
 
-00:06:49.216 --> 00:06:51.106 A:middle
-in the context of
-your application.
+00:06:48.736 --> 00:06:51.106 A:middle
+we run it in the context
+of your application.
 
 00:06:52.656 --> 00:06:54.686 A:middle
 Alternatively, you can run them
@@ -634,7 +636,7 @@ with that scheme.
 
 00:07:41.616 --> 00:07:45.786 A:middle
 You also have buttons and the
-Source Editor's got it next
+Source Editor's [Inaudible] next
 
 00:07:45.786 --> 00:07:49.656 A:middle
 to the test method that lets you
@@ -692,7 +694,7 @@ to run on multiple devices,
 you can pass these all
 
 00:08:23.806 --> 00:08:29.636 A:middle
-with distinct -destination flags
+with distinct destination flags
 and xcodebuild will run them.
 
 00:08:30.046 --> 00:08:32.326 A:middle
@@ -721,17 +723,16 @@ Also in the Issue Navigator.
 If you hit a test failure,
 you'll see not only the failure
 
-00:08:49.486 --> 00:08:52.016 A:middle
-but the reason it failed and
-so if you've used our search
+00:08:49.486 --> 00:08:50.986 A:middle
+but the reason it failed and so
 
-00:08:52.016 --> 00:08:55.366 A:middle
-in macros, this is where you'll
-see that error string that says,
+00:08:50.986 --> 00:08:53.346 A:middle
+if you've used our insertion
+macros, this is where you'll see
 
-00:08:55.366 --> 00:08:57.896 A:middle
-you know, 50 was
-not equal to zero
+00:08:53.346 --> 00:08:57.896 A:middle
+that error string that says, you
+know, 50 was not equal to zero
 
 00:08:57.896 --> 00:09:00.256 A:middle
 or whatever the assertion
@@ -819,7 +820,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:02.166 --> 00:10:06.026 A:middle
 So we have this property
-here, parsedEarthquakes
+here, parsedEarthquakes,
 
 00:10:06.026 --> 00:10:08.906 A:middle
 and that's something you can
@@ -1027,19 +1028,20 @@ resource to the bundle,
 00:12:53.846 --> 00:12:55.646 A:middle
 I need to add the file.
 
-00:12:55.646 --> 00:12:59.196 A:middle
-Well, I've had this
-file here that is,
+00:12:55.646 --> 00:13:03.876 A:middle
+Well, I've had this file
+here that is, let's see,
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:13:04.116 --> 00:13:10.676 A:middle
-let's see, I'm going
-to copy this file
+00:12:55.646 --> 00:13:03.876 A:middle
+Well, I've had this file
+here that is, let's see,
 
-00:13:10.806 --> 00:13:13.096 A:middle
+00:13:04.556 --> 00:13:13.096 A:middle
+I'm going to copy this file
 into my project as a resource.
 
 00:13:13.626 --> 00:13:15.716 A:middle
@@ -1058,7 +1060,7 @@ when I write my tests.
 
 00:13:24.776 --> 00:13:26.576 A:middle
 There's nothing wrong
-with testing the network
+with testing the network,
 
 00:13:26.576 --> 00:13:29.986 A:middle
 but in general if you keep your
@@ -1089,7 +1091,7 @@ So to get the URL, I'm
 going to go into the bundle
 
 00:13:48.466 --> 00:13:52.976 A:middle
-and get a resource URL
+and get a resource URL,
 and then the next thing
 
 00:13:52.976 --> 00:13:56.746 A:middle
@@ -1192,13 +1194,13 @@ parse operation zero failed,
 Okay, so there are 55
 earthquakes in there.
 
-00:15:07.016 --> 00:15:08.966 A:middle
+00:15:07.016 --> 00:15:08.166 A:middle
 So let's run this again.
 
-00:15:10.406 --> 00:15:12.736 A:middle
+00:15:08.166 --> 00:15:12.726 A:middle
 And now we've passed our test.
 
-00:15:12.736 --> 00:15:15.866 A:middle
+00:15:12.726 --> 00:15:15.866 A:middle
 And again you see that
 same pass indicator there
 
@@ -1364,8 +1366,9 @@ that XCTest was derived from.
 In Xcode 5.1, we
 deprecated OCUnit.
 
-00:17:21.086 --> 00:17:23.116 A:middle
-We're not adding new features
+00:17:21.086 --> 00:17:23.246 A:middle
+We're not adding
+new features to it
 
 00:17:23.316 --> 00:17:28.606 A:middle
 and we really think the time
@@ -1481,12 +1484,12 @@ different queues.
 00:18:49.236 --> 00:18:50.616 A:middle
 They have Delegate callbacks
 
-00:18:50.616 --> 00:18:52.636 A:middle
+00:18:50.616 --> 00:18:52.646 A:middle
 that may be deferred
-by the [inaudible].
+by the run loop.
 
 00:18:52.986 --> 00:18:54.956 A:middle
-They may make network requests
+They may make network requests,
 
 00:18:54.956 --> 00:18:57.706 A:middle
 which we absolutely know should
@@ -1527,8 +1530,8 @@ that manages asynchronous
 activities.
 
 00:19:19.956 --> 00:19:23.476 A:middle
-And we do this what we
-call expectation objects
+And we do this through what
+we call expectation objects,
 
 00:19:23.476 --> 00:19:27.056 A:middle
 and these describe events
@@ -1569,20 +1572,20 @@ events at the same time.
 00:19:53.756 --> 00:19:55.286 A:middle
 So let's look at a code example.
 
-00:19:56.266 --> 00:20:00.956 A:middle
+00:19:56.266 --> 00:20:01.086 A:middle
 UIDocument, as you may know, has
-a open with completion handler.
+an open with completion handler
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:19:56.266 --> 00:20:00.956 A:middle
+00:19:56.266 --> 00:20:01.086 A:middle
 UIDocument, as you may know, has
-a open with completion handler.
+an open with completion handler
 
-00:20:01.076 --> 00:20:03.666 A:middle
-There's an asynchronous
+00:20:01.086 --> 00:20:03.666 A:middle
+that is an asynchronous
 opening and that's great
 
 00:20:03.666 --> 00:20:06.466 A:middle
@@ -1662,7 +1665,7 @@ side but just to be safe here.
 
 00:20:54.736 --> 00:20:57.046 A:middle
 So what we have now
-is asynchronous flow.
+is a synchronous flow.
 
 00:20:57.046 --> 00:21:00.616 A:middle
 We have create expectation,
@@ -1800,8 +1803,8 @@ because that running is
 happening in the background
 
 00:22:52.136 --> 00:22:54.046 A:middle
-and our tests are
-just continuing on,
+and our test is just
+continuing on,
 
 00:22:54.046 --> 00:22:55.386 A:middle
 it's not stopping or waiting.
@@ -2143,11 +2146,10 @@ We'll also see how
 the measurements
 
 00:27:05.826 --> 00:27:08.346 A:middle
-that these APIs make
-to our surface
+that these APIs make are surface
 
 00:27:08.346 --> 00:27:12.796 A:middle
-and Xcode UI including
+and Xcode's UI including
 those test failures due
 
 00:27:12.796 --> 00:27:13.766 A:middle
@@ -2337,9 +2339,12 @@ tests in my project.
 And actually, this one's
 doing a little bit --
 
-00:29:45.346 --> 00:29:48.716 A:middle
-this one's doing bad but the
-other one's doing a lot better.
+00:29:45.346 --> 00:29:48.056 A:middle
+this one's doing bad but
+the other one's doing a
+
+00:29:48.056 --> 00:29:48.716 A:middle
+little better.
 
 00:29:50.196 --> 00:29:52.556 A:middle
 So it looks like I'm just
@@ -2351,7 +2356,7 @@ right-clicking on this button
 
 00:29:55.176 --> 00:29:56.936 A:middle
 in the Source Editor
-and selecting Profile
+and selecting Profile,
 
 00:29:58.116 --> 00:30:03.446 A:middle
 or I can also do that from the
@@ -2409,8 +2414,8 @@ which is calling some
 really expensive function.
 
 00:30:46.716 --> 00:30:48.256 A:middle
-Well, it's finding
-out what I want.
+Well, that's probably
+not what I want.
 
 00:30:48.836 --> 00:30:51.346 A:middle
 So let's look into that.
@@ -2444,8 +2449,8 @@ get rid of this.
 I'm just going to delete
 that and run my test again.
 
-00:31:11.676 --> 00:31:13.556 A:middle
-And it [inaudible], great.
+00:31:07.786 --> 00:31:13.556 A:middle
+And it passed, great.
 
 00:31:15.166 --> 00:31:17.686 A:middle
 So what you've just seen is you
@@ -2489,14 +2494,14 @@ to compare against.
 
 00:31:42.386 --> 00:31:43.536 A:middle
 And the Baselines
-lets us do that.
+let us do that.
 
 00:31:44.116 --> 00:31:47.336 A:middle
 And the Standard Deviation,
 
 00:31:49.366 --> 00:31:51.336 A:middle
 XCTest should only report
-performance regression
+a performance regression
 
 00:31:51.336 --> 00:31:52.726 A:middle
 when something's
@@ -2570,7 +2575,7 @@ This is to eliminate a
 source of false positives.
 
 00:32:36.916 --> 00:32:41.496 A:middle
-The Baselines are stored in the
+The Baselines are stored in
 source where you commit them
 
 00:32:41.496 --> 00:32:43.946 A:middle
@@ -2656,7 +2661,7 @@ or from the new Test Report.
 
 00:33:41.406 --> 00:33:43.516 A:middle
 From here I can see the
-current average from the test
+current average from the test,
 
 00:33:43.926 --> 00:33:46.106 A:middle
 and I can also see how the
@@ -2742,27 +2747,24 @@ it's 68% worse in this case.
 And I can also see these results
 from that new Test Report.
 
-00:34:57.446 --> 00:34:59.546 A:middle
-Also from the Test Report,
-I can get the performances
-
-00:34:59.966 --> 00:35:02.756 A:middle
-that will pop over by
-clicking under the time call
+00:34:57.446 --> 00:35:00.746 A:middle
+Also from the Test Report, I can
+get the performance result pop
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:34:59.966 --> 00:35:02.756 A:middle
-that will pop over by
-clicking under the time call
+00:34:57.446 --> 00:35:00.746 A:middle
+Also from the Test Report, I can
+get the performance result pop
 
-00:35:02.866 --> 00:35:03.646 A:middle
-on those measurements.
+00:35:00.746 --> 00:35:03.646 A:middle
+over by clicking under the time
+call on those measurements.
 
 00:35:06.356 --> 00:35:10.316 A:middle
-If you want to get the
+If you want to get at the
 raw values that Xcode gets
 
 00:35:10.316 --> 00:35:11.576 A:middle
@@ -2793,7 +2795,7 @@ with a 1-second average.
 
 00:35:33.556 --> 00:35:38.806 A:middle
 I'll set the Baseline for my
-test which fixes that in place.
+test, which fixes that in place.
 
 00:35:39.506 --> 00:35:42.856 A:middle
 Now the next time I run my
@@ -2808,7 +2810,7 @@ and the test would fail because
 that 1.5 seconds is well outside
 
 00:35:50.786 --> 00:35:52.666 A:middle
-the balance of the
+the bounds of the
 allowed 10% regression.
 
 00:35:54.116 --> 00:35:55.816 A:middle
@@ -2871,10 +2873,10 @@ but something's gotten worse.
 There is something that if I
 were to get a dataset like this,
 
-00:36:35.166 --> 00:36:36.196 A:middle
-I want it investigated.
+00:36:35.166 --> 00:36:36.986 A:middle
+I would want to investigate it.
 
-00:36:36.926 --> 00:36:40.996 A:middle
+00:36:37.716 --> 00:36:40.996 A:middle
 So the average just doesn't
 tell the whole story.
 
@@ -2945,13 +2947,16 @@ avoid false positives.
 So what causes excessive
 Standard Deviation?
 
-00:37:33.466 --> 00:37:37.126 A:middle
-Well, one thing is if the
-body you're measuring is doing
+00:37:33.466 --> 00:37:36.126 A:middle
+Well, one thing is if the block
 
-00:37:37.126 --> 00:37:41.556 A:middle
-network I/O or file I/O, that
-tends to vary pretty wildly.
+00:37:36.126 --> 00:37:38.446 A:middle
+that you're measuring is
+doing network I/O or file I/O,
+
+00:37:38.666 --> 00:37:41.556 A:middle
+that tends to vary
+pretty wildly.
 
 00:37:42.256 --> 00:37:48.796 A:middle
 Another thing that can cause
@@ -3133,11 +3138,11 @@ We'll also need two more APIs,
 startMeasuring and
 stopMeasuring.
 
-00:39:56.676 --> 00:39:58.206 A:middle
-You can use these to
-isolate what the part
+00:39:56.676 --> 00:39:58.156 A:middle
+You can use these
+to isolate what part
 
-00:39:58.206 --> 00:39:58.976 A:middle
+00:39:58.196 --> 00:39:58.976 A:middle
 of the block you
 want to measure.
 
@@ -3168,12 +3173,12 @@ work with our previous example.
 00:40:15.736 --> 00:40:18.376 A:middle
 First, we'd change the method
 
-00:40:18.376 --> 00:40:22.456 A:middle
+00:40:18.376 --> 00:40:21.396 A:middle
 to call it measureMetrics
-passing time as a metric and NO
+passing time as the metric
 
-00:40:22.456 --> 00:40:23.656 A:middle
-for automatically
+00:40:21.956 --> 00:40:23.656 A:middle
+and NO for automatically
 startMeasuring.
 
 00:40:25.176 --> 00:40:27.926 A:middle
@@ -3224,7 +3229,7 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.866 --> 00:41:02.366 A:middle
-I think I'll actually
+I think I'd actually
 like to turn this
 
 00:41:02.366 --> 00:41:05.666 A:middle
@@ -3339,15 +3344,15 @@ So we actually get
 some values here.
 
 00:42:48.046 --> 00:42:49.276 A:middle
-And it's not going to
+And this is going to
 take a little bit longer
 
-00:42:49.276 --> 00:42:52.146 A:middle
+00:42:49.276 --> 00:42:52.016 A:middle
 because what it's actually
-doing is it's going to --
+doing is it's going
 
-00:42:52.146 --> 00:42:56.536 A:middle
-you're calling this block
+00:42:52.016 --> 00:42:56.536 A:middle
+to be calling this block
 10 times, loading the file
 
 00:42:56.536 --> 00:42:59.986 A:middle
@@ -3364,7 +3369,7 @@ it looks like 1.21 seconds
 
 00:43:05.336 --> 00:43:09.996 A:middle
 and it's got a very low Standard
-Deviation which is pretty good.
+Deviation, which is pretty good.
 
 00:43:10.506 --> 00:43:14.016 A:middle
 So I'm going to click to
@@ -3396,8 +3401,8 @@ when the test initially starts.
 I'll click through
 on my test again.
 
-00:43:35.196 --> 00:43:38.206 A:middle
-And still got a result
+00:43:35.186 --> 00:43:38.206 A:middle
+And it still got a result
 around the same ballpark
 
 00:43:38.206 --> 00:43:40.096 A:middle
@@ -3483,11 +3488,11 @@ it takes to run this
 
 00:44:34.386 --> 00:44:37.936 A:middle
 and if something were
-to change, I find out.
+to change, I'd find out.
 
 00:44:39.036 --> 00:44:44.416 A:middle
 The last thing I want to do is
-I want to connect my changes.
+I want to commit my changes.
 
 00:44:44.416 --> 00:44:46.886 A:middle
 So here we can see the
@@ -3525,7 +3530,7 @@ that's stored inside the project
 bundle itself.
 
 00:45:08.296 --> 00:45:09.346 A:middle
-So I'll connect that.
+So I'll commit that.
 
 00:45:09.806 --> 00:45:13.936 A:middle
 And now it's saved there
@@ -3546,7 +3551,7 @@ new measureBlock APIs
 
 00:45:26.946 --> 00:45:28.996 A:middle
 to measure performance
-in detect regressions.
+and to detect regressions.
 
 00:45:29.726 --> 00:45:32.526 A:middle
 You can tell Xcode
@@ -3635,7 +3640,7 @@ inside your test.
 
 00:46:29.926 --> 00:46:33.066 A:middle
 And then we talked about the
-new asynchronous testing API
+new asynchronous testing API,
 
 00:46:33.496 --> 00:46:37.296 A:middle
 which allows you to get a
@@ -3735,4 +3740,3 @@ Thanks a lot, folks.
 
 00:47:39.516 --> 00:47:47.130 A:middle
 [ Applause ]
-

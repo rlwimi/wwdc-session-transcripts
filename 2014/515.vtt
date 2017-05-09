@@ -34,7 +34,7 @@ And now, with iOS 8, we're
 going to show you how you can do
 
 00:00:35.766 --> 00:00:39.176 A:middle
-that on our imbedded devices.
+that on our embedded devices.
 
 00:00:39.766 --> 00:00:41.936 A:middle
 So the main motivation,
@@ -44,8 +44,8 @@ why would you want
 to write custom kernels?
 
 00:00:43.146 --> 00:00:46.006 A:middle
-Well, you can -- there are
--- although we provide many,
+Well, you can - there are
+- although we provide many,
 
 00:00:46.006 --> 00:00:50.246 A:middle
 many built-in kernels and
@@ -116,15 +116,12 @@ custom kernels, it is.
 So let's talk a little
 bit about our agenda.
 
-00:01:20.026 --> 00:01:21.836 A:middle
-First off, we're going
-to start about --
+00:01:20.026 --> 00:01:22.296 A:middle
+First off, we're going to start
+about - we're going to talk
 
-00:01:21.836 --> 00:01:22.566 A:middle
-we're going to talk about the --
-
-00:01:22.566 --> 00:01:25.426 A:middle
-some core concepts
+00:01:22.296 --> 00:01:25.426 A:middle
+about the - some core concepts
 involved in image processing
 
 00:01:25.426 --> 00:01:26.476 A:middle
@@ -181,7 +178,7 @@ and explain how Core
 Image works.
 
 00:01:55.616 --> 00:01:58.366 A:middle
-So if you had, for example, a
+So if you had, for example, an
 input image, the original image
 
 00:01:58.366 --> 00:02:00.966 A:middle
@@ -238,8 +235,8 @@ And internally, what Core Image
 does is it will combine these
 
 00:02:29.866 --> 00:02:33.306 A:middle
-all to -- into one program,
-such that we minimize the number
+all to - into one program, such
+that we minimize the number
 
 00:02:33.306 --> 00:02:34.886 A:middle
 of intermediate buffers
@@ -281,7 +278,7 @@ that encapsulates the kernel
 
 00:02:56.506 --> 00:03:00.336 A:middle
 that you'll be writing to drive
--- to interact with your image
+- to interact with your image
 
 
 WEBVTT
@@ -289,7 +286,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.506 --> 00:03:00.336 A:middle
 that you'll be writing to drive
--- to interact with your image
+- to interact with your image
 
 00:03:01.246 --> 00:03:03.106 A:middle
 and is written in our Core
@@ -311,14 +308,14 @@ And it has any number of
 inputs, and they can be images,
 
 00:03:15.036 --> 00:03:17.956 A:middle
-NS numbers, or CIVectors,
+NSNumbers, or CIVectors,
 and one output,
 
 00:03:17.956 --> 00:03:19.076 A:middle
 which is a new output image.
 
 00:03:19.636 --> 00:03:23.666 A:middle
-We then have CIIMAGE,
+We then have CIImage,
 which is different
 
 00:03:23.666 --> 00:03:26.546 A:middle
@@ -405,12 +402,12 @@ some for loop over all the rows
 in an image and then
 iterate over all the columns.
 
-00:04:20.836 --> 00:04:23.966 A:middle
+00:04:20.836 --> 00:04:23.896 A:middle
 And then, for each input
 pixel, input buffer
 
-00:04:23.966 --> 00:04:26.726 A:middle
-at ij produce some -- you
+00:04:23.896 --> 00:04:26.726 A:middle
+at [i][j] produce some - you
 know, run your algorithm here,
 
 00:04:26.726 --> 00:04:30.376 A:middle
@@ -421,8 +418,8 @@ create some new output value,
 and put that into your result.
 
 00:04:33.966 --> 00:04:36.346 A:middle
-What we like to do inside
-of CoreImage is abstract all
+What we like to do inside of
+Core Image is abstract all
 
 00:04:36.346 --> 00:04:38.156 A:middle
 of that for loop away
@@ -464,7 +461,7 @@ And CIFilter is going to tell
 us, given some number of,
 
 00:05:00.386 --> 00:05:04.626 A:middle
-let's say, 0 or more input
+let's say, zero or more input
 images and some parameters,
 
 00:05:04.626 --> 00:05:08.896 A:middle
@@ -481,7 +478,7 @@ at the workflow in iOS.
 
 00:05:17.986 --> 00:05:19.926 A:middle
 And if you've written
-kernels -- I'm sorry.
+kernels - I'm sorry.
 
 00:05:19.926 --> 00:05:22.986 A:middle
 If you've written filters on
@@ -515,7 +512,7 @@ output image, we can display it,
 
 00:05:38.936 --> 00:05:41.846 A:middle
 as I said earlier, using
-either CGImage or --
+either CGImage or -
 
 00:05:41.846 --> 00:05:44.246 A:middle
 rendering to CGImage
@@ -555,18 +552,15 @@ have 115 built-in filters.
 
 00:06:05.016 --> 00:06:07.646 A:middle
 Take a little closer detail
--- closer look at this.
+- closer look at this.
 
-00:06:07.646 --> 00:06:09.646 A:middle
-We can see that they're
-actually -- from this --
+00:06:07.646 --> 00:06:11.026 A:middle
+We can see that they're actually
+- from this - set of 115,
 
-00:06:09.646 --> 00:06:11.886 A:middle
-set of 115, there are 78,
-
-00:06:12.446 --> 00:06:15.326 A:middle
-which are actually just
-purely modifying the color
+00:06:11.026 --> 00:06:15.326 A:middle
+there are 78, which are actually
+just purely modifying the color
 
 00:06:15.326 --> 00:06:17.056 A:middle
 of the images.
@@ -577,7 +571,7 @@ are pure geometry distortions.
 
 00:06:22.006 --> 00:06:25.866 A:middle
 And then, there are a final
-7 that are convolutions,
+seven that are convolutions,
 
 00:06:26.546 --> 00:06:28.306 A:middle
 which brings us to
@@ -677,8 +671,8 @@ actually need those pixels.
 So what is CIKernel's language?
 
 00:07:32.116 --> 00:07:35.686 A:middle
-Well, it's based on GLSL and it
-has extensions for imagining.
+Well, it's based on GLSL and
+it has extensions for imaging.
 
 00:07:35.686 --> 00:07:39.346 A:middle
 So to deal with tiling
@@ -689,7 +683,7 @@ of other optimizations
 we've put in.
 
 00:07:42.196 --> 00:07:44.726 A:middle
-It also -- all the inputs
+It also - all the inputs
 and outputs are floats.
 
 00:07:45.246 --> 00:07:46.726 A:middle
@@ -706,36 +700,33 @@ in writing a CIColorKernel.
 So as I was saying,
 all the inputs
 
-00:07:55.476 --> 00:07:58.696 A:middle
-for CIColorKernel are
-going to be float data
+00:07:55.476 --> 00:07:59.446 A:middle
+for CIColorKernel are going to
+be float data and that doesn't -
 
-00:07:58.696 --> 00:07:59.616 A:middle
-and that doesn't -- it --
-
-00:07:59.616 --> 00:08:02.886 A:middle
-regardless of what your input
-data is, whether it's RGBA8
+00:07:59.446 --> 00:08:01.486 A:middle
+it - regardless of what
+your input data is,
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:07:59.616 --> 00:08:02.886 A:middle
-regardless of what your input
-data is, whether it's RGBA8
+00:07:59.446 --> 00:08:01.486 A:middle
+it - regardless of what
+your input data is,
 
-00:08:02.886 --> 00:08:06.216 A:middle
-or 16-bit ends or float data,
-it will come into the kernel
+00:08:01.486 --> 00:08:05.526 A:middle
+whether it's RGBA8 or 16-bit
+ends or float data, it will come
 
-00:08:06.646 --> 00:08:10.486 A:middle
-as float data, as a
-VEC4, and the output
+00:08:05.526 --> 00:08:10.486 A:middle
+into the kernel as float data,
+as a vec4, and the output
 
 00:08:10.486 --> 00:08:14.816 A:middle
 from every CIFilter is
-also going to be a VEC4.
+also going to be a vec4.
 
 00:08:15.026 --> 00:08:15.686 A:middle
 So let's take a look
@@ -759,14 +750,11 @@ an underscore underscore sample,
 
 00:08:25.346 --> 00:08:26.586 A:middle
 and you can see we
-just returned --
+just returned -
 
-00:08:26.586 --> 00:08:27.626 A:middle
-which is effectively
-just a VEC4,
-
-00:08:27.626 --> 00:08:30.756 A:middle
-and we just returned s.rgba.
+00:08:26.586 --> 00:08:30.756 A:middle
+which is effectively just a
+vec4, and we just return s.rgba.
 
 00:08:30.756 --> 00:08:33.006 A:middle
 So if we were to apply this
@@ -790,7 +778,7 @@ simple process.
 
 00:08:43.706 --> 00:08:48.106 A:middle
 We just take our red channel and
-put it in the location of the --
+put it in the location of the -
 
 00:08:48.106 --> 00:08:51.606 A:middle
 where the green was and take
@@ -840,7 +828,7 @@ of this effect gets applied.
 
 00:09:12.506 --> 00:09:15.616 A:middle
 So here we have a new variable
-called amount that's applied --
+called amount that's applied -
 
 00:09:15.616 --> 00:09:17.636 A:middle
 that's used in our kernel.
@@ -928,7 +916,7 @@ is the input amount.
 
 00:10:14.256 --> 00:10:17.946 A:middle
 So how much of that along
-01 do we want to go?
+(0,1) do we want to go?
 
 00:10:19.346 --> 00:10:21.616 A:middle
 So let's take a look at the
@@ -983,8 +971,8 @@ where you take all
 your input parameters
 
 00:10:48.746 --> 00:10:52.626 A:middle
-and you drive your kernel to
-producing your output image.
+and you drive your kernel
+to produce an output image.
 
 00:10:52.706 --> 00:10:55.736 A:middle
 So let's take a look at
@@ -995,7 +983,7 @@ As you can see, creating a
 CIColorKernel is just done
 
 00:10:59.736 --> 00:11:01.736 A:middle
-by calling CIColorKernel,
+by calling CIColorKernel
 kernelWithString:,
 
 
@@ -1003,7 +991,7 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.736 --> 00:11:01.736 A:middle
-by calling CIColorKernel,
+by calling CIColorKernel
 kernelWithString:,
 
 00:11:01.736 --> 00:11:03.656 A:middle
@@ -1012,7 +1000,7 @@ our kernel code.
 
 00:11:03.656 --> 00:11:08.536 A:middle
 The next thing we need to
-do is call self my Kernel,
+do is call self myKernel,
 
 00:11:08.836 --> 00:11:12.726 A:middle
 and then we apply that and
@@ -1065,24 +1053,21 @@ left and produce a new image
 on the right that looked
 like it had been vignetted.
 
-00:11:48.716 --> 00:11:51.156 A:middle
-So in this case, you
-can see that the --
+00:11:48.716 --> 00:11:51.806 A:middle
+So in this case, you can see
+that the - we want the pixels
 
-00:11:51.156 --> 00:11:52.896 A:middle
-we want the pixels at
-the center of the image
+00:11:51.806 --> 00:11:54.136 A:middle
+at the center of the
+image to remain unmodified
 
-00:11:52.896 --> 00:11:55.326 A:middle
-to remain unmodified
-and as we go further
+00:11:54.536 --> 00:11:56.906 A:middle
+and as we go further out towards
+the corners of the image,
 
-00:11:55.326 --> 00:11:57.786 A:middle
-out towards the corners of
-the image, we want those
-
-00:11:57.786 --> 00:11:59.576 A:middle
-to be as dark as possible.
+00:11:57.276 --> 00:11:59.576 A:middle
+we want those to be
+as dark as possible.
 
 
 WEBVTT
@@ -1152,8 +1137,8 @@ So as I mentioned
 earlier, CIImages may
 
 00:12:47.626 --> 00:12:49.886 A:middle
-or may not be --
-have a 0.0 origin.
+or may not be - have
+a (0,0) origin.
 
 00:12:50.226 --> 00:12:52.896 A:middle
 In this case, you can see that
@@ -1320,21 +1305,19 @@ like, half our diagonal
 of the original rectangle.
 
 00:14:35.666 --> 00:14:37.866 A:middle
-1 minus that is going to
+One minus that is going to
 give us our darkening amount.
 
-00:14:38.756 --> 00:14:40.766 A:middle
-And then, finally, we call --
+00:14:38.756 --> 00:14:42.376 A:middle
+And then, finally, we
+call - we return a vec4
 
-00:14:40.946 --> 00:14:44.576 A:middle
-we return a VEC4 that
-takes our input sample, s,
+00:14:42.526 --> 00:14:46.556 A:middle
+that takes our input sample,
+s, multiplies the RGB value
 
-00:14:45.436 --> 00:14:47.406 A:middle
-multiplies the RGB value
+00:14:46.556 --> 00:14:48.796 A:middle
 by that darkening amount,
-
-00:14:47.406 --> 00:14:48.796 A:middle
 and maintains alpha as is.
 
 00:14:49.336 --> 00:14:51.086 A:middle
@@ -1350,7 +1333,7 @@ to do in Objective-C land.
 
 00:14:57.016 --> 00:15:00.756 A:middle
 First things first, the
-DOD, which stands for domain
+dod, which stands for domain
 
 
 WEBVTT
@@ -1358,22 +1341,21 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:57.016 --> 00:15:00.756 A:middle
 First things first, the
-DOD, which stands for domain
+dod, which stands for domain
 
 00:15:00.756 --> 00:15:02.746 A:middle
 of definition, and we're going
 to talk in more detail what
 
-00:15:02.746 --> 00:15:05.056 A:middle
-that means in a bit,
-but this is how much --
+00:15:02.746 --> 00:15:06.726 A:middle
+that means in a bit, but this
+is how much - what is the extent
 
-00:15:05.596 --> 00:15:07.706 A:middle
-what is the extent of the
-output image going to be?
+00:15:06.726 --> 00:15:07.706 A:middle
+of the output image going to be?
 
 00:15:07.706 --> 00:15:08.406 A:middle
-And in this case, it's --
+And in this case, it's -
 
 00:15:08.756 --> 00:15:10.786 A:middle
 our output image is the same
@@ -1440,7 +1422,7 @@ So if, for example, we
 have two input images
 
 00:15:56.806 --> 00:16:00.396 A:middle
-and we were doing a source over,
+and we were doing a sourceOver,
 you can image that if either one
 
 
@@ -1448,12 +1430,12 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:56.806 --> 00:16:00.396 A:middle
-and we were doing a source over,
+and we were doing a sourceOver,
 you can image that if either one
 
 00:16:00.396 --> 00:16:04.176 A:middle
 of these images didn't have a
-0.0 origin, the output image
+(0,0) origin, the output image
 
 00:16:04.176 --> 00:16:06.156 A:middle
 that you would want to
@@ -1464,11 +1446,11 @@ And so, you would want to
 take the union of those two
 
 00:16:09.106 --> 00:16:10.286 A:middle
-and that's what -- all
+and that's what's all
 you need to think of.
 
 00:16:10.286 --> 00:16:13.516 A:middle
-What are the non-0 pixels
+What are the non-zero pixels
 that your kernel is going
 
 00:16:13.516 --> 00:16:17.016 A:middle
@@ -1547,7 +1529,7 @@ which is a kernel
 that does nothing
 
 00:17:01.276 --> 00:17:02.676 A:middle
-and just returns destCOORD.
+and just returns destCoord.
 
 00:17:03.316 --> 00:17:07.126 A:middle
 If we were to apply that kernel
@@ -1575,7 +1557,7 @@ that it's just identity.
 
 00:17:21.175 --> 00:17:23.226 A:middle
 There's no change, which is why
-we can just return destCOORD.
+we can just return destCoord.
 
 00:17:23.746 --> 00:17:28.326 A:middle
 Let's take a slightly more
@@ -1583,7 +1565,7 @@ interesting example, where,
 
 00:17:28.326 --> 00:17:29.986 A:middle
 instead of just returning
-destCOORD,
+destCoord,
 
 00:17:29.986 --> 00:17:32.466 A:middle
 we're going to flip the image
@@ -1597,15 +1579,13 @@ fairly clear that if we look
 at a pixel near the shoulder
 of this woman on the right
 
-00:17:39.646 --> 00:17:40.486 A:middle
-and the output image, the --
+00:17:39.646 --> 00:17:42.846 A:middle
+and the output image, the
+- where we need to read
 
-00:17:41.026 --> 00:17:43.976 A:middle
-where we need to read from
-in the input image is not the
-
-00:17:43.976 --> 00:17:44.706 A:middle
-same location.
+00:17:42.846 --> 00:17:44.706 A:middle
+from in the input image
+is not the same location.
 
 00:17:45.356 --> 00:17:46.826 A:middle
 Instead, we're going
@@ -1615,12 +1595,12 @@ to be reading
 from a different location.
 
 00:17:47.996 --> 00:17:51.206 A:middle
-The y value won't be changing,
-but the x value is different.
+The y-value won't be changing,
+but the x-value is different.
 
 00:17:51.556 --> 00:17:54.706 A:middle
-So destCOORD.y is fine,
-destCOORD.x needs to change.
+So destCoord.y is fine,
+destCoord.x needs to change.
 
 00:17:55.416 --> 00:17:56.036 A:middle
 How do we do that?
@@ -1629,7 +1609,7 @@ How do we do that?
 Well, we have an x value,
 
 00:17:56.986 --> 00:18:00.106 A:middle
-destCOORD.x. We know what
+destCoord.x. We know what
 the width of the image is.
 
 
@@ -1637,7 +1617,7 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.986 --> 00:18:00.106 A:middle
-destCOORD.x. We know what
+destCoord.x. We know what
 the width of the image is.
 
 00:18:00.106 --> 00:18:01.926 A:middle
@@ -1645,8 +1625,8 @@ We can pass that in as a
 parameter to our kernel.
 
 00:18:03.276 --> 00:18:06.286 A:middle
-And using that, we
-can do imageWidth-x
+And using that, we can
+do imageWidth minus x
 
 00:18:06.286 --> 00:18:08.696 A:middle
 and that gives us the location
@@ -1663,8 +1643,8 @@ that the kernel above, mirrorX,
 that's all we need to apply.
 
 00:18:16.876 --> 00:18:18.776 A:middle
-We just take destCOORD,
-imageWidth-x
+We just take destCoord,
+imageWidth minus x
 
 00:18:18.776 --> 00:18:21.406 A:middle
 for our x coordinate, and
@@ -1689,7 +1669,7 @@ We pass along the source
 code we had earlier
 
 00:18:37.306 --> 00:18:39.626 A:middle
-and then, we call apply.
+and then we call apply.
 
 00:18:40.406 --> 00:18:44.356 A:middle
 And now, apply you'll see has
@@ -1700,7 +1680,7 @@ to pass, which is
 an ROI callback.
 
 00:18:46.096 --> 00:18:48.556 A:middle
-And I'm going to -- the next
+And I'm going to - the next
 thing we're going to do is talk
 
 00:18:48.556 --> 00:18:51.076 A:middle
@@ -1736,8 +1716,8 @@ such that we can deal
 with larger images
 
 00:19:07.146 --> 00:19:08.676 A:middle
-and do things --
-optimally on the GPU.
+and do things - optimally
+on the GPU.
 
 00:19:09.346 --> 00:19:12.896 A:middle
 Now, as I'm sure you can
@@ -1791,7 +1771,7 @@ rectangle on the output image
 
 00:19:40.026 --> 00:19:41.936 A:middle
 and the rectangle on the
-input image, that the --
+input image, that the -
 
 00:19:41.936 --> 00:19:45.726 A:middle
 we overlay our coordinate
@@ -1830,7 +1810,7 @@ is compute a new rectangle,
 
 00:20:04.686 --> 00:20:09.416 A:middle
 a new origin, and that's simply
-equal to the image width plus --
+equal to the image width plus -
 
 00:20:09.416 --> 00:20:13.456 A:middle
 sorry, minus the origin and
@@ -1852,7 +1832,7 @@ at a little more detail
 of our mirror kernel.
 
 00:20:24.306 --> 00:20:26.316 A:middle
-Now, it -- in this case,
+Now, it - in this case,
 we're going to start off
 
 00:20:26.316 --> 00:20:27.626 A:middle
@@ -1860,12 +1840,12 @@ by doing a check that
 I mentioned earlier.
 
 00:20:27.626 --> 00:20:29.856 A:middle
-We -- that CIImages may
+We - that CIImages may
 be of infinite extent.
 
 00:20:30.136 --> 00:20:33.476 A:middle
-And in order to keep the kernel
-a little simple, we're --
+And in order to keep the
+kernel a little simple, we're -
 
 00:20:33.626 --> 00:20:36.666 A:middle
 we decided to just show you what
@@ -1953,8 +1933,8 @@ there was no actual translation,
 but if the image wasn't
 
 00:21:21.656 --> 00:21:23.306 A:middle
-as 0,0 we would have
-had to do that.
+as (0,0) we would
+have had to do that.
 
 00:21:23.306 --> 00:21:26.646 A:middle
 And it's oftentimes easier
@@ -1964,13 +1944,16 @@ to think of a kernel in terms
 of how would this be either
 when its image is centered
 
-00:21:29.116 --> 00:21:33.066 A:middle
-or if it was at 0.0 and then do
-the work about moving the image
+00:21:29.116 --> 00:21:31.256 A:middle
+or if it was at (0,0)
+and then do the work
 
-00:21:33.336 --> 00:21:36.306 A:middle
-in Object-C world than it
-is to do in the kernel.
+00:21:31.256 --> 00:21:35.106 A:middle
+about moving the image
+in Object-C world
+
+00:21:35.106 --> 00:21:36.306 A:middle
+than it is to do in the kernel.
 
 00:21:38.276 --> 00:21:40.506 A:middle
 So let's take a look
@@ -1992,7 +1975,7 @@ but what you really wanted was
 an image that was wider and was
 
 00:21:56.356 --> 00:21:59.156 A:middle
-of -- in the width of 1280.
+of - in the width of 1280.
 
 
 WEBVTT
@@ -2006,20 +1989,19 @@ an anamorphic stretch
 and we're going to do that
 by maintaining the center
 
-00:22:05.826 --> 00:22:07.856 A:middle
-of the image and just
-stretching it out further
+00:22:05.826 --> 00:22:08.386 A:middle
+of the image and just stretching
+it out further as you get away -
 
-00:22:07.856 --> 00:22:13.026 A:middle
-as you get away -- further
-away from the center.
+00:22:08.386 --> 00:22:13.026 A:middle
+further away from the center.
 
 00:22:13.026 --> 00:22:17.436 A:middle
 I should be fairly clear that,
 based on this vector field,
 
 00:22:18.566 --> 00:22:22.936 A:middle
-that the y values for
+that the y-values for
 this kernel aren't going
 
 00:22:22.936 --> 00:22:23.466 A:middle
@@ -2034,7 +2016,7 @@ So we can think about
 this problem purely
 
 00:22:27.996 --> 00:22:29.416 A:middle
-in terms of x values.
+in terms of x-values.
 
 00:22:30.436 --> 00:22:32.726 A:middle
 So let's take a look at
@@ -2054,13 +2036,13 @@ in our head.
 
 00:22:40.786 --> 00:22:42.586 A:middle
 So let's pretend we
-have an input value x
+have an input value, x,
 
 00:22:42.586 --> 00:22:44.576 A:middle
-and some output value f(x).
+and some output value, f(x).
 
 00:22:46.146 --> 00:22:48.476 A:middle
-If we weren't -- and we're
+If we weren't - and we're
 going to use these with respect
 
 00:22:48.476 --> 00:22:49.366 A:middle
@@ -2103,10 +2085,10 @@ input value xi is going
 
 00:23:10.126 --> 00:23:11.916 A:middle
 to produce a new
--- the same value
+- the same value
 
 00:23:11.916 --> 00:23:14.976 A:middle
-on the y axis, f(xi)
+on the y-axis, f(xi)
 is equal to xi.
 
 00:23:15.056 --> 00:23:19.206 A:middle
@@ -2183,16 +2165,19 @@ easy to invert.
 So if we were to
 isolate the value of x
 
-00:24:03.066 --> 00:24:04.866 A:middle
+00:24:03.066 --> 00:24:04.896 A:middle
 in the previous equation
-from sourceToDest,
+from sourceToDest(x),
 
 00:24:05.456 --> 00:24:07.796 A:middle
 we would get a new equation
-called destToSourcex,
+called destToSource(x),
 
-00:24:08.166 --> 00:24:15.666 A:middle
-which would just be 1/ -- sorry,
+00:24:08.166 --> 00:24:11.286 A:middle
+which would just
+be 1 over - sorry,
+
+00:24:11.286 --> 00:24:15.666 A:middle
 x/1 plus absolute value of x/k.
 
 00:24:17.146 --> 00:24:18.466 A:middle
@@ -2217,16 +2202,19 @@ So how do we compute k?
 00:24:35.306 --> 00:24:36.396 A:middle
 It's a relatively simple matter.
 
-00:24:36.396 --> 00:24:41.166 A:middle
-We just do desiredWidth, so in
-this case 1280/inputWidth, 1024.
+00:24:36.396 --> 00:24:38.976 A:middle
+We just do desiredWidth,
+so in this case 1280,
+
+00:24:38.976 --> 00:24:41.166 A:middle
+divided by inputWidth, 1024.
 
 00:24:41.166 --> 00:24:42.276 A:middle
 We get some scale value.
 
 00:24:42.846 --> 00:24:46.836 A:middle
-The k value is just equal
-to inputWidth/1-1/scale.
+The k value is just equal to
+inputWidth/1 minus 1/scale.
 
 00:24:47.926 --> 00:24:50.826 A:middle
 And then, if we were to plug
@@ -2336,7 +2324,7 @@ to compute this exactly.
 
 00:25:58.976 --> 00:26:00.246 A:middle
 So let's take a look
-at the left --
+at the left -
 
 
 WEBVTT
@@ -2344,49 +2332,48 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.976 --> 00:26:00.246 A:middle
 So let's take a look
-at the left --
+at the left -
 
 00:26:00.246 --> 00:26:01.846 A:middle
 and again, nothing changes in Y.
 
-00:26:01.846 --> 00:26:04.216 A:middle
+00:26:01.846 --> 00:26:04.156 A:middle
 So all we need to worry about
-is what's happening along the
+is what's happening along
 
-00:26:04.216 --> 00:26:04.896 A:middle
-x axis.
+00:26:04.156 --> 00:26:04.896 A:middle
+the x-axis.
 
 00:26:05.866 --> 00:26:08.456 A:middle
 So we have our left point,
-which is equal to r.origin.x,
+which is equal to r.origin.x
 
 00:26:09.406 --> 00:26:11.696 A:middle
 from our original input
--- output rectangle,
+- output rectangle,
 
 00:26:11.766 --> 00:26:14.606 A:middle
 and we want to find
 out where our r' is.
 
-00:26:14.606 --> 00:26:16.826 A:middle
-We just need to put it
-through our equation
+00:26:14.606 --> 00:26:17.826 A:middle
+We just need to put it through
+our equation for destToSource
 
-00:26:16.826 --> 00:26:19.016 A:middle
-for destinationToSource and
-we get a new left point prime.
+00:26:17.826 --> 00:26:19.016 A:middle
+and we get a new
+left point prime.
 
 00:26:19.486 --> 00:26:22.346 A:middle
 And then, if we look at
 the point at the other end
 
-00:26:22.346 --> 00:26:25.086 A:middle
+00:26:22.346 --> 00:26:25.756 A:middle
 of our input rectangle,
-our -- so --
+our - so - which is equal
 
-00:26:25.086 --> 00:26:27.876 A:middle
-which is equal to
-r.origin.x plus the width
+00:26:25.756 --> 00:26:27.876 A:middle
+to r.origin.x plus the width
 
 00:26:27.876 --> 00:26:29.566 A:middle
 of the rectangle we're
@@ -2475,9 +2462,9 @@ language.
 We can create a function
 that just does the equivalent
 
-00:27:33.926 --> 00:27:35.876 A:middle
+00:27:33.926 --> 00:27:36.046 A:middle
 of what we've shown in the
-previous slide in PseudoCode,
+previous slide in pseudo-code,
 
 00:27:36.406 --> 00:27:39.966 A:middle
 and returns a new rectangle,
@@ -2505,7 +2492,7 @@ that we talked about earlier.
 And instead of using
 
 00:27:54.976 --> 00:28:00.666 A:middle
-as denominator 1 plus absolute
+as a denominator 1 plus absolute
 value of x/k, we use 1-x/k,
 
 
@@ -2513,7 +2500,7 @@ WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:54.976 --> 00:28:00.666 A:middle
-as denominator 1 plus absolute
+as a denominator 1 plus absolute
 value of x/k, we use 1-x/k,
 
 00:28:00.666 --> 00:28:02.036 A:middle
@@ -2522,7 +2509,7 @@ the same otherwise.
 
 00:28:02.566 --> 00:28:06.656 A:middle
 And we can take that same
-PseudoCode and apply it
+pseudo-code and apply it
 
 00:28:06.656 --> 00:28:09.336 A:middle
 to any given input
@@ -2538,7 +2525,7 @@ and the center.
 
 00:28:16.756 --> 00:28:18.246 A:middle
 So now, let's take a look
-at the output image method,
+at the outputImage method,
 
 00:28:18.976 --> 00:28:20.566 A:middle
 which is what we used
@@ -2553,7 +2540,7 @@ to pass into our kernel,
 and it's oftentimes good
 
 00:28:27.946 --> 00:28:30.956 A:middle
-to compute whatever -- as much
+to compute whatever - as much
 as we can outside of the kernel
 
 00:28:30.956 --> 00:28:32.276 A:middle
@@ -2564,7 +2551,7 @@ and isn't changing
 on a per fragment basis.
 
 00:28:33.886 --> 00:28:37.476 A:middle
-So in this case, we have our --
+So in this case, we have our -
 a value k that we can compute
 
 00:28:37.476 --> 00:28:39.976 A:middle
@@ -2605,7 +2592,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.096 --> 00:29:04.876 A:middle
 that has three parameters that
-we pass in rect, center, and k.
+we pass in rect, center and k.
 
 00:29:04.876 --> 00:29:05.716 A:middle
 Rect is given to us.
@@ -2628,7 +2615,7 @@ little more complicated.
 
 00:29:14.296 --> 00:29:17.166 A:middle
 And then, finally, we pass our
-2 parameters to our kernel,
+two parameters to our kernel,
 
 00:29:17.496 --> 00:29:21.546 A:middle
 center and k, and
@@ -2639,7 +2626,7 @@ So earlier, I alluded to one
 more function that's useful
 
 00:29:24.216 --> 00:29:26.006 A:middle
-for deal with UI elements,
+for dealing with UI elements,
 
 00:29:26.036 --> 00:29:28.306 A:middle
 and that is the customAttributes
@@ -2654,7 +2641,7 @@ and a whole bunch of keys, such
 as what is this filter going
 
 00:29:37.936 --> 00:29:39.316 A:middle
-to -- what's its display name,
+to - what's its display name,
 
 00:29:39.646 --> 00:29:41.186 A:middle
 what kind of categories
@@ -2717,12 +2704,12 @@ Let's do a brief overview.
 So in the case of color kernels
 we have zero or n input images.
 
-00:30:16.776 --> 00:30:20.696 A:middle
-The input type is going to be
-an underscore underscore sample
+00:30:16.776 --> 00:30:19.676 A:middle
+The input type is
+going to be an --
 
-00:30:21.046 --> 00:30:24.246 A:middle
-which is effectively
+00:30:19.676 --> 00:30:24.246 A:middle
+sample which is effectively
 just a vec4.
 
 00:30:24.876 --> 00:30:28.196 A:middle
@@ -2824,7 +2811,7 @@ of kernels called
 general kernels.
 
 00:31:28.806 --> 00:31:33.006 A:middle
-So here -- here again
+So here - here again
 are the three types
 
 00:31:33.006 --> 00:31:35.276 A:middle
@@ -2885,7 +2872,7 @@ or convolution filter
 would need that kernel.
 
 00:32:07.426 --> 00:32:10.296 A:middle
-And a second -- a
+And a second - a
 second scenario would be
 
 00:32:10.296 --> 00:32:12.536 A:middle
@@ -2893,8 +2880,8 @@ that your kernel contains
 a dependent texture read.
 
 00:32:13.006 --> 00:32:16.286 A:middle
-And by that what I mean is you
-have to sample from image A
+And by that, what I mean is,
+you have to sample from image A
 
 00:32:16.286 --> 00:32:19.826 A:middle
 in order to determine where
@@ -2921,7 +2908,7 @@ earlier for color kernels,
 
 00:32:31.906 --> 00:32:34.386 A:middle
 this shows that you can have
-one or more input image --
+one or more input image -
 
 00:32:34.886 --> 00:32:37.526 A:middle
 images to your kernel
@@ -2931,13 +2918,13 @@ along with an output image.
 But the key difference here
 is that instead of each input
 
-00:32:40.926 --> 00:32:44.866 A:middle
-to your kernel being just an
-individual color sample what you
+00:32:40.926 --> 00:32:44.186 A:middle
+to your kernel being just
+an individual color sample,
 
-00:32:44.866 --> 00:32:46.936 A:middle
-actually get instead
-is a sampler object
+00:32:44.666 --> 00:32:46.936 A:middle
+what you actually get
+instead is a sampler object
 
 00:32:47.236 --> 00:32:49.506 A:middle
 from which you can take as
@@ -3010,17 +2997,17 @@ that's between zero and one.
 But instead of having
 to call destCoord
 
-00:33:25.866 --> 00:33:29.426 A:middle
-and samplerTransform every
-single time you could also
+00:33:25.866 --> 00:33:27.906 A:middle
+and samplerTransform
+every single time,
 
-00:33:29.426 --> 00:33:32.076 A:middle
-conveniently call another
-CI language extension called
+00:33:28.336 --> 00:33:31.716 A:middle
+you could also conveniently call
+another CI language extension
 
-00:33:32.076 --> 00:33:35.316 A:middle
-samplerCoord, and
-these two pieces
+00:33:31.716 --> 00:33:35.316 A:middle
+called samplerCoord,
+and these two pieces
 
 00:33:35.316 --> 00:33:37.316 A:middle
 of kernel functions are
@@ -3054,8 +3041,8 @@ to apply an offset of two
 pixels in a vertical direction.
 
 00:33:55.376 --> 00:33:57.456 A:middle
-And let's walk through what
-would happen in this --
+And let's walk through
+what would happen in this -
 
 00:33:57.496 --> 00:33:58.866 A:middle
 if this kernel were
@@ -3081,40 +3068,39 @@ space, and we're just going
 to render that out to with
 the exact same dimensions.
 
-00:34:08.866 --> 00:34:10.556 A:middle
-And assuming this image --
+00:34:08.866 --> 00:34:11.775 A:middle
+And assuming this image -
+input image is not tiled,
 
-00:34:10.616 --> 00:34:13.016 A:middle
-input image is not tiled our
-sampler space is just going
+00:34:11.775 --> 00:34:13.806 A:middle
+our sampler space is
+just going to be normal -
 
-00:34:13.016 --> 00:34:15.505 A:middle
-to be normal -- in normalized
-coordinates between --
+00:34:13.806 --> 00:34:15.886 A:middle
+in normalized coordinates
+between - with a range
 
-00:34:15.505 --> 00:34:17.326 A:middle
-with a range of zero
-to 1 in both axes.
+00:34:15.886 --> 00:34:17.326 A:middle
+of zero to 1 in both axes.
 
 00:34:18.346 --> 00:34:21.356 A:middle
 And let's imagine we're asked
 to render out this pixel
 
 00:34:21.356 --> 00:34:24.966 A:middle
-in the center which has a
+in the center, which has a
 value of 300 in x and 200 in y.
 
-00:34:25.846 --> 00:34:27.826 A:middle
-In the first call the
-samplerCoord will actually
+00:34:25.846 --> 00:34:26.436 A:middle
+In the first call,
 
-00:34:27.976 --> 00:34:30.366 A:middle
-transform this value
-over to sampler space
+00:34:26.436 --> 00:34:29.126 A:middle
+the samplerCoord will
+actually transform this value
 
-00:34:30.366 --> 00:34:32.545 A:middle
-and give you a value
-of 0.5, 0.5.
+00:34:29.126 --> 00:34:32.545 A:middle
+over to sampler space and give
+you a value of (0.5, 0.5).
 
 00:34:33.196 --> 00:34:34.976 A:middle
 And then if you were
@@ -3122,7 +3108,7 @@ to apply that offset
 
 00:34:34.976 --> 00:34:38.806 A:middle
 in that space you'll get
-a value of 0.5 and 2.5.
+a value of (0.5, 2.5).
 
 00:34:39.436 --> 00:34:41.626 A:middle
 And as you can tell
@@ -3151,7 +3137,7 @@ if the kernel was executed.
 
 00:34:53.016 --> 00:34:55.146 A:middle
 You're going to first
-call destCoord
+call destCoord,
 
 00:34:55.146 --> 00:34:57.096 A:middle
 which will give you a
@@ -3192,13 +3178,17 @@ to sample from.
 So this is the right way to
 apply an offset in your sample.
 
-00:35:18.236 --> 00:35:22.616 A:middle
-So now that we got the basics
-out of the way let's take a look
+00:35:18.236 --> 00:35:21.996 A:middle
+So now that we got the
+basics out of the way,
 
-00:35:22.616 --> 00:35:24.756 A:middle
-at some examples that are a
-little bit more interesting.
+00:35:21.996 --> 00:35:23.366 A:middle
+let's take a look
+at some examples
+
+00:35:23.366 --> 00:35:24.756 A:middle
+that are a little
+bit more interesting.
 
 00:35:25.156 --> 00:35:28.926 A:middle
 The first one we're going to
@@ -3286,7 +3276,7 @@ in each direction.
 
 00:36:13.856 --> 00:36:15.916 A:middle
 In this case it'll
-be 10, but which --
+be 10, but which -
 
 00:36:16.076 --> 00:36:17.226 A:middle
 but it may be larger depending
@@ -3333,7 +3323,7 @@ applying the offset in each
 iteration, take the center pixel
 
 00:36:42.746 --> 00:36:44.536 A:middle
-which -- which corresponds
+which - which corresponds
 to your destCoord,
 
 00:36:44.586 --> 00:36:47.496 A:middle
@@ -3346,7 +3336,7 @@ your samples accumulated you
 
 00:36:51.816 --> 00:36:53.246 A:middle
 just need to average
-them all and --
+them all and -
 
 00:36:53.376 --> 00:36:55.606 A:middle
 and that will give
@@ -3366,19 +3356,19 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 00:36:58.636 --> 00:37:00.016 A:middle
 with a CIFilter subclass.
 
-00:37:00.566 --> 00:37:01.646 A:middle
-To initialize that kernel
+00:37:00.566 --> 00:37:02.756 A:middle
+To initialize that
+kernel that we just saw,
 
-00:37:01.646 --> 00:37:04.786 A:middle
-that we just saw you just
-call CIKernel kernelWithString
+00:37:02.756 --> 00:37:05.786 A:middle
+you just call CIKernel
+kernelWithString and path
 
-00:37:05.446 --> 00:37:06.906 A:middle
-in path of the source
-that we just --
+00:37:05.786 --> 00:37:07.856 A:middle
+of the source that we
+just - that we saw earlier
 
-00:37:07.076 --> 00:37:08.576 A:middle
-that we saw earlier
+00:37:07.886 --> 00:37:08.576 A:middle
 in the previous slide.
 
 00:37:08.656 --> 00:37:10.956 A:middle
@@ -3386,7 +3376,7 @@ And that string could
 either be hard coded
 
 00:37:10.956 --> 00:37:13.466 A:middle
-in your objective C file or
+in your Objective-C file or
 loaded from a file off this.
 
 00:37:14.046 --> 00:37:16.706 A:middle
@@ -3413,7 +3403,7 @@ giving it those arguments as
 well as a DOD and a region
 
 00:37:31.406 --> 00:37:33.626 A:middle
-of interest call back function
+of interest callback function
 which we'll see in a moment.
 
 00:37:34.006 --> 00:37:35.226 A:middle
@@ -3432,12 +3422,13 @@ image with given extent.
 And if you were to
 focus on the pixels
 
-00:37:43.496 --> 00:37:45.036 A:middle
-that are just outside the edge
+00:37:43.496 --> 00:37:45.936 A:middle
+that are just outside
+the edge of that image,
 
-00:37:45.246 --> 00:37:47.676 A:middle
-of that image these pixels
-were initially clear,
+00:37:46.266 --> 00:37:47.676 A:middle
+these pixels were
+initially clear,
 
 00:37:48.106 --> 00:37:51.586 A:middle
 but because those pixels end
@@ -3450,17 +3441,17 @@ will actually become non-clear
 00:37:54.576 --> 00:37:56.146 A:middle
 pixels, and so your domain
 
-00:37:56.206 --> 00:38:00.986 A:middle
+00:37:56.206 --> 00:38:01.016 A:middle
 of definition here is basically
-expanded out in both direction
+expanded out in both directions
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:37:56.206 --> 00:38:00.986 A:middle
+00:37:56.206 --> 00:38:01.016 A:middle
 of definition here is basically
-expanded out in both direction
+expanded out in both directions
 
 00:38:01.346 --> 00:38:03.796 A:middle
 that is the distance
@@ -3471,7 +3462,7 @@ And in this case this is
 just along the x direction.
 
 00:38:07.086 --> 00:38:09.996 A:middle
-But for the general case your --
+But for the general case your -
 the expression that you can use
 
 00:38:09.996 --> 00:38:13.246 A:middle
@@ -3483,19 +3474,19 @@ were to consider a region
 
 00:38:17.976 --> 00:38:20.676 A:middle
 that we need to render to that's
-outlined here in -- in blue.
+outlined here in - in blue
 
-00:38:21.206 --> 00:38:23.896 A:middle
-and focus on one of
-the edges of the --
+00:38:21.206 --> 00:38:25.136 A:middle
+and focus on one of the edges
+of the - of this region,
 
-00:38:24.386 --> 00:38:26.576 A:middle
-of this region, and
-imagine if you were to --
+00:38:25.136 --> 00:38:27.416 A:middle
+and imagine if you were to
+- if you needed to render
 
-00:38:26.576 --> 00:38:29.566 A:middle
-if you needed to render out
-that pixel in our kernel we need
+00:38:27.416 --> 00:38:29.566 A:middle
+out that pixel in
+our kernel we need
 
 00:38:29.566 --> 00:38:32.436 A:middle
 to sample along the
@@ -3521,7 +3512,7 @@ And so again, the ROI
 callback function would have an
 
 00:38:46.036 --> 00:38:49.926 A:middle
-expression that -- that is in
+expression that - that is in
 this case the same as your DOD.
 
 00:38:49.926 --> 00:38:50.736 A:middle
@@ -3555,15 +3546,15 @@ blur uniformly
 across the entire image.
 
 00:39:05.956 --> 00:39:08.746 A:middle
-Instead what you want is keep
-the vehicle in this mage nice
+Instead what you want is, keep
+the vehicle in this image nice
 
 00:39:08.746 --> 00:39:11.586 A:middle
 and sharp and blur out the
 background of the image.
 
 00:39:12.246 --> 00:39:15.176 A:middle
-And on top of that you
+And on top of that, you
 don't want to apply the blur
 
 00:39:15.226 --> 00:39:17.486 A:middle
@@ -3591,7 +3582,7 @@ you got the blurry background.
 
 00:39:32.236 --> 00:39:35.256 A:middle
 And so in order to achieve this
-affect what you actually need is
+effect what you actually need is
 
 00:39:35.256 --> 00:39:38.366 A:middle
 a mask image that not
@@ -3601,11 +3592,11 @@ only masks out the vehicle
 but provides a vector field
 
 00:39:39.696 --> 00:39:41.846 A:middle
-that describes your per
-pixel blur velocity.
+that describes your
+per-pixel blur velocity.
 
 00:39:42.376 --> 00:39:45.006 A:middle
-So let's step through -- let's
+So let's step through - let's
 break down this filter step
 
 00:39:45.006 --> 00:39:46.676 A:middle
@@ -3613,12 +3604,12 @@ by step to see how we
 would implement it.
 
 00:39:46.676 --> 00:39:49.746 A:middle
-So you start with you input
+So you start with your input
 image, and you're going
 
 00:39:49.746 --> 00:39:52.976 A:middle
 to generate a mask from that
-to -- to mask out the images --
+to - to mask out the images -
 
 00:39:53.126 --> 00:39:54.466 A:middle
 the pixels that you
@@ -3642,7 +3633,7 @@ per-pixel basis the velocity
 
 00:40:04.476 --> 00:40:06.786 A:middle
 that you want to blur your
--- apply your motion blur.
+- apply your motion blur.
 
 00:40:07.386 --> 00:40:10.646 A:middle
 And in this case the velocity
@@ -3660,7 +3651,7 @@ represent a
 zero-velocity vector.
 
 00:40:16.136 --> 00:40:21.056 A:middle
-Now you can -- that's -- you can
+Now you can - that's - you can
 generate this mask image either
 
 00:40:21.056 --> 00:40:23.566 A:middle
@@ -3670,20 +3661,21 @@ write a color kernel
 00:40:23.566 --> 00:40:24.536 A:middle
 to generate this image.
 
-00:40:24.876 --> 00:40:26.276 A:middle
-But let's assume for the --
+00:40:24.876 --> 00:40:26.726 A:middle
+But let's assume for
+the - this example
 
-00:40:26.276 --> 00:40:28.176 A:middle
-this example that we
-already have this mask image.
+00:40:26.726 --> 00:40:28.176 A:middle
+that we already have
+this mask image.
 
-00:40:29.226 --> 00:40:32.456 A:middle
-Then in our kernel what you
-need to do first is read
+00:40:29.226 --> 00:40:31.896 A:middle
+Then in our kernel what
+you need to do first is,
 
-00:40:32.456 --> 00:40:34.956 A:middle
-from this mask image to
-get your velocity vector,
+00:40:32.146 --> 00:40:34.956 A:middle
+read from this mask image
+to get your velocity vector,
 
 00:40:36.336 --> 00:40:39.006 A:middle
 and then you would sample
@@ -3748,7 +3740,7 @@ of that your new kernel function
 
 00:41:10.836 --> 00:41:13.066 A:middle
 that we have called
-motionBlur WithMask
+motionBlurWithMask,
 
 00:41:13.766 --> 00:41:16.016 A:middle
 which in this case will
@@ -3763,7 +3755,7 @@ that will specify your
 maximum blur radius.
 
 00:41:21.156 --> 00:41:23.696 A:middle
-And then in your kernel the
+And then in your kernel, the
 first thing that you do is read
 
 00:41:23.696 --> 00:41:27.596 A:middle
@@ -3779,11 +3771,10 @@ stored in a range of zero
 
 00:41:31.636 --> 00:41:34.266 A:middle
 to 1 you need to
-denormalize it to a range
+de-normalize it to a range
 
 00:41:34.426 --> 00:41:35.876 A:middle
-between negative
-1 and positive 1.
+between "-1" and "+1".
 
 00:41:36.386 --> 00:41:37.616 A:middle
 And once you got
@@ -3824,7 +3815,7 @@ to the first example
 that we just saw.
 
 00:41:58.706 --> 00:41:59.656 A:middle
-The difference here --
+The difference here -
 
 00:41:59.656 --> 00:42:01.986 A:middle
 the difference here
@@ -3843,7 +3834,7 @@ in the DOD calculation
 where instead
 
 00:42:03.776 --> 00:42:05.356 A:middle
-of a velocity vector we have --
+of a velocity vector we have -
 
 00:42:05.606 --> 00:42:07.076 A:middle
 we just have an input
@@ -3858,7 +3849,7 @@ in your vector field.
 
 00:42:12.656 --> 00:42:15.286 A:middle
 And the other difference here is
-when you apply the kernel the --
+when you apply the kernel the -
 
 00:42:15.746 --> 00:42:19.456 A:middle
 the roiCallback function
@@ -3887,8 +3878,8 @@ Well, it's actually
 pretty straightforward.
 
 00:42:31.376 --> 00:42:34.196 A:middle
-You just need to check the index
-parameter for which your --
+You just need to check the
+index parameter for which your -
 
 00:42:34.496 --> 00:42:36.356 A:middle
 for which the ROI
@@ -3906,7 +3897,7 @@ would return the same expression
 that we saw earlier.
 
 00:42:43.116 --> 00:42:47.566 A:middle
-But if index -- index is
+But if index - index is
 equal to 1 that corresponds
 
 00:42:47.566 --> 00:42:51.016 A:middle
@@ -3915,7 +3906,7 @@ it's actually even more simple,
 
 00:42:51.016 --> 00:42:52.636 A:middle
 you just return the
-same [inaudible] rect
+same input rect
 
 00:42:52.636 --> 00:42:55.326 A:middle
 because we just take one sample
@@ -3928,21 +3919,21 @@ using sampleCoord,
 and so that maps one to
 one to the same location.
 
-00:42:59.676 --> 00:43:05.676 A:middle
-So as you can see from these two
-examples we can implement any
+00:42:59.676 --> 00:43:03.646 A:middle
+So as you can see from
+these two examples,
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:42:59.676 --> 00:43:05.676 A:middle
-So as you can see from these two
-examples we can implement any
+00:42:59.676 --> 00:43:03.646 A:middle
+So as you can see from
+these two examples,
 
-00:43:05.676 --> 00:43:07.356 A:middle
-kind of filter using
-general kernels,
+00:43:04.036 --> 00:43:07.356 A:middle
+we can implement any kind of
+filter using general kernels,
 
 00:43:07.356 --> 00:43:08.476 A:middle
 no matter how complex they are.
@@ -3959,30 +3950,29 @@ kernel type
 that has the exact same language
 syntax and semantics as OS X.
 
-00:43:16.366 --> 00:43:18.766 A:middle
-And as -- and as a byproduct
+00:43:16.366 --> 00:43:19.036 A:middle
+And as - and as a
+byproduct of that,
 
-00:43:18.766 --> 00:43:21.026 A:middle
-of that you can actually port
-these general kernels back
+00:43:19.086 --> 00:43:21.386 A:middle
+you can actually port these
+general kernels back and forth
 
-00:43:21.026 --> 00:43:22.746 A:middle
-and forth between
-the two platforms
-
-00:43:22.746 --> 00:43:23.576 A:middle
+00:43:21.386 --> 00:43:23.576 A:middle
+between the two platforms
 with very little effort.
 
-00:43:24.406 --> 00:43:25.436 A:middle
-And in fact some of the new --
+00:43:24.406 --> 00:43:26.756 A:middle
+And in fact some of the
+new - new built-in filters
 
-00:43:25.586 --> 00:43:28.286 A:middle
-new built-in filters that David
-mentioned earlier were actually
+00:43:26.756 --> 00:43:28.546 A:middle
+that David mentioned
+earlier were actually ported
 
-00:43:28.286 --> 00:43:30.376 A:middle
-ported over to iOS
-using general kernels,
+00:43:28.546 --> 00:43:30.376 A:middle
+over to iOS using
+general kernels,
 
 00:43:31.116 --> 00:43:32.876 A:middle
 namely the glass
@@ -4004,16 +3994,16 @@ and memory considerations
 to keep in mind.
 
 00:43:43.586 --> 00:43:46.496 A:middle
-With respect to performance one
+With respect to performance, one
 thing you should be aware of is
 
-00:43:47.136 --> 00:43:49.016 A:middle
-in order to get past
-sampler objects
+00:43:47.136 --> 00:43:50.506 A:middle
+in order to get, pass sampler
+objects to your general kernel,
 
-00:43:49.016 --> 00:43:53.306 A:middle
-to your general kernel we have
-to render out each input image
+00:43:50.826 --> 00:43:53.306 A:middle
+we have to render
+out each input image
 
 00:43:53.306 --> 00:43:54.646 A:middle
 to an intermediate buffer first.
@@ -4103,7 +4093,7 @@ to specify a 16-bit half-flow
 format, and so you can do that
 
 00:44:46.236 --> 00:44:49.556 A:middle
-and not -- and avoid having it
+and not - and avoid having it
 incur the cost of a conversion
 
 00:44:49.556 --> 00:44:50.576 A:middle
@@ -4156,7 +4146,7 @@ of repeating triangles we
 just have repeating squares
 
 00:45:21.556 --> 00:45:22.776 A:middle
-and -- like so.
+and - like so.
 
 00:45:23.436 --> 00:45:25.376 A:middle
 So at first glance
@@ -4175,7 +4165,7 @@ that warps the space that
 you're sampling from as well
 
 00:45:33.746 --> 00:45:38.086 A:middle
-as a color kernel -- as
+as a color kernel - as
 well as a color falloff.
 
 00:45:38.516 --> 00:45:40.496 A:middle
@@ -4198,28 +4188,25 @@ actually don't have to.
 Let's see if there's a
 better way to implement this.
 
-00:45:53.236 --> 00:45:54.656 A:middle
-If you were to break
-down this filter
+00:45:53.236 --> 00:45:55.946 A:middle
+If you were to break down
+this filter into stages,
 
-00:45:54.936 --> 00:45:56.356 A:middle
-into stages you will notice
+00:45:55.946 --> 00:45:59.456 A:middle
+you will notice that the first
+stage is just the geometric
 
-00:45:56.356 --> 00:46:00.236 A:middle
-that the first stage is just
-the geometric transformation
+00:45:59.456 --> 00:46:03.136 A:middle
+transformation for which you
+can just apply a warp kernel.
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:45:56.356 --> 00:46:00.236 A:middle
-that the first stage is just
-the geometric transformation
-
-00:46:00.656 --> 00:46:03.136 A:middle
-for which you can just
-apply a warp kernel.
+00:45:59.456 --> 00:46:03.136 A:middle
+transformation for which you
+can just apply a warp kernel.
 
 00:46:03.756 --> 00:46:07.646 A:middle
 And then the second stage is
@@ -4238,42 +4225,39 @@ that you can just chain together
 a warp and a color kernel
 
 00:46:17.496 --> 00:46:18.806 A:middle
-and achieve -- and
+and achieve - and
 get the same effect.
 
 00:46:18.806 --> 00:46:22.266 A:middle
 And this is actually the better
 way to implement this filter
 
-00:46:22.556 --> 00:46:23.316 A:middle
-for some of the reasons --
-
-00:46:23.316 --> 00:46:26.106 A:middle
+00:46:22.556 --> 00:46:24.346 A:middle
+for some of the reasons -
 for some of the advantages
-that we heard earlier
 
-00:46:26.226 --> 00:46:28.576 A:middle
-with using these
-specialized kernel types.
+00:46:24.346 --> 00:46:28.576 A:middle
+that we heard earlier with using
+these specialized kernel types.
 
 00:46:30.276 --> 00:46:33.596 A:middle
-So here are the -- here
-is the kernel code --
+So here are the - here
+is the kernel code -
 
 00:46:33.596 --> 00:46:34.856 A:middle
 kernel function for
 the warp kernel.
 
-00:46:34.856 --> 00:46:36.906 A:middle
-But in -- in the interest
-of time we're not --
+00:46:34.856 --> 00:46:37.226 A:middle
+But in - in the interest of
+time we're not - I'm not going
 
-00:46:36.906 --> 00:46:37.866 A:middle
-I'm not going to bother walking
+00:46:37.226 --> 00:46:39.156 A:middle
+to bother walking through
+all the math that's involved
 
-00:46:37.866 --> 00:46:39.426 A:middle
-through all the math
-that's involved in this.
+00:46:39.156 --> 00:46:39.426 A:middle
+in this.
 
 00:46:39.846 --> 00:46:42.186 A:middle
 But I recommend that you
@@ -4317,12 +4301,13 @@ image, and the first thing is
 00:47:03.066 --> 00:47:04.156 A:middle
 to apply the warp kernel.
 
-00:47:04.286 --> 00:47:08.566 A:middle
-And if you were to run that for
-all the pixels you would get
+00:47:04.286 --> 00:47:08.186 A:middle
+And if you were to run
+that for all the pixels,
 
-00:47:08.566 --> 00:47:09.596 A:middle
-your intermediate image
+00:47:08.186 --> 00:47:09.596 A:middle
+you would get your
+intermediate image,
 
 00:47:09.746 --> 00:47:11.446 A:middle
 which just has the
@@ -4402,17 +4387,16 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 So the key takeaway from all
 this is you should only write a
 
-00:48:03.566 --> 00:48:05.536 A:middle
-general kernel when
-needed, namely the --
+00:48:03.566 --> 00:48:06.716 A:middle
+general kernel when needed,
+namely the the scenarios we saw
 
-00:48:05.816 --> 00:48:08.126 A:middle
-the scenarios we saw with
-the motion blur examples.
+00:48:06.716 --> 00:48:08.126 A:middle
+with the motion blur examples.
 
 00:48:09.226 --> 00:48:12.496 A:middle
-But if you're not sure you can
-also write a general kernel
+But if you're not sure, you
+can also write a general kernel
 
 00:48:12.496 --> 00:48:14.106 A:middle
 initially for rapid prototyping,
@@ -4423,7 +4407,7 @@ try replacing it
 
 00:48:15.646 --> 00:48:18.556 A:middle
 with some combination of warp
-and color kernels to get the --
+and color kernels to get the -
 
 00:48:18.876 --> 00:48:20.096 A:middle
 for the sake of better
@@ -4522,7 +4506,7 @@ a selector from the filter.
 
 00:49:30.286 --> 00:49:33.496 A:middle
 And then there is some
-tiny, tiny differences,
+tiny, tiny differences.
 
 00:49:33.496 --> 00:49:37.846 A:middle
 CIFilter setDefaults gets
@@ -4541,7 +4525,7 @@ is a class method on iOS
 
 00:49:47.706 --> 00:49:51.326 A:middle
 and is an instant method
--- instance method on OS X.
+- instance method on OS X.
 
 00:49:51.916 --> 00:49:54.426 A:middle
 So let's talk about what
@@ -4582,26 +4566,23 @@ interest function.
 And what's great about the
 way we've implemented things
 
-00:50:16.586 --> 00:50:18.536 A:middle
-on iOS is that you --
+00:50:16.586 --> 00:50:19.936 A:middle
+on iOS is that you - we
+are going to force you
 
-00:50:18.906 --> 00:50:21.786 A:middle
-we are going to force you
+00:50:19.936 --> 00:50:22.546 A:middle
 to write an ROI function
+when you have to,
 
-00:50:21.786 --> 00:50:24.596 A:middle
-when you have to, so
-it's not something
-
-00:50:24.596 --> 00:50:26.466 A:middle
-that you can accidentally
-forget to do.
+00:50:23.106 --> 00:50:26.466 A:middle
+so it's not something that you
+can accidentally forget to do.
 
 00:50:26.816 --> 00:50:28.896 A:middle
 So we think that's a great plus.
 
 00:50:28.956 --> 00:50:31.936 A:middle
-On the ROI function one thing
+On the ROI function, one thing
 I would really like for you
 
 00:50:31.936 --> 00:50:34.796 A:middle
@@ -4618,16 +4599,13 @@ with very large images.
 00:50:38.606 --> 00:50:42.046 A:middle
 And then finally we talked
 
-00:50:42.046 --> 00:50:44.116 A:middle
-about platform differences
-very briefly,
-
-00:50:44.586 --> 00:50:49.366 A:middle
-in between iOS and OS X.
+00:50:42.046 --> 00:50:49.366 A:middle
+about platform differences very
+briefly in between iOS and OS X.
 
 00:50:49.416 --> 00:50:52.486 A:middle
 So on that note I would
-like to invite you all to --
+like to invite you all to -
 
 00:50:52.816 --> 00:50:55.026 A:middle
 if you have any additional
@@ -4638,7 +4616,7 @@ Allan Schaffer.
 
 00:50:56.256 --> 00:51:02.396 A:middle
 We have some resources at DTS,
-and there's also the dev forums
+and there's also the dev forums,
 
 
 WEBVTT
@@ -4646,7 +4624,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:56.256 --> 00:51:02.396 A:middle
 We have some resources at DTS,
-and there's also the dev forums
+and there's also the dev forums,
 
 00:51:02.396 --> 00:51:04.306 A:middle
 which we all look at to see
@@ -4665,7 +4643,7 @@ interested in writing kernels
 
 00:51:12.466 --> 00:51:15.166 A:middle
 of your own, including the
-Introducing Photo Frameworks
+"Introducing Photo Frameworks"
 
 00:51:15.966 --> 00:51:20.616 A:middle
 which took place earlier today,
@@ -4679,7 +4657,7 @@ We're really looking forward
 
 00:51:25.996 --> 00:51:28.256 A:middle
 to seeing all the
-[inaudible] you are going
+effects you are going
 
 00:51:28.256 --> 00:51:30.686 A:middle
 to create using custom kernels,
@@ -4697,4 +4675,3 @@ the rest of the conference.
 
 00:51:36.428 --> 00:51:38.428 A:middle
 [ Applause ]
-

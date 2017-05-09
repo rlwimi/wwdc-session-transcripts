@@ -75,13 +75,12 @@ and how it turns your code
 into great machine code
 that's finally executed.
 
-00:01:14.236 --> 00:01:19.416 A:middle
-So when we designed
-Swift we wanted
+00:01:14.236 --> 00:01:17.886 A:middle
+So when we designed Swift,
 
-00:01:19.416 --> 00:01:21.916 A:middle
-to avoid hard coding too
-much about the language.
+00:01:19.046 --> 00:01:21.916 A:middle
+we wanted to avoid hard coding
+too much about the language.
 
 00:01:22.886 --> 00:01:24.146 A:middle
 We think it's really important
@@ -129,16 +128,16 @@ I want to work through
 an example.
 
 00:01:59.976 --> 00:02:03.216 A:middle
-And since this is an
-advanced talk I want to work
+And since this is the
+advanced talk, I want to work
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.976 --> 00:02:03.216 A:middle
-And since this is an
-advanced talk I want to work
+And since this is the
+advanced talk, I want to work
 
 00:02:03.216 --> 00:02:05.866 A:middle
 through an example that
@@ -243,7 +242,7 @@ to be instances ultimately
 of this Thing class.
 
 00:03:24.936 --> 00:03:27.466 A:middle
-A Thing is really simple
+A Thing is really simple;
 it's not anything more
 
 00:03:27.466 --> 00:03:29.286 A:middle
@@ -384,12 +383,12 @@ names that we use
 in initializer are also going
 to be the argument names.
 
-00:05:05.166 --> 00:05:07.766 A:middle
-But that's just the default
-we can expand this syntax
+00:05:05.166 --> 00:05:06.326 A:middle
+But that's just the default,
 
-00:05:07.766 --> 00:05:08.796 A:middle
-out like so.
+00:05:06.326 --> 00:05:08.796 A:middle
+we can expand this
+syntax out like so.
 
 00:05:09.386 --> 00:05:10.566 A:middle
 It's exactly equivalent.
@@ -409,12 +408,12 @@ make something anonymous?
 Well Swift has a very consistent
 syntax for doing this.
 
-00:05:26.506 --> 00:05:30.126 A:middle
-Instead of giving it a real
-meaningful identifier you just
+00:05:26.506 --> 00:05:29.756 A:middle
+Instead of giving it a
+real meaningful identifier,
 
-00:05:30.126 --> 00:05:31.176 A:middle
-give it an underscore.
+00:05:29.756 --> 00:05:31.176 A:middle
+you just give it an underscore.
 
 00:05:31.486 --> 00:05:33.026 A:middle
 You can use this syntax in a lot
@@ -439,16 +438,16 @@ the values in the dictionary,
 I just want to print
 out all the keys.
 
-00:05:47.396 --> 00:05:50.956 A:middle
-I could give this, you
-know, its own parameter --
+00:05:47.396 --> 00:05:52.606 A:middle
+I could give this, you know,
+its own local variable name,
 
-00:05:51.006 --> 00:05:55.116 A:middle
-its own local variable name, but
-then if this were a larger loop,
+00:05:52.966 --> 00:05:55.626 A:middle
+but then if this were a
+larger loop, you know,
 
-00:05:55.216 --> 00:05:57.086 A:middle
-you know, somebody coming along
+00:05:56.176 --> 00:05:57.086 A:middle
+somebody coming along
 
 00:05:57.086 --> 00:05:59.906 A:middle
 and reading it later would
@@ -470,8 +469,8 @@ to visually search
 the entire loop.
 
 00:06:07.516 --> 00:06:09.646 A:middle
-So instead I can just
-name it with an underscore
+So instead I can just name
+it with an underscore,
 
 00:06:09.646 --> 00:06:13.286 A:middle
 which isn't a real variable,
@@ -602,13 +601,13 @@ have the compactness.
 All right those were a
 couple simple objects.
 
-00:07:43.446 --> 00:07:45.516 A:middle
-In a more complicated
-object I'm going to --
+00:07:43.446 --> 00:07:46.326 A:middle
+In a more complicated object
+I'm going to - want to be able
 
-00:07:45.776 --> 00:07:49.116 A:middle
-want to be able to give it a
--- maybe even additional state,
+00:07:46.326 --> 00:07:49.116 A:middle
+to give it a -- maybe
+even additional state,
 
 00:07:49.506 --> 00:07:53.256 A:middle
 additional logic, maybe make
@@ -696,17 +695,20 @@ use of a protocol.
 We've talked about protocols
 a lot in other talks,
 
-00:08:58.296 --> 00:09:01.566 A:middle
+00:08:58.296 --> 00:09:01.096 A:middle
 but I want to show you what
-a protocol looks like now.
+a protocol actually looks
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:08:58.296 --> 00:09:01.566 A:middle
+00:08:58.296 --> 00:09:01.096 A:middle
 but I want to show you what
-a protocol looks like now.
+a protocol actually looks
+
+00:09:01.096 --> 00:09:01.566 A:middle
+like now.
 
 00:09:01.996 --> 00:09:03.836 A:middle
 You've probably seen
@@ -886,9 +888,12 @@ And this isn't bad.
 This isn't awful syntax, but
 it's less compact, less natural
 
-00:11:06.976 --> 00:11:08.816 A:middle
+00:11:06.976 --> 00:11:08.166 A:middle
 than it needs to be
-because of this .name.
+because of this .
+
+00:11:08.256 --> 00:11:08.816 A:middle
+"dot" name.
 
 00:11:09.336 --> 00:11:12.596 A:middle
 Why can't I just put object
@@ -986,11 +991,11 @@ which is a property.
 And all I have to do for
 that property is implement --
 
-00:12:20.386 --> 00:12:21.646 A:middle
+00:12:20.386 --> 00:12:21.586 A:middle
 is provide a getter for it.
 
-00:12:21.646 --> 00:12:23.506 A:middle
-Could also provide a
+00:12:21.586 --> 00:12:23.506 A:middle
+I could also provide a
 setter, but I don't have
 
 00:12:23.566 --> 00:12:25.906 A:middle
@@ -1006,7 +1011,7 @@ to thing that implements
 printable.
 
 00:12:31.776 --> 00:12:33.816 A:middle
-I have to provide
+I have to provide the
 description protocol
 
 00:12:33.816 --> 00:12:35.616 A:middle
@@ -1020,7 +1025,7 @@ And that's it.
 That's all I needed to do.
 
 00:12:40.426 --> 00:12:43.696 A:middle
-Well is this really going to
+Well, is this really going to
 work for an arbitrary object?
 
 00:12:45.116 --> 00:12:48.136 A:middle
@@ -1029,7 +1034,7 @@ here, it doesn't even read right
 
 00:12:48.166 --> 00:12:51.916 A:middle
 to me as an English
-speaker, because a object.
+speaker, because "a object."
 
 00:12:52.836 --> 00:12:53.816 A:middle
 That's not grammatical.
@@ -1175,12 +1180,13 @@ operator and defining it
 00:14:31.716 --> 00:14:32.766 A:middle
 for a new set of types,
 
-00:14:32.816 --> 00:14:36.546 A:middle
-or actually adding a new
-operator entirely is you're
+00:14:32.816 --> 00:14:35.586 A:middle
+or actually adding a
+new operator entirely,
 
-00:14:36.546 --> 00:14:37.876 A:middle
-going to need a global function.
+00:14:36.066 --> 00:14:37.876 A:middle
+is you're going to
+need a global function.
 
 00:14:38.486 --> 00:14:40.786 A:middle
 And the global function
@@ -1345,12 +1351,12 @@ stick on the left hand side,
 I just have to define a new
 global function with that name.
 
-00:16:25.586 --> 00:16:29.506 A:middle
-The and function we're just
-going to implement by using
+00:16:25.586 --> 00:16:29.946 A:middle
+The an function we're just going
+to implement by using that name
 
-00:16:29.506 --> 00:16:33.006 A:middle
-that name with article property
+00:16:29.946 --> 00:16:33.006 A:middle
+with article property
 that we already defined.
 
 00:16:33.756 --> 00:16:38.156 A:middle
@@ -1787,16 +1793,19 @@ about a bunch of very sort
 of superficial ways that
 you can extend the language.
 
-00:22:15.106 --> 00:22:16.986 A:middle
+00:22:15.106 --> 00:22:16.886 A:middle
 I'd like to bring up
-Dave Abrahams to bring
+Dave Abrahams to talk
 
-00:22:16.986 --> 00:22:20.356 A:middle
-up a much deeper and
-interesting topic,
+00:22:16.886 --> 00:22:20.356 A:middle
+about a much deeper
+and interesting topic,
 
 00:22:20.766 --> 00:22:21.836 A:middle
-which is generic programming .
+which is generic programming.
+
+00:22:21.836 --> 00:22:22.056 A:middle
+.
 
 00:22:22.056 --> 00:22:22.976 A:middle
 &gt;&gt; Thanks John.
@@ -1964,7 +1973,7 @@ He said, "That."
 Leaving a smudge on my
 gorgeous retina display.
 
-00:24:46.516 --> 00:24:50.126 A:middle
+00:24:45.066 --> 00:24:50.126 A:middle
 [ Applause ]
 
 00:24:50.626 --> 00:24:56.326 A:middle
@@ -2022,7 +2031,7 @@ world and Crusty was happy.
 
 00:25:34.756 --> 00:25:37.936 A:middle
 That is at least until
-the dogcow showed
+the doghouse showed
 
 00:25:37.936 --> 00:25:38.986 A:middle
 up in his window title.
@@ -2066,9 +2075,9 @@ used this property
 in his computation
 of the window title.
 
-00:26:07.196 --> 00:26:10.296 A:middle
+00:26:07.196 --> 00:26:10.276 A:middle
 Crusty scratched his head and
-thought about his next moved.
+thought about his next move.
 
 00:26:10.856 --> 00:26:15.466 A:middle
 He figured what I
@@ -2091,7 +2100,7 @@ so breaking out the
 expression of interest
 
 00:26:32.346 --> 00:26:37.326 A:middle
-into a name constant, peeking
+into a named constant, peeking
 at that and then carrying
 
 00:26:37.326 --> 00:26:38.406 A:middle
@@ -2152,22 +2161,23 @@ doesn't know what's coming
 out of that peek function.
 
 00:27:20.166 --> 00:27:22.876 A:middle
-It could be an NSDocumentControllerDelegate,
+It could be an NS document
+controller delegate,
 
 00:27:23.106 --> 00:27:24.846 A:middle
-or it could be an Int,
-or it could be a String.
+or it could be an int,
+or it could be a string.
 
 00:27:26.486 --> 00:27:30.526 A:middle
-At the call site the compiler
+At the call site the complier
 only sees that signature.
 
 00:27:33.296 --> 00:27:37.866 A:middle
 So Crusty knew that he could
-always downcast to String
+always downcast to string
 
 00:27:37.866 --> 00:27:40.756 A:middle
-to get his String
+to get his string
 back out of the Any.
 
 00:27:41.816 --> 00:27:44.266 A:middle
@@ -2221,7 +2231,7 @@ In this case, there's
 just one T.
 
 00:28:18.406 --> 00:28:21.506 A:middle
-Now you can thing of T as
+Now you can think of T as
 a placeholder for any type.
 
 00:28:21.506 --> 00:28:24.276 A:middle
@@ -2243,7 +2253,7 @@ out which function
 to call in an overload set.
 
 00:28:33.366 --> 00:28:36.536 A:middle
-In the case above we
+In the case above, we
 passed a string to peek
 
 00:28:36.536 --> 00:28:37.786 A:middle
@@ -2415,7 +2425,7 @@ of your school with the number
 of students is nonsense.
 
 00:30:53.866 --> 00:30:56.806 A:middle
-I love the way Swift helps we
+I love the way Swift helps me
 write correct code the first
 
 00:30:56.806 --> 00:30:59.446 A:middle
@@ -2494,7 +2504,7 @@ But it's not quite that simple.
 
 00:31:59.756 --> 00:32:03.916 A:middle
 Right, now that T is no longer
-a known type like string.
+a known type like string,
 
 
 WEBVTT
@@ -2502,10 +2512,10 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.756 --> 00:32:03.916 A:middle
 Right, now that T is no longer
-a known type like string.
+a known type like string,
 
 00:32:04.296 --> 00:32:06.076 A:middle
-The compiler isn't entirely sure
+the compiler isn't entirely sure
 
 00:32:06.076 --> 00:32:08.986 A:middle
 that we can compare these
@@ -2831,7 +2841,7 @@ So just looking at
 Fibonacci at 5, that depends
 
 00:36:42.926 --> 00:36:44.826 A:middle
-on Fibonacci of 4 and 3.
+on Fibonacci at 4 and 3.
 
 00:36:45.696 --> 00:36:50.206 A:middle
 And Fibonacci of 4 depends
@@ -2879,7 +2889,7 @@ then we could turn all of these
 calls into fast lookups, right.
 
 00:37:19.936 --> 00:37:23.966 A:middle
-And these calls well they
+And these calls, well they
 would just disappear entirely.
 
 00:37:24.486 --> 00:37:28.206 A:middle
@@ -2901,13 +2911,12 @@ and over.
 You can apply it to speed
 up any pure function
 
-00:37:39.026 --> 00:37:40.666 A:middle
+00:37:39.026 --> 00:37:40.976 A:middle
 where you might be
-calling it over,
+calling it over and over
 
-00:37:40.666 --> 00:37:42.596 A:middle
-and over with the same
-sets of arguments.
+00:37:40.976 --> 00:37:42.596 A:middle
+with the same sets of arguments.
 
 00:37:45.326 --> 00:37:49.346 A:middle
 Okay let's manually
@@ -3189,7 +3198,7 @@ or Fibonacci, well not so much.
 You see Swift doesn't want us
 
 00:41:27.846 --> 00:41:33.436 A:middle
-to use a variable's only
+to use a variable's own
 value to initialize it.
 
 00:41:33.676 --> 00:41:36.186 A:middle
@@ -3252,7 +3261,7 @@ so Crusty's not going
 to be happy with us, right.
 
 00:42:14.366 --> 00:42:16.286 A:middle
-Second of all we had to write
+Second of all, we had to write
 
 00:42:16.286 --> 00:42:19.396 A:middle
 out the explicit type
@@ -3498,7 +3507,7 @@ First, type deduction
 for concision,
 
 00:45:40.936 --> 00:45:43.726 A:middle
-so we would have contact
+so we would have compact
 and readable code.
 
 00:45:44.306 --> 00:45:47.906 A:middle
@@ -3744,8 +3753,8 @@ Well it's usually a type
 that's involved in one
 
 00:48:49.716 --> 00:48:51.626 A:middle
-of the protocol other
-requirements,
+of the protocol's
+other requirements,
 
 00:48:51.626 --> 00:48:52.906 A:middle
 in this case, Next.
@@ -3980,20 +3989,20 @@ the T in angled brackets.
 00:51:54.896 --> 00:51:56.516 A:middle
 That's because the type context,
 
-00:51:56.566 --> 00:51:58.916 A:middle
-the fact that we're
-returning the stack generator
+00:51:56.566 --> 00:51:59.456 A:middle
+the fact that we're returning
+the stack generator of T,
 
-00:51:58.916 --> 00:52:05.256 A:middle
-of T allows the compiler to
+00:51:59.826 --> 00:52:05.256 A:middle
+allows the compiler to
 deduce what type that is.
 
 
 WEBVTT
 X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:51:58.916 --> 00:52:05.256 A:middle
-of T allows the compiler to
+00:51:59.826 --> 00:52:05.256 A:middle
+allows the compiler to
 deduce what type that is.
 
 00:52:05.466 --> 00:52:10.336 A:middle
@@ -4177,7 +4186,7 @@ interact with your existing C,
 
 00:54:20.466 --> 00:54:25.306 A:middle
 Objective-C, or Assembly
--- Ada so on.
+-- Ada, so on.
 
 00:54:26.626 --> 00:54:27.536 A:middle
 Don't write your
@@ -4233,16 +4242,13 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 But when all of that is
 done, when all of it settles,
 
-00:55:01.656 --> 00:55:05.346 A:middle
-you see exactly what's left
-and you can feel confident
+00:55:01.656 --> 00:55:05.606 A:middle
+you see exactly what's left and
+you can feel confident that --
 
-00:55:05.346 --> 00:55:08.226 A:middle
-that that -- in how
-that's actually going
-
-00:55:08.226 --> 00:55:09.726 A:middle
-to run on a device.
+00:55:05.706 --> 00:55:09.726 A:middle
+that in how that's actually
+going to run on a device.
 
 00:55:10.736 --> 00:55:13.776 A:middle
 There are no extra, just
@@ -4313,9 +4319,12 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 into clean and easy to maintain
 abstractions using powerful
 
-00:56:02.706 --> 00:56:05.646 A:middle
-things like generics And because
-it's all statically compiled
+00:56:02.706 --> 00:56:03.736 A:middle
+things like generics.
+
+00:56:03.996 --> 00:56:05.646 A:middle
+And because it's all
+statically compiled
 
 00:56:05.646 --> 00:56:09.676 A:middle
 that abstraction disappears
@@ -4367,7 +4376,7 @@ C compilers are structured
 with one major modification.
 
 00:56:49.076 --> 00:56:53.476 A:middle
-We add an extra step an
+We add an extra step, an
 extra phase of compilation
 
 00:56:53.556 --> 00:56:55.986 A:middle
@@ -4540,7 +4549,7 @@ and everything else need
 to conspire together
 
 00:58:57.636 --> 00:58:59.156 A:middle
-to try to hid at run time.
+to try to hide at run time.
 
 00:58:59.846 --> 00:59:02.986 A:middle
 And it also steals a lot of
@@ -4601,7 +4610,7 @@ like a getter and turn that into
 direct manipulation of memory.
 
 00:59:39.786 --> 00:59:42.126 A:middle
-There's a lot of ways that
+There are a lot of ways that
 we can do de-virtualization
 
 00:59:42.126 --> 00:59:42.996 A:middle
@@ -4652,4 +4661,3 @@ had the time to talk to,
 01:00:06.086 --> 01:00:07.976 A:middle
 but I'm actually already
 two minutes over time.
-
