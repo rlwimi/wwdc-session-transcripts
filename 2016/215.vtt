@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:06.516 --> 00:00:17.500 A:middle
 [ Music ]
@@ -48,19 +47,11 @@ other Apple devices.
 There's no touchscreen on a TV
 or a mouse because these forms
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.046 --> 00:01:02.256 A:middle
-There's no touchscreen on a TV
-or a mouse because these forms
-
-00:01:02.256 --> 00:01:04.215 A:middle
+00:01:02.256 --> 00:01:04.216 A:middle
 of user input just
 don't make sense
 
-00:01:04.215 --> 00:01:05.546 A:middle
+00:01:04.216 --> 00:01:05.546 A:middle
 in a living room environment.
 
 00:01:06.186 --> 00:01:10.866 A:middle
@@ -120,10 +111,6 @@ and they can move focus
 00:01:56.346 --> 00:01:58.946 A:middle
 around the screen
 using any input device.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.456 --> 00:02:05.006 A:middle
 Users will expect that your
@@ -206,14 +193,6 @@ have at least some familiarity
 with the Focus API
 and the basic concepts
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.626 --> 00:03:01.836 A:middle
-with the Focus API
-and the basic concepts
-
 00:03:02.156 --> 00:03:04.126 A:middle
 of how Focus works on tvOS.
 
@@ -283,14 +262,6 @@ the Focus engine is going to try
 to figure out where Focus
 should show up by default,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.216 --> 00:04:01.466 A:middle
-to figure out where Focus
-should show up by default,
-
 00:04:02.016 --> 00:04:05.156 A:middle
 and it's going to start by
 looking at the focus environment
@@ -309,11 +280,11 @@ will ask the window what's its
 00:04:12.966 --> 00:04:14.416 A:middle
 preferred Focus view is.
 
-00:04:15.186 --> 00:04:17.055 A:middle
+00:04:15.186 --> 00:04:17.056 A:middle
 The window delegates
 this responsibility
 
-00:04:17.055 --> 00:04:18.326 A:middle
+00:04:17.056 --> 00:04:18.326 A:middle
 to its root view controller,
 
 00:04:18.886 --> 00:04:22.416 A:middle
@@ -367,14 +338,6 @@ providing a new property
 00:04:54.456 --> 00:04:58.376 A:middle
 that allows your apps to
 easily express complex Focus
-
-00:04:58.446 --> 00:05:01.536 A:middle
-preferences and the name of this
-property is appropriately called
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.446 --> 00:05:01.536 A:middle
 preferences and the name of this
@@ -447,14 +410,6 @@ example of that.
 00:05:56.566 --> 00:05:58.776 A:middle
 Say we have an app with a
 structure that looks like this.
-
-00:05:59.486 --> 00:06:01.156 A:middle
-We have a container
-view controller
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.486 --> 00:06:01.156 A:middle
 We have a container
@@ -545,10 +500,6 @@ view controller instead.
 And in this example, maybe it
 does find something focusable.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.346 --> 00:07:03.546 A:middle
 So the
 preferredFocusEnvironments
@@ -630,14 +581,6 @@ view controller.
 In that case we're
 interested in is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.096 --> 00:08:02.516 A:middle
-In that case we're
-interested in is
-
 00:08:02.516 --> 00:08:04.806 A:middle
 when this detail view
 controller gets dismissed.
@@ -681,7 +624,7 @@ that first default button.
 And so instead, the Focus engine
 automatically remembers the last
 
-00:08:36.316 --> 00:08:40.645 A:middle
+00:08:36.316 --> 00:08:40.646 A:middle
 focus item for us so that after
 the transition is complete,
 
@@ -689,7 +632,7 @@ the transition is complete,
 it automatically restores
 focus to that last button
 
-00:08:43.655 --> 00:08:45.406 A:middle
+00:08:43.656 --> 00:08:45.406 A:middle
 that the user would expect.
 
 00:08:46.516 --> 00:08:48.996 A:middle
@@ -707,13 +650,6 @@ expects, there are some cases
 00:08:57.496 --> 00:08:59.796 A:middle
 where you might want to
 restore focus to some other part
-
-00:08:59.796 --> 00:09:00.886 A:middle
-of your user interface.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.796 --> 00:09:00.886 A:middle
 of your user interface.
@@ -797,14 +733,6 @@ If set to false, however,
 then the Focus engine will
 instead consult your view
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.126 --> 00:10:00.736 A:middle
-then the Focus engine will
-instead consult your view
-
 00:10:00.736 --> 00:10:02.776 A:middle
 controller's
 preferredFocusEnvironments
@@ -880,10 +808,6 @@ for a quick demo.
 
 00:10:56.516 --> 00:10:59.500 A:middle
 [ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:06.636 --> 00:11:07.176 A:middle
 &gt;&gt; Hi, everyone.
@@ -970,14 +894,6 @@ to default to the next button.
 So we'll add that to
 our array as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.986 --> 00:12:00.546 A:middle
-So we'll add that to
-our array as well.
-
 00:12:01.676 --> 00:12:02.966 A:middle
 Now let's run this,
 see if it works.
@@ -1042,10 +958,6 @@ engine just moved
 00:12:57.986 --> 00:12:59.486 A:middle
 to our next preferred
 focus environment.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.006 --> 00:13:02.536 A:middle
 We didn't have to modify
@@ -1136,10 +1048,6 @@ focus environment.
 All right, let's run
 this, see if it works.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:05.866 --> 00:14:09.266 A:middle
 Okay. So I'll select the
 tvOS lab, move the selection
@@ -1214,14 +1122,6 @@ properties,
 we're able to provide a much
 better experience to our users.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.316 --> 00:15:02.196 A:middle
-we're able to provide a much
-better experience to our users.
-
 00:15:02.806 --> 00:15:03.976 A:middle
 Now I'd like to invite
 Matt back up on stage.
@@ -1289,14 +1189,6 @@ SpriteKit games.
 But first, what would
 this be useful for?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.476 --> 00:16:04.746 A:middle
-But first, what would
-this be useful for?
-
 00:16:04.856 --> 00:16:08.366 A:middle
 Well the first and most obvious
 use case for focus interaction
@@ -1355,14 +1247,6 @@ extended the same Focus API
 that you're used to in UIKit to
 now also work with SpriteKit.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.706 --> 00:17:02.196 A:middle
-that you're used to in UIKit to
-now also work with SpriteKit.
-
 00:17:02.446 --> 00:17:05.096 A:middle
 This is a shared API,
 and what this means is
@@ -1371,10 +1255,10 @@ and what this means is
 that SKNodes are now able to
 opt in to becoming focusable
 
-00:17:10.556 --> 00:17:12.195 A:middle
+00:17:10.556 --> 00:17:12.196 A:middle
 and taking advantage of all
 
-00:17:12.195 --> 00:17:14.546 A:middle
+00:17:12.196 --> 00:17:14.546 A:middle
 of the Focus engine's
 built-in capabilities.
 
@@ -1382,11 +1266,11 @@ built-in capabilities.
 UIKit and SpriteKit have been
 integrated to allow focus
 
-00:17:19.346 --> 00:17:21.915 A:middle
+00:17:19.346 --> 00:17:21.916 A:middle
 to move freely between
 your views and your nodes
 
-00:17:21.955 --> 00:17:24.165 A:middle
+00:17:21.956 --> 00:17:24.166 A:middle
 so you don't have to handle
 those use cases yourself.
 
@@ -1423,13 +1307,6 @@ focus update notifications
 00:17:56.576 --> 00:17:58.766 A:middle
 and also control the
 behavior of focus
-
-00:17:58.766 --> 00:18:00.206 A:middle
-within their subview hierarchy.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.766 --> 00:18:00.206 A:middle
 within their subview hierarchy.
@@ -1499,10 +1376,6 @@ information during focus
 00:18:58.066 --> 00:18:59.496 A:middle
 update notifications.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.866 --> 00:19:03.546 A:middle
 In order to support focus
 updates to SpriteKit nodes,
@@ -1569,14 +1442,6 @@ returns a type of UIView.
 00:19:54.726 --> 00:19:58.216 A:middle
 And if we're going to support
 SpriteKit, we're going to need
-
-00:19:58.276 --> 00:20:00.576 A:middle
-to define focus preferences
-to our SKNodes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.276 --> 00:20:00.576 A:middle
 to define focus preferences
@@ -1662,14 +1527,6 @@ We think this will really help.
 So that's Focus Interaction
 support in SpriteKit.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.336 --> 00:21:01.336 A:middle
-So that's Focus Interaction
-support in SpriteKit.
-
 00:21:02.126 --> 00:21:05.546 A:middle
 Focus API now supports generic
 focus items using this new
@@ -1738,14 +1595,6 @@ this week, where they go
 00:21:53.426 --> 00:21:56.556 A:middle
 into more detail on exactly
 what you need to do to opt in.
-
-00:21:57.576 --> 00:22:01.086 A:middle
-So that's Focus Interaction
-support for SpriteKit.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.576 --> 00:22:01.086 A:middle
 So that's Focus Interaction
@@ -1829,13 +1678,6 @@ this is what that looks like.
 00:22:59.976 --> 00:23:02.246 A:middle
 That's a lot better.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.976 --> 00:23:02.246 A:middle
-That's a lot better.
-
 00:23:02.596 --> 00:23:04.656 A:middle
 Instead of just saying
 one-star or two-star,
@@ -1914,14 +1756,6 @@ to represent our new control.
 We'll set up some constraints
 on it quickly, so 100 points
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.896 --> 00:24:04.216 A:middle
-We'll set up some constraints
-on it quickly, so 100 points
-
 00:24:04.216 --> 00:24:07.956 A:middle
 from the top, a width
 of 650, a height of 150,
@@ -1990,14 +1824,6 @@ and unfocused appearance.
 00:24:55.986 --> 00:24:59.476 A:middle
 So if the next focus
 item is our control,
-
-00:24:59.476 --> 00:25:02.426 A:middle
-then we'll configure the focus
-appearance, which just consists
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.476 --> 00:25:02.426 A:middle
 then we'll configure the focus
@@ -2077,10 +1903,6 @@ with our focus animations.
 00:25:52.516 --> 00:25:54.976 A:middle
 So let's see how this looks.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:04.186 --> 00:26:07.126 A:middle
 All right, so what we've done
 
@@ -2152,13 +1974,6 @@ to our control.
 00:26:55.876 --> 00:26:59.226 A:middle
 And when that's triggered,
 I'll toggle the editing state
-
-00:26:59.226 --> 00:27:00.426 A:middle
-and request a focus update.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.226 --> 00:27:00.426 A:middle
 and request a focus update.
@@ -2240,14 +2055,6 @@ canBecomeFocused
 and we'll return false if our
 control is currently editing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.486 --> 00:28:02.126 A:middle
-and we'll return false if our
-control is currently editing.
-
 00:28:02.126 --> 00:28:05.946 A:middle
 So let's run this, see
 if that fixes things.
@@ -2307,10 +2114,6 @@ background color on the stars.
 
 00:28:51.866 --> 00:28:53.976 A:middle
 So let's see how that looks.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:02.096 --> 00:29:07.076 A:middle
 Okay, so now when I select
@@ -2387,14 +2190,6 @@ preferredFocusEnvironments code,
 we want to return our last
 selected star if we're editing
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.476 --> 00:30:05.336 A:middle
-we want to return our last
-selected star if we're editing
-
 00:30:05.336 --> 00:30:07.326 A:middle
 and the current rating
 is greater than zero.
@@ -2451,14 +2246,6 @@ with five stars.
 00:30:54.226 --> 00:30:58.966 A:middle
 Okay, we chose that demo
 because it was a great example
-
-00:30:58.966 --> 00:31:02.096 A:middle
-of using many different parts
-of the Focus API in order
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.966 --> 00:31:02.096 A:middle
 of using many different parts
@@ -2536,14 +2323,6 @@ of the user interface.
 00:31:56.326 --> 00:31:59.706 A:middle
 And we do this to make sure
 that focus naturally flows
-
-00:31:59.706 --> 00:32:01.926 A:middle
-around the screen when
-the user is moving
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.706 --> 00:32:01.926 A:middle
 around the screen when
@@ -2630,14 +2409,6 @@ a few notes on testing.
 The first is to point out that
 not all input devices have the
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:57.996 --> 00:33:03.046 A:middle
-The first is to point out that
-not all input devices have the
-
 00:33:03.046 --> 00:33:04.256 A:middle
 same capabilities.
 
@@ -2718,14 +2489,6 @@ correctly and be functional
 for all users, in
 all situations.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.486 --> 00:34:00.686 A:middle
-for all users, in
-all situations.
-
 00:34:01.226 --> 00:34:03.606 A:middle
 And so definitely
 test custom controls
@@ -2738,7 +2501,7 @@ with different input devices.
 Try out a Bluetooth keyboard,
 pick up a game controller,
 
-00:34:11.636 --> 00:34:14.315 A:middle
+00:34:11.636 --> 00:34:14.316 A:middle
 very important to maintaining
 a good user experience.
 
@@ -2749,11 +2512,11 @@ please test your controls
 00:34:18.696 --> 00:34:19.636 A:middle
 with accessibility.
 
-00:34:19.886 --> 00:34:23.295 A:middle
+00:34:19.886 --> 00:34:23.296 A:middle
 The good news here is that the
 Focus engine again does some
 
-00:34:23.295 --> 00:34:23.956 A:middle
+00:34:23.296 --> 00:34:23.956 A:middle
 work for you.
 
 00:34:24.106 --> 00:34:28.606 A:middle
@@ -2764,23 +2527,23 @@ a high-contrast user interface,
 the Focus engine will
 helpfully put an extra ring
 
-00:34:32.176 --> 00:34:34.545 A:middle
+00:34:32.176 --> 00:34:34.546 A:middle
 around the currently focused
 item to really make it pop
 
-00:34:34.545 --> 00:34:36.856 A:middle
+00:34:34.546 --> 00:34:36.856 A:middle
 out on the screen and
 make it easier to see.
 
-00:34:37.936 --> 00:34:40.815 A:middle
+00:34:37.936 --> 00:34:40.816 A:middle
 But for other accessibility
 features, such as VoiceOver,
 
-00:34:41.216 --> 00:34:43.735 A:middle
+00:34:41.216 --> 00:34:43.736 A:middle
 you're going to have the do
 the same kinds of custom work
 
-00:34:43.735 --> 00:34:45.676 A:middle
+00:34:43.736 --> 00:34:45.676 A:middle
 that you're used to
 on iOS to make sure
 
@@ -2788,20 +2551,13 @@ on iOS to make sure
 that your controls
 behave well on tvOS.
 
-00:34:49.016 --> 00:34:53.235 A:middle
+00:34:49.016 --> 00:34:53.236 A:middle
 And so please test your controls
 with features like VoiceOver
 
-00:34:53.636 --> 00:34:56.815 A:middle
+00:34:53.636 --> 00:34:56.816 A:middle
 to make sure that they behavior
 really well in all situations.
-
-00:34:57.986 --> 00:35:01.336 A:middle
-So that's our talk today.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.986 --> 00:35:01.336 A:middle
 So that's our talk today.
@@ -2891,14 +2647,6 @@ aspects of the Focus API,
 some of the basic concepts,
 an in-depth overview of some
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.976 --> 00:36:02.416 A:middle
-some of the basic concepts,
-an in-depth overview of some
-
 00:36:02.416 --> 00:36:04.306 A:middle
 of the parts of the API
 that we didn't cover today.
@@ -2963,4 +2711,3 @@ a great conference.
 
 00:36:43.996 --> 00:36:44.736 A:middle
 Thank you for coming today.
-

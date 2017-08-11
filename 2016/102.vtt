@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:18.516 A:middle
 [ Music ]
@@ -56,14 +55,6 @@ same for all four platforms.
 They share most of their
 frameworks and libraries,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.326 --> 00:01:01.436 A:middle
-They share most of their
-frameworks and libraries,
-
 00:01:02.436 --> 00:01:04.096 A:middle
 and the underlying
 programming concepts
@@ -92,7 +83,7 @@ target even more users
 in even more markets.
 
 00:01:20.466 --> 00:01:24.706 A:middle
-Our iOS X in particular is
+Our iOS 10 in particular is
 huge this year for developers.
 
 00:01:25.446 --> 00:01:27.856 A:middle
@@ -140,14 +131,6 @@ our system functionality.
 00:01:55.356 --> 00:01:58.156 A:middle
 They allow you to
 securely customize our OS's
-
-00:01:58.186 --> 00:02:00.986 A:middle
-by running short-lived
-sandboxed services
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.186 --> 00:02:00.986 A:middle
 by running short-lived
@@ -221,14 +204,6 @@ from inside Messages.
 
 00:02:55.016 --> 00:02:57.846 A:middle
 Looks like this.
-
-00:02:58.096 --> 00:03:04.106 A:middle
-Now, when you send interactive
-messages with your iMessage App,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.096 --> 00:03:04.106 A:middle
 Now, when you send interactive
@@ -309,14 +284,6 @@ Messages extension point.
 The classes in this Messages
 extension point give you access
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.926 --> 00:04:02.856 A:middle
-The classes in this Messages
-extension point give you access
-
 00:04:02.856 --> 00:04:05.056 A:middle
 to everything you need
 inside the Messages App.
@@ -384,14 +351,6 @@ important for iMessage Apps.
 00:04:54.686 --> 00:04:59.566 A:middle
 That's because Messages runs in
 all the different kinds of sizes
-
-00:04:59.646 --> 00:05:01.886 A:middle
-and shapes of devices
-and all the adaptations.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.646 --> 00:05:01.886 A:middle
 and shapes of devices
@@ -476,15 +435,9 @@ both sent and received.
 And now Adele Peterson
 will show you how all
 
-00:05:59.976 --> 00:06:01.946 A:middle
-of this comes together in iOS X.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.976 --> 00:06:01.946 A:middle
-of this comes together in iOS X.
+00:05:59.976 --> 00:06:01.976 A:middle
+of this comes together
+in iOS 10.
 
 00:06:02.516 --> 00:06:07.636 A:middle
 [ Applause ]
@@ -562,14 +515,6 @@ stickers in iMessage Apps.
 Okay, so let's launch
 the sticker pack.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.566 --> 00:07:02.536 A:middle
-Okay, so let's launch
-the sticker pack.
-
 00:07:02.906 --> 00:07:04.826 A:middle
 I just love this 8-bit droid.
 
@@ -641,14 +586,6 @@ the sender and receiver sides
 of the conversation,
 so you don't even need
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.006 --> 00:08:01.966 A:middle
-of the conversation,
-so you don't even need
-
 00:08:01.966 --> 00:08:04.246 A:middle
 to use two iOS devices to
 test your iMessage App.
@@ -690,7 +627,7 @@ you add a topping,
 00:08:28.266 --> 00:08:32.186 A:middle
 and send it back to Kate.
 
-00:08:32.385 --> 00:08:34.086 A:middle
+00:08:32.386 --> 00:08:34.086 A:middle
 Now, as delicious
 as this all looks,
 
@@ -733,14 +670,6 @@ that change in Xcode
 
 00:08:55.946 --> 00:08:57.146 A:middle
 and show you how it looks.
-
-00:08:58.576 --> 00:09:02.146 A:middle
-So let me switch over to
-the ice cream project.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.576 --> 00:09:02.146 A:middle
 So let me switch over to
@@ -805,14 +734,6 @@ to John, and then finish it off,
 
 00:09:55.756 --> 00:09:56.656 A:middle
 and send it back to Kate.
-
-00:09:56.656 --> 00:10:00.426 A:middle
-So now you can see those
-descriptions describing the
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:56.656 --> 00:10:00.426 A:middle
 So now you can see those
@@ -899,14 +820,6 @@ But of course, until today,
 something really important has
 been missing, and that's apps,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.236 --> 00:11:00.966 A:middle
-something really important has
-been missing, and that's apps,
-
 00:11:01.426 --> 00:11:03.646 A:middle
 so we're so excited to
 launch the first version
@@ -976,14 +889,6 @@ aid in Siri's understanding.
 00:11:55.846 --> 00:11:58.266 A:middle
 The second is your app logic,
 your core functionality,
-
-00:11:58.576 --> 00:12:00.616 A:middle
-and of course, a
-great user interface.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.576 --> 00:12:00.616 A:middle
 and of course, a
@@ -1087,14 +992,6 @@ of course handle the intent,
 to accomplish what the
 user came to accomplish.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.426 --> 00:13:00.436 A:middle
-to accomplish what the
-user came to accomplish.
-
 00:13:01.956 --> 00:13:04.446 A:middle
 And during the conversation,
 Siri presents visuals
@@ -1179,14 +1076,6 @@ to understand parameters,
 00:13:55.706 --> 00:13:57.286 A:middle
 like the recipient
 and the content.
-
-00:13:59.056 --> 00:14:00.386 A:middle
-Siri packages all
-of this information
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.056 --> 00:14:00.386 A:middle
 Siri packages all
@@ -1301,14 +1190,6 @@ that your application has to do
 because SiriKit handles
 the conversation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.736 --> 00:15:01.566 A:middle
-because SiriKit handles
-the conversation.
-
 00:15:02.906 --> 00:15:04.986 A:middle
 And handling the conversation
 actually means a lot.
@@ -1405,14 +1286,6 @@ the conversation,
 what I actually mean is Siri
 handles the conversation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.006 --> 00:16:01.866 A:middle
-what I actually mean is Siri
-handles the conversation
-
 00:16:01.866 --> 00:16:05.526 A:middle
 in all 36 locales so that
 your application doesn't have
@@ -1481,14 +1354,6 @@ titles like these.
 Now, Swift has also
 been very popular
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.696 --> 00:17:01.696 A:middle
-Now, Swift has also
-been very popular
-
 00:17:01.696 --> 00:17:02.636 A:middle
 with the enterprise as well.
 
@@ -1500,17 +1365,17 @@ IBM's already built
 and deployed hundreds of
 apps written in Swift.
 
-00:17:10.156 --> 00:17:10.425 A:middle
+00:17:10.156 --> 00:17:10.426 A:middle
 Now--
 
 00:17:11.516 --> 00:17:14.646 A:middle
 [ Applause ]
 
-00:17:15.146 --> 00:17:16.715 A:middle
+00:17:15.146 --> 00:17:16.716 A:middle
 Now, there's lots of reasons
 that people love Swift,
 
-00:17:16.715 --> 00:17:19.066 A:middle
+00:17:16.716 --> 00:17:19.066 A:middle
 one of which is that
 we open sourced it less
 
@@ -1567,10 +1432,6 @@ important to us is that we want
 
 00:17:58.696 --> 00:17:59.826 A:middle
 to see it go everywhere.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.656 --> 00:18:03.646 A:middle
 For example, we think that
@@ -1653,14 +1514,6 @@ roadmap with the goals
 for each release,
 and we solicit ideas
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.146 --> 00:19:02.196 A:middle
-for each release,
-and we solicit ideas
-
 00:19:02.196 --> 00:19:04.696 A:middle
 and discuss different
 directions we could go
@@ -1730,14 +1583,6 @@ changing
 00:19:54.396 --> 00:19:58.946 A:middle
 out from underneath you can be
 concerning, and as Swift goes
-
-00:19:58.946 --> 00:20:02.386 A:middle
-to new platforms and new kinds
-of users with Swift Playgrounds,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.946 --> 00:20:02.386 A:middle
 to new platforms and new kinds
@@ -1819,14 +1664,6 @@ the feel of some APIs
 in Cocoa didn't feel
 natural in Swift.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.036 --> 00:21:00.036 A:middle
-in Cocoa didn't feel
-natural in Swift.
-
 00:21:00.446 --> 00:21:03.866 A:middle
 Swift loves clarity and it aims
 to define away boilerplate.
@@ -1897,14 +1734,6 @@ proper value semantics,
 00:21:54.156 --> 00:21:56.786 A:middle
 it's about twice as
 fast to pass around,
-
-00:21:57.666 --> 00:22:00.006 A:middle
-and it's about 40 times
-faster to change due
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.666 --> 00:22:00.006 A:middle
 and it's about 40 times
@@ -1982,13 +1811,6 @@ it works just like you expect.
 00:22:59.516 --> 00:23:03.886 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.516 --> 00:23:03.886 A:middle
-[ Applause ]
-
 00:23:04.386 --> 00:23:06.666 A:middle
 Now, Swift 3 has a
 ton of great features
@@ -2055,14 +1877,6 @@ and server components.
 00:23:55.556 --> 00:23:59.166 A:middle
 It's also great as a first
 program language to learn.
-
-00:23:59.556 --> 00:24:01.306 A:middle
-In fact, we think this
-is super important,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.556 --> 00:24:01.306 A:middle
 In fact, we think this
@@ -2156,14 +1970,6 @@ lines of code without having
 
 00:24:55.546 --> 00:24:56.846 A:middle
 to bring up a full keyboard.
-
-00:24:58.466 --> 00:25:01.076 A:middle
-When you edit inline values
-such as numbers and colors,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.466 --> 00:25:01.076 A:middle
 When you edit inline values
@@ -2265,14 +2071,6 @@ to update frequently.
 So they keep coming back
 to the app and stay engaged
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.976 --> 00:26:01.476 A:middle
-So they keep coming back
-to the app and stay engaged
-
 00:26:01.476 --> 00:26:04.546 A:middle
 with the learning process for
 the number of deep dive topics.
@@ -2355,14 +2153,6 @@ to give us another demo.
 Swift Playgrounds makes it easy
 to get creative through code,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.186 --> 00:27:01.336 A:middle
-Swift Playgrounds makes it easy
-to get creative through code,
-
 00:27:01.336 --> 00:27:03.206 A:middle
 so let's take a look
 at a Playground
@@ -2431,10 +2221,6 @@ and then I'll tap Run.
 00:27:54.116 --> 00:27:59.576 A:middle
 Nice. And I think maybe instead
 of maroon, I'll use a nice blue.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.316 --> 00:28:02.236 A:middle
 That looks good.
@@ -2516,14 +2302,6 @@ in to the Shapes template,
 and I think what I want is I
 want the squares to pop and spin
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:56.606 --> 00:29:02.156 A:middle
-and I think what I want is I
-want the squares to pop and spin
-
 00:29:02.156 --> 00:29:03.826 A:middle
 in from the center
 of the stream.
@@ -2587,10 +2365,6 @@ the size above, so I'll just use
 00:29:55.526 --> 00:29:58.906 A:middle
 that same variable,
 and I'll tap Run.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:01.496 --> 00:30:01.856 A:middle
 Very cool.
@@ -2668,10 +2442,6 @@ added Touch Handling.
 00:30:59.376 --> 00:30:59.726 A:middle
 Thank you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.516 --> 00:31:03.686 A:middle
 [ Applause ]
 
@@ -2737,14 +2507,6 @@ have access to the iOS SDK
 00:31:54.106 --> 00:31:58.106 A:middle
 in this Playground and in
 any Playground that I create.
-
-00:31:59.276 --> 00:32:01.286 A:middle
-And then all the way
-down at the bottom here,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.276 --> 00:32:01.286 A:middle
 And then all the way
@@ -2818,10 +2580,6 @@ bird earlier,
 00:32:58.086 --> 00:32:59.326 A:middle
 so I'm going to choose that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:01.256 --> 00:33:04.656 A:middle
 And then last thing I need to
 do here, I need to get you,
@@ -2883,14 +2641,6 @@ Andreas?
 So as you saw, no matter what
 kind of Playground you create,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.626 --> 00:34:01.076 A:middle
-So as you saw, no matter what
-kind of Playground you create,
-
 00:34:01.846 --> 00:34:05.866 A:middle
 you always do so by
 leveraging the actual iOS SDK,
@@ -2917,7 +2667,7 @@ that users quickly outgrow.
 In Swift Playgrounds,
 you'll always learn how
 
-00:34:19.646 --> 00:34:20.815 A:middle
+00:34:19.646 --> 00:34:20.816 A:middle
 to write real Swift code.
 
 00:34:21.596 --> 00:34:22.696 A:middle
@@ -2938,11 +2688,11 @@ you many ways to experiment
 and to teach and to learn how to
 code, and we are very passionate
 
-00:34:38.876 --> 00:34:41.485 A:middle
+00:34:38.876 --> 00:34:41.486 A:middle
 about letting as many users
 as possible, especially kids,
 
-00:34:41.966 --> 00:34:43.835 A:middle
+00:34:41.966 --> 00:34:43.836 A:middle
 take advantage of
 this new opportunity.
 
@@ -2950,28 +2700,21 @@ this new opportunity.
 And in fact, we hope that you
 will help us create an entire
 
-00:34:47.335 --> 00:34:50.106 A:middle
+00:34:47.336 --> 00:34:50.106 A:middle
 platform for learning by
 creating additional content.
 
-00:34:50.545 --> 00:34:53.505 A:middle
+00:34:50.546 --> 00:34:53.506 A:middle
 And to get you started, we're
 going to make documentation
 
-00:34:53.505 --> 00:34:56.406 A:middle
+00:34:53.506 --> 00:34:56.406 A:middle
 on our Playground's file format
 available on our website today.
 
-00:34:57.065 --> 00:34:58.646 A:middle
+00:34:57.066 --> 00:34:58.646 A:middle
 And later this year,
 we are planning
-
-00:34:58.646 --> 00:35:00.296 A:middle
-to publish our lesson materials,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.646 --> 00:35:00.296 A:middle
 to publish our lesson materials,
@@ -3059,16 +2802,12 @@ nicely to the next topic.
 00:35:56.516 --> 00:35:59.576 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:00.076 --> 00:36:01.536 A:middle
 To tell you more about
 Xcode, I'm going to hand
 
 00:36:01.536 --> 00:36:02.456 A:middle
-over to Matthew Furlich
+over to Matthew Firlik
 [assumed spelling].
 
 00:36:03.516 --> 00:36:08.546 A:middle
@@ -3136,14 +2875,6 @@ too so you can now view images
 00:36:52.516 --> 00:36:57.076 A:middle
 in your source and as
 results for code completion.
-
-00:36:57.076 --> 00:37:02.046 A:middle
-And to help you write better
-documentation, the editor has,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:57.076 --> 00:37:02.046 A:middle
 And to help you write better
@@ -3222,14 +2953,6 @@ actions in each extension,
 and each action is listed
 as part of the Editor menu.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.056 --> 00:38:00.796 A:middle
-and each action is listed
-as part of the Editor menu.
-
 00:38:01.986 --> 00:38:05.346 A:middle
 Users can set key buttons for
 these actions too to enable them
@@ -3300,14 +3023,6 @@ even more extensible IDE.
 00:38:56.346 --> 00:38:57.936 A:middle
 We'd love to hear
 your feedback on it
-
-00:38:58.016 --> 00:39:01.296 A:middle
-and other extensions
-you'd like to see.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.016 --> 00:39:01.296 A:middle
 and other extensions
@@ -3391,14 +3106,6 @@ the information you need.
 Now, we also have some
 great, new improvements
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.636 --> 00:40:00.496 A:middle
-Now, we also have some
-great, new improvements
-
 00:40:00.556 --> 00:40:01.986 A:middle
 to Interface Builder, and I'd
 
@@ -3471,13 +3178,6 @@ how my interface will be
 
 00:40:54.876 --> 00:40:55.886 A:middle
 displayed there.
-
-00:40:56.516 --> 00:41:02.846 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:56.516 --> 00:41:02.846 A:middle
 [ Applause ]
@@ -3567,13 +3267,6 @@ on the width size class,
 00:41:59.096 --> 00:42:00.016 A:middle
 so I'll check that option.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:59.096 --> 00:42:00.016 A:middle
-so I'll check that option.
-
 00:42:01.496 --> 00:42:03.666 A:middle
 The configuration bar
 turns blue to remind me
@@ -3643,10 +3336,6 @@ Come on.
 00:42:53.306 --> 00:42:54.426 A:middle
 Nobody look for a second.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:00.216 --> 00:43:02.000 A:middle
 This is not going to
 be funny in a second.
@@ -3715,13 +3404,6 @@ interface I wanted.
 00:43:56.496 --> 00:43:58.456 A:middle
 So Interface Builder
 now makes it really easy
-
-00:43:58.456 --> 00:44:00.076 A:middle
-to design adaptive layouts.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:58.456 --> 00:44:00.076 A:middle
 to design adaptive layouts.
@@ -3804,13 +3486,6 @@ you can do it all.
 00:44:58.516 --> 00:45:02.576 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.516 --> 00:45:02.576 A:middle
-[ Applause ]
-
 00:45:03.076 --> 00:45:04.906 A:middle
 And that's what we have
 new for Interface Builder.
@@ -3871,14 +3546,6 @@ diagnosing, and fixing issues.
 00:45:53.916 --> 00:45:56.796 A:middle
 And with Xcode 8, we are taking
 another big step forward.
-
-00:45:58.256 --> 00:46:01.606 A:middle
-Over the last year, we've
-added over 100 new diagnostics,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:58.256 --> 00:46:01.606 A:middle
 Over the last year, we've
@@ -3957,14 +3624,6 @@ integrating scalable testing
 with your own continuous
 integration.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:58.746 --> 00:47:00.336 A:middle
-with your own continuous
-integration.
-
 00:47:02.816 --> 00:47:05.216 A:middle
 So now more than ever, Xcode
 will help you with issues
@@ -4035,14 +3694,6 @@ accuracy and visual rendering,
 00:47:53.066 --> 00:47:56.176 A:middle
 the View Debugger will now
 detect layout issues at runtime.
-
-00:47:58.976 --> 00:48:02.206 A:middle
-With each capture, the View
-Debugger is able to detect views
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:58.976 --> 00:48:02.206 A:middle
 With each capture, the View
@@ -4127,10 +3778,6 @@ about any race conditions
 and giving you stack
 frames to help you navigate.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:00.926 --> 00:49:02.046 A:middle
 Like -- yes.
 
@@ -4192,10 +3839,6 @@ for debugging memory issues,
 00:49:58.146 --> 00:49:59.596 A:middle
 and I'd like to show
 it to you in a demo.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:05.786 --> 00:50:08.386 A:middle
 Okay, so here we have the
@@ -4285,14 +3928,6 @@ system created for me.
 I can filter this down
 to only showing the items
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:58.946 --> 00:51:01.416 A:middle
-I can filter this down
-to only showing the items
-
 00:51:01.416 --> 00:51:02.186 A:middle
 from my project.
 
@@ -4368,14 +4003,6 @@ of code that caused it.
 00:51:58.086 --> 00:51:59.466 A:middle
 And I can see the
 source of my problem.
-
-00:51:59.466 --> 00:52:02.296 A:middle
-I've set up an observer for
-this View Controller to be told
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:59.466 --> 00:52:02.296 A:middle
 I've set up an observer for
@@ -4472,13 +4099,6 @@ to print something right
 00:52:59.376 --> 00:53:01.546 A:middle
 to the console or just bring
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:59.376 --> 00:53:01.546 A:middle
-to the console or just bring
-
 00:53:01.546 --> 00:53:03.076 A:middle
 up a quick look to
 see more details.
@@ -4540,14 +4160,6 @@ issues with code signing.
 00:53:53.876 --> 00:53:56.726 A:middle
 Well, actually, that turns
 out to not quite be true
-
-00:53:57.246 --> 00:54:00.406 A:middle
-because in some cases, the
-solution was more frustrating
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:57.246 --> 00:54:00.406 A:middle
 because in some cases, the
@@ -4631,14 +4243,6 @@ a dedicated profile,
 and this profile is
 separate from any
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:54:59.076 --> 00:55:00.526 A:middle
-and this profile is
-separate from any
-
 00:55:00.526 --> 00:55:02.006 A:middle
 that you create or manage.
 
@@ -4708,13 +4312,6 @@ working with many machines,
 00:55:53.206 --> 00:55:56.456 A:middle
 Xcode now supports multiple
 development certificates.
-
-00:55:57.516 --> 00:56:01.546 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:55:57.516 --> 00:56:01.546 A:middle
 [ Applause ]
@@ -4790,14 +4387,6 @@ of the many features
 00:56:56.096 --> 00:56:58.076 A:middle
 and enhancements
 you'll find in Xcode 8.
-
-00:56:58.826 --> 00:57:00.046 A:middle
-Please come by the
-labs this week
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:56:58.826 --> 00:57:00.046 A:middle
 Please come by the
@@ -4898,14 +4487,6 @@ really depends
 on having a great
 network connection,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:57:59.986 --> 00:58:01.866 A:middle
-on having a great
-network connection,
-
 00:58:02.136 --> 00:58:04.546 A:middle
 but today's networks don't
 really have a great way
@@ -4986,10 +4567,6 @@ has been very fragmented.
 00:58:57.346 --> 00:58:59.646 A:middle
 A number of you roll
 your own solutions.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:59:00.336 --> 00:59:03.106 A:middle
 The solutions that are available
@@ -5079,14 +4656,6 @@ the ability to advance filtering
 and grade system
 introspection capabilities,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:59:59.796 --> 01:00:02.336 A:middle
-and grade system
-introspection capabilities,
-
 01:00:02.856 --> 01:00:04.556 A:middle
 so that is the new logging.
 
@@ -5147,13 +4716,6 @@ to launch a new file system.
 01:00:50.546 --> 01:00:54.676 A:middle
 And so today we're announcing
 brand new Apple File System.
-
-01:00:55.516 --> 01:01:01.166 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:00:55.516 --> 01:01:01.166 A:middle
 [ Applause ]
@@ -5246,10 +4808,6 @@ the files are actually modified.
 01:01:56.776 --> 01:01:59.816 A:middle
 It's very fast and you can
 clone files, directories,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:02:00.126 --> 01:02:01.106 A:middle
 and directory hierarchies.
@@ -5348,14 +4906,6 @@ download it, check it out,
 give us feedback, and the Apple
 File System will be coming
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:02:57.966 --> 01:03:00.846 A:middle
-give us feedback, and the Apple
-File System will be coming
-
 01:03:00.886 --> 01:03:02.886 A:middle
 to all Apple devices soon.
 
@@ -5430,14 +4980,6 @@ to get the answer to this.
 01:03:55.876 --> 01:03:58.496 A:middle
 It's also something that is
 where you want your answer
-
-01:03:58.496 --> 01:04:00.816 A:middle
-to remain private
-because let's face it,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:03:58.496 --> 01:04:00.816 A:middle
 to remain private
@@ -5521,18 +5063,10 @@ Now, how are we actually
 applying differential privacy
 
 01:04:56.316 --> 01:04:57.036 A:middle
-in iOS X?
+in iOS 10?
 
 01:04:57.036 --> 01:04:58.256 A:middle
 Let me give an example of this.
-
-01:04:59.126 --> 01:05:01.856 A:middle
-In Spotlight, we provide
-suggestions for deep links
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:04:59.126 --> 01:05:01.856 A:middle
 In Spotlight, we provide
@@ -5612,14 +5146,6 @@ too many samples from one user?
 Could you not then
 figure out what I'm doing?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:05:58.746 --> 01:06:00.866 A:middle
-Could you not then
-figure out what I'm doing?
-
 01:06:01.516 --> 01:06:03.846 A:middle
 And this is where the
 privacy budget comes in.
@@ -5658,9 +5184,9 @@ and still maintain your privacy.
 So with this, I'm going to hand
 it over to Toby, Toby Paterson,
 
-01:06:29.006 --> 01:06:32.006 A:middle
+01:06:29.006 --> 01:06:31.976 A:middle
 who will be talking about
-higher level features in iOS X.
+higher level features in iOS 10.
 
 01:06:32.186 --> 01:06:32.626 A:middle
 Toby?
@@ -5684,14 +5210,6 @@ to all of you that we have
 01:06:52.246 --> 01:06:57.396 A:middle
 such a rich ecosystem on iOS,
 and we are constantly looking
-
-01:06:57.396 --> 01:07:00.746 A:middle
-for new ways to help
-users find applications,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:06:57.396 --> 01:07:00.746 A:middle
 for new ways to help
@@ -5766,14 +5284,6 @@ to the most appropriate place
 for a platform, and
 you can link directly
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:07:59.436 --> 01:08:02.066 A:middle
-for a platform, and
-you can link directly
-
 01:08:02.066 --> 01:08:04.846 A:middle
 from one application to another.
 
@@ -5793,7 +5303,7 @@ on the lock screen.
 We can connect apps based
 on common data types
 
-01:08:18.036 --> 01:08:21.345 A:middle
+01:08:18.036 --> 01:08:21.346 A:middle
 like this and this and this.
 
 01:08:22.336 --> 01:08:23.656 A:middle
@@ -5817,15 +5327,15 @@ the OS what people are doing
 01:08:38.036 --> 01:08:40.086 A:middle
 in your app, and that allows us
 
-01:08:40.086 --> 01:08:43.095 A:middle
+01:08:40.086 --> 01:08:43.096 A:middle
 to create intelligent
 suggestions and connections
 
 01:08:43.156 --> 01:08:44.736 A:middle
 between your applications.
 
-01:08:45.906 --> 01:08:49.935 A:middle
-And in iOS X, we're adding two
+01:08:45.906 --> 01:08:49.936 A:middle
+And in iOS 10, we're adding two
 important pieces of information.
 
 01:08:51.446 --> 01:08:55.136 A:middle
@@ -5839,18 +5349,14 @@ to make connections
 01:08:57.876 --> 01:08:59.466 A:middle
 between your applications.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 01:09:00.216 --> 01:09:02.536 A:middle
 Let me illustrate
 with an example.
 
-01:09:03.796 --> 01:09:05.185 A:middle
+01:09:03.796 --> 01:09:05.186 A:middle
 This is the Yelp page for one
 
-01:09:05.185 --> 01:09:08.156 A:middle
+01:09:05.186 --> 01:09:08.156 A:middle
 of my favorite restaurants
 in San Francisco.
 
@@ -5858,13 +5364,13 @@ in San Francisco.
 Now, suppose it were to
 provide an NSUserActivity
 
-01:09:11.996 --> 01:09:13.975 A:middle
+01:09:11.996 --> 01:09:13.976 A:middle
 with this address on it.
 
-01:09:14.136 --> 01:09:15.515 A:middle
+01:09:14.136 --> 01:09:15.516 A:middle
 That would allow me to do things
 
-01:09:15.515 --> 01:09:18.916 A:middle
+01:09:15.516 --> 01:09:18.916 A:middle
 like asking Siri to
 just take me here.
 
@@ -5880,11 +5386,11 @@ really easy for me
 to order a ride directly
 to the restaurant.
 
-01:09:29.426 --> 01:09:33.595 A:middle
+01:09:29.426 --> 01:09:33.596 A:middle
 Or when I'm typing in a text
 field that's expecting location
 
-01:09:33.595 --> 01:09:37.666 A:middle
+01:09:33.596 --> 01:09:37.666 A:middle
 data, QuickType can suggest an
 address that I was just looking
 
@@ -5892,11 +5398,11 @@ address that I was just looking
 at and Maps can include that in
 its list of suggestions along
 
-01:09:42.866 --> 01:09:45.895 A:middle
+01:09:42.866 --> 01:09:45.896 A:middle
 with a quick way of getting
 back into the application.
 
-01:09:48.095 --> 01:09:51.116 A:middle
+01:09:48.096 --> 01:09:51.116 A:middle
 Now, we also interact with
 people in a variety of ways,
 
@@ -5909,14 +5415,6 @@ with any given person.
 
 01:09:57.196 --> 01:09:58.856 A:middle
 To do this, your app needs
-
-01:09:58.856 --> 01:10:00.726 A:middle
-to give us three
-pieces of information.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:09:58.856 --> 01:10:00.726 A:middle
 to give us three
@@ -5988,10 +5486,6 @@ of this learning is private
 to the user and accessible
 only on their devices.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 01:11:00.676 --> 01:11:04.576 A:middle
 Now, we deeply believe
 that integrating your apps
@@ -6056,14 +5550,6 @@ end-to-end encryption.
 
 01:11:56.516 --> 01:11:59.096 A:middle
 [ Applause ]
-
-01:11:59.596 --> 01:12:01.146 A:middle
-Now, I should point
-out you may want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:11:59.596 --> 01:12:01.146 A:middle
 Now, I should point
@@ -6137,13 +5623,6 @@ widgets available right here
 01:12:59.276 --> 01:13:00.246 A:middle
 from the home screen.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:12:59.276 --> 01:13:00.246 A:middle
-from the home screen.
-
 01:13:00.956 --> 01:13:02.436 A:middle
 I'm going to tell you
 what you need to do
@@ -6165,7 +5644,7 @@ doesn't look too funny.
 
 01:13:14.116 --> 01:13:19.246 A:middle
 You need to build with the
-iOS X SDK, and that's it.
+iOS 10 SDK, and that's it.
 
 01:13:19.426 --> 01:13:22.626 A:middle
 Nothing else has changed about
@@ -6208,14 +5687,6 @@ with iOS and watchOS,
 01:13:52.446 --> 01:13:56.156 A:middle
 which quietly introduced support
 for this earlier in the year.
-
-01:13:57.056 --> 01:14:00.886 A:middle
-And with so many potential
-customers all over the world,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:13:57.056 --> 01:14:00.886 A:middle
 And with so many potential
@@ -6299,14 +5770,6 @@ morning how we're making it easy
 for people to move their
 documents and their data
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:14:59.476 --> 01:15:01.736 A:middle
-for people to move their
-documents and their data
-
 01:15:02.246 --> 01:15:04.376 A:middle
 into the cloud, and
 we really believe
@@ -6365,14 +5828,6 @@ removing that restriction.
 01:15:58.276 --> 01:15:59.806 A:middle
 Now, your app still
 needs to be signed
-
-01:15:59.806 --> 01:16:02.856 A:middle
-with a valid developer ID, which
-by the way, will also get rid
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:15:59.806 --> 01:16:02.856 A:middle
 with a valid developer ID, which
@@ -6437,14 +5892,6 @@ you a, governs the permissions,
 01:16:56.856 --> 01:16:59.096 A:middle
 who can read and write
 a given set of records,
-
-01:16:59.196 --> 01:17:02.866 A:middle
-and this API is available
-on all of our platforms.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:16:59.196 --> 01:17:02.866 A:middle
 and this API is available
@@ -6515,14 +5962,6 @@ These enhancements focus
 01:17:54.856 --> 01:17:57.436 A:middle
 on three key qualities
 for Watch apps.
-
-01:17:58.066 --> 01:18:00.416 A:middle
-The first is that
-they be glanceable.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:17:58.066 --> 01:18:00.416 A:middle
 The first is that
@@ -6601,14 +6040,6 @@ that takes up the full screen.
 01:18:56.516 --> 01:18:59.786 A:middle
 Now, that's definitely part
 of it, but on Apple Watch,
-
-01:18:59.786 --> 01:19:02.236 A:middle
-it's important to keep in
-mind that your app has access
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:18:59.786 --> 01:19:02.236 A:middle
 it's important to keep in
@@ -6694,14 +6125,6 @@ make sure that it looks
 and works great when
 viewed from the Dock.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:19:57.786 --> 01:20:00.106 A:middle
-and works great when
-viewed from the Dock.
-
 01:20:01.526 --> 01:20:04.936 A:middle
 Apps in the Dock are instantly
 responsive, helping to make sure
@@ -6779,13 +6202,6 @@ Once you're done using it,
 01:20:53.966 --> 01:20:54.996 A:middle
 you'll be returned
 to the watch face.
-
-01:20:56.516 --> 01:21:01.576 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:20:56.516 --> 01:21:01.576 A:middle
 [ Applause ]
@@ -6876,10 +6292,6 @@ remain instantly available even
 if you switch to another
 app to perform another task.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 01:22:00.016 --> 01:22:02.546 A:middle
 So if I jump out to the Music
 app to change the current track,
@@ -6967,10 +6379,6 @@ you a ton of flexibility
 to enhance the visuals
 of your applications
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 01:23:00.266 --> 01:23:01.976 A:middle
 and also your notifications.
 
@@ -7050,15 +6458,8 @@ And to help you with that,
 the new watch face gallery
 
 01:23:56.106 --> 01:23:59.406 A:middle
-in iOS X includes an
+in iOS 10 includes an
 entire section devoted just
-
-01:23:59.406 --> 01:24:00.756 A:middle
-to displaying all of your apps.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:23:59.406 --> 01:24:00.756 A:middle
 to displaying all of your apps.
@@ -7153,14 +6554,6 @@ mood is at different times.
 So right now, you can
 see that he's happy.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:24:59.406 --> 01:25:01.896 A:middle
-So right now, you can
-see that he's happy.
-
 01:25:02.416 --> 01:25:03.616 A:middle
 If I now suspend the app,
 
@@ -7228,14 +6621,6 @@ which is the perfect place
 01:25:55.886 --> 01:25:58.346 A:middle
 to update all of these
 interfaces as my data changes.
-
-01:25:59.536 --> 01:26:01.946 A:middle
-Here in my Snapshot
-Refresh background task,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:25:59.536 --> 01:26:01.946 A:middle
 Here in my Snapshot
@@ -7310,10 +6695,6 @@ with some SceneKit assets
 and to make an outlet, which
 I'll connect right now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 01:27:00.636 --> 01:27:04.196 A:middle
 Drag it into my SceneKit
 interface.
@@ -7368,10 +6749,6 @@ I now suspend the application,
 
 01:27:54.266 --> 01:27:55.666 A:middle
 wait for him to get hungry.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:28:00.226 --> 01:28:02.876 A:middle
 We see a really sad,
@@ -7445,14 +6822,6 @@ of TV is apps, and since then,
 01:28:53.176 --> 01:28:56.926 A:middle
 you guys have been very
 busy bringing over 6000 apps
-
-01:28:56.976 --> 01:29:00.166 A:middle
-to the App Store, including
-entertainment apps, games,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:28:56.976 --> 01:29:00.166 A:middle
 to the App Store, including
@@ -7540,14 +6909,6 @@ all these technologies
 
 01:29:58.546 --> 01:29:59.496 A:middle
 and bringing them all together
-
-01:29:59.496 --> 01:30:02.976 A:middle
-to deliver a great
-experience on tvOS.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:29:59.496 --> 01:30:02.976 A:middle
 to deliver a great
@@ -7645,14 +7006,6 @@ like this one from Showtime.
 We have a technology
 called TVMLKit,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:30:59.806 --> 01:31:01.646 A:middle
-We have a technology
-called TVMLKit,
-
 01:31:01.646 --> 01:31:02.876 A:middle
 a framework called TVMLKit.
 
@@ -7726,14 +7079,6 @@ devices at the same time.
 01:31:56.576 --> 01:31:58.496 A:middle
 With SongPop Party
 from FreshPlanet,
-
-01:31:58.556 --> 01:32:00.586 A:middle
-the whole family can
-play using their iPhone
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:31:58.556 --> 01:32:00.586 A:middle
 the whole family can
@@ -7820,13 +7165,6 @@ screen designed for gameplay.
 01:32:58.386 --> 01:33:01.286 A:middle
 To your game, the new app shows
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:32:58.386 --> 01:33:01.286 A:middle
-To your game, the new app shows
-
 01:33:01.286 --> 01:33:04.416 A:middle
 up as a micro gamepad
 just like the Siri Remote.
@@ -7891,13 +7229,6 @@ required controller is present
 01:33:56.316 --> 01:33:57.846 A:middle
 and prompt the user
 if it's necessary.
-
-01:33:59.946 --> 01:34:01.396 A:middle
-That's an update on tvOS.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:33:59.946 --> 01:34:01.396 A:middle
 That's an update on tvOS.
@@ -7983,14 +7314,6 @@ reproduce all the colors you
 would see in life accurately
 of things like flowers
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:34:57.596 --> 01:35:00.386 A:middle
-would see in life accurately
-of things like flowers
-
 01:35:00.386 --> 01:35:03.086 A:middle
 or paint colors or maybe
 even the clothes you wear.
@@ -8061,13 +7384,6 @@ So that's color.
 01:35:56.516 --> 01:36:00.556 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:35:56.516 --> 01:36:00.556 A:middle
-[ Applause ]
-
 01:36:01.056 --> 01:36:01.726 A:middle
 I'd like to talk
 
@@ -8110,8 +7426,8 @@ or Metal function
 specialization.
 
 01:36:28.216 --> 01:36:31.716 A:middle
-Which when combined with
-Xcode allows you to build a set
+Which when combined with S
+code allows you to build a set
 
 01:36:31.716 --> 01:36:34.266 A:middle
 of shaders that automatically
@@ -8150,10 +7466,6 @@ And Metal is everywhere.
 01:36:56.226 --> 01:36:59.406 A:middle
 Hundreds of millions
 of devices use Metal.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:37:00.456 --> 01:37:01.756 A:middle
 Our key graphics frameworks
@@ -8232,10 +7544,6 @@ going to take it up a notch
 
 01:37:56.576 --> 01:37:59.056 A:middle
 with ReplayKit Streaming.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:38:00.186 --> 01:38:03.076 A:middle
 Now, Replay Kit can
@@ -8316,14 +7624,6 @@ you don't need to do anything.
 With the latest OS's,
 this just works,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:38:58.846 --> 01:39:00.826 A:middle
-With the latest OS's,
-this just works,
-
 01:39:00.826 --> 01:39:04.016 A:middle
 and we're not going
 to stop with that.
@@ -8389,14 +7689,6 @@ our Xcode gameplay tools.
 
 01:39:55.106 --> 01:39:55.716 A:middle
 &gt;&gt; Thanks, Geoff.
-
-01:39:55.986 --> 01:40:00.186 A:middle
-I'd like to show you how quickly
-I can build a game in Xcode 8.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:39:55.986 --> 01:40:00.186 A:middle
 I'd like to show you how quickly
@@ -8478,13 +7770,6 @@ entity in the scene.
 01:40:59.236 --> 01:41:00.546 A:middle
 So to build the island map,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:40:59.236 --> 01:41:00.546 A:middle
-So to build the island map,
-
 01:41:01.046 --> 01:41:03.286 A:middle
 I've been using the
 new Tiled Map Editor.
@@ -8556,14 +7841,6 @@ that I want to work on.
 01:41:53.426 --> 01:41:56.226 A:middle
 Now that I think the island
 looks a little bit too plain,
-
-01:41:56.646 --> 01:42:00.656 A:middle
-and to make such modifications,
-I can just simply paint
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:41:56.646 --> 01:42:00.656 A:middle
 and to make such modifications,
@@ -8650,14 +7927,6 @@ the value to be 2 rather
 than using the default
 value of 1.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:42:59.706 --> 01:43:01.786 A:middle
-than using the default
-value of 1.
-
 01:43:02.456 --> 01:43:05.736 A:middle
 And in addition, I have
 a drone that drops the,
@@ -8734,13 +8003,6 @@ run on all Apple platforms.
 
 01:43:59.296 --> 01:43:59.756 A:middle
 Thank you.
-
-01:43:59.926 --> 01:44:00.706 A:middle
-Now, back to Andreas.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:43:59.926 --> 01:44:00.706 A:middle
 Now, back to Andreas.
@@ -8832,23 +8094,15 @@ get ready for all launches,
 create even more powerful and
 unique apps for your users.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:44:59.756 --> 01:45:02.506 A:middle
-create even more powerful and
-unique apps for your users.
-
 01:45:03.816 --> 01:45:05.726 A:middle
 Also, go and check out the
 new Swift Playgrounds app,
 
-01:45:06.216 --> 01:45:07.746 A:middle
-which we're including in
-the iOS X Developer Preview.
+01:45:06.216 --> 01:45:08.536 A:middle
+which we're including in the
+iOS 10 Developer Preview.
 
-01:45:07.746 --> 01:45:10.286 A:middle
+01:45:08.536 --> 01:45:10.286 A:middle
 I think you're going to
 have a ton of fun with it
 

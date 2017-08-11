@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:19.500 A:middle
 [ Music ]
@@ -37,13 +36,6 @@ The scrubbing?
 00:00:54.386 --> 00:00:57.506 A:middle
 Maybe the audio and
 subtitle settings?
-
-00:00:58.236 --> 00:01:01.706 A:middle
-No. Of course not.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.236 --> 00:01:01.706 A:middle
 No. Of course not.
@@ -110,14 +102,6 @@ infrared universal remotes.
 Wouldn't it be great if you
 didn't have to deal with this?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.776 --> 00:02:04.386 A:middle
-Wouldn't it be great if you
-didn't have to deal with this?
-
 00:02:04.826 --> 00:02:06.956 A:middle
 I'm Dan Wright and
 today I'll be talking
@@ -175,14 +159,6 @@ through the entire video.
 00:02:52.886 --> 00:02:55.796 A:middle
 Swiping down reveals info panel,
 which includes information
-
-00:02:55.796 --> 00:03:00.486 A:middle
-about the video and navigation
-markers as well as access
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:55.796 --> 00:03:00.486 A:middle
 about the video and navigation
@@ -255,13 +231,6 @@ about some best practices.
 00:03:59.426 --> 00:04:00.306 A:middle
 All right, let's get started.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.426 --> 00:04:00.306 A:middle
-All right, let's get started.
-
 00:04:01.706 --> 00:04:04.216 A:middle
 Let's talk about
 AVPlayerViewController.
@@ -278,7 +247,7 @@ by your application.
 The AVAsset represents
 the audio visual media.
 
-00:04:16.755 --> 00:04:20.386 A:middle
+00:04:16.756 --> 00:04:20.386 A:middle
 AVPlayerItem represents the
 presentation state of an asset.
 
@@ -319,14 +288,6 @@ all that to one line just
 00:04:55.766 --> 00:04:58.506 A:middle
 to create the player directly
 from the URL and assign it
-
-00:04:58.636 --> 00:05:01.056 A:middle
-to the player property of
-the playerViewController.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.636 --> 00:05:01.056 A:middle
 to the player property of
@@ -407,14 +368,6 @@ with several enhancements.
 Namely, the ability to add
 non-interactive overlays.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.916 --> 00:06:04.746 A:middle
-Namely, the ability to add
-non-interactive overlays.
-
 00:06:05.486 --> 00:06:07.106 A:middle
 Restrict playback interaction.
 
@@ -460,10 +413,6 @@ Views may be static or animated.
 00:06:57.036 --> 00:06:59.856 A:middle
 But views will not
 receive focus or events.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.666 --> 00:07:04.146 A:middle
 Let's move on to
@@ -534,14 +483,6 @@ to this top section right here.
 This is where the informational
 metadata is displayed on tvOS.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.326 --> 00:08:03.426 A:middle
-This is where the informational
-metadata is displayed on tvOS.
-
 00:08:03.916 --> 00:08:07.086 A:middle
 Now, in addition, it'll also be
 displayed in the iOS remote app.
@@ -576,7 +517,7 @@ metadata items.
 And we will create a
 couple of helper functions
 
-00:08:31.276 --> 00:08:32.525 A:middle
+00:08:31.276 --> 00:08:32.526 A:middle
 to make it a little easier.
 
 00:08:33.596 --> 00:08:36.486 A:middle
@@ -590,7 +531,7 @@ and a value.
 And it's going to
 return an AVMetadataItem.
 
-00:08:40.655 --> 00:08:43.996 A:middle
+00:08:40.656 --> 00:08:43.996 A:middle
 And so metadataItem has a
 whole bunch of properties.
 
@@ -608,14 +549,6 @@ the extended language tag.
 00:08:54.286 --> 00:08:58.246 A:middle
 Now, you see here I've set it
 to the string und which is short
-
-00:08:58.246 --> 00:09:01.646 A:middle
-for undefined and it
-acts like a wildcard.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.246 --> 00:09:01.646 A:middle
 for undefined and it
@@ -694,14 +627,6 @@ helper function to add a title,
 a description and the poster
 image to that array --
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.386 --> 00:10:01.266 A:middle
-a description and the poster
-image to that array --
-
 00:10:02.076 --> 00:10:03.446 A:middle
 oh, and sorry, also the genre.
 
@@ -766,10 +691,6 @@ of navigation markers,
 
 00:10:54.866 --> 00:10:56.826 A:middle
 in this case chapters.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.336 --> 00:11:02.306 A:middle
 Every marker has a title.
@@ -837,14 +758,6 @@ All right.
 00:11:54.296 --> 00:11:55.906 A:middle
 Now let's talk about
 interstitials.
-
-00:11:56.626 --> 00:12:04.446 A:middle
-Here we see a video with several
-interstitials as indicated
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:56.626 --> 00:12:04.446 A:middle
 Here we see a video with several
@@ -918,14 +831,6 @@ distracted
 by ads popping ups
 as they're scrubbing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.686 --> 00:13:04.386 A:middle
-by ads popping ups
-as they're scrubbing.
-
 00:13:05.256 --> 00:13:09.236 A:middle
 Now here we have a diagram
 comparing the timelines
@@ -981,10 +886,6 @@ delegate methods
 
 00:13:56.956 --> 00:13:58.296 A:middle
 to enforce playback policy.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.216 --> 00:14:02.776 A:middle
 Here's a short snippet
@@ -1058,14 +959,6 @@ You set it to true.
 
 00:14:57.326 --> 00:14:58.376 A:middle
 Then they can't skip out.
-
-00:14:58.376 --> 00:15:01.566 A:middle
-They could still pause,
-head to the kitchen
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.376 --> 00:15:01.566 A:middle
 They could still pause,
@@ -1145,14 +1038,6 @@ to resume.
 So by default, if you didn't
 implement this method,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.776 --> 00:16:02.546 A:middle
-So by default, if you didn't
-implement this method,
-
 00:16:02.546 --> 00:16:04.896 A:middle
 it would resume at
 the target time.
@@ -1221,14 +1106,6 @@ In tvOS 10 you can choose
 between these two
 skipping behaviors.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.716 --> 00:17:00.596 A:middle
-between these two
-skipping behaviors.
-
 00:17:01.016 --> 00:17:05.116 A:middle
 If your app is displaying
 something like a movie
@@ -1237,11 +1114,11 @@ something like a movie
 or a TV show, it's probably
 most useful for users to be able
 
-00:17:09.266 --> 00:17:12.915 A:middle
+00:17:09.266 --> 00:17:12.916 A:middle
 to navigate skip 10 seconds
 back and forward at a time
 
-00:17:12.915 --> 00:17:15.976 A:middle
+00:17:12.916 --> 00:17:15.976 A:middle
 to more easily find the scene
 that they're looking for.
 
@@ -1253,7 +1130,7 @@ of short videos,
 for example exercise videos,
 it probably makes more sense
 
-00:17:23.256 --> 00:17:27.705 A:middle
+00:17:23.256 --> 00:17:27.706 A:middle
 to let users easily skip to the
 next video, the next exercise,
 
@@ -1295,14 +1172,6 @@ and properties to enable
 00:17:50.196 --> 00:17:54.316 A:middle
 and disable the skip forward and
 skip backward hint indicators.
-
-00:17:54.886 --> 00:18:00.166 A:middle
-So let's look at
-skipping by item instead
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:54.886 --> 00:18:00.166 A:middle
 So let's look at
@@ -1384,14 +1253,6 @@ called AVKit Player.
 00:18:56.386 --> 00:18:59.276 A:middle
 I have the project
 open here in Xcode.
-
-00:18:59.336 --> 00:19:01.226 A:middle
-And this is the main
-view controller.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.336 --> 00:19:01.226 A:middle
 And this is the main
@@ -1481,14 +1342,6 @@ create some AVMetadataItems,
 add them to an array
 and assign this array
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.416 --> 00:20:00.586 A:middle
-add them to an array
-and assign this array
-
 00:20:00.586 --> 00:20:02.346 A:middle
 to the
 playerItemExternalMetadata
@@ -1565,14 +1418,6 @@ of AVMetadataItems.
 Cool. So we created
 AVMetadataItems,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.126 --> 00:21:00.336 A:middle
-Cool. So we created
-AVMetadataItems,
-
 00:21:00.666 --> 00:21:02.936 A:middle
 added them to an array,
 assigned that array
@@ -1634,10 +1479,6 @@ AVNavigationMarkersGroup
 00:21:57.116 --> 00:21:59.716 A:middle
 with some time metadata
 groups with a name.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.406 --> 00:22:01.586 A:middle
 We added that to an array.
@@ -1710,10 +1551,6 @@ Dan.
 00:22:55.376 --> 00:22:55.976 A:middle
 &gt;&gt; Thank you, Jonathan.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.876 --> 00:23:01.326 A:middle
 All right.
 
@@ -1778,14 +1615,6 @@ Thank you.
 00:23:55.926 --> 00:23:58.266 A:middle
 Now, you have the entire
 screen to work with.
-
-00:23:58.676 --> 00:24:01.286 A:middle
-So you're not limited
-to anything here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.676 --> 00:24:01.286 A:middle
 So you're not limited
@@ -1856,10 +1685,6 @@ that you want it to appear
 00:24:58.076 --> 00:24:59.626 A:middle
 at the very end of the video.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.646 --> 00:25:03.786 A:middle
 However, if you're presenting a
 TV show or a movie or something
@@ -1928,14 +1753,6 @@ should provide to a user.
 00:25:52.626 --> 00:25:55.176 A:middle
 You can, of course, provide
 as much additional information
-
-00:25:55.176 --> 00:26:00.196 A:middle
-as you like: Description,
-maybe a little widget
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:55.176 --> 00:26:00.196 A:middle
 as you like: Description,
@@ -2013,14 +1830,6 @@ of the content proposal, a URL.
 And we're going to set it
 to the URL for this episode,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.356 --> 00:27:01.106 A:middle
-And we're going to set it
-to the URL for this episode,
-
 00:27:02.386 --> 00:27:03.436 A:middle
 for our own use later.
 
@@ -2080,14 +1889,6 @@ the video that you've suggested.
 00:27:52.816 --> 00:27:57.486 A:middle
 It will also be called
 if the timeout occurs.
-
-00:27:57.966 --> 00:28:01.286 A:middle
-And didReject is called
-if the user has indicated
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.966 --> 00:28:01.286 A:middle
 And didReject is called
@@ -2153,13 +1954,6 @@ a corner or something,
 00:28:53.126 --> 00:28:56.326 A:middle
 to give yourself lots of space,
 the rest of the screen to work
-
-00:28:56.326 --> 00:29:00.016 A:middle
-with for your controls.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:56.326 --> 00:29:00.016 A:middle
 with for your controls.
@@ -2242,10 +2036,6 @@ to actually need it
 and not allocate
 a bunch of memory
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.036 --> 00:30:03.636 A:middle
 that the user may never get to.
 
@@ -2325,14 +2115,6 @@ Up Next experience
 by subclassing
 AVContentProposalViewController.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.576 --> 00:31:02.326 A:middle
-by subclassing
-AVContentProposalViewController.
-
 00:31:03.246 --> 00:31:05.226 A:middle
 So the first thing we
 need to do is we need
@@ -2398,14 +2180,6 @@ things that we need to do.
 First, we need to create an
 instance of AVContentProposal
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.526 --> 00:32:01.956 A:middle
-First, we need to create an
-instance of AVContentProposal
-
 00:32:02.306 --> 00:32:02.956 A:middle
 and assign it
 
@@ -2458,14 +2232,6 @@ playerVIewController
 
 00:32:55.666 --> 00:32:56.556 A:middle
 delegate methods.
-
-00:32:56.996 --> 00:33:00.626 A:middle
-You can see here that we set the
-playerViewController delegate
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:56.996 --> 00:33:00.626 A:middle
 You can see here that we set the
@@ -2536,18 +2302,14 @@ And we're done.
 So let's build and run
 and see what happens.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:03.136 --> 00:34:06.686 A:middle
 So I'll go ahead and skip closer
 to the end of the content.
 
-00:34:08.516 --> 00:34:14.545 A:middle
+00:34:08.516 --> 00:34:14.546 A:middle
 [ Music ]
 
-00:34:15.045 --> 00:34:17.596 A:middle
+00:34:15.046 --> 00:34:17.596 A:middle
 And here is our contentProposal.
 
 00:34:17.596 --> 00:34:20.306 A:middle
@@ -2562,10 +2324,10 @@ well as the title.
 And if I select Play
 Next, we would transition
 
-00:34:27.676 --> 00:34:28.545 A:middle
+00:34:27.676 --> 00:34:28.546 A:middle
 to our next playerItem.
 
-00:34:28.545 --> 00:34:34.706 A:middle
+00:34:28.546 --> 00:34:34.706 A:middle
 So I think if you
 have implemented this
 
@@ -2589,14 +2351,6 @@ of the AVKit.
 
 00:34:52.656 --> 00:34:54.826 A:middle
 &gt;&gt; Okay. Best practices.
-
-00:34:56.406 --> 00:35:00.236 A:middle
-I'm going to talk
-about a few things.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:56.406 --> 00:35:00.236 A:middle
 I'm going to talk
@@ -2670,14 +2424,6 @@ out about errors
 
 00:35:55.146 --> 00:35:56.286 A:middle
 that occur during playback.
-
-00:35:56.896 --> 00:36:01.076 A:middle
-And I'm going to talk about one
-particular error in a minute
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:56.896 --> 00:36:01.076 A:middle
 And I'm going to talk about one
@@ -2773,14 +2519,6 @@ confuse users,
 but you'll likely
 break in the future.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:57.386 --> 00:37:02.296 A:middle
-but you'll likely
-break in the future.
-
 00:37:03.576 --> 00:37:06.136 A:middle
 Now, some more general tips.
 
@@ -2861,14 +2599,6 @@ an excellent session,
 Mastering Modern Media
 Playback, which includes tips
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:57.376 --> 00:38:00.016 A:middle
-Mastering Modern Media
-Playback, which includes tips
-
 00:38:00.016 --> 00:38:02.916 A:middle
 for both AVKit and
 AVFoundation and getting them
@@ -2931,4 +2661,3 @@ So, thank you.
 
 00:38:55.508 --> 00:38:57.508 A:middle
 [ Applause ]
-

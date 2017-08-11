@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:18.500 A:middle
 [ Music ]
@@ -63,13 +62,6 @@ over best practices.
 00:00:58.006 --> 00:00:59.456 A:middle
 This is going to
 be an easy session
-
-00:00:59.456 --> 00:01:00.526 A:middle
-for you guys to listen to.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.456 --> 00:01:00.526 A:middle
 for you guys to listen to.
@@ -176,14 +168,6 @@ new opportunities
 to enhance your app, one
 that I'm particularly excited
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.606 --> 00:02:01.246 A:middle
-to enhance your app, one
-that I'm particularly excited
-
 00:02:01.246 --> 00:02:02.596 A:middle
 about at the end of
 the presentation,
@@ -281,14 +265,6 @@ you could adopt.
 Auto Layout, this is still a
 relatively new technology it's
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.636 --> 00:03:03.686 A:middle
-Auto Layout, this is still a
-relatively new technology it's
-
 00:03:03.686 --> 00:03:05.446 A:middle
 been in several iOS
 releases now.
@@ -381,14 +357,6 @@ accessibility labs later this
 week if you'd like
 to look into it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.686 --> 00:04:00.306 A:middle
-week if you'd like
-to look into it.
-
 00:04:01.256 --> 00:04:06.026 A:middle
 Swift. This is the newest
 most secure, fastest runtime.
@@ -411,11 +379,11 @@ language, it's truly stunning.
 I shouldn't have to tell
 this audience to adopt Swift,
 
-00:04:18.196 --> 00:04:20.745 A:middle
+00:04:18.196 --> 00:04:20.746 A:middle
 but it's again another
 newer technology
 
-00:04:20.745 --> 00:04:22.386 A:middle
+00:04:20.746 --> 00:04:22.386 A:middle
 that you should really be
 looking at investing in.
 
@@ -476,14 +444,6 @@ project AirPlay.
 
 00:04:56.656 --> 00:04:58.826 A:middle
 And finally 3D Touch.
-
-00:04:58.826 --> 00:05:01.806 A:middle
-This is perhaps the newest
-technology, newest hardware.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.826 --> 00:05:01.806 A:middle
 This is perhaps the newest
@@ -570,14 +530,6 @@ multiple students share
 00:05:53.006 --> 00:05:56.076 A:middle
 and iPad throughout the day
 and for different classes.
-
-00:05:56.416 --> 00:06:00.426 A:middle
-This offers a huge market for
-the developers in the audience,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:56.416 --> 00:06:00.426 A:middle
 This offers a huge market for
@@ -673,14 +625,6 @@ they're buying fewer pieces
 
 00:06:55.166 --> 00:06:55.956 A:middle
 of hardware from us [applause].
-
-00:06:57.156 --> 00:07:02.546 A:middle
-So, the way you log in is
-using a new Apple ID called a
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.156 --> 00:07:02.546 A:middle
 So, the way you log in is
@@ -786,13 +730,6 @@ review Todd's session.
 00:07:59.646 --> 00:08:00.726 A:middle
 There was a live demo of this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.646 --> 00:08:00.726 A:middle
-There was a live demo of this.
-
 00:08:00.726 --> 00:08:03.086 A:middle
 I have some static slides
 showing what a login looks like.
@@ -853,14 +790,14 @@ from the cloud to get her ready.
 When it's done downloading
 data form the Cloud,
 
-00:08:40.186 --> 00:08:42.775 A:middle
+00:08:40.186 --> 00:08:42.776 A:middle
 or the initial setup
 data, Mia uses the iPad
 
-00:08:42.775 --> 00:08:44.025 A:middle
+00:08:42.776 --> 00:08:44.026 A:middle
 for the entire class session.
 
-00:08:44.025 --> 00:08:47.136 A:middle
+00:08:44.026 --> 00:08:47.136 A:middle
 She uses Pages, she uses Garage
 Band, and she works with it
 
@@ -878,13 +815,6 @@ the iPad has to push the data
 00:08:56.846 --> 00:08:58.986 A:middle
 up to the Cloud for any data
 that wasn't being pushed
-
-00:08:58.986 --> 00:09:00.306 A:middle
-to the Cloud during the session.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.986 --> 00:09:00.306 A:middle
 to the Cloud during the session.
@@ -966,14 +896,6 @@ review of the iPad expectations.
 00:09:56.106 --> 00:09:59.266 A:middle
 So, I get a lot of questions
 about this from engineers,
-
-00:09:59.266 --> 00:10:01.166 A:middle
-both internally and
-here at the conference,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.266 --> 00:10:01.166 A:middle
 both internally and
@@ -1070,13 +992,6 @@ a Shared iPad environment
 00:10:59.396 --> 00:11:02.406 A:middle
 as users log in and log out.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.396 --> 00:11:02.406 A:middle
-as users log in and log out.
-
 00:11:03.276 --> 00:11:06.626 A:middle
 User data is cached
 on the device.
@@ -1152,14 +1067,6 @@ that we make available,
 00:11:52.156 --> 00:11:54.636 A:middle
 or some of the four key
 technologies we make available
-
-00:11:54.636 --> 00:12:00.706 A:middle
-are CloudKit, iCloud Drive
-NSUbiquitousKeyStore, KeyChain.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:54.636 --> 00:12:00.706 A:middle
 are CloudKit, iCloud Drive
@@ -1250,14 +1157,6 @@ when Mia's not logged in.
 But, we prefer her to exit
 clean with no dirty data.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.236 --> 00:13:03.696 A:middle
-But, we prefer her to exit
-clean with no dirty data.
-
 00:13:06.696 --> 00:13:08.536 A:middle
 So let's talk a little
 bit about CloudKit.
@@ -1328,14 +1227,6 @@ when your app's not running,
 00:13:54.956 --> 00:13:57.706 A:middle
 or in the foreground, or even
 when Mia's no longer logged in.
-
-00:13:57.976 --> 00:14:01.716 A:middle
-So, if you're going to adopt
-CloudKit and you're going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.976 --> 00:14:01.716 A:middle
 So, if you're going to adopt
@@ -1432,14 +1323,6 @@ she accesses.
 So the device does not have
 to download all 2 gigabytes
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:56.906 --> 00:15:00.426 A:middle
-So the device does not have
-to download all 2 gigabytes
-
 00:15:00.426 --> 00:15:03.106 A:middle
 of Mia's Cloud data in order
 for her to use your app,
@@ -1523,14 +1406,6 @@ for use of iMovie, but maybe.
 00:15:54.036 --> 00:15:56.886 A:middle
 Maybe for smaller
 datasets it would be fine.
-
-00:15:57.426 --> 00:16:01.036 A:middle
-I specifically got this quote
-from the CloudKit lead engineer,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.426 --> 00:16:01.036 A:middle
 I specifically got this quote
@@ -1635,14 +1510,6 @@ the other device.
 It's modelled on
 NSDictionary and again talking
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.296 --> 00:17:02.326 A:middle
-It's modelled on
-NSDictionary and again talking
-
 00:17:02.326 --> 00:17:04.296 A:middle
 to the CloudKit engineering
 team,
@@ -1655,18 +1522,18 @@ NSUbiquitousKeyStore,
 moved on to CloudKit,
 smaller payload only please.
 
-00:17:09.356 --> 00:17:11.185 A:middle
+00:17:09.356 --> 00:17:11.186 A:middle
 This data is not
 fetch on demand,
 
-00:17:11.185 --> 00:17:12.316 A:middle
+00:17:11.186 --> 00:17:12.316 A:middle
 it is fetched during log in.
 
-00:17:12.876 --> 00:17:16.195 A:middle
+00:17:12.876 --> 00:17:16.196 A:middle
 And we just really
 anticipate this
 
-00:17:16.195 --> 00:17:19.276 A:middle
+00:17:16.196 --> 00:17:19.276 A:middle
 for some lighter weight datasets
 used within your application
 
@@ -1731,14 +1598,6 @@ application management.
 00:17:57.046 --> 00:17:59.146 A:middle
 And we'll be talking about
 that later in the presentation.
-
-00:17:59.626 --> 00:18:02.076 A:middle
-Essentially you can get an
-initial application state
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.626 --> 00:18:02.076 A:middle
 Essentially you can get an
@@ -1821,14 +1680,6 @@ we use internal of Apple is,
 00:18:56.886 --> 00:18:58.716 A:middle
 I'm told by the Stocks
 team and the Weather team,
-
-00:18:58.716 --> 00:19:01.186 A:middle
-we use NSUbiquitousKeyValueStore
-to store the ticker,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.716 --> 00:19:01.186 A:middle
 we use NSUbiquitousKeyValueStore
@@ -1917,14 +1768,6 @@ on a Shared iPad Keychain
 and we recommend you
 only store per user.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.736 --> 00:20:00.976 A:middle
-and we recommend you
-only store per user.
-
 00:20:01.256 --> 00:20:05.486 A:middle
 And you must set the exportable
 flag or the share flag,
@@ -2008,14 +1851,6 @@ I see quite a few.
 
 00:20:57.456 --> 00:20:57.776 A:middle
 Very good.
-
-00:20:58.546 --> 00:21:00.626 A:middle
-You need to make sure that
-either your code or the code
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.546 --> 00:21:00.626 A:middle
 You need to make sure that
@@ -2123,10 +1958,6 @@ NSUbiquitousKeyValueStore,
 but you're motivated to move
 your app into the Cloud,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.396 --> 00:22:02.886 A:middle
 make sure that the frameworks
 you're using, or the frameworks
@@ -2202,14 +2033,6 @@ in the foreground.
 00:22:56.006 --> 00:22:59.826 A:middle
 And advantage number two, your
 data will sync when Mia's logged
-
-00:22:59.826 --> 00:23:01.896 A:middle
-out and isn't even
-active on your platform.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.826 --> 00:23:01.896 A:middle
 out and isn't even
@@ -2301,14 +2124,6 @@ into the Cloud.
 
 00:23:57.666 --> 00:23:59.026 A:middle
 If you don't feel that way,
-
-00:23:59.026 --> 00:24:01.216 A:middle
-come to the lab we'll
-try to help you out.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.026 --> 00:24:01.216 A:middle
 come to the lab we'll
@@ -2410,14 +2225,6 @@ to support shared users.
 And they kind of wrote
 their own little user picker
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.946 --> 00:25:00.756 A:middle
-And they kind of wrote
-their own little user picker
-
 00:25:00.756 --> 00:25:01.486 A:middle
 within their app.
 
@@ -2506,14 +2313,6 @@ my apologies.
 
 00:25:56.226 --> 00:25:58.586 A:middle
 iPads will enforce quota.
-
-00:25:58.716 --> 00:26:00.626 A:middle
-Now there are two types
-of quotas on an iPad.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.716 --> 00:26:00.626 A:middle
 Now there are two types
@@ -2609,13 +2408,6 @@ the school's network,
 00:26:59.686 --> 00:27:01.546 A:middle
 multiply that times 30 iPads,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.686 --> 00:27:01.546 A:middle
-multiply that times 30 iPads,
-
 00:27:01.546 --> 00:27:03.736 A:middle
 you've now downloaded
 that 240 times.
@@ -2704,14 +2496,6 @@ to give you a preview.
 I think Thursday is
 On-Demand Resources In-Depth.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:57.836 --> 00:28:01.196 A:middle
-I think Thursday is
-On-Demand Resources In-Depth.
-
 00:28:01.746 --> 00:28:04.666 A:middle
 Highly recommend you attend that
 session if you have large assets
@@ -2786,14 +2570,6 @@ at least once per device.
 00:28:56.136 --> 00:28:58.816 A:middle
 So if Mia has only encountered
 the device for the first time,
-
-00:28:58.816 --> 00:29:01.126 A:middle
-and your app relies on
-push notifications working,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.816 --> 00:29:01.126 A:middle
 and your app relies on
@@ -2893,14 +2669,6 @@ this will be very helpful.
 So review your usage of
 remote notifications and think
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:57.516 --> 00:30:00.246 A:middle
-So review your usage of
-remote notifications and think
-
 00:30:00.246 --> 00:30:02.416 A:middle
 about how well your app would
 work if Mia's been working
@@ -2995,14 +2763,6 @@ deployed into an environment
 00:30:57.076 --> 00:30:59.216 A:middle
 where the individual Apple
 IDs don't have any commerce.
-
-00:30:59.386 --> 00:31:00.926 A:middle
-There's no credit card
-bound to the account,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.386 --> 00:31:00.926 A:middle
 There's no credit card
@@ -3117,14 +2877,6 @@ were to return an error,
 how would your app behave
 and thank that through
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.966 --> 00:32:02.176 A:middle
-how would your app behave
-and thank that through
-
 00:32:02.176 --> 00:32:05.916 A:middle
 for this type of use case.
 
@@ -3207,14 +2959,6 @@ password saved
 00:32:57.786 --> 00:32:59.836 A:middle
 in the keychain where
 it's stored.
-
-00:32:59.836 --> 00:33:02.106 A:middle
-So we've given schools
-the ability
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.836 --> 00:33:02.106 A:middle
 So we've given schools
@@ -3317,14 +3061,6 @@ notice that it might be time
 to consider moving your app
 to be native on the platform.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.076 --> 00:34:01.366 A:middle
-to consider moving your app
-to be native on the platform.
-
 00:34:02.466 --> 00:34:04.156 A:middle
 I've been talking
 about Shared iPad.
@@ -3340,15 +3076,15 @@ new markets that this opens up.
 00:34:10.626 --> 00:34:11.646 A:middle
 But I'm also going to point out,
 
-00:34:12.255 --> 00:34:15.335 A:middle
+00:34:12.256 --> 00:34:15.336 A:middle
 there's nothing here that's
 unique to Shared iPad.
 
-00:34:15.335 --> 00:34:19.096 A:middle
+00:34:15.336 --> 00:34:19.096 A:middle
 My assertion is is that while
 Cloud based data is required
 
-00:34:19.096 --> 00:34:20.585 A:middle
+00:34:19.096 --> 00:34:20.586 A:middle
 for Shared iPad to
 work functionally,
 
@@ -3375,30 +3111,30 @@ started setting up her apps.
 The apps that didn't
 get Cloud data,
 
-00:34:36.656 --> 00:34:38.755 A:middle
+00:34:36.656 --> 00:34:38.756 A:middle
 didn't get reinstalled
 on her app.
 
 00:34:38.846 --> 00:34:40.946 A:middle
 She just didn't have time.
 
-00:34:41.085 --> 00:34:43.565 A:middle
+00:34:41.086 --> 00:34:43.566 A:middle
 And it makes it easy for
 them to change devices.
 
-00:34:43.565 --> 00:34:45.275 A:middle
+00:34:43.566 --> 00:34:45.276 A:middle
 So these changes that
 you're going to invest
 
-00:34:45.275 --> 00:34:47.366 A:middle
+00:34:45.276 --> 00:34:47.366 A:middle
 in are not just investing
 for Shared iPad.
 
-00:34:47.686 --> 00:34:49.735 A:middle
+00:34:47.686 --> 00:34:49.736 A:middle
 This will make it better
 for all of your users.
 
-00:34:49.735 --> 00:34:51.226 A:middle
+00:34:49.736 --> 00:34:51.226 A:middle
 All of your users
 have Cloud data.
 
@@ -3410,17 +3146,9 @@ have iCloud documents.
 All of your users
 have Keychains.
 
-00:34:55.315 --> 00:34:58.106 A:middle
+00:34:55.316 --> 00:34:58.106 A:middle
 All of your users have
 NSUbiquitousKeyStore.
-
-00:34:58.436 --> 00:35:02.996 A:middle
-Moving your application
-data into the Cloud is going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.436 --> 00:35:02.996 A:middle
 Moving your application
@@ -3506,13 +3234,6 @@ CloudKit to store the bulk data,
 00:35:56.216 --> 00:35:58.336 A:middle
 because you're not using
 NSUbiquitousKeyStore for that.
-
-00:35:58.806 --> 00:36:00.366 A:middle
-You've used NSUbiquitousKeyStore
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.806 --> 00:36:00.366 A:middle
 You've used NSUbiquitousKeyStore
@@ -3609,14 +3330,6 @@ basically two different devices
 00:36:54.886 --> 00:36:58.466 A:middle
 with the same iCloud identity is
 all you need to test to verify
-
-00:36:58.466 --> 00:37:00.456 A:middle
-that your app's working in
-a Shared iPad environment.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.466 --> 00:37:00.456 A:middle
 that your app's working in
@@ -3724,14 +3437,6 @@ that sort of test,
 you have nailed the Shared iPad
 case and made things better
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.056 --> 00:38:02.876 A:middle
-you have nailed the Shared iPad
-case and made things better
-
 00:38:02.876 --> 00:38:04.116 A:middle
 for your consumer users.
 
@@ -3830,14 +3535,6 @@ And this is upsetting to people.
 Liam can't log in until Mia's
 logout session is finished.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.816 --> 00:39:03.236 A:middle
-Liam can't log in until Mia's
-logout session is finished.
-
 00:39:03.236 --> 00:39:05.136 A:middle
 If you're leaking
 UI background tasks,
@@ -3926,10 +3623,6 @@ the Cloud and adopting some
 of the newer technologies
 this year.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.536 --> 00:40:03.226 A:middle
 The first and most exciting
 technology, how many people were
@@ -4008,14 +3701,6 @@ one of the key features
 00:40:53.966 --> 00:40:57.926 A:middle
 that Classroom leverages
 to guide your app,
-
-00:40:57.926 --> 00:41:00.296 A:middle
-or control your app while
-in a classroom situation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:57.926 --> 00:41:00.296 A:middle
 or control your app while
@@ -4117,14 +3802,6 @@ or assessment of a student.
 They put it in full screen
 mode, they lock it down.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:59.606 --> 00:42:01.286 A:middle
-They put it in full screen
-mode, they lock it down.
-
 00:42:01.736 --> 00:42:04.166 A:middle
 We've made some changes to
 make this more accessible.
@@ -4210,14 +3887,6 @@ does is allows administrator
 00:42:54.786 --> 00:42:58.106 A:middle
 to blast initial app settings
 out to thousands, or hundreds,
-
-00:42:58.596 --> 00:43:01.156 A:middle
-or tens of thousands of iPads
-so that every app starts
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.596 --> 00:43:01.156 A:middle
 or tens of thousands of iPads
@@ -4312,14 +3981,6 @@ out that this was the case.
 00:43:54.006 --> 00:43:56.906 A:middle
 So right now there's an app
 in the App Store, today,
-
-00:43:56.906 --> 00:44:00.166 A:middle
-we're not making this up,
-that has this many SKU's.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:56.906 --> 00:44:00.166 A:middle
 we're not making this up,
@@ -4421,10 +4082,6 @@ look into the new consortium,
 work with them and learn
 to adopt what they've got.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:01.146 --> 00:45:06.856 A:middle
 So, in conclusion, along with
 Shared iPad, I hope to leave you
@@ -4521,10 +4178,6 @@ links, any links found
 in this session will
 be at this link.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:00.146 --> 00:46:03.526 A:middle
 And here's a little roadmap of
 either stuff to review on video
@@ -4592,4 +4245,3 @@ and I appreciate you attending.
 
 00:46:38.508 --> 00:46:40.508 A:middle
 [ Applause ]
-

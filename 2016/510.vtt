@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:17.500 A:middle
 [ Music ]
@@ -58,13 +57,6 @@ additional requirements.
 00:00:55.076 --> 00:00:58.926 A:middle
 For example, the HLS spec does
 not require I frame playlists.
-
-00:00:59.006 --> 00:01:00.686 A:middle
-But we want to require them,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.006 --> 00:01:00.686 A:middle
 But we want to require them,
@@ -145,14 +137,6 @@ for the clients and the server.
 More recently we
 introduced a new document.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.636 --> 00:02:00.546 A:middle
-More recently we
-introduced a new document.
-
 00:02:00.546 --> 00:02:02.266 A:middle
 The HLS Authoring Specification.
 
@@ -217,14 +201,6 @@ intervals that we expect.
 00:02:53.506 --> 00:02:55.676 A:middle
 Or, the fact that we want
 you to support trick play.
-
-00:02:56.826 --> 00:03:00.116 A:middle
-A number are informed
-by the past seven years
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.826 --> 00:03:00.116 A:middle
 A number are informed
@@ -314,14 +290,6 @@ will have to log
 in with a developer
 enabled Apple ID
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.596 --> 00:04:00.606 A:middle
-in with a developer
-enabled Apple ID
-
 00:04:00.606 --> 00:04:02.236 A:middle
 in order to access this page.
 
@@ -395,14 +363,6 @@ is useful for breaking
 up the large web VTTT into a
 set of segmented web VTT's.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:57.256 --> 00:05:04.526 A:middle
-up the large web VTTT into a
-set of segmented web VTT's.
-
 00:05:05.256 --> 00:05:08.926 A:middle
 The last two tools, Variant
 Playlist Creator is used
@@ -467,14 +427,6 @@ How to do encryption and so on.
 00:05:57.916 --> 00:05:59.706 A:middle
 Even if you don't use
 this introduction,
-
-00:05:59.856 --> 00:06:02.326 A:middle
-the mediafilesegmenter
-can be a good cross check
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.856 --> 00:06:02.326 A:middle
 the mediafilesegmenter
@@ -555,14 +507,6 @@ period, once you determine
 that the stream is
 basically correct.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.816 --> 00:07:00.646 A:middle
-that the stream is
-basically correct.
-
 00:07:03.836 --> 00:07:06.596 A:middle
 Here's what the media stream
 validator output looks like.
@@ -627,14 +571,6 @@ name of the HTML file.
 The dash I or dash ID option
 is helpful when you want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.046 --> 00:08:02.886 A:middle
-The dash I or dash ID option
-is helpful when you want
-
 00:08:02.886 --> 00:08:07.096 A:middle
 to match HTML output to
 portions of the json file.
@@ -672,14 +608,14 @@ something that is available.
 00:08:28.336 --> 00:08:30.636 A:middle
 One quick aside here.
 
-00:08:31.176 --> 00:08:34.515 A:middle
+00:08:31.176 --> 00:08:34.516 A:middle
 You should validate your
 streams before you submit
 
-00:08:34.515 --> 00:08:35.336 A:middle
+00:08:34.516 --> 00:08:35.336 A:middle
 to the App Store.
 
-00:08:36.126 --> 00:08:38.285 A:middle
+00:08:36.126 --> 00:08:38.286 A:middle
 And also, when you
 submit to the App Store,
 
@@ -705,14 +641,6 @@ squint at tiny text,
 00:08:55.266 --> 00:08:59.386 A:middle
 I've captured the output and
 I'll guide you through it.
-
-00:08:59.706 --> 00:09:01.496 A:middle
-First, a little command
-line sample.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.706 --> 00:09:01.496 A:middle
 First, a little command
@@ -783,14 +711,6 @@ that has several common errors.
 This is what a report
 looks like.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.856 --> 00:10:00.046 A:middle
-This is what a report
-looks like.
-
 00:10:01.076 --> 00:10:03.746 A:middle
 The first thing you want to
 examine is the stream type.
@@ -848,14 +768,6 @@ each video variant.
 00:10:55.156 --> 00:10:59.056 A:middle
 Now if we happened to have
 our stream type as mixed,
-
-00:10:59.056 --> 00:11:01.386 A:middle
-that will be an added
-column in this table
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.056 --> 00:11:01.386 A:middle
 that will be an added
@@ -938,14 +850,6 @@ If the value here is positive,
 that means your declared
 value should be increased.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.306 --> 00:12:00.876 A:middle
-that means your declared
-value should be increased.
-
 00:12:01.306 --> 00:12:02.736 A:middle
 And if the value is negative,
 
@@ -1016,10 +920,6 @@ version without the -p option
 00:12:58.336 --> 00:12:59.256 A:middle
 and scroll down a bit.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.076 --> 00:13:02.466 A:middle
 There's another table,
 the rendition overview.
@@ -1086,14 +986,6 @@ by the report information.
 The report information is
 so that we can backtrack
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.296 --> 00:14:01.716 A:middle
-The report information is
-so that we can backtrack
-
 00:14:02.116 --> 00:14:04.316 A:middle
 to which version of
 media stream validator
@@ -1152,14 +1044,6 @@ the item number highlighted.
 00:14:55.886 --> 00:14:57.736 A:middle
 That's how we can tell
 it's the default variant.
-
-00:14:57.736 --> 00:15:00.356 A:middle
-Now remember the default
-variant is the variant
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:57.736 --> 00:15:00.356 A:middle
 Now remember the default
@@ -1234,14 +1118,6 @@ item about captions.
 We fixed that by adding
 a subtitle playlist.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.076 --> 00:16:00.516 A:middle
-We fixed that by adding
-a subtitle playlist.
-
 00:16:01.376 --> 00:16:05.146 A:middle
 Now notice as a subtitle's
 rendition -- rendition #12 --
@@ -1310,14 +1186,6 @@ Scaled average and multiplier.
 Scaled average is the affective
 worst case average data rate
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.156 --> 00:17:01.276 A:middle
-Scaled average is the affective
-worst case average data rate
-
 00:17:01.276 --> 00:17:02.556 A:middle
 of the I-Frame playlist.
 
@@ -1331,21 +1199,21 @@ Remember that the measured,
 average bit rate
 represents the data rate
 
-00:17:10.675 --> 00:17:12.796 A:middle
+00:17:10.676 --> 00:17:12.796 A:middle
 at a 1 X playback speed.
 
-00:17:13.165 --> 00:17:17.086 A:middle
+00:17:13.166 --> 00:17:17.086 A:middle
 But the whole point of I-Frames
 of Trick Play is to play back
 
 00:17:17.086 --> 00:17:18.996 A:middle
 at greater than 1 X speed.
 
-00:17:19.526 --> 00:17:23.705 A:middle
+00:17:19.526 --> 00:17:23.706 A:middle
 Now the multiplier tells
 us the lowest playback rate
 
-00:17:23.925 --> 00:17:26.165 A:middle
+00:17:23.926 --> 00:17:26.166 A:middle
 at which we will hit
 that worst case value.
 
@@ -1382,14 +1250,6 @@ should be lower in value.
 00:17:51.996 --> 00:17:55.936 A:middle
 Otherwise, Trick Play could
 cause a drop in resolution.
-
-00:17:59.216 --> 00:18:02.966 A:middle
-Now in this report, I've
-also got another new column.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.216 --> 00:18:02.966 A:middle
 Now in this report, I've
@@ -1457,10 +1317,6 @@ in the report.
 00:18:57.836 --> 00:18:59.786 A:middle
 That is the lowest
 I-Frame variant.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.596 --> 00:19:02.146 A:middle
 Now, I've skipped
@@ -1531,14 +1387,6 @@ at our variance section.
 Now, notice that because AC-3
 and EC-3 are not substitutable,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:55.926 --> 00:20:02.696 A:middle
-Now, notice that because AC-3
-and EC-3 are not substitutable,
-
 00:20:03.046 --> 00:20:05.836 A:middle
 and neither are they
 substitutable with AAC,
@@ -1598,14 +1446,6 @@ Okay. That's it for my examples.
 00:20:54.016 --> 00:20:56.616 A:middle
 Where can you find some
 examples of your own to look at?
-
-00:20:58.336 --> 00:21:01.046 A:middle
-Well, there are three
-examples pointed to off
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.336 --> 00:21:01.046 A:middle
 Well, there are three
@@ -1679,14 +1519,6 @@ number, 510.
 There's a lot of cool
 new stuff this year
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.546 --> 00:22:01.306 A:middle
-There's a lot of cool
-new stuff this year
-
 00:22:01.306 --> 00:22:02.806 A:middle
 in HTTP live streaming.
 
@@ -1701,4 +1533,3 @@ Live Streaming.
 00:22:10.426 --> 00:22:11.976 A:middle
 Thank you, and have
 a great conference.
-

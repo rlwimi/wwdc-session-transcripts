@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:19.586 A:middle
 [ Music ]
@@ -52,13 +51,6 @@ If you watched the first video,
 00:00:57.006 --> 00:00:59.566 A:middle
 you will recall the
 software components you need
-
-00:00:59.566 --> 00:01:01.206 A:middle
-to implement a CarPlay receiver.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.566 --> 00:01:01.206 A:middle
 to implement a CarPlay receiver.
@@ -120,13 +112,6 @@ sensors, user input elements,
 00:01:54.476 --> 00:01:56.466 A:middle
 and you have the
 complete system.
-
-00:01:58.176 --> 00:02:00.596 A:middle
-OK, so we have the full system.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.176 --> 00:02:00.596 A:middle
 OK, so we have the full system.
@@ -201,13 +186,6 @@ through the IP protocol
 00:02:59.186 --> 00:03:00.796 A:middle
 and exchanged on demand.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.186 --> 00:03:00.796 A:middle
-and exchanged on demand.
-
 00:03:02.606 --> 00:03:05.776 A:middle
 Now let's see what happens
 on the primary display.
@@ -272,14 +250,6 @@ shown on the display.
 That way, Siri can
 be always launched
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.586 --> 00:04:02.906 A:middle
-That way, Siri can
-be always launched
-
 00:04:03.076 --> 00:04:05.026 A:middle
 or the next audio track played.
 
@@ -335,13 +305,6 @@ call, voice recognition
 00:04:59.736 --> 00:05:01.296 A:middle
 and audio playback audio.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.736 --> 00:05:01.296 A:middle
-and audio playback audio.
-
 00:05:02.856 --> 00:05:06.226 A:middle
 And an Alternate audio
 channel which is reserved
@@ -392,14 +355,6 @@ channel, which provides access
 00:05:56.456 --> 00:05:58.856 A:middle
 to both the microphone
 and the speakers.
-
-00:05:59.516 --> 00:06:03.436 A:middle
-In addition to switching
-to audio channel,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.516 --> 00:06:03.436 A:middle
 In addition to switching
@@ -466,14 +421,6 @@ we would not want the user
 to hear the phone navigation
 prompt, but just an alert sound
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.616 --> 00:07:02.646 A:middle
-to hear the phone navigation
-prompt, but just an alert sound
-
 00:07:02.646 --> 00:07:04.746 A:middle
 that an upcoming turn is coming.
 
@@ -532,14 +479,6 @@ Volume management.
 As you might know, a usual
 automotive head unit shows the
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:56.306 --> 00:08:00.636 A:middle
-As you might know, a usual
-automotive head unit shows the
-
 00:08:00.636 --> 00:08:04.616 A:middle
 volume indicator while the user
 is operating the volume knob,
@@ -580,7 +519,7 @@ For an incoming phone call,
 the volume of the
 ringtone is controlled.
 
-00:08:35.826 --> 00:08:37.785 A:middle
+00:08:35.826 --> 00:08:37.786 A:middle
 When the user is
 on a phone call,
 
@@ -609,10 +548,6 @@ lowered during those prompts
 
 00:08:57.236 --> 00:08:58.526 A:middle
 and cannot be adjusted.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.306 --> 00:09:03.736 A:middle
 Once the announcement is over
@@ -681,14 +616,6 @@ you may use it for a while,
 but you have to give it
 back after you're finished.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.856 --> 00:10:02.406 A:middle
-but you have to give it
-back after you're finished.
-
 00:10:04.346 --> 00:10:08.576 A:middle
 OK, so let's have the
 native user interface take
@@ -746,13 +673,6 @@ requested it.
 00:10:55.386 --> 00:10:58.676 A:middle
 Again, what can trigger
 such permanent transition?
-
-00:10:59.376 --> 00:11:01.236 A:middle
-Any hard key linked to CarPlay.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.376 --> 00:11:01.236 A:middle
 Any hard key linked to CarPlay.
@@ -819,13 +739,6 @@ to the native UI and stay there
 00:11:59.456 --> 00:12:01.486 A:middle
 until further user action.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.456 --> 00:12:01.486 A:middle
-until further user action.
-
 00:12:05.046 --> 00:12:07.476 A:middle
 Then, let's look at the
 Main Audio resource.
@@ -875,13 +788,6 @@ second audio channel used
 
 00:12:55.246 --> 00:12:57.106 A:middle
 for navigation announcement.
-
-00:12:58.336 --> 00:13:00.156 A:middle
-alternateAudio is not managed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.336 --> 00:13:00.156 A:middle
 alternateAudio is not managed.
@@ -949,14 +855,6 @@ It has three main tasks.
 00:13:53.816 --> 00:13:56.436 A:middle
 First, it holds the current
 state of the whole system.
-
-00:13:57.276 --> 00:14:01.276 A:middle
-Second, it follows a set
-of strict rules to decide
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.276 --> 00:14:01.276 A:middle
 Second, it follows a set
@@ -1034,14 +932,6 @@ manager has sent an update.
 00:14:56.436 --> 00:14:58.006 A:middle
 So where does the
 resource manager live?
-
-00:14:58.536 --> 00:15:01.486 A:middle
-Is it part of the native
-system or of CarPlay?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.536 --> 00:15:01.486 A:middle
 Is it part of the native
@@ -1133,14 +1023,6 @@ the native UI would.
 Next. What commands
 can you use to interact
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.596 --> 00:16:02.656 A:middle
-Next. What commands
-can you use to interact
-
 00:16:02.656 --> 00:16:03.636 A:middle
 with the resource manager?
 
@@ -1213,10 +1095,6 @@ been transferred
 00:16:56.846 --> 00:16:57.996 A:middle
 and the owner has changed.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.796 --> 00:17:02.616 A:middle
 Now we'll talk about how
 resource management works
@@ -1240,11 +1118,11 @@ native voice recognition,
 then how to handle
 a backup camera case
 
-00:17:14.746 --> 00:17:16.685 A:middle
+00:17:14.746 --> 00:17:16.686 A:middle
 where you would not
 want iPhone apps
 
-00:17:16.685 --> 00:17:19.376 A:middle
+00:17:16.686 --> 00:17:19.376 A:middle
 to interrupt you unless
 we walk through an example
 
@@ -1252,7 +1130,7 @@ we walk through an example
 where Siri triggers
 music playback.
 
-00:17:22.945 --> 00:17:24.636 A:middle
+00:17:22.946 --> 00:17:24.636 A:middle
 So let's look at
 playing FM radio.
 
@@ -1294,10 +1172,6 @@ notification.
 00:17:53.476 --> 00:17:57.386 A:middle
 And the head unit is the new
 owner of the audio resource,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.096 --> 00:18:03.026 A:middle
 so it can now start
@@ -1366,13 +1240,6 @@ is finished,
 00:18:57.146 --> 00:18:59.066 A:middle
 the head unit returns
 the borrowed resources
-
-00:18:59.066 --> 00:19:00.606 A:middle
-by sending an unborrow command.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.066 --> 00:19:00.606 A:middle
 by sending an unborrow command.
@@ -1455,14 +1322,6 @@ tells the resource manager
 00:19:52.366 --> 00:19:54.156 A:middle
 that the screen cannot
 be borrowed again.
-
-00:19:59.246 --> 00:20:02.456 A:middle
-The resource manager assigns
-the display to the native UI
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.246 --> 00:20:02.456 A:middle
 The resource manager assigns
@@ -1558,13 +1417,6 @@ ownership
 00:20:59.946 --> 00:21:01.536 A:middle
 when CarPlay is connected.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.946 --> 00:21:01.536 A:middle
-when CarPlay is connected.
-
 00:21:02.026 --> 00:21:04.666 A:middle
 So that was using backup camera.
 
@@ -1631,14 +1483,6 @@ manager changed the state
 00:21:57.876 --> 00:21:59.456 A:middle
 without a request
 by the head unit.
-
-00:21:59.826 --> 00:22:02.676 A:middle
-And this is completely
-fine because the apps
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.826 --> 00:22:02.676 A:middle
 And this is completely
@@ -1725,10 +1569,6 @@ record who is currently engaged
 in the shared application
 that can only be active
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.186 --> 00:23:03.006 A:middle
 on the accessory or the
 controller at any given time.
@@ -1796,14 +1636,6 @@ started route guidance.
 00:23:54.956 --> 00:23:57.406 A:middle
 So the controller updates
 the TurnByTurn appState.
-
-00:23:59.806 --> 00:24:01.416 A:middle
-This is the instruction
-for the accessory
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.806 --> 00:24:01.416 A:middle
 This is the instruction
@@ -1894,14 +1726,6 @@ only on the device
 as it should not interrupt
 the ongoing conversation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.826 --> 00:25:00.996 A:middle
-as it should not interrupt
-the ongoing conversation.
-
 00:25:01.646 --> 00:25:03.656 A:middle
 This is managed using
 the PhoneCall appState.
@@ -1982,15 +1806,6 @@ you to go and check that out.
 For more information
 on this talk,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.856 --> 00:26:01.266 A:middle
-For more information
-on this talk,
-
 00:26:01.826 --> 00:26:03.616 A:middle
 please visit the
 URL on the screen.
-

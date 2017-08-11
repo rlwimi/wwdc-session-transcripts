@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:19.500 A:middle
 [ Music ]
@@ -47,14 +46,10 @@ your own app.
 Because good design
 really does matter.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:00.616 --> 00:01:03.236 A:middle
 So, we're going to be talking
 
-00:01:03.236 --> 00:01:05.355 A:middle
+00:01:03.236 --> 00:01:05.356 A:middle
 about the Swift API
 Design Guidelines today.
 
@@ -137,14 +132,6 @@ about some new tools and tricks
 that we have for mapping
 C and Objective-C APIs
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.306 --> 00:02:01.036 A:middle
-that we have for mapping
-C and Objective-C APIs
-
 00:02:01.246 --> 00:02:03.416 A:middle
 into beautiful Swift APIs.
 
@@ -152,11 +139,11 @@ into beautiful Swift APIs.
 That's a whole lot
 of what and how.
 
-00:02:08.196 --> 00:02:10.265 A:middle
+00:02:08.196 --> 00:02:10.266 A:middle
 The biggest question
 you probably have
 
-00:02:10.265 --> 00:02:12.836 A:middle
+00:02:10.266 --> 00:02:12.836 A:middle
 about the guidelines is why?
 
 00:02:14.686 --> 00:02:16.256 A:middle
@@ -218,13 +205,6 @@ about certain things here.
 
 00:02:56.976 --> 00:02:58.736 A:middle
 It uses trailing closures.
-
-00:02:59.016 --> 00:03:00.306 A:middle
-So the control flow works
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.016 --> 00:03:00.306 A:middle
 So the control flow works
@@ -310,14 +290,6 @@ And these wonderful APIs we use.
 Now, these guidelines
 were designed
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.876 --> 00:04:02.096 A:middle
-Now, these guidelines
-were designed
-
 00:04:02.706 --> 00:04:07.076 A:middle
 for a different language
 with a different character.
@@ -330,11 +302,11 @@ these APIs that were written
 for Objective-C into
 Swift unmodified,
 
-00:04:16.375 --> 00:04:18.796 A:middle
+00:04:16.376 --> 00:04:18.796 A:middle
 they seemed a little
 bit out of character.
 
-00:04:18.796 --> 00:04:20.995 A:middle
+00:04:18.796 --> 00:04:20.996 A:middle
 They feel a bit not-Swifty.
 
 00:04:22.506 --> 00:04:23.496 A:middle
@@ -381,10 +353,6 @@ consistent, more clear APIs
 00:04:57.186 --> 00:04:58.526 A:middle
 within this language
 that we love.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.476 --> 00:05:03.826 A:middle
 Now, in the lower
@@ -459,14 +427,6 @@ metrics when we talk about apps
 00:05:53.486 --> 00:05:56.876 A:middle
 that have been ported into
 Swift and written in Swift.
-
-00:05:56.876 --> 00:06:00.486 A:middle
-But that comes from using
-the right contextual cues.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:56.876 --> 00:06:00.486 A:middle
 But that comes from using
@@ -551,10 +511,6 @@ is beautiful.
 Now, when you're focusing on
 use cases, resist the temptation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.456 --> 00:07:02.136 A:middle
 to optimize for bad code.
 
@@ -629,14 +585,6 @@ ted from the list of friends.
 Now, you'll notice that
 there's actually two things
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.906 --> 00:08:00.596 A:middle
-Now, you'll notice that
-there's actually two things
-
 00:08:00.596 --> 00:08:02.216 A:middle
 in this use case
 that are referring
@@ -687,25 +635,25 @@ It has a strong type.
 So maybe the problem
 here is really
 
-00:08:30.246 --> 00:08:33.285 A:middle
+00:08:30.246 --> 00:08:33.286 A:middle
 that the word item isn't
 sufficiently descriptive.
 
-00:08:33.785 --> 00:08:35.366 A:middle
+00:08:33.786 --> 00:08:35.366 A:middle
 Maybe we'd feel a little
 bit more comfortable
 
 00:08:35.366 --> 00:08:36.626 A:middle
 if it were called removeObject.
 
-00:08:38.126 --> 00:08:39.635 A:middle
+00:08:38.126 --> 00:08:39.636 A:middle
 Well, that's probably not right,
 
-00:08:39.635 --> 00:08:41.876 A:middle
+00:08:39.636 --> 00:08:41.876 A:middle
 because we're probably using
 value types here anyway.
 
-00:08:41.876 --> 00:08:43.655 A:middle
+00:08:41.876 --> 00:08:43.656 A:middle
 So it's just actively wrong.
 
 00:08:44.066 --> 00:08:46.016 A:middle
@@ -729,10 +677,6 @@ down different use cases,
 00:08:56.906 --> 00:08:59.326 A:middle
 it might actually
 become less clear.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.426 --> 00:09:02.066 A:middle
 Here I want to remove
@@ -830,14 +774,6 @@ in different contexts.
 So, the Swift API Design
 Guidelines go a different route.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.756 --> 00:10:04.976 A:middle
-So, the Swift API Design
-Guidelines go a different route.
-
 00:10:05.246 --> 00:10:07.336 A:middle
 Omit needless words.
 
@@ -901,14 +837,6 @@ that that doesn't make sense.
 00:10:54.676 --> 00:10:58.256 A:middle
 So, we've talked about
 readability of the use sites.
-
-00:10:59.436 --> 00:11:03.136 A:middle
-And we've eliminated a bunch
-of words, which might put you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.436 --> 00:11:03.136 A:middle
 And we've eliminated a bunch
@@ -997,14 +925,6 @@ all the time
 because the APIs themselves
 are insufficiently descriptive.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.766 --> 00:12:02.656 A:middle
-because the APIs themselves
-are insufficiently descriptive.
-
 00:12:03.246 --> 00:12:06.156 A:middle
 So we're looking for this
 sort sweet spot in the middle
@@ -1085,14 +1005,6 @@ And the types are there.
 And if you need reassurance
 about what a particular type is,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:57.786 --> 00:13:00.356 A:middle
-And if you need reassurance
-about what a particular type is,
-
 00:13:00.356 --> 00:13:02.116 A:middle
 if it'd help your
 understanding, of course,
@@ -1167,14 +1079,6 @@ It's establishing hierarchy.
 00:13:55.296 --> 00:13:56.756 A:middle
 That's really important
 information
-
-00:13:56.756 --> 00:14:02.146 A:middle
-for understanding
-what this API does.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:56.756 --> 00:14:02.146 A:middle
 for understanding
@@ -1264,14 +1168,6 @@ specifically some element.
 If we look at, say, the
 API that removed something
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.186 --> 00:15:00.966 A:middle
-If we look at, say, the
-API that removed something
-
 00:15:00.966 --> 00:15:01.886 A:middle
 in a particular position.
 
@@ -1341,14 +1237,6 @@ this method family of operations
 00:15:57.776 --> 00:15:59.366 A:middle
 that remove something
 from a collection.
-
-00:15:59.846 --> 00:16:01.556 A:middle
-But their argument
-labels are different
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.846 --> 00:16:01.556 A:middle
 But their argument
@@ -1433,14 +1321,6 @@ Notice how that reads well.
 Now, inside that API we
 have a prepositional phrase.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.676 --> 00:17:02.676 A:middle
-Now, inside that API we
-have a prepositional phrase.
-
 00:17:02.676 --> 00:17:04.626 A:middle
 So it's a little bit of
 English grammar here.
@@ -1448,11 +1328,11 @@ English grammar here.
 00:17:04.626 --> 00:17:06.226 A:middle
 But essentially it's withLabel.
 
-00:17:06.455 --> 00:17:09.596 A:middle
+00:17:06.456 --> 00:17:09.596 A:middle
 And it describes the
 relationship of the argument
 
-00:17:10.156 --> 00:17:12.705 A:middle
+00:17:10.156 --> 00:17:12.706 A:middle
 to the actual operation
 of removing boxes.
 
@@ -1475,10 +1355,10 @@ argument labels
 if you essentially can't
 form a grammatical phrase
 
-00:17:23.955 --> 00:17:25.215 A:middle
+00:17:23.956 --> 00:17:25.216 A:middle
 because it would be misleading
 
-00:17:25.336 --> 00:17:26.675 A:middle
+00:17:25.336 --> 00:17:26.676 A:middle
 to have the first
 argument in there.
 
@@ -1534,14 +1414,6 @@ other rules you can read
 
 00:17:56.876 --> 00:17:57.906 A:middle
 about on Swift.org.
-
-00:17:58.286 --> 00:18:01.646 A:middle
-But essentially you still will
-omit first argument labels
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.286 --> 00:18:01.646 A:middle
 But essentially you still will
@@ -1620,14 +1492,6 @@ we use a noun.
 00:18:56.036 --> 00:18:58.896 A:middle
 Describe the thing
 that is being returned.
-
-00:18:59.446 --> 00:19:02.156 A:middle
-And so here we can ask for the
-background title of a button
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.446 --> 00:19:02.156 A:middle
 And so here we can ask for the
@@ -1721,14 +1585,6 @@ We told it to append this.
 Now we have the non-mutating
 form.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.356 --> 00:20:00.726 A:middle
-Now we have the non-mutating
-form.
-
 00:20:00.796 --> 00:20:03.616 A:middle
 Give me the document directory
 appending this particular
@@ -1810,14 +1666,6 @@ applications
 when it's being migrated
 from Swift 2 to Swift 3.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.646 --> 00:21:02.196 A:middle
-when it's being migrated
-from Swift 2 to Swift 3.
-
 00:21:03.066 --> 00:21:05.496 A:middle
 You can notice there's a whole
 lot of .swift files on the left.
@@ -1894,14 +1742,6 @@ And that's all you'll deal with.
 00:21:57.376 --> 00:21:59.096 A:middle
 However, there are times
 when you're interacting
-
-00:21:59.096 --> 00:22:01.396 A:middle
-with the system where
-you actually do need the
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.096 --> 00:22:01.396 A:middle
 with the system where
@@ -2004,14 +1844,6 @@ and computes the correct name.
 And of course, this is
 safe against refactoring.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.596 --> 00:23:01.636 A:middle
-And of course, this is
-safe against refactoring.
-
 00:23:01.976 --> 00:23:03.266 A:middle
 Works with code completion.
 
@@ -2093,13 +1925,6 @@ with no validation.
 00:23:48.616 --> 00:23:53.236 A:middle
 And so, in Swift 3 we're
 also introducing #keyPath.
-
-00:23:54.516 --> 00:24:00.876 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:54.516 --> 00:24:00.876 A:middle
 [ Applause ]
@@ -2187,14 +2012,6 @@ your generated headers and all
 of the metadata and everything
 else so you get specific control
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.006 --> 00:25:01.136 A:middle
-of the metadata and everything
-else so you get specific control
-
 00:25:01.136 --> 00:25:04.236 A:middle
 over the Objective-C
 names, but no other part
@@ -2265,14 +2082,6 @@ and get working with Swift 3.
 00:25:57.226 --> 00:25:59.246 A:middle
 Now, the Swift 3
 migrator is a great tool.
-
-00:25:59.836 --> 00:26:01.976 A:middle
-But it can't migrate
-your muscle memory.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.836 --> 00:26:01.976 A:middle
 But it can't migrate
@@ -2350,13 +2159,6 @@ about the mapping of C
 
 00:26:55.006 --> 00:26:56.966 A:middle
 and Objective-C APIs into Swift.
-
-00:26:58.516 --> 00:27:07.546 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.516 --> 00:27:07.546 A:middle
 [ Applause ]
@@ -2441,14 +2243,6 @@ first argument labels.
 So I'm going to start with what
 you get for free automatically
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.926 --> 00:28:04.456 A:middle
-So I'm going to start with what
-you get for free automatically
-
 00:28:04.456 --> 00:28:05.656 A:middle
 in the Swift 3 compiler.
 
@@ -2505,14 +2299,6 @@ these value types, visit,
 00:28:55.416 --> 00:28:59.376 A:middle
 What's New in Foundation
 for Swift later today.
-
-00:28:59.926 --> 00:29:02.286 A:middle
-So, automatic inference
-is great and all,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.926 --> 00:29:02.286 A:middle
 So, automatic inference
@@ -2593,10 +2379,6 @@ doesn't really feel very Swifty,
 00:29:56.876 --> 00:29:59.436 A:middle
 especially
 NSCalendarIdentifierGregorian,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.046 --> 00:30:02.486 A:middle
 which is a plain
@@ -2682,14 +2464,6 @@ a global variable, of course.
 But other than the name
 of this global variable,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.496 --> 00:31:01.546 A:middle
-But other than the name
-of this global variable,
-
 00:31:01.826 --> 00:31:02.876 A:middle
 nothing really tells you
 
@@ -2770,14 +2544,6 @@ you the new type around this.
 And any global variables of
 this type will get imported
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:57.436 --> 00:32:00.426 A:middle
-And any global variables of
-this type will get imported
-
 00:32:00.426 --> 00:32:03.096 A:middle
 automatically as static
 properties of this type.
@@ -2830,14 +2596,6 @@ we can even just say .gregorian.
 
 00:32:48.516 --> 00:32:57.146 A:middle
 [ Applause ]
-
-00:32:57.646 --> 00:33:03.546 A:middle
-I'll kick it off by
-starting myself next time.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:57.646 --> 00:33:03.546 A:middle
 I'll kick it off by
@@ -2910,14 +2668,6 @@ It is a powerful API.
 But it looks and
 it feels like C.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:56.646 --> 00:34:00.326 A:middle
-But it looks and
-it feels like C.
-
 00:34:01.666 --> 00:34:02.636 A:middle
 Let's start with some code.
 
@@ -2931,25 +2681,25 @@ The first one transforms a --
 takes a transform and rotates
 it about a given offset.
 
-00:34:10.335 --> 00:34:12.956 A:middle
+00:34:10.336 --> 00:34:12.956 A:middle
 And the second function
 traces a path in red.
 
-00:34:13.335 --> 00:34:15.326 A:middle
+00:34:13.336 --> 00:34:15.326 A:middle
 Now, neither of these
 functions are too complicated,
 
-00:34:15.326 --> 00:34:16.505 A:middle
+00:34:15.326 --> 00:34:16.506 A:middle
 and the details don't matter.
 
-00:34:16.505 --> 00:34:18.936 A:middle
+00:34:16.506 --> 00:34:18.936 A:middle
 But I just want to look
 at how does this look?
 
 00:34:18.936 --> 00:34:19.886 A:middle
 How does this feel?
 
-00:34:20.005 --> 00:34:22.000 A:middle
+00:34:20.006 --> 00:34:22.000 A:middle
 Go ahead and take a moment.
 
 00:34:25.436 --> 00:34:28.346 A:middle
@@ -2964,10 +2714,10 @@ and global functions.
 And we don't really like
 global functions, of course.
 
-00:34:34.136 --> 00:34:36.005 A:middle
+00:34:34.136 --> 00:34:36.006 A:middle
 Or global variables, of course.
 
-00:34:37.866 --> 00:34:41.815 A:middle
+00:34:37.866 --> 00:34:41.816 A:middle
 So, how could we
 take an API like this
 
@@ -2977,7 +2727,7 @@ and make it look Swifty?
 00:34:43.656 --> 00:34:45.906 A:middle
 How can we make it feel Swifty?
 
-00:34:47.085 --> 00:34:50.696 A:middle
+00:34:47.086 --> 00:34:50.696 A:middle
 Well, for that, we revisit
 our friend NS Swift Name.
 
@@ -2989,20 +2739,12 @@ Name in order
 to import globals
 as members of types.
 
-00:34:56.065 --> 00:34:57.776 A:middle
+00:34:56.066 --> 00:34:57.776 A:middle
 Let me start with
 global variables
 
 00:34:57.776 --> 00:34:58.476 A:middle
 to show you what I mean.
-
-00:34:59.666 --> 00:35:01.696 A:middle
-Here at the top I have
-this C definition.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.666 --> 00:35:01.696 A:middle
 Here at the top I have
@@ -3087,14 +2829,6 @@ to tell the Swift compiler
 that this should really
 just be an initializer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.216 --> 00:36:01.496 A:middle
-that this should really
-just be an initializer.
-
 00:36:01.976 --> 00:36:03.806 A:middle
 And we use argument
 labels in order
@@ -3167,14 +2901,6 @@ Here ArtistGetName,
 ArtistSetName are now just
 the getters and setters
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:57.996 --> 00:37:01.076 A:middle
-ArtistSetName are now just
-the getters and setters
-
 00:37:01.076 --> 00:37:02.966 A:middle
 for the computed
 property Artist.
@@ -3240,10 +2966,6 @@ order to nest a type.
 So in this case we get
 Calendar.Identifier.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:06.106 --> 00:38:08.696 A:middle
 Now, we love the
 new NS Swift Name.
@@ -3288,13 +3010,6 @@ global, is now a member.
 00:38:54.166 --> 00:38:56.116 A:middle
 And because the type
 context is clearer,
-
-00:38:56.276 --> 00:39:00.526 A:middle
-we can even omit the type name.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:56.276 --> 00:39:00.526 A:middle
 we can even omit the type name.
@@ -3369,13 +3084,6 @@ ContextPath and all
 00:39:50.376 --> 00:39:54.786 A:middle
 of the other crazy redundant
 stuff, they're now methods.
-
-00:39:55.516 --> 00:40:01.546 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:55.516 --> 00:40:01.546 A:middle
 [ Applause ]
@@ -3471,4 +3179,3 @@ Friday.
 
 00:40:59.516 --> 00:41:15.080 A:middle
 [ Applause ]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:19.500 A:middle
 [ Music ]
@@ -46,14 +45,6 @@ Swift API Design Guidelines.
 00:00:55.106 --> 00:00:57.546 A:middle
 After that, we looked at how
 all of the Objective-C code
-
-00:00:57.546 --> 00:01:01.316 A:middle
-that the Cocoa SDK uses and your
-own code is imported into Swift,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.546 --> 00:01:01.316 A:middle
 that the Cocoa SDK uses and your
@@ -135,10 +126,6 @@ platforms, it's really important
 00:01:56.186 --> 00:01:59.026 A:middle
 that the language and the
 libraries work together.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:01.086 --> 00:02:03.826 A:middle
 So this year we focused on
@@ -229,14 +216,6 @@ this year new, Swift Auto ARC
 
 00:02:56.736 --> 00:02:57.676 A:middle
 and Swift Open Source.
-
-00:02:58.266 --> 00:03:00.186 A:middle
-So, we have Swift
-core libs foundation
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.266 --> 00:03:00.186 A:middle
 So, we have Swift
@@ -339,14 +318,6 @@ a dramatic impact
 on how you design
 your API in Swift.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.876 --> 00:04:01.796 A:middle
-on how you design
-your API in Swift.
-
 00:04:03.096 --> 00:04:04.556 A:middle
 This isn't a complete
 list on either side,
@@ -429,10 +400,6 @@ that I definitely recommend
 that you check out if you missed
 it, Swift API Design Guidelines.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:02.136 --> 00:05:04.206 A:middle
 Now, all these were
 tremendous advances,
@@ -507,10 +474,6 @@ other cores and kits
 
 00:05:58.346 --> 00:05:59.516 A:middle
 that don't fit here either.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.376 --> 00:06:02.646 A:middle
 Now, what's interesting
@@ -597,14 +560,6 @@ that Swift mutability model
 
 00:06:56.706 --> 00:06:57.816 A:middle
 in the Foundation framework.
-
-00:06:59.766 --> 00:07:02.876 A:middle
-And also, dropping the NS
-prefix in Swift Foundation,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.766 --> 00:07:02.876 A:middle
 And also, dropping the NS
@@ -701,14 +656,6 @@ to assign that point
 to another point, and when
 I mutate that second point,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.346 --> 00:08:01.966 A:middle
-to another point, and when
-I mutate that second point,
-
 00:08:02.166 --> 00:08:03.856 A:middle
 you see that only
 the copy is mutated.
@@ -762,15 +709,15 @@ than the other.
 You just use them
 in different ways.
 
-00:08:33.265 --> 00:08:35.285 A:middle
+00:08:33.266 --> 00:08:35.286 A:middle
 I like to think of it as a
 couple of tools in the tool box
 
-00:08:35.285 --> 00:08:38.876 A:middle
+00:08:35.286 --> 00:08:38.876 A:middle
 that you can reach for when
 you have a particular problem
 
-00:08:39.525 --> 00:08:40.635 A:middle
+00:08:39.526 --> 00:08:40.636 A:middle
 to solve.
 
 00:08:41.326 --> 00:08:43.216 A:middle
@@ -792,14 +739,6 @@ of a couple of examples.
 00:08:52.906 --> 00:08:56.626 A:middle
 So, in Foundation, we
 have a class called.
-
-00:08:57.376 --> 00:09:00.276 A:middle
-OperationQueue has a singleton,
-called the main operation queue.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.376 --> 00:09:00.276 A:middle
 OperationQueue has a singleton,
@@ -901,14 +840,6 @@ point in time.
 We can have two Dates
 that have the same value,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.596 --> 00:10:01.276 A:middle
-We can have two Dates
-that have the same value,
-
 00:10:01.406 --> 00:10:03.016 A:middle
 the same absolute point in time,
 
@@ -996,10 +927,6 @@ characteristics
 00:10:56.276 --> 00:10:58.946 A:middle
 that I want along with the value
 semantics that are important.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.026 --> 00:11:02.756 A:middle
 Now, if I use that equal
@@ -1095,14 +1022,6 @@ and a lot more.
 And many of these types not
 only became value types,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.286 --> 00:12:00.426 A:middle
-And many of these types not
-only became value types,
-
 00:12:00.726 --> 00:12:03.186 A:middle
 but gained a lot of
 great new API as well.
@@ -1186,14 +1105,6 @@ internal types of style,
 behavior, pad position,
 and rounding mode.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.066 --> 00:13:00.526 A:middle
-behavior, pad position,
-and rounding mode.
-
 00:13:00.886 --> 00:13:02.816 A:middle
 And their names are
 no longer redundant,
@@ -1262,14 +1173,6 @@ and many, many more.
 00:13:49.706 --> 00:13:53.846 A:middle
 And these constants remain
 extensible, in Objective-C
-
-00:13:54.556 --> 00:14:00.966 A:middle
-and also in Swift, where we can
-also see that we nest them just
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:54.556 --> 00:14:00.966 A:middle
 and also in Swift, where we can
@@ -1358,14 +1261,6 @@ look a little more like this.
 We know it's our user defaults,
 and by helping Foundation grow
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.106 --> 00:15:00.166 A:middle
-We know it's our user defaults,
-and by helping Foundation grow
-
 00:15:00.166 --> 00:15:02.346 A:middle
 to be more Swift-like, we've
 achieved great benefits
@@ -1444,10 +1339,6 @@ a whole new kind of behavior.
 00:15:56.946 --> 00:15:59.456 A:middle
 We specifically, we now
 allow inline mutation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.326 --> 00:16:01.536 A:middle
 And so, we've done zero,
@@ -1534,13 +1425,6 @@ on our main run loop.
 00:16:59.106 --> 00:17:00.566 A:middle
 I'll also call out thread
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.106 --> 00:17:00.566 A:middle
-I'll also call out thread
-
 00:17:00.566 --> 00:17:03.106 A:middle
 and run loop have those
 as well I believe.
@@ -1557,15 +1441,15 @@ example of how all
 of these familiar Foundation
 APIs really can come
 
-00:17:10.546 --> 00:17:12.215 A:middle
+00:17:10.546 --> 00:17:12.216 A:middle
 across so beautifully
 in Swift 3.
 
-00:17:12.856 --> 00:17:14.965 A:middle
+00:17:12.856 --> 00:17:14.966 A:middle
 This is some of the most
 Foundationy code I could
 
-00:17:14.965 --> 00:17:16.106 A:middle
+00:17:14.966 --> 00:17:16.106 A:middle
 possibly have in a demo.
 
 00:17:16.106 --> 00:17:18.056 A:middle
@@ -1576,7 +1460,7 @@ a timer and some dates.
 I just, there's only
 a few other things,
 
-00:17:19.986 --> 00:17:21.425 A:middle
+00:17:19.986 --> 00:17:21.426 A:middle
 and this is pretty
 much all of Foundation.
 
@@ -1633,14 +1517,6 @@ way, or make a sour face
 00:17:54.646 --> 00:17:57.116 A:middle
 if we contemplate
 adding them together,
-
-00:17:57.116 --> 00:18:00.636 A:middle
-and so we can compute their sum,
-and we can even convert them
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.116 --> 00:18:00.636 A:middle
 and so we can compute their sum,
@@ -1743,14 +1619,6 @@ the products that we want
 to purchase, make a copy of
 our template, and then mutate
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.696 --> 00:19:02.856 A:middle
-to purchase, make a copy of
-our template, and then mutate
-
 00:19:02.856 --> 00:19:06.176 A:middle
 that copy, specifying the
 product that we wish to buy.
@@ -1826,14 +1694,6 @@ to your hearts' content.
 00:19:56.356 --> 00:19:59.006 A:middle
 Data is also now a
 MutableCollection,
-
-00:19:59.296 --> 00:20:02.776 A:middle
-MutableRandomAccessCollection
-of unsigned eight-bit integers,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.296 --> 00:20:02.776 A:middle
 MutableRandomAccessCollection
@@ -1924,14 +1784,6 @@ and expressive, which we can do
 with a four N loop, and so
 we'll produce our histogram.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.026 --> 00:21:01.066 A:middle
-with a four N loop, and so
-we'll produce our histogram.
-
 00:21:01.066 --> 00:21:01.856 A:middle
 And let's take a look.
 
@@ -2014,10 +1866,6 @@ so I'll walk through an example
 
 00:21:57.866 --> 00:21:59.636 A:middle
 to show what I mean by that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.056 --> 00:22:01.346 A:middle
 As an example, let's go ahead
@@ -2110,14 +1958,6 @@ bytes in memory currently.
 But let's get ready to mutate
 those bytes, and to do that,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.096 --> 00:23:01.646 A:middle
-But let's get ready to mutate
-those bytes, and to do that,
-
 00:23:01.646 --> 00:23:04.146 A:middle
 we're going to actually use
 another new Foundation API this
@@ -2191,14 +2031,6 @@ ask for a NSURL file URL,
 00:23:56.456 --> 00:23:58.626 A:middle
 we're going to talk about by
 special file, and this file is
-
-00:23:58.626 --> 00:24:01.336 A:middle
-so special, I keep it at
-the root of my file system.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.626 --> 00:24:01.336 A:middle
 so special, I keep it at
@@ -2281,14 +2113,6 @@ the URL is similar,
 00:24:55.416 --> 00:24:59.006 A:middle
 but we no longer use a
 class factory method.
-
-00:24:59.006 --> 00:25:02.626 A:middle
-This is moved into a
-regular initializer syntax.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.006 --> 00:25:02.626 A:middle
 This is moved into a
@@ -2388,14 +2212,6 @@ you're going to ask
 for the URL resource key
 that you're interested in.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.676 --> 00:26:01.576 A:middle
-for the URL resource key
-that you're interested in.
-
 00:26:02.656 --> 00:26:04.836 A:middle
 Now, you might be noticing
 there's a lot of question marks
@@ -2484,14 +2300,6 @@ to, you know,
 even though this is my special
 file, and I'm trying very hard
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.776 --> 00:27:00.986 A:middle
-even though this is my special
-file, and I'm trying very hard
-
 00:27:00.986 --> 00:27:04.236 A:middle
 to say that it's not regular,
 the compiler will catch me
@@ -2569,14 +2377,6 @@ really cool pattern matching
 00:27:56.206 --> 00:27:57.586 A:middle
 with it, but here
 we're taking a closure,
-
-00:27:57.966 --> 00:28:00.526 A:middle
-because we actually want
-to wrap the behavior
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.966 --> 00:28:00.526 A:middle
 because we actually want
@@ -2666,14 +2466,6 @@ provide a single enum-based API
 that expresses all of
 these ideas very cleanly,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:57.566 --> 00:29:00.096 A:middle
-that expresses all of
-these ideas very cleanly,
-
 00:29:00.476 --> 00:29:01.166 A:middle
 and expressively.
 
@@ -2758,14 +2550,6 @@ AppKit in Swift 2.2,
 you'll see this class called
 NSDatePicker, which let's,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.556 --> 00:30:02.246 A:middle
-you'll see this class called
-NSDatePicker, which let's,
-
 00:30:02.746 --> 00:30:06.466 A:middle
 presents a UI to allow your
 user to pick a date and it has,
@@ -2841,14 +2625,6 @@ that wraps a reference type.
 00:30:55.246 --> 00:30:58.326 A:middle
 Now, if I call some
 Objective-C API, what happens is
-
-00:30:58.326 --> 00:31:01.106 A:middle
-that we hand the reference
-over to the Objective-C side.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.326 --> 00:31:01.106 A:middle
 that we hand the reference
@@ -2952,13 +2728,6 @@ the same reason as we saw
 00:31:59.596 --> 00:32:00.336 A:middle
 in the previous slide.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.596 --> 00:32:00.336 A:middle
-in the previous slide.
-
 00:32:00.846 --> 00:32:03.206 A:middle
 The struct needs to maintain
 its control over this copy
@@ -3039,13 +2808,6 @@ sites for use within Swift.
 00:32:56.976 --> 00:32:58.916 A:middle
 In your code, you should
 avoid crossing back and forth
-
-00:32:58.916 --> 00:33:00.776 A:middle
-over that bridge repeatedly.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.916 --> 00:33:00.776 A:middle
 over that bridge repeatedly.
@@ -3142,13 +2904,6 @@ of struct Date,
 00:33:59.206 --> 00:34:00.996 A:middle
 and it will change the methods
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.206 --> 00:34:00.996 A:middle
-and it will change the methods
-
 00:34:01.216 --> 00:34:02.746 A:middle
 because they've changed
 according
@@ -3161,10 +2916,10 @@ API Design Guidelines,
 both for the reference types
 and for the value types.
 
-00:34:08.335 --> 00:34:09.376 A:middle
+00:34:08.336 --> 00:34:09.376 A:middle
 Here's another example.
 
-00:34:10.085 --> 00:34:12.606 A:middle
+00:34:10.086 --> 00:34:12.606 A:middle
 Here, I'm creating an
 NSDateComponents in Swift 2,
 
@@ -3179,11 +2934,11 @@ always mutable reference type.
 00:34:20.656 --> 00:34:21.366 A:middle
 Now, in Swift 3,
 
-00:34:21.366 --> 00:34:23.235 A:middle
+00:34:21.366 --> 00:34:23.236 A:middle
 we've introduced a
 struct DateComponents.
 
-00:34:23.636 --> 00:34:25.775 A:middle
+00:34:23.636 --> 00:34:25.776 A:middle
 So the Migrator will change
 the reference to the struct,
 
@@ -3194,7 +2949,7 @@ mutating it, and changes the let
 00:34:29.216 --> 00:34:30.446 A:middle
 to a var for you as well.
 
-00:34:31.466 --> 00:34:33.505 A:middle
+00:34:31.466 --> 00:34:33.506 A:middle
 Now the Migrator can
 do quite a bit for you,
 
@@ -3206,7 +2961,7 @@ where if you go back and look
 at what it's done, you can do
 even better by taking advantage
 
-00:34:38.596 --> 00:34:40.315 A:middle
+00:34:38.596 --> 00:34:40.316 A:middle
 of some additional things
 that we've added for you.
 
@@ -3218,19 +2973,19 @@ has a new initializer,
 and this is something
 we can only do in Swift.
 
-00:34:45.186 --> 00:34:48.545 A:middle
+00:34:45.186 --> 00:34:48.546 A:middle
 The initializer has
 arguments for every property
 
-00:34:48.545 --> 00:34:50.295 A:middle
+00:34:48.546 --> 00:34:50.296 A:middle
 in the DateComponents,
 and they're all optional,
 
-00:34:50.406 --> 00:34:51.505 A:middle
+00:34:50.406 --> 00:34:51.506 A:middle
 and they all have
 default values,
 
-00:34:51.835 --> 00:34:53.966 A:middle
+00:34:51.836 --> 00:34:53.966 A:middle
 which means that you can create
 a DataComponents using only the
 
@@ -3245,13 +3000,6 @@ the var back to a let
 00:34:58.176 --> 00:34:59.826 A:middle
 because now you don't
 need to mutate it
-
-00:34:59.826 --> 00:35:01.386 A:middle
-after you've initialized it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.826 --> 00:35:01.386 A:middle
 after you've initialized it.
@@ -3346,14 +3094,6 @@ to benefit the entire SDK
 and your whole development
 experience in Swift.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.316 --> 00:36:00.486 A:middle
-and your whole development
-experience in Swift.
-
 00:36:01.366 --> 00:36:03.496 A:middle
 Partly that was due
 to the API renaming,
@@ -3406,4 +3146,3 @@ Thank you.
 
 00:36:35.508 --> 00:36:37.508 A:middle
 [ Applause ]
-

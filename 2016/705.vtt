@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:08.516 --> 00:00:17.500 A:middle
 [ Music ]
@@ -47,14 +46,6 @@ has played
 00:00:54.466 --> 00:00:56.976 A:middle
 as a key design philosophy
 for that platform.
-
-00:00:58.586 --> 00:01:00.806 A:middle
-Before we dive in, we
-need to set some context.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.586 --> 00:01:00.806 A:middle
 Before we dive in, we
@@ -133,10 +124,6 @@ be criminals looking
 00:01:58.496 --> 00:01:59.876 A:middle
 to hold your data for ransom.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.906 --> 00:02:03.266 A:middle
 They might be unscrupulous
 business competitors looking
@@ -214,14 +201,6 @@ espionage,
 which is gaining access to your
 business emails and documents
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.436 --> 00:03:02.606 A:middle
-which is gaining access to your
-business emails and documents
-
 00:03:03.006 --> 00:03:07.266 A:middle
 and your intellectual
 property, and then finally,
@@ -282,14 +261,6 @@ This is because nearly
 Apple realized what role mobile
 devices would come to play
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.446 --> 00:04:02.136 A:middle
-Apple realized what role mobile
-devices would come to play
-
 00:04:02.396 --> 00:04:03.566 A:middle
 in the lives of our users.
 
@@ -312,7 +283,7 @@ protect our customers,
 00:04:19.766 --> 00:04:21.086 A:middle
 at a scale that is staggering.
 
-00:04:21.505 --> 00:04:22.956 A:middle
+00:04:21.506 --> 00:04:22.956 A:middle
 We are protecting users that use
 
 00:04:22.956 --> 00:04:28.076 A:middle
@@ -362,10 +333,6 @@ to build secure apps.
 00:04:57.016 --> 00:04:59.296 A:middle
 We're going to talk about
 all three pillars today.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.416 --> 00:05:01.756 A:middle
 We'll start with
@@ -456,14 +423,6 @@ we've made security easy to use.
 IOS platform security consists
 of a great deal of features,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.296 --> 00:06:04.156 A:middle
-IOS platform security consists
-of a great deal of features,
-
 00:06:04.156 --> 00:06:06.286 A:middle
 and today I only have
 time to highlight five.
@@ -517,14 +476,6 @@ will we move on to the next step
 00:06:54.066 --> 00:06:59.436 A:middle
 in the chain, and we'll repeat
 this until iOS has fully booted,
-
-00:06:59.486 --> 00:07:02.696 A:middle
-which gives us confidence
-that every piece of software
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.486 --> 00:07:02.696 A:middle
 which gives us confidence
@@ -605,10 +556,6 @@ them to the server,
 and asking whether
 it's okay to update.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.136 --> 00:08:03.096 A:middle
 We do this because the
 server is now in a position
@@ -650,7 +597,7 @@ of the software of this process.
 Now, let's talk about
 protecting user's data at rest.
 
-00:08:35.535 --> 00:08:39.346 A:middle
+00:08:35.536 --> 00:08:39.346 A:middle
 If you're really serious about
 doing this, you don't want
 
@@ -686,14 +633,6 @@ We've done it.
 
 00:08:57.196 --> 00:08:58.446 A:middle
 We call it the secure enclave.
-
-00:08:59.316 --> 00:09:02.156 A:middle
-Now, when you think
-about passcodes,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.316 --> 00:09:02.156 A:middle
 Now, when you think
@@ -763,10 +702,6 @@ passcode attempts,
 00:09:54.506 --> 00:09:57.826 A:middle
 the secure enclave will simply
 not unlock that device again.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.026 --> 00:10:02.076 A:middle
 This has nothing to do with
@@ -846,14 +781,6 @@ way of mitigating some
 of the potential harm
 from those mistakes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.066 --> 00:11:00.266 A:middle
-of the potential harm
-from those mistakes.
-
 00:11:00.306 --> 00:11:03.736 A:middle
 It's a little bit like air
 bags or seatbelts in a car
@@ -928,14 +855,6 @@ that runs on the device.
 In fact, when you go to upload
 your app into the App Store,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.286 --> 00:12:01.536 A:middle
-In fact, when you go to upload
-your app into the App Store,
-
 00:12:02.066 --> 00:12:04.336 A:middle
 X code will calculate
 the cryptographic hash
@@ -998,13 +917,6 @@ their phone 80 times a day.
 00:12:53.506 --> 00:12:59.496 A:middle
 And if you have a passcode
 set, it adds friction
-
-00:12:59.496 --> 00:13:01.516 A:middle
-to each one of those 80 unlocks.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.496 --> 00:13:01.516 A:middle
 to each one of those 80 unlocks.
@@ -1079,14 +991,6 @@ the fingerprint sensor directly
 to the secure enclave,
 with an encrypted link.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.396 --> 00:14:00.716 A:middle
-to the secure enclave,
-with an encrypted link.
-
 00:14:01.666 --> 00:14:04.966 A:middle
 And we made it so that when you
 touch your finger to the sensor,
@@ -1145,13 +1049,6 @@ enclaves or hash functions.
 00:14:52.846 --> 00:14:55.196 A:middle
 What they get is simply
 an amazing step forward
-
-00:14:55.196 --> 00:15:01.066 A:middle
-for the security of their data.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:55.196 --> 00:15:01.066 A:middle
 for the security of their data.
@@ -1220,14 +1117,6 @@ update on their device.
 00:15:52.906 --> 00:15:58.836 A:middle
 One thing we've done with iOS 9
 is we greatly shrank the amount
-
-00:15:58.836 --> 00:16:02.056 A:middle
-of space it took to install
-updates, so that users
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.836 --> 00:16:02.056 A:middle
 of space it took to install
@@ -1303,14 +1192,6 @@ perspective, every version
 of Android before 5.1.1 has
 a vulnerability called stage
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.526 --> 00:17:01.906 A:middle
-of Android before 5.1.1 has
-a vulnerability called stage
-
 00:17:01.906 --> 00:17:04.326 A:middle
 fright, which is
 remotely exploitable.
@@ -1326,7 +1207,7 @@ and gain complete control
 00:17:10.046 --> 00:17:10.836 A:middle
 over that device.
 
-00:17:11.445 --> 00:17:13.746 A:middle
+00:17:11.446 --> 00:17:13.746 A:middle
 And Google patched
 this bug very quickly.
 
@@ -1338,11 +1219,11 @@ because most
 of their users don't
 have the fix.
 
-00:17:20.066 --> 00:17:22.955 A:middle
+00:17:20.066 --> 00:17:22.956 A:middle
 And a fix that is not installed
 doesn't do anyone any good,
 
-00:17:23.165 --> 00:17:26.236 A:middle
+00:17:23.166 --> 00:17:26.236 A:middle
 which is why we invest
 so much effort not just
 
@@ -1376,14 +1257,6 @@ apps that use Touch ID API
 00:17:55.556 --> 00:17:59.436 A:middle
 to save their users from having
 to remember complex passwords
-
-00:17:59.436 --> 00:18:02.826 A:middle
-and type them directly into
-the app, and last year,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.436 --> 00:18:02.826 A:middle
 and type them directly into
@@ -1451,14 +1324,6 @@ responsibility that rests
 00:18:57.116 --> 00:18:59.236 A:middle
 on you, the developers,
 when you build your apps,
-
-00:18:59.236 --> 00:19:01.716 A:middle
-and this is to know your code,
-and not just the code you write,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.236 --> 00:19:01.716 A:middle
 and this is to know your code,
@@ -1535,10 +1400,6 @@ and that you keep it current.
 So these are our three key
 pillars of iOS security.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.686 --> 00:20:03.986 A:middle
 Platform security, which are
 the best security technology
@@ -1602,14 +1463,6 @@ our users at scale.
 00:20:56.266 --> 00:20:58.536 A:middle
 This one is the one that
 is most important to us.
-
-00:20:59.216 --> 00:21:01.876 A:middle
-Our users have been
-fantastically well protected
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.216 --> 00:21:01.876 A:middle
 Our users have been
@@ -1680,10 +1533,6 @@ know, there is a black market
 00:21:57.556 --> 00:21:58.956 A:middle
 for software vulnerabilities.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.256 --> 00:22:02.796 A:middle
 And every once in a
 while, some of the prices
@@ -1736,14 +1585,6 @@ process and not a destination.
 00:22:54.326 --> 00:22:57.066 A:middle
 We're not done with iOS
 security and we never will be.
-
-00:22:58.986 --> 00:23:01.716 A:middle
-It's also not something that we
-just got interested in recently.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.986 --> 00:23:01.716 A:middle
 It's also not something that we
@@ -1818,14 +1659,6 @@ to learn more, I invite you
 to read the iOS security guide,
 which creates a great amount
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:56.836 --> 00:24:00.716 A:middle
-to read the iOS security guide,
-which creates a great amount
-
 00:24:00.716 --> 00:24:03.216 A:middle
 of technical detail about
 all the great features I just
@@ -1847,4 +1680,3 @@ Thank you again.
 
 00:24:14.508 --> 00:24:16.508 A:middle
 [ Applause ]
-

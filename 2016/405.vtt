@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:06.516 --> 00:00:17.500 A:middle
 [ Music ]
@@ -51,15 +50,7 @@ internally.
 And now the amazing, new Swift
 Playgrounds app, has joined it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.746 --> 00:01:03.566 A:middle
-And now the amazing, new Swift
-Playgrounds app, has joined it
-
-00:01:04.135 --> 00:01:07.786 A:middle
+00:01:04.136 --> 00:01:07.786 A:middle
 with similar internal
 uses of LLVM.
 
@@ -126,14 +117,6 @@ Clang front end,
 00:01:55.866 --> 00:01:57.346 A:middle
 we power the Swift
 compiler as well.
-
-00:01:58.896 --> 00:02:01.966 A:middle
-For more info about Swift,
-review the talk from earlier.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.896 --> 00:02:01.966 A:middle
 For more info about Swift,
@@ -210,14 +193,6 @@ optimizations.
 And this is where features like
 Link-Time Optimization happen.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.786 --> 00:03:02.316 A:middle
-And this is where features like
-Link-Time Optimization happen.
-
 00:03:02.896 --> 00:03:05.596 A:middle
 Stay tuned for some
 exciting developments in LTO.
@@ -287,14 +262,6 @@ LLDB tips and tricks on Friday.
 All of the amazing features
 in Xcode, Swift Playgrounds,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.696 --> 00:04:03.016 A:middle
-All of the amazing features
-in Xcode, Swift Playgrounds,
-
 00:04:03.246 --> 00:04:05.786 A:middle
 and the Apple LLVM Compiler
 wouldn't be possible
@@ -311,7 +278,7 @@ many developers like you,
 inspired to bring their own
 ideas into the LLVM frameworks.
 
-00:04:18.435 --> 00:04:22.176 A:middle
+00:04:18.436 --> 00:04:22.176 A:middle
 The LLVM open source project
 is growing at a stunning pace
 
@@ -355,14 +322,6 @@ language support.
 00:04:55.966 --> 00:04:59.176 A:middle
 First, we'll talk about new
 language features, then updates
-
-00:04:59.176 --> 00:05:02.746 A:middle
-to the C++ library, and
-finally new errors and warnings
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.176 --> 00:05:02.746 A:middle
 to the C++ library, and
@@ -433,10 +392,6 @@ for the thread-local keyword.
 
 00:05:58.436 --> 00:05:59.856 A:middle
 This year, we added support.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.606 --> 00:06:02.666 A:middle
 Let me tell you a
@@ -510,10 +465,6 @@ and plain old data types.
 If your code meets
 these restrictions,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.126 --> 00:07:03.226 A:middle
 you should continue to use
 C-style thread-local storage
@@ -584,10 +535,6 @@ will offer
 00:07:57.506 --> 00:07:58.706 A:middle
 to do this automatically.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.296 --> 00:08:03.526 A:middle
 The Libc++.dylib has a
 great update this year
@@ -634,7 +581,7 @@ require the newest dylib,
 you need to target a
 platform that supports them.
 
-00:08:34.395 --> 00:08:37.616 A:middle
+00:08:34.396 --> 00:08:37.616 A:middle
 That's the C++ library.
 
 00:08:38.616 --> 00:08:42.196 A:middle
@@ -663,14 +610,6 @@ Lightweight Generics.
 00:08:56.196 --> 00:08:58.966 A:middle
 The kind of type modifier
 plays an important role,
-
-00:08:59.306 --> 00:09:01.906 A:middle
-allowing implicit downcast
-from the kind of type
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.306 --> 00:09:01.906 A:middle
 allowing implicit downcast
@@ -746,10 +685,6 @@ called s
 in this example is
 added to itself.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:01.476 --> 00:10:03.556 A:middle
 This creates a circular
 dependency,
@@ -813,14 +748,6 @@ ownership should be transferred
 
 00:10:56.936 --> 00:10:58.486 A:middle
 from one container to another.
-
-00:10:59.366 --> 00:11:02.176 A:middle
-Moving a resource is
-faster than a deep copy.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.366 --> 00:11:02.176 A:middle
 Moving a resource is
@@ -894,10 +821,6 @@ actively hurt performance,
 00:11:57.966 --> 00:11:59.206 A:middle
 it makes the code less readable.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.306 --> 00:12:02.076 A:middle
 It's better to return
 text directly.
@@ -968,13 +891,6 @@ vector of bool,
 00:12:59.826 --> 00:13:01.586 A:middle
 does not return a reference.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.826 --> 00:13:01.586 A:middle
-does not return a reference.
-
 00:13:01.686 --> 00:13:05.286 A:middle
 So the iteration variable b in
 this example is a temporary.
@@ -1041,14 +957,6 @@ generation optimizations,
 and describe techniques
 for arm64 cache tuning.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.266 --> 00:14:02.376 A:middle
-and describe techniques
-for arm64 cache tuning.
-
 00:14:06.996 --> 00:14:09.406 A:middle
 It has been a couple of
 years since we've talked
@@ -1106,14 +1014,6 @@ the same way,
 00:14:55.396 --> 00:14:57.806 A:middle
 by compiling the sources
 into object files.
-
-00:14:58.876 --> 00:15:02.586 A:middle
-In LTO, these object files
-contain extra optimization
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.876 --> 00:15:02.586 A:middle
 In LTO, these object files
@@ -1184,14 +1084,6 @@ advantage of all your cores,
 00:15:54.536 --> 00:15:56.536 A:middle
 and has to be repeated
 in incremental builds.
-
-00:15:57.896 --> 00:16:00.546 A:middle
-Large C++ programs
-with debug info,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.896 --> 00:16:00.546 A:middle
 Large C++ programs
@@ -1270,22 +1162,14 @@ with your system.
 It performs global
 analysis and inlining
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.876 --> 00:17:01.146 A:middle
-It performs global
-analysis and inlining
-
 00:17:01.286 --> 00:17:02.836 A:middle
 without combining object files.
 
-00:17:04.185 --> 00:17:07.886 A:middle
+00:17:04.186 --> 00:17:07.886 A:middle
 This speeds up the build because
 it can optimize each object file
 
-00:17:07.886 --> 00:17:08.465 A:middle
+00:17:07.886 --> 00:17:08.466 A:middle
 in parallel.
 
 00:17:09.256 --> 00:17:12.836 A:middle
@@ -1307,7 +1191,7 @@ incremental LTO build works.
 The compile step is the
 same as monolithic LTO,
 
-00:17:26.945 --> 00:17:29.296 A:middle
+00:17:26.946 --> 00:17:29.296 A:middle
 producing one object file
 for each source file.
 
@@ -1340,14 +1224,6 @@ are stored in a linker cache,
 00:17:54.456 --> 00:17:57.566 A:middle
 before being linked with
 frameworks to produce the app.
-
-00:17:59.256 --> 00:18:02.526 A:middle
-The resulting runtime
-performance of programs built
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.256 --> 00:18:02.526 A:middle
 The resulting runtime
@@ -1431,14 +1307,6 @@ when it can use all your cores.
 Incremental LTO takes two
 minutes and a quarter,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.936 --> 00:19:02.116 A:middle
-Incremental LTO takes two
-minutes and a quarter,
-
 00:19:02.416 --> 00:19:05.016 A:middle
 more than 6x faster
 than monolithic LTO.
@@ -1500,10 +1368,6 @@ are still in the linker cache.
 00:19:56.146 --> 00:19:59.706 A:middle
 However, if a function from the
 controller is inline into main,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.206 --> 00:20:03.336 A:middle
 then main needs to be
@@ -1577,14 +1441,6 @@ of an optimization pass,
 monolithic LTO takes
 the same amount of time.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:57.926 --> 00:21:00.596 A:middle
-monolithic LTO takes
-the same amount of time.
-
 00:21:00.596 --> 00:21:01.696 A:middle
 It's the same as a fresh build.
 
@@ -1652,14 +1508,6 @@ optimizations.
 
 00:21:54.516 --> 00:21:59.256 A:middle
 [ Applause ]
-
-00:21:59.756 --> 00:22:02.326 A:middle
-&gt;&gt; So, let's move on
-with optimizations
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.756 --> 00:22:02.326 A:middle
 &gt;&gt; So, let's move on
@@ -1738,14 +1586,6 @@ two variables x and y,
 live at two different
 stack locations
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.316 --> 00:23:00.296 A:middle
-live at two different
-stack locations
-
 00:23:00.296 --> 00:23:01.726 A:middle
 on the runtime memory stack.
 
@@ -1799,13 +1639,6 @@ performance for your app.
 00:23:54.106 --> 00:23:58.586 A:middle
 Now this is all great, but
 there is a little caveat
-
-00:23:58.706 --> 00:24:00.366 A:middle
-that comes with it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.706 --> 00:24:00.366 A:middle
 that comes with it.
@@ -1885,14 +1718,6 @@ the condition is checked.
 And now the definition of x is
 in the same scope as the address
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.936 --> 00:25:04.996 A:middle
-And now the definition of x is
-in the same scope as the address
-
 00:25:05.316 --> 00:25:07.256 A:middle
 that is used in the
 print statement.
@@ -1957,14 +1782,6 @@ where they are actually needed.
 00:25:57.036 --> 00:25:59.526 A:middle
 So let's take a look
 at a simple example.
-
-00:25:59.626 --> 00:26:05.396 A:middle
-So here's a simple function that
-takes two parameters, a and b,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.626 --> 00:26:05.396 A:middle
 So here's a simple function that
@@ -2044,14 +1861,6 @@ for the runtime stack memory
 and for the registers
 are only needed
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.656 --> 00:27:00.956 A:middle
-and for the registers
-are only needed
-
 00:27:01.406 --> 00:27:04.906 A:middle
 because we have a call
 instruction in our function.
@@ -2122,10 +1931,6 @@ And that is shrink wrapping.
 
 00:27:54.516 --> 00:27:59.516 A:middle
 [ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.016 --> 00:28:02.256 A:middle
 Let's move on with
@@ -2199,10 +2004,6 @@ simple expression,
 00:28:57.806 --> 00:28:59.716 A:middle
 a times b plus c times d.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:01.456 --> 00:29:02.516 A:middle
 What does the code look
 
@@ -2274,10 +2075,6 @@ level parallelism.
 They can execute two
 or more multiplies
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:01.076 --> 00:30:03.426 A:middle
 at the same time, in parallel.
 
@@ -2336,14 +2133,6 @@ And that is fused multiply-add.
 00:30:53.476 --> 00:30:56.976 A:middle
 So let's move on to
 arm64 cache tuning.
-
-00:30:58.326 --> 00:31:02.346 A:middle
-Here I will talk about two
-techniques: The compiler has
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.326 --> 00:31:02.346 A:middle
 Here I will talk about two
@@ -2423,10 +2212,6 @@ line out of main memory.
 So cache line contains more
 than one register value.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.126 --> 00:32:02.696 A:middle
 The reason why this design
 is usually so successful,
@@ -2502,14 +2287,6 @@ our programs need them?
 It might surprise you, on your
 processor, in your iPhone,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.956 --> 00:33:05.206 A:middle
-It might surprise you, on your
-processor, in your iPhone,
-
 00:33:05.366 --> 00:33:07.076 A:middle
 that magic is already happening.
 
@@ -2574,10 +2351,6 @@ app will need in the future,
 issues prefetch instructions
 for this app, for this data.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.326 --> 00:34:01.656 A:middle
 Now while your app is running,
 
@@ -2589,11 +2362,11 @@ executes, fetches the data
 from main memory, puts
 it into the cache,
 
-00:34:09.106 --> 00:34:13.085 A:middle
+00:34:09.106 --> 00:34:13.086 A:middle
 and when your program is ready
 to need those data, it simply
 
-00:34:13.085 --> 00:34:14.916 A:middle
+00:34:13.086 --> 00:34:14.916 A:middle
 and quickly loads
 it out of the cache.
 
@@ -2601,7 +2374,7 @@ it out of the cache.
 Your program no longer
 has to wait for the data
 
-00:34:17.136 --> 00:34:18.815 A:middle
+00:34:17.136 --> 00:34:18.816 A:middle
 to be loaded out of main memory.
 
 00:34:19.496 --> 00:34:21.726 A:middle
@@ -2611,42 +2384,34 @@ of software prefetching.
 00:34:25.126 --> 00:34:25.616 A:middle
 So far--
 
-00:34:26.516 --> 00:34:31.775 A:middle
+00:34:26.516 --> 00:34:31.776 A:middle
 [ Applause ]
 
-00:34:32.275 --> 00:34:33.746 A:middle
+00:34:32.276 --> 00:34:33.746 A:middle
 -- so far, I have talked
 
 00:34:33.746 --> 00:34:36.916 A:middle
 about optimizations the compiler
 does automatically for you.
 
-00:34:37.996 --> 00:34:39.585 A:middle
+00:34:37.996 --> 00:34:39.586 A:middle
 For the next optimization,
 
 00:34:39.726 --> 00:34:42.016 A:middle
 non-temporal stores it
 will need your help.
 
-00:34:42.525 --> 00:34:47.866 A:middle
+00:34:42.526 --> 00:34:47.866 A:middle
 To understand what is going on
 there, we need to take a look
 
-00:34:48.025 --> 00:34:53.206 A:middle
+00:34:48.026 --> 00:34:53.206 A:middle
 at what is happening when data
 is stored into main memory.
 
 00:34:54.036 --> 00:34:58.096 A:middle
 So again, let's take a look
 at our memory hierarchy,
-
-00:34:58.286 --> 00:35:02.516 A:middle
-and assume we have a simple
-assignment in our program
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.286 --> 00:35:02.516 A:middle
 and assume we have a simple
@@ -2720,14 +2485,6 @@ memory into the cache,
 store the register
 value into the cache,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.606 --> 00:36:00.776 A:middle
-store the register
-value into the cache,
-
 00:36:00.886 --> 00:36:04.056 A:middle
 and then eventually store the
 data back into main memory.
@@ -2783,14 +2540,6 @@ the compiler
 00:36:53.566 --> 00:36:57.126 A:middle
 to generate non-temporal stores
 is with a compiler builtin.
-
-00:36:57.806 --> 00:37:02.096 A:middle
-So you use the builtin
-to instruct the compiler
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:57.806 --> 00:37:02.096 A:middle
 So you use the builtin
@@ -2870,14 +2619,6 @@ loop bodies,
 you get very significant
 speed ups in the range
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.056 --> 00:38:02.486 A:middle
-you get very significant
-speed ups in the range
-
 00:38:02.486 --> 00:38:05.026 A:middle
 from 30 to 40 percent.
 
@@ -2935,14 +2676,6 @@ local storage support.
 00:38:50.626 --> 00:38:57.656 A:middle
 Now the new Libc ++ has
 full support for C++14
-
-00:38:57.996 --> 00:39:01.816 A:middle
-and has many new improved
-features, but keep in mind,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:57.996 --> 00:39:01.816 A:middle
 and has many new improved
@@ -3017,14 +2750,6 @@ information on our website.
 There are a number of
 really cool talks out there
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:56.006 --> 00:40:00.276 A:middle
-There are a number of
-really cool talks out there
-
 00:40:01.546 --> 00:40:03.016 A:middle
 that you should be
 interested in.
@@ -3044,4 +2769,3 @@ at the conference.
 
 00:40:09.016 --> 00:40:11.000 A:middle
 [ Applause ]
-

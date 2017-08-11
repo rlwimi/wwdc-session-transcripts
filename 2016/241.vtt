@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:17.500 A:middle
 [ Music ]
@@ -56,15 +55,7 @@ and Mac OS X, El Capitan.
 As of today, it is available
 in 21 cities around the world
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:57.016 --> 00:01:02.126 A:middle
-As of today, it is available
-in 21 cities around the world
-
-00:01:02.126 --> 00:01:04.385 A:middle
+00:01:02.126 --> 00:01:04.386 A:middle
 as well as over 300
 cities in China.
 
@@ -118,14 +109,6 @@ to point directions along
 00:01:52.696 --> 00:01:54.726 A:middle
 with a guided navigation
 experience.
-
-00:01:58.556 --> 00:02:01.236 A:middle
-Finally, we show
-realtime advisories
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.556 --> 00:02:01.236 A:middle
 Finally, we show
@@ -200,10 +183,6 @@ that we collect ourselves.
 00:02:56.106 --> 00:02:57.976 A:middle
 Station entrances and exits.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:00.126 --> 00:03:02.936 A:middle
 Station footprints or
 the outlines of stations.
@@ -265,10 +244,6 @@ might not even have a name.
 But from the inside, there's
 often a number or code.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:01.196 --> 00:04:03.476 A:middle
 We show that number
 or code on our map
@@ -284,11 +259,11 @@ in the correct direction.
 We try to match agency signage
 as closely as possible not just
 
-00:04:14.796 --> 00:04:18.255 A:middle
+00:04:14.796 --> 00:04:18.256 A:middle
 in terms of the signage itself,
 but also what gets displayed
 
-00:04:18.255 --> 00:04:19.555 A:middle
+00:04:18.256 --> 00:04:19.556 A:middle
 where and in what order.
 
 00:04:19.866 --> 00:04:25.446 A:middle
@@ -332,10 +307,6 @@ This builds confidence
 00:04:54.626 --> 00:04:57.286 A:middle
 in the directions the
 customer has been given.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.056 --> 00:05:03.536 A:middle
 After we've gathered all
@@ -417,14 +388,6 @@ We capture these subtleties
 because that allows
 our customers
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.716 --> 00:06:01.226 A:middle
-because that allows
-our customers
-
 00:06:01.226 --> 00:06:04.686 A:middle
 to match what we're telling them
 to the real world around them.
@@ -481,14 +444,6 @@ call it as well.
 00:06:49.236 --> 00:06:55.296 A:middle
 In Berlin, on the other
 hand, you ride trams.
-
-00:06:59.056 --> 00:07:01.166 A:middle
-And that is reflected
-in our experience.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.056 --> 00:07:01.166 A:middle
 And that is reflected
@@ -563,13 +518,6 @@ entrances and line geometry
 00:07:59.626 --> 00:08:00.766 A:middle
 as we've previously seen.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.626 --> 00:08:00.766 A:middle
-as we've previously seen.
-
 00:08:01.836 --> 00:08:03.366 A:middle
 Then we customize the experience
 
@@ -597,7 +545,7 @@ Francisco International Airport,
 and you'd like directions
 to Moscone West for WWDC.
 
-00:08:32.395 --> 00:08:34.936 A:middle
+00:08:32.396 --> 00:08:34.936 A:middle
 First, you can see our
 multiagency transit map.
 
@@ -605,7 +553,7 @@ multiagency transit map.
 As I mentioned, transit lines
 are highlighted while roads
 
-00:08:38.336 --> 00:08:38.885 A:middle
+00:08:38.336 --> 00:08:38.886 A:middle
 are dimmed.
 
 00:08:39.486 --> 00:08:43.166 A:middle
@@ -625,10 +573,6 @@ BART departures as well
 
 00:08:50.446 --> 00:08:51.896 A:middle
 as the upcoming Muni departures.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.086 --> 00:09:02.446 A:middle
 Now, at the top I noticed
@@ -691,10 +635,6 @@ Here is a competing bus route.
 00:09:57.916 --> 00:09:59.986 A:middle
 Now, we didn't recommend
 this because it takes longer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.486 --> 00:10:03.986 A:middle
 But it's an option
@@ -761,13 +701,6 @@ at my destination.
 00:10:59.656 --> 00:11:01.086 A:middle
 That concludes the presentation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.656 --> 00:11:01.086 A:middle
-That concludes the presentation.
-
 00:11:01.666 --> 00:11:04.256 A:middle
 For more information,
 please visit this website
@@ -778,4 +711,3 @@ maps-transit@apple.com.
 
 00:11:08.806 --> 00:11:09.976 A:middle
 Thanks for listening.
-

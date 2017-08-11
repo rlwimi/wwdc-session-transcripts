@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:18.500 A:middle
 [ Music ]
@@ -55,22 +54,14 @@ we're going to unpack this.
 I'm going to tell you what the
 system is actually doing for you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:57.956 --> 00:01:00.366 A:middle
-I'm going to tell you what the
-system is actually doing for you
-
 00:01:00.366 --> 00:01:01.336 A:middle
 that would be nice to know.
 
-00:01:01.816 --> 00:01:05.325 A:middle
+00:01:01.816 --> 00:01:05.326 A:middle
 But also how you guys as
 developers will get to interact
 
-00:01:05.325 --> 00:01:07.376 A:middle
+00:01:05.326 --> 00:01:07.376 A:middle
 and plug into that system.
 
 00:01:08.926 --> 00:01:11.306 A:middle
@@ -148,23 +139,15 @@ or landscape.
 But beyond the physical devices
 themselves we also have software
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.046 --> 00:02:01.716 A:middle
-But beyond the physical devices
-themselves we also have software
-
 00:02:01.716 --> 00:02:06.446 A:middle
 features like slide over and
 these multitasking features
 
-00:02:06.446 --> 00:02:09.515 A:middle
+00:02:06.446 --> 00:02:09.516 A:middle
 as well that just increases
 the number of combinations
 
-00:02:09.515 --> 00:02:10.696 A:middle
+00:02:09.516 --> 00:02:10.696 A:middle
 that your application can be in.
 
 00:02:11.846 --> 00:02:13.636 A:middle
@@ -232,14 +215,6 @@ for you is really good news.
 
 00:02:53.526 --> 00:02:56.616 A:middle
 Now the keyword here is most.
-
-00:02:57.946 --> 00:03:01.976 A:middle
-There are a lot of ways that
-you as developers can plug in
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.946 --> 00:03:01.976 A:middle
 There are a lot of ways that
@@ -344,14 +319,6 @@ in on one particular part
 of the trait system, which
 we call size classes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.386 --> 00:04:00.656 A:middle
-of the trait system, which
-we call size classes.
-
 00:04:00.656 --> 00:04:02.906 A:middle
 And I think it would be a
 really good idea to kind
@@ -384,7 +351,7 @@ is running in.
 So here's an example of a
 trait, the horizontalSizeClass.
 
-00:04:20.495 --> 00:04:23.546 A:middle
+00:04:20.496 --> 00:04:23.546 A:middle
 And this just describes what
 the experience should be
 
@@ -437,14 +404,6 @@ they have many things in them.
 
 00:04:56.266 --> 00:04:57.536 A:middle
 And even the three that you see
-
-00:04:57.536 --> 00:05:00.646 A:middle
-on the screen here is even
-a supplication of the size
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.536 --> 00:05:00.646 A:middle
 on the screen here is even
@@ -539,14 +498,6 @@ a lot of different sizes.
 This is humorously
 a simplification
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.496 --> 00:06:01.316 A:middle
-This is humorously
-a simplification
-
 00:06:01.316 --> 00:06:02.456 A:middle
 of what some of those sizes are.
 
@@ -621,14 +572,6 @@ changes, which would be examples
 00:06:54.166 --> 00:06:58.516 A:middle
 of like going from iPhone
 6s to SE smaller changes.
-
-00:06:59.056 --> 00:07:01.116 A:middle
-And for each one of
-these changes fine
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.056 --> 00:07:01.116 A:middle
 And for each one of
@@ -724,14 +667,6 @@ controller and use more
 of a drill in way of
 presenting information.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.196 --> 00:08:01.946 A:middle
-of a drill in way of
-presenting information.
-
 00:08:02.856 --> 00:08:04.006 A:middle
 News would be another example.
 
@@ -786,7 +721,7 @@ is size classes?
 And this is where we bring
 the trait system back in.
 
-00:08:41.025 --> 00:08:44.656 A:middle
+00:08:41.026 --> 00:08:44.656 A:middle
 So size classes is two traits,
 there's a horizontalSizeClass
 
@@ -811,14 +746,6 @@ in a more compact way.
 00:08:56.716 --> 00:08:58.966 A:middle
 Regular means that you're
 not as space constrained
-
-00:08:58.966 --> 00:09:02.156 A:middle
-and you should totally feel
-free to explore at least
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.966 --> 00:09:02.156 A:middle
 and you should totally feel
@@ -917,14 +844,6 @@ compact compact with iPhones
 in landscape with the notable
 exception of the 6s Plus,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.906 --> 00:10:03.776 A:middle
-in landscape with the notable
-exception of the 6s Plus,
-
 00:10:03.776 --> 00:10:06.396 A:middle
 which is actually regular
 horizontally when you're
@@ -1006,14 +925,6 @@ designing your applications
 00:10:57.176 --> 00:10:59.066 A:middle
 and thinking about how you
 want them to be different
-
-00:10:59.066 --> 00:11:02.616 A:middle
-between iPad and
-iPhone think primarily
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.066 --> 00:11:02.616 A:middle
 between iPad and
@@ -1108,10 +1019,6 @@ of some of the dynamic kind
 00:11:57.506 --> 00:11:59.766 A:middle
 of changes that can
 happen on the system.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.506 --> 00:12:01.486 A:middle
 So here again, we're going back
@@ -1218,14 +1125,6 @@ automatically move things
 and resize things for you as
 that available space is changing
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.326 --> 00:13:01.926 A:middle
-and resize things for you as
-that available space is changing
-
 00:13:02.046 --> 00:13:03.336 A:middle
 at a more fine grain level.
 
@@ -1312,14 +1211,6 @@ trait collection.
 
 00:13:56.686 --> 00:13:57.496 A:middle
 And what I mean by that is
-
-00:13:57.496 --> 00:14:00.046 A:middle
-that all the different traits
-are going to have values.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.496 --> 00:14:00.046 A:middle
 that all the different traits
@@ -1413,14 +1304,6 @@ little bit of a change here
 00:14:57.076 --> 00:14:59.296 A:middle
 and that's as the trait
 collection is getting propagated
-
-00:14:59.296 --> 00:15:02.156 A:middle
-down you can actually
-change the trait collection
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.296 --> 00:15:02.156 A:middle
 down you can actually
@@ -1521,10 +1404,6 @@ is only going to be interested
 in a few traits and most
 commonly just the horizontal
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.356 --> 00:16:01.066 A:middle
 size class.
 
@@ -1620,19 +1499,11 @@ traitCollectionDidChange
 for every single view
 controller and every single view
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.426 --> 00:17:01.576 A:middle
-for every single view
-controller and every single view
-
 00:17:01.576 --> 00:17:03.626 A:middle
 for all the possible
 changes in your application.
 
-00:17:04.215 --> 00:17:05.526 A:middle
+00:17:04.216 --> 00:17:05.526 A:middle
 A lot of things can change.
 
 00:17:05.986 --> 00:17:09.126 A:middle
@@ -1718,14 +1589,6 @@ how you want your interface
 
 00:17:58.596 --> 00:17:59.866 A:middle
 to react and to adapt.
-
-00:17:59.946 --> 00:18:02.276 A:middle
-And it makes it really easy
-to follow and maintain.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.946 --> 00:18:02.276 A:middle
 And it makes it really easy
@@ -1822,14 +1685,6 @@ been making to the tools
 to improve our workflows
 with adaptivity.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.876 --> 00:19:01.476 A:middle
-to improve our workflows
-with adaptivity.
-
 00:19:01.716 --> 00:19:02.976 A:middle
 So the one and only Brent Shank.
 
@@ -1919,13 +1774,6 @@ a couple of things
 00:19:59.536 --> 00:20:00.846 A:middle
 that aren't present on iPhone.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.536 --> 00:20:00.846 A:middle
-that aren't present on iPhone.
-
 00:20:01.816 --> 00:20:04.626 A:middle
 You see at the top the label
 looks a little bit different
@@ -2009,14 +1857,6 @@ is that now scenes
 00:20:56.916 --> 00:20:59.196 A:middle
 in Interface Builder canvas
 are always being rendered
-
-00:20:59.196 --> 00:21:02.036 A:middle
-in the dimensions of actual
-ethical devices or one
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.196 --> 00:21:02.036 A:middle
 in the dimensions of actual
@@ -2117,14 +1957,6 @@ It's an iPhone 6s in portrait,
 which means that it's a compact
 width regular height device.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.046 --> 00:22:01.046 A:middle
-which means that it's a compact
-width regular height device.
-
 00:22:01.046 --> 00:22:03.236 A:middle
 So it's a little bit of
 terminology Kevin's talked about
@@ -2214,10 +2046,6 @@ is really cool.
 
 00:22:57.906 --> 00:22:58.226 A:middle
 Thank you.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.436 --> 00:23:04.006 A:middle
 So iPhones are interesting
@@ -2315,14 +2143,6 @@ of actually building this view.
 So here's what we're
 going to do first.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.536 --> 00:24:00.036 A:middle
-So here's what we're
-going to do first.
-
 00:24:00.116 --> 00:24:02.006 A:middle
 We're going to add this label
 and we're going to add it
@@ -2410,14 +2230,6 @@ spacing constraint between it
 00:24:56.206 --> 00:24:58.766 A:middle
 and the image view
 below vertical spacing.
-
-00:24:59.476 --> 00:25:01.646 A:middle
-And I've got some
-content I will paste in
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.476 --> 00:25:01.646 A:middle
 And I've got some
@@ -2518,14 +2330,6 @@ really want to think
 about adding a customization for
 a particular trait collection
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.836 --> 00:26:02.576 A:middle
-about adding a customization for
-a particular trait collection
-
 00:26:02.576 --> 00:26:04.086 A:middle
 or in this case a size class.
 
@@ -2606,14 +2410,6 @@ look at the inspector.
 00:26:55.896 --> 00:26:59.646 A:middle
 So you might see out there that
 a couple of these attributes,
-
-00:26:59.796 --> 00:27:02.396 A:middle
-that is a big cursor, have
-a + button next to them.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.796 --> 00:27:02.396 A:middle
 that is a big cursor, have
@@ -2710,14 +2506,6 @@ and updated on the canvas.
 If I select an iPhone what I
 would expect to happen happened,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.216 --> 00:28:02.416 A:middle
-If I select an iPhone what I
-would expect to happen happened,
-
 00:28:02.596 --> 00:28:04.586 A:middle
 the font remains what
 it was before the change
@@ -2802,14 +2590,6 @@ of these checkboxes.
 But I also can choose to
 customize just for regular width
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.246 --> 00:29:02.356 A:middle
-But I also can choose to
-customize just for regular width
-
 00:29:02.496 --> 00:29:06.096 A:middle
 and any height or for any
 height and regular width okay.
@@ -2888,14 +2668,6 @@ in that configuration,
 00:29:57.636 --> 00:29:58.976 A:middle
 but in this case I
 don't want to do that.
-
-00:29:58.976 --> 00:30:01.486 A:middle
-I only want to make the
-customization for iPad.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.976 --> 00:30:01.486 A:middle
 I only want to make the
@@ -2992,14 +2764,6 @@ and regular height.
 So that's what this
 checkbox shows me right here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.536 --> 00:31:01.416 A:middle
-So that's what this
-checkbox shows me right here.
-
 00:31:01.886 --> 00:31:03.906 A:middle
 Most of the time
 when you add views
@@ -3090,14 +2854,6 @@ Well what's really cool is
 that you can actually customize
 an Auto Layout constraint
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.746 --> 00:32:01.796 A:middle
-that you can actually customize
-an Auto Layout constraint
-
 00:32:01.936 --> 00:32:05.806 A:middle
 constant using a variation
 like we've been doing
@@ -3175,14 +2931,6 @@ not that much space.
 00:32:57.256 --> 00:32:58.946 A:middle
 Your app will be
 spaced constrained.
-
-00:32:58.946 --> 00:33:01.236 A:middle
-So you really want to
-provide an iPhone experience
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.946 --> 00:33:01.236 A:middle
 So you really want to
@@ -3270,14 +3018,6 @@ So that's really cool.
 And as I cycle through these
 devices it looks pretty good,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.436 --> 00:34:00.076 A:middle
-And as I cycle through these
-devices it looks pretty good,
-
 00:34:00.076 --> 00:34:02.266 A:middle
 but it's still not
 quite close enough.
@@ -3285,11 +3025,11 @@ quite close enough.
 00:34:02.856 --> 00:34:03.836 A:middle
 So how do I fix this?
 
-00:34:04.296 --> 00:34:08.045 A:middle
+00:34:04.296 --> 00:34:08.046 A:middle
 Well you might think that I need
 to go back and make the bar blue
 
-00:34:08.045 --> 00:34:09.406 A:middle
+00:34:08.046 --> 00:34:09.406 A:middle
 and try to make the
 edit that way.
 
@@ -3308,11 +3048,11 @@ you're introducing variations
 00:34:16.346 --> 00:34:17.366 A:middle
 based on size class.
 
-00:34:17.856 --> 00:34:19.795 A:middle
+00:34:17.856 --> 00:34:19.796 A:middle
 But you don't use this
 workflow for editing them.
 
-00:34:20.295 --> 00:34:23.146 A:middle
+00:34:20.296 --> 00:34:23.146 A:middle
 Instead, wouldn't it be nice
 if you could just directly edit
 
@@ -3328,7 +3068,7 @@ Interface Builder knows that,
 it also knows that I have
 a customization for that.
 
-00:34:34.795 --> 00:34:37.176 A:middle
+00:34:34.796 --> 00:34:37.176 A:middle
 So now when I go to edit
 this it's going to figure
 
@@ -3343,18 +3083,18 @@ again, notice what happens
 in the Attributes Inspector
 it's going to update it
 
-00:34:44.585 --> 00:34:47.036 A:middle
+00:34:44.586 --> 00:34:47.036 A:middle
 for the size class because it
 knows I have a customization
 
 00:34:47.196 --> 00:34:47.786 A:middle
 based on that.
 
-00:34:48.306 --> 00:34:50.485 A:middle
+00:34:48.306 --> 00:34:50.486 A:middle
 So we think this is a really
 powerful new workflow.
 
-00:34:50.485 --> 00:34:52.846 A:middle
+00:34:50.486 --> 00:34:52.846 A:middle
 It lets you introduce
 variations using the Device bar,
 
@@ -3368,10 +3108,6 @@ in the design canvas directly.
 00:34:56.156 --> 00:34:59.136 A:middle
 And with that I want to
 bring it back to Kevin.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.516 --> 00:35:04.500 A:middle
 [ Applause ]
@@ -3461,14 +3197,6 @@ customizations.
 00:35:55.436 --> 00:35:58.206 A:middle
 Once you've exited this mode
 Interface Builder will still
-
-00:35:58.206 --> 00:36:00.696 A:middle
-know how to update
-those customizations
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.206 --> 00:36:00.696 A:middle
 know how to update
@@ -3564,14 +3292,6 @@ the big takeaway with part 1 is
 that the system is going to
 do most of the work for you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.336 --> 00:37:02.216 A:middle
-that the system is going to
-do most of the work for you.
-
 00:37:02.646 --> 00:37:04.676 A:middle
 There's lots of ways that
 you can plug into that
@@ -3625,4 +3345,3 @@ session, a great rest
 
 00:37:33.876 --> 00:37:34.976 A:middle
 of your week and a great lunch.
-

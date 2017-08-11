@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:19.606 A:middle
 [ Music ]
@@ -75,15 +74,7 @@ where we're concerned
 with four major classes
 of ability: Motor,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.856 --> 00:01:02.436 A:middle
-with four major classes
-of ability: Motor,
-
-00:01:02.706 --> 00:01:04.775 A:middle
+00:01:02.706 --> 00:01:04.776 A:middle
 vision, hearing and learning.
 
 00:01:06.586 --> 00:01:08.666 A:middle
@@ -165,14 +156,6 @@ for people with different needs.
 Then we'll take an iOS app
 as our example and audit it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.276 --> 00:02:01.906 A:middle
-Then we'll take an iOS app
-as our example and audit it
-
 00:02:01.906 --> 00:02:03.116 A:middle
 for accessibility issues.
 
@@ -184,7 +167,7 @@ APIs that you can use
 to make sure your
 apps are accessible.
 
-00:02:09.735 --> 00:02:11.376 A:middle
+00:02:09.736 --> 00:02:11.376 A:middle
 And finally, we'll
 use those APIs
 
@@ -254,13 +237,6 @@ complex gestures.
 00:02:56.696 --> 00:02:59.646 A:middle
 iOS and OS X have had Switch
 Control for several years.
-
-00:02:59.646 --> 00:03:00.176 A:middle
-So what's new?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.646 --> 00:03:00.176 A:middle
 So what's new?
@@ -365,14 +341,6 @@ a timer [inaudible].
 And when a timer expires,
 it invokes an action,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.956 --> 00:04:02.826 A:middle
-And when a timer expires,
-it invokes an action,
-
 00:04:02.876 --> 00:04:03.886 A:middle
 for instance a mouse click.
 
@@ -393,11 +361,11 @@ just like Switch Control.
 00:04:12.656 --> 00:04:14.176 A:middle
 So next, let's look at vision.
 
-00:04:15.296 --> 00:04:18.745 A:middle
+00:04:15.296 --> 00:04:18.746 A:middle
 So, for many years Mac OS and
 iOS have supported features
 
-00:04:18.745 --> 00:04:20.315 A:middle
+00:04:18.746 --> 00:04:20.316 A:middle
 like invert colors
 and gray scale
 
@@ -461,14 +429,6 @@ or tapping on the watch face.
 But sometimes they may want
 to discretely check the time
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.966 --> 00:05:02.356 A:middle
-But sometimes they may want
-to discretely check the time
-
 00:05:02.356 --> 00:05:04.116 A:middle
 without disturbing
 those around them.
@@ -506,7 +466,7 @@ But what about their
 physical environment?
 
 00:05:26.796 --> 00:05:29.106 A:middle
-In iOS X we're introducing
+In iOS 10 we're introducing
 a feature called Magnifier.
 
 00:05:29.786 --> 00:05:31.986 A:middle
@@ -545,14 +505,6 @@ the Home button.
 
 00:05:57.366 --> 00:05:59.066 A:middle
 So here we are.
-
-00:05:59.836 --> 00:06:02.916 A:middle
-So, if I want to read what's
-on this bottle of medicine,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.836 --> 00:06:02.916 A:middle
 So, if I want to read what's
@@ -615,9 +567,9 @@ increase the contrast a bit.
 So that's pretty
 easy for me to read.
 
-00:06:45.486 --> 00:06:48.186 A:middle
+00:06:45.486 --> 00:06:48.176 A:middle
 Okay, so that's an example
-of Magnifier on iOS X.
+of Magnifier on iOS 10.
 
 00:06:49.046 --> 00:06:51.596 A:middle
 Okay, so what's new in hearing?
@@ -629,14 +581,6 @@ TTY devices for some time.
 00:06:55.396 --> 00:06:57.676 A:middle
 TTY technology allows
 someone with hearing loss
-
-00:06:57.676 --> 00:07:00.956 A:middle
-to hold text conversations
-over standard telephone calls.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.676 --> 00:07:00.956 A:middle
 to hold text conversations
@@ -685,7 +629,7 @@ available to everyone
 without any additional hardware.
 
 00:07:27.666 --> 00:07:31.386 A:middle
-So new in iOS X anyone can
+So new in iOS 10 anyone can
 play software TTY phone calls
 
 00:07:31.696 --> 00:07:33.236 A:middle
@@ -729,15 +673,7 @@ and write of millions
 of people around the world.
 
 00:07:58.246 --> 00:08:00.276 A:middle
-In iOS X we're excited
-to bring a number
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.246 --> 00:08:00.276 A:middle
-In iOS X we're excited
+In iOS 10 we're excited
 to bring a number
 
 00:08:00.276 --> 00:08:02.476 A:middle
@@ -805,7 +741,7 @@ so I can be sure
 that I didn't enter a visually
 similar character like an E.
 
-00:08:41.426 --> 00:08:41.655 A:middle
+00:08:41.426 --> 00:08:41.656 A:middle
 &gt;&gt; E.
 
 00:08:42.366 --> 00:08:45.216 A:middle
@@ -837,13 +773,6 @@ on Word Feedback.
 00:08:59.566 --> 00:09:01.046 A:middle
 So I can get immediate feedback
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:59.566 --> 00:09:01.046 A:middle
-So I can get immediate feedback
-
 00:09:01.046 --> 00:09:03.476 A:middle
 as to whether the word I've
 entered is the one I wanted.
@@ -855,9 +784,9 @@ entered is the one I wanted.
 &gt;&gt; Okay. So that's
 a quick example
 
-00:09:12.316 --> 00:09:16.976 A:middle
+00:09:12.316 --> 00:09:16.996 A:middle
 of enhanced typing
-feedback in iOS X.
+feedback in iOS 10.
 
 00:09:19.406 --> 00:09:21.356 A:middle
 So, hopefully I've whetted
@@ -929,14 +858,6 @@ are exposed.
 00:09:56.026 --> 00:09:58.196 A:middle
 That everything that is
 exposed has a good label
-
-00:09:58.196 --> 00:10:00.506 A:middle
-so someone using
-VoiceOver can identify it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.196 --> 00:10:00.506 A:middle
 so someone using
@@ -1024,14 +945,6 @@ I'm going to be using iOS,
 00:10:52.286 --> 00:10:55.636 A:middle
 but the same basic flow
 applies to all of our platforms.
-
-00:10:56.176 --> 00:11:01.806 A:middle
-Okay, so the first thing I'm
-going to do is add VoiceOver
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:56.176 --> 00:11:01.806 A:middle
 Okay, so the first thing I'm
@@ -1129,14 +1042,6 @@ Let's keep going.
 
 00:11:56.146 --> 00:11:56.556 A:middle
 &gt;&gt; [Inaudible] button.
-
-00:11:56.876 --> 00:12:00.046 A:middle
-&gt;&gt; So this button has a label
-that's derived from the name
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:56.876 --> 00:12:00.046 A:middle
 &gt;&gt; So this button has a label
@@ -1252,13 +1157,6 @@ Let's move on to this Steps tab.
 00:12:59.186 --> 00:13:01.106 A:middle
 Step 41st.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.186 --> 00:13:01.106 A:middle
-Step 41st.
-
 00:13:03.136 --> 00:13:04.716 A:middle
 -- Broadway and Ridgeway.
 
@@ -1338,14 +1236,6 @@ Now, for the ratings graph,
 00:13:55.666 --> 00:13:58.956 A:middle
 those graph values were totally
 inaccessible to VoiceOver.
-
-00:13:59.506 --> 00:14:04.696 A:middle
-And finally, in the route step
-list the cells representing
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.506 --> 00:14:04.696 A:middle
 And finally, in the route step
@@ -1432,14 +1322,6 @@ And the button replies with
 00:14:55.746 --> 00:14:57.886 A:middle
 This is the information
 VoiceOver needs to announce,
-
-00:14:58.156 --> 00:15:00.826 A:middle
-"Favorite, Button" and draw
-a cursor around the element.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.156 --> 00:15:00.826 A:middle
 "Favorite, Button" and draw
@@ -1546,13 +1428,6 @@ can discover the image,
 00:15:59.686 --> 00:16:01.486 A:middle
 focus on it and learn about it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.686 --> 00:16:01.486 A:middle
-focus on it and learn about it.
-
 00:16:03.166 --> 00:16:06.226 A:middle
 So now your interface element
 is surfaced by VoiceOver.
@@ -1643,14 +1518,6 @@ activate your element.
 Next there's the
 accessibility frame.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.776 --> 00:17:03.386 A:middle
-Next there's the
-accessibility frame.
-
 00:17:04.056 --> 00:17:06.366 A:middle
 This determines where
 your element is onscreen
@@ -1662,7 +1529,7 @@ and is used both for hit testing
 and for drawing a cursor
 around the element.
 
-00:17:10.445 --> 00:17:13.886 A:middle
+00:17:10.446 --> 00:17:13.886 A:middle
 Now, for UI views you usually do
 not have to set this explicitly
 
@@ -1673,14 +1540,14 @@ based on where the view is
 00:17:17.046 --> 00:17:17.806 A:middle
 in the view hierarchy.
 
-00:17:18.925 --> 00:17:20.455 A:middle
+00:17:18.926 --> 00:17:20.456 A:middle
 But you can modify it if needed.
 
-00:17:20.455 --> 00:17:22.695 A:middle
+00:17:20.456 --> 00:17:22.696 A:middle
 Just remember that it is
 in screen coordinates.
 
-00:17:23.205 --> 00:17:26.496 A:middle
+00:17:23.206 --> 00:17:26.496 A:middle
 And finally, there's
 the accessibility value.
 
@@ -1733,10 +1600,6 @@ to a UI view?
 00:17:57.256 --> 00:17:59.776 A:middle
 When you need to do that,
 use UIAccessibilityElement.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.496 --> 00:18:04.086 A:middle
 UIAccessibilityElement objects
@@ -1821,16 +1684,8 @@ we could subclass,
 or we could set accessibility
 frame after each scroll.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.386 --> 00:19:01.746 A:middle
-or we could set accessibility
-frame after each scroll.
-
 00:19:02.326 --> 00:19:05.806 A:middle
-Or, in iOS X we can
+Or, in iOS 10 we can
 set accessibility frame
 
 00:19:05.806 --> 00:19:06.806 A:middle
@@ -1923,14 +1778,6 @@ to make our app accessible.
 The first thing we're
 going to do is we're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.726 --> 00:20:01.486 A:middle
-The first thing we're
-going to do is we're going
-
 00:20:01.486 --> 00:20:05.106 A:middle
 to fix the fact that that
 table view cell didn't convey
@@ -2010,14 +1857,6 @@ objects.
 So, just four ivars, one
 for each bar of the graph
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.016 --> 00:21:01.636 A:middle
-So, just four ivars, one
-for each bar of the graph
-
 00:21:02.106 --> 00:21:03.556 A:middle
 that are
 UAAccessibiliytElements.
@@ -2088,14 +1927,6 @@ elements.
 00:21:52.816 --> 00:21:58.196 A:middle
 So in AwakeFromNib here, for
 those four ivars I'm just going
-
-00:21:58.336 --> 00:22:00.816 A:middle
-to set it equal to a
-UIAccessibilityElement
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.336 --> 00:22:00.816 A:middle
 to set it equal to a
@@ -2178,14 +2009,6 @@ appropriate waypoint
 that that cell represents,
 what we're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.596 --> 00:23:01.886 A:middle
-that that cell represents,
-what we're going
-
 00:23:01.886 --> 00:23:03.066 A:middle
 to do is add some code
 
@@ -2253,14 +2076,6 @@ have to navigate through all
 00:23:53.456 --> 00:23:55.566 A:middle
 of the waypoints on the graph
 to discover all the hazards.
-
-00:23:57.616 --> 00:24:00.326 A:middle
-Now, for the route step list,
-there's a similar problem
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.616 --> 00:24:00.326 A:middle
 Now, for the route step list,
@@ -2355,14 +2170,6 @@ them with VoiceOver.
 On iOS, to add your
 custom rotors,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.376 --> 00:25:00.656 A:middle
-On iOS, to add your
-custom rotors,
-
 00:25:00.656 --> 00:25:03.936 A:middle
 set the Accessibility Custom
 Rotors property on a super view
@@ -2430,13 +2237,6 @@ Route Steps View controller.
 00:25:54.756 --> 00:25:57.816 A:middle
 And I'm going to set this
 property inside of AwakeFromNib.
-
-00:25:59.116 --> 00:26:00.466 A:middle
-So basic skeleton here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.116 --> 00:26:00.466 A:middle
 So basic skeleton here.
@@ -2525,14 +2325,6 @@ with this loop here.
 And we're going to search
 until we find a match.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.836 --> 00:27:02.106 A:middle
-And we're going to search
-until we find a match.
-
 00:27:02.836 --> 00:27:06.196 A:middle
 And a match is just a
 waypoint that is a hazard.
@@ -2602,10 +2394,6 @@ annotation views starting
 00:27:56.476 --> 00:27:59.736 A:middle
 from one annotation view
 going forwards or backwards
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.136 --> 00:28:03.736 A:middle
 with a given predicate
@@ -2686,14 +2474,6 @@ forward or backward.
 
 00:28:57.676 --> 00:28:59.106 A:middle
 And what the predicate was.
-
-00:28:59.636 --> 00:29:04.386 A:middle
-And again, if we were able to
-find a result, we're just going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.636 --> 00:29:04.386 A:middle
 And again, if we were able to
@@ -2811,10 +2591,6 @@ Friends. Rated 4 of 5.
 So our graph bars
 are now accessible.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.006 --> 00:30:01.426 A:middle
 &gt;&gt; Avenue Loop route.
 
@@ -2918,14 +2694,6 @@ The switch was cut off there.
 So you heard, though,
 that it said "Hazards."
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.936 --> 00:31:01.786 A:middle
-So you heard, though,
-that it said "Hazards."
-
 00:31:01.786 --> 00:31:04.196 A:middle
 So our modification to the
 accessibility label took.
@@ -3005,14 +2773,6 @@ applicable view controller
 to be the headers that are
 associated with that content.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.856 --> 00:32:02.876 A:middle
-to be the headers that are
-associated with that content.
-
 00:32:03.766 --> 00:32:06.176 A:middle
 Then when someone
 navigates to your items,
@@ -3078,13 +2838,6 @@ Grain. Button.
 
 00:32:57.346 --> 00:32:58.756 A:middle
 Title. Grain.
-
-00:32:59.016 --> 00:33:01.086 A:middle
-Author. Vivian Li.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.016 --> 00:33:01.086 A:middle
 Author. Vivian Li.
@@ -3182,13 +2935,6 @@ with a motor disability?
 00:33:59.756 --> 00:34:01.366 A:middle
 Is anything too low contrast?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.756 --> 00:34:01.366 A:middle
-Is anything too low contrast?
-
 00:34:01.966 --> 00:34:04.186 A:middle
 Excuse me.
 
@@ -3214,7 +2960,7 @@ how to do that.
 So for more information you can
 check out this session online.
 
-00:34:19.916 --> 00:34:21.235 A:middle
+00:34:19.916 --> 00:34:21.236 A:middle
 It's Session Number 202.
 
 00:34:21.606 --> 00:34:24.896 A:middle
@@ -3224,20 +2970,20 @@ related sessions this week
 00:34:24.896 --> 00:34:25.806 A:middle
 that you should check out.
 
-00:34:25.806 --> 00:34:29.005 A:middle
+00:34:25.806 --> 00:34:29.006 A:middle
 At 10:00 a.m. in this very
 room there's a session
 
-00:34:29.005 --> 00:34:30.376 A:middle
+00:34:29.006 --> 00:34:30.376 A:middle
 on Inclusive App Design.
 
-00:34:30.376 --> 00:34:31.565 A:middle
+00:34:30.376 --> 00:34:31.566 A:middle
 So make sure you stick around.
 
-00:34:33.286 --> 00:34:35.795 A:middle
+00:34:33.286 --> 00:34:35.796 A:middle
 And on Wednesday at 10:00 a.m.
 
-00:34:35.795 --> 00:34:37.806 A:middle
+00:34:35.796 --> 00:34:37.806 A:middle
 in Nob Hill there's the
 session Auditing your Apps
 
@@ -3249,17 +2995,16 @@ is where you can learn more
 about that new accessibility
 inspector,
 
-00:34:42.815 --> 00:34:44.306 A:middle
+00:34:42.816 --> 00:34:44.306 A:middle
 which I definitely
 recommend you check out.
 
 00:34:44.656 --> 00:34:46.306 A:middle
 So that's all I have for today.
 
-00:34:46.485 --> 00:34:48.025 A:middle
+00:34:46.486 --> 00:34:48.026 A:middle
 Thanks so much and have
 a great conference.
 
 00:34:49.516 --> 00:34:59.170 A:middle
 [ Applause ]
-

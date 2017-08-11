@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:21.516 A:middle
 [ Music ]
@@ -52,14 +51,6 @@ but I think they're really cool.
 00:00:57.466 --> 00:00:59.396 A:middle
 And I use them every
 day to quickly edit
-
-00:00:59.396 --> 00:01:01.106 A:middle
-and navigate the
-Xcode source base.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.396 --> 00:01:01.106 A:middle
 and navigate the
@@ -151,19 +142,11 @@ as I'm just moving around here
 in the editor, is that we have
 this new current line highlight
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.486 --> 00:02:03.006 A:middle
-in the editor, is that we have
-this new current line highlight
-
 00:02:03.006 --> 00:02:05.476 A:middle
 that shows you where
 you're at, at a glance.
 
-00:02:06.406 --> 00:02:10.545 A:middle
+00:02:06.406 --> 00:02:10.546 A:middle
 Each of our built-in
 Xcode themes has a subtle,
 
@@ -213,14 +196,6 @@ a structural code element.
 00:02:53.216 --> 00:02:58.076 A:middle
 And, you'll notice that these
 little placeholders here,
-
-00:02:58.076 --> 00:03:00.866 A:middle
-give you a chance to
-describe, you know your method,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.076 --> 00:03:00.866 A:middle
 give you a chance to
@@ -304,14 +279,6 @@ to show you I'm going to jump
 to another file, I'm
 going to use open quickly
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.726 --> 00:04:02.326 A:middle
-to another file, I'm
-going to use open quickly
-
 00:04:02.326 --> 00:04:06.176 A:middle
 by pressing Command, Shift O,
 and typing in a few characters
@@ -324,7 +291,7 @@ TimerViewController.
 And you may have
 seen this before,
 
-00:04:13.106 --> 00:04:17.065 A:middle
+00:04:13.106 --> 00:04:17.066 A:middle
 this is the document items
 menu, and you can open this
 
@@ -375,14 +342,6 @@ color that we've been waiting
 
 00:04:57.406 --> 00:04:59.086 A:middle
 for a designer to deliver to us.
-
-00:04:59.746 --> 00:05:03.796 A:middle
-But I actually got those P&amp;G's
-last night and I put them
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.746 --> 00:05:03.796 A:middle
 But I actually got those P&amp;G's
@@ -464,13 +423,6 @@ this is an image literal.
 00:05:59.516 --> 00:06:04.556 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.516 --> 00:06:04.556 A:middle
-[ Applause ]
-
 00:06:05.056 --> 00:06:08.056 A:middle
 So every image in the library,
 regardless of whether it comes
@@ -537,14 +489,6 @@ know is that all of these image
 
 00:06:57.946 --> 00:06:59.256 A:middle
 and color literals are the,
-
-00:06:59.306 --> 00:07:01.046 A:middle
-they're fully keyboard
-navigable.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.306 --> 00:07:01.046 A:middle
 they're fully keyboard
@@ -626,14 +570,6 @@ real quick, like that.
 Hopefully this makes it
 really clear, that image
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.296 --> 00:08:01.326 A:middle
-Hopefully this makes it
-really clear, that image
-
 00:08:01.326 --> 00:08:04.296 A:middle
 and color literals are really
 the fully typed, checked,
@@ -665,11 +601,11 @@ noticed before
 that if you've done a find
 perhaps by selecting some text,
 
-00:08:30.486 --> 00:08:33.025 A:middle
+00:08:30.486 --> 00:08:33.026 A:middle
 like say Pause here
 and then you copy it
 
-00:08:33.025 --> 00:08:35.535 A:middle
+00:08:33.026 --> 00:08:35.536 A:middle
 to the clipboard
 using Command C.
 
@@ -691,14 +627,6 @@ That's kind of weird isn't it?
 00:08:51.126 --> 00:08:57.586 A:middle
 Well, that's because the find
 pasteboard is, it actually works
-
-00:08:57.586 --> 00:09:02.546 A:middle
-across applications just like
-the clipboard that you all know.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.586 --> 00:09:02.546 A:middle
 across applications just like
@@ -777,14 +705,6 @@ a little bit better.
 And, and this one's a
 real big time saver,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.886 --> 00:10:02.616 A:middle
-And, and this one's a
-real big time saver,
-
 00:10:02.716 --> 00:10:03.956 A:middle
 and I use this a lot.
 
@@ -844,14 +764,6 @@ to do a full project find.
 
 00:10:56.276 --> 00:10:59.836 A:middle
 And here, I'll just push timer
-
-00:10:59.836 --> 00:11:03.006 A:middle
-into my find pasteboard
-and search for that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.836 --> 00:11:03.006 A:middle
 into my find pasteboard
@@ -929,14 +841,6 @@ Xcode preferences window.
 So here, in the Key
 Bindings pref pane,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.366 --> 00:12:00.816 A:middle
-So here, in the Key
-Bindings pref pane,
-
 00:12:01.386 --> 00:12:05.116 A:middle
 you can actually do a search
 for anything that involves say,
@@ -1000,14 +904,6 @@ your own commands, Chris.
 00:12:56.316 --> 00:12:59.586 A:middle
 As Mike said, I'm Chris
 and today I'm going
-
-00:12:59.586 --> 00:13:01.496 A:middle
-to show you how you
-can enhance Xcode
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.586 --> 00:13:01.496 A:middle
 to show you how you
@@ -1082,14 +978,6 @@ extensions,
 Xcode extensions are also
 sandboxed and use entitlements
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.406 --> 00:14:02.146 A:middle
-Xcode extensions are also
-sandboxed and use entitlements
-
 00:14:02.226 --> 00:14:05.186 A:middle
 for doing anything that
 needs to escape that sandbox.
@@ -1146,14 +1034,6 @@ of the entire system.
 00:14:51.996 --> 00:14:55.896 A:middle
 And of course, we're also
 doing this for speed.
-
-00:14:56.306 --> 00:15:00.396 A:middle
-Application extensions are built
-on top of Mach messaging and XPC
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:56.306 --> 00:15:00.396 A:middle
 Application extensions are built
@@ -1230,14 +1110,6 @@ for each of your commands.
 And being part of an application
 is what enables an application
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.576 --> 00:16:04.046 A:middle
-And being part of an application
-is what enables an application
-
 00:16:04.046 --> 00:16:06.166 A:middle
 extension, an Xcode extension
 
@@ -1301,14 +1173,6 @@ your extension alive as long
 as possible so that it
 can send as many commands
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.276 --> 00:17:01.076 A:middle
-as possible so that it
-can send as many commands
-
 00:17:01.076 --> 00:17:02.566 A:middle
 as the user wants to invoke.
 
@@ -1327,7 +1191,7 @@ extensionDidFinishLaunching
 00:17:13.726 --> 00:17:14.026 A:middle
 to it.
 
-00:17:14.715 --> 00:17:16.776 A:middle
+00:17:14.716 --> 00:17:16.776 A:middle
 And this is a good
 place to do startup work
 
@@ -1338,7 +1202,7 @@ as long as it's quick.
 That's right you need to do your
 startup work as fast as possible
 
-00:17:24.955 --> 00:17:28.846 A:middle
+00:17:24.956 --> 00:17:28.846 A:middle
 and that's so your users
 can get to your extension
 
@@ -1370,14 +1234,6 @@ from one of two places.
 
 00:17:52.966 --> 00:17:55.436 A:middle
 By default you'll have an entry
-
-00:17:55.436 --> 00:18:00.546 A:middle
-in your NSExtensionAttributes
-dictionary in your info.plist
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:55.436 --> 00:18:00.546 A:middle
 in your NSExtensionAttributes
@@ -1454,14 +1310,6 @@ bunch of semantics,
 Xcode will preserve the order
 that you give your commands
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.846 --> 00:19:03.536 A:middle
-Xcode will preserve the order
-that you give your commands
-
 00:19:03.566 --> 00:19:07.826 A:middle
 to it, and list them in
 the menu in that order.
@@ -1518,14 +1366,6 @@ need to conform to.
 00:19:53.426 --> 00:19:55.876 A:middle
 Just as I said, it's
 passed an invocation
-
-00:19:56.276 --> 00:20:00.646 A:middle
-and a completionHandler
-call back.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:56.276 --> 00:20:00.646 A:middle
 and a completionHandler
@@ -1607,13 +1447,6 @@ into that a little further
 00:20:59.376 --> 00:21:00.346 A:middle
 on in the presentation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.376 --> 00:21:00.346 A:middle
-on in the presentation.
-
 00:21:00.816 --> 00:21:03.406 A:middle
 And finally, of course,
 
@@ -1686,14 +1519,6 @@ some subtle interactions.
 We've also provided
 a bunch of details
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.376 --> 00:22:01.576 A:middle
-We've also provided
-a bunch of details
-
 00:22:01.576 --> 00:22:04.566 A:middle
 about how they work
 together in our header files.
@@ -1754,14 +1579,6 @@ this mutable array property
 00:22:54.326 --> 00:22:58.046 A:middle
 containing the lines
 of text in the file.
-
-00:22:58.166 --> 00:23:00.706 A:middle
-We found ourselves, that
-when writing tools that work
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.166 --> 00:23:00.706 A:middle
 We found ourselves, that
@@ -1837,14 +1654,6 @@ the selection all you have
 to do is change this
 mutable array.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.686 --> 00:24:00.716 A:middle
-to do is change this
-mutable array.
-
 00:24:01.386 --> 00:24:07.216 A:middle
 And what's in that array are
 source text range objects.
@@ -1897,14 +1706,6 @@ notes set here.
 00:24:52.566 --> 00:24:57.036 A:middle
 So I was really impressed
 by what Mike told us
-
-00:24:57.286 --> 00:25:01.276 A:middle
-about Swift literals, the
-Swift color and image literals.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.286 --> 00:25:01.276 A:middle
 about Swift literals, the
@@ -1971,14 +1772,6 @@ created my project,
 00:25:52.626 --> 00:25:57.046 A:middle
 I'm going to add a new
 target to it and I'm going
-
-00:25:57.046 --> 00:26:00.316 A:middle
-to add an OS X application
-extension target.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.046 --> 00:26:00.316 A:middle
 to add an OS X application
@@ -2051,13 +1844,6 @@ I don't think I need it
 00:26:59.576 --> 00:27:00.876 A:middle
 for this particular project,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.576 --> 00:27:00.876 A:middle
-for this particular project,
-
 00:27:02.286 --> 00:27:04.136 A:middle
 so let's just take a
 look at the next file.
@@ -2114,14 +1900,6 @@ for that command should take.
 00:27:52.736 --> 00:27:55.866 A:middle
 So I'm going to change
 that to Convert
-
-00:27:56.046 --> 00:28:00.096 A:middle
-to Swift Literals
-and just accept that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:56.046 --> 00:28:00.096 A:middle
 to Swift Literals
@@ -2186,14 +1964,6 @@ every line in the array,
 and I'm certainly not
 modifying the complete buffer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.006 --> 00:29:00.376 A:middle
-and I'm certainly not
-modifying the complete buffer.
-
 00:29:00.636 --> 00:29:04.486 A:middle
 I'm only modifying the lines
 that actually need to be.
@@ -2248,14 +2018,6 @@ we darken the icon in the dock
 00:29:55.206 --> 00:29:58.516 A:middle
 and we darken the icon in
 the, welcome to Xcode window,
-
-00:29:59.196 --> 00:30:04.426 A:middle
-so you know at a glance
-that this Xcode is one
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.196 --> 00:30:04.426 A:middle
 so you know at a glance
@@ -2320,10 +2082,6 @@ say down here.
 If I actually run
 my command now,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:02.396 --> 00:31:06.216 A:middle
 you'll see that nothing happened
 and that's because I'm stopped
@@ -2380,10 +2138,6 @@ can make that pretty fast
 00:31:56.216 --> 00:31:59.626 A:middle
 by just adding a key
 binding for my new command.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.616 --> 00:32:03.096 A:middle
 I do that in Xcode's
@@ -2454,14 +2208,6 @@ any race conditions
 between your extension and
 the user, Xcode actually locks
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.056 --> 00:33:02.766 A:middle
-between your extension and
-the user, Xcode actually locks
-
 00:33:02.766 --> 00:33:05.446 A:middle
 out changes to the document
 that the user is working
@@ -2526,14 +2272,6 @@ things fast for our users
 by starting extensions early
 and keeping them alive as long
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.626 --> 00:34:01.706 A:middle
-by starting extensions early
-and keeping them alive as long
-
 00:34:01.706 --> 00:34:04.456 A:middle
 as they're likely to be
 needed so it can send commands
@@ -2564,14 +2302,14 @@ immediate on the Xcode side.
 As soon as the user hits Cancel
 they can continue typing.
 
-00:34:29.545 --> 00:34:34.306 A:middle
+00:34:29.546 --> 00:34:34.306 A:middle
 Now your extension will still
 receive that cancellation
 
 00:34:34.306 --> 00:34:35.706 A:middle
 and still needs to react to it,
 
-00:34:36.396 --> 00:34:39.545 A:middle
+00:34:36.396 --> 00:34:39.546 A:middle
 but the user doesn't
 need to care.
 
@@ -2582,7 +2320,7 @@ your extension can help Xcode
 00:34:42.786 --> 00:34:43.916 A:middle
 with performance as well.
 
-00:34:44.585 --> 00:34:48.835 A:middle
+00:34:44.586 --> 00:34:48.836 A:middle
 Your extension can startup
 as quickly as it possibly can
 
@@ -2597,14 +2335,6 @@ you can use GCD in all
 00:34:56.556 --> 00:34:58.536 A:middle
 of our asynchronous
 programming patterns
-
-00:34:58.806 --> 00:35:01.176 A:middle
-to ensure you're making
-maximum possible use
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.806 --> 00:35:01.176 A:middle
 to ensure you're making
@@ -2676,14 +2406,6 @@ yourselves, I can't wait
 to see what you do
 with our new API.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.796 --> 00:36:00.506 A:middle
-to see what you do
-with our new API.
-
 00:36:02.076 --> 00:36:03.986 A:middle
 There'll be some more
 information available
@@ -2748,4 +2470,3 @@ for us, you can see us there.
 
 00:36:53.516 --> 00:36:58.500 A:middle
 [ Applause ]
-

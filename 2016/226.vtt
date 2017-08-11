@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:09.516 --> 00:00:19.500 A:middle
 [ Music ]
@@ -54,14 +53,6 @@ CloudKit-backed applications
 
 00:00:57.346 --> 00:00:57.926 A:middle
 are behaving.
-
-00:00:58.506 --> 00:01:01.016 A:middle
-We're going to talk about
-some improvements to our APIs
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.506 --> 00:01:01.016 A:middle
 We're going to talk about
@@ -149,14 +140,6 @@ introduction to the ecosystem.
 I'd also like to mention these
 talks which go into more detail
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.986 --> 00:02:02.816 A:middle
-I'd also like to mention these
-talks which go into more detail
-
 00:02:02.816 --> 00:02:04.436 A:middle
 about specific aspects
 of CloudKit.
@@ -165,11 +148,11 @@ of CloudKit.
 You can use these to
 find ways that you
 
-00:02:06.836 --> 00:02:09.295 A:middle
+00:02:06.836 --> 00:02:09.296 A:middle
 and your application can use
 CloudKit to your advantage.
 
-00:02:10.205 --> 00:02:12.466 A:middle
+00:02:10.206 --> 00:02:12.466 A:middle
 Now, all the sessions
 are online and are linked
 
@@ -232,10 +215,6 @@ type, the Shared database.
 
 00:02:56.696 --> 00:02:57.896 A:middle
 More about that in a little bit.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.296 --> 00:03:02.976 A:middle
 The basic unit of storage
@@ -312,14 +291,6 @@ The concept of a Share.
 00:03:55.676 --> 00:03:58.646 A:middle
 A Share is a subclass
 of a Record and as such,
-
-00:03:58.886 --> 00:04:01.906 A:middle
-lives alongside Records
-inside of Record Zones.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:58.886 --> 00:04:01.906 A:middle
 lives alongside Records
@@ -413,14 +384,6 @@ that two new features,
 Notes Collaboration and
 Activity Sharing are both built
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.296 --> 00:05:02.366 A:middle
-Notes Collaboration and
-Activity Sharing are both built
-
 00:05:02.366 --> 00:05:03.576 A:middle
 on top of CloudKit Sharing.
 
@@ -496,13 +459,6 @@ Starting with macOS.
 00:05:57.486 --> 00:05:59.896 A:middle
 The big news that we
 want to share with you is
-
-00:05:59.896 --> 00:06:00.996 A:middle
-that you no longer need
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.896 --> 00:06:00.996 A:middle
 that you no longer need
@@ -585,10 +541,6 @@ of data up-to-date
 00:06:58.026 --> 00:06:59.626 A:middle
 between your servers
 and CloudKit.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.626 --> 00:07:05.356 A:middle
 With the introduction of
@@ -675,14 +627,6 @@ example has used this
 to write similar CloudKit
 code on iOS and on watchOS
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.406 --> 00:08:00.896 A:middle
-to write similar CloudKit
-code on iOS and on watchOS
-
 00:08:01.206 --> 00:08:02.936 A:middle
 to provide the activity
 sharing future.
@@ -729,25 +673,25 @@ how often you want to talk
 to the servers and how
 much data you're willing
 
-00:08:31.406 --> 00:08:32.385 A:middle
+00:08:31.406 --> 00:08:32.386 A:middle
 to send over the wire.
 
 00:08:33.736 --> 00:08:35.626 A:middle
 As always, testing
 is the best way
 
-00:08:35.626 --> 00:08:39.265 A:middle
+00:08:35.626 --> 00:08:39.266 A:middle
 to tune your App appropriately
 for the platform and ensure
 
-00:08:39.265 --> 00:08:40.176 A:middle
+00:08:39.266 --> 00:08:40.176 A:middle
 that your users are going
 
 00:08:40.176 --> 00:08:41.706 A:middle
 to have the best
 possible experience.
 
-00:08:42.285 --> 00:08:47.636 A:middle
+00:08:42.286 --> 00:08:47.636 A:middle
 Now I'd like to change gears
 and talk about Telemetry.
 
@@ -768,10 +712,6 @@ of charts which are available
 
 00:08:58.596 --> 00:08:59.696 A:middle
 on the CloudKit Dashboard.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.316 --> 00:09:03.466 A:middle
 You can use these charts
@@ -855,14 +795,6 @@ so that you're visualizing data
 00:09:55.696 --> 00:09:58.246 A:middle
 in the public or private
 database along a variety
-
-00:09:58.246 --> 00:10:01.986 A:middle
-of timescales and potentially
-on a per-operation type basis.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.246 --> 00:10:01.986 A:middle
 of timescales and potentially
@@ -957,14 +889,6 @@ Application.
 The difference between
 an Application
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.116 --> 00:11:00.736 A:middle
-The difference between
-an Application
-
 00:11:00.736 --> 00:11:02.766 A:middle
 that handles errors
 well and an application
@@ -1048,14 +972,6 @@ were outstanding
 
 00:11:55.916 --> 00:11:57.526 A:middle
 on behalf of it are torn down.
-
-00:11:57.946 --> 00:12:00.406 A:middle
-Even if that operation was
-moments away from completing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.946 --> 00:12:00.406 A:middle
 Even if that operation was
@@ -1150,14 +1066,6 @@ yourself using the network link
 00:12:56.096 --> 00:12:57.756 A:middle
 conditioner, a great
 developer tool
-
-00:12:57.756 --> 00:13:00.106 A:middle
-for replicating behavior
-such as this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.756 --> 00:13:00.106 A:middle
 for replicating behavior
@@ -1259,14 +1167,6 @@ received or sent in that amount
 of time, we're going to tear
 down your operation to tell you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.946 --> 00:14:02.206 A:middle
-of time, we're going to tear
-down your operation to tell you
-
 00:14:02.206 --> 00:14:03.166 A:middle
 that the network timed out.
 
@@ -1353,14 +1253,6 @@ CKFetchRecordZonesOperation.
 00:14:58.006 --> 00:14:59.046 A:middle
 There's a couple
 problems with this.
-
-00:14:59.046 --> 00:15:00.866 A:middle
-We don't want you to poll
-and we don't want to have
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.046 --> 00:15:00.866 A:middle
 We don't want you to poll
@@ -1466,14 +1358,6 @@ sounding name,
 the CKFetchRecordZone
 changes operation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.446 --> 00:16:00.746 A:middle
-the CKFetchRecordZone
-changes operation.
-
 00:16:02.036 --> 00:16:06.376 A:middle
 This is essentially a batch
 interface over the old operation
@@ -1553,10 +1437,6 @@ those records and all
 of the change Record Zones in
 a single network round trip.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.646 --> 00:17:02.646 A:middle
 And lastly, I'd like to talk
 
@@ -1564,31 +1444,31 @@ And lastly, I'd like to talk
 about how do you
 efficiently fetch changes
 
-00:17:04.896 --> 00:17:06.455 A:middle
+00:17:04.896 --> 00:17:06.456 A:middle
 when there are many
 records sitting
 
-00:17:06.455 --> 00:17:07.935 A:middle
+00:17:06.456 --> 00:17:07.936 A:middle
 in a Record Zone
 up on the server.
 
-00:17:08.455 --> 00:17:12.205 A:middle
+00:17:08.456 --> 00:17:12.206 A:middle
 If you've used CloudKit
 to do this in the past,
 
-00:17:12.596 --> 00:17:15.435 A:middle
+00:17:12.596 --> 00:17:15.436 A:middle
 then you're familiar with the
 moreComing flag, which was set
 
-00:17:15.435 --> 00:17:18.576 A:middle
+00:17:15.436 --> 00:17:18.576 A:middle
 on a CKFetchRecordChanges
 operation to inform you
 
-00:17:18.685 --> 00:17:21.496 A:middle
+00:17:18.686 --> 00:17:21.496 A:middle
 that not only have we given you
 some changes but there are more
 
-00:17:21.496 --> 00:17:23.195 A:middle
+00:17:21.496 --> 00:17:23.196 A:middle
 up on the server that
 you should go fetch
 
@@ -1596,7 +1476,7 @@ you should go fetch
 with a subsequent
 CKFetchRecordChanges operation.
 
-00:17:25.965 --> 00:17:29.106 A:middle
+00:17:25.966 --> 00:17:29.106 A:middle
 Now, there's a couple
 problems with this approach.
 
@@ -1644,14 +1524,6 @@ Instead of us telling you
 00:17:56.256 --> 00:17:57.756 A:middle
 when there are more
 changes available,
-
-00:17:58.106 --> 00:18:00.606 A:middle
-you tell us what your
-intention is via the new
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.106 --> 00:18:00.606 A:middle
 you tell us what your
@@ -1745,10 +1617,6 @@ fetched from the server.
 So, we've added a new
 callback on this new class.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.146 --> 00:19:02.686 A:middle
 RecordZoneChangeTokens
 UpdatedBlock.
@@ -1832,10 +1700,6 @@ walk us through the sharing UI.
 00:19:55.516 --> 00:19:59.976 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.476 --> 00:20:01.496 A:middle
 &gt;&gt; Thanks Paul.
 
@@ -1916,14 +1780,6 @@ to the server at the same time.
 You want to do that because
 there's a new property
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.796 --> 00:21:01.066 A:middle
-You want to do that because
-there's a new property
-
 00:21:01.066 --> 00:21:03.196 A:middle
 on CKRecord that's a reference
 
@@ -1991,13 +1847,6 @@ to just instantly appear.
 00:21:55.856 --> 00:21:59.086 A:middle
 The user should have control so
 they should be able to accept
-
-00:21:59.126 --> 00:22:00.206 A:middle
-that Share and join it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.126 --> 00:22:00.206 A:middle
 that Share and join it.
@@ -2083,14 +1932,6 @@ see the Share and the Note
 that we created and
 shared with them.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.046 --> 00:23:00.496 A:middle
-that we created and
-shared with them.
-
 00:23:01.896 --> 00:23:05.756 A:middle
 The great thing here is that the
 Share Database is actually just
@@ -2157,14 +1998,6 @@ needs to save that Share
 and the root record
 to the server.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.916 --> 00:24:01.376 A:middle
-and the root record
-to the server.
-
 00:24:02.456 --> 00:24:05.406 A:middle
 Once it's done that, the system
 UI shows a Mail Compose window.
@@ -2225,14 +2058,6 @@ as something else to pick up.
 00:24:45.686 --> 00:24:48.286 A:middle
 We'll see those happen in the
 note that's being shared to us.
-
-00:24:56.276 --> 00:25:00.976 A:middle
-So, let's look at
-the code behind that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:56.276 --> 00:25:00.976 A:middle
 So, let's look at
@@ -2308,14 +2133,6 @@ in the record to the server.
 00:25:54.366 --> 00:25:57.626 A:middle
 So, our handler here will create
 a CKModifyRecords operation.
-
-00:25:58.226 --> 00:26:01.406 A:middle
-Save the record and Share to
-the server and when it's done,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.226 --> 00:26:01.406 A:middle
 Save the record and Share to
@@ -2400,14 +2217,6 @@ and stop sharing if they'd like.
 Everything is taken care of
 for you by the system UI.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:55.986 --> 00:27:01.286 A:middle
-Everything is taken care of
-for you by the system UI.
-
 00:27:01.976 --> 00:27:05.176 A:middle
 The macOS sharing API is really
 similar so we're just going
@@ -2475,14 +2284,6 @@ modify the participants
 00:27:54.656 --> 00:27:58.406 A:middle
 on a Share, it'll
 look like this.
-
-00:27:59.396 --> 00:28:02.456 A:middle
-Next, if a user accepts a
-Share for your Application,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.396 --> 00:28:02.456 A:middle
 Next, if a user accepts a
@@ -2570,13 +2371,6 @@ about sharing in depth.
 00:28:58.516 --> 00:29:01.796 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.516 --> 00:29:01.796 A:middle
-[ Applause ]
-
 00:29:02.296 --> 00:29:02.966 A:middle
 &gt;&gt; Thank you, Jacob.
 
@@ -2658,14 +2452,6 @@ a new field
 on the CKRecord called
 the Parent Reference.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.846 --> 00:30:02.556 A:middle
-on the CKRecord called
-the Parent Reference.
-
 00:30:03.726 --> 00:30:06.446 A:middle
 Set the Parent Reference on
 any records that you wish
@@ -2742,14 +2528,6 @@ in the owner's private DB.
 So, this means the owner and all
 the participants are interacting
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:57.726 --> 00:31:02.226 A:middle
-So, this means the owner and all
-the participants are interacting
-
 00:31:02.226 --> 00:31:03.846 A:middle
 with the same set of records.
 
@@ -2807,10 +2585,6 @@ adding a new record
 00:31:57.046 --> 00:31:59.756 A:middle
 for the participant via
 the shared database,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.276 --> 00:32:03.006 A:middle
 that new record lives in
@@ -2878,13 +2652,6 @@ by that CKRecord Zone ID.
 00:32:54.056 --> 00:32:57.926 A:middle
 The Zone name is the name of
 the custom Zone that you created
-
-00:32:58.506 --> 00:33:00.576 A:middle
-in the owner's private DB.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.506 --> 00:33:00.576 A:middle
 in the owner's private DB.
@@ -2970,23 +2737,15 @@ what to Share.
 And the CKShare describes how
 those records should be shared.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:56.996 --> 00:34:01.196 A:middle
-And the CKShare describes how
-those records should be shared.
-
 00:34:01.876 --> 00:34:05.436 A:middle
 So, we're going to be
 looking at the how.
 
-00:34:05.436 --> 00:34:09.255 A:middle
+00:34:05.436 --> 00:34:09.256 A:middle
 So, as Jacob mentioned,
 every CKShare is a CKRecord
 
-00:34:09.255 --> 00:34:10.856 A:middle
+00:34:09.256 --> 00:34:10.856 A:middle
 but it has some additional
 properties.
 
@@ -2997,26 +2756,26 @@ how these properties apply
 00:34:14.656 --> 00:34:16.116 A:middle
 to the lifecycle of a Share.
 
-00:34:16.315 --> 00:34:17.835 A:middle
+00:34:16.316 --> 00:34:17.836 A:middle
 So, we're going to
 start from the beginning
 
-00:34:18.525 --> 00:34:19.866 A:middle
+00:34:18.526 --> 00:34:19.866 A:middle
 and the owner will
 create a Share.
 
-00:34:20.525 --> 00:34:24.606 A:middle
+00:34:20.526 --> 00:34:24.606 A:middle
 And the owner has to decide
 what is the public permission
 
 00:34:24.606 --> 00:34:25.096 A:middle
 for the Share.
 
-00:34:25.545 --> 00:34:27.726 A:middle
+00:34:25.546 --> 00:34:27.726 A:middle
 So, in this case the owner
 says it should be none,
 
-00:34:27.906 --> 00:34:29.795 A:middle
+00:34:27.906 --> 00:34:29.796 A:middle
 because he wants to
 invite participants.
 
@@ -3024,7 +2783,7 @@ invite participants.
 And let's say he
 invites two participants.
 
-00:34:33.255 --> 00:34:35.335 A:middle
+00:34:33.256 --> 00:34:35.336 A:middle
 Their status is automatically
 invited.
 
@@ -3038,7 +2797,7 @@ to give to each participant.
 00:34:41.456 --> 00:34:42.946 A:middle
 Then, the owner saves the Share
 
-00:34:43.176 --> 00:34:45.065 A:middle
+00:34:43.176 --> 00:34:45.066 A:middle
 and then he gets a
 URL for the Share.
 
@@ -3046,7 +2805,7 @@ URL for the Share.
 So, there are two
 things happening here.
 
-00:34:48.045 --> 00:34:50.485 A:middle
+00:34:48.046 --> 00:34:50.486 A:middle
 One is that the Share
 has a state.
 
@@ -3060,13 +2819,6 @@ the Share.
 00:34:55.626 --> 00:34:59.046 A:middle
 The owner is the one with the
 URL and it is his responsibility
-
-00:34:59.046 --> 00:35:00.726 A:middle
-to tell people about this URL.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.046 --> 00:35:00.726 A:middle
 to tell people about this URL.
@@ -3153,14 +2905,6 @@ to tell people about it.
 So, if he tells 100 people,
 then all 100 people can join.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:57.556 --> 00:36:00.796 A:middle
-So, if he tells 100 people,
-then all 100 people can join.
-
 00:36:01.256 --> 00:36:04.606 A:middle
 So, when they join, they
 would have to join via the URL
@@ -3228,14 +2972,6 @@ anybody he wants.
 00:36:56.066 --> 00:36:57.466 A:middle
 Let's say he wants
 to remove everybody.
-
-00:36:57.466 --> 00:37:01.886 A:middle
-He would do that by
-deleting the CKShared object
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:57.466 --> 00:37:01.886 A:middle
 He would do that by
@@ -3311,13 +3047,6 @@ the first two but we couldn't
 
 00:37:58.136 --> 00:37:59.386 A:middle
 for participant 3 and 4.
-
-00:37:59.706 --> 00:38:01.076 A:middle
-This is perfectly okay.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.706 --> 00:38:01.076 A:middle
 This is perfectly okay.
@@ -3407,14 +3136,6 @@ up a Share and accept the Share.
 And then the Share data is
 available across all platforms.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:57.866 --> 00:39:01.276 A:middle
-And then the Share data is
-available across all platforms.
-
 00:39:02.376 --> 00:39:05.096 A:middle
 Alternatively, you can
 just call our sharing APIs.
@@ -3477,10 +3198,6 @@ to the CKAcceptShares operation.
 00:39:55.836 --> 00:39:59.466 A:middle
 Now, the participant will show
 up in a Share in accepted state.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.136 --> 00:40:04.196 A:middle
 Now, there are some
@@ -3550,14 +3267,6 @@ operating system.
 00:40:54.426 --> 00:40:56.286 A:middle
 They might not even
 own an Apple product.
-
-00:40:56.356 --> 00:41:01.276 A:middle
-So, when they click on the
-URL, we take them to the web.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:56.356 --> 00:41:01.276 A:middle
 So, when they click on the
@@ -3633,14 +3342,6 @@ that is from the unique URL
 00:41:52.676 --> 00:41:55.926 A:middle
 for the Share so that you
 can immediately take them
-
-00:41:56.056 --> 00:42:00.216 A:middle
-to accept the Share and then
-show them the shared data.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:56.056 --> 00:42:00.216 A:middle
 to accept the Share and then
@@ -3728,13 +3429,6 @@ watchOS and is available
 00:42:57.406 --> 00:43:00.896 A:middle
 on the web via CloudKit JS.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:57.406 --> 00:43:00.896 A:middle
-on the web via CloudKit JS.
-
 00:43:01.776 --> 00:43:05.296 A:middle
 Telemetry is available on
 our CloudKit Dashboard.
@@ -3799,4 +3493,3 @@ of your WWDC conference.
 
 00:43:55.016 --> 00:43:57.000 A:middle
 [ Applause ]
-

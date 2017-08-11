@@ -1,0 +1,3000 @@
+WEBVTT
+
+00:00:07.516 --> 00:00:18.500 A:middle
+[ Music ]
+
+00:00:28.516 --> 00:00:32.546 A:middle
+[ Applause ]
+
+00:00:33.046 --> 00:00:34.686 A:middle
+&gt;&gt; Hello everyone and welcome
+
+00:00:34.686 --> 00:00:36.726 A:middle
+to Engineering Privacy
+for your Users.
+
+00:00:37.446 --> 00:00:39.346 A:middle
+I am Julien from
+Privacy Engineering
+
+00:00:39.346 --> 00:00:41.346 A:middle
+and I'm super excited
+to be here today.
+
+00:00:42.686 --> 00:00:45.996 A:middle
+Do you ever wonder how
+to learn from your users
+
+00:00:46.186 --> 00:00:47.416 A:middle
+without creeping them out?
+
+00:00:48.956 --> 00:00:52.226 A:middle
+Do you ever argue with your
+team over which controls
+
+00:00:52.226 --> 00:00:55.856 A:middle
+and transparency to others
+in order to gain user trust?
+
+00:00:56.546 --> 00:00:59.086 A:middle
+Well to answer these questions
+today we're going to go
+
+00:00:59.156 --> 00:01:01.326 A:middle
+through privacy technologies
+that we adopt
+
+00:01:01.746 --> 00:01:03.376 A:middle
+and how you can adopt them too.
+
+00:01:03.646 --> 00:01:08.676 A:middle
+As many of you know we at Apple
+care deeply about privacy.
+
+00:01:09.416 --> 00:01:11.846 A:middle
+Just last year Tim Cook quote.
+
+00:01:12.676 --> 00:01:16.936 A:middle
+"People have entrusted us with
+their most personal information.
+
+00:01:17.486 --> 00:01:19.956 A:middle
+We owe them nothing less
+than the best protections
+
+00:01:19.956 --> 00:01:21.426 A:middle
+that we can possibly provide."
+
+00:01:21.746 --> 00:01:25.306 A:middle
+I mean it's not just Tim, all
+of us at Apple from the top
+
+00:01:25.306 --> 00:01:29.236 A:middle
+down believe that privacy is
+important to gain user trust.
+
+00:01:29.636 --> 00:01:32.226 A:middle
+In order to build
+a healthy ecosystem
+
+00:01:32.226 --> 00:01:33.536 A:middle
+that protects your data.
+
+00:01:35.036 --> 00:01:38.736 A:middle
+So privacy engineering, we're a
+team that works with many teams
+
+00:01:38.736 --> 00:01:42.636 A:middle
+across Apple in order to build
+privacy into our products.
+
+00:01:43.246 --> 00:01:47.646 A:middle
+And year after year we
+learn that best products
+
+00:01:47.646 --> 00:01:51.946 A:middle
+and services are those
+that respect user privacy
+
+00:01:52.116 --> 00:01:54.756 A:middle
+without compromising
+the user experience.
+
+00:01:55.236 --> 00:02:00.276 A:middle
+They are great services
+that have amazing features,
+
+00:02:00.466 --> 00:02:02.466 A:middle
+and also respect user privacy.
+
+00:02:03.076 --> 00:02:05.406 A:middle
+They encourage users
+to engage with your app
+
+00:02:05.606 --> 00:02:08.906 A:middle
+by offering transparency,
+control, consent,
+
+00:02:09.276 --> 00:02:12.496 A:middle
+but also securing the
+data, minimizing the data
+
+00:02:12.496 --> 00:02:15.656 A:middle
+that you collect and limiting
+the use of the data you collect.
+
+00:02:16.786 --> 00:02:20.216 A:middle
+As more and more
+sensitive information is put
+
+00:02:20.216 --> 00:02:22.146 A:middle
+on our devices, we believe
+
+00:02:22.146 --> 00:02:25.996 A:middle
+that privacy is becoming
+a more valuable commodity
+
+00:02:26.606 --> 00:02:27.936 A:middle
+and it's worth your investment.
+
+00:02:29.036 --> 00:02:31.826 A:middle
+But privacy is also more
+than just a set of rules
+
+00:02:31.826 --> 00:02:33.816 A:middle
+as they said here,
+it's an opportunity
+
+00:02:33.816 --> 00:02:35.616 A:middle
+to do smarter engineering.
+
+00:02:35.756 --> 00:02:37.746 A:middle
+To consider other
+types of designs
+
+00:02:37.746 --> 00:02:39.396 A:middle
+for the benefits of our users.
+
+00:02:40.046 --> 00:02:43.446 A:middle
+For example, it encourages
+you to do more on the device,
+
+00:02:43.446 --> 00:02:46.026 A:middle
+to bring the intelligence
+down to the device
+
+00:02:46.236 --> 00:02:50.316 A:middle
+for faster user experience and
+less stress on the network.
+
+00:02:50.316 --> 00:02:54.526 A:middle
+So it encourages you to only
+collect the data that you need
+
+00:02:54.876 --> 00:02:56.606 A:middle
+in order to improve
+your services.
+
+00:02:57.516 --> 00:03:00.506 A:middle
+So today we're going to
+talk about identifiers,
+
+00:03:01.066 --> 00:03:03.996 A:middle
+how to collect data tied
+to those identifiers,
+
+00:03:04.436 --> 00:03:07.166 A:middle
+which kind of controls
+and transparency to offer
+
+00:03:07.166 --> 00:03:10.616 A:middle
+to your users, as well as
+meaningful choices and how
+
+00:03:10.616 --> 00:03:13.036 A:middle
+to build privacy into your app.
+
+00:03:13.756 --> 00:03:15.606 A:middle
+Let's start with identifiers.
+
+00:03:17.536 --> 00:03:21.576 A:middle
+Many of you every day rely on
+identifiers in order to get
+
+00:03:21.576 --> 00:03:24.556 A:middle
+to know your users and analyze
+their behavior over time.
+
+00:03:24.556 --> 00:03:28.706 A:middle
+And this is great, after
+all great stories start
+
+00:03:28.706 --> 00:03:30.316 A:middle
+with good identifiers.
+
+00:03:30.866 --> 00:03:37.416 A:middle
+But, if you track everything
+that your users do all the time,
+
+00:03:37.766 --> 00:03:41.006 A:middle
+it creates an uncomfortable
+atmosphere for your users,
+
+00:03:41.336 --> 00:03:44.886 A:middle
+sort of a chilling effect
+where people start to wonder,
+
+00:03:45.376 --> 00:03:47.926 A:middle
+if I tap on this link
+is that link going
+
+00:03:47.926 --> 00:03:49.266 A:middle
+to be tracked back to me?
+
+00:03:50.016 --> 00:03:53.656 A:middle
+And as soon as your users
+hesitate you start to lose them.
+
+00:03:55.166 --> 00:03:56.936 A:middle
+Identifiers are very
+helpful in order
+
+00:03:56.936 --> 00:03:59.766 A:middle
+to build customized
+services are essential to get
+
+00:03:59.766 --> 00:04:03.246 A:middle
+to know your users and offer
+them useful predictions.
+
+00:04:03.516 --> 00:04:06.916 A:middle
+But if you use them for too long
+to track everything you start
+
+00:04:06.916 --> 00:04:10.806 A:middle
+to build creepy suggestions that
+may put your users at unease.
+
+00:04:12.076 --> 00:04:15.926 A:middle
+Identifiers are also super
+helpful in order to fight fraud
+
+00:04:16.136 --> 00:04:18.546 A:middle
+and to prevent and
+detect malicious use
+
+00:04:18.546 --> 00:04:19.796 A:middle
+as early as possible.
+
+00:04:20.186 --> 00:04:23.886 A:middle
+But they do not justify
+collecting data indiscriminately
+
+00:04:23.886 --> 00:04:25.026 A:middle
+from all your users.
+
+00:04:25.336 --> 00:04:26.516 A:middle
+So what can you do?
+
+00:04:27.696 --> 00:04:30.786 A:middle
+Well there are a number of best
+practices that we recommend.
+
+00:04:31.036 --> 00:04:33.616 A:middle
+First of all, favor
+short-lived identifiers.
+
+00:04:34.066 --> 00:04:36.556 A:middle
+You don't systematically
+need to make use
+
+00:04:36.556 --> 00:04:39.006 A:middle
+of persistent identifiers
+that never change.
+
+00:04:39.006 --> 00:04:41.696 A:middle
+So you can make them change
+automatically over time,
+
+00:04:41.846 --> 00:04:43.886 A:middle
+or make it very easy
+to reset them.
+
+00:04:44.966 --> 00:04:47.846 A:middle
+Stick to random identifiers
+instead of always
+
+00:04:47.846 --> 00:04:50.176 A:middle
+and systematically using
+somebody's username,
+
+00:04:50.176 --> 00:04:51.676 A:middle
+email address, or phone number.
+
+00:04:51.936 --> 00:04:53.426 A:middle
+Most of the time
+you don't need that.
+
+00:04:53.806 --> 00:04:57.256 A:middle
+And ask yourself do I really
+need to authenticate my users,
+
+00:04:57.316 --> 00:04:59.496 A:middle
+or is it enough to have
+an anonymous session,
+
+00:04:59.766 --> 00:05:01.996 A:middle
+an anonymous experience
+with my users.
+
+00:05:02.456 --> 00:05:04.916 A:middle
+By following some of these
+best practices you're going
+
+00:05:04.916 --> 00:05:07.826 A:middle
+to make it very easy for your
+users to engage with your app
+
+00:05:07.826 --> 00:05:09.836 A:middle
+without having to worry
+about their privacy.
+
+00:05:09.836 --> 00:05:12.016 A:middle
+So let's have a look
+at some examples.
+
+00:05:13.196 --> 00:05:16.196 A:middle
+In our own products we seek to
+adopt these very techniques.
+
+00:05:16.426 --> 00:05:19.726 A:middle
+So for example in Spotlight
+and Maps we have identifiers
+
+00:05:19.726 --> 00:05:21.966 A:middle
+that change periodically
+automatically
+
+00:05:22.316 --> 00:05:25.366 A:middle
+so users can engage with
+these products without having
+
+00:05:25.366 --> 00:05:27.136 A:middle
+to worry about their privacy.
+
+00:05:27.506 --> 00:05:30.246 A:middle
+We customize the experience
+of both for those products
+
+00:05:30.466 --> 00:05:33.156 A:middle
+within those session where
+identifiers are the same.
+
+00:05:34.686 --> 00:05:38.936 A:middle
+We also seek to make it easy to
+reset identifiers at any time.
+
+00:05:39.296 --> 00:05:43.326 A:middle
+So for example, in Siri, it's as
+simple as toggling off Siri off
+
+00:05:43.326 --> 00:05:46.276 A:middle
+and on and you get a new
+identifier it can start
+
+00:05:46.276 --> 00:05:47.966 A:middle
+over again, you're in control.
+
+00:05:48.826 --> 00:05:53.896 A:middle
+We also generally seek to
+identify sessions and not users,
+
+00:05:54.066 --> 00:05:56.066 A:middle
+because most of the time
+that's all that we need
+
+00:05:56.066 --> 00:05:57.286 A:middle
+to provide our services.
+
+00:05:58.066 --> 00:06:01.066 A:middle
+We also want to make it easy
+for you to have this kind
+
+00:06:01.486 --> 00:06:03.706 A:middle
+of techniques and
+adopt these techniques.
+
+00:06:03.706 --> 00:06:06.696 A:middle
+So we have a number of APIs
+that allow you to generate,
+
+00:06:07.016 --> 00:06:09.136 A:middle
+very easily generate
+identifiers.
+
+00:06:09.366 --> 00:06:12.966 A:middle
+So for example, the universally
+unique identifier's API is just
+
+00:06:13.506 --> 00:06:16.156 A:middle
+a simple line of code
+in Swift, and allows you
+
+00:06:16.156 --> 00:06:18.356 A:middle
+to create an identifier
+whenever you call it.
+
+00:06:19.056 --> 00:06:22.616 A:middle
+So a quick example, if you call,
+
+00:06:22.616 --> 00:06:25.986 A:middle
+whenever you call this
+API you get a new 128-bits
+
+00:06:25.986 --> 00:06:26.696 A:middle
+random numbers.
+
+00:06:27.136 --> 00:06:28.766 A:middle
+It's such a large
+number that this is going
+
+00:06:28.766 --> 00:06:32.056 A:middle
+to be a globally unique random
+number whenever you call it.
+
+00:06:32.056 --> 00:06:34.266 A:middle
+So if you call it again,
+you get another number,
+
+00:06:34.516 --> 00:06:35.776 A:middle
+call it again etcetera.
+
+00:06:36.196 --> 00:06:39.046 A:middle
+So then it's up to you
+to decide what to do
+
+00:06:39.256 --> 00:06:40.916 A:middle
+with this random number.
+
+00:06:40.916 --> 00:06:44.696 A:middle
+You can use it to identify
+objects, sessions, or users.
+
+00:06:45.546 --> 00:06:48.086 A:middle
+But what if you're looking
+for something more stable,
+
+00:06:48.086 --> 00:06:49.836 A:middle
+you're not looking to
+generate an identifier,
+
+00:06:50.186 --> 00:06:51.376 A:middle
+but you want to access one.
+
+00:06:51.616 --> 00:06:53.516 A:middle
+Well the vender IDs
+here for that.
+
+00:06:53.976 --> 00:06:55.866 A:middle
+The problem it solves for you is
+
+00:06:55.866 --> 00:06:59.526 A:middle
+that it can just access this
+API, it provides an identifier
+
+00:06:59.526 --> 00:07:03.106 A:middle
+for a device, it's very easy
+then to customize your services,
+
+00:07:03.106 --> 00:07:05.546 A:middle
+you don't even have to
+create an identifier.
+
+00:07:05.546 --> 00:07:08.966 A:middle
+And the way it works is
+whenever you call this API
+
+00:07:08.966 --> 00:07:12.096 A:middle
+for a certain app,
+for a certain vendor,
+
+00:07:12.346 --> 00:07:14.246 A:middle
+you will get the same
+string returned back
+
+00:07:14.246 --> 00:07:15.456 A:middle
+to you, the same UUID.
+
+00:07:15.766 --> 00:07:18.096 A:middle
+So if you have the two
+apps on the App Store,
+
+00:07:18.436 --> 00:07:22.436 A:middle
+made by the same vendor,
+they can access the same UUID
+
+00:07:22.566 --> 00:07:24.116 A:middle
+and this just makes
+it easier for you
+
+00:07:24.116 --> 00:07:27.006 A:middle
+to customize your
+services across your apps.
+
+00:07:27.456 --> 00:07:30.016 A:middle
+Now, an app from a different
+vendor will get a different
+
+00:07:30.016 --> 00:07:31.116 A:middle
+UUID altogether.
+
+00:07:32.086 --> 00:07:33.986 A:middle
+Note that users have
+control over these
+
+00:07:34.236 --> 00:07:36.916 A:middle
+by uninstalling your apps.
+
+00:07:37.886 --> 00:07:39.566 A:middle
+Another stable identifier
+persisted
+
+00:07:39.566 --> 00:07:41.886 A:middle
+by the operating system
+is the advertising ID.
+
+00:07:42.416 --> 00:07:45.346 A:middle
+This one is to be used for
+advertising purposes only
+
+00:07:45.836 --> 00:07:49.036 A:middle
+and the way it works is
+whenever an app calls this API,
+
+00:07:49.146 --> 00:07:51.626 A:middle
+it will be able to
+identify and get a UUID
+
+00:07:51.626 --> 00:07:52.886 A:middle
+for the current device.
+
+00:07:53.166 --> 00:07:56.466 A:middle
+And so this number will
+be constant over time,
+
+00:07:56.696 --> 00:08:00.536 A:middle
+unless the user decides to reset
+it, or turn it off altogether.
+
+00:08:01.166 --> 00:08:04.216 A:middle
+So in summary there are a
+number of APIs that we provide
+
+00:08:04.216 --> 00:08:06.486 A:middle
+and each have a different
+code it's about either
+
+00:08:06.486 --> 00:08:07.956 A:middle
+about generating an identifier
+
+00:08:08.216 --> 00:08:10.946 A:middle
+or accessing identifier
+persisted by the system.
+
+00:08:11.446 --> 00:08:14.086 A:middle
+In addition to identifiers
+for the system,
+
+00:08:14.086 --> 00:08:15.256 A:middle
+there are network identifiers.
+
+00:08:15.436 --> 00:08:18.146 A:middle
+So whenever you scan in
+order to try to connect
+
+00:08:18.286 --> 00:08:22.246 A:middle
+to a Wi-Fi network, you reveal
+you MAC Address for everyone
+
+00:08:22.246 --> 00:08:25.316 A:middle
+to see and that can be a
+location privacy issue.
+
+00:08:25.896 --> 00:08:29.636 A:middle
+So in iOS 8 we changed
+the behavior of scanning
+
+00:08:29.886 --> 00:08:33.196 A:middle
+so that we start using locally
+administered MAC Addresses
+
+00:08:33.196 --> 00:08:36.046 A:middle
+that change over time
+automatically, which is great
+
+00:08:36.536 --> 00:08:38.686 A:middle
+for your privacy, you
+don't have to do anything,
+
+00:08:39.036 --> 00:08:41.726 A:middle
+because we make it much harder
+for people to track you.
+
+00:08:41.726 --> 00:08:45.186 A:middle
+And we're very glad and proud
+to adopt this technique not only
+
+00:08:45.186 --> 00:08:47.276 A:middle
+on iOS, but on macOS as well.
+
+00:08:47.276 --> 00:08:50.986 A:middle
+So if you're a Wi-Fi lender
+and you have some equipment,
+
+00:08:51.366 --> 00:08:54.166 A:middle
+we encourage you to not
+only test your equipment
+
+00:08:54.166 --> 00:08:56.576 A:middle
+with iOS seeds, but
+also macOS seeds.
+
+00:08:57.976 --> 00:09:02.156 A:middle
+You must have heard of messages
+and support for app extensions.
+
+00:09:02.336 --> 00:09:05.176 A:middle
+This is a super cool feature
+and it is privacy friendly.
+
+00:09:05.486 --> 00:09:09.386 A:middle
+So app extensions will not be
+able to access your context,
+
+00:09:09.566 --> 00:09:12.126 A:middle
+what they will see is
+a random UUID instead.
+
+00:09:12.386 --> 00:09:14.746 A:middle
+And that UUID will be different
+
+00:09:14.786 --> 00:09:18.286 A:middle
+for each app extension
+and in each chat.
+
+00:09:18.926 --> 00:09:20.416 A:middle
+So it's super privacy friendly.
+
+00:09:21.116 --> 00:09:24.166 A:middle
+Now, even if you're
+not trying to access
+
+00:09:24.166 --> 00:09:28.266 A:middle
+or generate identifiers, you
+may just be collecting some data
+
+00:09:28.266 --> 00:09:29.616 A:middle
+that looks innocuous.
+
+00:09:29.806 --> 00:09:33.266 A:middle
+But the problem there is that
+by putting this data together,
+
+00:09:33.506 --> 00:09:36.036 A:middle
+you might actually end
+up with a persistent
+
+00:09:36.036 --> 00:09:39.756 A:middle
+and stable device fingerprint
+or an implicit identifier.
+
+00:09:40.116 --> 00:09:42.716 A:middle
+And that can be a problem
+in case of data breech.
+
+00:09:42.916 --> 00:09:44.766 A:middle
+Where you thought your
+data was anonymous
+
+00:09:44.766 --> 00:09:46.726 A:middle
+and then some researchers
+out there showed
+
+00:09:46.726 --> 00:09:49.536 A:middle
+that actually it was very easy
+to identify users in there.
+
+00:09:50.016 --> 00:09:52.566 A:middle
+So you don't want to be in that
+situation so you should seek
+
+00:09:52.566 --> 00:09:54.206 A:middle
+to minimize the data
+you collect.
+
+00:09:54.786 --> 00:09:56.496 A:middle
+And we also try to
+help you there.
+
+00:09:56.856 --> 00:10:00.576 A:middle
+We seek to build a strong and
+secure Sandbox that protects you
+
+00:10:00.576 --> 00:10:03.186 A:middle
+and your app from
+malicious third parties
+
+00:10:03.496 --> 00:10:08.106 A:middle
+and also protects you from
+unintended user fingerprinting.
+
+00:10:09.036 --> 00:10:11.236 A:middle
+So what we do there is we
+provide you with strong
+
+00:10:11.236 --> 00:10:13.176 A:middle
+and amazing APIs
+to build features,
+
+00:10:13.486 --> 00:10:17.346 A:middle
+but we provide a protection
+and we limit the set of APIs
+
+00:10:17.346 --> 00:10:18.976 A:middle
+that could be used
+for fingerprinting.
+
+00:10:19.046 --> 00:10:22.796 A:middle
+So for example, this year
+we duplicated some APIs
+
+00:10:22.796 --> 00:10:24.596 A:middle
+that could be used
+for fingerprinting
+
+00:10:24.816 --> 00:10:27.656 A:middle
+and we also whitelisted some
+properties that are helpful
+
+00:10:27.656 --> 00:10:29.896 A:middle
+for you and blacklisted
+other properties
+
+00:10:30.146 --> 00:10:31.716 A:middle
+that could be used
+for finger printing.
+
+00:10:32.326 --> 00:10:35.296 A:middle
+So in summary what does
+this all mean to you?
+
+00:10:36.626 --> 00:10:39.016 A:middle
+Identifiers are great,
+but we recommend
+
+00:10:39.016 --> 00:10:41.916 A:middle
+that you favor short-lived
+ones whenever possible
+
+00:10:42.246 --> 00:10:46.146 A:middle
+and that you also stick to OS
+provided APIs in order to access
+
+00:10:46.146 --> 00:10:47.426 A:middle
+or generate identifiers.
+
+00:10:47.986 --> 00:10:50.786 A:middle
+We think that the users will
+find it easier to engage
+
+00:10:50.786 --> 00:10:53.926 A:middle
+with your app and to
+contribute their data.
+
+00:10:54.436 --> 00:10:57.266 A:middle
+So talking about data, let's
+look at data collection.
+
+00:10:59.236 --> 00:11:02.506 A:middle
+Many of you every day
+collect data from new users.
+
+00:11:02.776 --> 00:11:05.316 A:middle
+And this is very helpful to
+do a data-driven approach
+
+00:11:05.316 --> 00:11:06.456 A:middle
+to product development.
+
+00:11:06.836 --> 00:11:07.766 A:middle
+And this is super cool.
+
+00:11:08.526 --> 00:11:12.456 A:middle
+Now one day, you may end up in a
+weird situation where you learn
+
+00:11:12.456 --> 00:11:14.876 A:middle
+so much about your
+users that you know more
+
+00:11:14.876 --> 00:11:16.676 A:middle
+about them then they
+know about themselves.
+
+00:11:17.506 --> 00:11:18.156 A:middle
+And that's weird.
+
+00:11:20.436 --> 00:11:25.276 A:middle
+So ask yourselves how would you
+feel if they knew all the data
+
+00:11:25.276 --> 00:11:26.446 A:middle
+that you had about them?
+
+00:11:26.446 --> 00:11:27.906 A:middle
+Would you feel embarrassed?
+
+00:11:29.136 --> 00:11:31.826 A:middle
+What if you had to collect
+this data from your dad,
+
+00:11:31.826 --> 00:11:33.256 A:middle
+or your mom, or your siblings?
+
+00:11:34.706 --> 00:11:36.836 A:middle
+Data is as much a
+benefit as a risk.
+
+00:11:37.036 --> 00:11:38.356 A:middle
+And you need to balance
+these two.
+
+00:11:38.906 --> 00:11:40.556 A:middle
+So what can you do?
+
+00:11:42.226 --> 00:11:46.296 A:middle
+We recommend you put in
+place privacy friendly data
+
+00:11:46.296 --> 00:11:47.536 A:middle
+collection practices.
+
+00:11:48.196 --> 00:11:52.406 A:middle
+And in particular, instead of
+collecting speculative data,
+
+00:11:52.406 --> 00:11:55.596 A:middle
+just grabbing everything you can
+because maybe you have some use
+
+00:11:55.596 --> 00:11:59.426 A:middle
+in the future, try to stick
+to key performance indicators
+
+00:11:59.756 --> 00:12:01.536 A:middle
+and collect data for those.
+
+00:12:01.956 --> 00:12:05.156 A:middle
+Here is a number of techniques
+that you can adopt to do so.
+
+00:12:05.406 --> 00:12:07.816 A:middle
+Bucketing, sampling
+and aggregation.
+
+00:12:08.346 --> 00:12:10.046 A:middle
+Let's look at bucketing.
+
+00:12:10.866 --> 00:12:14.786 A:middle
+The idea of bucketing is to
+only collect the level of detail
+
+00:12:14.786 --> 00:12:17.026 A:middle
+that is sufficient
+for your needs.
+
+00:12:18.366 --> 00:12:20.406 A:middle
+So, let's say you
+wanted to know,
+
+00:12:20.406 --> 00:12:24.586 A:middle
+how often are your users
+opening your in-app settings?
+
+00:12:24.976 --> 00:12:27.566 A:middle
+So we ask this question
+for a particular user.
+
+00:12:27.566 --> 00:12:30.676 A:middle
+So it's quite simple, you
+just implement a counter
+
+00:12:30.826 --> 00:12:32.716 A:middle
+and you look and you measure.
+
+00:12:32.956 --> 00:12:37.156 A:middle
+So let's say for this user,
+test user, you went 86 times
+
+00:12:37.156 --> 00:12:38.566 A:middle
+on a given day to
+your app settings.
+
+00:12:38.566 --> 00:12:41.986 A:middle
+So this information is helpful
+right because it tells you
+
+00:12:41.986 --> 00:12:44.356 A:middle
+that maybe something is wrong
+with your configuration.
+
+00:12:44.686 --> 00:12:46.796 A:middle
+Maybe you want to make
+something more discoverable.
+
+00:12:47.696 --> 00:12:49.726 A:middle
+But do you really
+need to collect this
+
+00:12:49.726 --> 00:12:51.306 A:middle
+with this level of precision?
+
+00:12:51.776 --> 00:12:55.606 A:middle
+Would it be sufficient to only
+collect that somebody went
+
+00:12:55.606 --> 00:12:57.866 A:middle
+to your in-app settings
+more than 50 times?
+
+00:12:58.106 --> 00:13:00.046 A:middle
+That would also give
+you the same information
+
+00:13:00.046 --> 00:13:01.796 A:middle
+that maybe there's
+something to improve
+
+00:13:02.006 --> 00:13:04.156 A:middle
+and to further refine
+within your app.
+
+00:13:05.796 --> 00:13:07.946 A:middle
+But what if you're
+interested to learn,
+
+00:13:07.946 --> 00:13:11.766 A:middle
+not just about a specific user,
+but about a trend of users.
+
+00:13:12.706 --> 00:13:13.766 A:middle
+Well, you can just collect
+
+00:13:13.766 --> 00:13:15.546 A:middle
+and ask the same
+question to all users.
+
+00:13:16.016 --> 00:13:19.536 A:middle
+And so you will say how often
+do my users open in-app settings
+
+00:13:19.536 --> 00:13:20.236 A:middle
+on a given day?
+
+00:13:20.236 --> 00:13:23.276 A:middle
+Well it turns out like
+if you're interested
+
+00:13:23.276 --> 00:13:25.586 A:middle
+to collect the average
+you really don't need
+
+00:13:25.586 --> 00:13:28.516 A:middle
+to collect this data from
+all of your users in order
+
+00:13:28.516 --> 00:13:31.696 A:middle
+to get good statistically
+significant estimates
+
+00:13:31.696 --> 00:13:32.526 A:middle
+of the average.
+
+00:13:32.866 --> 00:13:37.796 A:middle
+It turns out if you only collect
+data from 0.1% of your users,
+
+00:13:38.236 --> 00:13:40.696 A:middle
+you get a good estimate
+of an average.
+
+00:13:41.046 --> 00:13:43.886 A:middle
+In fact, if you collect
+from 10% of your users only,
+
+00:13:44.156 --> 00:13:47.136 A:middle
+your estimate is as
+close as 0.1 precision.
+
+00:13:47.856 --> 00:13:51.036 A:middle
+So you really don't need to
+systematically collect data
+
+00:13:51.036 --> 00:13:53.386 A:middle
+from all of your users
+depending on what kind
+
+00:13:53.386 --> 00:13:55.616 A:middle
+of performance indicator
+you're looking to collect.
+
+00:13:57.706 --> 00:13:59.306 A:middle
+But what if you're looking
+
+00:13:59.306 --> 00:14:01.866 A:middle
+to collect some data
+that's very sensitive?
+
+00:14:02.286 --> 00:14:05.026 A:middle
+Something that you really
+shouldn't be collecting
+
+00:14:05.026 --> 00:14:06.046 A:middle
+in the first place.
+
+00:14:06.896 --> 00:14:09.706 A:middle
+But you're interested to learn
+about it, what could you do?
+
+00:14:10.916 --> 00:14:14.326 A:middle
+Well, what if there was a
+technology that allowed you
+
+00:14:14.326 --> 00:14:18.876 A:middle
+to learn from the crowd while
+protecting individual data.
+
+00:14:19.946 --> 00:14:22.356 A:middle
+Well there is such a technology
+
+00:14:22.356 --> 00:14:24.096 A:middle
+and it's called differential
+privacy.
+
+00:14:24.856 --> 00:14:27.986 A:middle
+So, differential privacy
+is one of the safest ways
+
+00:14:27.986 --> 00:14:29.666 A:middle
+for users to donate their data.
+
+00:14:30.976 --> 00:14:34.136 A:middle
+It is one way to learn
+from the crowd while
+
+00:14:34.136 --> 00:14:35.556 A:middle
+protecting individuals.
+
+00:14:36.236 --> 00:14:37.656 A:middle
+It provides strong
+
+00:14:37.656 --> 00:14:40.436 A:middle
+and mathematical
+guarantees of privacy.
+
+00:14:41.096 --> 00:14:44.396 A:middle
+And this year we are
+adopting it in iOS and macOS.
+
+00:14:45.186 --> 00:14:48.116 A:middle
+So, before I get
+started here two things.
+
+00:14:48.116 --> 00:14:51.226 A:middle
+First, we believe that
+this is yet another tool
+
+00:14:51.226 --> 00:14:54.146 A:middle
+in our privacy toolbox.
+
+00:14:54.396 --> 00:14:56.716 A:middle
+We have a number of tools
+that we use for privacy
+
+00:14:56.866 --> 00:14:59.356 A:middle
+and this is a very exciting
+one and promising one.
+
+00:14:59.856 --> 00:15:02.486 A:middle
+Second, this is going
+to be a quick intro
+
+00:15:02.486 --> 00:15:05.476 A:middle
+into a fascinating
+technology and I'll do my best
+
+00:15:05.476 --> 00:15:08.556 A:middle
+to inspire you and get
+you excited about it.
+
+00:15:08.846 --> 00:15:09.786 A:middle
+So let's get started.
+
+00:15:11.056 --> 00:15:13.846 A:middle
+I said it gives you strong
+mathematical guarantees.
+
+00:15:14.106 --> 00:15:15.846 A:middle
+So let's start with
+some theorems.
+
+00:15:17.436 --> 00:15:20.976 A:middle
+No, I think we can try to do it
+and get the idea another way.
+
+00:15:20.976 --> 00:15:24.186 A:middle
+So the idea is there's some
+data, something sensitive,
+
+00:15:24.676 --> 00:15:28.106 A:middle
+and you add noise to it and
+you get some privatized data.
+
+00:15:28.596 --> 00:15:31.156 A:middle
+And then you can aggregate
+that privatized data
+
+00:15:31.536 --> 00:15:32.626 A:middle
+to extract some signal.
+
+00:15:33.646 --> 00:15:36.336 A:middle
+So let's say an example, how
+many hours did I work last week
+
+00:15:36.586 --> 00:15:37.546 A:middle
+to prepare these slides.
+
+00:15:37.636 --> 00:15:41.096 A:middle
+So it was a busy week, so
+let's say I worked 128 hours.
+
+00:15:41.386 --> 00:15:45.296 A:middle
+So, I can add noise to that and
+then what that means really is
+
+00:15:45.296 --> 00:15:47.466 A:middle
+that I change this number to
+something that looks different.
+
+00:15:47.466 --> 00:15:50.996 A:middle
+So let's look a little bit more
+about what I mean by noise here.
+
+00:15:51.746 --> 00:15:55.116 A:middle
+So, disclaimer this is
+a simplified description
+
+00:15:55.116 --> 00:15:57.716 A:middle
+but that's going to give you
+the gist of how it works.
+
+00:15:58.416 --> 00:16:02.766 A:middle
+So I have this number 128, and
+we'll compute a projection,
+
+00:16:02.766 --> 00:16:04.646 A:middle
+it's sort of a hash
+that I compute.
+
+00:16:04.646 --> 00:16:08.406 A:middle
+So what I do is a print a
+very long vector full of zeros
+
+00:16:08.676 --> 00:16:11.986 A:middle
+and I only write one
+1 at position 128.
+
+00:16:11.986 --> 00:16:15.526 A:middle
+So it's a huge vector full
+of zeros, there's only one 1.
+
+00:16:17.146 --> 00:16:20.256 A:middle
+Then by noise, what I mean
+is I'm going to flip some
+
+00:16:20.256 --> 00:16:21.966 A:middle
+of these zeros and
+some of these ones.
+
+00:16:22.266 --> 00:16:24.296 A:middle
+So some zeros are
+going to become ones.
+
+00:16:24.416 --> 00:16:26.406 A:middle
+And some ones are
+going to become zeros.
+
+00:16:26.916 --> 00:16:32.116 A:middle
+The trick here is that zeros
+have slightly more probability
+
+00:16:32.116 --> 00:16:34.416 A:middle
+to remain zeros than
+to become ones.
+
+00:16:34.996 --> 00:16:37.886 A:middle
+And ones have slightly
+more probability
+
+00:16:37.886 --> 00:16:39.896 A:middle
+to remain ones than
+to become zeros.
+
+00:16:40.246 --> 00:16:44.386 A:middle
+So this is one way to
+obscure your data prior
+
+00:16:44.386 --> 00:16:45.896 A:middle
+to sharing it with Apple.
+
+00:16:46.716 --> 00:16:49.856 A:middle
+It's another thing that's an
+interesting observation here,
+
+00:16:50.106 --> 00:16:52.426 A:middle
+is that if I were to
+obscure your data twice,
+
+00:16:52.636 --> 00:16:53.996 A:middle
+even if it's the same number,
+
+00:16:54.386 --> 00:16:56.466 A:middle
+each time it will give
+me a different result.
+
+00:16:57.326 --> 00:17:00.666 A:middle
+And unlike a typical hash
+function, I cannot try
+
+00:17:00.666 --> 00:17:02.936 A:middle
+to do a dictionary
+attack to try to figure
+
+00:17:02.936 --> 00:17:04.876 A:middle
+out what this value
+corresponds to.
+
+00:17:05.466 --> 00:17:08.396 A:middle
+So this is all done
+locally on your device.
+
+00:17:09.146 --> 00:17:13.926 A:middle
+So, this is all done
+locally on your device prior
+
+00:17:13.926 --> 00:17:15.146 A:middle
+to sharing it with Apple.
+
+00:17:15.146 --> 00:17:18.376 A:middle
+So, in this example let's
+say I want to know the amount
+
+00:17:18.376 --> 00:17:20.466 A:middle
+of hours people worked
+at Apple last week,
+
+00:17:20.706 --> 00:17:25.696 A:middle
+so I worked 128 hours, Jessie
+48 hours and Timmy 130 hours.
+
+00:17:26.086 --> 00:17:29.226 A:middle
+So we collect all of this
+from all Apple employees
+
+00:17:29.446 --> 00:17:31.226 A:middle
+and the noise is added
+locally on device.
+
+00:17:31.226 --> 00:17:35.476 A:middle
+And what Apple ends up
+with is a cloud of binary
+
+00:17:35.476 --> 00:17:36.706 A:middle
+and noisy vectors,
+
+00:17:36.896 --> 00:17:40.306 A:middle
+where individually these vectors
+are pretty much useless to us.
+
+00:17:40.416 --> 00:17:44.356 A:middle
+But we're able to combine them
+together and average the noise
+
+00:17:44.356 --> 00:17:47.056 A:middle
+out and learn some
+statistical properties.
+
+00:17:47.496 --> 00:17:50.446 A:middle
+For example, here the average
+number of hours people worked
+
+00:17:50.446 --> 00:17:52.426 A:middle
+at Apple last week was 41 hours.
+
+00:17:53.206 --> 00:17:55.766 A:middle
+So the way we do that
+is we actually sum
+
+00:17:55.766 --> 00:17:58.266 A:middle
+up all these vectors
+and then we normalize.
+
+00:17:58.456 --> 00:17:59.496 A:middle
+And then we look at column
+
+00:17:59.496 --> 00:18:02.836 A:middle
+by column whether there is a
+statistically significant value
+
+00:18:03.046 --> 00:18:04.256 A:middle
+that is larger than random.
+
+00:18:04.916 --> 00:18:06.516 A:middle
+So why is this cool?
+
+00:18:06.686 --> 00:18:10.236 A:middle
+So we think it's really
+cool because it's one way
+
+00:18:10.236 --> 00:18:12.726 A:middle
+to learn popular
+items privately.
+
+00:18:13.126 --> 00:18:16.396 A:middle
+You can learn averages, the
+presence of certain attributes,
+
+00:18:16.986 --> 00:18:19.486 A:middle
+or even frequencies
+such as histograms.
+
+00:18:20.006 --> 00:18:21.486 A:middle
+And this is done in a way
+
+00:18:21.486 --> 00:18:24.626 A:middle
+where each individual
+contribution is private.
+
+00:18:24.626 --> 00:18:26.066 A:middle
+Is kept private from Apple.
+
+00:18:26.256 --> 00:18:28.206 A:middle
+We can only learn
+from aggregate.
+
+00:18:29.426 --> 00:18:34.596 A:middle
+But you might ask yourself what
+happens if I'm the only one
+
+00:18:34.666 --> 00:18:36.226 A:middle
+that is contributing data here?
+
+00:18:37.106 --> 00:18:40.726 A:middle
+At some point maybe a user will
+become an aggregate in itself.
+
+00:18:41.436 --> 00:18:44.036 A:middle
+Well, to avoid this
+issue we used the concept
+
+00:18:44.036 --> 00:18:47.716 A:middle
+of privacy budget that restricts
+the number of contributions
+
+00:18:47.716 --> 00:18:51.466 A:middle
+that can be made by any certain
+device during a period of time.
+
+00:18:52.036 --> 00:18:55.446 A:middle
+We also don't have any
+identifiers at all associated
+
+00:18:55.446 --> 00:18:56.386 A:middle
+with this information.
+
+00:18:56.566 --> 00:18:59.216 A:middle
+And we permanently delete
+the data from our servers.
+
+00:18:59.216 --> 00:19:01.136 A:middle
+So let's have a look
+at an example.
+
+00:19:01.726 --> 00:19:05.156 A:middle
+Say we wanted to learn
+popular emoji's across people
+
+00:19:05.156 --> 00:19:09.036 A:middle
+that are opting in to
+diagnostics and usage data
+
+00:19:09.036 --> 00:19:10.576 A:middle
+that we collect from customers.
+
+00:19:11.036 --> 00:19:13.746 A:middle
+So when people will start
+to use their keyboards
+
+00:19:13.746 --> 00:19:16.646 A:middle
+and use emoji's we will
+observe that locally on device,
+
+00:19:17.006 --> 00:19:19.776 A:middle
+and then Julien here,
+Jessie and Timmy
+
+00:19:20.026 --> 00:19:22.666 A:middle
+which contributed their
+data noised up locally
+
+00:19:22.666 --> 00:19:24.536 A:middle
+on device prior to
+sending it to Apple.
+
+00:19:24.776 --> 00:19:27.806 A:middle
+And what happens is as more and
+more people share their data,
+
+00:19:28.096 --> 00:19:30.286 A:middle
+we're able to extract
+some information such as
+
+00:19:30.286 --> 00:19:31.846 A:middle
+which ones are the most popular.
+
+00:19:32.066 --> 00:19:35.776 A:middle
+So what's cool here is that one
+use case we can then reorder the
+
+00:19:35.776 --> 00:19:36.976 A:middle
+UI to reflect that.
+
+00:19:36.976 --> 00:19:40.296 A:middle
+And we can come and do
+better predictions on device.
+
+00:19:41.006 --> 00:19:43.456 A:middle
+And so this year we're
+adopting this technology
+
+00:19:43.716 --> 00:19:45.426 A:middle
+in four types of use cases.
+
+00:19:45.696 --> 00:19:48.176 A:middle
+We're using it for
+emoji's, as just discussed,
+
+00:19:48.776 --> 00:19:50.816 A:middle
+we're also using
+it for new words.
+
+00:19:50.816 --> 00:19:52.146 A:middle
+So when we learn
+words that are not
+
+00:19:52.146 --> 00:19:53.896 A:middle
+in our local dictionary,
+such as slang.
+
+00:19:54.386 --> 00:19:56.926 A:middle
+We also use it for
+Deeplinks where we can see
+
+00:19:56.926 --> 00:19:59.406 A:middle
+which Deeplinks are
+popular within apps in order
+
+00:19:59.406 --> 00:20:04.976 A:middle
+to promote them in Spotlight
+and also for Lookup Hints.
+
+00:20:05.056 --> 00:20:06.186 A:middle
+So this is super exciting.
+
+00:20:06.346 --> 00:20:10.066 A:middle
+And we're looking forward to
+collecting this with privacy.
+
+00:20:10.806 --> 00:20:13.426 A:middle
+But this is only collected
+from people that have opted
+
+00:20:13.426 --> 00:20:15.356 A:middle
+in into diagnostic and usage.
+
+00:20:15.636 --> 00:20:18.336 A:middle
+So if you are not opted
+in that path line,
+
+00:20:18.336 --> 00:20:20.056 A:middle
+we're not collecting
+that data from you.
+
+00:20:20.416 --> 00:20:21.696 A:middle
+So you are in control.
+
+00:20:22.666 --> 00:20:24.986 A:middle
+So in summary what does
+this all mean for you?
+
+00:20:25.576 --> 00:20:29.116 A:middle
+Well we think that differential
+privacy is a very promising
+
+00:20:29.116 --> 00:20:30.086 A:middle
+technology in order
+
+00:20:30.086 --> 00:20:31.956 A:middle
+to do privacy friendly
+data collection.
+
+00:20:32.536 --> 00:20:35.956 A:middle
+We're very excited to adopt
+it this year on iOS and macOS
+
+00:20:35.996 --> 00:20:39.726 A:middle
+to do crowd-driven insight
+at scale, with privacy.
+
+00:20:40.476 --> 00:20:41.756 A:middle
+We don't use any identifiers,
+
+00:20:42.186 --> 00:20:44.066 A:middle
+we don't collect any
+raw measurements.
+
+00:20:45.266 --> 00:20:50.246 A:middle
+This is yet another tool
+in our privacy toolbox.
+
+00:20:50.356 --> 00:20:53.106 A:middle
+And we hope to use it more and
+more in the future in order
+
+00:20:53.106 --> 00:20:54.986 A:middle
+to build our future features.
+
+00:20:56.356 --> 00:20:58.696 A:middle
+We think that your
+users will care
+
+00:20:58.966 --> 00:21:01.846 A:middle
+because they will see the length
+at which we're willing to go
+
+00:21:02.116 --> 00:21:03.936 A:middle
+in order to protect
+user privacy.
+
+00:21:04.256 --> 00:21:06.026 A:middle
+So we hope this is
+going to encourage you
+
+00:21:06.026 --> 00:21:09.006 A:middle
+to develop privacy
+friendly practices as well.
+
+00:21:09.706 --> 00:21:12.726 A:middle
+In order to speak to
+transparency and control.
+
+00:21:12.726 --> 00:21:15.336 A:middle
+I'd like to invite
+Jessie on stage next.
+
+00:21:15.576 --> 00:21:15.916 A:middle
+Thank you [applause].
+
+00:21:17.366 --> 00:21:17.496 A:middle
+&gt;&gt; Hi.
+
+00:21:18.106 --> 00:21:18.516 A:middle
+I'm Jessie.
+
+00:21:18.766 --> 00:21:20.486 A:middle
+I'm also on the privacy
+engineering team.
+
+00:21:20.976 --> 00:21:23.336 A:middle
+I work on privacy on for
+products such as Apple Music,
+
+00:21:23.766 --> 00:21:25.216 A:middle
+photos, and education.
+
+00:21:26.716 --> 00:21:28.856 A:middle
+So Julien went into great
+detail to talk to you
+
+00:21:28.856 --> 00:21:32.386 A:middle
+about how you can identify your
+users and collect necessary data
+
+00:21:32.386 --> 00:21:34.456 A:middle
+about them in order to
+build great features,
+
+00:21:34.566 --> 00:21:36.316 A:middle
+but in a privacy friendly way.
+
+00:21:36.596 --> 00:21:39.656 A:middle
+So in addition to that it's
+also important to be transparent
+
+00:21:39.656 --> 00:21:41.176 A:middle
+to your users about
+these identifiers
+
+00:21:41.176 --> 00:21:42.736 A:middle
+and the data that you collect.
+
+00:21:43.626 --> 00:21:45.486 A:middle
+When you do they have
+a better understanding
+
+00:21:45.486 --> 00:21:47.176 A:middle
+of their privacy
+controls within your app.
+
+00:21:48.136 --> 00:21:50.206 A:middle
+And when users have that
+better understanding,
+
+00:21:50.436 --> 00:21:54.176 A:middle
+you gain their trust and you
+encourage their engagement
+
+00:21:54.176 --> 00:21:55.616 A:middle
+within your app.
+
+00:21:55.956 --> 00:21:58.636 A:middle
+So one way that we're increasing
+transparency and control is
+
+00:21:58.636 --> 00:22:02.006 A:middle
+with advertising in iOS 10.
+
+00:22:02.226 --> 00:22:05.766 A:middle
+So now in news and in the
+App Store users are able
+
+00:22:05.766 --> 00:22:08.586 A:middle
+to see this blue Ad button
+on any advertisement.
+
+00:22:09.196 --> 00:22:11.466 A:middle
+When they click on it
+they see more information
+
+00:22:11.466 --> 00:22:12.736 A:middle
+about why they're
+seeing this ad.
+
+00:22:13.736 --> 00:22:16.286 A:middle
+So when you and other developers
+are purchasing advertisements,
+
+00:22:16.526 --> 00:22:19.186 A:middle
+you pick specific
+targeted groups of users
+
+00:22:19.186 --> 00:22:20.576 A:middle
+to target your advertisements
+to.
+
+00:22:21.416 --> 00:22:23.986 A:middle
+Well now users are able to
+scroll through about this ad
+
+00:22:24.186 --> 00:22:27.446 A:middle
+to see exactly what,
+which groups they fell
+
+00:22:27.446 --> 00:22:28.826 A:middle
+into for this advertisement.
+
+00:22:29.666 --> 00:22:34.186 A:middle
+In addition, users can also
+go to privacy in Settings,
+
+00:22:36.016 --> 00:22:40.366 A:middle
+Advertising, View
+Ad Information.
+
+00:22:40.366 --> 00:22:44.176 A:middle
+And we are being completely
+transparent to them.
+
+00:22:44.396 --> 00:22:46.726 A:middle
+About all the user data we
+have about them to serve
+
+00:22:46.726 --> 00:22:49.336 A:middle
+as advertisements in news
+and in the App Store.
+
+00:22:49.336 --> 00:22:51.446 A:middle
+And this will be
+available in a later seed.
+
+00:22:52.916 --> 00:22:56.436 A:middle
+So a way that we give users
+control in advertising is
+
+00:22:56.436 --> 00:22:57.676 A:middle
+through Limit Ad Tracking.
+
+00:22:59.046 --> 00:22:59.776 A:middle
+So, as Julien talked
+
+00:22:59.776 --> 00:23:02.166 A:middle
+about earlier we have the
+advertising identifier
+
+00:23:02.536 --> 00:23:04.606 A:middle
+and you can use this
+to track users
+
+00:23:04.606 --> 00:23:06.736 A:middle
+for advertising purposes
+only on our platform.
+
+00:23:07.976 --> 00:23:10.916 A:middle
+When users toggle the
+Limit Ad Tracking flag on,
+
+00:23:11.246 --> 00:23:13.616 A:middle
+this is signaling to us that
+they do not want to be tracked
+
+00:23:13.616 --> 00:23:14.856 A:middle
+for advertising purposes.
+
+00:23:15.596 --> 00:23:17.966 A:middle
+So in iOS 10 we're taking
+this a step further.
+
+00:23:18.276 --> 00:23:21.496 A:middle
+So when a user enables Limit
+Ad Tracking the advertising
+
+00:23:21.496 --> 00:23:24.136 A:middle
+identifier becomes
+a UUID of all zeros.
+
+00:23:25.156 --> 00:23:27.496 A:middle
+It is now technically
+supported in code
+
+00:23:27.696 --> 00:23:29.716 A:middle
+that when a user enables
+Limit Ad Tracking,
+
+00:23:29.906 --> 00:23:32.346 A:middle
+we cannot track them using
+the advertising identifier.
+
+00:23:33.596 --> 00:23:35.946 A:middle
+Now if a user disables
+Limit Ad Tracking,
+
+00:23:36.386 --> 00:23:39.106 A:middle
+your app can get access to
+a new random identifier.
+
+00:23:39.106 --> 00:23:44.956 A:middle
+So you may be wondering, can
+you still show advertisements
+
+00:23:44.956 --> 00:23:46.616 A:middle
+to users with Limit
+Ad Tracking on?
+
+00:23:47.196 --> 00:23:48.006 A:middle
+Well of course you can.
+
+00:23:48.346 --> 00:23:50.256 A:middle
+You can show contextual
+ads within your app.
+
+00:23:50.586 --> 00:23:51.816 A:middle
+Things that make
+sense in the context.
+
+00:23:52.916 --> 00:23:55.686 A:middle
+You just cannot track them
+using the advertising identifier
+
+00:23:55.686 --> 00:23:57.126 A:middle
+if they have Limit
+Ad Tracking enabled.
+
+00:23:58.096 --> 00:23:59.866 A:middle
+And remember that it forbidden
+
+00:24:00.006 --> 00:24:02.906 A:middle
+to cache the advertising
+identifier in your app storage
+
+00:24:02.906 --> 00:24:04.746 A:middle
+as this does not give
+users proper control
+
+00:24:04.746 --> 00:24:07.296 A:middle
+over resetting it.
+
+00:24:07.536 --> 00:24:08.686 A:middle
+So, what does this
+all mean for you?
+
+00:24:08.686 --> 00:24:13.656 A:middle
+Well, there's an increase in
+transparency for ad serviced
+
+00:24:13.656 --> 00:24:15.836 A:middle
+to users in news
+and in the ad store,
+
+00:24:16.316 --> 00:24:19.276 A:middle
+and Limit Ad Tracking is now
+technically supported in code.
+
+00:24:20.706 --> 00:24:23.636 A:middle
+We know that when users are able
+to make these types of choices,
+
+00:24:23.636 --> 00:24:27.176 A:middle
+like enabling Limit Ad
+Tracking this empowers them
+
+00:24:27.246 --> 00:24:30.546 A:middle
+to make good privacy decisions
+that are right for them.
+
+00:24:30.746 --> 00:24:34.306 A:middle
+Another way that we give users
+the ability to make these types
+
+00:24:34.306 --> 00:24:36.316 A:middle
+of decisions are
+through consent alerts.
+
+00:24:37.006 --> 00:24:42.656 A:middle
+So in iOS, macOS, tvOS, and
+watchOS, users have the ability
+
+00:24:42.656 --> 00:24:44.266 A:middle
+to decide which apps get access
+
+00:24:44.306 --> 00:24:46.026 A:middle
+to certain protected
+classes of data.
+
+00:24:46.936 --> 00:24:49.736 A:middle
+Now protected classes of data
+are things such as calendar,
+
+00:24:50.206 --> 00:24:53.026 A:middle
+contacts, photos, HomeKit.
+
+00:24:53.466 --> 00:24:56.926 A:middle
+So the first time that
+your app requests access
+
+00:24:56.926 --> 00:24:58.926 A:middle
+to this protected class
+of data and calls the API,
+
+00:24:59.596 --> 00:25:01.206 A:middle
+iOS shows an alert
+like this one.
+
+00:25:01.746 --> 00:25:04.006 A:middle
+And at this point the user
+has the ability to decide
+
+00:25:04.326 --> 00:25:06.786 A:middle
+if your app should
+get access or not.
+
+00:25:07.916 --> 00:25:11.376 A:middle
+When the timing and the context
+of the question makes sense,
+
+00:25:12.486 --> 00:25:14.426 A:middle
+the user can make the choice
+that's right for them.
+
+00:25:14.896 --> 00:25:16.176 A:middle
+We call this a just
+in time alert.
+
+00:25:16.176 --> 00:25:20.606 A:middle
+I want to talk to you
+about all the new features
+
+00:25:20.606 --> 00:25:23.146 A:middle
+that we have this year, that
+also have privacy settings
+
+00:25:23.146 --> 00:25:24.636 A:middle
+and consent alerts
+along with them.
+
+00:25:25.416 --> 00:25:28.336 A:middle
+The first is the media
+library privacy setting.
+
+00:25:28.946 --> 00:25:33.106 A:middle
+This give access to Apple
+Music subscriber status,
+
+00:25:33.266 --> 00:25:38.056 A:middle
+subscriber store front,
+adding content to a playlist,
+
+00:25:39.386 --> 00:25:41.186 A:middle
+and now reading from
+the Media Library.
+
+00:25:41.736 --> 00:25:45.476 A:middle
+We know that users'
+Media Libraries
+
+00:25:45.846 --> 00:25:48.306 A:middle
+and Apple Music subscription
+information is extremely
+
+00:25:48.306 --> 00:25:50.076 A:middle
+personal and can be identifying.
+
+00:25:50.486 --> 00:25:52.486 A:middle
+So we want users to have
+the ability to decide
+
+00:25:52.486 --> 00:25:54.476 A:middle
+which apps get access
+and which don't.
+
+00:25:55.046 --> 00:25:59.116 A:middle
+Now if your app got access to
+the Media Library in iOS 9.3,
+
+00:25:59.416 --> 00:26:02.856 A:middle
+you will continue to
+have access in iOS 10.
+
+00:26:02.856 --> 00:26:04.316 A:middle
+So how do you know if
+you already have access?
+
+00:26:05.836 --> 00:26:07.686 A:middle
+Well with most of
+the protected classes
+
+00:26:07.686 --> 00:26:10.726 A:middle
+of data we have what's called
+an authorization status API.
+
+00:26:10.726 --> 00:26:12.896 A:middle
+It has a little bit
+of a different name
+
+00:26:13.076 --> 00:26:15.006 A:middle
+with each protected
+class of data.
+
+00:26:15.006 --> 00:26:16.576 A:middle
+But this is the example
+for Media Library.
+
+00:26:17.116 --> 00:26:21.306 A:middle
+So you can call this API and get
+back one of these enum values.
+
+00:26:22.666 --> 00:26:24.986 A:middle
+If you see notDetermined
+this can happen
+
+00:26:24.986 --> 00:26:26.216 A:middle
+from one of two reasons.
+
+00:26:26.476 --> 00:26:31.106 A:middle
+Either one, you haven't asked
+yet, or two, you've asked
+
+00:26:31.106 --> 00:26:32.806 A:middle
+for access to this
+protected class of data
+
+00:26:33.076 --> 00:26:35.996 A:middle
+but since then the user has
+reset their privacy settings.
+
+00:26:36.696 --> 00:26:41.316 A:middle
+If you see denied, this means
+that the user said don't allow.
+
+00:26:41.686 --> 00:26:43.226 A:middle
+They do not want your
+app to have access
+
+00:26:43.226 --> 00:26:44.576 A:middle
+to a certain protected
+class of data.
+
+00:26:44.756 --> 00:26:46.756 A:middle
+And at this point you
+have a few options.
+
+00:26:47.276 --> 00:26:49.786 A:middle
+You can take the user down a
+different route in your app
+
+00:26:49.786 --> 00:26:51.856 A:middle
+and show them all the
+features that they can use
+
+00:26:52.306 --> 00:26:55.166 A:middle
+without giving you access to
+this protected class of data.
+
+00:26:55.416 --> 00:26:59.106 A:middle
+Or, you can open up the
+privacy settings for your app.
+
+00:26:59.106 --> 00:27:02.036 A:middle
+And at this point the user
+could possibly make a different
+
+00:27:02.036 --> 00:27:04.386 A:middle
+decision if they so choose.
+
+00:27:04.386 --> 00:27:06.666 A:middle
+Now if you see restricted,
+this can happen
+
+00:27:06.666 --> 00:27:07.806 A:middle
+for one of two reasons.
+
+00:27:08.116 --> 00:27:11.366 A:middle
+Either one, there's a parental
+restriction set on this device,
+
+00:27:11.686 --> 00:27:14.076 A:middle
+saying that your app cannot get
+access to this protected class
+
+00:27:14.076 --> 00:27:17.536 A:middle
+of data, or two, this
+app is supervised,
+
+00:27:17.706 --> 00:27:21.656 A:middle
+maybe it's in an education mode,
+or an ed enterprise context.
+
+00:27:21.656 --> 00:27:23.226 A:middle
+And the device administrator
+has said
+
+00:27:23.226 --> 00:27:25.676 A:middle
+that your app cannot get access
+to this protected class of data.
+
+00:27:27.096 --> 00:27:31.396 A:middle
+And of course if you see
+authorized you're good to go.
+
+00:27:31.636 --> 00:27:33.296 A:middle
+So we have some other
+awesome new features
+
+00:27:33.296 --> 00:27:34.716 A:middle
+that also have privacy settings.
+
+00:27:35.666 --> 00:27:37.266 A:middle
+Another one is speech
+recognition.
+
+00:27:38.016 --> 00:27:41.496 A:middle
+So this allows your app to
+send in audio files to Apple
+
+00:27:41.496 --> 00:27:43.286 A:middle
+to be transcribed into text.
+
+00:27:44.036 --> 00:27:46.036 A:middle
+Now the reason that we want
+users to have the ability
+
+00:27:46.036 --> 00:27:48.936 A:middle
+to decide which apps get
+access and which don't is
+
+00:27:48.936 --> 00:27:50.316 A:middle
+because we want them
+to understand
+
+00:27:50.316 --> 00:27:53.376 A:middle
+that if they grant your app
+access you may be sending audio
+
+00:27:53.376 --> 00:27:54.466 A:middle
+files that are theirs
+
+00:27:54.466 --> 00:27:56.746 A:middle
+to be transcribed
+into text from Apple.
+
+00:27:57.956 --> 00:28:00.986 A:middle
+You can request access to this
+ahead of time with this API.
+
+00:28:02.396 --> 00:28:03.896 A:middle
+We also have SiriKit.
+
+00:28:04.766 --> 00:28:05.886 A:middle
+This is really exciting.
+
+00:28:06.176 --> 00:28:08.526 A:middle
+Users can now make
+requests in Siri
+
+00:28:08.776 --> 00:28:11.106 A:middle
+that are completed
+with your app.
+
+00:28:12.836 --> 00:28:15.316 A:middle
+But in order for Siri
+to understand what types
+
+00:28:15.316 --> 00:28:18.466 A:middle
+of request a user might make,
+your app must first send
+
+00:28:18.466 --> 00:28:20.256 A:middle
+up contextual information
+to Siri
+
+00:28:20.256 --> 00:28:22.596 A:middle
+about the user, and
+about your app.
+
+00:28:23.346 --> 00:28:25.476 A:middle
+And we want users to have
+the ability to decide
+
+00:28:25.476 --> 00:28:28.206 A:middle
+which apps send up this
+contextual information to Siri
+
+00:28:28.206 --> 00:28:29.646 A:middle
+about them and which don't.
+
+00:28:30.236 --> 00:28:33.856 A:middle
+So you need to request
+access to this ahead of time,
+
+00:28:33.856 --> 00:28:35.906 A:middle
+before any Siri requests
+can be made.
+
+00:28:36.696 --> 00:28:39.306 A:middle
+And you can do this using the
+request Siri Authorization API.
+
+00:28:40.656 --> 00:28:42.126 A:middle
+You also probably heard
+
+00:28:42.126 --> 00:28:44.886 A:middle
+about the TV Provider
+single sign on feature.
+
+00:28:45.226 --> 00:28:48.476 A:middle
+Now, this allows
+enabled television apps
+
+00:28:48.816 --> 00:28:51.456 A:middle
+to request access to a user's
+subscription information
+
+00:28:51.456 --> 00:28:53.286 A:middle
+and sign them into
+their app automatically.
+
+00:28:54.556 --> 00:28:57.186 A:middle
+Now, because this is
+only for enabled apps,
+
+00:28:57.286 --> 00:28:59.956 A:middle
+reach out to your WWDR partner
+manager if you're interested
+
+00:28:59.956 --> 00:29:02.936 A:middle
+in becoming one of these apps.
+
+00:29:03.186 --> 00:29:06.766 A:middle
+And everything you loved about
+photos on iOS is now on tvOS
+
+00:29:06.766 --> 00:29:08.936 A:middle
+as well, and same with HomeKit.
+
+00:29:09.516 --> 00:29:14.466 A:middle
+And both of those also have
+privacy settings, on tvOS.
+
+00:29:14.626 --> 00:29:16.996 A:middle
+So, in addition to these
+awesome new features,
+
+00:29:17.296 --> 00:29:20.396 A:middle
+we also have some updates to
+how your app requests access
+
+00:29:20.516 --> 00:29:21.946 A:middle
+to certain protected
+classes of data.
+
+00:29:22.266 --> 00:29:28.226 A:middle
+So in 2014, we started requiring
+all apps that requested access
+
+00:29:28.226 --> 00:29:30.586 A:middle
+to location to declare
+so ahead of time
+
+00:29:30.586 --> 00:29:32.266 A:middle
+and to declare a purpose string.
+
+00:29:32.916 --> 00:29:34.726 A:middle
+We find that users
+are more likely
+
+00:29:34.726 --> 00:29:36.236 A:middle
+to make the choice
+that's right for them
+
+00:29:36.476 --> 00:29:39.746 A:middle
+when they understand why an
+app needs access to location.
+
+00:29:40.316 --> 00:29:44.526 A:middle
+So, in iOS 10 we
+are extending this
+
+00:29:44.526 --> 00:29:46.326 A:middle
+to all protected
+classes of data.
+
+00:29:47.626 --> 00:29:50.396 A:middle
+So if your app is accessing
+any of these protected classes
+
+00:29:50.396 --> 00:29:52.956 A:middle
+of data you will need to
+declare so ahead of time
+
+00:29:53.186 --> 00:29:56.046 A:middle
+in your app's info
+plist along with a clear
+
+00:29:56.046 --> 00:29:57.186 A:middle
+and meaningful purpose string.
+
+00:29:58.536 --> 00:30:00.646 A:middle
+So take a moment,
+look at this list.
+
+00:30:01.556 --> 00:30:04.686 A:middle
+Think is my app accessing any of
+these protected classes of data?
+
+00:30:04.686 --> 00:30:07.346 A:middle
+How many of your apps
+are accessing one?
+
+00:30:08.206 --> 00:30:10.066 A:middle
+Yeah. How about two or three?
+
+00:30:11.266 --> 00:30:14.236 A:middle
+Okay well you're going to need
+to declare that ahead of time
+
+00:30:14.346 --> 00:30:16.076 A:middle
+in your app's info plist.
+
+00:30:16.076 --> 00:30:19.256 A:middle
+And if you're a tvOS developer,
+these four protected classes
+
+00:30:19.256 --> 00:30:21.036 A:middle
+of data are available for
+you to request on tvOS.
+
+00:30:21.036 --> 00:30:24.686 A:middle
+And you'll also need to
+declare that ahead of time
+
+00:30:24.686 --> 00:30:26.846 A:middle
+in your aps info plist.
+
+00:30:26.846 --> 00:30:29.086 A:middle
+Now, I'm going to
+quickly go through all
+
+00:30:29.086 --> 00:30:30.706 A:middle
+of the purpose string
+key values,
+
+00:30:30.816 --> 00:30:33.976 A:middle
+key names that you'll need to
+put in your app's info plist.
+
+00:30:34.046 --> 00:30:35.616 A:middle
+Now, you don't need to
+write them down right now.
+
+00:30:35.616 --> 00:30:36.746 A:middle
+Because they'll be
+available for you
+
+00:30:36.746 --> 00:30:42.026 A:middle
+in the development
+documentation and in Xcode.
+
+00:30:42.166 --> 00:30:45.786 A:middle
+So, let's say you have the
+next best disco light app.
+
+00:30:46.886 --> 00:30:49.676 A:middle
+The first time a user downloads
+your app they can scroll
+
+00:30:49.676 --> 00:30:52.566 A:middle
+through the various features
+and look at what they can do.
+
+00:30:52.566 --> 00:30:55.026 A:middle
+And then the first
+time that they go
+
+00:30:55.026 --> 00:30:57.776 A:middle
+and add their first disco
+light, at this point,
+
+00:30:58.066 --> 00:31:00.916 A:middle
+when it makes sense, your app
+will request access to HomeKit.
+
+00:31:01.406 --> 00:31:05.376 A:middle
+When the timing and the context
+of the question makes sense,
+
+00:31:05.416 --> 00:31:07.276 A:middle
+the user will see the
+consent alert show.
+
+00:31:07.766 --> 00:31:10.466 A:middle
+And at this point you have
+the ability to write a clear
+
+00:31:10.466 --> 00:31:12.916 A:middle
+and meaningful purpose string
+to go in that consent alert.
+
+00:31:13.456 --> 00:31:17.876 A:middle
+I'm going to show you now how
+you can easily add your purpose
+
+00:31:17.876 --> 00:31:18.986 A:middle
+string using Xcode.
+
+00:31:20.596 --> 00:31:24.796 A:middle
+So you go to your app's
+target, Info section,
+
+00:31:26.156 --> 00:31:30.816 A:middle
+custom iOS target
+properties, add a new key.
+
+00:31:31.526 --> 00:31:32.596 A:middle
+In this case we're going
+
+00:31:32.596 --> 00:31:36.076 A:middle
+to choose privacy
+HomeKit usage description.
+
+00:31:36.646 --> 00:31:40.406 A:middle
+And at this point we're
+going to write a clear
+
+00:31:40.406 --> 00:31:41.516 A:middle
+and meaningful purpose string.
+
+00:31:41.676 --> 00:31:43.926 A:middle
+So we're going to put
+this will allow you
+
+00:31:43.926 --> 00:31:46.006 A:middle
+to create disco light
+shows using HomeKit.
+
+00:31:46.926 --> 00:31:49.296 A:middle
+When the context and
+the timing makes sense,
+
+00:31:49.756 --> 00:31:52.506 A:middle
+the user now sees why we
+need access to HomeKit.
+
+00:31:52.506 --> 00:31:54.446 A:middle
+And they're more likely to
+make the choice that's right
+
+00:31:55.166 --> 00:31:56.286 A:middle
+for them.
+
+00:31:56.536 --> 00:31:58.226 A:middle
+So, what's going to
+happen to your app
+
+00:31:58.226 --> 00:32:02.126 A:middle
+if you don't declare
+access ahead of time?
+
+00:32:02.266 --> 00:32:03.426 A:middle
+Well your app's going to crash.
+
+00:32:04.446 --> 00:32:09.386 A:middle
+So, to preserve privacy any
+app built on or after iOS 10
+
+00:32:09.446 --> 00:32:13.596 A:middle
+that attempts to request access
+to a certain protected class
+
+00:32:13.596 --> 00:32:16.586 A:middle
+of data must declare so ahead of
+time in their app's info plist.
+
+00:32:16.586 --> 00:32:21.036 A:middle
+If you don't, your
+app is going to exit.
+
+00:32:21.656 --> 00:32:24.186 A:middle
+So, your user will just see
+your app exit on screen.
+
+00:32:24.626 --> 00:32:27.486 A:middle
+But this is the error that you
+will see in the Xcode console.
+
+00:32:28.016 --> 00:32:30.156 A:middle
+It will tell you exactly
+which protected class
+
+00:32:30.156 --> 00:32:32.616 A:middle
+of data you tried to access
+and which key you need
+
+00:32:32.616 --> 00:32:33.786 A:middle
+to go add to your info plist.
+
+00:32:34.716 --> 00:32:37.656 A:middle
+Now, the reason that we crash
+your app is because in the event
+
+00:32:37.656 --> 00:32:40.726 A:middle
+that your app was compromised
+and you did not intend
+
+00:32:40.726 --> 00:32:43.896 A:middle
+for your app to request access
+to this protected class of data,
+
+00:32:43.896 --> 00:32:46.386 A:middle
+we do not want your
+app to get access
+
+00:32:46.386 --> 00:32:48.246 A:middle
+to any data you did
+not intend it to do so.
+
+00:32:49.586 --> 00:32:52.356 A:middle
+And remember your
+app is responsible
+
+00:32:52.356 --> 00:32:55.096 A:middle
+for any third party libraries
+that you build into your app.
+
+00:32:55.656 --> 00:32:58.026 A:middle
+So be mindful that when
+you choose those libraries
+
+00:32:58.406 --> 00:33:00.326 A:middle
+that they do not breech
+your user's privacy.
+
+00:33:00.926 --> 00:33:05.016 A:middle
+So what does this
+all mean for you?
+
+00:33:05.226 --> 00:33:08.896 A:middle
+Well there's some awesome new
+features in iOS 10 and tvOS.
+
+00:33:09.866 --> 00:33:11.486 A:middle
+And they also have
+privacy settings.
+
+00:33:12.406 --> 00:33:14.516 A:middle
+You need to declare it ahead
+of time that you're going
+
+00:33:14.516 --> 00:33:17.126 A:middle
+to request access to a
+certain protected class of data
+
+00:33:17.126 --> 00:33:18.146 A:middle
+in your app's info plist.
+
+00:33:18.836 --> 00:33:20.056 A:middle
+And having a clear
+
+00:33:20.056 --> 00:33:22.796 A:middle
+and meaningful purpose
+string will help users make
+
+00:33:22.796 --> 00:33:23.646 A:middle
+better decisions.
+
+00:33:25.306 --> 00:33:27.036 A:middle
+So in addition to these
+awesome new features,
+
+00:33:27.156 --> 00:33:31.416 A:middle
+we also have some changes
+to some existing frameworks,
+
+00:33:31.416 --> 00:33:34.696 A:middle
+to help you build in privacy
+to your app from the ground up.
+
+00:33:35.566 --> 00:33:38.316 A:middle
+So first I want to talk about
+some changes to pasteboard.
+
+00:33:38.896 --> 00:33:44.486 A:middle
+You can now set the expiration
+time and a local only value
+
+00:33:44.666 --> 00:33:46.306 A:middle
+to any values you put
+on the pasteboard.
+
+00:33:46.726 --> 00:33:50.906 A:middle
+Setting the expiration time
+will make it so the value put
+
+00:33:50.906 --> 00:33:52.596 A:middle
+on the pasteboard
+will be removed
+
+00:33:52.826 --> 00:33:54.706 A:middle
+after that date,
+or on that date.
+
+00:33:55.966 --> 00:33:57.896 A:middle
+And setting the local
+only value to true,
+
+00:33:57.896 --> 00:34:00.636 A:middle
+will exclude those values
+from the universal clipboard.
+
+00:34:01.596 --> 00:34:06.256 A:middle
+So here's an example, in
+this case we have a UIImage
+
+00:34:06.926 --> 00:34:08.286 A:middle
+that we're going to
+put on the pasteboard,
+
+00:34:08.466 --> 00:34:09.966 A:middle
+along with the string
+"Hello, world."
+
+00:34:10.586 --> 00:34:14.096 A:middle
+We're going to set
+the expiration time
+
+00:34:14.096 --> 00:34:16.046 A:middle
+to 120 seconds from now.
+
+00:34:17.116 --> 00:34:19.306 A:middle
+And we're going to set the
+local only value to true.
+
+00:34:19.986 --> 00:34:22.396 A:middle
+So in two minutes, this
+value will no longer be
+
+00:34:22.396 --> 00:34:23.156 A:middle
+on the pasteboard.
+
+00:34:23.806 --> 00:34:27.426 A:middle
+And, these values cannot
+be pasted using the
+
+00:34:27.426 --> 00:34:28.386 A:middle
+universal clipboard.
+
+00:34:29.676 --> 00:34:31.446 A:middle
+So why would you
+want to do this?
+
+00:34:31.506 --> 00:34:32.506 A:middle
+Well, if you know for a fact
+
+00:34:33.266 --> 00:34:35.666 A:middle
+that a user is copying
+something really sensitive,
+
+00:34:35.666 --> 00:34:39.826 A:middle
+such as a password or a phone
+number, or an email address
+
+00:34:40.256 --> 00:34:42.606 A:middle
+and you don't think it should be
+on the clipboard for very long,
+
+00:34:43.106 --> 00:34:44.406 A:middle
+set the expiration time.
+
+00:34:45.536 --> 00:34:47.826 A:middle
+And if you don't think it's
+appropriate for those values
+
+00:34:47.996 --> 00:34:49.616 A:middle
+to be used in universal
+clipboard,
+
+00:34:50.236 --> 00:34:51.836 A:middle
+set the local only
+value to true.
+
+00:34:53.676 --> 00:34:55.756 A:middle
+We've made a couple more
+changes to pasteboard.
+
+00:34:56.566 --> 00:34:59.136 A:middle
+The first is that all named
+pasteboards will be defaulted
+
+00:34:59.136 --> 00:35:02.086 A:middle
+to non-persistent and
+setting the persistence
+
+00:35:02.216 --> 00:35:04.846 A:middle
+of a pasteboard will cause
+a deprecation warning.
+
+00:35:06.116 --> 00:35:08.246 A:middle
+In addition, trying
+to get an item off
+
+00:35:08.246 --> 00:35:10.816 A:middle
+of the find pasteboard will
+yielded an empty object
+
+00:35:10.816 --> 00:35:11.506 A:middle
+with no value.
+
+00:35:12.896 --> 00:35:14.276 A:middle
+And we really want
+to encourage you
+
+00:35:14.276 --> 00:35:16.986 A:middle
+to use shared containers
+instead of pasteboards
+
+00:35:16.986 --> 00:35:19.386 A:middle
+when you're trying to share
+information on different apps
+
+00:35:19.386 --> 00:35:21.956 A:middle
+on the same device that are
+all within your one team.
+
+00:35:22.286 --> 00:35:23.786 A:middle
+It's a much more
+secure way to do it,
+
+00:35:24.006 --> 00:35:26.916 A:middle
+than putting items
+on a pasteboard.
+
+00:35:26.916 --> 00:35:30.446 A:middle
+So a lot of your apps also
+integrate with Core Spotlight.
+
+00:35:30.646 --> 00:35:32.106 A:middle
+And we have a couple of
+things we want to talk to you
+
+00:35:32.106 --> 00:35:34.646 A:middle
+about today as well when you're
+integrating Core Spotlight
+
+00:35:34.646 --> 00:35:35.046 A:middle
+into your app.
+
+00:35:36.386 --> 00:35:38.936 A:middle
+The first is that every
+user tap should not result
+
+00:35:38.936 --> 00:35:40.966 A:middle
+in an NSUserActivity
+being published.
+
+00:35:41.456 --> 00:35:43.466 A:middle
+You don't want to flood the
+system with a bunch of events
+
+00:35:43.596 --> 00:35:45.296 A:middle
+that don't make sense
+for the user.
+
+00:35:45.686 --> 00:35:47.616 A:middle
+Only really significant
+events you think they'll want
+
+00:35:47.616 --> 00:35:48.806 A:middle
+to go look back for later.
+
+00:35:49.366 --> 00:35:53.216 A:middle
+And do not set eligibleFor
+PublicIndexing to true
+
+00:35:53.216 --> 00:35:55.896 A:middle
+if the data is sensitive
+user data.
+
+00:35:56.616 --> 00:36:02.096 A:middle
+You also probably heard
+about our new support
+
+00:36:02.096 --> 00:36:03.466 A:middle
+for widgets in iOS 10.
+
+00:36:04.166 --> 00:36:06.516 A:middle
+So when a user enables
+a widget, it's available
+
+00:36:06.516 --> 00:36:09.176 A:middle
+on the home screen,
+and the lock screen.
+
+00:36:10.326 --> 00:36:12.676 A:middle
+So because of this,
+I want to talk to you
+
+00:36:12.676 --> 00:36:13.526 A:middle
+about some best practices.
+
+00:36:13.526 --> 00:36:16.016 A:middle
+Things that you can do when
+you're creating your widgets
+
+00:36:16.266 --> 00:36:18.476 A:middle
+to remember that they're also
+available on the lock screen.
+
+00:36:18.476 --> 00:36:22.236 A:middle
+So the first is that you
+should evaluate the sensitivity
+
+00:36:22.236 --> 00:36:23.386 A:middle
+of data you put in your widget.
+
+00:36:24.416 --> 00:36:26.036 A:middle
+If you don't think
+it's appropriate to be
+
+00:36:26.036 --> 00:36:28.786 A:middle
+on the lock screen, don't
+put it in your widget,
+
+00:36:28.786 --> 00:36:30.556 A:middle
+or engineer a way for
+it to not be there
+
+00:36:30.886 --> 00:36:32.176 A:middle
+when it's on the lock screen.
+
+00:36:32.466 --> 00:36:35.886 A:middle
+Make sure that the data is
+consistent and predictable.
+
+00:36:36.236 --> 00:36:37.886 A:middle
+So when I enable
+your widget today,
+
+00:36:38.716 --> 00:36:40.866 A:middle
+do I expect to see
+something similar tomorrow?
+
+00:36:41.446 --> 00:36:43.806 A:middle
+How about a month from now?
+
+00:36:44.596 --> 00:36:47.056 A:middle
+It's okay if it's not
+the same data every day,
+
+00:36:47.146 --> 00:36:49.676 A:middle
+but I should understand what
+type of data could be there.
+
+00:36:51.096 --> 00:36:52.486 A:middle
+And remember that its data
+
+00:36:52.486 --> 00:36:54.226 A:middle
+that is file protection
+type complete,
+
+00:36:54.476 --> 00:36:56.376 A:middle
+will not be available
+on the lock screen.
+
+00:36:56.376 --> 00:37:00.706 A:middle
+So I want to show you an example
+of what we're doing today
+
+00:37:00.706 --> 00:37:01.956 A:middle
+with the Find My Friends widget.
+
+00:37:03.136 --> 00:37:05.656 A:middle
+On the lock screen the
+location is not available.
+
+00:37:06.076 --> 00:37:07.106 A:middle
+We know that the location
+
+00:37:07.106 --> 00:37:08.916 A:middle
+of your friends is
+extremely sensitive
+
+00:37:08.916 --> 00:37:10.936 A:middle
+and should not be
+available on the lock screen.
+
+00:37:11.306 --> 00:37:14.226 A:middle
+So we have a string that
+says unlock to view location.
+
+00:37:14.226 --> 00:37:15.996 A:middle
+And the location is not there.
+
+00:37:16.756 --> 00:37:18.086 A:middle
+Then once I use touch ID
+
+00:37:18.086 --> 00:37:20.586 A:middle
+to unlock my device,
+we show the location.
+
+00:37:21.856 --> 00:37:24.536 A:middle
+Consider doing something like
+this if you think that some
+
+00:37:24.536 --> 00:37:26.516 A:middle
+of the data in your
+widget could be sensitive.
+
+00:37:31.286 --> 00:37:33.116 A:middle
+So Julien and I talked
+to you about a lot
+
+00:37:33.116 --> 00:37:33.916 A:middle
+of different things today.
+
+00:37:35.216 --> 00:37:37.336 A:middle
+We started out by
+talking about identifiers.
+
+00:37:37.646 --> 00:37:40.236 A:middle
+The real root of how
+you identify your users
+
+00:37:40.506 --> 00:37:41.806 A:middle
+within your app.
+
+00:37:41.806 --> 00:37:44.146 A:middle
+And how you should favor
+short-lived identifiers
+
+00:37:44.146 --> 00:37:45.586 A:middle
+and OS provided identifiers.
+
+00:37:45.586 --> 00:37:50.696 A:middle
+And we talked about how when
+you're collecting data in order
+
+00:37:50.696 --> 00:37:53.376 A:middle
+to build your features
+you should do it
+
+00:37:53.376 --> 00:37:56.586 A:middle
+in privacy friendly ways
+such as bucketing, sampling,
+
+00:37:56.856 --> 00:37:59.236 A:middle
+or using new technology such
+as differential privacy.
+
+00:37:59.766 --> 00:38:04.366 A:middle
+And how when you give users
+transparency and control
+
+00:38:04.366 --> 00:38:08.176 A:middle
+over those identifiers and
+that data, you gain their trust
+
+00:38:08.176 --> 00:38:10.646 A:middle
+and you encourage
+engagement in your app.
+
+00:38:12.156 --> 00:38:14.626 A:middle
+And that when you let
+them make decisions
+
+00:38:14.626 --> 00:38:16.966 A:middle
+about their privacy
+this empowers them
+
+00:38:16.966 --> 00:38:20.866 A:middle
+to make good privacy decisions
+that are right for them.
+
+00:38:20.976 --> 00:38:23.036 A:middle
+And of course we showed you
+some awesome new features
+
+00:38:23.036 --> 00:38:25.156 A:middle
+and some great tools to
+help you build privacy
+
+00:38:25.156 --> 00:38:28.606 A:middle
+into your app from
+the ground up.
+
+00:38:28.876 --> 00:38:31.136 A:middle
+For more information about
+our talk you can visit this
+
+00:38:31.136 --> 00:38:31.726 A:middle
+web page.
+
+00:38:32.766 --> 00:38:34.436 A:middle
+Here are some related
+sessions you might want
+
+00:38:34.436 --> 00:38:35.336 A:middle
+to check out this week.
+
+00:38:36.006 --> 00:38:36.966 A:middle
+Thank you.
+
+00:38:37.516 --> 00:38:42.500 A:middle
+[ Applause ]

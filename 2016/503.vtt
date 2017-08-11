@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:17.500 A:middle
 [ Music ]
@@ -17,7 +16,7 @@ on Advances
 00:00:29.166 --> 00:00:30.596 A:middle
 in AVFoundation Playback.
 
-00:00:32.445 --> 00:00:33.246 A:middle
+00:00:32.446 --> 00:00:33.246 A:middle
 My name is Sam Bushell.
 
 00:00:34.566 --> 00:00:38.206 A:middle
@@ -51,14 +50,6 @@ mostly on playback.
 00:00:54.476 --> 00:00:57.746 A:middle
 AVFoundation supports playback
 from a very wide selection
-
-00:00:57.746 --> 00:01:01.016 A:middle
-of media formats
-from local storage.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.746 --> 00:01:01.016 A:middle
 of media formats
@@ -146,14 +137,6 @@ playback of a single file.
 We're going to discuss some
 playback refinements we've made
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.936 --> 00:02:02.206 A:middle
-We're going to discuss some
-playback refinements we've made
-
 00:02:02.316 --> 00:02:05.366 A:middle
 under the hood.
 
@@ -161,13 +144,13 @@ under the hood.
 We're going to discuss
 getting your application ready
 
-00:02:07.586 --> 00:02:08.795 A:middle
+00:02:07.586 --> 00:02:08.796 A:middle
 for wide color video.
 
-00:02:09.756 --> 00:02:10.675 A:middle
+00:02:09.756 --> 00:02:10.676 A:middle
 And then we'll spend the rest
 
-00:02:10.675 --> 00:02:13.346 A:middle
+00:02:10.676 --> 00:02:13.346 A:middle
 of our time discussing a
 popular topic optimization
 
@@ -231,13 +214,6 @@ believes that if you were
 00:02:56.146 --> 00:02:59.136 A:middle
 to stop playing now, you could
 keep on playing without stalling
-
-00:02:59.136 --> 00:03:00.016 A:middle
-until you got to the end.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.136 --> 00:03:00.016 A:middle
 until you got to the end.
@@ -312,10 +288,6 @@ iOS, Mac OS, tvOS.
 For apps linked on or after
 iOS 10, Mac OS Sierra, tvOS 10,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.356 --> 00:04:02.616 A:middle
 the same rules for
 HLS will also apply
@@ -339,11 +311,11 @@ which is the same thing.
 And AVFoundation will
 automatically wait
 
-00:04:14.376 --> 00:04:16.185 A:middle
+00:04:14.376 --> 00:04:16.186 A:middle
 to buffer enough
 to avoid stalling.
 
-00:04:17.255 --> 00:04:20.116 A:middle
+00:04:17.256 --> 00:04:20.116 A:middle
 If the network drops out during
 playback and playback stalls,
 
@@ -394,14 +366,6 @@ been used in QTKit and also
 00:04:56.966 --> 00:04:59.586 A:middle
 in HTML 5, but we
 came to the conclusion
-
-00:04:59.586 --> 00:05:02.556 A:middle
-that from the perspective
-of this AVPlayer API,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.586 --> 00:05:02.556 A:middle
 that from the perspective
@@ -490,14 +454,6 @@ if it might stall.
 So we preserved this semantic
 by providing another method,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.826 --> 00:06:01.956 A:middle
-So we preserved this semantic
-by providing another method,
-
 00:06:02.256 --> 00:06:04.896 A:middle
 playImmediately (atRate:)
 which jumps you straight
@@ -575,14 +531,6 @@ property tells you why.
 00:06:56.476 --> 00:06:59.226 A:middle
 For example, you could
 be in the waiting state,
-
-00:06:59.226 --> 00:07:03.146 A:middle
-so the AVPlayer's rate
-property could be 1.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.226 --> 00:07:03.146 A:middle
 so the AVPlayer's rate
@@ -679,14 +627,6 @@ minute where to find that.
 And I've set up a profile called
 Slow Server that limits this
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.556 --> 00:08:02.596 A:middle
-And I've set up a profile called
-Slow Server that limits this
-
 00:08:02.596 --> 00:08:05.826 A:middle
 to a mediocre network connection
 that's a little slower
@@ -719,18 +659,18 @@ Let me do that.
 And what you see is that
 the video immediately loads,
 
-00:08:26.586 --> 00:08:32.015 A:middle
+00:08:26.586 --> 00:08:32.016 A:middle
 and we see that we're
 currently not playing.
 
-00:08:32.336 --> 00:08:34.645 A:middle
+00:08:32.336 --> 00:08:34.646 A:middle
 You see this wonderful
 engineering UI underneath
 
-00:08:34.645 --> 00:08:37.405 A:middle
+00:08:34.646 --> 00:08:37.406 A:middle
 that gives us all the properties
 
-00:08:37.405 --> 00:08:39.535 A:middle
+00:08:37.406 --> 00:08:39.536 A:middle
 and functionality involved
 in automatic waiting.
 
@@ -764,14 +704,6 @@ of the video,
 00:08:58.526 --> 00:08:59.856 A:middle
 which is actually
 the whole video.
-
-00:08:59.856 --> 00:09:02.746 A:middle
-And we're currently
-likely to keep up.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.856 --> 00:09:02.746 A:middle
 And we're currently
@@ -854,14 +786,6 @@ playback will just start.
 00:09:55.656 --> 00:09:57.706 A:middle
 Now let's try this
 one more time,
-
-00:09:57.706 --> 00:10:00.546 A:middle
-and this time I will hit play
-right after I loaded the video.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:57.706 --> 00:10:00.546 A:middle
 and this time I will hit play
@@ -954,14 +878,6 @@ started out paused.
 When he hit play, it went
 into the waiting state.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.356 --> 00:11:03.206 A:middle
-When he hit play, it went
-into the waiting state.
-
 00:11:04.646 --> 00:11:07.456 A:middle
 Because playback was not
 yet likely to keep up.
@@ -1041,10 +957,6 @@ invented in my time at least.
 It is part of the
 hardware IO tools download.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.316 --> 00:12:03.466 A:middle
 To get it, the easiest way
 is to follow Xcode's menu
@@ -1123,14 +1035,6 @@ in the timebase object.
 
 00:12:57.816 --> 00:12:58.486 A:middle
 That's what they're for.
-
-00:12:59.356 --> 00:13:00.766 A:middle
-All right, that's
-it for buffering.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.356 --> 00:13:00.766 A:middle
 All right, that's
@@ -1235,14 +1139,6 @@ be able to do here is
 to have AVFoundation
 be in on the plan.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.766 --> 00:14:00.136 A:middle
-to have AVFoundation
-be in on the plan.
-
 00:14:00.796 --> 00:14:03.616 A:middle
 If AVFoundation knows
 about playback item B
@@ -1316,14 +1212,6 @@ play queue is not a playlist.
 00:14:57.116 --> 00:14:59.786 A:middle
 Please do not load
 the next 10,000 items
-
-00:14:59.786 --> 00:15:02.426 A:middle
-that you think you might like
-to play into the play queue.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.786 --> 00:15:02.426 A:middle
 that you think you might like
@@ -1416,14 +1304,6 @@ back to the start.
 And then add it to the end
 of the play queue again.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.706 --> 00:16:01.866 A:middle
-And then add it to the end
-of the play queue again.
-
 00:16:02.866 --> 00:16:07.076 A:middle
 As you can see, in this code
 we are deactivating our KVO
@@ -1511,13 +1391,6 @@ to play it with AVPlayerLooper.
 00:16:59.516 --> 00:17:07.546 A:middle
 [ Music ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.516 --> 00:17:07.546 A:middle
-[ Music ]
-
 00:17:08.046 --> 00:17:09.726 A:middle
 Don't you feel mellow?
 
@@ -1531,7 +1404,7 @@ much what I pointed out.
 00:17:15.306 --> 00:17:16.226 A:middle
 It's fairly simple.
 
-00:17:16.726 --> 00:17:19.415 A:middle
+00:17:16.726 --> 00:17:19.416 A:middle
 This would be an appropriate
 tool to use, for example,
 
@@ -1577,13 +1450,6 @@ playing but video should not.
 00:17:57.426 --> 00:17:59.096 A:middle
 We have an empty
 segment of video,
-
-00:17:59.176 --> 00:18:00.546 A:middle
-so what should the video do?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.176 --> 00:18:00.546 A:middle
 so what should the video do?
@@ -1679,14 +1545,6 @@ from English to Spanish.
 Or we could remove
 the AVPlayerLayer
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.396 --> 00:19:02.646 A:middle
-Or we could remove
-the AVPlayerLayer
-
 00:19:02.646 --> 00:19:03.706 A:middle
 that was displaying the video.
 
@@ -1757,14 +1615,6 @@ is an enhancement
 
 00:19:56.626 --> 00:19:57.786 A:middle
 for users and developers.
-
-00:19:57.786 --> 00:20:00.796 A:middle
-However, it's a significant
-change in API behavior,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.786 --> 00:20:00.796 A:middle
 However, it's a significant
@@ -1844,14 +1694,6 @@ in the P3 color space.
 Some third party products are
 capturing video in P3 also.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.716 --> 00:21:03.236 A:middle
-Some third party products are
-capturing video in P3 also.
-
 00:21:03.886 --> 00:21:07.046 A:middle
 So I wanted to give you pointers
 to the APIs you can adopt
@@ -1922,14 +1764,6 @@ detail in the dark areas
 00:21:55.126 --> 00:21:56.276 A:middle
 where our eyes are
 more sensitive.
-
-00:21:57.166 --> 00:22:00.446 A:middle
-And the YCbCr Matrix,
-the coordinate transform
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.166 --> 00:22:00.446 A:middle
 And the YCbCr Matrix,
@@ -2012,14 +1846,6 @@ independent code points?
 00:22:56.486 --> 00:22:59.996 A:middle
 Well, it's less than a
 paradox if you read it
-
-00:22:59.996 --> 00:23:01.886 A:middle
-as Codec independent
-code points.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.996 --> 00:23:01.886 A:middle
 as Codec independent
@@ -2116,14 +1942,6 @@ will be converted
 into that color space
 prior to compression.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.576 --> 00:24:00.196 A:middle
-into that color space
-prior to compression.
-
 00:24:00.716 --> 00:24:05.936 A:middle
 With AVPlayerItemVideoOutput
 or AVAssetReaderOutput
@@ -2206,10 +2024,6 @@ buffers manually, for example,
 00:24:58.556 --> 00:24:59.926 A:middle
 using a pixel buffer
 pool in metal,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.376 --> 00:25:02.476 A:middle
 then you should explicitly
@@ -2313,14 +2127,6 @@ into our display hierarchy.
 Now this code is correct,
 but it has a small flaw,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.766 --> 00:26:02.476 A:middle
-Now this code is correct,
-but it has a small flaw,
-
 00:26:02.476 --> 00:26:04.316 A:middle
 which maybe you may
 not initially see.
@@ -2402,14 +2208,6 @@ AVPlayerItem is connected
 
 00:26:54.166 --> 00:26:55.066 A:middle
 to the AVPlayer.
-
-00:26:57.346 --> 00:27:00.176 A:middle
-So now the player is
-created with no current item,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.346 --> 00:27:00.176 A:middle
 So now the player is
@@ -2513,14 +2311,6 @@ optimize with HLS are longer
 because they're donated by
 network IO which is much slower
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:57.876 --> 00:28:00.216 A:middle
-because they're donated by
-network IO which is much slower
-
 00:28:00.216 --> 00:28:01.436 A:middle
 than local file storage.
 
@@ -2619,13 +2409,6 @@ we do some small amount
 00:28:59.456 --> 00:29:00.956 A:middle
 of network IO speculatively
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.456 --> 00:29:00.956 A:middle
-of network IO speculatively
-
 00:29:01.826 --> 00:29:04.326 A:middle
 when the user has identified
 the content they probably want
@@ -2714,13 +2497,6 @@ master playlist must contain
 
 00:29:56.256 --> 00:29:57.496 A:middle
 SESSION-KEY declarations.
-
-00:29:58.046 --> 00:30:00.106 A:middle
-So how are we doing so far?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.046 --> 00:30:00.106 A:middle
 So how are we doing so far?
@@ -2817,10 +2593,6 @@ than the iPhone SE screen,
 so going bigger probably
 won't improve any quality.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.636 --> 00:31:03.996 A:middle
 On a giant iPad Pro, there are
 a lot of pixels, so we could go
@@ -2915,10 +2687,6 @@ It has to choose some variant,
 but it does not know what
 bitrate it's going to get.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.926 --> 00:32:02.636 A:middle
 Once it's begun downloading
 segments,
@@ -3011,14 +2779,6 @@ switch to a higher quality
 after playback begins
 as the network allows.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.646 --> 00:33:01.196 A:middle
-after playback begins
-as the network allows.
-
 00:33:01.496 --> 00:33:04.906 A:middle
 And maybe you know one thing
 that AVFoundation doesn't.
@@ -3105,14 +2865,6 @@ will allow AVFoundation to move
 up to a higher bitrate variance
 if the network improves.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.306 --> 00:34:00.626 A:middle
-up to a higher bitrate variance
-if the network improves.
-
 00:34:02.686 --> 00:34:04.236 A:middle
 The second technique is
 
@@ -3124,15 +2876,15 @@ master playlist in your app
 and move your preferred
 choice to the top of the list.
 
-00:34:10.235 --> 00:34:14.585 A:middle
+00:34:10.236 --> 00:34:14.586 A:middle
 To do this, use a custom URL
 scheme for the AVURLAsset
 
-00:34:15.716 --> 00:34:19.335 A:middle
+00:34:15.716 --> 00:34:19.336 A:middle
 and implement the AV asset
 resource loader delegate
 
-00:34:19.335 --> 00:34:23.206 A:middle
+00:34:19.336 --> 00:34:23.206 A:middle
 protocol in which you can
 supply that rewritten playlist
 
@@ -3152,7 +2904,7 @@ you call AVFoundation.
 In particular, you do not need
 to wait for likelyToKeepUp
 
-00:34:36.775 --> 00:34:39.085 A:middle
+00:34:36.776 --> 00:34:39.086 A:middle
 to become true before
 you set the player rate.
 
@@ -3171,7 +2923,7 @@ from old playback sessions
 so that they do not waste
 bandwidth in the background.
 
-00:34:51.005 --> 00:34:53.676 A:middle
+00:34:51.006 --> 00:34:53.676 A:middle
 You can use the Allocations
 Instrument in Instruments
 
@@ -3184,14 +2936,6 @@ and AVPlayerItem objects.
 
 00:34:57.866 --> 00:34:59.136 A:middle
 And if you have an application
-
-00:34:59.136 --> 00:35:00.336 A:middle
-that does other network
-activity,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.136 --> 00:35:00.336 A:middle
 that does other network
@@ -3270,14 +3014,6 @@ for local files and for HLS.
 In short, avoid accidentally
 asking for work you don't need.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:57.186 --> 00:36:00.346 A:middle
-In short, avoid accidentally
-asking for work you don't need.
-
 00:36:00.746 --> 00:36:04.476 A:middle
 And for the work you do need,
 see if you can do it earlier.
@@ -3313,4 +3049,3 @@ It's been a pleasure.
 
 00:36:21.626 --> 00:36:23.926 A:middle
 I hope you have a great week.
-

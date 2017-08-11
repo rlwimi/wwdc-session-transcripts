@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:18.500 A:middle
 [ Music ]
@@ -44,14 +43,6 @@ both web technologies
 00:00:55.696 --> 00:00:57.696 A:middle
 and native code written
 in Swift.
-
-00:00:58.216 --> 00:01:01.356 A:middle
-They're bundled with the Mac
-app and can be distributed
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.216 --> 00:01:01.356 A:middle
 They're bundled with the Mac
@@ -123,14 +114,6 @@ and content throughout macOS.
 00:01:55.856 --> 00:01:59.926 A:middle
 And so this means that they
 are developed using Xcode
-
-00:01:59.926 --> 00:02:02.926 A:middle
-and other developing tools you
-might already be familiar with
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.926 --> 00:02:02.926 A:middle
 and other developing tools you
@@ -212,14 +195,6 @@ three types of extensions.
 The first type is a content
 blocker which blocks,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:58.786 --> 00:03:01.966 A:middle
-The first type is a content
-blocker which blocks,
-
 00:03:01.966 --> 00:03:04.286 A:middle
 which can block the loading
 of specific resources
@@ -296,14 +271,6 @@ we built a model
 where you can declare ahead
 of time what content to block.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.906 --> 00:04:03.026 A:middle
-where you can declare ahead
-of time what content to block.
-
 00:04:03.826 --> 00:04:06.646 A:middle
 And WebKit optimizes
 such blocking mechanism
@@ -320,7 +287,7 @@ preserves user privacy
 because the host
 app isn't consulted
 
-00:04:15.506 --> 00:04:16.685 A:middle
+00:04:15.506 --> 00:04:16.686 A:middle
 for the resources block.
 
 00:04:17.896 --> 00:04:21.446 A:middle
@@ -372,14 +339,6 @@ blog that's dedicated
 
 00:04:55.706 --> 00:04:58.356 A:middle
 to the food I want to try.
-
-00:04:58.556 --> 00:05:02.226 A:middle
-But unfortunately, well,
-actually fortunately,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.556 --> 00:05:02.226 A:middle
 But unfortunately, well,
@@ -453,14 +412,6 @@ with this content blocker
 and I really want to bring it
 to the Mac and distribute it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:57.016 --> 00:06:00.246 A:middle
-and I really want to bring it
-to the Mac and distribute it
-
 00:06:00.296 --> 00:06:01.086 A:middle
 through the App Store.
 
@@ -500,14 +451,6 @@ extension template.
 00:06:47.956 --> 00:06:53.606 A:middle
 That's called dessert
 blocker extension for Mac.
-
-00:06:55.896 --> 00:07:00.126 A:middle
-When users get Apps from the
-App Store, they don't have
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:55.896 --> 00:07:00.126 A:middle
 When users get Apps from the
@@ -588,14 +531,6 @@ membership section,
 check the Mac app
 extension target
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.306 --> 00:08:01.186 A:middle
-check the Mac app
-extension target
-
 00:08:01.496 --> 00:08:03.296 A:middle
 for the resources
 we want to share.
@@ -630,14 +565,14 @@ extension for Mac, let's check,
 00:08:29.266 --> 00:08:30.516 A:middle
 just called it dessert blocker.
 
-00:08:31.056 --> 00:08:34.395 A:middle
+00:08:31.056 --> 00:08:34.396 A:middle
 And the description I want
 
-00:08:34.395 --> 00:08:38.306 A:middle
+00:08:34.396 --> 00:08:38.306 A:middle
 to provide is this content
 blocker blocks dessert pictures
 
-00:08:38.306 --> 00:08:40.905 A:middle
+00:08:38.306 --> 00:08:40.906 A:middle
 on my food blog.com.
 
 00:08:41.106 --> 00:08:44.556 A:middle
@@ -660,14 +595,6 @@ icons to my Xcode project.
 
 00:08:55.516 --> 00:08:57.506 A:middle
 All right.
-
-00:08:57.776 --> 00:09:04.346 A:middle
-Let's view it and run
-the application for Mac
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.776 --> 00:09:04.346 A:middle
 Let's view it and run
@@ -733,10 +660,6 @@ whether your content blocker
 00:09:58.866 --> 00:09:59.636 A:middle
 is enabled.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.296 --> 00:10:02.446 A:middle
 So, we are introducing
 a new API,
@@ -795,14 +718,6 @@ are available.
 00:10:56.266 --> 00:10:58.106 A:middle
 Let's step through
 the Swift code API.
-
-00:10:59.586 --> 00:11:02.606 A:middle
-If SFSafari service is
-available returns true,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.586 --> 00:11:02.606 A:middle
 If SFSafari service is
@@ -883,14 +798,6 @@ CSS style sheets
 and JavaScript content
 scripts into pages.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.786 --> 00:12:02.196 A:middle
-and JavaScript content
-scripts into pages.
-
 00:12:02.776 --> 00:12:04.976 A:middle
 Let's take a look at how
 to inject a style sheet.
@@ -958,14 +865,6 @@ the path is script instead
 
 00:12:57.476 --> 00:12:58.116 A:middle
 of style sheet.
-
-00:12:59.246 --> 00:13:01.586 A:middle
-And all of your extensions
-scripts are run
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.246 --> 00:13:01.586 A:middle
 And all of your extensions
@@ -1049,14 +948,6 @@ like to ask
 that app extension what
 words it should replace.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.146 --> 00:14:00.736 A:middle
-that app extension what
-words it should replace.
-
 00:14:01.566 --> 00:14:05.926 A:middle
 To do that, it just calls
 Safari.extension.dispatch
@@ -1122,14 +1013,6 @@ what to replace them with.
 00:14:55.886 --> 00:14:58.186 A:middle
 And we are structuring
 this at the dictionary
-
-00:14:58.446 --> 00:15:01.556 A:middle
-where each key represents the
-word that we're going to replace
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.446 --> 00:15:01.556 A:middle
 where each key represents the
@@ -1202,14 +1085,6 @@ from our app extension,
 00:15:54.036 --> 00:15:57.016 A:middle
 the first thing we do once
 again is check the message name
-
-00:15:57.016 --> 00:16:00.486 A:middle
-as a best practice
-and then we act on it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.016 --> 00:16:00.486 A:middle
 as a best practice
@@ -1288,14 +1163,6 @@ in the extension's Info.plist
 under the
 SFSafariWebsiteAccess/key
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.946 --> 00:17:00.596 A:middle
-under the
-SFSafariWebsiteAccess/key
-
 00:17:00.966 --> 00:17:02.806 A:middle
 and it's a dictionary
 with two parts.
@@ -1304,7 +1171,7 @@ with two parts.
 The first part is the
 website access level.
 
-00:17:06.266 --> 00:17:09.675 A:middle
+00:17:06.266 --> 00:17:09.676 A:middle
 And this extension is specifying
 an access level of all,
 
@@ -1315,18 +1182,18 @@ which means it wants access
 to every webpage
 that the user visits.
 
-00:17:14.175 --> 00:17:17.705 A:middle
+00:17:14.176 --> 00:17:17.706 A:middle
 And as you can see, Safari's
 extensions preferences warn the
 
-00:17:17.705 --> 00:17:20.516 A:middle
+00:17:17.706 --> 00:17:20.516 A:middle
 user about this before they're
 going to turn on the extension.
 
-00:17:21.636 --> 00:17:22.685 A:middle
+00:17:21.636 --> 00:17:22.686 A:middle
 And in this example,
 
-00:17:23.136 --> 00:17:25.665 A:middle
+00:17:23.136 --> 00:17:25.666 A:middle
 the extension has an
 access level of some.
 
@@ -1368,13 +1235,6 @@ Swift code
 00:17:56.716 --> 00:17:59.496 A:middle
 and how you specify what
 websites your extension would
-
-00:17:59.496 --> 00:18:00.396 A:middle
-like access to.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.496 --> 00:18:00.396 A:middle
 like access to.
@@ -1446,10 +1306,6 @@ Application Extension
 00:18:58.116 --> 00:18:59.786 A:middle
 and select Safari extension.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.526 --> 00:19:04.236 A:middle
 And we're going to call this
 Animalify because we're going
@@ -1518,14 +1374,6 @@ is open up our content script
 00:19:56.456 --> 00:19:59.746 A:middle
 and I'm just going to bring in
 the content script I've written
-
-00:19:59.746 --> 00:20:01.496 A:middle
-for my Chrome extension
-wholesale.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.746 --> 00:20:01.496 A:middle
 for my Chrome extension
@@ -1607,14 +1455,6 @@ doesn't do much before there's a
 dom, we want to wait until the
 dom is loaded before sending
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.386 --> 00:21:01.966 A:middle
-dom, we want to wait until the
-dom is loaded before sending
-
 00:21:01.966 --> 00:21:02.706 A:middle
 this message.
 
@@ -1678,14 +1518,6 @@ to Safari.self.
 00:21:52.766 --> 00:21:56.686 A:middle
 And when that event listener
 fires, we check the message name
-
-00:21:56.686 --> 00:22:00.236 A:middle
-and get our replacements
-from event.message.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:56.686 --> 00:22:00.236 A:middle
 and get our replacements
@@ -1770,13 +1602,6 @@ menu in the menu bar.
 00:22:59.176 --> 00:23:00.456 A:middle
 And from the Develop menu,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.176 --> 00:23:00.456 A:middle
-And from the Develop menu,
-
 00:23:00.716 --> 00:23:03.516 A:middle
 I'm going to select Allow
 Unsigned extensions.
@@ -1843,10 +1668,6 @@ Safari's UI to add the power
 00:23:55.736 --> 00:23:59.796 A:middle
 and functionality of your
 native app directly into Safari.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.296 --> 00:24:01.566 A:middle
 And to show us how to do that,
@@ -1933,14 +1754,6 @@ really easily.
 I'm going to need
 two different things.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.856 --> 00:25:00.096 A:middle
-I'm going to need
-two different things.
-
 00:25:00.606 --> 00:25:03.996 A:middle
 So, I want to be able to
 select a text and I want
@@ -2008,10 +1821,6 @@ SFSafariToolbarItem.
 Together with four
 different key-value pairs.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.546 --> 00:26:05.526 A:middle
 Identifier, label,
 image and action.
@@ -2072,14 +1881,6 @@ such as in red count.
 00:26:55.516 --> 00:26:59.056 A:middle
 So, we've got ourselves a
 button but now I want to be able
-
-00:26:59.056 --> 00:27:03.566 A:middle
-to display a popover when
-the user clicks the button.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.056 --> 00:27:03.566 A:middle
 to display a popover when
@@ -2146,14 +1947,6 @@ in the popover.
 00:27:56.516 --> 00:27:59.676 A:middle
 And as you would expect, we
 will also forward you all
-
-00:27:59.676 --> 00:28:01.286 A:middle
-of the events such
-as click events.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.676 --> 00:28:01.286 A:middle
 of the events such
@@ -2229,10 +2022,6 @@ want to be able
 to select the text
 and then save it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.226 --> 00:29:02.786 A:middle
 So, I went again to my
 extensions Info.plist
@@ -2295,14 +2084,6 @@ I'm calling set context menu
 00:29:54.636 --> 00:29:58.106 A:middle
 event userInfo on the
 Safari extension object.
-
-00:29:59.286 --> 00:30:03.086 A:middle
-And notice that I'm actually
-sending along selectedText.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.286 --> 00:30:03.086 A:middle
 And notice that I'm actually
@@ -2371,10 +2152,6 @@ I'm using a PDF file.
 00:30:55.376 --> 00:30:59.506 A:middle
 Second thing I want to show
 you is my principal object.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.286 --> 00:31:04.856 A:middle
 Let me just make it like that.
@@ -2447,14 +2224,6 @@ such as removeAllNotes,
 removeLastNote, etc.
 And please notice
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.816 --> 00:32:03.266 A:middle
-removeLastNote, etc.
-And please notice
-
 00:32:03.266 --> 00:32:07.796 A:middle
 that my target membership is set
 for both targets, my notebook,
@@ -2509,14 +2278,6 @@ I command, CTL click it.
 00:32:54.566 --> 00:32:57.386 A:middle
 And then I say add
 snippet to notebook.
-
-00:32:58.526 --> 00:33:03.916 A:middle
-Like so. As you can see, my note
-was added right over here also.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.526 --> 00:33:03.916 A:middle
 Like so. As you can see, my note
@@ -2579,14 +2340,6 @@ the clicker over here.
 So, today we showed you
 three types of extensions
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.676 --> 00:34:02.366 A:middle
-So, today we showed you
-three types of extensions
-
 00:34:02.366 --> 00:34:04.746 A:middle
 that are made possible with
 our new extension model.
@@ -2599,7 +2352,7 @@ bring your content blocker
 from iOS to the Mac
 and introduced new APIs
 
-00:34:12.045 --> 00:34:14.126 A:middle
+00:34:12.046 --> 00:34:14.126 A:middle
 to get the state of
 your content blocker
 
@@ -2610,15 +2363,15 @@ in response to your feedback.
 We saw how simple it is to
 bring a Chrome extension
 
-00:34:19.666 --> 00:34:23.985 A:middle
+00:34:19.666 --> 00:34:23.986 A:middle
 that modifies webpages to Safari
 and enhanced it to communicate
 
-00:34:23.985 --> 00:34:26.775 A:middle
+00:34:23.986 --> 00:34:26.776 A:middle
 with the native Swift code
 in your app extension.
 
-00:34:27.295 --> 00:34:30.906 A:middle
+00:34:27.296 --> 00:34:30.906 A:middle
 And lastly, we saw how it had
 the power and functionality
 
@@ -2640,7 +2393,7 @@ of native technologies and APIs
 in your app extension
 alongside your JavaScript
 
-00:34:46.335 --> 00:34:49.856 A:middle
+00:34:46.336 --> 00:34:49.856 A:middle
 and your CSS used to
 modify and enhance webpages.
 
@@ -2651,14 +2404,6 @@ extensions are distributed
 00:34:53.416 --> 00:34:57.226 A:middle
 with your Mac app, there's an
 easier installation experience
-
-00:34:57.226 --> 00:35:00.516 A:middle
-for your users and you can
-now sell your extensions
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.226 --> 00:35:00.516 A:middle
 for your users and you can
@@ -2714,4 +2459,3 @@ Thank you so much.
 
 00:35:36.516 --> 00:35:40.500 A:middle
 [ Applause ]
-
