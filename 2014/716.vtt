@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:00:13.176 --> 00:00:15.276 A:middle
 &gt;&gt; Welcome to Power,
@@ -50,13 +49,6 @@ who might be new
 00:00:53.846 --> 00:00:56.366 A:middle
 to the topic even though
 given the number of people,
-
-00:00:56.366 --> 00:01:00.026 A:middle
-maybe everybody knows
-about it [laughter],
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:00:56.366 --> 00:01:00.026 A:middle
 maybe everybody knows
@@ -133,13 +125,6 @@ current process as a whole,
 00:01:55.266 --> 00:01:57.016 A:middle
 say if you're running
 on un-trusted data
-
-00:01:57.366 --> 00:02:00.466 A:middle
-that you might not want to
-crash the main application
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:01:57.366 --> 00:02:00.466 A:middle
 that you might not want to
@@ -226,13 +211,6 @@ provide on the system
 as application developers
 to make this possible?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:02:59.586 --> 00:03:02.966 A:middle
-as application developers
-to make this possible?
-
 00:03:02.966 --> 00:03:04.586 A:middle
 This responsive user
 interface well,
@@ -303,13 +281,6 @@ really a restriction they will
 
 00:03:55.286 --> 00:03:56.846 A:middle
 proceed normally.
-
-00:03:57.556 --> 00:04:00.076 A:middle
-So an example of that that
-you are probably familiar
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:03:57.556 --> 00:04:00.076 A:middle
 So an example of that that
@@ -403,13 +374,6 @@ actually has many other resource
 controls of this type,
 and to configure all
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:04:59.866 --> 00:05:02.366 A:middle
-controls of this type,
-and to configure all
-
 00:05:02.366 --> 00:05:03.916 A:middle
 of this correctly
 is very complex
@@ -485,13 +449,6 @@ CPU scheduling priority
 00:05:54.636 --> 00:05:57.526 A:middle
 and I/O priority, but
 also configuration
-
-00:05:57.526 --> 00:06:00.336 A:middle
-of timer coalescing
-and hints to the CPU
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:05:57.526 --> 00:06:00.336 A:middle
 of timer coalescing
@@ -581,13 +538,6 @@ application we expect
 that this should be a small
 fraction of the total work
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:06:59.126 --> 00:07:01.446 A:middle
-that this should be a small
-fraction of the total work
-
 00:07:01.446 --> 00:07:03.816 A:middle
 that an application does,
 especially in the case
@@ -663,13 +613,6 @@ you can confidently predict
 00:07:54.516 --> 00:07:57.046 A:middle
 that that will be needed very
 soon, that Quality of Service.
-
-00:07:57.446 --> 00:08:00.386 A:middle
-But this is already one of
-the energy efficient Quality
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:07:57.446 --> 00:08:00.386 A:middle
 But this is already one of
@@ -754,13 +697,6 @@ for User-Interactive,
 
 00:08:56.426 --> 00:08:57.606 A:middle
 you should ask yourself,
-
-00:08:57.606 --> 00:09:00.396 A:middle
-"Is this work actively
-involved in updating the UI?"
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:08:57.606 --> 00:09:00.396 A:middle
 "Is this work actively
@@ -868,13 +804,6 @@ questions like,
 Is it okay for user-interactive
 work to happen before my work
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:09:57.976 --> 00:10:01.266 A:middle
-Is it okay for user-interactive
-work to happen before my work
-
 00:10:01.396 --> 00:10:04.776 A:middle
 at User-Initiated, or,
 is it okay for my work
@@ -947,13 +876,6 @@ to choose the right QoS Class.
 00:10:53.756 --> 00:10:57.766 A:middle
 So let's look at the
 Quality of Service Class API
-
-00:10:58.626 --> 00:11:00.196 A:middle
-that you'll be writing
-code with.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:10:58.626 --> 00:11:00.196 A:middle
 that you'll be writing
@@ -1046,13 +968,6 @@ foundation.h has a coolant,
 and in fact, interchangeable
 constants
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:11:59.236 --> 00:12:01.276 A:middle
-and in fact, interchangeable
-constants
-
 00:12:01.616 --> 00:12:04.716 A:middle
 for user at the NS APIs.
 
@@ -1135,12 +1050,6 @@ nil value if you will,
 00:12:59.896 --> 00:13:01.436 A:middle
 and this indicates to us
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:12:59.896 --> 00:13:01.436 A:middle
-and this indicates to us
-
 00:13:01.436 --> 00:13:05.476 A:middle
 that maybe they should be
 inferring the Quality of Service
@@ -1214,13 +1123,6 @@ discreet classes, we can think
 of QoS really as a set
 of five priority bands
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:13:59.066 --> 00:14:02.046 A:middle
-of QoS really as a set
-of five priority bands
-
 00:14:02.506 --> 00:14:05.346 A:middle
 where you can position yourself
 inside one of these bands,
@@ -1287,13 +1189,6 @@ off the currently running thread
 00:14:56.996 --> 00:14:58.856 A:middle
 with the qos class
 self function.
-
-00:14:59.396 --> 00:15:01.466 A:middle
-This will return what the
-thread is currently running at.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:14:59.396 --> 00:15:01.466 A:middle
 This will return what the
@@ -1380,13 +1275,6 @@ to Quality of Service Classes.
 So the main queue, which
 in an application maps
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:15:58.186 --> 00:16:00.876 A:middle
-So the main queue, which
-in an application maps
-
 00:16:00.876 --> 00:16:02.736 A:middle
 through the main thread of
 the application obviously runs
@@ -1456,13 +1344,6 @@ recommend you start doing
 00:16:54.946 --> 00:16:58.056 A:middle
 from now on to be able to
 express that intent directly
-
-00:16:58.056 --> 00:17:00.636 A:middle
-of what you want rather
-than take advantage
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:16:58.056 --> 00:17:00.636 A:middle
 of what you want rather
@@ -1538,13 +1419,6 @@ concept slightly this year
 00:17:56.516 --> 00:17:58.756 A:middle
 with Dispatch Block
 Objects to allow you
-
-00:17:58.756 --> 00:18:00.946 A:middle
-to configure properties
-of individual units
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:17:58.756 --> 00:18:00.946 A:middle
 to configure properties
@@ -1630,13 +1504,6 @@ a heap object of course,
 so this is really like
 similar to calling block copy
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:18:58.876 --> 00:19:02.576 A:middle
-so this is really like
-similar to calling block copy
-
 00:19:02.576 --> 00:19:05.566 A:middle
 on the nested block, so in
 a seed program you will have
@@ -1707,13 +1574,6 @@ for the result to face
 00:19:53.676 --> 00:19:57.026 A:middle
 in the patch with dispatch
 group or dispatch centerfolds.
-
-00:19:57.526 --> 00:20:00.556 A:middle
-And finally as mentioned,
-in a C program you have
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:19:57.526 --> 00:20:00.556 A:middle
 And finally as mentioned,
@@ -1800,13 +1660,6 @@ If the block is started,
 cancellation will not stop
 it from doing anything.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:20:58.086 --> 00:21:00.586 A:middle
-cancellation will not stop
-it from doing anything.
-
 00:21:00.976 --> 00:21:03.436 A:middle
 The block can check for
 cancellation on itself
@@ -1881,13 +1734,6 @@ notifier API that we've had.
 00:21:57.586 --> 00:21:59.726 A:middle
 Now that we've talked
 about the interaction --
-
-00:21:59.846 --> 00:22:01.696 A:middle
-at least talked about
-the various levels
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:21:59.846 --> 00:22:01.696 A:middle
 at least talked about
@@ -1969,13 +1815,6 @@ from the submitting thread.
 00:22:56.906 --> 00:22:58.856 A:middle
 What do we mean by
 that inferred QoS?
-
-00:22:59.206 --> 00:23:01.196 A:middle
-This is the Quality of
-Service that we captured
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:22:59.206 --> 00:23:01.196 A:middle
 This is the Quality of
@@ -2067,13 +1906,6 @@ to the Quality
 of Service Class off the
 block if there's such a thing,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:23:57.036 --> 00:24:00.256 A:middle
-of Service Class off the
-block if there's such a thing,
-
 00:24:00.506 --> 00:24:02.356 A:middle
 or otherwise use the one
 off the current thread.
@@ -2157,13 +1989,6 @@ priorities into your process,
 we have to talk about
 the priority inversions.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:24:58.546 --> 00:25:00.276 A:middle
-we have to talk about
-the priority inversions.
-
 00:25:01.066 --> 00:25:03.246 A:middle
 What is a priority inversion?"
 
@@ -2231,13 +2056,6 @@ on top it like NSLock.
 00:25:54.866 --> 00:25:58.626 A:middle
 In those cases, the system
 will try to raise the Quality
-
-00:25:58.626 --> 00:26:03.156 A:middle
-of Service of the work that is
-being waited on to the Quality
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:25:58.626 --> 00:26:03.156 A:middle
 of Service of the work that is
@@ -2325,13 +2143,6 @@ levels as much as you can
 by using finer grade
 synchronization mechanisms,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:26:56.166 --> 00:27:00.226 A:middle
-by using finer grade
-synchronization mechanisms,
-
 00:27:00.226 --> 00:27:03.896 A:middle
 finer granularity, and
 move work outside of blocks
@@ -2412,13 +2223,6 @@ So to recap this section,
 we talked about the QoS Class
 constants that you can use,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:27:57.396 --> 00:28:01.446 A:middle
-we talked about the QoS Class
-constants that you can use,
-
 00:28:01.906 --> 00:28:04.966 A:middle
 the concept of relative
 Quality of Service priority,
@@ -2487,9 +2291,6 @@ originator, and we'll talk more
 
 00:28:58.716 --> 00:28:59.846 A:middle
 about that in a while.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:29:01.736 --> 00:29:06.376 A:middle
 The interesting thing about
@@ -2572,13 +2373,6 @@ in some situations, and that is
 where the DISPATCH
 BLOCK DETACHED flag
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:29:59.826 --> 00:30:01.986 A:middle
-where the DISPATCH
-BLOCK DETACHED flag
-
 00:30:02.076 --> 00:30:03.926 A:middle
 to the dispatch block
 create API comes in.
@@ -2651,13 +2445,6 @@ but say Q3 now discovers
 00:30:57.206 --> 00:30:58.826 A:middle
 that it has to do some
 maintenance operation
-
-00:30:59.166 --> 00:31:01.276 A:middle
-that really shouldn't be
-associated to this activity.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:30:59.166 --> 00:31:01.276 A:middle
 that really shouldn't be
@@ -2744,13 +2531,6 @@ to later on submit a block
 to a dispatch queue but you
 want to capture this state
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:31:59.856 --> 00:32:01.836 A:middle
-to a dispatch queue but you
-want to capture this state
-
 00:32:02.376 --> 00:32:04.876 A:middle
 that occurred when
 you stored the work.
@@ -2811,13 +2591,6 @@ the past about the concept
 00:32:55.936 --> 00:32:58.776 A:middle
 of importance boosting
 in past years' sessions.
-
-00:32:59.166 --> 00:33:02.436 A:middle
-This is still present this
-year, but it's slightly changed.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:32:59.166 --> 00:33:02.436 A:middle
 This is still present this
@@ -2904,13 +2677,6 @@ the IPC request.
 The process shouldn't
 become clamped again
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:33:58.856 --> 00:34:01.646 A:middle
-The process shouldn't
-become clamped again
-
 00:34:01.646 --> 00:34:05.256 A:middle
 until that work is done, but
 of course, it is also possible
@@ -2977,13 +2743,6 @@ Asynchronous Code.
 00:34:56.346 --> 00:34:59.046 A:middle
 First off, the Xcode
 6 CPU Report --
-
-00:34:59.206 --> 00:35:04.086 A:middle
-this is what you would
-use to diagnose or confirm
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:34:59.206 --> 00:35:04.086 A:middle
 this is what you would
@@ -3065,13 +2824,6 @@ asynchronous code.
 Not only does the Xcode
 debugger now show back traces
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:35:55.656 --> 00:36:00.066 A:middle
-Not only does the Xcode
-debugger now show back traces
-
 00:36:00.066 --> 00:36:02.896 A:middle
 from the currently running
 code, which in the case
@@ -3140,13 +2892,6 @@ that can be really difficult
 00:36:54.666 --> 00:36:56.416 A:middle
 to track down if you don't
 have something like this.
-
-00:36:56.986 --> 00:37:01.286 A:middle
-So here, it will also show you
-how many pending blocks exist
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
 
 00:36:56.986 --> 00:37:01.286 A:middle
 So here, it will also show you
@@ -3232,13 +2977,6 @@ to that specific activity
 from both the crashing
 process and any processes
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:37:58.186 --> 00:38:01.536 A:middle
-from both the crashing
-process and any processes
-
 00:38:01.536 --> 00:38:05.296 A:middle
 that the activity has propagated
 to by this propagation
@@ -3317,13 +3055,6 @@ Execution Context across threads
 and processes, and finally some
 exciting news about diagnostics
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:900000,LOCAL:00:00:00.000
-
-00:38:57.326 --> 00:39:01.696 A:middle
-and processes, and finally some
-exciting news about diagnostics
-
 00:39:01.726 --> 00:39:04.476 A:middle
 and queue debugging that
 we're introducing this year.
@@ -3392,7 +3123,3 @@ that you saw, and that is it.
 
 00:39:50.636 --> 00:39:50.986 A:middle
 Thank you.
-
-00:39:51.916 --> 00:39:58.610 A:middle
-[ Applause ]
-

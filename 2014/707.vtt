@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.606 A:middle
 [ Silence ]
@@ -76,14 +75,6 @@ can use background networking
 through NSURLSession
 to get that work done.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:55.946 --> 00:01:00.026 A:middle
-through NSURLSession
-to get that work done.
-
 00:01:00.376 --> 00:01:02.956 A:middle
 Looking at the different
 levels that actually make
@@ -149,14 +140,6 @@ to use on Mac OS X and iOS.
 00:01:55.916 --> 00:01:58.616 A:middle
 These APIs serve
 different purposes.
-
-00:01:59.436 --> 00:02:05.926 A:middle
-NSStream is an API that is used
-to synch bytes into the system
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.436 --> 00:02:05.926 A:middle
 NSStream is an API that is used
@@ -230,14 +213,6 @@ and some data code.
 00:02:53.616 --> 00:02:57.936 A:middle
 In this talk, we're going
 to talk about those APIs:
-
-00:02:58.086 --> 00:03:00.986 A:middle
-NSStream NSNetServices
-and NSURLSession.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.086 --> 00:03:00.986 A:middle
 NSStream NSNetServices
@@ -322,14 +297,6 @@ NSStream gets two new APIs.
 00:03:51.636 --> 00:03:57.876 A:middle
 Now NSStream is-it's Toll-Free
 Bridged with CFStream,
-
-00:03:57.876 --> 00:04:00.576 A:middle
-which means that there's a lower
-level API that this works with.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:57.876 --> 00:04:00.576 A:middle
 which means that there's a lower
@@ -423,14 +390,6 @@ we call a "bound pair".
 That creates an input and
 output stream and a buffer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.866 --> 00:05:00.976 A:middle
-That creates an input and
-output stream and a buffer.
-
 00:05:01.726 --> 00:05:03.896 A:middle
 So you'll write bytes
 into the output stream,
@@ -515,10 +474,6 @@ that you're getting.
 00:05:59.506 --> 00:05:59.656 A:middle
 All right.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.136 --> 00:06:02.036 A:middle
 So the concepts of
 an NSURLSession.
@@ -600,14 +555,6 @@ you've got your data.
 Okay. The delegate itself
 is something you supply.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.066 --> 00:07:00.496 A:middle
-Okay. The delegate itself
-is something you supply.
-
 00:07:00.496 --> 00:07:04.716 A:middle
 The delegate is has
 to conform to a bunch
@@ -672,14 +619,6 @@ protocols however you want,
 00:07:53.056 --> 00:07:56.176 A:middle
 including rewriting them
 to become HTTP protocols.
-
-00:07:58.886 --> 00:08:01.546 A:middle
-Lastly, there's the URL cache
-object, which is what we're able
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:58.886 --> 00:08:01.546 A:middle
 Lastly, there's the URL cache
@@ -760,10 +699,6 @@ well, "I'm doing video data.
 00:08:57.016 --> 00:08:58.886 A:middle
 I want a higher priority
 if that's available."
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.356 --> 00:09:03.416 A:middle
 I won't try and list all
@@ -853,13 +788,6 @@ ephemeral session configuration.
 00:09:59.926 --> 00:10:02.066 A:middle
 This is set up so that none
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.926 --> 00:10:02.066 A:middle
-This is set up so that none
-
 00:10:02.066 --> 00:10:05.536 A:middle
 of the storage objects
 actually persist data to this.
@@ -929,14 +857,6 @@ a session all your own
 00:10:57.616 --> 00:10:59.726 A:middle
 that uses only your
 own resources
-
-00:10:59.826 --> 00:11:01.906 A:middle
-and maybe only your
-own storage classes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.826 --> 00:11:01.906 A:middle
 and maybe only your
@@ -1017,14 +937,6 @@ some sort of semantic glue.
 Currently, there's a
 delegate for data tasks,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.276 --> 00:12:02.706 A:middle
-Currently, there's a
-delegate for data tasks,
-
 00:12:02.756 --> 00:12:06.486 A:middle
 but there's no delegate specific
 for download-for upload tasks.
@@ -1093,14 +1005,6 @@ arbitrary URL-HTTP, MOOF,
 00:12:53.236 --> 00:12:55.586 A:middle
 whatever is going to be
 supported by the protocols.
-
-00:12:56.886 --> 00:13:00.786 A:middle
-dataWithRequest, which takes
-an NSURLRequest, which is sort
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:56.886 --> 00:13:00.786 A:middle
 dataWithRequest, which takes
@@ -1178,14 +1082,6 @@ with your delegate.
 00:13:56.436 --> 00:13:58.236 A:middle
 But at that point we've
 already sent bytes along.
-
-00:13:58.926 --> 00:14:01.266 A:middle
-And if we're doing an
-upload from a stream,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.926 --> 00:14:01.266 A:middle
 And if we're doing an
@@ -1272,14 +1168,6 @@ didReceiveResponse occurs.
 It handed you the response, and
 the response is also available
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.706 --> 00:15:02.826 A:middle
-It handed you the response, and
-the response is also available
-
 00:15:02.826 --> 00:15:04.656 A:middle
 as a property on
 the task object.
@@ -1356,14 +1244,6 @@ might be interesting to you.
 00:15:55.296 --> 00:15:56.976 A:middle
 You might want to
 display that body.
-
-00:15:57.986 --> 00:16:00.396 A:middle
-The error parameter
-here then is strictly
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.986 --> 00:16:00.396 A:middle
 The error parameter
@@ -1461,14 +1341,6 @@ message.
 And we're going to give you
 a file URL in your container.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.906 --> 00:17:00.986 A:middle
-And we're going to give you
-a file URL in your container.
-
 00:17:01.746 --> 00:17:03.696 A:middle
 You have to move that to
 a more permanent location.
@@ -1542,14 +1414,6 @@ session, or it might not.
 00:17:54.556 --> 00:17:58.376 A:middle
 And when the work is done it
 invokes your completionHandler.
-
-00:17:58.376 --> 00:18:02.626 A:middle
-This is true for, you know,
-with an upload via file or data,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.376 --> 00:18:02.626 A:middle
 This is true for, you know,
@@ -1636,10 +1500,6 @@ back to running in the run loop.
 If you were to just exit right
 here, nothing would happen
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.096 --> 00:19:01.936 A:middle
 because we're not
 doing anything.
@@ -1725,14 +1585,6 @@ requests on the same socket.
 We're not going to make a new
 socket and off-challenge you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.006 --> 00:20:02.726 A:middle
-We're not going to make a new
-socket and off-challenge you
-
 00:20:02.726 --> 00:20:03.986 A:middle
 for each request as they go.
 
@@ -1810,14 +1662,6 @@ come through this task delegate.
 00:20:54.646 --> 00:20:58.196 A:middle
 Data delegate then
 extends the task delegate.
-
-00:20:58.726 --> 00:21:01.726 A:middle
-It's got a couple new
-methods that are interesting.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.726 --> 00:21:01.726 A:middle
 It's got a couple new
@@ -1913,14 +1757,6 @@ be discontiguous data.
 So you should use the NSData
 discontiguous data application
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.646 --> 00:22:03.456 A:middle
-So you should use the NSData
-discontiguous data application
-
 00:22:03.456 --> 00:22:06.026 A:middle
 APIs instead of requesting
 the byte pointer
@@ -2007,14 +1843,6 @@ stalled for some reason,
 like is happening here, then we
 have to wait for that delegate
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.476 --> 00:23:02.846 A:middle
-like is happening here, then we
-have to wait for that delegate
-
 00:23:02.846 --> 00:23:06.506 A:middle
 to return before the
 next task can come along.
@@ -2086,14 +1914,6 @@ to receive just the URL.
 00:23:56.406 --> 00:23:59.496 A:middle
 People who were subclassing
 these objects wanted access
-
-00:23:59.546 --> 00:24:01.716 A:middle
-to the task that was
-asking the question.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.546 --> 00:24:01.716 A:middle
 to the task that was
@@ -2173,10 +1993,6 @@ on NSHTTPCookieStorage,
 00:24:57.156 --> 00:24:59.166 A:middle
 NSURLCredential and NSURLCache.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.356 --> 00:25:06.566 A:middle
 As I mentioned earlier, during
 the keynote there was a slide
@@ -2245,14 +2061,6 @@ for direct use in your apps.
 00:25:52.506 --> 00:25:55.866 A:middle
 Even if you don't use
 NSURLSession directly
-
-00:25:55.866 --> 00:26:00.526 A:middle
-in your applications, keep in
-mind that SPDY's also leveraged
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:55.866 --> 00:26:00.526 A:middle
 in your applications, keep in
@@ -2339,14 +2147,6 @@ that it allows for the exchange
 of multiple HTTP
 messages-both requests
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.516 --> 00:27:01.776 A:middle
-of multiple HTTP
-messages-both requests
-
 00:27:01.776 --> 00:27:05.466 A:middle
 and responses-simultaneously
 and potentially out of order,
@@ -2416,14 +2216,6 @@ no source changes are needed.
 
 00:27:55.576 --> 00:27:56.456 A:middle
 It will just work.
-
-00:27:57.116 --> 00:28:02.456 A:middle
-If we look at a source code
-example here, what you do first,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.116 --> 00:28:02.456 A:middle
 If we look at a source code
@@ -2517,14 +2309,6 @@ latency penalties often times
 that are seen when you ask
 for additional resources,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.856 --> 00:29:01.656 A:middle
-that are seen when you ask
-for additional resources,
-
 00:29:01.986 --> 00:29:03.286 A:middle
 because traditionally
 we may have had
@@ -2613,14 +2397,6 @@ Javascript file or CSS file.
 Finally, SPDY supports
 the notion of priorities.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.636 --> 00:30:02.266 A:middle
-Finally, SPDY supports
-the notion of priorities.
-
 00:30:02.266 --> 00:30:05.406 A:middle
 Now the order in which you
 issue requests no longer has
@@ -2694,14 +2470,6 @@ request for the style sheet,
 00:30:54.456 --> 00:30:57.506 A:middle
 receive its response, and then
 do the same for the XML data.
-
-00:30:57.986 --> 00:31:00.236 A:middle
-So you can see here
-that during the time
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.986 --> 00:31:00.236 A:middle
 So you can see here
@@ -2784,14 +2552,6 @@ for the image.
 00:31:54.666 --> 00:31:56.036 A:middle
 But here's where
 things get different.
-
-00:31:58.176 --> 00:32:02.226 A:middle
-Because the stylesheet is
-higher priority than the image,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.176 --> 00:32:02.226 A:middle
 Because the stylesheet is
@@ -2883,14 +2643,6 @@ after I would think.
 There's sort of two
 reasons this is the case.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.306 --> 00:33:03.026 A:middle
-There's sort of two
-reasons this is the case.
-
 00:33:03.026 --> 00:33:06.336 A:middle
 The first is that, as I
 mentioned, it reduces latency
@@ -2965,14 +2717,6 @@ battery life on the device.
 00:33:55.806 --> 00:33:58.296 A:middle
 It also means that when your
 app becomes the next big app
-
-00:33:58.296 --> 00:34:01.826 A:middle
-on the app store, and a big hit,
-that you may not have to roll
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:58.296 --> 00:34:01.826 A:middle
 on the app store, and a big hit,
@@ -3064,14 +2808,6 @@ using the TLS handshake.
 The reason this is important
 is that all of the URLs
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:34:57.526 --> 00:35:00.306 A:middle
-The reason this is important
-is that all of the URLs
-
 00:35:00.306 --> 00:35:04.226 A:middle
 for requests that you issue
 from your application need
@@ -3139,14 +2875,6 @@ and expectations.
 00:35:56.386 --> 00:35:58.546 A:middle
 Naturally, parallel
 TCP connections
-
-00:35:59.006 --> 00:36:01.686 A:middle
-in some cases can be faster
-than SPDY single connection.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.006 --> 00:36:01.686 A:middle
 in some cases can be faster
@@ -3239,13 +2967,6 @@ see a performance boost
 00:36:59.506 --> 00:37:00.566 A:middle
 from compressed headers.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.506 --> 00:37:00.566 A:middle
-from compressed headers.
-
 00:37:01.916 --> 00:37:02.946 A:middle
 Finally, I want to point
 
@@ -3316,14 +3037,6 @@ to avoid Head-of-Line Blocking.
 00:37:54.976 --> 00:37:56.976 A:middle
 But because Head-of-Line
 Blocking is no longer
-
-00:37:56.976 --> 00:38:01.146 A:middle
-of concern, we ask that you
-enqueue all your requests right
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:56.976 --> 00:38:01.146 A:middle
 of concern, we ask that you
@@ -3414,14 +3127,6 @@ background networking
 00:38:56.536 --> 00:38:58.496 A:middle
 in your applications
 using NSURLSession
-
-00:38:58.496 --> 00:39:00.716 A:middle
-if you use the background
-session configuration
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.496 --> 00:39:00.716 A:middle
 if you use the background
@@ -3523,14 +3228,6 @@ It can be terminated.
 Or, on iOS, it can be suspended
 and those file-based uploads
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.756 --> 00:40:03.646 A:middle
-Or, on iOS, it can be suspended
-and those file-based uploads
-
 00:40:03.646 --> 00:40:06.696 A:middle
 and downloads will still
 continue, and will actually wake
@@ -3611,10 +3308,6 @@ task if the user's really low
 
 00:40:58.036 --> 00:40:59.406 A:middle
 on battery and not charging.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.016 --> 00:41:02.156 A:middle
 We'll also do bandwidth
@@ -3708,14 +3401,6 @@ handle those events.
 So essentially, your
 app extensions
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.426 --> 00:42:00.596 A:middle
-So essentially, your
-app extensions
-
 00:42:00.596 --> 00:42:03.736 A:middle
 and your apps can share
 background sessions.
@@ -3796,14 +3481,6 @@ and brings up your extension,
 00:42:54.816 --> 00:42:57.156 A:middle
 it won't be able to use that
 same background session.
-
-00:42:58.226 --> 00:43:00.736 A:middle
-Now a background session
-is essentially defined
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.226 --> 00:43:00.736 A:middle
 Now a background session
@@ -3901,14 +3578,6 @@ networking, which is something
 that some background tasks can
 use in order to perform tasks
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:57.896 --> 00:44:04.816 A:middle
-that some background tasks can
-use in order to perform tasks
-
 00:44:04.816 --> 00:44:06.156 A:middle
 at power-optimal times.
 
@@ -3984,14 +3653,6 @@ and plugged in at first,
 00:44:55.766 --> 00:44:58.096 A:middle
 these constraints will
 relax as time goes on.
-
-00:44:58.436 --> 00:45:02.286 A:middle
-As we approach the resource
-timeout that's specified
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:58.436 --> 00:45:02.286 A:middle
 As we approach the resource
@@ -4085,14 +3746,6 @@ a document, you might want
 to upload that document
 to your app servers
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:58.926 --> 00:46:02.506 A:middle
-to upload that document
-to your app servers
-
 00:46:02.506 --> 00:46:04.706 A:middle
 so that it's accessible from
 the users other devices.
@@ -4167,14 +3820,6 @@ made here in iOS 8 is that any
 00:46:56.786 --> 00:46:58.456 A:middle
 of these tasks that
 we automatically treat
-
-00:46:58.456 --> 00:47:01.016 A:middle
-as discretionary will
-become non-discretionary
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:58.456 --> 00:47:01.016 A:middle
 as discretionary will
@@ -4274,14 +3919,6 @@ us to take a snapshot of your UI
 to show up in the app switcher,
 so that it's up-to-date
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.706 --> 00:48:01.856 A:middle
-to show up in the app switcher,
-so that it's up-to-date
-
 00:48:01.856 --> 00:48:03.696 A:middle
 when the user double-clicks
 the home button.
@@ -4373,14 +4010,6 @@ instead of downloading to a file
 or on disk will just deliver
 didReceiveData callbacks
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:56.736 --> 00:49:01.566 A:middle
-or on disk will just deliver
-didReceiveData callbacks
-
 00:49:01.566 --> 00:49:02.086 A:middle
 in memory.
 
@@ -4458,14 +4087,6 @@ becomes a download
 00:49:52.476 --> 00:49:55.896 A:middle
 that can be continued even after
 your app is suspended or exits.
-
-00:49:57.096 --> 00:50:00.036 A:middle
-Now I'd like to talk about
-a couple common pitfalls
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:57.096 --> 00:50:00.036 A:middle
 Now I'd like to talk about
@@ -4550,14 +4171,6 @@ In particular, even
 00:50:53.306 --> 00:50:56.906 A:middle
 if conditions are great-we're
 100% charged and connected
-
-00:50:56.906 --> 00:51:00.116 A:middle
-to a power source
-and we're connected
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:56.906 --> 00:51:00.116 A:middle
 to a power source
@@ -4663,14 +4276,6 @@ to handle things
 like a background fetch update
 or a silent push notification,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:58.536 --> 00:52:01.246 A:middle
-like a background fetch update
-or a silent push notification,
-
 00:52:01.406 --> 00:52:03.556 A:middle
 that they've been required
 to use background sessions.
@@ -4756,13 +4361,6 @@ session, we retry automatically
 00:52:57.336 --> 00:52:59.846 A:middle
 after network failures
 if the user goes off
-
-00:52:59.846 --> 00:53:00.976 A:middle
-of Wi-Fi, for instance.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:59.846 --> 00:53:00.976 A:middle
 of Wi-Fi, for instance.
@@ -4857,13 +4455,6 @@ like to give a brief summary
 00:53:58.176 --> 00:54:00.286 A:middle
 of what we discussed today.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:58.176 --> 00:54:00.286 A:middle
-of what we discussed today.
-
 00:54:00.286 --> 00:54:03.456 A:middle
 First we talked about new APIs
 and NSStream and NSNetService.
@@ -4947,14 +4538,6 @@ There are two of them.
 You can learn more about
 creating app extensions,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:54:59.146 --> 00:55:00.936 A:middle
-You can learn more about
-creating app extensions,
-
 00:55:00.936 --> 00:55:02.056 A:middle
 and we'll also talk a little bit
 
@@ -4969,8 +4552,3 @@ thank you all for coming.
 00:55:07.906 --> 00:55:10.196 A:middle
 And we look forward to seeing
 the amazing apps you create
-
-00:55:10.196 --> 00:55:12.576 A:middle
-with iOS 8 and OS X
-Yosemite [applause].
-
