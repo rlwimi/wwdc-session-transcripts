@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.496 A:middle
 [ Silence ]
@@ -79,9 +78,6 @@ and they're playing games both
 00:00:59.126 --> 00:01:02.896 A:middle
 on their iOS devices
 as well as on OS X.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:03.516 --> 00:01:06.556 A:middle
 So we've-- when I
@@ -173,9 +169,6 @@ security measures
 to help you limit
 cheating within your game.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.376 --> 00:02:02.896 A:middle
 And building on top of both
 scores and achievements,
@@ -188,11 +181,11 @@ even further
 to make it more immersive
 for your players.
 
-00:02:08.606 --> 00:02:10.765 A:middle
+00:02:08.606 --> 00:02:10.766 A:middle
 And then, finally,
 last but not the least,
 
-00:02:10.765 --> 00:02:12.076 A:middle
+00:02:10.766 --> 00:02:12.076 A:middle
 we're going to round
 it out of talking
 
@@ -264,9 +257,6 @@ and we've updated the look,
 00:02:57.106 --> 00:02:59.846 A:middle
 the UI of the GK Game
 Center view controller
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.936 --> 00:03:02.306 A:middle
 in a very radical way.
@@ -359,9 +349,6 @@ Center view controller.
 Well, in your target
 action method,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:01.846 --> 00:04:04.406 A:middle
 the first thing you're going to
 do is grab the shared instance
@@ -395,15 +382,15 @@ the throttle rendering call.
 We'll get into that
 in just a moment.
 
-00:04:19.646 --> 00:04:21.755 A:middle
+00:04:19.646 --> 00:04:21.756 A:middle
 And then, finally, you're going
 
-00:04:21.755 --> 00:04:23.816 A:middle
+00:04:21.756 --> 00:04:23.816 A:middle
 to present the view
 controller just like you would
 
 00:04:23.816 --> 00:04:25.856 A:middle
-with any other UIView
+with any other UI view
 controller within you game.
 
 00:04:25.856 --> 00:04:29.196 A:middle
@@ -457,9 +444,6 @@ controller present,
 00:04:59.106 --> 00:05:02.476 A:middle
 dismiss when you need to,
 and get right back to it.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:02.826 --> 00:05:04.406 A:middle
 So really, that's
@@ -538,9 +522,6 @@ within your game twentyfold
 
 00:05:58.776 --> 00:06:00.536 A:middle
 to 500 maximum leaderboards.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:01.406 --> 00:06:03.346 A:middle
 And now, with Leaderboard Sets,
@@ -632,9 +613,6 @@ developer that you are, however,
 00:06:58.926 --> 00:07:02.106 A:middle
 also have 499 other leaderboards
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:02.316 --> 00:07:03.486 A:middle
 that you've made
 within your game.
@@ -716,9 +694,6 @@ Pretty straightforward, right?
 So let's consider how we
 could actually put this single
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:02.126 --> 00:08:04.206 A:middle
 leaderboard into various sets
 
@@ -763,15 +738,15 @@ three different sets
 that this leaderboard
 could belong to.
 
-00:08:33.645 --> 00:08:36.256 A:middle
+00:08:33.646 --> 00:08:36.256 A:middle
 And while this leaderboard
 could belong to these sets,
 
-00:08:36.256 --> 00:08:39.285 A:middle
+00:08:36.256 --> 00:08:39.286 A:middle
 we could also add all the
 other leaderboards that belong
 
-00:08:39.285 --> 00:08:40.696 A:middle
+00:08:39.286 --> 00:08:40.696 A:middle
 to these appropriate
 sets as well.
 
@@ -793,9 +768,6 @@ names of players saved.
 00:08:57.586 --> 00:09:00.786 A:middle
 And moreover, depending
 upon the set
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.786 --> 00:09:02.486 A:middle
 that a leaderboard
@@ -878,9 +850,6 @@ it's in the Water Boss Set,
 00:09:59.746 --> 00:10:01.116 A:middle
 we only have to call it medium
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:01.166 --> 00:10:03.516 A:middle
 because it's obvious it's the
 medium level of difficulty
@@ -960,9 +929,6 @@ we can actually set your game
 00:10:57.436 --> 00:11:00.056 A:middle
 up in iTunes Connect in
 order to use Leaderboard Sets
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.136 --> 00:11:02.096 A:middle
 and start organizing
@@ -1052,9 +1018,6 @@ handle, that Set Reference Name,
 you're going to have to
 create a leaderboard set ID.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:04.486 --> 00:12:08.486 A:middle
 Just like leaderboards, you have
 to create a unique identifier
@@ -1123,9 +1086,6 @@ a name for, for this set.
 00:12:56.956 --> 00:13:00.226 A:middle
 We're going to name this Water
 Planet set just Water Planet,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.226 --> 00:13:01.586 A:middle
 liked we talked about
@@ -1205,9 +1165,6 @@ language, give, in this case,
 00:13:59.196 --> 00:14:00.796 A:middle
 the English language
 string that's going
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.796 --> 00:14:02.006 A:middle
 to be displayed to your players.
@@ -1296,9 +1253,6 @@ there's the group identifier.
 00:14:59.266 --> 00:15:02.066 A:middle
 Now we didn't talk about this
 in the iTunes Connect overview,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:02.516 --> 00:15:05.946 A:middle
 but just like how leaderboards
@@ -1391,9 +1345,6 @@ within those sets.
 So when this completion handler
 is called, we can take one
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.276 --> 00:16:01.576 A:middle
 of the sets that
 we've been given back.
@@ -1475,15 +1426,12 @@ If you're running on iOS,
 then that's going to point
 
 00:16:54.576 --> 00:16:58.476 A:middle
-to UIImage, if you're running
-on OS X, they'll be an NSImage.
+to UI image, if you're running
+on OS X, they'll be an NS image.
 
 00:16:58.906 --> 00:17:00.926 A:middle
 And once this completion
 handler is called back,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:00.926 --> 00:17:03.036 A:middle
 you can use it just like
@@ -1495,11 +1443,11 @@ within your game.
 00:17:04.246 --> 00:17:07.576 A:middle
 So that's Leaderboard Sets.
 
-00:17:08.006 --> 00:17:11.435 A:middle
+00:17:08.006 --> 00:17:11.436 A:middle
 Again, it's-- you can think of
 them as a tagging architecture.
 
-00:17:11.496 --> 00:17:15.185 A:middle
+00:17:11.496 --> 00:17:15.186 A:middle
 It allows you to group multiple
 leaderboards into a set.
 
@@ -1514,15 +1462,15 @@ within many different sets.
 An important thing that I
 wish to pint out here is
 
-00:17:21.866 --> 00:17:24.715 A:middle
+00:17:21.866 --> 00:17:24.716 A:middle
 that if you wish to unlock
 all 500 leaderboards, that is,
 
-00:17:24.915 --> 00:17:27.425 A:middle
+00:17:24.916 --> 00:17:27.426 A:middle
 if you wish to adopt Leaderboard
 Sets within your game,
 
-00:17:27.955 --> 00:17:30.576 A:middle
+00:17:27.956 --> 00:17:30.576 A:middle
 then you must make sure
 that every leaderboard
 
@@ -1563,9 +1511,6 @@ earn 10,000 points today,
 00:17:56.756 --> 00:18:00.276 A:middle
 then tomorrow, when they
 score 5,000 points, let's say,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.606 --> 00:18:04.916 A:middle
 5,000 isn't better than 10,000,
@@ -1654,9 +1599,6 @@ for this leaderboard.
 You could do things like power
 rankings for your chess game
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:01.216 --> 00:19:03.376 A:middle
 or your legendary
 RPG Heroes game.
@@ -1738,9 +1680,6 @@ to Best Score Leaderboards.
 If you say set this
 to low to high,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:02.436 --> 00:20:03.746 A:middle
 then the lowest scores are going
 
@@ -1820,9 +1759,6 @@ low-rank player play each other
 in a match and the low-rank
 player happens to win,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:02.356 --> 00:21:04.496 A:middle
 then the low-rank player's
 rank is going to jump
@@ -1899,9 +1835,6 @@ player happened to win or lose,
 00:21:56.376 --> 00:21:59.056 A:middle
 you can create a new
 local player score value.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.276 --> 00:22:02.976 A:middle
 Then from there, you
@@ -1988,9 +1921,6 @@ the NSString identifier
 that you set up on
 iTunes Connect.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:01.666 --> 00:23:05.206 A:middle
 We're deprecating this in favor
 of the identifier property.
@@ -2070,9 +2000,6 @@ case you're interested.
 00:23:58.476 --> 00:24:02.206 A:middle
 So we've talked a lot about
 new leaderboard features today,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:02.206 --> 00:24:04.416 A:middle
 Leaderboard Sets, to
@@ -2161,9 +2088,6 @@ servers in the outside world.
 So when you submit
 a score, let's say,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:02.946 --> 00:25:04.546 A:middle
 to the Game Center system,
 
@@ -2243,9 +2167,6 @@ or even if your game happens
 to go offline before these
 submissions make it over,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:01.916 --> 00:26:04.456 A:middle
 gamed is going to immediately go
 
@@ -2322,9 +2243,6 @@ to hand one back to you.
 00:26:56.946 --> 00:26:59.846 A:middle
 In the past, before we
 implement the store and forward,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.116 --> 00:27:01.996 A:middle
 we used to ask you
@@ -2425,9 +2343,6 @@ a single NSArray and pass
 that in via report
 scores method.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:00.176 --> 00:28:03.876 A:middle
 So that's what new
 in leaderboards.
@@ -2508,9 +2423,6 @@ suspicious score values here.
 00:28:57.566 --> 00:29:00.876 A:middle
 I don't think, you know, the
 six top players or however many
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.876 --> 00:29:03.686 A:middle
 in this game happened to
@@ -2596,9 +2508,6 @@ That's free for you.
 You don't have to do any sort of
 coding or configuration steps.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:01.096 --> 00:30:03.216 A:middle
 If your game is running
 on iOS 7, we've gotten
@@ -2675,9 +2584,6 @@ server is going to accept
 00:30:58.236 --> 00:31:01.476 A:middle
 that score submission, it's
 just not going to be visible
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:01.476 --> 00:31:02.946 A:middle
 to other players of the game
@@ -2758,9 +2664,6 @@ providing you with iOS 7
 
 00:31:58.946 --> 00:32:00.476 A:middle
 and OS X with iTunes Connect
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.476 --> 00:32:04.256 A:middle
 to help limit cheating is a
@@ -2860,9 +2763,6 @@ use the Score Range field
 within iTunes Connect on the
 Leaderboard Configuration screen
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:03.476 --> 00:33:07.706 A:middle
 in order to filter out
 anybody who's exploiting issues
@@ -2936,26 +2836,23 @@ players can challenge each other
 to either meet or beat
 those leaderboard scores
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:02.886 --> 00:34:04.736 A:middle
 or to earn those achievements
 that they've earned.
 
-00:34:04.736 --> 00:34:08.065 A:middle
+00:34:04.736 --> 00:34:08.066 A:middle
 And this was also supported
 automatically whether
 
-00:34:08.065 --> 00:34:11.016 A:middle
+00:34:08.066 --> 00:34:11.016 A:middle
 through the Game Center
 app on iOS or OS X
 
-00:34:11.966 --> 00:34:15.025 A:middle
+00:34:11.966 --> 00:34:15.026 A:middle
 or through the GK Game Center
 view controller, players that go
 
-00:34:15.025 --> 00:34:18.076 A:middle
+00:34:15.026 --> 00:34:18.076 A:middle
 through our UI, select their
 scores, challenge their friends
 
@@ -2983,11 +2880,11 @@ gameplay to hook into events
 when players happen to
 complete a challenge,
 
-00:34:34.446 --> 00:34:37.025 A:middle
+00:34:34.446 --> 00:34:37.026 A:middle
 and also to allow you to issue
 challenges programmatically
 
-00:34:37.025 --> 00:34:37.676 A:middle
+00:34:37.026 --> 00:34:37.676 A:middle
 within your game.
 
 00:34:38.806 --> 00:34:42.556 A:middle
@@ -3020,9 +2917,6 @@ time of 50 seconds.
 00:34:57.516 --> 00:34:59.596 A:middle
 So he sends a challenge
 to Alice.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.446 --> 00:35:03.846 A:middle
 Alice gets that challenge
@@ -3101,9 +2995,6 @@ complete that challenge as long
 00:35:55.836 --> 00:36:00.076 A:middle
 as she's earned that score
 with the same gameplay context
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.076 --> 00:36:01.516 A:middle
 that Tom used to earn his score?
@@ -3189,9 +3080,6 @@ that exact same car
 that Alice has raced
 around with.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:00.536 --> 00:37:03.946 A:middle
 So at the end of Alice's
 play through, right,
@@ -3274,9 +3162,6 @@ for that challenge happens
 00:37:58.916 --> 00:38:01.236 A:middle
 to match the car
 model Alice just used
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:01.236 --> 00:38:02.156 A:middle
 to race around the track.
@@ -3366,9 +3251,6 @@ one challenge is completed.
 00:38:59.426 --> 00:39:00.806 A:middle
 Really, it's all up to you.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:02.796 --> 00:39:05.276 A:middle
 A new feature that we
 have for Challenges
@@ -3448,9 +3330,6 @@ controller that we create
 00:39:57.466 --> 00:39:59.306 A:middle
 on your behalf and
 present to the player,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.116 --> 00:40:01.746 A:middle
 where they get a list
@@ -3540,9 +3419,6 @@ You can only challenge friends
 to 100 percent complete
 achievement, not part way.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.676 --> 00:41:04.586 A:middle
 And then, to get this
 UIViewController
@@ -3631,9 +3507,6 @@ you've gotten this incense
 of the UIViewController,
 you just need to present it
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:02.246 --> 00:42:04.806 A:middle
 like you would any other UI
 view controller within your app.
@@ -3712,9 +3585,6 @@ I definitely urge you
 00:42:58.386 --> 00:43:00.006 A:middle
 to consider moving
 over to the new API
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:00.216 --> 00:43:02.826 A:middle
 because if you were
@@ -3805,9 +3675,6 @@ in Game Center for Challenges.
 Let's move on to the next
 big topic of the day--
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.276 --> 00:44:03.526 A:middle
 handling events relevant
 to the local player.
@@ -3889,9 +3756,6 @@ gotten a new turn,
 maybe a turn-based invite
 or some matchmaking invite,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:01.866 --> 00:45:03.706 A:middle
 that's going to be channeled
 through the local player.
@@ -3971,9 +3835,6 @@ specific callbacks
 00:45:56.956 --> 00:46:00.476 A:middle
 and GK Invite Event
 Listener for GK Matchmaking,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:00.696 --> 00:46:02.426 A:middle
 real-time matchmaking callbacks.
@@ -4057,9 +3918,6 @@ listener at some time later,
 it'll have that event to
 dispatch to your listener or all
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:01.156 --> 00:47:06.326 A:middle
 of the listeners that are
 capable of handling that event.
@@ -4134,9 +3992,6 @@ notification center banner
 00:47:59.086 --> 00:48:01.796 A:middle
 or they tap a play bubble
 within the Game Center app,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:02.446 --> 00:48:04.166 A:middle
 or if they tap a play bubble
@@ -4225,9 +4080,6 @@ score, you might want
 to show Alice's picture right
 there with the challenge message
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:00.116 --> 00:49:01.166 A:middle
 that she happened to define.
 
@@ -4310,9 +4162,6 @@ challenges work
 
 00:49:58.566 --> 00:49:59.956 A:middle
 with GK Local Player Listener.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:00.696 --> 00:50:02.546 A:middle
 But we're also doing a lot
@@ -4398,9 +4247,6 @@ amount of leaderboards
 that you can use within your
 game to 500 leaderboards.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:02.466 --> 00:51:04.446 A:middle
 And you can impose a
 hierarchical structure
@@ -4484,9 +4330,6 @@ we've got going on this year,
 and that means that you probably
 have a lot of questions.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:01.046 --> 00:52:02.936 A:middle
 So Allan Schaffer,
 he's our Graphics
@@ -4568,7 +4411,3 @@ It's been a pleasure.
 
 00:52:53.016 --> 00:53:02.436 A:middle
 [ Silence ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-

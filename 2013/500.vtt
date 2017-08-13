@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.901 A:middle
 [ Silence ]
@@ -50,9 +49,6 @@ OpenGL to leverage the GPU
 00:00:59.426 --> 00:01:01.976 A:middle
 and it can collaborate with
 other graphic technologies
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:02.526 --> 00:01:05.196 A:middle
 like Core Image, Core
@@ -118,9 +114,6 @@ to extend Scene Kit with OpenGL.
 00:01:58.336 --> 00:02:00.386 A:middle
 Then we will present some
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.386 --> 00:02:02.566 A:middle
 of the new features
 we have in Mavericks.
@@ -129,7 +122,7 @@ we have in Mavericks.
 And we will conclude
 with some techniques
 
-00:02:06.586 --> 00:02:08.485 A:middle
+00:02:06.586 --> 00:02:08.486 A:middle
 and notes about performance.
 
 00:02:09.136 --> 00:02:10.816 A:middle
@@ -188,9 +181,6 @@ location in 3D space.
 00:02:56.566 --> 00:02:59.536 A:middle
 A node may have some child
 nodes to build a hierarchy
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.126 --> 00:03:02.166 A:middle
 and each node is relative
@@ -268,9 +258,6 @@ to build the surface.
 The triangles are
 connected to vertices
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:01.576 --> 00:04:04.046 A:middle
 and the vertices
 may have a normal
@@ -291,7 +278,7 @@ some texture coordinates
 that control how images are
 mapped onto the surface.
 
-00:04:19.375 --> 00:04:22.736 A:middle
+00:04:19.376 --> 00:04:22.736 A:middle
 And to finish a geometry
 has some materials
 
@@ -341,9 +328,6 @@ with the ambient light.
 00:04:57.946 --> 00:05:02.566 A:middle
 To add a light to your scene,
 simply set a light instance
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:02.766 --> 00:05:05.246 A:middle
 to your node with the
@@ -415,9 +399,6 @@ yet another one.
 00:05:57.636 --> 00:06:00.826 A:middle
 Then a camera has
 several parameters
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.826 --> 00:06:03.986 A:middle
 to control how a scene is
@@ -497,9 +478,6 @@ to do is to render somewhere.
 And for this, Scene Kit provides
 a SCNView if you want to render
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:05.076 --> 00:07:08.116 A:middle
 into a view, a SCNLayer if you
 want to render into a layer
@@ -565,9 +543,6 @@ you can create and configure
 with simple parameters
 like width, length, height,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:03.476 --> 00:08:06.346 A:middle
 corner radius, segment
 count, et cetera.
@@ -624,9 +599,6 @@ to SCNShape object
 00:08:58.606 --> 00:09:01.636 A:middle
 and give your Bezier path
 and an extrusion depth.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:02.426 --> 00:09:06.146 A:middle
 Optionally, you can even provide
@@ -700,9 +672,6 @@ scenes programmatically.
 Now, the other way is to
 load a scene from a file.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:01.166 --> 00:10:03.276 A:middle
 And loading a scene
 from a file is essential
@@ -768,9 +737,6 @@ well supported on OS X.
 00:10:58.816 --> 00:11:02.196 A:middle
 You can open them in
 Preview or with Quick Look
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:02.196 --> 00:11:03.156 A:middle
 to get a preview of it.
@@ -845,9 +811,6 @@ SCNLayer or SCNRenderer.
 And then, any modification
 you do
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:02.566 --> 00:12:05.696 A:middle
 on the scene graph automatically
 reflects into the view.
@@ -917,9 +880,6 @@ you are interested in,
 00:12:55.476 --> 00:13:00.646 A:middle
 you can modify everything with
 simple Objective-C properties.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.556 --> 00:13:03.526 A:middle
 For example, if you want
@@ -994,9 +954,6 @@ duration and timing function.
 00:13:56.706 --> 00:14:00.766 A:middle
 Note that here, you have
 to use SCNTransaction
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.766 --> 00:14:02.156 A:middle
 and not CATransaction.
@@ -1078,9 +1035,6 @@ more than just moving
 00:14:59.156 --> 00:15:00.566 A:middle
 and rotating around your nodes.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:01.046 --> 00:15:04.626 A:middle
 And the materials in particular
 are something very powerful.
@@ -1152,9 +1106,6 @@ they don't receive light
 to show the earth
 texture a little bit,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:02.036 --> 00:16:03.536 A:middle
 thanks to the ambient lighting.
 
@@ -1220,24 +1171,21 @@ the normal map as well.
 Then the emission is a color
 or an image that is emissive.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:04.006 --> 00:17:05.476 A:middle
 That means that it doesn't need
 
-00:17:05.476 --> 00:17:07.205 A:middle
+00:17:05.476 --> 00:17:07.206 A:middle
 to receive any light
 to be visible.
 
-00:17:07.685 --> 00:17:09.066 A:middle
+00:17:07.686 --> 00:17:09.066 A:middle
 For example here, I set an image
 
-00:17:09.066 --> 00:17:11.915 A:middle
+00:17:09.066 --> 00:17:11.916 A:middle
 that represents the lights
 emitted by big cities.
 
-00:17:12.425 --> 00:17:16.266 A:middle
+00:17:12.426 --> 00:17:16.266 A:middle
 So it's not very visible here
 but if I switch off the lights,
 
@@ -1249,7 +1197,7 @@ other properties go away
 and the emission
 is still visible.
 
-00:17:23.906 --> 00:17:25.925 A:middle
+00:17:23.906 --> 00:17:25.926 A:middle
 Now, let's switch
 back the lights on.
 
@@ -1296,9 +1244,6 @@ for shadow maps
 
 00:17:58.516 --> 00:18:01.396 A:middle
 and we'll talk about it later.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.396 --> 00:18:04.736 A:middle
 But you can also use it
@@ -1374,9 +1319,6 @@ example here to a red color.
 00:18:58.596 --> 00:19:00.376 A:middle
 And finally, you can
 assign your material
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.376 --> 00:19:03.616 A:middle
 to your geometry to
@@ -1457,9 +1399,6 @@ level which is OpenGL.
 And Scene Kit provides the
 necessary hooks for you
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:03.046 --> 00:20:06.046 A:middle
 to plug your OpenGL
 code to Scene Kit.
@@ -1532,9 +1471,6 @@ Then at the node level,
 this time you attach
 a delegate to a node.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.116 --> 00:21:02.626 A:middle
 And Scene Kit will
 invoke your code
@@ -1606,9 +1542,6 @@ material level.
 00:21:58.906 --> 00:22:02.256 A:middle
 This time, you can provide
 your custom GLSL program
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:02.346 --> 00:22:03.876 A:middle
 to replace Scene Kit's shaders.
@@ -1683,9 +1616,6 @@ projecting the vertex,
 computing the lighting,
 and managing the texture.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:02.306 --> 00:23:05.386 A:middle
 So that's for these reasons
 that we introduce the concept
@@ -1753,9 +1683,6 @@ read the current output color
 00:23:59.846 --> 00:24:01.976 A:middle
 and modify it the way
 you want with GLSL.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:01.976 --> 00:24:05.036 A:middle
 For example here, to do a
@@ -1825,9 +1752,6 @@ that modifies these properties.
 00:24:59.596 --> 00:25:03.416 A:middle
 So it generates some random
 flakes by modifying the emission
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:03.416 --> 00:25:05.266 A:middle
 and diffuse property
@@ -1899,9 +1823,6 @@ default rendering in Scene Kit,
 and here, a fragment modifier
 that does an x-ray effect.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:02.376 --> 00:26:05.786 A:middle
 And this is done simply
 by changing the opacity
@@ -1965,9 +1886,6 @@ that I didn't talk about is
 00:26:56.106 --> 00:27:01.736 A:middle
 that you can even declare your
 own uniform in your GLSL code.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:02.206 --> 00:27:04.886 A:middle
 And these uniforms are
@@ -2036,9 +1954,6 @@ Now, I am calling Amaury to talk
 00:27:56.956 --> 00:27:59.996 A:middle
 about the other features
 we added to OS X Mavericks.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.216 --> 00:28:00.526 A:middle
 Thank you.
@@ -2121,9 +2036,6 @@ increase influence of Target A,
 00:28:58.726 --> 00:29:01.346 A:middle
 the map is folded like this.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:01.996 --> 00:29:05.076 A:middle
 I can also use Target B
 to fold the map like this.
@@ -2193,9 +2105,6 @@ different facial expressions
 00:29:57.116 --> 00:29:58.666 A:middle
 for your morph targets.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.396 --> 00:30:05.246 A:middle
 The second new feature
 is skinning.
@@ -2263,9 +2172,6 @@ set--
 dynamically set the skeleton
 of a node and move the joints.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:08.316 --> 00:31:08.383 A:middle
 [ Pause ]
 
@@ -2332,9 +2238,6 @@ stands out of the scene.
 
 00:31:58.866 --> 00:31:59.906 A:middle
 This is really beautiful.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.436 --> 00:32:02.066 A:middle
 And we worked really hard
@@ -2408,9 +2311,6 @@ to highlight this selection.
 This can be done using a
 CIFilter, a glow filter.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:04.386 --> 00:33:08.116 A:middle
 If I remove the filter
 from one node and apply it
@@ -2471,9 +2371,6 @@ So, that is Core Image filters
 and we think they will be
 really useful for 3D UIs.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.281 --> 00:34:03.281 A:middle
 [ Applause ]
 
@@ -2504,7 +2401,7 @@ of behaviors
 00:34:29.786 --> 00:34:31.126 A:middle
 that you cannot implement.
 
-00:34:31.985 --> 00:34:34.946 A:middle
+00:34:31.986 --> 00:34:34.946 A:middle
 So that's why in
 Mavericks, we add a new way
 
@@ -2535,9 +2432,6 @@ the model values.
 00:34:58.256 --> 00:35:02.426 A:middle
 So, Scene Kit exposes the
 SCNTransformConstraint class
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:02.976 --> 00:35:06.066 A:middle
 to allow you to freely
@@ -2601,9 +2495,6 @@ if I animate the ball,
 the arrows keep looking
 towards it automatically.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:03.176 --> 00:36:07.556 A:middle
 And because constraints
 apply on a node,
@@ -2663,9 +2554,6 @@ be triggered when the middle
 
 00:36:57.626 --> 00:37:00.346 A:middle
 of the animation is reached.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.456 --> 00:37:04.566 A:middle
 OK. And because animation
@@ -2731,9 +2619,6 @@ property to YES on a scene view,
 
 00:37:57.836 --> 00:38:00.276 A:middle
 you will make an overlay appear.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:01.156 --> 00:38:03.876 A:middle
 This overlay provides you
@@ -2806,9 +2691,6 @@ polygons and draw calls.
 We want always this numbers
 to be as low as possible
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:03.196 --> 00:39:04.986 A:middle
 to achieve the best
 performances.
@@ -2870,9 +2752,6 @@ into one single geometry
 00:39:56.146 --> 00:39:59.656 A:middle
 that will have as many
 geometry elements as materials.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.356 --> 00:40:04.626 A:middle
 So here instead of having eleven
@@ -2943,9 +2822,6 @@ have to copy them.
 00:40:58.256 --> 00:41:00.906 A:middle
 So once you have
 a copied geometry,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.906 --> 00:41:03.336 A:middle
 you can change its materials
@@ -3027,9 +2903,6 @@ shadows are fast
 00:41:59.726 --> 00:42:01.106 A:middle
 and they might even look better.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.776 --> 00:42:04.936 A:middle
 3D authoring tools will
 help you bake this lighting
@@ -3093,9 +2966,6 @@ map using the multiply property
 
 00:42:57.956 --> 00:42:58.736 A:middle
 to achieve this.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:00.026 --> 00:43:03.436 A:middle
 See, you have colored
@@ -3169,9 +3039,6 @@ efficient but it has a cost.
 Pre-computing the mipmaps is a
 bit expensive, so you might want
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:02.846 --> 00:44:05.956 A:middle
 to use this feature if you
 need faster rendering more
@@ -3229,9 +3096,6 @@ feature in OS X Mavericks
 00:44:56.726 --> 00:44:59.906 A:middle
 and Scene Kit exposes the
 SCNLevelOfDetail class.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:00.326 --> 00:45:03.376 A:middle
 This class encapsulates
@@ -3295,9 +3159,6 @@ to-- for a quick recap.
 
 00:45:59.076 --> 00:45:59.526 A:middle
 &gt;&gt; Thank you.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:00.026 --> 00:46:04.446 A:middle
 [ Applause ]
@@ -3381,9 +3242,6 @@ with you today.
 So this code will be available
 right after the session.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:09.636 --> 00:47:14.616 A:middle
 It is made as one single
 file per slide so it's--
@@ -3431,7 +3289,3 @@ and thanks for coming.
 
 00:47:52.316 --> 00:48:01.230 A:middle
 [ Applause ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-

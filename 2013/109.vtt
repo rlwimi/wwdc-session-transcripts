@@ -1,11 +1,7 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:17.516 --> 00:02:19.516 A:middle
 [ Music ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:20.016 --> 00:02:24.000 A:middle
 [ Applause ]
@@ -49,9 +45,6 @@ for ourselves by taking tools
 00:02:56.066 --> 00:03:00.176 A:middle
 and technologies out of
 visual effects companies,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.686 --> 00:03:03.916 A:middle
 out of animation companies,
@@ -125,9 +118,6 @@ and you're making a character
 like Gollum here, he starts
 off as a model, as a mesh.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:01.966 --> 00:04:04.766 A:middle
 And that model gives
 you the overall shape.
@@ -198,9 +188,6 @@ to zoom into any part of it
 
 00:04:58.336 --> 00:05:00.006 A:middle
 and have it full screen?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.996 --> 00:05:05.286 A:middle
 In a game, you might put,
@@ -281,9 +268,6 @@ people down.
 This was slowing
 the artists down.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.896 --> 00:06:03.656 A:middle
 The one thing that artists
 love to do is paint.
@@ -357,9 +341,6 @@ in the afternoon.
 00:06:57.236 --> 00:07:00.186 A:middle
 And if releasing three times
 a day wasn't, you know,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.256 --> 00:07:02.636 A:middle
 enough work, my brand
@@ -441,9 +422,6 @@ of the Apes, and most recently,
 00:07:59.596 --> 00:08:03.126 A:middle
 this guy, again, for The Hobbit.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:03.316 --> 00:08:08.336 A:middle
 In 2010, Weta Digital and The
 Foundry came to an agreement
@@ -474,15 +452,15 @@ hours door-to-door.
 And this time, I was
 coming back with a USB stick
 
-00:08:27.306 --> 00:08:33.405 A:middle
+00:08:27.306 --> 00:08:33.406 A:middle
 for the source code and an
 invoice for The Foundry to sign.
 
-00:08:33.405 --> 00:08:35.756 A:middle
+00:08:33.406 --> 00:08:35.756 A:middle
 My role at The Foundry
 was simple.
 
-00:08:36.405 --> 00:08:38.866 A:middle
+00:08:36.406 --> 00:08:38.866 A:middle
 We wanted to make MARI
 the industry standard
 
@@ -517,9 +495,6 @@ the tenth didn't is
 00:08:57.326 --> 00:08:59.426 A:middle
 that they didn't buy it in time
 enough to use on the movie.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.056 --> 00:09:03.936 A:middle
 MARI is at use-- in
@@ -600,9 +575,6 @@ rendering incredibly easy to do.
 So what this really means is
 Scott went out one weekend
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:01.656 --> 00:10:04.116 A:middle
 and rented an industrial
 laser scanner
@@ -678,9 +650,6 @@ making a film,
 00:10:58.226 --> 00:11:01.756 A:middle
 what you normally do
 is you build a set,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:02.446 --> 00:11:05.566 A:middle
 you put some cameras on the set,
@@ -763,9 +732,6 @@ that I've shown
 00:11:57.046 --> 00:11:59.816 A:middle
 up until now have been
 running on Windows and Linux.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.586 --> 00:12:03.636 A:middle
 But MARI was originally
@@ -852,9 +818,6 @@ we've been meaning
 00:12:59.876 --> 00:13:00.866 A:middle
 to do for a while anyway.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:01.106 --> 00:13:03.476 A:middle
 It really gives us a
 lot of benefits in terms
@@ -930,9 +893,6 @@ access to the new Mac Pro.
 00:13:56.496 --> 00:14:00.886 A:middle
 We originally designed MARI
 with multiple GPUs in mind.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:01.686 --> 00:14:05.486 A:middle
 For me it makes so much sense
@@ -1010,9 +970,6 @@ is actually working
 00:14:56.786 --> 00:15:00.356 A:middle
 with our most demanding
 customers to help them design
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.356 --> 00:15:04.246 A:middle
 and build systems that
@@ -1092,9 +1049,6 @@ into their pipeline
 00:15:57.576 --> 00:16:00.196 A:middle
 to put together new techniques
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.196 --> 00:16:02.836 A:middle
 for creating incredibly
 realistic characters
@@ -1166,9 +1120,6 @@ Yeah!
 &gt;&gt; We don't need to study
 scaring, you know, do it.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.126 --> 00:17:00.836 A:middle
 &gt;&gt; That is a good point.
 
@@ -1183,7 +1134,7 @@ to the hospital last year.
 00:17:07.516 --> 00:17:08.616 A:middle
 &gt;&gt; You can totally die.
 
-00:17:09.236 --> 00:17:09.705 A:middle
+00:17:09.236 --> 00:17:09.706 A:middle
 &gt;&gt; And it's worth it.
 
 00:17:12.126 --> 00:17:12.816 A:middle
@@ -1200,10 +1151,10 @@ this way in my life!
 &gt;&gt; Trust me when I say
 you are not going to want
 
-00:17:22.536 --> 00:17:23.455 A:middle
+00:17:22.536 --> 00:17:23.456 A:middle
 to touch this bad boy.
 
-00:17:23.455 --> 00:17:23.976 A:middle
+00:17:23.456 --> 00:17:23.976 A:middle
 &gt;&gt; I want to touch it.
 
 00:17:26.626 --> 00:17:27.756 A:middle
@@ -1243,9 +1194,6 @@ small part of the whole process.
 00:17:59.296 --> 00:18:00.466 A:middle
 You saw on the trailer,
 there are a lot
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.466 --> 00:18:02.946 A:middle
 of different characters
@@ -1332,9 +1280,6 @@ and make them look younger.
 00:18:59.416 --> 00:19:02.376 A:middle
 With Mike Wazowski, this image
 by our production designer,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:02.376 --> 00:19:05.296 A:middle
 Ricky, is this great
@@ -1430,9 +1375,6 @@ and more blunted because,
 obviously as you get older,
 your horns get longer.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:01.826 --> 00:20:04.756 A:middle
 And with Mike, you know,
 you've got this great detail
@@ -1523,9 +1465,6 @@ I'll surprise you.
 00:20:59.076 --> 00:21:01.096 A:middle
 I doubt that very much.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:03.236 --> 00:21:05.846 A:middle
 &gt;&gt; All right, so that
 is Dean Hardscrabble
@@ -1611,9 +1550,6 @@ that the first things
 that you see is "Wow,
 that is scary.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:01.316 --> 00:22:03.966 A:middle
 I'm going to"-- you know, if you
 see that you want to run away.
@@ -1692,9 +1628,6 @@ and saturated characters.
 00:22:59.736 --> 00:23:02.696 A:middle
 And with the next film, we
 wanted to stay true to that.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:03.266 --> 00:23:06.476 A:middle
 But with Hardscrabble, we needed
@@ -1783,9 +1716,6 @@ when it's reacting to light.
 00:23:58.006 --> 00:24:00.726 A:middle
 This is how the character
 needs to look
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.726 --> 00:24:03.016 A:middle
 in color and with specularity.
@@ -1881,9 +1811,6 @@ with the batwings.
 All these things
 were thought about.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:01.606 --> 00:25:05.756 A:middle
 But with this photography-- with
 these images, I wasn't supposed
@@ -1963,9 +1890,6 @@ OS and the software, MARI,
 00:25:59.756 --> 00:26:01.446 A:middle
 has only been on the
 Mac for about six weeks.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:01.446 --> 00:26:03.736 A:middle
 So, what could possibly
@@ -2065,9 +1989,6 @@ paint in a little bit
 00:26:59.216 --> 00:27:00.486 A:middle
 of that variation first.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:00.856 --> 00:27:03.376 A:middle
 And I'm going to be a little
 bit rough and sloppy here
@@ -2153,9 +2074,6 @@ through the model here.
 I'm just going to add a little
 bit more from this angle.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.496 --> 00:28:03.786 A:middle
 Then I'm going to go in and
 do a little bit more detail
@@ -2238,9 +2156,6 @@ this around.
 00:28:58.496 --> 00:29:02.466 A:middle
 Now, you'll notice that
 this feels very liquid.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:02.466 --> 00:29:03.896 A:middle
 It feels very smooth, right?
@@ -2341,9 +2256,6 @@ too simple, right?
 Every-- all skin
 has variety to it.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:01.966 --> 00:30:03.596 A:middle
 It has mottling and
 freckles and--
@@ -2413,9 +2325,6 @@ and lay on some detail.
 00:30:58.326 --> 00:31:00.356 A:middle
 Add some freckles, a
 little bit of darkening.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.666 --> 00:31:01.966 A:middle
 And I can put some stuff on
@@ -2509,9 +2418,6 @@ So, anyway.
 00:31:57.676 --> 00:32:00.276 A:middle
 I hope I haven't
 offended too many people.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:01.916 --> 00:32:04.956 A:middle
 Anyway, so I'm OK with
@@ -2607,9 +2513,6 @@ But for a feature film,
 you never know how much
 detail you're going to need.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.076 --> 00:33:04.226 A:middle
 So these are actually 8,000
 pixels by 8,000 pixels.
@@ -2701,9 +2604,6 @@ makeup professionally done.
 But I told her, "Honey, I
 painted makeup before, you know.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.496 --> 00:34:02.226 A:middle
 I do it for work.
 
@@ -2721,14 +2621,14 @@ I painted her eye shadow.
 I thought it looked
 great, you know?
 
-00:34:10.065 --> 00:34:11.286 A:middle
+00:34:10.066 --> 00:34:11.286 A:middle
 I thought I did this great job.
 
-00:34:11.286 --> 00:34:15.545 A:middle
+00:34:11.286 --> 00:34:15.546 A:middle
 She looks in the mirror, was
 not pleased with my efforts.
 
-00:34:15.545 --> 00:34:18.946 A:middle
+00:34:15.546 --> 00:34:18.946 A:middle
 So, we ended up being about
 half an hour late to the movie.
 
@@ -2744,21 +2644,21 @@ late to the party.
 So we made it for
 the important part,
 
-00:34:23.656 --> 00:34:26.755 A:middle
+00:34:23.656 --> 00:34:26.756 A:middle
 but I doubt she'll trust me to
 do her makeup again after that.
 
 00:34:27.676 --> 00:34:28.946 A:middle
 I guess, you know, painting
 
-00:34:28.946 --> 00:34:31.275 A:middle
+00:34:28.946 --> 00:34:31.276 A:middle
 on monsters doesn't
 necessarily transfer directly
 
-00:34:31.275 --> 00:34:33.516 A:middle
+00:34:31.276 --> 00:34:33.516 A:middle
 over to painting on humans.
 
-00:34:34.585 --> 00:34:35.386 A:middle
+00:34:34.586 --> 00:34:35.386 A:middle
 Would never have guessed.
 
 00:34:35.696 --> 00:34:38.036 A:middle
@@ -2768,11 +2668,11 @@ this sweet purple eye shadow
 00:34:38.036 --> 00:34:38.856 A:middle
 onto this character.
 
-00:34:39.136 --> 00:34:40.485 A:middle
+00:34:39.136 --> 00:34:40.486 A:middle
 And you can see,
 again, as I'm painting
 
-00:34:40.485 --> 00:34:41.806 A:middle
+00:34:40.486 --> 00:34:41.806 A:middle
 on the right it's
 updating on the left.
 
@@ -2798,9 +2698,6 @@ on the other side.
 00:34:56.976 --> 00:34:59.406 A:middle
 I always forget character
 right or my right.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.986 --> 00:35:03.446 A:middle
 Guess-- I guessed right, great.
@@ -2903,9 +2800,6 @@ and where things bump out.
 And so, I'm going to show you
 how I would do that over here.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:04.676 --> 00:36:06.986 A:middle
 So, here we're starting with a
 color and I'm going to switch
@@ -2977,9 +2871,6 @@ are arbitrary.
 00:36:57.376 --> 00:37:01.216 A:middle
 All of them flow exactly
 where the skin would fold
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:01.216 --> 00:37:02.366 A:middle
 and compress over time.
@@ -3077,9 +2968,6 @@ Right about-- I'm upside down.
 00:37:56.756 --> 00:37:57.716 A:middle
 There we go.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:02.546 --> 00:38:04.656 A:middle
 So the next image that I'm
 actually going to pull in came
@@ -3169,9 +3057,6 @@ as much detail as I would like.
 Now, so we've got these shapes
 and it's starting to feel good
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:02.706 --> 00:39:04.466 A:middle
 but it's still in the realm
 
@@ -3243,9 +3128,6 @@ in some of these folds.
 00:39:59.366 --> 00:40:02.936 A:middle
 I'm going to get some
 great crow's feet
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:02.936 --> 00:40:03.556 A:middle
 on the side of her face.
@@ -3327,9 +3209,6 @@ just like in Photoshop.
 00:40:58.106 --> 00:41:00.276 A:middle
 And we can start to see how
 it will affect the final look
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.276 --> 00:41:00.836 A:middle
 of the character.
@@ -3428,9 +3307,6 @@ And then I'd kick off a render,
 and that render would take
 anywhere from two minutes
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.856 --> 00:42:05.016 A:middle
 for a really kind of
 inexpensive render
@@ -3525,9 +3401,6 @@ be in that finished render.
 And instead of waiting for
 anywhere from 2 minutes
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:02.306 --> 00:43:06.356 A:middle
 to 12 hours, we can see that
 at 60 frames per second.
@@ -3607,9 +3480,6 @@ channels simultaneously which is
 00:43:56.586 --> 00:44:00.106 A:middle
 about 2.4 billion
 pixels, all right?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:00.666 --> 00:44:02.146 A:middle
 That is a vast amount of data.
@@ -3706,9 +3576,6 @@ to see this shader in real time,
 here's where the actual
 real advantage comes in.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:01.696 --> 00:45:04.486 A:middle
 Working at an animation studio,
 you paint all these details
@@ -3804,9 +3671,6 @@ to my bump channel.
 I'm going to pull in my
 elephant texture again.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:02.776 --> 00:46:05.836 A:middle
 And I'm going to
 grab these wrinkles.
@@ -3880,9 +3744,6 @@ limits of that.
 00:46:57.346 --> 00:47:00.636 A:middle
 So, this character represents
 about 10 gigabytes worth
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:00.636 --> 00:47:02.606 A:middle
 of image data but we
@@ -3975,9 +3836,6 @@ I can't wait 'til the fall.
 And I've been so-- it's been
 such a privilege to work
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:01.266 --> 00:48:02.176 A:middle
 on Monsters University.
 
@@ -4066,9 +3924,6 @@ has just arrived.
 
 00:48:59.076 --> 00:48:59.143 A:middle
 &gt;&gt; Yeah!
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:01.186 --> 00:49:02.056 A:middle
 &gt;&gt; Slow down, squirt.
@@ -4172,9 +4027,6 @@ Dance clown.
 00:49:59.146 --> 00:50:01.406 A:middle
 My Aunt Phyllis.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:01.496 --> 00:50:01.816 A:middle
 In the morning.
 
@@ -4252,4 +4104,3 @@ Thank you.
 
 00:50:54.516 --> 00:50:59.920 A:middle
 [ Applause ]
-

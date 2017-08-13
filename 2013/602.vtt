@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.706 A:middle
 [ Silence ]
@@ -39,11 +38,11 @@ session, we're going to talk--
 spend our time focused on one
 new technology in particular
 
-00:00:30.766 --> 00:00:32.305 A:middle
+00:00:30.766 --> 00:00:32.306 A:middle
 that we think you're going
 to be very excited about.
 
-00:00:32.625 --> 00:00:34.896 A:middle
+00:00:32.626 --> 00:00:34.896 A:middle
 So, let's dive in to the
 list of new features.
 
@@ -82,9 +81,6 @@ also choose which microphone
 00:00:58.436 --> 00:01:00.456 A:middle
 that you'd like to use on
 our multi-mic platforms
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.996 --> 00:01:03.426 A:middle
 and on devices that support
@@ -178,9 +174,6 @@ sources in your game.
 00:01:58.396 --> 00:02:00.066 A:middle
 But a less CPU intensive
 algorithm
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.066 --> 00:02:02.036 A:middle
 for those less importance
@@ -283,9 +276,6 @@ and it is a one-time decision.
 However, if you'd like to
 go in and change your mind
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:01.976 --> 00:03:03.206 A:middle
 at a later time,
 you can always go
@@ -375,9 +365,6 @@ features that we just discussed.
 00:03:57.976 --> 00:04:00.116 A:middle
 We're not going to spend anymore
 time today going over any
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:00.116 --> 00:04:01.446 A:middle
 of these topics in
@@ -482,9 +469,6 @@ with zero additional latency
 and should provide for a stable
 platform for the evolution
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:00.026 --> 00:05:00.796 A:middle
 of the feature over time.
 
@@ -566,9 +550,6 @@ part to this.
 But instead of using one
 of the built-in instruments
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.736 --> 00:06:05.946 A:middle
 in GarageBand, I want to use
 an instrument, on the system
@@ -640,9 +621,6 @@ record over the top of it.
 
 00:06:54.356 --> 00:07:01.376 A:middle
 [ Music ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:01.876 --> 00:07:03.236 A:middle
 Brilliant musical passage.
@@ -716,9 +694,6 @@ in the GarageBand and I'm going
 to turn on input monitoring
 so I can hear myself.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.616 --> 00:08:04.886 A:middle
 [Background Music] You
 guys got it out there?
@@ -764,14 +739,14 @@ says Effect App.
 I'm going to tap on that and
 we can see a list of apps
 
-00:08:38.076 --> 00:08:40.525 A:middle
+00:08:38.076 --> 00:08:40.526 A:middle
 on my system that are
 effects so I'm going
 
-00:08:40.525 --> 00:08:42.046 A:middle
+00:08:40.526 --> 00:08:42.046 A:middle
 to click on this Audio Delay.
 
-00:08:42.905 --> 00:08:45.606 A:middle
+00:08:42.906 --> 00:08:45.606 A:middle
 [Music] So, there is the delay
 
 00:08:45.656 --> 00:08:47.366 A:middle
@@ -794,9 +769,6 @@ bit and the mix.
 
 00:08:59.016 --> 00:08:59.196 A:middle
 [Music] OK.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.266 --> 00:09:04.836 A:middle
 So that's a little bit better.
@@ -829,9 +801,6 @@ region has been recorded
 
 00:09:57.406 --> 00:09:59.606 A:middle
 in GarageBand and if I play.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.106 --> 00:10:03.576 A:middle
 [ Music ]
@@ -906,9 +875,6 @@ The fundamental distinction
 00:10:58.536 --> 00:11:01.556 A:middle
 between these two
 applications is that the host is
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:01.556 --> 00:11:04.066 A:middle
 where we ultimately
@@ -988,9 +954,6 @@ control their audio rendering.
 So for example, with
 that sampler application,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:01.656 --> 00:12:04.106 A:middle
 the host could have been
 actually sending the MIDI nodes
@@ -1066,9 +1029,6 @@ we'll show some examples later.
 But for the-- the purposes
 of Inter-App Audio,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:01.176 --> 00:13:04.206 A:middle
 the host engine connects
 to a node application
@@ -1137,9 +1097,6 @@ that it communicates with
 and the nodes AURemoteIO unit
 gets redirected to the host
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:04.596 --> 00:14:06.226 A:middle
 so the node's communication
 
@@ -1206,9 +1163,6 @@ application may actually have
 00:14:58.316 --> 00:15:01.966 A:middle
 multiple sets of capabilities
 and may wish to present itself
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:02.096 --> 00:15:03.996 A:middle
 in multiple ways to hosts.
@@ -1283,9 +1237,6 @@ input from a guitar directly
 00:15:57.976 --> 00:16:02.736 A:middle
 from the underlying AURemoteIO
 while only sending the audio
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:02.736 --> 00:16:03.736 A:middle
 output to the host.
@@ -1365,10 +1316,7 @@ applications on the system.
 Both host and node
 applications need
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:00.676 --> 00:17:04.185 A:middle
+00:17:00.676 --> 00:17:04.186 A:middle
 to have a new entitlement called
 "inter-app-audio" and this--
 
@@ -1390,11 +1338,11 @@ in their UIBackgroundModes.
 Most especially hosts
 for obvious reasons
 
-00:17:21.086 --> 00:17:23.925 A:middle
+00:17:21.086 --> 00:17:23.926 A:middle
 because hosts will keep
 running their engines
 
-00:17:23.925 --> 00:17:25.226 A:middle
+00:17:23.926 --> 00:17:25.226 A:middle
 when nodes are on
 the foreground.
 
@@ -1442,9 +1390,6 @@ themselves with the system.
 00:17:57.876 --> 00:18:01.656 A:middle
 So, there's two pieces
 of registering one's self
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.656 --> 00:18:02.766 A:middle
 for a node application.
@@ -1523,9 +1468,6 @@ manufacturer along with the name
 00:18:59.946 --> 00:19:01.056 A:middle
 and the version number.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:01.656 --> 00:19:04.186 A:middle
 So, that completely
 describes the AudioComponent
@@ -1588,9 +1530,6 @@ going to connect that IO Unit
 00:19:56.736 --> 00:20:00.086 A:middle
 that it just created with
 the component description
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.086 --> 00:20:02.356 A:middle
 that was published in
@@ -1664,9 +1603,6 @@ I'm here, I've been launched.
 00:20:55.666 --> 00:21:00.306 A:middle
 And so, you can see then why the
 Info.plist entry and the call
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.306 --> 00:21:04.636 A:middle
 to AudioOutputUnitPublish
@@ -1742,9 +1678,6 @@ call AudioComponentFindNext
 00:21:58.906 --> 00:22:02.936 A:middle
 repeatedly and that
 will yield in turn each
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:02.936 --> 00:22:05.166 A:middle
 of the AudioComponents
@@ -1824,9 +1757,6 @@ object of its own just as a way
 of storing information about
 the nodes that it's found.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:02.436 --> 00:23:05.686 A:middle
 And it calls this class
 RemoteAU and it stores away
@@ -1894,9 +1824,6 @@ and now we've built an array
 from which we can drive a
 table view and present the user
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:00.216 --> 00:24:05.306 A:middle
 with a choice of node
 applications to deal with.
@@ -1961,9 +1888,6 @@ So now, we've built up a table
 00:24:58.256 --> 00:25:01.656 A:middle
 and maybe the user has
 selected one of them
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:01.656 --> 00:25:03.246 A:middle
 and in the host application now,
@@ -2042,9 +1966,6 @@ rate as the hardware.
 So, to be absolutely sure the
 hardware sample rate is what
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:04.036 --> 00:26:07.156 A:middle
 it's supposed to be, we should
 be making our audio session
@@ -2111,9 +2032,6 @@ All right.
 00:26:58.136 --> 00:27:00.896 A:middle
 Now, we have built up an
 audio stream basic description
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.896 --> 00:27:02.906 A:middle
 and we can use
@@ -2188,9 +2106,6 @@ be interacting
 00:27:58.776 --> 00:27:59.866 A:middle
 with the node AudioUnit.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:00.216 --> 00:28:03.256 A:middle
 Now, since we're connecting
 input, this is only for effects
@@ -2261,9 +2176,6 @@ some other audio unit.
 00:28:57.796 --> 00:29:00.416 A:middle
 You can use the MakeConnection
 property again.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:01.146 --> 00:29:04.846 A:middle
 If however you're pulling
@@ -2337,9 +2249,6 @@ meaning that it's--
 there's still an
 audio unit there.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:01.426 --> 00:30:05.356 A:middle
 You can make API calls on
 it but they won't crash
@@ -2409,9 +2318,6 @@ need for rendering.
 
 00:30:59.986 --> 00:31:01.496 A:middle
 In the case of inter-app audio,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:01.886 --> 00:31:05.146 A:middle
 the system at this point is
@@ -2488,9 +2394,6 @@ simple way to do things
 if you can get your work
 done using Apple AudioUnits.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:03.166 --> 00:32:06.506 A:middle
 So, the green box, the
 green dotted lines--
@@ -2563,9 +2466,6 @@ would call AudioUnitRender.
 OK. So, that's a bunch
 of stuff about how we--
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:03.286 --> 00:33:06.116 A:middle
 a host application
 interact with a node.
@@ -2629,9 +2529,6 @@ see the process
 00:33:57.156 --> 00:33:58.866 A:middle
 of becoming connected to hosts.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.556 --> 00:34:04.956 A:middle
 So, the most important thing to
 think about here as the author
@@ -2655,15 +2552,15 @@ you're ready start making music.
 But if you're being
 launched from the context
 
-00:34:19.306 --> 00:34:22.545 A:middle
+00:34:19.306 --> 00:34:22.546 A:middle
 of a host application, you're
 actually going to get launched
 
-00:34:22.545 --> 00:34:25.045 A:middle
+00:34:22.546 --> 00:34:25.046 A:middle
 into the background state and
 there are some limitations
 
-00:34:25.045 --> 00:34:26.326 A:middle
+00:34:25.046 --> 00:34:26.326 A:middle
 about what you can do at this--
 
 00:34:26.446 --> 00:34:28.436 A:middle
@@ -2696,22 +2593,19 @@ am I in the foreground?
 00:34:47.496 --> 00:34:48.556 A:middle
 and proceed accordingly.
 
-00:34:50.976 --> 00:34:53.315 A:middle
+00:34:50.976 --> 00:34:53.316 A:middle
 So, node applications to find
 
-00:34:53.315 --> 00:34:55.235 A:middle
+00:34:53.316 --> 00:34:55.236 A:middle
 out when they're
 becoming connected
 
-00:34:55.235 --> 00:34:57.966 A:middle
+00:34:55.236 --> 00:34:57.966 A:middle
 and disconnected can also listen
 
 00:34:58.036 --> 00:35:01.166 A:middle
 for the IsInterAppConnected
 property just as I described
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.526 --> 00:35:03.086 A:middle
 for host applications earlier.
@@ -2795,9 +2689,6 @@ that you've become connected to,
 there's a new API called
 AudioOutputUnitGetHostIcon.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:03.546 --> 00:36:07.036 A:middle
 Pertaining further to the
 IsInterAppConnected property,
@@ -2869,9 +2760,6 @@ when you're in the foreground.
 
 00:36:55.506 --> 00:36:59.576 A:middle
 So, just to reemphasize that.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.586 --> 00:37:04.246 A:middle
 Your node application can
@@ -2946,9 +2834,6 @@ to receive input
 from the microphone even while
 your output has been redirected
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.126 --> 00:38:01.346 A:middle
 to the host application.
 
@@ -3019,9 +2904,6 @@ to accomplish the switch.
 00:38:58.936 --> 00:39:00.926 A:middle
 OK. Back on the host
 side of things,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:01.706 --> 00:39:04.496 A:middle
 there are a few considerations
@@ -3096,9 +2978,6 @@ to node applications.
 Now, this of course, is
 for remote instrument
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.816 --> 00:40:03.806 A:middle
 and remote music effect nodes.
 
@@ -3169,9 +3048,6 @@ to communicate with them.
 00:40:57.416 --> 00:41:00.276 A:middle
 So, let's look at how a
 host application can send
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.276 --> 00:41:01.246 A:middle
 MIDI events.
@@ -3254,9 +3130,6 @@ do sample-accurate,
 scheduling then we have to
 schedule our MIDI events
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:03.006 --> 00:42:05.536 A:middle
 on the same thread that
 were rendering the audio,
@@ -3332,9 +3205,6 @@ that on your behalf.
 00:42:59.846 --> 00:43:03.306 A:middle
 So, the way to do this,
 there's an AUGraph API
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:03.306 --> 00:43:06.296 A:middle
 that lets you get called
@@ -3415,9 +3285,6 @@ that's coming from the host
 and typically, you would just
 save it up in a local structure
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:02.976 --> 00:44:06.616 A:middle
 and use it the next
 time you render a buffer
@@ -3490,9 +3357,6 @@ out where the host is
 00:44:58.846 --> 00:45:00.016 A:middle
 and synchronize to that.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:00.266 --> 00:45:04.976 A:middle
 We'll look at how the host can
 communicate its musical position
@@ -3561,9 +3425,6 @@ from the host for instance.
 00:45:55.116 --> 00:46:01.016 A:middle
 There's also some more detailed
 musical location information
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:01.016 --> 00:46:03.816 A:middle
 supplied by the host such as
@@ -3635,9 +3496,6 @@ callback property.
 It will receive that structure
 full of function pointers.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:01.076 --> 00:47:02.656 A:middle
 They won't actually
 point to functions
@@ -3703,9 +3561,6 @@ and get a callback
 
 00:47:59.526 --> 00:48:00.796 A:middle
 on a non-render thread.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:01.456 --> 00:48:05.176 A:middle
 Okay, so that's the
@@ -3781,9 +3636,6 @@ applications
 00:48:56.666 --> 00:49:00.116 A:middle
 where our node applications
 have some standard looking
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:00.116 --> 00:49:01.166 A:middle
 transport controls.
@@ -3867,9 +3719,6 @@ to receive them, I should say.
 So, to do that, the host creates
 a block called the listenerBlock
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:01.766 --> 00:50:06.016 A:middle
 and in that block, the host
 simply takes the incoming
@@ -3944,9 +3793,6 @@ inter-app audio works.
 00:50:59.066 --> 00:51:00.936 A:middle
 The first demo I'm going
 to be giving you is
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:00.936 --> 00:51:05.616 A:middle
 of a host application connecting
@@ -4028,9 +3874,6 @@ events from the host
 00:51:55.466 --> 00:52:00.556 A:middle
 to the sampler by
 playing the keys.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:00.686 --> 00:52:01.436 A:middle
 [Music] Totally awesome.
@@ -4116,9 +3959,6 @@ to record some audio in the host
 so I'm sending a remote
 message to the host.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:53:02.876 --> 00:53:06.836 A:middle
 [Music] I'm going
 to stop recoding
@@ -4187,9 +4027,6 @@ the add effect button.
 
 00:53:59.316 --> 00:54:00.786 A:middle
 It shows you all of the effects
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:00.786 --> 00:54:02.746 A:middle
 that are installed
@@ -4270,9 +4107,6 @@ a host application,
 the system will uninitialize
 any node AudioUnits
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:55:02.096 --> 00:55:02.956 A:middle
 that you have open.
 
@@ -4341,9 +4175,6 @@ your AURemoteIO.
 
 00:55:58.346 --> 00:56:00.016 A:middle
 So in general, it's simplest
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:56:00.016 --> 00:56:03.026 A:middle
 to dispose your entire audio
@@ -4420,9 +4251,6 @@ trouble getting it to show
 
 00:56:57.356 --> 00:56:59.236 A:middle
 up in host applications.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:57:00.346 --> 00:57:03.116 A:middle
 If you see that happening, you
@@ -4501,9 +4329,6 @@ hosts discover them.
 00:57:58.846 --> 00:58:01.856 A:middle
 Hosts create connections
 to node applications.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:58:03.166 --> 00:58:06.946 A:middle
 Once that connection is up, host
@@ -4587,9 +4412,6 @@ and we're really looking forward
 to the great music apps
 you're going to make.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:59:01.846 --> 00:59:05.416 A:middle
 On to some housekeeping matters
 here, if you wish to talk
@@ -4621,4 +4443,3 @@ Thank you very much.
 
 00:59:22.306 --> 00:59:29.690 A:middle
 [ Silence ]
-

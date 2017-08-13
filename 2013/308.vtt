@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.516 A:middle
 [ Silence ]
@@ -58,9 +57,6 @@ In-App Purchases alone
 00:00:55.466 --> 00:00:59.056 A:middle
 to generate enough revenue to
 make them top grossing apps.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.226 --> 00:01:03.776 A:middle
 Now that's huge groundswell
@@ -133,9 +129,6 @@ code level on both iOS and OS X
 00:01:57.926 --> 00:02:00.876 A:middle
 as to how you actually go
 about validating these receipts
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:01.166 --> 00:02:04.626 A:middle
 and getting the purchase
@@ -216,9 +209,6 @@ with a five finger discount.
 Likewise in the App
 Store, the receipt is
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:02.176 --> 00:03:03.326 A:middle
 that digital equivalent.
 
@@ -293,9 +283,6 @@ and assets out to customers.
 Using the receipt is how you
 know exactly what the user has
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:01.896 --> 00:04:02.376 A:middle
 paid for.
 
@@ -318,7 +305,7 @@ we're going to take you
 00:04:15.076 --> 00:04:16.546 A:middle
 through a step-by-step look
 
-00:04:16.815 --> 00:04:18.706 A:middle
+00:04:16.816 --> 00:04:18.706 A:middle
 at exactly how you
 validate the receipt
 
@@ -372,9 +359,6 @@ been using since we debuted
 00:04:57.056 --> 00:04:59.046 A:middle
 on the -- since we
 debuted the Mac App Store,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.426 --> 00:05:03.186 A:middle
 is now the exact same receipt
@@ -458,9 +442,6 @@ all the customers
 that have already
 paid for your app.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:04.726 --> 00:06:04.946 A:middle
 [Applause] Right.
 
@@ -540,9 +521,6 @@ to enforce your business model
 00:06:57.156 --> 00:06:59.586 A:middle
 and protect your revenue,
 your app and servers.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.406 --> 00:07:01.346 A:middle
 So it's like a recipe.
@@ -625,9 +603,6 @@ receipt server-to-server,
 if you have servers
 out there that need
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.446 --> 00:08:02.186 A:middle
 to validate these
 before issuing content.
@@ -666,7 +641,7 @@ the physical receipt you get
 in the store, is issued when
 a transaction takes place
 
-00:08:34.116 --> 00:08:36.135 A:middle
+00:08:34.116 --> 00:08:36.136 A:middle
 between the App Store
 and your app.
 
@@ -700,9 +675,6 @@ receipt's issued.
 00:08:56.596 --> 00:08:59.856 A:middle
 There's also some on-demand APIs
 that you can use within your app
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.266 --> 00:09:01.836 A:middle
 to get in your receipt
@@ -783,9 +755,6 @@ thing that we've added
 00:09:56.066 --> 00:09:59.686 A:middle
 to the receipt this year is
 the initial purchase date
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.036 --> 00:10:01.686 A:middle
 and initial purchase version.
@@ -871,9 +840,6 @@ In-App Purchases,
 you know then not too
 unlock features and content
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:02.256 --> 00:11:05.246 A:middle
 until they make the purchase
 and you verify that transaction
@@ -947,9 +913,6 @@ store doing receipt checking
 on iOS 6 will continue
 to work in iOS 7.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.806 --> 00:12:05.386 A:middle
 iOS 7 is binary compatible with
 the receipt checking methods
@@ -1015,9 +978,6 @@ do this is you just Weak Link
 00:12:54.746 --> 00:13:00.046 A:middle
 to the iOS 7 APIs, and
 if I lose any of you
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.046 --> 00:13:02.916 A:middle
 when I said Weak
@@ -1099,9 +1059,6 @@ when we say Weak Linking,
 but do this instead of
 checking the system version.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:00.816 --> 00:14:03.556 A:middle
 This uses the runtime to
 know exactly what methods are
@@ -1175,9 +1132,6 @@ we give you an API to get a hold
 00:14:56.696 --> 00:15:00.096 A:middle
 of it, and it's a single
 file that has purchased data
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.096 --> 00:15:01.916 A:middle
 and signatures to
@@ -1260,9 +1214,6 @@ that they haven't really made.
 No one's tried to doctor up
 a receipt that's not really
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:01.276 --> 00:16:02.426 A:middle
 for an app that they purchased.
 
@@ -1342,9 +1293,6 @@ that the OS manages this
 00:16:58.306 --> 00:17:00.336 A:middle
 for us on both iOS and OS X.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.836 --> 00:17:02.636 A:middle
 It keeps the receipt
 file there for you.
@@ -1422,9 +1370,6 @@ to you in terms
 of deciding how you
 verify this signature.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:18:02.956 --> 00:18:06.626 A:middle
 At one end of the extreme,
 there are third party libraries
@@ -1500,9 +1445,6 @@ operations,
 00:18:58.976 --> 00:19:02.086 A:middle
 and if we used Open SSL to
 do the verification for us,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:02.576 --> 00:19:03.456 A:middle
 here's what it would look like.
@@ -1581,9 +1523,6 @@ we simply call PKCS #7 Verify.
 00:19:57.986 --> 00:20:00.856 A:middle
 We check the result.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:01.886 --> 00:20:04.716 A:middle
 If result's one, the
 receipt is valid.
@@ -1649,9 +1588,6 @@ a Type and a value.
 We encode these using a
 standard called ASN.1.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:01.286 --> 00:21:04.066 A:middle
 ASN.1 again, I know I sound like
 I'm repeating myself, but again,
@@ -1715,9 +1651,6 @@ defined here with this block
 00:21:56.156 --> 00:22:01.346 A:middle
 of ASN.1, and here's your second
 decision point as a developer.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:02.366 --> 00:22:05.216 A:middle
 You need to decide what
@@ -1793,9 +1726,6 @@ writing it yourself,
 00:22:59.426 --> 00:23:01.426 A:middle
 and all the middle
 ground of finding examples
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:01.426 --> 00:23:02.636 A:middle
 and making informed decisions
@@ -1875,9 +1805,6 @@ to call there, BRD Coder,
 takes in my receipt bytes
 itself, the actual payload
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:00.326 --> 00:24:03.456 A:middle
 of data we got, and it gives
 me a data structure back
@@ -1955,9 +1882,6 @@ the bundle identifier.
 00:24:59.746 --> 00:25:02.056 A:middle
 We'd look for Type 3 and know
 that it's the bundle version.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:02.856 --> 00:25:05.746 A:middle
 We can take these and compare
@@ -2039,9 +1963,6 @@ how to derive that GUID.
 So that's the first
 bit of information.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:01.406 --> 00:26:05.576 A:middle
 A sequence of bytes that
 uniquely identifies this device
@@ -2120,9 +2041,6 @@ value here in attribute Type 5
 and it matches, you've
 successfully confirmed it's
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:01.256 --> 00:27:03.436 A:middle
 for your app on this device.
 
@@ -2195,9 +2113,6 @@ they actually pay for?
 00:27:57.546 --> 00:28:00.846 A:middle
 When you're iterating over those
 attributes within the receipt
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.916 --> 00:28:02.776 A:middle
 and you've got those
@@ -2274,9 +2189,6 @@ talked about.
 Firstly, it's a PKCS
 #7 container.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:03.606 --> 00:29:06.316 A:middle
 I guarantee if you Google
 for that, you'll be amazed
@@ -2344,9 +2256,6 @@ one compile errors.
 00:29:52.526 --> 00:29:58.346 A:middle
 You got me, but there's
 a good reason for that,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.286 --> 00:30:02.906 A:middle
 because if you're using a
@@ -2423,9 +2332,6 @@ to have servers out there
 00:30:56.636 --> 00:31:00.136 A:middle
 that issue these -- these,
 you know, Game Levels, assets,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.306 --> 00:31:03.576 A:middle
 contents, periodicals,
@@ -2515,9 +2421,6 @@ We crack open the receipt,
 confirm that the receipt
 is authentic and unaltered,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:01.126 --> 00:32:04.536 A:middle
 and we return back to you a
 JSON code, coded block of data,
@@ -2589,9 +2492,6 @@ for your app on a given device.
 00:32:59.886 --> 00:33:01.776 A:middle
 You still want to do
 that at the device level.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:06.836 --> 00:33:10.316 A:middle
 So now let's look at some
@@ -2665,9 +2565,6 @@ need the latest
 00:33:59.016 --> 00:34:00.186 A:middle
 and most up-to-date receipt.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.696 --> 00:34:04.996 A:middle
 Use what's there first,
 because as soon as you start one
@@ -2680,22 +2577,22 @@ Refresh Requests,
 the first thing the
 user is going
 
-00:34:08.676 --> 00:34:10.985 A:middle
+00:34:08.676 --> 00:34:10.986 A:middle
 to see is an authentication
 prompt to sign
 
-00:34:10.985 --> 00:34:14.005 A:middle
+00:34:10.986 --> 00:34:14.006 A:middle
 into the App Store, and
 it's not acceptable to do
 
-00:34:14.005 --> 00:34:16.886 A:middle
+00:34:14.006 --> 00:34:16.886 A:middle
 that on every launch, so only
 do it if the receipt is missing
 
-00:34:16.916 --> 00:34:18.025 A:middle
+00:34:16.916 --> 00:34:18.026 A:middle
 or appears to be invalid,
 
-00:34:19.295 --> 00:34:21.116 A:middle
+00:34:19.296 --> 00:34:21.116 A:middle
 and this will require
 a network connection.
 
@@ -2711,7 +2608,7 @@ business model enforcement is,
 that if the device doesn't
 have a network connection,
 
-00:34:30.295 --> 00:34:31.596 A:middle
+00:34:30.296 --> 00:34:31.596 A:middle
 it won't be able
 to get a receipt.
 
@@ -2741,7 +2638,7 @@ to get a receipt to test with,
 and the receipt should always
 be there, but if it appears
 
-00:34:52.936 --> 00:34:56.065 A:middle
+00:34:52.936 --> 00:34:56.066 A:middle
 to be invalid, as in it's
 perhaps not for this device,
 
@@ -2752,9 +2649,6 @@ are migrated from one machine
 00:34:58.706 --> 00:35:03.286 A:middle
 to another, then your app
 exists with a Code 173.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:03.836 --> 00:35:07.666 A:middle
 This special Exit Code
@@ -2826,9 +2720,6 @@ game, you might offer the user
 00:35:59.896 --> 00:36:02.866 A:middle
 to purchase 500 gallons of gas
 through an In-App Purchase.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:03.806 --> 00:36:07.166 A:middle
 You would expect that that 500
@@ -2906,9 +2797,6 @@ one chance to validate it,
 and then set whatever
 state you need.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:02.966 --> 00:37:04.366 A:middle
 Now non-consumables
 
@@ -2984,9 +2872,6 @@ auto-renewable subscriptions,
 00:37:56.926 --> 00:37:57.796 A:middle
 always in the receipt.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:03.156 --> 00:38:07.666 A:middle
 But what happens if, even after
 you've requested a new receipt,
@@ -3060,9 +2945,6 @@ to design that user experience.
 00:38:59.216 --> 00:39:00.926 A:middle
 You might decide to
 make the app read only,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:01.126 --> 00:39:03.456 A:middle
 block parts of the UI,
@@ -3152,9 +3034,6 @@ buy their own copy, but on OS X,
 let us drive the UI,
 always just Exit 173.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.516 --> 00:40:05.936 A:middle
 [ Pause ]
 
@@ -3224,9 +3103,6 @@ a replica of the App Store
 00:40:59.096 --> 00:41:02.416 A:middle
 that you can use to make
 transactions, get receipts,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:02.416 --> 00:41:05.816 A:middle
 use In-App Purchases, without
@@ -3306,9 +3182,6 @@ knows to route your request
 00:41:57.546 --> 00:41:58.546 A:middle
 to the test environment.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.496 --> 00:42:01.426 A:middle
 OS X developers.
 
@@ -3387,9 +3260,6 @@ gotcha with this is,
 00:42:58.856 --> 00:43:02.206 A:middle
 sign-out of the App Store
 with your production account,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:03.236 --> 00:43:05.436 A:middle
 because that production account
@@ -3475,9 +3345,6 @@ implement receipt validation.
 The app reviewers are actually
 testing your production site,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:04.236 --> 00:44:05.876 A:middle
 ready to go into
 the store binary,
@@ -3551,9 +3418,6 @@ server-to-server as well,
 00:44:58.876 --> 00:45:00.316 A:middle
 for servers that
 are issuing content.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:01.136 --> 00:45:02.746 A:middle
 But choose a model
@@ -3634,9 +3498,6 @@ and to use that you've got
 to be development signed, using
 your test environment accounts.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:05.456 --> 00:46:06.756 A:middle
 Now for more information,
 
@@ -3679,4 +3540,3 @@ Thank you.
 
 00:46:36.016 --> 00:46:46.026 A:middle
 [ Silence ]
-

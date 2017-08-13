@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.596 A:middle
 [ Silence ]
@@ -82,9 +81,6 @@ animation functionality
 00:00:59.956 --> 00:01:02.286 A:middle
 of NSAnimation Contest
 we added in 10.8
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:02.286 --> 00:01:04.146 A:middle
 and I'm going to cover that.
@@ -179,9 +175,6 @@ I didn't lie.
 00:01:57.636 --> 00:02:00.336 A:middle
 The method I want to introduce
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.336 --> 00:02:02.436 A:middle
 to you here is the animator
 method which returns
@@ -267,9 +260,6 @@ your own views animatable now.
 00:02:56.816 --> 00:02:59.546 A:middle
 So suppose you want to do
 an animation like this.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.316 --> 00:03:03.476 A:middle
 We have a framed view which is
@@ -366,9 +356,6 @@ we're going to go ahead
 and implement the
 defaultAnimationForKey method.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.746 --> 00:04:02.466 A:middle
 So our implementation we start
 
@@ -398,10 +385,10 @@ we use most frequently.
 It just has very simple
 from and to values along
 
-00:04:19.766 --> 00:04:20.495 A:middle
+00:04:19.766 --> 00:04:20.496 A:middle
 with some properties
 
-00:04:20.495 --> 00:04:22.666 A:middle
+00:04:20.496 --> 00:04:22.666 A:middle
 that control how those
 values are interpolated.
 
@@ -461,9 +448,6 @@ are the properties
 00:04:58.626 --> 00:05:00.486 A:middle
 that are being changed
 and the values
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.486 --> 00:05:03.056 A:middle
 in the dictionary are
@@ -558,9 +542,6 @@ key frame animation.
 And then we just talk to the
 animator like we always did.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.716 --> 00:06:04.396 A:middle
 View.animator.linefitness=40
 and we wind up with an animation
@@ -649,9 +630,6 @@ in the object ultimately.
 00:06:57.566 --> 00:07:00.746 A:middle
 The stuff in the animation
 is just used along the way.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.966 --> 00:07:04.156 A:middle
 So if we see what this
@@ -757,9 +735,6 @@ And in this case I'm going
 to implement my own
 formatter class,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.766 --> 00:08:03.596 A:middle
 in this case the cleverly named
 my formatter but we're going
@@ -812,7 +787,7 @@ this into our NSFormatter
 and it gives us a nice human
 readable string for the date.
 
-00:08:33.655 --> 00:08:35.285 A:middle
+00:08:33.656 --> 00:08:35.286 A:middle
 And we couple that
 with this code.
 
@@ -860,9 +835,6 @@ up to 1,000,000.
 00:08:59.566 --> 00:09:02.146 A:middle
 And when you do this
 you get this animation.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:03.046 --> 00:09:06.186 A:middle
 We are actually formatting
@@ -940,9 +912,6 @@ contains another animation group
 00:09:57.926 --> 00:09:59.666 A:middle
 and we set properties
 for our second view,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.316 --> 00:10:02.406 A:middle
 likewise the completion handler
@@ -1024,9 +993,6 @@ in one at a time.
 00:10:58.376 --> 00:11:00.826 A:middle
 So I'm going to show you how
 we can take this program here
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.826 --> 00:11:02.166 A:middle
 and implement all of that.
@@ -1115,9 +1081,6 @@ here's the hide method,
 00:11:58.016 --> 00:11:59.986 A:middle
 we just have an early out in
 case it's already visible.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.346 --> 00:12:01.906 A:middle
 We update our I-bar.
@@ -1209,9 +1172,6 @@ container view so we're going
 to take the MidX of the
 container view instead
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.706 --> 00:13:03.226 A:middle
 and instead of subtracting
 1/2 of our width we're going
@@ -1260,9 +1220,6 @@ dictionary on the view
 00:13:51.106 --> 00:14:00.946 A:middle
 so view.animations=frameorigin,
 with our animation there.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.996 --> 00:14:03.526 A:middle
 And then we tell
@@ -1339,9 +1296,6 @@ to draw we would remove it.
 
 00:14:58.956 --> 00:15:00.266 A:middle
 So we're going to go ahead
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.266 --> 00:15:04.326 A:middle
 and open animation group
@@ -1431,9 +1385,6 @@ added in this pass.
 So I'm going to begin an
 animation group again.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:08.986 --> 00:16:13.316 A:middle
 And I'm going to copy and paste
 our code that enumerates our
@@ -1498,17 +1449,14 @@ anything this time, excuse me,
 if we did add something
 or remove something
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:01.766 --> 00:17:04.945 A:middle
+00:17:01.766 --> 00:17:04.946 A:middle
 after our animation has
 completed, we want to go ahead
 
-00:17:04.945 --> 00:17:06.346 A:middle
+00:17:04.946 --> 00:17:06.346 A:middle
 and just run this another time
 
-00:17:06.406 --> 00:17:08.935 A:middle
+00:17:06.406 --> 00:17:08.936 A:middle
 so we call self-update
 visible views
 
@@ -1516,7 +1464,7 @@ visible views
 and of course we add a semicolon
 here to appease the gods.
 
-00:17:16.506 --> 00:17:18.925 A:middle
+00:17:16.506 --> 00:17:18.926 A:middle
 So we still have
 our nice animation.
 
@@ -1524,11 +1472,11 @@ our nice animation.
 But you'll notice as I bring
 these things in they come in one
 
-00:17:22.036 --> 00:17:24.675 A:middle
+00:17:22.036 --> 00:17:24.676 A:middle
 at a time just like they do
 in mail and they exit one
 
-00:17:24.675 --> 00:17:25.955 A:middle
+00:17:24.676 --> 00:17:25.956 A:middle
 at a time just like
 they do in mail
 
@@ -1574,9 +1522,6 @@ added in Mac OS 10.8.
 00:17:57.026 --> 00:18:01.226 A:middle
 And some of you have probably
 already used it and enjoyed it
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.226 --> 00:18:02.816 A:middle
 and or have been
@@ -1661,9 +1606,6 @@ same method as before.
 00:18:57.556 --> 00:18:59.456 A:middle
 And in this case
 it looks like this.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.176 --> 00:19:01.506 A:middle
 So when would you use this?
@@ -1760,9 +1702,6 @@ And these are all properties
 00:19:58.236 --> 00:19:59.796 A:middle
 that Core Animation
 knows how to animate.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.666 --> 00:20:03.266 A:middle
 And if you want to use
@@ -1861,9 +1800,6 @@ have implicit animation
 for core animation as well,
 why have one of everything
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:01.636 --> 00:21:04.126 A:middle
 when we can have more than one?
 
@@ -1956,9 +1892,6 @@ manage their own CALayers.
 And there's a few reasons you
 might do this besides animation,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:04.246 --> 00:22:07.006 A:middle
 performance and memory are the
 big ones, and they trade off,
@@ -2041,9 +1974,6 @@ the property in your view.
 00:22:56.226 --> 00:22:59.996 A:middle
 And we periodically wakeup the
 main thread to do our animation.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.046 --> 00:23:03.886 A:middle
 Every time we wakeup we're
@@ -2136,9 +2066,6 @@ thread or maybe another process
 but it does different
 things from this point on.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:02.556 --> 00:24:04.936 A:middle
 It evaluates the animation
 but only evaluates it as part
@@ -2225,9 +2152,6 @@ of your NSView,
 and again that will be covered
 in greater detail in session 215
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.766 --> 00:25:02.496 A:middle
 in this room right
 after this session.
@@ -2311,9 +2235,6 @@ value we set on the animator
 00:25:59.626 --> 00:26:02.356 A:middle
 so there's at least two
 easy ways to fix this
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:02.356 --> 00:26:03.346 A:middle
 and I'm going to
@@ -2401,9 +2322,6 @@ started with Auto Layout.
 
 00:26:59.346 --> 00:26:59.976 A:middle
 Welcome Peter.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.516 --> 00:27:05.076 A:middle
 [ Applause ]
@@ -2496,9 +2414,6 @@ alignment.
 And it interacts well
 with window resizing
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:02.256 --> 00:28:04.346 A:middle
 so you can make a stack
 view that prevents you
@@ -2582,9 +2497,6 @@ could not be simpler.
 00:28:57.306 --> 00:29:00.906 A:middle
 You can create a StackView with
 just passing an array of views
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.906 --> 00:29:03.786 A:middle
 to NSStackView, StackView
@@ -2672,9 +2584,6 @@ you a demo of that.
 So here's the views that we're
 going to put in our StackView.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:01.396 --> 00:30:03.736 A:middle
 We have the header view.
 
@@ -2754,9 +2663,6 @@ So window did load.
 00:30:59.826 --> 00:31:03.036 A:middle
 We're going to start by making
 a list of all our views,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:03.036 --> 00:31:04.896 A:middle
 the header, the filter,
@@ -2849,9 +2755,6 @@ that goes into the StackView.
 We'll start by creating
 a constraint.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.926 --> 00:32:03.036 A:middle
 This is the centering
 constraint that I showed you.
@@ -2916,9 +2819,6 @@ But this is a talk on animation
 00:32:58.136 --> 00:33:00.926 A:middle
 so how would we make this
 disclosure view animate?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:02.296 --> 00:33:04.476 A:middle
 Well the desire is that
@@ -3005,9 +2905,6 @@ after modifying the constraints.
 And this might seem to work
 but this is really bad,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:02.326 --> 00:34:03.996 A:middle
 you can see it's
 off the page bad.
@@ -3027,7 +2924,7 @@ animation set to yes.
 And that's actually
 where those calls occur
 
-00:34:15.676 --> 00:34:16.545 A:middle
+00:34:15.676 --> 00:34:16.546 A:middle
 in the layout method.
 
 00:34:17.476 --> 00:34:19.286 A:middle
@@ -3041,11 +2938,11 @@ supposed to invoke yourself,
 00:34:22.096 --> 00:34:23.186 A:middle
 unless you're invoking super.
 
-00:34:24.126 --> 00:34:28.795 A:middle
+00:34:24.126 --> 00:34:28.796 A:middle
 So how do we trigger it
 being called by AppKit?
 
-00:34:28.795 --> 00:34:31.866 A:middle
+00:34:28.796 --> 00:34:31.866 A:middle
 Well we're going to start
 by adding the constraint.
 
@@ -3053,44 +2950,44 @@ by adding the constraint.
 We can do that inside or
 outside the animation block,
 
-00:34:35.266 --> 00:34:37.565 A:middle
+00:34:35.266 --> 00:34:37.566 A:middle
 it doesn't matter but
 here we do it outside just
 
-00:34:37.565 --> 00:34:38.266 A:middle
+00:34:37.566 --> 00:34:38.266 A:middle
 to make it clear.
 
 00:34:38.716 --> 00:34:41.366 A:middle
 Or you can set the
 constant on a constraint.
 
-00:34:41.366 --> 00:34:42.775 A:middle
+00:34:41.366 --> 00:34:42.776 A:middle
 If you're not familiar
 with a constant
 
-00:34:42.775 --> 00:34:44.585 A:middle
+00:34:42.776 --> 00:34:44.586 A:middle
 on a width constraint
 it's just the width,
 
-00:34:44.916 --> 00:34:46.755 A:middle
+00:34:44.916 --> 00:34:46.756 A:middle
 or it's like the base value.
 
-00:34:47.216 --> 00:34:48.755 A:middle
+00:34:47.216 --> 00:34:48.756 A:middle
 For a spacing constraint,
 it's the space
 
-00:34:48.755 --> 00:34:50.116 A:middle
+00:34:48.756 --> 00:34:50.116 A:middle
 between the two views, etcetera.
 
 00:34:51.096 --> 00:34:53.106 A:middle
 And then in the animation
 block we're going
 
-00:34:53.106 --> 00:34:55.045 A:middle
+00:34:53.106 --> 00:34:55.046 A:middle
 to say allows implicit
 animation yes.
 
-00:34:55.045 --> 00:34:56.696 A:middle
+00:34:55.046 --> 00:34:56.696 A:middle
 And we'll trigger layout
 
 00:34:56.696 --> 00:34:59.116 A:middle
@@ -3100,9 +2997,6 @@ layoutSubtreeIfNeeded.
 00:34:59.346 --> 00:35:01.946 A:middle
 If you just want to animate that
 view and all of its descendants
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:02.406 --> 00:35:04.106 A:middle
 or you can call window
@@ -3163,9 +3057,6 @@ to a nicely animated control.
 
 00:35:55.516 --> 00:36:01.666 A:middle
 [ Applause ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:02.166 --> 00:36:05.086 A:middle
 It's nice when things
@@ -3246,9 +3137,6 @@ with other constraints.
 So let's, I'm going to
 give you a demo of how
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:03.596 --> 00:37:08.676 A:middle
 to use this technique to make
 our StackView animated again.
@@ -3317,9 +3205,6 @@ just says what is the height
 
 00:37:59.666 --> 00:38:00.846 A:middle
 of my view, of me?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:01.546 --> 00:38:03.906 A:middle
 So it's equal to
@@ -3400,9 +3285,6 @@ happens if I do that.
 So I if that out, now we're back
 to doing the implicit animation
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:01.946 --> 00:39:02.946 A:middle
 and triggering layout.
 
@@ -3472,9 +3354,6 @@ constraints animator
 00:39:57.396 --> 00:40:00.566 A:middle
 that will do an AppKit driven
 animation on the main thread
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.566 --> 00:40:02.666 A:middle
 so it will not be concurrent
@@ -3561,9 +3440,6 @@ all the slack.
 But with this kind of animation
 what we want is instead all the
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:03.066 --> 00:41:07.816 A:middle
 slack should be taken up
 by the pane on the left.
@@ -3644,9 +3520,6 @@ and the window gets bigger.
 00:41:59.556 --> 00:42:03.736 A:middle
 We're going to lower the holding
 priority of the first subview
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:04.106 --> 00:42:05.776 A:middle
 to 1, which is very low.
@@ -3737,9 +3610,6 @@ of the way we need
 00:42:59.556 --> 00:43:00.706 A:middle
 to invoke NSSplitView.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:01.936 --> 00:43:05.616 A:middle
 So the solution is we're going
 to shrink the pane as small
@@ -3812,9 +3682,6 @@ When I click that you'll see
 00:43:58.526 --> 00:44:00.956 A:middle
 that the split view
 slides nicely in and out
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:00.956 --> 00:44:03.256 A:middle
 and I can you know
@@ -3896,9 +3763,6 @@ to uncollapse it by one pixel.
 Then we have to resize
 the window by that amount
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:00.356 --> 00:45:01.806 A:middle
 so that the right
 edge stays fixed.
@@ -3970,9 +3834,6 @@ get that effect.
 
 00:45:58.926 --> 00:46:00.186 A:middle
 So that's what we have.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:00.496 --> 00:46:03.076 A:middle
 For more information you
@@ -4067,9 +3928,6 @@ to resize windows.
 We saw a third technique
 which is you set
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:02.196 --> 00:47:03.566 A:middle
 up your constraints
 the way you want
@@ -4109,4 +3967,3 @@ Enjoy the rest of your week.
 
 00:47:25.466 --> 00:47:28.500 A:middle
 [ Applause ]
-

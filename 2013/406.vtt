@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.676 A:middle
 [ Applause ]
@@ -84,9 +83,6 @@ what that means.
 So I have an interface here
 and I want to describe it once.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:03.446 --> 00:01:06.816 A:middle
 But I wanted to look good in
 both portrait and landscape.
@@ -165,9 +161,6 @@ part is of Auto Layout is
 that you provide the
 constraints for us
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.526 --> 00:02:03.826 A:middle
 and then we automatically
 determine those frames based
@@ -182,7 +175,7 @@ cool and really powerful
 00:02:07.346 --> 00:02:08.056 A:middle
 for a couple of reasons.
 
-00:02:08.576 --> 00:02:10.895 A:middle
+00:02:08.576 --> 00:02:10.896 A:middle
 So, like I mentioned, first
 of all, it's relational.
 
@@ -259,9 +252,6 @@ actually change the size
 
 00:02:59.116 --> 00:03:00.116 A:middle
 of the font on the fly.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.956 --> 00:03:04.946 A:middle
 So, using Auto Layout and using
@@ -353,9 +343,6 @@ express these really powerful
 00:03:57.956 --> 00:04:00.316 A:middle
 relationships again, without
 writing a single line of code,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:00.636 --> 00:04:02.086 A:middle
 and that is just a huge win.
@@ -449,9 +436,6 @@ the kind of granularity
 
 00:04:59.466 --> 00:05:01.356 A:middle
 for this is per view controller
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.356 --> 00:05:03.036 A:middle
 or per Interface
@@ -551,9 +535,6 @@ translatesAutoresizing
 
 00:05:58.916 --> 00:06:00.086 A:middle
 MaskIntoConstraints.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.606 --> 00:06:02.866 A:middle
 What this does is it just
@@ -658,9 +639,6 @@ first introduced Auto Layout,
 it was brand new for the
 Mac, brand new for Xcode,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:01.526 --> 00:07:04.686 A:middle
 and it was all about helping you
 create Auto Layout interfaces
@@ -744,9 +722,6 @@ that are just fantastic.
 Now, as we talk about phases
 of development, right,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.236 --> 00:08:01.816 A:middle
 we're adding features
 that are going to help you
@@ -796,11 +771,11 @@ running as quick as possible.
 But then, eventually, I
 do want start thinking
 
-00:08:31.596 --> 00:08:34.405 A:middle
+00:08:31.596 --> 00:08:34.406 A:middle
 about how is my application
 going to adopt when I rotate,
 
-00:08:34.405 --> 00:08:36.346 A:middle
+00:08:34.406 --> 00:08:36.346 A:middle
 change devices, change
 localizations?
 
@@ -808,7 +783,7 @@ localizations?
 And this is in an
 Auto Layout world
 
-00:08:38.246 --> 00:08:39.655 A:middle
+00:08:38.246 --> 00:08:39.656 A:middle
 where we start adding
 constraints.
 
@@ -845,9 +820,6 @@ not touching our interface
 
 00:08:59.396 --> 00:09:01.016 A:middle
 for probably quite a while.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.466 --> 00:09:03.396 A:middle
 And it's really important
@@ -944,9 +916,6 @@ how it's going
 00:09:59.946 --> 00:10:01.476 A:middle
 to react the changes around you.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:02.476 --> 00:10:05.286 A:middle
 So, with Xcode 5,
 when you add a view,
@@ -1042,9 +1011,6 @@ I don't want Interface Builder
 to reflect what my
 constraints at."
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.166 --> 00:11:03.076 A:middle
 And we've added features that
 give you the precise control
@@ -1125,9 +1091,6 @@ get started here.
 What we're going to do is we're
 going to build a splash screen
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:03.276 --> 00:12:04.816 A:middle
 by adding some buttons here.
 
@@ -1204,9 +1167,6 @@ didn't mean to do that.
 00:12:56.976 --> 00:13:00.736 A:middle
 And let's resize this, position
 them, all right, we're good.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.966 --> 00:13:02.756 A:middle
 Now, I'm going to
@@ -1306,9 +1266,6 @@ show you is via Control-Drag.
 Just like you can
 control drag between views
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:01.816 --> 00:14:05.376 A:middle
 to add relationships like
 actions and outlets for views,
@@ -1399,9 +1356,6 @@ point where you want
 00:14:58.696 --> 00:14:59.696 A:middle
 to have the UI that you want.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.146 --> 00:15:02.126 A:middle
 And so, what Interface Builder
 is showing me is, "OK, this is--
@@ -1486,9 +1440,6 @@ the height of the string game.
 00:15:56.946 --> 00:16:01.596 A:middle
 So, Control-Drag is
 context sensitive.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:02.086 --> 00:16:06.166 A:middle
 So based upon the views I'm
@@ -1581,9 +1532,6 @@ a height constraint.
 00:16:59.796 --> 00:17:00.976 A:middle
 But when I got my artwork,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.976 --> 00:17:04.096 A:middle
 I would probably
 want to delete this.
@@ -1591,23 +1539,23 @@ want to delete this.
 00:17:04.296 --> 00:17:04.556 A:middle
 All right!
 
-00:17:04.556 --> 00:17:08.465 A:middle
+00:17:04.556 --> 00:17:08.466 A:middle
 So just like I can create
 constraints between my superview
 
-00:17:08.465 --> 00:17:11.175 A:middle
+00:17:08.466 --> 00:17:11.176 A:middle
 and across myself, I can also
 created them by siblings.
 
-00:17:11.806 --> 00:17:14.185 A:middle
+00:17:11.806 --> 00:17:14.186 A:middle
 So to do that, I can
 control drag from new game
 
-00:17:14.185 --> 00:17:17.195 A:middle
+00:17:14.186 --> 00:17:17.196 A:middle
 down the load game, and you can
 see I get a few more options
 
-00:17:17.195 --> 00:17:21.056 A:middle
+00:17:17.196 --> 00:17:21.056 A:middle
 here, I get a vertical space, I
 get some alignments on the left,
 
@@ -1615,7 +1563,7 @@ get some alignments on the left,
 center and right, and
 also some equal sizes.
 
-00:17:24.455 --> 00:17:25.925 A:middle
+00:17:24.456 --> 00:17:25.926 A:middle
 So I'm going to select
 vertical space.
 
@@ -1672,9 +1620,6 @@ by adding my height constraint.
 00:17:58.606 --> 00:18:00.996 A:middle
 Great! I've go my two
 buttons done here.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.906 --> 00:18:03.136 A:middle
 Let's talk about the
@@ -1776,9 +1721,6 @@ suggested constraints.
 That will clear any
 existing constraints I have
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.206 --> 00:19:04.166 A:middle
 on just this view, and then
 it will add some suggested
@@ -1859,9 +1801,6 @@ and hit the Delete.
 
 00:19:56.216 --> 00:20:01.736 A:middle
 [ Applause ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:02.236 --> 00:20:03.986 A:middle
 Who knew that deleting
@@ -1949,9 +1888,6 @@ able to select my character
 00:20:57.596 --> 00:21:00.096 A:middle
 and I want to add one for
 adjusting the strategy
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.596 --> 00:21:03.286 A:middle
 that I want, and then I
@@ -2041,9 +1977,6 @@ something called "Spacing
 to Nearest Neighbor," OK,
 what's the nearest neighbor?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:01.046 --> 00:22:03.786 A:middle
 The nearest neighbor
 is the nearest sibling
@@ -2132,9 +2065,6 @@ I cannot do both my Runtime
 and Design Time Layout
 at the same time
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:01.206 --> 00:23:03.186 A:middle
 and let Auto Layout do
 all the work for me.
@@ -2215,9 +2145,6 @@ is punch in 20, 20,
 00:23:54.866 --> 00:24:00.086 A:middle
 20 and what that will do is
 it will add a leading top
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.396 --> 00:24:02.046 A:middle
 and trailing constraint
@@ -2306,9 +2233,6 @@ to match the constraints.
 00:24:58.326 --> 00:25:00.036 A:middle
 So I click that, boom!
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.036 --> 00:25:02.596 A:middle
 Constraints and layout
 all in one action.
@@ -2396,9 +2320,6 @@ spaces for both these labels
 00:25:59.526 --> 00:26:01.326 A:middle
 through their respective
 buttons.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:01.656 --> 00:26:02.866 A:middle
 Now, I'm having stage fright
@@ -2499,9 +2420,6 @@ the strings get really long
 or really short, they might
 start occluding, overlapping,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:01.386 --> 00:27:03.006 A:middle
 and I definitely
 don't want that.
@@ -2589,9 +2507,6 @@ suggested that you want.
 And now, I got a
 bunch of constraints
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:02.506 --> 00:28:03.796 A:middle
 so let's go take a look
 at what we got here.
@@ -2669,9 +2584,6 @@ that's not exactly what I want.
 We don't want that
 stuff to overlap.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:02.006 --> 00:29:04.636 A:middle
 So I go and tell my
 designer, "Hey, Mr. Designer,
@@ -2745,9 +2657,6 @@ we'll show you all the options
 00:29:57.816 --> 00:30:00.056 A:middle
 so that you can quickly create
 the constraints that you want.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.056 --> 00:30:02.596 A:middle
 A little pro tip, if you
@@ -2837,9 +2746,6 @@ these two views.
 00:30:56.146 --> 00:31:00.626 A:middle
 So I'm just going to use the
 standard space and there we go.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.826 --> 00:31:03.406 A:middle
 Now that slider should
@@ -2931,9 +2837,6 @@ same view over here
 but now I can change attributes
 about this view to preview it.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:02.546 --> 00:32:04.486 A:middle
 So for example, I can say,
 what is it going to look
@@ -3009,9 +2912,6 @@ editor and I actually
 00:32:58.006 --> 00:33:00.506 A:middle
 with that problem right,
 right at my fingertips.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:01.716 --> 00:33:03.146 A:middle
 So, to do that, I'm going
@@ -3091,9 +2991,6 @@ my ViewController.
 And now I'm going to change
 my orientation to landscape.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.956 --> 00:34:02.766 A:middle
 Again, this is just previewing
 it right here and inside
@@ -3109,52 +3006,52 @@ with my warrior label.
 And what's happening is all the
 constraints that we've added
 
-00:34:09.456 --> 00:34:11.295 A:middle
+00:34:09.456 --> 00:34:11.296 A:middle
 so far have been required.
 
 00:34:11.716 --> 00:34:13.346 A:middle
 And so, you've got
 to fulfill this.
 
-00:34:13.746 --> 00:34:17.505 A:middle
+00:34:13.746 --> 00:34:17.506 A:middle
 So, Auto Layout has followed
 your beckoning and it's followed
 
-00:34:17.505 --> 00:34:19.666 A:middle
+00:34:17.506 --> 00:34:19.666 A:middle
 that but at the cost of
 clipping some of my content
 
 00:34:19.666 --> 00:34:20.596 A:middle
 and I don't want this.
 
-00:34:20.596 --> 00:34:22.295 A:middle
+00:34:20.596 --> 00:34:22.296 A:middle
 So, I'm going to show you
 one of the powerful things
 
-00:34:22.295 --> 00:34:24.806 A:middle
+00:34:22.296 --> 00:34:24.806 A:middle
 about Auto Layout which
 is called priorities.
 
-00:34:25.485 --> 00:34:30.476 A:middle
+00:34:25.486 --> 00:34:30.476 A:middle
 Priorities are a way that you
 can indicate the preferability
 
 00:34:30.476 --> 00:34:31.036 A:middle
 of something.
 
-00:34:32.005 --> 00:34:35.266 A:middle
+00:34:32.006 --> 00:34:35.266 A:middle
 So, in this case, you know, I
 want my slider to be centered
 
-00:34:35.406 --> 00:34:37.065 A:middle
+00:34:35.406 --> 00:34:37.066 A:middle
 but if it's going
 to clip my content,
 
-00:34:37.235 --> 00:34:38.755 A:middle
+00:34:37.236 --> 00:34:38.756 A:middle
 well that's not exactly
 what I want.
 
-00:34:39.275 --> 00:34:43.516 A:middle
+00:34:39.276 --> 00:34:43.516 A:middle
 So, I can change the priority
 of my constraint to be basically
 
@@ -3168,7 +3065,7 @@ then don't worry about it,
 00:34:46.846 --> 00:34:47.766 A:middle
 just get as close as you can.
 
-00:34:49.025 --> 00:34:53.136 A:middle
+00:34:49.026 --> 00:34:53.136 A:middle
 So, I can select my slider and
 select the horizontal, sorry,
 
@@ -3187,9 +3084,6 @@ I'm going for
 00:34:59.816 --> 00:35:01.646 A:middle
 but I can also get
 some suggestions now
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.646 --> 00:35:03.666 A:middle
 with Xcode 5 by opening
@@ -3269,9 +3163,6 @@ constraints, using Control-Drag
 00:35:56.856 --> 00:36:01.036 A:middle
 for that fine control, using
 the Auto Layout resolving menu
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:01.076 --> 00:36:04.076 A:middle
 for those kind of broader brush
@@ -3368,9 +3259,6 @@ you would think of writing code.
 00:36:59.676 --> 00:37:01.796 A:middle
 If you were to build and
 run your app in the middle
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:01.796 --> 00:37:03.896 A:middle
 of writing a line of code,
@@ -3473,9 +3361,6 @@ frame simply
 by just not adding enough
 constraints to your view.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.766 --> 00:38:03.396 A:middle
 So, if you we take my example
 here with my warrior imageView,
@@ -3574,9 +3459,6 @@ as simple as this example here.
 I've added two-- two
 height constraints
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:01.936 --> 00:39:03.726 A:middle
 to my warrior imageView
 saying it
@@ -3658,9 +3540,6 @@ I still have that constraint
 00:39:57.236 --> 00:39:59.626 A:middle
 at the top saying it should
 be 20 points from the top.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.466 --> 00:40:02.406 A:middle
 So, interface builder
@@ -3753,9 +3632,6 @@ and I got this little badge.
 So, that tells me that it's
 currently 32 point shorter
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.246 --> 00:41:01.776 A:middle
 than the height of the
 button in the canvas
@@ -3845,9 +3721,6 @@ Heights constraint.
 I'm going to Control-Drag down
 here and choose Equal Heights.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.916 --> 00:42:03.976 A:middle
 So, this constraint is going to
 make the system enforce the fact
@@ -3936,9 +3809,6 @@ common type of operation,
 so we've added another
 shortcut for doing that.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:00.196 --> 00:43:02.106 A:middle
 And that's over here in
 the bottom of the canvas,
@@ -4020,9 +3890,6 @@ menu and update their frames.
 00:43:59.496 --> 00:44:02.406 A:middle
 This time, I want to
 point out the fact
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:02.566 --> 00:44:04.796 A:middle
 that this menu is
@@ -4108,9 +3975,6 @@ to get reused at runtime
 00:44:59.226 --> 00:45:01.376 A:middle
 for every saved game
 that the player can load.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:02.236 --> 00:45:03.876 A:middle
 And the cell has a
@@ -4198,9 +4062,6 @@ side of the cell.
 00:45:56.976 --> 00:46:00.466 A:middle
 And when I did that, it gave
 me an orange constraint.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:00.996 --> 00:46:04.746 A:middle
 It's orange because my
@@ -4293,9 +4154,6 @@ have four constraints.
 And these are enough to
 fully specify the layout
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:02.256 --> 00:47:04.146 A:middle
 of my two labels.
 
@@ -4372,9 +4230,6 @@ my disclosure indicator here.
 00:47:58.236 --> 00:48:00.196 A:middle
 So, what I want to do
 is add a little padding
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:00.196 --> 00:48:01.556 A:middle
 on the right side, so that
@@ -4470,9 +4325,6 @@ load game view controller,
 you can see I have
 this button here.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:02.236 --> 00:49:04.806 A:middle
 And that's-- that indicates
 
@@ -4552,9 +4404,6 @@ content priority.
 If I click on this button
 here, it gives me a suggestion
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:01.436 --> 00:50:05.226 A:middle
 for how I might want
 to fix this issue.
@@ -4631,9 +4480,6 @@ controlling code.
 00:50:56.756 --> 00:51:00.076 A:middle
 And so for this example,
 let's imagine that instead
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:00.076 --> 00:51:01.036 A:middle
 of this Date label here.
@@ -4725,9 +4571,6 @@ that I have implemented in code.
 And when I delete these
 height constraints,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:04.366 --> 00:52:07.246 A:middle
 my view is ambiguous because
 Interface Builder doesn't have
@@ -4806,9 +4649,6 @@ at all the unresolved issues
 00:52:56.366 --> 00:53:00.216 A:middle
 in your document using the mini
 navigator, issue navigator.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:01.276 --> 00:53:03.196 A:middle
 If you want to quickly
@@ -4899,9 +4739,6 @@ a new readable
 and diff-able XML
 format for this.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:54:01.056 --> 00:54:01.156 A:middle
 [ Applause ]
 
@@ -4933,4 +4770,3 @@ for this year's conference.
 
 00:54:25.136 --> 00:54:26.266 A:middle
 And with that, thank you.
-

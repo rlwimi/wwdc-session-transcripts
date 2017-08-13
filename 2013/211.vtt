@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.146 A:middle
 [ Silence ]
@@ -75,9 +74,6 @@ and push it back out again.
 00:00:59.026 --> 00:01:02.866 A:middle
 In iOS, obviously, you're
 even more limited with memory
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:02.866 --> 00:01:03.796 A:middle
 than you are on the desktop,
@@ -177,9 +173,6 @@ of the optimizations we can make
 00:01:58.886 --> 00:02:01.426 A:middle
 to our model, to fetch
 requests and predicates.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:01.726 --> 00:02:04.856 A:middle
 We're looking at concurrency
@@ -289,9 +282,6 @@ in the background,
 obviously that can take longer,
 but how long is too long?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:01.346 --> 00:03:02.956 A:middle
 How short is the right amount?
 
@@ -384,9 +374,6 @@ blocks are big, and this is bad,
 00:03:57.686 --> 00:03:59.176 A:middle
 particularly at app launch.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.526 --> 00:04:02.086 A:middle
 And to see exactly what's bad,
 
@@ -413,7 +400,7 @@ we might look at here.
 One is the fetch is
 taking way too long.
 
-00:04:17.596 --> 00:04:20.505 A:middle
+00:04:17.596 --> 00:04:20.506 A:middle
 Three seconds is like a
 millennium in computer cycles,
 
@@ -482,9 +469,6 @@ and a little bit of scrolling,
 00:04:59.076 --> 00:05:01.146 A:middle
 so do that we just
 set a fetch batch size
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.226 --> 00:05:02.406 A:middle
 on the request itself.
@@ -592,9 +576,6 @@ Everything will come in.
 Let's change it to 20, and
 then we're re-profile the app,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:02.026 --> 00:06:04.796 A:middle
 so product, profile,
 Core Data Instruments.
@@ -692,9 +673,6 @@ the thin line at the beginning
 for the initial fetch and then
 you've got subsequent lines
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:01.536 --> 00:07:04.136 A:middle
 appearing, ten lines again
 to bring in more objects.
@@ -781,9 +759,6 @@ model for your apps usage
 and in particular saying
 don't over-normalize.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.526 --> 00:08:04.506 A:middle
 And normalization in a
 traditional sense means
@@ -845,15 +820,15 @@ photos that we're seeing
 in the contact list, you should
 use external storage attribute.
 
-00:08:38.176 --> 00:08:40.405 A:middle
+00:08:38.176 --> 00:08:40.406 A:middle
 It's a simple checkbox
 in the data model.
 
-00:08:40.486 --> 00:08:44.015 A:middle
+00:08:40.486 --> 00:08:44.016 A:middle
 You just enable it, and we will
 store blobs as you set them
 
-00:08:44.015 --> 00:08:46.756 A:middle
+00:08:44.016 --> 00:08:46.756 A:middle
 on a property -- out to
 disk, but not necessarily.
 
@@ -876,9 +851,6 @@ it out there in SQLite.
 00:08:58.626 --> 00:09:00.596 A:middle
 If it's above the threshold,
 we'll write it to a file
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.596 --> 00:09:01.486 A:middle
 and store a reference.
@@ -980,9 +952,6 @@ Let's profile this again.
 This time the app
 launches quickly again,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:02.006 --> 00:10:02.976 A:middle
 but there's some
 marks appearing.
@@ -1072,9 +1041,6 @@ the relationship,
 00:10:57.326 --> 00:11:00.016 A:middle
 but that might not be the
 right thing to do in this case
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.466 --> 00:11:01.806 A:middle
 because our photo is 10 Meg.
@@ -1170,9 +1136,6 @@ in the bottom right.
 00:11:57.496 --> 00:12:00.656 A:middle
 This time my fetch durations
 have dropped dramatically,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.956 --> 00:12:03.006 A:middle
 so the longest thing right
@@ -1271,9 +1234,6 @@ so profile it once more.
 Let's look at the Fetches
 Instrument, and I'm going
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.426 --> 00:13:03.656 A:middle
 to hit my little
 refresh button in my UI,
@@ -1357,9 +1317,6 @@ time it takes to save
 00:13:56.766 --> 00:14:00.656 A:middle
 to a minimum wherever
 possible, and the reason
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.656 --> 00:14:02.966 A:middle
 that that's bad is that we're
@@ -1467,9 +1424,6 @@ It's a match.
 00:14:58.406 --> 00:15:00.286 A:middle
 That's an update, and we go
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.286 --> 00:15:01.696 A:middle
 to the next object
 in each enumerator.
@@ -1567,9 +1521,6 @@ It's not thin.
 It's a little bit wide,
 a few pixels wide,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:01.676 --> 00:16:03.026 A:middle
 but it's a certainly
 better than before.
@@ -1666,9 +1617,6 @@ Maybe it's 1000.
 00:16:58.896 --> 00:17:00.126 A:middle
 Maybe it's 550.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.676 --> 00:17:02.426 A:middle
 Just that little bit
 of difference means
@@ -1676,37 +1624,37 @@ of difference means
 00:17:02.426 --> 00:17:03.546 A:middle
 that you get things much faster,
 
-00:17:03.546 --> 00:17:06.915 A:middle
+00:17:03.546 --> 00:17:06.916 A:middle
 but without using too much
 memory, so experiment and test
 
-00:17:06.915 --> 00:17:08.165 A:middle
+00:17:06.916 --> 00:17:08.166 A:middle
 on every device that
 you support.
 
-00:17:08.276 --> 00:17:08.925 A:middle
+00:17:08.276 --> 00:17:08.926 A:middle
 Just because it works
 
-00:17:08.925 --> 00:17:11.616 A:middle
+00:17:08.926 --> 00:17:11.616 A:middle
 on an iPhone 5 very well doesn't
 necessarily mean it'll be
 
 00:17:11.616 --> 00:17:13.516 A:middle
 so good on a 4 or even a 3GS.
 
-00:17:15.715 --> 00:17:19.215 A:middle
+00:17:15.716 --> 00:17:19.216 A:middle
 So, let's talk about minimizing
 memory usage we'll be batching.
 
-00:17:20.195 --> 00:17:22.836 A:middle
+00:17:20.196 --> 00:17:22.836 A:middle
 You've got a number of ways to
 deal with getting rid of some
 
-00:17:22.836 --> 00:17:24.425 A:middle
+00:17:22.836 --> 00:17:24.426 A:middle
 of the information that
 you've just pulled in,
 
-00:17:24.425 --> 00:17:27.656 A:middle
+00:17:24.426 --> 00:17:27.656 A:middle
 and the first way is to turn
 a single managed object back
 
@@ -1774,9 +1722,6 @@ doing a batch?
 00:17:59.466 --> 00:18:01.726 A:middle
 The most efficient way
 is to reset the context
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.806 --> 00:18:04.136 A:middle
 by calling reset,
@@ -1863,9 +1808,6 @@ each of these fetches is going
 00:18:59.336 --> 00:19:03.036 A:middle
 to be very, very short and
 we're not using too much memory
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:03.036 --> 00:19:05.136 A:middle
 because we're using a
@@ -1965,9 +1907,6 @@ in my app.
 00:19:57.976 --> 00:19:59.966 A:middle
 Perhaps I'm trying to use
 this make a calculation.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.046 --> 00:20:03.556 A:middle
 Maybe I want to get a minimum
@@ -2073,9 +2012,6 @@ you could still set a predicate
 on the fetch request and
 set the properties to fetch.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:03.376 --> 00:21:06.176 A:middle
 I just want this expression
 description to come back,
@@ -2158,9 +2094,6 @@ account, and we're going
 00:21:56.476 --> 00:22:00.186 A:middle
 to group the results using
 group by, specify magnitude.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.186 --> 00:22:02.356 A:middle
 And this will actually
@@ -2271,9 +2204,6 @@ for how long a fetch took
 or how long an insert took
 and writing the values back
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.106 --> 00:23:03.316 A:middle
 and forth, but it does give
 you a lot of information
@@ -2359,9 +2289,6 @@ to add a launch argument.
 Again,
 -Com.Apple.CoreData.SQLDebug.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.426 --> 00:24:02.996 A:middle
 Let's specify a value of one.
 
@@ -2439,9 +2366,6 @@ time when we re-run the app,
 
 00:24:56.566 --> 00:24:57.886 A:middle
 we get a lot more information,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.576 --> 00:25:02.126 A:middle
 so we've got our
@@ -2541,9 +2465,6 @@ a little more complicated.
 Maybe this time you're
 using a nested context.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.796 --> 00:26:02.806 A:middle
 Maybe a main queue talks
 to the private queue,
@@ -2638,9 +2559,6 @@ to execute a fetch or a save
 in the main queue context up on
 the top right, that will have
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:01.316 --> 00:27:04.346 A:middle
 to wait until the lock is
 removed, but you can continue
@@ -2723,9 +2641,6 @@ optimization tricks.
 00:27:56.946 --> 00:28:01.116 A:middle
 You might want to consider using
 a different concurrency style,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.116 --> 00:28:03.616 A:middle
 and this time you have two
@@ -2814,9 +2729,6 @@ as you wish, but you should ask,
 00:28:57.436 --> 00:28:58.876 A:middle
 "Is this really what
 you want to do?"
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.256 --> 00:29:02.356 A:middle
 If you're using a fetch
@@ -2912,9 +2824,6 @@ you've got multiple stacks
 and you're doing a
 background import over here
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:01.726 --> 00:30:04.246 A:middle
 and it's saving data into
 the store, there are no locks
@@ -3000,9 +2909,6 @@ aged over 40.
 00:30:57.176 --> 00:31:00.876 A:middle
 In this case I'm asking for
 a text query to happen first,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.876 --> 00:31:04.496 A:middle
 so I'm saying I want to query
@@ -3099,9 +3005,6 @@ characters match.
 00:31:58.916 --> 00:32:00.286 A:middle
 As soon as we come across
 one that doesn't match,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.286 --> 00:32:01.236 A:middle
 we can move on to the next one.
@@ -3208,9 +3111,6 @@ being more expensive.
 00:32:58.596 --> 00:33:00.646 A:middle
 How can we deal with that?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:01.976 --> 00:33:04.456 A:middle
 And again, let's come
 back to this idea
@@ -3310,9 +3210,6 @@ we need to do to do the case
 and diacritic insensitive
 search,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.126 --> 00:34:02.876 A:middle
 so that's another way
 to speed things up.
@@ -3325,7 +3222,7 @@ might consider using tokens,
 so rather than maintaining
 a separate attribute,
 
-00:34:12.266 --> 00:34:14.335 A:middle
+00:34:12.266 --> 00:34:14.336 A:middle
 we actually maintain an
 entirely separate entity
 
@@ -3341,7 +3238,7 @@ entry with a date
 and then they can type
 whatever they want in there,
 
-00:34:22.045 --> 00:34:25.556 A:middle
+00:34:22.046 --> 00:34:25.556 A:middle
 but to make it as fast as
 possible to search I'm going
 
@@ -3357,11 +3254,11 @@ all the tokens whenever they set
 a string for the text
 in my journal entry
 
-00:34:34.126 --> 00:34:38.505 A:middle
+00:34:34.126 --> 00:34:38.506 A:middle
 and that will be a normalized
 token of each word in the entry,
 
-00:34:38.505 --> 00:34:41.406 A:middle
+00:34:38.506 --> 00:34:41.406 A:middle
 and we can get those tokens
 out by calling something
 
@@ -3373,7 +3270,7 @@ by characters in a set.
 And maybe you want to separate
 by whitespace, by symbol,
 
-00:34:46.676 --> 00:34:48.735 A:middle
+00:34:46.676 --> 00:34:48.736 A:middle
 punctuation, maybe a
 combination of all of those.
 
@@ -3381,7 +3278,7 @@ combination of all of those.
 Maybe in an -- a, you know,
 engineering app you should think
 
-00:34:51.096 --> 00:34:52.755 A:middle
+00:34:51.096 --> 00:34:52.756 A:middle
 about whether symbols
 are important to you,
 
@@ -3396,9 +3293,6 @@ got tokens stored separately
 00:34:57.956 --> 00:35:00.076 A:middle
 from the text and
 you can now query
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.076 --> 00:35:01.836 A:middle
 against those using
@@ -3498,9 +3392,6 @@ for objects that match.
 If that still doesn't give
 enough, then you might need
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:03.786 --> 00:36:06.986 A:middle
 to consider having a hash
 table in memory, and for this,
@@ -3589,9 +3480,6 @@ connected properly.
 00:36:58.026 --> 00:37:00.306 A:middle
 You'll get a little graph
 of transfer activity,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.396 --> 00:37:02.416 A:middle
 so as information goes up to
@@ -3692,9 +3580,6 @@ problems that you're seeing.
 00:37:59.766 --> 00:38:02.096 A:middle
 If something's taken a long
 time, see how long it's taking.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:02.176 --> 00:38:05.476 A:middle
 Wherever possible don't
@@ -3797,9 +3682,5 @@ Thank you very much.
 00:38:55.516 --> 00:39:00.516 A:middle
 [ Applause ]
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:01.016 --> 00:39:03.306 A:middle
 [ Silence ]
-

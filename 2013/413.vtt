@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.446 --> 00:00:15.166 A:middle
 &gt;&gt; Good morning and welcome to
@@ -71,9 +70,6 @@ for the debugging experience.
 00:00:59.386 --> 00:01:02.546 A:middle
 LLDB is essentially a library
 that knows how to do all kinds
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:02.546 --> 00:01:04.916 A:middle
 of interesting things with
@@ -168,9 +164,6 @@ It's not always about going in
 and finding a specific
 defect in your code.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.236 --> 00:02:01.846 A:middle
 Because our collective
 goal is to make sure
@@ -255,9 +248,6 @@ subtle, you'll see a lot
 of the old features working
 faster, more predictably
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:02.916 --> 00:03:04.726 A:middle
 with fewer edge cases
 that you need to worry
@@ -340,9 +330,6 @@ the lines of the new syntax
 00:03:59.736 --> 00:04:02.366 A:middle
 for Objective-C,
 Objective-Constants,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:02.956 --> 00:04:06.556 A:middle
 they just showed up in LLDB and
@@ -434,9 +421,6 @@ in detail later.
 They should be familiar
 ideas, things like assertions
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:01.596 --> 00:05:04.156 A:middle
 and logging, static
 analysis, and using some
@@ -523,9 +507,6 @@ application, you may find
 00:05:56.766 --> 00:06:00.156 A:middle
 that these have not
 been taken care of,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.526 --> 00:06:02.306 A:middle
 that's why you're not getting
@@ -615,9 +596,6 @@ interesting about them.
 00:06:55.726 --> 00:07:00.146 A:middle
 And lastly, we want to focus
 on how you can write debug code
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.386 --> 00:07:02.916 A:middle
 without stopping your
@@ -709,9 +687,6 @@ to catch those tasty bugs?
 The answer is step one we
 need to pick our focus.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:02.506 --> 00:08:03.666 A:middle
 We need to choose what it is
 
@@ -759,11 +734,11 @@ state of our application
 and the changes that
 are being made.
 
-00:08:33.796 --> 00:08:37.765 A:middle
+00:08:33.796 --> 00:08:37.766 A:middle
 So our focus here is to help you
 be experts at all of the above.
 
-00:08:39.155 --> 00:08:41.666 A:middle
+00:08:39.156 --> 00:08:41.666 A:middle
 To get it started, I'd like
 to invite up Sean Callan,
 
@@ -792,9 +767,6 @@ Thank you, Sean.
 
 00:08:59.186 --> 00:09:00.006 A:middle
 &gt;&gt; Thank you very much, Kate.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.756 --> 00:09:04.066 A:middle
 I'm really excited to show you
@@ -871,9 +843,6 @@ program won't work correctly.
 So this is really for
 cases where your app is,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:04.306 --> 00:10:07.336 A:middle
 has encountered something
 that just can't be.
@@ -944,9 +913,6 @@ have to be aware of.
 When you've got an assertion
 compiled into your code,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.646 --> 00:11:06.046 A:middle
 the condition is evaluated
 only if the assertion is there.
@@ -1012,9 +978,6 @@ System Log is you can indicate
 00:11:59.076 --> 00:12:02.306 A:middle
 how severe the log messages
 are that you're sending out.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:03.386 --> 00:12:07.236 A:middle
 You can distinguish between
@@ -1093,9 +1056,6 @@ state of structures
 00:12:59.656 --> 00:13:00.776 A:middle
 and printing everything.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:01.406 --> 00:13:03.416 A:middle
 Now maybe, you want to
 turn that on and off
@@ -1165,9 +1125,6 @@ modifying your source code.
 00:13:55.676 --> 00:13:59.586 A:middle
 But we've also provided you with
 some great ways inside Xcode
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.016 --> 00:14:01.736 A:middle
 to find bugs in your program.
@@ -1243,9 +1200,6 @@ language that you can use
 through the LLDB
 console to achieve many
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.676 --> 00:15:02.366 A:middle
 of the same things
 and a couple more.
@@ -1309,9 +1263,6 @@ you want to output.
 00:15:58.076 --> 00:16:00.916 A:middle
 Now, after you've used
 that a couple of times,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.956 --> 00:16:03.066 A:middle
 you're probably going to say,
@@ -1386,9 +1337,6 @@ to explore it on your own.
 00:16:58.766 --> 00:16:59.366 A:middle
 All right.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.696 --> 00:17:05.606 A:middle
 Now that I've gotten through the
 background, let's show you how
@@ -1407,11 +1355,11 @@ stopping before your bug occurs.
 Now here, I have two
 sub classes of UIView
 
-00:17:20.205 --> 00:17:22.415 A:middle
+00:17:20.206 --> 00:17:22.416 A:middle
 and both implement
 the drawRect method.
 
-00:17:22.415 --> 00:17:26.776 A:middle
+00:17:22.416 --> 00:17:26.776 A:middle
 What I want to see is how
 can I stop at these methods,
 
@@ -1457,9 +1405,6 @@ know the filing by line number,
 00:17:56.956 --> 00:17:59.606 A:middle
 you can tell LLDB, just
 stop at this method
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.436 --> 00:18:04.376 A:middle
 and just make sure you include
@@ -1536,9 +1481,6 @@ breakpoints and OK,
 00:18:58.606 --> 00:19:01.866 A:middle
 back to Xcode, doing something
 at the console, then going back
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:01.866 --> 00:19:03.656 A:middle
 to your app doing some what--
@@ -1619,9 +1561,6 @@ from your commands.
 There's a way to do
 this in Xcode too.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:02.726 --> 00:20:05.636 A:middle
 You select the breakpoint,
 you right-click,
@@ -1696,9 +1635,6 @@ to use a breakpoint condition.
 So let's look at
 this example here,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.776 --> 00:21:05.356 A:middle
 I'm stopped at the Init function
 for a class I wrote and I want
@@ -1764,9 +1700,6 @@ only when self is equal
 00:21:56.866 --> 00:22:00.626 A:middle
 to the current value of self.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.816 --> 00:22:04.906 A:middle
 That's really handy and you
 can do in the next code too.
@@ -1826,9 +1759,6 @@ at that location.
 00:22:55.116 --> 00:23:00.176 A:middle
 In this case, you use the
 watchpoint set variable command
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.176 --> 00:23:04.846 A:middle
 to do so and LLDB will stop the
@@ -1893,9 +1823,6 @@ click Continue, you'll stop.
 00:23:58.416 --> 00:24:00.456 A:middle
 Now notice here we've
 stopped right
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.456 --> 00:24:03.656 A:middle
 after we actually set the
@@ -1965,9 +1892,6 @@ and make it go where you want.
 One of the most annoying things
 that I run into when I'm trying
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:04.996 --> 00:25:08.726 A:middle
 to step is I'm at one place
 in my function, I want to get
@@ -2031,9 +1955,6 @@ feature called thread
 00:25:53.726 --> 00:26:01.036 A:middle
 until which will stop at the
 line you tell it to or if you're
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:01.036 --> 00:26:04.086 A:middle
 about to leave the function
@@ -2099,9 +2020,6 @@ we've actually got a stock
 and we remember what
 you were doing
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:01.376 --> 00:27:02.676 A:middle
 when you hit that breakpoint.
 
@@ -2161,9 +2079,6 @@ you care about.
 00:27:56.946 --> 00:28:01.816 A:middle
 Sometimes you're in situations
 where you're testing your code
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:02.006 --> 00:28:04.386 A:middle
 and you're trying to
@@ -2227,9 +2142,6 @@ actually stop
 00:28:58.786 --> 00:29:01.196 A:middle
 when you've entered function
 and you can watch it run.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:02.736 --> 00:29:07.356 A:middle
 Now remember, because we're
@@ -2300,9 +2212,6 @@ Hello, everyone.
 
 00:29:59.776 --> 00:30:00.796 A:middle
 I'm Enrico.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.866 --> 00:30:04.126 A:middle
 I'm one of the engineers that
@@ -2388,9 +2297,6 @@ for each case.
 Well, I like to think
 of the LLDB facilities
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.666 --> 00:31:03.186 A:middle
 to show data as a tool box.
 
@@ -2470,9 +2376,6 @@ data, arbitrary chunks of code.
 00:31:58.286 --> 00:32:01.126 A:middle
 We're actually having
 clang right there,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:01.196 --> 00:32:03.686 A:middle
 that means a type
@@ -2555,9 +2458,6 @@ you the result.
 Description is the select
 that Apple implemented
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:02.756 --> 00:33:06.196 A:middle
 for see some classes, but
 that you can also implement
@@ -2623,9 +2523,6 @@ a person to look at
 or maybe it's not our own
 types, maybe we got a library
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.056 --> 00:34:01.506 A:middle
 and we're trying to
 make sense of it.
@@ -2634,7 +2531,7 @@ make sense of it.
 And maybe it is simply too much
 of it and makes sense here,
 
-00:34:07.206 --> 00:34:10.045 A:middle
+00:34:07.206 --> 00:34:10.046 A:middle
 what doesn't make sense here
 just don't know I'm lost.
 
@@ -2657,11 +2554,11 @@ view would look like.
 IM MMS array and only tells
 me is its memory location.
 
-00:34:28.025 --> 00:34:30.706 A:middle
+00:34:28.026 --> 00:34:30.706 A:middle
 I have an NSString, and
 so it tells me it's the
 
-00:34:30.706 --> 00:34:31.795 A:middle
+00:34:30.706 --> 00:34:31.796 A:middle
 memory location.
 
 00:34:32.626 --> 00:34:34.386 A:middle
@@ -2676,14 +2573,14 @@ actually get in Xcode 5.
 Your MMS array is going to
 tell you many objects it has,
 
-00:34:45.065 --> 00:34:46.596 A:middle
+00:34:45.066 --> 00:34:46.596 A:middle
 you're going to see
 each one of those.
 
-00:34:48.016 --> 00:34:48.335 A:middle
+00:34:48.016 --> 00:34:48.336 A:middle
 Thank you.
 
-00:34:51.616 --> 00:34:52.025 A:middle
+00:34:51.616 --> 00:34:52.026 A:middle
 Thank you.
 
 00:34:52.696 --> 00:34:55.186 A:middle
@@ -2696,9 +2593,6 @@ will tell you what class they
 
 00:34:58.306 --> 00:34:59.656 A:middle
 belong to.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.396 --> 00:35:04.416 A:middle
 But that's just a solution with
@@ -2780,9 +2674,6 @@ that means nothing to me.
 And the way to get here is
 with the LLDB data formatters.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:02.036 --> 00:36:08.556 A:middle
 The cool news is, we did all
 the work for system libraries.
@@ -2841,9 +2732,6 @@ can do the same thing
 
 00:36:55.136 --> 00:36:56.386 A:middle
 for your own data types.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.556 --> 00:37:02.946 A:middle
 So let's see exactly
@@ -2925,9 +2813,6 @@ that implement the summary.
 The base matching is by
 name, you say type name full,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:02.076 --> 00:38:04.666 A:middle
 LLDB call this function
 to summarize the object.
@@ -3008,9 +2893,6 @@ what's your data type,
 00:38:59.316 --> 00:39:01.286 A:middle
 what's your summary
 string if you have any?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:01.696 --> 00:39:03.346 A:middle
 Do you have children?
@@ -3101,9 +2983,6 @@ Python strings
 that represent my
 first and my last name.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.776 --> 00:40:03.526 A:middle
 And since our Python strings,
 I'm really free to the--
@@ -3173,9 +3052,6 @@ Sometimes you have some data
 00:40:57.056 --> 00:41:00.136 A:middle
 and you don't really know
 its format 'cause they didn't
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.136 --> 00:41:01.086 A:middle
 [inaudible] you how
@@ -3253,9 +3129,6 @@ Again, this is the power
 of having the compiler
 the expression parser,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.286 --> 00:42:03.336 A:middle
 you can define a
 full native structure
@@ -3327,9 +3200,6 @@ to be actually shines.
 00:42:58.286 --> 00:43:00.556 A:middle
 Let's talk about ways that
 it can extend the debugger
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:00.846 --> 00:43:04.186 A:middle
 and make the debugger
@@ -3408,9 +3278,6 @@ huge reward for making
 00:43:59.426 --> 00:44:01.796 A:middle
 that transition in
 terms of how easy
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:01.796 --> 00:44:04.296 A:middle
 to maintain your commands
@@ -3500,9 +3367,6 @@ executes for you.
 Let's make a quick example
 of a great LLDB Command.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:04.536 --> 00:45:06.706 A:middle
 Let's say that my
 program is a recursion.
@@ -3591,9 +3455,6 @@ in the office.
 It means it's the full power of
 the debugger, the entire power
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:02.036 --> 00:46:05.516 A:middle
 of the debugger and you that you
 use in Xcode is available to you
@@ -3670,9 +3531,6 @@ that passion, all that coning,
 00:46:56.956 --> 00:47:00.616 A:middle
 all that wet and toiling too
 suddenly becomes a live entity,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:00.836 --> 00:47:03.726 A:middle
 you can suddenly type and type
@@ -3762,9 +3620,6 @@ it calls the function.
 That's the prototype
 of Python commands.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:01.616 --> 00:48:04.526 A:middle
 They get past the debugger
 which an SB Debugger.
@@ -3852,9 +3707,6 @@ for you and it looks
 like there's 10 frames
 of your recursion.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:01.926 --> 00:49:04.846 A:middle
 This is how you do
 the first step.
@@ -3938,9 +3790,6 @@ have the thread
 and you're not perplexed
 anymore.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:00.036 --> 00:50:03.986 A:middle
 So let's get going, I can ask
 you to frame the question,
@@ -4019,9 +3868,6 @@ answer that's 20 frames.
 00:50:58.906 --> 00:51:01.306 A:middle
 Some of you probably
 have counted the frames
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:01.396 --> 00:51:03.506 A:middle
 and raise your hand
@@ -4103,9 +3949,6 @@ looking at your program instead
 
 00:51:57.426 --> 00:51:59.266 A:middle
 of on peer with your programs.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:00.556 --> 00:52:01.586 A:middle
 How do they work?
@@ -4191,9 +4034,6 @@ on which the breakpoint was hit.
 And that's how you bind
 one breakpoint command at.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:53:01.026 --> 00:53:05.226 A:middle
 Let's give an example,
 let's go back
@@ -4276,9 +4116,6 @@ happen, right?
 I need to see how deep the
 recursion is and I need to stop
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:54:00.796 --> 00:54:03.476 A:middle
 if that's more deep than
 I'm willing to accept.
@@ -4360,9 +4197,6 @@ And here it is in action.
 00:54:57.046 --> 00:54:59.996 A:middle
 It's the same situation
 as before we stopped
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:55:00.316 --> 00:55:01.736 A:middle
 and there's 20 frames.
@@ -4451,9 +4285,6 @@ every time we start
 00:55:59.796 --> 00:56:01.476 A:middle
 up a debug session with LLDB.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:56:02.226 --> 00:56:04.656 A:middle
 It's a great place to
 treat debugger settings.
@@ -4518,9 +4349,6 @@ in this room, right today.
 00:56:56.786 --> 00:57:00.096 A:middle
 Sean showed us great way to
 be effective when debugging.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:57:01.076 --> 00:57:03.606 A:middle
 How I can use logging
@@ -4608,9 +4436,6 @@ you can get help about LLDB.
 If you don't know exactly
 what you're looking for,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:58:01.036 --> 00:58:02.756 A:middle
 you can use the appropriate
 po keyword for--
@@ -4656,4 +4481,3 @@ joining us today.
 
 00:58:28.576 --> 00:58:28.846 A:middle
 Thank you.
-

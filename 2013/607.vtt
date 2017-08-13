@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.496 A:middle
 [ Silence ]
@@ -68,9 +67,6 @@ that's super power efficient and
 00:00:57.296 --> 00:00:59.586 A:middle
 yet still feels fast
 and responsive.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.106 --> 00:01:03.006 A:middle
 But that's not an easy
@@ -155,9 +151,6 @@ is using too much power
 and also some common mistakes
 that we've seen pages make
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:01.456 --> 00:02:03.886 A:middle
 that cause them to use too much
 power than the author intended.
@@ -236,9 +229,6 @@ So how does this work?
 
 00:02:58.536 --> 00:03:00.016 A:middle
 Well you may already know
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.016 --> 00:03:03.056 A:middle
 that in Safari we actually use
@@ -329,9 +319,6 @@ case where we can Nap tabs
 and that's what we
 call idle windows.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.716 --> 00:04:03.976 A:middle
 So the system can now tell
 us whether a window has been
@@ -359,7 +346,7 @@ it's not actually,
 the page is not really
 doing anything.
 
-00:04:17.805 --> 00:04:20.736 A:middle
+00:04:17.806 --> 00:04:20.736 A:middle
 That means that page is
 also eligible for napping.
 
@@ -417,9 +404,6 @@ later on in the session,
 
 00:04:58.496 --> 00:04:59.776 A:middle
 that will also get rate limited.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.886 --> 00:05:04.746 A:middle
 But when we were working on
@@ -509,9 +493,6 @@ really investigate Safari
 00:05:59.116 --> 00:06:00.956 A:middle
 Reading Lists because that's a
 much better way of keeping track
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.956 --> 00:06:01.846 A:middle
 of all of those URL's.
@@ -605,9 +586,6 @@ CPU power consumption
 so it's really great
 energy saving.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.836 --> 00:07:05.336 A:middle
 So you know why do
 we need this thing?
@@ -690,9 +668,6 @@ is through three techniques.
 00:07:58.216 --> 00:08:01.086 A:middle
 First of all when you visit
 a page in order to see
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:01.086 --> 00:08:02.596 A:middle
 like an internet
@@ -780,9 +755,6 @@ pass that click event through
 and then the plugin
 we'll run as normal.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:09:00.166 --> 00:09:02.346 A:middle
 And in many cases the
 user won't even notice.
@@ -863,9 +835,6 @@ object or embed element
 
 00:09:58.556 --> 00:09:59.966 A:middle
 over the lifetime of the page.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.436 --> 00:10:02.296 A:middle
 So the page needs to
@@ -948,9 +917,6 @@ the tools you can use
 to detect whether your
 pages are using more power
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.676 --> 00:11:01.346 A:middle
 than they should.
 
@@ -1023,9 +989,6 @@ App Nap for Safari Tabs.
 00:11:56.746 --> 00:11:59.486 A:middle
 Any pages that are minimized
 or hidden or occluded.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.016 --> 00:12:06.156 A:middle
 So there are some things that
@@ -1109,9 +1072,6 @@ hidden, visible or prerender.
 00:12:58.776 --> 00:13:00.176 A:middle
 Now hidden and visible
 are pretty obvious
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.176 --> 00:13:02.066 A:middle
 but let me explain
@@ -1198,9 +1158,6 @@ like document.hidden
 to know whether your
 page is hidden or not.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:00.396 --> 00:14:08.636 A:middle
 So that's page visibility new
 in Safari 6.1 and 7 and in iOS7.
@@ -1282,9 +1239,6 @@ it means that 3 out of every
 to the user so that's
 a real waste of power.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.106 --> 00:15:02.696 A:middle
 Now the second problem
 
@@ -1361,9 +1315,6 @@ is described
 00:15:58.666 --> 00:16:04.186 A:middle
 in the W3C Animation
 Timing Spec.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:04.476 --> 00:16:07.106 A:middle
 So before requestAnimationFrame
@@ -1456,9 +1407,6 @@ animation in JavaScript.
 So requestAnimationFrame
 you may be familiar
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.896 --> 00:17:02.536 A:middle
 with as WebKit
 requestAnimationFrame
@@ -1467,11 +1415,11 @@ requestAnimationFrame
 in earlier releases but now
 it's just requestAnimationFrame
 
-00:17:05.516 --> 00:17:08.965 A:middle
+00:17:05.516 --> 00:17:08.966 A:middle
 and it's in Safari
 6.1 and 7 and iOS7.
 
-00:17:09.205 --> 00:17:12.306 A:middle
+00:17:09.206 --> 00:17:12.306 A:middle
 So what should you do with
 these new JavaScript API's
 
@@ -1491,11 +1439,11 @@ that the users can't see.
 For example, you
 might have a ticker
 
-00:17:24.236 --> 00:17:26.455 A:middle
+00:17:24.236 --> 00:17:26.456 A:middle
 on the page that's fetching
 data from the server
 
-00:17:26.455 --> 00:17:28.656 A:middle
+00:17:26.456 --> 00:17:28.656 A:middle
 to update stock prices
 or something like that
 
@@ -1539,9 +1487,6 @@ background or for example
 
 00:17:58.856 --> 00:18:00.196 A:middle
 when the user switches bases
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.196 --> 00:18:02.536 A:middle
 and the Safari window
@@ -1620,9 +1565,6 @@ that she really likes to cook.
 [laughter] So what you
 don't know, or may not know,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:03.336 --> 00:19:06.336 A:middle
 is that she also has a giant
 pizza oven in her backyard
@@ -1696,9 +1638,6 @@ background the other tab,
 00:19:57.706 --> 00:19:59.866 A:middle
 the timers are rate
 limited, as Simon mentioned,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.496 --> 00:20:03.286 A:middle
 but we're still doing
@@ -1779,9 +1718,6 @@ updates at all, no green ticks.
 You'll also notice while it
 was hidden the graph kind
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:02.136 --> 00:21:03.016 A:middle
 of looks broken.
 
@@ -1857,9 +1793,6 @@ Back to you, Simon.
 
 00:21:59.061 --> 00:22:01.061 A:middle
 [Applause]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:01.106 --> 00:22:01.546 A:middle
 &gt;&gt; Simon Fraser: Thank you, Tim.
@@ -1944,9 +1877,6 @@ you're probably more interested
 00:22:59.976 --> 00:23:02.256 A:middle
 in the tools that are
 closer to your web content.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:02.906 --> 00:23:04.896 A:middle
 There were a couple of
@@ -2040,9 +1970,6 @@ JavaScript that's running
 but that's actually
 not usually the case.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.696 --> 00:24:05.206 A:middle
 Usually the most common
 cause of badly behaving pages
@@ -2129,9 +2056,6 @@ properties and functions exposed
 00:24:57.856 --> 00:25:00.476 A:middle
 to JavaScript that force
 us to eagerly do layout.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:01.156 --> 00:25:02.676 A:middle
 And there's quite
@@ -2223,9 +2147,6 @@ layouts up to date.
 Now the first line through
 the loop you're probably fine.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:02.166 --> 00:26:05.356 A:middle
 But then later on in the loop
 it's common for the JavaScript
@@ -2309,9 +2230,6 @@ animated image is covered
 00:26:58.676 --> 00:27:00.856 A:middle
 up the browser is going to
 be able to stop painting it.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:01.456 --> 00:27:02.866 A:middle
 Well in many cases we can.
@@ -2403,9 +2321,6 @@ tool for the job.
 00:27:58.286 --> 00:28:01.126 A:middle
 If you're doing animation,
 CSS transitions
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.126 --> 00:28:02.196 A:middle
 and animations are always going
@@ -2504,9 +2419,6 @@ power efficiency that way.
 So I would like to take a moment
 to talk about Safari Extensions.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:08.856 --> 00:29:12.086 A:middle
 If you are a Safari Extension
 Developer it's extremely
@@ -2570,9 +2482,6 @@ document.hidden and only show UI
 
 00:29:57.306 --> 00:30:03.896 A:middle
 if the page is actually visible.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:03.896 --> 00:30:08.806 A:middle
 So I talked about two new
@@ -2662,9 +2571,6 @@ and scroll right away.
 00:30:57.646 --> 00:31:00.226 A:middle
 So it was very important for us
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.496 --> 00:31:02.766 A:middle
 that Safari had extremely
 responsive scrolling.
@@ -2752,9 +2658,6 @@ do scrolling not by painting
 00:31:58.496 --> 00:32:00.696 A:middle
 but simply by moving
 those tiles around.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.696 --> 00:32:03.276 A:middle
 So the implementation is
@@ -2845,9 +2748,6 @@ process earlier.
 00:32:58.576 --> 00:33:01.626 A:middle
 But the user events initially
 go to this Safari application.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:01.976 --> 00:33:03.786 A:middle
 But Safari then sends
@@ -2943,9 +2843,6 @@ common, for example,
 his social link aside,
 that the author has styled
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.686 --> 00:34:05.556 A:middle
 with position fixed and when
 the page scrolls of course
@@ -2954,19 +2851,19 @@ the page scrolls of course
 that social link stays
 in the same place.
 
-00:34:07.856 --> 00:34:09.485 A:middle
+00:34:07.856 --> 00:34:09.486 A:middle
 Standard position
 fixed behavior.
 
-00:34:10.005 --> 00:34:12.666 A:middle
+00:34:10.006 --> 00:34:12.666 A:middle
 But the browser has to
 understand this now and be able
 
-00:34:12.666 --> 00:34:15.065 A:middle
+00:34:12.666 --> 00:34:15.066 A:middle
 to analyze the page and break
 the page up into a series
 
-00:34:15.065 --> 00:34:17.306 A:middle
+00:34:15.066 --> 00:34:17.306 A:middle
 of layers so it knows how
 to move all those layers
 
@@ -2978,14 +2875,14 @@ keep the right behavior.
 There's a second sort of special
 scrolling behavior in CSS
 
-00:34:26.356 --> 00:34:28.585 A:middle
+00:34:26.356 --> 00:34:28.586 A:middle
 and that's fixed backgrounds,
 
-00:34:29.275 --> 00:34:32.565 A:middle
+00:34:29.276 --> 00:34:32.566 A:middle
 backgrounds that have the
 background attachment fixed
 
-00:34:32.565 --> 00:34:36.545 A:middle
+00:34:32.566 --> 00:34:36.546 A:middle
 style in them and these
 are also quite common.
 
@@ -3013,15 +2910,12 @@ same place in the view port
 so it's sort of the background
 equivalent of position fixed
 
-00:34:54.255 --> 00:34:57.666 A:middle
+00:34:54.256 --> 00:34:57.666 A:middle
 so it looks like this.
 
 00:34:57.836 --> 00:35:00.606 A:middle
 But again, this is a scrolling
 behavior the browser now
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.606 --> 00:35:04.396 A:middle
 understands and we do
@@ -3106,9 +3000,6 @@ background by putting that style
 on the body not on the HTML so
 we recommend that you do that.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:05.456 --> 00:36:07.306 A:middle
 Now there's something else
 when we're looking at scrolling
@@ -3187,9 +3078,6 @@ on the right hand side,
 00:36:56.716 --> 00:37:01.616 A:middle
 when the page scrolls that box
 moves with the page for a bit
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:01.616 --> 00:37:03.046 A:middle
 and then it sticks
@@ -3281,9 +3169,6 @@ position property called sticky
 and because it's still in draw
 form it has the WebKit prefix.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:03.626 --> 00:38:08.346 A:middle
 And to be a little more
 technical, sticky specifies
@@ -3362,9 +3247,6 @@ is pushing the sticky item
 00:38:59.776 --> 00:39:00.566 A:middle
 out of the page.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.976 --> 00:39:02.866 A:middle
 And so this is exactly
 the behavior we saw
@@ -3437,9 +3319,6 @@ do to make sure
 that your pages are getting the
 best possible scrolling behavior
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.256 --> 00:40:01.886 A:middle
 in Safari?
 
@@ -3511,9 +3390,6 @@ case where we optimize
 00:40:56.776 --> 00:41:00.026 A:middle
 for the most common case
 that we saw which is
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.026 --> 00:41:03.306 A:middle
 that almost all pages scroll by
@@ -3599,9 +3475,6 @@ see up here on the screen
 that scrolling is
 kind of chunky.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.096 --> 00:42:03.616 A:middle
 It's not really super smooth
 and I can really, really feel it
@@ -3674,9 +3547,6 @@ the code I notice
 00:42:57.056 --> 00:43:02.726 A:middle
 in fact they do have a fixed
 background on an element
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:02.726 --> 00:43:03.946 A:middle
 that is not a root element
@@ -3753,9 +3623,6 @@ great for power either.
 So you'll notice here at the
 top of the page, scroll down,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:00.966 --> 00:44:04.546 A:middle
 see the map and post section
 there, it's sticking to the top.
@@ -3826,9 +3693,6 @@ right there very nice.
 00:44:58.466 --> 00:45:01.106 A:middle
 And let's look one more time
 back in the develop menu
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:01.246 --> 00:45:02.246 A:middle
 and show the web inspector
@@ -3907,9 +3771,6 @@ great power savings
 00:45:59.396 --> 00:46:01.036 A:middle
 and make Safari super
 power efficient.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:01.506 --> 00:46:03.926 A:middle
 And we've also talked
@@ -3995,9 +3856,6 @@ users will love it
 00:46:58.276 --> 00:46:59.546 A:middle
 when they see it on your pages.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:00.126 --> 00:47:05.246 A:middle
 So if you need more information
 you contact John Geleynse
@@ -4080,4 +3938,3 @@ Thank you very much.
 
 00:47:49.016 --> 00:47:59.436 A:middle
 [Silence]
-

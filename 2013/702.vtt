@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.546 A:middle
 [ Silence ]
@@ -29,7 +28,7 @@ a talk that's going to focus
 on performance and the two
 dimensions of that are going
 
-00:00:29.586 --> 00:00:32.555 A:middle
+00:00:29.586 --> 00:00:32.556 A:middle
 to be architectural
 design and implementation.
 
@@ -65,9 +64,6 @@ bootstrapping and IPC.
 00:00:59.136 --> 00:01:02.416 A:middle
 So, everything relating to
 getting a service up and running
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:02.416 --> 00:01:05.596 A:middle
 and talking to it,
@@ -154,9 +150,6 @@ to the user saying,
 And also, on the other
 side of this coin,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:01.446 --> 00:02:03.726 A:middle
 you'll have a different
 set of privilege levels
@@ -169,7 +162,7 @@ that service.
 So your app might have a set
 of entitlements for example
 
-00:02:09.515 --> 00:02:11.566 A:middle
+00:02:09.516 --> 00:02:11.566 A:middle
 that allow it to,
 say, talk to iCloud
 
@@ -241,9 +234,6 @@ to you, the developer.
 00:02:58.956 --> 00:03:01.476 A:middle
 The main one is Bundled
 Services.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:01.476 --> 00:03:03.676 A:middle
 These are the things that
@@ -333,9 +323,6 @@ more boilerplate code for you
 to write, but you do get
 additional capabilities.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.376 --> 00:04:02.256 A:middle
 You can run as root for one,
 
@@ -412,9 +399,6 @@ powerful Cocoa programing idioms
 00:04:59.426 --> 00:05:02.366 A:middle
 that we just really can't do
 down at the libSystem Layer
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:02.366 --> 00:05:04.086 A:middle
 where the C Library exits.
@@ -500,9 +484,6 @@ out these resources fairly.
 And finally, we want
 things to initialize lazily.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:02.246 --> 00:06:04.526 A:middle
 So this goes with
 the on-demand theme.
@@ -573,9 +554,6 @@ sorry, in [laughter] Mavericks,
 00:06:58.396 --> 00:07:01.206 A:middle
 we also introduced CF
 Distributed Notifications.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:01.356 --> 00:07:04.096 A:middle
 So if that's your preferred
@@ -662,9 +640,6 @@ And for Legacy reasons, you have
 to add this IOMatchLaunchStream
 key and set it to true,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.606 --> 00:08:04.486 A:middle
 just do that, I won't
 explain why.
@@ -704,11 +679,11 @@ dispatch queue and a block.
 And the block gets
 invoked on that queue.
 
-00:08:31.766 --> 00:08:33.785 A:middle
+00:08:31.766 --> 00:08:33.786 A:middle
 And then once that
 block has been invoked,
 
-00:08:33.785 --> 00:08:35.106 A:middle
+00:08:33.786 --> 00:08:35.106 A:middle
 the event has been consumed.
 
 00:08:35.556 --> 00:08:38.546 A:middle
@@ -741,9 +716,6 @@ the thing of the node that fired
 
 00:08:59.526 --> 00:09:00.916 A:middle
 and then you can reconstruct it
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.916 --> 00:09:04.966 A:middle
 and turn it into
@@ -829,9 +801,6 @@ efficiently utilize the battery
 00:09:58.776 --> 00:10:00.786 A:middle
 because we can take
 certain tasks
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.786 --> 00:10:02.766 A:middle
 that have similar
@@ -921,9 +890,6 @@ disk is spinning
 and whether the screen
 is asleep.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.116 --> 00:11:03.086 A:middle
 So we can actually do your
 work while the user is, say,
@@ -1005,9 +971,6 @@ this thing should go.
 And the grace periods, you know,
 we have a 10-minute slack time.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:02.656 --> 00:12:04.956 A:middle
 So it's like we'd like every
 five minutes but it's okay
@@ -1085,9 +1048,6 @@ invoked for whatever reason,
 00:12:59.456 --> 00:13:03.346 A:middle
 let's-- and then let's say the
 app is killed before it can be
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:03.346 --> 00:13:06.526 A:middle
 invoked, we'll bring you back
@@ -1171,9 +1131,6 @@ bubble kind of faded away
 00:13:58.126 --> 00:14:01.006 A:middle
 and that means that as soon
 as the last one goes away
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:01.136 --> 00:14:03.436 A:middle
 or as soon as the last reply is
@@ -1261,9 +1218,6 @@ which is new to Mavericks.
 And this is the default behavior
 now for bundled services.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:01.276 --> 00:15:03.646 A:middle
 And what happens is that they
 are background by default.
@@ -1348,9 +1302,6 @@ resource contention fights.
 So that's bundled XPC
 services by default.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:03.366 --> 00:16:06.436 A:middle
 But if you have a launchd job,
 you can also opt into this.
@@ -1424,13 +1375,10 @@ on anything that the job does.
 So it's not supposed to update
 its UI in response to something
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.226 --> 00:17:02.566 A:middle
 that that launchd job is doing.
 
-00:17:02.936 --> 00:17:04.455 A:middle
+00:17:02.936 --> 00:17:04.456 A:middle
 We also have this
 Interactive key.
 
@@ -1438,11 +1386,11 @@ Interactive key.
 We'd rather that you simply
 not use it because it will mean
 
-00:17:08.846 --> 00:17:10.415 A:middle
+00:17:08.846 --> 00:17:10.416 A:middle
 that your service,
 whatever it does,
 
-00:17:10.415 --> 00:17:12.626 A:middle
+00:17:10.416 --> 00:17:12.626 A:middle
 can always potentially
 steal resources away
 
@@ -1453,11 +1401,11 @@ from an application
 and potentially results
 in a stuttering UI.
 
-00:17:16.685 --> 00:17:18.925 A:middle
+00:17:16.686 --> 00:17:18.926 A:middle
 And then there's a
 Standard which is the same
 
-00:17:18.925 --> 00:17:20.476 A:middle
+00:17:18.926 --> 00:17:20.476 A:middle
 as just not specifying
 something.
 
@@ -1465,10 +1413,10 @@ something.
 So if you really just
 want to have this key
 
-00:17:22.306 --> 00:17:28.465 A:middle
+00:17:22.306 --> 00:17:28.466 A:middle
 in your plist, use that value.
 
-00:17:28.465 --> 00:17:31.706 A:middle
+00:17:28.466 --> 00:17:31.706 A:middle
 So, we do a manner of
 Automated Boost Tracking,
 
@@ -1513,9 +1461,6 @@ that reply object.
 00:17:58.646 --> 00:18:01.206 A:middle
 And then we're going to do
 some work asynchronously.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.466 --> 00:18:03.296 A:middle
 Since we're using
@@ -1599,9 +1544,6 @@ an anonymous connection.
 And to create that
 connection, you just give Null
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.346 --> 00:19:02.556 A:middle
 as the first parameter
 to XPC Connection Create.
@@ -1679,9 +1621,6 @@ ever going to get one
 00:19:57.386 --> 00:19:59.196 A:middle
 because I've only ever
 sent it to one person.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.676 --> 00:20:03.766 A:middle
 So, once I get the new
@@ -1762,9 +1701,6 @@ has gone out of scope
 00:20:56.956 --> 00:20:58.266 A:middle
 in not referenced from anywhere.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:01.716 --> 00:21:04.966 A:middle
 So here's the interesting
 part where the server is going
@@ -1842,9 +1778,6 @@ of data are handled in XPC.
 The runtime recognizes
 very large data objects.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:02.686 --> 00:22:06.516 A:middle
 And when it sees one of these,
 it goes down a fast path
@@ -1916,9 +1849,6 @@ actually taken ownership of
 and created and know
 the characteristics of.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:01.676 --> 00:23:03.946 A:middle
 And here's why that
 part is important.
@@ -1989,9 +1919,6 @@ or at least a part of it.
 00:23:59.696 --> 00:24:01.076 A:middle
 And there might be
 a password in there.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:01.076 --> 00:24:03.346 A:middle
 There could be any
@@ -2067,9 +1994,6 @@ and XPC subsystems.
 00:24:58.456 --> 00:25:00.856 A:middle
 So here's how you do it in code.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.856 --> 00:25:02.816 A:middle
 So we create that
 dispatch data object
@@ -2141,9 +2065,6 @@ in Mavericks,
 00:25:58.986 --> 00:26:01.916 A:middle
 dispatch data is toll
 free bridge with NSData.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:02.206 --> 00:26:05.776 A:middle
 So you can create a dispatch
@@ -2226,9 +2147,6 @@ out of that message upfront.
 00:26:58.276 --> 00:27:00.196 A:middle
 So the act of receiving
 a message
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.246 --> 00:27:03.376 A:middle
 in prior releases would end
@@ -2317,9 +2235,6 @@ up forcing the slow path.
 So, for example, if you
 get one of these messages
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:00.246 --> 00:28:03.476 A:middle
 and then you start-- and then
 you say you want to copy it,
@@ -2390,9 +2305,6 @@ to get it into a form
 
 00:28:57.076 --> 00:28:58.256 A:middle
 where it's safely mutable.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:01.356 --> 00:29:02.756 A:middle
 So that's we have
@@ -2469,9 +2381,6 @@ It's your transport medium
 and it can actually make a
 guarantee for message delivery.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:02.046 --> 00:30:05.276 A:middle
 So once you have this guarantee,
 there's really no reason
@@ -2537,9 +2446,6 @@ server or there are some sort--
 00:30:57.566 --> 00:31:00.016 A:middle
 or there's kind of
 mismanagement of resources
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.016 --> 00:31:02.606 A:middle
 that prevented the server from
@@ -2628,9 +2534,6 @@ then that means I have a bug
 00:31:59.446 --> 00:32:00.436 A:middle
 and I should investigate.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.896 --> 00:32:06.046 A:middle
 That being said, there
 are cases where IPC--
@@ -2709,9 +2612,6 @@ in that amount of time
 that you've given it,
 there's really no need
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:02.566 --> 00:33:04.696 A:middle
 to keep waiting for it.
 
@@ -2782,9 +2682,6 @@ you set will be honored.
 You don't actually have
 to do any other work.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:04.606 --> 00:34:04.976 A:middle
 [applause] Yeah.
 
@@ -2803,15 +2700,15 @@ on Mavericks or later.
 00:34:19.446 --> 00:34:20.426 A:middle
 So, yeah, it just works.
 
-00:34:20.755 --> 00:34:23.746 A:middle
+00:34:20.756 --> 00:34:23.746 A:middle
 And also nice, there's a
 copy files destination now
 
-00:34:23.746 --> 00:34:27.005 A:middle
+00:34:23.746 --> 00:34:27.006 A:middle
 for the XPC services
 subdirectory in your app.
 
-00:34:27.005 --> 00:34:29.076 A:middle
+00:34:27.006 --> 00:34:29.076 A:middle
 So, you don't have to
 select wrapper directory
 
@@ -2826,11 +2723,11 @@ debugging, importance boosting,
 00:34:37.446 --> 00:34:38.686 A:middle
 and leaking of boosts.
 
-00:34:38.686 --> 00:34:41.755 A:middle
+00:34:38.686 --> 00:34:41.756 A:middle
 So if you're running into leak
 boost, there's this iptrace tool
 
-00:34:41.755 --> 00:34:46.005 A:middle
+00:34:41.756 --> 00:34:46.006 A:middle
 that will tell you why you were
 boosted and who boosted you.
 
@@ -2849,9 +2746,6 @@ app the first time.
 00:34:58.686 --> 00:35:01.776 A:middle
 And then, immediately, when they
 try and talk to their service,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.776 --> 00:35:03.736 A:middle
 they get a connection
@@ -2931,9 +2825,6 @@ the info plist in Xcode,
 it will actually be-- it
 will have dollar, you know,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:00.176 --> 00:36:03.246 A:middle
 product identifier that gets
 filled in at build time.
@@ -3004,9 +2895,6 @@ which is in section three.
 00:36:58.846 --> 00:37:01.036 A:middle
 And you'll-- the
 tell-tale sign for this is
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:01.036 --> 00:37:04.356 A:middle
 that you'll see an illegal
@@ -3079,9 +2967,6 @@ specific information
 and it says API MISUSE:
 Over-release of an object.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.466 --> 00:38:04.086 A:middle
 So in this case, we called
 XPC release more times
@@ -3147,9 +3032,6 @@ to file a bug
 00:38:58.636 --> 00:39:01.806 A:middle
 because we now how
 to make sense of it.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:02.136 --> 00:39:05.196 A:middle
 If you're curious, it's just
@@ -3228,9 +3110,6 @@ actual headers of XPC.
 So, look in User
 Include XPC and then all
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.936 --> 00:40:05.186 A:middle
 of those public interfaces
 are documented with HeaderDoc.
@@ -3298,9 +3177,6 @@ things that we talked
 about like XPC activities,
 centralized tasks scheduling,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.006 --> 00:41:02.446 A:middle
 and making more efficient apps.
 
@@ -3320,4 +3196,3 @@ the conference.
 
 00:41:09.516 --> 00:41:15.730 A:middle
 [ Silence ]
-

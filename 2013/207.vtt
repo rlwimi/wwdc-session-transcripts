@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.416 A:middle
 [Silence]
@@ -67,9 +66,6 @@ of your feedback that we've seen
 00:00:57.346 --> 00:01:00.786 A:middle
 on developer forums, in
 radars and around the web.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:01.606 --> 00:01:04.626 A:middle
 And so, the improvements
@@ -148,14 +144,11 @@ the meat of the discussion,
 I'd like to take a moment
 to frame it by talking
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:01.826 --> 00:02:04.476 A:middle
 about our goals and
 objectives related to iCloud.
 
-00:02:05.146 --> 00:02:09.015 A:middle
+00:02:05.146 --> 00:02:09.016 A:middle
 You see, last year after iOS
 6 and Mac OS X 10.8 shipped,
 
@@ -228,9 +221,6 @@ and we found
 00:02:58.246 --> 00:03:01.656 A:middle
 that this hampered your ability
 to build effective applications
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:01.996 --> 00:03:03.706 A:middle
 that worked on top
@@ -307,9 +297,6 @@ the iCloud store for you.
 And this would produce
 a pairing, if you will,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:01.056 --> 00:04:03.226 A:middle
 of a local persistent store file
 
@@ -333,7 +320,7 @@ multiple accounts,
 and this is when things
 became a bit cumbersome
 
-00:04:18.245 --> 00:04:20.136 A:middle
+00:04:18.246 --> 00:04:20.136 A:middle
 because developers would
 end up spending a lot
 
@@ -393,9 +380,6 @@ actual persistent store file
 00:04:59.706 --> 00:05:02.186 A:middle
 for each iCloud account
 that's in use on a system,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:03.136 --> 00:05:04.806 A:middle
 and this requires
@@ -473,9 +457,6 @@ that are happening related
 00:05:58.836 --> 00:06:01.596 A:middle
 to the fallback store,
 and for this reason,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:01.596 --> 00:06:03.606 A:middle
 we'll log some new
@@ -563,9 +544,6 @@ we've made to how you set
 00:06:59.956 --> 00:07:01.356 A:middle
 up the store asynchronously.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:02.736 --> 00:07:05.046 A:middle
 You may be familiar
 with this line of code.
@@ -636,9 +614,6 @@ the iCloud container.
 00:07:56.656 --> 00:07:59.536 A:middle
 In iOS 7 and Mac OS X 10.9,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.066 --> 00:08:03.366 A:middle
 we no longer do this work
 synchronously within the call
@@ -685,7 +660,7 @@ making changes immediately.
 But, because we manage the
 fallback store now, we were able
 
-00:08:36.466 --> 00:08:38.535 A:middle
+00:08:36.466 --> 00:08:38.536 A:middle
 to take the integration
 one step further
 
@@ -716,9 +691,6 @@ from the fallback store
 00:08:57.426 --> 00:09:00.486 A:middle
 to the iCloud store after the
 iCloud store was available,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.186 --> 00:09:04.116 A:middle
 you would have to do a
@@ -801,9 +773,6 @@ save if there are changes
 in your managed object context
 that you wish to persist,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:02.286 --> 00:10:05.126 A:middle
 and then you can call
 NSManagedObjectContext reset
@@ -885,9 +854,6 @@ available to other peers.
 Now, I need to mention that
 this is a special case scenario.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:02.516 --> 00:11:04.686 A:middle
 You will only see these
 notifications during our
@@ -965,9 +931,6 @@ in the iCloud account.
 Normally in iOS 6
 and Mac OS X 10.8,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:02.696 --> 00:12:05.966 A:middle
 when the iCloud account changes,
 the only way to notice this is
@@ -1040,9 +1003,6 @@ have to subscribe to any
 00:12:58.906 --> 00:13:00.556 A:middle
 of the iCloud notifications
 at all.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.206 --> 00:13:04.096 A:middle
 You simply implement your will
@@ -1126,9 +1086,6 @@ persistent store and wipe
 out your managed object
 context, you can still write
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:02.926 --> 00:14:04.426 A:middle
 to the managed object context
 
@@ -1197,9 +1154,6 @@ no iCloud account on the system.
 This is a special store
 that's managed by Core Data
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:01.006 --> 00:15:02.766 A:middle
 so that you don't have
 to do anything special
@@ -1267,9 +1221,6 @@ once its account has gone away
 00:15:57.506 --> 00:16:00.006 A:middle
 because we can rebuild
 the file from the cloud.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.366 --> 00:16:02.716 A:middle
 So we want to free up as
@@ -1342,9 +1293,6 @@ from this method and pass it
 to us and as an option
 called NSPersistentStore
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.836 --> 00:17:04.896 A:middle
 UbiquitousContentURLKey,
 and this is how we know
@@ -1353,11 +1301,11 @@ and this is how we know
 where to keep all of your
 data in the iCloud account.
 
-00:17:08.425 --> 00:17:12.185 A:middle
+00:17:08.426 --> 00:17:12.186 A:middle
 So in iOS 7 and Mac OS X
 10.9, you'll no longer need
 
-00:17:12.185 --> 00:17:16.986 A:middle
+00:17:12.186 --> 00:17:16.986 A:middle
 to pass a value for that at all,
 
 00:17:16.986 --> 00:17:19.746 A:middle
@@ -1371,7 +1319,7 @@ the hood for you.
 00:17:22.646 --> 00:17:24.406 A:middle
 Now as you may remember,
 
-00:17:24.665 --> 00:17:27.336 A:middle
+00:17:24.666 --> 00:17:27.336 A:middle
 our advice in past
 years has always been
 
@@ -1416,9 +1364,6 @@ all of our content,
 00:17:57.836 --> 00:18:00.326 A:middle
 you need to pass this
 value in so we can find it.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.936 --> 00:18:03.186 A:middle
 Otherwise, we'll
@@ -1501,9 +1446,6 @@ to use something
 00:18:58.756 --> 00:19:02.116 A:middle
 that isn't the first one, you
 need to pass us this option
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:02.116 --> 00:19:03.836 A:middle
 so that we know which
@@ -1590,9 +1532,6 @@ replace the store file
 with one that's freshly
 built from the cloud.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:03.116 --> 00:20:05.056 A:middle
 We're also introducing
 a new option
@@ -1670,9 +1609,6 @@ and the options dictionary
 that you normally pass so that
 we can correctly identify the
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:03.276 --> 00:21:05.586 A:middle
 store and its content
 in the iCloud account.
@@ -1743,9 +1679,6 @@ persistent store file first
 00:21:57.266 --> 00:22:00.566 A:middle
 and then nuke the
 iCloud content, as well.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:01.276 --> 00:22:03.846 A:middle
 And we have some special
@@ -1827,9 +1760,6 @@ and reusable paradigm
 for handling transition
 events related to iCloud.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:02.736 --> 00:23:05.346 A:middle
 The user info dictionary
 will contain instances
@@ -1906,9 +1836,6 @@ the amount of complex code
 
 00:23:59.686 --> 00:24:00.906 A:middle
 that developers have to write.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:01.726 --> 00:24:04.836 A:middle
 And so, with the Will
@@ -1990,9 +1917,6 @@ just a few lines to integrate
 00:24:59.656 --> 00:25:00.986 A:middle
 with our iCloud integration.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.986 --> 00:25:03.376 A:middle
 And so that's all
 for the new API.
@@ -2072,9 +1996,6 @@ integration under the hood.
 00:25:59.136 --> 00:26:02.016 A:middle
 You can also see a list of
 every single file inside the
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:02.016 --> 00:26:04.526 A:middle
 container, including
@@ -2156,9 +2077,6 @@ test iCloud integration
 without having to change
 settings on your Mac.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:00.586 --> 00:27:05.806 A:middle
 As well, you can also test sync
 between a Mac and an iOS device
@@ -2237,9 +2155,6 @@ ubiquity.logLevel.
 Number 3 is the highest,
 so if you turn that up,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.086 --> 00:28:02.716 A:middle
 expect to get a lot of logs.
 
@@ -2313,9 +2228,6 @@ is directly
 00:28:57.776 --> 00:28:59.966 A:middle
 with the underlying
 daemons that talk to iCloud.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.946 --> 00:29:03.426 A:middle
 It allows you to do things
@@ -2391,9 +2303,6 @@ up the new logging level.
 00:29:58.486 --> 00:29:59.966 A:middle
 Once you've reproduced
 the issue,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.676 --> 00:30:02.946 A:middle
 you should sync your
@@ -2473,9 +2382,6 @@ that we've made this year.
 
 00:30:57.516 --> 00:31:02.186 A:middle
 [ Applause ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:02.686 --> 00:31:03.836 A:middle
 &gt;&gt; Melissa Turner:
@@ -2558,9 +2464,6 @@ what you're not seeing.
 And what you're not seeing
 here is, well, a hang as I wait
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:02.926 --> 00:32:07.796 A:middle
 for addPersistentStore to return
 with my ubiquitized store.
@@ -2635,9 +2538,6 @@ can see some information
 00:32:58.396 --> 00:33:01.546 A:middle
 about your application and
 about your iCloud status.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:02.096 --> 00:33:04.466 A:middle
 If you bring up this pane when
@@ -2739,9 +2639,6 @@ of all the files that are
 in your ubiquity container,
 and you really don't need
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:03.286 --> 00:34:05.376 A:middle
 to pay attention to the
 stuff that starts with a dot,
@@ -2750,10 +2647,10 @@ stuff that starts with a dot,
 that's our private stuff; you're
 not going to be able to figure
 
-00:34:07.976 --> 00:34:09.545 A:middle
+00:34:07.976 --> 00:34:09.546 A:middle
 out very much from there.
 
-00:34:10.985 --> 00:34:17.356 A:middle
+00:34:10.986 --> 00:34:17.356 A:middle
 But under that, you'll
 see some directories
 
@@ -2768,7 +2665,7 @@ peer containers.
 And digging notes inside
 those can be interesting
 
-00:34:24.436 --> 00:34:26.755 A:middle
+00:34:24.436 --> 00:34:26.756 A:middle
 because that's where you'll
 see the Core Data receipts.
 
@@ -2814,9 +2711,6 @@ status whether data is current,
 00:34:58.646 --> 00:35:01.056 A:middle
 whether we know it exists
 but it's still in the cloud
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.056 --> 00:35:02.746 A:middle
 because it's a large file
@@ -2876,9 +2770,6 @@ And voila!
 00:35:55.806 --> 00:35:59.606 A:middle
 Automatically, we have noticed
 that the account was signed out,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.536 --> 00:36:02.386 A:middle
 sent you a notification
@@ -2962,9 +2853,6 @@ in the corner I'm not connected
 to Wi-Fi, and those
 of you who are
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:02.356 --> 00:37:04.646 A:middle
 in the front rows
 can probably see
@@ -3027,9 +2915,6 @@ into system preferences,
 but first I'm going to find
 my Ethernet cable and plug
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:04.506 --> 00:38:10.236 A:middle
 in my Ethernet cable and log in.
 
@@ -3073,9 +2958,6 @@ the initial sync to happen.
 00:38:59.356 --> 00:39:03.016 A:middle
 This is the log you'll see
 when Core Data tries to go out
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:03.016 --> 00:39:09.836 A:middle
 and connect to the iCloud
@@ -3146,9 +3028,6 @@ you about the changes
 00:39:59.166 --> 00:40:01.936 A:middle
 that we've been making to
 the Core Data SQLite store.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:03.516 --> 00:40:09.526 A:middle
 [ Applause ]
@@ -3222,9 +3101,6 @@ in rollback journaling,
 00:40:57.336 --> 00:41:00.836 A:middle
 SQLite copies the original pages
 out of the main database file
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.836 --> 00:41:04.136 A:middle
 into a file on the side just
@@ -3306,9 +3182,6 @@ intermediary-journal file
 00:41:59.466 --> 00:42:00.966 A:middle
 floating alongside of it.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.346 --> 00:42:05.306 A:middle
 And then when you commit the
 transaction, it'll go through
@@ -3385,9 +3258,6 @@ WAL file is being truncated,
 00:42:59.836 --> 00:43:02.306 A:middle
 but that's going to be a fairly
 transient state of affairs,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:02.506 --> 00:43:04.366 A:middle
 and generally you're
@@ -3472,9 +3342,6 @@ things to the WAL file.
 And this has actually been
 a pretty big difference
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.716 --> 00:44:03.786 A:middle
 on [inaudible] devices and iOS.
 
@@ -3550,9 +3417,6 @@ have two Core Data stacks.
 00:44:55.596 --> 00:45:00.556 A:middle
 So for leveraging concurrency,
 you have this SQLite file
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:00.556 --> 00:45:02.496 A:middle
 that you're sharing between
@@ -3644,9 +3508,6 @@ doing a fairly substantial write
 00:45:59.426 --> 00:46:00.486 A:middle
 operation in the background.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:00.486 --> 00:46:03.196 A:middle
 So this is particularly
 useful for responsiveness
@@ -3737,9 +3598,6 @@ we've seen have sort
 of free standing SQLite files
 as their documents and some
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:01.586 --> 00:47:03.056 A:middle
 of them is running
 to some challenges
@@ -3814,9 +3672,6 @@ had in previous releases.
 00:47:57.336 --> 00:48:01.046 A:middle
 Now, some general caveats is you
 really shouldn't be using any
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:01.046 --> 00:48:03.046 A:middle
 file system routines directly
@@ -3907,9 +3762,6 @@ but sharing these files
 across multiple different
 machines simultaneously is not
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:01.956 --> 00:49:02.946 A:middle
 going to end very well.
 
@@ -3983,9 +3835,6 @@ guarded file descriptor concept
 00:49:59.416 --> 00:50:00.176 A:middle
 that's being used.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:00.176 --> 00:50:02.436 A:middle
 We're not going to go
 into this very much,
@@ -4056,4 +3905,3 @@ Thank you very much.
 
 00:50:48.016 --> 00:50:58.146 A:middle
 [Silence]
-

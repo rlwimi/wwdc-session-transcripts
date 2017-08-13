@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.456 A:middle
 [ Silence ]
@@ -106,18 +105,15 @@ have put together for us.
 We can have the ability to
 view photos in our application
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:00.746 --> 00:01:02.006 A:middle
 and delete ones that
 we don't like.
 
-00:01:02.246 --> 00:01:04.325 A:middle
+00:01:02.246 --> 00:01:04.326 A:middle
 And I'd like us to do this
 interesting custom delete
 
-00:01:04.325 --> 00:01:06.406 A:middle
+00:01:04.326 --> 00:01:06.406 A:middle
 animation where we kind
 of shadow the photo out.
 
@@ -245,9 +241,6 @@ we can put together.
 &gt;&gt; So, why don't you go set up
 the demo and I'll get started.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.596 --> 00:02:01.376 A:middle
 &gt;&gt; All right, cool.
 
@@ -344,9 +337,6 @@ of pull it back and forth.
 And notice how the text
 slides differently in the top
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:02.136 --> 00:03:04.276 A:middle
 and those two view controllers
 move at different speeds
@@ -440,9 +430,6 @@ our first view controller,
 we'll call this our
 two view controller.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.696 --> 00:04:02.596 A:middle
 When we're ready to do
 a transition into that,
@@ -473,7 +460,7 @@ present to the user.
 Once we've created
 the view controller,
 
-00:04:19.356 --> 00:04:21.875 A:middle
+00:04:19.356 --> 00:04:21.876 A:middle
 we need to specify the
 transitioning delegate.
 
@@ -536,9 +523,6 @@ to do that transition.
 00:04:58.866 --> 00:05:01.596 A:middle
 And we do that by asking
 you for AnimationController
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.596 --> 00:05:02.766 A:middle
 for presented controller,
@@ -639,9 +623,6 @@ for this animation controller.
 We're going to create a new
 object, and that's an object
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:02.406 --> 00:06:02.906 A:middle
 that responds
 
@@ -730,9 +711,6 @@ help make it easier for you
 00:06:58.316 --> 00:07:00.176 A:middle
 to create interactive
 transitions.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.986 --> 00:07:02.456 A:middle
 It lets you update
@@ -832,9 +810,6 @@ the WWDC run and want to go
 and show all the photos that
 we've taken from this run.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.476 --> 00:08:04.316 A:middle
 This is obviously around
 the campus and you can go
@@ -900,7 +875,7 @@ delegate method
 of didSelectItemAtIndexPath,
 we're simply going
 
-00:08:41.426 --> 00:08:44.265 A:middle
+00:08:41.426 --> 00:08:44.266 A:middle
 to create a new instance of
 the edit photo view controller.
 
@@ -930,9 +905,6 @@ delegation callback that's going
 00:08:59.376 --> 00:09:01.826 A:middle
 to get called when that
 user hits the delete button
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:02.426 --> 00:09:05.346 A:middle
 and that is to let us know
@@ -1025,9 +997,6 @@ actually does.
 Animation-- Transition-duration
 is just two seconds.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:01.586 --> 00:10:03.666 A:middle
 Like Brandon, this just lets
 the system know how long your
@@ -1112,9 +1081,6 @@ I'd like to point out here.
 00:10:58.646 --> 00:11:03.666 A:middle
 The first is that we don't
 really care where the two view--
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:03.666 --> 00:11:04.806 A:middle
 we don't want to animate it in.
@@ -1209,9 +1175,6 @@ about that after I'm done here.
 00:11:58.536 --> 00:12:01.146 A:middle
 Finally, going through a
 whole bunch of animation code,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:01.586 --> 00:12:02.766 A:middle
 it's this line right here.
@@ -1315,9 +1278,6 @@ couple of great places.
 As you just saw, we can do
 some really interesting things
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.726 --> 00:13:03.146 A:middle
 with custom transitions and
 the new snapshotting API.
@@ -1399,9 +1359,6 @@ from rect with cap insets.
 Now, as Jim mentioned, it's
 important to note in Seed 1,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:00.776 --> 00:14:03.406 A:middle
 these methods are snapshot
 and resizable snapshot,
@@ -1482,9 +1439,6 @@ to make static blurred effects
 00:14:59.726 --> 00:15:02.216 A:middle
 that look the same as what
 we do across the system.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:02.646 --> 00:15:03.516 A:middle
 So, how do you do that?
@@ -1572,9 +1526,6 @@ bring that category
 00:15:59.606 --> 00:16:03.196 A:middle
 into your own applications and
 use it to apply light, dark,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:03.196 --> 00:16:05.326 A:middle
 and very light effects
@@ -1671,17 +1622,14 @@ across my entire application.
 There's a new change in iOS
 7 to the tintColor system
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:03.376 --> 00:17:05.715 A:middle
+00:17:03.376 --> 00:17:05.716 A:middle
 that makes this easy to
 set a unified tint color
 
-00:17:05.715 --> 00:17:06.236 A:middle
+00:17:05.716 --> 00:17:06.236 A:middle
 across your app.
 
-00:17:07.316 --> 00:17:10.165 A:middle
+00:17:07.316 --> 00:17:10.166 A:middle
 When you call setTintColor
 on say a window,
 
@@ -1689,10 +1637,10 @@ on say a window,
 all of its subviews will
 inherit that tint color
 
-00:17:12.886 --> 00:17:14.415 A:middle
+00:17:12.886 --> 00:17:14.416 A:middle
 until something else lower
 
-00:17:14.415 --> 00:17:16.556 A:middle
+00:17:14.416 --> 00:17:16.556 A:middle
 in the view hierarchy
 overrides that.
 
@@ -1760,9 +1708,6 @@ a little bit on iOS 7
 00:17:59.776 --> 00:18:02.216 A:middle
 so that it's what you use
 to specify the tint color
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:02.216 --> 00:18:05.756 A:middle
 of an entire bar on iOS 7 rather
@@ -1855,9 +1800,6 @@ to us in all of his pink glory.
 But if I switched it over to
 rendering mode always template,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:03.226 --> 00:19:05.946 A:middle
 we're only going to look at the
 alpha channel of that image.
@@ -1934,9 +1876,6 @@ without distorting the colors.
 00:19:59.856 --> 00:20:03.506 A:middle
 You do this by specifying your
 cap insets for the left, bottom,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:03.676 --> 00:20:07.436 A:middle
 right, and top to be how far
@@ -2022,9 +1961,6 @@ the value is for puce?
 00:20:59.666 --> 00:21:02.576 A:middle
 So, let's show you
 what it looks like now.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:03.276 --> 00:21:06.956 A:middle
 As you can see, we-- on
@@ -2116,9 +2052,6 @@ a template image.
 00:21:58.226 --> 00:22:00.536 A:middle
 So it will also pick
 up the tint color.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:01.136 --> 00:22:03.716 A:middle
 As we go back, now we see
@@ -2212,9 +2145,6 @@ for the normal control state.
 
 00:22:59.766 --> 00:23:00.936 A:middle
 And now, all of our buttons
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.936 --> 00:23:02.806 A:middle
 in our application
@@ -2313,9 +2243,6 @@ that you want to blur from.
 And it basically just calls
 drawViewHierarchyInRect
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.546 --> 00:24:03.996 A:middle
 and makes the blur and applies
 it to the button background.
@@ -2401,9 +2328,6 @@ We're applying a light effect.
 00:24:59.806 --> 00:25:01.776 A:middle
 And like Brandon mentioned,
 this is going to be
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:01.776 --> 00:25:03.646 A:middle
 in this sample code as well
@@ -2497,9 +2421,6 @@ help make that possible.
 Now, you can do a lot of really
 cool things with UIKit Dynamics.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:01.546 --> 00:26:03.986 A:middle
 You can do a lot of crazy
 things with UIKit Dynamics.
@@ -2583,9 +2504,6 @@ that attachment.
 
 00:26:58.986 --> 00:27:00.276 A:middle
 So, what do you need to do
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.276 --> 00:27:02.426 A:middle
 to introduce dynamics
@@ -2678,9 +2596,6 @@ application right away.
 00:27:59.336 --> 00:28:01.316 A:middle
 &gt;&gt; Hey, Brandon, instead
 of talking about Dynamics
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.316 --> 00:28:03.976 A:middle
 on slides anymore, how about
@@ -2790,9 +2705,6 @@ on that a little bit.
 But the other place
 that we really wanted
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:01.306 --> 00:29:05.376 A:middle
 to use Dynamics was in our
 flipbook in how we show photos
@@ -2887,9 +2799,6 @@ to shrink the view down
 00:29:59.366 --> 00:30:00.976 A:middle
 and animate its alpha
 out to zero.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:01.616 --> 00:30:04.376 A:middle
 Now, this is all fine
@@ -2989,9 +2898,6 @@ content view.
 And then we create a
 simple gravity behavior
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:01.046 --> 00:31:03.196 A:middle
 and we give it a little bit more
 gravity 'cause I want things
@@ -3071,9 +2977,6 @@ and then we add all three
 00:31:58.386 --> 00:32:00.076 A:middle
 of those behaviors
 directly to our animator.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:03.096 --> 00:32:07.226 A:middle
 Then, as we iterate through
@@ -3167,9 +3070,6 @@ all over the place.
 And two, we needed to
 complete the second part
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:02.326 --> 00:33:06.046 A:middle
 of our animation, the
 fading out of the view
@@ -3251,9 +3151,6 @@ point out with the grabbing
 of the view, that was done
 with no animation at all.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.576 --> 00:34:04.666 A:middle
 That was all just an
 attachment behavior and gravity.
@@ -3266,7 +3163,7 @@ that behavior and the view
 from the screen if there's
 no completion block.
 
-00:34:12.985 --> 00:34:15.876 A:middle
+00:34:12.986 --> 00:34:15.876 A:middle
 Well, we're going to use another
 dynamic item behavior here
 
@@ -3317,7 +3214,7 @@ has falling outside
 of the windows bounds, and
 when that actually happens,
 
-00:34:47.025 --> 00:34:48.585 A:middle
+00:34:47.026 --> 00:34:48.586 A:middle
 we know that we're
 no longer on screen
 
@@ -3339,9 +3236,6 @@ behavior from the animator
 00:34:58.896 --> 00:35:01.476 A:middle
 and then we can remove the
 container from the superview.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:02.826 --> 00:35:03.476 A:middle
 Pretty cool, huh?
@@ -3444,9 +3338,6 @@ or action sheets, alert views
 and so on and across
 the entire system.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:02.576 --> 00:36:05.646 A:middle
 Now you can think of these
 similarly to CAAnimations.
@@ -3538,9 +3429,6 @@ is how your thumb is actually
 00:36:58.876 --> 00:37:00.176 A:middle
 hovering above the screen
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:00.466 --> 00:37:02.096 A:middle
 and how you actually
 see different parts
@@ -3629,9 +3517,6 @@ of API for motion effect.
 00:37:58.766 --> 00:38:00.636 A:middle
 The first is UIMotionEffect
 group.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:01.146 --> 00:38:03.626 A:middle
 You want to group every motion
@@ -3727,9 +3612,6 @@ do with motion effects
 00:38:59.286 --> 00:39:01.406 A:middle
 in our app are a couple
 of interesting things.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:02.026 --> 00:39:03.576 A:middle
 The first thing our
@@ -3836,9 +3718,6 @@ but if you move really far
 that the colors become much more
 subdued and much more brighter.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:02.456 --> 00:40:04.576 A:middle
 And then if I go in the
 wide axis, the buttons move
@@ -3934,9 +3813,6 @@ for the y-axis right below it.
 00:40:59.936 --> 00:41:00.966 A:middle
 It's the exact same code.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:01.016 --> 00:41:04.016 A:middle
 The only thing that's changed
 is the key path is now center.y
@@ -4022,9 +3898,6 @@ of our custom subclass
 00:41:58.206 --> 00:42:01.326 A:middle
 of UIMotionEvent called lens
 flare color motion effect.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:01.326 --> 00:42:03.316 A:middle
 And it's a pretty simple class.
@@ -4116,9 +3989,6 @@ a value.
 But what instead of looking
 at both x and y, we just cared
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:02.456 --> 00:43:05.196 A:middle
 about the horizontal
 access-- axis, excuse me.
@@ -4205,9 +4075,6 @@ the new UIViewController
 00:43:58.576 --> 00:43:59.786 A:middle
 transitioning systems.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:00.316 --> 00:44:03.186 A:middle
 You can set your applications
 wide appearance using tintColor
@@ -4290,4 +4157,3 @@ Thanks for attending WWDC.
 
 00:44:50.016 --> 00:44:52.000 A:middle
 [Applause]
-

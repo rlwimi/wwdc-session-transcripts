@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.156 A:middle
 [ Silence ]
@@ -61,10 +60,7 @@ world of automation?
 Well, without actually just
 bullet pointing the whole list,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:01.196 --> 00:01:05.465 A:middle
+00:01:01.196 --> 00:01:05.466 A:middle
 we're going to be talking about
 Automator and AppleScript.
 
@@ -133,9 +129,6 @@ document on one computer.
 You store it in the Cloud, and
 it automatically gets pushed
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:02.756 --> 00:02:06.386 A:middle
 to another computer using
 your same iCloud account.
@@ -200,9 +193,6 @@ or something like that.
 00:02:59.516 --> 00:03:04.456 A:middle
 So here's an AirDrop example
 where you're taking something
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:04.456 --> 00:03:06.616 A:middle
 from your Cloud and
@@ -279,9 +269,6 @@ this little photo droplet.
 And she asked me in
 an email, you know,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:01.096 --> 00:04:02.806 A:middle
 Can you share that with me?
 
@@ -303,14 +290,14 @@ the email message.
 00:04:11.726 --> 00:04:14.176 A:middle
 I found the droplet, added it
 
-00:04:14.176 --> 00:04:16.065 A:middle
+00:04:14.176 --> 00:04:16.066 A:middle
 to the email message,
 and sent it to her.
 
-00:04:16.065 --> 00:04:18.406 A:middle
+00:04:16.066 --> 00:04:18.406 A:middle
 I didn't think twice about this.
 
-00:04:19.016 --> 00:04:20.565 A:middle
+00:04:19.016 --> 00:04:20.566 A:middle
 And then I send it to Trudy.
 
 00:04:20.896 --> 00:04:26.786 A:middle
@@ -358,9 +345,6 @@ in the Security
 00:04:59.026 --> 00:05:04.166 A:middle
 and Privacy Control Panel, she's
 using a default setting which is
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:04.166 --> 00:05:07.036 A:middle
 for Mac App Store and
@@ -426,9 +410,6 @@ built into our editing apps.
 
 00:05:58.516 --> 00:06:01.546 A:middle
 [ Applause ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:02.046 --> 00:06:02.726 A:middle
 Yeah. Really nice.
@@ -497,9 +478,6 @@ new pop-up menu at the bottom
 00:06:56.416 --> 00:07:00.256 A:middle
 of the Save sheet and
 it says code sign.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.926 --> 00:07:03.296 A:middle
 It's for code signing
@@ -571,9 +549,6 @@ menu, choose Export.
 I get the Save sheet
 in Automator.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.466 --> 00:08:01.836 A:middle
 And at the bottom
 of the Save sheet
@@ -612,7 +587,7 @@ and have Chris demonstrate.
 00:08:31.216 --> 00:08:32.456 A:middle
 Thank you.
 
-00:08:33.515 --> 00:08:36.546 A:middle
+00:08:33.516 --> 00:08:36.546 A:middle
 [ Applause ]
 
 00:08:37.046 --> 00:08:37.566 A:middle
@@ -644,9 +619,6 @@ It's working on another machine.
 00:08:58.116 --> 00:09:00.206 A:middle
 And I worked long and
 hard on this applet.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.206 --> 00:09:01.026 A:middle
 I'm very proud of it.
@@ -729,9 +701,6 @@ is throw it in the trash.
 So how do I -- how do I make
 life easier on my users here
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:01.756 --> 00:10:03.926 A:middle
 and not have them think
 I'm a complete idiot
@@ -803,9 +772,6 @@ I will save that to the desktop.
 
 00:10:58.006 --> 00:10:59.286 A:middle
 Yes, I want to allow this.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.596 --> 00:11:02.066 A:middle
 So now I have my
@@ -893,9 +859,6 @@ that, if you're going
 to distribute them now that
 we have Gatekeeper, it --
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.106 --> 00:12:02.196 A:middle
 its default settings,
 you might want
@@ -967,9 +930,6 @@ I have a script that's dealing
 with text I'm going
 to be pasting these
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.716 --> 00:13:03.056 A:middle
 in the bottom part of my script.
 
@@ -1037,9 +997,6 @@ the different stuff that I had.
 00:13:57.036 --> 00:14:01.366 A:middle
 So new in Mavericks we're
 introducing AppleScript
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:01.366 --> 00:14:04.306 A:middle
 libraries that will
@@ -1111,9 +1068,6 @@ It helps deal with resources.
 And the script library
 commands are run
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.936 --> 00:15:03.656 A:middle
 by the process that's
 executing the script.
@@ -1177,9 +1131,6 @@ handler name, I can just put
 00:15:58.366 --> 00:16:01.086 A:middle
 in some terminology and
 it will work perfectly.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:02.006 --> 00:16:05.536 A:middle
 Now, in support of that, we've
@@ -1251,9 +1202,6 @@ from uppercase to lowercase.
 You can have this very
 simple AppleScript handler
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.126 --> 00:17:02.146 A:middle
 that you've created.
 
@@ -1261,25 +1209,25 @@ that you've created.
 You take that, you
 place it into a script.
 
-00:17:07.185 --> 00:17:08.796 A:middle
+00:17:07.186 --> 00:17:08.796 A:middle
 Then you compile it.
 
-00:17:09.925 --> 00:17:11.165 A:middle
+00:17:09.926 --> 00:17:11.166 A:middle
 You save it.
 
 00:17:11.266 --> 00:17:13.886 A:middle
 And, in this case, you just
 save it as a script file.
 
-00:17:15.455 --> 00:17:18.965 A:middle
+00:17:15.456 --> 00:17:18.966 A:middle
 Next, in your home
 library folder,
 
-00:17:19.705 --> 00:17:23.096 A:middle
+00:17:19.706 --> 00:17:23.096 A:middle
 you create a new folder
 called script libraries
 
-00:17:23.955 --> 00:17:25.906 A:middle
+00:17:23.956 --> 00:17:25.906 A:middle
 and then drag your script file,
 
 00:17:26.306 --> 00:17:29.206 A:middle
@@ -1321,9 +1269,6 @@ library identifier.
 00:17:58.716 --> 00:18:04.936 A:middle
 That is now a representation
 of your script library.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:05.556 --> 00:18:08.926 A:middle
 The AppleScript architecture
@@ -1388,9 +1333,6 @@ and easy to use.
 00:18:56.586 --> 00:18:59.706 A:middle
 Now, in its more advanced forms,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.036 --> 00:19:03.426 A:middle
 a library can have
 its own terminology.
@@ -1454,9 +1396,6 @@ how now brown cow to uppercase.
 00:19:58.736 --> 00:20:02.016 A:middle
 And this will function
 exactly the same way
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:02.266 --> 00:20:04.156 A:middle
 as a library did before.
@@ -1530,9 +1469,6 @@ to deal with.
 In addition, there's
 another issue going on here.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:03.566 --> 00:21:06.386 A:middle
 You'll notice that there
 is a variable called
@@ -1602,9 +1538,6 @@ library identifier.
 And that means it will take it,
 load it, and make its resources
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:03.136 --> 00:22:06.856 A:middle
 and handlers available
 for the script globally.
@@ -1665,9 +1598,6 @@ It's transparent.
 00:22:59.246 --> 00:23:02.166 A:middle
 Now, let's talk about the
 use clause for just a second.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:02.586 --> 00:23:06.256 A:middle
 It's about importing
@@ -1735,9 +1665,6 @@ see, conceive, and use.
 00:23:56.496 --> 00:24:00.636 A:middle
 So here to show you the
 use clause is my friend,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.636 --> 00:24:01.246 A:middle
 Chris Nebel.
@@ -1834,9 +1761,6 @@ to the Cc group.
 It gets a bit out of -- it
 gets a bit messy after a while,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:02.066 --> 00:25:03.536 A:middle
 especially when you have
 to do ten of these a day.
@@ -1906,9 +1830,6 @@ originally from John.
 
 00:25:59.906 --> 00:26:00.816 A:middle
 He's been Cc'd.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.996 --> 00:26:02.686 A:middle
 Everyone else, it goes "To."
@@ -1990,9 +1911,6 @@ Get the selection of mail.
 I have to specify that
 it's mail selection
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:00.396 --> 00:27:02.096 A:middle
 because contacts
 has a selection to.
@@ -2065,9 +1983,6 @@ exactly the same.
 00:27:59.046 --> 00:28:02.466 A:middle
 So, essentially, what use
 does is it lets you get rid
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:02.466 --> 00:28:04.996 A:middle
 of all the bookkeeping that
@@ -2145,9 +2060,6 @@ construct and especially
 00:28:58.456 --> 00:28:59.846 A:middle
 when it's used with libraries.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.036 --> 00:29:00.666 A:middle
 It's great.
 
@@ -2220,9 +2132,6 @@ detail and show you how
 00:29:59.026 --> 00:30:03.416 A:middle
 to construct a library, not
 only a simple one but one
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:03.416 --> 00:30:07.786 A:middle
 in AppleScript Objective-C, one
@@ -2298,9 +2207,6 @@ And the guy says, "Yeah, man.
 You know, they -- they're
 located in a central location.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.536 --> 00:31:03.416 A:middle
 They're organized
 by application.
@@ -2365,9 +2271,6 @@ it [applause] -- yes.
 00:31:55.706 --> 00:32:00.026 A:middle
 And we've integrated it in
 both applications and --
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.476 --> 00:32:04.916 A:middle
 so that there's no more need
@@ -2447,9 +2350,6 @@ by just clicking that checkbox.
 So, when it comes to Automator,
 many people don't know that,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:04.626 --> 00:33:08.616 A:middle
 when you run an Automator
 workflow or applet,
@@ -2521,9 +2421,6 @@ notification to occur.
 And you can insert
 it more than once
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:02.896 --> 00:34:04.326 A:middle
 in your workflow if you want.
 
@@ -2560,7 +2457,7 @@ information
 in that dialog related to
 the workflow that was run.
 
-00:34:28.275 --> 00:34:32.446 A:middle
+00:34:28.276 --> 00:34:32.446 A:middle
 Now, why would you need this
 kind of thing in a workflow?
 
@@ -2576,11 +2473,11 @@ compressing workflow.
 Anytime I shoot a bunch of
 stuff on my iPhone or a camera,
 
-00:34:44.065 --> 00:34:47.025 A:middle
+00:34:44.066 --> 00:34:47.026 A:middle
 I take the raw files and I
 run it through this droplet.
 
-00:34:47.025 --> 00:34:48.786 A:middle
+00:34:47.026 --> 00:34:48.786 A:middle
 And let me just walk you
 through it real quick.
 
@@ -2599,9 +2496,6 @@ action, I have a find --
 00:34:58.236 --> 00:35:01.736 A:middle
 filter finder items, so it
 looks just for movie files.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.736 --> 00:35:04.096 A:middle
 In case something else
@@ -2668,9 +2562,6 @@ quite a while to run.
 00:35:58.006 --> 00:36:02.586 A:middle
 If you drag four or five
 10GB files onto this,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:02.806 --> 00:36:06.656 A:middle
 it can go on for quite a while,
@@ -2750,9 +2641,6 @@ Then some more time goes by,
 and the second encoded
 file appears along
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:01.176 --> 00:37:02.536 A:middle
 with a notification.
 
@@ -2827,9 +2715,6 @@ optional parameters,
 00:37:58.166 --> 00:37:59.706 A:middle
 but you have to use one of them.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.286 --> 00:38:02.656 A:middle
 And it creates a notification.
 
@@ -2903,9 +2788,6 @@ can see that it's running
 
 00:38:59.296 --> 00:39:00.546 A:middle
 from the spinning gear menu.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:00.606 --> 00:39:04.706 A:middle
 But, when it's done, all you
@@ -2990,9 +2872,6 @@ a coffee break or something.
 00:39:59.386 --> 00:40:01.236 A:middle
 So let's see how we did that.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.666 --> 00:40:05.076 A:middle
 I have it open in
 Automator over here.
@@ -3068,9 +2947,6 @@ movie this time
 00:40:59.656 --> 00:41:01.086 A:middle
 so it won't take quite as long.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:01.306 --> 00:41:02.496 A:middle
 There's one file;
 there's the next
@@ -3144,9 +3020,6 @@ on that using Syslog.
 
 00:41:58.926 --> 00:42:01.286 A:middle
 So this just writes
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:01.286 --> 00:42:04.936 A:middle
 out a message anytime
@@ -3227,9 +3100,6 @@ And, for every line of test,
 it's going to run the
 rest of the script.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:00.586 --> 00:43:05.836 A:middle
 So this little hunk of line
 noise breaks up the input line
@@ -3290,9 +3160,6 @@ previous command we had,
 00:43:58.796 --> 00:44:03.906 A:middle
 the Syslog command, and pipe
 it through notification filter.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:05.716 --> 00:44:07.186 A:middle
 So, now, this will
@@ -3360,9 +3227,6 @@ do it as well.
 
 00:44:59.776 --> 00:45:00.886 A:middle
 This means you don't have
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:00.886 --> 00:45:04.016 A:middle
 to create these modal
@@ -3436,9 +3300,6 @@ Whelan in your address book
 and then create a new
 meeting for you in Calendar.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:03.146 --> 00:46:05.666 A:middle
 It has a lot of other commands
 that are just basically,
@@ -3510,9 +3371,6 @@ features is Speakable Items.
 00:46:58.596 --> 00:47:01.206 A:middle
 You select that and then
 just click the radio button
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:01.206 --> 00:47:01.996 A:middle
 to turn it on.
@@ -3598,9 +3456,6 @@ does that, and I'll walk you
 through it to show
 you how to do this.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:01.256 --> 00:48:04.616 A:middle
 So it's an applet by default,
 
@@ -3659,9 +3514,6 @@ that says Application.
 00:48:55.286 --> 00:49:00.326 A:middle
 Well, if I click on that,
 there's a new file format.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:00.516 --> 00:49:03.696 A:middle
 If you have Speakable Items
@@ -3739,9 +3591,6 @@ is plugged into the computer
 like it is here, if I want to,
 no matter what program I'm in,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:03.286 --> 00:50:06.516 A:middle
 if I want to eject
 it, I just simply --
@@ -3801,9 +3650,6 @@ looking for, that kind of thing.
 00:50:59.216 --> 00:51:02.636 A:middle
 So we encourage you to give
 this a try in Mavericks.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:03.666 --> 00:51:08.186 A:middle
 So, in summary, this has been
@@ -3869,9 +3715,6 @@ and ability to them.
 And we've implemented
 notification support in addition
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:01.666 --> 00:52:03.796 A:middle
 to our new Speakable Workflows.
 
@@ -3930,9 +3773,6 @@ powerful boon to our customers,
 00:52:57.406 --> 00:53:01.376 A:middle
 to us, to engineers,
 to everybody to use it
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:01.376 --> 00:53:05.196 A:middle
 to create automations that
@@ -4006,7 +3846,3 @@ this afternoon, guys.
 
 00:53:52.516 --> 00:54:02.340 A:middle
 [ Silence ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-

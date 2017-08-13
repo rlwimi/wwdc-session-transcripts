@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.456 A:middle
 [ Silence ]
@@ -64,9 +63,6 @@ Cut the Rope, Doodle Jump,
 00:00:58.196 --> 00:01:00.036 A:middle
 Where is My Water, Tiny Wings,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:01.286 --> 00:01:02.876 A:middle
 I'm sure you're all
 aware of these games.
@@ -74,7 +70,7 @@ aware of these games.
 00:01:03.656 --> 00:01:05.056 A:middle
 And many of them are 2D.
 
-00:01:05.465 --> 00:01:07.636 A:middle
+00:01:05.466 --> 00:01:07.636 A:middle
 We look to this and we realize
 
 00:01:07.636 --> 00:01:09.636 A:middle
@@ -133,9 +129,6 @@ Sprite Kit, enhancing
 It has features that you would
 expect from the Sprite engine
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.856 --> 00:02:02.556 A:middle
 like Sprites animating
 of course,
@@ -150,7 +143,7 @@ primitives that you might use
 00:02:07.416 --> 00:02:08.756 A:middle
 for debugging or even shipping.
 
-00:02:09.425 --> 00:02:12.316 A:middle
+00:02:09.426 --> 00:02:12.316 A:middle
 You can do rectangles,
 circles, pads.
 
@@ -224,9 +217,6 @@ to integrate into your game.
 00:02:56.686 --> 00:03:00.026 A:middle
 So you can have video sprites,
 you can apply core image effects
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.426 --> 00:03:02.016 A:middle
 to your whole scene
@@ -319,9 +309,6 @@ different effects and actions
 that you can apply and
 we'll also show you physics.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:02.346 --> 00:04:04.726 A:middle
 In the second session,
 we're going to focus
@@ -401,9 +388,6 @@ Controllers, works on iOS
 00:04:57.336 --> 00:05:02.066 A:middle
 and OS X and you can use the
 keyboard and mouse to go around.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:02.396 --> 00:05:05.636 A:middle
 So, we have an archer here who's
@@ -489,9 +473,6 @@ has to offer for your games.
 So I'm going to start
 with the basics.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:02.416 --> 00:06:06.566 A:middle
 There's three basic parts to any
 Sprite Kit game and not consists
@@ -559,9 +540,6 @@ represent visual content
 00:06:58.196 --> 00:07:03.566 A:middle
 such as shapes or images like
 our background image or trees
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:03.626 --> 00:07:05.676 A:middle
 or the character
@@ -643,9 +621,6 @@ So once you've done that,
 the basic Sprite Kit
 game loop kicks in.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.606 --> 00:08:03.546 A:middle
 And so this is the sequence
 of events that's going
@@ -688,11 +663,11 @@ area to do game logic.
 00:08:29.786 --> 00:08:31.626 A:middle
 After you've done all that,
 
-00:08:31.706 --> 00:08:34.885 A:middle
+00:08:31.706 --> 00:08:34.886 A:middle
 Sprite Kit will then evaluate
 any actions attached to nodes
 
-00:08:34.885 --> 00:08:36.275 A:middle
+00:08:34.886 --> 00:08:36.276 A:middle
 in your scene for
 the current frame.
 
@@ -700,7 +675,7 @@ the current frame.
 After all these actions
 have been evaluated,
 
-00:08:40.756 --> 00:08:42.885 A:middle
+00:08:40.756 --> 00:08:42.886 A:middle
 Sprite Kit will let you know
 that it's done doing that
 
@@ -727,9 +702,6 @@ for this frame.
 00:08:57.096 --> 00:09:00.246 A:middle
 So if I have a game where maybe
 I've got some fireballs lying
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.246 --> 00:09:03.326 A:middle
 across the screen and I'm doing
@@ -816,9 +788,6 @@ a complete tour of the API
 and we're going to go
 through a lot of the headers.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:02.626 --> 00:10:04.806 A:middle
 But first, I want to
 give you a demo of part
@@ -889,9 +858,6 @@ background color to what looks
 like a dark gray
 on our scene here.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.446 --> 00:11:03.626 A:middle
 And then we've implemented the
 mouseDown handler and looks
@@ -959,9 +925,6 @@ That's what I expect to happen.
 00:11:58.776 --> 00:12:01.106 A:middle
 So we have our gray screen
 here, that's what we set
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:01.106 --> 00:12:02.246 A:middle
 for our background color.
@@ -1045,9 +1008,6 @@ look at each of these now.
 We'll start with the
 base class, SKNode.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:02.026 --> 00:13:03.936 A:middle
 SKNode has no inherent size
 
@@ -1130,9 +1090,6 @@ texture like our Spaceship.
 So, let's talk about
 textures for a minute.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:03.416 --> 00:14:07.856 A:middle
 Textures are how SpriteKit
 represents bitmap--
@@ -1202,9 +1159,6 @@ create a new texture using
 00:14:58.476 --> 00:15:01.626 A:middle
 that subregion and it's actually
 really cheap, SpriteKit's going
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:01.626 --> 00:15:03.366 A:middle
 to take care all the
@@ -1292,9 +1246,6 @@ blend of the two together.
 So, if you have both a
 color and a texture set
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:02.666 --> 00:16:05.206 A:middle
 on your SpriteNode, you
 can control the mixing
@@ -1370,14 +1321,11 @@ images for every type of effect
 that you want to
 do in your game.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.016 --> 00:17:03.686 A:middle
 So, we want to take
 a look at the effect
 
-00:17:04.185 --> 00:17:07.016 A:middle
+00:17:04.186 --> 00:17:07.016 A:middle
 of all the different properties
 that we have on SpriteNode,
 
@@ -1385,7 +1333,7 @@ that we have on SpriteNode,
 many of them inherited from
 SKNode that we just talked about
 
-00:17:10.425 --> 00:17:12.256 A:middle
+00:17:10.426 --> 00:17:12.256 A:middle
 and how they would affect
 how the Sprite will look.
 
@@ -1401,7 +1349,7 @@ exactly what we would expect.
 And then we can play
 around with the alpha,
 
-00:17:20.836 --> 00:17:22.425 A:middle
+00:17:20.836 --> 00:17:22.426 A:middle
 maybe fade it out a little bit.
 
 00:17:22.906 --> 00:17:26.396 A:middle
@@ -1456,9 +1404,6 @@ So, SpriteKit of course shift
 00:17:59.466 --> 00:18:02.986 A:middle
 to the fully featured
 2D particle system.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:03.116 --> 00:18:05.606 A:middle
 We support all of the basic
@@ -1544,9 +1489,6 @@ launched out, blend modes.
 00:18:59.296 --> 00:19:01.146 A:middle
 There're just really so
 many things you can surround
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:01.146 --> 00:19:02.676 A:middle
 and just tweak these
@@ -1640,9 +1582,6 @@ an easy one line convenience
 00:19:59.606 --> 00:20:00.806 A:middle
 function for you to get video
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.806 --> 00:20:01.976 A:middle
 from a file directly
 into your game.
@@ -1734,9 +1673,6 @@ Next, ShapeNodes.
 ShapeNodes are a great way to
 display dynamic geometric shapes
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.656 --> 00:21:02.986 A:middle
 within your game, we've
 made it really easy
@@ -1816,9 +1752,6 @@ you to use LabelNodes
 00:21:57.196 --> 00:22:00.346 A:middle
 to have single line text
 in your game as a sprite.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.806 --> 00:22:04.316 A:middle
 And we support all the system
@@ -1903,9 +1836,6 @@ already have this offscreen
 image, we thought it'd be
 really cool to allow you
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.676 --> 00:23:02.776 A:middle
 to apply our vast library
 
@@ -1987,9 +1917,6 @@ applied every frame.
 00:23:57.716 --> 00:24:00.656 A:middle
 We also support a form
 of superfast masking
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.656 --> 00:24:03.076 A:middle
 in Sprite Kit using
@@ -2076,9 +2003,6 @@ and animations.
 So, when we went to design the
 action system for Sprite Kit,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.986 --> 00:25:02.526 A:middle
 we want it to be super simple,
 
@@ -2162,9 +2086,6 @@ translate, fade-in, fade-out,
 00:25:55.886 --> 00:26:00.726 A:middle
 and how do I run
 those on my nodes?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.896 --> 00:26:04.176 A:middle
 I just tell my SpriteNode
@@ -2251,9 +2172,6 @@ using repeat forever.
 So, I mentioned the actions,
 they'll run immediately
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:00.246 --> 00:27:01.166 A:middle
 when you put them on the node
 
@@ -2331,9 +2249,6 @@ duration is the sum
 
 00:27:58.736 --> 00:28:01.186 A:middle
 of all of its components.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.186 --> 00:28:04.176 A:middle
 Now, groups and sequences
@@ -2416,9 +2331,6 @@ we just mentioned.
 So if I want to kick off in
 animation one second from now,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:02.666 --> 00:29:03.726 A:middle
 I'll create a sequence,
 
@@ -2488,9 +2400,6 @@ using a CGPath and a duration
 00:29:58.276 --> 00:30:00.286 A:middle
 for the sprite to
 follow that path.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.286 --> 00:30:02.126 A:middle
 And by default we'll
@@ -2596,9 +2505,6 @@ part of your sequences.
 So, if I already
 built up a sequence
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:01.076 --> 00:31:05.136 A:middle
 that has my fadeout animation
 for any of these characters
@@ -2687,9 +2593,6 @@ out our AVFoundation framework
 00:31:59.566 --> 00:32:01.896 A:middle
 for more fine grain
 control of the sounds.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:01.936 --> 00:32:03.786 A:middle
 But this is a fantastic
@@ -2791,9 +2694,6 @@ to the Sprite.
 You can even animate things
 that aren't even in your game.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:01.276 --> 00:33:05.286 A:middle
 If I wanted to automatically
 swirl around the emission point
@@ -2881,9 +2781,6 @@ a physicsBody that represents
 that node and simply
 set it on the node.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:02.186 --> 00:34:03.086 A:middle
 It's one property you set
 
@@ -2895,7 +2792,7 @@ starts acting on that node.
 So, it's built right
 into the framework.
 
-00:34:08.045 --> 00:34:09.886 A:middle
+00:34:08.046 --> 00:34:09.886 A:middle
 It's not all on or all off.
 
 00:34:09.886 --> 00:34:11.656 A:middle
@@ -2906,7 +2803,7 @@ one node in your game,
 you don't have to
 be a physics game.
 
-00:34:13.545 --> 00:34:17.446 A:middle
+00:34:13.546 --> 00:34:17.446 A:middle
 It's-- If you really want to
 use your own physics framework,
 
@@ -2914,14 +2811,14 @@ use your own physics framework,
 you can do that too, tie it into
 Sprite Kit however you want.
 
-00:34:20.505 --> 00:34:23.016 A:middle
+00:34:20.506 --> 00:34:23.016 A:middle
 If you're not using our physics
 engine you pay absolutely no
 
 00:34:23.016 --> 00:34:24.666 A:middle
 cost for it.
 
-00:34:26.065 --> 00:34:28.106 A:middle
+00:34:26.066 --> 00:34:28.106 A:middle
 We have a variety of
 shapes that you can use
 
@@ -2940,11 +2837,11 @@ even custom polygons or paths
 00:34:37.306 --> 00:34:38.466 A:middle
 that you can use in your game
 
-00:34:38.795 --> 00:34:41.735 A:middle
+00:34:38.796 --> 00:34:41.736 A:middle
 and all using our signature
 one line convenience method
 
-00:34:41.735 --> 00:34:43.806 A:middle
+00:34:41.736 --> 00:34:43.806 A:middle
 to create those objects.
 
 00:34:45.536 --> 00:34:49.426 A:middle
@@ -2955,7 +2852,7 @@ object, like I said before,
 you just set the physicsBody
 properly on your sprite.
 
-00:34:52.275 --> 00:34:55.216 A:middle
+00:34:52.276 --> 00:34:55.216 A:middle
 So if I wanted to create
 a circle with a radius 50,
 
@@ -2966,9 +2863,6 @@ and I'll set that property
 00:34:58.386 --> 00:35:01.806 A:middle
 on my SpriteNode and then
 physics will immediately start
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:02.316 --> 00:35:02.916 A:middle
 running on there.
@@ -3050,9 +2944,6 @@ to represent the boundary
 00:35:57.526 --> 00:36:00.326 A:middle
 and now this time when I
 add the nodes to my scene,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.326 --> 00:36:01.466 A:middle
 you'll see they're
@@ -3139,9 +3030,6 @@ to receive notifications
 when any two bodies are
 colliding 'cause we've already
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:02.196 --> 00:37:04.936 A:middle
 had to figure this out to
 calculate the collisions.
@@ -3217,9 +3105,6 @@ associated with my heroSprite
 00:37:59.336 --> 00:38:04.186 A:middle
 and then I can go up and do
 something cool with that.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:04.406 --> 00:38:06.636 A:middle
 By default, you'll be
@@ -3305,9 +3190,6 @@ to actually collide with.
 00:38:59.146 --> 00:39:00.336 A:middle
 So, if I don't collide
 with anyone,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:00.336 --> 00:39:02.306 A:middle
 the physics bodies will
@@ -3411,9 +3293,6 @@ of the enemies touches one
 of the heroes so that
 I can apply damage,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.936 --> 00:40:03.626 A:middle
 change the life counters,
 stuff like that.
@@ -3488,9 +3367,6 @@ collision mask and I'll--
 00:40:57.896 --> 00:41:03.806 A:middle
 I'm also interested in being
 notified whenever they intersect
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:04.076 --> 00:41:05.056 A:middle
 with the hero characters.
@@ -3579,9 +3455,6 @@ you can also apply a CIFilter
 to any texture in your game
 by taking an existing texture
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:03.436 --> 00:42:06.236 A:middle
 and running it through a
 filter to create a new one.
@@ -3668,7 +3541,3 @@ Thank you.
 
 00:42:58.016 --> 00:43:05.616 A:middle
 [ Silence ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-

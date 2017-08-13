@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.836 A:middle
 [ Silence ]
@@ -29,11 +28,11 @@ features in OS X Mavericks.
 Here at Apple, we care very
 deeply about accessibility
 
-00:00:29.616 --> 00:00:32.195 A:middle
+00:00:29.616 --> 00:00:32.196 A:middle
 and we work really
 hard to deliver a lot
 
-00:00:32.195 --> 00:00:33.706 A:middle
+00:00:32.196 --> 00:00:33.706 A:middle
 of great accessibility features.
 
 00:00:34.166 --> 00:00:37.136 A:middle
@@ -70,9 +69,6 @@ by all users regardless
 00:00:58.146 --> 00:00:59.596 A:middle
 of their abilities
 or disabilities?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.636 --> 00:01:04.626 A:middle
 The second problem we look
@@ -160,9 +156,6 @@ is someone who is blind
 and deaf can use
 all of the features
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.836 --> 00:02:03.716 A:middle
 and all the functionality of
 OS X to its fullest potential.
@@ -246,9 +239,6 @@ and incredibly enabling
 00:02:57.916 --> 00:03:00.336 A:middle
 for both users with
 disabilities and developers
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.336 --> 00:03:03.166 A:middle
 who are developing to help
@@ -340,9 +330,6 @@ basically tell the OS
 that they want captions
 whenever possible.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.546 --> 00:04:02.656 A:middle
 Now, under the hood, it's
 actually pretty complex.
@@ -367,18 +354,18 @@ through some complex rules,
 try to find a closed captioning
 track, try to find the subtitles
 
-00:04:14.646 --> 00:04:17.245 A:middle
+00:04:14.646 --> 00:04:17.246 A:middle
 for deaf and hard-of-heard
 track, and leaving cascade
 
-00:04:17.245 --> 00:04:19.196 A:middle
+00:04:17.246 --> 00:04:19.196 A:middle
 down to just a regular
 subtitle track based
 
 00:04:19.196 --> 00:04:20.136 A:middle
 on the system locale.
 
-00:04:21.245 --> 00:04:23.036 A:middle
+00:04:21.246 --> 00:04:23.036 A:middle
 So, this is really,
 really helpful
 
@@ -441,9 +428,6 @@ style, the classic style
 
 00:04:58.166 --> 00:04:59.506 A:middle
 and the large text style.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.096 --> 00:05:02.156 A:middle
 So just like that checkbox,
@@ -532,9 +516,6 @@ enabling for these users.
 00:05:57.346 --> 00:06:02.126 A:middle
 Now, we're not going to have
 time today to go into the nuts
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:02.126 --> 00:06:04.146 A:middle
 and bolts specifically
@@ -625,9 +606,6 @@ only have the capability
 
 00:06:57.906 --> 00:06:59.586 A:middle
 to operate a single button.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.186 --> 00:07:02.526 A:middle
 In some cases, this maybe a
@@ -720,9 +698,6 @@ between one and five buttons
 00:07:58.726 --> 00:08:00.136 A:middle
 and scrolling capabilities.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.136 --> 00:08:03.656 A:middle
 The case with the Trackpad, you
 also have Multi-Touch gestures.
@@ -769,7 +744,7 @@ it appears there's a small menu
 00:08:38.496 --> 00:08:39.736 A:middle
 on the top right of your screen.
 
-00:08:40.035 --> 00:08:42.476 A:middle
+00:08:40.036 --> 00:08:42.476 A:middle
 This menu here that you see
 is what we call the Home Menu.
 
@@ -803,9 +778,6 @@ gets highlighted on screen.
 
 00:08:59.936 --> 00:09:01.376 A:middle
 You need to press your Switch
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.376 --> 00:09:02.816 A:middle
 when the appropriate
@@ -906,9 +878,6 @@ like the brightness controls.
 But going beyond that, we have
 full functionality of the mouse.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:01.476 --> 00:10:03.636 A:middle
 And this problem
 alone is really hard.
@@ -994,9 +963,6 @@ a user could do a left click,
 00:10:58.566 --> 00:11:00.526 A:middle
 a right click, they can
 even do click and hold
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.526 --> 00:11:02.046 A:middle
 to do Drag and Drop operations.
@@ -1087,9 +1053,6 @@ functionality come in macros,
 00:11:58.596 --> 00:12:01.276 A:middle
 things like insert a Crossfade,
 insert a Fade to Black,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:01.376 --> 00:12:03.226 A:middle
 or trim this Clip
@@ -1182,9 +1145,6 @@ you make.
 Users buy our products because
 of the extended functionality
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:02.496 --> 00:13:05.036 A:middle
 and integration that
 your apps provide.
@@ -1264,9 +1224,6 @@ technology on OS X.
 First, there is your application
 that presents lots of pretty UIs
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:03.866 --> 00:14:06.466 A:middle
 and fancy cool features.
 
@@ -1328,9 +1285,6 @@ NSAccessibility Protocol.
 00:14:58.776 --> 00:15:03.476 A:middle
 And the way it works is that
 every UI, like this Play button,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:04.046 --> 00:15:08.576 A:middle
 is conveying its accessibility
@@ -1396,9 +1350,6 @@ in accessibility hierarchies.
 And then there's methods
 to get attributes in such.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:03.306 --> 00:16:08.186 A:middle
 And there are methods to
 perform actions [inaudible] UIs
@@ -1456,9 +1407,6 @@ piece of UI.
 So this tool is called
 Accessibility Inspector
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:03.406 --> 00:17:06.526 A:middle
 and the good thing is, now,
 it's a bundled with Xcode.
@@ -1476,7 +1424,7 @@ and launch the app.
 00:17:19.346 --> 00:17:20.646 A:middle
 And Xcode won't hide.
 
-00:17:20.646 --> 00:17:21.195 A:middle
+00:17:20.646 --> 00:17:21.196 A:middle
 There you go.
 
 00:17:21.786 --> 00:17:26.396 A:middle
@@ -1517,9 +1465,6 @@ type of UI.
 00:17:56.716 --> 00:18:01.036 A:middle
 So this year, we added four
 more examples for you here.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:03.346 --> 00:18:07.746 A:middle
 Now, what I want to do is use
@@ -1572,9 +1517,6 @@ to support for your app.
 
 00:18:55.516 --> 00:19:05.296 A:middle
 [ Background Noise ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:05.796 --> 00:19:07.276 A:middle
 So now, I'm going to tell you
@@ -1641,9 +1583,6 @@ one segment at a time.
 But we noticed that developer
 have altered the behavior
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:03.106 --> 00:20:07.326 A:middle
 so that you could select
 multiple segments at a time,
@@ -1703,9 +1642,6 @@ take a look at that
 00:20:57.146 --> 00:20:59.526 A:middle
 and see how that's accessorized.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.036 --> 00:21:05.536 A:middle
 Next, I want to talk about
 UIs that appears and disappear
@@ -1763,9 +1699,6 @@ the keyboard support,
 00:21:55.566 --> 00:21:59.076 A:middle
 shortcut support, it
 may not be discoverable.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.016 --> 00:22:05.296 A:middle
 So in 10.9, we introduced new
@@ -1830,9 +1763,6 @@ API for you to do just that.
 This post notification
 was user info.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:01.756 --> 00:23:04.166 A:middle
 API takes in additional
 parameter
@@ -1886,9 +1816,6 @@ to use currently.
 So let's see how you can add
 those API support to solve that.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:09.416 --> 00:24:12.576 A:middle
 I have the Accessibility
 UI example project.
@@ -1937,9 +1864,6 @@ exposed through accessibility.
 00:24:54.706 --> 00:25:00.536 A:middle
 So I have to explicitly return
 No for Accessibility is Ignored.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:02.136 --> 00:25:06.546 A:middle
 So once this element is
@@ -2000,9 +1924,6 @@ or the Show Alternate UI action.
 00:25:57.306 --> 00:26:02.726 A:middle
 Then when you're asked
 to perform those actions,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:03.726 --> 00:26:07.826 A:middle
 you could go ahead and
@@ -2065,9 +1986,6 @@ For now, I'm going to skip that.
 
 00:26:58.446 --> 00:26:59.496 A:middle
 &gt;&gt; Welcome to VoiceOver.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.136 --> 00:27:02.656 A:middle
 VoiceOver speaks descriptions
@@ -2148,9 +2066,6 @@ Show Alternate UI.
 &gt;&gt; I'll go ahead
 and select that.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.776 --> 00:28:03.456 A:middle
 &gt;&gt; Two items available
 in the Update Items Menu.
@@ -2228,9 +2143,6 @@ The next thing I want to talk
 about is Accessibility
 Announcement.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:02.666 --> 00:29:04.956 A:middle
 In your app, there may
 be times where you want
@@ -2295,9 +2207,6 @@ once we post that,
 VoiceOver can then either
 determine to speak it,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:01.356 --> 00:30:03.586 A:middle
 output to Braille, or
 do something about it.
@@ -2360,9 +2269,6 @@ or if you have a medical app
 00:30:57.146 --> 00:31:00.786 A:middle
 that display valuable
 sensitive patient informations,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:01.576 --> 00:31:03.436 A:middle
 what I'm going to
@@ -2427,9 +2333,6 @@ will also need to make API call.
 This is called the Set Make
 Contents Protected Content API.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:01.406 --> 00:32:03.126 A:middle
 So to see how these works,
 
@@ -2475,9 +2378,6 @@ What I want you to look
 00:32:55.986 --> 00:32:59.616 A:middle
 at specifically is this
 AX Value attribute.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.066 --> 00:33:02.766 A:middle
 Note that, right now, you
@@ -2549,9 +2449,6 @@ Protected Text folder.
 In there, I just have a
 subclass of the NSTextField,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:03.746 --> 00:34:06.576 A:middle
 so that displayed the content.
 
@@ -2563,15 +2460,15 @@ of the Accessibility APIs here.
 So since what I'm doing here is
 dynamically toggling the text
 
-00:34:23.235 --> 00:34:26.835 A:middle
+00:34:23.236 --> 00:34:26.836 A:middle
 content protection on and
 off, I'll make the API call
 
-00:34:26.835 --> 00:34:29.246 A:middle
+00:34:26.836 --> 00:34:29.246 A:middle
 in a place where I'm setting
 the protection turning--
 
-00:34:29.315 --> 00:34:30.616 A:middle
+00:34:29.316 --> 00:34:30.616 A:middle
 toggling that protection.
 
 00:34:31.286 --> 00:34:34.216 A:middle
@@ -2582,15 +2479,15 @@ NSAccessibility Set Make
 Contents Protected
 Content, turn it yes or no.
 
-00:34:38.226 --> 00:34:41.065 A:middle
+00:34:38.226 --> 00:34:41.066 A:middle
 In your app, you probably
 want the protection
 
-00:34:41.065 --> 00:34:43.775 A:middle
+00:34:41.066 --> 00:34:43.776 A:middle
 to last throughout the
 lifespan of your app.
 
-00:34:44.335 --> 00:34:49.335 A:middle
+00:34:44.336 --> 00:34:49.336 A:middle
 So, you could power it like
 in the app launch time.
 
@@ -2609,9 +2506,6 @@ the attributes
 00:34:58.176 --> 00:35:02.196 A:middle
 that app already supports
 for the text field cell,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:03.416 --> 00:35:06.256 A:middle
 we're also going to add
@@ -2667,9 +2561,6 @@ their information.
 00:35:54.486 --> 00:36:00.136 A:middle
 So in OS X, if any
 application that wants
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.406 --> 00:36:03.376 A:middle
 to use the end-user's
@@ -2730,9 +2621,6 @@ remind the end-user more often.
 So we created an API
 for you to do just that.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:02.446 --> 00:37:06.526 A:middle
 It's called the AX is Trusted,
 Process Trusted with Options
@@ -2792,9 +2680,6 @@ morning in Uphill [phonetic],
 
 00:37:59.876 --> 00:38:00.766 A:middle
 you can listen to that.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:01.016 --> 00:38:05.926 A:middle
 So to recap, Apple is
@@ -2858,9 +2743,6 @@ contact us, watch videos,
 previous WWDC videos, or look
 online for documentations.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:03.596 --> 00:39:07.886 A:middle
 Today, I have also
 presented some UI challenges
@@ -2919,4 +2801,3 @@ Thank you.
 
 00:39:47.516 --> 00:39:56.050 A:middle
 [ Applause ]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.516 A:middle
 [ Silence ]
@@ -31,7 +30,7 @@ we're going to cover today.
 The first thing that we're going
 to cover is changes related
 
-00:00:30.696 --> 00:00:32.345 A:middle
+00:00:30.696 --> 00:00:32.346 A:middle
 to the new Multitasking
 Behaviors.
 
@@ -78,9 +77,6 @@ saying this is not a review.
 00:00:59.966 --> 00:01:01.996 A:middle
 If you're watching this
 online you might want to pause
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:01.996 --> 00:01:03.646 A:middle
 and go back to last year's
@@ -173,9 +169,6 @@ interested in the features
 that your application
 provide for a period of time
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:02.316 --> 00:02:04.356 A:middle
 and they'll manually
 launch their application
@@ -183,11 +176,11 @@ launch their application
 00:02:04.796 --> 00:02:06.206 A:middle
 when their interested
 
-00:02:06.206 --> 00:02:08.895 A:middle
+00:02:06.206 --> 00:02:08.896 A:middle
 in receiving your
 functionality again.
 
-00:02:09.515 --> 00:02:11.836 A:middle
+00:02:09.516 --> 00:02:11.836 A:middle
 So, with that let's talk
 about the Core Location APIs
 
@@ -260,9 +253,6 @@ you're using Location.
 00:02:58.276 --> 00:03:00.776 A:middle
 These goes beyond just
 specifying NS Location usage
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.776 --> 00:03:02.406 A:middle
 description key inside
@@ -357,9 +347,6 @@ cognizant of these changes.
 And especially when you're
 fetching proactively understand
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.586 --> 00:04:02.726 A:middle
 that the location that
 you're going to achieve
@@ -383,11 +370,11 @@ appropriate in the background.
 If you have a location
 that's good enough
 
-00:04:15.606 --> 00:04:18.875 A:middle
+00:04:15.606 --> 00:04:18.876 A:middle
 to hit your server query
 or a certain amount
 
-00:04:18.875 --> 00:04:22.246 A:middle
+00:04:18.876 --> 00:04:22.246 A:middle
 of time has passed and you're
 just not going to get a kind
 
@@ -441,9 +428,6 @@ we keep the device awake as long
 00:04:57.266 --> 00:04:58.816 A:middle
 as you can tune in
 to use location.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.156 --> 00:05:04.686 A:middle
 But in iOS 7 because of these
@@ -540,9 +524,6 @@ for power and user satisfaction.
 With these changes
 however, it's possible
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:02.656 --> 00:06:05.146 A:middle
 that the user could
 tell you that hey,
@@ -625,9 +606,6 @@ that you want, that they want.
 00:06:59.966 --> 00:07:02.656 A:middle
 Now, there's one other option
 and this is restricted.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:03.086 --> 00:07:05.276 A:middle
 And this is if parental controls
@@ -712,9 +690,6 @@ creating a fitness application.
 00:07:59.236 --> 00:08:00.366 A:middle
 As many of you already know
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.366 --> 00:08:02.646 A:middle
 because we've gotten many
 great examples in the store,
@@ -770,11 +745,11 @@ that's not a lot of movement
 and so we'll assume that if
 you were navigating in a car
 
-00:08:37.126 --> 00:08:39.895 A:middle
+00:08:37.126 --> 00:08:39.896 A:middle
 that actually the user would
 rather pause their activity
 
-00:08:39.895 --> 00:08:42.155 A:middle
+00:08:39.896 --> 00:08:42.156 A:middle
 right now because navigation
 is not really relevant anymore.
 
@@ -804,9 +779,6 @@ you meandering around a park
 00:08:58.456 --> 00:09:00.966 A:middle
 and less likely to snap you
 to a freeway if you tell us
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.966 --> 00:09:02.046 A:middle
 that you're a fitness
@@ -888,9 +860,6 @@ certain amount of battery.
 Beyond just the battery that's
 consumed by the chip itself,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:01.596 --> 00:10:03.006 A:middle
 the phone stays awake.
 
@@ -969,9 +938,6 @@ first we had to come
 00:10:59.746 --> 00:11:02.306 A:middle
 up with what an idealized
 fitness application looks like.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:03.106 --> 00:11:06.596 A:middle
 And so for us, and we model this
@@ -1052,9 +1018,6 @@ You've gone 9.6 miles, awesome.
 
 00:11:59.476 --> 00:12:01.126 A:middle
 So, if we could do this
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:01.396 --> 00:12:04.866 A:middle
 and if we could defer location
@@ -1147,9 +1110,6 @@ in the future it is.
 Now if you tell your
 locationManager
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:02.676 --> 00:13:05.206 A:middle
 that I'm allowing you to
 defer location updates
@@ -1239,9 +1199,6 @@ working under the hood.
 So, the first error
 that you could run
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:01.576 --> 00:14:04.136 A:middle
 into is NotUpdatingLocation.
 
@@ -1317,9 +1274,6 @@ deliver it you all at once.
 00:14:57.526 --> 00:15:00.406 A:middle
 If you're not interested in most
 of them is it really beneficial.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.606 --> 00:15:03.416 A:middle
 So, to use this API
@@ -1410,9 +1364,6 @@ disallowed deferred updates
 and if this happens while we're
 currently updating we give you a
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:03.056 --> 00:16:07.426 A:middle
 callback saying hey we're done
 because you told us we're done.
@@ -1491,18 +1442,15 @@ you hit your exit criteria.
 So, if you look back
 at the sample
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.686 --> 00:17:03.306 A:middle
 that I provided earlier this
 is why we're keeping track
 
-00:17:03.306 --> 00:17:05.205 A:middle
+00:17:03.306 --> 00:17:05.206 A:middle
 of whether or not we're
 deferring location updates.
 
-00:17:05.675 --> 00:17:07.106 A:middle
+00:17:05.676 --> 00:17:07.106 A:middle
 Because if you're not doing this
 
 00:17:07.106 --> 00:17:09.406 A:middle
@@ -1520,7 +1468,7 @@ causing us to recompute
 when the device is
 allowed to sleep,
 
-00:17:15.465 --> 00:17:17.256 A:middle
+00:17:15.466 --> 00:17:17.256 A:middle
 which basically is just going
 to keep pushing that date
 
@@ -1528,14 +1476,14 @@ to keep pushing that date
 out into the future and
 there's no guarantee
 
-00:17:19.146 --> 00:17:19.915 A:middle
+00:17:19.146 --> 00:17:19.916 A:middle
 that we'll ever sleep
 
-00:17:19.915 --> 00:17:21.646 A:middle
+00:17:19.916 --> 00:17:21.646 A:middle
 and there's no guarantee
 you'll ever get power savings.
 
-00:17:22.986 --> 00:17:25.965 A:middle
+00:17:22.986 --> 00:17:25.966 A:middle
 So, keep track of whether or
 not you're deferring updates
 
@@ -1584,9 +1532,6 @@ if you check to see whether
 00:17:57.616 --> 00:18:01.396 A:middle
 or not it's available this will
 save you again spurious errors.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:02.536 --> 00:18:04.696 A:middle
 This can actually happen
@@ -1682,9 +1627,6 @@ So, if you look back
 at the sample code this is the
 reason why we defer location
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:02.416 --> 00:19:04.496 A:middle
 updates from within
 the location,
@@ -1778,9 +1720,6 @@ you live ones.
 And when you back into the
 background we'll gladly try
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:03.356 --> 00:20:06.346 A:middle
 to sleep.
 
@@ -1872,9 +1811,6 @@ with iPhone 5.
 And this is why we
 actually weren't able
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:01.536 --> 00:21:02.676 A:middle
 to talk about this last year.
 
@@ -1959,9 +1895,6 @@ location update was not really
 relevant to me and
 then go back to sleep.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:02.456 --> 00:22:07.126 A:middle
 So, it would be nice if we could
 save that step and allow you
@@ -2039,9 +1972,6 @@ from a particular location.
 Let's say you want a
 temporary reminder saying hey,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:01.056 --> 00:23:01.946 A:middle
 remember your car keys.
 
@@ -2118,9 +2048,6 @@ a new delegate method.
 00:23:57.636 --> 00:23:59.996 A:middle
 LocationManager did
 determine state for region.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:01.066 --> 00:24:02.846 A:middle
 Now anytime that we
@@ -2207,9 +2134,6 @@ simply we don't know.
 00:24:59.636 --> 00:25:02.896 A:middle
 And usually this
 happens when your--
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:03.046 --> 00:25:05.866 A:middle
 you've just installed the fence
@@ -2301,9 +2225,6 @@ been moving inside
 and outside the fence every
 couple of seconds we're going
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:02.256 --> 00:26:03.466 A:middle
 to coalesce those updates
 
@@ -2393,9 +2314,6 @@ for me is build an iOS app.
 00:26:59.826 --> 00:27:01.646 A:middle
 It helps that I actually
 know something about iOS
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:01.646 --> 00:27:04.426 A:middle
 and I can familiar with
@@ -2487,9 +2405,6 @@ and New York and Denver
 and quite frankly
 this is both tedious
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.866 --> 00:28:04.486 A:middle
 and at some point we hit a wall
 and we can't actually monitor
@@ -2573,9 +2488,6 @@ inside of Jay's Donut Shop
 and for your application
 on their phone to pick up
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:02.336 --> 00:29:04.316 A:middle
 and give them an
 immersive experience.
@@ -2640,9 +2552,6 @@ that I'm inside the store
 00:29:58.356 --> 00:30:00.016 A:middle
 and change its behaviors
 based on that.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:01.256 --> 00:30:02.706 A:middle
 And similarly when
@@ -2729,9 +2638,6 @@ my store is very slim.
 Now obviously somebody could
 maliciously copy my identifier
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:02.686 --> 00:31:07.196 A:middle
 but in general this is a unique
 way for me to see my stores.
@@ -2812,9 +2718,6 @@ and then specify identifier.
 00:31:59.826 --> 00:32:02.806 A:middle
 This identifier is what uniquely
 identifies it to your instance
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:02.806 --> 00:32:05.306 A:middle
 of core location such
@@ -2900,9 +2803,6 @@ shoes the result is
 
 00:32:59.576 --> 00:33:00.926 A:middle
 that my phone starts vibrating
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.926 --> 00:33:02.436 A:middle
 because I go by Jay's
@@ -2994,9 +2894,6 @@ to interact with my phone.
 And we're going to
 leave the notification
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.136 --> 00:34:03.976 A:middle
 on exit around in a second.
 
@@ -3008,11 +2905,11 @@ regions this way that--
 my friend that's walking through
 Valley Fair doesn't have their
 
-00:34:10.356 --> 00:34:12.025 A:middle
+00:34:10.356 --> 00:34:12.026 A:middle
 phone vibrating in their
 pocket all the time,
 
-00:34:12.525 --> 00:34:14.266 A:middle
+00:34:12.526 --> 00:34:14.266 A:middle
 they can go get their shoes
 and then when they're ready
 
@@ -3048,14 +2945,14 @@ hey welcome to Jay's.
 So, it's important
 to keep in mind
 
-00:34:33.626 --> 00:34:35.815 A:middle
+00:34:33.626 --> 00:34:35.816 A:middle
 that this will fire every
 time their display turns
 
-00:34:35.815 --> 00:34:37.076 A:middle
+00:34:35.816 --> 00:34:37.076 A:middle
 on if they're inside your store.
 
-00:34:37.295 --> 00:34:38.866 A:middle
+00:34:37.296 --> 00:34:38.866 A:middle
 So, what you're going
 to want to do is
 
@@ -3066,19 +2963,19 @@ a notification then go ahead
 00:34:41.926 --> 00:34:42.856 A:middle
 and present a notification.
 
-00:34:43.275 --> 00:34:44.746 A:middle
+00:34:43.276 --> 00:34:44.746 A:middle
 If you've previously
 notified them that hey,
 
-00:34:44.746 --> 00:34:46.485 A:middle
+00:34:44.746 --> 00:34:46.486 A:middle
 you're in Jay's you
 don't really need
 
-00:34:46.485 --> 00:34:49.045 A:middle
+00:34:46.486 --> 00:34:49.046 A:middle
 to have another notification pop
 up on their lock screen or worse
 
-00:34:49.045 --> 00:34:50.726 A:middle
+00:34:49.046 --> 00:34:50.726 A:middle
 over what application
 they're trying to use.
 
@@ -3093,9 +2990,6 @@ that you're inside of a store.
 00:34:58.126 --> 00:35:00.506 A:middle
 And it I might be a
 good idea to then--
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.506 --> 00:35:03.296 A:middle
 track when you leave the
@@ -3196,9 +3090,6 @@ register my phone is going
 to know that I'm at the
 cash register and it's going
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:01.936 --> 00:36:05.286 A:middle
 to present me a notification
 saying, hey now's a good time
@@ -3282,9 +3173,6 @@ location inside of my store
 and not just the
 store more broadly.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:01.256 --> 00:37:04.086 A:middle
 So, going back to my region
 monitoring example when I know
@@ -3357,9 +3245,6 @@ it's approximately the closest.
 00:37:58.996 --> 00:38:00.516 A:middle
 And more importantly in
 Jay's Donut Shop there's only
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.516 --> 00:38:00.976 A:middle
 one anyway.
@@ -3443,9 +3328,6 @@ us to monitor for.
 00:38:58.156 --> 00:39:00.096 A:middle
 And when we find the
 beacon that matches it,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:00.096 --> 00:39:01.476 A:middle
 this is the beacon
@@ -3537,9 +3419,6 @@ receipt that I already knew
 00:39:59.716 --> 00:40:00.816 A:middle
 where the store was--
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.026 --> 00:40:03.066 A:middle
 which store was involved
 in the purchase,
@@ -3628,9 +3507,6 @@ on your database in your app
 00:40:57.396 --> 00:41:00.236 A:middle
 and say hey look this number
 corresponds with apple fritter.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.526 --> 00:41:01.976 A:middle
 Tell the user that if you're
@@ -3721,9 +3597,6 @@ or promotions on jewelry.
 Or if they walk into the
 menswear section they could
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.126 --> 00:42:03.356 A:middle
 realize Father's Day
 is coming up in a week.
@@ -3806,9 +3679,6 @@ quite frankly bus numbers are
 00:42:58.446 --> 00:43:00.886 A:middle
 sometimes easier to deal
 with than route names.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:01.756 --> 00:43:04.066 A:middle
 But there's an added
@@ -3895,9 +3765,6 @@ a beacon region
 00:43:58.836 --> 00:44:02.126 A:middle
 with the same proximity uuid
 major value and minor value
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:02.126 --> 00:44:06.406 A:middle
 that you'd like to scan for,
@@ -3988,9 +3855,6 @@ for your store.
 So, tying beacons back
 into the CLRegion API.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:05.716 --> 00:45:08.056 A:middle
 Previously we had
 a CLRegionObject.
@@ -4067,9 +3931,6 @@ deprecated CLRegion.
 00:45:58.156 --> 00:46:01.416 A:middle
 If you're targeting 6 and
 7 and you need to be able
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:01.416 --> 00:46:03.206 A:middle
 to be backwards compatible
@@ -4150,9 +4011,6 @@ location updates
 00:46:55.186 --> 00:47:00.196 A:middle
 and 40 percent battery savings
 is kind of the upper bound
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:00.196 --> 00:47:01.746 A:middle
 of what you can achieve
@@ -4252,9 +4110,6 @@ advertisement feature
 of iBeacons then go ahead and
 check the Air Locate project
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:02.576 --> 00:48:05.666 A:middle
 and also review the
 core Bluetooth session.
@@ -4288,4 +4143,3 @@ applications.
 
 00:48:20.516 --> 00:48:30.060 A:middle
 [ Applause ]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.566 A:middle
 [ Silence ]
@@ -73,9 +72,6 @@ to solve this problem.
 00:00:58.496 --> 00:01:01.116 A:middle
 The Accelerate Framework is
 a collection of functions
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:01.116 --> 00:01:04.286 A:middle
 of commonly used computationally
@@ -161,9 +157,6 @@ Think accurate.
 We spent a lot of time testing
 so that you don't have to.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:04.196 --> 00:02:06.886 A:middle
 The big one is fast
 with low energy usage.
@@ -233,9 +226,6 @@ processing and VVSP,
 00:02:57.976 --> 00:03:01.556 A:middle
 transcendental math functions
 and vForce and vMathLive,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:03.106 --> 00:03:06.876 A:middle
 and finally, linear
@@ -315,9 +305,6 @@ to use the Accelerate Framework.
 One of the big reasons the
 Accelerate Framework is fast is
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:03.366 --> 00:04:05.166 A:middle
 we utilize SIMD instructions.
 
@@ -337,7 +324,7 @@ together, there are instructions
 on current hardware
 that allow us
 
-00:04:17.216 --> 00:04:19.255 A:middle
+00:04:17.216 --> 00:04:19.256 A:middle
 to add multiple elements
 simultaneously.
 
@@ -388,9 +375,6 @@ pipelining and loop unrolling.
 00:04:57.516 --> 00:05:00.256 A:middle
 So I bring these up because
 it requires a certain amount
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.256 --> 00:05:01.666 A:middle
 of data before optimizations
@@ -484,9 +468,6 @@ that's going to be ideal.
 With the Accelerate
 Framework we always strive
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.916 --> 00:06:03.396 A:middle
 to deliver the greatest
 performance,
@@ -574,9 +555,6 @@ operation for example,
 Matrix Multiply, it could
 be as small as 8 elements.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:04.086 --> 00:07:06.196 A:middle
 The best thing you can
 do here is to experiment.
@@ -652,9 +630,6 @@ the Accelerate Framework.
 For those of you brand new
 to the Accelerate Framework,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.046 --> 00:08:03.896 A:middle
 including it is just like
 including any other framework.
@@ -701,7 +676,7 @@ it's going to show
 up in this link the
 Library section.
 
-00:08:35.976 --> 00:08:40.385 A:middle
+00:08:35.976 --> 00:08:40.386 A:middle
 The only other step to using
 the Accelerate Framework is
 
@@ -726,9 +701,6 @@ include -framework accelerate.
 00:08:57.396 --> 00:09:03.256 A:middle
 So now I want to dive into the
 details of what's available
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:03.256 --> 00:09:04.316 A:middle
 in the Accelerate Framework.
@@ -790,9 +762,6 @@ MaxFilters, MinFilters,
 00:09:54.416 --> 00:09:59.646 A:middle
 color transformations,
 warps and Shears.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.406 --> 00:10:04.536 A:middle
 So this is just some of
@@ -859,9 +828,6 @@ the appropriately sized buffer
 00:10:58.636 --> 00:11:00.556 A:middle
 to deliver the maximum
 performance.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:03.696 --> 00:11:07.046 A:middle
 We also introduced
@@ -931,9 +897,6 @@ easy it is to use.
 So here we're going
 to look at how to go
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:03.646 --> 00:12:06.646 A:middle
 from a CGImage ref
 to a vImage buffer.
@@ -994,9 +957,6 @@ and bitmap info to name a few.
 00:12:56.796 --> 00:13:00.576 A:middle
 This descriptor is
 describing an ARGB 8-bit image.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.876 --> 00:13:03.816 A:middle
 We see that the first entry
@@ -1072,9 +1032,6 @@ unused in this case.
 This is information
 about background color.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:02.706 --> 00:14:05.916 A:middle
 In certain conversions when
 alpha channels are involved,
@@ -1143,9 +1100,6 @@ format so we're going
 00:14:58.506 --> 00:15:01.676 A:middle
 to use our same format specifier
 that we created before.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:02.386 --> 00:15:05.536 A:middle
 To create the CGImage
@@ -1217,9 +1171,6 @@ out image in this case.
 This is going to be a freshly
 allocated CGImage ref containing
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:03.486 --> 00:16:07.246 A:middle
 the image information,
 and we are free
@@ -1284,13 +1235,10 @@ to Any is really fast,
 and I want to show
 you an example of hits
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.216 --> 00:17:02.576 A:middle
 with a real world application.
 
-00:17:02.706 --> 00:17:08.715 A:middle
+00:17:02.706 --> 00:17:08.716 A:middle
 I want to show you that with
 software jpeg encode performance
 
@@ -1359,9 +1307,6 @@ performance the original way.
 00:17:57.536 --> 00:18:01.786 A:middle
 We see a few things here.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:18:02.266 --> 00:18:03.976 A:middle
 First we see a lot
 of variability.
@@ -1424,9 +1369,6 @@ in step one,
 00:18:58.416 --> 00:19:01.116 A:middle
 converting from the input image
 format to the other format,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:01.706 --> 00:19:04.266 A:middle
 to a very small percent
@@ -1496,9 +1438,6 @@ to unpremultiply the data.
 In step two, we're going
 to perform the scale.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:03.926 --> 00:20:05.706 A:middle
 And then in step
 three we're going
@@ -1561,9 +1500,6 @@ getting into the image.
 00:20:53.996 --> 00:21:00.986 A:middle
 Now I want to talk about
 some performance of vImage
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.986 --> 00:21:04.736 A:middle
 as compared to some of the
@@ -1633,9 +1569,6 @@ to be that many times faster
 than OpenCV, and for numbers
 below 1 it means OpenCV is going
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.256 --> 00:22:00.846 A:middle
 to be faster.
 
@@ -1700,9 +1633,6 @@ So on the x-axis I've got time.
 00:22:57.616 --> 00:23:01.186 A:middle
 In the beginning, on the y-axis
 I've got our instantaneous
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:01.186 --> 00:23:01.896 A:middle
 power measurement.
@@ -1779,9 +1709,6 @@ same vImage OpenCV comparison
 00:23:58.876 --> 00:24:00.416 A:middle
 for the energy numbers.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.856 --> 00:24:05.216 A:middle
 So I've got the vImage energy
 savings over OpenCV here.
@@ -1845,9 +1772,6 @@ the Accelerate Framework
 and that is digital
 signal processing.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:02.906 --> 00:25:06.606 A:middle
 You'll find digital
 signal processing in vDSP.
@@ -1905,9 +1829,6 @@ filter, you'd have to do
 00:25:56.246 --> 00:26:00.296 A:middle
 that with individual
 calls into an IIR filter.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.456 --> 00:26:02.136 A:middle
 Now with this new
@@ -1974,9 +1895,6 @@ number of points that you want
 00:26:56.006 --> 00:27:00.666 A:middle
 to compute, we recommend
 that you use the DFT.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.876 --> 00:27:03.306 A:middle
 So this brings up another
@@ -2051,9 +1969,6 @@ DFT setup, and we're going to do
 00:27:58.526 --> 00:28:00.616 A:middle
 that with vDSP zop create setup.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.896 --> 00:28:03.076 A:middle
 Takes a few arguments.
 
@@ -2120,9 +2035,6 @@ setup with vDSP DFT Destroy.
 So I want to do another
 comparison now vDSP versus FFTW.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:04.126 --> 00:29:07.886 A:middle
 FFTW is called Fastest
 Fourier Transform in the West.
@@ -2187,9 +2099,6 @@ performance that we get.
 We see that vDSP is between
 1.8 and about 2.5 times faster
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:06.886 --> 00:30:09.606 A:middle
 than FFTW for all of these
 number of points that we looked
@@ -2249,9 +2158,6 @@ else in the operation.
 This is when we're
 linking against FFTW.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:02.816 --> 00:31:07.156 A:middle
 The only thing we change
 is we link against vDSP
@@ -2309,9 +2215,6 @@ Use the Accelerate Framework.
 
 00:31:59.226 --> 00:32:00.296 A:middle
 Highly recommended.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:01.516 --> 00:32:02.006 A:middle
 Thank you.
@@ -2375,9 +2278,6 @@ First, libem.
 It's a standard C math
 library, it has a collection
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.766 --> 00:33:05.426 A:middle
 of [inaudible] like
 exponents, logarithm,
@@ -2432,14 +2332,11 @@ function you have 2 options --
 one, to use Pow and use
 constant 10 as base.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:34:04.046 --> 00:34:08.295 A:middle
+00:34:04.046 --> 00:34:08.296 A:middle
 However, this is inefficient,
 because Pow is designed
 
-00:34:08.295 --> 00:34:09.716 A:middle
+00:34:08.296 --> 00:34:09.716 A:middle
 to handle generic inputs.
 
 00:34:10.766 --> 00:34:13.786 A:middle
@@ -2450,7 +2347,7 @@ constant, there are a lot
 of optimization that we can
 do to make it go faster.
 
-00:34:18.896 --> 00:34:21.235 A:middle
+00:34:18.896 --> 00:34:21.236 A:middle
 The other way is to use X.
 
 00:34:22.326 --> 00:34:27.136 A:middle
@@ -2467,7 +2364,7 @@ It's not accurate.
 There's routing error
 in the multiplication.
 
-00:34:35.766 --> 00:34:39.815 A:middle
+00:34:35.766 --> 00:34:39.816 A:middle
 For example, if you
 want to calculate 10(5),
 
@@ -2483,15 +2380,12 @@ at the end.
 That's why we added
 X(10) so you can do power
 
-00:34:52.406 --> 00:34:56.085 A:middle
+00:34:52.406 --> 00:34:56.086 A:middle
 of 10 faster and more accurate.
 
 00:34:57.266 --> 00:35:00.486 A:middle
 Next is trigonometry
 function in terms of pi.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.836 --> 00:35:04.926 A:middle
 Basically it's the same
@@ -2545,9 +2439,6 @@ you will get exactly 0 back.
 00:35:56.556 --> 00:36:01.936 A:middle
 There's no error
 sine/cosine pairs.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:03.276 --> 00:36:05.096 A:middle
 A lot of times when
@@ -2604,9 +2495,6 @@ define a complex number.
 
 00:36:58.916 --> 00:37:01.176 A:middle
 Without this, you're more likely
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:01.176 --> 00:37:05.716 A:middle
 to do the real part
@@ -2666,9 +2554,6 @@ of [inaudible] functions.
 We prefix the function then
 with a single V, so we have VX,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:04.436 --> 00:38:06.986 A:middle
 Vlog, Vsine, et cetera.
 
@@ -2724,9 +2609,6 @@ accelerator.h. Instead of the
 00:38:58.546 --> 00:39:02.326 A:middle
 for loop you make one
 function call to VsineF.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:02.716 --> 00:39:04.156 A:middle
 You will take your SIMD vector
@@ -2792,9 +2674,6 @@ by using vForce.
 00:39:59.536 --> 00:40:00.036 A:middle
 Here's how.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:02.296 --> 00:40:04.036 A:middle
 Instead of using a for loop,
 
@@ -2856,9 +2735,6 @@ than using a for loop.
 00:40:53.696 --> 00:40:58.736 A:middle
 It use about only
 60% of the energy
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.016 --> 00:41:04.116 A:middle
 when you use vForce
@@ -2931,9 +2807,6 @@ data alignment
 for a single precision floating
 number that's 4 bytes aligned,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:02.106 --> 00:42:04.656 A:middle
 double precision floating point
 number is 8 bytes aligned.
@@ -2998,9 +2871,6 @@ of the presentation.
 
 00:42:57.516 --> 00:43:00.816 A:middle
 [Applause]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:01.316 --> 00:43:01.826 A:middle
 &gt;&gt; Jeff: Thanks, Luke.
@@ -3075,9 +2945,6 @@ of the LINPACK benchmark.
 The one that we're going to
 look at here is using a matrix
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.436 --> 00:44:03.466 A:middle
 of 1,000 x 1,000 elements.
 
@@ -3143,9 +3010,6 @@ We've had 2 years, too.
 This is the performance
 running on the iPhone 4S.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:04.376 --> 00:45:07.216 A:middle
 Let's look at the performance
 
@@ -3207,9 +3071,6 @@ been around for awhile,
 you might remember some of the
 bake-offs with the Power Mac G5,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:02.326 --> 00:46:04.916 A:middle
 so we're having a
 triumphant return.
@@ -3270,9 +3131,6 @@ As always, we'll begin
 00:46:58.236 --> 00:47:00.466 A:middle
 by including the
 Accelerate Framework header,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:00.466 --> 00:47:03.886 A:middle
 and then we're going to
@@ -3356,9 +3214,6 @@ dimension of the matrix,
 and then the pivot
 vector that we created,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:03.956 --> 00:48:05.446 A:middle
 and that right-hand sides B.
 
@@ -3426,9 +3281,6 @@ Accelerate Framework header.
 00:48:59.876 --> 00:49:02.296 A:middle
 As always we'll create
 and prepare our data,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:02.336 --> 00:49:04.766 A:middle
 so we'll align these
@@ -3499,9 +3351,6 @@ and any scalar values
 which will scale the
 operands or a result matrix.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:02.876 --> 00:50:06.006 A:middle
 Just to cover some of the data
 types and details supported
@@ -3563,9 +3412,6 @@ processing in vImage,
 00:50:57.796 --> 00:51:01.526 A:middle
 digital signal processing
 in vDSP,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:01.526 --> 00:51:04.876 A:middle
 transcendental math functions
@@ -3645,9 +3491,6 @@ these recommendations.
 
 00:51:59.706 --> 00:52:01.246 A:middle
 Understand the problem size.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:01.846 --> 00:52:04.436 A:middle
 For small problem sets,
@@ -3732,9 +3575,6 @@ here, if you guys need to get
 in touch with us,
 contact Paul or George.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:53:01.116 --> 00:53:04.446 A:middle
 There's some documentation
 available online, and as always,
@@ -3749,4 +3589,3 @@ thank you, guys.
 
 00:53:10.516 --> 00:53:18.270 A:middle
 [Silence]
-

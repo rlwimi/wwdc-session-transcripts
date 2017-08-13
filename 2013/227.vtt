@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.496 A:middle
 [ Silence ]
@@ -61,9 +60,6 @@ and I'll be explaining that.
 Then the bulk of
 the talk is going
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:00.846 --> 00:01:03.966 A:middle
 to be spent covering
 several common tasks
@@ -122,9 +118,6 @@ calendar APIs, I'm referring
 to just these 4 classes here,
 NSDate, NSDateComponets,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:01.896 --> 00:02:04.156 A:middle
 NSCalendar and NSTimeZone.
 
@@ -132,11 +125,11 @@ NSCalendar and NSTimeZone.
 Now, if you wanted to present
 information to the user
 
-00:02:07.256 --> 00:02:09.205 A:middle
+00:02:07.256 --> 00:02:09.206 A:middle
 on the screen like
 display a date,
 
-00:02:09.205 --> 00:02:12.016 A:middle
+00:02:09.206 --> 00:02:12.016 A:middle
 you would use a class
 called NSDate Formatter.
 
@@ -196,9 +189,6 @@ which I'm going
 00:02:57.996 --> 00:03:01.176 A:middle
 to use throughout the
 talk, this is our timeline.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:01.176 --> 00:03:04.856 A:middle
 Now, I'm going to add a
@@ -264,9 +254,6 @@ to dates into the far past.
 They're about, what, 31 million
 seconds or so in every year
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.206 --> 00:04:04.396 A:middle
 so of course after 12 years
 there must be over, what,
@@ -331,9 +318,6 @@ object that represents now,
 00:04:59.216 --> 00:05:02.266 A:middle
 this very moment when I
 making the method call.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:02.756 --> 00:05:04.966 A:middle
 And I'll be using this
@@ -403,9 +387,6 @@ kinds of components.
 So, if I have NSDateComponents
 object I can set it
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:03.016 --> 00:06:05.206 A:middle
 as month property
 to 6 for example
@@ -468,9 +449,6 @@ that represents various kinds
 00:06:57.906 --> 00:07:02.756 A:middle
 of world calendars and knows
 how to do calendar math on them.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:03.166 --> 00:07:06.906 A:middle
 It knows how to take an NSDate
@@ -536,9 +514,6 @@ by the local people.
 So, as I say, NSCalendar knows
 how to convert between NSDates,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.436 --> 00:08:05.936 A:middle
 these very large numbers
 which are not specific
@@ -574,10 +549,10 @@ parameters.
 For example, what is the
 time zone that I want
 
-00:08:32.566 --> 00:08:34.515 A:middle
+00:08:32.566 --> 00:08:34.516 A:middle
 to do the calculations in.
 
-00:08:35.515 --> 00:08:42.916 A:middle
+00:08:35.516 --> 00:08:42.916 A:middle
 To-- a common calendar that
 when why use is the what we call
 
@@ -602,9 +577,6 @@ or preference for that.
 00:08:58.616 --> 00:09:01.496 A:middle
 If the user changes
 their preferred calendar,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.716 --> 00:09:03.886 A:middle
 you may want your
@@ -677,9 +649,6 @@ Well, I know between-- strictly
 00:09:57.346 --> 00:09:59.966 A:middle
 between these two dates
 there are 72 days.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.526 --> 00:10:04.756 A:middle
 And since there's seven days
@@ -756,9 +725,6 @@ in the United States.
 So, one question I
 might to ask is given
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.466 --> 00:11:03.306 A:middle
 that today is the 14th of June.
 
@@ -831,9 +797,6 @@ or "summer time."
 And you see it's a very
 irregular region but, you know,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.786 --> 00:12:03.376 A:middle
 I call it geo-political.
 
@@ -897,9 +860,6 @@ and when that changes.
 
 00:12:58.026 --> 00:13:00.246 A:middle
 Now, very similar to NSCalendar,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.486 --> 00:13:03.486 A:middle
 you can create an
@@ -976,9 +936,6 @@ that people are using it
 00:13:59.036 --> 00:14:02.196 A:middle
 as a default "don't care" time.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:02.746 --> 00:14:06.166 A:middle
 It is-- they may want
 to use an NSDate object
@@ -1049,9 +1006,6 @@ I'll described but in a moment.
 So, if you really don't care
 about the time use noon instead.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:01.736 --> 00:15:05.166 A:middle
 The other main reason
 that people want to it
@@ -1111,9 +1065,6 @@ day is 1 a.m. not midnight.
 
 00:15:58.046 --> 00:16:00.816 A:middle
 So, and then, of course,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.816 --> 00:16:03.966 A:middle
 if the reverse happens
@@ -1183,9 +1134,6 @@ representing the current moment.
 For-- and that would give me
 of course today's start date.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.146 --> 00:17:05.286 A:middle
 For tomorrow's start date,
 we need to do some more work.
@@ -1249,9 +1197,6 @@ a.m., well, that's not going
 to be the same moment
 that tomorrow
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:18:03.116 --> 00:18:05.316 A:middle
 because of the daylight
 saving time transition.
@@ -1310,9 +1255,6 @@ NSCalendarDayChangeNotification.
 00:18:55.866 --> 00:19:00.666 A:middle
 And you'll-- your code will get
 called when the day changes.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.666 --> 00:19:04.066 A:middle
 When midnight or, you
@@ -1388,9 +1330,6 @@ forward use
 of NSNotificationCenter
 in this case.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:04.546 --> 00:20:07.746 A:middle
 Now, midnight of course
 is a specific example
@@ -1459,9 +1398,6 @@ So, what do I do?
 Well, right now,
 we're after 11:30
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:02.766 --> 00:21:04.706 A:middle
 so we're more like
 at point B here.
@@ -1523,9 +1459,6 @@ and this returns a Boolean.
 Now, of course, we didn't
 just add one method here,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:01.976 --> 00:22:05.726 A:middle
 it's also interesting to know
 about yesterday and tomorrow.
@@ -1584,9 +1517,6 @@ around a floating point number.
 00:22:57.536 --> 00:23:01.586 A:middle
 The compare method of NSDate
 is very literal when you talk
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:01.586 --> 00:23:05.286 A:middle
 about wanting to know is
@@ -1658,9 +1588,6 @@ parameter toUnitGranularity,
 you pass in one of the
 NSCalendarConstants for the unit
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:03.686 --> 00:24:04.636 A:middle
 that you're interested in.
 
@@ -1722,9 +1649,6 @@ I want to point out as asking
 if toDates are close to one
 another, but rather if they're
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:05.136 --> 00:25:08.416 A:middle
 on the same-- within
 the same calendar unit
@@ -1777,9 +1701,6 @@ would suggest using an
 
 00:25:59.176 --> 00:26:00.696 A:middle
 NSDateComponents object.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:01.256 --> 00:26:04.736 A:middle
 An NSDateComponents object as I
@@ -1850,9 +1771,6 @@ these are just integers.
 They have no meaning outside
 of the context of a calendar.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:05.466 --> 00:27:07.656 A:middle
 You know, what calendar
 is that year in?
@@ -1909,9 +1827,6 @@ are always Gregorian dates
 00:27:56.376 --> 00:28:00.806 A:middle
 or these are always dates in
 the Japanese Imperial calendar."
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:02.606 --> 00:28:07.836 A:middle
 But when you do that, remember;
@@ -1979,9 +1894,6 @@ applies to dateless times.
 Sometimes people use
 NSDate objects or try
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.936 --> 00:29:04.466 A:middle
 to use NSDate objects
 to represent times
@@ -2046,9 +1958,6 @@ set of criteria?"
 00:29:59.266 --> 00:30:01.806 A:middle
 So, we've added a
 new API for that.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:01.806 --> 00:30:04.216 A:middle
 And this is perhaps
@@ -2122,9 +2031,6 @@ that we've added to do this.
 00:30:57.956 --> 00:30:59.396 A:middle
 This is one of the simpler ones.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.186 --> 00:31:04.676 A:middle
 The nextDateAfterDate
 method, matchingComponents,
@@ -2192,9 +2098,6 @@ month and day and so on.
 00:31:56.056 --> 00:31:59.756 A:middle
 You can just say, "I want,
 you know, the next 11:30 a.m."
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.056 --> 00:32:00.666 A:middle
 for example.
@@ -2268,9 +2171,6 @@ where these numbers came from
 and just literally expose
 them here on my slides.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:03.146 --> 00:33:06.856 A:middle
 So, then I call the
 method nextDateAfterDate.
@@ -2341,9 +2241,6 @@ us what the values are.
 For the lower components that
 is the smaller components
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.696 --> 00:34:01.186 A:middle
 if you will.
 
@@ -2359,22 +2256,22 @@ basically assume the first
 or the lowest value of
 that cycle can take on.
 
-00:34:15.835 --> 00:34:19.136 A:middle
+00:34:15.836 --> 00:34:19.136 A:middle
 In the case of minute or second
 the lowest value is zero.
 
-00:34:20.255 --> 00:34:23.416 A:middle
+00:34:20.256 --> 00:34:23.416 A:middle
 So, and this of course
 is easy to understand.
 
 00:34:23.416 --> 00:34:25.496 A:middle
 If I'm searching forward in time
 
-00:34:25.846 --> 00:34:30.485 A:middle
+00:34:25.846 --> 00:34:30.486 A:middle
 for the next 10 a.m. the first
 moment within any 10 a.m.
 
-00:34:30.485 --> 00:34:33.766 A:middle
+00:34:30.486 --> 00:34:33.766 A:middle
 that I'm going to find is the
 moment which has minute zero
 
@@ -2385,15 +2282,15 @@ and second zero of course.
 So, what happens for
 the larger components?
 
-00:34:42.966 --> 00:34:45.985 A:middle
+00:34:42.966 --> 00:34:45.986 A:middle
 Let's suppose we look at
 the weekOfYear component.
 
-00:34:45.985 --> 00:34:50.985 A:middle
+00:34:45.986 --> 00:34:50.986 A:middle
 Well, what we do in this
 algorithm is we match the same
 
-00:34:50.985 --> 00:34:55.255 A:middle
+00:34:50.986 --> 00:34:55.256 A:middle
 value that the date that you
 passed in, that after date,
 
@@ -2404,9 +2301,6 @@ begin searching.
 00:34:58.036 --> 00:35:02.846 A:middle
 We take its value of that
 component and we look for either
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:02.896 --> 00:35:07.716 A:middle
 that same value or the next
@@ -2472,9 +2366,6 @@ the next larger cycle
 00:35:59.486 --> 00:36:00.726 A:middle
 that is of course the week.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:01.106 --> 00:36:05.296 A:middle
 The weekday cycle around
 repeat one after the other
@@ -2536,9 +2427,6 @@ example in several slides here
 00:36:59.396 --> 00:37:01.196 A:middle
 which will make this
 clear why we do this
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:01.256 --> 00:37:04.366 A:middle
 but this the default
@@ -2611,9 +2499,6 @@ over for the moment
 but I promise I will
 get back to those.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:01.386 --> 00:38:05.306 A:middle
 Now, it's possible that
 there's no possible results.
@@ -2682,9 +2567,6 @@ NSCalendarMatchStrictly.
 00:38:59.556 --> 00:39:03.086 A:middle
 An example would be suppose you
 wanted to find the next leap day
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:03.156 --> 00:39:04.376 A:middle
 in the Gregorian calendar.
@@ -2762,9 +2644,6 @@ also might want to go backwards
 and so there's an
 option for that.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.916 --> 00:40:05.796 A:middle
 Then there are three
 options for what to do,
@@ -2829,9 +2708,6 @@ options is required
 00:40:58.786 --> 00:41:00.416 A:middle
 or will raise an exception.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.846 --> 00:41:06.066 A:middle
 You either need to ask for
 strict matching or you need
@@ -2895,9 +2771,6 @@ actually the next time.
 So, one hour after 1:00
 a.m. is actually 3:00 a.m.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:02.256 --> 00:42:05.126 A:middle
 in the United States on
 the date of the transition.
@@ -2954,9 +2827,6 @@ a.m. out of the algorithm.
 00:42:56.406 --> 00:43:00.166 A:middle
 So, what this has
 said is you want us
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:00.166 --> 00:43:05.326 A:middle
 to give you the best
@@ -3021,9 +2891,6 @@ at work at 3:30
 00:43:56.336 --> 00:44:00.826 A:middle
 in the morning before the first
 international flights takeoff
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:00.826 --> 00:44:02.616 A:middle
 and before the first
@@ -3097,9 +2964,6 @@ alarm at 3:30 in the morning
 and he'll have no
 warning to get to work.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:00.086 --> 00:45:04.776 A:middle
 On the other hand, if it passes
 in the PreviousTimePreserving
@@ -3169,9 +3033,6 @@ time before that time
 00:45:58.656 --> 00:46:00.286 A:middle
 at which you want
 to begin searching.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:00.586 --> 00:46:04.306 A:middle
 Of course even nicer might be
@@ -3249,9 +3110,6 @@ a.m. to Sunday 6:00 a.m.,
 00:46:58.316 --> 00:46:59.886 A:middle
 there's just 23 hours.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:00.056 --> 00:47:02.876 A:middle
 But then again, from
 Sunday 6:00 a.m.
@@ -3328,9 +3186,6 @@ the different there.
 On the other hand, if
 you pass in MatchNextTime
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:04.796 --> 00:48:08.656 A:middle
 PreservingSmallerUnits,
 you get a 24-hour period
@@ -3385,9 +3240,6 @@ match certain criteria
 00:48:56.236 --> 00:49:00.446 A:middle
 and enumerate them all and
 do some work for each match,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:01.076 --> 00:49:02.436 A:middle
 then you should use this method.
@@ -3462,9 +3314,6 @@ when you want to stop it.
 So, we've used this in
 other enumerate methods,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:01.756 --> 00:50:02.976 A:middle
 it's the same kind of pattern.
 
@@ -3530,9 +3379,6 @@ you need to do is
 00:50:56.216 --> 00:50:58.856 A:middle
 of course consider
 the interesting cases.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:00.066 --> 00:51:02.016 A:middle
 Well, what are the
@@ -3610,9 +3456,6 @@ of years, it's the same thing.
 In some cases, some calendars,
 the Era is really important
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:05.336 --> 00:52:08.646 A:middle
 to also test for
 and keep in mind.
@@ -3686,9 +3529,6 @@ on the internet.
 What is the current
 Islamic Calendar year?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:53:00.256 --> 00:53:00.786 A:middle
 For example.
 
@@ -3760,9 +3600,6 @@ within your beta tester pool.
 00:53:58.336 --> 00:54:02.636 A:middle
 So, if, you know, assuming you
 have some people that you ask
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:02.716 --> 00:54:08.406 A:middle
 to beta test your application,
@@ -3840,9 +3677,6 @@ the app and say, "Oh,
 here's a new version,
 go try it out."
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:55:01.816 --> 00:55:06.196 A:middle
 So, I've talked about various
 kinds of common operations
@@ -3898,4 +3732,3 @@ And with that, I thank you.
 
 00:55:45.516 --> 00:55:50.500 A:middle
 [ Applause ]
-

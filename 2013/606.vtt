@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.536 A:middle
 [ Silence ]
@@ -66,9 +65,6 @@ over many years.
 Let's give a bit of
 history about QuickTime.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:03.106 --> 00:01:06.106 A:middle
 QuickTime was a pioneering
 framework
@@ -133,9 +129,6 @@ playback pipeline as part
 
 00:01:58.606 --> 00:01:59.676 A:middle
 of building the iPhone.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.386 --> 00:02:01.356 A:middle
 We called this Core Media.
@@ -202,9 +195,6 @@ used to saying that.)
 00:02:58.246 --> 00:03:00.236 A:middle
 We introduced-- we're
 introducing AV Kit.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.666 --> 00:03:03.316 A:middle
 AV Kit is the framework
@@ -281,9 +271,6 @@ Your apps will still run.
 00:03:57.876 --> 00:04:02.506 A:middle
 While were on the topic,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:03.726 --> 00:04:07.766 A:middle
 the QuickTime Movie file format
 is still the primary file format
@@ -348,9 +335,6 @@ couldn't do-- couldn't go.
 00:04:58.456 --> 00:05:02.356 A:middle
 So we built it on the same
 kinds of modern foundations
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:02.356 --> 00:05:06.076 A:middle
 that the rest of Apple has been
@@ -419,9 +403,6 @@ clients will use them.
 00:05:55.646 --> 00:06:01.506 A:middle
 And so QuickTime's APIs
 are monolithic and in some
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:01.506 --> 00:06:04.466 A:middle
 of these cases we have taken the
@@ -505,9 +486,6 @@ to take advantage
 of hardware acceleration in
 ways that QuickTime could not
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:02.436 --> 00:07:03.696 A:middle
 such as video encoding.
 
@@ -589,9 +567,6 @@ been designed to be
 00:07:59.616 --> 00:08:01.576 A:middle
 So do you get the message here?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:02.056 --> 00:08:04.586 A:middle
 There are lots of great
 reasons why AV Foundation is the
@@ -641,11 +616,11 @@ But the world has moved on.
 If you look at this list you
 would think to yourself many
 
-00:08:38.676 --> 00:08:43.265 A:middle
+00:08:38.676 --> 00:08:43.266 A:middle
 of theses APIs-- many of these
 features would be superseded
 
-00:08:43.265 --> 00:08:46.676 A:middle
+00:08:43.266 --> 00:08:46.676 A:middle
 by basic things that we take
 for granted today like HTML 5.
 
@@ -662,9 +637,6 @@ That brings us to codecs.
 
 00:08:59.016 --> 00:09:00.886 A:middle
 So QuickTime has a vast history.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.886 --> 00:09:03.596 A:middle
 It has collected many, many
@@ -743,9 +715,6 @@ filters and effects also had
 to be registered
 as video decoders.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:01.916 --> 00:10:04.026 A:middle
 Well nowadays, we have
 the image IO Framework
@@ -815,9 +784,6 @@ QuickTime components.
 00:10:57.076 --> 00:11:01.306 A:middle
 And it's provided as
 a new API in Mavericks
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:01.616 --> 00:11:02.966 A:middle
 so you can do the
@@ -896,9 +862,6 @@ about QuickTime and QTKit.
 QuickTime and QTKit
 are deprecated
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:01.896 --> 00:12:05.876 A:middle
 and we have been building a new
 media framework brick-by-brick,
@@ -966,9 +929,6 @@ their own playback controls
 
 00:12:59.876 --> 00:13:01.526 A:middle
 on top of AVPlayer layer?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.836 --> 00:13:03.916 A:middle
 OK, a few.
@@ -1042,9 +1002,6 @@ in your applications.
 And as a bonus, it takes care of
 of localization, accessibility,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:02.196 --> 00:14:04.756 A:middle
 high resolutions, state
 restoration and so on.
@@ -1109,9 +1066,6 @@ I click on the Add button.
 00:14:59.956 --> 00:15:02.046 A:middle
 And then in the New sheet,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:02.046 --> 00:15:04.276 A:middle
 we set first search
 for AV Foundation.
@@ -1163,9 +1117,6 @@ the documents xib file.
 00:15:57.216 --> 00:16:00.726 A:middle
 We remove the label
 and then on the right,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.726 --> 00:16:02.836 A:middle
 we search for AVPlayerView.
@@ -1239,9 +1190,6 @@ AV Foundation,
 AV Kit frameworks
 to our project.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.776 --> 00:17:04.616 A:middle
 Third, we'd set a-- sorry,
 modify the info plist
@@ -1254,7 +1202,7 @@ of audiovisual media.
 And fourth, we drop an
 AVPlayerView into our document
 
-00:17:09.516 --> 00:17:11.695 A:middle
+00:17:09.516 --> 00:17:11.696 A:middle
 and create outlets so we can
 reference it from the documents.
 
@@ -1262,10 +1210,10 @@ reference it from the documents.
 So let's see how much
 more we have to do
 
-00:17:14.286 --> 00:17:20.915 A:middle
+00:17:14.286 --> 00:17:20.916 A:middle
 to actually make it work.
 
-00:17:20.915 --> 00:17:21.076 A:middle
+00:17:20.916 --> 00:17:21.076 A:middle
 [ Pause ]
 
 00:17:21.076 --> 00:17:22.766 A:middle
@@ -1275,11 +1223,11 @@ So I close the assistant editor
 and select the document
 implementation
 
-00:17:24.346 --> 00:17:26.955 A:middle
+00:17:24.346 --> 00:17:26.956 A:middle
 and we scroll all the
 way down to the bottom.
 
-00:17:26.955 --> 00:17:30.926 A:middle
+00:17:26.956 --> 00:17:30.926 A:middle
 We're not going to
 use readFromData,
 
@@ -1314,9 +1262,6 @@ press on Build and Run.
 
 00:17:59.823 --> 00:18:03.796 A:middle
 Go to File, Open.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:09.296 --> 00:18:11.476 A:middle
 Select the movie, press Open.
@@ -1378,9 +1323,6 @@ All right.
 
 00:18:57.576 --> 00:19:00.476 A:middle
 Wasn't that easy?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.626 --> 00:19:03.046 A:middle
 So let's go one step further.
@@ -1450,9 +1392,6 @@ validateUserInterfaceItem
 00:19:57.546 --> 00:20:03.006 A:middle
 for the trim IBAction,
 we implement for trim--
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:03.006 --> 00:20:04.506 A:middle
 playerView canBeginTrimming.
@@ -1530,9 +1469,6 @@ applications even better.
 So let's talk about
 a few details now.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:05.666 --> 00:21:08.646 A:middle
 So how does AVPlayerView work
 
@@ -1589,9 +1525,6 @@ with an AVPlayerView.
 00:21:57.936 --> 00:22:00.396 A:middle
 However, if you really just
 want to play the content
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.396 --> 00:22:02.886 A:middle
 of the movie file on disc, you
@@ -1667,9 +1600,6 @@ your user interface.
 Let me walk through the
 difference real quick.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.916 --> 00:23:02.856 A:middle
 The first style doesn't
 show any controls,
@@ -1742,9 +1672,6 @@ on the left shows the TrimUI
 00:23:58.686 --> 00:24:01.696 A:middle
 for the floating
 controlsStyle and the screenshot
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:01.696 --> 00:24:03.546 A:middle
 on the right shows the TrimUI
@@ -1822,9 +1749,6 @@ AVPlayerView add the share--
 the OS X Share Button
 to the UI takes care
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:01.236 --> 00:25:03.336 A:middle
 of everything for you.
 
@@ -1897,9 +1821,6 @@ implement a completion handler.
 00:25:55.906 --> 00:26:00.046 A:middle
 The CompletionHandler
 has just one argument
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.046 --> 00:26:01.076 A:middle
 of type AVPlayerViewTrimResult.
@@ -1982,9 +1903,6 @@ restore this object for you.
 This means it is
 your responsibility
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:01.206 --> 00:27:04.036 A:middle
 to restore the content when your
 users relaunch the applications.
@@ -2051,9 +1969,6 @@ services--
 00:27:58.226 --> 00:28:00.606 A:middle
 sorry, it provides you standard
 playback and trim controls
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.606 --> 00:28:02.036 A:middle
 through the AVPlayerView.
@@ -2130,9 +2045,6 @@ to AV foundation and AV Kit.
 
 00:28:57.906 --> 00:28:59.816 A:middle
 All right.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.816 --> 00:29:03.446 A:middle
 So for the rest of this
@@ -2213,9 +2125,6 @@ have used and then focus
 on the AV Foundations
 version and some of the things
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.736 --> 00:30:01.566 A:middle
 that make that interesting.
 
@@ -2279,9 +2188,6 @@ thread is blocked while
 00:30:57.566 --> 00:31:02.296 A:middle
 QuickTime and QTKit go off and
 unload the file and parse it.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:03.216 --> 00:31:05.506 A:middle
 With AV Foundation,
@@ -2348,9 +2254,6 @@ transport controls.
 With AV Foundation,
 we have separated
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:01.846 --> 00:32:05.786 A:middle
 out the mutable state related to
 playback into playback objects.
@@ -2412,9 +2315,6 @@ of AVPlayerItems
 00:32:57.206 --> 00:32:59.236 A:middle
 and each will advance when
 it reaches its end time.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.436 --> 00:33:02.986 A:middle
 So this is an example of how
@@ -2495,9 +2395,6 @@ that Stefan demonstrated.
 One thing that's different
 if you used a QTMovieView is
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:02.336 --> 00:34:05.876 A:middle
 that the transport control
 methods are not re-exported
@@ -2517,7 +2414,7 @@ the AVPlayerLayer class
 for integrating into a Core
 Animation layer hierarchy.
 
-00:34:20.806 --> 00:34:24.505 A:middle
+00:34:20.806 --> 00:34:24.506 A:middle
 It also provides the
 AVSynchronizedLayer class
 
@@ -2537,32 +2434,29 @@ rate change, so will the time
 and rate of that
 synchronized layer.
 
-00:34:40.656 --> 00:34:43.525 A:middle
+00:34:40.656 --> 00:34:43.526 A:middle
 We've demonstrated in
 previous year's sessions how
 
-00:34:43.525 --> 00:34:46.985 A:middle
+00:34:43.526 --> 00:34:46.986 A:middle
 to use this class for
 editing applications.
 
-00:34:47.505 --> 00:34:49.246 A:middle
+00:34:47.506 --> 00:34:49.246 A:middle
 But there are other
 ways you could use it
 
-00:34:49.246 --> 00:34:50.815 A:middle
+00:34:49.246 --> 00:34:50.816 A:middle
 that aren't editing
 applications as well.
 
-00:34:51.246 --> 00:34:57.065 A:middle
+00:34:51.246 --> 00:34:57.066 A:middle
 Another thing to know is that
 in applications linked on
 
-00:34:57.065 --> 00:35:02.626 A:middle
+00:34:57.066 --> 00:35:02.626 A:middle
 or after iOS 7 or on or
 after Mavericks by default,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:02.626 --> 00:35:08.146 A:middle
 AVPlayerLayer and AVPlayerView
@@ -2621,9 +2515,6 @@ And in QuickTime-- sorry,
 00:35:54.466 --> 00:36:01.336 A:middle
 in OS 10.7 we introduced
 an asynchronous
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:01.586 --> 00:36:03.026 A:middle
 QTExportSession API.
@@ -2697,9 +2588,6 @@ you configure it.
 When you create the
 AVAssetReader output
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:01.516 --> 00:37:03.726 A:middle
 to decode data-- to
 retrieve data from a track,
@@ -2770,9 +2658,6 @@ decoded it
 00:37:59.676 --> 00:38:02.936 A:middle
 in the background while you were
 working on the previous frame.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:05.616 --> 00:38:09.586 A:middle
 The QuickTime APIs for writing
@@ -2848,9 +2733,6 @@ is new
 00:38:59.656 --> 00:39:06.066 A:middle
 in Mavericks and new in iOS 7.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:06.166 --> 00:39:09.336 A:middle
 Also in the session tomorrow on
 preparing and presenting media
@@ -2914,9 +2796,6 @@ AVAssetWriter will alternate
 00:39:58.956 --> 00:40:01.296 A:middle
 between the different
 tracks, writing a portion
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:01.296 --> 00:40:05.096 A:middle
 of media data from each in turn.
@@ -2987,9 +2866,6 @@ as it's ready for more input.
 If you wanted to get access to
 video frames during playback,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:03.096 --> 00:41:07.056 A:middle
 for example, to integrate them
 into a custom OpenGL rendering,
@@ -3056,9 +2932,6 @@ AVAssetExportSession,
 or onto an
 AVAssetReaderAudioMixOutput.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.086 --> 00:42:08.246 A:middle
 (It's like Dr. Seuss.)
 
@@ -3117,9 +2990,6 @@ AVAsset is immutable.
 
 00:42:59.706 --> 00:43:00.876 A:middle
 So it can't be there.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:00.876 --> 00:43:03.996 A:middle
 Instead, we have subclass of
@@ -3187,9 +3057,6 @@ of sample table copying.
 This is because in this API, a
 movie's edit list can only refer
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:04.916 --> 00:44:06.836 A:middle
 to that own movie's
 sample tables.
@@ -3255,9 +3122,6 @@ then here's some good news.
 AV Foundation's AVMetadataItem
 API is very similar.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:04.086 --> 00:45:05.446 A:middle
 In fact, if you look up there,
 
@@ -3320,9 +3184,6 @@ Let's move on to capture APIs.
 00:45:49.723 --> 00:46:00.006 A:middle
 The QTKit and AV Foundation
 capture APIs are also broadly
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:00.006 --> 00:46:00.606 A:middle
 very similar.
@@ -3396,9 +3257,6 @@ to set them up myself."
 And this is a better choice if
 you have multiple video inputs,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:02.346 --> 00:47:05.786 A:middle
 multiple cameras, or if
 you have multiple previews,
@@ -3467,9 +3325,6 @@ in AV Foundation,
 00:47:59.016 --> 00:48:02.976 A:middle
 we don't have the video preview
 output object, we've folded all
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:02.976 --> 00:48:05.906 A:middle
 of those configuration APIs
@@ -3541,9 +3396,6 @@ can see here is very similar.
 In both cases, there's an API to
 get all devices, there's an API
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:01.496 --> 00:49:03.446 A:middle
 to get all the devices
 with particular media type.
@@ -3613,9 +3465,6 @@ and put inside a view just
 00:49:58.486 --> 00:50:01.076 A:middle
 like you would with any
 other core animation layer.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:02.806 --> 00:50:04.906 A:middle
 So we've gone through a
@@ -3687,9 +3536,6 @@ object called the TimeRecord.
 
 00:50:59.176 --> 00:51:01.466 A:middle
 But, in the very early 1990s,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:02.436 --> 00:51:05.016 A:middle
 doing 64-bit math
@@ -3775,9 +3621,6 @@ a time range a CMTime range
 expressed as two times-- as two
 CMTimes, a start and a duration.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:00.176 --> 00:52:03.066 A:middle
 And there's also a
 CMTimeMapping which is expressed
@@ -3860,9 +3703,6 @@ and written directly
 from movie files
 and that was great
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:53:01.426 --> 00:53:03.536 A:middle
 when everything was big-endian
 and the file is big-endian,
@@ -3944,9 +3784,6 @@ the Video Toolbox APIs
 like the enhanced Image
 Compression Manager APIs
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:54:00.696 --> 00:54:02.906 A:middle
 that were introduced
 in QuickTime 7,
@@ -4021,9 +3858,6 @@ in Headers and Documentation.
 In summary, we are deprecating
 the QuickTime C framework
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:55:06.366 --> 00:55:10.246 A:middle
 and the QTKit Objective-C
 framework in Maverick.
@@ -4082,9 +3916,6 @@ our primary file format
 00:55:58.446 --> 00:55:59.986 A:middle
 in AV Foundation and
 in QuickTime player.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:56:01.036 --> 00:56:03.746 A:middle
 We're introducing
@@ -4149,9 +3980,6 @@ requests using Apple's bug
 00:56:58.326 --> 00:57:03.176 A:middle
 reporting mechanism, and you
 can send email to John Geleynse,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:57:03.176 --> 00:57:05.496 A:middle
 Apple's Director of
@@ -4229,9 +4057,6 @@ already been asked.
 We have three other
 sessions from media systems
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:58:00.006 --> 00:58:03.926 A:middle
 and AV Foundation
 folks this week.
@@ -4295,4 +4120,3 @@ Bye, bye.
 
 00:58:46.786 --> 00:58:59.990 A:middle
 [ Applause ]
-

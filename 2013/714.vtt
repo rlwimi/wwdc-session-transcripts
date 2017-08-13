@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:10.156 --> 00:00:11.816 A:middle
 &gt;&gt; Good morning.
@@ -58,17 +57,14 @@ and for the new developers
 in the room, walk
 through an example on how
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:00.056 --> 00:01:02.026 A:middle
 to take advantage
 of data isolation.
 
-00:01:03.326 --> 00:01:04.775 A:middle
+00:01:03.326 --> 00:01:04.776 A:middle
 Then, I'll finish off talking
 
-00:01:04.775 --> 00:01:08.146 A:middle
+00:01:04.776 --> 00:01:08.146 A:middle
 about some privacy best
 practices, both policies
 
@@ -125,9 +121,6 @@ about long-lived identifiers.
 00:01:58.746 --> 00:02:00.186 A:middle
 We talked about the UDID,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.186 --> 00:02:03.436 A:middle
 and then we introduced
 purpose-scoped [phonetic]
@@ -139,7 +132,7 @@ replacement APIs.
 Now, I will go over the
 replacement APIs again,
 
-00:02:10.265 --> 00:02:11.706 A:middle
+00:02:10.266 --> 00:02:11.706 A:middle
 but first I want
 to make a point.
 
@@ -197,9 +190,6 @@ per application.
 00:02:59.496 --> 00:03:01.756 A:middle
 The second is the
 Vendor Identifier
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:01.846 --> 00:03:04.116 A:middle
 and it scoped per developer.
@@ -260,9 +250,6 @@ that reference
 to UDID are no longer being
 accepted to the App Store.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.796 --> 00:04:03.306 A:middle
 In iOS 7, the API is removed.
 
@@ -285,7 +272,7 @@ this change to behavior.
 Up top, we have what you
 would recognize as the UDID.
 
-00:04:19.935 --> 00:04:24.036 A:middle
+00:04:19.936 --> 00:04:24.036 A:middle
 So in iOS 7, now your old
 app will receive a series
 
@@ -331,9 +318,6 @@ any impact on your users.
 00:04:57.496 --> 00:05:01.076 A:middle
 If you required changes, once
 you test, you can find out
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.196 --> 00:05:05.036 A:middle
 and then update your app
@@ -400,9 +384,6 @@ the same as developer
 and you can find what your
 team ID is on iTunes Connect.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:04.416 --> 00:06:08.086 A:middle
 This mapping is stored
 and managed by iOS.
@@ -464,9 +445,6 @@ of the Vendor Identifier is.
 00:06:59.896 --> 00:07:02.126 A:middle
 So, in this case we
 have two apps, app one
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:02.126 --> 00:07:03.636 A:middle
 and app two for developer foo.
@@ -531,9 +509,6 @@ yourself within your app,
 00:07:58.096 --> 00:08:00.166 A:middle
 you must check the value
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.226 --> 00:08:04.446 A:middle
 of limit ad tracking
 before using the
@@ -572,14 +547,14 @@ restored across devices.
 New in iOS 7, Limit
 Ad Tracking is moving
 
-00:08:35.426 --> 00:08:36.775 A:middle
+00:08:35.426 --> 00:08:36.776 A:middle
 under Settings Privacy.
 
 00:08:37.486 --> 00:08:39.586 A:middle
 It can also now be
 controlled by restrictions.
 
-00:08:39.586 --> 00:08:43.385 A:middle
+00:08:39.586 --> 00:08:43.386 A:middle
 And David will talk more
 later more about restrictions.
 
@@ -601,9 +576,6 @@ a good reference.
 00:08:58.986 --> 00:09:00.836 A:middle
 If you're trying to understand
 what are the differences
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.836 --> 00:09:04.236 A:middle
 between the identifiers, maybe
@@ -665,9 +637,6 @@ the Vendor Identifier.
 00:09:56.556 --> 00:10:01.196 A:middle
 In iOS 7, push tokens are
 now scoped per application.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:01.716 --> 00:10:06.306 A:middle
 The Push token was never
@@ -738,9 +707,6 @@ pass it over to David
 to talk more about
 data isolation.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.776 --> 00:11:02.596 A:middle
 David? [Applause]
 
@@ -795,9 +761,6 @@ user data classes.
 00:11:57.156 --> 00:12:00.646 A:middle
 In this particular example,
 we see that Camera would
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.646 --> 00:12:02.056 A:middle
 like to access your location
@@ -875,9 +838,6 @@ and the user's data
 00:12:59.436 --> 00:13:00.636 A:middle
 on behalf of the user.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:02.416 --> 00:13:05.246 A:middle
 While this intervention
 happens completely outside
@@ -944,9 +904,6 @@ Contacts and Location
 and in Mavericks we're adding
 Calendars and Reminders.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:03.796 --> 00:14:09.856 A:middle
 On the social side of things
 for OS X, we're adding support
@@ -996,9 +953,6 @@ either Mountain Lion or iOS 6,
 
 00:14:58.946 --> 00:15:01.196 A:middle
 that's great, congratulations.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:01.886 --> 00:15:04.686 A:middle
 You're already taking
@@ -1067,9 +1021,6 @@ purpose-specific APIs
 
 00:15:59.676 --> 00:16:01.286 A:middle
 that have been provided to you.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:02.046 --> 00:16:05.906 A:middle
 Now, as I said before you should
@@ -1146,9 +1097,6 @@ then you're either going
 to get a nil value back
 or an empty object.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:05.076 --> 00:17:08.756 A:middle
 And for applications that
 access systems services
@@ -1157,7 +1105,7 @@ access systems services
 such as AppleScript or
 Spotlight to get to user data,
 
-00:17:13.455 --> 00:17:16.876 A:middle
+00:17:13.456 --> 00:17:16.876 A:middle
 then the operating system will
 prompt on behalf of the user
 
@@ -1206,9 +1154,6 @@ resources that they can access.
 00:17:55.126 --> 00:18:00.006 A:middle
 For example, if the address book
 is initially outside the Sandbox
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.046 --> 00:18:04.276 A:middle
 for your process then you
@@ -1283,9 +1228,6 @@ This goes to least privilege.
 You shouldn't be collecting
 data or accessing data
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.196 --> 00:19:02.886 A:middle
 that you don't truly need.
 
@@ -1349,9 +1291,6 @@ of similarities
 and a few differences
 on iOS from OS X.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:01.086 --> 00:20:05.306 A:middle
 On iOS, applications are built
 on top of the App Sandbox.
@@ -1412,9 +1351,6 @@ change notifications
 00:20:57.796 --> 00:21:00.876 A:middle
 and you can handle the
 change appropriately.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:01.346 --> 00:21:03.546 A:middle
 And honestly, this
@@ -1477,9 +1413,6 @@ these APIs in yellow
 00:21:58.046 --> 00:22:00.346 A:middle
 because they represent
 the difference
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.436 --> 00:22:02.856 A:middle
 between iOS 6 and iOS 7.
@@ -1545,9 +1478,6 @@ to be filled with all zeros
 
 00:22:58.106 --> 00:23:02.196 A:middle
 or essentially silence.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:02.706 --> 00:23:06.486 A:middle
 Another way to trigger the
@@ -1622,9 +1552,6 @@ who are interfacing
 with external hardware, then
 all of the different routes
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:03.836 --> 00:24:06.956 A:middle
 that you can interface with
 such as the headphones,
@@ -1686,9 +1613,6 @@ test your access levels
 and display UI to the user
 before you request access.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:06.536 --> 00:25:07.976 A:middle
 So how do we test all this?
 
@@ -1749,9 +1673,6 @@ will respond in Settings,
 00:25:56.746 --> 00:26:01.386 A:middle
 Privacy on iOS and
 System Preferences,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:01.386 --> 00:26:02.556 A:middle
 Security and Privacy.
@@ -1828,9 +1749,6 @@ revoked access
 00:26:58.476 --> 00:26:59.906 A:middle
 to that particular data class.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:01.186 --> 00:27:03.316 A:middle
 However, just because
 the OS can help you out,
@@ -1901,9 +1819,6 @@ can set up the restrictions
 00:27:55.936 --> 00:28:01.816 A:middle
 and whatever you'd like to test.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.856 --> 00:28:05.166 A:middle
 So now that we've talked about
 what data isolation, what it is?
@@ -1971,9 +1886,6 @@ conga line of alerts
 when you start up
 the application.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:01.106 --> 00:29:05.316 A:middle
 So consider your user interface
 and you should delay asking
@@ -2034,9 +1946,6 @@ how allowing you access
 00:29:56.636 --> 00:29:59.596 A:middle
 to the particular data category
 will enhance their experience.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.546 --> 00:30:04.416 A:middle
 For example, in this particular
@@ -2103,9 +2012,6 @@ strings for your native users
 00:30:58.306 --> 00:31:01.466 A:middle
 by simply putting the purpose
 string in localizable.strings.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:02.666 --> 00:31:05.146 A:middle
 And to add this purpose
@@ -2186,9 +2092,6 @@ Some of these are iOS only.
 So, make sure you pay
 attention to that.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:01.926 --> 00:32:04.856 A:middle
 You can always find this
 information again in the slides
@@ -2249,9 +2152,6 @@ to be presenting to the user.
 
 00:32:59.886 --> 00:33:01.516 A:middle
 Start today.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:01.966 --> 00:33:06.236 A:middle
 After this talk, spend one
@@ -2326,9 +2226,6 @@ with your application.
 And then lastly, make sure you
 understand all the implications
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.476 --> 00:34:03.216 A:middle
 of data isolation
 on iOS 7, OS X.
@@ -2362,11 +2259,11 @@ practices that you can apply
 to help maintain
 trust with your users.
 
-00:34:24.666 --> 00:34:28.775 A:middle
+00:34:24.666 --> 00:34:28.776 A:middle
 We're going to touch on
 transparency, control,
 
-00:34:28.775 --> 00:34:32.346 A:middle
+00:34:28.776 --> 00:34:32.346 A:middle
 talk about and walkthrough
 examples
 
@@ -2374,21 +2271,21 @@ examples
 for applying data
 collection techniques.
 
-00:34:36.295 --> 00:34:40.966 A:middle
+00:34:36.296 --> 00:34:40.966 A:middle
 Talk about fingerprinting and
 the built-in tools you can use
 
-00:34:41.016 --> 00:34:42.045 A:middle
+00:34:41.016 --> 00:34:42.046 A:middle
 to apply data protection.
 
-00:34:42.045 --> 00:34:45.576 A:middle
+00:34:42.046 --> 00:34:45.576 A:middle
 So, we're going to
 start with transparency.
 
 00:34:45.576 --> 00:34:46.156 A:middle
 What is that?
 
-00:34:46.585 --> 00:34:48.096 A:middle
+00:34:46.586 --> 00:34:48.096 A:middle
 Transparency is being clear
 
 00:34:48.096 --> 00:34:51.106 A:middle
@@ -2405,9 +2302,6 @@ show that to your users.
 00:34:59.686 --> 00:35:02.256 A:middle
 Allow them a way to
 examine what the data is.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:02.656 --> 00:35:07.206 A:middle
 Your privacy policy is another
@@ -2470,9 +2364,6 @@ control and there's two pieces
 00:35:58.916 --> 00:36:00.296 A:middle
 that I just want to
 quickly highlight.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.926 --> 00:36:05.036 A:middle
 When you're asking for
@@ -2544,9 +2435,6 @@ Now, this doesn't mean
 that I think all data
 collection is bad.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:02.296 --> 00:37:06.476 A:middle
 But you should weigh the
 positives and the risks
@@ -2615,9 +2503,6 @@ code name, Project Zanzibar.
 And we know that
 something is happening
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.516 --> 00:38:02.976 A:middle
 for Project Zanzibar probably
 in this financial year.
@@ -2678,9 +2563,6 @@ errors and others.
 00:38:57.166 --> 00:38:59.906 A:middle
 So here we still have the
 ability to see trends,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:00.666 --> 00:39:01.976 A:middle
 understand the frequency,
@@ -2745,9 +2627,6 @@ for a single user.
 You still have the
 same amount of data,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.216 --> 00:40:02.696 A:middle
 you'll still have
 your distribution
@@ -2803,9 +2682,6 @@ let's eliminate seconds,
 
 00:40:59.766 --> 00:41:03.446 A:middle
 and bucket at the size.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:03.446 --> 00:41:05.196 A:middle
 But you can do this
@@ -2885,9 +2761,6 @@ need for this type of resolution
 on day one does not
 mean on the day seven
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:02.966 --> 00:42:04.366 A:middle
 that you have the same need.
 
@@ -2956,9 +2829,6 @@ to not collect the data at all.
 00:42:52.243 --> 00:43:01.196 A:middle
 Now, I've walk through
 six different techniques
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:01.196 --> 00:43:04.886 A:middle
 that you can apply and you can
@@ -3033,9 +2903,6 @@ that most users have set up?"
 Things like timestamps or what
 libraries are in his phone.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:03.706 --> 00:44:07.596 A:middle
 But the key thing here is,
 
@@ -3094,9 +2961,6 @@ synchronize the credentials
 
 00:44:59.556 --> 00:45:00.376 A:middle
 across devices.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:00.746 --> 00:45:03.676 A:middle
 Do you really need to?
@@ -3173,9 +3037,6 @@ It's just an easy trick I use.
 I call it "the parent
 or grandparent test."
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:01.966 --> 00:46:06.326 A:middle
 If I explain in clear language
 to my grandmother, what's going
@@ -3244,9 +3105,6 @@ questions to the right place.
 00:46:56.466 --> 00:47:01.796 A:middle
 Also, David created some great
 sample code, go check it out.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:02.036 --> 00:47:04.206 A:middle
 Use it. Learn from it.
@@ -3320,9 +3178,6 @@ be driven by decisions.
 And lastly, maintain
 your relationship
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:03.116 --> 00:48:06.606 A:middle
 and strengthen your relationship
 with your users by thinking
@@ -3343,4 +3198,3 @@ and have a great rest of WWDC.
 
 00:48:17.676 --> 00:48:25.280 A:middle
 [ Applause ]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:04.516 A:middle
 [ Silence ]
@@ -59,14 +58,11 @@ LLVM to do its best
 00:00:59.496 --> 00:01:00.886 A:middle
 to give you better performance.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:01.566 --> 00:01:04.885 A:middle
+00:01:01.566 --> 00:01:04.886 A:middle
 And then finally, we're
 going to talk about some new
 
-00:01:04.885 --> 00:01:09.956 A:middle
+00:01:04.886 --> 00:01:09.956 A:middle
 and improved optimizations
 available in LLVM with Xcode 5
 
@@ -123,9 +119,6 @@ application source code.
 00:01:59.246 --> 00:02:01.016 A:middle
 So let's have a look
 at how that's possible.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:01.846 --> 00:02:05.756 A:middle
 We use Xcode's build
@@ -197,9 +190,6 @@ fastest code we can
 without compromising
 on code size.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:02.606 --> 00:03:07.306 A:middle
 But for SciMark-2, we
 want more than that.
@@ -269,9 +259,6 @@ three times faster,
 so the kind of performance that
 basic optimizations can provide
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:03.046 --> 00:04:07.226 A:middle
 and then we tell the compiler
 to be more aggressive with O3
@@ -288,7 +275,7 @@ but we haven't gotten really all
 that the compiler
 has to offer yet.
 
-00:04:17.446 --> 00:04:20.005 A:middle
+00:04:17.446 --> 00:04:20.006 A:middle
 We want to bring
 more information
 
@@ -337,9 +324,6 @@ information in each source file
 00:04:57.696 --> 00:05:01.426 A:middle
 that we've processed is no
 longer available to the compiler
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.426 --> 00:05:03.946 A:middle
 when we move on to
@@ -406,9 +390,6 @@ Optimization setting
 which passes the LTO flag
 to the compiler and then
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.426 --> 00:06:03.986 A:middle
 on to the linker so
 that the compiler
@@ -467,9 +448,6 @@ application to experiment
 00:06:57.646 --> 00:07:00.716 A:middle
 with these settings and find
 out what is most effective
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.776 --> 00:07:03.876 A:middle
 and what is right for your app.
@@ -539,9 +517,6 @@ more and it's doing it all
 at once instead of splitting
 it up into multiple chunks
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:02.656 --> 00:08:05.326 A:middle
 that will then be split into
 -- across multiple cores.
@@ -570,15 +545,15 @@ that LLVM performs analyses,
 how LLVMlooksat your code and
 how you can structure things
 
-00:08:33.206 --> 00:08:35.895 A:middle
+00:08:33.206 --> 00:08:35.896 A:middle
 to enable LLVM to be
 even more effective.
 
-00:08:37.025 --> 00:08:41.265 A:middle
+00:08:37.026 --> 00:08:41.266 A:middle
 Let's start with memory,
 in particular pointers.
 
-00:08:42.275 --> 00:08:46.386 A:middle
+00:08:42.276 --> 00:08:46.386 A:middle
 Memory accesses on modern
 architectures are expensive
 
@@ -597,9 +572,6 @@ accesses around,
 00:08:56.826 --> 00:09:00.476 A:middle
 removing redundant
 operations, killing dead code,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.116 --> 00:09:05.026 A:middle
 but to do that effectively,
@@ -669,9 +641,6 @@ behavior by typecasting
 00:09:54.386 --> 00:09:58.536 A:middle
 between pointer types, there may
 be some hidden problems there,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.536 --> 00:10:01.276 A:middle
 so be very careful,
@@ -753,9 +722,6 @@ Everything is an integer now.
 The compiler has
 to be conservative.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:02.696 --> 00:11:07.736 A:middle
 It has to believe that alias
 may exist between pointer C
@@ -812,9 +778,6 @@ be aliased by any other pointer
 00:11:56.996 --> 00:11:59.676 A:middle
 in the scope of that
 restricted pointer.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:01.006 --> 00:12:03.746 A:middle
 So, let's look at how
@@ -877,9 +840,6 @@ give good optimizations,
 00:12:59.316 --> 00:13:01.236 A:middle
 but there are complications
 based
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.236 --> 00:13:04.376 A:middle
 on the underlying language,
@@ -946,9 +906,6 @@ So that's not allowed.
 00:13:57.316 --> 00:14:01.456 A:middle
 Likewise, there's the concept
 of a NaN or Not a Number,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:02.216 --> 00:14:05.426 A:middle
 which means that a result of
@@ -1019,9 +976,6 @@ change nothing but the order
 of evaluation and
 our result changes
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:02.956 --> 00:15:04.316 A:middle
 in the least significant bits.
 
@@ -1081,9 +1035,6 @@ compiler via the Xcode setting
 00:15:55.326 --> 00:16:00.116 A:middle
 to relax IEEE compliance and now
 the compiler will be much more
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.116 --> 00:16:03.346 A:middle
 aggressive about these
@@ -1159,9 +1110,6 @@ the compiler is now able
 to be more aggressive and fold
 away the extra calculations
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:04.066 --> 00:17:06.126 A:middle
 giving much faster results.
 
@@ -1177,11 +1125,11 @@ for your application and decide
 if fast math is right for
 you, experiment with it,
 
-00:17:19.046 --> 00:17:21.175 A:middle
+00:17:19.046 --> 00:17:21.176 A:middle
 find out if it gives
 you good results.
 
-00:17:21.705 --> 00:17:22.856 A:middle
+00:17:21.706 --> 00:17:22.856 A:middle
 It's very powerful.
 
 00:17:23.646 --> 00:17:26.326 A:middle
@@ -1217,9 +1165,6 @@ powerful instructions to bear.
 00:17:54.796 --> 00:18:00.036 A:middle
 On iOS, we have ARM NEON
 and we want to use all
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.036 --> 00:18:04.126 A:middle
 of these instructions to get the
@@ -1293,9 +1238,6 @@ we can do better.
 We compile four elements
 at a time giving a very,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:03.196 --> 00:19:07.316 A:middle
 very powerful improvement to
 our application's performance.
@@ -1367,9 +1309,6 @@ is a little bit smart here.
 It knows the semantics
 of these instructions.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:03.396 --> 00:20:08.296 A:middle
 So, it notices that we're doing
 a multiply and then accumulate,
@@ -1434,9 +1373,6 @@ I'm used to reading C code,
 so LLVM provides target
 independent vector extensions
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:03.056 --> 00:21:06.926 A:middle
 that allow us to put the vector
 information into the type.
@@ -1499,9 +1435,6 @@ which operations are going
 to be efficiently
 performed as vectors.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:02.496 --> 00:22:06.336 A:middle
 It assumes that it knows
 the underlying vector width
@@ -1561,9 +1494,6 @@ extended vector syntax.
 00:22:58.716 --> 00:23:00.186 A:middle
 But he also talked
 to you about some
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.186 --> 00:23:02.046 A:middle
 of the disadvantages
@@ -1633,9 +1563,6 @@ benefit from vectorization.
 00:23:56.306 --> 00:24:03.066 A:middle
 So, only applications that have
 compute-intensive loops can
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:03.066 --> 00:24:04.236 A:middle
 benefit from vectorization.
@@ -1710,9 +1637,6 @@ not a very likely candidate,
 you see nice or very
 minor improvements due
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:02.226 --> 00:25:03.036 A:middle
 to vectorization.
 
@@ -1782,9 +1706,6 @@ the Apple App Store.
 
 00:25:59.576 --> 00:26:02.056 A:middle
 It is the Facetune app.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:02.526 --> 00:26:06.496 A:middle
 And a few weeks ago, we've
@@ -1858,9 +1779,6 @@ the Xcode 5 build setting,
 00:26:59.266 --> 00:27:01.986 A:middle
 search for vectorization
 and turn the switch.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:03.026 --> 00:27:04.726 A:middle
 And once you enable
@@ -1937,9 +1855,6 @@ is load from two arrays,
 add the numbers together and
 save them to a third array.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.506 --> 00:28:03.656 A:middle
 That's a very basic loop, right?
 
@@ -2011,9 +1926,6 @@ eight elements at once.
 Because Haswell processors can
 process eight elements using the
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.066 --> 00:29:05.696 A:middle
 AVX 2 instruction set and we
 support this instruction set.
@@ -2081,9 +1993,6 @@ of iterations at compile time.
 00:29:58.826 --> 00:30:03.756 A:middle
 The compiler only sees some
 variable or some argument
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:03.756 --> 00:30:06.826 A:middle
 for function and it could be
@@ -2164,9 +2073,6 @@ Okay, so problem solved.
 00:30:58.686 --> 00:31:00.116 A:middle
 But I say that there
 are two problems.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.816 --> 00:31:03.596 A:middle
 And this is the second problems
@@ -2249,9 +2155,6 @@ So it's not memcpy, it's memset.
 00:31:59.086 --> 00:32:00.296 A:middle
 It's counterintuitive.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.296 --> 00:32:01.726 A:middle
 I didn't think it would happen.
 
@@ -2328,9 +2231,6 @@ This is what we do.
 Before every loop, we add some
 code to check if the pointers
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:05.436 --> 00:33:07.136 A:middle
 that we're using overlap.
 
@@ -2402,9 +2302,6 @@ rid of it, and we can.
 Remember how we tell
 the compiler
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.506 --> 00:34:03.876 A:middle
 that pointers don't point
 to the same memory location,
@@ -2416,14 +2313,14 @@ we use the restrict keyword.
 And when we do, the compiler
 understands that source
 
-00:34:11.116 --> 00:34:13.835 A:middle
+00:34:11.116 --> 00:34:13.836 A:middle
 and destination or in
 and out don't point
 
-00:34:13.835 --> 00:34:14.746 A:middle
+00:34:13.836 --> 00:34:14.746 A:middle
 to the same memory location.
 
-00:34:14.926 --> 00:34:17.235 A:middle
+00:34:14.926 --> 00:34:17.236 A:middle
 So it can get rid of
 the runtime checks.
 
@@ -2431,7 +2328,7 @@ the runtime checks.
 But we also want to get
 rid of the original loop.
 
-00:34:21.795 --> 00:34:23.306 A:middle
+00:34:21.796 --> 00:34:23.306 A:middle
 How can we get rid
 of the original loop?
 
@@ -2443,13 +2340,13 @@ exact number of iterations,
 then the compiler knows that
 it can process the entire array
 
-00:34:33.255 --> 00:34:34.246 A:middle
+00:34:33.256 --> 00:34:34.246 A:middle
 using the vector loop.
 
-00:34:34.775 --> 00:34:35.485 A:middle
+00:34:34.776 --> 00:34:35.486 A:middle
 So this is great.
 
-00:34:35.755 --> 00:34:41.396 A:middle
+00:34:35.756 --> 00:34:41.396 A:middle
 Now, it's probably not a
 good idea to go and mark all
 
@@ -2465,19 +2362,16 @@ all these few instructions
 out before we execute
 the fast vectorize loop.
 
-00:34:52.176 --> 00:34:56.315 A:middle
+00:34:52.176 --> 00:34:56.316 A:middle
 So, my recommendation is
 don't add restrict everywhere
 
-00:34:56.315 --> 00:34:58.826 A:middle
+00:34:56.316 --> 00:34:58.826 A:middle
 but just be aware that
 this is one of your tools
 
 00:34:58.826 --> 00:35:04.846 A:middle
 that you can use in some cases.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:04.846 --> 00:35:09.286 A:middle
 And there is also another
@@ -2539,9 +2433,6 @@ in the middle of the loop
 00:35:55.346 --> 00:36:00.166 A:middle
 and we don't have any
 information unless we inline the
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.166 --> 00:36:02.236 A:middle
 function call, and then
@@ -2623,9 +2514,6 @@ I want to talk to you
 00:36:59.846 --> 00:37:01.086 A:middle
 about in this context.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:01.136 --> 00:37:07.256 A:middle
 So, the vectorizer in order to
 vectorize a lot of loops has
@@ -2685,9 +2573,6 @@ tells the compiler,
 
 00:37:59.536 --> 00:38:02.176 A:middle
 "You cannot add runtime checks
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:02.176 --> 00:38:04.616 A:middle
 and you cannot keep the
@@ -2759,9 +2644,6 @@ about reduction loops.
 00:38:56.976 --> 00:38:59.456 A:middle
 And reduction loops are
 very, very interesting.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:00.556 --> 00:39:04.056 A:middle
 Reduction loops are loops in
@@ -2835,9 +2717,6 @@ sums of the array.
 So we're processing all
 million elements in the array
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:02.776 --> 00:40:03.966 A:middle
 into this temp variable.
 
@@ -2906,9 +2785,6 @@ an "out-of-order" processor.
 And the compiler optimizes
 for these processors.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:04.926 --> 00:41:09.706 A:middle
 So, the compiler looks at the
 code that we have right here.
@@ -2976,9 +2852,6 @@ This is what we do.
 00:41:56.746 --> 00:42:01.226 A:middle
 The compiler optimizes the code
 by unrolling it a little bit.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:01.826 --> 00:42:04.846 A:middle
 And the compiler
@@ -3053,9 +2926,6 @@ it into two groups.
 So we have the greens
 that one independent --
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:01.066 --> 00:43:03.266 A:middle
 that's one chain of calculation
 and we have the purples.
@@ -3124,9 +2994,6 @@ performance which is great.
 00:43:58.906 --> 00:44:00.206 A:middle
 The vectorizer did a good job.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.106 --> 00:44:03.006 A:middle
 But when we enable unrolling,
 
@@ -3194,9 +3061,6 @@ order in which we add in them.
 00:44:57.766 --> 00:45:01.006 A:middle
 And this is okay for
 integers, but it's not okay
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:01.186 --> 00:45:03.706 A:middle
 for floating point numbers
@@ -3271,9 +3135,6 @@ them together in one array.
 And this array will
 look like this,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:00.256 --> 00:46:02.676 A:middle
 will look like red green blue,
 red green blue, red green blue.
@@ -3343,9 +3204,6 @@ the reds, the first thing
 00:46:57.776 --> 00:47:00.706 A:middle
 that we need to do is
 gather all of the greens.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:01.756 --> 00:47:03.766 A:middle
 Now this is a pretty
@@ -3432,9 +3290,6 @@ to vectorize this code.
 We just load the
 greens, load the reds.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:02.226 --> 00:48:02.906 A:middle
 That's very cheap.
 
@@ -3510,9 +3365,6 @@ at the bottom does not.
 Now, what is the big difference
 between these two loops?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:01.436 --> 00:49:06.896 A:middle
 The only difference is that the
 one on top uses signed indices
@@ -3575,9 +3427,6 @@ your code using size t
 00:49:56.586 --> 00:50:00.696 A:middle
 or signed indices, then
 the vectorizer will be able
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:00.696 --> 00:50:01.556 A:middle
 to vectorize your code.
@@ -3663,9 +3512,6 @@ We call it -Ofast.
 And now, there are
 only two things
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:00.976 --> 00:51:01.766 A:middle
 that you need to remember.
 
@@ -3744,9 +3590,6 @@ your questions.
 So you can always contact us
 and we'll answer your questions.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:02.986 --> 00:52:05.976 A:middle
 So, thank you very much
 and enjoy the rest of WWDC.
@@ -3759,4 +3602,3 @@ Thank you.
 
 00:52:09.516 --> 00:52:12.090 A:middle
 [ Applause ]
-

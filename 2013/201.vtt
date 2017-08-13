@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.596 A:middle
 [ Silence ]
@@ -69,9 +68,6 @@ important to the user.
 
 00:00:58.916 --> 00:01:00.446 A:middle
 And the design
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.446 --> 00:01:04.626 A:middle
 of the application should make
@@ -146,9 +142,6 @@ experiences
 00:01:59.886 --> 00:02:00.996 A:middle
 that are really engaging.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:01.606 --> 00:02:07.196 A:middle
 So let's move on and talk about
 the changes we've made in UIKit
@@ -208,9 +201,6 @@ of text in their applications
 00:02:57.046 --> 00:03:02.676 A:middle
 and we've made extensive
 changes in the fonts
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:03.206 --> 00:03:04.786 A:middle
 to make them beautiful
@@ -279,9 +269,6 @@ wide variety of sizes.
 00:03:54.816 --> 00:03:59.106 A:middle
 On top of this, we're
 introducing text styles.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:00.576 --> 00:04:03.256 A:middle
 Instead of specifying
@@ -367,9 +354,6 @@ This is the Mail application
 and on the left you
 see the message list
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:01.486 --> 00:05:02.876 A:middle
 and on the right you
 see the message body.
@@ -441,9 +425,6 @@ content to the users,
 given them the ability
 to access their content.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:02.216 --> 00:06:04.836 A:middle
 But not all users with the
 vision impairments have a
@@ -512,9 +493,6 @@ of variance that you can use.
 From Bold and Italic variance,
 to variance that have looser
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.606 --> 00:07:03.336 A:middle
 or tighter line letting as well
 as the wide variety of others.
@@ -577,9 +555,6 @@ and users benefit from this.
 So let's talk about
 Letterpress for a second.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:04.126 --> 00:08:06.796 A:middle
 Letterpress is a form of
 relief printing where text
@@ -619,11 +594,11 @@ a piece of printed text,
 you can really see
 how they compare.
 
-00:08:32.006 --> 00:08:35.405 A:middle
+00:08:32.006 --> 00:08:35.406 A:middle
 Now this have an incredibly
 complex graphical effect
 
-00:08:35.405 --> 00:08:37.535 A:middle
+00:08:35.406 --> 00:08:37.536 A:middle
 but it's trivial for you to
 turn on in your application.
 
@@ -635,10 +610,10 @@ additional attribute
 on your attributed string
 and now anywhere in your UI
 
-00:08:42.726 --> 00:08:43.775 A:middle
+00:08:42.726 --> 00:08:43.776 A:middle
 that you're displaying text,
 
-00:08:43.775 --> 00:08:46.046 A:middle
+00:08:43.776 --> 00:08:46.046 A:middle
 you can now display
 Letterpress text.
 
@@ -655,9 +630,6 @@ And we've turned on kerning
 00:08:59.396 --> 00:09:01.776 A:middle
 and ligatures everywhere
 in the OS and iOS 7.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:03.046 --> 00:09:06.096 A:middle
 And so text which rendered like
@@ -729,9 +701,6 @@ object-oriented,
 high level text API that's
 built on top of Core Text.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:03.686 --> 00:10:08.816 A:middle
 And we've rewritten all of our
 text related controls in UIKit
@@ -794,9 +763,6 @@ emphasis on typography in iOS 7,
 00:10:56.836 --> 00:11:00.506 A:middle
 I encourage you all to make
 it to these sessions and find
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.506 --> 00:11:01.696 A:middle
 out about Textkit and find
@@ -880,9 +846,6 @@ expanded them horizontally:
 we've also expanded the main
 scrolling text view vertically
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:02.296 --> 00:12:05.466 A:middle
 underneath the bars at the top
 and the bottom of the screen.
@@ -952,9 +915,6 @@ navigation bar,
 00:12:57.156 --> 00:12:59.956 A:middle
 underneath the status
 bar by default.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.486 --> 00:13:03.776 A:middle
 And those bars, yes,
@@ -1037,9 +997,6 @@ to the top of this Mail Message,
 we want to make sure
 that the header
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:01.706 --> 00:14:05.196 A:middle
 of the Mail Message still
 appears below the navigation
@@ -1102,9 +1059,6 @@ a property called Extended Edges
 00:14:55.626 --> 00:15:00.226 A:middle
 for Layout, which describes
 the edges of the screen along
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.226 --> 00:15:01.796 A:middle
 which we're going
@@ -1185,9 +1139,6 @@ have a top layout guide
 and a bottom layout guide that
 describe where those features
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:01.466 --> 00:16:02.806 A:middle
 at the top and bottom
 of the screen
@@ -1267,9 +1218,6 @@ Now, because in iOS
 to specify the correct
 style and visibility
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:02.266 --> 00:17:04.036 A:middle
 for the status bar
 due to the fact
@@ -1278,11 +1226,11 @@ due to the fact
 that it doesn't have
 a background,
 
-00:17:05.896 --> 00:17:07.425 A:middle
+00:17:05.896 --> 00:17:07.426 A:middle
 we've made that a
 little easier for you.
 
-00:17:08.425 --> 00:17:11.256 A:middle
+00:17:08.426 --> 00:17:11.256 A:middle
 Rather than having to
 manually manage the disposition
 
@@ -1298,11 +1246,11 @@ specify the styles declaratively
 by using these properties
 on UIViewController.
 
-00:17:21.945 --> 00:17:24.715 A:middle
+00:17:21.946 --> 00:17:24.716 A:middle
 In that way, as View Controllers
 are pushed and popped
 
-00:17:25.185 --> 00:17:28.215 A:middle
+00:17:25.186 --> 00:17:28.216 A:middle
 or switched between on tab
 controllers, modally presented
 
@@ -1346,9 +1294,6 @@ base which does a lot
 00:17:55.946 --> 00:17:59.876 A:middle
 of manual status bar management,
 you can keep that code around
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.086 --> 00:18:02.116 A:middle
 and just set this key to
@@ -1424,9 +1369,6 @@ to specify for instance that one
 of your gesture recognizers
 should recognize simultaneously
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:03.306 --> 00:19:06.756 A:middle
 with this interactive pop, you
 can do that using this API.
@@ -1488,9 +1430,6 @@ very exciting to us.
 00:19:58.946 --> 00:20:00.896 A:middle
 And we're actually going
 to provide it to all of you
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:01.306 --> 00:20:03.826 A:middle
 in the form of a new
@@ -1564,9 +1503,6 @@ of that navigation stack,
 00:20:59.856 --> 00:21:03.146 A:middle
 the year's user interface, and
 the collection's user interface.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:04.386 --> 00:21:06.526 A:middle
 And I just want to run
@@ -1644,9 +1580,6 @@ is actually going to use
 00:21:59.456 --> 00:22:02.806 A:middle
 that same Collection View
 for both View Controllers.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:03.796 --> 00:22:05.676 A:middle
 And it's going to
@@ -1728,9 +1661,6 @@ ornamentation in this interface.
 But in order to make sure
 that things are still clear,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:04.636 --> 00:23:09.166 A:middle
 we're using color to signify
 interactivity and selection.
@@ -1802,9 +1732,6 @@ We've promoted tint color
 from certain UIControls
 all the way up to UIView.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.356 --> 00:24:03.726 A:middle
 You can set it on any UIView.
 
@@ -1871,9 +1798,6 @@ haven't just laid a grain--
 00:24:58.256 --> 00:25:01.326 A:middle
 a gray overlay over
 that Notes Back button.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:01.966 --> 00:25:04.416 A:middle
 Take a look at that Back
@@ -1947,9 +1871,6 @@ using color in new ways
 that I've barely
 scratched the surface
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:01.206 --> 00:26:03.056 A:middle
 of in this brief discussion.
 
@@ -2010,9 +1931,6 @@ fairly significantly in iOS 7
 00:26:57.226 --> 00:26:59.866 A:middle
 and there have always been
 two styles of Table View,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.756 --> 00:27:02.496 A:middle
 a plain Table View you see
@@ -2087,9 +2005,6 @@ content into Alert Views.
 
 00:27:54.526 --> 00:28:01.156 A:middle
 [ Applause ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.656 --> 00:28:03.276 A:middle
 We know a lot of you guys
@@ -2168,9 +2083,6 @@ with a new plain style.
 A segmented controls
 in iOS 7 also look
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:01.936 --> 00:29:02.876 A:middle
 significantly different.
 
@@ -2245,9 +2157,6 @@ a fantastic way to account
 00:29:57.766 --> 00:29:59.976 A:middle
 for metrics changes like
 this in the operating system.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:03.516 --> 00:30:06.726 A:middle
 PickerViews have a beautiful
@@ -2325,9 +2234,6 @@ the SearchDisplayController,
 00:30:56.826 --> 00:31:00.146 A:middle
 we're not typically displaying
 the search bar inside the
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.146 --> 00:31:01.046 A:middle
 navigation bar.
@@ -2411,9 +2317,6 @@ application has been running all
 00:31:57.806 --> 00:32:00.026 A:middle
 along and is always up-to-date.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:02.016 --> 00:32:04.316 A:middle
 We have a session
 about this afternoon,
@@ -2491,9 +2394,6 @@ the right side of the screen,
 00:32:59.036 --> 00:32:59.826 A:middle
 I can get to the camera.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.936 --> 00:33:03.636 A:middle
 But look at the way it responds,
 it bounces differently,
@@ -2567,9 +2467,6 @@ this Lock screen here,
 00:33:58.336 --> 00:33:59.826 A:middle
 all we have to do is specify
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.336 --> 00:34:02.956 A:middle
 that the Lock screen has a
 certain amount of gravity,
@@ -2585,18 +2482,18 @@ screen-- just a few lines--
 00:34:09.746 --> 00:34:11.666 A:middle
 and we got this lovely effect.
 
-00:34:13.255 --> 00:34:15.826 A:middle
+00:34:13.256 --> 00:34:15.826 A:middle
 We're using in multiple places
 throughout the operating system:
 
-00:34:16.626 --> 00:34:17.775 A:middle
+00:34:16.626 --> 00:34:17.776 A:middle
 Messages for instance.
 
 00:34:19.246 --> 00:34:22.846 A:middle
 We create kind of a playful
 feel for the chat bubbles.
 
-00:34:25.505 --> 00:34:27.956 A:middle
+00:34:25.506 --> 00:34:27.956 A:middle
 You see that they lag a
 moment behind scrolling.
 
@@ -2612,13 +2509,13 @@ which allow you
 to specify spring-like
 behaviors for elements
 
-00:34:37.396 --> 00:34:38.235 A:middle
+00:34:37.396 --> 00:34:38.236 A:middle
 in your user interface.
 
-00:34:39.045 --> 00:34:41.976 A:middle
+00:34:39.046 --> 00:34:41.976 A:middle
 Now, we have a number of talks
 
-00:34:42.116 --> 00:34:43.295 A:middle
+00:34:42.116 --> 00:34:43.296 A:middle
 on this topic throughout
 the week.
 
@@ -2626,7 +2523,7 @@ the week.
 And so I don't need to
 go into the details.
 
-00:34:46.025 --> 00:34:47.886 A:middle
+00:34:46.026 --> 00:34:47.886 A:middle
 Two full talks on
 UIKit dynamics,
 
@@ -2645,9 +2542,6 @@ attention towards the ScrollView
 00:34:58.576 --> 00:35:01.046 A:middle
 talk which is always
 amazing year after year.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.666 --> 00:35:05.226 A:middle
 But this year in particular,
@@ -2717,9 +2611,6 @@ red "1" badge on top
 00:35:57.816 --> 00:36:00.816 A:middle
 of the Messages icon, it's
 moving in a way that suggests
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.816 --> 00:36:01.976 A:middle
 that it's really floating there.
@@ -2800,9 +2691,6 @@ you which is which.
 I could watch this
 all day [laughter].
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:03.596 --> 00:37:05.886 A:middle
 The best news I have is not
 just that we've done this thing,
@@ -2867,9 +2755,6 @@ like, I turn my phone around
 
 00:37:58.446 --> 00:38:01.966 A:middle
 and hand it to my friend.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:01.966 --> 00:38:04.426 A:middle
 And once you know
@@ -2947,9 +2832,6 @@ of the shadows between the tabs
 in order to create a
 nice shading effect.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.856 --> 00:39:04.736 A:middle
 And then we're doing this
 perspective skew distortion
@@ -3021,9 +2903,6 @@ album through this sheet
 00:39:57.206 --> 00:40:01.536 A:middle
 and that helps communicate
 without really getting
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:01.536 --> 00:40:04.156 A:middle
 in the way or taking
@@ -3105,9 +2984,6 @@ underneath the screen.
 So, in order to make this kind
 of advance image processing fast
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:04.526 --> 00:41:07.016 A:middle
 and easy for you and
 your applications,
@@ -3186,9 +3062,6 @@ blurring layers
 for communicating depth
 in your applications.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.526 --> 00:42:07.106 A:middle
 So I think this one is
 going to be a must-see.
@@ -3249,9 +3122,6 @@ And so for each application,
 00:42:56.636 --> 00:42:59.736 A:middle
 the first thing we did
 was we broke it down.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:00.686 --> 00:43:04.696 A:middle
 We asked ourselves, "What is the
@@ -3324,9 +3194,6 @@ new physics-like system
 that I've been describing
 to you, UIKit dynamics.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:02.286 --> 00:44:03.716 A:middle
 We did it with the
 motion effects.
@@ -3393,9 +3260,6 @@ of touches throughout iOS 7.
 00:44:59.586 --> 00:45:05.126 A:middle
 That is all very
 abstract and we've gone
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:05.126 --> 00:45:06.366 A:middle
 over a lot of API today.
@@ -3476,9 +3340,6 @@ the theme of content,
 your controllers are
 going full screen,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:01.926 --> 00:46:04.056 A:middle
 that's the default behavior,
 you don't have to turn that on.
@@ -3555,9 +3416,6 @@ the functionality of the system
 00:46:59.406 --> 00:47:00.756 A:middle
 or the convenience
 that, for instance,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:01.146 --> 00:47:03.216 A:middle
 your users will have their
@@ -3641,9 +3499,6 @@ ornamentation in iOS 7,
 00:47:58.396 --> 00:48:00.286 A:middle
 and we're really
 pleased about that
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:00.366 --> 00:48:03.926 A:middle
 because it gives the
@@ -3730,9 +3585,6 @@ amazing designs.
 Obviously, it's important to
 be tasteful with these effects
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:02.036 --> 00:49:02.816 A:middle
 because they're dramatic.
 
@@ -3798,9 +3650,6 @@ to move to it at the same pace.
 00:49:56.796 --> 00:50:01.056 A:middle
 And so we would suggest that you
 consider focusing your efforts
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:01.056 --> 00:50:02.336 A:middle
 on iOS 7 first.
@@ -3888,9 +3737,6 @@ adopted Auto Layout,
 now might be a good
 time to start.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:01.386 --> 00:51:07.206 A:middle
 Finally, as you're considering
 design for your application,
@@ -3947,9 +3793,6 @@ to iOS 7's style.
 00:51:55.886 --> 00:51:59.306 A:middle
 I think that will yield a less
 satisfying result for users.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:00.036 --> 00:52:05.316 A:middle
 Now, if you have more questions
@@ -4013,4 +3856,3 @@ excited about that as well.
 
 00:52:39.016 --> 00:52:48.720 A:middle
 [ Silence ]
-

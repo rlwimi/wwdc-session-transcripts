@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.026 --> 00:00:14.506 A:middle
 &gt;&gt; In this session, my colleague
@@ -59,9 +58,6 @@ in HTML, CSS and JavaScript.
 00:00:54.846 --> 00:00:58.706 A:middle
 So there isn't any rocket
 science involved here.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.206 --> 00:01:03.006 A:middle
 So if you're a web
@@ -130,9 +126,6 @@ using CSS.
 In iAd Producer, I have
 this project in development.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.216 --> 00:02:02.916 A:middle
 This is image in
 the center I would
@@ -145,7 +138,7 @@ custom style on.
 First, normally, my
 first approach is
 
-00:02:10.205 --> 00:02:11.806 A:middle
+00:02:10.206 --> 00:02:11.806 A:middle
 to use the auto-inspector.
 
 00:02:12.566 --> 00:02:14.476 A:middle
@@ -205,9 +198,6 @@ file will get bundled
 00:02:59.566 --> 00:03:02.096 A:middle
 with your content
 automatically on export.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:02.636 --> 00:03:05.286 A:middle
 In this particular example,
@@ -272,9 +262,6 @@ to the image in the center.
 So that's one way to apply
 custom CSS in iAd Producer.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:02.146 --> 00:04:04.066 A:middle
 Now, we go and look
 at another approach.
@@ -334,9 +321,6 @@ Let me show you how that works.
 
 00:04:56.646 --> 00:04:59.916 A:middle
 So back to our project.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.046 --> 00:05:04.796 A:middle
 iAd Producer automatically
@@ -398,9 +382,6 @@ showing a static image.
 00:05:55.086 --> 00:05:59.236 A:middle
 I want it to be dynamic and
 always look fresh to our user.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.546 --> 00:06:04.546 A:middle
 To do that, I'm going to
@@ -468,9 +449,6 @@ to pick Execute JavaScript.
 00:06:59.266 --> 00:07:03.286 A:middle
 When we choose that option,
 we will see the Code Editor.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:03.646 --> 00:07:07.026 A:middle
 And there we can add the code
@@ -541,9 +519,6 @@ JavaScript object.
 In this diagram, I'm
 going to assign it
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.146 --> 00:08:03.226 A:middle
 to an object represented
 by the green box here.
@@ -582,11 +557,11 @@ with the return data.
 However, if their loading
 turned out to be unsuccessful,
 
-00:08:30.636 --> 00:08:32.645 A:middle
+00:08:30.636 --> 00:08:32.646 A:middle
 it will get different
 notification called
 
-00:08:32.645 --> 00:08:35.556 A:middle
+00:08:32.646 --> 00:08:35.556 A:middle
 loaderDidFail and the
 green object will get
 
@@ -624,9 +599,6 @@ move on to the next task.
 00:08:59.946 --> 00:09:03.456 A:middle
 I'm going to show you how we
 can use the data from the server
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:03.456 --> 00:09:06.056 A:middle
 and populate it in
@@ -694,9 +666,6 @@ by the green box you see here.
 00:09:58.476 --> 00:10:01.346 A:middle
 In order for the green
 object to supply data
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:01.346 --> 00:10:04.526 A:middle
 to the multi-cell object, you
@@ -782,9 +751,6 @@ behavior for laying this out is
 00:10:59.136 --> 00:11:02.086 A:middle
 to jump in here and maybe I've
 got three event associated
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:02.086 --> 00:11:05.086 A:middle
 with Mars curiosity and I want
@@ -875,9 +841,6 @@ It's got a name here.
 And it's a good example of
 one of our multi-cell objects
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.236 --> 00:12:02.026 A:middle
 that has some great properties.
 
@@ -966,9 +929,6 @@ with it as well.
 00:12:57.606 --> 00:13:00.316 A:middle
 And it's going to bring it down
 to basically a prototype cell,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.316 --> 00:13:02.336 A:middle
 one cell that's going
@@ -1062,9 +1022,6 @@ enough so that you can see.
 00:13:58.036 --> 00:14:00.986 A:middle
 I have nothing selected on the
 page when press the Code button.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.986 --> 00:14:03.526 A:middle
 And so, what it did was
@@ -1165,9 +1122,6 @@ new record to here.
 And whenever this particular
 add or this widget is opened,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:02.586 --> 00:15:04.026 A:middle
 it's going to call
 to this feed and pull
@@ -1264,9 +1218,6 @@ to go and call a web or set a
 of web service variable
 to the path
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.516 --> 00:16:01.856 A:middle
 to that JSON file that you saw.
 
@@ -1356,14 +1307,11 @@ the DOCs right there for you.
 All right, so I'm instantiating
 one of these objects.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:02.986 --> 00:17:05.945 A:middle
+00:17:02.986 --> 00:17:05.946 A:middle
 I'm setting its delegate
 property this page,
 
-00:17:05.945 --> 00:17:08.126 A:middle
+00:17:05.946 --> 00:17:08.126 A:middle
 meaning this particular page
 is going to want to listen
 
@@ -1375,11 +1323,11 @@ with the success or failure
 of calling my particular
 website.
 
-00:17:13.656 --> 00:17:16.715 A:middle
+00:17:13.656 --> 00:17:16.716 A:middle
 And then I'm going to tell that
 bad boy, that loader object
 
-00:17:16.715 --> 00:17:19.116 A:middle
+00:17:16.716 --> 00:17:19.116 A:middle
 to go and fetch the
 content, load the content
 
@@ -1387,10 +1335,10 @@ content, load the content
 that you're pointing to
 here, and that's what
 
-00:17:21.046 --> 00:17:22.435 A:middle
+00:17:21.046 --> 00:17:22.436 A:middle
 that load call does there.
 
-00:17:23.665 --> 00:17:26.016 A:middle
+00:17:23.666 --> 00:17:26.016 A:middle
 So as I said, when I call
 Load, it's going to call one
 
@@ -1457,9 +1405,6 @@ internet connection.
 00:17:58.336 --> 00:18:00.626 A:middle
 And this is the
 loaderDidComplete call.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.626 --> 00:18:02.996 A:middle
 And this is, if I successfully
@@ -1544,9 +1489,6 @@ JSON object by calling Parse.
 And then I'm going to pull out
 those milestones that you saw
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:01.476 --> 00:19:02.606 A:middle
 in there which is going to go
 
@@ -1625,9 +1567,6 @@ care about really here
 
 00:19:57.716 --> 00:19:58.976 A:middle
 for this is the length.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:02.466 --> 00:20:03.896 A:middle
 Perfect. So it's going
@@ -1712,9 +1651,6 @@ when these ad first launched.
 00:20:59.776 --> 00:21:01.996 A:middle
 And I just say restore
 from Archive
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:01.996 --> 00:21:05.086 A:middle
 and what it does is it
@@ -1801,9 +1737,6 @@ no assets in here, no.
 00:21:56.126 --> 00:22:00.546 A:middle
 If I hit Preview here, it made
 the call to the local server
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:01.036 --> 00:22:03.356 A:middle
 and there are all the
@@ -1905,9 +1838,6 @@ for you folks as well.
 So that's the demo and I'll
 pass it back to Chi Wai
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:03.286 --> 00:23:05.756 A:middle
 to take it to the next step.
 
@@ -1975,9 +1905,6 @@ the limit here.
 00:23:59.386 --> 00:24:03.946 A:middle
 Another great use case of
 the HMTL object is MathML.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:05.176 --> 00:24:06.336 A:middle
 Back to your Code Editor,
@@ -2047,9 +1974,6 @@ of video sharing site,
 00:24:56.406 --> 00:25:00.466 A:middle
 it does provide an
 embeddable HTML object.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:01.786 --> 00:25:03.916 A:middle
 And we can use it for our--
@@ -2124,9 +2048,6 @@ I'm going to give some tips
 
 00:25:55.956 --> 00:25:57.386 A:middle
 and tricks for optimization.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.766 --> 00:26:04.386 A:middle
 First, let's look at an iAd
@@ -2208,9 +2129,6 @@ the Web Inspector.
 The Web Inspector is a debugging
 tool that comes with Safari.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:06.786 --> 00:27:09.816 A:middle
 In iAd Producer, you can
 attach a Web Inspector along
@@ -2272,9 +2190,6 @@ And let me give you an example.
 00:27:58.276 --> 00:28:00.896 A:middle
 So I do a preview and
 will see my content
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.896 --> 00:28:03.356 A:middle
 in the background a Web
@@ -2340,9 +2255,6 @@ for every single file,
 we can see the file size,
 latency and duration.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:05.256 --> 00:29:06.826 A:middle
 So it's really easy for us
 
@@ -2399,9 +2311,6 @@ Here's the Organizer window.
 00:29:56.636 --> 00:30:00.276 A:middle
 If your iOS device is
 connected to your computer,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.486 --> 00:30:01.816 A:middle
 you will see on the side bar.
@@ -2481,9 +2390,6 @@ you can see it's running here
 
 00:30:58.096 --> 00:31:00.566 A:middle
 on the Mac and it looks great.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.566 --> 00:31:03.416 A:middle
 And that's, as you would
@@ -2569,9 +2475,6 @@ on the actual chipset.
 00:31:58.996 --> 00:32:00.436 A:middle
 It's not using the
 same networking,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.436 --> 00:32:01.126 A:middle
 those types of things.
@@ -2670,9 +2573,6 @@ to see this particular menu.
 00:32:58.646 --> 00:33:00.926 A:middle
 But once you tether with
 an iPad or an iPhone,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.926 --> 00:33:01.866 A:middle
 this will become enabled
@@ -2774,9 +2674,6 @@ And if I'll go and I launch it,
 you'll see when I do
 this particular example.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:03.246 --> 00:34:04.386 A:middle
 I just launched it.
 
@@ -2791,7 +2688,7 @@ on the desktop.
 And you'll see that the
 Web Inspector launched.
 
-00:34:09.985 --> 00:34:11.275 A:middle
+00:34:09.986 --> 00:34:11.276 A:middle
 A bunch of detail over--
 
 00:34:11.326 --> 00:34:12.996 A:middle
@@ -2809,15 +2706,15 @@ when this was exported.
 00:34:18.356 --> 00:34:20.246 A:middle
 Lots of HTML goodness.
 
-00:34:20.295 --> 00:34:22.306 A:middle
+00:34:20.296 --> 00:34:22.306 A:middle
 How everything is
 categorized here.
 
-00:34:22.306 --> 00:34:24.485 A:middle
+00:34:22.306 --> 00:34:24.486 A:middle
 All the scripts are put
 together within the inspector.
 
-00:34:24.485 --> 00:34:26.286 A:middle
+00:34:24.486 --> 00:34:26.286 A:middle
 And just to level set here.
 
 00:34:26.286 --> 00:34:29.226 A:middle
@@ -2828,7 +2725,7 @@ sessions on the Web Inspector.
 So I'm going to touch this
 thing fairly light today.
 
-00:34:32.045 --> 00:34:34.576 A:middle
+00:34:32.046 --> 00:34:34.576 A:middle
 But if you go back and
 look at the videos we had
 
@@ -2840,11 +2737,11 @@ Web Inspector as well
 as an advanced version of
 that session and they're great
 
-00:34:41.186 --> 00:34:43.045 A:middle
+00:34:41.186 --> 00:34:43.046 A:middle
 if you really want to get
 in to the nuts and bolts.
 
-00:34:43.045 --> 00:34:45.656 A:middle
+00:34:43.046 --> 00:34:45.656 A:middle
 But, you know, the idea of this
 particular demo is to figure
 
@@ -2874,9 +2771,6 @@ around as I would expect.
 00:34:59.526 --> 00:35:01.316 A:middle
 And the first thing
 that I want to look
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.316 --> 00:35:03.986 A:middle
 at are the network requests.
@@ -2974,9 +2868,6 @@ look at is basically this one
 without all of the
 numbers there.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:01.176 --> 00:36:04.606 A:middle
 And it gives you a really good
 feel for the loading aspect
@@ -3065,9 +2956,6 @@ of a contrived example.
 00:36:58.066 --> 00:37:01.286 A:middle
 If I look at it, I can see that
 the thing is called lorem.js
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:02.336 --> 00:37:04.686 A:middle
 which is, you know,
@@ -3160,9 +3048,6 @@ files here.
 Another good example of
 a best practice here,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:01.196 --> 00:38:03.586 A:middle
 certainly in a cellular
 network and in sort
@@ -3253,9 +3138,6 @@ my code logic is.
 00:38:59.936 --> 00:39:00.936 A:middle
 Here's my particles.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:01.556 --> 00:39:03.566 A:middle
 All put together
 within one image.
@@ -3344,9 +3226,6 @@ It's running.
 00:39:58.306 --> 00:40:00.706 A:middle
 I'm going to hit Start
 Recording, do a Command-R
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.706 --> 00:40:04.706 A:middle
 to relaunch, and Stop Recording
@@ -3444,9 +3323,6 @@ to the profiler here
 00:40:59.596 --> 00:41:01.006 A:middle
 and hit Start Profile.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:01.006 --> 00:41:03.446 A:middle
 And you'll see we have two
 different options for profiling.
@@ -3539,9 +3415,6 @@ program but I can also see
 00:41:59.096 --> 00:42:02.616 A:middle
 that there is this particle
 simulation move particle that's
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:02.616 --> 00:42:04.996 A:middle
 got the bulk of the
@@ -3639,9 +3512,6 @@ profiling looks like.
 And taking a look
 at network requests.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:03.306 --> 00:43:06.996 A:middle
 The next thing that I'll do
 is I'll show you some items
@@ -3722,9 +3592,6 @@ at the memory profile associated
 00:43:58.766 --> 00:44:00.766 A:middle
 with this particular
 demonstration.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:01.216 --> 00:44:04.146 A:middle
 And so, what I'm going to use is
@@ -3820,9 +3687,6 @@ example is a widget.
 Now I connect to that process
 and what I want to do is come
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:02.346 --> 00:45:05.736 A:middle
 into my pad and press Record.
 
@@ -3910,9 +3774,6 @@ with your particular project.
 00:45:59.026 --> 00:46:01.406 A:middle
 Maybe things aren't getting
 freed or you're just building
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:01.406 --> 00:46:03.236 A:middle
 up arrays until they explode.
@@ -4016,9 +3877,6 @@ with it.
 So that's it for Instruments
 and the Web Inspector.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:02.326 --> 00:47:04.066 A:middle
 Let me turn it back
 over to Chi Wai.
@@ -4087,9 +3945,6 @@ and also removing unused asset.
 00:47:55.026 --> 00:48:01.396 A:middle
 With Instrument, we can memory
 the memory footprint on device
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:02.176 --> 00:48:05.786 A:middle
 and we can save some memory
@@ -4161,9 +4016,6 @@ Evangelist,
 also our awesome demo
 person of the day.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:02.116 --> 00:49:07.316 A:middle
 There is documentation
 online and developer forum
@@ -4221,4 +4073,3 @@ I will see you around.
 
 00:49:42.016 --> 00:49:43.000 A:middle
 [ Applause ]
-

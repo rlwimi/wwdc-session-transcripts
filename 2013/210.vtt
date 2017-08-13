@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.456 A:middle
 [ Silence ]
@@ -61,9 +60,6 @@ going to be impressed.
 00:00:59.346 --> 00:01:00.636 A:middle
 And finally, we're going to wrap
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:00.636 --> 00:01:05.396 A:middle
 up with an awesome demo
 showing you how to use
@@ -123,9 +119,6 @@ a third-party developer
 00:01:58.546 --> 00:02:00.786 A:middle
 and I made great
 apps using the stack.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.786 --> 00:02:03.926 A:middle
 But occasionally,
@@ -189,9 +182,6 @@ you've invested the time to come
 00:02:59.656 --> 00:03:04.436 A:middle
 up to speed on Core Text,
 this time is not lost.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:04.916 --> 00:03:06.206 A:middle
 The way the system is layered,
@@ -261,9 +251,6 @@ consequences
 for UIText components
 that were built on top
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:03.286 --> 00:04:04.826 A:middle
 of WebViews like TextView.
 
@@ -282,11 +269,11 @@ which required animations.
 So we were faced with all
 these challenges and we looked
 
-00:04:18.396 --> 00:04:20.245 A:middle
+00:04:18.396 --> 00:04:20.246 A:middle
 around the company to
 see what we could do.
 
-00:04:20.245 --> 00:04:23.976 A:middle
+00:04:20.246 --> 00:04:23.976 A:middle
 How could we expose
 the power or Core Text
 
@@ -323,9 +310,6 @@ and rendering engine.
 
 00:04:56.996 --> 00:05:00.206 A:middle
 It's built on top of Core Text.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.216 --> 00:05:02.436 A:middle
 And so this is awesome.
@@ -385,9 +369,6 @@ a moment ago,
 this gives you complete control
 over all of the text rendering
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.006 --> 00:06:02.776 A:middle
 in your UIText elements.
 
@@ -442,9 +423,6 @@ So, that's Text Kit.
 00:06:58.346 --> 00:07:00.866 A:middle
 The next thing I want to tell
 you about today is I want
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.866 --> 00:07:04.556 A:middle
 to give you a high-level
@@ -508,9 +486,6 @@ an interactive client
 for a popular internet
 messaging service.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:04.606 --> 00:08:06.106 A:middle
 Just pretend, this
 is hypothetical.
@@ -547,7 +522,7 @@ easy to accomplish
 with just a few lines
 of code in Text Kit.
 
-00:08:35.785 --> 00:08:38.666 A:middle
+00:08:35.786 --> 00:08:38.666 A:middle
 And next, this is one of the
 features I think you're going
 
@@ -555,7 +530,7 @@ features I think you're going
 to think is the coolest,
 custom truncation.
 
-00:08:42.635 --> 00:08:45.636 A:middle
+00:08:42.636 --> 00:08:45.636 A:middle
 Well, the great thing about the
 iPhone and one of the reasons
 
@@ -573,9 +548,6 @@ even on the new iPhone 5.
 00:08:56.486 --> 00:09:00.546 A:middle
 And sometimes, especially
 when you're using some
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.546 --> 00:09:04.256 A:middle
 of the new text styles,
@@ -644,9 +616,6 @@ to support all text attributes.
 00:09:59.066 --> 00:10:01.206 A:middle
 And as Toby and Jason
 and everyone else
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:01.206 --> 00:10:04.146 A:middle
 with Toby this week,
@@ -718,9 +687,6 @@ for your users to read.
 00:10:59.716 --> 00:11:02.666 A:middle
 And again, it's user-centric.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:02.666 --> 00:11:04.756 A:middle
 Your user is able
 to pick the size.
@@ -785,9 +751,6 @@ for query --
 00:11:57.506 --> 00:12:02.746 A:middle
 to query for a font and it will
 return the results in the form
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:02.836 --> 00:12:05.906 A:middle
 of more font descriptors which
@@ -864,9 +827,6 @@ that with symbolic traits.
 You can see here we have our
 regular unadorned type styles,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:03.246 --> 00:13:04.156 A:middle
 a nice list of them.
 
@@ -942,9 +902,6 @@ about the great enhancements
 to fonts in WebKit, you should
 see the session What's New
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:03.056 --> 00:14:05.816 A:middle
 in Safari and WebKit
 for developers.
@@ -1003,9 +960,6 @@ how TextView is built,
 00:14:59.576 --> 00:15:01.236 A:middle
 this unlocks other
 features for you.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:02.236 --> 00:15:03.606 A:middle
 Like, again, when
@@ -1091,9 +1045,6 @@ coordinate system and geometry
 00:15:59.286 --> 00:16:00.806 A:middle
 for an NSLayoutManager.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:01.646 --> 00:16:04.586 A:middle
 As we talked about,
 exclusion paths live entirely
@@ -1172,9 +1123,6 @@ you have your character.
 00:16:58.886 --> 00:16:59.956 A:middle
 It's that simple.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.136 --> 00:17:05.726 A:middle
 In order to understand the next
 few features, we have to go
@@ -1186,11 +1134,11 @@ about glyphs.
 00:17:07.866 --> 00:17:08.736 A:middle
 What is a glyph?
 
-00:17:09.846 --> 00:17:12.665 A:middle
+00:17:09.846 --> 00:17:12.666 A:middle
 A glyph represents
 one or more characters
 
-00:17:12.665 --> 00:17:14.236 A:middle
+00:17:12.666 --> 00:17:14.236 A:middle
 on the screen or
 the printed page.
 
@@ -1247,9 +1195,6 @@ mapping through edits,
 00:17:59.206 --> 00:18:02.486 A:middle
 programmatic manipulations,
 attribute changes,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:02.486 --> 00:18:06.546 A:middle
 whatever you do, NSLayoutManager
@@ -1315,9 +1260,6 @@ Moscone Center address.
 
 00:18:59.236 --> 00:19:01.226 A:middle
 The user taps or long-presses,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:01.556 --> 00:19:06.176 A:middle
 and up comes an action sheet
@@ -1393,9 +1335,6 @@ used for inline images.
 It affects text layout and
 it's affected by text layout.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:02.426 --> 00:20:05.706 A:middle
 And, of course, it
 contains the geometry
@@ -1459,9 +1398,6 @@ it running in the simulator.
 
 00:20:58.786 --> 00:21:00.586 A:middle
 What I'd like to call out is
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.586 --> 00:21:04.186 A:middle
 that this collection view is
@@ -1532,9 +1468,6 @@ the text style of body
 because this represents some
 body text inside of our cells.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:02.346 --> 00:22:06.796 A:middle
 Now if I build and run again --
 
@@ -1588,9 +1521,6 @@ detectors which I've just done.
 00:22:54.226 --> 00:23:00.436 A:middle
 Now, if I build and run,
 building and running now,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:02.256 --> 00:23:03.856 A:middle
 going into basic interaction.
@@ -1664,9 +1594,6 @@ And as you can see here,
 I just implement TextView should
 interact with URL in range.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:04.356 --> 00:24:09.366 A:middle
 In this case, I compare the
 host of the URL to www.apple.com
@@ -1728,9 +1655,6 @@ should have a pan gesture
 00:24:56.876 --> 00:24:59.826 A:middle
 recognizer so that the user
 could move the butterfly around.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:01.956 --> 00:25:04.266 A:middle
 The issue that you
@@ -1801,9 +1725,6 @@ that Bezier Path here.
 In viewDidLload, I'll use
 the new one line support
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:04.256 --> 00:26:10.656 A:middle
 in UITextView to set the
 exclusion paths then I'll handle
@@ -1863,9 +1784,6 @@ you can see how fluidly --
 
 00:26:57.516 --> 00:27:03.606 A:middle
 [ Applause ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:04.106 --> 00:27:05.276 A:middle
 You can see how fluidly
@@ -1935,9 +1853,6 @@ for your users.
 00:27:56.846 --> 00:28:00.786 A:middle
 Next, I'd like to turn it back
 over to my colleague, Ian Baird.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.516 --> 00:28:06.616 A:middle
 [ Applause ]
@@ -2012,9 +1927,6 @@ Layout because it's going
 to make your life
 incredibly easy.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:01.376 --> 00:29:04.556 A:middle
 But, once you get past what
 Auto Layout can do for you,
@@ -2084,9 +1996,6 @@ things about font metrics.
 00:29:58.306 --> 00:30:00.986 A:middle
 So again, if you have a detailed
 spec like the one we showed you
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.986 --> 00:30:03.426 A:middle
 in Mail, you'll need
@@ -2163,9 +2072,6 @@ negative to drive the lines
 
 00:30:58.096 --> 00:30:59.416 A:middle
 of text closer together.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.336 --> 00:31:04.276 A:middle
 This causes the descenders
@@ -2247,9 +2153,6 @@ simply resetting the font
 on that view will invalidate
 the intrinsic content size
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:02.106 --> 00:32:04.196 A:middle
 and Auto Layout will just
 layout everything for you.
@@ -2329,9 +2232,6 @@ give you another demo.
 The next thing we'd like to show
 you in this demo is how to deal
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.356 --> 00:33:04.836 A:middle
 with some of these complex
 designs and also how to account
@@ -2404,9 +2304,6 @@ needs to change.
 First thing I'm going to
 do is declare a method
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:02.656 --> 00:34:05.176 A:middle
 that our notification
 can call when it happens.
@@ -2415,7 +2312,7 @@ can call when it happens.
 In this case, I'm calling it
 PreferredContentSizeChanged.
 
-00:34:11.356 --> 00:34:15.025 A:middle
+00:34:11.356 --> 00:34:15.026 A:middle
 Next, while I'm setting up
 our initial layout and state,
 
@@ -2429,41 +2326,41 @@ that Ian mentioned earlier.
 00:34:21.636 --> 00:34:24.646 A:middle
 UIContentCategory -- sorry.
 
-00:34:25.295 --> 00:34:27.636 A:middle
+00:34:25.296 --> 00:34:27.636 A:middle
 UIContentSizeCategoryDid
 
 00:34:27.636 --> 00:34:28.656 A:middle
 ChangeNotification.
 
-00:34:29.196 --> 00:34:32.235 A:middle
+00:34:29.196 --> 00:34:32.236 A:middle
 When that notification fires,
 
-00:34:32.516 --> 00:34:34.815 A:middle
+00:34:32.516 --> 00:34:34.816 A:middle
 it will call our
 PreferredContentSizeChanged
 
 00:34:35.616 --> 00:34:35.766 A:middle
 method.
 
-00:34:36.696 --> 00:34:39.025 A:middle
+00:34:36.696 --> 00:34:39.026 A:middle
 Lastly, I'll drop
 in an implementation
 
 00:34:39.356 --> 00:34:41.036 A:middle
 of PreferredContentSizeChanged.
 
-00:34:42.016 --> 00:34:43.985 A:middle
+00:34:42.016 --> 00:34:43.986 A:middle
 In this case, I wrote
 a method upfront
 
-00:34:44.076 --> 00:34:48.025 A:middle
+00:34:44.076 --> 00:34:48.026 A:middle
 that just grabs the new fonts,
 places them on the views.
 
 00:34:48.446 --> 00:34:49.176 A:middle
 Everything is happy.
 
-00:34:49.985 --> 00:34:50.976 A:middle
+00:34:49.986 --> 00:34:50.976 A:middle
 So I'll build and run.
 
 00:34:56.416 --> 00:34:58.766 A:middle
@@ -2472,9 +2369,6 @@ things are laid
 
 00:34:58.766 --> 00:35:01.426 A:middle
 out a little bit differently.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.426 --> 00:35:06.056 A:middle
 And again, when your users goes
@@ -2536,9 +2430,6 @@ from a designer.
 00:35:56.496 --> 00:36:00.206 A:middle
 In this case, our designer
 wanted a profile picture
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.206 --> 00:36:01.526 A:middle
 in the upper left
@@ -2618,9 +2509,6 @@ The reason that we did this is
 that you can adjust just a
 few things at the top and all
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:01.676 --> 00:37:03.506 A:middle
 of the rest of your layout
 will flow from there.
@@ -2684,9 +2572,6 @@ of fonts and things.
 00:37:56.716 --> 00:37:57.976 A:middle
 So, I build and run.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:04.446 --> 00:38:09.846 A:middle
 And now you'll see that if I go
 in and change my content size,
@@ -2746,9 +2631,6 @@ single line of code.
 
 00:38:55.966 --> 00:38:56.826 A:middle
 I'll build and run.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:02.616 --> 00:39:06.136 A:middle
 And this time, you'll notice
@@ -2810,9 +2692,6 @@ about Interactive Rich Text.
 00:39:59.256 --> 00:40:00.616 A:middle
 Now, what do I mean by that?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.976 --> 00:40:07.536 A:middle
 If you've used the UITextView
 on iOS 6 before, you may recall
@@ -2861,9 +2740,6 @@ and modify it in place.
 
 00:40:59.866 --> 00:41:01.816 A:middle
 We send change notifications
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:02.606 --> 00:41:07.516 A:middle
 that will inform the
@@ -2921,9 +2797,6 @@ a TextView already here,
 and in this case, we have the
 beginning of the story "Alice
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:04.196 --> 00:42:09.856 A:middle
 and Wonderland" and we want
 to modify the name Alice
@@ -2974,9 +2847,6 @@ of changes now.
 Next, what we're doing is
 we modify each instance.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:01.956 --> 00:43:05.046 A:middle
 For example, we loop over the
 string, find out the ranges,
@@ -3026,9 +2896,6 @@ and redraw the actual changes.
 00:43:53.286 --> 00:43:58.866 A:middle
 Next, I'd like to talk to you
 about subclassing NSTextStorage.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:00.406 --> 00:44:01.896 A:middle
 Now, why would we
@@ -3087,9 +2954,6 @@ methods on the text storage
 00:44:56.726 --> 00:44:59.596 A:middle
 that actually change
 text on the text storage.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:00.706 --> 00:45:03.836 A:middle
 Now, NSTextStorage
@@ -3156,9 +3020,6 @@ methods.
 Two of them deal with
 actual static storage.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:01.976 --> 00:46:04.696 A:middle
 You can inquire the string
 and inquire about attributes,
@@ -3212,9 +3073,6 @@ of my implementation.
 00:46:55.586 --> 00:46:59.566 A:middle
 Now, I'm going to do something
 slightly complicated here.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:00.526 --> 00:47:02.916 A:middle
 In Ian's -- in one
@@ -3286,9 +3144,6 @@ container to the LayoutManager
 and add the LayoutManager
 to the text storage.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:02.346 --> 00:48:07.296 A:middle
 Finally, instead of creating
 a simple TextView here,
@@ -3348,9 +3203,6 @@ attributes and strings.
 00:48:56.356 --> 00:48:59.496 A:middle
 So I'm creating an instance
 variable for my backing store.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:00.586 --> 00:49:04.396 A:middle
 In my initializer, I create
@@ -3421,9 +3273,6 @@ on those characters.
 So implement a flag to
 remember if I changed something.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:00.186 --> 00:50:05.376 A:middle
 In my replace characters and
 range method, I set that flag
@@ -3488,9 +3337,6 @@ to get the program color orange.
 00:50:58.456 --> 00:51:01.776 A:middle
 Let's run this.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:01.986 --> 00:51:05.526 A:middle
 And now, if I type,
 you can already see
@@ -3554,9 +3400,6 @@ the user is editing it.
 And with that, let's
 wrap this up.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:04.256 --> 00:52:07.246 A:middle
 Text Kit is an extremely
 powerful
@@ -3606,9 +3449,6 @@ seen how customizable
 
 00:52:58.356 --> 00:52:59.306 A:middle
 and extensible it is.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:00.616 --> 00:53:03.266 A:middle
 We were able to, in just
@@ -3677,9 +3517,6 @@ session tomorrow where Aki
 and Peter will show you how
 to override certain things
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:54:01.156 --> 00:54:03.536 A:middle
 on NSLayoutManager
 and use delegation
@@ -3719,4 +3556,3 @@ Thank you.
 
 00:54:36.016 --> 00:54:40.736 A:middle
 [ Silence ]
-

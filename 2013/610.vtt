@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.046 --> 00:00:13.056 A:middle
 &gt;&gt; Morning everyone.
@@ -63,9 +62,6 @@ So thank you for that.
 00:00:57.816 --> 00:01:01.586 A:middle
 Today we're going to
 have a brief appetizer
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:01.686 --> 00:01:04.046 A:middle
 of greater transparency
@@ -147,9 +143,6 @@ application tries to access --
 that is read to-- read from,
 or write to the assets library,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:04.676 --> 00:02:07.396 A:middle
 so that the user would have an
 opportunity to opt in or out.
@@ -220,9 +213,6 @@ first time your app makes use
 00:02:58.866 --> 00:03:02.166 A:middle
 of the microphone or the
 camera to allow users to know
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:02.166 --> 00:03:03.746 A:middle
 about it, and to opt in or out.
@@ -296,9 +286,6 @@ they've granted access.
 00:03:58.546 --> 00:04:01.626 A:middle
 If on subsequent launches we
 already know what the answer is,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:01.976 --> 00:04:04.346 A:middle
 we can return an
@@ -377,9 +364,6 @@ support across the media stack.
 So by introducing 60
 frame rate movies,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:01.336 --> 00:05:03.626 A:middle
 we wanted to make sure you
 could also do interesting things
@@ -456,9 +440,6 @@ allow you to do it two ways.
 You can either export such
 that the high frame rate areas
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.436 --> 00:06:01.746 A:middle
 of the movie are preserved,
 
@@ -526,9 +507,6 @@ more interesting part
 00:06:57.376 --> 00:07:00.086 A:middle
 for today's demo, which is
 the playback and editing.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.786 --> 00:07:03.306 A:middle
 I recorded several
@@ -606,9 +584,6 @@ Notice how good it sounds.
 We're preserving pitch here, so
 that you could even export this
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.786 --> 00:08:03.956 A:middle
 and pass it off as him
 doing the real thing.
@@ -655,11 +630,11 @@ to engage chipmunk mode.
 You'll notice over in
 the corner I'm going
 
-00:08:37.616 --> 00:08:39.525 A:middle
+00:08:37.616 --> 00:08:39.526 A:middle
 to turn the chipmunk
 button on so
 
-00:08:39.525 --> 00:08:46.756 A:middle
+00:08:39.526 --> 00:08:46.756 A:middle
 that we can make him
 sound like a yip-yip dog.
 
@@ -683,9 +658,6 @@ Okay, enough of that.
 
 00:08:57.256 --> 00:09:00.266 A:middle
 And finally, let's go --
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.266 --> 00:09:01.606 A:middle
 [ Applause ]
@@ -756,9 +728,6 @@ Now I can go back and play it.
 
 00:09:59.246 --> 00:10:02.086 A:middle
 [ Silence ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:02.586 --> 00:10:09.166 A:middle
 Oh yeah. He's coming for you.
@@ -833,9 +802,6 @@ You can take the player item
 and set its audio
 time pitch algorithm,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.426 --> 00:11:04.426 A:middle
 that's what I was using there to
 either adjust the pitch higher
@@ -906,9 +872,6 @@ the editing aspect of this,
 00:11:58.036 --> 00:12:01.006 A:middle
 I invite you to come back
 tomorrow at 9:00 a.m.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:01.136 --> 00:12:03.456 A:middle
 where we're having an
@@ -985,9 +948,6 @@ So you can use a low quality,
 00:12:59.286 --> 00:13:01.906 A:middle
 or a cheap expensive
 one during playback,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.906 --> 00:13:03.646 A:middle
 and then when you export
@@ -1068,9 +1028,6 @@ keys to use, etcetera.
 So you can instantiate an AV
 output settings assistant,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:03.506 --> 00:14:05.556 A:middle
 tell it what the
 source video format is,
@@ -1144,9 +1101,6 @@ now we had a problem with
 because we didn't want to try
 to make new session presets
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:03.486 --> 00:15:07.476 A:middle
 for every conceivable frame
 rate and resolution combination,
@@ -1210,9 +1164,6 @@ in a capture session.
 00:15:59.646 --> 00:16:01.806 A:middle
 You have inputs, you have
 outputs, you have a preview,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:02.426 --> 00:16:05.176 A:middle
 and they're connected
@@ -1287,9 +1238,6 @@ sized buffers to make sure
 that they're not too
 large for your processing.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.466 --> 00:17:05.156 A:middle
 So it picks a screen
 resolution, and chooses BGRA
@@ -1302,7 +1250,7 @@ override the default.
 The video preview layer
 just wants screen size,
 
-00:17:10.746 --> 00:17:12.935 A:middle
+00:17:10.746 --> 00:17:12.936 A:middle
 and it can cope with
 the native format.
 
@@ -1314,10 +1262,10 @@ these requirements now,
 the session goes up, aggregates
 all of those requirements,
 
-00:17:20.396 --> 00:17:21.705 A:middle
+00:17:20.396 --> 00:17:21.706 A:middle
 goes to the AV capture device,
 
-00:17:21.705 --> 00:17:24.496 A:middle
+00:17:21.706 --> 00:17:24.496 A:middle
 and says pick me
 the best format.
 
@@ -1365,9 +1313,6 @@ through them trying
 
 00:17:58.676 --> 00:18:00.016 A:middle
 to find the highest frame rate.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.846 --> 00:18:02.496 A:middle
 In the next little
@@ -1448,9 +1393,6 @@ mechanism
 
 00:18:58.666 --> 00:18:59.756 A:middle
 for setting frame rates.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.686 --> 00:19:03.426 A:middle
 So talk to the device,
@@ -1538,9 +1480,6 @@ only half of them.
 There are 20 formats,
 but I left half of them
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:01.416 --> 00:20:04.636 A:middle
 out because they're really just
 two flavors of the same format.
@@ -1612,9 +1551,6 @@ when you use the new way
 
 00:20:59.076 --> 00:21:01.136 A:middle
 of configuring AV capture.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:02.106 --> 00:21:05.236 A:middle
 Instead of talking to the
@@ -1698,9 +1634,6 @@ audio or video,
 00:21:58.846 --> 00:22:00.156 A:middle
 it has a format description
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.156 --> 00:22:02.766 A:middle
 from which you can get
 the pixel dimensions,
@@ -1779,9 +1712,6 @@ video binned, which you may
 00:22:59.896 --> 00:23:00.816 A:middle
 or may not have heard of.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.876 --> 00:23:05.326 A:middle
 This is sort of a
 sensor-specific keyword.
@@ -1855,9 +1785,6 @@ to use one over the other.
 00:23:59.336 --> 00:24:03.486 A:middle
 The session presets setting
 mechanism is not deprecated,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:03.486 --> 00:24:04.586 A:middle
 it's not going away.
@@ -1947,9 +1874,6 @@ scale and crop factor
 00:24:59.896 --> 00:25:01.606 A:middle
 of the AV capture connection.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:02.006 --> 00:25:04.386 A:middle
 Apparently this only applies
 to still image outputs,
@@ -2033,9 +1957,6 @@ and again this is still there.
 00:25:56.726 --> 00:26:00.636 A:middle
 However, our new property up on
 the capture device is applying
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.636 --> 00:26:03.596 A:middle
 to all the image outputs,
@@ -2132,9 +2053,6 @@ is a property
 of the new AV capture
 device format
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:01.016 --> 00:27:02.396 A:middle
 that Brad was just
 talking about.
@@ -2219,9 +2137,6 @@ to all the image outputs.
 00:27:59.226 --> 00:28:01.916 A:middle
 And it's up to a maximum value,
 which is also a method --
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:02.046 --> 00:28:04.816 A:middle
 property of the AV
@@ -2314,9 +2229,6 @@ as they're being displayed,
 and as the face goes out
 of the field of view,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.626 --> 00:29:01.916 A:middle
 they will stop being detected.
 
@@ -2397,9 +2309,6 @@ internally increment the zoom
 factor on each frame as it's
 being captured in real time.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:04.016 --> 00:30:06.396 A:middle
 There's another method,
 cancel video zoom ramp,
@@ -2477,9 +2386,6 @@ second we double the zoom.
 And so we go from 1 to 2,
 2 to 4, 4 to 8, and so on.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:03.616 --> 00:31:06.336 A:middle
 In practice you'll probably
 want to stay around 1 to 3
@@ -2556,9 +2462,6 @@ And we're losing the face.
 00:31:59.356 --> 00:32:01.866 A:middle
 But anyway, so that's
 the constant face size.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:02.216 --> 00:32:04.736 A:middle
 There's another aspect
@@ -2641,9 +2544,6 @@ of the current 0 to 1 target,
 that'll give you that
 exponential growth
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.176 --> 00:33:02.426 A:middle
 over the range, and so
 you get a linear feel
@@ -2723,9 +2623,6 @@ zoom factor applies
 00:33:58.396 --> 00:33:59.686 A:middle
 to all the image outputs.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.206 --> 00:34:02.296 A:middle
 You can set the zoom
 factor directly,
@@ -2734,11 +2631,11 @@ factor directly,
 but the new video
 zoom factor API
 
-00:34:05.846 --> 00:34:08.565 A:middle
+00:34:05.846 --> 00:34:08.566 A:middle
 on the AV capture device lets
 you set the zoom rate as well.
 
-00:34:10.065 --> 00:34:12.266 A:middle
+00:34:10.066 --> 00:34:12.266 A:middle
 And this is currently
 available on the iPhone 5
 
@@ -2753,20 +2650,20 @@ to welcome Rob back
 up to present machine
 readable codes.
 
-00:34:19.476 --> 00:34:20.065 A:middle
+00:34:19.476 --> 00:34:20.066 A:middle
 [ Applause ]
 
-00:34:20.065 --> 00:34:22.216 A:middle
+00:34:20.066 --> 00:34:22.216 A:middle
 &gt;&gt; Thank you, Ethan.
 
-00:34:22.485 --> 00:34:24.206 A:middle
+00:34:22.486 --> 00:34:24.206 A:middle
 Hi, I'm Rob Simutis,
 and I'm also
 
 00:34:24.206 --> 00:34:25.286 A:middle
 with core media engineering.
 
-00:34:25.505 --> 00:34:26.706 A:middle
+00:34:25.506 --> 00:34:26.706 A:middle
 I'm here to talk to you today
 
 00:34:26.706 --> 00:34:30.366 A:middle
@@ -2788,7 +2685,7 @@ readable code detection
 for one-dimensional and
 two-dimensional barcodes,
 
-00:34:42.616 --> 00:34:46.795 A:middle
+00:34:42.616 --> 00:34:46.796 A:middle
 up to four at a time on both
 the front and back cameras
 
@@ -2796,7 +2693,7 @@ the front and back cameras
 on all supported iOS 7 hardware
 that has a camera on it.
 
-00:34:52.065 --> 00:34:55.416 A:middle
+00:34:52.066 --> 00:34:55.416 A:middle
 You can see this in
 action today in the seed
 
@@ -2806,9 +2703,6 @@ with the passbook application.
 00:34:58.406 --> 00:35:01.506 A:middle
 In the upper right-hand corner,
 there's now a scan code button.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.656 --> 00:35:07.156 A:middle
 So when you press that, you
@@ -2872,9 +2766,6 @@ to come back up.
 00:35:56.306 --> 00:36:00.356 A:middle
 And we have a sample
 app we call QRchestra.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:01.006 --> 00:36:04.206 A:middle
 So Ethan has a version
@@ -2941,9 +2832,6 @@ this with sample code along
 00:36:57.036 --> 00:36:59.746 A:middle
 with our slides and the other
 demos that we have today.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.386 --> 00:37:03.256 A:middle
 But those QR codes were actually
@@ -3024,9 +2912,6 @@ at this in code.
 First, alloc/init your meta data
 output, add it to your session,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:02.176 --> 00:38:05.096 A:middle
 create your meta data delegate,
 along with its dispatch queue,
@@ -3105,9 +2990,6 @@ represented as dictionaries.
 We'll cover the difference
 between bounds
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.966 --> 00:39:02.876 A:middle
 and corners here
 in a later slide.
@@ -3178,9 +3060,6 @@ axis-aligned with the image.
 00:39:57.626 --> 00:40:00.156 A:middle
 But your corners are going
 to come back as the corners
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.156 --> 00:40:02.836 A:middle
 of where the barcode were
@@ -3267,9 +3146,6 @@ by 480 session preset.
 Depending on the density of
 the codes, you might want
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.396 --> 00:41:02.656 A:middle
 to go higher or lower,
 maybe up 720p,
@@ -3341,9 +3217,6 @@ we just had faces,
 00:41:59.096 --> 00:42:02.616 A:middle
 but now we're introduced a
 new type for each symbology
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:02.616 --> 00:42:04.146 A:middle
 of machine readable
@@ -3420,9 +3293,6 @@ Specify them as you need.
 00:42:54.446 --> 00:43:00.336 A:middle
 So here, now I can find
 faces within my QR code.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:00.336 --> 00:43:03.846 A:middle
 Alright, let's talk about
@@ -3512,9 +3382,6 @@ You can see the sort
 of highlighted region
 up near the top.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.546 --> 00:44:03.316 A:middle
 That's the rect of
 interest that I would
@@ -3591,9 +3458,6 @@ video preview layer
 00:44:58.596 --> 00:45:02.216 A:middle
 to the meta data output, you
 use the AV capture video preview
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:02.216 --> 00:45:05.966 A:middle
 layer meta data output rect
@@ -3674,9 +3538,6 @@ where iOS 7 is supported.
 00:45:58.026 --> 00:46:00.196 A:middle
 And with that, I'm going to turn
 it back over to Brad to talk
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:00.196 --> 00:46:01.756 A:middle
 about some additional
@@ -3768,9 +3629,6 @@ ambiguous results, such as here
 where we have a person looking
 at a clock that's very close
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:01.106 --> 00:47:03.036 A:middle
 to him, and a tree that's far.
 
@@ -3841,9 +3699,6 @@ two different videos.
 00:47:56.986 --> 00:48:00.286 A:middle
 The one on the left is what
 I'll term fast focus --
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:00.286 --> 00:48:03.206 A:middle
 this is what's shipping
@@ -3917,9 +3772,6 @@ it focus from --
 00:48:59.246 --> 00:49:00.826 A:middle
 every once in a while
 you'll see --
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:00.826 --> 00:49:04.996 A:middle
 you can definitely see that the
@@ -3997,9 +3849,6 @@ stick with the fast focus
 for still image taking, because
 it's faster, and no one's going
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:01.566 --> 00:50:05.286 A:middle
 to see the pulse in the
 resulting still image
@@ -4070,9 +3919,6 @@ I set it to yes.
 00:50:57.776 --> 00:51:01.116 A:middle
 And then for giggles I
 threw in an extra one,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:01.116 --> 00:51:02.716 A:middle
 which is to set the
@@ -4158,9 +4004,6 @@ you have an AV audio session.
 And it does important things for
 you like configure the routing,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:02.136 --> 00:52:04.376 A:middle
 for instance, whether
 both the microphones
@@ -4234,9 +4077,6 @@ recording with the camera
 
 00:52:59.696 --> 00:53:00.806 A:middle
 and with the microphone.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:01.796 --> 00:53:05.066 A:middle
 Well, you're probably going to
@@ -4322,9 +4162,6 @@ for recording.
 And your audio session is
 not configured automatically
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:54:01.986 --> 00:54:05.146 A:middle
 by default to record,
 it's just for playback.
@@ -4400,9 +4237,6 @@ not going to try to preserve any
 00:54:57.776 --> 00:55:00.046 A:middle
 of the state that was in
 your audio session before we
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:55:00.046 --> 00:55:01.346 A:middle
 configured it to succeed.
@@ -4483,9 +4317,6 @@ your app audio session
 so that we don't have
 the interruption problem,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:56:02.026 --> 00:56:06.916 A:middle
 and we do recommend that you let
 AV capture session modify your
@@ -4564,9 +4395,6 @@ including use of clock APIs
 00:56:57.706 --> 00:57:00.586 A:middle
 that I have not talked about
 today, but they let you know
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:57:00.586 --> 00:57:02.826 A:middle
 which clock we're
@@ -4656,9 +4484,6 @@ a lot of new features,
 60 frames per second, video
 zoom, barcodes, app integration,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:58:05.216 --> 00:58:07.806 A:middle
 app audio session
 integration, focus enhancements.
@@ -4692,4 +4517,3 @@ and enjoy the rest of the show.
 
 00:58:35.226 --> 00:58:39.060 A:middle
 [ Applause ]
-

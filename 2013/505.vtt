@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.516 A:middle
 [ Applause ]
@@ -61,9 +60,6 @@ the most direct access
 
 00:00:59.056 --> 00:01:00.006 A:middle
 to graphics hardware.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.486 --> 00:01:02.196 A:middle
 This enables a lot
@@ -136,9 +132,6 @@ in the OpenGL ES API on iOS7.
 The first feature I'll
 talk about is instancing,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:01.416 --> 00:02:03.996 A:middle
 and we support two
 new extensions
@@ -146,11 +139,11 @@ new extensions
 00:02:04.376 --> 00:02:06.036 A:middle
 to implement that feature.
 
-00:02:07.076 --> 00:02:10.175 A:middle
+00:02:07.076 --> 00:02:10.176 A:middle
 We're also now supporting
 texturing in the vertex shader.
 
-00:02:10.265 --> 00:02:12.676 A:middle
+00:02:10.266 --> 00:02:12.676 A:middle
 I'll talk about why you
 might want to do that
 
@@ -209,9 +202,6 @@ are power efficient.
 00:02:57.996 --> 00:03:02.326 A:middle
 However, there's still
 considerable needed
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:02.326 --> 00:03:06.086 A:middle
 to put vertices into the
@@ -280,9 +270,6 @@ thirtieth of a second ago.
 00:03:58.636 --> 00:04:01.686 A:middle
 Just blit what's already in
 your buffers to the front
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:02.386 --> 00:04:03.746 A:middle
 or don't even blit at all
@@ -364,9 +351,6 @@ Some may be running.
 00:04:58.306 --> 00:04:59.736 A:middle
 Some may be attacking you,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:00.106 --> 00:05:02.216 A:middle
 but it's still the
 same base vertex data.
@@ -445,9 +429,6 @@ a uniform with the position
 of my gear, and then
 drawing that gear.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.746 --> 00:06:06.076 A:middle
 That's 100 uniform sets and 100
 draw calls, and as you may know,
@@ -514,9 +495,6 @@ parameters
 00:06:57.486 --> 00:06:59.626 A:middle
 down via another vertex array.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.976 --> 00:07:04.046 A:middle
 The second form is
 Shader Instance ID,
@@ -582,9 +560,6 @@ to send a unique parameter
 down to each instance
 inside your draw call.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.166 --> 00:08:02.256 A:middle
 Now we're introducing
 two new draw calls
@@ -626,14 +601,14 @@ arrays that have model data,
 the first of which is the
 position, the second normal,
 
-00:08:30.316 --> 00:08:35.275 A:middle
+00:08:30.316 --> 00:08:35.276 A:middle
 and the third is vertex colors,
 and we have an extra array
 
-00:08:35.275 --> 00:08:36.816 A:middle
+00:08:35.276 --> 00:08:36.816 A:middle
 that I'll get to in a minute.
 
-00:08:37.275 --> 00:08:40.895 A:middle
+00:08:37.276 --> 00:08:40.896 A:middle
 We set up our arrays the
 same as we usually do.
 
@@ -660,9 +635,6 @@ normalized or unnormalized,
 00:08:56.956 --> 00:09:01.736 A:middle
 and the number of scalars or
 number of values per element.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:02.526 --> 00:09:07.206 A:middle
 We do this for our per vertex
@@ -724,9 +696,6 @@ in our model.
 It's the same as
 in glDrawArrarys.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:02.526 --> 00:10:08.486 A:middle
 The second or last argument
 here, N, is the number
@@ -785,9 +754,6 @@ submitted to vertex shader.
 They all use that same value
 throughout the entire array.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.846 --> 00:11:04.626 A:middle
 And we go through all of
 instances in our instance array,
@@ -844,9 +810,6 @@ render 100 gears.
 
 00:11:58.606 --> 00:11:59.576 A:middle
 Here's the vertex shader.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:01.336 --> 00:12:05.636 A:middle
 As usual, we've got attributes
@@ -913,9 +876,6 @@ coordinates, etc. Alright.
 
 00:12:58.336 --> 00:13:01.596 A:middle
 Here's the second method.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:02.796 --> 00:13:05.716 A:middle
 This is using the
@@ -984,9 +944,6 @@ for all the vertices.
 It's incremented for
 the next instance,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:02.266 --> 00:14:08.476 A:middle
 and we submit all the vertices
 using the value of one.
@@ -1050,9 +1007,6 @@ we divide by ten
 
 00:14:59.246 --> 00:15:00.926 A:middle
 to give us the y position.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:01.376 --> 00:15:05.426 A:middle
 Now we have an instance
@@ -1126,9 +1080,6 @@ values in the texture.
 You can also use it as an
 alternative to uniforms.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:02.126 --> 00:16:05.916 A:middle
 Uniforms have a much smaller
 data store whereas textures has
@@ -1196,9 +1147,6 @@ of temp position.
 And so we overwrite
 the X and Z values
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:03.046 --> 00:17:04.826 A:middle
 with the X and Z positions.
 
@@ -1210,7 +1158,7 @@ inside of our temp position.
 The Y we just happened to
 have gotten from the texture.
 
-00:17:13.476 --> 00:17:17.425 A:middle
+00:17:13.476 --> 00:17:17.426 A:middle
 And as with our other shaders,
 we can transform to clip space
 
@@ -1220,11 +1168,11 @@ and output to gl-Position.
 00:17:19.096 --> 00:17:19.526 A:middle
 [ Pause ]
 
-00:17:19.526 --> 00:17:23.415 A:middle
+00:17:19.526 --> 00:17:23.416 A:middle
 Alright. That's a
 pretty simple example
 
-00:17:23.415 --> 00:17:26.156 A:middle
+00:17:23.416 --> 00:17:26.156 A:middle
 of how you might use
 vertex texturing.
 
@@ -1270,9 +1218,6 @@ on most iOS 7 hardware.
 00:17:57.186 --> 00:18:01.416 A:middle
 Whereas uniform arrays are
 limited to 128 uniform,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:02.226 --> 00:18:06.506 A:middle
 that's four values per uniform,
@@ -1341,9 +1286,6 @@ with the texture.
 00:18:59.246 --> 00:19:00.486 A:middle
 Anything you can do
 with the texture,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.486 --> 00:19:03.766 A:middle
 you can do with a vertex
@@ -1418,9 +1360,6 @@ Now we're running at
 00:19:58.436 --> 00:20:00.086 A:middle
 maybe 18 in some case.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.086 --> 00:20:03.406 A:middle
 That's alright, I guess.
 
@@ -1486,9 +1425,6 @@ slightly better frame rate here.
 00:20:55.676 --> 00:21:00.006 A:middle
 This is due to our pre-computing
 all of the rotations
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.006 --> 00:21:02.686 A:middle
 and position of values
@@ -1566,9 +1502,6 @@ to build a rotation matrix.
 We then apply a translation
 matrix
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.956 --> 00:22:04.276 A:middle
 that gives us the
 position of the asteroid.
@@ -1639,9 +1572,6 @@ vertex array, and then set
 up the vertex array with the
 glVertexAttribDivisor call,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:03.666 --> 00:23:06.226 A:middle
 and pass the parameters
 down for each asteroid,
@@ -1711,9 +1641,6 @@ where we use instance array.
 Instance arrays is generally
 faster than computing on the GPU
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.446 --> 00:24:03.776 A:middle
 since you can save
 cycles on the GPU.
@@ -1773,9 +1700,6 @@ to put tables or any other sort
 
 00:24:58.766 --> 00:25:00.286 A:middle
 of data inside of a texture.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.286 --> 00:25:04.096 A:middle
 So this is really cool
@@ -1857,9 +1781,6 @@ parameters.
 These extensions and these
 features are supported
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:02.616 --> 00:26:04.996 A:middle
 on all iOS 7 devices.
 
@@ -1920,9 +1841,6 @@ aRGB compensates for this
 by basically applying
 an inverse curve
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:00.346 --> 00:27:02.986 A:middle
 so that the darker colors
 get a little bit more weight
@@ -1979,9 +1897,6 @@ because this is supported
 00:27:55.866 --> 00:28:00.636 A:middle
 on all iOS 7 devices
 except for the iPhone 4.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.086 --> 00:28:04.026 A:middle
 This is a great new feature.
@@ -2050,9 +1965,6 @@ rock solid foundation before you
 00:28:59.596 --> 00:29:01.896 A:middle
 start adding to your
 rendering engines.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:02.666 --> 00:29:08.046 A:middle
 And, fortunately, Apple provides
@@ -2125,9 +2037,6 @@ buffer on the right,
 and whatever you've
 just rendered,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.736 --> 00:30:04.496 A:middle
 the results of last draw call
 you've made, shows up in green.
@@ -2197,9 +2106,6 @@ a glUseProgram call.
 00:30:58.636 --> 00:31:01.746 A:middle
 And so now I can look at
 all of the information
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:01.746 --> 00:31:03.586 A:middle
 that pertains to
@@ -2271,9 +2177,6 @@ your rendering.
 00:31:59.086 --> 00:32:03.166 A:middle
 [ Applause ]
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:03.666 --> 00:32:05.596 A:middle
 So this allows you to experiment
 
@@ -2336,9 +2239,6 @@ corner, and we'll run a couple
 00:32:57.446 --> 00:33:01.096 A:middle
 of experiments on your frame
 and figure out what bottlenecks
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:01.096 --> 00:33:03.676 A:middle
 that you've got, whether you're
@@ -2416,9 +2316,6 @@ and you can immediately fix it.
 00:33:59.986 --> 00:34:00.166 A:middle
 [ Applause ]
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.166 --> 00:34:02.906 A:middle
 We also have the OpenGL
 ES Analyzer instrument,
@@ -2430,10 +2327,10 @@ of very helpful views
 00:34:05.146 --> 00:34:06.896 A:middle
 for improving performance.
 
-00:34:07.406 --> 00:34:11.485 A:middle
+00:34:07.406 --> 00:34:11.486 A:middle
 And a very powerful part
 
-00:34:11.485 --> 00:34:18.966 A:middle
+00:34:11.486 --> 00:34:18.966 A:middle
 of the OpenGL ES Analyzer is the
 OpenGL ES Expert, which points
 
@@ -2449,7 +2346,7 @@ in your application.
 This points out a lot of
 data that is very similar
 
-00:34:30.206 --> 00:34:33.025 A:middle
+00:34:30.206 --> 00:34:33.026 A:middle
 to what comes up in
 the issues navigator.
 
@@ -2461,15 +2358,15 @@ actually run some more in-depth
 experiments and give
 you more data,
 
-00:34:41.275 --> 00:34:46.886 A:middle
+00:34:41.276 --> 00:34:46.886 A:middle
 it only can analyze one frame
 whereas the OpenGLES expert can
 
-00:34:46.886 --> 00:34:48.985 A:middle
+00:34:46.886 --> 00:34:48.986 A:middle
 analyze multiple
 frames of rendering.
 
-00:34:49.485 --> 00:34:53.196 A:middle
+00:34:49.486 --> 00:34:53.196 A:middle
 [ Pause ]
 
 00:34:53.696 --> 00:34:56.656 A:middle
@@ -2478,9 +2375,6 @@ We offer a number of tools
 00:34:57.126 --> 00:35:00.526 A:middle
 that really provide
 an excellent means
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.526 --> 00:35:02.226 A:middle
 for debugging your rendering.
@@ -2551,9 +2445,6 @@ you an overview
 00:35:56.606 --> 00:36:01.396 A:middle
 of the GPU architecture now.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:01.616 --> 00:36:07.666 A:middle
 All of the iOS GPU's are
 tile-based deferred renderers.
@@ -2621,9 +2512,6 @@ a lot of work on the GPU.
 00:36:59.346 --> 00:37:02.296 A:middle
 There are certain operations
 that developers can do
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:02.296 --> 00:37:04.626 A:middle
 that can prevent
@@ -2698,9 +2586,6 @@ window coordinate vertices.
 The vertices are shaded and
 transformed, as I mentioned,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:02.686 --> 00:38:04.676 A:middle
 and stored out to
 unified memory.
@@ -2762,9 +2647,6 @@ is split into tiles.
 00:38:59.036 --> 00:39:03.986 A:middle
 This allows rasterization
 and fragment shading to occur
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:03.986 --> 00:39:07.586 A:middle
 on the GPU in little tile-sized
@@ -2828,9 +2710,6 @@ here's what this means.
 00:39:59.176 --> 00:40:02.606 A:middle
 The rasterizer uses tile size
 embedded memory, as I said.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:03.226 --> 00:40:06.006 A:middle
 Now if there is data already
@@ -2902,9 +2781,6 @@ in some less obvious ways.
 00:40:58.226 --> 00:41:02.516 A:middle
 For instance, if we render to a
 texture, render to a new buffer
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:02.516 --> 00:41:04.086 A:middle
 or a new texture,
@@ -2981,9 +2857,6 @@ some further computation.
 The GPU reads the triangles
 assigned to the tile,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.806 --> 00:42:04.406 A:middle
 and it computes the X
 and Y pixel coordinates
@@ -3059,9 +2932,6 @@ hardware optimizations.
 00:42:59.256 --> 00:43:00.746 A:middle
 Loss of hidden surface removal.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:01.586 --> 00:43:03.756 A:middle
 It's really costly
 to enable blending
@@ -3136,9 +3006,6 @@ the TBDR renderer is that,
 if the hidden surface removal
 algorithm is allowed to work,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.056 --> 00:44:04.466 A:middle
 we only need to run the fragment
 shader on each pixel once.
@@ -3207,9 +3074,6 @@ you've presented your buffer
 00:44:57.286 --> 00:45:00.036 A:middle
 to the user, and that requires
 a logical buffer store.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:01.636 --> 00:45:03.256 A:middle
 However, you can
@@ -3283,9 +3147,6 @@ the pre-resolved MSAA buffer.
 00:45:59.716 --> 00:46:03.506 A:middle
 What you need is the
 resolved, much smaller tile
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:04.396 --> 00:46:06.566 A:middle
 that you can store
@@ -3371,9 +3232,6 @@ or using discard,
 but there are some
 perfereable ways to use them.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:02.936 --> 00:47:05.606 A:middle
 First of all, draw all your
 triangles using discard
@@ -3450,9 +3308,6 @@ the framebuffer.
 Also avoid frequent
 render buffer switches,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:01.476 --> 00:48:02.926 A:middle
 which can cause tile thrashing.
 
@@ -3526,9 +3381,6 @@ a dependent fetch
 or a dependent sample
 or dependent read.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:03.776 --> 00:49:07.706 A:middle
 Here's a more devious example,
 a much less obvious example
@@ -3593,9 +3445,6 @@ texture coordinates need
 00:49:56.796 --> 00:50:01.076 A:middle
 to be converted first
 from a vec4 to two vec2s.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:01.076 --> 00:50:02.756 A:middle
 This is happening
@@ -3677,9 +3526,6 @@ Hoist your calculation.
 Do it in the vertex shader if
 possible, put it in a uniform
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:00.486 --> 00:51:02.266 A:middle
 or put it in the vertex array.
 
@@ -3751,9 +3597,6 @@ parallel devices.
 It can process multiple vertices
 and fragments simultaneously.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:03.106 --> 00:52:05.946 A:middle
 We need a special
 branch mode for execution
@@ -3815,9 +3658,6 @@ to its fullest.
 00:52:55.886 --> 00:53:00.336 A:middle
 You also really want to get to
 the GPU as quick as possible
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:00.336 --> 00:53:02.526 A:middle
 and minimize the CPU overhead.
@@ -3895,9 +3735,6 @@ look out for.
 And what you can do is
 there are some algorithms
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:54:07.996 --> 00:54:09.326 A:middle
 such as shadowing state.
 
@@ -3965,9 +3802,6 @@ the driver, and the driver needs
 00:54:58.856 --> 00:55:04.076 A:middle
 to do some calculations to
 convert to hardware state.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:55:04.956 --> 00:55:08.646 A:middle
 So minimize the number
@@ -4042,9 +3876,6 @@ binds, create a texture atlas
 by combining all of
 these textures into one.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:56:00.356 --> 00:56:04.236 A:middle
 Simply bind once, then we can
 draw, draw, draw, and draw.
@@ -4117,9 +3948,6 @@ can talk to Alan Schaffer,
 00:56:58.306 --> 00:57:00.816 A:middle
 our graphics and games
 technologies evangelist,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:57:01.226 --> 00:57:03.086 A:middle
 and there's some
@@ -4209,9 +4037,6 @@ your rendering engine
 and in your performance
 investigations.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:58:01.946 --> 00:58:04.226 A:middle
 The GPU tools really
 help greatly
@@ -4229,4 +4054,3 @@ that you want to think about.
 
 00:58:12.076 --> 00:58:15.186 A:middle
 Thank you very much.
-

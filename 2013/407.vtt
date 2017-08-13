@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.596 A:middle
 [ Silence ]
@@ -69,9 +68,6 @@ Brian Kernighan and it says,
 00:00:58.586 --> 00:01:00.906 A:middle
 "Everybody knows that
 debugging is twice as hard
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:01.256 --> 00:01:02.816 A:middle
 as writing a program
@@ -150,9 +146,6 @@ disable breakpoints one by one,
 00:01:57.816 --> 00:02:00.096 A:middle
 of course, we go to the
 breakpoints navigator.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.096 --> 00:02:06.616 A:middle
 And here you see a list of all
@@ -233,9 +226,6 @@ of some error handler later on.
 So that's a really great way to
 catch those errors in unit tests
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:02.146 --> 00:03:06.286 A:middle
 and in your OpenGL
 ES games on iOS.
@@ -307,9 +297,6 @@ got you to this point.
 And so, you can figure out
 why you got to this point
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:01.306 --> 00:04:03.866 A:middle
 and why maybe you need
 to go somewhere else.
@@ -326,7 +313,7 @@ a lot of people don't know that.
 If you're using grand central
 dispatch, it's more natural
 
-00:04:13.976 --> 00:04:16.555 A:middle
+00:04:13.976 --> 00:04:16.556 A:middle
 to organize your threads by cue.
 
 00:04:17.226 --> 00:04:19.546 A:middle
@@ -384,9 +371,6 @@ a global variable state,
 00:04:58.236 --> 00:05:00.486 A:middle
 or you need to find out
 some register states.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.156 --> 00:05:09.406 A:middle
 And so, you can click on this
@@ -463,9 +447,6 @@ things which we're going to talk
 about today including
 the new debugging gauges
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.496 --> 00:06:03.746 A:middle
 which we saw briefly.
 
@@ -538,9 +519,6 @@ maintain, and ultimately,
 00:06:57.946 --> 00:07:00.446 A:middle
 code that may not even be
 correct in the first place.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.446 --> 00:07:06.006 A:middle
 So if performance is
@@ -623,9 +601,6 @@ there on your Mac.
 There's a bunch of
 debugging gauges
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.586 --> 00:08:03.426 A:middle
 to show you the performance
 and the characteristics
@@ -662,11 +637,11 @@ So first step, the CPU gauge.
 We show you a chart
 of the recent history
 
-00:08:28.816 --> 00:08:32.775 A:middle
+00:08:28.816 --> 00:08:32.776 A:middle
 of a CPU utilization which
 is your first indication
 
-00:08:32.775 --> 00:08:34.716 A:middle
+00:08:32.776 --> 00:08:34.716 A:middle
 that something may be going
 wrong in your application.
 
@@ -682,10 +657,10 @@ processor and you don't know
 that that's happening,
 you want to take a look
 
-00:08:42.486 --> 00:08:43.785 A:middle
+00:08:42.486 --> 00:08:43.786 A:middle
 at that, take a deeper look.
 
-00:08:43.785 --> 00:08:48.026 A:middle
+00:08:43.786 --> 00:08:48.026 A:middle
 And to do that, you click on
 the CPU gauge and it brings
 
@@ -707,9 +682,6 @@ through some of the aspects.
 00:08:59.146 --> 00:09:01.886 A:middle
 First we have this view here
 which is the meter view.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:02.696 --> 00:09:04.966 A:middle
 The meter view shows you a
@@ -786,9 +758,6 @@ about 60 and 100 percent.
 00:09:57.316 --> 00:10:00.756 A:middle
 The next area is the utilization
 across the whole system
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.756 --> 00:10:03.346 A:middle
 because all know that our
@@ -871,9 +840,6 @@ the CPU utilization over time.
 00:10:57.816 --> 00:10:59.896 A:middle
 Below that, we split
 it out by the threads.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.726 --> 00:11:01.996 A:middle
 And here, we only
@@ -963,9 +929,6 @@ we get the memory report.
 And like the CPU report,
 it has similar sections
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:06.636 --> 00:12:08.366 A:middle
 and the first section
 is the meter view.
@@ -1033,9 +996,6 @@ the main gauge area.
 And this is where you
 can see at a glance
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.216 --> 00:13:02.706 A:middle
 that something might be going
 wrong with this application
@@ -1101,9 +1061,6 @@ today applies completely
 
 00:13:59.006 --> 00:13:59.976 A:middle
 to your iOS apps.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:01.396 --> 00:14:05.866 A:middle
 So to set the stage, imagine
@@ -1172,9 +1129,6 @@ lag, maybe a tenth of a second,
 or a quarter of a second every
 time I change the filter.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.606 --> 00:15:04.896 A:middle
 I'm going to assume that Apple
 has done an incredible job
@@ -1226,9 +1180,6 @@ variable view, zooming in here.
 
 00:15:59.126 --> 00:16:02.076 A:middle
 And oops, so one key value pair.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:02.076 --> 00:16:02.816 A:middle
 So that's good.
@@ -1287,28 +1238,25 @@ up a little bit.
 Now, just to reconfirm
 what I saw, yup!
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:01.986 --> 00:17:04.685 A:middle
+00:17:01.986 --> 00:17:04.686 A:middle
 So now, we don't want
 you to get paranoid
 
-00:17:04.685 --> 00:17:06.836 A:middle
+00:17:04.686 --> 00:17:06.836 A:middle
 over every single
 bump on the chart.
 
-00:17:07.386 --> 00:17:09.695 A:middle
+00:17:07.386 --> 00:17:09.696 A:middle
 But if you see a monotonous
 growth pattern like this,
 
-00:17:09.695 --> 00:17:11.715 A:middle
+00:17:09.696 --> 00:17:11.716 A:middle
 it should pick your interest.
 
 00:17:11.976 --> 00:17:12.866 A:middle
 And it does for me.
 
-00:17:12.915 --> 00:17:17.746 A:middle
+00:17:12.916 --> 00:17:17.746 A:middle
 So I want to get
 more detail about it.
 
@@ -1316,7 +1264,7 @@ more detail about it.
 So I can do that like Troy
 said, I can select the gauge
 
-00:17:21.836 --> 00:17:24.675 A:middle
+00:17:21.836 --> 00:17:24.676 A:middle
 on the navigator and it
 will show me a report of it.
 
@@ -1362,9 +1310,6 @@ So let's look at that.
 00:17:57.266 --> 00:18:01.276 A:middle
 So here is where the cache is
 created, nothing is wrong here.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.276 --> 00:18:07.366 A:middle
 Here is what I make use
@@ -1430,9 +1375,6 @@ Let's try it again.
 
 00:18:58.996 --> 00:19:02.386 A:middle
 So that the debug gauge,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:02.386 --> 00:19:05.046 A:middle
 the memory gauge validates
@@ -1506,9 +1448,6 @@ glance over to my CPU
 00:19:57.576 --> 00:20:00.026 A:middle
 and memory gauge and try it out.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:02.376 --> 00:20:03.796 A:middle
 So memory seems pretty stable,
 
@@ -1579,9 +1518,6 @@ I see anything interesting.
 So I can see that a whole
 slew of threats just came on.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:03.616 --> 00:21:05.386 A:middle
 Now this-- that's
 weird too, you know,
@@ -1646,9 +1582,6 @@ of it, recompile.
 00:21:58.046 --> 00:22:05.636 A:middle
 And I'm going to bring up the
 report, scroll to the bottom,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:06.216 --> 00:22:08.836 A:middle
 try the rotation again.
@@ -1723,9 +1656,6 @@ to your application, thank you.
 
 00:22:59.516 --> 00:23:07.216 A:middle
 [ Applause ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:07.716 --> 00:23:08.756 A:middle
 &gt;&gt; Thank you, Han Ming.
@@ -1803,9 +1733,6 @@ information.
 But a lot of times, we get
 all of the context we need
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.666 --> 00:24:03.726 A:middle
 from our code and so it
 would be great to be able
@@ -1877,9 +1804,6 @@ PO or print that object.
 00:24:56.826 --> 00:25:01.126 A:middle
 [applause] It's really
 handy because right there
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:01.126 --> 00:25:03.136 A:middle
 in your code, right
@@ -1966,9 +1890,6 @@ and let's take a look at that.
 00:25:59.516 --> 00:26:05.926 A:middle
 [ Pause ]
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:06.426 --> 00:26:08.186 A:middle
 So we'll run our
 application here
@@ -2018,9 +1939,6 @@ to hit our breakpoint.
 00:26:56.606 --> 00:27:00.356 A:middle
 So here we are, we're
 creating a Bezier path
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.356 --> 00:27:02.166 A:middle
 that will become our mask
@@ -2086,9 +2004,6 @@ on my address here,
 00:27:56.736 --> 00:28:01.186 A:middle
 I can enter zero
 to nil that out.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.536 --> 00:28:04.296 A:middle
 And now as we step over
@@ -2162,9 +2077,6 @@ So let's look at R2.
 00:28:59.946 --> 00:29:04.196 A:middle
 We see that's 200, R1 is 100.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:04.246 --> 00:29:05.146 A:middle
 So they're both the same,
 
@@ -2231,9 +2143,6 @@ as well as our mask.
 
 00:29:59.706 --> 00:30:01.436 A:middle
 So we're nearly there.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:02.806 --> 00:30:05.446 A:middle
 Now another thing you can
@@ -2302,9 +2211,6 @@ description of what it is,
 00:30:58.166 --> 00:31:01.266 A:middle
 not many people know, you
 know, can picture the latitude
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:01.266 --> 00:31:04.026 A:middle
 and longitude of that, but we
@@ -2451,9 +2357,6 @@ for seeing an in-progress image
 that you may have had
 to use in the past.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.256 --> 00:33:03.916 A:middle
 We also support NSString and
 we support NSAttributedString,
@@ -2530,9 +2433,6 @@ that has latitude, longitude.
 And so recognizing what that
 latitude and longitude is,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.636 --> 00:34:04.236 A:middle
 is very difficult unless
 you have the map right there
@@ -2547,11 +2447,11 @@ So this is very powerful.
 Similar to Core Location,
 we have, we support colors.
 
-00:34:11.166 --> 00:34:13.235 A:middle
+00:34:11.166 --> 00:34:13.236 A:middle
 And so, rather than
 looking at that triplet
 
-00:34:13.235 --> 00:34:16.856 A:middle
+00:34:13.236 --> 00:34:16.856 A:middle
 of RGB values plus alpha, we
 show you the color right there.
 
@@ -2559,7 +2459,7 @@ show you the color right there.
 We support Bezier paths,
 both on iOS and Mac OS
 
-00:34:21.636 --> 00:34:23.335 A:middle
+00:34:21.636 --> 00:34:23.336 A:middle
 as Christopher showed
 in his demo.
 
@@ -2598,7 +2498,7 @@ in Xcode or we'll load files
 from your local disk
 and show those as well.
 
-00:34:51.835 --> 00:34:55.686 A:middle
+00:34:51.836 --> 00:34:55.686 A:middle
 In this example, I'm
 running a program
 
@@ -2609,9 +2509,6 @@ referencing a keynote document.
 00:34:58.466 --> 00:35:00.036 A:middle
 In fact, it's this
 keynote document
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.036 --> 00:35:03.186 A:middle
 and I can see it right inside
@@ -2686,9 +2583,6 @@ to represent the full height.
 And I had one icon that
 had invisible background
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:02.516 --> 00:36:04.526 A:middle
 that was bigger and I didn't
 know which one it was.
@@ -2757,9 +2651,6 @@ are very powerful.
 00:36:58.836 --> 00:37:00.166 A:middle
 And now I'd like to
 switch gears and talk
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.166 --> 00:37:02.106 A:middle
 about the specific
@@ -2832,9 +2723,6 @@ your scheme to wait
 00:37:59.146 --> 00:38:02.226 A:middle
 for these XPC services
 to come up.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:02.226 --> 00:38:04.246 A:middle
 And when they do, your
@@ -2913,9 +2801,6 @@ breakpoints, you can see it
 in the debug navigator,
 you can check out the CPU
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:02.106 --> 00:39:04.236 A:middle
 and memory reports for those.
 
@@ -2984,9 +2869,6 @@ as we debug this application.
 So I'll click the run here,
 our application starting up.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.176 --> 00:40:05.426 A:middle
 Now we've hit a breakpoint where
 the main app is now setting
@@ -3050,9 +2932,6 @@ XPC Service, you simply need
 
 00:40:57.566 --> 00:40:58.696 A:middle
 to go set your breakpoints.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.076 --> 00:41:02.316 A:middle
 So we'll go to our breakpoint
@@ -3126,9 +3005,6 @@ we'll stop your main application
 as well as your-- any XPC
 processes that you have running,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.136 --> 00:42:05.206 A:middle
 this is so that you can go
 back, change your source code
@@ -3188,9 +3064,6 @@ to, most likely you won't.
 00:42:54.196 --> 00:43:00.636 A:middle
 And we hope that the
 XPC integration in Xcode
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:02.026 --> 00:43:05.806 A:middle
 for debugging your XPC
@@ -3267,9 +3140,6 @@ memory profile is like.
 Maybe you look at the CPU,
 maybe use the new Quick Looks
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:03.056 --> 00:44:05.036 A:middle
 to solve the problem
 in your application
@@ -3313,4 +3183,3 @@ in Xcode 5, have a great week.
 
 00:44:32.516 --> 00:44:36.050 A:middle
 [ Applause ]
-

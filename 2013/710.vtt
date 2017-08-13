@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.576 A:middle
 [ Silence ]
@@ -71,14 +70,11 @@ And if you look at why that is,
 it's because the car
 industry has been investing
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:01.456 --> 00:01:04.866 A:middle
 into safety mechanisms
 for a long time.
 
-00:01:05.495 --> 00:01:07.016 A:middle
+00:01:05.496 --> 00:01:07.016 A:middle
 It's because you
 can't sell a car
 
@@ -163,9 +159,6 @@ those, there's been a number
 of mechanisms that try to
 make it so that if you wind
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:02.706 --> 00:02:05.536 A:middle
 up in an accident,
 harm is minimized.
@@ -240,9 +233,6 @@ seatbelt or an airbag
 
 00:02:58.936 --> 00:03:00.116 A:middle
 for a desktop computer.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.706 --> 00:03:03.406 A:middle
 In other words, it was
@@ -328,9 +318,6 @@ apps from the same user.
 And, again, if you sort
 of look back and think
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:02.836 --> 00:04:05.106 A:middle
 about why 40 years ago
 this assumption was made,
@@ -355,15 +342,15 @@ put on a punch card,
 walked up to a machine,
 loaded and ran.
 
-00:04:16.505 --> 00:04:18.826 A:middle
+00:04:16.506 --> 00:04:18.826 A:middle
 So it was pretty reasonable to
 say that that code should run
 
-00:04:18.826 --> 00:04:20.245 A:middle
+00:04:18.826 --> 00:04:20.246 A:middle
 with your full privileges
 and that
 
-00:04:20.245 --> 00:04:21.676 A:middle
+00:04:20.246 --> 00:04:21.676 A:middle
 that wouldn't be an
 issue in practice.
 
@@ -418,9 +405,6 @@ this app and it's gorgeous.
 00:04:56.056 --> 00:05:00.276 A:middle
 It shows grass growing in
 real time and, you know,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.626 --> 00:05:02.436 A:middle
 it connects to the network
@@ -508,9 +492,6 @@ users have actually basically
 been conditioned to just
 look for the Allow button.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.246 --> 00:06:02.526 A:middle
 And press it because it
 maximizes the chances
@@ -597,9 +578,6 @@ much more time connected
 than they do disconnected which
 didn't use to be the case.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:03.346 --> 00:07:05.976 A:middle
 Finding new software, super
 easy; it's never been this easy.
@@ -667,9 +645,6 @@ libraries and other libraries
 and frameworks which are doing
 incredibly complex things behind
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.536 --> 00:08:03.626 A:middle
 the scenes where you might
 not have even thought of them.
@@ -706,11 +681,11 @@ of complexity.
 And a single vulnerability
 anywhere in all the code
 
-00:08:28.566 --> 00:08:32.135 A:middle
+00:08:28.566 --> 00:08:32.136 A:middle
 that your app has plus all
 the code it links against used
 
-00:08:32.135 --> 00:08:34.336 A:middle
+00:08:32.136 --> 00:08:34.336 A:middle
 to mean a really bad
 day for the user.
 
@@ -741,9 +716,6 @@ doing something really different
 00:08:58.666 --> 00:09:01.596 A:middle
 which is, instead of trying
 to drive security policy
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.596 --> 00:09:04.746 A:middle
 by explicit user
@@ -818,9 +790,6 @@ the key components here.
 00:09:57.476 --> 00:10:00.856 A:middle
 I mentioned that you specify
 what your app is meant
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.856 --> 00:10:01.596 A:middle
 to be able to do.
@@ -919,9 +888,6 @@ And we basically pretend
 that that location is the
 user's Home Directory.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.466 --> 00:11:03.456 A:middle
 So, here's what that looks
 like where we have an app,
@@ -998,9 +964,6 @@ so that Cocoa NSOpen
 00:11:58.496 --> 00:12:02.216 A:middle
 and NSSave panels are
 actually drawn out of process
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:02.216 --> 00:12:03.546 A:middle
 by a trusted system service.
@@ -1091,9 +1054,6 @@ no you're not allowed.
 But what happens in
 the App Sandbox world,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.816 --> 00:13:03.496 A:middle
 because of the Powerbox, is that
 AppKit realizes it's running
@@ -1168,9 +1128,6 @@ Why does this matter?
 00:13:59.806 --> 00:14:02.396 A:middle
 Well because, as apps get
 more and more complex,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:02.396 --> 00:14:03.796 A:middle
 they do more and more things.
@@ -1257,9 +1214,6 @@ worry about, you know,
 whether they're running
 when you want them.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.176 --> 00:15:01.736 A:middle
 It's just done for
 you by the OS.
@@ -1342,9 +1296,6 @@ my demo app is Adium
 which is a really popular
 instant messaging client.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:03.306 --> 00:16:05.746 A:middle
 And I'm thrilled to be
 switching to TextEdit this year
@@ -1417,26 +1368,23 @@ nice graphical editor
 of various capabilities, App
 Sandbox is just one set of them.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.966 --> 00:17:03.606 A:middle
 So, we'll flip on the
 App Sandbox switch
 
-00:17:04.175 --> 00:17:06.596 A:middle
+00:17:04.176 --> 00:17:06.596 A:middle
 and TextEdit obviously needs
 to be able to edit files
 
-00:17:06.596 --> 00:17:08.965 A:middle
+00:17:06.596 --> 00:17:08.966 A:middle
 that a user selects
 so that seems
 
-00:17:08.965 --> 00:17:11.175 A:middle
+00:17:08.966 --> 00:17:11.176 A:middle
 like an obvious Entitlement to
 give it if it wants to be able
 
-00:17:11.175 --> 00:17:13.215 A:middle
+00:17:11.176 --> 00:17:13.216 A:middle
 to both read them and write to
 them so we'll say read/write
 
@@ -1446,18 +1394,18 @@ to user selected files.
 00:17:15.366 --> 00:17:16.126 A:middle
 That seems about right.
 
-00:17:16.935 --> 00:17:20.906 A:middle
+00:17:16.936 --> 00:17:20.906 A:middle
 Let's run it now.
 
 00:17:21.126 --> 00:17:25.246 A:middle
 There's TextEdit and in Activity
 Monitor, you'll notice now
 
-00:17:25.246 --> 00:17:26.925 A:middle
+00:17:25.246 --> 00:17:26.926 A:middle
 that the Sandbox
 column indicates yes.
 
-00:17:26.925 --> 00:17:28.286 A:middle
+00:17:26.926 --> 00:17:28.286 A:middle
 So this thing is
 running Sandbox.
 
@@ -1496,9 +1444,6 @@ the ability to do a mach lookup
 00:17:57.826 --> 00:18:02.276 A:middle
 on SCNetworkReachability and
 some system socket access
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:02.276 --> 00:18:04.966 A:middle
 and then some more mach
@@ -1575,9 +1520,6 @@ Sandboxed it and the TextEdit
 00:18:57.326 --> 00:18:59.916 A:middle
 after we Sandboxed it
 behave very differently
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.306 --> 00:19:01.436 A:middle
 if you can exploit them.
@@ -1664,9 +1606,6 @@ at the Capabilities interface
 in Xcode 5, tick
 some boxes, try it,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.916 --> 00:20:04.126 A:middle
 check for violations,
 and you'll be done.
@@ -1743,9 +1682,6 @@ can access would just grow
 00:20:57.856 --> 00:21:00.236 A:middle
 without bound, over time,
 as the apps are used.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.596 --> 00:21:03.346 A:middle
 So defaulting to losing the
@@ -1830,9 +1766,6 @@ is an example
 from the Mail app where--
 which is Sandboxed by the way.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.056 --> 00:22:02.486 A:middle
 You can see that you
 can select the folder
@@ -1913,9 +1846,6 @@ bookmark which your app is free
 to store anywhere it pleases
 such as in its container
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:05.506 --> 00:23:09.596 A:middle
 as a file or in user
 defaults or even in Core Data.
@@ -1991,9 +1921,6 @@ differ for document-scoped
 
 00:23:59.216 --> 00:24:00.016 A:middle
 and app-scoped bookmarks.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.016 --> 00:24:03.946 A:middle
 For document-scope, they
@@ -2071,9 +1998,6 @@ currently, from your Sandbox,
 
 00:24:58.216 --> 00:24:59.636 A:middle
 you can't follow to the movie.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.576 --> 00:25:03.556 A:middle
 You can take that security
@@ -2153,9 +2077,6 @@ best as the OS can, track files
 00:25:58.636 --> 00:26:01.406 A:middle
 and folders as they move around
 the file system or get renamed.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:02.466 --> 00:26:04.266 A:middle
 But there's one critical
@@ -2241,9 +2162,6 @@ if you don't call StopAccessing
 and you start accumulating many,
 many, many Sandbox extensions
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:01.806 --> 00:27:04.756 A:middle
 that were done in this way,
 eventually your app will,
@@ -2320,9 +2238,6 @@ it makes sense that they want
 00:27:58.336 --> 00:28:00.736 A:middle
 to have a scratch base on
 disk that they all share
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.736 --> 00:28:04.716 A:middle
 or that they want to be
@@ -2404,9 +2319,6 @@ maybe as a login item.
 Well, our main app can't access
 the helper's container directly.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.736 --> 00:29:02.316 A:middle
 The Sandbox prohibits this.
 
@@ -2485,9 +2397,6 @@ of App Sandbox and because
 00:29:58.806 --> 00:30:00.226 A:middle
 that sort of makes sense.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:01.066 --> 00:30:02.566 A:middle
 But there are some cases
 
@@ -2563,9 +2472,6 @@ and their extensions.
 00:30:58.096 --> 00:31:03.226 A:middle
 And in this case, you can
 specify that RTF is related
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:03.226 --> 00:31:07.176 A:middle
 to RTFD so that if the user
@@ -2644,9 +2550,6 @@ it's enforcing all these tight
 restrictions, but the Sandbox
 allows a Sandboxed app to go
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:03.566 --> 00:32:05.156 A:middle
 and script Finder or Terminal,
 
@@ -2724,9 +2627,6 @@ put some information in there
 00:32:58.956 --> 00:33:00.666 A:middle
 and get ready for the
 user to send E-mail.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.956 --> 00:33:02.976 A:middle
 iTunes, similarly, has a
@@ -2808,9 +2708,6 @@ you saying
 that when a certain mail rule is
 triggered, a script should run.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.176 --> 00:34:03.396 A:middle
 Aperture allows you to set that
 a certain script should run
@@ -2827,11 +2724,11 @@ this would mean
 that the script is actually
 executed by the application
 
-00:34:11.846 --> 00:34:13.255 A:middle
+00:34:11.846 --> 00:34:13.256 A:middle
 which means, of course,
 that it's subject
 
-00:34:13.255 --> 00:34:14.766 A:middle
+00:34:13.256 --> 00:34:14.766 A:middle
 to the application Sandbox.
 
 00:34:15.216 --> 00:34:16.176 A:middle
@@ -2845,26 +2742,26 @@ scripts and expects to be able
 to do whatever they want in
 the context of the script
 
-00:34:20.815 --> 00:34:22.786 A:middle
+00:34:20.816 --> 00:34:22.786 A:middle
 because the Sandbox will
 simply prohibit those actions.
 
-00:34:23.485 --> 00:34:27.246 A:middle
+00:34:23.486 --> 00:34:27.246 A:middle
 So we have a mechanism
 called NSUserScriptTask
 
-00:34:27.626 --> 00:34:29.025 A:middle
+00:34:27.626 --> 00:34:29.026 A:middle
 that now fully supports this.
 
-00:34:29.025 --> 00:34:30.646 A:middle
+00:34:29.026 --> 00:34:30.646 A:middle
 And the way this works
 is there's a folder
 
-00:34:30.826 --> 00:34:32.815 A:middle
+00:34:30.826 --> 00:34:32.816 A:middle
 in tilde Library called
 Application Scripts.
 
-00:34:33.775 --> 00:34:36.275 A:middle
+00:34:33.776 --> 00:34:36.276 A:middle
 Under that folder, there's
 a subfolder for every app
 
@@ -2876,18 +2773,18 @@ facility and any scripts
 that the user drags into this
 folder, the per app folder,
 
-00:34:45.235 --> 00:34:47.786 A:middle
+00:34:45.236 --> 00:34:47.786 A:middle
 that app is then allowed to
 ask the operating system to run
 
-00:34:48.025 --> 00:34:49.286 A:middle
+00:34:48.026 --> 00:34:49.286 A:middle
 with no Sandbox restrictions.
 
-00:34:50.335 --> 00:34:54.315 A:middle
+00:34:50.336 --> 00:34:54.316 A:middle
 So the app can use API to
 reveal that folder and Finder
 
-00:34:54.505 --> 00:34:56.366 A:middle
+00:34:54.506 --> 00:34:56.366 A:middle
 and tell the user, if you want
 to be able to run any scripts,
 
@@ -2897,9 +2794,6 @@ just drag them in this window.
 00:34:57.926 --> 00:35:00.376 A:middle
 Once that happens, those
 scripts can run uninhibited
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.376 --> 00:35:01.196 A:middle
 by the Sandbox.
@@ -2975,9 +2869,6 @@ have songs on Network Volumes
 00:35:58.036 --> 00:36:01.026 A:middle
 or different disks and so
 forth, then Sandbox apps,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:01.026 --> 00:36:03.206 A:middle
 even though they could
@@ -3065,9 +2956,6 @@ entitlements that have been
 around since App
 Sandbox launched.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:00.806 --> 00:37:01.986 A:middle
 As I'm sure most of you know,
 
@@ -3140,9 +3028,6 @@ point out a few of them
 00:37:57.926 --> 00:38:00.596 A:middle
 that I think are the most
 common kinds of things
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.596 --> 00:38:01.506 A:middle
 that you might run in to.
@@ -3229,9 +3114,6 @@ to enable entitlements
 00:38:58.396 --> 00:39:00.616 A:middle
 that you don't need,
 really only enable the ones
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:00.616 --> 00:39:03.026 A:middle
 that your app clearly
@@ -3325,9 +3207,6 @@ that lots of you are requesting
 that we can kind
 of figure out why,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:02.336 --> 00:40:05.656 A:middle
 but it doesn't fully match the
 model so here's an example.
@@ -3411,9 +3290,6 @@ wait for inbound connections.
 
 00:40:57.766 --> 00:41:00.316 A:middle
 That's not what most apps do so,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.736 --> 00:41:03.506 A:middle
 if you're selecting the
@@ -3503,9 +3379,6 @@ it'll continue working
 00:41:59.486 --> 00:42:01.356 A:middle
 and it's simply that, at
 some point in the future,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:01.356 --> 00:42:04.926 A:middle
 as a better mechanism becomes
@@ -3597,9 +3470,6 @@ against exploitation and, even,
 against pathological
 coding errors.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:00.066 --> 00:43:02.746 A:middle
 It tries to drive security
 policy by user intent,
@@ -3676,9 +3546,6 @@ and deletes all my things.
 Those are simply not in the
 vocabulary of our iOS users
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:00.566 --> 00:44:02.096 A:middle
 because the Sandbox,
 from day one,
@@ -3700,4 +3567,3 @@ Thank you.
 
 00:44:13.306 --> 00:44:25.690 A:middle
 [ Applause ]
-

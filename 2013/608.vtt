@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.236 A:middle
 [ Silence ]
@@ -76,9 +75,6 @@ be motivated to hear this talk
 00:00:57.276 --> 00:01:00.266 A:middle
 because you believe that
 legislation may apply to you,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.266 --> 00:01:03.926 A:middle
 in particular in the U.S., that
@@ -166,9 +162,6 @@ user interface that allows users
 to select specific media
 options for playback -
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:01.596 --> 00:02:03.436 A:middle
 we're going to talk about
 how you can do that,
@@ -254,9 +247,6 @@ interfaces that are available
 in the AV Foundation framework,
 Apple's foundational framework
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:02.506 --> 00:03:04.556 A:middle
 for the control of
 audio visual media.
@@ -336,9 +326,6 @@ standard behavior can be part
 00:03:57.996 --> 00:03:59.026 A:middle
 of your app as well.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:01.056 --> 00:04:04.266 A:middle
 So we need to define some terms
 before we get into the meat,
@@ -362,7 +349,7 @@ revolution that occurred now
 over 20 years ago when
 digital devices first began
 
-00:04:18.166 --> 00:04:21.065 A:middle
+00:04:18.166 --> 00:04:21.066 A:middle
 to play video and
 audio and even text
 
@@ -418,9 +405,6 @@ and be part of the soundtrack?
 00:04:58.086 --> 00:05:00.926 A:middle
 And what information is going
 to be provided in text form?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:02.376 --> 00:05:04.776 A:middle
 Most content providers
@@ -502,9 +486,6 @@ that the user happens to be in.
 For example, imagine a user
 who's sitting in the back
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.946 --> 00:06:04.226 A:middle
 of an airplane, near a noisy
 engine, and has brought an iPad
@@ -579,9 +560,6 @@ others is subtitles for the deaf
 00:06:57.316 --> 00:07:00.086 A:middle
 or hard of hearing,
 abbreviated as SDH.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.426 --> 00:07:02.606 A:middle
 So here I've got a picture
@@ -666,9 +644,6 @@ labeled
 so the user can choose the one
 that's more appropriate for him
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.476 --> 00:08:05.606 A:middle
 or her: the language that
 the text use, the features
@@ -722,7 +697,7 @@ done in that case is
 to include the information in
 an alternative audio option
 
-00:08:40.885 --> 00:08:43.976 A:middle
+00:08:40.886 --> 00:08:43.976 A:middle
 that includes a narration,
 a description of the setting
 
@@ -748,9 +723,6 @@ those users who simply want
 00:08:59.926 --> 00:09:04.286 A:middle
 to hear the text, the speech
 spoken, in translation.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:04.516 --> 00:09:07.686 A:middle
 A re-recording of the dialog
@@ -825,9 +797,6 @@ X are incorporating support
 00:09:58.746 --> 00:10:02.796 A:middle
 for accessibility options
 in iOS 7and OS X Mavericks.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:03.346 --> 00:10:04.986 A:middle
 If you look at system
@@ -913,9 +882,6 @@ characteristics of text
 that are supposed to be
 customizable under the FCC rules
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.736 --> 00:11:04.226 A:middle
 that I mentioned in
 connection with U.S. law.
@@ -990,9 +956,6 @@ are there.
 00:11:57.806 --> 00:12:01.156 A:middle
 So now that they're there, if
 you're an application developer
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:01.156 --> 00:12:02.586 A:middle
 of course your natural
@@ -1078,9 +1041,6 @@ is for the text to be legible
 by the actual user, and so the
 user's preferences trump all
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:01.396 --> 00:13:03.656 A:middle
 of the styling information
 and will be honored
@@ -1161,9 +1121,6 @@ additional work to do in order
 to make sure that happens,
 and we'll talk about that.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:02.586 --> 00:14:05.896 A:middle
 In order for you to honor
 that user preference
@@ -1241,9 +1198,6 @@ in to this automatic behavior.
 00:14:58.106 --> 00:15:01.386 A:middle
 Therefore when we get to that
 point, if you have an app
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:01.726 --> 00:15:04.446 A:middle
 that doesn't want to offer the
@@ -1336,9 +1290,6 @@ audio options and so forth,
 allow the user to pick one and
 make that selection effective.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:02.806 --> 00:16:03.476 A:middle
 How do you do that?
 
@@ -1427,9 +1378,6 @@ AV Foundation you start
 with an instance of AVAsset,
 probably an AVAsset initialized
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:02.836 --> 00:17:05.896 A:middle
 with a URL to the file in
 the file system or something
@@ -1446,15 +1394,15 @@ of the property,
 availableMediaCharacteristics
 WithMediaSelectionOptions.
 
-00:17:14.675 --> 00:17:16.786 A:middle
+00:17:14.676 --> 00:17:16.786 A:middle
 You want to find out what
 groups of options are present.
 
-00:17:17.915 --> 00:17:20.816 A:middle
+00:17:17.916 --> 00:17:20.816 A:middle
 The value of that
 property, once it's loaded,
 
-00:17:21.165 --> 00:17:23.366 A:middle
+00:17:21.166 --> 00:17:23.366 A:middle
 is going to be an
 array of strings,
 
@@ -1517,9 +1465,6 @@ you're building the menu for.
 00:17:59.116 --> 00:18:00.796 A:middle
 Suppose it's the
 Legible characteristic.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.246 --> 00:18:04.316 A:middle
 I'll say, AVAsset, give me
@@ -1601,9 +1546,6 @@ description of the API
 that you would use in order
 to implement all this.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:01.776 --> 00:19:04.906 A:middle
 Even better, we're providing a
 code sample that you can read
@@ -1679,9 +1621,6 @@ a menu on each player
 that shows both the
 audio options available
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:02.616 --> 00:20:04.706 A:middle
 and the subtitle
 options available.
@@ -1748,9 +1687,6 @@ for each player,
 and just select some
 different subtitles to play.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:01.796 --> 00:21:05.736 A:middle
 And now let's play the
 movie and see what we get
@@ -1805,9 +1741,6 @@ we did it as Kevin mentioned,
 00:21:58.206 --> 00:22:01.286 A:middle
 both this app, which is called
 AV Media Selection Demo,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:01.796 --> 00:22:05.396 A:middle
 and this movie, which my Apple
@@ -1900,9 +1833,6 @@ How do you make media like this?
 00:22:59.256 --> 00:23:00.056 A:middle
 Several choices.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.676 --> 00:23:04.136 A:middle
 You can choose HTML5 and
 its support for text tracks.
@@ -1986,9 +1916,6 @@ that carries the timed text,
 the subtitles, is a
 different resource from that
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:02.356 --> 00:24:04.236 A:middle
 that carries the
 audio and the video.
@@ -2065,9 +1992,6 @@ If it's simply a text track
 00:24:58.266 --> 00:25:01.136 A:middle
 for translation purposes
 you would give it a kind
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:01.136 --> 00:25:05.216 A:middle
 of "subtitles", so that's
@@ -2151,9 +2075,6 @@ highlights of HTML5?
 Well as I mentioned
 there's no need
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.586 --> 00:26:03.476 A:middle
 to modify the main media
 resource that's played
@@ -2227,9 +2148,6 @@ of your timed text,
 00:26:58.836 --> 00:27:02.526 A:middle
 implicitly you require an
 HTML5-compliant user agent
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:02.526 --> 00:27:05.926 A:middle
 to be available to present that
@@ -2306,9 +2224,6 @@ types it supports.
 You can have multiple video
 renditions, audio, subtitles,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:03.536 --> 00:28:07.096 A:middle
 and, now for the first time
 in iOS 7 and OS X Mavericks,
@@ -2384,9 +2299,6 @@ so we want to declare
 00:28:58.526 --> 00:29:02.116 A:middle
 that these subtitles have the
 accessibility characteristics.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:02.696 --> 00:29:06.146 A:middle
 Those are, "transcribes spoken
@@ -2470,9 +2382,6 @@ the users preference best.
 00:29:58.346 --> 00:30:00.926 A:middle
 We want the software to be
 able to configure the display
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.926 --> 00:30:03.796 A:middle
 of the item to honor those
@@ -2558,9 +2467,6 @@ closed-caption channel you're
 00:30:58.996 --> 00:31:00.396 A:middle
 making this declaration for,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.766 --> 00:31:03.496 A:middle
 closed-caption channel
 1, 2, 3 or 4.
@@ -2639,9 +2545,6 @@ accessibility options
 00:31:58.656 --> 00:32:02.646 A:middle
 that take the form of audio
 media are greatly appreciated
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:02.646 --> 00:32:03.276 A:middle
 when present.
@@ -2723,9 +2626,6 @@ closed-captions,
 00:32:56.046 --> 00:33:00.826 A:middle
 those are in this draft of the
 specification that's available
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.826 --> 00:33:02.056 A:middle
 through the developer program
@@ -2813,9 +2713,6 @@ Live Streaming,
 now to the QuickTime Movie file
 format and MPEG-4 file format.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:02.736 --> 00:34:04.536 A:middle
 The good news about
 these file formats is
@@ -2832,7 +2729,7 @@ information that's necessary
 to include multiple
 alternative groups
 
-00:34:14.016 --> 00:34:17.005 A:middle
+00:34:14.016 --> 00:34:17.006 A:middle
 and to identify the purpose
 of any member of the group.
 
@@ -2844,23 +2741,23 @@ tracks that are intended
 to be chosen mutually
 exclusively to each other.
 
-00:34:23.815 --> 00:34:25.826 A:middle
+00:34:23.816 --> 00:34:25.826 A:middle
 You can have multiple
 audio tracks as well.
 
-00:34:25.826 --> 00:34:28.275 A:middle
+00:34:25.826 --> 00:34:28.276 A:middle
 Multiple captioning
 and subtitle tracks.
 
-00:34:28.525 --> 00:34:32.735 A:middle
+00:34:28.526 --> 00:34:32.736 A:middle
 It's all built into the file
 format and has been forever.
 
-00:34:33.565 --> 00:34:35.255 A:middle
+00:34:33.566 --> 00:34:35.256 A:middle
 Let's talk about
 where that stuff shows
 
-00:34:35.255 --> 00:34:37.346 A:middle
+00:34:35.256 --> 00:34:37.346 A:middle
 up in the binary file
 format, and I'm going
 
@@ -2872,18 +2769,18 @@ how you can create movie files
 with these features to a
 colleague of mine who's going
 
-00:34:42.676 --> 00:34:44.065 A:middle
+00:34:42.676 --> 00:34:44.066 A:middle
 to come up and describe the API
 
-00:34:44.065 --> 00:34:45.516 A:middle
+00:34:44.066 --> 00:34:45.516 A:middle
 that you can use
 for that purpose.
 
-00:34:45.795 --> 00:34:48.565 A:middle
+00:34:45.796 --> 00:34:48.566 A:middle
 But let's just quickly review
 what's in the movie file format
 
-00:34:48.565 --> 00:34:50.956 A:middle
+00:34:48.566 --> 00:34:50.956 A:middle
 that you need to
 specify the presence
 
@@ -2897,16 +2794,13 @@ First of all, every track
 in a movie file has
 a language setting.
 
-00:34:56.525 --> 00:34:58.356 A:middle
+00:34:56.526 --> 00:34:58.356 A:middle
 It's right there in
 the media header atom
 
 00:34:58.646 --> 00:35:00.756 A:middle
 of the media that's
 associated with that track.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.126 --> 00:35:03.606 A:middle
 That accommodates
@@ -2996,9 +2890,6 @@ that have the same value
 for their alternate
 track group setting.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:01.576 --> 00:36:05.286 A:middle
 So for example I can have
 multiple audio tracks all
@@ -3079,9 +2970,6 @@ subtitles for accessibility
 00:36:57.146 --> 00:36:59.646 A:middle
 or just subtitles for
 translation, for example.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.226 --> 00:37:03.986 A:middle
 It's possible to attach
@@ -3167,9 +3055,6 @@ nothing new here at all.
 00:37:59.926 --> 00:38:01.416 A:middle
 The QuickTime Movie file format
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:01.416 --> 00:38:05.056 A:middle
 and the MPEG-4 file format
 accommodate multiple options
@@ -3251,9 +3136,6 @@ it is in just a moment.
 One last note about subtitles
 in QuickTime Movie files
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:03.356 --> 00:39:07.486 A:middle
 and in ISO files such as
 MPEG-4 files - we're aware of,
@@ -3324,9 +3206,6 @@ to [QuickTime] Movie files
 or M4V files, we continue
 to recommend the media type,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.326 --> 00:40:04.556 A:middle
 AVMediaTypeSubtitle, - the
 four character code is 'sbtl' -
@@ -3395,9 +3274,6 @@ tracks in your HTML markup,
 00:40:59.056 --> 00:41:02.226 A:middle
 it also supports what are
 known as "in band" text tracks
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:02.976 --> 00:41:04.876 A:middle
 for cases in which
@@ -3475,9 +3351,6 @@ options, here are some
 of the highlight decision
 points, not all of them
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:02.386 --> 00:42:03.446 A:middle
 that may pertain to you.
 
@@ -3554,9 +3427,6 @@ Movie and MPEG-4 files
 00:42:58.646 --> 00:43:01.466 A:middle
 and here comes Adam Sonnanstine
 now, a colleague of mine
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:01.466 --> 00:43:03.186 A:middle
 from the Media Systems Group,
@@ -3637,9 +3507,6 @@ whole thing using a scenario
 00:43:56.356 --> 00:44:00.686 A:middle
 where we add a new subtitle
 track to an existing Movie file.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:00.886 --> 00:44:02.656 A:middle
 So to see that scenario
@@ -3728,9 +3595,6 @@ So let's do that.
 So Courtney will type in the
 translation which is "Why"
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:01.896 --> 00:45:05.686 A:middle
 and then what we're going to
 do is hit this button over here
@@ -3810,9 +3674,6 @@ Thank you, Courtney!
 00:45:57.176 --> 00:46:00.556 A:middle
 Alright, so let's take another
 look at that diagram here.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:00.966 --> 00:46:02.426 A:middle
 We're going to zoom
@@ -3902,9 +3763,6 @@ detailed overview in 2011,
 in the session called "Working
 with Media in AV Foundation,"
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:02.796 --> 00:47:05.696 A:middle
 and this one you can
 actually watch directly
@@ -3985,9 +3843,6 @@ and then you add
 00:47:59.986 --> 00:48:01.116 A:middle
 that into your Asset Writer.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:01.116 --> 00:48:04.106 A:middle
 And you see here that we
 nominated the Spanish input
@@ -4064,9 +3919,6 @@ associations.
 00:48:58.066 --> 00:49:00.796 A:middle
 The last one I want to talk
 about is tagged characteristics.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:01.156 --> 00:49:03.576 A:middle
 We've talked in some
@@ -4157,9 +4009,6 @@ and sound for accessibility."
 00:49:59.156 --> 00:50:01.626 A:middle
 Alright, so that is all of
 our accessibility features
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:01.626 --> 00:50:02.706 A:middle
 and how to author them.
@@ -4255,9 +4104,6 @@ taking up the whole screen,
 you might want to put the
 subtitles somewhere else.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:01.666 --> 00:51:04.766 A:middle
 So, if you had access
 to the actual text
@@ -4343,9 +4189,6 @@ subtitles in HTML5 text tracks
 00:51:59.076 --> 00:52:01.956 A:middle
 and the in-band subtitles
 carried in HLS Streams
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:01.956 --> 00:52:04.946 A:middle
 and QuickTime Movie files
@@ -4441,9 +4284,6 @@ Movie file, which one is going
 00:52:59.276 --> 00:53:00.486 A:middle
 to be delivered to the delegate?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:53:00.486 --> 00:53:03.276 A:middle
 Well, it's the same story as if
 we were drawing it ourselves.
@@ -4537,9 +4377,6 @@ from, those attributed strings.
 The third parameter, the
 Native Sample Buffers,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:54:01.486 --> 00:54:04.536 A:middle
 is a more advanced use; most
 people won't need to use it.
@@ -4628,9 +4465,6 @@ pretty familiar.
 00:54:58.026 --> 00:55:01.536 A:middle
 The second thing is that
 this is a common format.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:55:01.536 --> 00:55:03.896 A:middle
 We're going to give you the
@@ -4726,9 +4560,6 @@ provide two services.
 You can both access the
 current set of user preferences
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:56:02.316 --> 00:56:04.596 A:middle
 and it will also give
 you a notification
@@ -4822,9 +4653,6 @@ you to do that,
 but more importantly your
 users don't want you do
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:57:01.666 --> 00:57:02.426 A:middle
 to that either.
 
@@ -4905,9 +4733,6 @@ text during playback using
 00:57:58.116 --> 00:57:59.656 A:middle
 AVPlayerItemLegibleOutput.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:58:00.046 --> 00:58:03.606 A:middle
 For more information we have our
 documentation, and you can check
@@ -4968,4 +4793,3 @@ Thank you!
 
 00:58:37.066 --> 00:58:46.710 A:middle
 [ Silence ]
-

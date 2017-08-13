@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:01.516 --> 00:00:09.566 A:middle
 [ Silence ]
@@ -58,9 +57,6 @@ it's pretty easy
 
 00:00:58.006 --> 00:01:00.226 A:middle
 to do it's just an XML file.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.876 --> 00:01:02.826 A:middle
 So today we're going
@@ -121,9 +117,6 @@ but I like to use routines
 00:01:58.206 --> 00:02:02.926 A:middle
 and handlers in my scripts quite
 a bit instead of writing code
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:02.926 --> 00:02:05.206 A:middle
 over and over, I like
@@ -197,9 +190,6 @@ scripts and it worked very well
 and then I would create
 another one and then I would put
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:01.056 --> 00:03:04.866 A:middle
 in in some of my scripts and
 not in some of the other ones
@@ -262,9 +252,6 @@ create an AppleScript Library.
 Because Libraries are
 loaded by the script,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:02.106 --> 00:04:04.466 A:middle
 the script is controlling
 how they use
@@ -277,11 +264,11 @@ avoid terminology conflicts
 or resource problems, all
 of that kind of goes away
 
-00:04:12.796 --> 00:04:17.005 A:middle
+00:04:12.796 --> 00:04:17.006 A:middle
 because the script is
 loading the Library
 
-00:04:17.005 --> 00:04:19.886 A:middle
+00:04:17.006 --> 00:04:19.886 A:middle
 and the Libraries
 live within the space
 
@@ -324,9 +311,6 @@ and your AppleScript Libraries.
 00:04:56.246 --> 00:05:00.886 A:middle
 In addition you can also have
 your libraries publish their own
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.886 --> 00:05:05.126 A:middle
 terminology which means
@@ -392,9 +376,6 @@ clause and it's a way
 to import terminology and
 to bring in dictionaries
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.186 --> 00:06:03.266 A:middle
 and libraries into your script
 
@@ -452,9 +433,6 @@ load its contents into memory
 00:06:59.386 --> 00:07:03.006 A:middle
 and then talk to that
 script file in memory
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:03.006 --> 00:07:04.486 A:middle
 and have it do things for you.
@@ -516,9 +494,6 @@ you have to develop way
 00:07:57.846 --> 00:08:00.156 A:middle
 to locate folders locally,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.446 --> 00:08:03.186 A:middle
 regardless of how drives
 are named and you have
@@ -549,11 +524,11 @@ script file directly and pass
 00:08:29.376 --> 00:08:30.766 A:middle
 through information to them.
 
-00:08:31.286 --> 00:08:34.025 A:middle
+00:08:31.286 --> 00:08:34.026 A:middle
 This means that there's
 no custom terminology,
 
-00:08:34.265 --> 00:08:36.506 A:middle
+00:08:34.266 --> 00:08:36.506 A:middle
 you have to remember
 handler names,
 
@@ -587,9 +562,6 @@ a lot of those
 00:08:58.036 --> 00:09:01.936 A:middle
 with our AppleScript Libraries
 so let's take a look at it.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:02.686 --> 00:09:04.826 A:middle
 We're going to start
@@ -660,9 +632,6 @@ the selection so it brings
 00:09:59.156 --> 00:10:00.976 A:middle
 up the contextual menu.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:01.836 --> 00:10:03.646 A:middle
 Now some of you might know
 
@@ -716,9 +685,6 @@ at being able to convert
 00:10:56.366 --> 00:11:00.196 A:middle
 to upper case transformation, so
 we'll have something like how,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.196 --> 00:11:05.946 A:middle
 now brown cow in lower case
@@ -790,9 +756,6 @@ objective C, let's begin.
 An AppleScript script
 library, so it beings
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:01.576 --> 00:12:04.986 A:middle
 with having a handler some
 kind of AppleScript handler
@@ -860,9 +823,6 @@ to the script itself.
 Something simple right, now
 we're going to take this
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.736 --> 00:13:03.476 A:middle
 and make this and make
 this into a library
@@ -929,9 +889,6 @@ a new folder called Script
 Libraries and then you take your
 newly saved AppleScript file
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:03.016 --> 00:14:06.726 A:middle
 and you drag that into the
 Script Libraries folders
@@ -988,9 +945,6 @@ followed by the name
 of your library and you notice
 I left the name extension off,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:02.966 --> 00:15:04.666 A:middle
 you don't need to have
 the name extension there.
@@ -1045,9 +999,6 @@ handler how now brown cow
 00:15:56.376 --> 00:16:00.326 A:middle
 and I have a case indicator of
 one meaning I want upper case.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.856 --> 00:16:05.126 A:middle
 So I run my script, it
@@ -1116,9 +1067,6 @@ example using the power
 00:16:59.696 --> 00:17:01.786 A:middle
 of AppleScript objective C.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:02.156 --> 00:17:04.796 A:middle
 So this will be a
 simple library written
@@ -1127,7 +1075,7 @@ simple library written
 in AppleScript objective C,
 everybody with me so far?
 
-00:17:08.786 --> 00:17:10.195 A:middle
+00:17:08.786 --> 00:17:10.196 A:middle
 Not so hard right, okay good.
 
 00:17:11.766 --> 00:17:17.796 A:middle
@@ -1176,9 +1124,6 @@ case string, lower case string
 
 00:17:59.336 --> 00:18:00.656 A:middle
 or capitalized string.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.536 --> 00:18:04.606 A:middle
 Once that transforms
@@ -1245,9 +1190,6 @@ it a different name,
 I'm going to call this one ASOC
 text transform and ASOC stands
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:01.696 --> 00:19:03.426 A:middle
 for AppleScript objective C.
 
@@ -1312,9 +1254,6 @@ and name it whatever you like,
 it contains a short version
 number, a bundle version number,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:02.696 --> 00:20:07.646 A:middle
 a copyright string, the
 terminology file name
@@ -1365,9 +1304,6 @@ productions dot asoc dot text
 00:20:54.296 --> 00:20:59.146 A:middle
 dot transform and then we're
 going to give a copyright string
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.006 --> 00:21:03.026 A:middle
 and most importantly we're
@@ -1442,9 +1378,6 @@ to me because it's complied
 that the script has located the
 library, prepared it for use,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:03.026 --> 00:22:07.136 A:middle
 it's ready to go, I can
 encase it within a tell block
@@ -1504,9 +1437,6 @@ and ability because it taps
 00:22:57.146 --> 00:23:00.536 A:middle
 into the power of the
 Cocoa class NSString
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.536 --> 00:23:01.906 A:middle
 to do all the heavy lifting.
@@ -1582,9 +1512,6 @@ folder and the slowest part
 00:23:59.556 --> 00:24:00.756 A:middle
 of this is giving it a name,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:00.756 --> 00:24:07.016 A:middle
 I'm going to call it AppleScript
 change case and we're done,
@@ -1647,9 +1574,6 @@ Folder button to create
 that folder and then you
 could save the script
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:02.606 --> 00:25:06.426 A:middle
 in there and that's it.
 
@@ -1707,9 +1631,6 @@ going to be found,
 when we try to compile it
 we get an error that says
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:02.266 --> 00:26:04.646 A:middle
 that it couldn't find that
 script so you'll know early
@@ -1762,9 +1683,6 @@ get converted to upper case.
 00:26:58.636 --> 00:27:02.016 A:middle
 That's because AppleScript
 doesn't have native support
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:02.076 --> 00:27:04.926 A:middle
 for doing case changes and
@@ -1825,9 +1743,6 @@ to save it as a script bundle
 00:27:58.356 --> 00:28:00.306 A:middle
 but that's a pretty
 easy thing to do.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.336 --> 00:28:03.356 A:middle
 I'm going to open
@@ -1892,9 +1807,6 @@ of version numbers
 because when you start
 distributing and reusing
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:02.516 --> 00:29:05.056 A:middle
 and updating libraries you
 can use it to distinguish
@@ -1958,9 +1870,6 @@ and convert it back
 00:29:59.056 --> 00:30:00.276 A:middle
 to an AppleScript string.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:05.696 --> 00:30:10.856 A:middle
 All right so that's it we've
 created an AppleScript objective
@@ -2012,9 +1921,6 @@ of the string.
 00:30:57.296 --> 00:31:00.196 A:middle
 So you can see that using
 AppleScript objective C we can
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.196 --> 00:31:02.136 A:middle
 go beyond what we
@@ -2098,9 +2004,6 @@ do this stuff live, right,
 and so we were looking at the
 example that Chris had there
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:02.796 --> 00:32:05.376 A:middle
 and if we look at the syntax
 that was involved here,
@@ -2160,9 +2063,6 @@ want to be able to say this
 00:32:56.006 --> 00:33:00.756 A:middle
 because I can remember this,
 remembering the names of 150
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.756 --> 00:33:04.856 A:middle
 or 200 different handlers that's
@@ -2224,14 +2124,11 @@ are actually files
 that get displayed within the
 AppleScript editor application.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:34:01.886 --> 00:34:08.235 A:middle
+00:34:01.886 --> 00:34:08.236 A:middle
 These scripting dictionary files
 are called sdefs which stands
 
-00:34:08.235 --> 00:34:12.356 A:middle
+00:34:08.236 --> 00:34:12.356 A:middle
 for scripting dictionary
 and they are placed inside
 
@@ -2239,11 +2136,11 @@ and they are placed inside
 of the bundle of your
 AppleScript library
 
-00:34:16.176 --> 00:34:19.775 A:middle
+00:34:16.176 --> 00:34:19.776 A:middle
 so for the first time ever
 today we're going to look at how
 
-00:34:19.775 --> 00:34:23.446 A:middle
+00:34:19.776 --> 00:34:23.446 A:middle
 to create an sdef or a
 scripting definition file
 
@@ -2251,7 +2148,7 @@ scripting definition file
 or just call the
 scripting dictionary.
 
-00:34:26.505 --> 00:34:29.226 A:middle
+00:34:26.506 --> 00:34:29.226 A:middle
 Now these are XML
 based documents,
 
@@ -2259,14 +2156,14 @@ based documents,
 they have a name
 extension of .sdef
 
-00:34:32.795 --> 00:34:36.426 A:middle
+00:34:32.796 --> 00:34:36.426 A:middle
 and they define the
 various scripting elements
 
 00:34:36.426 --> 00:34:38.746 A:middle
 that are part of your library.
 
-00:34:38.795 --> 00:34:44.346 A:middle
+00:34:38.796 --> 00:34:44.346 A:middle
 For example a suite or a command
 that might have parameters
 
@@ -2288,9 +2185,6 @@ so that your customer
 00:34:57.576 --> 00:35:00.346 A:middle
 or you can actually
 see an example script
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.346 --> 00:35:02.286 A:middle
 that uses the terminology.
@@ -2351,9 +2245,6 @@ contains the master sdef file
 00:35:58.936 --> 00:36:01.976 A:middle
 that tells the system how
 an sdef file is supposed
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:01.976 --> 00:36:02.546 A:middle
 to be read.
@@ -2417,9 +2308,6 @@ code, Apple reserves the use
 of four character codes
 that are all lower case.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:03.666 --> 00:37:07.346 A:middle
 So those are used by Apple
 applications like definder
@@ -2478,9 +2366,6 @@ it gets and 8 character code,
 00:37:57.486 --> 00:38:00.336 A:middle
 commands are the only thing
 that gets this 8 character code
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.896 --> 00:38:02.206 A:middle
 and the reason it does is
@@ -2543,9 +2428,6 @@ the second parameter here,
 so I insert a parameter
 tag in my command pairing
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:01.566 --> 00:39:04.236 A:middle
 and this one gets
 the name of two,
@@ -2604,9 +2486,6 @@ couple of attributes,
 00:39:56.396 --> 00:40:00.816 A:middle
 the most important being its
 name has to match the type
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.816 --> 00:40:05.506 A:middle
 that you just called in the
@@ -2668,9 +2547,6 @@ lower case, word case.
 
 00:40:58.606 --> 00:40:59.726 A:middle
 This is what it looks like,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.116 --> 00:41:02.656 A:middle
 if you saved this you
@@ -2736,9 +2612,6 @@ into my documentation.
 00:41:56.406 --> 00:42:00.516 A:middle
 What I like to do myself is
 always have an example script
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:00.516 --> 00:42:02.366 A:middle
 of how to call the command.
@@ -2808,9 +2681,6 @@ file when you create it.
 Now that we've done that we save
 that file, we give it the name
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:03.816 --> 00:43:06.176 A:middle
 that we had for it,
 AppleScript text utilities
@@ -2877,9 +2747,6 @@ objective C, the contents
 of the resources folder
 and the little action menu
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.226 --> 00:44:03.596 A:middle
 that you can do things
 in the resources folder.
@@ -2941,9 +2808,6 @@ to the script bundle,
 00:44:55.406 --> 00:44:59.816 A:middle
 so we have our AppleScript
 Library bundle
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:00.316 --> 00:45:03.606 A:middle
 and we've been using this one
@@ -3015,9 +2879,6 @@ works again it takes the source
 string, converts it to a Cocoa
 string using NSString's string
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:04.516 --> 00:46:09.736 A:middle
 method, string with string and
 then based upon a comparison
@@ -3076,9 +2937,6 @@ in there and that's it,
 00:46:58.076 --> 00:47:01.206 A:middle
 it is now installed
 and now we can call it
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:01.596 --> 00:47:04.376 A:middle
 so next step using the library.
@@ -3142,9 +3000,6 @@ and the case changes.
 Now I'll walk you
 through it real quick,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:01.666 --> 00:48:04.836 A:middle
 you get the selected items that
 are selected and you iterate
@@ -3207,9 +3062,6 @@ script I enter the word use
 and then my script
 library identifier and what
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:02.546 --> 00:49:05.746 A:middle
 that does is dynamically
 load my library
@@ -3270,9 +3122,6 @@ like, it's easy to remember,
 00:49:58.106 --> 00:50:02.646 A:middle
 it's powerful to use, it's
 clean and it's a smooth syntax.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:03.276 --> 00:50:06.626 A:middle
 Now when you deploy libraries,
@@ -3337,9 +3186,6 @@ a new plug-in architecture
 00:50:58.516 --> 00:51:01.456 A:middle
 enabling quick development
 and access
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:01.456 --> 00:51:03.466 A:middle
 to your favorite
@@ -3407,9 +3253,6 @@ was given to the world.
 00:51:57.516 --> 00:52:02.656 A:middle
 [ Applause ]
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:03.156 --> 00:52:05.586 A:middle
 In 1993 AppleScript released
 
@@ -3476,7 +3319,3 @@ it, thank you so much.
 
 00:52:56.016 --> 00:53:00.006 A:middle
 [ Silence ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-

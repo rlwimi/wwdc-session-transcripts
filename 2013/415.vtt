@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:10.516 --> 00:00:16.076 A:middle
 [ Applause ]
@@ -66,9 +65,6 @@ your app all ready to go,
 00:00:57.566 --> 00:00:59.836 A:middle
 we're talking about getting
 your app in the App Store
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.336 --> 00:01:01.706 A:middle
 and over here we're
@@ -149,9 +145,6 @@ and brand new features.
 00:01:59.746 --> 00:02:02.416 A:middle
 Once you've done that,
 the next best thing
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:02.416 --> 00:02:04.466 A:middle
 that you can do is go into--
@@ -237,9 +230,6 @@ all that good stuff,
 00:02:59.936 --> 00:03:01.776 A:middle
 you can also see example code,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:01.776 --> 00:03:03.766 A:middle
 so you can see exactly
 what you need to do
@@ -316,9 +306,6 @@ and have that next to you.
 If you're anything like me,
 when you're coding away,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.856 --> 00:04:03.896 A:middle
 you want to be able to access
 stuff nice and quickly.
@@ -345,10 +332,10 @@ And the nice thing is in Xcode
 to make it really, really
 nice and easy to go through
 
-00:04:19.426 --> 00:04:20.375 A:middle
+00:04:19.426 --> 00:04:20.376 A:middle
 and check these things out.
 
-00:04:20.375 --> 00:04:24.796 A:middle
+00:04:20.376 --> 00:04:24.796 A:middle
 And not only that, there are
 a lot of other cool things
 
@@ -401,9 +388,6 @@ headers and the API reference,
 00:04:57.426 --> 00:05:00.876 A:middle
 but you also get our links
 to any programming guides
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.476 --> 00:05:04.416 A:middle
 that might be helpful with
@@ -487,9 +471,6 @@ still not sure what to do,
 the next best place you can
 go is the Developer Forums.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.816 --> 00:06:08.056 A:middle
 So devforums.apple.com and
 we have areas for iOS, OS X.
@@ -565,9 +546,6 @@ or if they get that answered.
 00:06:57.796 --> 00:07:02.106 A:middle
 And also, you also have Apple
 employees there as well.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:02.996 --> 00:07:07.666 A:middle
 So over here, if you see an
@@ -651,9 +629,6 @@ following some guideline.
 And actually, Rincewind is
 actually an Apple engineer.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:04.376 --> 00:08:06.006 A:middle
 So if you ever see an avatar
 
@@ -698,7 +673,7 @@ answer that they want.
 00:08:31.066 --> 00:08:32.226 A:middle
 You'd also report a post.
 
-00:08:32.226 --> 00:08:34.635 A:middle
+00:08:32.226 --> 00:08:34.636 A:middle
 So that doesn't necessarily
 mean that something is bad here,
 
@@ -710,11 +685,11 @@ great question
 but maybe it's in
 the wrong area.
 
-00:08:37.996 --> 00:08:40.765 A:middle
+00:08:37.996 --> 00:08:40.766 A:middle
 So if you click there, a
 moderator can go take a look
 
-00:08:40.765 --> 00:08:42.366 A:middle
+00:08:40.766 --> 00:08:42.366 A:middle
 on what's going on,
 actually moving around.
 
@@ -737,9 +712,6 @@ and you need some help from us.
 00:08:57.216 --> 00:09:00.676 A:middle
 So, one of the first main areas
 about this is bug reporting
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.676 --> 00:09:04.676 A:middle
 and for that I'm going
@@ -818,9 +790,6 @@ help you out directly.
 00:09:55.106 --> 00:10:00.316 A:middle
 You see we worked really hard
 to make an amazing platform,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.316 --> 00:10:04.146 A:middle
 make amazing tools that help
@@ -905,9 +874,6 @@ they have a few questions.
 Sometimes they say, well,
 Tanya, I saw this problem,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:02.976 --> 00:11:05.746 A:middle
 but it was an extremely
 trivial issue,
@@ -980,9 +946,6 @@ it's a really obvious problem,
 I'm sure you have 12
 copies of the bug.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:02.456 --> 00:12:04.796 A:middle
 I am sure someone else
 has already filed it,
@@ -1044,9 +1007,6 @@ come into work every morning,
 00:12:59.016 --> 00:13:02.546 A:middle
 the first thing we do is to
 go through our list of bugs
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:02.686 --> 00:13:06.976 A:middle
 to figure out what is it
@@ -1111,9 +1071,6 @@ are provided with a problem ID
 00:13:56.326 --> 00:14:01.146 A:middle
 and you can use this ID to
 track the status of your bug.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:02.076 --> 00:14:05.236 A:middle
 Also, even after the bug
@@ -1185,9 +1142,6 @@ Well, when it comes to software,
 there are few things you can
 use these bug reports for.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:02.276 --> 00:15:06.776 A:middle
 Bugs, if you notice something
 does not work as expected,
@@ -1255,9 +1209,6 @@ to how we schedule things.
 00:15:58.266 --> 00:16:01.556 A:middle
 So let's look at the
 graphical representation
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:01.746 --> 00:16:02.926 A:middle
 of the problem at hand.
@@ -1334,9 +1285,6 @@ we don't look at it ever?
 00:16:58.666 --> 00:16:59.506 A:middle
 Absolutely no.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.486 --> 00:17:03.306 A:middle
 We will address that
 in the next release.
@@ -1352,11 +1300,11 @@ bug getting fixed in time.
 00:17:11.006 --> 00:17:12.226 A:middle
 But before we talk about that,
 
-00:17:13.205 --> 00:17:17.205 A:middle
+00:17:13.206 --> 00:17:17.206 A:middle
 let's look at what actually
 happens after you file your bug.
 
-00:17:17.856 --> 00:17:19.715 A:middle
+00:17:17.856 --> 00:17:19.716 A:middle
 So as we had established
 earlier,
 
@@ -1407,9 +1355,6 @@ you get back the bug report,
 00:17:58.026 --> 00:18:00.956 A:middle
 you verify that the problem
 was fixed and we also recommend
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.956 --> 00:18:03.296 A:middle
 that you do this as
@@ -1484,9 +1429,6 @@ of how widespread the problem is
 so that we can prioritize
 it correctly.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:01.536 --> 00:19:06.466 A:middle
 Even if your issue was tagged as
 a duplicate, you have the option
@@ -1558,9 +1500,6 @@ with clarifying questions.
 00:19:58.786 --> 00:20:00.266 A:middle
 You collected the information
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.266 --> 00:20:02.266 A:middle
 and sent it back to
 us which is great.
@@ -1626,9 +1565,6 @@ additional enclosures,
 configuration information
 and reproducibility.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:01.596 --> 00:21:05.296 A:middle
 Let's start by looking
 at the title.
@@ -1691,9 +1627,6 @@ with the bug title think
 00:21:59.196 --> 00:22:02.166 A:middle
 about how is it that you
 would search for the issue
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:03.136 --> 00:22:04.936 A:middle
 and hopefully that will
@@ -1768,9 +1701,6 @@ relevant for seed build,
 'cause when we see the title
 we can clearly and easily tell
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.346 --> 00:23:01.896 A:middle
 that this problem
 was encountered
@@ -1838,9 +1768,6 @@ message, this is a great place
 00:23:56.806 --> 00:23:59.686 A:middle
 to put the exact text
 of the error message.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.686 --> 00:24:04.066 A:middle
 And so remember be specific.
@@ -1915,9 +1842,6 @@ That is much better.
 00:24:56.966 --> 00:25:00.956 A:middle
 So let's look at
 an example summary
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:01.896 --> 00:25:03.146 A:middle
 for the copy and paste problem.
@@ -1999,9 +1923,6 @@ file using finder?
 Did you open the
 file using terminal?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:01.716 --> 00:26:03.726 A:middle
 That might be a relevant
 piece of information.
@@ -2079,9 +2000,6 @@ has actually very important,
 because sometimes what you
 expect might not be consistent
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:04.336 --> 00:27:05.936 A:middle
 with what the engineer expects.
 
@@ -2138,9 +2056,6 @@ the regression section.
 00:27:54.766 --> 00:28:00.536 A:middle
 Use a section to specify
 when does the problem occur,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.536 --> 00:28:02.556 A:middle
 when does is it not occur?
@@ -2212,9 +2127,6 @@ enclosures.
 Now when you're filing a bug
 report there might be extra
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.526 --> 00:29:03.986 A:middle
 information that you
 can attach to your bug
@@ -2278,9 +2190,6 @@ excellent documentation
 00:29:59.706 --> 00:30:01.926 A:middle
 on what sorts of
 logs you can attach
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:02.156 --> 00:30:03.326 A:middle
 to what sorts of problems.
@@ -2357,9 +2266,6 @@ format, there will be prefix
 for the name of the application
 of the process that had crashed.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:03.016 --> 00:31:04.876 A:middle
 And will also contain
 a timestamp
@@ -2425,9 +2331,6 @@ because they capture some really
 important application and
 system state information.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:01.466 --> 00:32:03.966 A:middle
 They might contain
 some error information
@@ -2490,9 +2393,6 @@ is worth a thousand words.
 00:32:59.406 --> 00:33:03.816 A:middle
 And this is especially relevant
 when it comes to bug reports.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:03.816 --> 00:33:07.366 A:middle
 You see, you might have
@@ -2571,9 +2471,6 @@ you want to do.
 To capture the full screen,
 use Command+Shift and 3.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:02.666 --> 00:34:07.106 A:middle
 To capture a part of the
 screen use Command+Shift and 4,
@@ -2582,7 +2479,7 @@ screen use Command+Shift and 4,
 and just specific window,
 this is actually handy,
 
-00:34:10.525 --> 00:34:12.746 A:middle
+00:34:10.526 --> 00:34:12.746 A:middle
 Command+Shift+4, and
 then press the spacebar.
 
@@ -2602,11 +2499,11 @@ screenshots are not good enough.
 Perhaps you're trying to
 describe a sequence of events
 
-00:34:29.235 --> 00:34:31.656 A:middle
+00:34:29.236 --> 00:34:31.656 A:middle
 or a bad animation or
 something being slow.
 
-00:34:32.806 --> 00:34:35.255 A:middle
+00:34:32.806 --> 00:34:35.256 A:middle
 In all these cases screen
 recordings are great.
 
@@ -2626,7 +2523,7 @@ button, reproduce the issue,
 stop the recording you should
 have a movie file you can very
 
-00:34:52.146 --> 00:34:53.485 A:middle
+00:34:52.146 --> 00:34:53.486 A:middle
 easily attach to
 your bug report.
 
@@ -2639,9 +2536,6 @@ Next up are snapshots.
 00:34:59.686 --> 00:35:02.996 A:middle
 You know, snapshots are
 essentially a state snapshot
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:03.526 --> 00:35:05.656 A:middle
 of all the processes
@@ -2714,9 +2608,6 @@ prefixed with the word stacks
 00:35:59.596 --> 00:36:01.316 A:middle
 and will contain the timestamp
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:01.316 --> 00:36:03.296 A:middle
 from when the problem
 had happened.
@@ -2788,9 +2679,6 @@ to your bug report.
 I have to admit, this is a lot
 of work and it's probably going
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:01.896 --> 00:37:02.746 A:middle
 to take a lot of time.
 
@@ -2857,9 +2745,6 @@ in order to improve the chances.
 00:37:54.766 --> 00:38:00.586 A:middle
 With that, let's talk about
 the configuration information
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.616 --> 00:38:02.106 A:middle
 component of a bug report.
@@ -2935,9 +2820,6 @@ has some excellent steps
 00:38:59.396 --> 00:39:01.776 A:middle
 on how you can go about
 collecting this information.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:02.276 --> 00:39:05.516 A:middle
 Last component, we're
@@ -3019,9 +2901,6 @@ filing these bug reports.
 00:39:57.346 --> 00:39:59.266 A:middle
 So file as early as possible.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.096 --> 00:40:04.476 A:middle
 Also start off with well
 written actionable bug reports
@@ -3086,9 +2965,6 @@ response for developers
 00:40:57.906 --> 00:41:03.466 A:middle
 of our iOS, OS X and
 MFi developer programs.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:03.466 --> 00:41:04.926 A:middle
 So, if you have question
@@ -3157,9 +3033,6 @@ you're going to contact DTS.
 To do that, what
 you need to do is go
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.766 --> 00:42:05.576 A:middle
 to
 developer.apple.com/membercenter
@@ -3225,9 +3098,6 @@ can actually figure out how
 00:42:58.016 --> 00:42:59.286 A:middle
 to solve the problem themselves.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:00.106 --> 00:43:02.836 A:middle
 If not, when you
 submit the support
@@ -3290,9 +3160,6 @@ highly recommend reading
 00:43:54.266 --> 00:43:59.576 A:middle
 if you have started debugging
 your app, or your about to.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:00.116 --> 00:44:01.956 A:middle
 The second one, understanding
@@ -3367,9 +3234,6 @@ So, thank you very much.
 00:44:57.246 --> 00:45:00.296 A:middle
 With that let me hand
 you back to Nahir.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:03.906 --> 00:45:07.036 A:middle
 &gt;&gt; So now, you've made your
@@ -3452,9 +3316,6 @@ that on this website.
 00:45:57.916 --> 00:46:00.236 A:middle
 You can get full
 pictures of our products,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:00.236 --> 00:46:01.316 A:middle
 you can get to those links.
@@ -3549,9 +3410,6 @@ get an expedited app review.
 So, if you have an app in
 the App Store right now
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:00.026 --> 00:47:03.716 A:middle
 and you notice there's a very
 horrible crash and you needed
@@ -3636,9 +3494,6 @@ and deal with the ad process.
 And also you can go in to
 get In-App purchases and how
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:02.316 --> 00:48:03.706 A:middle
 to set those things up as well.
 
@@ -3719,9 +3574,6 @@ check that out as well.
 Now, iTunes Connect as I
 mentioned is a very large area,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:00.006 --> 00:49:03.736 A:middle
 so we actually have gigantic
 guidelines here, both for iOS
@@ -3791,9 +3643,6 @@ really good tips on how
 00:49:58.336 --> 00:49:59.586 A:middle
 to file some really great ones.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:00.196 --> 00:50:04.436 A:middle
 We got some links here about
 some of the places or some
@@ -3826,4 +3675,3 @@ guys again soon.
 
 00:50:29.516 --> 00:50:32.500 A:middle
 [ Applause ]
-

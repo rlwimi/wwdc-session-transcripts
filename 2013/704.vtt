@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.396 A:middle
 [ Silence ]
@@ -40,11 +39,11 @@ it takes your application
 00:00:29.246 --> 00:00:30.426 A:middle
 to perform a specific action.
 
-00:00:31.246 --> 00:00:32.555 A:middle
+00:00:31.246 --> 00:00:32.556 A:middle
 What I want to talk
 to you today is not
 
-00:00:32.555 --> 00:00:35.916 A:middle
+00:00:32.556 --> 00:00:35.916 A:middle
 about performance optimization,
 but about resource optimization.
 
@@ -78,9 +77,6 @@ there's one application
 00:00:59.456 --> 00:01:01.486 A:middle
 that a user is actively
 using at a time.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:01.486 --> 00:01:05.486 A:middle
 And so, that application
@@ -158,16 +154,13 @@ is currently unused.
 And this isn't really providing
 any value to the system,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:02.116 --> 00:02:02.866 A:middle
 it's just sitting there.
 
 00:02:03.676 --> 00:02:05.686 A:middle
 And some memory has been devoted
 
-00:02:05.686 --> 00:02:08.515 A:middle
+00:02:05.686 --> 00:02:08.516 A:middle
 to caching the contents
 of files on disk.
 
@@ -236,9 +229,6 @@ disk by application
 
 00:02:59.136 --> 00:03:01.096 A:middle
 to the system may take longer.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:01.096 --> 00:03:03.646 A:middle
 This is where we'll begin
@@ -323,9 +313,6 @@ of actual physical memory.
 00:03:58.936 --> 00:04:01.416 A:middle
 And virtual memory allows
 us to establish a mapping
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:01.416 --> 00:04:04.536 A:middle
 from that address space
@@ -412,9 +399,6 @@ that your memory will be swapped
 00:04:58.516 --> 00:05:00.716 A:middle
 when the system is under
 low memory situations.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.246 --> 00:05:03.866 A:middle
 It means that more memory will
@@ -507,9 +491,6 @@ then analyze those leaks
 to understand their
 cause and fix them.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.566 --> 00:06:04.046 A:middle
 Now, both these tools will
 be covered in much more depth
@@ -596,9 +577,6 @@ new leaks in your application.
 00:06:57.786 --> 00:07:00.206 A:middle
 And you want to consider
 any leaks that you find
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.606 --> 00:07:02.816 A:middle
 to be a bug you should
@@ -687,9 +665,6 @@ between multiple releases
 of your app to understand
 whether you've caused memory
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.496 --> 00:08:03.816 A:middle
 regressions and look for changes
 
@@ -746,7 +721,7 @@ environment variable.
 Then, run your app as you
 might when running heap.
 
-00:08:34.246 --> 00:08:36.895 A:middle
+00:08:34.246 --> 00:08:36.896 A:middle
 But instead, we'll
 now use the Leaks tool
 
@@ -784,9 +759,6 @@ using MallocStackLogging,
 00:08:57.546 --> 00:09:00.776 A:middle
 we'll also get the full call
 stack that allocated the object
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.256 --> 00:09:03.656 A:middle
 which can help you narrow down
@@ -870,9 +842,6 @@ objects in your application.
 00:09:58.886 --> 00:10:01.606 A:middle
 This is really helpful for
 deciding what things you want
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:01.606 --> 00:10:02.976 A:middle
 to target to as far
@@ -966,9 +935,6 @@ has a gauge memory pressure.
 This is roughly,
 an approximation
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.366 --> 00:11:04.996 A:middle
 of how difficult it is for the
 system to create new free memory
@@ -1047,9 +1013,6 @@ it's similar to NSData
 00:11:58.736 --> 00:12:01.296 A:middle
 but it has the property that
 its contents can be discarded
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:01.296 --> 00:12:03.826 A:middle
 automatically when the system
@@ -1130,9 +1093,6 @@ can continue to use the data.
 And eventually we'll want to
 call endContentAccess again
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:01.686 --> 00:13:03.816 A:middle
 to indicate to the system
 that we're no longer using it.
@@ -1209,9 +1169,6 @@ from behind you.
 00:13:57.236 --> 00:14:00.986 A:middle
 And it uses a version of
 least recently used eviction.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.986 --> 00:14:02.666 A:middle
 Should expect the contents
@@ -1298,9 +1255,6 @@ into a number of regions.
 These regions, each
 are then subdivided
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.736 --> 00:15:04.846 A:middle
 into 4 kilobyte pages, and
 those pages inherit a variety
@@ -1385,9 +1339,6 @@ often not part of the heap.
 And so, a simple game might
 have less than 10 percent
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:01.716 --> 00:16:04.876 A:middle
 of its memory actually
 allocated in its heap.
@@ -1469,9 +1420,6 @@ has leaked much more memory
 00:16:59.596 --> 00:17:00.326 A:middle
 in practice.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.016 --> 00:17:04.066 A:middle
 There's also CA layers,
 restore the contents
@@ -1502,18 +1450,18 @@ of your views.
 00:17:20.656 --> 00:17:22.276 A:middle
 There's also file-backed memory.
 
-00:17:22.665 --> 00:17:24.836 A:middle
+00:17:22.666 --> 00:17:24.836 A:middle
 And these are regions
 whose contents are backed
 
-00:17:24.836 --> 00:17:25.945 A:middle
+00:17:24.836 --> 00:17:25.946 A:middle
 by a file on disk.
 
-00:17:26.116 --> 00:17:28.205 A:middle
+00:17:26.116 --> 00:17:28.206 A:middle
 And what's interesting
 about these regions is
 
-00:17:28.205 --> 00:17:31.346 A:middle
+00:17:28.206 --> 00:17:31.346 A:middle
 that we will populate them with
 the contents of that file only
 
@@ -1563,9 +1511,6 @@ its code, it will fault
 
 00:17:59.086 --> 00:18:00.086 A:middle
 that code in from disk.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.476 --> 00:18:02.706 A:middle
 And then, as it accesses
@@ -1649,9 +1594,6 @@ back out to disk.
 00:18:58.266 --> 00:19:00.556 A:middle
 Now, what makes a dirty
 memory interesting is
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.556 --> 00:19:03.186 A:middle
 that it's much more expensive
@@ -1740,9 +1682,6 @@ then provide the name
 of that allocation,
 when it's known.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:03.056 --> 00:20:04.686 A:middle
 And you can then drill
 down to understand
@@ -1823,9 +1762,6 @@ simple number for the amount
 00:20:58.136 --> 00:20:59.656 A:middle
 of memory my application
 is using?"
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.426 --> 00:21:03.286 A:middle
 Well, this is something we've
@@ -1919,9 +1855,6 @@ between multiple processes.
 You'll most commonly see
 this for graphics memory
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:01.826 --> 00:22:03.766 A:middle
 or in multi-process
 applications.
@@ -1999,9 +1932,6 @@ pressure look like?
 00:22:55.886 --> 00:23:00.636 A:middle
 So I want to walk through what a
 system will do to satisfy demand
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.636 --> 00:23:03.626 A:middle
 for new memory given these
@@ -2090,9 +2020,6 @@ which you'll see the system
 performance really
 begin to decline.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:03.976 --> 00:24:06.616 A:middle
 Now, in Mavericks, there's
 one more part of this.
@@ -2173,9 +2100,6 @@ can see a breakdown
 of where memory is being
 used in your system.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:01.796 --> 00:25:05.266 A:middle
 App memory refers to anonymous
 memory regions like heap
@@ -2252,9 +2176,6 @@ for each of those headers.
 00:25:57.186 --> 00:26:00.856 A:middle
 And so, we can see here, we have
 a couple statistics that cover
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.896 --> 00:26:02.786 A:middle
 where a memory is
@@ -2338,9 +2259,6 @@ both user and kernel stacks.
 00:26:58.786 --> 00:27:00.476 A:middle
 So you can see what
 the kernel is doing
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.476 --> 00:27:01.776 A:middle
 in response to a page fault.
@@ -2430,9 +2348,6 @@ other apps are running,
 and could be very
 difficult to reproduce.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.036 --> 00:28:03.656 A:middle
 So we provided something
 called sysdiagnose.
@@ -2517,9 +2432,6 @@ actionable data
 00:28:59.176 --> 00:29:00.646 A:middle
 about what your app was doing.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.646 --> 00:29:01.186 A:middle
 All right.
 
@@ -2599,9 +2511,6 @@ with two scenarios
 00:29:59.566 --> 00:30:01.556 A:middle
 that you probably care
 about in your app.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:01.876 --> 00:30:04.076 A:middle
 And what that app launch
@@ -2687,9 +2596,6 @@ some set of frameworks
 to help it do IO,
 but ultimately,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:01.806 --> 00:31:04.216 A:middle
 all access to the disk are
 going to fall through one
@@ -2773,9 +2679,6 @@ has no seek penalty.
 On the other hand, a hard drive,
 because it uses rotating media
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:02.856 --> 00:32:05.316 A:middle
 and must first seek to
 the correct location
@@ -2858,9 +2761,6 @@ had relatively symmetric costs.
 00:32:59.666 --> 00:33:01.606 A:middle
 This meant in the past you
 might mostly have focused
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:01.606 --> 00:33:03.296 A:middle
 on what reads your
@@ -2951,9 +2851,6 @@ form of dispatch IO.
 Dispatch IO is an API that's
 part of Grand Central Dispatch.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:03.236 --> 00:34:04.906 A:middle
 It's been available since 10.7.
 
@@ -2961,7 +2858,7 @@ It's been available since 10.7.
 And it provides a declarative
 API for file access.
 
-00:34:08.525 --> 00:34:10.716 A:middle
+00:34:08.526 --> 00:34:10.716 A:middle
 What this means is that rather
 than telling a system how
 
@@ -2999,11 +2896,11 @@ file in a streaming manner.
 This might be a transcoding
 media searching for a string
 
-00:34:37.326 --> 00:34:40.485 A:middle
+00:34:37.326 --> 00:34:40.486 A:middle
 in a file or anything where you
 want to do a sequential read
 
-00:34:40.766 --> 00:34:43.025 A:middle
+00:34:40.766 --> 00:34:43.026 A:middle
 and do computation
 concurrently with IO.
 
@@ -3011,14 +2908,14 @@ concurrently with IO.
 So let's take a look
 at that example.
 
-00:34:45.106 --> 00:34:46.775 A:middle
+00:34:45.106 --> 00:34:46.776 A:middle
 And the first thing we're going
 
-00:34:46.775 --> 00:34:49.226 A:middle
+00:34:46.776 --> 00:34:49.226 A:middle
 to do is create a
 serial dispatch queue
 
-00:34:49.226 --> 00:34:51.485 A:middle
+00:34:49.226 --> 00:34:51.486 A:middle
 that we want our
 computation to run on.
 
@@ -3029,9 +2926,6 @@ IO object by providing a path
 00:34:59.156 --> 00:35:04.636 A:middle
 and informing dispatch IO that
 we want to read this data.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:04.636 --> 00:35:06.326 A:middle
 We can then set a
@@ -3124,9 +3018,6 @@ a lot of small files?
 Let's say for example you
 want to read in a couple
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:00.576 --> 00:36:02.096 A:middle
 of hundred thumbnails
 from a disk?
@@ -3214,9 +3105,6 @@ questions like,
 00:36:59.006 --> 00:37:00.986 A:middle
 how many of these
 operations should I have
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.986 --> 00:37:01.846 A:middle
 running concurrently?
@@ -3311,9 +3199,6 @@ other processes.
 Of course, using a database
 provides other benefits
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:02.026 --> 00:38:05.896 A:middle
 like control over atomicity so
 you can put multiple operations
@@ -3405,9 +3290,6 @@ than necessary?
 If you can combine multiple
 writes into a single flushing
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:03.306 --> 00:39:05.776 A:middle
 of data, that can help
 improve the IO performance
@@ -3485,9 +3367,6 @@ for the file cache.
 00:39:57.456 --> 00:40:00.416 A:middle
 And any time you pull new
 data into the file cache,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.756 --> 00:40:02.936 A:middle
 other data is going
@@ -3578,9 +3457,6 @@ to dispatch IO create.
 Now I also mentioned
 in the memory section,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.436 --> 00:41:02.536 A:middle
 file-backed memory regions.
 
@@ -3665,9 +3541,6 @@ use Memory Mapped IO
 or you can use the mmap system
 call to map a file into memory.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.946 --> 00:42:05.366 A:middle
 Now, regardless of how you do
 IO and what data you're writing
@@ -3744,9 +3617,6 @@ whenever possible.
 00:42:55.526 --> 00:43:01.136 A:middle
 Now, of course, it's-- none
 of these things are important
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:01.136 --> 00:43:03.806 A:middle
 until you understand what IO
@@ -3836,9 +3706,6 @@ itself is, have some data
 about the event, the
 duration the event lasted for,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:03.156 --> 00:44:05.296 A:middle
 and finally, the
 process and thread ID
@@ -3913,9 +3780,6 @@ of what type of IO we're doing.
 00:44:57.406 --> 00:45:00.216 A:middle
 So the command name will include
 things like whether it's a write
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:00.216 --> 00:45:02.766 A:middle
 or a read, whether
@@ -3995,9 +3859,6 @@ of your app significantly.
 00:45:59.496 --> 00:46:02.426 A:middle
 Try to defer those to a less
 critical time especially
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:02.426 --> 00:46:03.796 A:middle
 if it's the time
@@ -4083,9 +3944,6 @@ through it for you.
 00:46:56.516 --> 00:47:01.536 A:middle
 [ Pause ]
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:02.036 --> 00:47:05.026 A:middle
 Now this is potentially a little
 bit of an extreme example.
@@ -4167,9 +4025,6 @@ large files or large number
 of files is to usually
 dispatch IO APIs.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:01.236 --> 00:48:03.936 A:middle
 When profiling your disk
 accesses, make sure to do it
@@ -4243,9 +4098,6 @@ technique that you can use
 00:48:59.136 --> 00:49:01.056 A:middle
 to limit the resource
 use of your app
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:01.376 --> 00:49:02.736 A:middle
 when performing these
@@ -4337,9 +4189,6 @@ the user is actively using.
 And some sort of
 background task.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:01.016 --> 00:50:03.656 A:middle
 The background task wants
 to let's say, copy a file.
@@ -4424,9 +4273,6 @@ in response to UI operations.
 00:50:58.836 --> 00:51:00.116 A:middle
 Things that you run
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:00.116 --> 00:51:03.716 A:middle
 in the background may take
 an unbounded amount of time
@@ -4505,9 +4351,6 @@ out from other process,
 00:51:57.116 --> 00:52:00.456 A:middle
 you can use this boosting
 mechanism to unbackground tasks
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:00.716 --> 00:52:03.536 A:middle
 so that they complete quickly
@@ -4593,9 +4436,6 @@ the spindump tool.
 This is similar to
 time profiler sample.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:53:03.426 --> 00:53:07.436 A:middle
 But it has the advantage that it
 will also show you the priority
@@ -4674,9 +4514,6 @@ been a constant theme here is
 00:53:59.716 --> 00:54:02.936 A:middle
 that your users will experience
 different performance based
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:02.936 --> 00:54:04.696 A:middle
 on what type of system
@@ -4764,9 +4601,6 @@ and install a separate OS
 to your external hard drive
 and then you can boot off
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:55:01.576 --> 00:55:03.886 A:middle
 that by holding option at
 boot to get the BootPicker.
@@ -4853,9 +4687,6 @@ in with instruments
 to understand the memory
 uses of your application.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:56:00.686 --> 00:56:02.956 A:middle
 So just to summarize
 some key takeaways,
@@ -4914,4 +4745,3 @@ Thanks.
 
 00:56:40.016 --> 00:56:49.616 A:middle
 [ Silence ]
-

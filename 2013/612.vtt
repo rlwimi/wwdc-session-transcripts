@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.576 A:middle
 [ Silence ]
@@ -56,14 +55,11 @@ Ever since iOS 4 and Lion.
 It's used in a wide variety
 of video editing applications
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:00.926 --> 00:01:04.366 A:middle
 in the app store
 including those from Apple.
 
-00:01:04.495 --> 00:01:08.116 A:middle
+00:01:04.496 --> 00:01:08.116 A:middle
 It provides core and
 key fundamental tools
 
@@ -102,9 +98,6 @@ guys the opportunity
 00:01:57.276 --> 00:02:00.386 A:middle
 to place your code inside
 the video composition
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.386 --> 00:02:01.206 A:middle
 render pipeline.
@@ -154,9 +147,6 @@ composition architecture.
 So looking inside
 compositions as a whole,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:01.986 --> 00:03:04.176 A:middle
 we first see the AVComposition,
 
@@ -205,9 +195,6 @@ they're instruction objects,
 which store the mixing
 parameters.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.696 --> 00:04:02.976 A:middle
 But some instructions
 are simpler than others.
@@ -218,14 +205,14 @@ For example, one source track.
 00:04:05.446 --> 00:04:07.856 A:middle
 Another can take more than one.
 
-00:04:07.856 --> 00:04:16.125 A:middle
+00:04:07.856 --> 00:04:16.126 A:middle
 And looking at the first
 simple segment there,
 
-00:04:16.125 --> 00:04:17.206 A:middle
+00:04:16.126 --> 00:04:17.206 A:middle
 that first instruction.
 
-00:04:17.805 --> 00:04:22.106 A:middle
+00:04:17.806 --> 00:04:22.106 A:middle
 It's effectively just passing
 through frames from track A
 
@@ -271,9 +258,6 @@ with the mixing parameters.
 00:04:59.736 --> 00:05:04.326 A:middle
 In this case, a dissolve
 which we encode
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:04.326 --> 00:05:05.966 A:middle
 as a property in
@@ -321,9 +305,6 @@ which receives the new object,
 00:05:56.836 --> 00:06:00.306 A:middle
 AVAsynchronousVideoComposition
 request.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.876 --> 00:06:06.846 A:middle
 And, in addition, you'll
@@ -382,9 +363,6 @@ small subset here, but generally
 when we're decoding H.264 video,
 you'll receive YUV 8-bit 420.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:10.026 --> 00:07:13.596 A:middle
 But that could vary and
 your code may not be able
@@ -434,9 +412,6 @@ AttributesForRenderContext.
 And we're requiring
 32-bit BGRA here.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:05.356 --> 00:08:08.956 A:middle
 Now in order to get hold of a
 new empty frame to render into,
@@ -469,11 +444,11 @@ a managed pool.
 So the frame is allocated, we
 can then render in to their,
 
-00:08:39.346 --> 00:08:43.275 A:middle
+00:08:39.346 --> 00:08:43.276 A:middle
 in this case our dissolve and
 send the output on its way.
 
-00:08:43.275 --> 00:08:49.156 A:middle
+00:08:43.276 --> 00:08:49.156 A:middle
 Now let's jump into Xcode
 and we'll have a demo.
 
@@ -487,9 +462,6 @@ of a custom compositor.
 00:08:56.746 --> 00:09:01.176 A:middle
 So, here we're implementing
 our AVVideoCompositing protocol
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:02.256 --> 00:09:08.616 A:middle
 and those three methods that
@@ -540,9 +512,6 @@ source frames
 00:09:56.826 --> 00:09:59.726 A:middle
 from the passed in
 request object.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.616 --> 00:10:03.056 A:middle
 Now you'll get these as
@@ -609,9 +578,6 @@ and various other goodies.
 So let's play and
 we'll see what happens.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.496 --> 00:11:03.596 A:middle
 Okay so we've got a
 really simple wipe,
@@ -674,9 +640,6 @@ sort of animation and on
 00:11:59.606 --> 00:12:02.576 A:middle
 to calculate the vertical
 position of the white band.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:03.496 --> 00:12:08.056 A:middle
 We have to basically interpolate
@@ -747,9 +710,6 @@ it this time.
 Coming in quite fast, and
 there's our otters again.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:01.816 --> 00:13:03.646 A:middle
 I'll play that again.
 
@@ -811,9 +771,6 @@ bit different.
 You can see the, as it comes in,
 it's a strange, hypnotic effect.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:02.966 --> 00:14:06.866 A:middle
 But this we can play
 with it even more
@@ -856,9 +813,6 @@ which is an interpolation.
 00:14:56.546 --> 00:15:00.246 A:middle
 So let's have a quick
 overview of that
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.246 --> 00:15:03.316 A:middle
 in case you're not familiar
@@ -911,9 +865,6 @@ this tween factor
 00:15:56.606 --> 00:16:01.586 A:middle
 by dividing the elapsed
 time by the duration.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:01.586 --> 00:16:04.866 A:middle
 In which case we calculate
@@ -976,9 +927,6 @@ of 0 percent.
 Okay, so there's some
 performance considerations.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.426 --> 00:17:07.996 A:middle
 [Pause] But before we get to the
 performance, there's a caveat.
@@ -1022,9 +970,6 @@ simpler than others.
 00:17:57.636 --> 00:18:01.336 A:middle
 Some just take one source and
 don't modify the frame at all,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.336 --> 00:18:03.796 A:middle
 they simply pass through
@@ -1084,9 +1029,6 @@ single track.
 00:18:54.266 --> 00:19:00.246 A:middle
 Now what we don't want
 to do is just leave it
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.566 --> 00:19:03.666 A:middle
 to be the default value of
@@ -1153,9 +1095,6 @@ picture-in-picture effect.
 The picture-in-picture is at
 the top right for every frame.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:03.886 --> 00:20:05.446 A:middle
 The same source frames
 every time.
@@ -1209,9 +1148,6 @@ on this source frames coming in.
 With output it's less critical
 since the display, for example,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:05.626 --> 00:21:08.376 A:middle
 can accept multiple
 formats, like BGRA and YUV.
@@ -1238,9 +1174,6 @@ well, it's quite possible
 00:21:55.816 --> 00:22:01.696 A:middle
 to construct elaborate
 and complex compositions
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:01.826 --> 00:22:09.396 A:middle
 with entirely legal values while
@@ -1301,9 +1234,6 @@ result in black frames
 or just hanging onto
 the last frame.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:02.156 --> 00:23:06.256 A:middle
 And then just getting that
 alignment in the tracks wrong.
@@ -1354,9 +1284,6 @@ code, you look at the picture.
 So let's switch back
 to the demo machine.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.176 --> 00:24:03.536 A:middle
 I think I see that, yeah, okay.
 
@@ -1404,9 +1331,6 @@ the cuts only part.
 00:24:52.396 --> 00:25:00.176 A:middle
 So our source media starts
 here for video track 2
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.176 --> 00:25:02.396 A:middle
 and there for video track 1.
@@ -1473,9 +1397,6 @@ visually wrong there,
 let's just play that
 slowly through.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:03.416 --> 00:26:07.256 A:middle
 If we dissolve away from the
 boat, the deer comes through
@@ -1531,9 +1452,6 @@ but this guy is too short.
 00:26:56.336 --> 00:27:03.376 A:middle
 And I just happen to know
 where that problem is.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:03.376 --> 00:27:08.866 A:middle
 And your bugs won't
@@ -1593,9 +1511,6 @@ this guy straight away.
 Down here we have a gap between
 the dissolve instructions
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:04.616 --> 00:28:07.726 A:middle
 and the last instruction,
 which isn't good.
@@ -1642,9 +1557,6 @@ into your app and modify it.
 00:28:58.326 --> 00:29:00.316 A:middle
 Extend it to draw your
 own video instructions.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:01.066 --> 00:29:05.296 A:middle
 Now remember, it's just a
@@ -1704,9 +1616,6 @@ new custom compositing API
 with the two new protocols
 and the request object.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:03.076 --> 00:30:07.586 A:middle
 And we've see how
 important it is
@@ -1760,9 +1669,6 @@ than looking at reams of code.
 So over the next few months,
 I want to see you guys drop
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.566 --> 00:31:04.236 A:middle
 in some great OpenGL visuals
 and I want to see them appearing
@@ -1797,4 +1703,3 @@ Thank you very much.
 
 00:31:33.426 --> 00:31:46.740 A:middle
 [ Applause ]
-

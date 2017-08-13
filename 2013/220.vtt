@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:09.766 --> 00:00:10.986 A:middle
 &gt;&gt; Good afternoon.
@@ -7,7 +6,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 00:00:11.356 --> 00:00:12.946 A:middle
 This is Session 220.
 
-00:00:13.446 --> 00:00:16.175 A:middle
+00:00:13.446 --> 00:00:16.176 A:middle
 Advanced Text Layouts and
 Effects with Text Kit.
 
@@ -63,10 +62,7 @@ in the application.
 Next, we're going to cover the
 three main Text Kit objects,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:04.635 --> 00:01:10.106 A:middle
+00:01:04.636 --> 00:01:10.106 A:middle
 NSLayoutManager, NSTextContainer
 and NSTextStorage, the power,
 
@@ -123,9 +119,6 @@ my colleague, Peter Hajas,
 who's going to tell you how
 to spice up your application,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:03.226 --> 00:02:04.856 A:middle
 what is the cool text effects.
 
@@ -135,7 +128,7 @@ Peter.
 00:02:06.236 --> 00:02:07.056 A:middle
 &gt;&gt; Good afternoon.
 
-00:02:07.246 --> 00:02:08.545 A:middle
+00:02:07.246 --> 00:02:08.546 A:middle
 My name is Peter Hajas.
 
 00:02:08.856 --> 00:02:10.076 A:middle
@@ -197,9 +190,6 @@ beautiful effect for your text.
 00:02:56.846 --> 00:03:00.496 A:middle
 But now, in iOS 7, we're
 exposing this to you
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.496 --> 00:03:03.146 A:middle
 through one attributed
@@ -276,9 +266,6 @@ you saw at the Intro
 00:03:58.846 --> 00:04:00.546 A:middle
 to Text Kit session yesterday.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:02.376 --> 00:04:05.676 A:middle
 In Text Kit, there are
 three classes that we use
@@ -347,9 +334,6 @@ enough for a short document,
 like a brief note or message,
 and a document as long as War
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:00.936 --> 00:05:04.396 A:middle
 and Peace, so it should be
 totally perfect for your needs.
@@ -413,9 +397,6 @@ And finally, NSTextContainer.
 00:05:57.486 --> 00:06:01.436 A:middle
 Text Container represents
 one area on the display
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:01.696 --> 00:06:03.166 A:middle
 in which you'd like
@@ -484,9 +465,6 @@ how that text gets turned
 
 00:06:58.516 --> 00:06:59.606 A:middle
 into glyphs on screen.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.126 --> 00:07:04.366 A:middle
 And one Text Container
@@ -572,9 +550,6 @@ you a quick demo
 of just how simple you
 can implement a document
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:02.896 --> 00:08:05.406 A:middle
 of arbitrary length, a
 multi-paged document.
@@ -618,7 +593,7 @@ works is it needs a view
 controller to represent every
 page that you'd like to express.
 
-00:08:38.035 --> 00:08:40.916 A:middle
+00:08:38.036 --> 00:08:40.916 A:middle
 So first, we're going to
 need a view controller
 
@@ -649,9 +624,6 @@ View Controller.
 00:08:58.526 --> 00:09:01.566 A:middle
 And this just encapsulates
 a text view which is going
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.566 --> 00:09:04.696 A:middle
 to draw the text on
@@ -721,9 +693,6 @@ as the delegate.
 00:09:57.686 --> 00:10:00.186 A:middle
 Next, we're going to implement
 the page view controller data
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.186 --> 00:10:01.126 A:middle
 source methods.
@@ -797,9 +766,6 @@ the Text Container demo.
 And as you can see our text is
 flowed into this view perfectly.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:02.746 --> 00:11:05.756 A:middle
 And as we scroll using the
 paging behavior our users have
@@ -868,9 +834,6 @@ new API for old layout.
 It's a Text Kit controller
 class that orchestrates
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:04.216 --> 00:12:08.906 A:middle
 between NSTextContainer
 and NSTextStorage.
@@ -918,9 +881,6 @@ design patterns
 such as delegation
 and subclassing.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:04.176 --> 00:13:06.476 A:middle
 Before going any deeper,
 
@@ -964,9 +924,6 @@ the graphical representation.
 00:13:55.986 --> 00:14:03.246 A:middle
 And since glyphs are graphical
 elements, they can be handled
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:03.246 --> 00:14:05.846 A:middle
 by the graphic subsystem
@@ -1018,9 +975,6 @@ is very trivial.
 00:14:59.156 --> 00:15:02.466 A:middle
 Also you can get the
 precise location,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:03.126 --> 00:15:06.616 A:middle
 fix your perfect location
@@ -1075,9 +1029,6 @@ index you use
 to access the contents
 of NSTextStorage.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:02.236 --> 00:16:05.556 A:middle
 So glyph index character
 index, where are they?
@@ -1131,9 +1082,6 @@ two methods that maps glyph
 00:16:59.586 --> 00:17:01.176 A:middle
 and characters in bulk.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.616 --> 00:17:06.486 A:middle
 And remember, it's important
 to remember that, in any case,
@@ -1142,15 +1090,15 @@ to remember that, in any case,
 you want to use one of these
 methods to convert glyphs
 
-00:17:10.705 --> 00:17:14.836 A:middle
+00:17:10.706 --> 00:17:14.836 A:middle
 and character index when you're
 working with NSLayoutManager.
 
-00:17:17.665 --> 00:17:19.876 A:middle
+00:17:17.666 --> 00:17:19.876 A:middle
 We look at the glyph
 information,
 
-00:17:20.705 --> 00:17:22.776 A:middle
+00:17:20.706 --> 00:17:22.776 A:middle
 let's look at the allocations.
 
 00:17:23.116 --> 00:17:30.836 A:middle
@@ -1183,9 +1131,6 @@ an array of Text Containers,
 00:17:55.786 --> 00:18:00.076 A:middle
 glyphs are filled from the
 beginning of the Text Container
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.076 --> 00:18:03.586 A:middle
 at index zero and
@@ -1247,9 +1192,6 @@ line could be divided
 into multiple pieces
 like this due
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:01.226 --> 00:19:07.396 A:middle
 to NSTextContainer geometrical
 shape defined by exclusion path.
@@ -1298,9 +1240,6 @@ explain the actual relationship
 among the three geometrical
 elements inside the
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:02.086 --> 00:20:03.066 A:middle
 layout information.
 
@@ -1347,9 +1286,6 @@ its own coordinate system too
 that start with the
 upper left corner.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:02.176 --> 00:21:09.106 A:middle
 And the glyphs are located at
 its baseline origin that starts
@@ -1394,9 +1330,6 @@ it's not an empty document.
 
 00:21:58.316 --> 00:22:01.456 A:middle
 Then as we discussed earlier,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:02.876 --> 00:22:06.006 A:middle
 we want to convert the
@@ -1461,9 +1394,6 @@ Next example.
 In addition to the
 primitive methods that acts
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.896 --> 00:23:03.506 A:middle
 as the layout information
 we discussed so far,
@@ -1517,9 +1447,6 @@ index correspondent
 to the glyph closest to
 the location you specify.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.006 --> 00:24:05.336 A:middle
 Once you have the character
 index, it's relatively simple
@@ -1572,9 +1499,6 @@ sufficient functionalities
 and extensibilities for your
 needs while you can enjoy Text
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:04.536 --> 00:25:10.566 A:middle
 Kit and amenities such as
 old layout and accessibility.
@@ -1620,9 +1544,6 @@ render the contents yourself.
 00:25:55.936 --> 00:26:01.876 A:middle
 Here, it's assumed this Layout
 Manager variable contains
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:02.156 --> 00:26:04.336 A:middle
 preconfigured Layout Manager.
@@ -1676,9 +1597,6 @@ inTextContainer,
 
 00:26:58.356 --> 00:26:59.756 A:middle
 another useful method.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.386 --> 00:27:04.226 A:middle
 You can get the glyph
@@ -1740,9 +1658,6 @@ This method renders attributes
 such as
 NSBackgroundColorAttributeName.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:02.736 --> 00:28:08.016 A:middle
 But we recommend always using
 this method whenever you are
@@ -1797,9 +1712,6 @@ to these methods.
 00:28:56.156 --> 00:28:59.786 A:middle
 So we are rendering an
 arbitrary glyph range,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:01.016 --> 00:29:06.706 A:middle
 but you are not passing
@@ -1857,9 +1769,6 @@ the location by yourself
 
 00:29:58.336 --> 00:30:04.276 A:middle
 so that the location paths
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:05.736 --> 00:30:08.756 A:middle
 to the rendering
@@ -1922,9 +1831,6 @@ subtract the glyph origin
 from the location
 you want to render.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.116 --> 00:31:04.366 A:middle
 By doing that, the
 location is now translated
@@ -1967,9 +1873,6 @@ your documents, it's easy now.
 00:31:56.356 --> 00:32:01.396 A:middle
 Remember, a visual
 line could be divided
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:01.396 --> 00:32:05.696 A:middle
 into multiple line fragments
@@ -2022,9 +1925,6 @@ line fragment rect.
 And here we are enumerating all
 the line fragment rect inside
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:04.606 --> 00:33:13.536 A:middle
 the fixed container by comparing
 the stored last line fragment
@@ -2070,9 +1970,6 @@ and finer controls you have
 in your text using
 the information stored
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.426 --> 00:34:03.766 A:middle
 in NSLayoutManager and
 you can freely access now.
@@ -2085,10 +1982,10 @@ text doesn't end there.
 One of the main Text Kit
 architecture strength is its
 
-00:34:16.846 --> 00:34:19.485 A:middle
+00:34:16.846 --> 00:34:19.486 A:middle
 vast support for customization.
 
-00:34:19.815 --> 00:34:25.366 A:middle
+00:34:19.816 --> 00:34:25.366 A:middle
 Let's look at how to customize
 layout using Text Kit.
 
@@ -2096,11 +1993,11 @@ layout using Text Kit.
 NSLayoutManager provides a rich
 set of delegation interface.
 
-00:34:31.295 --> 00:34:36.585 A:middle
+00:34:31.296 --> 00:34:36.586 A:middle
 You can-- With some of the
 interface, you can get notified
 
-00:34:38.016 --> 00:34:40.335 A:middle
+00:34:38.016 --> 00:34:40.336 A:middle
 for step [phonetic]
 change such as
 
@@ -2108,7 +2005,7 @@ change such as
 when your layout
 cache is invited.
 
-00:34:45.295 --> 00:34:50.386 A:middle
+00:34:45.296 --> 00:34:50.386 A:middle
 Or, layout for the container was
 finished, so on and so forth.
 
@@ -2122,9 +2019,6 @@ you can override many aspects
 00:34:58.226 --> 00:35:04.466 A:middle
 of layout process while
 it's being laid out.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:05.076 --> 00:35:10.066 A:middle
 For example, you can
@@ -2176,9 +2070,6 @@ you want to make space
 for some other extra
 rendering like this.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:03.156 --> 00:36:08.196 A:middle
 [Inaudible] a lot annotation
 when you want to have this kind
@@ -2217,9 +2108,6 @@ wrapping-- soft line breaking.
 
 00:36:48.516 --> 00:36:52.186 A:middle
 So there it gets consulted.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.556 --> 00:37:08.326 A:middle
 And by default, we are using
@@ -2268,9 +2156,6 @@ stored inside the font itself.
 00:37:57.896 --> 00:38:00.156 A:middle
 That's the default
 glyph mapping.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:01.906 --> 00:38:05.746 A:middle
 You can override this
@@ -2321,9 +2206,6 @@ the text doesn't fit
 into the available space,
 it's a common technique used
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.336 --> 00:39:03.856 A:middle
 to tail truncation like this.
 
@@ -2373,9 +2255,6 @@ FragmentForGlyphAtIndex method,
 you can get the range of the
 glyphs that's being truncated
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:02.946 --> 00:40:07.716 A:middle
 out from the user's view.
 
@@ -2420,9 +2299,6 @@ properties:characterIndexes:
 00:40:57.306 --> 00:41:01.036 A:middle
 font:forGlyphRange
 method get being called.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:01.696 --> 00:41:05.566 A:middle
 And inside this method, you
@@ -2482,9 +2358,6 @@ information
 and you can override
 any way you want
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:02.626 --> 00:42:06.276 A:middle
 until you have your delegate
 object and your implementation
@@ -2526,9 +2399,6 @@ and glyph index simple
 00:42:58.986 --> 00:43:02.836 A:middle
 and be efficient,
 NSLayoutManager often try
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:02.836 --> 00:43:07.666 A:middle
 to pad the glyph range that's
@@ -2579,9 +2449,6 @@ displaying this property,
 00:43:57.456 --> 00:44:02.806 A:middle
 the glyph will be treated
 as the glyph will be ignored
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:02.806 --> 00:44:05.366 A:middle
 from both layout and rendering.
@@ -2641,9 +2508,6 @@ what some of the code does.
 
 00:44:58.186 --> 00:45:02.526 A:middle
 Now we're building and running.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:02.656 --> 00:45:05.306 A:middle
 And when we run the
@@ -2714,9 +2578,6 @@ to draw in the same place.
 So if we go over to our
 focus truncation renderer,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:01.646 --> 00:46:03.526 A:middle
 you'll notice that when
 we setup the contents
@@ -2777,9 +2638,6 @@ doing here?
 
 00:46:58.976 --> 00:47:00.066 A:middle
 Well, first, we're finding
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:00.066 --> 00:47:01.916 A:middle
 out if we have an
@@ -2858,9 +2716,6 @@ in your applications.
 And you learned how to
 achieve multiple page,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:05.996 --> 00:48:09.046 A:middle
 multiple document
 configuration easy--
@@ -2894,9 +2749,6 @@ with UIKit,
 00:48:57.246 --> 00:49:01.316 A:middle
 comprehensive functionalities
 and broad customizability,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:02.696 --> 00:49:08.036 A:middle
 we believe it will be the last
@@ -2948,4 +2800,3 @@ the rest of the conference.
 
 00:49:54.516 --> 00:49:58.480 A:middle
 [ Applause ]
-

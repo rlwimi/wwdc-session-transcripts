@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.566 A:middle
 [ Applause ]
@@ -79,9 +78,6 @@ has a really cool demo,
 00:00:59.576 --> 00:01:01.346 A:middle
 so stick around for that.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:03.316 --> 00:01:05.886 A:middle
 So let's first talk about
 where OpenCL is going to work.
@@ -160,9 +156,6 @@ on the frames in realtime
 00:01:59.426 --> 00:02:01.786 A:middle
 but once you kick on the
 effects everything slows down,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:01.786 --> 00:02:02.346 A:middle
 it's choppy.
@@ -265,9 +258,6 @@ everyone is on the same page
 like we always do with
 a really terrible haiku.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:02.036 --> 00:03:08.166 A:middle
 Pieces of data, all changing in
 the same way, few dependencies.
@@ -363,9 +353,6 @@ example of a parallel workload,
 and in fact core image
 in Mavericks is running
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.606 --> 00:04:02.176 A:middle
 on top of CL on the GPU.
 
@@ -387,15 +374,15 @@ really cool physics simulation.
 Now, we showed you the
 results using pretty graphics,
 
-00:04:15.026 --> 00:04:17.995 A:middle
+00:04:15.026 --> 00:04:17.996 A:middle
 but the guts of what was
 happening, the computation
 
-00:04:17.995 --> 00:04:19.935 A:middle
+00:04:17.996 --> 00:04:19.936 A:middle
 that was moving the bodies
 around in space according
 
-00:04:19.935 --> 00:04:21.046 A:middle
+00:04:19.936 --> 00:04:21.046 A:middle
 to the physics calculations,
 
 00:04:21.366 --> 00:04:23.556 A:middle
@@ -468,9 +455,6 @@ problem and twist it somehow
 00:04:59.196 --> 00:05:01.416 A:middle
 or change it so that
 it becomes parallel?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.756 --> 00:05:03.786 A:middle
 So let's look at an example
@@ -568,9 +552,6 @@ Well, let's look at just
 
 00:05:59.476 --> 00:06:00.986 A:middle
 so let's look at these two.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:01.536 --> 00:06:03.706 A:middle
 Now, these two happen to have
@@ -677,9 +658,6 @@ and it's only going
 00:06:58.896 --> 00:07:00.116 A:middle
 to update that histogram.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.616 --> 00:07:03.426 A:middle
 And all the groups, each group
 has its own partial histogram.
@@ -773,9 +751,6 @@ he writes the result
 00:07:59.246 --> 00:08:00.236 A:middle
 in that total histogram.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.686 --> 00:08:03.096 A:middle
 Now, he's the only one
 writing to that slot,
@@ -826,7 +801,7 @@ then you have a problem
 that is probably
 appropriate for OpenCL.
 
-00:08:34.395 --> 00:08:34.946 A:middle
+00:08:34.396 --> 00:08:34.946 A:middle
 That's good.
 
 00:08:34.946 --> 00:08:37.346 A:middle
@@ -837,7 +812,7 @@ run it on the CPU or the GPU?"
 You've probably heard that you
 can run it in either place.
 
-00:08:41.535 --> 00:08:43.006 A:middle
+00:08:41.536 --> 00:08:43.006 A:middle
 This breaks down
 to three questions.
 
@@ -867,9 +842,6 @@ just some data on the host,
 00:08:58.356 --> 00:09:01.236 A:middle
 and by host I just mean your
 CPU, in its memory space,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.236 --> 00:09:03.286 A:middle
 memory that you get
@@ -962,9 +934,6 @@ your bus speed, the PCIe bus.
 00:09:58.996 --> 00:10:01.586 A:middle
 That makes sense, got to
 get it over to the VRAM,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:01.586 --> 00:10:02.566 A:middle
 get it over to the device.
@@ -1059,9 +1028,6 @@ data transfer.
 In this case this is an ideal
 scenario for the discrete GPU.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:02.606 --> 00:11:05.336 A:middle
 This is where you want
 to use the discrete GPU,
@@ -1145,9 +1111,6 @@ shared through GL or shared
 00:11:57.676 --> 00:11:59.896 A:middle
 through IOSurface,
 or you may have both.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.316 --> 00:12:02.246 A:middle
 In this case, it's
@@ -1249,9 +1212,6 @@ into this picture?
 Well, typically you would
 share something like the VBO
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:03.246 --> 00:13:05.126 A:middle
 as a CL mem object,
 as a CL buffer.
@@ -1329,9 +1289,6 @@ GL commands and call glFlush,
 00:13:56.636 --> 00:13:59.906 A:middle
 and then you're going to
 clEnqueueAcquireGLPObjects,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.166 --> 00:14:02.656 A:middle
 do your compute, wail on it
@@ -1429,9 +1386,6 @@ are Tolkienian creatures,
 00:14:59.046 --> 00:15:00.316 A:middle
 IOSurface would be Gandalf.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:01.096 --> 00:15:05.426 A:middle
 It's a container for 2D image
 data, and it's really magical
@@ -1522,9 +1476,6 @@ about IOSurface in some detail.
 00:15:59.186 --> 00:16:01.956 A:middle
 So that brings us back
 to this checklist.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:02.206 --> 00:16:04.256 A:middle
 So those of you who walked
@@ -1620,9 +1571,6 @@ every day when you write code.
 You write a loop, and
 in your loop you say
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.336 --> 00:17:02.116 A:middle
 "For My data, do this thing."
 
@@ -1630,23 +1578,23 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 Well, "this thing,"
 that's your OpenCL kernel.
 
-00:17:04.705 --> 00:17:05.636 A:middle
+00:17:04.706 --> 00:17:05.636 A:middle
 Let's look at an example.
 
 00:17:06.116 --> 00:17:07.036 A:middle
 Here's a bunch of C code.
 
-00:17:07.356 --> 00:17:09.955 A:middle
+00:17:07.356 --> 00:17:09.956 A:middle
 Let's go through it bit by bit.
 
-00:17:09.955 --> 00:17:11.955 A:middle
+00:17:09.956 --> 00:17:11.956 A:middle
 So first, what are we doing?
 
-00:17:11.955 --> 00:17:15.386 A:middle
+00:17:11.956 --> 00:17:15.386 A:middle
 We're converting a big
 image from RGB to HSV.
 
-00:17:16.415 --> 00:17:17.925 A:middle
+00:17:16.416 --> 00:17:17.926 A:middle
 So first we're going
 to loop over the data.
 
@@ -1666,7 +1614,7 @@ loop indices to find
 out what pixel I
 should modify, great.
 
-00:17:26.925 --> 00:17:29.066 A:middle
+00:17:26.926 --> 00:17:29.066 A:middle
 I grab that pixel, I
 shift out the color values
 
@@ -1721,9 +1669,6 @@ for converting this.
 00:17:57.566 --> 00:17:59.406 A:middle
 So let's turn this
 into an OpenCL kernel.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.516 --> 00:18:04.716 A:middle
 Now, remember, an OpenCL kernel
@@ -1824,9 +1769,6 @@ the output.
 So let's dive into
 the kernel version
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:01.036 --> 00:19:01.966 A:middle
 of this conversion function.
 
@@ -1922,9 +1864,6 @@ Straightforward.
 00:19:57.406 --> 00:20:00.216 A:middle
 And then more interestingly,
 "hey, given this device,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.356 --> 00:20:02.066 A:middle
 what's the best way
@@ -2022,9 +1961,6 @@ an engineer on the OpenCL team,
 and today I'm going to talk
 about some practical tasks
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:02.376 --> 00:21:06.756 A:middle
 that you can do with OpenCL,
 and I'm going to focus
@@ -2091,9 +2027,6 @@ to show you a couple ways
 00:21:59.616 --> 00:22:02.076 A:middle
 of reducing that transfer
 time and reducing the amount
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:02.076 --> 00:22:04.616 A:middle
 of copying your application
@@ -2169,9 +2102,6 @@ using a .cl file at build time
 and that was shipped
 with your app.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.036 --> 00:23:02.976 A:middle
 And then the third type
 of input that I'll talk
@@ -2246,9 +2176,6 @@ service hasn't started,
 00:23:57.796 --> 00:24:02.426 A:middle
 the program hasn't ever run
 before, it might take the system
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:02.466 --> 00:24:06.076 A:middle
 about 200 milliseconds
@@ -2328,9 +2255,6 @@ to actually start off
 00:24:56.336 --> 00:25:01.296 A:middle
 with either a .cl source
 file or a bitcode file,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:02.326 --> 00:25:06.336 A:middle
 and you would want to
@@ -2415,9 +2339,6 @@ stopped using the application
 and they started up again
 later on, and I want to figure
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:05.056 --> 00:26:07.706 A:middle
 out if I have a cache
 file that I can load.
@@ -2492,9 +2413,6 @@ they installed a software update
 and the software update
 installed new graphics driver
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:02.066 --> 00:27:05.846 A:middle
 versions and the graphics driver
 versions ended up not supporting
@@ -2565,9 +2483,6 @@ just saw, and I applied it
 00:27:58.766 --> 00:28:02.246 A:middle
 to a couple different
 programs, the 30-line program
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:02.246 --> 00:28:04.226 A:middle
 that I showed you the
@@ -2642,9 +2557,6 @@ on discrete GPUs.
 00:28:58.116 --> 00:29:00.326 A:middle
 And so if you're working
 on a configuration
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.326 --> 00:29:01.756 A:middle
 like this Macbook Pro Retina,
@@ -2725,9 +2637,6 @@ to do this with OpenCL.
 00:29:59.056 --> 00:30:02.146 A:middle
 Now if you have an
 OpenGL application,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:02.466 --> 00:30:04.416 A:middle
 you probably have
@@ -2815,9 +2724,6 @@ kind of thing in OpenCL
 when we detect that
 this render has changed.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:01.856 --> 00:31:04.246 A:middle
 And so since OpenCL
 doesn't use virtual screens;
@@ -2895,9 +2801,6 @@ they're built for both devices,
 00:31:59.636 --> 00:32:01.506 A:middle
 will handle the transition
 as well.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:01.506 --> 00:32:03.266 A:middle
 Also if you have
@@ -2983,9 +2886,6 @@ when you compile this
 for the integrated
 device, it'll be --
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.246 --> 00:33:02.496 A:middle
 instead of running
 with double it'll run
@@ -3065,9 +2965,6 @@ will spend waiting
 00:33:59.876 --> 00:34:01.146 A:middle
 for transfers to complete.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.146 --> 00:34:02.736 A:middle
 And the first thing
 I'd like to talk
@@ -3079,10 +2976,10 @@ about is buffers and images.
 In OpenCL, buffers are
 really just like pointers
 
-00:34:10.096 --> 00:34:11.775 A:middle
+00:34:10.096 --> 00:34:11.776 A:middle
 to memory in your kernel.
 
-00:34:11.775 --> 00:34:13.076 A:middle
+00:34:11.776 --> 00:34:13.076 A:middle
 You can read and write them,
 
 00:34:13.216 --> 00:34:15.556 A:middle
@@ -3093,7 +2990,7 @@ global pointers.
 You probably saw those in the
 example Jim showed earlier.
 
-00:34:19.335 --> 00:34:24.016 A:middle
+00:34:19.336 --> 00:34:24.016 A:middle
 Buffers support atomic
 operations and on most GPUs,
 
@@ -3124,11 +3021,11 @@ only or write only,
 so you have to decide when
 you're writing a kernel
 
-00:34:43.876 --> 00:34:46.235 A:middle
+00:34:43.876 --> 00:34:46.236 A:middle
 if you're going to either
 only read or only write
 
-00:34:46.235 --> 00:34:49.446 A:middle
+00:34:46.236 --> 00:34:49.446 A:middle
 for a particular object.
 
 00:34:49.976 --> 00:34:51.916 A:middle
@@ -3145,9 +3042,6 @@ to support both?
 00:34:56.196 --> 00:35:00.826 A:middle
 Say for example, you
 had this set of kernels
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.826 --> 00:35:06.396 A:middle
 where you have a histogram
@@ -3224,9 +3118,6 @@ created the buffer using
 UseHostPointer, which
 is a popular technique,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:00.956 --> 00:36:03.876 A:middle
 you have to make sure that
 the UseHostPointer address
@@ -3300,9 +3191,6 @@ system, let's say it takes
 00:36:57.546 --> 00:37:00.656 A:middle
 about 2 milliseconds to
 move those pieces of data
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.656 --> 00:37:03.116 A:middle
 to the device and 6 milliseconds
@@ -3379,9 +3267,6 @@ since there's no dependency
 00:37:58.706 --> 00:38:01.086 A:middle
 between each frame, it
 could also do the --
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:01.166 --> 00:38:04.716 A:middle
 it could also write for
@@ -3467,9 +3352,6 @@ M input and output buffers.
 In a sort of practical system
 I'd probably have a relatively
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:01.906 --> 00:39:04.176 A:middle
 much smaller pool of buffers
 that I'd work on, much smaller
@@ -3545,9 +3427,6 @@ is to avoid using CLFInish.
 00:39:59.716 --> 00:40:02.536 A:middle
 It's great for debugging
 and for isolating a problem
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:02.536 --> 00:40:07.946 A:middle
 in your code, but it'll create
@@ -3630,9 +3509,6 @@ to the integrated GPU.
 And lastly, we talked
 about a couple mechanisms
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:01.476 --> 00:41:04.636 A:middle
 that are available to
 decrease the overhead of having
@@ -3711,9 +3587,6 @@ and it was really exciting.
 00:41:57.436 --> 00:42:00.176 A:middle
 This year I want to talk about
 what we've done since then.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:00.316 --> 00:42:01.586 A:middle
 We obviously didn't
@@ -3813,9 +3686,6 @@ card that would work.
 00:42:58.126 --> 00:43:00.536 A:middle
 If you got a new card,
 it took us a little while
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:00.536 --> 00:43:01.206 A:middle
 to catch up with you.
@@ -3918,9 +3788,6 @@ translation.
 That was a pretty
 heavy problem for us.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:00.506 --> 00:44:02.516 A:middle
 We have a lot of kernels that
 run really well on images,
@@ -4021,9 +3888,6 @@ we can do on the GPU.
 So this year with Premiere Pro
 CC we've added a few effects.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:00.936 --> 00:45:03.706 A:middle
 Now, this doesn't really
 look like a big list.
@@ -4113,9 +3977,6 @@ looks to their movies
 00:45:59.396 --> 00:46:00.576 A:middle
 that I'll show you in
 a demo in a minute,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:00.626 --> 00:46:03.846 A:middle
 and that just changes the
@@ -4208,9 +4069,6 @@ really do for your users.
 00:46:57.816 --> 00:47:00.816 A:middle
 So last year, after we were
 done with our initial port
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:00.816 --> 00:47:03.696 A:middle
 and all the engineers took
@@ -4307,9 +4165,6 @@ investigating.
 We're waiting for that to
 make sense for our users,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:01.156 --> 00:48:04.586 A:middle
 but we did go to do multiple
 GPU support, and that's very,
@@ -4392,9 +4247,6 @@ is all full res stuff.
 We're mixing Canon 5 Vmark 2
 footage, we're mixing DNHXD,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:02.286 --> 00:49:06.586 A:middle
 pro res, red, red epic, 54K,
 all on this timeline here.
@@ -4470,9 +4322,6 @@ something different.
 00:49:58.286 --> 00:50:01.056 A:middle
 This isn't a single
 clip in the timeline.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:01.306 --> 00:50:03.056 A:middle
 This is a clip composite
@@ -4557,9 +4406,6 @@ what we call a looks browser.
 00:50:59.786 --> 00:51:02.746 A:middle
 So looks are very
 complex descriptions
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:02.746 --> 00:51:06.266 A:middle
 of what you can do
@@ -4653,9 +4499,6 @@ we made with OpenCL.
 So thank you very much, and I'm
 going to give it back to Abe.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:07.626 --> 00:52:07.693 A:middle
 [ Applause ]
 
@@ -4719,7 +4562,3 @@ for your attention.
 
 00:52:48.156 --> 00:53:02.400 A:middle
 [ Applause ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-

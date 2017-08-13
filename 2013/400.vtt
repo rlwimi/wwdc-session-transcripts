@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.516 A:middle
 [ Silence ]
@@ -59,9 +58,6 @@ already seen the new look.
 00:00:55.886 --> 00:01:00.586 A:middle
 In a word, Xcode 5 is about
 deference to your content.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:01.256 --> 00:01:03.576 A:middle
 It's all about bringing
@@ -139,9 +135,6 @@ Xcode even makes it super easy
 to share links right
 from the ID.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:02.086 --> 00:02:05.636 A:middle
 Now, Xcode 5 intentionally
 feels a lot like Xcode 4,
@@ -150,7 +143,7 @@ feels a lot like Xcode 4,
 but there's one aspect
 of the field
 
-00:02:07.676 --> 00:02:09.485 A:middle
+00:02:07.676 --> 00:02:09.486 A:middle
 that we thought could
 be much improved,
 
@@ -224,9 +217,6 @@ place you want to start
 00:02:58.306 --> 00:03:00.186 A:middle
 with Source Control is by
 checking out your project.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:01.086 --> 00:03:04.866 A:middle
 If you haven't seen it, this is
@@ -313,9 +303,6 @@ repositories that you have
 00:03:57.596 --> 00:03:59.006 A:middle
 to keep straight yourself.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.176 --> 00:04:03.576 A:middle
 And again, branch-based
 development workflows Xcode now
@@ -398,9 +385,6 @@ left and the right sides
 
 00:04:59.226 --> 00:05:00.306 A:middle
 of disk to be swapped?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.306 --> 00:05:02.316 A:middle
 Hey, now you can do that too.
@@ -487,9 +471,6 @@ directly into the project editor
 which makes it super
 easy to switch
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.496 --> 00:06:02.736 A:middle
 between your different
 identities,
@@ -568,9 +549,6 @@ automatic configuration,
 
 00:06:58.886 --> 00:07:00.766 A:middle
 it's now-it can be easier.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.896 --> 00:07:03.446 A:middle
 It's just a matter of turning
@@ -656,9 +634,6 @@ to respond to dynamic changes
 00:07:58.286 --> 00:07:59.386 A:middle
 and layout constraints.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.536 --> 00:08:01.626 A:middle
 Well, what does this mean?
 
@@ -718,7 +693,7 @@ Layout works to put you
 in complete control of your
 Auto Layout constraints.
 
-00:08:40.515 --> 00:08:45.706 A:middle
+00:08:40.516 --> 00:08:45.706 A:middle
 [ Applause ]
 
 00:08:46.206 --> 00:08:48.446 A:middle
@@ -738,9 +713,6 @@ And Xcode provides-
 
 00:08:59.516 --> 00:09:03.576 A:middle
 [ Applause ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:04.076 --> 00:09:06.326 A:middle
 And Xcode provides a
@@ -820,9 +792,6 @@ just know, naming conventions,
 everything and it
 handles it for you.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.166 --> 00:10:02.226 A:middle
 If you're missing something,
 it's now immediately obvious.
@@ -897,9 +866,6 @@ it is to update this application
 00:10:56.516 --> 00:10:59.566 A:middle
 for iOS 7 using the new
 features of Xcode 5.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.696 --> 00:11:02.206 A:middle
 First, we need to get started
@@ -984,9 +950,6 @@ in Xcode.
 00:11:56.876 --> 00:11:59.796 A:middle
 Another type of account that I
 can configure is my Apple ID.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.166 --> 00:12:02.506 A:middle
 And if my Apple ID
@@ -1091,9 +1054,6 @@ is with image names.
 I can never remember if an
 image is supposed to be named,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:01.616 --> 00:13:05.876 A:middle
 @2x tilde iPhone,
 or tilde iPhone@2x.
@@ -1178,9 +1138,6 @@ for iOS 7 for iPhones.
 I have an icon for that
 right here in my dock.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:01.246 --> 00:14:07.076 A:middle
 I can just drag it in and drop
 it into place and I'm done.
@@ -1257,9 +1214,6 @@ content of each of the scenes,
 
 00:14:59.616 --> 00:15:00.766 A:middle
 I see they all look great.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:01.126 --> 00:15:02.016 A:middle
 But over here at the end,
@@ -1338,9 +1292,6 @@ with iOS 6 using these controls
 
 00:15:59.856 --> 00:16:03.046 A:middle
 in the bottom right corner.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:03.196 --> 00:16:05.246 A:middle
 Sure enough, this Segmented
@@ -1429,9 +1380,6 @@ for my Storyboard,
 00:16:57.716 --> 00:17:01.126 A:middle
 I can enable Auto Layout.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.126 --> 00:17:03.946 A:middle
 And you can see everything in my
 interfaces is exactly the way is
@@ -1440,7 +1388,7 @@ interfaces is exactly the way is
 when I-- is-- before
 I checked on the box.
 
-00:17:07.215 --> 00:17:09.126 A:middle
+00:17:07.216 --> 00:17:09.126 A:middle
 Now, I get to start
 adding constraints to take
 
@@ -1452,15 +1400,15 @@ the dynamic resizing behavior
 of all the elements
 in my interface.
 
-00:17:15.496 --> 00:17:17.175 A:middle
+00:17:15.496 --> 00:17:17.176 A:middle
 There's many new ways
 to add constraints.
 
-00:17:17.175 --> 00:17:18.636 A:middle
+00:17:17.176 --> 00:17:18.636 A:middle
 Constraints are what
 control this behavior.
 
-00:17:20.445 --> 00:17:23.256 A:middle
+00:17:20.446 --> 00:17:23.256 A:middle
 One of my favorite new ways to
 add constraints in Xcode 5 is
 
@@ -1523,9 +1471,6 @@ said anything
 
 00:17:59.736 --> 00:18:00.826 A:middle
 about its horizontal layout.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.386 --> 00:18:02.436 A:middle
 I need more constraints.
@@ -1603,9 +1548,6 @@ and a padding constraint
 00:18:59.176 --> 00:19:01.566 A:middle
 on the left fixing the distance
 from the Segmented Control
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:01.566 --> 00:19:02.326 A:middle
 to the edge of the container.
@@ -1690,9 +1632,6 @@ it couldn't be easier.
 00:19:59.176 --> 00:19:59.976 A:middle
 Back to you Chris.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.516 --> 00:20:02.686 A:middle
 [Applause]
 
@@ -1766,9 +1705,6 @@ what's the problem here?
 00:20:58.586 --> 00:21:00.106 A:middle
 Let's think about what
 happens when you go
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.106 --> 00:21:01.636 A:middle
 to compile a source
@@ -1857,9 +1793,6 @@ like Precompiled Headers
 00:21:57.736 --> 00:21:59.726 A:middle
 that helps solve some
 of these problems.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.386 --> 00:22:03.626 A:middle
 But Precompiled Headers, you can
@@ -1954,9 +1887,6 @@ of code just to find a way.
 00:22:59.366 --> 00:23:01.906 A:middle
 And this database gets shared
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:01.906 --> 00:23:04.006 A:middle
 across all the files
 in your project.
@@ -2036,9 +1966,6 @@ about symbols you have no idea--
 00:23:55.516 --> 00:24:00.606 A:middle
 [ Applause ]
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.106 --> 00:24:03.606 A:middle
 But the big story with
 modules is simply performance
@@ -2109,9 +2036,6 @@ features, including things
 00:24:57.896 --> 00:25:00.236 A:middle
 like inheriting constructors
 which are a great way
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.236 --> 00:25:01.166 A:middle
 to define away a huge amount
@@ -2198,9 +2122,6 @@ program,
 matrix operations three times
 faster, scientific code,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.366 --> 00:26:03.546 A:middle
 compression, it's 50
 and 60 percent faster,
@@ -2276,9 +2197,6 @@ and that's important stuff.
 00:26:57.116 --> 00:26:59.806 A:middle
 But the compiler technology
 does other things for us.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.226 --> 00:27:03.206 A:middle
 It also works in Xcode to
@@ -2362,9 +2280,6 @@ finds it than you, trust me.
 It's-- This year, the
 analyzer has a number
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:00.446 --> 00:28:01.576 A:middle
 of really great new checks,
 
@@ -2446,9 +2361,6 @@ released ARC for Objective-C
 about two years ago and we've
 seen some pretty massive
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.176 --> 00:29:01.476 A:middle
 adoption in your applications.
 
@@ -2528,9 +2440,6 @@ talk about what's new there.
 
 00:29:58.156 --> 00:29:59.676 A:middle
 Similar to the compiler story,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.436 --> 00:30:02.886 A:middle
 Xcode previously supported
@@ -2613,9 +2522,6 @@ variables description.
 You don't even have
 to go to the console
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:02.176 --> 00:31:03.136 A:middle
 and hit-- type PO [applause].
 
@@ -2695,9 +2601,6 @@ activation button.
 00:31:57.126 --> 00:31:59.716 A:middle
 And Xcode 5 moves us right
 down into the debug bar
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.086 --> 00:32:01.636 A:middle
 to be right next to
@@ -2791,9 +2694,6 @@ a really funny thing.
 00:32:57.056 --> 00:32:59.376 A:middle
 It's really, really easy
 to ignore performance
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.006 --> 00:33:02.666 A:middle
 until your app is
@@ -2891,9 +2791,6 @@ less than 1 percent overhead
 00:33:59.956 --> 00:34:01.486 A:middle
 for your application as it runs
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.936 --> 00:34:03.956 A:middle
 which is why we can
 enable them all the time
@@ -2905,7 +2802,7 @@ when your app is being debugged.
 And if you want to get
 more detailed information,
 
-00:34:08.886 --> 00:34:11.565 A:middle
+00:34:08.886 --> 00:34:11.566 A:middle
 one click gets you right
 into instruments and--
 
@@ -2924,11 +2821,11 @@ exactly where it is
 with instruments attached
 and continuing on.
 
-00:34:21.366 --> 00:34:23.335 A:middle
+00:34:21.366 --> 00:34:23.336 A:middle
 Now, in addition to CPU
 and memory information,
 
-00:34:23.896 --> 00:34:25.815 A:middle
+00:34:23.896 --> 00:34:25.816 A:middle
 we also have a number of
 other really powerful gauges,
 
@@ -2938,11 +2835,11 @@ for example one for energy.
 00:34:27.706 --> 00:34:29.036 A:middle
 This lets you see the state--
 
-00:34:29.036 --> 00:34:30.985 A:middle
+00:34:29.036 --> 00:34:30.986 A:middle
 current state of your
 application, how it responds
 
-00:34:30.985 --> 00:34:33.735 A:middle
+00:34:30.986 --> 00:34:33.736 A:middle
 to App Map and other
 important energy events.
 
@@ -2967,7 +2864,7 @@ Ken.
 00:34:42.516 --> 00:34:45.966 A:middle
 [ Applause ]
 
-00:34:46.466 --> 00:34:46.835 A:middle
+00:34:46.466 --> 00:34:46.836 A:middle
 &gt;&gt; All right.
 
 00:34:47.616 --> 00:34:50.576 A:middle
@@ -2984,9 +2881,6 @@ So we'll start by running.
 00:34:56.206 --> 00:35:00.136 A:middle
 And the first thing
 you'll notice
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.216 --> 00:35:02.966 A:middle
 in Xcode is the new
@@ -3062,9 +2956,6 @@ over the course of your jog.
 Now, you know what, when I--
 when I clicked on that route,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:02.436 --> 00:36:06.226 A:middle
 I actually saw a little bit of
 a spike in the CPU right here.
@@ -3132,9 +3023,6 @@ trigger that breakpoint.
 OK, so here we are
 and create graph path.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:04.556 --> 00:37:10.176 A:middle
 All right, now I'm looking at
 this first line of code here.
@@ -3197,9 +3085,6 @@ can see how we're doing.
 
 00:37:58.376 --> 00:38:04.196 A:middle
 OK. So let's click on a route.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:04.386 --> 00:38:06.116 A:middle
 OK, that looks much better.
@@ -3274,9 +3159,6 @@ spike in memory usage.
 So, certainly something
 we want to address.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:02.646 --> 00:39:05.136 A:middle
 This will be a great way to
 get us a nice one star review.
@@ -3348,9 +3230,6 @@ that is I use datatips.
 00:39:56.136 --> 00:40:01.556 A:middle
 So I can just mouse over image
 scale and you'll notice now
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:01.556 --> 00:40:05.876 A:middle
 in Xcode 5, that the datatips
@@ -3428,9 +3307,6 @@ that offer Quick Look.
 So things like, we've
 got an attributed string.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:02.026 --> 00:41:07.176 A:middle
 You want to see the string and
 you want to see the attributes
@@ -3494,9 +3370,6 @@ to analyze a single file.
 00:41:56.516 --> 00:41:59.956 A:middle
 So I'm going to take advantage
 of that now and I'm going
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:00.026 --> 00:42:02.876 A:middle
 to run the Static
@@ -3564,9 +3437,6 @@ and see how the memory responds.
 00:42:56.116 --> 00:42:59.656 A:middle
 OK. So this is looking much
 more like what I would expect.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:00.366 --> 00:43:03.976 A:middle
 So I see the memory go up, I
@@ -3639,9 +3509,6 @@ couple of minutes here,
 00:43:56.906 --> 00:44:01.016 A:middle
 we've seen that we have
 found, we have fixed,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:01.636 --> 00:44:04.276 A:middle
 and we have verified
@@ -3724,9 +3591,6 @@ support the common workflows
 that you want in
 your applications.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:02.326 --> 00:45:05.176 A:middle
 The new Test Navigator shows
 up just like you'd expect.
@@ -3803,9 +3667,6 @@ testing framework right
 into the Xcode family with
 the new test framework XCTest.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:02.536 --> 00:46:05.216 A:middle
 Now XCTest is very similar
 to OC unit in many ways.
@@ -3879,9 +3740,6 @@ of reproducible steps
 00:46:59.376 --> 00:47:02.096 A:middle
 that can contain things like
 doing a build, running tests,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:02.096 --> 00:47:04.406 A:middle
 running the analyzer,
@@ -3957,9 +3815,6 @@ a single device,
 00:47:57.196 --> 00:47:59.846 A:middle
 maybe a specific screen
 resolution where a process of--
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:00.376 --> 00:48:01.606 A:middle
 you know, specific processor.
@@ -4045,9 +3900,6 @@ Why do you want to do this?
 00:48:58.766 --> 00:49:00.606 A:middle
 Well, this is really great
 for a number of reasons.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:00.896 --> 00:49:03.726 A:middle
 First of all, you
@@ -4135,9 +3987,6 @@ really, really easy.
 Now to show you how these
 all works, I'd like to invite
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:01.516 --> 00:50:02.976 A:middle
 up Mike Ferris to show
 it to you in action.
@@ -4208,9 +4057,6 @@ holes in our test coverage.
 00:50:57.956 --> 00:51:00.806 A:middle
 And since I've added a bunch of
 new tests, I'll run them all now
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:00.806 --> 00:51:02.726 A:middle
 to bring my status up to date.
@@ -4294,9 +4140,6 @@ So, I'll fix that now.
 And to verify that I've
 actually fixed the problem,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:00.256 --> 00:52:03.246 A:middle
 I can just click on the status
 icon in the test navigator
@@ -4374,9 +4217,6 @@ the related files pop-up
 that gives me access
 to test cases
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:53:00.256 --> 00:53:02.226 A:middle
 that exercise the code
 that I'm working on.
@@ -4441,9 +4281,6 @@ of this feature.
 00:53:57.266 --> 00:54:01.776 A:middle
 Now, in Xcode 5, we want to
 make it really easy for you guys
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:01.776 --> 00:54:03.286 A:middle
 to write great applications
@@ -4513,9 +4350,6 @@ how my Bot is doing.
 00:54:58.006 --> 00:55:00.316 A:middle
 There are issue counts
 for the last integration,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:55:01.616 --> 00:55:04.326 A:middle
 graphs that show how
@@ -4588,9 +4422,6 @@ and how it's been doing
 
 00:55:57.606 --> 00:55:59.086 A:middle
 over the past few integrations.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:56:00.346 --> 00:56:01.966 A:middle
 Here I can easily see
@@ -4671,9 +4502,6 @@ are only happening
 on one particular
 type of device.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:57:00.976 --> 00:57:03.846 A:middle
 Now, you can't always
 be running your test
@@ -4748,9 +4576,6 @@ the Mac version of my project
 00:57:57.896 --> 00:58:02.896 A:middle
 and I'll give it a name.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:58:03.106 --> 00:58:06.436 A:middle
 I'd like this Bot to run every
 time there are new changes made
@@ -4809,9 +4634,6 @@ that we always know how our Bots
 
 00:58:59.206 --> 00:58:59.556 A:middle
 are doing.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:59:00.206 --> 00:59:05.366 A:middle
 This way, we're always aware
@@ -4875,9 +4697,6 @@ Apple Developer Website.
 Xcode includes the SDKs for
 both iOS 7 and OS X Mavericks
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 01:00:01.596 --> 01:00:04.756 A:middle
 and it runs on either a Mountain
 Lion or a Mavericks machine.
@@ -4913,4 +4732,3 @@ Thank you all.
 
 01:00:24.516 --> 01:00:33.300 A:middle
 [ Silence ]
-

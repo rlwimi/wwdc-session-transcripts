@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.506 A:middle
 [ Silence ]
@@ -80,9 +79,6 @@ That's a good score.
 00:00:59.526 --> 00:01:02.906 A:middle
 What about Harry Potter.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:03.026 --> 00:01:06.276 A:middle
 Let's see here, this is the
 number of studs collected,
@@ -160,9 +156,6 @@ outside of that range,
 00:01:58.616 --> 00:02:00.636 A:middle
 then we don't post it to the
 Game Center leaderboards.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:01.036 --> 00:02:03.646 A:middle
 New this year is score signing
@@ -247,9 +240,6 @@ up on Game Center.
 No other leaderboards
 are affected by this.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:01.506 --> 00:03:02.226 A:middle
 Blocking a user.
 
@@ -329,9 +319,6 @@ they're our customers.
 00:03:54.546 --> 00:03:56.786 A:middle
 Let's treat them fairly and
 with the respect they're due.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:00.426 --> 00:04:01.536 A:middle
 So that's score management.
@@ -435,9 +422,6 @@ into Level 2 set.
 Talk about display
 name localization.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:01.766 --> 00:05:03.676 A:middle
 Again, we have these
 four leaderboards.
@@ -524,9 +508,6 @@ in sandbox mode today.
 With that, I'd like
 to turn the time
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.636 --> 00:06:03.426 A:middle
 over to Daniel Miao
 [phonetic] to give us a demo
@@ -609,9 +590,6 @@ Move All Leaderboards
 00:06:58.646 --> 00:07:00.036 A:middle
 into Sets, right here.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.036 --> 00:07:04.476 A:middle
 And this page is asking us what
 we'd like to call our first set.
@@ -679,9 +657,6 @@ So, in a Level 1 set, the Level
 show up as just High Score,
 so Level 1 High Score.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.916 --> 00:08:04.766 A:middle
 So hit Save and save this
 leaderboard to this set.
@@ -742,9 +717,6 @@ Give an ID.
 
 00:08:58.816 --> 00:09:00.456 A:middle
 Hit Save to create it.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.456 --> 00:09:02.566 A:middle
 And we'll see up here that
@@ -818,9 +790,6 @@ second Level 2 leaderboard.
 
 00:09:58.656 --> 00:10:00.266 A:middle
 Choose an English display name.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:01.076 --> 00:10:02.106 A:middle
 Call it Fastest Time.
@@ -896,9 +865,6 @@ and Players now.
 00:10:57.786 --> 00:11:00.656 A:middle
 In order to do that, we
 click this button right here.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.656 --> 00:11:05.446 A:middle
 And this brings up a list
@@ -985,9 +951,6 @@ that's too high,
 
 00:11:58.156 --> 00:12:00.346 A:middle
 but this one's not his fault.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.866 --> 00:12:02.326 A:middle
 This one's due to the
@@ -1076,9 +1039,6 @@ You create your app.
 00:12:58.826 --> 00:13:00.016 A:middle
 It's on the App Store.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.796 --> 00:13:03.726 A:middle
 It's doing very well and now
 you -- somebody wants to buy it.
@@ -1163,9 +1123,6 @@ it will be ungrouped and put
 00:13:56.816 --> 00:13:59.686 A:middle
 in with the new owner as
 a stand-alone game again.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.236 --> 00:14:03.556 A:middle
 The app ID is also transferred.
@@ -1256,9 +1213,6 @@ needs to be a team agent,
 as they will need to sign an app
 transfer contract on their end.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:01.926 --> 00:15:04.186 A:middle
 Once they do that, we begin
 to process the app transfer.
@@ -1346,9 +1300,6 @@ ID that everybody has,
 and you can find it
 in the Member Center.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:01.616 --> 00:16:03.216 A:middle
 Once you transfer the
 app, it will no longer be
@@ -1432,9 +1383,6 @@ contact if we have questions
 about the app: Name,
 phone number, email,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.206 --> 00:17:01.446 A:middle
 those fields you see
 in iTunes Connect.
@@ -1450,14 +1398,14 @@ documentation is required,
 you will need to have that
 before you can sign the contract
 
-00:17:09.976 --> 00:17:10.695 A:middle
+00:17:09.976 --> 00:17:10.696 A:middle
 that transfers the app.
 
-00:17:11.415 --> 00:17:15.356 A:middle
+00:17:11.416 --> 00:17:15.356 A:middle
 At this point, once you've
 signed your contract,
 
-00:17:15.356 --> 00:17:18.175 A:middle
+00:17:15.356 --> 00:17:18.176 A:middle
 App Transfer has begun, it's
 processing App Transfer,
 
@@ -1519,9 +1467,6 @@ to access that same data.
 
 00:17:59.056 --> 00:18:00.486 A:middle
 That is App Transfer.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.056 --> 00:18:03.096 A:middle
 It's available today,
@@ -1612,9 +1557,6 @@ app on the store.
 And the time savings that you
 gain, you'll be able to reinvest
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.436 --> 00:19:03.136 A:middle
 into making your
 apps even better.
@@ -1692,9 +1634,6 @@ in up to 28 languages,
 so in order to appeal
 most effectively
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:02.096 --> 00:20:05.286 A:middle
 to your customers worldwide, it
 pays to provide that information
@@ -1770,9 +1709,6 @@ automate this process,
 because you can't script
 the Web GUI effectively.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:04.016 --> 00:21:06.236 A:middle
 You've been telling us about
 it; you've been filing a lot
@@ -1846,9 +1782,6 @@ do with it is you look
 up the current state, the
 current metadata for your app.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:02.876 --> 00:22:05.226 A:middle
 When you do that, it gets
 downloaded as a package,
@@ -1918,9 +1851,6 @@ be performed when you do that.
 00:22:55.406 --> 00:23:00.346 A:middle
 This is the lifecycle, the flow
 overall: download the package;
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.806 --> 00:23:05.706 A:middle
 modify XML; add screenshots and
@@ -1997,9 +1927,6 @@ come up with this big XML file
 00:23:58.006 --> 00:24:00.166 A:middle
 with everything about your
 app in there, from scratch.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.736 --> 00:24:03.556 A:middle
 You could use this as a skeleton
@@ -2080,9 +2007,6 @@ you a flavor:
 you have to identify your
 app properly by the SKU;
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.676 --> 00:25:02.776 A:middle
 the version needs to be
 in an editable state --
@@ -2158,9 +2082,6 @@ and books, and other software.
 You could expect there
 to be a few minutes
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:01.416 --> 00:26:04.636 A:middle
 of delay before your data
 is actually reflected
@@ -2235,9 +2156,6 @@ And the feed is available
 00:26:57.036 --> 00:26:59.866 A:middle
 for both iOS apps
 and Mac apps equally.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.276 --> 00:27:04.376 A:middle
 I mentioned documentation
@@ -2317,9 +2235,6 @@ app, identified by vendor ID,
 
 00:27:59.396 --> 00:28:00.306 A:middle
 which is the app's SKU.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.056 --> 00:28:04.276 A:middle
 And within it the metadata.
@@ -2402,9 +2317,6 @@ to you by Apple.
 And in the software section,
 you have to identify,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:02.596 --> 00:29:03.736 A:middle
 well, what app is it for?
 
@@ -2476,9 +2388,6 @@ U.S. English to be precise here.
 In the feed, that's
 locale element
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:01.376 --> 00:30:04.306 A:middle
 with the language
 identified by name en-US,
@@ -2547,9 +2456,6 @@ three of them in the feed.
 
 00:30:57.846 --> 00:30:58.506 A:middle
 Screenshots.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:01.076 --> 00:31:03.306 A:middle
 Well, screenshots are just
@@ -2632,9 +2538,6 @@ or you're deleting one --
 please supply the
 entire section.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:01.076 --> 00:32:02.676 A:middle
 Here's why.
 
@@ -2710,9 +2613,6 @@ in the Products Section.
 What you'll see there
 corresponds to iTunes Connect,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:01.826 --> 00:33:06.606 A:middle
 in that most of the settings are
 applicable worldwide, globally.
@@ -2786,9 +2686,6 @@ on the start date there;
 same concept as in
 iTunes Connect.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.466 --> 00:34:02.646 A:middle
 And the tier end
 date is End Date.
@@ -2804,7 +2701,7 @@ for the changes
 00:34:09.786 --> 00:34:11.126 A:middle
 of the prices ahead of time.
 
-00:34:11.565 --> 00:34:15.246 A:middle
+00:34:11.566 --> 00:34:15.246 A:middle
 So, for example, I have an
 app that's normally at Tier 3,
 
@@ -2841,10 +2738,10 @@ duration of the conference
 down to Tier 1 and then
 comes back up to Tier 3.
 
-00:34:42.556 --> 00:34:44.315 A:middle
+00:34:42.556 --> 00:34:44.316 A:middle
 Notice no end date, which means
 
-00:34:44.315 --> 00:34:46.976 A:middle
+00:34:44.316 --> 00:34:46.976 A:middle
 that this is the tier that's
 effective in perpetuity,
 
@@ -2866,9 +2763,6 @@ to do there is
 00:34:57.736 --> 00:35:00.006 A:middle
 to state whether your app is
 available for sale there or not,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.006 --> 00:35:01.756 A:middle
 and there are two
@@ -2957,9 +2851,6 @@ for sale in Japan only.
 So, two ways of going about
 that territory settings.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:01.576 --> 00:36:03.496 A:middle
 So, these were rights
 and pricing for your app.
@@ -3044,9 +2935,6 @@ can indicate in the feed
 that you would like Apple
 to host it and provide it
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:00.596 --> 00:37:06.526 A:middle
 as an asset in the
 package when you upload.
@@ -3119,9 +3007,6 @@ recently added reports
 00:37:58.286 --> 00:37:59.586 A:middle
 for leaderboards
 and achievements.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.426 --> 00:38:01.536 A:middle
 You select which ones you want,
@@ -3218,9 +3103,6 @@ through the list reports method,
 and you get a status
 output for each report type
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:01.756 --> 00:39:02.706 A:middle
 that you've requested.
 
@@ -3288,9 +3170,6 @@ and there's actually a lot more,
 00:39:58.006 --> 00:39:59.406 A:middle
 and certainly a lot
 more options for them.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.286 --> 00:40:02.556 A:middle
 And the "App Metadata
@@ -3369,9 +3248,6 @@ You know that; we don't.
 They suit your flows;
 they suit your processes.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:04.026 --> 00:41:07.466 A:middle
 What we're providing is the
 ability to integrate with them.
@@ -3441,9 +3317,6 @@ which will get all the data
 
 00:41:57.856 --> 00:41:59.266 A:middle
 down to your local storage.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:00.436 --> 00:42:03.446 A:middle
 We'll visualize it, make
@@ -3534,9 +3407,6 @@ start playing with it.
 So, we'll invoke a script,
 and because this is all meant
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:05.316 --> 00:43:08.646 A:middle
 to show case command line
 ways of automating your stuff,
@@ -3624,9 +3494,6 @@ variables USERNAME
 00:43:59.126 --> 00:44:00.126 A:middle
 and PASSWORD, uppercase.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.306 --> 00:44:03.986 A:middle
 And finally, the "destination"
 parameter tells Transporter
@@ -3702,9 +3569,6 @@ because, when you do a lookup,
 00:44:59.446 --> 00:45:02.216 A:middle
 you get the metadata and these
 identifiers are provided to you.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:02.856 --> 00:45:04.346 A:middle
 When you're ready to
@@ -3788,9 +3652,6 @@ the most obvious choice
 for opening a CSV
 document is ...
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:01.106 --> 00:46:06.686 A:middle
 Numbers. So, we hit return and
 open the document in Numbers.
@@ -3868,9 +3729,6 @@ app is on sale at price tier 3,
 and it's available only
 in the United States.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:03.096 --> 00:47:06.986 A:middle
 So, this is the data we saw on
 iTunes Connect, we were able
@@ -3944,9 +3802,6 @@ that has all these edits.
 Alright, so what are
 we looking at here?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:02.716 --> 00:48:04.816 A:middle
 It's practically, the same
 document we saw earlier.
@@ -4017,9 +3872,6 @@ comma separated values document,
 00:48:57.306 --> 00:49:00.536 A:middle
 transform it to XML and then
 upload it to iTunes Connect.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:01.576 --> 00:49:05.826 A:middle
 I invoke a script called
@@ -4109,9 +3961,6 @@ of the interaction,
 we do some additional
 validations.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:01.286 --> 00:50:05.056 A:middle
 In this case, it turns
 out, version 2.0,
@@ -4186,9 +4035,6 @@ everything was good.
 
 00:50:59.236 --> 00:51:00.406 A:middle
 But we're not done yet.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:01.866 --> 00:51:04.356 A:middle
 The upload is done, but,
@@ -4265,9 +4111,6 @@ metadata.xml.
 Notice that, the format is
 almost exactly the same.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:00.096 --> 00:52:04.086 A:middle
 We notice that we're sending the
 team-id back, vendor-id back,
@@ -4341,9 +4184,6 @@ Let's go back to localizations.
 
 00:52:57.896 --> 00:52:58.846 A:middle
 I'll cancel this.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:00.196 --> 00:53:04.086 A:middle
 Version 2.0, right!
@@ -4440,9 +4280,6 @@ so let's go over those.
 On the metadata side, if you're
 providing a demo account,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:54:01.506 --> 00:54:03.236 A:middle
 make sure it's full
 access to the app.
@@ -4527,9 +4364,6 @@ section, invalid binary state.
 It is a mistake with the
 iPhone 5 launch image.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:55:00.056 --> 00:55:02.246 A:middle
 There's a lot of
 documentation information online
@@ -4610,4 +4444,3 @@ Thank you.
 
 00:55:51.938 --> 00:55:53.938 A:middle
 [ Applause ]
-

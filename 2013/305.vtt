@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.556 A:middle
 [ Silence ]
@@ -73,9 +72,6 @@ changes that we made to --
 00:00:59.776 --> 00:01:02.496 A:middle
 to StoreKit and then we'll
 review the In-App purchase
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:02.496 --> 00:01:05.226 A:middle
 process and highlight the
@@ -166,9 +162,6 @@ difficult to verify receipts,
 but there's a bunch of
 details you want to get right.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:01.816 --> 00:02:04.676 A:middle
 So we spun off a separate
 session called, "Using Receipts
@@ -244,9 +237,6 @@ to the same unified receipt,
 00:02:57.806 --> 00:02:59.366 A:middle
 which proved to be
 so successful.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.856 --> 00:03:02.536 A:middle
 [applause] So, thank you.
@@ -337,9 +327,6 @@ is stocked in the store
 as a paid application and
 at some point in time,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:01.016 --> 00:04:03.486 A:middle
 you want to make this
 application a free application.
@@ -364,11 +351,11 @@ content they're entitled to.
 So, if you look into the
 app purchase receipts,
 
-00:04:18.046 --> 00:04:21.375 A:middle
+00:04:18.046 --> 00:04:21.376 A:middle
 you'll find a purchase date
 and this will allow you to know
 
-00:04:21.375 --> 00:04:23.026 A:middle
+00:04:21.376 --> 00:04:23.026 A:middle
 if your user is entitled
 to content,
 
@@ -423,9 +410,6 @@ slide about 93 percent
 00:04:59.666 --> 00:05:02.316 A:middle
 of the applications, of
 the users having updated
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:02.316 --> 00:05:03.596 A:middle
 to the latest version
@@ -504,9 +488,6 @@ licenses back from the students
 00:05:58.556 --> 00:06:00.976 A:middle
 and assign them to the
 new batch of students.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:01.446 --> 00:06:03.276 A:middle
 So that really unlocks
@@ -596,9 +577,6 @@ to buy your applications.
 But again, the security
 is in the receipt.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.816 --> 00:07:03.996 A:middle
 So in both cases, it is the
 application's responsibility
@@ -683,9 +661,6 @@ in-app purchases.
 You can upload this to the Apple
 server and Apple will host this,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:02.256 --> 00:08:04.516 A:middle
 Apple will serve it, and
 Apple will even download it
@@ -734,18 +709,18 @@ through the app review process,
 but they're a very convenient
 way to distribute some content.
 
-00:08:32.285 --> 00:08:35.395 A:middle
+00:08:32.286 --> 00:08:35.396 A:middle
 Now, let's review the four types
 of In-App purchases we have
 
-00:08:35.626 --> 00:08:36.785 A:middle
+00:08:35.626 --> 00:08:36.786 A:middle
 in the Apple ecosystem.
 
 00:08:37.836 --> 00:08:41.436 A:middle
 On the one end of the spectrum,
 we have consumable products.
 
-00:08:41.905 --> 00:08:43.836 A:middle
+00:08:41.906 --> 00:08:43.836 A:middle
 It's for things like gold coins,
 
 00:08:44.206 --> 00:08:45.536 A:middle
@@ -777,9 +752,6 @@ restore it to past devices
 
 00:08:59.076 --> 00:09:00.986 A:middle
 because you're managing it.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.306 --> 00:09:02.876 A:middle
 Now on the other
@@ -867,9 +839,6 @@ trust your applications
 and trust your brands, so
 they opt in to share the data.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.276 --> 00:10:07.366 A:middle
 Now, for all the other types
 of time-based In-App purchases,
@@ -949,9 +918,6 @@ types of in-app purchases.
 OS X supports only
 consumables and non-consumables.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:03.666 --> 00:11:07.056 A:middle
 And as you've probably
 guessed, today we're excited
@@ -1022,9 +988,6 @@ connected to In-App purchases.
 00:11:56.186 --> 00:12:00.386 A:middle
 So I'm going to assume here
 that you already know the basics
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.386 --> 00:12:03.216 A:middle
 of StoreKit and that you
@@ -1109,9 +1072,6 @@ two major options here.
 00:12:59.206 --> 00:13:01.916 A:middle
 If you have In-App
 purchases like game options,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:02.006 --> 00:13:03.336 A:middle
 things just unlocking the game,
@@ -1199,9 +1159,6 @@ online -- that's a good case,
 you will get, "Did
 receive response."
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:01.676 --> 00:14:04.336 A:middle
 And the response will
 contain two things.
@@ -1282,9 +1239,6 @@ In-App purchase,
 00:14:59.946 --> 00:15:03.346 A:middle
 well you'll also get the content
 size and the content version.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:03.826 --> 00:15:05.546 A:middle
 And you can use this
@@ -1368,9 +1322,6 @@ the price the store gives you
 and the price currency that the
 store gives you is what we will
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:02.916 --> 00:16:03.766 A:middle
 charge to the user.
 
@@ -1452,9 +1403,6 @@ This is comiXsology.
 Look at that, it has
 a 99 cent specials.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.516 --> 00:17:01.596 A:middle
 It has [inaudible] Sprint.
 
@@ -1467,7 +1415,7 @@ You can browse.
 00:17:03.516 --> 00:17:04.126 A:middle
 You can discover.
 
-00:17:04.445 --> 00:17:07.386 A:middle
+00:17:04.446 --> 00:17:07.386 A:middle
 It has all the features you want
 to have in a real comic store.
 
@@ -1540,9 +1488,6 @@ payment to the payment queue,
 
 00:17:58.536 --> 00:17:59.566 A:middle
 and that's all you have to do.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.376 --> 00:18:01.846 A:middle
 StoreKit will take over.
@@ -1629,9 +1574,6 @@ to block the activity
 00:18:58.806 --> 00:18:59.556 A:middle
 as much as possible.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.656 --> 00:19:04.866 A:middle
 So here's one case where
 we're going to be asking
@@ -1715,9 +1657,6 @@ identifier.
 That means we don't want to know
 your account names or users.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:02.046 --> 00:20:04.106 A:middle
 We really don't want
 to know about this.
@@ -1798,9 +1737,6 @@ So you have issued the purchase
 and the store will be processing
 it, and it will come back
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.716 --> 00:21:02.286 A:middle
 to the device as a transaction.
 
@@ -1879,9 +1815,6 @@ receipts, you want to verify it.
 
 00:21:58.876 --> 00:22:01.236 A:middle
 And again, you choose the level
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:01.236 --> 00:22:02.756 A:middle
 of security you want
@@ -1964,9 +1897,6 @@ on your own servers.
 00:22:56.536 --> 00:22:59.816 A:middle
 In that solution you want to
 first open a secure connection
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.356 --> 00:23:03.326 A:middle
 to your server and send a
@@ -2053,9 +1983,6 @@ issues to push to devices
 
 00:23:57.916 --> 00:23:58.766 A:middle
 so it's very convenient.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.076 --> 00:24:03.936 A:middle
 So again, you want to validate
@@ -2148,9 +2075,6 @@ which is kind of fragile.
 And you want to send
 it across a connection
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:01.436 --> 00:25:02.606 A:middle
 that you really know
 you can trust.
@@ -2229,9 +2153,6 @@ can also use the legacy
 
 00:25:59.216 --> 00:25:59.916 A:middle
 classic downloads.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.796 --> 00:26:02.276 A:middle
 So first, host In-App purchases.
@@ -2319,9 +2240,6 @@ works so you can know what
 to look for in the
 future, when you get --
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:00.516 --> 00:27:04.296 A:middle
 when you're payment of
 server fires with updates
@@ -2405,9 +2323,6 @@ from your own server
 00:27:59.386 --> 00:28:02.516 A:middle
 to your application
 in the background
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:02.666 --> 00:28:04.526 A:middle
 and gives you a fine-grain
@@ -2495,9 +2410,6 @@ whenever that makes progress
 00:28:59.576 --> 00:29:00.346 A:middle
 or finishes downloading.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:02.376 --> 00:29:06.136 A:middle
 So we mentioned that
 Newsstand Kits was downloading
@@ -2584,9 +2496,6 @@ pretty precisely.
 00:29:59.076 --> 00:30:01.756 A:middle
 And an added benefit
 is its power efficient.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:02.046 --> 00:30:04.036 A:middle
 So as long as the application
@@ -2681,9 +2590,6 @@ multithreading.
 So again, you want to wrap your
 URL into a URL request object
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:02.296 --> 00:31:06.206 A:middle
 and you want to create an
 NSURL session download task.
@@ -2760,9 +2666,6 @@ launches, we'll get called
 00:31:57.816 --> 00:32:00.226 A:middle
 with handle events with
 background URL session.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.946 --> 00:32:02.576 A:middle
 This will give you the
@@ -2848,9 +2751,6 @@ using the legacy download APIs,
 00:32:59.416 --> 00:33:00.476 A:middle
 but it's not a good idea,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.476 --> 00:33:04.436 A:middle
 actually because when the
 application gets backgrounded,
@@ -2935,9 +2835,6 @@ the [inaudible] assets
 and the final step is to
 finish this transaction.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.386 --> 00:34:01.206 A:middle
 Again, not change here.
 
@@ -2992,18 +2889,18 @@ to confirm the transactions.
 So if user is on cellular
 you will incur some cellular
 
-00:34:36.806 --> 00:34:37.505 A:middle
+00:34:36.806 --> 00:34:37.506 A:middle
 data consumption.
 
-00:34:37.755 --> 00:34:40.696 A:middle
+00:34:37.756 --> 00:34:40.696 A:middle
 So there's no point
 in doing this.
 
-00:34:40.735 --> 00:34:43.206 A:middle
+00:34:40.736 --> 00:34:43.206 A:middle
 So it's very simple to just
 finish the transactions.
 
-00:34:43.686 --> 00:34:48.755 A:middle
+00:34:43.686 --> 00:34:48.756 A:middle
 And that concludes the in-app
 purchase process overview.
 
@@ -3015,16 +2912,13 @@ practice I'd like to mention.
 To get your delegate
 method's goal you have
 
-00:34:57.085 --> 00:34:58.286 A:middle
+00:34:57.086 --> 00:34:58.286 A:middle
 to install the payment
 cube server.
 
 00:34:58.516 --> 00:35:01.086 A:middle
 And you guys are already
 doing this, but don't wait
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.326 --> 00:35:03.046 A:middle
 to make a purchase
@@ -3120,9 +3014,6 @@ restoring in-app purchases --
 nothing changes except
 the API you call
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:01.336 --> 00:36:02.926 A:middle
 to get the receipt
 so no change here.
@@ -3198,9 +3089,6 @@ for signing your application.
 00:36:58.276 --> 00:37:00.276 A:middle
 So when you develop your
 application it is signed
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.276 --> 00:37:01.456 A:middle
 with the development
@@ -3282,9 +3170,6 @@ store validation servers.
 So you can feel free
 to use the SendBox.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.646 --> 00:38:02.366 A:middle
 These receipts will not
 validate against production.
@@ -3359,9 +3244,6 @@ a subscription stops renewing.
 00:38:57.096 --> 00:39:01.976 A:middle
 So in practice, that means
 you have to first log
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:01.976 --> 00:39:04.276 A:middle
 into Access Connect,
@@ -3455,9 +3337,6 @@ developing the application is
 signed by your development
 certificate.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.516 --> 00:40:03.736 A:middle
 So the OS will point
 it to the SendBox
@@ -3550,9 +3429,6 @@ production validation servers,
 it will fail, and you
 don't want this to fail
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:02.476 --> 00:41:03.546 A:middle
 because this will
 fail at review.
@@ -3637,9 +3513,6 @@ to competition.
 00:41:56.726 --> 00:42:01.366 A:middle
 So the first thing you have to
 do is have a restore button.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:02.036 --> 00:42:05.226 A:middle
 If you have non-consumables, you
@@ -3733,9 +3606,6 @@ privacy policy and you have
 to feel your [inaudible]
 connects.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:01.396 --> 00:43:03.096 A:middle
 Otherwise, this is an
 automatic rejection.
@@ -3827,9 +3697,6 @@ subscribe button.
 00:43:55.996 --> 00:44:00.606 A:middle
 And in Newsstand, it is
 totally okay, in fact it's great
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:00.606 --> 00:44:02.516 A:middle
 if you offer the
@@ -3931,9 +3798,6 @@ paid contents.
 00:44:59.096 --> 00:45:00.606 A:middle
 You can't ask the user to pay
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:00.646 --> 00:45:02.256 A:middle
 for things he could
 get for free otherwise.
@@ -4022,9 +3886,6 @@ review easily is also the best
 way to get good user feedback
 and read reviews and loyalty.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:02.506 --> 00:46:05.246 A:middle
 And it's also the best
 way to get great sales is
@@ -4074,4 +3935,3 @@ Thanks for using StoreKits.
 
 00:46:42.016 --> 00:46:46.606 A:middle
 [ Silence ]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.686 A:middle
 [ Silence ]
@@ -65,10 +64,7 @@ to inspect, tweak, analyze,
 and debug any problem you
 may have with your web page.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:00.156 --> 00:01:04.385 A:middle
+00:01:00.156 --> 00:01:04.386 A:middle
 And it's a tool that runs
 on the Mac as part of Safari
 
@@ -140,14 +136,11 @@ sorry, on iOS devices.
 That was really a
 massive breakthrough.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.776 --> 00:02:04.616 A:middle
 And we thought that while doing
 this would probably gather a
 
-00:02:04.616 --> 00:02:09.045 A:middle
+00:02:04.616 --> 00:02:09.046 A:middle
 whole set of new users that will
 be a lot more used to Xcode,
 
@@ -212,9 +205,6 @@ of Web Inspector in Safari 7.
 00:02:59.996 --> 00:03:02.816 A:middle
 And so, I'd like to walk
 you through one major change
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:02.816 --> 00:03:05.476 A:middle
 that we've made and
@@ -306,9 +296,6 @@ the first two items,
 we'll give you information about
 your resources on your page,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:01.186 --> 00:04:04.446 A:middle
 the number of resources
 and the aggregate size
@@ -336,11 +323,11 @@ to find out more details.
 Likewise, you can track
 the low time of your page,
 
-00:04:18.505 --> 00:04:21.315 A:middle
+00:04:18.506 --> 00:04:21.316 A:middle
 the time up to the load
 events in a rolling counter
 
-00:04:21.315 --> 00:04:24.136 A:middle
+00:04:21.316 --> 00:04:24.136 A:middle
 from the page below to the time
 the load even fired and click
 
@@ -397,9 +384,6 @@ in the console.
 00:04:58.006 --> 00:04:59.806 A:middle
 If you click an error,
 you'll see only errors.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.006 --> 00:05:02.046 A:middle
 And of course you can
@@ -486,9 +470,6 @@ with those tasks.
 00:05:58.516 --> 00:06:01.176 A:middle
 The first one would be
 inspection tweaking then we'll
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:01.176 --> 00:06:03.886 A:middle
 go and take a look
@@ -577,9 +558,6 @@ on our laurels and we want
 00:06:58.646 --> 00:07:01.376 A:middle
 to make sure that we had
 the best experience possible
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:01.376 --> 00:07:04.146 A:middle
 for styles editing and we have
@@ -673,9 +651,6 @@ in the style sidebar,
 you can't miss it, and what it--
 and we've also made it better
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:02.406 --> 00:08:05.436 A:middle
 such that when you press
 that button, it will look
@@ -763,9 +738,6 @@ we've made it so that style
 that may look great in Web
 Inspector was actually something
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:09:03.986 --> 00:09:06.206 A:middle
 that came through
 looking horrible before.
@@ -847,9 +819,6 @@ that we've been working on.
 00:09:57.756 --> 00:10:00.286 A:middle
 As you can see, it's a
 very simple photo gallery.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:01.056 --> 00:10:03.086 A:middle
 I have pictures of
@@ -959,9 +928,6 @@ free-form CSS editor,
 I can click anywhere, press
 Enter and start typing.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:03.486 --> 00:11:05.026 A:middle
 So because you want to
 just stick to the top,
@@ -1040,9 +1006,6 @@ options and quickly see how each
 00:11:58.866 --> 00:12:00.236 A:middle
 of this property is
 going to fit the layout.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.726 --> 00:12:02.196 A:middle
 So this is the a lot
@@ -1140,9 +1103,6 @@ element option.
 00:12:58.646 --> 00:13:00.896 A:middle
 You'll see this fit in directly
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.986 --> 00:13:03.656 A:middle
 into that note in
 the content view.
@@ -1222,9 +1182,6 @@ starting to work.
 00:13:59.126 --> 00:14:00.806 A:middle
 But this is a little,
 a little jumpy.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:01.076 --> 00:14:03.216 A:middle
 So let's go back to our style
@@ -1312,9 +1269,6 @@ image that I select.
 So I can click on and
 off to see the effect
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.066 --> 00:15:02.986 A:middle
 but even better I can now see
 the hover styles that I added
@@ -1393,9 +1347,6 @@ then start over.
 But now in Safari 7, I can
 simply press Command S,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:04.366 --> 00:16:05.776 A:middle
 save the file up to my disk.
 
@@ -1466,9 +1417,6 @@ compelling especially in a kind
 of demo like this when we
 want to tune the transition
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.966 --> 00:17:03.676 A:middle
 and the transformer applied to
 an element when it's hovered,
@@ -1477,7 +1425,7 @@ an element when it's hovered,
 we can just control that so much
 easier in a much easier manner
 
-00:17:07.715 --> 00:17:11.256 A:middle
+00:17:07.716 --> 00:17:11.256 A:middle
 by just using the hover
 checkbox in the pseudo-class bar
 
@@ -1485,7 +1433,7 @@ checkbox in the pseudo-class bar
 at the top of the
 styles sidebar.
 
-00:17:13.175 --> 00:17:20.076 A:middle
+00:17:13.176 --> 00:17:20.076 A:middle
 I think of a future that
 might seem just so natural now
 
@@ -1540,9 +1488,6 @@ inspection and tweaking.
 00:17:56.576 --> 00:18:00.686 A:middle
 So now let's move on to the next
 section, performance analysis.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.606 --> 00:18:04.486 A:middle
 And we're going to focus
@@ -1618,9 +1563,6 @@ image here is a live video
 00:18:59.796 --> 00:19:01.356 A:middle
 and we have controls
 that we want
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:01.356 --> 00:19:03.216 A:middle
 to customize on top
@@ -1704,9 +1646,6 @@ something displayed in a layer,
 in this case are video, and
 something else drawn on top
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:02.516 --> 00:20:04.856 A:middle
 of it, that piece
 of content laid
@@ -1786,9 +1725,6 @@ just watch it from the iOS app
 
 00:20:58.686 --> 00:21:00.486 A:middle
 as soon as you exit this room.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:01.826 --> 00:21:03.816 A:middle
 OK, so let's go back
@@ -1878,9 +1814,6 @@ about layers in your document.
 So let's take a look at what
 information is contained here.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.416 --> 00:22:02.896 A:middle
 At the top, we have
 any information
@@ -1968,9 +1901,6 @@ count as well as the memory
 00:22:59.016 --> 00:23:00.106 A:middle
 at the bottom of the panel.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.106 --> 00:23:02.496 A:middle
 So you can just take
 a look at that number
@@ -2050,9 +1980,6 @@ itself when the mouse is over.
 00:23:59.846 --> 00:24:02.376 A:middle
 So I can create interesting
 effect without having
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:02.376 --> 00:24:03.536 A:middle
 to change the DOM structure.
@@ -2144,9 +2071,6 @@ pop up, you'll see them all
 over the place in
 Web Inspector to jump
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.576 --> 00:25:03.346 A:middle
 to the associated content and
 clicking on it will take you
@@ -2236,9 +2160,6 @@ the overview, because it's laid
 out over another element
 that's in a layer,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.976 --> 00:26:02.176 A:middle
 it needs to be in its own layer.
 
@@ -2326,9 +2247,6 @@ the window, the layout does
 00:26:59.796 --> 00:27:01.626 A:middle
 in fact adjust to
 the new screen size.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:02.326 --> 00:27:03.826 A:middle
 But in terms of performance,
@@ -2429,9 +2347,6 @@ button I use to start,
 I'm going to go ahead and
 hide the timeline side panel
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.696 --> 00:28:03.046 A:middle
 so we get a little
 bit more room here.
@@ -2516,9 +2431,6 @@ layout here, some style going
 on against some layout, but
 let's go ahead and focus
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:01.326 --> 00:29:02.716 A:middle
 on what's going on with styles.
 
@@ -2601,9 +2513,6 @@ And here we go, let me zoom in.
 00:29:56.426 --> 00:30:00.336 A:middle
 So you'll notice, line 58,
 let's go ahead, and it seems
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.336 --> 00:30:01.616 A:middle
 that I'm inquiring
@@ -2700,9 +2609,6 @@ I'm going to type console time
 at the beginning
 of the function.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.816 --> 00:31:05.306 A:middle
 I'm going to put
 a console timeEnd
@@ -2782,9 +2688,6 @@ that page using Command R.
 00:31:57.086 --> 00:32:01.656 A:middle
 As you'll notice, we immediately
 get that timing function
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:01.656 --> 00:32:04.826 A:middle
 so we can see that the
@@ -2869,9 +2772,6 @@ move out of the for loop.
 
 00:32:59.616 --> 00:33:01.966 A:middle
 So I'm going to just do that.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:03.826 --> 00:33:08.316 A:middle
 And by doing this,
@@ -2958,9 +2858,6 @@ with a lot of images here,
 when we're doing
 some CSS transforms.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:02.086 --> 00:34:04.956 A:middle
 And in fact, to do all
 the layouts of the photos,
@@ -2985,10 +2882,10 @@ make use of a brand new feature
 in Safari 7 that allows me
 to quickly visualize all
 
-00:34:20.626 --> 00:34:21.755 A:middle
+00:34:20.626 --> 00:34:21.756 A:middle
 of the layers in my page.
 
-00:34:22.386 --> 00:34:26.775 A:middle
+00:34:22.386 --> 00:34:26.776 A:middle
 To do this, let me bring
 up the Inspector again.
 
@@ -3000,22 +2897,22 @@ to the Resources tab.
 And in the DOM tree,
 there's a brand new button
 
-00:34:32.335 --> 00:34:33.396 A:middle
+00:34:32.336 --> 00:34:33.396 A:middle
 in the upper right corner.
 
-00:34:34.416 --> 00:34:35.795 A:middle
+00:34:34.416 --> 00:34:35.796 A:middle
 But instead of me
 explaining what it does,
 
-00:34:35.795 --> 00:34:38.516 A:middle
+00:34:35.796 --> 00:34:38.516 A:middle
 let me zoom out and
 show you exactly.
 
-00:34:38.676 --> 00:34:42.275 A:middle
+00:34:38.676 --> 00:34:42.276 A:middle
 So I'm going to toggle it and
 I know it's a little bit hard
 
-00:34:42.275 --> 00:34:43.326 A:middle
+00:34:42.276 --> 00:34:43.326 A:middle
 to see so let me zoom in.
 
 00:34:44.136 --> 00:34:46.616 A:middle
@@ -3025,7 +2922,7 @@ drag borders around all
 00:34:46.616 --> 00:34:48.376 A:middle
 of the layers within your page.
 
-00:34:49.045 --> 00:34:50.466 A:middle
+00:34:49.046 --> 00:34:50.466 A:middle
 So this is a really cool way
 
 00:34:50.466 --> 00:34:52.246 A:middle
@@ -3046,9 +2943,6 @@ it seems that we're generating,
 00:34:57.986 --> 00:35:01.136 A:middle
 there are being layers
 composited for each photos.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.986 --> 00:35:03.376 A:middle
 This is sort of unexpected.
@@ -3141,9 +3035,6 @@ to go ahead and select one
 
 00:35:58.616 --> 00:35:59.796 A:middle
 of the photo wrappers here.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.496 --> 00:36:03.756 A:middle
 You immediately see that the
@@ -3239,9 +3130,6 @@ to change.
 So I'm going to go
 ahead in the Resources,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:00.076 --> 00:37:03.406 A:middle
 Open photo.js, and here we go.
 
@@ -3318,9 +3206,6 @@ break any system functionality.
 00:37:58.376 --> 00:38:00.246 A:middle
 Let's go ahead and
 try to shuffle again
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.786 --> 00:38:03.156 A:middle
 and make sure that's still
@@ -3414,9 +3299,6 @@ to make with any other tool.
 00:38:58.746 --> 00:39:00.146 A:middle
 Web Inspector is the only tool
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.146 --> 00:39:04.586 A:middle
 that let's you check
 performance-related issues
@@ -3485,9 +3367,6 @@ great techniques.
 00:39:57.006 --> 00:40:01.436 A:middle
 And Andreas also showcased some
 great improvements we've made
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:01.436 --> 00:40:01.956 A:middle
 to the timelines panel.
@@ -3562,9 +3441,6 @@ learn more about a Console API.
 00:40:57.966 --> 00:41:01.266 A:middle
 Andreas used a console time
 and console.timeEnd methods
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:01.626 --> 00:41:02.696 A:middle
 to time a code segment.
@@ -3662,9 +3538,6 @@ in this section.
 Now let's wrap this
 up by taking a look
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.856 --> 00:42:03.366 A:middle
 at debugging in Web Inspector.
 
@@ -3754,9 +3627,6 @@ that something has gone wrong.
 
 00:42:58.886 --> 00:43:01.346 A:middle
 So let's do just that.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:01.556 --> 00:43:02.626 A:middle
 Now you'll notice
@@ -3849,9 +3719,6 @@ trying to happen here.
 So clearly we add eventless near
 to the element before you click
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.036 --> 00:44:04.216 A:middle
 on it, and in the function
 handler, we're trying
@@ -3941,9 +3808,6 @@ There's no neular undefined.
 00:44:58.486 --> 00:45:01.176 A:middle
 So, I can't really get a sense
 about what the problem is.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:01.766 --> 00:45:04.016 A:middle
 So let's close this.
@@ -4041,9 +3905,6 @@ triggered the event.
 So in this case, this
 keyword refers to the element
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:00.546 --> 00:46:03.066 A:middle
 that we clicked on, not the
 object that contains the method.
@@ -4118,9 +3979,6 @@ So my hypothesis here is
 00:46:58.866 --> 00:47:00.706 A:middle
 that we're either not
 getting the right data
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:00.886 --> 00:47:02.196 A:middle
 or not running it correctly.
@@ -4199,9 +4057,6 @@ on the element itself.
 
 00:47:59.986 --> 00:48:01.386 A:middle
 So as I start autocompleting,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:01.706 --> 00:48:03.516 A:middle
 you'll see there's info
@@ -4292,9 +4147,6 @@ Up there is its image and so on.
 00:48:59.686 --> 00:49:00.946 A:middle
 So, this is a common scenario
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:00.946 --> 00:49:02.786 A:middle
 where sometimes data might
 change in the backend
@@ -4365,9 +4217,6 @@ thought we were done,
 00:49:56.766 --> 00:49:59.416 A:middle
 obviously another bug pops up,
 that happens once in a while.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:00.316 --> 00:50:02.496 A:middle
 So the previous problem
@@ -4459,9 +4308,6 @@ to the comments and rendered.
 But the problem here is
 that I don't want to have
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:01.976 --> 00:51:04.876 A:middle
 to run this debugger for
 every single comment.
@@ -4544,9 +4390,6 @@ can use to add a condition.
 So in this case we have
 text "Too Much Fun".
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:01.446 --> 00:52:04.456 A:middle
 So let's select that.
 
@@ -4624,9 +4467,6 @@ breakpoints, you can easily get
 00:52:59.226 --> 00:53:02.066 A:middle
 to only the problem that
 specific that you want to find.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:02.786 --> 00:53:06.176 A:middle
 So, using the popovers, we can
@@ -4714,9 +4554,6 @@ And with that, back to Antoine.
 So, the debugger sidebar is
 the way you can always track
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:54:01.896 --> 00:54:05.676 A:middle
 where your breakpoints are,
 what this data's recall stack is
@@ -4797,9 +4634,6 @@ for real-time debugging.
 00:54:57.526 --> 00:55:00.416 A:middle
 And again, taking a
 look at productivity,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:55:00.696 --> 00:55:01.766 A:middle
 there are some Command Line APIs
@@ -4890,9 +4724,6 @@ with our development
 with Web Inspector by
 going to nightly.webkit.org
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:56:00.876 --> 00:56:02.986 A:middle
 and you can download the
 WebKit nightly and build
@@ -4979,4 +4810,3 @@ Thanks very much.
 
 00:56:58.176 --> 00:57:00.000 A:middle
 [ Applause ]
-

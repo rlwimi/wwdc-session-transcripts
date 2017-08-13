@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.416 A:middle
 [ Applause ]
@@ -63,9 +62,6 @@ new ways to look at the Map.
 00:00:56.546 --> 00:00:59.906 A:middle
 We've got a 3D mode that
 you can use in Map Kit
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.306 --> 00:01:03.646 A:middle
 and we've also got the ability
@@ -151,17 +147,14 @@ a Directions API.
 So, with that outlined let's
 talk about Map Kit for OS X.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:05.226 --> 00:02:06.996 A:middle
 Here it is.
 
-00:02:07.226 --> 00:02:10.295 A:middle
+00:02:07.226 --> 00:02:10.296 A:middle
 We have an NP Map view
 and an NSWindow running
 
-00:02:10.295 --> 00:02:11.216 A:middle
+00:02:10.296 --> 00:02:11.216 A:middle
 on Mac OS X there.
 
 00:02:12.416 --> 00:02:14.106 A:middle
@@ -237,9 +230,6 @@ there's a plus and minus
 00:02:59.586 --> 00:03:01.606 A:middle
 and a compass control so you
 can use these to interact
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:01.606 --> 00:03:04.166 A:middle
 with the Map via a
@@ -332,9 +322,6 @@ demo and I'm going to invite
 up Alexander Carlhian up
 on stage to do this demo.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:03.296 --> 00:04:04.966 A:middle
 And you should give him
 a big round of applause
@@ -403,9 +390,6 @@ new object called MKMapView.
 I can just drag it into my
 view, resize, simple right?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:02.796 --> 00:05:07.096 A:middle
 Just, let's just
 run-- here it is.
@@ -469,9 +453,6 @@ Let's run again.
 
 00:05:58.366 --> 00:06:02.566 A:middle
 So you can see Paris.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:02.566 --> 00:06:03.716 A:middle
 You can see the compass.
@@ -542,9 +523,6 @@ remember that is a coffee place.
 So, I'm going to add
 an image to my project.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:01.456 --> 00:07:05.536 A:middle
 [ Silence ]
 
@@ -610,9 +588,6 @@ by my image, pretty easy.
 Alright, so the next step
 will be to add a callout.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:02.016 --> 00:08:04.996 A:middle
 A callout is like a popover that
 pops next to the pin annotation.
@@ -650,14 +625,14 @@ and setting the offset.
 00:08:31.356 --> 00:08:34.196 A:middle
 So, let's run.
 
-00:08:34.395 --> 00:08:37.556 A:middle
+00:08:34.396 --> 00:08:37.556 A:middle
 If I click on a pin I
 can see the callout next
 
 00:08:37.556 --> 00:08:39.306 A:middle
 to it with my title.
 
-00:08:39.885 --> 00:08:43.546 A:middle
+00:08:39.886 --> 00:08:43.546 A:middle
 That was easy right.
 
 00:08:44.576 --> 00:08:47.046 A:middle
@@ -679,9 +654,6 @@ documentation there is a right
 00:08:56.566 --> 00:09:01.696 A:middle
 and left accessory views
 so I'm going to use that.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.906 --> 00:09:07.216 A:middle
 I'm creating a left button,
@@ -754,9 +726,6 @@ just a subclass of a view.
 So, an UIView on iOS
 and an NSView on OS X.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.636 --> 00:10:03.656 A:middle
 So, something you can do
 is just to add a subview
@@ -827,9 +796,6 @@ just binding my annotation.
 00:10:53.746 --> 00:11:02.256 A:middle
 I will show you my annotation
 title here and address
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:03.036 --> 00:11:05.456 A:middle
 and just add a button.
@@ -904,9 +870,6 @@ view of the pin.
 00:11:58.076 --> 00:12:00.996 A:middle
 So, we need to override the
 -hitTest: method to correct that
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:01.496 --> 00:12:05.316 A:middle
 and to allow click
@@ -983,9 +946,6 @@ We saw how to add annotations
 00:12:58.766 --> 00:13:02.246 A:middle
 to the map both the built-in
 MKPin annotation view
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:02.246 --> 00:13:04.586 A:middle
 with the red pins and then
@@ -1081,9 +1041,6 @@ a lot more useable.
 And we've changed the pins; they
 look a little bit different.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:02.756 --> 00:14:04.036 A:middle
 They're a little-- they've
 lost a little weight.
@@ -1169,9 +1126,6 @@ Japan and pan over it.
 00:14:59.276 --> 00:15:01.246 A:middle
 And you can also do this
 programmatically via API.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:01.776 --> 00:15:04.096 A:middle
 So, just to look at the code
@@ -1266,9 +1220,6 @@ I showed do the same thing
 00:15:59.036 --> 00:16:01.576 A:middle
 and so that's the screenshot
 showed on the slide earlier.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:02.226 --> 00:16:03.636 A:middle
 The other thing you might
@@ -1372,17 +1323,14 @@ convenience that we've got.
 00:16:58.506 --> 00:16:59.526 A:middle
 We've also got 3D.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.706 --> 00:17:02.096 A:middle
 So, you can view maps in 3D.
 
-00:17:02.096 --> 00:17:04.455 A:middle
+00:17:02.096 --> 00:17:04.456 A:middle
 We've got the Space Needle
 here that you can view
 
-00:17:04.455 --> 00:17:06.715 A:middle
+00:17:04.456 --> 00:17:06.716 A:middle
 so you can view these
 buildings that we've got.
 
@@ -1413,7 +1361,7 @@ of APIs for working with 3D,
 which I'm not going
 to cover here.
 
-00:17:24.465 --> 00:17:26.236 A:middle
+00:17:24.466 --> 00:17:26.236 A:middle
 You should go to the
 session this afternoon
 
@@ -1469,9 +1417,6 @@ of the map.
 
 00:17:59.676 --> 00:18:01.086 A:middle
 We've got a geodesic polyline.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.086 --> 00:18:03.946 A:middle
 A geodesic is the shortest path
@@ -1570,9 +1515,6 @@ and MKCircleRenderer
 00:18:56.186 --> 00:18:59.616 A:middle
 and MKTileOverlayRenderer now.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.146 --> 00:19:02.236 A:middle
 And so just switch
 from MKOverlayView
@@ -1669,9 +1611,6 @@ So, this is what we had.
 This is AboveLabels and
 then just go ahead and push
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:01.776 --> 00:20:03.656 A:middle
 that underneath and it improves
 the readability of the map.
@@ -1751,9 +1690,6 @@ occlude the overlays.
 00:20:58.946 --> 00:21:01.296 A:middle
 And then finally we'll come back
 to 2D and add an annotation view
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:01.586 --> 00:21:03.296 A:middle
 and an annotation view
@@ -1855,9 +1791,6 @@ MKPolyline Renderer
 00:21:59.356 --> 00:21:59.946 A:middle
 to show this.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.246 --> 00:22:02.766 A:middle
 And it has a line
 with a strokeColor.
@@ -1953,9 +1886,6 @@ and as needed we'll load tiles
 00:22:59.106 --> 00:23:00.416 A:middle
 from your web server
 in order to display.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.916 --> 00:23:03.456 A:middle
 We can set this property
@@ -2058,9 +1988,6 @@ zoom level twelve.
 00:23:59.776 --> 00:24:01.726 A:middle
 We have two to the twelve
 tiles in the X direction
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:01.726 --> 00:24:03.346 A:middle
 to the twelve tiles
@@ -2166,9 +2093,6 @@ optional method on MKOverlay.
 So, you can make--
 if you don't want
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:01.146 --> 00:25:03.456 A:middle
 to use MKTileOverlay you
 can just use any MKOverlay,
@@ -2268,9 +2192,6 @@ Switch here.
 &gt;&gt; Let's shut this down and
 let's bring up a new demo.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:11.166 --> 00:26:11.666 A:middle
 [ Silence ]
 
@@ -2331,9 +2252,6 @@ All of these guys are in there
 00:26:58.926 --> 00:27:01.176 A:middle
 and what this thing does it
 just goes ahead and loads them
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:01.176 --> 00:27:03.046 A:middle
 and displays them in
@@ -2422,9 +2340,6 @@ tiles in my out bundle.
 It works for me because
 I don't have that many.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.496 --> 00:28:03.736 A:middle
 I'm not going to put
 them on web server here,
@@ -2497,9 +2412,6 @@ be bundled with the app.
 00:28:58.536 --> 00:29:00.306 A:middle
 So, in this case we had
 a smaller number of tiles
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.306 --> 00:29:01.626 A:middle
 and we wanted to put
@@ -2593,9 +2505,6 @@ and compare this with Geocoding.
 00:29:58.616 --> 00:30:00.706 A:middle
 So, we introduced CL
 Geocoder a few years ago.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:01.036 --> 00:30:03.636 A:middle
 And Geocoding is useful
@@ -2698,9 +2607,6 @@ by a class called MKMapItem.
 We've had this around
 since I was 6.0
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.026 --> 00:31:03.076 A:middle
 and its got a coordinate,
 it's got a structured address
@@ -2798,9 +2704,6 @@ if you want.
 So, once we have that
 we'll start it up
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.436 --> 00:32:02.066 A:middle
 and we'll specify a
 CompletionHandler,
@@ -2893,9 +2796,6 @@ is going to be at that point.
 00:32:58.616 --> 00:33:02.036 A:middle
 So, that's the features of
 directions and how do we use it.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:02.436 --> 00:33:03.746 A:middle
 So, suppose we have this
@@ -2997,9 +2897,6 @@ with a list of routes
 so each route is going
 to have a name to it.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.616 --> 00:34:03.886 A:middle
 So, this is sort of the
 name of the way that you go
@@ -3015,11 +2912,11 @@ from here down to Cupertino.
 It's going to give
 you a distance.
 
-00:34:08.416 --> 00:34:10.525 A:middle
+00:34:08.416 --> 00:34:10.526 A:middle
 It's going to giving
 you any advisory notice
 
-00:34:10.565 --> 00:34:11.856 A:middle
+00:34:10.566 --> 00:34:11.856 A:middle
 like if it requires tolls
 
 00:34:11.856 --> 00:34:13.126 A:middle
@@ -3034,7 +2931,7 @@ travel time and there's going
 to be the geometry
 as a polyline.
 
-00:34:18.585 --> 00:34:20.446 A:middle
+00:34:18.586 --> 00:34:20.446 A:middle
 And also there's going
 to be a list of turn
 
@@ -3042,11 +2939,11 @@ to be a list of turn
 by turn instructions,
 so these are the steps.
 
-00:34:22.795 --> 00:34:24.505 A:middle
+00:34:22.796 --> 00:34:24.506 A:middle
 And so these are going
 to be the instructions,
 
-00:34:24.505 --> 00:34:26.126 A:middle
+00:34:24.506 --> 00:34:26.126 A:middle
 so for instance take exit 11
 
 00:34:26.126 --> 00:34:28.896 A:middle
@@ -3060,7 +2957,7 @@ down to Apple Headquarters.
 There may be a notice on some
 of the steps, so you may want
 
-00:34:32.636 --> 00:34:34.235 A:middle
+00:34:32.636 --> 00:34:34.236 A:middle
 to present that in
 some special UI.
 
@@ -3083,11 +2980,11 @@ there and then you got
 00:34:43.636 --> 00:34:45.386 A:middle
 to walk the rest of the way.
 
-00:34:45.565 --> 00:34:47.686 A:middle
+00:34:45.566 --> 00:34:47.686 A:middle
 This step may have a
 walking step at the end
 
-00:34:47.686 --> 00:34:48.735 A:middle
+00:34:47.686 --> 00:34:48.736 A:middle
 if you got driving directions.
 
 00:34:49.196 --> 00:34:51.136 A:middle
@@ -3104,16 +3001,13 @@ the subsequence
 00:34:54.246 --> 00:34:55.326 A:middle
 of that overall geometry.
 
-00:34:56.815 --> 00:34:58.906 A:middle
+00:34:56.816 --> 00:34:58.906 A:middle
 So, suppose we want to display
 something like this on the map.
 
 00:34:59.296 --> 00:35:00.686 A:middle
 Here's the routes
 from San Franciso
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.126 --> 00:35:02.646 A:middle
 down to Cupertino,
@@ -3202,9 +3096,6 @@ Elsewhere we'll use kilometers.
 Cool. I'm glad you guys liked
 that and we'll go ahead and use
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:01.206 --> 00:36:03.746 A:middle
 that distance formatter and
 we'll use NS data formatter,
@@ -3278,9 +3169,6 @@ have walking directions to get
 
 00:36:58.246 --> 00:37:00.046 A:middle
 from you know how do we get
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.136 --> 00:37:01.706 A:middle
 to the train station
@@ -3377,9 +3265,6 @@ to add some stuff here.
 So, if we clear that Caltrain
 route let's also clear our
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:02.486 --> 00:38:03.746 A:middle
 walking route.
 
@@ -3438,9 +3323,6 @@ ViewForOverlay in here.
 
 00:38:55.316 --> 00:38:58.126 A:middle
 This is old and busted, delete.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:00.096 --> 00:39:04.156 A:middle
 New, RendererForOverlay.
@@ -3529,9 +3411,6 @@ for the first leg.
 00:39:56.306 --> 00:40:00.026 A:middle
 We're going to set the transport
 type to walking and we're going
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.026 --> 00:40:01.196 A:middle
 to set the source
@@ -3636,9 +3515,6 @@ Directions.
 00:40:59.776 --> 00:41:01.566 A:middle
 And the other thing I would say
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:01.566 --> 00:41:04.036 A:middle
 about this is I actually
 cheated a little bit and I went
@@ -3713,9 +3589,6 @@ Thank you.
 00:41:59.136 --> 00:42:00.856 A:middle
 There's obviously a lot
 more you could do with it.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:00.856 --> 00:42:02.326 A:middle
 This just sort of
@@ -3829,9 +3702,6 @@ that there's no application
 or developer identifier
 wide usage limits.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:00.776 --> 00:43:03.576 A:middle
 So, if you have a app that has
 a lot of users and you want
@@ -3937,9 +3807,6 @@ you guys come up with on OS X.
 00:43:59.836 --> 00:44:02.256 A:middle
 There's the updates to iOS 7 UI.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:02.486 --> 00:44:04.046 A:middle
 So, there's a new UI in iOS 7
 
@@ -4039,9 +3906,6 @@ and Map Kit, which is good.
 And there's the Developer Forum
 which I try to read occasionally
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:03.186 --> 00:45:04.596 A:middle
 and so I may see you in there.
 
@@ -4078,4 +3942,3 @@ Thank you all very much.
 
 00:45:22.116 --> 00:45:28.980 A:middle
 [ Applause ]
-

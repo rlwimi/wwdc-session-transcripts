@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:10.076 --> 00:00:11.276 A:middle
 &gt;&gt; Nathan de Vries:
@@ -75,9 +74,6 @@ in your applications.
 00:00:59.116 --> 00:01:01.536 A:middle
 Then we're going to look at some
 core concepts that are critical
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:01.536 --> 00:01:05.706 A:middle
 in understanding why your
@@ -160,9 +156,6 @@ effort that you put in.
 So first and foremost, we really
 want to delight your customers.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:02.776 --> 00:02:05.776 A:middle
 So that's why the advertisements
 
@@ -233,9 +226,6 @@ engage with an ad,
 00:02:59.016 --> 00:03:01.266 A:middle
 it feels like this amazing
 experience for them.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:01.266 --> 00:03:02.936 A:middle
 And that's what we're
@@ -318,9 +308,6 @@ that same approach to privacy.
 So we handle the privacy, so you
 don't need to worry about it.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.676 --> 00:04:01.816 A:middle
 Users start using ads
 
@@ -393,9 +380,6 @@ to monetize your application.
 
 00:04:58.636 --> 00:05:00.076 A:middle
 It's a great path to revenue.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.656 --> 00:05:02.836 A:middle
 When your application
@@ -477,9 +461,6 @@ in and see examples of how
 00:05:57.396 --> 00:05:59.276 A:middle
 to integrate ads into
 your application.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.036 --> 00:06:03.146 A:middle
 And lastly, we think that's
@@ -575,9 +556,6 @@ really provides to developers;
 the path to revenue, which
 we're talking about today,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:01.296 --> 00:07:04.276 A:middle
 and also the promotional
 aspect promoting your app.
@@ -652,9 +630,6 @@ by the network.
 00:07:59.666 --> 00:08:01.076 A:middle
 And we'll come back to
 that when we're talking
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:01.076 --> 00:08:03.346 A:middle
 about improving app performance.
@@ -733,9 +708,6 @@ even get started with the code.
 00:08:58.046 --> 00:09:03.316 A:middle
 So first and foremost, it
 all starts with a great app.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:03.376 --> 00:09:04.786 A:middle
 You need to focus
@@ -820,9 +792,6 @@ is better for your app.
 00:09:58.336 --> 00:10:02.076 A:middle
 The next thing that you can
 do is to place ads smartly.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:02.686 --> 00:10:04.666 A:middle
 Key here is not place
@@ -909,9 +878,6 @@ advertisements
 
 00:10:59.576 --> 00:11:00.616 A:middle
 during registration.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.616 --> 00:11:02.246 A:middle
 Maybe you want to
@@ -1005,9 +971,6 @@ of customers in that country,
 and really drive up
 those ad requests,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:01.966 --> 00:12:04.456 A:middle
 and assist with optimizing
 the ad performance
@@ -1091,9 +1054,6 @@ to that time of the year.
 Increase a little bit of
 your marketing budget,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:02.086 --> 00:13:05.346 A:middle
 get some more customers into
 your apps at that point in time,
@@ -1163,9 +1123,6 @@ before, you would have gone
 
 00:13:59.766 --> 00:14:01.396 A:middle
 to the iTunes Connect website,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:01.396 --> 00:14:05.936 A:middle
 so the iAd preferences
@@ -1238,9 +1195,6 @@ of your content view.
 
 00:14:58.676 --> 00:14:59.836 A:middle
 And you can see one here.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.986 --> 00:15:03.386 A:middle
 It's typically a place at
@@ -1317,9 +1271,6 @@ header from the framework.
 And lastly, you need to
 choose the view controllers
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:02.956 --> 00:16:07.106 A:middle
 in your application that are
 appropriate for advertising.
@@ -1389,10 +1340,7 @@ on and off the screen.
 So when you sent the
 canDisplayBannerAds property
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:01.536 --> 00:17:04.935 A:middle
+00:17:01.536 --> 00:17:04.936 A:middle
 to yes, we wrap your
 view in another view.
 
@@ -1415,11 +1363,11 @@ screen, adjusting the size
 00:17:20.396 --> 00:17:21.886 A:middle
 of your original content view.
 
-00:17:22.695 --> 00:17:24.665 A:middle
+00:17:22.696 --> 00:17:24.666 A:middle
 So the one thing you
 need to keep in mind is
 
-00:17:24.665 --> 00:17:28.006 A:middle
+00:17:24.666 --> 00:17:28.006 A:middle
 if you're referring to that
 original view, you now need
 
@@ -1469,9 +1417,6 @@ So what you should do
 00:17:57.546 --> 00:18:01.186 A:middle
 in the viewWillDisappear
 callback is poise
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.186 --> 00:18:05.016 A:middle
 and intensive media
@@ -1549,9 +1494,6 @@ with canDislayBannerAds.
 00:18:59.116 --> 00:19:00.426 A:middle
 There are certain circumstances
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.426 --> 00:19:03.236 A:middle
 where you want a
 temporarily disable banner ads
@@ -1625,9 +1567,6 @@ the Refresh Rate.
 00:19:57.526 --> 00:20:01.136 A:middle
 So this is how quickly ads cycle
 in and out of your application.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:02.266 --> 00:20:03.526 A:middle
 One thing to bear in mind is
@@ -1719,9 +1658,6 @@ first part of this demo is
 to add a banner view to the
 bottom of the list of articles.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:02.956 --> 00:21:07.396 A:middle
 So I'm going to go ahead and
 pop open the iOS Simulator here,
@@ -1807,9 +1743,6 @@ on View Controller.
 Once we've done that, all we
 need to do is set that property
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:02.406 --> 00:22:04.746 A:middle
 on the View Controller
 when it wakes up.
@@ -1890,9 +1823,6 @@ in that it doesn't have
 that intermediary
 view that you tap on.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:02.726 --> 00:23:06.376 A:middle
 It immediately launches into
 a full-screen advertisement.
@@ -1961,9 +1891,6 @@ interstitial ad automatically
 
 00:23:57.886 --> 00:23:59.336 A:middle
 when that view becomes visible.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.316 --> 00:24:02.586 A:middle
 So if you've got
@@ -2049,9 +1976,6 @@ of the interstitial
 00:24:56.806 --> 00:25:00.006 A:middle
 because there's no View
 Controller transitions.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.036 --> 00:25:02.126 A:middle
 So what you need to
@@ -2142,9 +2066,6 @@ lifecycle
 so that you don't miss
 those early impressions.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:02.876 --> 00:26:05.546 A:middle
 And with that, I'm going
 
@@ -2232,9 +2153,6 @@ the iAd Header here,
 and then inside our app
 delegates did finish launching
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:01.036 --> 00:27:02.186 A:middle
 with Options Call.
 
@@ -2320,9 +2238,6 @@ And then behind the scenes,
 we're also making
 interstitial requests
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.176 --> 00:28:04.216 A:middle
 which we'll be loading
 an ad for us.
@@ -2405,9 +2320,6 @@ It's pretty easy.
 00:28:59.566 --> 00:29:01.316 A:middle
 Pretty easy to get started.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:01.886 --> 00:29:04.286 A:middle
 So next we're going to look
 
@@ -2475,9 +2387,6 @@ and it's available only on iPad.
 00:29:59.936 --> 00:30:01.896 A:middle
 So how do we create
 one of these things?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:02.376 --> 00:30:04.496 A:middle
 As you noticed, it
@@ -2554,9 +2463,6 @@ assigned as the delegate needs
 00:30:57.816 --> 00:31:00.366 A:middle
 to conform to the 80 Banner
 View Delegate protocol.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.696 --> 00:31:01.596 A:middle
 So we do that as well.
@@ -2635,9 +2541,6 @@ them clashing with any sounds
 00:31:57.326 --> 00:32:01.126 A:middle
 and media that are
 being played in the ad.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:01.396 --> 00:32:04.406 A:middle
 When it comes time to unload
@@ -2721,9 +2624,6 @@ toggle that you can flip used
 for medium rectangles because
 you're positioning them often
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:02.446 --> 00:33:04.666 A:middle
 in very specific ways
 in line with content,
@@ -2805,9 +2705,6 @@ be taken up by the simulation.
 00:33:59.736 --> 00:34:00.766 A:middle
 There's some text at the bottom
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.766 --> 00:34:03.756 A:middle
 that has some wasted white
 space, and we're going to try
@@ -2823,19 +2720,19 @@ to include a medium rect
 in the bottom left
 corner of our screen.
 
-00:34:08.896 --> 00:34:12.025 A:middle
+00:34:08.896 --> 00:34:12.026 A:middle
 Okay. So, anyway, you just
 have to trust me that we have
 
-00:34:12.025 --> 00:34:14.835 A:middle
+00:34:12.026 --> 00:34:14.836 A:middle
 as a simulation at the top, and
 we have some text at the bottom,
 
-00:34:14.835 --> 00:34:18.045 A:middle
+00:34:14.836 --> 00:34:18.046 A:middle
 and we've got a medium rectangle
 that we're going to want to put
 
-00:34:18.045 --> 00:34:19.846 A:middle
+00:34:18.046 --> 00:34:19.846 A:middle
 on the bottom left
 corner of the screen.
 
@@ -2850,11 +2747,11 @@ going to need to do is link
 00:34:25.606 --> 00:34:27.406 A:middle
 against the iAd framework.
 
-00:34:27.696 --> 00:34:31.315 A:middle
+00:34:27.696 --> 00:34:31.316 A:middle
 So click on our project
 here, go over to Build Phases
 
-00:34:31.315 --> 00:34:33.166 A:middle
+00:34:31.316 --> 00:34:33.166 A:middle
 for the appropriate target.
 
 00:34:33.166 --> 00:34:35.846 A:middle
@@ -2887,9 +2784,6 @@ against the iAd framework,
 00:34:57.556 --> 00:35:00.526 A:middle
 the next thing we need to do
 is go to our View Controller.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.446 --> 00:35:03.616 A:middle
 We're going to go ahead and
@@ -2968,9 +2862,6 @@ medium rect inside our layout.
 00:35:57.316 --> 00:36:01.526 A:middle
 So all we need to do here is
 do some frame calculations
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:01.526 --> 00:36:03.136 A:middle
 for the medium rect,
@@ -3058,9 +2949,6 @@ that's fine.
 00:36:59.376 --> 00:37:01.226 A:middle
 We don't need to
 take any action.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:01.226 --> 00:37:03.636 A:middle
 If it's not, we're going
@@ -3155,9 +3043,6 @@ don't want to let it just go
 on behind the scenes while the
 user's interacting with the ad.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:01.226 --> 00:38:02.636 A:middle
 So to do that, we're
 going to go ahead
@@ -3247,9 +3132,6 @@ use a different API
 to play a pre-roll
 ad before that media.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:03.786 --> 00:39:05.426 A:middle
 When the pre-roll
 starts playing,
@@ -3328,9 +3210,6 @@ to do for the other ad types,
 00:39:58.236 --> 00:40:00.516 A:middle
 the MP movie player
 controller functionality is
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.516 --> 00:40:03.006 A:middle
 in the media player framework.
@@ -3415,9 +3294,6 @@ to call the play API
 and play your original
 video content.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:03.426 --> 00:41:04.936 A:middle
 Once you've called
 this Play Pre-Roll Ad
@@ -3497,9 +3373,6 @@ that a user taps on a video,
 00:41:57.416 --> 00:42:00.046 A:middle
 a pre-roll ad is more
 likely to be available.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:00.546 --> 00:42:02.856 A:middle
 It's all about not missing
@@ -3585,9 +3458,6 @@ So bear that in mind.
 There's two slightly indirect
 times that this can happen.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:03.056 --> 00:43:06.756 A:middle
 Many people will observe
 these two notifications
@@ -3665,9 +3535,6 @@ to demonstrate pre-roll adds,
 00:43:57.686 --> 00:44:01.456 A:middle
 we're going to start with this
 very simple collection view
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:01.456 --> 00:44:02.746 A:middle
 application on the phone.
@@ -3755,9 +3622,6 @@ in the application's lifecycle
 00:44:58.906 --> 00:45:00.486 A:middle
 that you want pre-roll ads.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:00.546 --> 00:45:03.596 A:middle
 This allows it to go ahead
 and make requests early,
@@ -3835,9 +3699,6 @@ header here as well.
 We've already imported
 the media player framework
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:00.436 --> 00:46:02.026 A:middle
 since we're playing the videos.
 
@@ -3912,9 +3773,6 @@ taps on one of these videos,
 00:46:57.726 --> 00:47:00.706 A:middle
 if an ad is available, a
 pre-roll should play before it.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:01.936 --> 00:47:02.656 A:middle
 And here we go.
@@ -4003,9 +3861,6 @@ more integrated experience.
 We have new interstitial
 support for iPhone,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:01.776 --> 00:48:03.966 A:middle
 which is new in iOS 7.
 
@@ -4079,9 +3934,6 @@ about these slides
 and iAd-related questions, you
 should speak to our director
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:02.056 --> 00:49:04.876 A:middle
 of technology evangelism,
 John, or you should jump
@@ -4147,4 +3999,3 @@ Thank you very much.
 
 00:49:47.016 --> 00:49:48.000 A:middle
 [ Applause ]
-

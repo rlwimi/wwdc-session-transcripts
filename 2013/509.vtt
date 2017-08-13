@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:09.956 --> 00:00:10.956 A:middle
 &gt;&gt; Thank you all for coming
@@ -71,9 +70,6 @@ tell you all about it today.
 00:00:58.676 --> 00:01:00.556 A:middle
 So, the key concepts
 we're going to be talking
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.556 --> 00:01:03.226 A:middle
 about today are going to be how
@@ -160,9 +156,6 @@ example, we're taking an image,
 running it through Sepia
 Tone then running it
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.586 --> 00:02:03.716 A:middle
 to a Hue Adjustment Filter to
 make it into a blue tone image
@@ -175,7 +168,7 @@ some contrast
 by using the color
 controls filter.
 
-00:02:09.675 --> 00:02:11.386 A:middle
+00:02:09.676 --> 00:02:11.386 A:middle
 Now, while you can
 conceptually think of their--
 
@@ -249,9 +242,6 @@ here, we have an application
 which we first used a
 little bit last year at WWDC
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:04.476 --> 00:03:09.616 A:middle
 and now we actually
 have fully vague version
@@ -319,9 +309,6 @@ you can see this turns your--
 turns the video into a-- like
 a newsprint type dot pattern,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:02.796 --> 00:04:04.476 A:middle
 we can adjust the
 size of the dot
@@ -349,11 +336,11 @@ combine this halftone pattern
 with the original
 color of the image.
 
-00:04:16.886 --> 00:04:20.125 A:middle
+00:04:16.886 --> 00:04:20.126 A:middle
 We can actually represent graphs
 in this list for you here.
 
-00:04:20.255 --> 00:04:23.136 A:middle
+00:04:20.256 --> 00:04:23.136 A:middle
 We can-- what we can do is
 we can add another instance
 
@@ -406,9 +393,6 @@ for this app is now available.
 00:04:59.306 --> 00:05:01.786 A:middle
 So, this has been a
 much requested feature.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.786 --> 00:05:04.716 A:middle
 We showed this last year a
@@ -497,9 +481,6 @@ directly from a file or an input
 of some sort and-- or you can
 also have a CIImage that comes
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:02.996 --> 00:06:04.316 A:middle
 from the output of a CIFilter.
 
@@ -576,9 +557,6 @@ to provide its own filters.
 00:06:55.596 --> 00:06:59.886 A:middle
 The core API is very similar
 between the two platforms.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.496 --> 00:07:04.106 A:middle
 The key classes I mentioned
@@ -657,9 +635,6 @@ have a non-color managed
 workflow or you can support any
 ICC based colored profile using
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:04.216 --> 00:08:06.076 A:middle
 the CG color space graph object.
 
@@ -691,7 +666,7 @@ important differences in terms
 of the rendering
 architecture that's used.
 
-00:08:29.906 --> 00:08:33.015 A:middle
+00:08:29.906 --> 00:08:33.016 A:middle
 On iOS, we have a
 CPU rendering path
 
@@ -699,10 +674,10 @@ CPU rendering path
 and we also have our GPU based
 rendering path that's based
 
-00:08:35.926 --> 00:08:37.385 A:middle
+00:08:35.926 --> 00:08:37.386 A:middle
 on OpenGL ES 2.0.
 
-00:08:38.515 --> 00:08:42.866 A:middle
+00:08:38.516 --> 00:08:42.866 A:middle
 And on OS X, we have also a CPU
 and a GPU based rendering path.
 
@@ -724,9 +699,6 @@ to give you a little demo
 00:08:58.046 --> 00:09:00.066 A:middle
 of that today 'cause we got
 some great benefits out of that.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.696 --> 00:09:03.446 A:middle
 For a wide variety of operations
@@ -810,9 +782,6 @@ as quickly as possible.
 00:09:59.276 --> 00:10:01.596 A:middle
 And what it will do is it will
 take these filter operations
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:01.596 --> 00:10:04.316 A:middle
 that we've done and it
@@ -904,9 +873,6 @@ seeing in that slider.
 It's actually hundreds of pixels
 wide but hundred of pixels tall
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.056 --> 00:11:03.866 A:middle
 and that requires a lot
 of fetching from an image.
@@ -983,9 +949,6 @@ of built-in filters and I'd
 00:11:58.016 --> 00:12:00.316 A:middle
 like to give you a
 little bit more detail
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.316 --> 00:12:02.416 A:middle
 on those built-on filters
@@ -1082,9 +1045,6 @@ of filters which fall
 into either geometry adjustments
 or distortion effects.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:01.366 --> 00:13:04.766 A:middle
 And for example, one of these
 is a fun effect called twirl
@@ -1165,9 +1125,6 @@ good performance.
 We've also added a horizontal
 and vertical convolution
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:02.586 --> 00:14:04.686 A:middle
 which is useful if your
 convolution is a separable
@@ -1234,9 +1191,6 @@ a filter in the sense
 00:14:57.616 --> 00:15:00.026 A:middle
 that it takes input images
 and produces output image--
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.026 --> 00:15:04.416 A:middle
 out data and we've had this
@@ -1325,9 +1279,6 @@ wide variety of usages
 00:15:58.146 --> 00:16:00.226 A:middle
 so that we can implement
 them in a robust way
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.446 --> 00:16:03.736 A:middle
 and have them be useful to a
@@ -1431,9 +1382,6 @@ simple, two lines of code
 and we've applied multiple
 filters to an image.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.956 --> 00:17:03.766 A:middle
 The other things that's
 important and great to keep
@@ -1441,23 +1389,23 @@ important and great to keep
 00:17:03.766 --> 00:17:05.226 A:middle
 in mind is that these--
 
-00:17:05.455 --> 00:17:07.856 A:middle
+00:17:05.456 --> 00:17:07.856 A:middle
 at the time you're building
 up the render graph here,
 
-00:17:08.205 --> 00:17:11.496 A:middle
+00:17:08.206 --> 00:17:11.496 A:middle
 the filter graph, there's no
 actual work being performed.
 
-00:17:11.685 --> 00:17:13.576 A:middle
+00:17:11.686 --> 00:17:13.576 A:middle
 This is all very fast and
 could be done very quickly.
 
-00:17:14.236 --> 00:17:17.205 A:middle
+00:17:14.236 --> 00:17:17.206 A:middle
 The actual work of a
 rendering image is deferred
 
-00:17:17.205 --> 00:17:20.876 A:middle
+00:17:17.206 --> 00:17:20.876 A:middle
 until we actually get a request
 to render it and at that time
 
@@ -1465,11 +1413,11 @@ to render it and at that time
 that we can make out
 render-time optimizations
 
-00:17:23.066 --> 00:17:24.945 A:middle
+00:17:23.066 --> 00:17:24.946 A:middle
 to make the best
 possible performance
 
-00:17:24.945 --> 00:17:26.766 A:middle
+00:17:24.946 --> 00:17:26.766 A:middle
 on the destination context.
 
 00:17:29.436 --> 00:17:32.976 A:middle
@@ -1509,9 +1457,6 @@ of the new filters we've added
 00:17:57.046 --> 00:18:00.266 A:middle
 in iOS 7 to be particularly
 useful for this goal.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.736 --> 00:18:02.536 A:middle
 So how does this work?
@@ -1604,9 +1549,6 @@ source code for color invert,
 all it does in its output image
 method is create an instance
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:01.776 --> 00:19:03.776 A:middle
 of the filter for CIColor matrix
 
@@ -1683,9 +1625,6 @@ important, because on iOS,
 our intermediate buffers are
 8-bit buffers for these type
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:02.636 --> 00:20:04.996 A:middle
 of operations when they-- and
 they can only represent values
@@ -1754,9 +1693,6 @@ up on the display, OK.
 00:20:57.786 --> 00:21:02.696 A:middle
 You can see my glasses and as I
 tilt my head, you can see the--
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:02.696 --> 00:21:03.916 A:middle
 or you can see the
@@ -1832,9 +1768,6 @@ Image Fun House application.
 00:21:58.496 --> 00:22:00.486 A:middle
 All right, so there's
 another great use
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.486 --> 00:22:03.516 A:middle
 for creating your own
@@ -1916,9 +1849,6 @@ has an input time parameter.
 And you can have other inputs
 but you want to specify them
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.716 --> 00:23:06.796 A:middle
 at setup time before you
 pass it in the Sprite Kit.
@@ -1991,9 +1921,6 @@ data from a live video stream
 00:23:59.026 --> 00:24:02.106 A:middle
 and this is the case that
 we use inside the Fun
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:02.106 --> 00:24:03.136 A:middle
 House application.
@@ -2075,9 +2002,6 @@ AtIndex.
 00:24:56.526 --> 00:25:00.196 A:middle
 It contains, for some image,
 hundreds of properties.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.646 --> 00:25:01.646 A:middle
 The one that I want to call
@@ -2163,9 +2087,6 @@ good performance out of video.
 On OS X, you want to
 use an IOSurface object
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:01.806 --> 00:26:04.176 A:middle
 to represent this
 data and on iOS,
@@ -2239,9 +2160,6 @@ space rather than its default
 00:26:57.716 --> 00:27:01.116 A:middle
 which is generic RGB and this
 can prevent some clipping errors
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:01.286 --> 00:27:04.106 A:middle
 to the color matrix operations.
@@ -2330,9 +2248,6 @@ the CIContext,
 there's an assets library
 method which we can use
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:02.876 --> 00:28:06.056 A:middle
 to write the JPEG into
 that library roll.
@@ -2399,9 +2314,6 @@ image to the GPU,
 00:28:58.836 --> 00:29:01.296 A:middle
 it will perform the filter
 effect that's desired
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:01.716 --> 00:29:04.236 A:middle
 and because the image is being
@@ -2475,9 +2387,6 @@ we tell CI to create a context
 
 00:29:57.056 --> 00:29:59.976 A:middle
 from that EAGLContext.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.126 --> 00:30:01.956 A:middle
 Then when it comes time
@@ -2562,9 +2471,6 @@ to talk about is rendering
 00:30:57.786 --> 00:31:00.116 A:middle
 to a CVPixelBufferFef, and this
 is another interesting thing
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.116 --> 00:31:03.076 A:middle
 that we talked about and show
@@ -2655,9 +2561,6 @@ with that EAGLContext.
 We look later on it-- when
 it comes time to render,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.626 --> 00:32:02.986 A:middle
 we have a callback
 method to capture output
@@ -2738,9 +2641,6 @@ core video for a pixel buffer
 to render into out of
 it's as-- out of its pool.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.206 --> 00:33:04.006 A:middle
 Then we will ask Core Image
 to render the filtered image
@@ -2818,9 +2718,6 @@ Also, it's a very good idea not
 to creat a CIContext
 every time you render it,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.516 --> 00:34:02.556 A:middle
 much better to create
 it once and reuse it.
@@ -2852,11 +2749,11 @@ on the GPU at the same time.
 Another couple of other tips
 and practices is to be aware
 
-00:34:25.806 --> 00:34:29.835 A:middle
+00:34:25.806 --> 00:34:29.836 A:middle
 that the GPU Context on
 iOS has limited dimensions
 
-00:34:30.235 --> 00:34:32.196 A:middle
+00:34:30.236 --> 00:34:32.196 A:middle
 and there's an
 inputMaximumImageSize
 
@@ -2875,11 +2772,11 @@ from performance effecting
 to use small an image
 as possible.
 
-00:34:41.996 --> 00:34:44.065 A:middle
+00:34:41.996 --> 00:34:44.066 A:middle
 The performance of Core
 Image is largely dictated
 
-00:34:44.065 --> 00:34:48.246 A:middle
+00:34:44.066 --> 00:34:48.246 A:middle
 by the complexity of your
 filter graph and by the number
 
@@ -2898,9 +2795,6 @@ for Fun House is when you ask
 00:34:57.416 --> 00:35:01.716 A:middle
 for a library from your
 asset library, you can say,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.716 --> 00:35:04.056 A:middle
 I want a full screen image
@@ -2994,9 +2888,6 @@ it a little bit,
 the Core Image kernel
 language has some really great
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:01.686 --> 00:36:02.796 A:middle
 advantages though.
 
@@ -3087,9 +2978,6 @@ Core Image and OpenCL together
 in order to create new
 and interesting effects
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:01.006 --> 00:37:02.186 A:middle
 which we wouldn't be able
 
@@ -3178,9 +3066,6 @@ haze that's accumulated,
 00:37:59.956 --> 00:38:00.846 A:middle
 it's no longer black.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.846 --> 00:38:02.106 A:middle
 It has-- it's colorful.
 
@@ -3264,9 +3149,6 @@ small value in the X direction,
 00:38:59.486 --> 00:39:01.366 A:middle
 and then we're going to
 do the exact same thing
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:01.396 --> 00:39:02.256 A:middle
 in the Y direction.
@@ -3359,9 +3241,6 @@ gradient which we can then use
 to subtract from
 our original image,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.916 --> 00:40:03.596 A:middle
 and we'll get our dehazed image.
 
@@ -3433,9 +3312,6 @@ and get maximum performance
 00:40:57.656 --> 00:40:59.376 A:middle
 and combine all these
 APIs together.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.016 --> 00:41:03.196 A:middle
 So, let's take a look at our
@@ -3527,9 +3403,6 @@ in little more detail.
 So, first thing is first,
 we're going to import an image
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.446 --> 00:42:03.476 A:middle
 with the URL, so we just create,
 
@@ -3618,9 +3491,6 @@ to do is we're going
 
 00:42:57.636 --> 00:42:58.906 A:middle
 to create an IOSurface.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:00.066 --> 00:43:02.176 A:middle
 So in order to that, we're
@@ -3716,9 +3586,6 @@ which is going to be able
 to share all the data
 from the IOSurfaces
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:02.566 --> 00:44:06.466 A:middle
 that we created with OpenGL.
 
@@ -3802,9 +3669,6 @@ intermediate image here.
 00:44:56.986 --> 00:45:00.556 A:middle
 And then we're going to need
 one more IOSurface based
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:00.946 --> 00:45:03.526 A:middle
 ClMemObjectfor our final output
@@ -3891,9 +3755,6 @@ about the source code.
 00:45:57.356 --> 00:46:00.846 A:middle
 So, that's the entire
 source code for the filter
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:00.846 --> 00:46:01.966 A:middle
 that we're going
@@ -3989,9 +3850,6 @@ initialize our minimum value
 to opaque white, and then
 we perform our For loop
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:02.986 --> 00:47:04.466 A:middle
 which searches in this
 case from left to right.
@@ -4072,9 +3930,6 @@ this at really high speed.
 00:47:58.876 --> 00:48:00.886 A:middle
 And we've tried a bunch of
 other approaches, and this ended
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:00.886 --> 00:48:02.276 A:middle
 up being as fast it gets.
@@ -4159,9 +4014,6 @@ set up some parameters,
 
 00:48:58.286 --> 00:49:00.916 A:middle
 and ask OpenCL to run.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:01.416 --> 00:49:02.656 A:middle
 So, as we saw earlier,
@@ -4248,9 +4100,6 @@ clEnqueueNDRange once again
 00:49:57.816 --> 00:49:59.946 A:middle
 with the minimum Y
 kernel and we're done.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:00.996 --> 00:50:03.686 A:middle
 The last thing we need to do
@@ -4342,9 +4191,6 @@ and to find clamp which is going
 to basically give us a very
 similar effect to what we did
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:01.606 --> 00:51:03.996 A:middle
 when we asked for clamp to
 edge 'cause we don't want
@@ -4419,9 +4265,6 @@ the next thing we need
 to do is call context
 or CIContext draw image,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:00.646 --> 00:52:04.346 A:middle
 our final image at a certain
 location and give it the balance
@@ -4495,9 +4338,6 @@ a lot of blood and sweat.
 00:52:57.186 --> 00:52:59.146 A:middle
 So, it's worth one
 more animation I think.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:00.736 --> 00:53:02.246 A:middle
 And in the meanwhile,
@@ -4605,9 +4445,6 @@ that in WWDC a few years ago
 about how you could do that
 with Core Image as well.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:54:02.666 --> 00:54:06.156 A:middle
 So, some additional information,
 Allan Schaffer is our graphics
@@ -4667,4 +4504,3 @@ Thank you.
 
 00:54:39.576 --> 00:54:42.470 A:middle
 [ Applause ]
-

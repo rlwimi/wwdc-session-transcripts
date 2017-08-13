@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.946 A:start
 [ Silence ]
@@ -53,14 +52,11 @@ inside airline cockpits,
 iOS devices are everywhere
 you go.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:00.306 --> 00:01:03.056 A:start
 A large part of the
 success is of course due
 
-00:01:03.056 --> 00:01:05.135 A:start
+00:01:03.056 --> 00:01:05.136 A:start
 to the elegant design
 of iOS devices,
 
@@ -127,9 +123,6 @@ in your apps to do this.
 00:01:59.426 --> 00:02:02.616 A:start
 They are: authentication,
 networking,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:03.736 --> 00:02:06.326 A:start
 data security, and management.
@@ -204,9 +197,6 @@ Store developer
 00:02:59.276 --> 00:03:01.176 A:start
 that has developed
 a suite of apps
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:01.176 --> 00:03:03.166 A:start
 and we call that
@@ -293,9 +283,6 @@ on which app you have.
 So, new in iOS 7, we are
 introducing Single Sign-On.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:07.206 --> 00:04:10.266 A:start
 [ Applause ]
 
@@ -355,9 +342,6 @@ perspectives.
 00:04:59.176 --> 00:05:01.696 A:start
 I'm going to present to you
 what iOS brings to the table.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:02.256 --> 00:05:04.846 A:start
 And then, I'm going to talk
@@ -437,9 +421,6 @@ that we're introducing in iOS 7.
 So, the only change that you
 will see as a developer is
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:03.036 --> 00:06:05.986 A:start
 when you access a resource
 that has been configured it
@@ -516,9 +497,6 @@ you know, the realm.
 And define the app bundle IDs
 that you are going to allow
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:03.366 --> 00:07:05.616 A:start
 into this system, into the
 Single Sign On account,
@@ -582,9 +560,6 @@ both per SSID and Global Proxy,
 and we support enterprise
 Wi-Fi 802.1X, WPA, WPA2,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:02.096 --> 00:08:04.566 A:start
 and we support virtual
 private networks.
@@ -628,15 +603,15 @@ that the user installed
 00:08:35.326 --> 00:08:36.326 A:start
 on their own device.
 
-00:08:36.326 --> 00:08:38.145 A:start
+00:08:36.326 --> 00:08:38.146 A:start
 Let's say this is a "bring
 your own device" scenario,
 
-00:08:38.145 --> 00:08:39.556 A:start
+00:08:38.146 --> 00:08:39.556 A:start
 the user installs
 their own device--
 
-00:08:39.736 --> 00:08:41.135 A:start
+00:08:39.736 --> 00:08:41.136 A:start
 their own app on the App Store.
 
 00:08:42.056 --> 00:08:47.056 A:start
@@ -661,9 +636,6 @@ is conceptually.
 00:08:58.396 --> 00:09:01.776 A:start
 This limits VPN access
 to only the apps
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.776 --> 00:09:04.536 A:start
 that the enterprise has
@@ -721,9 +693,6 @@ slide, it's great.
 00:09:58.116 --> 00:10:01.596 A:start
 For IT integrators, what do you
 have to do to install this--
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:01.596 --> 00:10:03.686 A:start
 to configure this feature?
@@ -798,9 +767,6 @@ for you, you have to--
 
 00:10:58.896 --> 00:10:59.916 A:start
 don't have to worry about it.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.536 --> 00:11:03.026 A:start
 But if you're using
@@ -881,9 +847,6 @@ how to behave itself
 and limit the consumption
 of cellular data.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:01.236 --> 00:12:05.026 A:start
 And the way you do that is
 you tag your URL request
@@ -942,9 +905,6 @@ data protection classes
 
 00:12:57.416 --> 00:12:59.986 A:start
 in iOS, just to review.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.016 --> 00:13:03.486 A:start
 There are some subtle variations
@@ -1021,9 +981,6 @@ locked while the others
 
 00:13:59.966 --> 00:14:00.996 A:start
 remain unencrypted.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:01.356 --> 00:14:04.996 A:start
 So, keep that in mind, this is
@@ -1102,9 +1059,6 @@ of protection
 00:14:59.056 --> 00:15:01.546 A:start
 in iOS 7 than it did in iOS 6.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:01.686 --> 00:15:03.056 A:start
 And we do this across the board
 
@@ -1168,9 +1122,6 @@ File Protection Complete Class.
 00:15:56.356 --> 00:15:59.866 A:start
 There is a small wrinkle
 when you do that, of course,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.166 --> 00:16:02.916 A:start
 when the device is locked
@@ -1255,14 +1206,11 @@ then just write the fact
 that you are-- that you
 need to do an update
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.796 --> 00:17:03.066 A:start
 when the app comes back
 to foreground and do it
 
-00:17:03.066 --> 00:17:04.665 A:start
+00:17:03.066 --> 00:17:04.666 A:start
 when the app starts back up.
 
 00:17:06.296 --> 00:17:10.076 A:start
@@ -1280,7 +1228,7 @@ You can assign an app--
 a data security attribute
 per keychain item by the way,
 
-00:17:16.675 --> 00:17:18.056 A:start
+00:17:16.676 --> 00:17:18.056 A:start
 the same classes that
 you have up there
 
@@ -1334,9 +1282,6 @@ appropriate for that login
 00:17:57.126 --> 00:17:59.876 A:start
 to transfer to another
 device that the user owns
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.326 --> 00:18:02.246 A:start
 that may not be managed, right?
@@ -1406,9 +1351,6 @@ storing your documents
 00:18:58.656 --> 00:19:00.856 A:start
 in your local documents
 folder instead
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.856 --> 00:19:02.416 A:start
 of the iCloud document folder
@@ -1482,9 +1424,6 @@ and stuff like that.
 It can install accounts
 including email, calendar, VPN,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:03.426 --> 00:20:06.776 A:start
 you know, Wi-Fi accounts,
 any-- all kinds of accounts.
@@ -1539,15 +1478,79 @@ unintentional data movement
 between managed and
 unmanaged apps and accounts.
 
-<HTML><HEAD>
-<TITLE>Request Timeout</TITLE>
-</HEAD><BODY>
-<H1>Request Timeout</H1>
-The server timed out while waiting for the browser's request.<P>
-Reference&#32;&#35;2&#46;c6524817&#46;1373787527&#46;0
-</BODY></HTML>
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:21:01.146 --> 00:21:05.466 A:start
+Managed apps-- managed data stay
+inside managed apps and accounts
+
+00:21:05.936 --> 00:21:08.156 A:start
+and they don't leak out
+to the unmanaged ones.
+
+00:21:08.846 --> 00:21:12.166 A:start
+So, to show you a demo of
+this, I'm going to call Victor
+
+00:21:13.276 --> 00:21:16.596 A:start
+to show you a little
+demo of Managed Open In.
+
+00:21:16.806 --> 00:21:17.356 A:start
+&gt;&gt; Great.
+
+00:21:17.856 --> 00:21:22.776 A:start
+[ Applause ]
+
+00:21:23.276 --> 00:21:24.056 A:start
+Thanks Dave.
+
+00:21:24.166 --> 00:21:25.106 A:start
+All right.
+
+00:21:25.106 --> 00:21:28.726 A:start
+So here, we have an iOS
+device which is running iOS 7
+
+00:21:28.726 --> 00:21:31.616 A:start
+and it's being managed by the
+enterprise via an MDM server.
+
+00:21:32.026 --> 00:21:33.546 A:start
+You notice we have number
+
+00:21:33.546 --> 00:21:35.276 A:start
+of applications installed
+on this device.
+
+00:21:35.716 --> 00:21:38.316 A:start
+But specifically of
+note that the top of row
+
+00:21:38.316 --> 00:21:40.866 A:start
+of applications were
+ones that were installed
+
+00:21:41.236 --> 00:21:43.896 A:start
+by the enterprise via
+MDM, and the second row
+
+00:21:43.896 --> 00:21:45.676 A:start
+of applications were
+installed by the user,
+
+00:21:45.866 --> 00:21:46.966 A:start
+so we have a bit of a mix here.
+
+00:21:47.916 --> 00:21:50.156 A:start
+So normally, when the user might
+say or do something like open
+
+00:21:50.156 --> 00:21:55.556 A:start
+up mail, tap on a message and
+view an attachment and want
+
+00:21:55.556 --> 00:21:58.086 A:start
+to send that attachment
+to another application.
 
 00:21:58.266 --> 00:22:01.806 A:start
 If we tap the share sheet,
@@ -1628,9 +1631,6 @@ Back to you Dave.
 So, Managed Open In works
 with both apps and accounts.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:02.116 --> 00:23:05.566 A:start
 So, when you tap an
 attachment and there's an--
@@ -1697,9 +1697,6 @@ to configure it.
 00:23:58.266 --> 00:24:02.016 A:start
 Now, the dictionary that
 you push down appears
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:02.166 --> 00:24:05.816 A:start
 in the NSUserDefaults of that
@@ -1768,9 +1765,6 @@ out, write it to com--
 00:24:57.906 --> 00:25:02.336 A:start
 NSUserDefaults key
 com.apple.feedback.managed.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:02.716 --> 00:25:05.216 A:start
 And when the MDM
@@ -1854,9 +1848,6 @@ here, we've got a URL bar,
 00:25:59.306 --> 00:26:02.226 A:start
 we've got a success and failure
 values that were tracking.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:02.466 --> 00:26:04.446 A:start
 And in the center,
@@ -1951,9 +1942,6 @@ if we can get things working.
 So, I'm going to go ahead
 and push down that change,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:02.846 --> 00:27:05.066 A:start
 give it a moment for the
 device to receive it.
@@ -2031,9 +2019,6 @@ that not only the failures
 00:27:58.086 --> 00:28:01.136 A:start
 but the success values
 were pulled out of the app,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.136 --> 00:28:04.046 A:start
 sent back to the MDM Server
@@ -2119,9 +2104,6 @@ app, it's already configured.
 Let's take a closer look at
 what's going on under the--
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:03.846 --> 00:29:04.606 A:start
 under the covers here.
 
@@ -2188,9 +2170,6 @@ dictionary column.apple.
 00:29:58.696 --> 00:30:02.306 A:start
 configuration.managed, and
 then it picks apart the keys
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:02.356 --> 00:30:03.776 A:start
 and the values from
@@ -2264,9 +2243,6 @@ one, a mutable dictionary
 00:30:56.986 --> 00:31:01.256 A:start
 under that magic key
 com.apple.feedback.managed.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:01.836 --> 00:31:06.346 A:start
 We then write the value of the
@@ -2345,9 +2321,6 @@ a user facing UI.
 Some things to note about this
 configuration, it is stored
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:01.956 --> 00:32:04.266 A:start
 as file protection
 none just as the rest
@@ -2423,9 +2396,6 @@ there and read the assets
 
 00:32:58.156 --> 00:32:59.736 A:start
 when your app starts up.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.956 --> 00:33:03.756 A:start
 Once again, a reminder,
@@ -2505,9 +2475,6 @@ identifiable information,
 things like location,
 things like that,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:02.116 --> 00:34:05.546 A:start
 be sure that you are legally
 allowed to do this and,
@@ -2516,10 +2483,10 @@ allowed to do this and,
 of course, respect what the
 user expects your app to report
 
-00:34:09.795 --> 00:34:12.106 A:start
+00:34:09.796 --> 00:34:12.106 A:start
 and preserve the user privacy.
 
-00:34:12.335 --> 00:34:14.235 A:start
+00:34:12.336 --> 00:34:14.236 A:start
 Your users will thank
 you for that.
 
@@ -2527,11 +2494,11 @@ you for that.
 For IT Integrators,
 app configuration
 
-00:34:19.516 --> 00:34:22.085 A:start
+00:34:19.516 --> 00:34:22.086 A:start
 and feedback amounts to a
 couple of new MDM commands
 
-00:34:22.565 --> 00:34:27.606 A:start
+00:34:22.566 --> 00:34:27.606 A:start
 so what you need to do
 is to use these commands
 
@@ -2539,7 +2506,7 @@ is to use these commands
 to configure your user's
 devices as early as possible.
 
-00:34:32.755 --> 00:34:35.916 A:start
+00:34:32.756 --> 00:34:35.916 A:start
 So, there is an extension
 to the app install command
 
@@ -2575,9 +2542,6 @@ configuration and feedback.
 
 00:34:59.926 --> 00:35:02.466 A:start
 Next, fonts.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:03.286 --> 00:35:05.386 A:start
 We can now install
@@ -2656,9 +2620,6 @@ feature that is very popular
 in certain industries
 in the enterprise
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:02.176 --> 00:36:05.006 A:start
 and that's single app mode.
 
@@ -2721,9 +2682,6 @@ know what this is.
 00:36:58.356 --> 00:37:02.556 A:start
 So, app-requested single app
 mode allows an MDM Server
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:02.556 --> 00:37:05.206 A:start
 to pre-authorize a
@@ -2802,9 +2760,6 @@ And you can use a notification
 to detect transitions
 between states.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.806 --> 00:38:04.756 A:start
 So again, this state is very
 resilient, your app will get--
@@ -2868,9 +2823,6 @@ it to some other user.
 00:38:59.736 --> 00:39:04.316 A:start
 So, what happens is your
 app may be installed
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:04.316 --> 00:39:07.726 A:start
 on some user's device and
@@ -2950,9 +2902,6 @@ the receipt checking,
 I recommend it-- I
 recommended you go to that one
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:02.596 --> 00:40:05.556 A:start
 and we'll cite that at the
 end of the presentation.
@@ -3017,9 +2966,6 @@ secure and stuff like that.
 And we don't-- we encourage
 you to do something different,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:07.396 --> 00:41:11.966 A:start
 we encourage you to
 build the next generation
@@ -3069,9 +3015,6 @@ iOS 7 features inside their app
 00:41:57.676 --> 00:42:00.036 A:start
 natively and not just
 tacked on at the end.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:00.546 --> 00:42:02.236 A:start
 These are the apps
@@ -3126,9 +3069,6 @@ get an app into the enterprise
 00:42:57.206 --> 00:43:02.416 A:start
 and have it work correctly
 the first time, all right?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:02.416 --> 00:43:03.606 A:start
 I know in some cases, you can't,
@@ -3197,9 +3137,6 @@ that you are probably going
 to be interested in because
 they are prevalent here.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.186 --> 00:44:04.106 A:start
 The first is already
 gone passed 11:30 AM,
@@ -3240,4 +3177,3 @@ and see you at the labs.
 
 00:44:29.366 --> 00:44:40.560 A:start
 [Applause]
-

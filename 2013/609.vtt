@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.596 A:middle
 [ Silence ]
@@ -71,9 +70,6 @@ to write a single line of code.
 00:00:58.116 --> 00:01:00.376 A:middle
 Then we'll talk specifically
 about some features
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.376 --> 00:01:02.126 A:middle
 that are just for creating
@@ -161,9 +157,6 @@ for creating these ads,
 iAd Producer is actually
 a really great app
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:02.176 --> 00:02:03.646 A:middle
 for producing content
 for WebKit.
@@ -172,10 +165,10 @@ for WebKit.
 So we've got this
 app, it's really great
 
-00:02:07.496 --> 00:02:08.705 A:middle
+00:02:07.496 --> 00:02:08.706 A:middle
 at producing content for WebKit.
 
-00:02:09.485 --> 00:02:11.086 A:middle
+00:02:09.486 --> 00:02:11.086 A:middle
 And we looked around
 Apple and asked,
 
@@ -249,9 +242,6 @@ that's exactly what we did.
 
 00:02:59.356 --> 00:03:00.806 A:middle
 So now, we can use iAd Producer
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.806 --> 00:03:03.356 A:middle
 to create these really great
@@ -338,9 +328,6 @@ quick tour of the features
 so that you get an idea of, you
 know, what's all in this app.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.716 --> 00:04:02.556 A:middle
 So when you first
 launch iAd Producer,
@@ -376,7 +363,7 @@ to create something for iAd,
 iTunes LP, iTunes Extras,
 or iBooks Author Widgets.
 
-00:04:21.935 --> 00:04:25.226 A:middle
+00:04:21.936 --> 00:04:25.226 A:middle
 And below that, you can
 see some of our templates.
 
@@ -422,9 +409,6 @@ right into your project,
 00:04:55.126 --> 00:05:00.106 A:middle
 and we'll talk a lot more
 about this in just a minute.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.196 --> 00:05:01.996 A:middle
 Also, while you're creating your
@@ -513,9 +497,6 @@ lot of other things.
 00:05:53.276 --> 00:06:00.096 A:middle
 And finally, we have a powerful
 but easy to use animation system
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.536 --> 00:06:02.316 A:middle
 and this Action List sidebar is
@@ -606,9 +587,6 @@ like the multi-cell category.
 This category has objects that
 are collections of other views.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:02.026 --> 00:07:05.556 A:middle
 So we've got things like a cover
 flow view, we've got a carousel,
@@ -691,9 +669,6 @@ screenshot here,
 
 00:07:59.556 --> 00:08:00.646 A:middle
 I've a got a button selected.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:01.796 --> 00:08:04.766 A:middle
 And I've got a zoomed in
@@ -780,9 +755,6 @@ that you can choose from.
 I want to highlight some of
 the interesting ones for you.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:09:01.116 --> 00:09:03.046 A:middle
 We already talked about
 the action that allows you
@@ -852,9 +824,6 @@ its position, the opacity,
 
 00:09:57.496 --> 00:10:01.136 A:middle
 the rotation, and the scale.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:01.666 --> 00:10:04.786 A:middle
 And those are just a few of
@@ -947,9 +916,6 @@ Chris?
 00:10:59.016 --> 00:11:03.636 A:middle
 [ Applause ]
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:04.136 --> 00:11:04.796 A:middle
 &gt;&gt; Thank you, Justin.
 
@@ -1015,9 +981,6 @@ buttons in the bottom left
 00:11:57.946 --> 00:12:01.006 A:middle
 and right hand corners
 to let me simply cycle
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:01.006 --> 00:12:05.036 A:middle
 through which image is
@@ -1088,9 +1051,6 @@ first launch iAd Producer.
 00:12:58.796 --> 00:13:01.166 A:middle
 We have those four
 categories up at the top,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.786 --> 00:13:03.326 A:middle
 which project type
@@ -1171,9 +1131,6 @@ of the toolbar in the bottom.
 00:13:58.226 --> 00:14:01.046 A:middle
 Here, we see all those objects
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:01.146 --> 00:14:02.816 A:middle
 that Justin was talking
 about earlier.
@@ -1243,9 +1200,6 @@ the size I want.
 00:14:58.306 --> 00:15:01.016 A:middle
 It's time to get images
 into this cover flow.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:01.696 --> 00:15:03.046 A:middle
 Before I can do that though,
@@ -1322,9 +1276,6 @@ notice that that pair
 of images is now a single
 listing in our Asset Library.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:03.376 --> 00:16:06.056 A:middle
 This is because from here on
 out, iAd Producer is going
@@ -1396,9 +1347,6 @@ where we are in our project.
 I'm going to use iAd Producer's
 built-in Quick Preview
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.226 --> 00:17:02.746 A:middle
 functionality to get
 an interactive preview
@@ -1410,10 +1358,10 @@ of my widget.
 We do this with the
 Preview button
 
-00:17:06.566 --> 00:17:10.925 A:middle
+00:17:06.566 --> 00:17:10.926 A:middle
 in the center of the toolbar.
 
-00:17:10.925 --> 00:17:13.626 A:middle
+00:17:10.926 --> 00:17:13.626 A:middle
 Here, I can interact with
 my widget and you'll notice
 
@@ -1425,7 +1373,7 @@ only the images we added to it
 but has all the interactivity
 that we would expect
 
-00:17:21.465 --> 00:17:25.736 A:middle
+00:17:21.466 --> 00:17:25.736 A:middle
 from a cover flow, the
 ability to swipe and tap.
 
@@ -1478,9 +1426,6 @@ from my cover flow by clicking
 00:17:58.156 --> 00:18:03.486 A:middle
 on the background of my page and
 open up the Inspector in the--
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:03.706 --> 00:18:05.976 A:middle
 by using the toolbar
@@ -1550,9 +1495,6 @@ with the color scheme I'm going
 for with this page, so let's
 change some of its styles.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.706 --> 00:19:02.556 A:middle
 You notice now that I
 have the button selected,
@@ -1621,9 +1563,6 @@ actively tapping on a button
 00:19:58.836 --> 00:20:02.156 A:middle
 and pressing down on it, we
 often see a visual feedback
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:03.126 --> 00:20:05.446 A:middle
 for that button so
@@ -1704,9 +1643,6 @@ to relabel it.
 I'm just going to double-click
 on the text and now that I'm
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:04.016 --> 00:21:05.206 A:middle
 in text editing mode,
 
@@ -1772,9 +1708,6 @@ check in with Quick Preview
 to make sure everything is just
 working the way I want it to.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:02.656 --> 00:22:06.456 A:middle
 You can see my cover flow is
 now in that black background.
@@ -1838,9 +1771,6 @@ it or clicks on it.
 00:22:57.136 --> 00:23:00.286 A:middle
 What I'm going to use today
 is the Focus Cell action
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.426 --> 00:23:02.236 A:middle
 because this is the action
@@ -1919,9 +1849,6 @@ under focus cell.
 iAd Producer adds that
 to Events and this time,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.426 --> 00:24:02.866 A:middle
 I do have my next button here.
 
@@ -1988,9 +1915,6 @@ this cover flow.
 00:24:57.396 --> 00:25:00.306 A:middle
 I'm going to open up
 my Action Lists panel.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.716 --> 00:25:03.556 A:middle
 It's done by clicking on
@@ -2070,9 +1994,6 @@ that animation looks like.
 I want this to be animating in
 from the top instead of the left
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:02.246 --> 00:26:03.616 A:middle
 as we just saw it have.
 
@@ -2139,9 +2060,6 @@ Now, everything I've shown you
 up to this point
 has been applicable
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:01.646 --> 00:27:05.916 A:middle
 to all four project types
 we support, iAd projects,
@@ -2207,9 +2125,6 @@ desktop and export it.
 At this point, I can hide iAd
 Producer and I'm going to open
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:04.076 --> 00:28:07.736 A:middle
 up my book in iBooks Author.
 
@@ -2273,9 +2188,6 @@ and animations in iAd Producer.
 00:28:59.816 --> 00:29:02.116 A:middle
 Thank you and with that, I'm
 going to hand it back to Justin.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:02.706 --> 00:29:03.836 A:middle
 &gt;&gt; Thanks, Chris, that
@@ -2361,9 +2273,6 @@ widget, you're going to want
 00:29:59.876 --> 00:30:02.286 A:middle
 to preview it not only in the
 Quick Preview that we have
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:02.286 --> 00:30:05.366 A:middle
 in iAd Producer, but you'll want
@@ -2456,9 +2365,6 @@ into this a lot more depth,
 and we'll mention
 that at the end too.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:03.486 --> 00:31:06.196 A:middle
 So it's a really great new iBook
 specific feature that we've got.
@@ -2541,9 +2447,6 @@ like you can prompt the user
 00:31:57.686 --> 00:32:01.646 A:middle
 to compose a tweet using the
 standard Twitter compose view.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:01.966 --> 00:32:04.196 A:middle
 You can change the
@@ -2631,9 +2534,6 @@ track to certification
 00:32:59.876 --> 00:33:00.706 A:middle
 because we already know
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.706 --> 00:33:03.486 A:middle
 that these blueprints
 work really great.
@@ -2713,9 +2613,6 @@ points if you're creating a--
 00:33:59.116 --> 00:34:00.806 A:middle
 an ad more from scratch.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.696 --> 00:34:03.856 A:middle
 But if you want to
 use an iAd Blueprint,
@@ -2746,11 +2643,11 @@ to be making an ad
 for a fictional car
 company and I happen
 
-00:34:26.156 --> 00:34:29.255 A:middle
+00:34:26.156 --> 00:34:29.256 A:middle
 to already know what features
 I want to have in that ad.
 
-00:34:30.065 --> 00:34:33.966 A:middle
+00:34:30.066 --> 00:34:33.966 A:middle
 So I'm going to filter this list
 of blueprints down to just those
 
@@ -2758,15 +2655,15 @@ of blueprints down to just those
 with the features
 I'm looking for.
 
-00:34:36.136 --> 00:34:40.275 A:middle
+00:34:36.136 --> 00:34:40.276 A:middle
 I can do that simply by going
 through this filter section
 
-00:34:40.496 --> 00:34:42.505 A:middle
+00:34:40.496 --> 00:34:42.506 A:middle
 and ticking off the
 things I want.
 
-00:34:43.545 --> 00:34:47.136 A:middle
+00:34:43.546 --> 00:34:47.136 A:middle
 So in my ad, I know I
 want to have some maps.
 
@@ -2774,20 +2671,17 @@ want to have some maps.
 I also want to have
 a product page.
 
-00:34:49.856 --> 00:34:53.545 A:middle
+00:34:49.856 --> 00:34:53.546 A:middle
 I know I'm going to have
 multiple videos in my ad.
 
-00:34:54.065 --> 00:34:56.315 A:middle
+00:34:54.066 --> 00:34:56.316 A:middle
 So I'm going to tick
 that checkbox as well.
 
 00:34:57.466 --> 00:34:59.886 A:middle
 And I'm also going to have
 a calendar and a form.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.526 --> 00:35:03.706 A:middle
 This leaves me with two
@@ -2852,9 +2746,6 @@ familiar on the left-hand side,
 00:35:58.646 --> 00:36:02.016 A:middle
 Assets Library, and this is
 where we have those spec sheets
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:02.016 --> 00:36:03.536 A:middle
 that Justin was talking
@@ -2924,9 +2815,6 @@ for iAd Blueprints.
 Here, I can put in the
 specific settings for my ad,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:01.386 --> 00:37:04.126 A:middle
 project title, banner
 transition color,
@@ -2994,9 +2882,6 @@ per the spec sheet
 00:37:58.686 --> 00:37:59.666 A:middle
 that I showed you earlier.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.166 --> 00:38:03.306 A:middle
 Just going to navigate
 to my assets.
@@ -3062,9 +2947,6 @@ to the iAd Test Server
 for certification, there's
 one more step I need to take.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.886 --> 00:39:04.426 A:middle
 If you look in our Inspector,
 after I added those assets,
@@ -3127,9 +3009,6 @@ feel that we were going for.
 
 00:39:57.876 --> 00:39:59.986 A:middle
 We have no validation issues.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.866 --> 00:40:03.236 A:middle
 Let's upload it to
@@ -3206,9 +3085,6 @@ the work for you.
 00:40:57.936 --> 00:40:59.946 A:middle
 We've got these great
 prebuilt layouts
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.886 --> 00:41:03.236 A:middle
 but while you're developing
@@ -3300,9 +3176,6 @@ consideration.
 It also runs in the
 iOS Simulator so that
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:02.126 --> 00:42:04.066 A:middle
 if you don't have a
 device handy or if you want
@@ -3376,9 +3249,6 @@ to create a really great ad.
 00:42:59.966 --> 00:43:03.356 A:middle
 So for more information
 about iAd Producer,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:03.766 --> 00:43:04.946 A:middle
 you can email Mark Malone
@@ -3471,9 +3341,6 @@ in this room, there's going
 to be an advanced session
 about iAd Producer.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:02.026 --> 00:44:03.726 A:middle
 We will show you all of that.
 
@@ -3500,4 +3367,3 @@ Thank you.
 
 00:44:20.293 --> 00:44:23.930 A:middle
 [ Silence ]
-

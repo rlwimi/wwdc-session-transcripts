@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:10.066 --> 00:00:11.306 A:middle
 &gt;&gt; Alright, good
@@ -70,9 +69,6 @@ know that will hurt so much,
 00:00:58.186 --> 00:01:00.266 A:middle
 as the things you do
 know that just aren't so.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:02.146 --> 00:01:05.476 A:middle
 Now, there are some
@@ -145,9 +141,6 @@ will translate the text
 00:01:56.776 --> 00:01:59.786 A:middle
 in your user interface into
 any particular language,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.326 --> 00:02:03.526 A:middle
 then all you have to do is
@@ -230,9 +223,6 @@ It's very similar.
 You have the user's
 language preference again
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:00.136 --> 00:03:02.416 A:middle
 that determines what
 localizations will be used,
@@ -309,9 +299,6 @@ can provide the same level
 of user experience for
 all users of your app.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:01.696 --> 00:04:03.626 A:middle
 Now, today, I'm going
 to be talking about how
@@ -384,9 +371,6 @@ get loaded at runtime.
 00:04:59.056 --> 00:05:01.476 A:middle
 Whichever one gets loaded
 at run time is determined
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.476 --> 00:05:03.916 A:middle
 by what the user selected
@@ -477,9 +461,6 @@ it looks good
 00:05:59.016 --> 00:06:00.386 A:middle
 and works for this interface.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.466 --> 00:06:03.166 A:middle
 Like I said, while
 these work today,
@@ -565,9 +546,6 @@ internationalization file.
 As a developer, I only need
 to modify this one file,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:02.056 --> 00:07:04.456 A:middle
 and every single time I
 create a new localization,
@@ -652,9 +630,6 @@ That was held yesterday.
 So, let's get started on how to
 use base internationalization.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:02.966 --> 00:08:05.066 A:middle
 So in my project
 window for X code,
@@ -695,7 +670,7 @@ then that are placed
 in the base.Lproj folder
 will then generate their own
 
-00:08:33.376 --> 00:08:34.135 A:middle
+00:08:33.376 --> 00:08:34.136 A:middle
 strings files.
 
 00:08:34.916 --> 00:08:37.596 A:middle
@@ -729,9 +704,6 @@ strings file for you.
 00:08:59.986 --> 00:09:04.726 A:middle
 So, in this example here
 in my base.Lproj folder,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:04.726 --> 00:09:08.496 A:middle
 I just pass in the nib file that
@@ -810,9 +782,6 @@ And, as always, it's good
 00:09:59.406 --> 00:10:02.946 A:middle
 to prefer an intrinsic content
 size instead and as always
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:02.946 --> 00:10:07.366 A:middle
 if you, you should always
@@ -898,9 +867,6 @@ will get displayed.
 00:10:58.196 --> 00:11:03.156 A:middle
 So, if my application is looking
 for a name key, it will look
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:03.156 --> 00:11:05.756 A:middle
 in the name field for that
@@ -990,9 +956,6 @@ but there is a script
 that will do this for you, and
 it's highly recommended you use.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:03.516 --> 00:12:05.496 A:middle
 It's called gen strings,
 
@@ -1072,9 +1035,6 @@ to modify the right side
 00:12:58.976 --> 00:13:01.116 A:middle
 of the table to localize
 it to whatever language
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.116 --> 00:13:07.646 A:middle
 that this is in, and
@@ -1156,9 +1116,6 @@ has its own unique key,
 00:13:59.486 --> 00:14:01.636 A:middle
 so you don't run into
 this issue where one part
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:01.636 --> 00:14:03.436 A:middle
 of your application
@@ -1248,9 +1205,6 @@ composing phrases together,
 which is something we as
 engineers do quite often;
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:02.306 --> 00:15:04.976 A:middle
 the reason being is that if
 you compose phases together,
@@ -1335,9 +1289,6 @@ is broken for Spanish.
 So, it's very important
 to make sure again
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.356 --> 00:16:04.236 A:middle
 that your user visible text
 each has their own unique key,
@@ -1420,9 +1371,6 @@ these cases for you.
 To learn more about this in
 complete technical detail,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.036 --> 00:17:03.466 A:middle
 check out the foundation
 release notes, but if you want
@@ -1443,7 +1391,7 @@ was held two days ago.
 So, here's an example
 of strings dict
 
-00:17:14.906 --> 00:17:16.665 A:middle
+00:17:14.906 --> 00:17:16.666 A:middle
 on two separate localizations;
 
 00:17:16.816 --> 00:17:18.526 A:middle
@@ -1503,9 +1451,6 @@ localized version.
 00:17:59.466 --> 00:18:01.746 A:middle
 So, there is no need
 for any extra code
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.746 --> 00:18:03.396 A:middle
 to handle for localization.
@@ -1582,9 +1527,6 @@ text in your image,
 00:18:56.806 --> 00:19:00.426 A:middle
 be aware that your localizers
 will have trouble translating
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.426 --> 00:19:03.086 A:middle
 text in your image, as opposed
@@ -1674,9 +1616,6 @@ anyone who is inexperienced
 or a beginner driver
 to alert other drivers
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.956 --> 00:20:01.926 A:middle
 that she should probably
 get out of the way.
@@ -1761,9 +1700,6 @@ been localized
 00:20:57.306 --> 00:21:00.986 A:middle
 or a file loads correctly,
 you can run your application
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.986 --> 00:21:03.566 A:middle
 in X code using the dash
@@ -1856,9 +1792,6 @@ order to demo this out,
 we wrote a tiny little
 application.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:04.756 --> 00:22:09.966 A:middle
 So, what this application
 does is it lets me type
@@ -1909,9 +1842,6 @@ explicit strings,
 00:22:56.786 --> 00:22:59.926 A:middle
 and for setting the title of
 the window to reflect the number
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.006 --> 00:23:05.656 A:middle
 of notes, I have
@@ -1970,9 +1900,6 @@ into the base, and in addition,
 00:23:59.176 --> 00:24:03.076 A:middle
 we get a strings file
 associated with it
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:03.766 --> 00:24:07.266 A:middle
 that contains the
@@ -2036,9 +1963,6 @@ string files for English,
 00:24:57.396 --> 00:25:01.286 A:middle
 and then for German, where we
 put in appropriate translations
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:01.656 --> 00:25:06.606 A:middle
 for each of the keys that
@@ -2111,9 +2035,6 @@ have just the strings file,
 the strings dict, and that
 credits file that X code wants
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.926 --> 00:26:04.736 A:middle
 to create for us,
 and when we run this,
@@ -2168,9 +2089,6 @@ with locale data.
 
 00:26:58.516 --> 00:27:00.946 A:middle
 [ Applause ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:01.446 --> 00:27:02.506 A:middle
 &gt;&gt; Okay, hello, hello.
@@ -2266,9 +2184,6 @@ preference on iOS or on OS X
 in the languages and
 format preference pane.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:02.396 --> 00:28:05.516 A:middle
 In a concrete sense, it
 is represented in Cocoa
@@ -2349,9 +2264,6 @@ date machine readable data
 00:28:57.016 --> 00:28:59.626 A:middle
 and a string representation
 for a particular user.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.986 --> 00:29:03.576 A:middle
 Often, you'll be working with
@@ -2443,9 +2355,6 @@ English as used in the US,
 French as used in France,
 and Chinese as used in China.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:01.266 --> 00:30:04.106 A:middle
 Here we have the out of
 the box representation
@@ -2529,9 +2438,6 @@ want to present a custom view
 
 00:30:59.276 --> 00:31:00.706 A:middle
 of this same NSDate object,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.706 --> 00:31:04.886 A:middle
 you have to go beyond the
@@ -2623,9 +2529,6 @@ NSLocale, current locale.
 So, this is the correct to do
 it, but, there is, oh, sorry,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:01.756 --> 00:32:06.326 A:middle
 finally, we set the date format
 on our date formatter instance.
@@ -2713,9 +2616,6 @@ for a given locale.
 00:32:59.326 --> 00:33:01.446 A:middle
 We have the month name
 followed by number in the US,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:01.846 --> 00:33:05.526 A:middle
 the vice versa in France, and
@@ -2805,9 +2705,6 @@ is providing explicit format
 strings, so those of you coming
 from C world will be familiar
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.656 --> 00:34:04.546 A:middle
 with the print F style
 C format strings.
@@ -2816,22 +2713,22 @@ C format strings.
 Here we call string from
 format on NSString,
 
-00:34:08.386 --> 00:34:11.755 A:middle
+00:34:08.386 --> 00:34:11.756 A:middle
 saying that we want a floating
 point number with three digits.
 
-00:34:11.755 --> 00:34:14.746 A:middle
+00:34:11.756 --> 00:34:14.746 A:middle
 Consequently though, we get
 the same number for all three
 
 00:34:14.746 --> 00:34:15.946 A:middle
 of these very different locales.
 
-00:34:16.735 --> 00:34:18.426 A:middle
+00:34:16.736 --> 00:34:18.426 A:middle
 This is not the correct
 way to do it.
 
-00:34:19.045 --> 00:34:23.016 A:middle
+00:34:19.046 --> 00:34:23.016 A:middle
 So, one way to do a very
 simple in place fix,
 
@@ -2842,22 +2739,22 @@ localized string
 00:34:25.186 --> 00:34:26.676 A:middle
 of format on your NSString.
 
-00:34:27.065 --> 00:34:28.826 A:middle
+00:34:27.066 --> 00:34:28.826 A:middle
 This is only for a code
 that exists already,
 
 00:34:28.826 --> 00:34:30.306 A:middle
 and is a simple in place fix.
 
-00:34:30.786 --> 00:34:34.255 A:middle
+00:34:30.786 --> 00:34:34.256 A:middle
 However, if you're making code
 that will be used going forward,
 
-00:34:34.255 --> 00:34:36.226 A:middle
+00:34:34.256 --> 00:34:36.226 A:middle
 we prefer using the
 NSNumberFormatter.
 
-00:34:36.735 --> 00:34:38.476 A:middle
+00:34:36.736 --> 00:34:38.476 A:middle
 Here you call localized
 string with number,
 
@@ -2868,11 +2765,11 @@ and pass in again,
 00:34:41.246 --> 00:34:43.036 A:middle
 an explicit format string.
 
-00:34:43.976 --> 00:34:46.985 A:middle
+00:34:43.976 --> 00:34:46.986 A:middle
 And, this will do the
 heavy lifting for you
 
-00:34:46.985 --> 00:34:47.956 A:middle
+00:34:46.986 --> 00:34:47.956 A:middle
 in presenting a number
 
 00:34:47.956 --> 00:34:50.346 A:middle
@@ -2889,9 +2786,6 @@ Here's what these look like.
 00:34:57.526 --> 00:35:00.186 A:middle
 Let's start with an NSNumber
 literal, denoted by the at sign,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.186 --> 00:35:03.846 A:middle
 followed by the number, 1234.56,
@@ -2979,9 +2873,6 @@ for notification that indicates
 that the user has changed your
 locale as your app is running.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:03.736 --> 00:36:06.776 A:middle
 From there, if you
 want even more detail,
@@ -3065,9 +2956,6 @@ for Japan.
 00:36:56.576 --> 00:37:00.766 A:middle
 Keep in mind though,
 the distinction
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.766 --> 00:37:02.686 A:middle
 between a locale
@@ -3153,9 +3041,6 @@ between the Showa period
 00:37:59.536 --> 00:38:00.956 A:middle
 and the Hassay period in Japan,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:01.276 --> 00:38:03.296 A:middle
 which happened as
 recently as 1989.
@@ -3239,9 +3124,6 @@ passing in our NSDate object,
 and passing in the individual
 units that we wish to obtain.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.676 --> 00:39:03.796 A:middle
 Keep in mind here, you'll
 only obtain these units
@@ -3324,9 +3206,6 @@ One year is not always
 00:39:59.426 --> 00:40:01.286 A:middle
 despite what the song may say.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.496 --> 00:40:03.206 A:middle
 So, for more information
 on this,
@@ -3405,9 +3284,6 @@ that I might want to use
 for an internal machinery
 for full representation,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:01.226 --> 00:41:03.686 A:middle
 but it's not the sort of thing
 I want to present to my users.
@@ -3484,9 +3360,6 @@ month, day, hour and minute,
 and then I set that date format
 that I got on my date formatter,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:03.946 --> 00:42:06.656 A:middle
 and it's ready to go
 for my number formatter.
@@ -3558,9 +3431,6 @@ notification, and when I get
 that notification, I'm just
 going to recreate my formatters
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:01.836 --> 00:43:03.256 A:middle
 with whatever the new locale is.
 
@@ -3608,9 +3478,6 @@ time in 12 hour format.
 So, now if I go into
 the system preferences,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.946 --> 00:44:05.686 A:middle
 I change my primary language
 to English, and my region
@@ -3653,9 +3520,6 @@ are string stick is giving us
 00:44:56.286 --> 00:45:07.406 A:middle
 appropriately pluralized titles
 as the number of notes changes.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:08.266 --> 00:45:11.996 A:middle
 So, that's using date
@@ -3724,9 +3588,6 @@ rules for doing that.
 00:45:56.956 --> 00:46:01.456 A:middle
 The first one is, use
 Unicode and in particular,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:01.626 --> 00:46:04.676 A:middle
 the NSString class, which is
@@ -3798,9 +3659,6 @@ and coding format.
 00:46:59.736 --> 00:47:02.796 A:middle
 The thing I want you to
 remember about using Unicode
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:02.796 --> 00:47:08.396 A:middle
 to represent text, is that you
@@ -3875,9 +3733,6 @@ character sequence at index,
 00:47:57.246 --> 00:47:59.836 A:middle
 so this will give you
 the range within a string
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:00.336 --> 00:48:03.856 A:middle
 of what is effectively
@@ -3962,9 +3817,6 @@ be called successively
 with the range and the string
 corresponding to this character,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:03.256 --> 00:49:08.086 A:middle
 whatever it may be,
 whether it's short or long.
@@ -4045,9 +3897,6 @@ location you start at,
 00:49:58.996 --> 00:49:59.976 A:middle
 which is often useful too.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:01.396 --> 00:50:04.856 A:middle
 And, sorting.
 
@@ -4117,9 +3966,6 @@ for user presentation of text.
 00:50:59.046 --> 00:51:01.806 A:middle
 For user presentation of text,
 use localized standard compare.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:02.256 --> 00:51:03.616 A:middle
 That will be locale sensitive.
@@ -4200,9 +4046,6 @@ are not necessarily directly
 correlated with what
 gets shown on the screen.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:04.006 --> 00:52:06.746 A:middle
 So, what gets shown on the
 screen is a sequence of glifs.
@@ -4273,9 +4116,6 @@ have text kit API's,
 00:52:58.966 --> 00:53:01.806 A:middle
 and there are some
 excellent sessions on this.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:01.846 --> 00:53:03.676 A:middle
 There was an introductory
@@ -4354,9 +4194,6 @@ In order to specify that,
 there are some Unicode control
 characters that are included
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:54:01.466 --> 00:54:04.756 A:middle
 in this text and these
 are things that may show
@@ -4432,9 +4269,6 @@ inserted into the text.
 00:54:59.176 --> 00:55:02.086 A:middle
 Then the system shows them
 some options of choices,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:55:02.086 --> 00:55:03.766 A:middle
 and they pick the one
@@ -4517,9 +4351,6 @@ text from where it is.
 You probably don't want
 to operate on that,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:56:00.376 --> 00:56:03.906 A:middle
 because it's only preliminary,
 it's not the final text.
@@ -4599,9 +4430,6 @@ and even make them into links.
 There is also NSDataDetector
 at the foundation level
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:57:01.206 --> 00:57:02.286 A:middle
 for doing this protomatically
 [assumed spelling].
@@ -4671,9 +4499,6 @@ if necessary, customize them,
 and then as calendar for
 calendrical calculations.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:58:00.776 --> 00:58:04.446 A:middle
 For text, use Unicode and NS
 string, and the NSString API's
@@ -4703,4 +4528,3 @@ a great conference.
 
 00:58:24.516 --> 00:58:29.270 A:middle
 [ Applause ]
-

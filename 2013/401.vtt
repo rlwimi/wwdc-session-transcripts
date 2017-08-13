@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:17.396 A:middle
 [ Silence ]
@@ -67,9 +66,6 @@ with your code,
 00:00:59.246 --> 00:01:00.836 A:middle
 a lot of the times you're
 going back and forth
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.876 --> 00:01:03.286 A:middle
 between various source
@@ -162,14 +158,11 @@ seen it before.
 But briefly, to the left
 here is the navigation area.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:02.876 --> 00:02:06.546 A:middle
 All of that area are
 consists of different panes
 
-00:02:06.626 --> 00:02:10.545 A:middle
+00:02:06.626 --> 00:02:10.546 A:middle
 that show you a different
 view into your code.
 
@@ -237,9 +230,6 @@ bottom of most of these,
 00:02:57.546 --> 00:03:01.146 A:middle
 we have a filter bar that's
 down there at the bottom--
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:01.216 --> 00:03:03.106 A:middle
 it's different, slightly
@@ -329,9 +319,6 @@ you've been visiting recently.
 The modified filter will
 focus just on those things
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:03.376 --> 00:04:05.406 A:middle
 that you modified since the
 last time you checked anything
@@ -348,11 +335,11 @@ filter field where you can,
 in this case, we type
 in the string render
 
-00:04:13.486 --> 00:04:16.755 A:middle
+00:04:13.486 --> 00:04:16.756 A:middle
 and we see just the entries
 that-- that contain that name.
 
-00:04:17.245 --> 00:04:19.456 A:middle
+00:04:17.246 --> 00:04:19.456 A:middle
 So that's pretty simple.
 
 00:04:19.456 --> 00:04:21.716 A:middle
@@ -400,9 +387,6 @@ And as you saw yesterday we
 00:04:56.946 --> 00:05:00.916 A:middle
 in Xcode 5 we streamlined the
 UI here to make it a lot easier
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.916 --> 00:05:02.336 A:middle
 to get at these various things.
@@ -487,9 +471,6 @@ you'll see that right away.
 00:05:56.216 --> 00:06:00.096 A:middle
 And sometimes, if Xcode detects
 a modernization suggestion,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.166 --> 00:06:02.496 A:middle
 it will actually tell
@@ -576,9 +557,6 @@ in Xcode 5 is
 that this pane shows you
 the resolved breakpoints
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:04.026 --> 00:07:05.296 A:middle
 of any symbolic ones you have.
 
@@ -653,9 +631,6 @@ arrow keys to go up and down
 and then quickly go
 to the file you want.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:02.176 --> 00:08:04.686 A:middle
 So even if your hands are on
 the keyboard, your text's--
@@ -722,7 +697,7 @@ sense that there's a history,
 you go back and forth
 not only between files
 
-00:08:41.405 --> 00:08:43.756 A:middle
+00:08:41.406 --> 00:08:43.756 A:middle
 but also the locations
 within the particular file.
 
@@ -748,9 +723,6 @@ reachable from your workspace.
 00:08:58.876 --> 00:09:02.366 A:middle
 And on the-- right here is
 the issue mini navigator.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:02.366 --> 00:09:05.926 A:middle
 If you have any issues at the
@@ -833,9 +805,6 @@ to go quickly between them.
 And then of course,
 new in Xcode 5 is
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:01.486 --> 00:10:05.246 A:middle
 that you can get
 to tests as well.
@@ -902,9 +871,6 @@ convenient.
 00:10:51.146 --> 00:11:00.026 A:middle
 And then finally, if you--
 if you hit Control 5,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.596 --> 00:11:03.576 A:middle
 you get to the menu that
@@ -989,9 +955,6 @@ the content is replaced.
 Now, the assistant
 editor is a secondary
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.946 --> 00:12:04.156 A:middle
 or it can even be
 tertiary that opens up
@@ -1073,9 +1036,6 @@ and that will talk a lot more
 00:12:57.846 --> 00:13:01.236 A:middle
 about the functionality that you
 get underneath that, that mode.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:02.886 --> 00:13:04.466 A:middle
 Going back to the
@@ -1159,9 +1119,6 @@ primary content.
 00:13:59.126 --> 00:14:00.606 A:middle
 And what happens in that case is
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:00.606 --> 00:14:04.386 A:middle
 that the assistant content
 becomes the primary content,
@@ -1242,9 +1199,6 @@ file into the primary editor,
 it'll open up an assistant,
 and this could be very useful.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:03.146 --> 00:15:04.576 A:middle
 It exists in a variety
 of places.
@@ -1317,9 +1271,6 @@ up the navigation chooser.
 00:15:56.956 --> 00:16:00.156 A:middle
 This is a HUD that lets you
 use arrow keys and return key
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.676 --> 00:16:04.106 A:middle
 to really do anything you want.
@@ -1402,17 +1353,14 @@ you could type that.
 And very quickly get to
 where you want to go.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:02.186 --> 00:17:04.636 A:middle
 And also the Option
 key works here too,
 
-00:17:04.886 --> 00:17:06.185 A:middle
+00:17:04.886 --> 00:17:06.186 A:middle
 so if you just hit return now
 
-00:17:06.185 --> 00:17:09.616 A:middle
+00:17:06.186 --> 00:17:09.616 A:middle
 or just select this then
 you'll be replacing the content
 
@@ -1426,7 +1374,7 @@ Option key as well,
 00:17:12.796 --> 00:17:13.986 A:middle
 it'll open up assistant editor.
 
-00:17:14.685 --> 00:17:16.626 A:middle
+00:17:14.686 --> 00:17:16.626 A:middle
 So let me show you few things
 about the source editor.
 
@@ -1438,11 +1386,11 @@ about the assistant editor
 and the key takeaway
 there is the,
 
-00:17:21.396 --> 00:17:23.705 A:middle
+00:17:21.396 --> 00:17:23.706 A:middle
 the power of the Option key,
 it can really, really help you
 
-00:17:23.705 --> 00:17:24.396 A:middle
+00:17:23.706 --> 00:17:24.396 A:middle
 with your workflow there.
 
 00:17:25.486 --> 00:17:28.886 A:middle
@@ -1494,9 +1442,6 @@ there's actually a submenu
 00:17:58.926 --> 00:18:00.506 A:middle
 that shows up underneath
 an arrow there.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.646 --> 00:18:02.606 A:middle
 You can-- so there's
@@ -1581,9 +1526,6 @@ And you can just fill that in
 and then just have your
 own-- your own code there.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:02.296 --> 00:19:06.366 A:middle
 But very often, you will have
 your own code where you want
@@ -1653,9 +1595,6 @@ then you can also crucially,
 00:19:58.906 --> 00:20:02.446 A:middle
 you can set a code completion
 default because as fun as it is
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:02.446 --> 00:20:04.346 A:middle
 to drag code snippets,
@@ -1745,9 +1684,6 @@ the problem is.
 So, as Anders told you, you
 can just use Command, Shift,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:02.826 --> 00:21:07.006 A:middle
 and O to bring up Open Quickly
 and start typing the name
@@ -1829,9 +1765,6 @@ in upper right-hand corner
 00:21:58.916 --> 00:22:03.716 A:middle
 and I can go and see a bunch
 of different related content
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:03.716 --> 00:22:04.796 A:middle
 in the assistant editor.
@@ -1923,9 +1856,6 @@ And the next problem I want
 to solve is I have this property
 isLoaded here and I maybe want
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:02.956 --> 00:23:04.616 A:middle
 to give that a bit more
 of a descriptive name.
@@ -2015,9 +1945,6 @@ do a replacement here.
 00:23:59.546 --> 00:24:01.926 A:middle
 So, I'm going to choose
 replace then I want
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:01.926 --> 00:24:04.696 A:middle
 to replace the word
@@ -2124,9 +2051,6 @@ to isCacheLoaded.
 All right, there's one more
 thing I want to show you.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:01.286 --> 00:25:04.486 A:middle
 I have a method that I want to
 validate that some other methods
@@ -2223,9 +2147,6 @@ sure that both
 of these are doing
 the right thing.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.476 --> 00:26:03.856 A:middle
 So, if I command click on this
 symbol it would jump right
@@ -2320,9 +2241,6 @@ opening in a new--
 00:26:59.236 --> 00:27:00.816 A:middle
 you open in a new
 assistant editor.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:01.276 --> 00:27:05.256 A:middle
 So, I can go down here and
@@ -2423,9 +2341,6 @@ you get a short summary.
 This is great if you
 don't know exactly
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:00.896 --> 00:28:04.086 A:middle
 which method you're using,
 that you want to use,
@@ -2515,9 +2430,6 @@ So, that's all great.
 That's for the built-in
 documentation for iOS,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:01.876 --> 00:29:03.956 A:middle
 for OS X, SDKs, etceteras.
 
@@ -2595,9 +2507,6 @@ And you can get more information
 00:29:57.916 --> 00:30:01.366 A:middle
 about the syntax,
 at doxygen.org.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:02.276 --> 00:30:05.096 A:middle
 So, now if you go back
@@ -2678,9 +2587,6 @@ Contents on the right
 00:30:57.326 --> 00:30:59.876 A:middle
 for whatever document
 you're looking at.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.966 --> 00:31:05.296 A:middle
 And also whenever you see
@@ -2763,9 +2669,6 @@ this before, you may not.
 00:31:56.236 --> 00:32:00.396 A:middle
 In the PrefPane, there are
 a bunch of built-in triggers
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.396 --> 00:32:03.086 A:middle
 of various kinds when your
@@ -2856,9 +2759,6 @@ equivalent with those.
 So then, obviously that
 triggers whenever you hit
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:02.906 --> 00:33:03.856 A:middle
 that key combination.
 
@@ -2945,9 +2845,6 @@ your own workspace with projects
 and targets, how to
 configure your settings
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.496 --> 00:34:03.856 A:middle
 to produce the products
 that you want to produce,
@@ -2956,18 +2853,18 @@ that you want to produce,
 how to use schemes to perform
 actions on those products
 
-00:34:07.516 --> 00:34:10.545 A:middle
+00:34:07.516 --> 00:34:10.546 A:middle
 like running in the debugger,
 testing your unit tests,
 
 00:34:10.886 --> 00:34:12.106 A:middle
 profiling for performance,
 
-00:34:12.335 --> 00:34:13.996 A:middle
+00:34:12.336 --> 00:34:13.996 A:middle
 statically analyzing
 your source code,
 
-00:34:14.226 --> 00:34:16.045 A:middle
+00:34:14.226 --> 00:34:16.046 A:middle
 and archiving your
 product for distribution.
 
@@ -2999,7 +2896,7 @@ they contain, targets
 and the build settings and
 build phases that they contain,
 
-00:34:35.406 --> 00:34:38.315 A:middle
+00:34:35.406 --> 00:34:38.316 A:middle
 schemes, and finally
 run destinations.
 
@@ -3030,9 +2927,6 @@ that go along with it.
 00:34:57.486 --> 00:34:59.936 A:middle
 Your workspace provides
 repository for state.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.296 --> 00:35:02.226 A:middle
 So that means things like
@@ -3137,9 +3031,6 @@ call implicit dependencies.
 So, you can make targets
 explicitly depend on each other,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:03.206 --> 00:36:04.816 A:middle
 but you don't actually
 have to do that.
@@ -3220,9 +3111,6 @@ So, let's talk about projects.
 00:36:58.136 --> 00:37:01.056 A:middle
 Your Xcode projects are
 collection of files, targets,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:01.316 --> 00:37:03.326 A:middle
 schemes, and build
@@ -3316,9 +3204,6 @@ code to be optimized.
 00:37:58.936 --> 00:38:00.996 A:middle
 When you're releasing to the
 App store you definitely do.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.996 --> 00:38:02.966 A:middle
 So, that's when you use
@@ -3414,9 +3299,6 @@ of build rules
 that determine how the compile
 sources build phase will compile
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:02.536 --> 00:39:03.236 A:middle
 your sources.
 
@@ -3504,9 +3386,6 @@ phases in the target editor.
 00:39:59.646 --> 00:40:01.656 A:middle
 So, from the project
 editor pop-up,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:01.656 --> 00:40:04.176 A:middle
 make sure that your target is
@@ -3597,9 +3476,6 @@ build phase.
 00:40:58.156 --> 00:41:01.476 A:middle
 If your target produces any
 sort of bundle type output
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:01.476 --> 00:41:04.416 A:middle
 like an application bundle,
@@ -3696,9 +3572,6 @@ settings are you might want
 00:41:59.196 --> 00:42:01.076 A:middle
 to rename your product,
 it's time to ship
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:01.076 --> 00:42:02.596 A:middle
 and you're renaming
@@ -3804,9 +3677,6 @@ will appear allowing you
 to vary your build settings
 along another access.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:00.656 --> 00:43:02.676 A:middle
 So, this is the build settings
 that are set in the target.
@@ -3905,9 +3775,6 @@ at a glance.
 Finally, on the far left,
 you see the result value
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.256 --> 00:44:02.186 A:middle
 for every build setting
 
@@ -4005,9 +3872,6 @@ is where you go
 to edit all the settings
 for that scheme.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:02.286 --> 00:45:04.676 A:middle
 To perform a scheme action,
 you can use the run button
@@ -4101,9 +3965,6 @@ of the product they go with.
 So, if your tests
 test an application,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:00.576 --> 00:46:04.676 A:middle
 in that application scheme's
 test action we'll add the test
@@ -4195,9 +4056,6 @@ when you perform the test action
 00:46:57.046 --> 00:47:00.326 A:middle
 and you can also perform your
 tests in the test navigator one
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:00.326 --> 00:47:03.086 A:middle
 by one or as a suite or
@@ -4293,9 +4151,6 @@ of the other scheme actions.
 00:47:59.936 --> 00:48:02.246 A:middle
 So, when you perform an action
 usually you build the prod--
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:02.246 --> 00:48:05.666 A:middle
 or the targets for that action
@@ -4401,9 +4256,6 @@ to do that for you.
 We also support additional
 scheme action
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:03.016 --> 00:49:04.066 A:middle
 as I alluded to before.
 
@@ -4487,9 +4339,6 @@ here is, why you would use this
 00:49:57.486 --> 00:50:00.096 A:middle
 versus a run script
 build phase in a target?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:00.656 --> 00:50:02.676 A:middle
 Well, if your script
@@ -4598,9 +4447,6 @@ you want to share this
 with your coworkers 'cause
 everybody wants to use this.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:02.426 --> 00:51:04.356 A:middle
 So, if you click the
 shared checkbox here
@@ -4703,9 +4549,6 @@ some temporary one-off changes
 like you want to
 enable a diagnostic
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:01.196 --> 00:52:03.116 A:middle
 or add an additional
 command line argument.
@@ -4803,9 +4646,6 @@ the data that's shared
 between all users or the
 data that's per user to you.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:53:02.236 --> 00:53:04.666 A:middle
 In the shared data section,
 you'll see any schemes
@@ -4897,9 +4737,6 @@ all plugged in iOS devices
 00:53:58.326 --> 00:53:59.626 A:middle
 which are configured
 for development,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:00.336 --> 00:54:03.396 A:middle
 all available simulators,
@@ -4996,9 +4833,6 @@ for the fundamental concepts.
 We've talked about
 workspaces, projects, targets,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:55:03.036 --> 00:55:05.086 A:middle
 schemes, and run destinations.
 
@@ -5083,9 +4917,6 @@ discuss and ask question
 about the new versions of
 Xcode or existing features.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:56:02.386 --> 00:56:04.326 A:middle
 That's at devforums.apple.com.
 
@@ -5106,4 +4937,3 @@ information for you.
 
 00:56:16.686 --> 00:56:28.140 A:middle
 [ Silence ]
-

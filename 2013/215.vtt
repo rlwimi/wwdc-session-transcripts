@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:09.956 --> 00:00:13.336 A:middle
 &gt;&gt; Hello, welcome to
@@ -70,9 +69,6 @@ you can do in your application.
 00:00:58.936 --> 00:01:02.086 A:middle
 So you're probably already
 doing this inside your drawRect.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:02.176 --> 00:01:04.766 A:middle
 Inside of your drawRect
@@ -163,9 +159,6 @@ dirtyRects and then just fill
 in those Rects that are
 actually really dirty.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:01.126 --> 00:02:04.316 A:middle
 Or, what you can also do here is
 just pull in your model objects
@@ -174,7 +167,7 @@ just pull in your model objects
 that exist inside those
 dirtyRects instead of pulling
 
-00:02:07.296 --> 00:02:09.265 A:middle
+00:02:07.296 --> 00:02:09.266 A:middle
 in everything inside
 of your view bounds
 
@@ -250,9 +243,6 @@ that's not good.
 Now, other things that you can
 do that are performant, well,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:01.636 --> 00:03:03.926 A:middle
 hiding a view may
 be actually better
@@ -324,9 +314,6 @@ NSOperationQueue,
 add an operation with block to
 do some work on the background.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:01.106 --> 00:04:02.646 A:middle
 You can actually do
 your heavy lifting
@@ -347,11 +334,11 @@ CGImageForProposedRect context:
 hints and pass in the actual
 size which you're going
 
-00:04:14.656 --> 00:04:17.935 A:middle
+00:04:14.656 --> 00:04:17.936 A:middle
 to be drawing and this will kind
 of warm the image up to get be--
 
-00:04:17.935 --> 00:04:19.346 A:middle
+00:04:17.936 --> 00:04:19.346 A:middle
 to get to be ready
 to be drawing.
 
@@ -402,9 +389,6 @@ as being dirty and whatnot.
 00:04:59.216 --> 00:05:01.026 A:middle
 Definitely, do not
 do inside drawRect
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.446 --> 00:05:02.696 A:middle
 because it's bad
@@ -495,9 +479,6 @@ the GState methods.
 So if you're overriding or
 calling GState, allocateGState,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:03.966 --> 00:06:08.606 A:middle
 releaseGState and in particular,
 setupGState and renewGState,
@@ -572,9 +553,6 @@ view drawing and some
 of the best practices for Core
 Animation and what you can do.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:03.036 --> 00:07:06.476 A:middle
 So last year, we gave a
 talk on layer-backed views
@@ -644,9 +622,6 @@ the view or your frame changes,
 00:07:58.656 --> 00:08:01.326 A:middle
 you are responsible for
 calling setNeedsDisplay.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:02.066 --> 00:08:05.836 A:middle
 We do not automatically call
@@ -719,9 +694,6 @@ do two different code pass.
 00:08:59.756 --> 00:09:02.756 A:middle
 So let's say you say no to
 wantsUpdateLayer, which is more
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:02.756 --> 00:09:05.216 A:middle
 of a traditional drawing
@@ -797,9 +769,6 @@ at doing that.
 00:09:57.456 --> 00:09:59.616 A:middle
 So here is an example
 using wantsUpdateLayer.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.046 --> 00:10:02.126 A:middle
 You override wantsUpdateLayer,
@@ -893,9 +862,6 @@ to get better performance.
 As I mentioned before,
 if your view is opaque
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:02.596 --> 00:11:04.456 A:middle
 and you're saying
 yes from isOpaque,
@@ -968,9 +934,6 @@ and just chop it up into lots
 
 00:11:59.706 --> 00:12:01.016 A:middle
 of little individual tiles.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:01.686 --> 00:12:05.476 A:middle
 Now, your view still has
@@ -1052,9 +1015,6 @@ this more than once
 
 00:12:59.326 --> 00:13:00.706 A:middle
 for one particular visible area.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.406 --> 00:13:05.886 A:middle
 Of course, we're actually
@@ -1141,9 +1101,6 @@ their own backing layer.
 What could be the
 problem with this?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:01.026 --> 00:14:04.086 A:middle
 Well, as I mentioned before,
 if you're using drawRect,
@@ -1220,9 +1177,6 @@ or sorry, your sublayer count is
 00:14:56.116 --> 00:15:01.266 A:middle
 to use some new Mac OS 10.9 API
 called CanDrawSubviewsIntoLayer
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:01.266 --> 00:15:03.926 A:middle
 and the setter,
@@ -1307,9 +1261,6 @@ is that what if you did want
 to view a subview that has
 its own layer because you want
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:02.566 --> 00:16:03.876 A:middle
 to animate that button around,
 
@@ -1393,9 +1344,6 @@ setCanDrawSubviewsintheLayer:
 YES for each of them and all
 those individual subviews,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:02.546 --> 00:17:05.516 A:middle
 the image, the text and
 whatnot will be drawn instead
@@ -1412,7 +1360,7 @@ to note here is
 that for text fonts moving
 to work such as the title
 
-00:17:16.596 --> 00:17:19.915 A:middle
+00:17:16.596 --> 00:17:19.916 A:middle
 of that word there, it must
 be drawn into an opaque area
 
@@ -1465,9 +1413,6 @@ little test app here.
 00:17:56.256 --> 00:18:01.426 A:middle
 And this test app does lots of
 horrible things during drawRect
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.426 --> 00:18:04.796 A:middle
 so your drawRect performance
@@ -1542,9 +1487,6 @@ small portion of it is visible
 00:18:59.016 --> 00:19:00.876 A:middle
 and traditionally,
 that's all that was drawn.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.876 --> 00:19:02.796 A:middle
 When we get responsive
@@ -1639,9 +1581,6 @@ locking
 00:19:59.236 --> 00:20:00.756 A:middle
 that your app wasn't
 already doing,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.756 --> 00:20:02.046 A:middle
 you can access the
@@ -1739,9 +1678,6 @@ doing vertically
 00:20:58.516 --> 00:21:00.036 A:middle
 so we'll just go up and down.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.036 --> 00:21:01.226 A:middle
 So we have a little bit more.
 
@@ -1830,9 +1766,6 @@ for those areas to be redrawn.
 00:21:56.976 --> 00:22:00.546 A:middle
 And this is great and in
 general, you won't have
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.546 --> 00:22:03.216 A:middle
 to do anything but sometimes
@@ -1923,9 +1856,6 @@ to eventually ask you to draw.
 It includes the entire overdraw
 area that we want currently
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:01.476 --> 00:23:03.806 A:middle
 which is always going to at
 least include your visible rect
@@ -2014,9 +1944,6 @@ new section to be drawn
 and we'll have that in the
 overdraw ready to be scrolled
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:02.536 --> 00:24:04.516 A:middle
 to for the user at
 a moment's notice.
@@ -2099,9 +2026,6 @@ called PrepareContentInRect,
 then we'll of course-- we won't
 ask for that area to be drawn
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:02.726 --> 00:25:05.296 A:middle
 and we're going to stop
 asking for overdraw
@@ -2180,9 +2104,6 @@ of items which are going
 00:25:58.796 --> 00:26:00.646 A:middle
 to totally change the
 content that you're showing
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.646 --> 00:26:04.766 A:middle
 in the scroll view and the
@@ -2265,9 +2186,6 @@ then go ahead
 00:26:57.966 --> 00:27:01.126 A:middle
 and use the prepared content
 rect API that we have.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:01.856 --> 00:27:03.196 A:middle
 So that's overdraw.
@@ -2361,9 +2279,6 @@ wheel event that comes in.
 00:27:56.126 --> 00:28:00.626 A:middle
 Well with Responsive scrolling,
 we break that cycle and once
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.626 --> 00:28:02.966 A:middle
 that first event comes in
@@ -2461,9 +2376,6 @@ square up there.
 Though what the users sees on
 screen is the red dashed area.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:02.646 --> 00:29:06.066 A:middle
 So, that's an important thing to
 realize as what the users sees
@@ -2548,9 +2460,6 @@ to be in sync.
 00:29:59.516 --> 00:30:03.106 A:middle
 The other thing that the
 synchronization request does is
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:03.106 --> 00:30:05.506 A:middle
 if your app-- if your main
@@ -2649,9 +2558,6 @@ into responsive scrolling.
 But it's a situation
 we want to avoid.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:01.896 --> 00:31:04.726 A:middle
 So, my point here is
 it's not a silver bullet.
@@ -2737,9 +2643,6 @@ with this brand new world.
 Overriding scroll wheel
 is obviously isn't going
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.486 --> 00:32:02.396 A:middle
 to work the way that it used
 to because scroll will use
@@ -2821,9 +2724,6 @@ moved the clip view bounds.
 00:32:58.086 --> 00:33:00.186 A:middle
 And this way, you'll catch all
 of those and you can respond
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.186 --> 00:33:02.116 A:middle
 to them appropriately
@@ -2916,9 +2816,6 @@ will coalesce those all
 into one will start, a whole
 bunch of dids and did end.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:02.426 --> 00:34:06.556 A:middle
 Not only that, we will
 actually extend this
@@ -2930,11 +2827,11 @@ across the animations.
 So if the user goes into
 rubber banding for example
 
-00:34:09.856 --> 00:34:11.485 A:middle
+00:34:09.856 --> 00:34:11.486 A:middle
 and there are no more
 events coming in,
 
-00:34:11.735 --> 00:34:13.896 A:middle
+00:34:11.736 --> 00:34:13.896 A:middle
 there's that little bit of a
 rubber band animation going on.
 
@@ -2942,7 +2839,7 @@ rubber band animation going on.
 We don't call dead-end until
 the animation completes.
 
-00:34:17.525 --> 00:34:19.906 A:middle
+00:34:17.526 --> 00:34:19.906 A:middle
 And every frame of the
 animation we issued dids.
 
@@ -2990,11 +2887,11 @@ that happens in between
 00:34:43.096 --> 00:34:44.446 A:middle
 and we know when it stops.
 
-00:34:44.696 --> 00:34:46.545 A:middle
+00:34:44.696 --> 00:34:46.546 A:middle
 So we'll go ahead and
 report those notifications
 
-00:34:46.545 --> 00:34:47.065 A:middle
+00:34:46.546 --> 00:34:47.066 A:middle
 in that case.
 
 00:34:47.856 --> 00:34:50.976 A:middle
@@ -3004,14 +2901,14 @@ keyboard things, page up
 00:34:50.976 --> 00:34:52.096 A:middle
 and page down for example.
 
-00:34:52.315 --> 00:34:53.666 A:middle
+00:34:52.316 --> 00:34:53.666 A:middle
 Those are animations generally.
 
-00:34:53.666 --> 00:34:55.065 A:middle
+00:34:53.666 --> 00:34:55.066 A:middle
 Well, we know when
 the animation starts
 
-00:34:55.065 --> 00:34:57.036 A:middle
+00:34:55.066 --> 00:34:57.036 A:middle
 and we knows when--
 we know when it ends.
 
@@ -3022,9 +2919,6 @@ cases, the--
 00:34:59.716 --> 00:35:02.826 A:middle
 these notifications are being
 issued on the main thread.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:02.886 --> 00:35:04.356 A:middle
 So that's an important
@@ -3111,9 +3005,6 @@ scrolling is that your--
 generally, you have a subview
 in your content, it scrolls
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:00.706 --> 00:36:02.336 A:middle
 and you change the
 frame of this view.
@@ -3197,9 +3088,6 @@ on 10.9.
 So that was a whole-- there's
 a whole lot there going
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:01.136 --> 00:37:02.356 A:middle
 on with responsive scrolling.
 
@@ -3276,9 +3164,6 @@ going in the next few slides.
 00:37:58.036 --> 00:38:01.046 A:middle
 But from this point on, you
 can use this explicit API
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:01.286 --> 00:38:03.576 A:middle
 isCompatibleWithResponsive
@@ -3367,9 +3252,6 @@ lockFocus turns out with the way
 00:38:59.176 --> 00:39:01.216 A:middle
 that we do overdraw
 just isn't applicable.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:01.216 --> 00:39:03.566 A:middle
 So, please stop overriding
@@ -3465,9 +3347,6 @@ is returning no
 which is the default case, then
 we're not sure what's going
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:02.726 --> 00:40:04.136 A:middle
 on there and we won't
 be able to adopt you
@@ -3550,9 +3429,6 @@ canDrawSubviewsIntoLayer.
 00:40:59.946 --> 00:41:01.446 A:middle
 There are different
 performance characteristics
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:01.446 --> 00:41:03.106 A:middle
 when you go layer-back,
@@ -3641,9 +3517,6 @@ What we want is this.
 00:41:59.916 --> 00:42:00.506 A:middle
 We want green.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.056 --> 00:42:05.456 A:middle
 So, if everything turns out--
 
@@ -3724,9 +3597,6 @@ scrolling and we'll go ahead
 
 00:42:58.066 --> 00:42:59.696 A:middle
 and move on to magnification.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:00.326 --> 00:43:04.016 A:middle
 Specifically, in magnification
@@ -3809,9 +3679,6 @@ rect when the gesture ends
 00:43:56.376 --> 00:43:59.276 A:middle
 and we'll get the nice
 crisp content back in there.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:00.016 --> 00:44:02.656 A:middle
 But during that whole gesture,
@@ -3902,9 +3769,6 @@ to magnification,
 00:44:57.736 --> 00:45:00.116 A:middle
 your drawRect speed is crucial
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:00.116 --> 00:45:03.156 A:middle
 to getting responsive
 feedback to the user.
@@ -3989,9 +3853,6 @@ you're given a point
 00:45:58.476 --> 00:46:01.636 A:middle
 and all you have is whatever
 the current bounds are
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:01.636 --> 00:46:02.826 A:middle
 of the clip view.
@@ -4085,9 +3946,6 @@ with layer-backed drawing.
 These are still very important
 with responsive scrolling
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:02.266 --> 00:47:06.036 A:middle
 as you've seen, it can get
 over a lot of rough edges and--
@@ -4177,9 +4035,6 @@ everything I've talked here
 in the release notes as it
 relates to responsive scrolling.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:07.276 --> 00:48:09.176 A:middle
 The Best Practices
 for Cocoa Animation
@@ -4216,4 +4071,3 @@ rest of the show.
 
 00:48:23.516 --> 00:48:28.430 A:middle
 [Applause]
-

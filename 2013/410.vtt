@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.066 --> 00:00:13.466 A:middle
 &gt;&gt; Good afternoon and welcome
@@ -75,14 +74,11 @@ loaded into memory,
 it starts executing,
 starts loading data.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:00.646 --> 00:01:04.025 A:middle
+00:01:00.646 --> 00:01:04.026 A:middle
 It starts loading more
 and more and more data.
 
-00:01:04.775 --> 00:01:07.376 A:middle
+00:01:04.776 --> 00:01:07.376 A:middle
 And there are a couple of
 potential side effects of this.
 
@@ -172,9 +168,6 @@ the user switches away
 
 00:01:59.246 --> 00:02:00.196 A:middle
 from your application,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.496 --> 00:02:03.526 A:middle
 and because you're using too
@@ -267,9 +260,6 @@ my engineers, and we'll move
 
 00:02:58.266 --> 00:03:00.206 A:middle
 on to talking about Objective-C,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.436 --> 00:03:03.216 A:middle
 challenges on that front
@@ -368,9 +358,6 @@ handy button right there
 that if you see a trend you
 don't like we can go directly
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.906 --> 00:04:03.156 A:middle
 to Instruments from
 the debug gauge.
@@ -454,9 +441,6 @@ strategy that the tool uses
 to find that information and
 really what you're looking for.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:02.436 --> 00:05:05.596 A:middle
 So if you're looking for one
 number that sums up everything
@@ -538,9 +522,6 @@ run that application.
 00:05:58.466 --> 00:05:59.786 A:middle
 So it's been deployed
 to my device.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.426 --> 00:06:01.156 A:middle
 It's up and running.
@@ -640,9 +621,6 @@ the opportunity then
 to measure a lot of
 important information
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:01.756 --> 00:07:03.836 A:middle
 about the allocations that
 have already occurred.
@@ -736,9 +714,6 @@ by the gauge.
 00:07:59.666 --> 00:08:00.866 A:middle
 That's no longer the case.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.456 --> 00:08:04.256 A:middle
 My total live bytes being
 reported here, 57 meg,
@@ -793,7 +768,7 @@ which is really just
 Or just the VM regions which
 accounts for rather a lot
 
-00:08:41.506 --> 00:08:42.655 A:middle
+00:08:41.506 --> 00:08:42.656 A:middle
 of memory in my application,
 
 00:08:43.006 --> 00:08:45.346 A:middle
@@ -818,9 +793,6 @@ can dive in and see specifically
 00:08:56.516 --> 00:09:00.476 A:middle
 which files, zoom back out,
 which files have been mapped
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.476 --> 00:09:02.616 A:middle
 into my application,
@@ -909,9 +881,6 @@ allocations are occurring.
 00:09:57.986 --> 00:09:59.976 A:middle
 If I search for
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:01.276 --> 00:10:02.776 A:middle
 image IO work here I can see
 
@@ -999,9 +968,6 @@ familiar tools as well.
 I'm going to dig into
 the library and bring
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:02.696 --> 00:11:05.886 A:middle
 out one other familiar
 favorite, VM Tracker,
@@ -1071,9 +1037,6 @@ my applications memory.
 00:11:57.116 --> 00:12:01.946 A:middle
 I'd also like to point out that
 if you've used the Instruments
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:01.976 --> 00:12:04.206 A:middle
 from sort of a casual
@@ -1160,9 +1123,6 @@ We talked about the fact
 that virtual memory is
 now more fully represented
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:01.656 --> 00:13:02.546 A:middle
 in allocations.
 
@@ -1248,9 +1208,6 @@ way to get any insight into.
 Because this does
 give us insight
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:00.086 --> 00:14:01.526 A:middle
 into some very interesting
 things.
@@ -1331,9 +1288,6 @@ the same thing.
 00:14:57.906 --> 00:15:00.766 A:middle
 And obviously they have
 distinct chunks of memory.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:01.186 --> 00:15:03.356 A:middle
 So this is a nice
@@ -1416,9 +1370,6 @@ probably an operating system up
 00:15:57.916 --> 00:16:00.706 A:middle
 and running at this point, but
 it finds a page that's unused
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.706 --> 00:16:03.386 A:middle
 and it maps it to a page
@@ -1509,9 +1460,6 @@ your application outright.
 So it's possible to
 run into that limit.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.736 --> 00:17:04.746 A:middle
 It is much more likely instead
 that I'll run into limits
@@ -1526,18 +1474,18 @@ versus dirty comes up next.
 00:17:10.256 --> 00:17:11.856 A:middle
 What's dirty memory represent?
 
-00:17:12.506 --> 00:17:13.915 A:middle
+00:17:12.506 --> 00:17:13.916 A:middle
 Well, clean pages are pages
 
-00:17:13.915 --> 00:17:16.685 A:middle
+00:17:13.916 --> 00:17:16.686 A:middle
 that we can discard
 at will and recreate.
 
-00:17:17.816 --> 00:17:19.185 A:middle
+00:17:17.816 --> 00:17:19.186 A:middle
 What kinds of pages
 can we do that with?
 
-00:17:19.185 --> 00:17:21.526 A:middle
+00:17:19.186 --> 00:17:21.526 A:middle
 Well, if we've loaded
 some code from Flash
 
@@ -1597,9 +1545,6 @@ to keep in memory --
 00:17:56.236 --> 00:18:00.076 A:middle
 sorry, information that we
 have to keep in memory in order
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.076 --> 00:18:01.686 A:middle
 for you to be able to
@@ -1679,9 +1624,6 @@ The last concept is the notion
 00:18:57.666 --> 00:19:00.226 A:middle
 of private memory
 versus shared memory.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:01.326 --> 00:19:03.566 A:middle
 When I create a memory
@@ -1764,9 +1706,6 @@ And now it needs to load code.
 
 00:19:59.616 --> 00:19:59.956 A:middle
 Well,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.046 --> 00:20:03.086 A:middle
 because the code is coming
@@ -1852,9 +1791,6 @@ a dozen bytes or more.
 00:20:58.886 --> 00:21:00.836 A:middle
 But it can also be used
 for fairly large things,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.936 --> 00:21:02.566 A:middle
 and it's in this managed area.
@@ -1946,9 +1882,6 @@ things that I might want to keep
 in mind are that
 there are some types
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.636 --> 00:22:02.766 A:middle
 that are more expensive
 than others.
@@ -2030,9 +1963,6 @@ case another 32 bytes.
 00:22:58.716 --> 00:23:00.336 A:middle
 And this may not seem
 like it's going to add
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.336 --> 00:23:02.296 A:middle
 up in a hurry except that some
@@ -2122,9 +2052,6 @@ de- reference the object
 that the VM region is
 deallocated on your behalf.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:02.836 --> 00:24:04.516 A:middle
 So what can I do to investigate?
 
@@ -2202,9 +2129,6 @@ objects by things other
 
 00:24:59.706 --> 00:25:01.736 A:middle
 than just Objective-C classes.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:01.956 --> 00:25:03.586 A:middle
 Specifically we're much,
@@ -2292,9 +2216,6 @@ cannot get to it anymore
 00:25:59.856 --> 00:26:02.646 A:middle
 because there is no longer a
 pointer from any active object
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:02.646 --> 00:26:04.956 A:middle
 that you reference we
@@ -2394,9 +2315,6 @@ really intends to do a lot
 of other things and it's
 cluttering up the world.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:00.486 --> 00:27:02.766 A:middle
 And in this place
 maybe the right thing
@@ -2484,9 +2402,6 @@ back to the original state.
 Now, you may find that
 there's some warmup cost here.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:02.556 --> 00:28:04.756 A:middle
 We're loading code that
 hasn't been used before.
@@ -2568,9 +2483,6 @@ this situation,
 00:28:59.736 --> 00:29:01.376 A:middle
 and how did I get there
 in the first place?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:02.296 --> 00:29:03.156 A:middle
 Well, here's how it happens.
@@ -2658,9 +2570,6 @@ the Heap Allocation tool,
 00:29:58.786 --> 00:29:59.976 A:middle
 if you're just filtering
 for Heap
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.056 --> 00:30:01.676 A:middle
 only and graphing the Heap,
@@ -2750,9 +2659,6 @@ objects aren't something
 00:30:59.386 --> 00:31:00.416 A:middle
 that you're going to reference
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.416 --> 00:31:02.166 A:middle
 after the auto release
 pool has been drained.
@@ -2835,9 +2741,6 @@ a retain count by 1.
 00:31:59.386 --> 00:32:02.136 A:middle
 Whenever the account drops
 to 0 the object is freed back
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:02.136 --> 00:32:03.056 A:middle
 to the malloc subsystem.
@@ -2925,9 +2828,6 @@ is more bugs.
 00:32:59.926 --> 00:33:02.316 A:middle
 And so if you write too
 many retains you're going
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:02.316 --> 00:33:05.196 A:middle
 to get objects that may not
@@ -3021,9 +2921,6 @@ running ARC or not,
 when you're debugging
 issues you need to be able
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.556 --> 00:34:05.056 A:middle
 to understand all of the
 data, understand what retain
@@ -3040,19 +2937,19 @@ counting doesn't solve retain
 cycles on its own because
 that's not a mechanics issue,
 
-00:34:16.426 --> 00:34:18.525 A:middle
+00:34:16.426 --> 00:34:18.526 A:middle
 that's a design and
 behavior issue.
 
-00:34:19.085 --> 00:34:21.696 A:middle
+00:34:19.086 --> 00:34:21.696 A:middle
 Luckily, though, it does
 provide some very useful tools
 
-00:34:21.696 --> 00:34:24.795 A:middle
+00:34:21.696 --> 00:34:24.796 A:middle
 and keywords to help fix
 these including things
 
-00:34:24.795 --> 00:34:27.426 A:middle
+00:34:24.796 --> 00:34:27.426 A:middle
 like zeroing weak references
 where you can mark one
 
@@ -3060,7 +2957,7 @@ where you can mark one
 of the references weak and
 the whole cycle will go away.
 
-00:34:31.775 --> 00:34:36.176 A:middle
+00:34:31.776 --> 00:34:36.176 A:middle
 So let's talk about then
 what the common problems are
 
@@ -3071,7 +2968,7 @@ those more behavioral
 00:34:39.896 --> 00:34:40.846 A:middle
 structural issues.
 
-00:34:41.585 --> 00:34:43.686 A:middle
+00:34:41.586 --> 00:34:43.686 A:middle
 Well, the first one
 is memory growth.
 
@@ -3083,7 +2980,7 @@ come in two different forms.
 The first like I talked
 about is retain cycles.
 
-00:34:51.585 --> 00:34:55.275 A:middle
+00:34:51.586 --> 00:34:55.276 A:middle
 And the second is
 abandoned objects.
 
@@ -3094,9 +2991,6 @@ instrument actually provides a
 00:34:59.576 --> 00:35:02.266 A:middle
 very nice graphical
 display of the cycle
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:02.406 --> 00:35:05.426 A:middle
 so you can easily understand
@@ -3186,9 +3080,6 @@ selector are good indicators
 that this is the sort of
 problem that you have.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:02.866 --> 00:36:05.526 A:middle
 So how do we fix that?
 
@@ -3267,9 +3158,6 @@ An important note, though,
 previously this was
 only available
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:00.186 --> 00:37:02.386 A:middle
 for iOS on the iOS Simulator.
 
@@ -3329,9 +3217,6 @@ if we zoom in here right
 00:37:58.156 --> 00:38:00.276 A:middle
 in the debugger ObjC
 underscore release.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.446 --> 00:38:03.916 A:middle
 So it looks like we've
@@ -3401,9 +3286,6 @@ see that we have malloc events,
 auto release, retain release all
 grouped together into one chunk.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:01.006 --> 00:39:03.526 A:middle
 Now the scope bar here
 allows me to change my view
@@ -3467,9 +3349,6 @@ let's see here --
 
 00:39:54.516 --> 00:40:00.676 A:middle
 [ Pause ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:01.176 --> 00:40:02.726 A:middle
 What we've got --
@@ -3557,9 +3436,6 @@ release pool written there.
 So I'll talk about this
 a little bit later,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.746 --> 00:41:04.526 A:middle
 but what we really needed to
 do is was use a local NSError
@@ -3614,9 +3490,6 @@ in the background.
 00:41:57.496 --> 00:42:00.106 A:middle
 And I can just go ahead and use
 the app a little bit and sort
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:00.106 --> 00:42:02.206 A:middle
 of get some activity going on.
@@ -3701,9 +3574,6 @@ NS arrays, network reachability.
 And they're all coming from
 the system configuration
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:01.836 --> 00:43:03.236 A:middle
 system library.
 
@@ -3771,9 +3641,6 @@ get that retain release view,
 00:43:59.356 --> 00:44:01.246 A:middle
 and not many retains
 and releases.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:01.966 --> 00:44:04.766 A:middle
 Well, I'd like to pair these up
@@ -3852,9 +3719,6 @@ you the Zombies template
 on an iOS device and taking
 a look at a couple leaks.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:04.516 --> 00:45:12.806 A:middle
 [ Applause ]
 
@@ -3932,9 +3796,6 @@ release history even
 00:45:59.306 --> 00:46:02.586 A:middle
 when it's an object
 that's managed by ARC.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:02.586 --> 00:46:06.146 A:middle
 And, finally, you
@@ -4015,9 +3876,6 @@ and memory analysis
 that additional debugging
 info is actually very useful.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:02.266 --> 00:47:10.456 A:middle
 And so you can set it by just
 using the scheme editor and so
@@ -4090,9 +3948,6 @@ objectives, dispatch objects,
 
 00:47:59.056 --> 00:48:00.296 A:middle
 many things inside them.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:01.396 --> 00:48:03.916 A:middle
 And when they're copied
@@ -4179,9 +4034,6 @@ to break these cycles.
 In this case we can just
 define a weakly notified self
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:01.246 --> 00:49:03.176 A:middle
 and use it inside the block.
 
@@ -4257,9 +4109,6 @@ does that mean to you?
 00:49:57.556 --> 00:49:59.976 A:middle
 Well, weak validates
 the reference
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:00.116 --> 00:50:01.586 A:middle
 whenever it's used.
@@ -4339,9 +4188,6 @@ Or, you can be very explicit,
 and this is actually
 probably the best way to go.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:00.116 --> 00:51:05.256 A:middle
 Just create a strong object,
 promote your weak reference
@@ -4415,9 +4261,6 @@ unsafe unretained.
 00:51:57.846 --> 00:52:00.856 A:middle
 And so you can very
 easily get crashes
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:00.856 --> 00:52:02.506 A:middle
 because these are
@@ -4499,9 +4342,6 @@ by default like NS errors.
 And this means that if there's
 an auto release pool wrapping
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:53:02.096 --> 00:53:04.536 A:middle
 the assignment you can get
 some interesting behavior,
@@ -4569,9 +4409,6 @@ pool that we wrote.
 00:53:53.446 --> 00:54:00.026 A:middle
 The final keyword I want to
 talk about is bridge gaps.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:00.026 --> 00:54:03.386 A:middle
 Now, ARC is great for
@@ -4653,9 +4490,6 @@ most dangerous.
 If you're casting from an ARC
 managed reference to a void star
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:55:02.656 --> 00:55:03.546 A:middle
 or a CF reference,
 
@@ -4727,9 +4561,6 @@ systems, maybe low CPUs.
 00:55:57.466 --> 00:56:00.976 A:middle
 If you're on an iPhone this
 is just older hardware.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:56:01.786 --> 00:56:04.556 A:middle
 Test your first install
@@ -4809,9 +4640,6 @@ it's really great.
 00:56:58.766 --> 00:57:01.356 A:middle
 And for iOS memory
 warnings are issued
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:57:01.356 --> 00:57:02.836 A:middle
 and processes have terminated.
@@ -4904,9 +4732,6 @@ Definitely avoid memory spikes.
 This will lead to fragmentation
 of your application,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:58:02.336 --> 00:58:03.926 A:middle
 and avoidance is
 the best policy.
@@ -4967,4 +4792,3 @@ much for coming today.
 
 00:58:38.016 --> 00:58:40.000 A:middle
 [ Applause ]
-

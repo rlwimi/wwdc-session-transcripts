@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.856 A:middle
 [ Silence ]
@@ -63,9 +62,6 @@ out there are right now.
 00:00:58.526 --> 00:01:02.716 A:middle
 If it's the middle of the week,
 they see "Oh, the battery is low
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:02.766 --> 00:01:05.946 A:middle
 and I'll open up the battery
@@ -132,9 +128,6 @@ energy efficiency.
 But first, let's start
 with some background.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:03.206 --> 00:02:07.626 A:middle
 What are the things that your
 app can do to use energy?
@@ -191,9 +184,6 @@ limited in one major way,
 00:02:57.706 --> 00:03:00.266 A:middle
 and that's by the
 size of the battery.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:01.156 --> 00:03:05.446 A:middle
 And this is important
@@ -254,9 +244,6 @@ increases by 10 percent.
 00:03:58.196 --> 00:03:59.376 A:middle
 That's just for 1 percent.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.666 --> 00:04:04.966 A:middle
 If you're using 10 percent, the
 power draw from the CPU doubles.
@@ -269,7 +256,7 @@ going full bore using 100
 percent CPU time, the
 CPU can draw 10 times
 
-00:04:14.276 --> 00:04:19.495 A:middle
+00:04:14.276 --> 00:04:19.496 A:middle
 as much power compared
 to idle or more.
 
@@ -317,9 +304,6 @@ relatively cheap
 00:04:59.816 --> 00:05:02.986 A:middle
 but over the long term it
 adds up to a lot of energy.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:03.586 --> 00:05:11.586 A:middle
 And then when the user
@@ -377,9 +361,6 @@ CPU time your app is using,
 
 00:05:59.586 --> 00:06:01.286 A:middle
 just look at the energy tab
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:01.936 --> 00:06:03.616 A:middle
 in the Activity Monitor
@@ -440,9 +421,6 @@ person who's more familiar
 00:06:59.586 --> 00:07:02.436 A:middle
 with the Unix shell, you can
 run the top command of course,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:02.666 --> 00:07:05.136 A:middle
 look at the percent CPU column.
@@ -512,9 +490,6 @@ having used it hopefully
 to diagnose performance
 problems.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.046 --> 00:08:03.316 A:middle
 If you haven't used
 Time Profiler,
@@ -558,18 +533,18 @@ more on how
 to use Instruments
 a little later.
 
-00:08:33.635 --> 00:08:35.756 A:middle
+00:08:33.636 --> 00:08:35.756 A:middle
 One thing that's
 new in Mavericks is
 
-00:08:35.756 --> 00:08:39.155 A:middle
+00:08:35.756 --> 00:08:39.156 A:middle
 that the system will also
 automatically monitor your
 
-00:08:39.155 --> 00:08:40.166 A:middle
+00:08:39.156 --> 00:08:40.166 A:middle
 CPU usage.
 
-00:08:40.405 --> 00:08:43.796 A:middle
+00:08:40.406 --> 00:08:43.796 A:middle
 So you may see a line in the
 console that looks like this.
 
@@ -591,9 +566,6 @@ drop a log
 00:08:56.686 --> 00:08:59.786 A:middle
 into
 /Library/Logs/DiagnosticReports
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.196 --> 00:09:03.766 A:middle
 with the CPU resource.spin
@@ -655,9 +627,6 @@ these reports represent work
 00:09:54.176 --> 00:09:59.236 A:middle
 that you know the user
 is aware of and ask for.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.696 --> 00:10:04.606 A:middle
 Another way to diagnose
@@ -726,9 +695,6 @@ of the Kernel.
 So these are things like, you
 know, open/closed system calls,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:03.666 --> 00:11:08.216 A:middle
 read/writes from the network,
 disk I/Os, things like that.
@@ -788,9 +754,6 @@ resources.
 00:11:59.366 --> 00:12:01.976 A:middle
 So I highly recommend you
 go back, give that a watch
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:02.076 --> 00:12:02.996 A:middle
 when you get a chance.
@@ -860,9 +823,6 @@ graphic system, it uses energy
 00:12:59.036 --> 00:13:00.426 A:middle
 because it's using the CPU.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:01.136 --> 00:13:04.956 A:middle
 And in a lot of cases, this
 drawing could be invisible
@@ -923,9 +883,6 @@ your app in a lot of places.
 Timers are used to schedule
 periodic events or future events
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:02.466 --> 00:14:06.306 A:middle
 and drive animations,
 you use timers.
@@ -979,9 +936,6 @@ involved in bringing the CPU
 00:14:55.986 --> 00:15:00.626 A:middle
 out of idle, bringing
 your app out of idle,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.626 --> 00:15:03.186 A:middle
 getting your app
@@ -1061,9 +1015,6 @@ I mean by timers?
 Of course we have explicit timer
 APIs in Grand Central Dispatch,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:01.646 --> 00:16:03.706 A:middle
 Core Foundation -- foundation.
 
@@ -1131,9 +1082,6 @@ that is a timer as well.
 In Mavericks, it's a lot
 easier to see the timer usage
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.206 --> 00:17:03.906 A:middle
 of your app if you go back
 to Activity Monitor and look
@@ -1141,7 +1089,7 @@ to Activity Monitor and look
 00:17:03.906 --> 00:17:05.376 A:middle
 at the Idle Wakeups column.
 
-00:17:05.715 --> 00:17:08.826 A:middle
+00:17:05.716 --> 00:17:08.826 A:middle
 This will show you the
 number of times a timer fired
 
@@ -1152,7 +1100,7 @@ in your app in the last second.
 So in this case, this app fired
 10 timers in the last second.
 
-00:17:16.435 --> 00:17:19.136 A:middle
+00:17:16.436 --> 00:17:19.136 A:middle
 There's also a new column
 called Energy Impact,
 
@@ -1204,9 +1152,6 @@ at the Energy Impact Gauge.
 00:17:56.546 --> 00:18:00.226 A:middle
 This will give you the number
 of wakes over the last second
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.876 --> 00:18:06.246 A:middle
 and a readout of your
@@ -1263,9 +1208,6 @@ got a libdispatch timer,
 
 00:18:58.156 --> 00:18:59.746 A:middle
 a Grand Central Dispatch timer
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.156 --> 00:19:02.686 A:middle
 that is executing a routine
@@ -1331,9 +1273,6 @@ done," and a little loop there.
 00:19:58.066 --> 00:20:01.326 A:middle
 "And then once it's done, I'll
 just run the completion block."
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:01.876 --> 00:20:04.776 A:middle
 Well, first of all, this doesn't
@@ -1424,9 +1363,6 @@ on to the queue afterwards.
 And then the completion block
 will just automatically run
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:01.896 --> 00:21:04.546 A:middle
 when the work is done, no
 need to wake up and check.
@@ -1496,9 +1432,6 @@ so I can use something
 
 00:21:59.566 --> 00:22:01.256 A:middle
 like DISPATCH SOURCE TYPE VNODE
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:02.306 --> 00:22:05.276 A:middle
 for a small scale
@@ -1579,9 +1512,6 @@ there's also Bonjour,
 and network reachability
 notification, so you don't have
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:02.646 --> 00:23:04.406 A:middle
 to wake up and say,
 "Can I reach the server?
@@ -1647,9 +1577,6 @@ to dispatch semaphore wait,
 00:23:58.116 --> 00:24:00.906 A:middle
 but I'm not really
 doing anything special
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:01.206 --> 00:24:03.316 A:middle
 if dispatch semaphore
@@ -1722,9 +1649,6 @@ So this is a case where I've set
 up a recurring timer
 to do some work.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:01.946 --> 00:25:03.686 A:middle
 And it's doing some
 valuable work for me,
@@ -1793,9 +1717,6 @@ we have,
 and the more the system is
 idle in its low power state.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:03.086 --> 00:26:08.426 A:middle
 So it's really easy to specify
 a tolerance for all your timers
@@ -1849,9 +1770,6 @@ It shows me the price and change
 00:26:59.666 --> 00:27:01.776 A:middle
 of all the stocks
 I'm interested in.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:02.736 --> 00:27:04.966 A:middle
 And look, it's even
@@ -1914,9 +1832,6 @@ app, seeing exactly the stacks
 where it's executing, and
 then it will show me those
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.836 --> 00:28:02.816 A:middle
 in the call to review.
 
@@ -1970,9 +1885,6 @@ I'll close out Instruments.
 
 00:28:51.716 --> 00:29:01.086 A:middle
 If I run this again, I'll turn
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:01.086 --> 00:29:04.366 A:middle
 on show view drawing
@@ -2045,9 +1957,6 @@ of my app.
 It's not getting data
 from the network,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.636 --> 00:30:03.546 A:middle
 it's getting data
 from a local plist.
@@ -2100,9 +2009,6 @@ OK, awesome.
 00:30:54.346 --> 00:30:56.846 A:middle
 No View Drawing.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:01.116 --> 00:31:05.586 A:middle
 Great. But let's look at
 the Energy Impact Gauge.
@@ -2154,9 +2060,6 @@ and this is checking
 00:31:57.616 --> 00:31:59.816 A:middle
 to see whether the
 plist file changes.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.286 --> 00:32:03.226 A:middle
 But it's firing 10 times
@@ -2222,9 +2125,6 @@ of the time.
 I still have a few other
 things to debug, it looks like.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:02.186 --> 00:33:05.816 A:middle
 So-- but let me show
 you one more thing.
@@ -2285,9 +2185,6 @@ animation step.
 00:33:57.146 --> 00:34:05.546 A:middle
 So let me go back in Xcode.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:05.706 --> 00:34:10.966 A:middle
 OK, so this is the timer that
 is actually moving all the stock
@@ -2308,7 +2205,7 @@ happening here is
 if the animation is
 still running then--
 
-00:34:27.065 --> 00:34:30.406 A:middle
+00:34:27.066 --> 00:34:30.406 A:middle
 excuse me, if the animation is
 not running, then we don't end
 
@@ -2321,17 +2218,17 @@ So let me just move this out.
 00:34:35.516 --> 00:34:39.416 A:middle
 [ Pause ]
 
-00:34:39.916 --> 00:34:41.235 A:middle
+00:34:39.916 --> 00:34:41.236 A:middle
 I'll build and run.
 
-00:34:41.926 --> 00:34:43.025 A:middle
+00:34:41.926 --> 00:34:43.026 A:middle
 All right, let's try again.
 
 00:34:43.456 --> 00:34:45.326 A:middle
 I'll switch away
 right in the middle
 
-00:34:45.806 --> 00:34:47.565 A:middle
+00:34:45.806 --> 00:34:47.566 A:middle
 of one of those animations.
 
 00:34:48.766 --> 00:34:50.426 A:middle
@@ -2345,16 +2242,13 @@ All right.
 So, for the most part,
 my energy impact is 0.
 
-00:34:55.226 --> 00:34:57.045 A:middle
+00:34:55.226 --> 00:34:57.046 A:middle
 Great. This is exactly
 what I want.
 
 00:34:57.736 --> 00:35:01.546 A:middle
 My app is absolutely idle
 when it's not in use.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:02.936 --> 00:35:07.866 A:middle
 OK, let's go back to the slides.
@@ -2413,9 +2307,6 @@ some periodic work
 00:35:57.796 --> 00:36:00.156 A:middle
 that you know you have
 to do every so often.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.916 --> 00:36:02.426 A:middle
 And I want to show
@@ -2486,9 +2377,6 @@ to check at runtime,
 
 00:36:57.586 --> 00:36:59.826 A:middle
 you can ask NSApp is active.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.546 --> 00:37:04.276 A:middle
 But in some cases, you
@@ -2561,9 +2449,6 @@ of how you can use these
 to be a lot more
 power-efficient.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:02.416 --> 00:38:06.046 A:middle
 Another way you can improve
 the energy efficiency
@@ -2629,9 +2514,6 @@ And if it is then remove it."
 00:38:59.526 --> 00:39:02.996 A:middle
 And then in that routine I
 say, "OK, is the image stale?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:03.206 --> 00:39:04.366 A:middle
 If so, remove it.
@@ -2703,9 +2585,6 @@ Prune all the stale ones.
 00:39:56.516 --> 00:40:00.026 A:middle
 [ Pause ]
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.526 --> 00:40:05.266 A:middle
 And you may have some periodic
 work that is even lower priority
@@ -2776,9 +2655,6 @@ It's just once."
 I want this to happen in
 an hour, 3,600 seconds,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.706 --> 00:41:04.916 A:middle
 but I'm OK if it doesn't start
 for another 6 hours after that,
@@ -2846,9 +2722,6 @@ activity, and XPC in general,
 there's a session earlier this
 week, Efficient Design with XPC.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.766 --> 00:42:04.116 A:middle
 If you're interested, go ahead
 and give that a watch online.
@@ -2903,9 +2776,6 @@ about energy efficiency,
 00:42:59.126 --> 00:43:01.936 A:middle
 you can contact our Core
 S Technologies Evangelist,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:01.936 --> 00:43:02.976 A:middle
 that's Paul Denbaum.
@@ -2976,9 +2846,6 @@ energy efficient website.
 Of course there was
 the XPC session,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.216 --> 00:44:05.966 A:middle
 and I highly recommend the
 Building Efficient OS X session
@@ -3009,4 +2876,3 @@ Happy WWDC.
 
 00:44:19.596 --> 00:44:23.590 A:middle
 [Applause]
-

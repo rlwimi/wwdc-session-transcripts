@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.656 A:middle
 [ Silence ]
@@ -51,9 +50,6 @@ normal to write code
 00:00:59.986 --> 00:01:04.876 A:middle
 to design your user interface,
 and this code does just that.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:05.046 --> 00:01:07.466 A:middle
 For example, it creates
@@ -131,9 +127,6 @@ And we manipulate them
 00:01:55.206 --> 00:01:58.726 A:middle
 by resizing them or
 editing the text.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.256 --> 00:02:02.396 A:middle
 Next is the document outline.
@@ -215,9 +208,6 @@ is mainly the view and how
 to design your view, but also
 the view doesn't do much all
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:01.896 --> 00:03:02.476 A:middle
 by itself.
 
@@ -297,9 +287,6 @@ you're going to want to go find.
 Now, storyboards are made of two
 pieces, the first being scenes.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:04.916 --> 00:04:10.116 A:middle
 Now scenes are like a screen
 of your iPhone or a portion
@@ -311,7 +298,7 @@ of the user interface.
 So, these are two
 examples of scenes.
 
-00:04:15.456 --> 00:04:16.625 A:middle
+00:04:15.456 --> 00:04:16.626 A:middle
 We have two scenes here.
 
 00:04:17.166 --> 00:04:19.096 A:middle
@@ -378,9 +365,6 @@ know about already.
 00:04:59.166 --> 00:05:03.056 A:middle
 And we're going to learn how to
 make connections between scenes
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:03.246 --> 00:05:05.386 A:middle
 and between the scenes
@@ -464,9 +448,6 @@ of with,
 it's like a Master-Detail
 Application
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.476 --> 00:06:01.556 A:middle
 or a Tabbed Application.
 
@@ -541,9 +522,6 @@ out is the main interface.
 00:06:57.216 --> 00:07:00.486 A:middle
 Now you might have wondered
 in the past when you start
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.486 --> 00:07:03.826 A:middle
 up an application on your
@@ -627,9 +605,6 @@ in the catalogue.
 Now these are empty and what
 I want is my designer actually
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:03.696 --> 00:08:06.326 A:middle
 gave me a bunch of images for
 me to work with today on stage.
@@ -664,19 +639,19 @@ hide the project navigator
 for now because we're not
 going to need it for a while.
 
-00:08:34.405 --> 00:08:37.635 A:middle
+00:08:34.406 --> 00:08:37.636 A:middle
 So, what I said earlier was
 that these are live objects.
 
-00:08:37.635 --> 00:08:39.336 A:middle
+00:08:37.636 --> 00:08:39.336 A:middle
 We can drag them around
 and we can move them.
 
-00:08:40.135 --> 00:08:42.756 A:middle
+00:08:40.136 --> 00:08:42.756 A:middle
 This is a view controller,
 this is my first scene.
 
-00:08:43.015 --> 00:08:45.686 A:middle
+00:08:43.016 --> 00:08:45.686 A:middle
 And the way I know that this
 is the scene that's going
 
@@ -699,9 +674,6 @@ I'm going to go to another scene
 00:08:58.096 --> 00:09:00.696 A:middle
 and I want that scene to be able
 to go back to the first scene.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.036 --> 00:09:03.396 A:middle
 So I'm going to need something
@@ -775,9 +747,6 @@ the objects that are
 
 00:09:56.346 --> 00:09:58.716 A:middle
 in my storyboard at the moment.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.646 --> 00:10:03.856 A:middle
 Now, that application had
@@ -856,9 +825,6 @@ in the filer field.
 So we can type in "button" and
 I see I have my button here.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:02.966 --> 00:11:06.436 A:middle
 Now, I can drag my button out
 and drop it on to my canvas,
@@ -930,9 +896,6 @@ I move it around.
 These are called guides and
 they're really useful to be able
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:01.976 --> 00:12:04.166 A:middle
 to get your user
 interface elements
@@ -1000,9 +963,6 @@ down to 34 points, great.
 00:12:56.456 --> 00:13:00.076 A:middle
 And the last thing is I want
 this title to be centered
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.076 --> 00:13:01.826 A:middle
 and I want it right
@@ -1077,9 +1037,6 @@ new scene, I'm going hold
 down the con-- I'm going
 to select the timer
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:01.526 --> 00:14:04.836 A:middle
 and then hold the control
 key while I'm dragging
@@ -1151,9 +1108,6 @@ button instead of 34,
 the designer said
 this one has to be 56.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:01.436 --> 00:15:03.056 A:middle
 So again, I can hold
 the option key down.
@@ -1222,9 +1176,6 @@ This is the background color.
 00:15:58.896 --> 00:16:01.646 A:middle
 The tool tips will give you
 some related method information
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:02.026 --> 00:16:04.486 A:middle
 which can be useful if you're
@@ -1307,9 +1258,6 @@ I have Label.
 So, all of the controls in
 the Attributes Inspector,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.066 --> 00:17:03.236 A:middle
 all of the properties are
 separated by hierarchy.
@@ -1322,21 +1270,21 @@ things that are specific
 to UILabel first and then
 its super class UIView will
 
-00:17:08.846 --> 00:17:10.205 A:middle
+00:17:08.846 --> 00:17:10.206 A:middle
 come next.
 
-00:17:10.965 --> 00:17:13.945 A:middle
+00:17:10.966 --> 00:17:13.946 A:middle
 So, in this case, I want to
 change the font and I can click
 
-00:17:13.945 --> 00:17:20.256 A:middle
+00:17:13.946 --> 00:17:20.256 A:middle
 on the font picker, change to
 system bold, and I want 36.
 
-00:17:21.616 --> 00:17:22.425 A:middle
+00:17:21.616 --> 00:17:22.426 A:middle
 OK, great.
 
-00:17:23.205 --> 00:17:30.106 A:middle
+00:17:23.206 --> 00:17:30.106 A:middle
 Now, I wanted to default
 to looking like this,
 
@@ -1377,9 +1325,6 @@ pixels for it, so I could go
 00:17:57.876 --> 00:18:01.456 A:middle
 to the Size Inspector, and if
 I click there, that's going
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.456 --> 00:18:04.266 A:middle
 to show me the position of my
@@ -1457,9 +1402,6 @@ need to do is create a class
 to control this view controller,
 so, well, to control this view.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:03.356 --> 00:19:06.096 A:middle
 So right now, if I click
 on the view controller,
@@ -1517,9 +1459,6 @@ to make sure that it ends
 00:19:56.196 --> 00:19:59.416 A:middle
 up in the target for my
 project and I can create.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:01.156 --> 00:20:06.666 A:middle
 So now you'll see I have some--
@@ -1591,9 +1530,6 @@ controller instance.
 So, I can open up my Assistant
 Editor now and we're going
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:07.596 --> 00:21:09.136 A:middle
 to make a little
 RIM for our code
@@ -1653,9 +1589,6 @@ get a property that's a UILabel
 00:21:59.776 --> 00:22:00.706 A:middle
 named time label.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:01.146 --> 00:22:03.846 A:middle
 So now in my controller,
 anytime I want to access
@@ -1709,9 +1642,6 @@ to that UIImageView so that
 00:22:53.166 --> 00:22:58.936 A:middle
 when my action happens, I can
 actually change that image.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.486 --> 00:23:02.666 A:middle
 Now, there's a couple other
@@ -1785,9 +1715,6 @@ down here and this time,
 instead of an outlet, I'm going
 to make an action connection
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:03.416 --> 00:24:06.116 A:middle
 which will connect to a
 method and I'm going to call
@@ -1854,9 +1781,6 @@ so I can just type in "Helpers"
 and it'll add my code
 right in there for me.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:03.446 --> 00:25:04.956 A:middle
 It's great for like
 reusable code
@@ -1916,9 +1840,6 @@ image that shows up
 00:25:57.836 --> 00:25:59.596 A:middle
 and then we should see
 our Welcome screen.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:02.146 --> 00:26:04.426 A:middle
 So launch image or
@@ -1983,9 +1904,6 @@ when you're designing it,
 00:26:58.616 --> 00:27:00.726 A:middle
 you don't want all of your
 properties to show up.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.726 --> 00:27:03.096 A:middle
 You might have a lot of
@@ -2063,9 +1981,6 @@ with storyboards.
 
 00:27:59.996 --> 00:28:00.766 A:middle
 &gt;&gt; Thank you Kelly.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:01.396 --> 00:28:02.156 A:middle
 Hello everyone.
@@ -2163,9 +2078,6 @@ to do interactions from the map.
 I want to show you how to
 activate segues from code rather
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:02.606 --> 00:29:04.426 A:middle
 than just from user
 interface elements.
@@ -2247,9 +2159,6 @@ storyboard pretty much
 00:29:59.236 --> 00:30:00.236 A:middle
 where Kelly left it.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:01.586 --> 00:30:03.906 A:middle
 And the first thing I'm
 going to do is set up so
@@ -2325,9 +2234,6 @@ through the top navigation bar.
 00:30:57.966 --> 00:31:00.266 A:middle
 To do that, I'm going to
 select the MyViewController,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.656 --> 00:31:03.926 A:middle
 I'm going to go to its
@@ -2415,9 +2321,6 @@ notifications
 from that user interface element
 and it can also intervene
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:01.126 --> 00:32:03.636 A:middle
 at special times for the
 user interface element
@@ -2504,9 +2407,6 @@ drag a tap gesture recognizer
 00:32:59.596 --> 00:33:00.906 A:middle
 and drop it on to my map view.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.906 --> 00:33:04.236 A:middle
 What this will allow me to
 do is that when the user taps
@@ -2592,9 +2492,6 @@ In this case, I'm actually going
 to call the center
 home region method
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.686 --> 00:34:01.816 A:middle
 that I implemented earlier.
 
@@ -2627,19 +2524,19 @@ here so that they'll be ready
 00:34:20.106 --> 00:34:23.056 A:middle
 when the map asks for them.
 
-00:34:23.216 --> 00:34:26.085 A:middle
+00:34:23.216 --> 00:34:26.086 A:middle
 Next, you'll see that I
 have my action method,
 
-00:34:27.376 --> 00:34:30.005 A:middle
+00:34:27.376 --> 00:34:30.006 A:middle
 right here called
 tap and map view.
 
-00:34:30.565 --> 00:34:32.396 A:middle
+00:34:30.566 --> 00:34:32.396 A:middle
 This will be called by
 the gesture recognizer
 
-00:34:32.396 --> 00:34:33.985 A:middle
+00:34:32.396 --> 00:34:33.986 A:middle
 when the user touches
 in to the map.
 
@@ -2667,11 +2564,11 @@ correct map overlay for me
 for that touch point,
 and in this If block,
 
-00:34:49.036 --> 00:34:52.255 A:middle
+00:34:49.036 --> 00:34:52.256 A:middle
 if I actually returned a route,
 I'm going to go ahead and save
 
-00:34:52.255 --> 00:34:54.996 A:middle
+00:34:52.256 --> 00:34:54.996 A:middle
 that selected route so I
 can use it in just a moment.
 
@@ -2682,9 +2579,6 @@ to call this method
 00:34:56.976 --> 00:35:00.236 A:middle
 performSegueWithIdentifier
 runs for route.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.276 --> 00:35:03.176 A:middle
 Now, I haven't shown you
@@ -2758,9 +2652,6 @@ controller to my next segue
 00:35:58.446 --> 00:36:02.246 A:middle
 and do my standard push
 segment-- my push segue.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:02.246 --> 00:36:04.936 A:middle
 But this time, I'm going
@@ -2839,9 +2730,6 @@ view controller.
 00:36:59.176 --> 00:37:01.856 A:middle
 You see this one more method
 that's very important.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:02.076 --> 00:37:03.756 A:middle
 This method is called
@@ -2934,9 +2822,6 @@ the wrong thing just
 00:37:59.346 --> 00:38:03.256 A:middle
 because you didn't check
 the identifier of the segue.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:03.366 --> 00:38:05.236 A:middle
 As I mentioned, the
@@ -3032,9 +2917,6 @@ data you want to display in it.
 So it's going to need
 to ask some other object
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:01.776 --> 00:39:03.546 A:middle
 and in this case that would
 be the view controller,
@@ -3120,9 +3002,6 @@ do this for enough cells
 to actually show what needs
 to be displayed on screen.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:03.046 --> 00:40:04.656 A:middle
 You can certainly imagine
 having a Table View
@@ -3192,9 +3071,6 @@ route, I go to a detail view
 and here you see a detail
 of when I run that route.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:02.536 --> 00:41:04.966 A:middle
 So, what else can we do?
 
@@ -3262,9 +3138,6 @@ to add just a UIView object.
 00:41:57.866 --> 00:42:01.016 A:middle
 Now, normally, just
 adding a UIView
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:01.326 --> 00:42:03.876 A:middle
 to your user interface
@@ -3357,9 +3230,6 @@ going to want to come
 down to my view controller
 and drag a connection
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:01.256 --> 00:43:04.466 A:middle
 up to the GraphView and it's
 good I did that 'cause it shows
@@ -3433,9 +3303,6 @@ to access the storyboard
 00:43:59.986 --> 00:44:01.916 A:middle
 from which your view
 controller was created.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:02.826 --> 00:44:05.496 A:middle
 This is important because
@@ -3523,9 +3390,6 @@ and it lets us
 00:44:58.316 --> 00:45:00.406 A:middle
 to do some additional
 work such as past data
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:00.406 --> 00:45:01.536 A:middle
 between view controllers.
@@ -3618,9 +3482,6 @@ to our application.
 And when we do that, we're
 going to want some kind
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:01.366 --> 00:46:03.546 A:middle
 of a login panel for the user.
 
@@ -3711,9 +3572,6 @@ a storyboard is that that scene
 that had the large
 arrow pointing to it.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:00.316 --> 00:47:02.886 A:middle
 And so calling this method
 means you'll create one
@@ -3803,9 +3661,6 @@ files are great
 because they let
 you see a large flow
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:00.936 --> 00:48:02.826 A:middle
 of your application
 in one place.
@@ -3893,9 +3748,6 @@ a second storyboard.
 So, there's two last
 objects that I want to talk
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:01.726 --> 00:49:04.926 A:middle
 about real quick and these
 objects are called NSNib
@@ -3976,9 +3828,6 @@ when you're using table views.
 00:49:59.136 --> 00:50:01.226 A:middle
 And as you do those--
 load those prototypes,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:01.226 --> 00:50:02.726 A:middle
 it's actually loading
@@ -4071,9 +3920,6 @@ core concepts video.
 And very important
 and very much related
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:00.496 --> 00:51:02.776 A:middle
 to how interface builder
 work is auto layout.
@@ -4126,4 +3972,3 @@ to load storyboards and code.
 00:51:32.176 --> 00:51:33.826 A:middle
 With that, I'd like to
 thank you for all attending.
-

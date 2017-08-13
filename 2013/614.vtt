@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:08.416 --> 00:00:09.326 A:middle
 &gt;&gt; Good morning.
@@ -23,7 +22,7 @@ Notifications for Websites.
 You know, since iOS 3 and
 OS X Lion, you've been able
 
-00:00:28.526 --> 00:00:32.375 A:middle
+00:00:28.526 --> 00:00:32.376 A:middle
 to integrate push notifications
 into your native apps.
 
@@ -66,9 +65,6 @@ is immediately.
 00:00:58.116 --> 00:01:00.816 A:middle
 I don't have to open
 up the app every time
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.816 --> 00:01:01.836 A:middle
 that I want to see an update.
@@ -157,9 +153,6 @@ just because I know exactly
 where to go to get
 my notifications,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:01.876 --> 00:02:04.456 A:middle
 but because seeing
 the collection
@@ -235,9 +228,6 @@ those push notifications.
 00:02:57.066 --> 00:03:00.416 A:middle
 I could turn those
 notifications off completely.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.446 --> 00:03:02.056 A:middle
 If it's just that
@@ -315,9 +305,6 @@ that means real revenue.
 So, in this morning
 session, I like to go
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:02.796 --> 00:04:03.466 A:middle
 through the four things.
 
@@ -391,9 +378,6 @@ contain some JavaScript
 that actually tell Safari
 to send those notifications
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:01.036 --> 00:05:03.266 A:middle
 to the user's Notification
 Center.
@@ -465,9 +449,6 @@ the local notifications
 00:05:58.146 --> 00:05:59.736 A:middle
 that you posted actually
 disappear.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.166 --> 00:06:02.736 A:middle
 Whereas with push notifications,
@@ -547,9 +528,6 @@ shuffled together
 and your notification
 might get lost in the mix.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.276 --> 00:07:02.976 A:middle
 Contrast that with
 push notifications,
@@ -626,9 +604,6 @@ notifications for websites?
 Well, you don't even
 have to worry
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.376 --> 00:08:01.876 A:middle
 about memorizing this table
 
@@ -672,7 +647,7 @@ based on their app or website
 to their own dedicated section
 and Notification Center,
 
-00:08:36.385 --> 00:08:39.066 A:middle
+00:08:36.386 --> 00:08:39.066 A:middle
 and clicking on them opens up
 the app or the website to take--
 
@@ -703,9 +678,6 @@ about this with respect
 00:08:59.936 --> 00:09:02.576 A:middle
 to push notifications
 for website is
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:02.576 --> 00:09:04.196 A:middle
 to see how it works in apps.
@@ -777,9 +749,6 @@ that-- to connect to APNS.
 And when those notifications
 are sent, APNS knows that--
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:03.046 --> 00:10:04.516 A:middle
 from that certificate that you--
 
@@ -844,9 +813,6 @@ Push Certificate
 00:10:58.436 --> 00:11:01.796 A:middle
 and you create your digital
 signature and this signature
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:01.796 --> 00:11:03.616 A:middle
 and the push package
@@ -923,9 +889,6 @@ go to your website on Safari 7,
 on Mavericks, will see an
 invitation to subscribe
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:02.116 --> 00:12:04.856 A:middle
 to your website's
 push notification.
@@ -991,9 +954,6 @@ change their and then they want
 00:12:57.346 --> 00:13:00.106 A:middle
 to unsubscribe from
 your push notifications,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.106 --> 00:13:01.496 A:middle
 they can go Safari preferences
@@ -1080,9 +1040,6 @@ a link, so it takes them
 to a web page in Safari or the
 user's default web browser.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:05.526 --> 00:14:07.566 A:middle
 OK. So we talked about
 these two things,
@@ -1153,9 +1110,6 @@ push notifications.
 00:14:57.506 --> 00:15:00.876 A:middle
 And it is branded
 with the websites icon
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:01.146 --> 00:15:02.326 A:middle
 and the website's name.
@@ -1231,9 +1185,6 @@ about my gate change.
 00:15:58.146 --> 00:16:01.406 A:middle
 And some other things that are
 great about push notifications
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:01.406 --> 00:16:04.346 A:middle
 for websites is that they
@@ -1311,9 +1262,6 @@ for websites looks like.
 And now we're going to
 learn a little bit more
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.326 --> 00:17:01.446 A:middle
 about how to implement it.
 
@@ -1334,11 +1282,11 @@ the scenes, let's figure
 00:17:09.136 --> 00:17:10.586 A:middle
 out how to implement it.
 
-00:17:12.715 --> 00:17:14.185 A:middle
+00:17:12.716 --> 00:17:14.186 A:middle
 There are two things
 that you need to do.
 
-00:17:14.185 --> 00:17:16.486 A:middle
+00:17:14.186 --> 00:17:16.486 A:middle
 The first is actually
 to get a certificate
 
@@ -1352,10 +1300,10 @@ take you through every step
 00:17:20.356 --> 00:17:22.256 A:middle
 to get those-- that certificate.
 
-00:17:22.256 --> 00:17:23.665 A:middle
+00:17:22.256 --> 00:17:23.666 A:middle
 And the second thing is you need
 
-00:17:23.665 --> 00:17:25.955 A:middle
+00:17:23.666 --> 00:17:25.956 A:middle
 to add notification
 support to your server.
 
@@ -1408,9 +1356,6 @@ Safari communicates
 00:17:59.816 --> 00:18:02.986 A:middle
 with your web server, and the
 third is how your web server
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:02.986 --> 00:18:05.846 A:middle
 communicates with APNS to
@@ -1496,9 +1441,6 @@ your server won't see it.
 The second is how your--
 how the code actually knows
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.866 --> 00:19:03.466 A:middle
 about your website or can
 identify your website.
@@ -1578,9 +1520,6 @@ to export that certificate
 00:19:59.446 --> 00:20:02.906 A:middle
 to a P12 file, and that--
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:02.906 --> 00:20:06.286 A:middle
 it's that representation of your
 certificate that you will use
@@ -1657,9 +1596,6 @@ three different values.
 
 00:20:58.586 --> 00:21:00.606 A:middle
 The first is default which means
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.606 --> 00:21:03.076 A:middle
 that the user has never
@@ -1750,9 +1686,6 @@ it's an asynchronous call
 00:21:59.356 --> 00:22:01.236 A:middle
 and you're going to call--
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:01.406 --> 00:22:03.226 A:middle
 you're going to pass
 in four parameters.
@@ -1832,9 +1765,6 @@ receive or even the language
 in which they want to
 receive those notifications.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.856 --> 00:23:04.156 A:middle
 Finally, you're going to
 pass a callback function
@@ -1911,9 +1841,6 @@ to have to implement in order--
 00:23:59.166 --> 00:24:01.746 A:middle
 that you're going to have to
 implement in your web service.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:02.426 --> 00:24:07.396 A:middle
 So the first is when Safari
@@ -1995,9 +1922,6 @@ format of an HTTP request.
 00:24:58.726 --> 00:25:01.016 A:middle
 And this function contains
 two different parameters.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:01.016 --> 00:25:04.966 A:middle
 The first is the websitePushID
@@ -2084,9 +2008,6 @@ more than a zipped archive
 of a whole bunch
 of files formatted
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.376 --> 00:26:01.846 A:middle
 and structured in
 a specific way.
@@ -2158,9 +2079,6 @@ called allowedDomains
 00:26:57.956 --> 00:27:01.126 A:middle
 and it's just a list of
 domains that are allowed
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:01.566 --> 00:27:06.006 A:middle
 to request permission from
@@ -2244,9 +2162,6 @@ an authenticationToken
 and it's similar in its
 purpose to userInfo.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:02.846 --> 00:28:06.046 A:middle
 Remember that with userInfo,
 we were saying it's just a way
@@ -2320,9 +2235,6 @@ a way for you to be able
 00:28:57.246 --> 00:29:00.716 A:middle
 to reduce the amount of
 space that your URL needs
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.716 --> 00:29:02.296 A:middle
 in the notification
@@ -2402,9 +2314,6 @@ match what you have here, right?
 So that's how we-- that's the
 reason why we have this file.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:02.166 --> 00:30:04.976 A:middle
 And then finally,
 you're going to sign
@@ -2473,9 +2382,6 @@ this is what it looks like,
 00:30:58.606 --> 00:31:02.946 A:middle
 and you'll notice that
 the body is just formatted
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:02.996 --> 00:31:04.976 A:middle
 like a JSON object
@@ -2546,9 +2452,6 @@ of information.
 00:31:59.776 --> 00:32:01.956 A:middle
 The first is the
 deviceToken itself
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:01.956 --> 00:32:04.276 A:middle
 and that's what you're going to
@@ -2622,9 +2525,6 @@ experienced implementing push
 notifications for Native
 Apps, we'll be happy to learn
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:02.416 --> 00:33:04.626 A:middle
 that it works exactly the
 same way for websites.
@@ -2697,9 +2597,6 @@ because we don't want you
 to necessarily include the
 entire URL 'cause it might be
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.596 --> 00:34:03.836 A:middle
 too long and you
 have a limited size
@@ -2711,22 +2608,22 @@ in your notification payload.
 In fact, that payload
 is limited to 256 bytes.
 
-00:34:09.376 --> 00:34:10.585 A:middle
+00:34:09.376 --> 00:34:10.586 A:middle
 So be sure to take advantage
 
-00:34:10.585 --> 00:34:13.656 A:middle
+00:34:10.586 --> 00:34:13.656 A:middle
 of that URL format string
 in the push package.
 
-00:34:14.926 --> 00:34:17.065 A:middle
+00:34:14.926 --> 00:34:17.066 A:middle
 And when you send
 that notification,
 
-00:34:17.065 --> 00:34:18.235 A:middle
+00:34:17.066 --> 00:34:18.236 A:middle
 make sure that you
 always send it
 
-00:34:18.315 --> 00:34:21.596 A:middle
+00:34:18.316 --> 00:34:21.596 A:middle
 to the APNS's Production
 Environment.
 
@@ -2749,11 +2646,11 @@ how to construct everything.
 So, in the notification
 itself, the icons come
 
-00:34:38.186 --> 00:34:41.835 A:middle
+00:34:38.186 --> 00:34:41.836 A:middle
 from your push package
 and the title
 
-00:34:41.835 --> 00:34:43.196 A:middle
+00:34:41.836 --> 00:34:43.196 A:middle
 and body come from the payload.
 
 00:34:43.196 --> 00:34:45.946 A:middle
@@ -2767,16 +2664,13 @@ Action button title override
 00:34:50.976 --> 00:34:52.166 A:middle
 that button.
 
-00:34:53.295 --> 00:34:58.436 A:middle
+00:34:53.296 --> 00:34:58.436 A:middle
 The notification in Notification
 Center will appear as such.
 
 00:34:58.526 --> 00:35:01.306 A:middle
 The header gets its
 icon and website name
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.306 --> 00:35:05.306 A:middle
 from your push package and the
@@ -2850,9 +2744,6 @@ in generating your push package.
 So when I want to sign up
 for push notifications,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:03.006 --> 00:36:08.476 A:middle
 I will click the
 Subscribe button and some--
@@ -2909,9 +2800,6 @@ that up and see what's in there.
 00:36:57.876 --> 00:37:02.486 A:middle
 And as you can see, we have
 allowed domains it's just listed
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:02.486 --> 00:37:04.146 A:middle
 as bayairline.com.
@@ -2974,9 +2862,6 @@ up for push notifications,
 we sent the device token to
 the Bay Airlines web server
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:03.096 --> 00:38:09.256 A:middle
 and in the HTTP Authorize Header
 we have the userInfo specified
@@ -3031,9 +2916,6 @@ up in Notification Center right
 00:38:57.406 --> 00:39:00.916 A:middle
 over here with-- and then
 we can either just close the
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:00.916 --> 00:39:02.436 A:middle
 notification or see more.
@@ -3096,9 +2978,6 @@ server via that same endpoint.
 00:39:57.706 --> 00:40:03.026 A:middle
 So that is what your web
 server will see when users sign
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:03.026 --> 00:40:06.246 A:middle
 up for Push Notifications
@@ -3183,9 +3062,6 @@ where the URL format string
 in the push package was
 something very generic
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:01.496 --> 00:41:04.826 A:middle
 and we put the entire URL
 inside the notification payload.
@@ -3262,9 +3138,6 @@ wasting your precious resources
 delivering push notifications
 that will never get displayed.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.376 --> 00:42:07.576 A:middle
 Remember to take advantage of
 the userInfo in the JavaScript
@@ -3334,9 +3207,6 @@ feature on Safari 7 on Mavericks
 00:42:59.726 --> 00:43:02.246 A:middle
 so you want to check for
 API ability as an example
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:02.246 --> 00:43:03.036 A:middle
 of what that looks like.
@@ -3409,9 +3279,6 @@ and Push Notifications
 00:43:59.836 --> 00:44:03.316 A:middle
 for Developers page which
 contains links to lot
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:03.316 --> 00:44:05.876 A:middle
 of different references
@@ -3497,9 +3364,6 @@ for that authenticationToken.
 So just in summary, I'm really
 please to announce that Safari 7
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:00.516 --> 00:45:02.716 A:middle
 on Mavericks now
 allows your website
@@ -3583,7 +3447,3 @@ and I'll see you at the lab.
 
 00:45:58.716 --> 00:46:03.560 A:middle
 [ Applause ]
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
