@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:26.516 --> 00:00:33.406 A:middle
 [Applause]
@@ -35,14 +34,6 @@ today and into the future.
 00:00:54.766 --> 00:00:59.736 A:middle
 So I am going to do this by
 walking across a collection
-
-00:00:59.826 --> 00:01:02.686 A:middle
-of topics that will
-be of strong interest
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.826 --> 00:01:02.686 A:middle
 of topics that will
@@ -122,14 +113,6 @@ That way everybody thinks
 that your app looks
 polished and it's awesome.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.246 --> 00:02:01.176 A:middle
-that your app looks
-polished and it's awesome.
-
 00:02:01.966 --> 00:02:05.436 A:middle
 And finally, you want to
 write your code in such a way
@@ -198,14 +181,6 @@ That in itself is really simple.
 00:02:54.816 --> 00:02:56.336 A:middle
 I am sure you all
 already know how to do it.
-
-00:02:57.866 --> 00:03:00.596 A:middle
-Take all the long-running work
-you might have to do to set
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.866 --> 00:03:00.596 A:middle
 Take all the long-running work
@@ -299,10 +274,6 @@ what we are really getting
 at for a best practice
 isn't just about asynchrony.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.046 --> 00:04:03.016 A:middle
 It's actually about taking
 long-running work and putting
@@ -325,11 +296,11 @@ done in the background.
 So if we revisit Application
 Did Finish Launching
 
-00:04:13.206 --> 00:04:16.315 A:middle
+00:04:13.206 --> 00:04:16.316 A:middle
 and we have this sort
 of very simple approach
 
-00:04:16.315 --> 00:04:20.396 A:middle
+00:04:16.316 --> 00:04:20.396 A:middle
 to a naive Application Did
 Finish Launching, you know,
 
@@ -384,14 +355,6 @@ continues to happen,
 00:04:55.986 --> 00:04:58.366 A:middle
 and your application seems
 responsive all the time.
-
-00:04:59.266 --> 00:05:02.686 A:middle
-So this technique, putting
-the work on background queues,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.266 --> 00:05:02.686 A:middle
 So this technique, putting
@@ -482,14 +445,6 @@ system processes.
 A good chunk is going to be
 taken up by the foreground app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.706 --> 00:06:02.686 A:middle
-A good chunk is going to be
-taken up by the foreground app.
-
 00:06:02.686 --> 00:06:05.836 A:middle
 And then a bunch of it
 is going to be taken
@@ -570,14 +525,6 @@ So you don't want to be that.
 00:06:57.026 --> 00:06:59.726 A:middle
 So that's being superresponsive
 and thinking
-
-00:06:59.726 --> 00:07:01.826 A:middle
-about performance throughout
-the life cycle of your app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.726 --> 00:07:01.826 A:middle
 about performance throughout
@@ -666,14 +613,6 @@ have had to go implement it
 or not have a feel that fit
 with the rest of the system.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.636 --> 00:08:00.976 A:middle
-or not have a feel that fit
-with the rest of the system.
-
 00:08:01.306 --> 00:08:05.316 A:middle
 So that's what you want because
 you really want to be able
@@ -716,7 +655,7 @@ deal with versioning.
 So one of the biggest
 questions we get is:
 
-00:08:30.636 --> 00:08:33.775 A:middle
+00:08:30.636 --> 00:08:33.776 A:middle
 How many versions should
 apps deploy against?
 
@@ -724,7 +663,7 @@ apps deploy against?
 And our advice to
 you is going to be,
 
-00:08:36.525 --> 00:08:39.966 A:middle
+00:08:36.526 --> 00:08:39.966 A:middle
 target the two most
 major releases of iOS.
 
@@ -750,14 +689,6 @@ several iOS releases
 
 00:08:56.566 --> 00:08:57.636 A:middle
 and having to deal with that.
-
-00:08:58.876 --> 00:09:02.186 A:middle
-Now, in this process,
-you might find yourself
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.876 --> 00:09:02.186 A:middle
 Now, in this process,
@@ -836,14 +767,6 @@ code into a block
 that the compiler can
 understand and reason about
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.636 --> 00:10:02.246 A:middle
-that the compiler can
-understand and reason about
-
 00:10:02.246 --> 00:10:04.436 A:middle
 and let you know if you
 are doing anything wrong
@@ -914,14 +837,6 @@ four new dimensions
 that had never been
 seen on iOS devices
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:56.176 --> 00:11:00.166 A:middle
-that had never been
-seen on iOS devices
-
 00:11:00.166 --> 00:11:01.326 A:middle
 for your apps to lay out in.
 
@@ -986,14 +901,6 @@ described as 260 points wide
 00:11:54.866 --> 00:11:57.856 A:middle
 with a 30-point margin
 from the left.
-
-00:11:58.106 --> 00:12:00.836 A:middle
-We don't want to do that
-because we want to think
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.106 --> 00:12:00.836 A:middle
 We don't want to do that
@@ -1081,14 +988,6 @@ things in terms of size.
 And so size classes are here
 to help us think about things
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.196 --> 00:13:02.986 A:middle
-And so size classes are here
-to help us think about things
-
 00:13:02.986 --> 00:13:05.476 A:middle
 in terms of size, do
 proportional layout,
@@ -1164,14 +1063,6 @@ word, landscape mode.
 And size classes are
 the API that's there.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.976 --> 00:14:05.996 A:middle
-And size classes are
-the API that's there.
-
 00:14:06.276 --> 00:14:08.756 A:middle
 For Apple to communicate
 to your app
@@ -1238,14 +1129,6 @@ Reasons are this is just --
 
 00:14:55.266 --> 00:14:55.536 A:middle
 Thank you.
-
-00:14:55.536 --> 00:15:01.516 A:middle
-I am really, really glad that
-somebody is happy about that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:55.536 --> 00:15:01.516 A:middle
 I am really, really glad that
@@ -1336,14 +1219,6 @@ imagine that I wrote some code
 that creates an image view, and
 I keep track of it with a tag
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.206 --> 00:16:01.056 A:middle
-that creates an image view, and
-I keep track of it with a tag
-
 00:16:01.056 --> 00:16:02.936 A:middle
 of 1,000 because I'm sure
 
@@ -1415,18 +1290,10 @@ complete, and so you are left
 in the position of trying to
 make a guess about how long
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.256 --> 00:17:01.116 A:middle
-in the position of trying to
-make a guess about how long
-
 00:17:01.116 --> 00:17:02.516 A:middle
 that animation is going to take
 
-00:17:02.516 --> 00:17:04.685 A:middle
+00:17:02.516 --> 00:17:04.686 A:middle
 and perhaps implementing
 an NSTimer
 
@@ -1442,10 +1309,10 @@ to do that because
 that introduces indeterminism
 into your app,
 
-00:17:12.086 --> 00:17:14.195 A:middle
+00:17:12.086 --> 00:17:14.196 A:middle
 especially with the possibility
 
-00:17:14.195 --> 00:17:16.935 A:middle
+00:17:14.196 --> 00:17:16.936 A:middle
 that animation timings can
 change from release to release.
 
@@ -1456,7 +1323,7 @@ opposite of future-proof
 00:17:19.876 --> 00:17:21.766 A:middle
 if that's what you are doing.
 
-00:17:21.766 --> 00:17:25.185 A:middle
+00:17:21.766 --> 00:17:25.186 A:middle
 Instead, leverage
 UIViewTransitionCoordinator,
 
@@ -1500,14 +1367,6 @@ her hand back and forth,
 00:17:56.386 --> 00:17:59.596 A:middle
 changing the speed,
 direction, and even decide not
-
-00:17:59.626 --> 00:18:01.836 A:middle
-to pop the view controller
-and cancel it altogether.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.626 --> 00:18:01.836 A:middle
 to pop the view controller
@@ -1575,14 +1434,6 @@ the lifetime of the view.
 00:18:52.066 --> 00:18:56.366 A:middle
 What that does when you identify
 what changes is you'll be able
-
-00:18:56.366 --> 00:19:01.626 A:middle
-to make targeted changes
-and not change the things
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:56.366 --> 00:19:01.626 A:middle
 to make targeted changes
@@ -1668,13 +1519,6 @@ Remove All Constraints
 00:19:58.436 --> 00:20:00.206 A:middle
 on a view as much as possible.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.436 --> 00:20:00.206 A:middle
-on a view as much as possible.
-
 00:20:01.436 --> 00:20:05.456 A:middle
 So the way that you sort of
 tie this together and are able
@@ -1752,14 +1596,6 @@ knows what didn't change
 and is able to optimize
 for us around that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.296 --> 00:21:02.136 A:middle
-and is able to optimize
-for us around that.
-
 00:21:03.916 --> 00:21:07.456 A:middle
 So the next set of best
 practices I have for you
@@ -1825,14 +1661,6 @@ be exactly the same
 00:21:55.126 --> 00:21:58.236 A:middle
 because they're just implied
 by what's already there.
-
-00:21:58.946 --> 00:22:01.246 A:middle
-And when you have that, it
-causes the layout engine
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.946 --> 00:22:01.246 A:middle
 And when you have that, it
@@ -1905,14 +1733,6 @@ that bottom view left margin.
 00:22:56.186 --> 00:22:58.856 A:middle
 Since I already knew what
 the top view's margin was
-
-00:22:59.386 --> 00:23:02.496 A:middle
-and I also knew that the
-left edges of the bottom
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.386 --> 00:23:02.496 A:middle
 and I also knew that the
@@ -1992,14 +1812,6 @@ in terms of those hard values.
 But those hard values cause
 us to be rigid and unchanging,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.706 --> 00:24:02.276 A:middle
-But those hard values cause
-us to be rigid and unchanging,
-
 00:24:02.476 --> 00:24:05.606 A:middle
 which kind of defeats the
 entire purpose of Auto Layout
@@ -2069,14 +1881,6 @@ pretty obvious to you
 00:24:56.216 --> 00:24:58.616 A:middle
 that there's no bottom
 margin, and there needs to be.
-
-00:24:59.046 --> 00:25:03.046 A:middle
-And there needs to be because if
-it's ambiguous, it's undefined,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.046 --> 00:25:03.046 A:middle
 And there needs to be because if
@@ -2159,14 +1963,6 @@ there's ambiguity in your view.
 Moreover, you call this method
 on a UIWindow, it will tell you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:57.726 --> 00:26:02.186 A:middle
-Moreover, you call this method
-on a UIWindow, it will tell you
-
 00:26:02.216 --> 00:26:05.956 A:middle
 if any view in the window
 tree has ambiguous layout.
@@ -2221,14 +2017,6 @@ report, and then you have a test
 00:26:56.306 --> 00:26:58.716 A:middle
 which both lets you know
 when there's ambiguity
-
-00:26:58.716 --> 00:27:01.076 A:middle
-and provides debugging
-information
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.716 --> 00:27:01.076 A:middle
 and provides debugging
@@ -2309,14 +2097,6 @@ oh, each cell needs
 to be a different height based
 on the content that's in it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.026 --> 00:28:00.406 A:middle
-to be a different height based
-on the content that's in it.
-
 00:28:00.406 --> 00:28:02.936 A:middle
 I can't just have one
 height for every cell.
@@ -2385,14 +2165,6 @@ So any ambiguity in there,
 00:28:54.216 --> 00:28:56.336 A:middle
 if you haven't fully
 specified your constraints,
-
-00:28:56.336 --> 00:29:00.766 A:middle
-comes out as the height
-isn't what you want it to be.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:56.336 --> 00:29:00.766 A:middle
 comes out as the height
@@ -2479,10 +2251,6 @@ view height should be equal
 to the height of the label
 plus my top and bottom margins.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.376 --> 00:30:03.016 A:middle
 In this case, that's
 repeating work.
@@ -2547,14 +2315,6 @@ then call Reload Data.
 00:30:56.536 --> 00:30:59.336 A:middle
 And if you do that, it's
 going to look like this,
-
-00:30:59.636 --> 00:31:02.556 A:middle
-where it snaps to the new
-position of the table,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.636 --> 00:31:02.556 A:middle
 where it snaps to the new
@@ -2625,14 +2385,6 @@ Then you update your model.
 
 00:31:56.836 --> 00:31:57.436 A:middle
 That's easy.
-
-00:31:58.086 --> 00:32:02.856 A:middle
-Third step is if you're changing
-the height of an onscreen cell,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.086 --> 00:32:02.856 A:middle
 Third step is if you're changing
@@ -2716,14 +2468,6 @@ collection view layouts
 that invalidate themselves and
 are very fast as they do it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:56.986 --> 00:33:00.606 A:middle
-that invalidate themselves and
-are very fast as they do it.
-
 00:33:01.156 --> 00:33:03.196 A:middle
 So I know this comes up a lot,
 
@@ -2795,26 +2539,18 @@ find in UICollectionView.
 So the steps to this
 are just a few.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.646 --> 00:34:02.816 A:middle
-So the steps to this
-are just a few.
-
 00:34:03.306 --> 00:34:04.886 A:middle
 Number one is the most obvious.
 
-00:34:05.236 --> 00:34:08.775 A:middle
+00:34:05.236 --> 00:34:08.776 A:middle
 The Photos layout is invalidated
 on every bounds change.
 
-00:34:08.775 --> 00:34:10.806 A:middle
+00:34:08.776 --> 00:34:10.806 A:middle
 So every frame as the
 user is scrolling,
 
-00:34:11.545 --> 00:34:13.255 A:middle
+00:34:11.546 --> 00:34:13.256 A:middle
 the Photos layout
 gets invalidated.
 
@@ -2828,7 +2564,7 @@ That's the easy part.
 The question is, how
 do we make that fast?
 
-00:34:17.545 --> 00:34:22.516 A:middle
+00:34:17.546 --> 00:34:22.516 A:middle
 And the answer is, the Photos
 layout builds a targeted
 
@@ -2848,7 +2584,7 @@ that the only view
 that is being invalidated
 is the header view
 
-00:34:36.235 --> 00:34:37.416 A:middle
+00:34:36.236 --> 00:34:37.416 A:middle
 and none of the cells are.
 
 00:34:37.876 --> 00:34:40.416 A:middle
@@ -2866,21 +2602,13 @@ repeated as necessary
 00:34:46.136 --> 00:34:48.076 A:middle
 at frame rate scrolling as fast,
 
-00:34:48.525 --> 00:34:52.045 A:middle
+00:34:48.526 --> 00:34:52.046 A:middle
 even though the layout is being
 invalidated on every frame.
 
-00:34:52.545 --> 00:34:55.966 A:middle
+00:34:52.546 --> 00:34:55.966 A:middle
 So you can use that same
 technique in any layout if,
-
-00:34:55.996 --> 00:35:00.056 A:middle
-in general, if you have
-performance concerns using a
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:55.996 --> 00:35:00.056 A:middle
 in general, if you have
@@ -2966,14 +2694,6 @@ your future apps.
 There's a lot of best practices
 here that you can use this
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:57.616 --> 00:36:01.336 A:middle
-There's a lot of best practices
-here that you can use this
-
 00:36:01.416 --> 00:36:05.276 A:middle
 as a launching board to then
 go into the documentation,
@@ -3003,4 +2723,3 @@ of your afternoon possible.
 
 00:36:21.516 --> 00:36:24.500 A:middle
 [Applause]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:25.046 --> 00:00:25.516 A:middle
 &gt;&gt; CAROL TENG: Hello.
@@ -40,13 +39,6 @@ business around their apps.
 00:00:55.996 --> 00:00:58.566 A:middle
 And that's what we are here
 to talk to you about today.
-
-00:00:59.556 --> 00:01:00.966 A:middle
-My name is Carol Teng.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.556 --> 00:01:00.966 A:middle
 My name is Carol Teng.
@@ -118,14 +110,6 @@ As you heard yesterday,
 there are over 1.5 million
 apps in the App Store.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.366 --> 00:02:03.216 A:middle
-there are over 1.5 million
-apps in the App Store.
-
 00:02:03.766 --> 00:02:07.236 A:middle
 And an average of 119
 apps on a user's device.
@@ -181,14 +165,6 @@ can continuously optimize
 
 00:02:56.036 --> 00:02:57.196 A:middle
 and improve the outcomes.
-
-00:02:57.796 --> 00:03:03.406 A:middle
-We will demonstrate how to
-use tools and best practices
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.796 --> 00:03:03.406 A:middle
 We will demonstrate how to
@@ -252,14 +228,6 @@ then I'll be developing the app,
 00:03:54.576 --> 00:03:57.616 A:middle
 launching it in the App Store,
 and growing my user base.
-
-00:03:58.226 --> 00:04:02.286 A:middle
-I'm currently in the
-design phase of LiteRight,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:58.226 --> 00:04:02.286 A:middle
 I'm currently in the
@@ -331,14 +299,6 @@ about premium, high quality ads,
 I'm going to make
 iAd my first call.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.806 --> 00:05:00.896 A:middle
-I'm going to make
-iAd my first call.
-
 00:05:00.896 --> 00:05:06.966 A:middle
 Because I've spent a lot of
 time building a beautiful app,
@@ -390,14 +350,6 @@ a globally available app
 00:05:52.556 --> 00:05:56.766 A:middle
 which means my users will
 be everywhere and so is iAd,
-
-00:05:57.696 --> 00:06:01.916 A:middle
-with the ability to reach iOS
-users in over 100 countries.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:57.696 --> 00:06:01.916 A:middle
 with the ability to reach iOS
@@ -464,14 +416,6 @@ to help me along the way.
 And here are all the ad
 formats that iAd offers.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:56.276 --> 00:07:01.076 A:middle
-And here are all the ad
-formats that iAd offers.
-
 00:07:01.806 --> 00:07:05.526 A:middle
 I can integrate one or more
 of these ad formats depending
@@ -523,14 +467,6 @@ how we integrate iAd
 
 00:07:56.146 --> 00:07:58.186 A:middle
 into my app, LiteRight.
-
-00:07:59.546 --> 00:08:02.656 A:middle
-For LiteRight, I'm going
-to include banner ads
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:59.546 --> 00:08:02.656 A:middle
 For LiteRight, I'm going
@@ -602,14 +538,6 @@ did finish launching
 with options' callback, I need
 to let the iAd server know
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:59.886 --> 00:09:04.686 A:middle
-with options' callback, I need
-to let the iAd server know
-
 00:09:04.686 --> 00:09:05.546 A:middle
 that my app is going
 
@@ -669,14 +597,6 @@ and interstitial,
 00:09:52.346 --> 00:09:55.226 A:middle
 but integrating the other ad
 formats is just as simple,
-
-00:09:56.386 --> 00:10:00.466 A:middle
-and iAd has tools to let me test
-my integration so I can ensure
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:56.386 --> 00:10:00.466 A:middle
 and iAd has tools to let me test
@@ -752,14 +672,6 @@ that is coming soon.
 Because I've made the investment
 to integrate iAd early
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.016 --> 00:11:02.456 A:middle
-Because I've made the investment
-to integrate iAd early
-
 00:11:02.456 --> 00:11:06.166 A:middle
 on in my dev cycle, it
 is already paying off.
@@ -824,14 +736,6 @@ to expand my user base.
 As more people discover,
 download, and use my app,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.166 --> 00:12:00.316 A:middle
-As more people discover,
-download, and use my app,
-
 00:12:01.286 --> 00:12:04.376 A:middle
 that's more people engaging
 with the ads in my app,
@@ -888,14 +792,6 @@ promote LiteRight and generate
 
 00:12:55.336 --> 00:12:57.126 A:middle
 that awareness for my app.
-
-00:12:58.176 --> 00:13:00.776 A:middle
-iAd has tools to help
-me promote my app
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.176 --> 00:13:00.776 A:middle
 iAd has tools to help
@@ -969,14 +865,6 @@ hundred audience segments,
 but to start I'll group my
 users into two custom segments.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.266 --> 00:14:01.076 A:middle
-but to start I'll group my
-users into two custom segments.
-
 00:14:02.466 --> 00:14:05.136 A:middle
 Dormant users, people
 who have downloaded
@@ -1034,14 +922,6 @@ purchasers audience segment.
 00:14:50.886 --> 00:14:56.126 A:middle
 Then I need to get a
 reference to the shared client.
-
-00:14:57.436 --> 00:15:01.226 A:middle
-And next I'll need to tell
-iAd which segment to add users
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:57.436 --> 00:15:01.226 A:middle
 And next I'll need to tell
@@ -1111,10 +991,6 @@ for LiteRight.
 And for that I'll
 use iAd WorkBench,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.936 --> 00:16:04.536 A:middle
 iAd's self-service
 campaign management tool.
@@ -1172,10 +1048,6 @@ Shashank for that demo.
 00:16:55.516 --> 00:16:59.696 A:middle
 [Applause]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.196 --> 00:17:01.006 A:middle
 Thank you.
 
@@ -1186,7 +1058,7 @@ Thanks, Carol.
 00:17:02.986 --> 00:17:05.136 A:middle
 Good morning, everybody.
 
-00:17:05.136 --> 00:17:07.705 A:middle
+00:17:05.136 --> 00:17:07.706 A:middle
 My name is Shashank Phadke,
 and I'm with the iAd team.
 
@@ -1233,13 +1105,6 @@ page using the dropdown
 
 00:17:55.786 --> 00:17:57.516 A:middle
 on the right side of the page.
-
-00:17:58.896 --> 00:18:01.906 A:middle
-Here on the 'my audiences' page,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.896 --> 00:18:01.906 A:middle
 Here on the 'my audiences' page,
@@ -1302,14 +1167,6 @@ my starter pack.
 Now let's see how we
 can use this segment
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.576 --> 00:19:01.046 A:middle
-Now let's see how we
-can use this segment
-
 00:19:01.576 --> 00:19:07.486 A:middle
 to create a retargeting campaign
 for my new platinum filter pack.
@@ -1359,10 +1216,6 @@ where I already support it.
 
 00:19:57.416 --> 00:19:59.376 A:middle
 Next I choose my bid type.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.906 --> 00:20:04.726 A:middle
 CPC, which is cost
@@ -1414,14 +1267,6 @@ to specifically target the users
 00:20:56.016 --> 00:20:58.456 A:middle
 who have already
 downloaded my starter pack.
-
-00:20:59.746 --> 00:21:04.476 A:middle
-In this case I will select my
-retargeting option to be 'yes.'
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.746 --> 00:21:04.476 A:middle
 In this case I will select my
@@ -1479,14 +1324,6 @@ category of the apps,
 
 00:21:54.956 --> 00:21:59.096 A:middle
 I want the ad to run on.
-
-00:21:59.096 --> 00:22:01.886 A:middle
-Or I could schedule my ad
-to run on a particular time
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.096 --> 00:22:01.886 A:middle
 Or I could schedule my ad
@@ -1559,14 +1396,6 @@ marketplace.
 So I know for sure I
 won't be paying any more
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:57.536 --> 00:23:00.276 A:middle
-So I know for sure I
-won't be paying any more
-
 00:23:00.456 --> 00:23:01.586 A:middle
 than the 50 cents.
 
@@ -1621,14 +1450,6 @@ I choose my language.
 And for the creative, I can
 use a standard set of templates
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:56.056 --> 00:24:03.256 A:middle
-And for the creative, I can
-use a standard set of templates
-
 00:24:03.256 --> 00:24:07.296 A:middle
 that iAd WorkBench provides
 me with various color schemes.
@@ -1672,10 +1493,6 @@ for the user.
 00:24:56.096 --> 00:24:59.506 A:middle
 I am going to choose
 ad deep link.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.216 --> 00:25:02.756 A:middle
 Because in this case
@@ -1730,14 +1547,6 @@ banner, I can take them directly
 00:25:52.756 --> 00:25:56.906 A:middle
 to the iTunes App Store
 page to re-download the app.
-
-00:25:57.806 --> 00:26:00.076 A:middle
-Or if I want to take
-them to another website
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.806 --> 00:26:00.076 A:middle
 Or if I want to take
@@ -1804,14 +1613,6 @@ associated with the line.
 I can also enter my
 payment information.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.506 --> 00:27:02.136 A:middle
-I can also enter my
-payment information.
-
 00:27:02.766 --> 00:27:05.216 A:middle
 Since iAd WorkBench, when
 I signed up for that,
@@ -1871,14 +1672,6 @@ section of the campaign card
 to go to the analytics, to
 the analytics dashboard page.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:55.736 --> 00:28:08.866 A:middle
-to go to the analytics, to
-the analytics dashboard page.
-
 00:28:10.156 --> 00:28:15.186 A:middle
 Here you can see for the
 campaign, various metrics.
@@ -1924,13 +1717,6 @@ with other metrics.
 00:28:55.966 --> 00:28:59.276 A:middle
 For example, impressions
 over time.
-
-00:28:59.996 --> 00:29:03.236 A:middle
-Or taps over time.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.996 --> 00:29:03.236 A:middle
 Or taps over time.
@@ -1987,14 +1773,6 @@ can see how well my campaigns
 
 00:29:56.506 --> 00:29:56.996 A:middle
 are doing.
-
-00:29:58.346 --> 00:30:01.036 A:middle
-Not only can I do this
-inside of iAd WorkBench,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.346 --> 00:30:01.036 A:middle
 Not only can I do this
@@ -2061,14 +1839,6 @@ So that's it.
 00:30:54.676 --> 00:30:57.886 A:middle
 Over this imaginary
 journey of developing
-
-00:30:57.886 --> 00:31:01.176 A:middle
-and launching the LiteRight
-app, I hope you've seen how
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.886 --> 00:31:01.176 A:middle
 and launching the LiteRight
@@ -2141,13 +1911,6 @@ and in-app purchases.
 00:31:59.756 --> 00:32:02.826 A:middle
 And how to continuously monitor
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.756 --> 00:32:02.826 A:middle
-And how to continuously monitor
-
 00:32:02.826 --> 00:32:06.156 A:middle
 and measure campaign
 effectiveness using iAd
@@ -2213,14 +1976,6 @@ and iAd Developer Forums,
 or contact our Technology
 Evangelist Team.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.546 --> 00:33:01.786 A:middle
-or contact our Technology
-Evangelist Team.
-
 00:33:03.376 --> 00:33:06.446 A:middle
 There's also a related iTunes
 Connect session tomorrow.
@@ -2231,4 +1986,3 @@ rest of the conference.
 
 00:33:09.516 --> 00:33:12.500 A:middle
 [Applause]
-

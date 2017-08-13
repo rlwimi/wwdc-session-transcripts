@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:26.516 --> 00:00:31.676 A:middle
 [Applause]
@@ -42,14 +41,6 @@ the tasks for you guys,
 00:00:55.306 --> 00:00:57.056 A:middle
 and we think we have
 good stuff for you today.
-
-00:00:58.216 --> 00:01:00.876 A:middle
-Some of you may be
-completely new
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.216 --> 00:01:00.876 A:middle
 Some of you may be
@@ -137,14 +128,6 @@ when that event does happen.
 The first of these
 is region monitoring.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.386 --> 00:02:01.736 A:middle
-The first of these
-is region monitoring.
-
 00:02:01.736 --> 00:02:03.846 A:middle
 This allows you to
 specify a geographic region
@@ -210,14 +193,6 @@ call out indoor location.
 00:02:55.676 --> 00:02:57.536 A:middle
 Indoor location is
 more accurate.
-
-00:02:58.106 --> 00:03:00.026 A:middle
-It's faster at detecting
-floor changes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.106 --> 00:03:00.026 A:middle
 It's faster at detecting
@@ -304,14 +279,6 @@ authorization, how that changed
 in iOS 8 and how it applies
 now in the Apple Watch era.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.356 --> 00:04:02.146 A:middle
-in iOS 8 and how it applies
-now in the Apple Watch era.
-
 00:04:03.006 --> 00:04:06.066 A:middle
 Finally we will dive into
 detail on best practices
@@ -331,7 +298,7 @@ location updates.
 Well, we decided
 not to have any.
 
-00:04:16.375 --> 00:04:18.026 A:middle
+00:04:16.376 --> 00:04:18.026 A:middle
 I was just kidding.
 
 00:04:18.386 --> 00:04:20.956 A:middle
@@ -379,13 +346,6 @@ to receive location updates.
 00:04:53.686 --> 00:04:59.476 A:middle
 What it does, it sets a
 value key in your info plist,
-
-00:04:59.476 --> 00:05:02.256 A:middle
-statically for the whole app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.476 --> 00:05:02.256 A:middle
 statically for the whole app.
@@ -466,10 +426,6 @@ the numbers are counting up,
 00:05:58.876 --> 00:05:59.826 A:middle
 what they get to.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.036 --> 00:06:01.576 A:middle
 The user is going to put
 us in the background.
@@ -543,14 +499,6 @@ opted into this capability,
 00:06:54.576 --> 00:06:57.536 A:middle
 it has responsibility because
 if you continue running
-
-00:06:57.536 --> 00:07:00.986 A:middle
-in the background, the user
-may not know this is happening
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.536 --> 00:07:00.986 A:middle
 in the background, the user
@@ -635,14 +583,6 @@ that it went to the background.
 The Blue Bar appears
 briefly and then disappears.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.666 --> 00:08:01.656 A:middle
-The Blue Bar appears
-briefly and then disappears.
-
 00:08:02.746 --> 00:08:05.456 A:middle
 That can be kind of
 confusing to users.
@@ -686,7 +626,7 @@ API that helps you express that.
 It's called allows
 background location updates,
 
-00:08:33.186 --> 00:08:36.535 A:middle
+00:08:33.186 --> 00:08:36.536 A:middle
 and it's a property you set
 on your location manager.
 
@@ -719,14 +659,6 @@ in your info plist.
 00:08:55.806 --> 00:08:58.046 A:middle
 If you said you like the
 capability in the background,
-
-00:08:58.496 --> 00:09:01.076 A:middle
-you set this to yes and
-start the location updates,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.496 --> 00:09:01.076 A:middle
 you set this to yes and
@@ -819,10 +751,6 @@ are already configured either
 to continue or not
 continue as you go.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.616 --> 00:10:03.286 A:middle
 Okay. So must change
 if you have an app
@@ -906,10 +834,6 @@ it's already set to yes
 00:10:58.996 --> 00:10:59.846 A:middle
 and you don't have to set it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.286 --> 00:11:02.036 A:middle
 Unfortunately, that means
 you can't set it to no
@@ -977,14 +901,6 @@ Background location.
 00:11:55.576 --> 00:11:57.656 A:middle
 What about those times
 when you don't need
-
-00:11:57.656 --> 00:12:00.806 A:middle
-to access the user's location
-in a continuous fashion?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.656 --> 00:12:00.806 A:middle
 to access the user's location
@@ -1081,14 +997,6 @@ to your delegate callback.
 We threshold them
 internally according
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.136 --> 00:13:01.686 A:middle
-We threshold them
-internally according
-
 00:13:01.686 --> 00:13:02.696 A:middle
 to your desired accuracy
 
@@ -1177,14 +1085,6 @@ is represented
 by a larger diameter translucent
 circle we about to see.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.676 --> 00:14:03.006 A:middle
-by a larger diameter translucent
-circle we about to see.
-
 00:14:03.316 --> 00:14:05.526 A:middle
 See how that changes over time.
 
@@ -1261,14 +1161,6 @@ the convergence going on.
 00:14:57.076 --> 00:14:58.756 A:middle
 Sometimes you have
 regressions in convergence.
-
-00:14:59.186 --> 00:15:02.456 A:middle
-Overall the trend will be
-narrower until you reach kind
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.186 --> 00:15:02.456 A:middle
 Overall the trend will be
@@ -1355,14 +1247,6 @@ in an environment
 00:15:55.946 --> 00:15:57.896 A:middle
 where we can't establish
 the user's location,
-
-00:15:57.896 --> 00:16:00.956 A:middle
-maybe at the bottom of a
-coal mine, we'll call back
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.896 --> 00:16:00.956 A:middle
 maybe at the bottom of a
@@ -1460,14 +1344,6 @@ effectively takes precedence.
 The other one is that you can
 use stop updating location
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.636 --> 00:17:01.036 A:middle
-The other one is that you can
-use stop updating location
-
 00:17:01.036 --> 00:17:03.556 A:middle
 in order to cancel a request.
 
@@ -1479,7 +1355,7 @@ if the user navigates away
 from the scope where you had
 requested their location.
 
-00:17:09.656 --> 00:17:11.685 A:middle
+00:17:09.656 --> 00:17:11.686 A:middle
 So you are no longer interested,
 we can save some power.
 
@@ -1491,15 +1367,15 @@ that we have for you today.
 The first two of
 our overall points.
 
-00:17:18.846 --> 00:17:21.185 A:middle
+00:17:18.846 --> 00:17:21.186 A:middle
 So now let's talk
 about the topic
 
-00:17:21.185 --> 00:17:22.705 A:middle
+00:17:21.186 --> 00:17:22.706 A:middle
 that probably you are
 all very interested in,
 
-00:17:22.705 --> 00:17:24.185 A:middle
+00:17:22.706 --> 00:17:24.186 A:middle
 you are here to see.
 
 00:17:24.336 --> 00:17:25.796 A:middle
@@ -1545,14 +1421,6 @@ to users.
 00:17:54.036 --> 00:17:57.646 A:middle
 You can now write watchOS apps,
 but the user doesn't get them
-
-00:17:57.646 --> 00:18:01.326 A:middle
-from a watchOS App Store,
-but they get them packed
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.646 --> 00:18:01.326 A:middle
 from a watchOS App Store,
@@ -1625,14 +1493,6 @@ to keep the complexity lower.
 
 00:18:55.496 --> 00:18:57.426 A:middle
 All right.
-
-00:18:57.846 --> 00:19:00.486 A:middle
-Let's do a quick recap
-to make sure we're all
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:57.846 --> 00:19:00.486 A:middle
 Let's do a quick recap
@@ -1713,14 +1573,6 @@ The answer is yes.
 
 00:19:57.046 --> 00:19:58.856 A:middle
 No doubt you already know that.
-
-00:19:59.026 --> 00:20:01.086 A:middle
-So what about the slightly
-more complicated case
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.026 --> 00:20:01.086 A:middle
 So what about the slightly
@@ -1815,14 +1667,6 @@ slightly more complicated case?
 Oh, that doesn't
 apply to always apps
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.726 --> 00:21:02.886 A:middle
-Oh, that doesn't
-apply to always apps
-
 00:21:02.886 --> 00:21:05.156 A:middle
 because there's no transaction.
 
@@ -1906,10 +1750,6 @@ API just for the purposes
 00:21:57.236 --> 00:21:59.216 A:middle
 of this extra row we have.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.236 --> 00:22:02.916 A:middle
 Little known fact is you can
 access monitor API region
@@ -1981,14 +1821,6 @@ location API on watchOS.
 00:22:56.236 --> 00:22:59.316 A:middle
 You can access single
 locations from the user,
-
-00:22:59.606 --> 00:23:01.556 A:middle
-but you can't start a
-background tracking session
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.606 --> 00:23:01.556 A:middle
 but you can't start a
@@ -2080,14 +1912,6 @@ Monitor API is not available.
 You can't -- we can't
 launch your app
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.016 --> 00:24:02.006 A:middle
-You can't -- we can't
-launch your app
-
 00:24:02.006 --> 00:24:03.786 A:middle
 into the background
 on Apple Watch.
@@ -2162,14 +1986,6 @@ but more specifically
 00:24:57.316 --> 00:24:59.636 A:middle
 when the user is aware
 that you're there, running
-
-00:24:59.636 --> 00:25:02.536 A:middle
-and doing something
-on their behalf.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.636 --> 00:25:02.536 A:middle
 and doing something
@@ -2255,10 +2071,6 @@ look like on iPhone?
 Well, the user will
 launch your app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:01.336 --> 00:26:04.986 A:middle
 And then they'll do
 something to indicate
@@ -2330,14 +2142,6 @@ background after stopping it,
 
 00:26:55.986 --> 00:26:57.296 A:middle
 and summarize what we just saw.
-
-00:26:57.296 --> 00:27:01.386 A:middle
-When you request location
-authorization, from iPhone,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.296 --> 00:27:01.386 A:middle
 When you request location
@@ -2425,14 +2229,6 @@ iPhone and on Apple Watch.
 There's an alert that
 appears on Apple Watch.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.516 --> 00:28:00.406 A:middle
-There's an alert that
-appears on Apple Watch.
-
 00:28:00.826 --> 00:28:03.656 A:middle
 The alert on Apple Watch
 says go look at your iPhone,
@@ -2508,14 +2304,6 @@ request on Apple Watch
 00:28:56.406 --> 00:28:59.456 A:middle
 and Apple Watch does an alert
 so the user knows what is going
-
-00:28:59.456 --> 00:29:03.376 A:middle
-on so the user understands
-that the workflow needs
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.456 --> 00:29:03.376 A:middle
 on so the user understands
@@ -2608,14 +2396,6 @@ is not surprised.
 They can go to settings,
 privacy, location services later
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:55.796 --> 00:30:00.516 A:middle
-They can go to settings,
-privacy, location services later
-
 00:30:00.516 --> 00:30:03.966 A:middle
 on and change the settings
 there if they want to.
@@ -2685,14 +2465,6 @@ environments you can even go
 
 00:30:56.056 --> 00:30:56.886 A:middle
 for a run with this.
-
-00:30:57.166 --> 00:31:01.086 A:middle
-There's no updates
-so don't try that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.166 --> 00:31:01.086 A:middle
 There's no updates
@@ -2794,14 +2566,6 @@ you want to encourage them
 to bring iPhone along anyway
 even if their data is off.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.736 --> 00:32:03.706 A:middle
-to bring iPhone along anyway
-even if their data is off.
-
 00:32:04.186 --> 00:32:08.666 A:middle
 But let's suppose we
 have iPhone on hand.
@@ -2886,14 +2650,6 @@ reply handler error handler
 and the second is update
 application context.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.796 --> 00:33:03.446 A:middle
-and the second is update
-application context.
-
 00:33:04.106 --> 00:33:06.646 A:middle
 SendMessage reply handler
 error handler is bidirectional,
@@ -2967,14 +2723,6 @@ and put everything away.
 And okay? Then we can
 review what happened there.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.136 --> 00:34:02.276 A:middle
-And okay? Then we can
-review what happened there.
-
 00:34:02.276 --> 00:34:06.266 A:middle
 So crucially, if you send
 a message to the iPhone app
@@ -2983,7 +2731,7 @@ a message to the iPhone app
 and it's not running, it
 can be launched if necessary
 
-00:34:09.065 --> 00:34:12.706 A:middle
+00:34:09.066 --> 00:34:12.706 A:middle
 by SendMessage from
 Apple Watch to iPhone.
 
@@ -3002,7 +2750,7 @@ phone in their pocket
 and everything can
 take care of itself.
 
-00:34:20.176 --> 00:34:22.525 A:middle
+00:34:20.176 --> 00:34:22.526 A:middle
 Of note, in use status
 transferred.
 
@@ -3036,18 +2784,18 @@ location updates flag property.
 You need to set this
 to yes if you intend
 
-00:34:42.666 --> 00:34:44.585 A:middle
+00:34:42.666 --> 00:34:44.586 A:middle
 to start a continuous
 background location session
 
-00:34:44.985 --> 00:34:47.626 A:middle
+00:34:44.986 --> 00:34:47.626 A:middle
 and set it to no if you don't.
 
-00:34:47.626 --> 00:34:51.255 A:middle
+00:34:47.626 --> 00:34:51.256 A:middle
 When the user pulls their phone
 out and happens to be looking
 
-00:34:51.255 --> 00:34:53.926 A:middle
+00:34:51.256 --> 00:34:53.926 A:middle
 at it while they are using their
 watch they won't see mysterious
 
@@ -3056,13 +2804,6 @@ Blue Bars dipping in and out.
 
 00:34:58.176 --> 00:34:59.346 A:middle
 What about the other direction?
-
-00:34:59.636 --> 00:35:01.946 A:middle
-So iPhone to Apple Watch.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.636 --> 00:35:01.946 A:middle
 So iPhone to Apple Watch.
@@ -3129,13 +2870,6 @@ different happens.
 00:35:53.706 --> 00:35:58.376 A:middle
 So our Apple Watch app is still
 not running, but the messages
-
-00:35:58.376 --> 00:36:00.926 A:middle
-that we send hang out.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.376 --> 00:36:00.926 A:middle
 that we send hang out.
@@ -3222,13 +2956,6 @@ deferred location updates
 00:36:59.586 --> 00:37:01.076 A:middle
 until traveled time out.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.586 --> 00:37:01.076 A:middle
-until traveled time out.
-
 00:37:01.706 --> 00:37:06.636 A:middle
 This API will, sort of a
 natural complement to the system
@@ -3306,10 +3033,6 @@ background location updates.
 
 00:37:58.846 --> 00:37:59.846 A:middle
 This is a new property.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.226 --> 00:38:02.086 A:middle
 You have to take action on
@@ -3393,14 +3116,6 @@ to the sample code.
 Scroll down until you get to the
 P section and there's potluck.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:57.606 --> 00:39:00.706 A:middle
-Scroll down until you get to the
-P section and there's potluck.
-
 00:39:01.346 --> 00:39:04.186 A:middle
 These are the sessions I thought
 might be especially relevant
@@ -3446,4 +3161,3 @@ Keep up the good work.
 
 00:39:34.516 --> 00:39:39.500 A:middle
 [Applause and cheers]
-

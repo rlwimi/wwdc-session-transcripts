@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:28.556 --> 00:00:28.776 A:middle
 &gt;&gt; ABHINAV PATHAK: Hello.
@@ -38,18 +37,10 @@ problems in your app and, two,
 fix them so that your
 customers really like your app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:56.406 --> 00:01:00.256 A:middle
-fix them so that your
-customers really like your app.
-
 00:01:00.926 --> 00:01:01.396 A:middle
 Let's begin.
 
-00:01:03.176 --> 00:01:04.245 A:middle
+00:01:03.176 --> 00:01:04.246 A:middle
 The red battery icon.
 
 00:01:04.336 --> 00:01:07.256 A:middle
@@ -113,14 +104,6 @@ each and every app,
 what is the instantaneous
 impact and what is the impact
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.906 --> 00:02:02.896 A:middle
-what is the instantaneous
-impact and what is the impact
-
 00:02:02.946 --> 00:02:05.626 A:middle
 for a period of time so
 that users can get, hey,
@@ -179,14 +162,6 @@ hey, I used it more, or hey,
 00:02:52.556 --> 00:02:56.236 A:middle
 this app consumes
 a lot of energy.
-
-00:02:56.536 --> 00:03:00.226 A:middle
-This talk is about if your
-app is coming on the top
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.536 --> 00:03:00.226 A:middle
 This talk is about if your
@@ -277,14 +252,6 @@ X-axis is time, Y-axis is power.
 It's a waveform of
 an application usage.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.266 --> 00:04:01.316 A:middle
-It's a waveform of
-an application usage.
-
 00:04:01.626 --> 00:04:02.176 A:middle
 What happened?
 
@@ -311,7 +278,7 @@ of this particular app.
 Energy is dictated
 by power and time,
 
-00:04:20.875 --> 00:04:22.366 A:middle
+00:04:20.876 --> 00:04:22.366 A:middle
 and to illustrate
 the point further,
 
@@ -358,14 +325,6 @@ of -- compared to
 00:04:55.816 --> 00:04:58.626 A:middle
 Once they are brought up, they
 do the work that you asked it
-
-00:04:58.686 --> 00:05:02.616 A:middle
-to do, and then we keep them in
-that state in anticipation of,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.686 --> 00:05:02.616 A:middle
 to do, and then we keep them in
@@ -450,13 +409,6 @@ to the server right now?
 00:05:59.656 --> 00:06:01.166 A:middle
 Have some tolerance, maybe
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.656 --> 00:06:01.166 A:middle
-Have some tolerance, maybe
-
 00:06:01.166 --> 00:06:03.176 A:middle
 when a user is connected
 to a power outlet.
@@ -531,14 +483,6 @@ on memory that can pinpoint
 00:06:55.286 --> 00:06:58.766 A:middle
 in my app exact line of the
 code, where is the problem?
-
-00:06:59.926 --> 00:07:01.106 A:middle
-And once you are
-done with all this,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.926 --> 00:07:01.106 A:middle
 And once you are
@@ -620,14 +564,6 @@ are the CPU and GPU.
 They have a very,
 very high fixed cost.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.546 --> 00:08:02.046 A:middle
-They have a very,
-very high fixed cost.
-
 00:08:03.086 --> 00:08:05.986 A:middle
 To bring it to a state
 where they can serve you
@@ -667,13 +603,13 @@ Very simple rule here.
 Do not wake the CPU up
 if you do not need to.
 
-00:08:33.416 --> 00:08:34.535 A:middle
+00:08:33.416 --> 00:08:34.536 A:middle
 Let the giant bear sleep.
 
-00:08:34.535 --> 00:08:36.246 A:middle
+00:08:34.536 --> 00:08:36.246 A:middle
 Don't poke it.
 
-00:08:37.785 --> 00:08:40.966 A:middle
+00:08:37.786 --> 00:08:40.966 A:middle
 The tool we have in Xcode,
 I call it energy gauges,
 
@@ -702,13 +638,6 @@ impact gauge.
 
 00:08:54.376 --> 00:08:55.756 A:middle
 You will see the report.
-
-00:08:56.666 --> 00:09:00.316 A:middle
-What do you see in the report?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:56.666 --> 00:09:00.316 A:middle
 What do you see in the report?
@@ -797,14 +726,6 @@ specifically designed for each
 and every area, and they can,
 you know, help you pinpoint,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.936 --> 00:10:03.016 A:middle
-and every area, and they can,
-you know, help you pinpoint,
-
 00:10:03.016 --> 00:10:05.996 A:middle
 hey, which line of code
 is actually causing high
@@ -877,14 +798,6 @@ these devices are different
 than OS X devices, a few
 other things come into play.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.346 --> 00:11:05.916 A:middle
-than OS X devices, a few
-other things come into play.
-
 00:11:06.616 --> 00:11:09.486 A:middle
 First of all, two of the
 peripheries, location
@@ -951,14 +864,6 @@ location only
 
 00:11:57.746 --> 00:11:59.176 A:middle
 if you actually need it,
-
-00:11:59.176 --> 00:12:01.076 A:middle
-it has actually been
-requested by the user.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.176 --> 00:12:01.076 A:middle
 it has actually been
@@ -1039,10 +944,6 @@ quality media
 
 00:12:57.246 --> 00:12:58.496 A:middle
 on the smallest form factor?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.766 --> 00:13:02.806 A:middle
 Can you do it at a better time?
@@ -1135,10 +1036,6 @@ it goes to sleep.
 00:13:58.056 --> 00:13:59.516 A:middle
 Next push, the same is repeated.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:01.256 --> 00:14:04.036 A:middle
 The fixed cost is very
 high in that point.
@@ -1217,14 +1114,6 @@ know, please do the work for me
 as you find the best time
 and the best, you know,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.396 --> 00:15:02.566 A:middle
-as you find the best time
-and the best, you know,
-
 00:15:02.966 --> 00:15:05.946 A:middle
 period energy wise and the
 system will do it for you.
@@ -1298,10 +1187,6 @@ And once you are done,
 just click the button,
 stop recording.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:03.116 --> 00:16:06.236 A:middle
 After this, connect your
 device to a Mac and go
@@ -1371,13 +1256,6 @@ hardware come up?
 00:16:59.256 --> 00:17:00.336 A:middle
 Did you request it?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.256 --> 00:17:00.336 A:middle
-Did you request it?
-
 00:17:00.336 --> 00:17:01.636 A:middle
 Where did you request it?
 
@@ -1385,7 +1263,7 @@ Where did you request it?
 It doesn't pinpoint, it's not
 fine-grain to go to your code.
 
-00:17:07.205 --> 00:17:13.016 A:middle
+00:17:07.206 --> 00:17:13.016 A:middle
 To fix this problem, this year
 we are introducing energy gauges
 
@@ -1393,15 +1271,15 @@ we are introducing energy gauges
 on iOS and instruments,
 a few instruments too,
 
-00:17:18.445 --> 00:17:20.715 A:middle
+00:17:18.446 --> 00:17:20.716 A:middle
 which you can use to
 pinpoint in your code
 
-00:17:20.715 --> 00:17:22.546 A:middle
+00:17:20.716 --> 00:17:22.546 A:middle
 where the problem
 is coming from.
 
-00:17:23.236 --> 00:17:27.175 A:middle
+00:17:23.236 --> 00:17:27.176 A:middle
 To talk about all of
 these, let's move to demo.
 
@@ -1435,14 +1313,6 @@ new tools because they are easy,
 00:17:55.946 --> 00:17:58.376 A:middle
 they are effective, so
 at the end of the demo,
-
-00:17:58.606 --> 00:18:01.886 A:middle
-I hope you will join me in
-including these new tools
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.606 --> 00:18:01.886 A:middle
 I hope you will join me in
@@ -1507,14 +1377,6 @@ side of the screen.
 00:18:54.346 --> 00:18:58.816 A:middle
 And the iOS energy gauge can
 visualize the energy impact
-
-00:18:58.816 --> 00:19:01.916 A:middle
-of your code, can visualize
-the energy impact of your code,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.816 --> 00:19:01.916 A:middle
 of your code, can visualize
@@ -1590,14 +1452,6 @@ energy debugging tools
 to see how you can improve the
 energy efficiency of your code.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.226 --> 00:20:02.416 A:middle
-to see how you can improve the
-energy efficiency of your code.
-
 00:20:03.416 --> 00:20:07.956 A:middle
 But if the needle keeps moving
 up, you enter the red zone.
@@ -1658,10 +1512,6 @@ information overall of your app.
 00:20:53.606 --> 00:20:59.306 A:middle
 If you want to see more
 breakdown, you should see here,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.476 --> 00:21:01.366 A:middle
 energy impact session.
@@ -1727,10 +1577,6 @@ overhead, energy used to bring
 up the system resources like
 the radio module to perform work
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.136 --> 00:22:03.046 A:middle
 for your app, and it also
 maps to an earlier talk,
@@ -1792,10 +1638,6 @@ information, more breakdown,
 
 00:22:58.226 --> 00:22:59.866 A:middle
 then check this button.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:01.016 --> 00:23:03.776 A:middle
 This button, after you click
@@ -1861,13 +1703,6 @@ request for location.
 00:23:54.896 --> 00:23:57.086 A:middle
 And if you want more
 information, more detail,
-
-00:23:58.126 --> 00:24:00.136 A:middle
-go here, extended detail.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.126 --> 00:24:00.136 A:middle
 go here, extended detail.
@@ -1938,14 +1773,6 @@ showing up on the screen.
 
 00:24:54.116 --> 00:24:56.086 A:middle
 The structure is like this.
-
-00:24:56.176 --> 00:25:01.766 A:middle
-There is a centralized data
-manager, and if I import a photo
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:56.176 --> 00:25:01.766 A:middle
 There is a centralized data
@@ -2024,14 +1851,6 @@ It's here.
 So let's go to debug
 navigator over here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.156 --> 00:26:03.996 A:middle
-So let's go to debug
-navigator over here.
-
 00:26:04.206 --> 00:26:08.526 A:middle
 Energy impact over
 here...oh, there we go.
@@ -2096,14 +1915,6 @@ That is location is always on.
 
 00:26:56.016 --> 00:26:57.846 A:middle
 Huh. It doesn't make sense.
-
-00:26:58.616 --> 00:27:01.146 A:middle
-Because Energy Buddy is not the
-kind of app where you're trying
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.616 --> 00:27:01.146 A:middle
 Because Energy Buddy is not the
@@ -2178,13 +1989,6 @@ Where do we introduce this?
 00:27:58.066 --> 00:28:00.026 A:middle
 Take a look at this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.066 --> 00:28:00.026 A:middle
-Take a look at this.
-
 00:28:00.386 --> 00:28:04.206 A:middle
 Go to extended detail and see.
 
@@ -2235,14 +2039,6 @@ happen is location service will
 00:28:53.096 --> 00:28:56.696 A:middle
 periodically push the
 location update to us
-
-00:28:56.996 --> 00:29:00.816 A:middle
-through a callback,
-which is over here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:56.996 --> 00:29:00.816 A:middle
 through a callback,
@@ -2323,10 +2119,6 @@ a value updating --
 location update,
 we should stop it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.246 --> 00:30:02.986 A:middle
 So let's take a look
 and launch it again
@@ -2390,13 +2182,6 @@ turned on for a long time,
 00:30:56.816 --> 00:30:59.876 A:middle
 imagine how much energy you
 can save just by doing one line
-
-00:30:59.876 --> 00:31:01.686 A:middle
-of code, which is amazing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.876 --> 00:31:01.686 A:middle
 of code, which is amazing.
@@ -2475,14 +2260,6 @@ we actually request
 for location is inside
 the weather file.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.846 --> 00:32:02.266 A:middle
-for location is inside
-the weather file.
-
 00:32:02.266 --> 00:32:05.916 A:middle
 And there's a function
 called Fetch if Missing.
@@ -2554,14 +2331,6 @@ then we also return.
 If none of these two
 situations have been satisfied,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:57.376 --> 00:33:02.166 A:middle
-If none of these two
-situations have been satisfied,
-
 00:33:02.166 --> 00:33:08.206 A:middle
 then we will try to set up a
 task based on the location,
@@ -2624,24 +2393,20 @@ energy gauge will agree
 00:33:57.156 --> 00:33:58.766 A:middle
 with my theory here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.046 --> 00:34:02.386 A:middle
 Okay. It's up.
 
-00:34:03.726 --> 00:34:08.755 A:middle
+00:34:03.726 --> 00:34:08.756 A:middle
 So I am trying to
 import a photo,
 
-00:34:10.016 --> 00:34:14.775 A:middle
+00:34:10.016 --> 00:34:14.776 A:middle
 select a picture from a gallery.
 
 00:34:15.626 --> 00:34:17.176 A:middle
 Set the reading.
 
-00:34:17.406 --> 00:34:19.485 A:middle
+00:34:17.406 --> 00:34:19.486 A:middle
 So I see the location.
 
 00:34:19.876 --> 00:34:21.366 A:middle
@@ -2652,13 +2417,13 @@ seconds like before.
 But magically, all the
 networking is gone.
 
-00:34:24.545 --> 00:34:27.326 A:middle
+00:34:24.546 --> 00:34:27.326 A:middle
 This is exactly what we expect.
 
 00:34:27.926 --> 00:34:29.366 A:middle
 So this is another good way
 
-00:34:29.755 --> 00:34:32.166 A:middle
+00:34:29.756 --> 00:34:32.166 A:middle
 for the energy efficiency
 of our Energy Buddy.
 
@@ -2676,7 +2441,7 @@ on the background.
 So let's take a look at what
 the energy gauge can tell us
 
-00:34:45.346 --> 00:34:47.045 A:middle
+00:34:45.346 --> 00:34:47.046 A:middle
 when Energy Buddy is
 actually on the background.
 
@@ -2686,13 +2451,6 @@ in the background
 
 00:34:49.356 --> 00:34:53.866 A:middle
 by hitting the Home button.
-
-00:34:55.116 --> 00:35:00.096 A:middle
-So what we see is over here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:55.116 --> 00:35:00.096 A:middle
 So what we see is over here.
@@ -2770,13 +2528,6 @@ it is actually done.
 00:35:59.626 --> 00:36:01.676 A:middle
 Does it make sense?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.626 --> 00:36:01.676 A:middle
-Does it make sense?
-
 00:36:02.446 --> 00:36:03.906 A:middle
 No. Why not?
 
@@ -2848,14 +2599,6 @@ It will not stay
 in the background all
 the time like before.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.886 --> 00:37:07.866 A:middle
-in the background all
-the time like before.
-
 00:37:07.906 --> 00:37:10.976 A:middle
 Okay. Go to energy gauge.
 
@@ -2919,14 +2662,6 @@ this demo, a quick summary.
 00:37:55.876 --> 00:37:58.416 A:middle
 We started with the Energy
 Buddy, inefficient code.
-
-00:37:58.416 --> 00:38:02.456 A:middle
-We ran it as the user would use
-it and let's see what happened.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:58.416 --> 00:38:02.456 A:middle
 We ran it as the user would use
@@ -3018,14 +2753,6 @@ the networking part,
 networking is highlighted
 for a long time.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.886 --> 00:39:01.796 A:middle
-networking is highlighted
-for a long time.
-
 00:39:02.166 --> 00:39:04.766 A:middle
 The red bars on the top are
 highlighted all the time,
@@ -3110,10 +2837,6 @@ We are suspended.
 Awesome. Let's take a look at
 overall code before and after.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.306 --> 00:40:02.316 A:middle
 Before, you see everything
 lighted up.
@@ -3190,14 +2913,6 @@ including display energy,
 00:40:56.126 --> 00:40:57.996 A:middle
 which is exactly the
 same in both the apps.
-
-00:40:59.306 --> 00:41:02.446 A:middle
-Battery UI you see right
-on the top, 28 percent.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.306 --> 00:41:02.446 A:middle
 Battery UI you see right
@@ -3283,10 +2998,5 @@ but in more detail.
 00:41:58.816 --> 00:41:59.886 A:middle
 Thank you, everyone, for coming.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:01.516 --> 00:42:14.800 A:middle
 [ Applause ]
-

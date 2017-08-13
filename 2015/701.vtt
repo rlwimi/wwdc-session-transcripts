@@ -1,11 +1,10 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:00:06.726 --> 00:00:16.015 A:middle
+00:00:27.366 --> 00:00:28.536 A:middle
 &gt;&gt; DANVIN RUANGCHAN: All
 right, good morning, everyone,
 
-00:00:26.206 --> 00:00:31.476 A:middle
+00:00:28.866 --> 00:00:31.476 A:middle
 and welcome to session 701.
 
 00:00:31.746 --> 00:00:34.646 A:middle
@@ -41,14 +40,6 @@ lot of features for Wallet
 
 00:00:57.156 --> 00:00:58.306 A:middle
 over the past few years.
-
-00:00:58.586 --> 00:01:00.836 A:middle
-We will talk about a
-few of those today.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.586 --> 00:01:00.836 A:middle
 We will talk about a
@@ -133,14 +124,6 @@ inside your apps as well.
 But to understand the
 essence of Wallet,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.226 --> 00:02:00.646 A:middle
-But to understand the
-essence of Wallet,
-
 00:02:00.756 --> 00:02:04.826 A:middle
 to understand what we are about,
 we need to take a look back.
@@ -208,14 +191,6 @@ passes as well.
 00:02:53.716 --> 00:02:56.106 A:middle
 But all the things that
 these passes have in common,
-
-00:02:56.416 --> 00:03:00.646 A:middle
-is that they all allow us to
-take action in the real world.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.416 --> 00:03:00.646 A:middle
 is that they all allow us to
@@ -303,10 +278,6 @@ in the top left-hand corner.
 We put our important
 information in our header field.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.546 --> 00:04:02.716 A:middle
 In this case, our gate
 information is present there.
@@ -322,15 +293,15 @@ when boarding time arrives.
 We put our important information
 down in our primary fields.
 
-00:04:13.606 --> 00:04:17.005 A:middle
+00:04:13.606 --> 00:04:17.006 A:middle
 And this particular case, we
 have a flight that takes off
 
-00:04:17.005 --> 00:04:20.046 A:middle
+00:04:17.006 --> 00:04:20.046 A:middle
 from Newark and arrives
 in Stockholm.
 
-00:04:21.875 --> 00:04:25.326 A:middle
+00:04:21.876 --> 00:04:25.326 A:middle
 We also have auxiliary and
 secondary fields and this is
 
@@ -374,14 +345,6 @@ And you'll notice right away
 00:04:54.346 --> 00:04:58.066 A:middle
 on the very top you can
 associate an app with this pass,
-
-00:04:58.626 --> 00:05:02.926 A:middle
-and appropriately we have the
-United Airlines app associated
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.626 --> 00:05:02.926 A:middle
 and appropriately we have the
@@ -462,14 +425,6 @@ values determine the content
 00:05:55.716 --> 00:05:57.676 A:middle
 and the styling and the
 layout of this pass.
-
-00:05:59.456 --> 00:06:02.666 A:middle
-And this MLB pass also has
-some really beautiful images.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.456 --> 00:06:02.666 A:middle
 And this MLB pass also has
@@ -558,13 +513,6 @@ How do we make this unique?
 00:06:59.666 --> 00:07:01.636 A:middle
 How do we make this your pass?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.666 --> 00:07:01.636 A:middle
-How do we make this your pass?
-
 00:07:02.416 --> 00:07:04.746 A:middle
 Well we use three
 different values to be able
@@ -635,14 +583,6 @@ uniqueness for your pass.
 Along with all of these
 values, the pass.json is also
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.596 --> 00:08:03.006 A:middle
-Along with all of these
-values, the pass.json is also
-
 00:08:03.006 --> 00:08:05.106 A:middle
 where you declare
 your pass' relevancy.
@@ -682,10 +622,10 @@ on our pass.json.
 00:08:31.266 --> 00:08:32.086 A:middle
 We have a few keys.
 
-00:08:32.885 --> 00:08:33.535 A:middle
+00:08:32.886 --> 00:08:33.536 A:middle
 First of all, we're going
 
-00:08:33.535 --> 00:08:35.616 A:middle
+00:08:33.536 --> 00:08:35.616 A:middle
 to take a look at
 the locations key.
 
@@ -693,7 +633,7 @@ the locations key.
 That takes an array
 of dictionaries
 
-00:08:38.596 --> 00:08:43.135 A:middle
+00:08:38.596 --> 00:08:43.136 A:middle
 and that dictionary will contain
 in it a latitude, a longitude
 
@@ -719,10 +659,6 @@ that's shown to the user.
 00:08:57.566 --> 00:08:59.416 A:middle
 And then we have
 the relevantDate,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.236 --> 00:09:03.666 A:middle
 and that's just your standard
@@ -805,14 +741,6 @@ the Apple Push Service.
 And we utilize the Apple Push
 Service to start a pass' update.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.756 --> 00:10:01.766 A:middle
-And we utilize the Apple Push
-Service to start a pass' update.
-
 00:10:03.046 --> 00:10:05.866 A:middle
 We get pass down, a
 passTypeIdentifier.
@@ -881,14 +809,6 @@ in PassKit is PKPassLibrary.
 
 00:10:57.836 --> 00:10:59.246 A:middle
 This is your link.
-
-00:10:59.716 --> 00:11:02.296 A:middle
-This is what you are
-going to use to be able
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.716 --> 00:11:02.296 A:middle
 This is what you are
@@ -964,14 +884,6 @@ one called passesOfType,
 
 00:11:57.086 --> 00:11:58.086 A:middle
 passing a PKPassType.
-
-00:11:58.086 --> 00:12:00.036 A:middle
-And you may wonder what are
-all the different pass types?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.086 --> 00:12:00.036 A:middle
 And you may wonder what are
@@ -1057,10 +969,6 @@ we give special treatment
 to PKPass files inside
 our iOS apps like Mail.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.426 --> 00:13:03.426 A:middle
 When we receive a PKPass file
 
@@ -1134,13 +1042,6 @@ these passes programmatically,
 
 00:13:57.386 --> 00:13:58.196 A:middle
 how would you do that?
-
-00:13:58.956 --> 00:14:00.376 A:middle
-Well, PKPassLibrary does that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.956 --> 00:14:00.376 A:middle
 Well, PKPassLibrary does that.
@@ -1220,10 +1121,6 @@ How does this work.
 00:14:57.496 --> 00:14:59.996 A:middle
 PKAddPassesViewerController
 has a function
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.096 --> 00:15:02.216 A:middle
 that checks can you add
@@ -1306,14 +1203,6 @@ Images are great.
 00:15:55.116 --> 00:15:56.656 A:middle
 For example, this MLB
 pass that we looked
-
-00:15:56.656 --> 00:16:00.136 A:middle
-at has this strip image that
-spans the entirety of the pass.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:56.656 --> 00:16:00.136 A:middle
 at has this strip image that
@@ -1403,14 +1292,6 @@ So the other day, I go
 to my local neighborhood grocery
 store, and I pick up my things
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.356 --> 00:17:01.886 A:middle
-to my local neighborhood grocery
-store, and I pick up my things
-
 00:17:02.106 --> 00:17:03.116 A:middle
 and I'm ready to check out.
 
@@ -1442,11 +1323,11 @@ pass with us?
 00:17:20.606 --> 00:17:21.906 A:middle
 I think I do.
 
-00:17:21.906 --> 00:17:25.935 A:middle
+00:17:21.906 --> 00:17:25.936 A:middle
 The clerk is really -- really
 adamant about this loyalty card.
 
-00:17:26.185 --> 00:17:28.306 A:middle
+00:17:26.186 --> 00:17:28.306 A:middle
 I think it's in that
 big fat wallet of mine.
 
@@ -1497,14 +1378,6 @@ happen there.
 00:17:55.646 --> 00:17:57.986 A:middle
 For me as a consumer,
 I just want to pay.
-
-00:17:58.956 --> 00:18:00.946 A:middle
-I want to get my
-things and be done.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.956 --> 00:18:00.946 A:middle
 I want to get my
@@ -1574,14 +1447,6 @@ I even head up to the terminal.
 00:18:54.936 --> 00:18:58.736 A:middle
 Great. My card is ready and I
 head up to pay for my things.
-
-00:18:59.866 --> 00:19:01.726 A:middle
-When I put my phone
-on the terminal,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.866 --> 00:19:01.726 A:middle
 When I put my phone
@@ -1664,14 +1529,6 @@ and your terminal.
 So this is how you
 implement passes that work
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.716 --> 00:20:03.656 A:middle
-So this is how you
-implement passes that work
-
 00:20:03.656 --> 00:20:05.786 A:middle
 with Apple Pay on your passes.
 
@@ -1746,10 +1603,6 @@ How do we do that?
 00:20:56.576 --> 00:20:58.966 A:middle
 We are giving you a couple
 of APIs to enable this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.046 --> 00:21:01.196 A:middle
 There's two.
@@ -1834,14 +1687,6 @@ PKAddPaymentPassViewController.
 And of course we need to check
 whether this particular device
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:57.876 --> 00:22:01.256 A:middle
-And of course we need to check
-whether this particular device
-
 00:22:01.356 --> 00:22:03.426 A:middle
 can add a payment pass or not.
 
@@ -1913,14 +1758,6 @@ as some people know it.
 And along with the typical flow,
 like using SMS or a phone call
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:57.976 --> 00:23:03.876 A:middle
-And along with the typical flow,
-like using SMS or a phone call
-
 00:23:03.876 --> 00:23:07.306 A:middle
 or email, another option
 we offer is using an app.
@@ -1985,13 +1822,6 @@ verification inside your apps.
 00:23:56.326 --> 00:23:58.416 A:middle
 So our phones have been
 really, really popular
-
-00:23:58.666 --> 00:24:00.426 A:middle
-and there's awesome and really,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.666 --> 00:24:00.426 A:middle
 and there's awesome and really,
@@ -2071,10 +1901,6 @@ to endAutomaticPassPresentation.
 00:24:57.986 --> 00:24:59.676 A:middle
 Pass into it, that requestToken,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.736 --> 00:25:04.026 A:middle
 and the payment UI will
 appear again inside your app.
@@ -2139,10 +1965,6 @@ passes just like up doing
 
 00:25:57.026 --> 00:25:59.846 A:middle
 on our phones previously.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:01.176 --> 00:26:03.846 A:middle
 So full PassKit support
@@ -2219,14 +2041,6 @@ follow the HI guidelines,
 we will promise and do our best
 to make your passes look great
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:56.146 --> 00:27:01.226 A:middle
-we will promise and do our best
-to make your passes look great
-
 00:27:01.516 --> 00:27:04.486 A:middle
 on every single one
 of our devices.
@@ -2250,20 +2064,20 @@ of requests for 1D barcodes
 and I'm really glad
 to say that iOS 9,
 
-00:27:20.846 --> 00:27:23.426 A:middle
+00:27:20.846 --> 00:27:24.946 A:middle
 we are bringing 1D
 Barcode support to Wallet.
 
-00:27:23.886 --> 00:27:23.976 A:middle
+00:27:25.096 --> 00:27:25.646 A:middle
 Yeah.
 
-00:27:23.976 --> 00:27:24.756 A:middle
+00:27:26.016 --> 00:27:27.936 A:middle
 [ Applause ]
 
-00:27:24.756 --> 00:27:28.726 A:middle
+00:27:27.936 --> 00:27:29.926 A:middle
 I'm glad you are glad.
 
-00:27:29.466 --> 00:27:32.596 A:middle
+00:27:29.926 --> 00:27:32.596 A:middle
 So we have a new barcode format.
 
 00:27:33.126 --> 00:27:35.466 A:middle
@@ -2298,10 +2112,6 @@ key that is an array that takes
 
 00:27:58.496 --> 00:27:59.886 A:middle
 in a dictionary of barcodes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.396 --> 00:28:03.896 A:middle
 So, as you can see, we have a
@@ -2379,14 +2189,6 @@ to integrate
 
 00:28:54.896 --> 00:28:56.746 A:middle
 into your apps, into your flow.
-
-00:28:57.616 --> 00:29:00.826 A:middle
-And passes when they are
-engaging really keep your users
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.616 --> 00:29:00.826 A:middle
 And passes when they are
@@ -2470,14 +2272,6 @@ of them out to you.
 First, we have Passbook for
 Developers specific site
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:57.436 --> 00:30:00.676 A:middle
-First, we have Passbook for
-Developers specific site
-
 00:30:00.676 --> 00:30:02.296 A:middle
 on our developer website.
 
@@ -2545,6 +2339,5 @@ a really, really great week.
 00:30:48.226 --> 00:30:48.726 A:middle
 Thanks a lot.
 
-00:30:48.936 --> 00:30:49.136 A:middle
-(Applause)
-
+00:30:49.508 --> 00:30:51.508 A:middle
+[Applause]

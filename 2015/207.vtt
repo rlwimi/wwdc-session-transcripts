@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.516 --> 00:00:30.856 A:middle
 [ Applause ]
@@ -44,13 +43,6 @@ watch app.
 00:00:55.906 --> 00:00:58.486 A:middle
 I will talk about where
 resources and data live
-
-00:00:58.556 --> 00:01:00.416 A:middle
-because it is a two-part system,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.556 --> 00:01:00.416 A:middle
 because it is a two-part system,
@@ -133,14 +125,6 @@ additional resources.
 So when you pair it with
 your watch, we copy over all
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.756 --> 00:02:01.916 A:middle
-So when you pair it with
-your watch, we copy over all
-
 00:02:01.916 --> 00:02:04.186 A:middle
 of that information, and it
 appears on the Home screen
@@ -212,14 +196,6 @@ have added a couple of new ones
 
 00:02:58.146 --> 00:02:59.856 A:middle
 in watchOS 2, the thicker view,
-
-00:02:59.856 --> 00:03:02.136 A:middle
-which will give you a
-lot more rich interface,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.856 --> 00:03:02.136 A:middle
 which will give you a
@@ -303,14 +279,6 @@ called WK user notification
 controller which you should
 use for notifications,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.046 --> 00:04:00.556 A:middle
-controller which you should
-use for notifications,
-
 00:04:00.966 --> 00:04:04.576 A:middle
 and there is a new data
 source object CLK complication
@@ -378,10 +346,6 @@ and alerts, and action sheets.
 00:04:56.096 --> 00:04:59.766 A:middle
 One other thing we do provide
 is a number of system UI sheets,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.056 --> 00:05:03.886 A:middle
 text input, video play
@@ -455,10 +419,6 @@ has the same kind of thing.
 00:05:55.656 --> 00:05:58.796 A:middle
 It has another .png file
 and a localizable string.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.216 --> 00:06:03.706 A:middle
 So now if we do the obvious,
@@ -536,10 +496,6 @@ dynamic application,
 so there are two folders
 that are of interest.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.096 --> 00:07:01.346 A:middle
 One is the documents folder,
 
@@ -609,14 +565,6 @@ and write some data to it.
 00:07:56.036 --> 00:07:58.486 A:middle
 Now, media presents
 another interesting problem
-
-00:07:59.176 --> 00:08:02.236 A:middle
-because the application is in
-charge of playing the media,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:59.176 --> 00:08:02.236 A:middle
 because the application is in
@@ -695,14 +643,6 @@ give a unique identifier
 and that's your application
 group.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:58.656 --> 00:09:00.526 A:middle
-and that's your application
-group.
-
 00:09:01.236 --> 00:09:06.046 A:middle
 And so the only real thing
 here you need to worry
@@ -773,14 +713,6 @@ one you use a lot to get stuff
 00:09:53.926 --> 00:09:57.076 A:middle
 from the internet, if you have
 got a chat app or something
-
-00:09:57.076 --> 00:10:00.486 A:middle
-like that, you will want
-to talk to your server,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:57.076 --> 00:10:00.486 A:middle
 like that, you will want
@@ -874,14 +806,6 @@ with that configuration
 and we make the downloader
 class itself the instance
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.016 --> 00:11:01.346 A:middle
-and we make the downloader
-class itself the instance
-
 00:11:01.346 --> 00:11:03.756 A:middle
 after a delegate so
 we get notification
@@ -958,14 +882,6 @@ file finishes downloading,
 00:11:56.606 --> 00:11:58.606 A:middle
 and as I said, we need to
 copy the file immediately
-
-00:11:58.656 --> 00:12:01.996 A:middle
-so it doesn't go away, so
-the system doesn't remove it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.656 --> 00:12:01.996 A:middle
 so it doesn't go away, so
@@ -1049,14 +965,6 @@ the watch and the iPhone.
 So just a few slides on
 migration, for those of you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.896 --> 00:13:04.056 A:middle
-So just a few slides on
-migration, for those of you
-
 00:13:04.656 --> 00:13:07.326 A:middle
 who have started
 a watchOS 1 app,
@@ -1130,14 +1038,6 @@ that asset, those resources
 to the watch, and it
 will be much faster.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.986 --> 00:14:01.376 A:middle
-to the watch, and it
-will be much faster.
-
 00:14:02.516 --> 00:14:05.516 A:middle
 So we gave you a way of directly
 talking to the application.
@@ -1202,10 +1102,6 @@ that the watch can use.
 00:14:57.146 --> 00:14:59.806 A:middle
 Now, of course, the watch, for
 example, for watch framework
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.516 --> 00:15:03.056 A:middle
 that you provide, for
@@ -1291,14 +1187,6 @@ you don't need to worry
 about the phone being
 connected or on the network.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.526 --> 00:16:00.746 A:middle
-about the phone being
-connected or on the network.
-
 00:16:01.866 --> 00:16:05.446 A:middle
 We added a couple of
 UI elements as well
@@ -1371,14 +1259,6 @@ watch connectivity.
 Two new things are the extension
 delegate which Forest will talk
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.626 --> 00:17:01.366 A:middle
-Two new things are the extension
-delegate which Forest will talk
-
 00:17:01.366 --> 00:17:04.396 A:middle
 about in a bit, and the
 complication data source
@@ -1398,15 +1278,15 @@ existing Xcode projects,
 00:17:16.066 --> 00:17:19.856 A:middle
 you can add a new target.
 
-00:17:20.036 --> 00:17:22.165 A:middle
+00:17:20.036 --> 00:17:22.166 A:middle
 You can have the
 watchOS 1 there,
 
-00:17:22.376 --> 00:17:26.455 A:middle
+00:17:22.376 --> 00:17:26.456 A:middle
 you can say give me a
 watchOS 2 and add files in,
 
-00:17:26.665 --> 00:17:29.196 A:middle
+00:17:26.666 --> 00:17:29.196 A:middle
 mark files as part of
 the same target, so on,
 
@@ -1450,10 +1330,6 @@ about the new classes
 
 00:17:58.226 --> 00:17:59.676 A:middle
 and changes to the existing API.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.516 --> 00:18:03.556 A:middle
 [ Applause ]
@@ -1551,14 +1427,6 @@ did become active.
 This will be called each time
 your application is brought
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.946 --> 00:19:02.826 A:middle
-This will be called each time
-your application is brought
-
 00:19:03.036 --> 00:19:04.526 A:middle
 from the background
 to the foreground
@@ -1650,14 +1518,6 @@ your extension may be killed
 if another process on the
 system needs that memory.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.856 --> 00:20:01.006 A:middle
-if another process on the
-system needs that memory.
-
 00:20:01.606 --> 00:20:06.866 A:middle
 So in summary, WK extension
 delegate will help you
@@ -1744,14 +1604,6 @@ which is what we used to do.
 This should give you greater
 flexibility with what you want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.116 --> 00:21:01.656 A:middle
-This should give you greater
-flexibility with what you want
-
 00:21:01.656 --> 00:21:08.936 A:middle
 to do to handle your
 state maintenance.
@@ -1832,14 +1684,6 @@ running application.
 So on watchOS 2 we
 have added WK extension
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.556 --> 00:22:02.796 A:middle
-So on watchOS 2 we
-have added WK extension
-
 00:22:02.796 --> 00:22:05.886 A:middle
 which is roughly
 analogous to that.
@@ -1905,13 +1749,6 @@ rules include whether
 00:22:53.036 --> 00:22:55.806 A:middle
 or not your phone screen is
 locked and whether your watch is
-
-00:22:55.806 --> 00:23:01.106 A:middle
-on your wrist and unlocked.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:55.806 --> 00:23:01.106 A:middle
 on your wrist and unlocked.
@@ -2001,14 +1838,6 @@ So let's walk through an example
 of how you would go
 about doing that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.996 --> 00:24:01.496 A:middle
-of how you would go
-about doing that.
-
 00:24:02.086 --> 00:24:04.806 A:middle
 Here, I'm going to use watch
 connectivity send message call
@@ -2087,14 +1916,6 @@ be made either for remote
 
 00:24:57.266 --> 00:24:58.216 A:middle
 or local notification.
-
-00:24:58.216 --> 00:25:01.846 A:middle
-You will receive the identifier
-of the action that was tapped.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.216 --> 00:25:01.846 A:middle
 You will receive the identifier
@@ -2180,14 +2001,6 @@ emoji iCon in order to enter
 from the emoji picker, or pick
 from a list of suggestions
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:56.966 --> 00:26:02.236 A:middle
-from the emoji picker, or pick
-from a list of suggestions
-
 00:26:02.546 --> 00:26:05.026 A:middle
 which you as the app developer
 will be able to supply.
@@ -2252,14 +2065,6 @@ on the fly language selection.
 00:26:55.426 --> 00:26:57.296 A:middle
 Here you can see we have
 standard text input.
-
-00:26:57.756 --> 00:27:01.476 A:middle
-Any time the user has the
-standard text input UI up,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.756 --> 00:27:01.476 A:middle
 Any time the user has the
@@ -2355,14 +2160,6 @@ handle, to display the contents
 of the notification
 as appropriate.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.836 --> 00:28:00.156 A:middle
-of the notification
-as appropriate.
-
 00:28:00.846 --> 00:28:03.486 A:middle
 So, for example, if you
 are writing a chat app,
@@ -2431,14 +2228,6 @@ developers will want to use this
 
 00:28:57.986 --> 00:28:58.916 A:middle
 in their application as well.
-
-00:28:59.506 --> 00:29:02.146 A:middle
-And finally, we have
-the action sheet.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.506 --> 00:29:02.146 A:middle
 And finally, we have
@@ -2529,14 +2318,6 @@ and there is a whole host
 of related sessions including
 the next session in here
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.276 --> 00:30:01.436 A:middle
-of related sessions including
-the next session in here
-
 00:30:01.586 --> 00:30:02.866 A:middle
 which is part 2 of this talk.
 
@@ -2546,4 +2327,3 @@ very much for coming.
 
 00:30:07.516 --> 00:30:20.420 A:middle
 [ Applause ]
-

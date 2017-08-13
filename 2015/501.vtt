@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:17.396 --> 00:00:19.586 A:middle
 &gt;&gt; BRENT FULGHAM: Hello
@@ -55,14 +54,6 @@ few things in this talk
 00:00:56.046 --> 00:00:58.556 A:middle
 that will be useful to
 you almost immediately.
-
-00:00:58.716 --> 00:01:02.256 A:middle
-So I would like to start with a
-brief overview of what WebKit is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.716 --> 00:01:02.256 A:middle
 So I would like to start with a
@@ -149,13 +140,6 @@ between them.
 00:01:59.616 --> 00:02:00.836 A:middle
 So during rest of my talk,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.616 --> 00:02:00.836 A:middle
-So during rest of my talk,
-
 00:02:00.836 --> 00:02:02.466 A:middle
 unless I specifically
 call something
@@ -227,14 +211,6 @@ rendering features.
 00:02:54.156 --> 00:02:56.336 A:middle
 Some JavaScript updates
 that we made
-
-00:02:56.336 --> 00:03:00.366 A:middle
-to support the new ES6
-standard, and CSS features
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.336 --> 00:03:00.366 A:middle
 to support the new ES6
@@ -315,14 +291,6 @@ frosted glass effect on the doc.
 And so these effects
 are important to feel
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.606 --> 00:04:00.696 A:middle
-And so these effects
-are important to feel
-
 00:04:00.696 --> 00:04:02.006 A:middle
 like a native part
 of the system.
@@ -350,7 +318,7 @@ system, and look like part
 00:04:17.216 --> 00:04:18.526 A:middle
 of the native user interface.
 
-00:04:19.456 --> 00:04:21.995 A:middle
+00:04:19.456 --> 00:04:21.996 A:middle
 But how do you do that?
 
 00:04:22.276 --> 00:04:25.266 A:middle
@@ -407,10 +375,6 @@ in this image is the background,
 00:04:56.206 --> 00:04:58.946 A:middle
 which is kind of
 besides the point.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.866 --> 00:05:02.846 A:middle
 So we observed people,
@@ -491,10 +455,6 @@ element that we want
 00:05:58.206 --> 00:05:59.666 A:middle
 to provide a backdrop
 filter for,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:01.066 --> 00:06:04.016 A:middle
 WebKit will take the region
@@ -577,14 +537,6 @@ on top of dynamic content.
 So this backdrop blur filter
 that's one line of CSS can be
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:55.716 --> 00:07:00.436 A:middle
-So this backdrop blur filter
-that's one line of CSS can be
-
 00:07:00.436 --> 00:07:03.686 A:middle
 on top of a video,
 which is amazing!
@@ -656,14 +608,6 @@ content like this.
 And so what we observe people
 doing was writing complicated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.376 --> 00:08:01.556 A:middle
-And so what we observe people
-doing was writing complicated
-
 00:08:01.556 --> 00:08:03.276 A:middle
 JavaScript implementations
 that take
@@ -705,11 +649,11 @@ way to do this.
 00:08:29.286 --> 00:08:31.216 A:middle
 And that's scroll snap points.
 
-00:08:33.135 --> 00:08:36.046 A:middle
+00:08:33.136 --> 00:08:36.046 A:middle
 Scroll Snap Points are
 a way to declare in CSS,
 
-00:08:36.765 --> 00:08:40.806 A:middle
+00:08:36.766 --> 00:08:40.806 A:middle
 regions of scrolling that
 take over the animation
 
@@ -731,14 +675,6 @@ have the album covers kind
 
 00:08:57.176 --> 00:08:58.566 A:middle
 of dim and off-screen.
-
-00:08:58.966 --> 00:09:02.286 A:middle
-But I want to cycle
-through them one at a time.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.966 --> 00:09:02.286 A:middle
 But I want to cycle
@@ -809,10 +745,6 @@ clean album boundary.
 Now, in source code, that
 effect requires two lines.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.836 --> 00:10:04.106 A:middle
 We turn the feature on using
 the Scroll Snap Type mandatory,
@@ -877,13 +809,6 @@ I also have a rectangular unit.
 00:10:55.006 --> 00:10:59.706 A:middle
 That rectangular image
 or content will not fit
-
-00:10:59.706 --> 00:11:01.206 A:middle
-in that 300 pixel boundary.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.706 --> 00:11:01.206 A:middle
 in that 300 pixel boundary.
@@ -966,13 +891,6 @@ point, the destination.
 00:11:58.616 --> 00:12:00.346 A:middle
 And when you put them together,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.616 --> 00:12:00.346 A:middle
-And when you put them together,
-
 00:12:00.956 --> 00:12:04.226 A:middle
 when you perform a scroll
 gesture, we land on a clean,
@@ -1046,14 +964,6 @@ amazing example of this.
 
 00:12:54.516 --> 00:12:59.166 A:middle
 [Applause]
-
-00:12:59.666 --> 00:13:00.396 A:middle
-&gt;&gt; CHRIS YOUNG-ZAWADA:
-Thanks, Brent.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.666 --> 00:13:00.396 A:middle
 &gt;&gt; CHRIS YOUNG-ZAWADA:
@@ -1165,14 +1075,6 @@ navigation element
 and right now it's just
 a solid black color
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.996 --> 00:14:02.166 A:middle
-and right now it's just
-a solid black color
-
 00:14:02.166 --> 00:14:03.206 A:middle
 and it's fixed at the top.
 
@@ -1256,14 +1158,6 @@ now see in just one line
 00:14:56.466 --> 00:14:59.246 A:middle
 of code we have added
 this amazing new way
-
-00:14:59.246 --> 00:15:02.576 A:middle
-to blur the content behind
-as you are scrolling.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.246 --> 00:15:02.576 A:middle
 to blur the content behind
@@ -1364,14 +1258,6 @@ and we scroll that element.
 If we refresh, we can now very
 cleanly go between the photos
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:57.516 --> 00:16:04.946 A:middle
-If we refresh, we can now very
-cleanly go between the photos
-
 00:16:04.946 --> 00:16:06.686 A:middle
 and WebKit has taken
 control of the scrolling.
@@ -1457,14 +1343,10 @@ on what you are supposed to.
 So to do that, we are going to
 jump into the JavaScript, here,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.036 --> 00:17:01.646 A:middle
 and this is a new JS file.
 
-00:17:02.176 --> 00:17:06.215 A:middle
+00:17:02.176 --> 00:17:06.216 A:middle
 And we are going to extend our
 masonry gallery constructor
 
@@ -1483,11 +1365,11 @@ a new method called set snap
 00:17:11.886 --> 00:17:12.486 A:middle
 point styles.
 
-00:17:13.076 --> 00:17:15.195 A:middle
+00:17:13.076 --> 00:17:15.196 A:middle
 What this will do is we will
 actually set the scroll snap
 
-00:17:15.246 --> 00:17:17.915 A:middle
+00:17:15.246 --> 00:17:17.916 A:middle
 type to mandatory, and it
 will set the snap points
 
@@ -1499,7 +1381,7 @@ as each cell is in the y axis
 and this is a variable that we
 set inside of the constructor
 
-00:17:26.266 --> 00:17:27.945 A:middle
+00:17:26.266 --> 00:17:27.946 A:middle
 when we are running
 this on instantiation.
 
@@ -1550,13 +1432,6 @@ Thank you.
 
 00:17:54.516 --> 00:17:59.246 A:middle
 [Applause]
-
-00:17:59.746 --> 00:18:00.066 A:middle
-&gt;&gt; BRENT FULGHAM: Thank you.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.746 --> 00:18:00.066 A:middle
 &gt;&gt; BRENT FULGHAM: Thank you.
@@ -1635,14 +1510,6 @@ forward in a number
 00:18:53.146 --> 00:18:56.776 A:middle
 of exciting new ways, and Chris
 alluded to some in his demo.
-
-00:18:56.776 --> 00:19:00.866 A:middle
-I want to talk for
-a moment about a few
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:56.776 --> 00:19:00.866 A:middle
 I want to talk for
@@ -1734,14 +1601,6 @@ new template literal syntax,
 where we create strings,
 special strings,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:57.126 --> 00:20:00.486 A:middle
-where we create strings,
-special strings,
-
 00:20:00.526 --> 00:20:02.926 A:middle
 using the backtick
 character instead
@@ -1822,13 +1681,6 @@ repetition of name, colon, name,
 00:20:58.306 --> 00:21:00.076 A:middle
 and category, colon, category.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.306 --> 00:21:00.076 A:middle
-and category, colon, category.
-
 00:21:00.336 --> 00:21:02.216 A:middle
 And that's such a common idiom
 
@@ -1899,14 +1751,6 @@ syntax.
 00:21:55.016 --> 00:21:59.996 A:middle
 But in ES6, a new syntax has
 been introduced, an object,
-
-00:21:59.996 --> 00:22:03.456 A:middle
-a class-based syntax that
-looks very familiar to anyone
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.996 --> 00:22:03.456 A:middle
 a class-based syntax that
@@ -1989,14 +1833,6 @@ syntax is completely compatible
 with the existing
 prototype-based syntax.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.656 --> 00:23:01.546 A:middle
-with the existing
-prototype-based syntax.
-
 00:23:01.546 --> 00:23:05.576 A:middle
 So you can immediately start
 extending prototype-based code
@@ -2058,14 +1894,6 @@ we did this year, any-link,
 00:23:55.526 --> 00:23:59.336 A:middle
 placeholder-shown, lang,
 just a bunch of improvements,
-
-00:23:59.676 --> 00:24:02.316 A:middle
-but I do hope that you get our
-developer seed and try it out.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.676 --> 00:24:02.316 A:middle
 but I do hope that you get our
@@ -2141,14 +1969,6 @@ what the browser can do.
 00:24:52.806 --> 00:24:58.776 A:middle
 Let's say, for example, I
 have a website where I want
-
-00:24:58.776 --> 00:25:02.366 A:middle
-to use a neat drop cap style,
-and so to achieve this look,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.776 --> 00:25:02.366 A:middle
 to use a neat drop cap style,
@@ -2237,14 +2057,6 @@ JavaScript to run or a lot
 of libraries to import
 to do that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.976 --> 00:26:02.506 A:middle
-of libraries to import
-to do that.
-
 00:26:03.606 --> 00:26:05.096 A:middle
 And now we don't have to.
 
@@ -2304,14 +2116,6 @@ bit about reducing repetition.
 00:26:54.636 --> 00:26:57.076 A:middle
 This is some actual code
 from the web inspector.
-
-00:26:57.536 --> 00:27:00.476 A:middle
-Well, I cleaned it up a
-little bit for the slide,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.536 --> 00:27:00.476 A:middle
 Well, I cleaned it up a
@@ -2389,13 +2193,6 @@ is deleting it.
 00:27:59.456 --> 00:28:01.356 A:middle
 And so this is fantastic!
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.456 --> 00:28:01.356 A:middle
-And so this is fantastic!
-
 00:28:01.356 --> 00:28:05.186 A:middle
 Because we can get rid of tons
 and tons of replicated code.
@@ -2467,13 +2264,6 @@ to adopt a few of the things
 00:28:59.706 --> 00:29:01.796 A:middle
 that are unique to Mac and iOS.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.706 --> 00:29:01.796 A:middle
-that are unique to Mac and iOS.
-
 00:29:02.266 --> 00:29:05.656 A:middle
 And by supporting these
 technologies, you can surprise
@@ -2533,10 +2323,6 @@ go into some detail about how
 
 00:29:54.606 --> 00:29:56.106 A:middle
 to support the AirPlay protocol.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.176 --> 00:30:01.486 A:middle
 Multitasking.
@@ -2615,14 +2401,6 @@ to make your life easier
 when trying to support
 these styles.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.786 --> 00:31:01.596 A:middle
-when trying to support
-these styles.
-
 00:31:02.036 --> 00:31:04.256 A:middle
 There's also a session
 on multitasking
@@ -2684,10 +2462,6 @@ is displayed in the page itself,
 00:31:55.556 --> 00:31:59.136 A:middle
 and picture-in-picture,
 which is our new style.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.146 --> 00:32:03.766 A:middle
 So we have a range of sizes that
@@ -2773,14 +2547,6 @@ or HLS, for delivering media.
 HLS allows our media engine
 to select a bit encoding,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.616 --> 00:33:03.546 A:middle
-HLS allows our media engine
-to select a bit encoding,
-
 00:33:03.586 --> 00:33:06.696 A:middle
 a bit rate for the video
 that matches the size
@@ -2853,14 +2619,6 @@ are really excited about this.
 We had a lot of fun adding
 new user interface features
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:55.976 --> 00:34:01.786 A:middle
-We had a lot of fun adding
-new user interface features
-
 00:34:01.786 --> 00:34:05.286 A:middle
 like this mode of dictionary
 look up that allows us to find
@@ -2881,22 +2639,22 @@ leave the web page.
 I know that all of you can
 come up with even better ways
 
-00:34:15.766 --> 00:34:18.545 A:middle
+00:34:15.766 --> 00:34:18.546 A:middle
 to make use of this
 hardware in a web context.
 
-00:34:18.545 --> 00:34:21.295 A:middle
+00:34:18.546 --> 00:34:21.296 A:middle
 And so we wanted to open
 up access to that hardware
 
-00:34:21.295 --> 00:34:22.886 A:middle
+00:34:21.296 --> 00:34:22.886 A:middle
 so that you could
 use it yourselves
 
 00:34:22.886 --> 00:34:23.946 A:middle
 in your own web pages.
 
-00:34:24.426 --> 00:34:27.815 A:middle
+00:34:24.426 --> 00:34:27.816 A:middle
 Let me talk briefly about
 how this fits together.
 
@@ -2904,7 +2662,7 @@ how this fits together.
 When we have a normal
 Trackpad, if the user presses
 
-00:34:31.266 --> 00:34:33.835 A:middle
+00:34:31.266 --> 00:34:33.836 A:middle
 down we eventually
 reach a level of force
 
@@ -2924,28 +2682,20 @@ that pressure level
 and call it mouse up, and
 we issue it a click event.
 
-00:34:47.616 --> 00:34:52.255 A:middle
+00:34:47.616 --> 00:34:52.256 A:middle
 We extended this model to
 support Force Click operations
 
-00:34:52.585 --> 00:34:55.795 A:middle
+00:34:52.586 --> 00:34:55.796 A:middle
 by adding a WebKit force
 property to all mouse events,
 
-00:34:55.795 --> 00:34:57.596 A:middle
+00:34:55.796 --> 00:34:57.596 A:middle
 which tells you how much
 force is being applied
 
 00:34:57.596 --> 00:34:58.126 A:middle
 to the Trackpad.
-
-00:34:58.126 --> 00:35:01.986 A:middle
-And then we also added
-a number of new events
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.126 --> 00:35:01.986 A:middle
 And then we also added
@@ -3029,10 +2779,6 @@ mouse force changed events
 00:35:56.456 --> 00:35:59.986 A:middle
 and we do this because the
 user may be changing pressure,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.226 --> 00:36:01.996 A:middle
 changing the amount
@@ -3118,14 +2864,6 @@ choose our favorite photos.
 00:36:55.346 --> 00:36:58.156 A:middle
 That's really easy to do,
 but it's also another step
-
-00:36:58.156 --> 00:37:00.466 A:middle
-and I think if we can really
-make it better for users
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.156 --> 00:37:00.466 A:middle
 and I think if we can really
@@ -3225,14 +2963,6 @@ I have written,
 00:37:56.796 --> 00:37:58.636 A:middle
 called set within
 force range of true,
-
-00:37:58.976 --> 00:38:01.696 A:middle
-and all this really does is
-put a CSS property in the page
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:58.976 --> 00:38:01.696 A:middle
 and all this really does is
@@ -3347,14 +3077,6 @@ way down, you will see
 that this heart appears which
 means we've liked the photo,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:58.596 --> 00:39:01.026 A:middle
-that this heart appears which
-means we've liked the photo,
-
 00:39:01.026 --> 00:39:02.696 A:middle
 but I'm actually still
 holding my finger down.
@@ -3455,14 +3177,6 @@ touched this at all.
 Great. So with this new
 interaction we can hover
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.716 --> 00:40:02.306 A:middle
-Great. So with this new
-interaction we can hover
-
 00:40:02.306 --> 00:40:06.266 A:middle
 over the photos, get that
 animation, like them,
@@ -3537,14 +3251,6 @@ have Force Touch hardware,
 sadly, and so we should use this
 as a shortcut or as a flourish,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:56.146 --> 00:41:01.786 A:middle
-sadly, and so we should use this
-as a shortcut or as a flourish,
-
 00:41:01.786 --> 00:41:03.866 A:middle
 an extra for people
 who have this hardware.
@@ -3610,14 +3316,6 @@ multitasking, and some sessions
 that you should see about that,
 and this new Force Touch API.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:56.376 --> 00:42:00.156 A:middle
-that you should see about that,
-and this new Force Touch API.
-
 00:42:01.276 --> 00:42:04.756 A:middle
 For more information,
 documentation is available.
@@ -3675,4 +3373,3 @@ at WWDC this week.
 
 00:42:38.046 --> 00:42:38.266 A:middle
 Thank you.
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.031 --> 00:00:26.031 A:middle
 [ Applause ]
@@ -48,10 +47,6 @@ quickly find the documents
 00:00:57.576 --> 00:00:58.926 A:middle
 that they're interested
 in working on.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.386 --> 00:01:02.036 A:middle
 Second, we're going
@@ -124,14 +119,6 @@ of Garage Band song documents.
 So we would consider all of
 these to be document-based apps.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:55.776 --> 00:02:01.016 A:middle
-So we would consider all of
-these to be document-based apps.
-
 00:02:01.266 --> 00:02:02.626 A:middle
 Now let's get into
 how we're going
@@ -139,7 +126,7 @@ how we're going
 00:02:02.626 --> 00:02:04.956 A:middle
 to build our Document Browser.
 
-00:02:06.486 --> 00:02:09.485 A:middle
+00:02:06.486 --> 00:02:09.486 A:middle
 There are four main components
 of a great Document Browser.
 
@@ -198,14 +185,6 @@ it is a good idea
 00:02:54.996 --> 00:02:58.916 A:middle
 to store a recently accessed
 list of your documents
-
-00:02:58.946 --> 00:03:02.066 A:middle
-so that users can quickly
-get back to the documents
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.946 --> 00:03:02.066 A:middle
 so that users can quickly
@@ -284,14 +263,6 @@ you'll properly pick
 up document one and
 document two here,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.986 --> 00:04:00.166 A:middle
-up document one and
-document two here,
-
 00:04:00.536 --> 00:04:03.486 A:middle
 which are completely downloaded
 to disk in our app's container.
@@ -315,7 +286,7 @@ in another app's container
 but our user has granted our
 app access to that document.
 
-00:04:17.935 --> 00:04:20.796 A:middle
+00:04:17.936 --> 00:04:20.796 A:middle
 So you don't really want to
 use the NSFileManager APIs
 
@@ -364,14 +335,6 @@ granted our app permission
 00:04:52.976 --> 00:04:57.656 A:middle
 to view is still not included
 in the NSMetadataQuery results
-
-00:04:57.686 --> 00:05:00.316 A:middle
-because that would be a
-privacy leak if we showed
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.686 --> 00:05:00.316 A:middle
 because that would be a
@@ -450,14 +413,6 @@ about this document.
 Then you just need to compute
 the animations from the changes,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:57.776 --> 00:06:02.706 A:middle
-Then you just need to compute
-the animations from the changes,
-
 00:06:02.706 --> 00:06:06.746 A:middle
 such as here we may want to
 insert a CollectionView cell
@@ -514,14 +469,6 @@ certain document types
 00:06:54.656 --> 00:06:57.556 A:middle
 that are well-known, such as
 large image files, for example.
-
-00:06:57.556 --> 00:07:02.936 A:middle
-Now let's get into the
-workflow of how you might want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.556 --> 00:07:02.936 A:middle
 Now let's get into the
@@ -602,14 +549,6 @@ the fetch thumbnail job is going
 to finish and then we'll just
 notify our CollectionView
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.446 --> 00:08:03.436 A:middle
-to finish and then we'll just
-notify our CollectionView
-
 00:08:03.436 --> 00:08:05.106 A:middle
 that it needs to
 reload that cell
@@ -677,14 +616,6 @@ Let's take a quick look at this.
 So let's say we store a list
 of NSURLs to our documents
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:56.866 --> 00:09:00.566 A:middle
-So let's say we store a list
-of NSURLs to our documents
-
 00:09:00.566 --> 00:09:02.326 A:middle
 which are the recently
 accessed documents.
@@ -747,10 +678,6 @@ manage our recents list
 00:09:56.506 --> 00:09:57.976 A:middle
 and how to load thumbnails.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:07.156 --> 00:10:07.356 A:middle
 All right.
 
@@ -799,14 +726,6 @@ The important thing here is
 00:10:50.966 --> 00:10:56.936 A:middle
 when we're saving our object
 here we are bookmarking this
-
-00:10:56.936 --> 00:11:00.166 A:middle
-document using the 'bookmark
-data with options' method
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:56.936 --> 00:11:00.166 A:middle
 document using the 'bookmark
@@ -885,10 +804,6 @@ code, which is going
 to cache our thumbnails
 for our app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:01.006 --> 00:12:03.446 A:middle
 It takes care of a lot of
 the heavy lifting for us,
@@ -962,13 +877,6 @@ display our thumbnail even
 00:12:58.476 --> 00:13:00.206 A:middle
 if it is not downloaded yet.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.476 --> 00:13:00.206 A:middle
-if it is not downloaded yet.
-
 00:13:02.116 --> 00:13:05.496 A:middle
 Then all we have
 to do is redeploy
@@ -1031,14 +939,6 @@ learned we want
 00:13:56.306 --> 00:13:58.646 A:middle
 to store our recents list
 using bookmarks as opposed
-
-00:13:58.646 --> 00:14:01.676 A:middle
-to other methods so that
-users can quickly get back
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.646 --> 00:14:01.676 A:middle
 to other methods so that
@@ -1112,14 +1012,6 @@ about here?
 Well, in our new modern
 multitasking-based world we have
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:55.896 --> 00:15:01.646 A:middle
-Well, in our new modern
-multitasking-based world we have
-
 00:15:01.976 --> 00:15:05.126 A:middle
 this concept of multiple
 apps being able to access
@@ -1186,10 +1078,6 @@ so the iCloud Drive daemon wants
 00:15:56.816 --> 00:15:59.436 A:middle
 to make sure that it is
 up-to-date in the cloud.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.416 --> 00:16:06.436 A:middle
 So that's a really common case.
@@ -1261,19 +1149,11 @@ might have a previous reference
 to this document, and will
 now immediately doing state
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.756 --> 00:17:01.596 A:middle
-to this document, and will
-now immediately doing state
-
 00:17:01.596 --> 00:17:05.546 A:middle
 restoration for example, try to
 read this document from disk.
 
-00:17:06.675 --> 00:17:11.036 A:middle
+00:17:06.676 --> 00:17:11.036 A:middle
 Now as you can see here,
 this is a bad situation
 
@@ -1289,11 +1169,11 @@ is writing it.
 Well, that's our
 application actually.
 
-00:17:19.886 --> 00:17:22.705 A:middle
+00:17:19.886 --> 00:17:22.706 A:middle
 So we're going to get this
 inconsistent read which,
 
-00:17:22.705 --> 00:17:24.106 A:middle
+00:17:22.706 --> 00:17:24.106 A:middle
 of course, is very unfortunate.
 
 00:17:24.586 --> 00:17:26.336 A:middle
@@ -1344,14 +1224,6 @@ now still be displaying your
 00:17:54.256 --> 00:17:58.886 A:middle
 document and this document
 is now being displayed
-
-00:17:58.886 --> 00:18:00.996 A:middle
-in an old version in
-the other application,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.886 --> 00:18:00.996 A:middle
 in an old version in
@@ -1426,10 +1298,6 @@ a consistent picture
 00:18:58.726 --> 00:18:59.606 A:middle
 of this document.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.316 --> 00:19:01.136 A:middle
 That's very nice.
 
@@ -1497,14 +1365,6 @@ So let's have a look at that.
 00:19:54.786 --> 00:19:57.566 A:middle
 What are our goals in
 creating these documents?
-
-00:19:57.856 --> 00:20:01.276 A:middle
-Well, let's imagine as
-our sample app implements,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.856 --> 00:20:01.276 A:middle
 Well, let's imagine as
@@ -1579,14 +1439,6 @@ iCloud Drive daemon notices
 that there is a new document
 here and informs our app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.426 --> 00:21:01.886 A:middle
-that there is a new document
-here and informs our app.
-
 00:21:01.886 --> 00:21:06.226 A:middle
 But this delay can be half
 a second or something,
@@ -1645,14 +1497,6 @@ we're writing to disk,
 00:21:53.706 --> 00:21:58.886 A:middle
 we're writing anything to disk,
 it can take a bit of time.
-
-00:21:58.886 --> 00:22:03.156 A:middle
-And of course doing any
-operation that can take a bit
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.886 --> 00:22:03.156 A:middle
 And of course doing any
@@ -1719,10 +1563,6 @@ NSMetadataQuery directly.
 Cool. Now, another common
 operation is deleting a file.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.196 --> 00:23:03.636 A:middle
 That's a totally reasonable
 thing for your user to do.
@@ -1785,14 +1625,6 @@ strongly, strongly suggest
 00:23:52.656 --> 00:23:55.486 A:middle
 that you use UIDocument for
 reading and writing documents.
-
-00:23:56.026 --> 00:24:00.846 A:middle
-UIDocument implements both
-the NSFileCoordination calls
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:56.026 --> 00:24:00.846 A:middle
 UIDocument implements both
@@ -1871,14 +1703,6 @@ read so it is encapsulated
 by this coordinated read,
 meaning it is totally safe
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.306 --> 00:25:01.666 A:middle
-by this coordinated read,
-meaning it is totally safe
-
 00:25:01.666 --> 00:25:03.716 A:middle
 to read anything
 you want in there,
@@ -1939,14 +1763,6 @@ you can go and, for example,
 00:25:53.696 --> 00:25:57.536 A:middle
 push your new interface
 updated for your document.
-
-00:25:59.856 --> 00:26:03.386 A:middle
-Cool. So that's how
-reading a document works.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.856 --> 00:26:03.386 A:middle
 Cool. So that's how
@@ -2014,14 +1830,6 @@ connection and takes a while.
 And so, for you, new in
 iOS 9, we expose a way
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.696 --> 00:27:02.836 A:middle
-And so, for you, new in
-iOS 9, we expose a way
-
 00:27:02.836 --> 00:27:04.606 A:middle
 to display progress
 
@@ -2075,14 +1883,6 @@ that I'm exposing here.'
 00:27:52.986 --> 00:27:55.796 A:middle
 And then you simply
 display this progress.
-
-00:27:56.446 --> 00:28:00.316 A:middle
-Now, displaying a progress on,
-for example, a UIProgress view,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:56.446 --> 00:28:00.316 A:middle
 Now, displaying a progress on,
@@ -2150,14 +1950,6 @@ UIProgress view and get ready
 00:28:54.346 --> 00:28:57.246 A:middle
 for displaying the new
 document controller.
-
-00:28:58.806 --> 00:29:01.676 A:middle
-Cool. So that's reading
-documents.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.806 --> 00:29:01.676 A:middle
 Cool. So that's reading
@@ -2245,14 +2037,6 @@ Very nice.
 There is one additional
 thing here,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.706 --> 00:30:00.536 A:middle
-There is one additional
-thing here,
-
 00:30:00.536 --> 00:30:03.076 A:middle
 and that is that this
 is a convenient time
@@ -2313,14 +2097,6 @@ that's writing your document.
 
 00:30:54.176 --> 00:30:56.346 A:middle
 That means that if the user has
-
-00:30:56.346 --> 00:31:01.936 A:middle
-at this time the Document
-Browser up in a separate pane,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:56.346 --> 00:31:01.936 A:middle
 at this time the Document
@@ -2402,14 +2178,6 @@ Sandbox.
 Now, we relaxed this thing
 a little bit through the use
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.746 --> 00:32:02.676 A:middle
-Now, we relaxed this thing
-a little bit through the use
-
 00:32:02.676 --> 00:32:04.536 A:middle
 of the 'UIDocument
 Menu View Controller,
@@ -2484,14 +2252,6 @@ a great situation.
 Now in iOS 9, we have this
 nice new mechanism called 'Open
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:57.936 --> 00:33:01.386 A:middle
-Now in iOS 9, we have this
-nice new mechanism called 'Open
-
 00:33:01.386 --> 00:33:01.936 A:middle
 in place.'
 
@@ -2560,14 +2320,6 @@ this is very similar
 to the mechanism used by the
 'Document Menu View Controller.'
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.126 --> 00:34:01.826 A:middle
-to the mechanism used by the
-'Document Menu View Controller.'
-
 00:34:02.466 --> 00:34:04.156 A:middle
 That means that if your
 application is already
@@ -2576,22 +2328,22 @@ application is already
 supporting that, it
 is super easy for you
 
-00:34:06.936 --> 00:34:08.565 A:middle
+00:34:06.936 --> 00:34:08.566 A:middle
 to also support this mechanism.
 
 00:34:09.306 --> 00:34:12.646 A:middle
 And even if you're not
 currently supporting the
 
-00:34:12.646 --> 00:34:15.295 A:middle
+00:34:12.646 --> 00:34:15.296 A:middle
 UIMenuViewController,
 it is super easy for you
 
-00:34:15.295 --> 00:34:19.025 A:middle
+00:34:15.296 --> 00:34:19.026 A:middle
 to adopt this, because there
 is really no big magic here.
 
-00:34:19.025 --> 00:34:20.926 A:middle
+00:34:19.026 --> 00:34:20.926 A:middle
 You get a URL and put it
 
 00:34:20.926 --> 00:34:23.696 A:middle
@@ -2617,7 +2369,7 @@ is not actually,
 possibly it may not be launched
 at the time we're trying
 
-00:34:39.216 --> 00:34:42.065 A:middle
+00:34:39.216 --> 00:34:42.066 A:middle
 to figure out whether we want
 to open this file in place.
 
@@ -2625,11 +2377,11 @@ to open this file in place.
 So you have to tell
 us beforehand.
 
-00:34:44.275 --> 00:34:48.786 A:middle
+00:34:44.276 --> 00:34:48.786 A:middle
 And you do that by adopting the
 'LS Supports Opening Documents
 
-00:34:48.786 --> 00:34:50.795 A:middle
+00:34:48.786 --> 00:34:50.796 A:middle
 In Place' key in
 your Info.plist.
 
@@ -2640,14 +2392,6 @@ to yes or true,
 00:34:53.076 --> 00:34:55.206 A:middle
 depending on whether you
 are Objective-C or Swift.
-
-00:34:55.946 --> 00:35:01.476 A:middle
-And that tells us that
-your application is able
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:55.946 --> 00:35:01.476 A:middle
 And that tells us that
@@ -2724,14 +2468,6 @@ options dictionary
 that encapsulates the parameters
 that the previous method has.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:56.996 --> 00:36:01.296 A:middle
-that encapsulates the parameters
-that the previous method has.
-
 00:36:01.916 --> 00:36:05.086 A:middle
 And, importantly, one of
 these parameters is the 'open
@@ -2797,10 +2533,6 @@ these documents in time
 00:36:58.206 --> 00:36:59.746 A:middle
 when changes come
 in from the cloud.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.086 --> 00:37:02.066 A:middle
 We have seen how
@@ -2890,14 +2622,6 @@ basically the application
 that Mike showed you
 previously in the demo.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.436 --> 00:38:01.416 A:middle
-that Mike showed you
-previously in the demo.
-
 00:38:01.906 --> 00:38:03.686 A:middle
 It implements all
 of these features
@@ -2971,10 +2695,6 @@ year, and, of course,
 00:38:58.186 --> 00:38:59.286 A:middle
 that's online as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.056 --> 00:39:01.616 A:middle
 And with that, thank
 you for your time
@@ -2984,4 +2704,3 @@ and have a great afternoon.
 
 00:39:05.516 --> 00:39:16.660 A:middle
 [ Applause ]
-

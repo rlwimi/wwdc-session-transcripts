@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:29.356 --> 00:00:30.286 A:middle
 &gt;&gt; SOPHIA TEUTSCHLER:
@@ -43,10 +42,6 @@ will join us to talk
 
 00:00:57.766 --> 00:00:59.276 A:middle
 about Today Widget enhancements.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.446 --> 00:01:02.546 A:middle
 Throughout the session we
@@ -116,14 +111,6 @@ the opportunity
 00:01:51.856 --> 00:01:54.786 A:middle
 to present additional options
 before you perform that action.
-
-00:01:57.016 --> 00:02:01.476 A:middle
-Also, your application
-functionality can be separated
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:57.016 --> 00:02:01.476 A:middle
 Also, your application
@@ -202,14 +189,6 @@ it's translated and moved back
 into place in Safari So so
 much about Action extensions.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:57.256 --> 00:03:02.986 A:middle
-into place in Safari So so
-much about Action extensions.
-
 00:03:03.036 --> 00:03:05.226 A:middle
 So how are Share
 extensions different?
@@ -277,13 +256,6 @@ photos, and when we tap
 00:03:57.256 --> 00:03:59.096 A:middle
 on the iCloud Photo
 Sharing extension,
-
-00:03:59.096 --> 00:04:01.786 A:middle
-the following will happen.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.096 --> 00:04:01.786 A:middle
 the following will happen.
@@ -357,14 +329,6 @@ on the bottom part.
 Now let's go through some
 examples to build that up.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.166 --> 00:05:02.846 A:middle
-Now let's go through some
-examples to build that up.
-
 00:05:04.606 --> 00:05:07.576 A:middle
 First, to set a place holder,
 
@@ -419,14 +383,6 @@ show up on the sheet.
 00:05:54.366 --> 00:05:57.996 A:middle
 Now, there are these
 options on the bottom.
-
-00:05:59.076 --> 00:06:02.276 A:middle
-Those are simply cells
-with a value on the left,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.076 --> 00:06:02.276 A:middle
 Those are simply cells
@@ -496,10 +452,6 @@ way as the API
 
 00:06:57.066 --> 00:06:59.146 A:middle
 from your navigation controller.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:01.356 --> 00:07:05.676 A:middle
 And then finally,
@@ -577,14 +529,6 @@ controller directly.
 Now, I will just show you how
 to make Action Share extensions.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.346 --> 00:08:00.826 A:middle
-Now, I will just show you how
-to make Action Share extensions.
-
 00:08:01.546 --> 00:08:02.806 A:middle
 Now let's change
 gears a little bit
@@ -626,7 +570,7 @@ as many extensions as possible,
 so a good way would be to offer
 all those three file types.
 
-00:08:36.806 --> 00:08:38.525 A:middle
+00:08:36.806 --> 00:08:38.526 A:middle
 But when you think about that,
 
 00:08:39.046 --> 00:08:41.246 A:middle
@@ -651,13 +595,6 @@ an API called NSItemProvider.
 00:08:55.296 --> 00:08:58.956 A:middle
 In one sentence,
 NSItemProvider is a single item
-
-00:08:59.046 --> 00:09:00.536 A:middle
-with multiple representations.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.046 --> 00:09:00.536 A:middle
 with multiple representations.
@@ -724,14 +661,6 @@ To display Share Sheet,
 00:09:53.506 --> 00:09:55.666 A:middle
 simply create a UI
 activity view controller
-
-00:09:56.306 --> 00:10:01.786 A:middle
-and offer the item provider
-options in the initializer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:56.306 --> 00:10:01.786 A:middle
 and offer the item provider
@@ -814,14 +743,6 @@ with the kind
 of data the host app can
 offer to your extension.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:57.306 --> 00:11:00.126 A:middle
-of data the host app can
-offer to your extension.
-
 00:11:01.556 --> 00:11:04.576 A:middle
 For example, maybe you like
 to have full sharing service,
@@ -894,14 +815,6 @@ is currently not the case
 since in iOS 8 the
 implementation requires
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.856 --> 00:12:02.166 A:middle
-since in iOS 8 the
-implementation requires
-
 00:12:02.276 --> 00:12:07.036 A:middle
 that extension can handle all
 two types of file formats.
@@ -962,14 +875,6 @@ interested in movies or images.
 00:12:54.256 --> 00:12:56.536 A:middle
 Now, those are high-level
 activation rules,
-
-00:12:57.186 --> 00:13:00.546 A:middle
-but we also support activation
-rules that are just predicates.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.186 --> 00:13:00.546 A:middle
 but we also support activation
@@ -1043,13 +948,6 @@ template images work.
 00:13:59.166 --> 00:14:00.976 A:middle
 Think of it as, like, a stencil.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.166 --> 00:14:00.976 A:middle
-Think of it as, like, a stencil.
-
 00:14:02.006 --> 00:14:04.216 A:middle
 A template image is a
 black-and-white representation
@@ -1104,10 +1002,6 @@ about Today Widget enhancements.
 
 00:14:57.326 --> 00:14:59.386 A:middle
 &gt;&gt; IAN BAIRD: Thank you, Sophia.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.376 --> 00:15:04.696 A:middle
 Hi. I'm Ian Baird, CoreOS
@@ -1186,13 +1080,6 @@ Notification Center.
 00:15:57.946 --> 00:16:00.276 A:middle
 It's populated by Today Widgets.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:57.946 --> 00:16:00.276 A:middle
-It's populated by Today Widgets.
-
 00:16:00.856 --> 00:16:03.076 A:middle
 You can scroll it to
 see all of the widgets,
@@ -1258,14 +1145,6 @@ The next thing you want
 00:16:55.246 --> 00:16:59.586 A:middle
 to use is you can use system
 URL schemes, like HTTPS.
-
-00:16:59.586 --> 00:17:03.016 A:middle
-That's going to open
-a webpage in Safari.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:59.586 --> 00:17:03.016 A:middle
 That's going to open
@@ -1344,14 +1223,6 @@ it takes a call-back block,
 and this call-back block
 has one boolean parameter
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:59.176 --> 00:18:02.346 A:middle
-and this call-back block
-has one boolean parameter
-
 00:18:02.486 --> 00:18:04.106 A:middle
 that I am going to tell
 you more about now.
@@ -1414,13 +1285,6 @@ system frameworks.
 00:18:52.776 --> 00:18:58.626 A:middle
 And all of this is neatly
 grouped up into app groups.
-
-00:18:58.776 --> 00:19:00.316 A:middle
-First, user defaults.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.776 --> 00:19:00.316 A:middle
 First, user defaults.
@@ -1500,14 +1364,6 @@ app when you want
 to change these configuration
 items in the defaults.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.456 --> 00:20:01.406 A:middle
-to change these configuration
-items in the defaults.
-
 00:20:02.556 --> 00:20:06.076 A:middle
 The next thing I want to
 talk to you about are things
@@ -1568,14 +1424,6 @@ and the extension can edit it.
 00:20:53.586 --> 00:20:58.976 A:middle
 Next, you can also store
 media, media items like images,
-
-00:20:59.486 --> 00:21:03.826 A:middle
-video clips, audio files, and
-other things that you want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.486 --> 00:21:03.826 A:middle
 video clips, audio files, and
@@ -1647,14 +1495,6 @@ need to do is get an instance
 
 00:21:54.976 --> 00:21:56.306 A:middle
 of the NSFile manager.
-
-00:21:57.216 --> 00:22:01.516 A:middle
-And next, on file manager, we
-are going to call container URL
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.216 --> 00:22:01.516 A:middle
 And next, on file manager, we
@@ -1734,14 +1574,6 @@ it to the caller.
 Lastly, we actually want to set
 up the manage object context,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.246 --> 00:23:03.186 A:middle
-Lastly, we actually want to set
-up the manage object context,
-
 00:23:03.266 --> 00:23:06.366 A:middle
 and we will do this by grabbing
 our persistent store coordinator
@@ -1807,14 +1639,6 @@ very potentially, your extension
 00:23:56.596 --> 00:23:58.696 A:middle
 and your application
 could be attempting
-
-00:23:58.696 --> 00:24:01.126 A:middle
-to simultaneously
-modify these files,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.696 --> 00:24:01.126 A:middle
 to simultaneously
@@ -1894,14 +1718,6 @@ expose the Notification Center
 and then swipes back up to
 dismiss it, we are going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.336 --> 00:25:02.476 A:middle
-and then swipes back up to
-dismiss it, we are going
-
 00:25:02.476 --> 00:25:05.786 A:middle
 to suspend all of the
 extensions in play at that time.
@@ -1974,14 +1790,6 @@ of the protected task.
 The next thing you
 are going to pass
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.666 --> 00:26:02.036 A:middle
-The next thing you
-are going to pass
-
 00:26:02.036 --> 00:26:04.976 A:middle
 to this API is a
 call-back block,
@@ -2044,14 +1852,6 @@ cancel whatever task you have
 00:26:51.976 --> 00:26:56.926 A:middle
 in flight and prepare
 to be suspended.
-
-00:26:57.246 --> 00:27:01.606 A:middle
-Now, when you exit the
-block, we are going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.246 --> 00:27:01.606 A:middle
 Now, when you exit the
@@ -2121,14 +1921,6 @@ this talk about task assertions.
 00:27:56.456 --> 00:27:58.746 A:middle
 The first is that
 they're released
-
-00:27:58.816 --> 00:28:01.206 A:middle
-when your code exits
-the call-back block.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.816 --> 00:28:01.206 A:middle
 when your code exits
@@ -2205,14 +1997,6 @@ to deal with that
 
 00:28:54.406 --> 00:28:55.406 A:middle
 because it will happen.
-
-00:28:57.006 --> 00:29:01.256 A:middle
-Next, these task assertions only
-protect the code in the scope
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.006 --> 00:29:01.256 A:middle
 Next, these task assertions only
@@ -2297,14 +2081,6 @@ your block needs
 to synchronize via dispatch
 sync or dispatch semaphores
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.016 --> 00:30:02.876 A:middle
-to synchronize via dispatch
-sync or dispatch semaphores
-
 00:30:02.876 --> 00:30:06.356 A:middle
 or whatever method you
 choose with the main queue.
@@ -2370,13 +2146,6 @@ we can now run into situations
 00:30:55.906 --> 00:30:59.166 A:middle
 where your extension and the
 containing application are
-
-00:30:59.166 --> 00:31:00.586 A:middle
-running simultaneously.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.166 --> 00:31:00.586 A:middle
 running simultaneously.
@@ -2450,14 +2219,6 @@ get Darwin notify Center.
 00:31:54.956 --> 00:31:58.816 A:middle
 Then you are going to pass this
 notification center instance
-
-00:31:59.116 --> 00:32:01.686 A:middle
-to CFNotificationCenter
-post notification.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.116 --> 00:32:01.686 A:middle
 to CFNotificationCenter
@@ -2537,14 +2298,6 @@ everything stays up-to-date
 and the model inside of
 your extension is reloaded
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.146 --> 00:33:01.836 A:middle
-and the model inside of
-your extension is reloaded
-
 00:33:01.986 --> 00:33:04.296 A:middle
 when the containing app
 passes it this hint.
@@ -2616,14 +2369,6 @@ shows the latest stock prices.
 What happens if, in the course
 of the day, Apple stock changes?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.926 --> 00:34:08.646 A:middle
-What happens if, in the course
-of the day, Apple stock changes?
-
 00:34:09.366 --> 00:34:12.866 A:middle
 Well, this notification
 will probably be emitted
@@ -2643,31 +2388,31 @@ the visual representation
 00:34:23.936 --> 00:34:24.476 A:middle
 of your widget.
 
-00:34:25.906 --> 00:34:29.835 A:middle
+00:34:25.906 --> 00:34:29.836 A:middle
 Unfortunately, we will notice
 here that the widget is now
 
-00:34:29.835 --> 00:34:31.505 A:middle
+00:34:29.836 --> 00:34:31.506 A:middle
 out of sync with
 the stock price.
 
-00:34:31.505 --> 00:34:33.846 A:middle
+00:34:31.506 --> 00:34:33.846 A:middle
 It's showing $130.12.
 
-00:34:33.846 --> 00:34:36.235 A:middle
+00:34:33.846 --> 00:34:36.236 A:middle
 It should be $132.12.
 
-00:34:36.676 --> 00:34:37.835 A:middle
+00:34:36.676 --> 00:34:37.836 A:middle
 So how do we fix this?
 
-00:34:37.976 --> 00:34:40.775 A:middle
+00:34:37.976 --> 00:34:40.776 A:middle
 How do we make sure that
 our visual representation is
 
-00:34:40.835 --> 00:34:41.676 A:middle
+00:34:40.836 --> 00:34:41.676 A:middle
 always up-to-date?
 
-00:34:42.505 --> 00:34:44.696 A:middle
+00:34:42.506 --> 00:34:44.696 A:middle
 Well, for starters,
 the system is going
 
@@ -2683,19 +2428,12 @@ widgets and see if they need
 to be updated without
 having to pull
 
-00:34:52.126 --> 00:34:53.565 A:middle
+00:34:52.126 --> 00:34:53.566 A:middle
 down the Notification Center.
 
 00:34:55.166 --> 00:34:58.906 A:middle
 Each Today Widget view
 controller conforms
-
-00:34:58.906 --> 00:35:00.466 A:middle
-to NC widget providing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.906 --> 00:35:00.466 A:middle
 to NC widget providing.
@@ -2770,14 +2508,6 @@ a visual change,
 
 00:35:55.036 --> 00:35:56.656 A:middle
 we are going to pass new data.
-
-00:35:57.476 --> 00:36:00.016 A:middle
-If there was no material
-change that was going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:57.476 --> 00:36:00.016 A:middle
 If there was no material
@@ -2864,14 +2594,6 @@ So how do we deal with this?
 Well, I'd recommend
 that you take a look
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.416 --> 00:37:01.476 A:middle
-Well, I'd recommend
-that you take a look
-
 00:37:01.476 --> 00:37:04.636 A:middle
 at using NSURLSession
 background sessions.
@@ -2939,14 +2661,6 @@ pattern, you are going to want
 00:37:55.376 --> 00:37:58.426 A:middle
 to create an identifier
 that's going to be used
-
-00:37:58.756 --> 00:38:01.056 A:middle
-by the extension and
-the containing app
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:58.756 --> 00:38:01.056 A:middle
 by the extension and
@@ -3031,14 +2745,6 @@ successfully created an
 NSURLSession in the background
 and handed it off to the system,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.326 --> 00:39:03.186 A:middle
-NSURLSession in the background
-and handed it off to the system,
-
 00:39:03.486 --> 00:39:08.096 A:middle
 and the system will begin to
 deliver events to the extension.
@@ -3100,14 +2806,6 @@ application delegate.
 00:39:54.706 --> 00:39:57.906 A:middle
 Again, just like in the
 extension, we are going to set
-
-00:39:57.906 --> 00:40:00.916 A:middle
-up an NSURLSession
-configuration item
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:57.906 --> 00:40:00.916 A:middle
 up an NSURLSession
@@ -3193,14 +2891,6 @@ dutifully appointed to take care
 of these events, is done
 processing all the URL session
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.436 --> 00:41:04.016 A:middle
-of these events, is done
-processing all the URL session
-
 00:41:04.166 --> 00:41:06.296 A:middle
 events from the background
 URL session.
@@ -3278,14 +2968,6 @@ task assertions
 to protect these small tasks,
 and you can find out more
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:57.626 --> 00:42:01.276 A:middle
-to protect these small tasks,
-and you can find out more
-
 00:42:01.276 --> 00:42:04.816 A:middle
 about it by going to
 WatchKit Tips and Tricks
@@ -3342,14 +3024,6 @@ app and its extensions,
 00:42:52.586 --> 00:42:56.556 A:middle
 you simply pass this identifier
 as the value for the k --
-
-00:42:56.626 --> 00:43:01.256 A:middle
-access group key whenever you
-add items to the Keychain.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:56.626 --> 00:43:01.256 A:middle
 access group key whenever you
@@ -3421,14 +3095,6 @@ with your app and the web.
 She also showed you how
 to use NS item provider
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:58.806 --> 00:44:02.156 A:middle
-She also showed you how
-to use NS item provider
-
 00:44:02.506 --> 00:44:04.896 A:middle
 to its fullest possible
 extent and how
@@ -3491,14 +3157,6 @@ we'd recommend that you go
 to the App Extension
 Programming Guide or talk
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.016 --> 00:45:01.906 A:middle
-to the App Extension
-Programming Guide or talk
-
 00:45:02.016 --> 00:45:04.656 A:middle
 to our Evangelist, Curt Rothert.
 
@@ -3507,4 +3165,3 @@ Thanks.
 
 00:45:09.516 --> 00:45:12.500 A:middle
 [ Applause ]
-

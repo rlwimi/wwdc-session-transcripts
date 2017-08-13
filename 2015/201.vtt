@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:20.276 --> 00:00:23.116 A:middle
 &gt;&gt; IAN FISCH: Good morning, and
@@ -16,7 +15,7 @@ on the Accessibility team.
 So accessibility is really
 about making sure all users,
 
-00:00:32.195 --> 00:00:34.916 A:middle
+00:00:32.196 --> 00:00:34.916 A:middle
 regardless of abilities,
 have full access to all
 
@@ -50,14 +49,6 @@ to her head which allows her
 00:00:55.106 --> 00:00:57.646 A:middle
 to control all of iOS,
 with just that one button.
-
-00:00:57.646 --> 00:01:01.016 A:middle
-And that gives her the
-freedom to communicate and play
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.646 --> 00:01:01.016 A:middle
 And that gives her the
@@ -141,14 +132,6 @@ features that Apple provides.
 We break those into four large
 areas: hearing, learning,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:56.136 --> 00:02:00.516 A:middle
-We break those into four large
-areas: hearing, learning,
-
 00:02:01.386 --> 00:02:03.626 A:middle
 vision, and physical and motor.
 
@@ -156,7 +139,7 @@ vision, and physical and motor.
 So I will go through just a few
 of the features that we have,
 
-00:02:06.676 --> 00:02:10.985 A:middle
+00:02:06.676 --> 00:02:10.986 A:middle
 but there are many more I don't
 have time to talk about today.
 
@@ -216,14 +199,6 @@ an API that allows you
 00:02:54.056 --> 00:02:57.506 A:middle
 to provide specific
 restrictions for your app.
-
-00:02:58.876 --> 00:03:03.316 A:middle
-For vision, we have
-VoiceOver, which lets blind
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.876 --> 00:03:03.316 A:middle
 For vision, we have
@@ -308,14 +283,6 @@ not be able to fully interact
 with the touchscreen,
 and it allows them
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.296 --> 00:04:01.626 A:middle
-with the touchscreen,
-and it allows them
-
 00:04:01.626 --> 00:04:04.076 A:middle
 to sequentially navigate
 the items on screen
@@ -332,14 +299,14 @@ performing gestures
 or pressing a physical
 button, we have AssistiveTouch,
 
-00:04:16.416 --> 00:04:19.375 A:middle
+00:04:16.416 --> 00:04:19.376 A:middle
 which provides a menu to
 quickly access recorded gestures
 
-00:04:19.935 --> 00:04:21.065 A:middle
+00:04:19.936 --> 00:04:21.066 A:middle
 and hardware buttons.
 
-00:04:21.065 --> 00:04:21.726 A:middle
+00:04:21.066 --> 00:04:21.726 A:middle
 And this even works
 
 00:04:21.726 --> 00:04:24.376 A:middle
@@ -388,14 +355,6 @@ got three options.
 
 00:04:56.006 --> 00:04:57.366 A:middle
 Let's look at Hold Duration.
-
-00:04:58.196 --> 00:05:02.936 A:middle
-And this allows people
-who may have tremors
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.196 --> 00:05:02.936 A:middle
 And this allows people
@@ -457,14 +416,6 @@ that they are looking for.
 00:05:54.146 --> 00:05:56.256 A:middle
 So if we go back
 to the Home screen,
-
-00:05:57.236 --> 00:06:02.306 A:middle
-you can see that if I press on
-Clock and then move to Calendar,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:57.236 --> 00:06:02.306 A:middle
 you can see that if I press on
@@ -534,14 +485,6 @@ actions -- move, pass and trade,
 
 00:06:56.996 --> 00:06:57.916 A:middle
 if it's a game app, maybe --
-
-00:06:57.916 --> 00:07:00.246 A:middle
-it will display those in
-the Switch Control menu
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.916 --> 00:07:00.246 A:middle
 it will display those in
@@ -632,14 +575,6 @@ uses to read
 to the user what's
 under their finger.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.976 --> 00:08:00.606 A:middle
-to the user what's
-under their finger.
-
 00:08:01.386 --> 00:08:05.586 A:middle
 If we look at the Plus
 button, you might be tempted
@@ -675,18 +610,18 @@ describing to the user
 and the assistive technology
 how they can interact
 
-00:08:32.696 --> 00:08:33.275 A:middle
+00:08:32.696 --> 00:08:33.276 A:middle
 with an element.
 
-00:08:33.645 --> 00:08:35.696 A:middle
+00:08:33.646 --> 00:08:35.696 A:middle
 So we answer that with
 Accessibility Traits.
 
-00:08:35.946 --> 00:08:38.905 A:middle
+00:08:35.946 --> 00:08:38.906 A:middle
 So we have a whole host
 of traits that you can set
 
-00:08:38.905 --> 00:08:42.056 A:middle
+00:08:38.906 --> 00:08:42.056 A:middle
 on elements that describe
 how to interact with them.
 
@@ -709,14 +644,6 @@ What's my value?
 00:08:56.716 --> 00:08:59.666 A:middle
 So if an element has a state
 that changes frequently
-
-00:08:59.666 --> 00:09:02.506 A:middle
-over its life, we would
-change that or update
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.666 --> 00:09:02.506 A:middle
 over its life, we would
@@ -798,14 +725,6 @@ to display that cursor.
 So we answer that with
 Accessibility Frame.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.036 --> 00:10:00.026 A:middle
-So we answer that with
-Accessibility Frame.
-
 00:10:01.116 --> 00:10:03.766 A:middle
 And that's how we draw the
 beautiful cursor we see here.
@@ -878,14 +797,6 @@ how to interact with your app.
 00:10:54.456 --> 00:10:57.136 A:middle
 So just that really
 small investment
-
-00:10:57.446 --> 00:11:00.266 A:middle
-of those six methods will
-give you a large reward
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.446 --> 00:11:00.266 A:middle
 of those six methods will
@@ -973,14 +884,6 @@ brings up this beautiful window
 that answers those six questions
 we have been talking about.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.956 --> 00:12:01.206 A:middle
-that answers those six questions
-we have been talking about.
-
 00:12:01.566 --> 00:12:04.066 A:middle
 So you can quickly spot check
 the elements in your app
@@ -1051,13 +954,6 @@ what's under my finger.
 00:12:56.506 --> 00:12:59.606 A:middle
 &gt;&gt; VOICEOVER: weather, clock,
 map, videos, wallet, stocks,
-
-00:12:59.666 --> 00:13:01.266 A:middle
-reminders, two tasks due today.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.666 --> 00:13:01.266 A:middle
 reminders, two tasks due today.
@@ -1137,10 +1033,6 @@ tap to open.
 00:13:58.426 --> 00:13:59.716 A:middle
 &gt;&gt; VOICEOVER: Clock,
 edit, button.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.636 --> 00:14:02.586 A:middle
 &gt;&gt; IAN FISCH: When you are doing
@@ -1238,14 +1130,6 @@ or at least on this screen,
 everything has a label,
 a meaningful value.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.506 --> 00:15:02.226 A:middle
-everything has a label,
-a meaningful value.
-
 00:15:02.226 --> 00:15:03.486 A:middle
 The traits are set properly.
 
@@ -1329,14 +1213,6 @@ more information.
 I can tap and hold on a set
 of earthquakes to add them
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:57.986 --> 00:16:04.746 A:middle
-I can tap and hold on a set
-of earthquakes to add them
-
 00:16:04.746 --> 00:16:07.116 A:middle
 to my favorite list
 and even compare them.
@@ -1413,14 +1289,6 @@ That's no good.
 Let's go into the
 favorites, look at that graph.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.916 --> 00:17:00.396 A:middle
-Let's go into the
-favorites, look at that graph.
-
 00:17:01.516 --> 00:17:04.556 A:middle
 [Tapping noise]
 
@@ -1432,11 +1300,11 @@ graph isn't accessible either.
 That's unfortunate,
 such a beautiful graph.
 
-00:17:11.455 --> 00:17:15.425 A:middle
+00:17:11.456 --> 00:17:15.426 A:middle
 So there is one more
 gesture that might help you
 
-00:17:15.425 --> 00:17:18.906 A:middle
+00:17:15.426 --> 00:17:18.906 A:middle
 as you are looking at your app,
 if you do a double tap and hold,
 
@@ -1452,7 +1320,7 @@ is under your finger.
 So even though the
 cell isn't accessible,
 
-00:17:27.435 --> 00:17:29.046 A:middle
+00:17:27.436 --> 00:17:29.046 A:middle
 we can jump in and --
 
 00:17:29.046 --> 00:17:31.586 A:middle
@@ -1503,14 +1371,6 @@ Info button isn't accessible,
 00:17:58.136 --> 00:17:59.516 A:middle
 so VoiceOver just
 doesn't see it.
-
-00:17:59.916 --> 00:18:04.556 A:middle
-So it's not very accessible
-to a VoiceOver user.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.916 --> 00:18:04.556 A:middle
 So it's not very accessible
@@ -1586,14 +1446,6 @@ So that's no good.
 But the great news is those six
 methods we have been talking
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.256 --> 00:19:00.836 A:middle
-But the great news is those six
-methods we have been talking
-
 00:19:00.836 --> 00:19:03.526 A:middle
 about so far are enough
 to fix all of these issues
@@ -1663,14 +1515,6 @@ not accessible.
 00:19:53.606 --> 00:19:58.546 A:middle
 And then I'm grabbing
 the alert color and using
-
-00:19:58.546 --> 00:20:01.656 A:middle
-that as the text color
-for all of these strings.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.546 --> 00:20:01.656 A:middle
 that as the text color
@@ -1751,14 +1595,6 @@ Okay. Great!
 The only other thing
 we might want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.416 --> 00:21:00.986 A:middle
-The only other thing
-we might want
-
 00:21:00.986 --> 00:21:03.776 A:middle
 to add is a value
 for that favorite.
@@ -1821,14 +1657,6 @@ button, set Is Accessibility
 00:21:54.786 --> 00:21:58.716 A:middle
 to Yes, add the Button trait,
 and then we'll set the label
-
-00:21:58.716 --> 00:22:01.316 A:middle
-to More Info and the
-hint to Double-Tap
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.716 --> 00:22:01.316 A:middle
 to More Info and the
@@ -1906,13 +1734,6 @@ finger and see what happens.
 00:22:55.286 --> 00:22:57.666 A:middle
 &gt;&gt; VOICEOVER: Favorites,
 button, 12 kilometers,
-
-00:22:57.936 --> 00:23:02.436 A:middle
-Oklahoma, 2015, 10:57 a.m.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.936 --> 00:23:02.436 A:middle
 Oklahoma, 2015, 10:57 a.m.
@@ -2009,13 +1830,6 @@ by headings if they like.
 00:23:59.026 --> 00:24:00.836 A:middle
 That Info button it accessible.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.026 --> 00:24:00.836 A:middle
-That Info button it accessible.
-
 00:24:01.076 --> 00:24:05.286 A:middle
 We still need a way to add
 something to the favorite list,
@@ -2087,14 +1901,6 @@ good idea, but if you look
 00:24:55.696 --> 00:24:59.066 A:middle
 at the view as a whole,
 most of it isn't accessible.
-
-00:24:59.946 --> 00:25:03.806 A:middle
-So most of it is
-just dead space,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.946 --> 00:25:03.806 A:middle
 So most of it is
@@ -2173,14 +1979,6 @@ six questions we have been
 
 00:25:57.186 --> 00:25:57.826 A:middle
 talking about.
-
-00:25:58.486 --> 00:26:01.266 A:middle
-The only new part is the
-accessibility container,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.486 --> 00:26:01.266 A:middle
 The only new part is the
@@ -2269,14 +2067,6 @@ provide a notification
 that will tell you the
 currently focused element
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.536 --> 00:27:02.216 A:middle
-that will tell you the
-currently focused element
-
 00:27:02.406 --> 00:27:03.706 A:middle
 and the previously
 focused element
@@ -2343,13 +2133,6 @@ whatever that may be.
 00:27:54.856 --> 00:27:59.186 A:middle
 So that will allow us to add
 something to the favorite list.
-
-00:27:59.616 --> 00:28:01.456 A:middle
-Now, let's look at the graph.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.616 --> 00:28:01.456 A:middle
 Now, let's look at the graph.
@@ -2421,14 +2204,6 @@ frame after converting it
 
 00:28:56.306 --> 00:28:57.676 A:middle
 to screen coordinates.
-
-00:28:58.496 --> 00:29:03.576 A:middle
-And finally add that to
-an array that I had ready,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.496 --> 00:29:03.576 A:middle
 And finally add that to
@@ -2518,14 +2293,6 @@ Three should be enough.
 &gt;&gt; VOICEOVER: Detail,
 back button.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.906 --> 00:30:00.206 A:middle
-&gt;&gt; VOICEOVER: Detail,
-back button.
-
 00:30:01.466 --> 00:30:02.366 A:middle
 &gt;&gt; IAN FISCH: Let's
 see what happens
@@ -2601,14 +2368,6 @@ that was completely unusable
 00:30:55.816 --> 00:30:59.526 A:middle
 for VoiceOver users and make
 it probably the most accessible
-
-00:30:59.526 --> 00:31:01.496 A:middle
-earthquake tracking
-app out there.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.526 --> 00:31:01.496 A:middle
 earthquake tracking
@@ -2697,14 +2456,6 @@ go through an audit of your app
 and see how accessible
 it is already.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.836 --> 00:32:01.566 A:middle
-and see how accessible
-it is already.
-
 00:32:02.876 --> 00:32:04.126 A:middle
 So we look forward to
 seeing everyone there.
@@ -2714,4 +2465,3 @@ Thanks, have a great conference.
 
 00:32:07.508 --> 00:32:09.508 A:middle
 [Applause]
-

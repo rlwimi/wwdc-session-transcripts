@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.516 --> 00:00:31.546 A:middle
 [ Applause ]
@@ -29,14 +28,6 @@ clock face alongside the time.
 00:00:54.226 --> 00:00:58.406 A:middle
 On these clock faces you see
 here, if we remove the time
-
-00:00:58.406 --> 00:01:03.266 A:middle
-from the equation, everything
-left is a complication.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.406 --> 00:01:03.266 A:middle
 from the equation, everything
@@ -89,14 +80,6 @@ different complications,
 00:01:52.756 --> 00:01:58.526 A:middle
 and turning the Digital
 Crown allows you to pick one.
-
-00:01:58.816 --> 00:02:00.806 A:middle
-So if we scroll all the
-way to the end of the list,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.816 --> 00:02:00.806 A:middle
 So if we scroll all the
@@ -160,14 +143,6 @@ actually draw it in a way
 00:02:51.426 --> 00:02:56.426 A:middle
 that fits with the
 rest of the face.
-
-00:02:56.426 --> 00:03:01.806 A:middle
-So if I were to install this
-complication on my watch,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.426 --> 00:03:01.806 A:middle
 So if I were to install this
@@ -243,14 +218,6 @@ timeline in advance.
 So you will give us
 a timeline of data,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.726 --> 00:04:00.966 A:middle
-So you will give us
-a timeline of data,
-
 00:04:02.326 --> 00:04:04.956 A:middle
 how much of the timeline
 depends on the density
@@ -319,14 +286,6 @@ with this complication,
 there is no extra work
 that you had to do
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.336 --> 00:05:01.686 A:middle
-there is no extra work
-that you had to do
-
 00:05:01.686 --> 00:05:03.056 A:middle
 in order to make this happen.
 
@@ -384,14 +343,6 @@ that you want to support.
 00:05:54.316 --> 00:05:57.436 A:middle
 So now what are these
 families of complication?
-
-00:05:59.356 --> 00:06:03.826 A:middle
-Complications on watchOS
-look different ways
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.356 --> 00:06:03.826 A:middle
 Complications on watchOS
@@ -457,14 +408,6 @@ which kind of fit in the corners
 00:06:54.916 --> 00:06:58.266 A:middle
 of various analog faces and
 then there is UtilitarianLarge
-
-00:06:58.536 --> 00:07:02.566 A:middle
-which gets the entire
-region along the bottom.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.536 --> 00:07:02.566 A:middle
 which gets the entire
@@ -544,14 +487,6 @@ we have these templates.
 There is a whole bunch
 of different ones.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.336 --> 00:08:02.186 A:middle
-There is a whole bunch
-of different ones.
-
 00:08:02.186 --> 00:08:06.416 A:middle
 You can have small text, two
 different rows of text, an image
@@ -587,15 +522,15 @@ show a sports score.
 00:08:30.486 --> 00:08:32.986 A:middle
 ModularLarge also has a number
 
-00:08:32.986 --> 00:08:35.395 A:middle
+00:08:32.986 --> 00:08:35.396 A:middle
 of different ways you
 can layout your data.
 
-00:08:35.395 --> 00:08:39.096 A:middle
+00:08:35.396 --> 00:08:39.096 A:middle
 There is a simple standard
 three-line template
 
-00:08:39.546 --> 00:08:40.785 A:middle
+00:08:39.546 --> 00:08:40.786 A:middle
 with an optional image.
 
 00:08:41.836 --> 00:08:43.706 A:middle
@@ -617,14 +552,6 @@ something like a kitchen timer
 00:08:52.616 --> 00:08:58.166 A:middle
 or a date, many other possible
 things you could do with that.
-
-00:08:58.276 --> 00:09:01.976 A:middle
-UtilitarianSmall, most
-of these guys are flat
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.276 --> 00:09:01.976 A:middle
 UtilitarianSmall, most
@@ -692,14 +619,6 @@ Header text.
 00:09:51.136 --> 00:09:58.716 A:middle
 And then there is two
 lines of body text.
-
-00:09:58.776 --> 00:10:00.966 A:middle
-So you may have noticed
-that there is a lot
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.776 --> 00:10:00.966 A:middle
 So you may have noticed
@@ -792,14 +711,6 @@ strange here.
 We have an image and three
 text properties but instead
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.096 --> 00:11:01.616 A:middle
-We have an image and three
-text properties but instead
-
 00:11:01.616 --> 00:11:05.056 A:middle
 of UI images and
 NSStrings in the code,
@@ -867,14 +778,6 @@ selected for their face.
 00:11:54.196 --> 00:11:58.216 A:middle
 So they need to be able to
 change color as you see.
-
-00:11:58.826 --> 00:12:02.986 A:middle
-So there is our soccer ball
-obediently turning whatever
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.826 --> 00:12:02.986 A:middle
 So there is our soccer ball
@@ -959,14 +862,6 @@ You give us a background image.
 You give us an optional
 foreground image.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.476 --> 00:13:00.436 A:middle
-You give us an optional
-foreground image.
-
 00:13:00.956 --> 00:13:06.966 A:middle
 You can choose a background
 color for your background image.
@@ -1034,14 +929,6 @@ are used to creating
 
 00:13:57.656 --> 00:13:58.786 A:middle
 for all of our platforms.
-
-00:13:58.786 --> 00:14:04.156 A:middle
-Some of them are as small as 44
-pixels square, and we are trying
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.786 --> 00:14:04.156 A:middle
 Some of them are as small as 44
@@ -1117,14 +1004,6 @@ of your complications.
 Now, space is really
 constrained so pretty much
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.926 --> 00:15:03.936 A:middle
-Now, space is really
-constrained so pretty much
-
 00:15:03.936 --> 00:15:07.326 A:middle
 in most contexts you are
 more likely to see something
@@ -1187,14 +1066,6 @@ provider will do for you.
 00:15:55.186 --> 00:15:57.716 A:middle
 You have a date you
 want to display,
-
-00:15:58.196 --> 00:16:00.916 A:middle
-you have units you would
-ideally like to display,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.196 --> 00:16:00.916 A:middle
 you have units you would
@@ -1276,14 +1147,6 @@ likely to use most
 of the time is the simple
 text provider this allows you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.756 --> 00:17:01.316 A:middle
-of the time is the simple
-text provider this allows you
-
 00:17:01.656 --> 00:17:04.276 A:middle
 to provide arbitrary text.
 
@@ -1310,11 +1173,11 @@ There is a time text provider
 which formats times
 for you nicely.
 
-00:17:23.146 --> 00:17:25.685 A:middle
+00:17:23.146 --> 00:17:25.686 A:middle
 You get the nice small caps that
 match the rest of the system
 
-00:17:25.685 --> 00:17:27.266 A:middle
+00:17:25.686 --> 00:17:27.266 A:middle
 and will drop the a.m.
 
 00:17:27.266 --> 00:17:29.916 A:middle
@@ -1356,13 +1219,6 @@ is in the afternoon.
 00:17:56.326 --> 00:17:59.396 A:middle
 If they are both in the
 afternoon, it's smart,
-
-00:17:59.396 --> 00:18:01.096 A:middle
-and it drops the redundant a.m.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.396 --> 00:18:01.096 A:middle
 and it drops the redundant a.m.
@@ -1430,10 +1286,6 @@ and so on.
 00:18:55.866 --> 00:18:59.486 A:middle
 Now, imagine if you
 were creating a timeline
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.436 --> 00:19:01.916 A:middle
 to populate this complication.
@@ -1513,14 +1365,6 @@ date text provider does.
 00:19:54.106 --> 00:19:58.006 A:middle
 Here is what it looks like
 in code if we were trying
-
-00:19:58.006 --> 00:20:00.926 A:middle
-to produce the third line
-of text that you see here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.006 --> 00:20:00.926 A:middle
 to produce the third line
@@ -1611,14 +1455,6 @@ the date you want to display,
 we can show weeks and days,
 months and years, so on,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:57.996 --> 00:21:01.256 A:middle
-we can show weeks and days,
-months and years, so on,
-
 00:21:01.776 --> 00:21:03.026 A:middle
 all the way down to seconds.
 
@@ -1696,14 +1532,6 @@ the form of a timeline.
 00:21:55.296 --> 00:21:56.626 A:middle
 This helps to support
 two things:
-
-00:21:57.106 --> 00:22:00.376 A:middle
-the brand-new Time Travel
-feature and we are going to able
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.106 --> 00:22:00.376 A:middle
 the brand-new Time Travel
@@ -1811,14 +1639,6 @@ the Time Travel feature.
 As the user navigates throughout
 the day we will show the most
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.666 --> 00:23:02.646 A:middle
-As the user navigates throughout
-the day we will show the most
-
 00:23:02.646 --> 00:23:04.786 A:middle
 recent data available at
 that point in your timeline.
@@ -1908,13 +1728,6 @@ we get closer and closer
 00:23:56.786 --> 00:23:58.996 A:middle
 to 4:00 p.m. I have
 no idea I need to get
-
-00:23:58.996 --> 00:24:00.116 A:middle
-into my car and get a haircut.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.996 --> 00:24:00.116 A:middle
 into my car and get a haircut.
@@ -2015,14 +1828,6 @@ miss any events
 and when we are done watching
 a movie we can go home
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.396 --> 00:25:01.936 A:middle
-and when we are done watching
-a movie we can go home
-
 00:25:01.936 --> 00:25:06.856 A:middle
 with knowing we didn't
 miss out on anything else.
@@ -2099,14 +1904,6 @@ during setting up your project.
 00:25:56.076 --> 00:25:58.036 A:middle
 There are a bunch of callbacks
 you will get on the object.
-
-00:25:58.906 --> 00:26:00.536 A:middle
-They are generally
-per complication.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.906 --> 00:26:00.536 A:middle
 They are generally
@@ -2205,14 +2002,6 @@ are going to ask you
 which timeline entry should
 we be displaying right now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.746 --> 00:27:03.626 A:middle
-which timeline entry should
-we be displaying right now.
-
 00:27:04.686 --> 00:27:07.736 A:middle
 So you will package up a
 timeline entry and send it
@@ -2304,13 +2093,6 @@ out your timeline
 00:27:58.976 --> 00:28:00.576 A:middle
 to the future and the past.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.976 --> 00:28:00.576 A:middle
-to the future and the past.
-
 00:28:00.576 --> 00:28:01.756 A:middle
 Let's start looking
 to the future.
@@ -2398,14 +2180,6 @@ we might have
 00:28:54.186 --> 00:28:55.406 A:middle
 to query you again
 in the future.
-
-00:28:56.046 --> 00:29:00.276 A:middle
-So the future we are calling
-here is getTimelineEntries
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:56.046 --> 00:29:00.276 A:middle
 So the future we are calling
@@ -2510,14 +2284,6 @@ into the future for that.
 So we will ask you on setup
 which directions you support.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.366 --> 00:30:02.096 A:middle
-So we will ask you on setup
-which directions you support.
-
 00:30:03.096 --> 00:30:05.946 A:middle
 So for the case of our
 weather complication,
@@ -2607,14 +2373,6 @@ forward and backward.
 
 00:30:55.066 --> 00:30:57.996 A:middle
 So the function we will call
-
-00:30:57.996 --> 00:31:01.016 A:middle
-to get this information during
-setup is getSupportedTimeTravel
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.996 --> 00:31:01.016 A:middle
 to get this information during
@@ -2711,10 +2469,6 @@ to the past, similarly,
 00:31:55.176 --> 00:31:57.226 A:middle
 you can provide us another
 NSDate to this question
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:01.076 --> 00:32:02.326 A:middle
 and we will adjust accordingly.
@@ -2813,10 +2567,6 @@ select our complication.
 After they select
 the complication,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.416 --> 00:33:02.376 A:middle
 go back to the switcher
 and back to the live face.
@@ -2907,10 +2657,6 @@ up to give you a demo of how
 to construct this
 in code [applause].
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.676 --> 00:34:00.976 A:middle
 &gt;&gt; ELIZA BLOCK: Okay.
 
@@ -2921,7 +2667,7 @@ So I have got a project here
 that I haven't done
 very much to yet.
 
-00:34:06.046 --> 00:34:08.025 A:middle
+00:34:06.046 --> 00:34:08.026 A:middle
 We are going to actually
 build the complication
 
@@ -2932,7 +2678,7 @@ showing you pictures
 00:34:09.516 --> 00:34:12.656 A:middle
 of throughout the session.
 
-00:34:12.735 --> 00:34:16.226 A:middle
+00:34:12.736 --> 00:34:16.226 A:middle
 So let me just show you a
 little bit about what's going
 
@@ -2947,24 +2693,24 @@ dragged a couple resources in,
 including a model that
 I had previously written
 
-00:34:22.585 --> 00:34:24.176 A:middle
+00:34:22.586 --> 00:34:24.176 A:middle
 to provide this schedule.
 
-00:34:25.525 --> 00:34:32.016 A:middle
+00:34:25.526 --> 00:34:32.016 A:middle
 And I configured it to work with
 complications, so if I navigate
 
 00:34:32.016 --> 00:34:34.856 A:middle
 over here to my -- oops!
 
-00:34:38.315 --> 00:34:41.056 A:middle
+00:34:38.316 --> 00:34:41.056 A:middle
 General settings for
 my Watch extension.
 
 00:34:41.056 --> 00:34:41.866 A:middle
 There it is.
 
-00:34:42.545 --> 00:34:44.315 A:middle
+00:34:42.546 --> 00:34:44.316 A:middle
 If I zoom in, you
 can see at the top
 
@@ -2972,7 +2718,7 @@ can see at the top
 that I have got my
 dataSource class.
 
-00:34:47.045 --> 00:34:48.946 A:middle
+00:34:47.046 --> 00:34:48.946 A:middle
 It looks a little ugly
 in Xcode at the moment
 
@@ -2990,14 +2736,6 @@ now, unchecked all
 00:34:55.706 --> 00:34:58.896 A:middle
 of the supported families
 except for ModularLarge just
-
-00:34:58.936 --> 00:35:00.916 A:middle
-to make things simpler in
-the demo we will just focus
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.936 --> 00:35:00.916 A:middle
 to make things simpler in
@@ -3089,14 +2827,6 @@ in the slides.
 So I'm going to remove the
 boilerplate that Xcode provided.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.116 --> 00:36:03.546 A:middle
-So I'm going to remove the
-boilerplate that Xcode provided.
-
 00:36:03.986 --> 00:36:09.016 A:middle
 And we are going to make an
 actual complication template
@@ -3158,14 +2888,6 @@ properly colorized.
 
 00:36:54.036 --> 00:36:58.236 A:middle
 Okay. So there is our image
-
-00:36:59.166 --> 00:37:02.236 A:middle
-and we also need to
-provide some text.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.166 --> 00:37:02.236 A:middle
 and we also need to
@@ -3245,14 +2967,6 @@ I'm going to do first --
 as Paul mentioned we only call
 this placeholder template method
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:56.016 --> 00:38:00.436 A:middle
-as Paul mentioned we only call
-this placeholder template method
-
 00:38:00.436 --> 00:38:03.026 A:middle
 once, when your app
 is first installed,
@@ -3299,14 +3013,6 @@ there and then -- all right.
 
 00:38:56.176 --> 00:38:59.456 A:middle
 We will add it back in.
-
-00:38:59.956 --> 00:39:14.486 A:middle
-And let's try this
-one more time.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:59.956 --> 00:39:14.486 A:middle
 And let's try this
@@ -3382,14 +3088,6 @@ my model in Objective-C.
 00:39:57.716 --> 00:39:59.826 A:middle
 You can mix and match
 Objective-C and Swift
-
-00:39:59.826 --> 00:40:03.766 A:middle
-in projects so you can take
-code written in an existing app
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:59.826 --> 00:40:03.766 A:middle
 in projects so you can take
@@ -3472,14 +3170,6 @@ our template actually look like?
 And for that, I'm
 going to write a method
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:57.906 --> 00:41:00.746 A:middle
-And for that, I'm
-going to write a method
-
 00:41:00.746 --> 00:41:03.556 A:middle
 that takes a soccer match
 
@@ -3543,14 +3233,6 @@ So now we have got a template.
 00:41:56.906 --> 00:41:58.506 A:middle
 We also have to decide
 how we are going
-
-00:41:58.506 --> 00:42:00.656 A:middle
-to arrange these
-templates on our timeline.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:58.506 --> 00:42:00.656 A:middle
 to arrange these
@@ -3637,14 +3319,6 @@ appear on the timeline.
 So what we will do is we
 will say, okay, match,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:58.956 --> 00:43:04.646 A:middle
-So what we will do is we
-will say, okay, match,
-
 00:43:04.836 --> 00:43:06.146 A:middle
 what match is before you?
 
@@ -3711,14 +3385,6 @@ getSupportedTimeTravel
 
 00:43:54.286 --> 00:43:55.706 A:middle
 DirectionsForComplication.
-
-00:43:56.286 --> 00:44:00.066 A:middle
-The default Xcode
-template here is saying
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:56.286 --> 00:44:00.066 A:middle
 The default Xcode
@@ -3810,14 +3476,6 @@ any way sensitive.
 So when your user's Watch
 is locked, you don't want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.596 --> 00:45:01.416 A:middle
-So when your user's Watch
-is locked, you don't want
-
 00:45:01.416 --> 00:45:03.056 A:middle
 to be showing sensitive
 data on the screen
@@ -3898,14 +3556,6 @@ into the future from there.
 My strategy is going
 to be to make an array,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:58.546 --> 00:46:00.916 A:middle
-My strategy is going
-to be to make an array,
-
 00:46:01.436 --> 00:46:04.396 A:middle
 and arrange to call the
 handler when we are done.
@@ -3968,14 +3618,6 @@ that match at.
 00:46:56.776 --> 00:46:59.226 A:middle
 That's the timeline entry date
 for this particular match.
-
-00:46:59.766 --> 00:47:04.856 A:middle
-And now we are going to compare
-that to the date we were given,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:59.766 --> 00:47:04.856 A:middle
 And now we are going to compare
@@ -4063,14 +3705,6 @@ that we just dealt with.
 So that's going to populate the
 next N entries in the timeline
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.886 --> 00:48:05.886 A:middle
-So that's going to populate the
-next N entries in the timeline
-
 00:48:05.966 --> 00:48:07.056 A:middle
 after the date that
 we were given,
@@ -4134,14 +3768,6 @@ ascending to order descending.
 
 00:48:56.276 --> 00:48:58.396 A:middle
 That's our extension methods.
-
-00:48:58.596 --> 00:49:03.506 A:middle
-The last thing we need to write
-is the getCurrentTimelineEntry
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:58.596 --> 00:49:03.506 A:middle
 The last thing we need to write
@@ -4211,14 +3837,6 @@ it and then switch quickly
 00:49:54.966 --> 00:49:57.296 A:middle
 over to the simulator, which
 as you can see is still running
-
-00:49:57.296 --> 00:50:02.026 A:middle
-here and still showing us
-the placeholder template we
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:57.296 --> 00:50:02.026 A:middle
 here and still showing us
@@ -4302,14 +3920,6 @@ Our Time Travel is working.
 All we had to do
 was basically fill
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:58.476 --> 00:51:00.686 A:middle
-All we had to do
-was basically fill
-
 00:51:00.686 --> 00:51:02.806 A:middle
 out the three most
 important methods
@@ -4379,13 +3989,6 @@ complication timeline built up
 00:51:55.936 --> 00:51:57.606 A:middle
 and we go out and talk
 to our web services
-
-00:51:57.606 --> 00:52:00.306 A:middle
-and get a new piece of data.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:57.606 --> 00:52:00.306 A:middle
 and get a new piece of data.
@@ -4483,14 +4086,6 @@ we have available from you.
 So how does this
 look in your code?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:57.616 --> 00:53:02.746 A:middle
-So how does this
-look in your code?
-
 00:53:03.156 --> 00:53:04.826 A:middle
 You can get access
 to the complication,
@@ -4578,10 +4173,6 @@ actually wake the extension
 00:53:56.796 --> 00:53:59.406 A:middle
 from the phone so it can receive
 the data you have sent over.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:00.956 --> 00:54:03.106 A:middle
 But because the two last
@@ -4680,14 +4271,6 @@ and NSURL can come in
 and it's your responsibility to
 verify if anything has changed
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:54:57.586 --> 00:55:00.566 A:middle
-and it's your responsibility to
-verify if anything has changed
-
 00:55:00.566 --> 00:55:03.336 A:middle
 and make any requests you
 need to make to the clock face
@@ -4755,4 +4338,3 @@ into WatchKit, thank you!
 
 00:55:46.516 --> 00:56:01.570 A:middle
 [ Applause ]
-

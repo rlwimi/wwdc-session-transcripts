@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:21.046 --> 00:00:21.426 A:middle
 &gt;&gt; TRYSTAN KOSMYNKA: Thank you.
@@ -55,17 +54,10 @@ longer in beta.
 00:00:58.121 --> 00:01:00.121 A:middle
 [Applause]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.121 --> 00:01:00.121 A:middle
-[Applause]
-
-00:01:00.226 --> 00:01:04.025 A:middle
+00:01:00.226 --> 00:01:04.026 A:middle
 Thanks. So why does this matter?
 
-00:01:04.025 --> 00:01:05.566 A:middle
+00:01:04.026 --> 00:01:05.566 A:middle
 Why do we care about
 App Analytics?
 
@@ -147,14 +139,6 @@ accessible to more customers.
 This is the type of data that
 we deliver with App Analytics.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:55.766 --> 00:02:00.796 A:middle
-This is the type of data that
-we deliver with App Analytics.
-
 00:02:00.886 --> 00:02:03.006 A:middle
 With all of these,
 our ultimate goal is
@@ -229,14 +213,6 @@ to engagement.
 00:02:56.386 --> 00:02:57.976 A:middle
 We answer those key
 questions with this.
-
-00:02:58.246 --> 00:03:00.886 A:middle
-Are customers finding your
-app, are they purchasing it,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.246 --> 00:03:00.886 A:middle
 Are customers finding your
@@ -332,14 +308,6 @@ between these two?
 If I was to purchase Trip Guider
 for $2.99, that's one app unit,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.176 --> 00:04:00.496 A:middle
-If I was to purchase Trip Guider
-for $2.99, that's one app unit,
-
 00:04:00.846 --> 00:04:02.596 A:middle
 but it may generate
 multiple installs.
@@ -366,11 +334,11 @@ we have available: sessions,
 active devices, and active
 devices in the last 30 days.
 
-00:04:17.505 --> 00:04:20.435 A:middle
+00:04:17.506 --> 00:04:20.436 A:middle
 What is important with these is
 that it is again one to many.
 
-00:04:20.555 --> 00:04:22.316 A:middle
+00:04:20.556 --> 00:04:22.316 A:middle
 I may have opened
 this app, Trip Guider,
 
@@ -431,14 +399,6 @@ we're going to share
 
 00:04:55.366 --> 00:04:57.346 A:middle
 with you is in-app purchases.
-
-00:04:57.636 --> 00:05:00.446 A:middle
-This is again a Store
-or sales measure.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.636 --> 00:05:00.446 A:middle
 This is again a Store
@@ -543,14 +503,6 @@ get going with this.
 It is available for the
 App Store, iOS apps only.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.786 --> 00:06:03.116 A:middle
-It is available for the
-App Store, iOS apps only.
-
 00:06:03.626 --> 00:06:05.856 A:middle
 And it's available
 for iOS 8 and above.
@@ -637,14 +589,6 @@ in iTunes Connect.
 It's available today,
 it's no longer in beta.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.156 --> 00:07:00.976 A:middle
-It's available today,
-it's no longer in beta.
-
 00:07:02.086 --> 00:07:03.646 A:middle
 Once you log into
 iTunes Connect,
@@ -711,14 +655,6 @@ snapshot across all of your apps
 across four key measures,
 again measuring all the way
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.856 --> 00:08:01.826 A:middle
-across four key measures,
-again measuring all the way
-
 00:08:01.826 --> 00:08:04.006 A:middle
 from acquisition
 with App Store views
@@ -762,7 +698,7 @@ here is the last 30 days,
 but you can change which
 time period you're looking
 
-00:08:30.956 --> 00:08:32.765 A:middle
+00:08:30.956 --> 00:08:32.766 A:middle
 at from the date
 picker in the top right.
 
@@ -773,7 +709,7 @@ any predefined ranges
 00:08:36.436 --> 00:08:38.736 A:middle
 or select a custom range as well
 
-00:08:38.736 --> 00:08:41.405 A:middle
+00:08:38.736 --> 00:08:41.406 A:middle
 as selecting any
 day, week, or month.
 
@@ -805,10 +741,6 @@ Trip Guider, we will be taken
 
 00:08:58.206 --> 00:08:59.686 A:middle
 to the app overview page.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.446 --> 00:09:02.506 A:middle
 The app overview
@@ -898,14 +830,6 @@ by day across six measures.
 Again, we are looking at
 the last 30 days here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.526 --> 00:10:01.596 A:middle
-Again, we are looking at
-the last 30 days here.
-
 00:10:02.386 --> 00:10:05.096 A:middle
 You can see the value for
 the current period as well
@@ -980,14 +904,6 @@ followed by Thailand.
 00:10:55.946 --> 00:10:58.506 A:middle
 Again, here we are revealing
 missed opportunities.
-
-00:10:58.786 --> 00:11:01.956 A:middle
-Maybe we didn't know that our
-app was so popular in Thailand,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.786 --> 00:11:01.956 A:middle
 Maybe we didn't know that our
@@ -1075,10 +991,6 @@ list where you can see your list
 00:11:57.856 --> 00:11:59.896 A:middle
 of apps as well as
 the app overview,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.066 --> 00:12:02.316 A:middle
 where you can see a
@@ -1171,14 +1083,6 @@ on my iPhones or my iPads?
 00:12:54.906 --> 00:12:57.636 A:middle
 I can do that by filtering
 sessions by platform.
-
-00:12:58.386 --> 00:13:01.216 A:middle
-What if you wanted to see
-users, are they coming back?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.386 --> 00:13:01.216 A:middle
 What if you wanted to see
@@ -1279,13 +1183,6 @@ sales measure.
 00:13:59.766 --> 00:14:00.846 A:middle
 This is Paying Users.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.766 --> 00:14:00.846 A:middle
-This is Paying Users.
-
 00:14:01.526 --> 00:14:04.136 A:middle
 If we look at sales,
 sales is a number
@@ -1373,14 +1270,6 @@ of how that page is doing.
 00:14:56.846 --> 00:14:58.586 A:middle
 And you can compare this
 across all of your apps.
-
-00:14:59.376 --> 00:15:01.316 A:middle
-Next is average revenue
-per paying user.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.376 --> 00:15:01.316 A:middle
 Next is average revenue
@@ -1481,14 +1370,6 @@ unique to App Analytics.
 &gt;&gt; DAVID HOPKINS:
 Thanks, Trystan.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.416 --> 00:16:00.676 A:middle
-&gt;&gt; DAVID HOPKINS:
-Thanks, Trystan.
-
 00:16:03.026 --> 00:16:05.536 A:middle
 So when we left off, we were
 looking at the app overview.
@@ -1571,14 +1452,6 @@ value for each day.
 And if you scroll to the top,
 the next thing we will talk
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.686 --> 00:17:03.696 A:middle
-And if you scroll to the top,
-the next thing we will talk
-
 00:17:03.696 --> 00:17:04.786 A:middle
 about are your measures.
 
@@ -1601,18 +1474,18 @@ about any of these measures
 at any time, you can
 hover over the measure
 
-00:17:18.026 --> 00:17:19.435 A:middle
+00:17:18.026 --> 00:17:19.436 A:middle
 and you'll see a question mark.
 
-00:17:20.165 --> 00:17:21.715 A:middle
+00:17:20.166 --> 00:17:21.716 A:middle
 If you click on that
 question mark,
 
-00:17:21.715 --> 00:17:23.165 A:middle
+00:17:21.716 --> 00:17:23.166 A:middle
 you'll get the definition
 of the measure.
 
-00:17:23.165 --> 00:17:25.726 A:middle
+00:17:23.166 --> 00:17:25.726 A:middle
 So we talked about this
 new measure, Paying Users.
 
@@ -1662,14 +1535,6 @@ the iPhone in the United States.
 00:17:54.746 --> 00:17:58.846 A:middle
 And now we are looking
 at just those users
-
-00:17:58.846 --> 00:18:00.606 A:middle
-on the iPhone in
-the United States.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.846 --> 00:18:00.606 A:middle
 on the iPhone in
@@ -1752,10 +1617,6 @@ by default.
 
 00:18:58.806 --> 00:18:59.976 A:middle
 These are the top territories.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.026 --> 00:19:02.586 A:middle
 But you can also
@@ -1849,14 +1710,6 @@ plotted on the same chart.
 The default view here, we're
 looking at a dual-axes graph.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.846 --> 00:20:01.466 A:middle
-The default view here, we're
-looking at a dual-axes graph.
-
 00:20:01.586 --> 00:20:04.406 A:middle
 You can hover over any
 day and see the value
@@ -1935,14 +1788,6 @@ but a few weeks ago
 00:20:56.096 --> 00:20:59.686 A:middle
 for Trip Guider 2.0 we made
 some updates to our description
-
-00:20:59.686 --> 00:21:01.436 A:middle
-of the app on the
-App Store page.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.686 --> 00:21:01.436 A:middle
 of the app on the
@@ -2045,14 +1890,6 @@ This is websites.
 If you are actively marketing
 your application on websites,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.166 --> 00:22:01.036 A:middle
-If you are actively marketing
-your application on websites,
-
 00:22:01.086 --> 00:22:04.256 A:middle
 forums, maybe it's getting
 picked up by the press as well.
@@ -2137,10 +1974,6 @@ That is not your provider token.
 If you use 1234, you won't get
 campaigns in your dashboards.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.986 --> 00:23:02.866 A:middle
 You can then add
 a campaign token.
@@ -2222,14 +2055,6 @@ your own app.
 
 00:23:56.356 --> 00:23:57.776 A:middle
 It is designed by Apple.
-
-00:23:57.886 --> 00:24:00.516 A:middle
-You don't need to create
-your own mimicked App Store
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.886 --> 00:24:00.516 A:middle
 You don't need to create
@@ -2330,14 +2155,6 @@ to our App Store page.
 Any time a user follows
 that link,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.496 --> 00:25:01.226 A:middle
-Any time a user follows
-that link,
-
 00:25:01.616 --> 00:25:03.256 A:middle
 it's going to generate
 a App Store view.
@@ -2427,14 +2244,6 @@ Anywhere on iOS.
 We can send out an email,
 put them on social media,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:57.976 --> 00:26:00.776 A:middle
-We can send out an email,
-put them on social media,
-
 00:26:01.176 --> 00:26:02.796 A:middle
 but they require setup.
 
@@ -2512,14 +2321,6 @@ the campaign name,
 00:26:54.396 --> 00:26:59.696 A:middle
 so we'll say WWDC --
 whoops, there we go.
-
-00:26:59.836 --> 00:27:02.926 A:middle
-2015. It generates
-a campaign link.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.836 --> 00:27:02.926 A:middle
 2015. It generates
@@ -2606,14 +2407,6 @@ that is showing up in the list.
 00:27:55.326 --> 00:27:57.686 A:middle
 Similar to what you
 saw in the app overview
-
-00:27:57.686 --> 00:28:00.496 A:middle
-and the top websites
-overview, you can click on this
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.686 --> 00:28:00.496 A:middle
 and the top websites
@@ -2719,14 +2512,6 @@ go over the retention feature.
 00:28:55.126 --> 00:28:57.236 A:middle
 Before we do that,
 before we show the UI,
-
-00:28:57.236 --> 00:29:00.216 A:middle
-I want to give a lesson on
-how this actually works.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.236 --> 00:29:00.216 A:middle
 I want to give a lesson on
@@ -2840,14 +2625,6 @@ numbers now as well.
 At the top I have 45 percent
 for two days after June 1.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:57.066 --> 00:30:01.246 A:middle
-At the top I have 45 percent
-for two days after June 1.
-
 00:30:02.156 --> 00:30:04.646 A:middle
 At the bottom, June
 9, I have 60 percent.
@@ -2949,14 +2726,6 @@ which Trystan introduced.
 On the left-hand side, you'll
 see the purchase date for each
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.256 --> 00:31:00.876 A:middle
-On the left-hand side, you'll
-see the purchase date for each
-
 00:31:00.876 --> 00:31:02.386 A:middle
 of the last 30 purchase days.
 
@@ -3045,14 +2814,6 @@ retention is important.
 We make this easy to see
 within App Analytics.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:57.326 --> 00:32:00.176 A:middle
-We make this easy to see
-within App Analytics.
-
 00:32:00.256 --> 00:32:02.436 A:middle
 All you need to do
 is click on the seven
@@ -3132,14 +2893,6 @@ the ability to add a filter.
 00:32:55.496 --> 00:32:58.646 A:middle
 Just like you saw on the
 metrics view, we can also filter
-
-00:32:58.646 --> 00:33:01.026 A:middle
-by any dimension and
-look at the retention
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.646 --> 00:33:01.026 A:middle
 by any dimension and
@@ -3234,10 +2987,6 @@ trends within your app.
 You can see the dimensions
 are available.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.206 --> 00:34:01.656 A:middle
 We have the new metrics as well.
 
@@ -3248,7 +2997,7 @@ and Crashes,
 00:34:03.726 --> 00:34:06.286 A:middle
 those are new as of today.
 
-00:34:06.476 --> 00:34:08.085 A:middle
+00:34:06.476 --> 00:34:08.086 A:middle
 Sources answers that
 question of,
 
@@ -3280,11 +3029,11 @@ with retention.
 We are excited about
 App Analytics.
 
-00:34:26.025 --> 00:34:27.906 A:middle
+00:34:26.026 --> 00:34:27.906 A:middle
 We hope you use it
 to build better apps.
 
-00:34:28.166 --> 00:34:30.085 A:middle
+00:34:28.166 --> 00:34:30.086 A:middle
 We hope this conference has
 been a great week for you.
 
@@ -3295,18 +3044,18 @@ For more information, look
 at the App Analytics
 Developer Guide and look
 
-00:34:34.886 --> 00:34:36.235 A:middle
+00:34:34.886 --> 00:34:36.236 A:middle
 at the developer forums.
 
 00:34:36.676 --> 00:34:40.576 A:middle
 We encourage you to talk to the
 Evangelist as well, Mark Malone.
 
-00:34:40.985 --> 00:34:43.446 A:middle
+00:34:40.986 --> 00:34:43.446 A:middle
 We will be downstairs
 after this in a lab
 
-00:34:43.536 --> 00:34:44.485 A:middle
+00:34:43.536 --> 00:34:44.486 A:middle
 for a short amount of time.
 
 00:34:44.766 --> 00:34:46.876 A:middle
@@ -3320,7 +3069,7 @@ related sessions,
 00:34:48.906 --> 00:34:50.496 A:middle
 Promoting Your App with an IAd.
 
-00:34:50.795 --> 00:34:52.226 A:middle
+00:34:50.796 --> 00:34:52.226 A:middle
 This already aired, so
 we encourage you to look
 
@@ -3328,19 +3077,11 @@ we encourage you to look
 on the video afterwards, and
 the What's New in iTunes Connect
 
-00:34:56.025 --> 00:34:57.136 A:middle
+00:34:56.026 --> 00:34:57.136 A:middle
 that occurred this morning.
 
 00:34:57.596 --> 00:34:58.566 A:middle
 This is a great session.
-
-00:34:58.566 --> 00:35:00.926 A:middle
-We walked through new
-metrics that will be available
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.566 --> 00:35:00.926 A:middle
 We walked through new
@@ -3373,4 +3114,3 @@ Thank you very much.
 
 00:35:17.516 --> 00:35:20.500 A:middle
 [Applause]
-

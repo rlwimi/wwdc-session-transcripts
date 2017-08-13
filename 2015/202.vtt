@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:23.306 --> 00:00:24.016 A:middle
 &gt;&gt; ALI OZER: Good afternoon.
@@ -33,14 +32,6 @@ in support of Swift.
 00:00:53.176 --> 00:00:56.606 A:middle
 The changes also improve our
 Objective-C APIs as well.
-
-00:00:57.156 --> 00:01:00.566 A:middle
-As you know, Swift
-provides features
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.156 --> 00:01:00.566 A:middle
 As you know, Swift
@@ -125,23 +116,15 @@ of course.
 Nullability is whether
 values can or cannot be nil.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.656 --> 00:02:00.896 A:middle
-Nullability is whether
-values can or cannot be nil.
-
 00:02:01.516 --> 00:02:06.146 A:middle
 If you use Swift with
 X v10 or iOS 8 SDKs,
 
-00:02:06.146 --> 00:02:09.985 A:middle
+00:02:06.146 --> 00:02:09.986 A:middle
 you know the Swift APIs already
 have the proper nullability
 
-00:02:09.985 --> 00:02:11.446 A:middle
+00:02:09.986 --> 00:02:11.446 A:middle
 and optional declarations
 on them.
 
@@ -161,11 +144,11 @@ and we have several new keywords
 we've added to Objective-C.
 
 00:02:23.446 --> 00:02:27.666 A:middle
-`nonnull` indicates never nil,
-`nullable` indicates can be nil,
+Nonnull indicates never nil,
+Nullable indicates can be nil,
 
 00:02:28.166 --> 00:02:31.726 A:middle
-`null_resettable` indicates that
+Null Resettable indicates that
 a property can be set to nil
 
 00:02:31.726 --> 00:02:33.176 A:middle
@@ -177,7 +160,7 @@ in a second.
 
 00:02:36.036 --> 00:02:38.706 A:middle
 Last and least, we
-have `null_unspecified`,
+have Null Unspecified,
 
 00:02:38.706 --> 00:02:39.836 A:middle
 meaning not specified.
@@ -207,13 +190,6 @@ header files with.
 00:02:57.056 --> 00:02:59.506 A:middle
 With this, the nonnull
 declarations are no
-
-00:02:59.506 --> 00:03:00.216 A:middle
-longer needed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.506 --> 00:03:00.216 A:middle
 longer needed.
@@ -293,10 +269,6 @@ would have had for the system.
 
 00:03:56.816 --> 00:03:58.666 A:middle
 So it never will return nil.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:00.176 --> 00:04:03.016 A:middle
 With nullability, you may
@@ -386,14 +358,6 @@ So you can specify a locale,
 but if you specify nil
 it means nonlocalized.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.976 --> 00:05:02.696 A:middle
-but if you specify nil
-it means nonlocalized.
-
 00:05:03.286 --> 00:05:07.336 A:middle
 Let's talk about generics.
 
@@ -458,14 +422,6 @@ parameter to it, like so.
 00:05:56.256 --> 00:05:59.406 A:middle
 We have applied this object
 type to all of the APIs,
-
-00:05:59.886 --> 00:06:02.826 A:middle
-appropriate APIs, which
-used to take or return ID,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.886 --> 00:06:02.826 A:middle
 appropriate APIs, which
@@ -540,14 +496,6 @@ them as well, you can use them
 00:06:55.316 --> 00:06:57.446 A:middle
 in variable declarations
 in your own classes.
-
-00:06:57.886 --> 00:07:00.876 A:middle
-If you are taking the result of
-Recent Searches and assigning it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.886 --> 00:07:00.876 A:middle
 If you are taking the result of
@@ -631,14 +579,6 @@ to NSArray of NSView.
 Then we had code like this,
 where we assign an element
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.806 --> 00:08:02.546 A:middle
-Then we had code like this,
-where we assign an element
-
 00:08:02.546 --> 00:08:04.116 A:middle
 out of this array into NSButton.
 
@@ -680,13 +620,13 @@ and changed the declaration
 of the subviews property to
 be NSArray of kindof NSViews.
 
-00:08:33.916 --> 00:08:35.145 A:middle
+00:08:33.916 --> 00:08:35.146 A:middle
 What this says is --
 
-00:08:36.515 --> 00:08:39.655 A:middle
+00:08:36.516 --> 00:08:39.656 A:middle
 [Applause]
 
-00:08:40.155 --> 00:08:40.895 A:middle
+00:08:40.156 --> 00:08:40.896 A:middle
 &gt;&gt; ALI OZER: Thank you.
 
 00:08:41.606 --> 00:08:45.976 A:middle
@@ -707,14 +647,6 @@ instances of a subclass as well.
 
 00:08:54.826 --> 00:08:56.946 A:middle
 So this is now -- this works.
-
-00:08:57.616 --> 00:09:02.826 A:middle
-Note that kindof is a compile
-time facility like most
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.616 --> 00:09:02.826 A:middle
 Note that kindof is a compile
@@ -808,14 +740,6 @@ and do some runtime checks.
 Let me talk about
 error handling.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:56.386 --> 00:10:01.026 A:middle
-Let me talk about
-error handling.
-
 00:10:01.026 --> 00:10:03.906 A:middle
 As you heard yesterday, Swift
 2 brings an amazing error
@@ -894,14 +818,6 @@ errors and unwinding properly
 00:10:53.796 --> 00:10:58.116 A:middle
 through the stack just like, you
 know, what we do with NSErrors.
-
-00:10:58.816 --> 00:11:01.356 A:middle
-In fact, NSError
-guidelines apply
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.816 --> 00:11:01.356 A:middle
 In fact, NSError
@@ -987,13 +903,6 @@ will continue to compile,
 00:11:54.496 --> 00:11:56.896 A:middle
 but you can switch to the new
 names as you rewrite your code.
-
-00:11:57.386 --> 00:12:01.646 A:middle
-And there is many more of these.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.386 --> 00:12:01.646 A:middle
 And there is many more of these.
@@ -1086,13 +995,6 @@ can automatically create a
 00:12:59.796 --> 00:13:00.426 A:middle
 calendar event.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.796 --> 00:13:00.426 A:middle
-calendar event.
-
 00:13:01.626 --> 00:13:03.686 A:middle
 In this case, by
 applying a pressure
@@ -1165,14 +1067,6 @@ an event, a new event type
 00:13:55.316 --> 00:13:57.716 A:middle
 for pressure with the
 corresponding methods
-
-00:13:57.956 --> 00:14:00.276 A:middle
-on NSResponder and
-gesture recognizer as well,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.956 --> 00:14:00.276 A:middle
 on NSResponder and
@@ -1261,14 +1155,6 @@ spring loading even easier.
 This is just a simple Boolean
 property, spring loaded
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.536 --> 00:15:02.776 A:middle
-This is just a simple Boolean
-property, spring loaded
-
 00:15:02.776 --> 00:15:04.916 A:middle
 on NSButton and
 NSSegmentedControl,
@@ -1338,14 +1224,6 @@ simply declares how the items,
 00:15:56.856 --> 00:15:59.266 A:middle
 the row should be drawn
 and what should happen
-
-00:15:59.266 --> 00:16:01.656 A:middle
-when the user selects that
-action via this block,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.266 --> 00:16:01.656 A:middle
 when the user selects that
@@ -1438,14 +1316,6 @@ applications,
 will automatically be candidates
 for being tiled in full screen
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.386 --> 00:17:01.416 A:middle
-will automatically be candidates
-for being tiled in full screen
-
 00:17:01.416 --> 00:17:02.776 A:middle
 without any changes
 on your part.
@@ -1465,15 +1335,15 @@ collection behavior options
 00:17:12.146 --> 00:17:12.896 A:middle
 on NSWindow.
 
-00:17:13.715 --> 00:17:15.675 A:middle
+00:17:13.716 --> 00:17:15.676 A:middle
 For instance, you may
 have a nonresizable window
 
-00:17:15.675 --> 00:17:17.226 A:middle
+00:17:15.676 --> 00:17:17.226 A:middle
 that you think should
 be tillable.
 
-00:17:17.695 --> 00:17:19.976 A:middle
+00:17:17.696 --> 00:17:19.976 A:middle
 You can use the Allowd
 Tiling option.
 
@@ -1484,10 +1354,10 @@ Or you have an antisocial window
 that just doesn't
 want to be tiled.
 
-00:17:23.695 --> 00:17:25.236 A:middle
+00:17:23.696 --> 00:17:25.236 A:middle
 You can set Disallows Tiling.
 
-00:17:25.415 --> 00:17:28.236 A:middle
+00:17:25.416 --> 00:17:28.236 A:middle
 I don't know an example
 of that, but it is there.
 
@@ -1529,10 +1399,6 @@ should act in full screen.
 
 00:17:55.216 --> 00:17:59.306 A:middle
 That one you still opt into.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.246 --> 00:18:03.186 A:middle
 You can also set these of course
@@ -1614,13 +1480,6 @@ experiences
 00:18:56.106 --> 00:18:58.396 A:middle
 for your custom views
 where the items,
-
-00:18:58.396 --> 00:19:00.216 A:middle
-as they're dropped off the edge,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.396 --> 00:19:00.216 A:middle
 as they're dropped off the edge,
@@ -1716,10 +1575,6 @@ for view distribution
 with this property
 called distribution.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:01.206 --> 00:20:03.276 A:middle
 One value in here
 is gravity areas,
@@ -1807,14 +1662,6 @@ edges of those views,
 and this is not only
 shorter, sweeter,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.666 --> 00:21:00.776 A:middle
-and this is not only
-shorter, sweeter,
-
 00:21:00.776 --> 00:21:04.026 A:middle
 it is also giving you more
 compile time type-checking.
@@ -1892,14 +1739,6 @@ customizable layout.
 Let me show you a quick video
 of a sample application here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.846 --> 00:22:01.696 A:middle
-Let me show you a quick video
-of a sample application here.
-
 00:22:01.696 --> 00:22:03.556 A:middle
 There is a bunch of
 images being displayed.
@@ -1968,14 +1807,6 @@ check it to see what you need
 00:22:53.596 --> 00:22:55.786 A:middle
 to do to make sure you're
 using San Francisco.
-
-00:22:56.446 --> 00:23:00.356 A:middle
-If you're using this font, this
-is one we introduced in X v0,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:56.446 --> 00:23:00.356 A:middle
 If you're using this font, this
@@ -2066,14 +1897,6 @@ to black.
 The regular setting is
 what you get by default
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.476 --> 00:24:00.626 A:middle
-The regular setting is
-what you get by default
-
 00:24:00.626 --> 00:24:01.806 A:middle
 for system font of size.
 
@@ -2143,14 +1966,6 @@ API, this will give up digits
 
 00:24:56.896 --> 00:24:59.266 A:middle
 that are equal widths.
-
-00:24:59.746 --> 00:25:02.776 A:middle
-Typographically not as pleasing,
-but it will get the job done.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.746 --> 00:25:02.776 A:middle
 Typographically not as pleasing,
@@ -2232,14 +2047,6 @@ gets truncated.
 There was a way to control this,
 before but now it is controlled
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.786 --> 00:26:02.546 A:middle
-There was a way to control this,
-before but now it is controlled
-
 00:26:02.546 --> 00:26:03.766 A:middle
 with this one Boolean property.
 
@@ -2303,14 +2110,6 @@ running in Yosemite.
 00:26:54.686 --> 00:26:57.136 A:middle
 Open panel is a rough
 case because it is drawn
-
-00:26:57.136 --> 00:27:00.136 A:middle
-by multiple processes,
-but that's not an excuse.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.136 --> 00:27:00.136 A:middle
 by multiple processes,
@@ -2394,14 +2193,6 @@ visual atomicity.
 Beyond this, we discourage the
 use of Disable Screen Updates
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:56.946 --> 00:28:00.876 A:middle
-Beyond this, we discourage the
-use of Disable Screen Updates
-
 00:28:00.876 --> 00:28:01.946 A:middle
 and Enable Screen Updates
 
@@ -2477,14 +2268,6 @@ is basically the code
 00:28:55.196 --> 00:28:57.946 A:middle
 to be executed to undo
 the action you just did.
-
-00:28:59.126 --> 00:29:01.836 A:middle
-Separate argument for the
-target means you don't have
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.126 --> 00:29:01.836 A:middle
 Separate argument for the
@@ -2574,14 +2357,6 @@ NSCoders like NSKeyedArchiver
 or so on, you know there is no
 error arguments to those things.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.756 --> 00:30:02.946 A:middle
-or so on, you know there is no
-error arguments to those things.
-
 00:30:02.946 --> 00:30:04.646 A:middle
 We have added explicit
 error handling.
@@ -2660,10 +2435,6 @@ methods we have currently.
 00:30:56.176 --> 00:30:59.666 A:middle
 NSError now has a value
 provider, let me model this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.256 --> 00:31:04.486 A:middle
 This is a simple way you may
@@ -2755,14 +2526,6 @@ ability to create
 and return desired
 values on demand.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.796 --> 00:32:01.076 A:middle
-and return desired
-values on demand.
-
 00:32:02.296 --> 00:32:05.646 A:middle
 We have this method, set
 user info value provider
@@ -2845,14 +2608,6 @@ for managing progress reporting.
 This has two pieces:
 one is APIs to add
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:57.766 --> 00:33:00.436 A:middle
-This has two pieces:
-one is APIs to add
-
 00:33:00.436 --> 00:33:03.456 A:middle
 and remove child progress
 objects directly to a hierarchy
@@ -2930,10 +2685,6 @@ automatically be unregistered.
 00:33:57.356 --> 00:33:59.316 A:middle
 That's pretty great.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:01.406 --> 00:34:05.966 A:middle
 So here is the class whose name
 Toby did not dare say yesterday
@@ -2946,7 +2697,7 @@ NSFirstNameComponentsFormatter.
 The rule is, if it is not
 long enough to be wrapped
 
-00:34:13.106 --> 00:34:15.085 A:middle
+00:34:13.106 --> 00:34:15.086 A:middle
 on a slide title,
 it is not too long.
 
@@ -2966,7 +2717,7 @@ formatters we have added
 over the last few years such
 as date components formatter,
 
-00:34:27.045 --> 00:34:29.356 A:middle
+00:34:27.046 --> 00:34:29.356 A:middle
 byte count formatter,
 length formatter, and so on.
 
@@ -2974,14 +2725,14 @@ length formatter, and so on.
 It also provides styles for
 a number of different forms.
 
-00:34:34.346 --> 00:34:35.815 A:middle
+00:34:34.346 --> 00:34:35.816 A:middle
 Let me give you a quick example.
 
 00:34:36.306 --> 00:34:39.666 A:middle
 You create a person named
 Components Object, it has parts
 
-00:34:39.666 --> 00:34:42.295 A:middle
+00:34:39.666 --> 00:34:42.296 A:middle
 of name, you specify the
 parts of name you have,
 
@@ -2989,7 +2740,7 @@ parts of name you have,
 there is many more, let's say
 here we're specifying three
 
-00:34:44.976 --> 00:34:45.235 A:middle
+00:34:44.976 --> 00:34:45.236 A:middle
 of them.
 
 00:34:46.726 --> 00:34:49.376 A:middle
@@ -3009,14 +2760,6 @@ of the name, like long,
 
 00:34:56.466 --> 00:34:58.286 A:middle
 default, short, and so on.
-
-00:34:58.696 --> 00:35:01.856 A:middle
-Note that if you ask for short,
-but in some other language,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.696 --> 00:35:01.856 A:middle
 Note that if you ask for short,
@@ -3101,14 +2844,6 @@ in your UI to display it.
 You can hear about the person
 name components formatter
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.136 --> 00:36:00.936 A:middle
-You can hear about the person
-name components formatter
-
 00:36:01.286 --> 00:36:03.836 A:middle
 and all of these facilities
 and more in What's New
@@ -3183,14 +2918,6 @@ if you don't have fans.
 00:36:57.196 --> 00:36:59.586 A:middle
 Serious is typically when
 you want to take some action.
-
-00:36:59.586 --> 00:37:02.376 A:middle
-For instance, let's say
-you're doing custom animation
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.586 --> 00:37:02.376 A:middle
 For instance, let's say
@@ -3274,14 +3001,6 @@ on timers,
 process info activity
 APIs, doing downloads
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.396 --> 00:38:01.936 A:middle
-process info activity
-APIs, doing downloads
-
 00:38:01.936 --> 00:38:03.786 A:middle
 in the background
 with NSURLSession,
@@ -3360,14 +3079,6 @@ great features and enhancements.
 Look at the material, think
 about how to adopt them,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:58.666 --> 00:39:03.466 A:middle
-Look at the material, think
-about how to adopt them,
-
 00:39:03.466 --> 00:39:07.266 A:middle
 and come see us at the labs
 if you have any questions.
@@ -3396,4 +3107,3 @@ of the conference.
 
 00:39:23.516 --> 00:39:28.500 A:middle
 [Applause]
-

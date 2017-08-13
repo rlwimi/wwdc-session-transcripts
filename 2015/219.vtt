@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:20.516 --> 00:00:23.216 A:middle
 [Applause]
@@ -60,14 +59,6 @@ with the layout cycle.
 00:00:55.606 --> 00:00:59.046 A:middle
 You probably know how to
 configure your user interface,
-
-00:00:59.596 --> 00:01:03.176 A:middle
-but Auto Layout can still be
-a little bit of a black box.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.596 --> 00:01:03.176 A:middle
 but Auto Layout can still be
@@ -155,14 +146,6 @@ looking like this.
 When we change the constraint,
 the layout engine's notion
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.666 --> 00:02:01.576 A:middle
-When we change the constraint,
-the layout engine's notion
-
 00:02:01.576 --> 00:02:03.386 A:middle
 of where everything is
 has already changed,
@@ -178,7 +161,7 @@ layout pass comes along,
 the UI actually changes to
 match what the engine thinks
 
-00:02:10.436 --> 00:02:10.795 A:middle
+00:02:10.436 --> 00:02:10.796 A:middle
 should be.
 
 00:02:11.936 --> 00:02:13.536 A:middle
@@ -248,14 +231,6 @@ size of a particular view.
 00:02:56.406 --> 00:02:58.136 A:middle
 And when we recalculate
 the layout,
-
-00:02:58.186 --> 00:03:00.466 A:middle
-these variables may
-receive new values.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.186 --> 00:03:00.466 A:middle
 these variables may
@@ -345,13 +320,6 @@ update constraints.
 00:03:58.816 --> 00:04:00.996 A:middle
 Views need to explicitly request
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.816 --> 00:04:00.996 A:middle
-Views need to explicitly request
-
 00:04:01.376 --> 00:04:03.846 A:middle
 that their update
 constraints method be called.
@@ -436,13 +404,6 @@ to follow, so it will be harder
 00:04:56.656 --> 00:04:58.466 A:middle
 for you to maintain,
 it will be a lot harder
-
-00:04:58.466 --> 00:05:00.286 A:middle
-for other people to understand.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.466 --> 00:05:00.286 A:middle
 for other people to understand.
@@ -539,10 +500,6 @@ constraints multiple times.
 That's just a lot
 of wasted work.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.256 --> 00:06:02.936 A:middle
 It's much more efficient in
 these kinds of situations
@@ -629,14 +586,6 @@ the example again,
 this is where you
 actually see the UI update
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.286 --> 00:07:01.586 A:middle
-this is where you
-actually see the UI update
-
 00:07:01.666 --> 00:07:03.966 A:middle
 to match the frames that
 are in the Layout Engine.
@@ -716,14 +665,6 @@ rules to follow.
 One is that you need to invoke
 the superclass implementation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.486 --> 00:08:01.826 A:middle
-One is that you need to invoke
-the superclass implementation.
-
 00:08:02.196 --> 00:08:04.366 A:middle
 We need that for various
 bookkeeping purposes.
@@ -766,7 +707,7 @@ you don't invalidate the layout
 00:08:32.426 --> 00:08:34.166 A:middle
 of views outside your subtree.
 
-00:08:34.385 --> 00:08:37.106 A:middle
+00:08:34.386 --> 00:08:37.106 A:middle
 If you do this, it
 can be very easy
 
@@ -781,7 +722,7 @@ actually causes the layout
 00:08:42.166 --> 00:08:43.086 A:middle
 to be dirtied again.
 
-00:08:43.765 --> 00:08:45.486 A:middle
+00:08:43.766 --> 00:08:45.486 A:middle
 Then we can just end
 up iterating forever,
 
@@ -803,13 +744,6 @@ places, and that's fine too,
 00:08:57.766 --> 00:08:59.236 A:middle
 but again, you need
 to be careful.
-
-00:08:59.676 --> 00:09:01.196 A:middle
-It can be difficult to predict
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.676 --> 00:09:01.196 A:middle
 It can be difficult to predict
@@ -892,13 +826,6 @@ then we have an autoresizingMask
 00:09:54.766 --> 00:09:57.916 A:middle
 that specifies how the
 view should be resized
-
-00:09:58.506 --> 00:10:00.016 A:middle
-when its superview changes size.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.506 --> 00:10:00.016 A:middle
 when its superview changes size.
@@ -988,14 +915,6 @@ in the Layout Engine.
 What this means is that you
 can set the frame as often
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:57.246 --> 00:11:00.436 A:middle
-What this means is that you
-can set the frame as often
-
 00:11:00.436 --> 00:11:02.626 A:middle
 as you like, and you
 can count on Auto Layout
@@ -1071,14 +990,6 @@ if you are not expecting it.
 00:11:54.416 --> 00:11:58.666 A:middle
 So another note here is
 that when you are planning
-
-00:11:58.666 --> 00:12:00.686 A:middle
-to position your view
-using constraints,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.666 --> 00:12:00.686 A:middle
 to position your view
@@ -1184,14 +1095,6 @@ Constraint [without space].
 This is the class
 of layout constraint
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.866 --> 00:13:01.766 A:middle
-This is the class
-of layout constraint
-
 00:13:02.226 --> 00:13:04.306 A:middle
 that the framework
 will create for views
@@ -1269,14 +1172,6 @@ IntoConstraints [without space]:
 00:13:55.606 --> 00:13:58.726 A:middle
 You usually won't need this
 flag at all, but if you find
-
-00:13:58.726 --> 00:14:00.816 A:middle
-that you have a view
-that you need to position
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.726 --> 00:14:00.816 A:middle
 that you have a view
@@ -1376,10 +1271,6 @@ for creating constraints.
 00:14:58.536 --> 00:14:59.926 A:middle
 Here is what it looks like.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.476 --> 00:15:03.966 A:middle
 This syntax works using
 objects called layout anchors.
@@ -1456,10 +1347,6 @@ get compiler errors for many
 of the invalid forms
 of constraints.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.216 --> 00:16:03.726 A:middle
 So at the moment, you only
 get the errors in Objective-C,
@@ -1534,14 +1421,6 @@ constraining negative space.
 There are a few different
 kinds of layouts that come
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.426 --> 00:17:00.576 A:middle
-There are a few different
-kinds of layouts that come
-
 00:17:00.576 --> 00:17:03.546 A:middle
 up from time to time where it's
 not immediately obvious how
@@ -1549,10 +1428,10 @@ not immediately obvious how
 00:17:03.546 --> 00:17:04.156 A:middle
 to achieve them.
 
-00:17:04.685 --> 00:17:06.215 A:middle
+00:17:04.686 --> 00:17:06.216 A:middle
 Here's a couple examples.
 
-00:17:06.215 --> 00:17:10.266 A:middle
+00:17:06.216 --> 00:17:10.266 A:middle
 In the first case here, the goal
 is to make sure that the space
 
@@ -1563,11 +1442,11 @@ remains the same
 00:17:12.076 --> 00:17:13.376 A:middle
 when the window is resized.
 
-00:17:13.866 --> 00:17:16.165 A:middle
+00:17:13.866 --> 00:17:16.166 A:middle
 And in the bottom, we
 have an image and a label,
 
-00:17:16.955 --> 00:17:20.646 A:middle
+00:17:16.956 --> 00:17:20.646 A:middle
 and we want to center
 them as a group rather
 
@@ -1583,7 +1462,7 @@ the solution
 to these layout problems
 is the same,
 
-00:17:27.965 --> 00:17:29.486 A:middle
+00:17:27.966 --> 00:17:29.486 A:middle
 and that's to use dummy views.
 
 00:17:30.096 --> 00:17:33.096 A:middle
@@ -1627,14 +1506,6 @@ rather than on any
 
 00:17:55.626 --> 00:17:57.156 A:middle
 of the content views themselves.
-
-00:17:57.916 --> 00:18:00.646 A:middle
-So this works, and it's how
-we've traditionally solved these
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.916 --> 00:18:00.646 A:middle
 So this works, and it's how
@@ -1724,14 +1595,6 @@ for the margin attributes.
 Instead, UI View has a
 new layout margins guide.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.066 --> 00:19:00.076 A:middle
-Instead, UI View has a
-new layout margins guide.
-
 00:19:00.286 --> 00:19:02.786 A:middle
 This layout guide just
 represents the area
@@ -1812,14 +1675,6 @@ when something goes wrong.
 00:19:57.616 --> 00:19:59.976 A:middle
 Those of you who have used
 Auto Layout in the past --
-
-00:19:59.976 --> 00:20:02.946 A:middle
-which I hope is most of you --
-have probably run into something
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.976 --> 00:20:02.946 A:middle
 which I hope is most of you --
@@ -1912,14 +1767,6 @@ to make it fit on the screen.
 But the first place to start
 is by looking at the bottom.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:57.856 --> 00:21:00.296 A:middle
-But the first place to start
-is by looking at the bottom.
-
 00:21:01.166 --> 00:21:03.156 A:middle
 The last thing you
 see is the constraint
@@ -2007,14 +1854,6 @@ are the views it's tied to,
 
 00:21:55.936 --> 00:21:56.916 A:middle
 in this case, the label.
-
-00:21:58.046 --> 00:22:00.336 A:middle
-So this label has the same
-constraint that ties it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.046 --> 00:22:00.336 A:middle
 So this label has the same
@@ -2118,14 +1957,6 @@ easy ways to do that.
 If you are using
 explicit constraints,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.096 --> 00:23:02.026 A:middle
-If you are using
-explicit constraints,
-
 00:23:02.026 --> 00:23:02.886 A:middle
 it's just a property.
 
@@ -2216,14 +2047,6 @@ Let's see.
 00:23:54.516 --> 00:23:58.106 A:middle
 So let's talk about, you
 know, understanding this log,
-
-00:23:58.546 --> 00:24:01.516 A:middle
-and making it even easier
-to know what's going on.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.546 --> 00:24:01.516 A:middle
 and making it even easier
@@ -2329,14 +2152,6 @@ can take that view
 at the bottom especially and
 other views that you are looking
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.986 --> 00:25:02.136 A:middle
-at the bottom especially and
-other views that you are looking
-
 00:25:02.136 --> 00:25:04.716 A:middle
 at and actually view the
 constraints affecting them one
@@ -2407,13 +2222,6 @@ constraintsAffectingLayout
 00:25:54.906 --> 00:25:56.546 A:middle
 ForAxis [without space]
 and its vertical axis.
-
-00:25:57.456 --> 00:26:00.976 A:middle
-Vertical is 1, horizontal is 0.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.456 --> 00:26:00.976 A:middle
 Vertical is 1, horizontal is 0.
@@ -2519,14 +2327,6 @@ anchor by a hundred points.
 And find out where
 it's activated.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.956 --> 00:27:01.666 A:middle
-And find out where
-it's activated.
-
 00:27:02.616 --> 00:27:04.786 A:middle
 And get rid of it.
 
@@ -2609,14 +2409,6 @@ that it can't get a solution.
 00:27:57.286 --> 00:27:59.256 A:middle
 There is no solution that
 fits all of your constraints.
-
-00:27:59.616 --> 00:28:01.766 A:middle
-But what happens if it has
-more than one solution?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.616 --> 00:28:01.766 A:middle
 But what happens if it has
@@ -2723,14 +2515,6 @@ the wrong proportions.
 I want it to look
 more like this,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.136 --> 00:29:00.466 A:middle
-I want it to look
-more like this,
-
 00:29:02.356 --> 00:29:04.606 A:middle
 where the text field is
 taking up most of the view.
@@ -2825,14 +2609,6 @@ and the text field stretches.
 This is consistently how the
 engine will solve the layout
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.746 --> 00:30:02.086 A:middle
-This is consistently how the
-engine will solve the layout
-
 00:30:02.086 --> 00:30:03.546 A:middle
 in this particular circumstance.
 
@@ -2909,14 +2685,6 @@ called autolayoutTrace,
 00:30:56.396 --> 00:30:59.706 A:middle
 and you just use that in
 the debugger on a view,
-
-00:30:59.786 --> 00:31:03.546 A:middle
-and it will just tell you in
-all caps that you have a view
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.786 --> 00:31:03.546 A:middle
 and it will just tell you in
@@ -3009,14 +2777,6 @@ view things like constraints,
 just the wireframes for the
 views, you can see stuff in 3D.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:57.846 --> 00:32:00.666 A:middle
-just the wireframes for the
-views, you can see stuff in 3D.
-
 00:32:01.006 --> 00:32:02.796 A:middle
 It gives you a really nice
 view of all your layers,
@@ -3104,14 +2864,6 @@ that will tell you view
 by view whether it has
 an ambiguous layout.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.546 --> 00:33:01.706 A:middle
-by view whether it has
-an ambiguous layout.
-
 00:33:01.926 --> 00:33:04.096 A:middle
 And that's just
 hasAmbiguousLayout --
@@ -3188,48 +2940,40 @@ I did not actually add this
 to the constraints array I
 am activating for that view.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.256 --> 00:34:01.886 A:middle
-to the constraints array I
-am activating for that view.
-
 00:34:02.196 --> 00:34:07.026 A:middle
 And so if I add it,
 things go much better.
 
-00:34:07.426 --> 00:34:10.045 A:middle
+00:34:07.426 --> 00:34:10.046 A:middle
 Saturn stays put exactly
 where I wanted it to be.
 
-00:34:10.085 --> 00:34:12.255 A:middle
+00:34:10.086 --> 00:34:12.256 A:middle
 And that's really
 all that's involved
 
 00:34:12.396 --> 00:34:14.326 A:middle
 in diagnosing ambiguity.
 
-00:34:14.326 --> 00:34:17.565 A:middle
+00:34:14.326 --> 00:34:17.566 A:middle
 It's pretty easy
 once you start kind
 
-00:34:17.565 --> 00:34:20.985 A:middle
+00:34:17.566 --> 00:34:20.986 A:middle
 of working with it a little bit.
 
-00:34:21.735 --> 00:34:22.815 A:middle
+00:34:21.736 --> 00:34:22.816 A:middle
 So, debugging your layout.
 
-00:34:23.146 --> 00:34:25.085 A:middle
+00:34:23.146 --> 00:34:25.086 A:middle
 The most important thing
 is to think carefully
 
-00:34:25.446 --> 00:34:27.025 A:middle
+00:34:25.446 --> 00:34:27.026 A:middle
 about the information
 that your engine needs.
 
-00:34:27.585 --> 00:34:28.706 A:middle
+00:34:27.586 --> 00:34:28.706 A:middle
 This morning we talked a lot
 
 00:34:28.706 --> 00:34:32.166 A:middle
@@ -3258,7 +3002,7 @@ of constraints here
 00:34:44.936 --> 00:34:46.596 A:middle
 and there and throwing it in.
 
-00:34:47.726 --> 00:34:50.505 A:middle
+00:34:47.726 --> 00:34:50.506 A:middle
 But if you do run into
 problems, use the logs
 
@@ -3270,21 +3014,13 @@ unsatisfiable.
 It gives you a lot of
 really good information.
 
-00:34:54.065 --> 00:34:56.846 A:middle
+00:34:54.066 --> 00:34:56.846 A:middle
 In order to make good use of
 those logs, add identifiers
 
 00:34:57.356 --> 00:34:58.466 A:middle
 for all those constraints
 and views.
-
-00:34:58.866 --> 00:35:01.036 A:middle
-You also want to regularly
-check for ambiguity.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.866 --> 00:35:01.036 A:middle
 You also want to regularly
@@ -3374,14 +3110,6 @@ space with layout guides.
 00:35:56.016 --> 00:35:58.806 A:middle
 And we just now talked about
 unsatisfiable constraints
-
-00:35:58.806 --> 00:36:00.966 A:middle
-and resolving ambiguity,
-which are two problems
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.806 --> 00:36:00.966 A:middle
 and resolving ambiguity,
@@ -3487,4 +3215,3 @@ Have a good one.
 
 00:36:59.516 --> 00:37:03.500 A:middle
 [Applause]
-

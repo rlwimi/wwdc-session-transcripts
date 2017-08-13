@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:29.171 --> 00:00:31.171 A:middle
 [Applause]
@@ -41,22 +40,14 @@ bit of a different nature to it.
 And for those of you who weren't
 here for that, it's okay.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:56.086 --> 00:01:00.036 A:middle
-And for those of you who weren't
-here for that, it's okay.
-
 00:01:00.306 --> 00:01:01.336 A:middle
 I'm not totally hurt.
 
-00:01:01.936 --> 00:01:04.825 A:middle
+00:01:01.936 --> 00:01:04.826 A:middle
 But I do want to bring you
 up to speed a little bit.
 
-00:01:05.325 --> 00:01:07.956 A:middle
+00:01:05.326 --> 00:01:07.956 A:middle
 So there were three key
 themes for that presentation
 
@@ -128,14 +119,6 @@ the capabilities
 of the Force Touch display
 and using it properly.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.866 --> 00:02:01.476 A:middle
-of the Force Touch display
-and using it properly.
-
 00:02:02.096 --> 00:02:04.746 A:middle
 Same thing with the
 Digital Crown.
@@ -144,7 +127,7 @@ Digital Crown.
 And the Taptic Engine,
 especially now
 
-00:02:09.196 --> 00:02:10.455 A:middle
+00:02:09.196 --> 00:02:10.456 A:middle
 that we have haptic feedback.
 
 00:02:11.526 --> 00:02:14.136 A:middle
@@ -207,13 +190,6 @@ we talked about earlier;
 00:02:55.686 --> 00:02:58.836 A:middle
 we are going to get down to the
 specifics, the nuts and bolts,
-
-00:02:58.836 --> 00:03:00.526 A:middle
-the brass tacks about how
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.836 --> 00:03:00.526 A:middle
 the brass tacks about how
@@ -299,14 +275,6 @@ a very good user experience.
 The number one common pitfall
 that we've seen are slow apps.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:56.286 --> 00:04:00.716 A:middle
-The number one common pitfall
-that we've seen are slow apps.
-
 00:04:01.786 --> 00:04:04.146 A:middle
 Apple Watch is all
 about convenience,
@@ -326,11 +294,11 @@ for people at all; right?
 00:04:15.166 --> 00:04:16.596 A:middle
 The design of your app's UI
 
-00:04:17.216 --> 00:04:20.685 A:middle
+00:04:17.216 --> 00:04:20.686 A:middle
 and how you produce graphics
 can have a huge impact
 
-00:04:20.685 --> 00:04:22.536 A:middle
+00:04:20.686 --> 00:04:22.536 A:middle
 on the performance of your app.
 
 00:04:22.936 --> 00:04:24.786 A:middle
@@ -385,13 +353,6 @@ It's a reasonable expectation.
 
 00:04:57.956 --> 00:04:59.146 A:middle
 So let's look at an example.
-
-00:04:59.316 --> 00:05:00.296 A:middle
-Let's say we have an app
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.316 --> 00:05:00.296 A:middle
 Let's say we have an app
@@ -469,14 +430,6 @@ have been waiting for.
 00:05:54.656 --> 00:05:57.506 A:middle
 I mean, by showing
 a photo label,
-
-00:05:57.506 --> 00:06:00.766 A:middle
-these labels here make it very
-specific about what remains
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:57.506 --> 00:06:00.766 A:middle
 these labels here make it very
@@ -572,14 +525,6 @@ user actually scrolls to see it.
 They may never realize that
 it wasn't present onscreen
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.666 --> 00:07:02.556 A:middle
-They may never realize that
-it wasn't present onscreen
-
 00:07:02.556 --> 00:07:06.306 A:middle
 when they had first
 gotten to this page.
@@ -655,10 +600,6 @@ we see that the file size starts
 00:07:57.886 --> 00:07:59.586 A:middle
 to drop off pretty dramatically.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.046 --> 00:08:02.456 A:middle
 At the highest compression
 setting,
@@ -715,14 +656,14 @@ visual artifacts of compression
 00:08:36.116 --> 00:08:37.586 A:middle
 when you look up close.
 
-00:08:38.306 --> 00:08:41.135 A:middle
+00:08:38.306 --> 00:08:41.136 A:middle
 But that's not how people
 experience these images.
 
-00:08:41.135 --> 00:08:42.395 A:middle
+00:08:41.136 --> 00:08:42.396 A:middle
 That's not how we take them in.
 
-00:08:42.905 --> 00:08:45.896 A:middle
+00:08:42.906 --> 00:08:45.896 A:middle
 They look at it on a very
 high-resolution Retina display
 
@@ -740,14 +681,6 @@ to see those artifacts.
 
 00:08:54.846 --> 00:08:56.486 A:middle
 Next, let's talk about PNGs.
-
-00:08:57.646 --> 00:09:00.596 A:middle
-Now, PNGs are basically the
-way most other graphics other
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.646 --> 00:09:00.596 A:middle
 Now, PNGs are basically the
@@ -828,10 +761,6 @@ decrease in file size.
 Again, there's no discernible
 difference in quality.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.126 --> 00:10:02.006 A:middle
 When your app has
 a lot of graphics,
@@ -910,14 +839,6 @@ in that black matte background
 00:10:54.096 --> 00:10:57.296 A:middle
 and not have an alpha
 channel at all.
-
-00:10:57.526 --> 00:11:00.336 A:middle
-Okay. Now, the last
-main technique
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.526 --> 00:11:00.336 A:middle
 Okay. Now, the last
@@ -1009,14 +930,6 @@ performance of your apps,
 and I'd like to share
 it with you now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.626 --> 00:12:00.976 A:middle
-and I'd like to share
-it with you now.
-
 00:12:00.976 --> 00:12:02.646 A:middle
 It's a really, really good one,
 
@@ -1092,13 +1005,6 @@ focus on the essentials.
 00:12:57.116 --> 00:12:59.426 A:middle
 Don't overload your app
 with too much information
-
-00:12:59.426 --> 00:13:00.286 A:middle
-or functionality.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.426 --> 00:13:00.286 A:middle
 or functionality.
@@ -1183,14 +1089,6 @@ that you can do on your iPhone.
 Apple Watch apps should
 complement your iPhone app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.506 --> 00:14:01.286 A:middle
-Apple Watch apps should
-complement your iPhone app.
-
 00:14:01.286 --> 00:14:02.916 A:middle
 As we just saw with
 Calendar, that could be
@@ -1266,14 +1164,6 @@ makes it harder for people
 to find what it is that
 they're actually looking for.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.656 --> 00:15:01.996 A:middle
-to find what it is that
-they're actually looking for.
-
 00:15:02.936 --> 00:15:05.286 A:middle
 Now, tedious navigation
 often results
@@ -1339,13 +1229,6 @@ it pushes on a child view
 00:15:53.876 --> 00:15:57.266 A:middle
 with more specific information
 on the item we selected.
-
-00:15:58.366 --> 00:16:00.896 A:middle
-In watchOS, it's not possible
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.366 --> 00:16:00.896 A:middle
 In watchOS, it's not possible
@@ -1434,22 +1317,18 @@ view, as we see here.
 Now, the trouble is
 in a page-based app,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:00.786 --> 00:17:04.185 A:middle
+00:17:00.786 --> 00:17:04.186 A:middle
 very similar gestures how you
 go to the previous screen.
 
-00:17:04.185 --> 00:17:07.876 A:middle
+00:17:04.186 --> 00:17:07.876 A:middle
 And because the Watch
 display size is pretty small,
 
 00:17:08.236 --> 00:17:10.276 A:middle
 it's difficult to support both
 
-00:17:10.276 --> 00:17:12.445 A:middle
+00:17:10.276 --> 00:17:12.446 A:middle
 of those gestures
 simultaneously.
 
@@ -1461,15 +1340,15 @@ model is best for your app.
 The structure that you choose
 should obviously make it easy
 
-00:17:20.646 --> 00:17:23.465 A:middle
+00:17:20.646 --> 00:17:23.466 A:middle
 for people to find what it is
 that they are looking for with
 
-00:17:23.465 --> 00:17:25.856 A:middle
+00:17:23.466 --> 00:17:25.856 A:middle
 as few swipes or
 taps as necessary.
 
-00:17:26.715 --> 00:17:29.086 A:middle
+00:17:26.716 --> 00:17:29.086 A:middle
 Now, usually deciding
 between hierarchy
 
@@ -1518,14 +1397,6 @@ the weather for a few cities,
 00:17:58.036 --> 00:17:59.106 A:middle
 so you don't have
 too many items,
-
-00:17:59.106 --> 00:18:01.446 A:middle
-and it doesn't feel
-cumbersome that you have
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.106 --> 00:18:01.446 A:middle
 and it doesn't feel
@@ -1603,14 +1474,6 @@ if we had designed this
 00:18:55.266 --> 00:18:57.566 A:middle
 as being a paginated
 or page-based app.
-
-00:18:57.756 --> 00:19:01.156 A:middle
-It would take people forever to
-get through all of the stocks
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:57.756 --> 00:19:01.156 A:middle
 It would take people forever to
@@ -1695,14 +1558,6 @@ interface and takes people
 
 00:19:56.546 --> 00:19:58.176 A:middle
 out of the main app experience.
-
-00:19:58.716 --> 00:20:00.546 A:middle
-It's meant to signal
-a departure.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.716 --> 00:20:00.546 A:middle
 It's meant to signal
@@ -1801,14 +1656,6 @@ lost in your hierarchy.
 And with page-based apps,
 as I was suggesting before,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.756 --> 00:21:02.486 A:middle
-And with page-based apps,
-as I was suggesting before,
-
 00:21:02.756 --> 00:21:04.546 A:middle
 avoid having too many pages.
 
@@ -1872,14 +1719,6 @@ the current view.
 
 00:21:54.886 --> 00:21:57.376 A:middle
 But that's not really the case.
-
-00:21:58.496 --> 00:22:00.416 A:middle
-If we were to use it
-as such, we would wind
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.496 --> 00:22:00.416 A:middle
 If we were to use it
@@ -1974,14 +1813,6 @@ or the parent screen.
 Now, the other common
 misconception when it comes
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.866 --> 00:23:04.066 A:middle
-Now, the other common
-misconception when it comes
-
 00:23:04.066 --> 00:23:07.326 A:middle
 to labels relates to
 modal sheet Close buttons
@@ -2064,10 +1895,6 @@ even in a hierarchical app,
 you shouldn't treat
 this as a Back button.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:00.246 --> 00:24:01.726 A:middle
 So this is just putting
 an angle bracket
@@ -2141,14 +1968,6 @@ even that they can navigate.
 00:24:55.216 --> 00:24:57.126 A:middle
 So for example, in
 a hierarchical app,
-
-00:24:57.586 --> 00:25:00.146 A:middle
-that arrow there serves a
-really important purpose.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.586 --> 00:25:00.146 A:middle
 that arrow there serves a
@@ -2240,14 +2059,6 @@ screen you are currently looking
 at is the only screen
 the app has.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:57.776 --> 00:26:01.896 A:middle
-at is the only screen
-the app has.
-
 00:26:01.896 --> 00:26:05.006 A:middle
 So it's best to stick with
 just straight-up hierarchy
@@ -2318,14 +2129,6 @@ at the menu for your app,
 00:26:56.896 --> 00:26:59.486 A:middle
 and then they realize they
 don't want to navigate anywhere
-
-00:26:59.486 --> 00:27:01.046 A:middle
-or do any of this
-stuff, so they try
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.486 --> 00:27:01.046 A:middle
 or do any of this
@@ -2411,13 +2214,6 @@ Rachel?
 00:27:58.361 --> 00:28:00.361 A:middle
 [Applause]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.361 --> 00:28:00.361 A:middle
-[Applause]
-
 00:28:00.706 --> 00:28:01.416 A:middle
 &gt;&gt; RACHEL ROTH: Thanks, Mike.
 
@@ -2490,14 +2286,6 @@ in the corner is tappable
 00:28:53.426 --> 00:28:55.636 A:middle
 because of its location
 and its color.
-
-00:28:55.636 --> 00:29:01.266 A:middle
-Now, on Apple Watch, most
-controls are put inside
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:55.636 --> 00:29:01.266 A:middle
 Now, on Apple Watch, most
@@ -2577,14 +2365,6 @@ similar content,
 but because Yelp has
 their red branded color
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.046 --> 00:30:01.616 A:middle
-but because Yelp has
-their red branded color
-
 00:30:01.616 --> 00:30:03.126 A:middle
 and Foursquare is
 more of a pink,
@@ -2646,10 +2426,6 @@ or my font size was set larger,
 00:30:56.816 --> 00:30:59.066 A:middle
 it would cause the text
 to wrap or truncate.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.586 --> 00:31:02.526 A:middle
 And also, they just
@@ -2727,14 +2503,6 @@ or decline it?
 00:31:53.676 --> 00:31:56.606 A:middle
 The circles help make
 the actions very clear.
-
-00:31:57.916 --> 00:32:00.186 A:middle
-But it's not as though
-rounded rectangles
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:57.916 --> 00:32:00.186 A:middle
 But it's not as though
@@ -2825,14 +2593,6 @@ or circular shape,
 and just as importantly,
 don't use these shapes
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.486 --> 00:33:01.206 A:middle
-and just as importantly,
-don't use these shapes
-
 00:33:01.206 --> 00:33:02.846 A:middle
 for anything that's
 not tappable.
@@ -2913,14 +2673,6 @@ which is inadequate tap targets.
 Now, knowing what is
 interactive is a start,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.526 --> 00:34:02.546 A:middle
-Now, knowing what is
-interactive is a start,
-
 00:34:02.546 --> 00:34:04.916 A:middle
 but if people can't
 easily tap those things,
@@ -2936,18 +2688,18 @@ critically important
 00:34:10.516 --> 00:34:12.456 A:middle
 on the Apple Watch, especially
 
-00:34:12.456 --> 00:34:14.985 A:middle
+00:34:12.456 --> 00:34:14.986 A:middle
 since someone might be using
 your app while they are
 
-00:34:15.275 --> 00:34:16.696 A:middle
+00:34:15.276 --> 00:34:16.696 A:middle
 in motion.
 
-00:34:17.126 --> 00:34:19.985 A:middle
+00:34:17.126 --> 00:34:19.986 A:middle
 So something like this might
 seem usable when you are
 
-00:34:19.985 --> 00:34:21.896 A:middle
+00:34:19.986 --> 00:34:21.896 A:middle
 in Photoshop or in Sketch.
 
 00:34:22.456 --> 00:34:25.476 A:middle
@@ -2969,7 +2721,7 @@ mouse, this seems very easy.
 But once you get
 it on the Watch,
 
-00:34:37.005 --> 00:34:39.426 A:middle
+00:34:37.006 --> 00:34:39.426 A:middle
 it's going to be a problem
 to hit those tap targets
 
@@ -2986,25 +2738,17 @@ You've got the Crown.
 00:34:46.116 --> 00:34:47.856 A:middle
 It's easy to swipe your finger.
 
-00:34:48.146 --> 00:34:50.545 A:middle
+00:34:48.146 --> 00:34:50.546 A:middle
 So don't be afraid to let
 things scroll out of view,
 
-00:34:50.545 --> 00:34:53.916 A:middle
+00:34:50.546 --> 00:34:53.916 A:middle
 especially if that means
 you can avoid truncation
 
 00:34:53.916 --> 00:34:58.386 A:middle
 and make your buttons
 really easy to hit.
-
-00:34:58.386 --> 00:35:01.326 A:middle
-Now, on the Apple Watch, you
-want your circular controls
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.386 --> 00:35:01.326 A:middle
 Now, on the Apple Watch, you
@@ -3082,14 +2826,6 @@ you have a short label,
 because this is not going to
 be as easy to tap as this is,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.346 --> 00:36:01.516 A:middle
-because this is not going to
-be as easy to tap as this is,
-
 00:36:02.066 --> 00:36:03.376 A:middle
 especially when you
 are about to step
@@ -3158,14 +2894,6 @@ your tap targets
 00:36:56.516 --> 00:36:58.966 A:middle
 because this is the one time
 you want to make it easy
-
-00:36:58.966 --> 00:37:00.896 A:middle
-for someone to push
-your buttons.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.966 --> 00:37:00.896 A:middle
 for someone to push
@@ -3252,14 +2980,6 @@ apps in context on your wrist.
 You need to make sure the most
 important content is legible
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.636 --> 00:38:02.906 A:middle
-You need to make sure the most
-important content is legible
-
 00:38:03.416 --> 00:38:05.566 A:middle
 when the person's
 going to be needing it.
@@ -3337,10 +3057,6 @@ see the session
 00:38:58.356 --> 00:38:59.746 A:middle
 that was right before this one,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.186 --> 00:39:02.686 A:middle
 I highly recommend
 checking out the video.
@@ -3412,13 +3128,6 @@ and typographic integrity.
 00:39:55.296 --> 00:40:00.816 A:middle
 We adjust the size.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:55.296 --> 00:40:00.816 A:middle
-We adjust the size.
-
 00:40:01.036 --> 00:40:02.836 A:middle
 We also adjust the leading.
 
@@ -3479,14 +3188,6 @@ the hardware and the software
 00:40:54.556 --> 00:40:58.736 A:middle
 when it comes to Apple Watch,
 and nothing wrecks that faster
-
-00:40:58.736 --> 00:41:01.566 A:middle
-than gratuitously
-bright background colors
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:58.736 --> 00:41:01.566 A:middle
 than gratuitously
@@ -3559,14 +3260,6 @@ because you need more images,
 00:41:53.776 --> 00:41:57.416 A:middle
 which affects your launch times,
 like Mike was talking about,
-
-00:41:58.196 --> 00:42:00.376 A:middle
-and it makes the
-text harder to read.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:58.196 --> 00:42:00.376 A:middle
 and it makes the
@@ -3657,14 +3350,6 @@ on your content of your app.
 But this doesn't mean you
 have to make your app boring.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.076 --> 00:43:01.956 A:middle
-But this doesn't mean you
-have to make your app boring.
-
 00:43:02.696 --> 00:43:05.306 A:middle
 There are so many ways
 to carry over branding
@@ -3736,14 +3421,6 @@ texture here on Apple Watch,
 and they also have these
 really adorable characters
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:57.166 --> 00:44:00.426 A:middle
-and they also have these
-really adorable characters
-
 00:44:00.426 --> 00:44:03.156 A:middle
 and charming animations,
 so there's no way
@@ -3801,14 +3478,6 @@ noticed,
 00:44:51.246 --> 00:44:55.126 A:middle
 the Watch App icons are
 circular and much, much smaller.
-
-00:44:55.856 --> 00:45:00.476 A:middle
-So that can present some
-design challenges as well.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:55.856 --> 00:45:00.476 A:middle
 So that can present some
@@ -3888,14 +3557,6 @@ Start with text.
 Text is going to be particularly
 tough at such small sizes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:58.546 --> 00:46:02.466 A:middle
-Text is going to be particularly
-tough at such small sizes.
-
 00:46:02.896 --> 00:46:04.796 A:middle
 So can you eliminate
 it altogether?
@@ -3960,14 +3621,6 @@ Now he is facing you dead on,
 00:46:56.606 --> 00:46:59.176 A:middle
 and a lot of the features have
 been simplified or removed.
-
-00:46:59.176 --> 00:47:03.016 A:middle
-It's no longer got nostrils
-on the beak, and the pupils
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:59.176 --> 00:47:03.016 A:middle
 It's no longer got nostrils
@@ -4041,14 +3694,6 @@ size on the Watch,
 and enlarged the lightning
 bolt, but most importantly,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.376 --> 00:48:03.126 A:middle
-and enlarged the lightning
-bolt, but most importantly,
-
 00:48:03.126 --> 00:48:05.266 A:middle
 they retained that green
 and gold color scheme,
@@ -4110,14 +3755,6 @@ ton of functionality.
 00:48:55.166 --> 00:48:57.246 A:middle
 You can take pictures,
 edit them, share them.
-
-00:48:58.036 --> 00:49:00.706 A:middle
-But on the Watch, it
-really just acts as a remote
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:58.036 --> 00:49:00.706 A:middle
 But on the Watch, it
@@ -4202,13 +3839,6 @@ Space Station might be
 00:49:59.546 --> 00:50:01.246 A:middle
 about to fly overhead.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:59.546 --> 00:50:01.246 A:middle
-about to fly overhead.
-
 00:50:02.296 --> 00:50:05.176 A:middle
 So they came up with a
 complementary concept
@@ -4272,14 +3902,6 @@ will be a handy tool for you
 so you can avoid some of those
 common usability pitfalls.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:58.656 --> 00:51:01.956 A:middle
-so you can avoid some of those
-common usability pitfalls.
-
 00:51:02.746 --> 00:51:04.576 A:middle
 It really has been
 amazing for us
@@ -4337,4 +3959,3 @@ Thank you.
 
 00:51:40.516 --> 00:51:43.500 A:middle
 [Applause]
-

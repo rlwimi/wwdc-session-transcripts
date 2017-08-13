@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:23.516 --> 00:00:28.006 A:middle
 [Applause]
@@ -57,14 +56,6 @@ pitfalls that you may run
 into when adopting these
 new fonts in your apps.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.536 --> 00:01:05.436 A:middle
-into when adopting these
-new fonts in your apps.
-
 00:01:05.846 --> 00:01:06.776 A:middle
 So let's get started.
 
@@ -109,14 +100,6 @@ or screen sizes and resolutions.
 00:01:52.636 --> 00:01:58.596 A:middle
 So we set out to improve on
 the typography of our platform,
-
-00:01:58.596 --> 00:02:01.806 A:middle
-and we came up with
-a new typeface design
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.596 --> 00:02:01.806 A:middle
 and we came up with
@@ -179,10 +162,6 @@ display, and I will talk
 
 00:02:58.546 --> 00:02:59.826 A:middle
 about these in a second.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.886 --> 00:03:04.246 A:middle
 And all of the fonts have six
@@ -256,14 +235,6 @@ over and over and over again
 in text really does
 make a big difference.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.586 --> 00:04:02.036 A:middle
-in text really does
-make a big difference.
-
 00:04:03.786 --> 00:04:06.396 A:middle
 So now let's look
 at proportions,
@@ -280,7 +251,7 @@ on SF for a minute.
 I am going to go over some
 typographic terms you may
 
-00:04:14.446 --> 00:04:16.315 A:middle
+00:04:14.446 --> 00:04:16.316 A:middle
 already be familiar with,
 so please bear with me.
 
@@ -329,14 +300,6 @@ of vertical reflow.
 00:04:55.866 --> 00:04:58.356 A:middle
 In fact, they won't experience
 any vertical reflow at all.
-
-00:04:59.376 --> 00:05:02.206 A:middle
-But within these
-compatible vertical metrics,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.376 --> 00:05:02.206 A:middle
 But within these
@@ -414,13 +377,6 @@ Greek script.
 00:05:58.226 --> 00:06:02.236 A:middle
 So that's San Francisco.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.226 --> 00:06:02.236 A:middle
-So that's San Francisco.
-
 00:06:03.056 --> 00:06:10.016 A:middle
 It is a new family of typefaces
 that we designed at Apple.
@@ -472,14 +428,6 @@ Francisco family of typefaces,
 00:06:54.176 --> 00:06:59.556 A:middle
 I need to tell you about
 some principles of design.
-
-00:06:59.726 --> 00:07:02.546 A:middle
-Visual perception is
-largely about illusion.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.726 --> 00:07:02.546 A:middle
 Visual perception is
@@ -556,10 +504,6 @@ slide, like this,
 00:07:58.206 --> 00:07:59.556 A:middle
 it would actually look too low.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.396 --> 00:08:03.096 A:middle
 So again, to make
 shapes look similar,
@@ -603,7 +547,7 @@ very dark and actually can kind
 00:08:31.516 --> 00:08:33.226 A:middle
 of clog up at smaller sizes.
 
-00:08:33.635 --> 00:08:35.885 A:middle
+00:08:33.636 --> 00:08:35.886 A:middle
 So if you see it small, you can
 hardly notice that it's there.
 
@@ -626,14 +570,6 @@ heavy weight of San Francisco,
 00:08:53.076 --> 00:08:57.846 A:middle
 and we do this in type
 design all the time.
-
-00:08:58.096 --> 00:09:00.516 A:middle
-So again, visual
-perception is about illusion.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.096 --> 00:09:00.516 A:middle
 So again, visual
@@ -711,14 +647,6 @@ when it's small.
 00:09:55.796 --> 00:09:58.176 A:middle
 So you may be thinking that all
 I did there was just animate it
-
-00:09:58.176 --> 00:10:00.306 A:middle
-and make it slightly
-wider, and actually,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.176 --> 00:10:00.306 A:middle
 and make it slightly
@@ -802,14 +730,6 @@ and they can become confusable.
 So when you superimpose
 them, you may notice
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.886 --> 00:11:03.466 A:middle
-So when you superimpose
-them, you may notice
-
 00:11:03.566 --> 00:11:06.186 A:middle
 that they all have the
 same overall morphology,
@@ -887,14 +807,6 @@ bottom of the lowercase g.
 In the lowercase s, we open
 up these apertures as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.896 --> 00:12:05.286 A:middle
-In the lowercase s, we open
-up these apertures as well.
-
 00:12:06.936 --> 00:12:14.156 A:middle
 We make the r nose or flag
 larger, and we do the same
@@ -950,14 +862,6 @@ Thank you.
 
 00:12:52.516 --> 00:12:58.066 A:middle
 [Applause]
-
-00:12:58.566 --> 00:13:00.456 A:middle
-There are two optical,
-size-specific families
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.566 --> 00:13:00.456 A:middle
 There are two optical,
@@ -1038,14 +942,6 @@ really only applies
 to a specific pair,
 individual pair.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.576 --> 00:14:00.576 A:middle
-to a specific pair,
-individual pair.
-
 00:14:01.806 --> 00:14:03.246 A:middle
 So that's kind of
 the big difference.
@@ -1115,14 +1011,6 @@ is all about.
 Next, I would like to
 talk to you about weight.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:54.786 --> 00:15:00.346 A:middle
-Next, I would like to
-talk to you about weight.
-
 00:15:04.416 --> 00:15:08.306 A:middle
 Font weight is the
 measure of how thick
@@ -1187,14 +1075,6 @@ new APIs to actually get
 00:15:56.756 --> 00:15:58.656 A:middle
 to all the range of
 weights and system font.
-
-00:15:59.336 --> 00:16:01.186 A:middle
-They are both in
-UIKit and AppKit,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.336 --> 00:16:01.186 A:middle
 They are both in
@@ -1283,14 +1163,6 @@ actually is the one I want to --
 it is the title of the list, and
 the other ones are the things
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.976 --> 00:17:01.466 A:middle
-it is the title of the list, and
-the other ones are the things
-
 00:17:01.466 --> 00:17:02.516 A:middle
 that are being enumerated.
 
@@ -1298,14 +1170,14 @@ that are being enumerated.
 But you can also use
 weight in a more subtle way,
 
-00:17:06.396 --> 00:17:07.675 A:middle
+00:17:06.396 --> 00:17:07.676 A:middle
 which is to create similitude.
 
-00:17:08.636 --> 00:17:10.445 A:middle
+00:17:08.636 --> 00:17:10.446 A:middle
 Consider this example,
 which is kind
 
-00:17:10.445 --> 00:17:13.136 A:middle
+00:17:10.446 --> 00:17:13.136 A:middle
 of vernacular to
 Watch Glances UI.
 
@@ -1313,7 +1185,7 @@ Watch Glances UI.
 You have a bigger number and
 some smaller text underneath it.
 
-00:17:17.786 --> 00:17:20.215 A:middle
+00:17:17.786 --> 00:17:20.216 A:middle
 Now, if you set them both
 in the same font weight,
 
@@ -1321,7 +1193,7 @@ in the same font weight,
 the smaller text
 might look too light.
 
-00:17:22.945 --> 00:17:25.116 A:middle
+00:17:22.946 --> 00:17:25.116 A:middle
 So if you want to achieve
 similitude there, what you have
 
@@ -1362,14 +1234,6 @@ created a new revolutionary app.
 00:17:52.846 --> 00:17:57.226 A:middle
 It's called Bee Weather, and
 it's a weather app for bees.
-
-00:17:58.026 --> 00:18:03.726 A:middle
-I really wanted to be punchy
-and bold, but what I want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.026 --> 00:18:03.726 A:middle
 I really wanted to be punchy
@@ -1448,10 +1312,6 @@ Dynamic Type advantages,
 such as users can go
 in their preferences,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.286 --> 00:19:03.576 A:middle
 change their font size, and
 your app will react accordingly.
@@ -1509,14 +1369,6 @@ legibility, hierarchy,
 00:19:54.776 --> 00:19:57.626 A:middle
 and the elusive quality of
 taste apply to their usage.
-
-00:19:58.126 --> 00:20:03.146 A:middle
-Next I want to talk to
-you about another feature
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.126 --> 00:20:03.146 A:middle
 Next I want to talk to
@@ -1593,10 +1445,6 @@ to typeset something like this?
 00:20:57.346 --> 00:20:59.216 A:middle
 Which is not in the font
 and is not in Unicode?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.016 --> 00:21:06.866 A:middle
 So you could write code that
@@ -1675,14 +1523,6 @@ off of the font.
 And the great thing
 about this is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.836 --> 00:22:01.166 A:middle
-And the great thing
-about this is
-
 00:22:01.166 --> 00:22:02.276 A:middle
 that these are individual
 glyphs,
@@ -1752,14 +1592,6 @@ Or NSFont.
 00:22:51.036 --> 00:22:55.006 A:middle
 So other features that are
 available to you are things
-
-00:22:55.006 --> 00:23:00.266 A:middle
-like superiors and superscripts
-or inferiors and subscripts.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:55.006 --> 00:23:00.266 A:middle
 like superiors and superscripts
@@ -1842,14 +1674,6 @@ to opt into it, essentially.
 Another feature is alternate
 shapes for numerals 6 and 9.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.196 --> 00:24:02.986 A:middle
-Another feature is alternate
-shapes for numerals 6 and 9.
-
 00:24:03.946 --> 00:24:06.906 A:middle
 So these two shapes are
 beautiful when they are large
@@ -1919,14 +1743,6 @@ of combine two ideas.
 00:24:55.836 --> 00:24:58.246 A:middle
 The first is typographic
 features that we just saw,
-
-00:24:58.686 --> 00:25:00.806 A:middle
-and the second one is optical
-sizes that we saw earlier.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.686 --> 00:25:00.806 A:middle
 and the second one is optical
@@ -2008,14 +1824,6 @@ require you to opt into them.
 So next I want to talk to you
 about numbers for a second,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.076 --> 00:26:02.986 A:middle
-So next I want to talk to you
-about numbers for a second,
-
 00:26:03.156 --> 00:26:06.376 A:middle
 not the app, but actual
 numbers inside the font.
@@ -2089,10 +1897,6 @@ where, of course,
 monospaced numbers are
 clearly what you want.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:01.096 --> 00:27:06.426 A:middle
 For example, like this, when
 you have proportional numbers,
@@ -2155,14 +1959,6 @@ numbers.
 00:27:53.516 --> 00:27:58.746 A:middle
 So knowing this, we decided
 to take a big leap here,
-
-00:27:59.406 --> 00:28:02.096 A:middle
-and change the default
-of our platforms
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.406 --> 00:28:02.096 A:middle
 and change the default
@@ -2237,10 +2033,6 @@ with these new fonts
 00:28:57.686 --> 00:28:58.986 A:middle
 and with existing fonts.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:01.796 --> 00:29:04.636 A:middle
 First of all, the curious
 amongst you may have noticed
@@ -2303,14 +2095,6 @@ for them on the file system.
 00:29:52.956 --> 00:29:56.846 A:middle
 Also, if you access
 system font by name,
-
-00:29:57.416 --> 00:30:00.376 A:middle
-the fontWithName API is
-really meant for user fonts.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.416 --> 00:30:00.376 A:middle
 the fontWithName API is
@@ -2385,14 +2169,6 @@ is designed for 15 points at,
 
 00:30:55.836 --> 00:30:57.686 A:middle
 I don't know, 120 points.
-
-00:30:58.446 --> 00:31:00.976 A:middle
-What you really want to be doing
-there is actually reinstantiate
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.446 --> 00:31:00.976 A:middle
 What you really want to be doing
@@ -2474,14 +2250,6 @@ can get in touch with Mike
 or Curt, or go on our
 Developer websites.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:57.896 --> 00:32:00.786 A:middle
-or Curt, or go on our
-Developer websites.
-
 00:32:01.626 --> 00:32:04.456 A:middle
 There's also a session
 about Watch Design Tips
@@ -2499,4 +2267,3 @@ So thank you very much.
 
 00:32:11.508 --> 00:32:13.508 A:middle
 [Applause]
-

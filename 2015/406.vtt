@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:28.136 --> 00:00:28.656 A:middle
 &gt;&gt; WIL TURNER: Good morning.
@@ -35,14 +34,6 @@ That is UI testing.
 00:00:53.196 --> 00:00:57.986 A:middle
 With UI testing you can find
 user interface elements,
-
-00:00:58.546 --> 00:01:03.086 A:middle
-interact with them, and validate
-the UI properties in state.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.546 --> 00:01:03.086 A:middle
 interact with them, and validate
@@ -105,14 +96,6 @@ which means you get everything
 00:01:55.056 --> 00:01:58.536 A:middle
 from the ID in terms of
 code completion, debugging,
-
-00:01:58.536 --> 00:02:01.216 A:middle
-and the ability to run
-your tests directly
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.536 --> 00:02:01.216 A:middle
 and the ability to run
@@ -194,14 +177,6 @@ that all other users receive.
 To make Accessibility
 work, it offers a rich set
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.116 --> 00:03:02.336 A:middle
-To make Accessibility
-work, it offers a rich set
-
 00:03:02.336 --> 00:03:05.966 A:middle
 of semantic data about the UI
 that technologies like Voice
@@ -266,14 +241,6 @@ your privacy.
 00:03:52.856 --> 00:03:57.126 A:middle
 And to do so it means your
 iOS devices need to be enabled
-
-00:03:57.126 --> 00:04:02.546 A:middle
-for development and connected
-to a trusted host running Xcode.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:57.126 --> 00:04:02.546 A:middle
 for development and connected
@@ -352,14 +319,6 @@ for both Cocoa and Cocoa Touch
 and the assistant for
 these will set everything
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.896 --> 00:05:01.916 A:middle
-and the assistant for
-these will set everything
-
 00:05:01.916 --> 00:05:04.156 A:middle
 up the way you need
 it to get started.
@@ -419,13 +378,6 @@ what this is all about.
 
 00:05:55.056 --> 00:05:56.696 A:middle
 Brooke, let's see a quick demo.
-
-00:05:58.516 --> 00:06:04.276 A:middle
-[Applause]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.516 --> 00:06:04.276 A:middle
 [Applause]
@@ -505,14 +457,6 @@ cursor in the method and click
 on the record button
 down the debug bar.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.806 --> 00:07:04.586 A:middle
-on the record button
-down the debug bar.
-
 00:07:04.806 --> 00:07:06.356 A:middle
 Now, Xcode is launching
 my application.
@@ -583,14 +527,6 @@ button, and finally done.
 Great. Now I have a
 simple test that adds
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.406 --> 00:08:01.976 A:middle
-Great. Now I have a
-simple test that adds
-
 00:08:01.976 --> 00:08:03.546 A:middle
 and removes an item
 from the list.
@@ -619,15 +555,15 @@ interacts with UI elements,
 we get implicit validation
 that those UI elements exist.
 
-00:08:33.905 --> 00:08:36.166 A:middle
+00:08:33.906 --> 00:08:36.166 A:middle
 But What we don't
 get validation of,
 
-00:08:36.265 --> 00:08:38.145 A:middle
+00:08:36.266 --> 00:08:38.146 A:middle
 are things like state
 changes in the application.
 
-00:08:38.265 --> 00:08:40.856 A:middle
+00:08:38.266 --> 00:08:40.856 A:middle
 For example, when we tapped
 on that cookies button,
 
@@ -653,14 +589,6 @@ confirmation button was tapped.
 00:08:56.036 --> 00:08:58.936 A:middle
 but running the test
 doesn't validate
-
-00:08:58.936 --> 00:09:01.356 A:middle
-that the cookies row
-actually is removed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.936 --> 00:09:01.356 A:middle
 that the cookies row
@@ -731,14 +659,6 @@ tap on that button.
 So I'm going to go
 in the debugger,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.456 --> 00:10:03.316 A:middle
-So I'm going to go
-in the debugger,
-
 00:10:03.926 --> 00:10:08.166 A:middle
 and print out the value
 of this cookies button.
@@ -783,13 +703,6 @@ button changes when it's tapped.
 00:10:51.576 --> 00:10:56.416 A:middle
 So I'm going to add an assertion
 using XCT assert equal.
-
-00:10:56.416 --> 00:11:02.296 A:middle
-I'll assert that the value
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:56.416 --> 00:11:02.296 A:middle
 I'll assert that the value
@@ -843,14 +756,6 @@ should see it does all the same
 00:11:46.406 --> 00:11:48.176 A:middle
 thing but also passing
 these assertions.
-
-00:11:57.516 --> 00:12:00.626 A:middle
-Great, so now I have
-just added my first test.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.516 --> 00:12:00.626 A:middle
 Great, so now I have
@@ -919,10 +824,6 @@ validation with XCT assert.
 00:12:55.696 --> 00:12:58.856 A:middle
 Let's take a look at
 this UI testing API.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.586 --> 00:13:02.596 A:middle
 I mentioned earlier that
@@ -1004,14 +905,6 @@ running in a separate process.
 You get explicit control
 over when the app is launched
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.756 --> 00:14:01.586 A:middle
-You get explicit control
-over when the app is launched
-
 00:14:01.926 --> 00:14:06.466 A:middle
 and when it is terminated.
 
@@ -1077,14 +970,6 @@ cell, or window, and so forth.
 00:14:54.326 --> 00:14:58.536 A:middle
 They have what we call
 identifiers, strings of data
-
-00:14:58.536 --> 00:15:00.316 A:middle
-that we get from the
-accessibility system,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.536 --> 00:15:00.316 A:middle
 that we get from the
@@ -1162,13 +1047,6 @@ to find your elements.
 00:15:56.376 --> 00:15:58.046 A:middle
 Elements, when you
 work with them
-
-00:15:58.046 --> 00:16:00.166 A:middle
-in your test, must be unique.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.046 --> 00:16:00.166 A:middle
 in your test, must be unique.
@@ -1259,22 +1137,14 @@ in some context.
 For example, if you are
 saving a file to a location
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.386 --> 00:17:02.506 A:middle
-For example, if you are
-saving a file to a location
-
-00:17:02.506 --> 00:17:05.425 A:middle
+00:17:02.506 --> 00:17:05.426 A:middle
 where another file already
 exists, you might get some kind
 
-00:17:05.425 --> 00:17:06.526 A:middle
+00:17:05.426 --> 00:17:06.526 A:middle
 of confirmation sheet.
 
-00:17:06.945 --> 00:17:08.826 A:middle
+00:17:06.946 --> 00:17:08.826 A:middle
 That wouldn't be
 present all the time.
 
@@ -1294,11 +1164,11 @@ synthesis APIs live.
 Event synthesis is how we
 simulate user interaction,
 
-00:17:22.736 --> 00:17:26.165 A:middle
+00:17:22.736 --> 00:17:26.166 A:middle
 and do this at the lowest level
 of the system so everything goes
 
-00:17:26.165 --> 00:17:29.796 A:middle
+00:17:26.166 --> 00:17:29.796 A:middle
 through the same channels it
 would when the user interacts.
 
@@ -1331,14 +1201,6 @@ for specifying elements.
 00:17:54.136 --> 00:17:58.806 A:middle
 Queries resolve to collections
 of accessible elements.
-
-00:17:58.806 --> 00:18:01.856 A:middle
-They can only find elements that
-are visible to Accessibility.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.806 --> 00:18:01.856 A:middle
 They can only find elements that
@@ -1412,14 +1274,6 @@ showing the view.
 00:18:54.756 --> 00:18:57.066 A:middle
 All the gold cells
 are its descendents.
-
-00:18:58.226 --> 00:19:01.366 A:middle
-On the other hand children is a
-more restrictive relationship.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.226 --> 00:19:01.366 A:middle
 On the other hand children is a
@@ -1502,14 +1356,6 @@ what that does.
 It find the descendants
 that match a certain type.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.626 --> 00:20:02.146 A:middle
-It find the descendants
-that match a certain type.
-
 00:20:02.556 --> 00:20:05.276 A:middle
 This turns out to be the
 most common query you'll use.
@@ -1568,13 +1414,6 @@ yet concise.
 00:20:56.536 --> 00:20:59.036 A:middle
 ChildrenMatchingType is
 the other combination
-
-00:20:59.036 --> 00:21:00.356 A:middle
-of relationships in filtering.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.036 --> 00:21:00.356 A:middle
 of relationships in filtering.
@@ -1656,10 +1495,6 @@ with the identifier groceries.
 00:21:58.666 --> 00:21:59.976 A:middle
 That will find the
 first cell for me.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.706 --> 00:22:04.836 A:middle
 There's also predicate
@@ -1746,14 +1581,6 @@ the query and maybe assert
 that you have the right
 number of items in there.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.426 --> 00:23:01.236 A:middle
-that you have the right
-number of items in there.
-
 00:23:01.586 --> 00:23:04.576 A:middle
 But often the goal of a
 query is to find an element.
@@ -1832,10 +1659,6 @@ or as they are needed.
 00:23:55.686 --> 00:23:59.786 A:middle
 This means that with an element,
 the query will be evaluated
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.066 --> 00:24:04.206 A:middle
 when you synthesize events
@@ -1916,14 +1739,6 @@ raised until that point.
 Similarly, queries and elements,
 they are just specifications
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.746 --> 00:25:03.406 A:middle
-Similarly, queries and elements,
-they are just specifications
-
 00:25:03.576 --> 00:25:06.136 A:middle
 for accessible elements
 in the tested application.
@@ -1989,14 +1804,6 @@ the accessibility data
 00:25:55.556 --> 00:25:58.316 A:middle
 for your application, the
 easier it is to write tests
-
-00:25:58.316 --> 00:26:01.506 A:middle
-and the more reliable
-those tests are over time.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.316 --> 00:26:01.506 A:middle
 and the more reliable
@@ -2085,14 +1892,6 @@ better accessibility data.
 When this happens, there's
 a couple tools I would point
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.476 --> 00:27:00.816 A:middle
-When this happens, there's
-a couple tools I would point
-
 00:27:00.816 --> 00:27:01.106 A:middle
 you at.
 
@@ -2174,14 +1973,6 @@ expressed to Accessibility.
 So with that in mind,
 let's see another demo.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.886 --> 00:28:04.386 A:middle
-So with that in mind,
-let's see another demo.
-
 00:28:04.856 --> 00:28:05.976 A:middle
 This time Brooke
 is going to take us
@@ -2250,13 +2041,6 @@ that is going to tap
 00:28:59.736 --> 00:29:01.746 A:middle
 on the groceries label.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.736 --> 00:29:01.746 A:middle
-on the groceries label.
-
 00:29:02.456 --> 00:29:05.356 A:middle
 Next it is going to add the
 new cookies item to the list,
@@ -2318,14 +2102,6 @@ multiple matches are found.
 00:29:53.036 --> 00:29:55.206 A:middle
 I think I have an idea
 of what went wrong here.
-
-00:29:56.546 --> 00:30:00.246 A:middle
-The way that the cookies
-button constant is specified,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:56.546 --> 00:30:00.246 A:middle
 The way that the cookies
@@ -2410,14 +2186,6 @@ Multiple matches found.
 There's also a quick look button
 here, where I can look on that
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.896 --> 00:31:03.626 A:middle
-There's also a quick look button
-here, where I can look on that
-
 00:31:03.626 --> 00:31:05.746 A:middle
 and it will show
 me the exact state
@@ -2492,14 +2260,6 @@ line right before the assertion
 failure, and run the
 test at that point.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.576 --> 00:32:11.096 A:middle
-failure, and run the
-test at that point.
-
 00:32:11.316 --> 00:32:11.586 A:middle
 All right.
 
@@ -2548,10 +2308,6 @@ to use that new reference.
 00:32:53.476 --> 00:32:56.036 A:middle
 And when I run the test again,
 we should see that it works.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:06.896 --> 00:33:07.156 A:middle
 Great!
@@ -2614,14 +2370,6 @@ to the data of the application.
 I want it to remove all these
 items, but I don't want it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.436 --> 00:34:01.766 A:middle
-I want it to remove all these
-items, but I don't want it
-
 00:34:01.766 --> 00:34:05.246 A:middle
 to actually refer to the
 items by their labels.
@@ -2630,19 +2378,19 @@ items by their labels.
 Because that is going to
 get kind of wordy here.
 
-00:34:08.716 --> 00:34:14.585 A:middle
+00:34:08.716 --> 00:34:14.586 A:middle
 So first thing I'm going to
 do, you see these tokens here,
 
-00:34:14.585 --> 00:34:20.565 A:middle
+00:34:14.586 --> 00:34:20.566 A:middle
 the tokens provide multiple ways
 to get to the same UI element.
 
-00:34:20.565 --> 00:34:23.846 A:middle
+00:34:20.566 --> 00:34:23.846 A:middle
 In this case, for that
 first delete apples button,
 
-00:34:23.846 --> 00:34:27.815 A:middle
+00:34:23.846 --> 00:34:27.816 A:middle
 I can get to this by calling
 table.button delete apples.
 
@@ -2650,7 +2398,7 @@ table.button delete apples.
 I can be more specific and say
 it's the delete apples button
 
-00:34:34.565 --> 00:34:35.676 A:middle
+00:34:34.566 --> 00:34:35.676 A:middle
 in the cell called apples.
 
 00:34:35.716 --> 00:34:38.146 A:middle
@@ -2663,21 +2411,13 @@ on it to convert it to text.
 00:34:45.136 --> 00:34:48.516 A:middle
 So now I've got two rows here
 
-00:34:48.596 --> 00:34:50.985 A:middle
+00:34:48.596 --> 00:34:50.986 A:middle
 where we are getting the
 elements the same way.
 
-00:34:51.275 --> 00:34:55.156 A:middle
+00:34:51.276 --> 00:34:55.156 A:middle
 What I would like to do is
 get the cell simply by index.
-
-00:34:55.156 --> 00:35:00.116 A:middle
-I will add a constant called let
-cell, table., and set this equal
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:55.156 --> 00:35:00.116 A:middle
 I will add a constant called let
@@ -2753,13 +2493,6 @@ that cell goes away
 00:35:59.106 --> 00:36:00.566 A:middle
 after we've removed it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.106 --> 00:36:00.566 A:middle
-after we've removed it.
-
 00:36:00.566 --> 00:36:02.656 A:middle
 I am going to use
 XCTAssertEqual,
@@ -2803,14 +2536,6 @@ Now in the debugger, I'm going
 00:36:48.876 --> 00:36:50.636 A:middle
 to call debug description
 on the cell.
-
-00:36:58.556 --> 00:37:01.826 A:middle
-So the debug description
-has a lot of information
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.556 --> 00:37:01.826 A:middle
 So the debug description
@@ -2881,10 +2606,6 @@ an assertion,
 00:37:58.026 --> 00:37:59.936 A:middle
 assert that the number of cells
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.156 --> 00:38:03.396 A:middle
 in the table goes
 down at this point.
@@ -2928,13 +2649,6 @@ apples row, and oranges.
 
 00:38:55.556 --> 00:38:56.256 A:middle
 All right.
-
-00:38:57.516 --> 00:39:04.096 A:middle
-[Applause]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:57.516 --> 00:39:04.096 A:middle
 [Applause]
@@ -2995,14 +2709,6 @@ to Accessibility.
 
 00:39:54.956 --> 00:39:56.976 A:middle
 So I'm going to stop recording,
-
-00:39:56.976 --> 00:40:01.696 A:middle
-and I can actually use the
-accessibility inspector
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:56.976 --> 00:40:01.696 A:middle
 and I can actually use the
@@ -3080,13 +2786,6 @@ using the story board.
 00:40:55.306 --> 00:41:05.316 A:middle
 I'll open the story board now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:55.306 --> 00:41:05.316 A:middle
-I'll open the story board now.
-
 00:41:05.546 --> 00:41:07.866 A:middle
 So here I've got the same
 buttons in my story board
@@ -3142,10 +2841,6 @@ All right?
 00:41:51.336 --> 00:41:54.166 A:middle
 Now let's run the
 application again.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:02.266 --> 00:42:05.806 A:middle
 And now I'm going to record
@@ -3205,14 +2900,6 @@ really quite awesome,
 00:42:55.486 --> 00:42:58.916 A:middle
 especially just how easy
 it was to make this view
-
-00:42:58.916 --> 00:43:01.356 A:middle
-that previously a Voice Over
-user would have had no luck
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.916 --> 00:43:01.356 A:middle
 that previously a Voice Over
@@ -3283,14 +2970,6 @@ how to improve accessibility,
 00:43:53.016 --> 00:43:57.526 A:middle
 and the rewards are truly
 fantastic for doing that.
-
-00:43:58.256 --> 00:44:01.116 A:middle
-Brooke also gave you a
-peek at the test reports.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:58.256 --> 00:44:01.116 A:middle
 Brooke also gave you a
@@ -3369,14 +3048,6 @@ at the time that query failed.
 00:44:54.096 --> 00:44:59.126 A:middle
 Also, we organized the API calls
 into these nested activities
-
-00:44:59.126 --> 00:45:02.126 A:middle
-that help you understand
-how the API call is working.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:59.126 --> 00:45:02.126 A:middle
 that help you understand
@@ -3464,14 +3135,6 @@ hand off control in a way
 where things are reliable
 and deterministic.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:58.226 --> 00:46:01.446 A:middle
-where things are reliable
-and deterministic.
-
 00:46:01.976 --> 00:46:05.586 A:middle
 The quick looks are
 provided for screen shots
@@ -3545,14 +3208,6 @@ for UI testing.
 
 00:46:57.216 --> 00:46:58.136 A:middle
 Well, think about your app.
-
-00:46:58.186 --> 00:47:00.306 A:middle
-You have customers,
-you show it to them,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:58.186 --> 00:47:00.306 A:middle
 You have customers,
@@ -3643,14 +3298,6 @@ the way a user does.
 You can validate the UI
 properties and state.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:58.986 --> 00:48:01.646 A:middle
-You can validate the UI
-properties and state.
-
 00:48:03.126 --> 00:48:06.616 A:middle
 And UI recording lets you
 create these tests super quick,
@@ -3722,14 +3369,6 @@ session from yesterday morning,
 probably watch the video
 on your lunch if you want,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:58.456 --> 00:49:00.396 A:middle
-probably watch the video
-on your lunch if you want,
-
 00:49:01.056 --> 00:49:04.466 A:middle
 and continuous integration and
 code coverage, new technology
@@ -3747,4 +3386,3 @@ everybody.
 
 00:49:10.516 --> 00:49:13.500 A:middle
 [Applause]
-

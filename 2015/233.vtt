@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:22.516 --> 00:00:25.886 A:middle
 [ Applause ]
@@ -59,19 +58,11 @@ even more responsive.
 We will talk about what latency
 is and why you should care
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.556 --> 00:01:03.136 A:middle
-We will talk about what latency
-is and why you should care
-
 00:01:03.136 --> 00:01:04.696 A:middle
 about latency in
 your application
 
-00:01:05.135 --> 00:01:06.906 A:middle
+00:01:05.136 --> 00:01:06.906 A:middle
 and latency in iOS as a whole.
 
 00:01:08.046 --> 00:01:10.336 A:middle
@@ -154,13 +145,6 @@ finger and moving it
 00:01:59.826 --> 00:02:00.926 A:middle
 around in a virtual space.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.826 --> 00:02:00.926 A:middle
-around in a virtual space.
-
 00:02:01.956 --> 00:02:06.076 A:middle
 For example, if a user was
 trying to move this circle
@@ -233,14 +217,6 @@ glued to the circle,
 00:02:51.636 --> 00:02:54.766 A:middle
 rather the circle is now playing
 catch-up with the finger.
-
-00:02:55.876 --> 00:03:01.516 A:middle
-So this type of latency affects
-iOS as a whole, from everything
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:55.876 --> 00:03:01.516 A:middle
 So this type of latency affects
@@ -320,14 +296,6 @@ it's caused, we'll discuss all
 00:03:57.306 --> 00:03:59.506 A:middle
 of the different parts
 of the system involved
-
-00:03:59.506 --> 00:04:02.716 A:middle
-in handling your touches and
-drawing the touches in response.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.506 --> 00:04:02.716 A:middle
 in handling your touches and
@@ -414,14 +382,6 @@ mean basically the same thing.
 The display refresh
 is important in iOS
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.946 --> 00:05:02.306 A:middle
-The display refresh
-is important in iOS
-
 00:05:02.606 --> 00:05:06.896 A:middle
 because many important system
 processes are kicked off
@@ -492,14 +452,6 @@ touch frame, usually right
 00:05:56.206 --> 00:05:57.676 A:middle
 after a display refresh
 has occurred.
-
-00:05:58.526 --> 00:06:01.906 A:middle
-This is the point in time where
-your application should respond
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.526 --> 00:06:01.906 A:middle
 This is the point in time where
@@ -582,10 +534,6 @@ given it the instructions
 that it needs to
 render the frame.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.016 --> 00:07:03.296 A:middle
 Again, the time in these
 stages is variable,
@@ -662,14 +610,6 @@ You exercise indirect control
 over the Core Animation render
 server and the GPU based
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.156 --> 00:08:00.626 A:middle
-over the Core Animation render
-server and the GPU based
-
 00:08:00.626 --> 00:08:03.066 A:middle
 on how complicated the views
 in your application are.
@@ -718,11 +658,11 @@ spent here is variable.
 You can optimize this to take
 a smaller amount of time,
 
-00:08:32.395 --> 00:08:35.316 A:middle
+00:08:32.396 --> 00:08:35.316 A:middle
 and we encourage you to do
 this, but you will notice
 
-00:08:35.676 --> 00:08:37.765 A:middle
+00:08:35.676 --> 00:08:37.766 A:middle
 that when we optimize
 the application,
 
@@ -751,10 +691,6 @@ commit A CATransaction
 00:08:57.296 --> 00:08:59.906 A:middle
 or UIKit will implicitly
 generate one for you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.306 --> 00:09:02.806 A:middle
 if you update the views
@@ -829,14 +765,6 @@ be rendered by the GPU.
 00:09:54.996 --> 00:09:58.366 A:middle
 As I mentioned earlier, the
 GPU starts immediately as soon
-
-00:09:58.366 --> 00:10:00.026 A:middle
-as it has the necessary
-instructions
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.366 --> 00:10:00.026 A:middle
 as it has the necessary
@@ -927,14 +855,6 @@ and the slower mode.
 This, again, happens for you
 and is arbitrated by the system.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:56.946 --> 00:11:00.256 A:middle
-This, again, happens for you
-and is arbitrated by the system.
-
 00:11:00.746 --> 00:11:03.546 A:middle
 So it's important that we
 understand what things can
@@ -1012,14 +932,6 @@ display refresh,
 00:11:56.716 --> 00:11:59.576 A:middle
 these two frames
 will swap places,
-
-00:11:59.576 --> 00:12:03.076 A:middle
-we will reclaim the green buffer
-and continue this process,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.576 --> 00:12:03.076 A:middle
 we will reclaim the green buffer
@@ -1104,13 +1016,6 @@ will be enqueued for display
 00:12:58.876 --> 00:13:00.266 A:middle
 at the next display refresh.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.876 --> 00:13:00.266 A:middle
-at the next display refresh.
-
 00:13:01.386 --> 00:13:02.486 A:middle
 This process then repeats
 
@@ -1182,14 +1087,6 @@ with any GPU, OpenGL,
 00:13:56.146 --> 00:13:58.536 A:middle
 Metal updates that you
 make to those layers.
-
-00:13:59.556 --> 00:14:01.596 A:middle
-So you still have
-four frames of latency
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.556 --> 00:14:01.596 A:middle
 So you still have
@@ -1271,10 +1168,6 @@ bit more about them,
 00:14:57.676 --> 00:14:59.476 A:middle
 I would like to introduce
 Jacob [applause].
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:01.186 --> 00:15:01.626 A:middle
 &gt;&gt; JACOB XIAO: Thanks, Peter.
@@ -1360,14 +1253,6 @@ thing to keep in mind,
 which is that this low latency
 mode is automatically disabled
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.816 --> 00:16:02.616 A:middle
-which is that this low latency
-mode is automatically disabled
-
 00:16:02.996 --> 00:16:05.386 A:middle
 when you have animations
 active in your app.
@@ -1441,33 +1326,25 @@ will be drawn to the display
 as quickly as possible but your
 Core Animation content may take
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.626 --> 00:17:02.266 A:middle
-as quickly as possible but your
-Core Animation content may take
-
 00:17:02.266 --> 00:17:03.816 A:middle
 a little longer to go through.
 
-00:17:04.685 --> 00:17:08.116 A:middle
+00:17:04.686 --> 00:17:08.116 A:middle
 And if that happens, then by
 default, it's not guaranteed
 
-00:17:08.376 --> 00:17:11.165 A:middle
+00:17:08.376 --> 00:17:11.166 A:middle
 that your GPU content will
 arrive in the same frame
 
-00:17:11.165 --> 00:17:12.445 A:middle
+00:17:11.166 --> 00:17:12.446 A:middle
 as your Core Animation content.
 
-00:17:13.326 --> 00:17:15.915 A:middle
+00:17:13.326 --> 00:17:15.916 A:middle
 Now this may be a problem if you
 want those two to be in sync,
 
-00:17:15.915 --> 00:17:17.816 A:middle
+00:17:15.916 --> 00:17:17.816 A:middle
 and that could happen,
 for example,
 
@@ -1478,11 +1355,11 @@ view, that you wanted
 00:17:20.316 --> 00:17:22.016 A:middle
 to draw UIKit content on top of.
 
-00:17:23.096 --> 00:17:25.935 A:middle
+00:17:23.096 --> 00:17:25.936 A:middle
 In that case, you may want
 to synchronize those updates
 
-00:17:26.185 --> 00:17:28.626 A:middle
+00:17:26.186 --> 00:17:28.626 A:middle
 in something like this,
 and there's a property
 
@@ -1535,10 +1412,6 @@ But before we do, I would
 00:17:57.406 --> 00:17:59.826 A:middle
 like to tell you a little
 bit about the iPad Air 2.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.086 --> 00:18:02.956 A:middle
 We introduced the
@@ -1623,14 +1496,6 @@ you get twice as many samples,
 and this gives you a
 lot more information
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.716 --> 00:19:02.296 A:middle
-and this gives you a
-lot more information
-
 00:19:02.296 --> 00:19:09.206 A:middle
 about what the user is doing.
 
@@ -1697,14 +1562,6 @@ get two samples every time.
 
 00:19:57.786 --> 00:19:59.196 A:middle
 However, note that the size
-
-00:19:59.196 --> 00:20:00.886 A:middle
-of the display frame
-is still the same,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.196 --> 00:20:00.886 A:middle
 of the display frame
@@ -1800,14 +1657,6 @@ to your app.
 This repeats each time the
 user makes more touches
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.836 --> 00:21:02.656 A:middle
-This repeats each time the
-user makes more touches
-
 00:21:02.656 --> 00:21:03.186 A:middle
 to the display.
 
@@ -1894,13 +1743,6 @@ swipes from the bottom
 00:21:59.636 --> 00:22:00.686 A:middle
 to activate Control Center.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.636 --> 00:22:00.686 A:middle
-to activate Control Center.
-
 00:22:02.126 --> 00:22:04.986 A:middle
 In that case, your app will get
 some the initial touch callback,
@@ -1979,10 +1821,6 @@ of the main touch itself.
 00:22:56.826 --> 00:22:59.686 A:middle
 And the great thing about this
 is that it allows you a choice.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.176 --> 00:23:01.776 A:middle
 You can look at the main touches
@@ -2069,14 +1907,6 @@ time to process a touch,
 00:23:55.616 --> 00:23:57.636 A:middle
 then we will give you some
 time to catch up and wait
-
-00:23:57.636 --> 00:24:00.866 A:middle
-to send you new touches
-until you have caught up.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.636 --> 00:24:00.866 A:middle
 to send you new touches
@@ -2173,14 +2003,6 @@ not to cross the streams.
 Now, another difference
 between main touches
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.076 --> 00:25:00.866 A:middle
-Now, another difference
-between main touches
-
 00:25:00.866 --> 00:25:02.196 A:middle
 and coalesced touches is
 
@@ -2260,13 +2082,6 @@ that corresponds to each touch.
 00:25:57.066 --> 00:25:59.446 A:middle
 Then we are adding the
 latest touch as a new sample
-
-00:25:59.446 --> 00:26:00.526 A:middle
-onto the end of that line.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.446 --> 00:26:00.526 A:middle
 onto the end of that line.
@@ -2355,14 +2170,6 @@ main touch to this method
 and you will get back an
 array of predicted touches.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.016 --> 00:27:00.276 A:middle
-and you will get back an
-array of predicted touches.
-
 00:27:01.526 --> 00:27:04.916 A:middle
 And you can use those predicted
 touches to update your drawing
@@ -2441,14 +2248,6 @@ does for other touch types.
 
 00:27:56.546 --> 00:27:57.806 A:middle
 It points to the location
-
-00:27:57.806 --> 00:28:00.526 A:middle
-that the previous
-predicted touch had, or,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.806 --> 00:28:00.526 A:middle
 that the previous
@@ -2538,14 +2337,6 @@ app gets a main touch,
 you also get a set
 of predicted touches.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.346 --> 00:29:00.306 A:middle
-you also get a set
-of predicted touches.
-
 00:29:00.676 --> 00:29:04.106 A:middle
 And if you get main touches
 and coalesced touches as well,
@@ -2618,14 +2409,6 @@ touches, we are adding it
 
 00:29:56.966 --> 00:29:58.696 A:middle
 as a sample to our line.
-
-00:29:59.706 --> 00:30:01.556 A:middle
-But notice that we are
-calling a different method here
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.706 --> 00:30:01.556 A:middle
 But notice that we are
@@ -2720,10 +2503,6 @@ beginning [applause].
 00:30:59.046 --> 00:30:59.576 A:middle
 But there's more!
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:02.356 --> 00:31:05.296 A:middle
 By also using touch prediction
 you can get information
@@ -2804,14 +2583,6 @@ applications so you can fit
 within one display frame of
 time so you can get your frames
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.866 --> 00:32:03.616 A:middle
-within one display frame of
-time so you can get your frames
-
 00:32:03.616 --> 00:32:05.316 A:middle
 out to the display that quickly.
 
@@ -2880,14 +2651,6 @@ up on the screen.
 00:32:53.466 --> 00:32:57.356 A:middle
 If you are trying to
 profile your application,
-
-00:32:57.526 --> 00:33:00.436 A:middle
-to figure out how much time
-your application is spending
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:57.526 --> 00:33:00.436 A:middle
 to figure out how much time
@@ -2968,10 +2731,6 @@ amount of GPU frame time.
 In this case, just
 3.8 milliseconds.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.786 --> 00:34:04.506 A:middle
 Keep in mind, though, that this
 is just a high-level overview
@@ -2984,7 +2743,7 @@ is doing.
 It doesn't give you
 fine-grained information
 
-00:34:09.206 --> 00:34:13.025 A:middle
+00:34:09.206 --> 00:34:13.026 A:middle
 about individual frames that may
 be causing you to drop frames.
 
@@ -3008,15 +2767,15 @@ show you exactly how long the
 GPU is active for while you
 are using your application.
 
-00:34:30.866 --> 00:34:33.795 A:middle
+00:34:30.866 --> 00:34:33.796 A:middle
 In this case, you can see
 that the amount of time spent
 
-00:34:33.795 --> 00:34:35.436 A:middle
+00:34:33.796 --> 00:34:35.436 A:middle
 in the vertex and
 fragment shaders
 
-00:34:35.466 --> 00:34:38.065 A:middle
+00:34:35.466 --> 00:34:38.066 A:middle
 of my application
 is relatively small.
 
@@ -3032,24 +2791,16 @@ on the display for.
 Notice you only see
 two colors here.
 
-00:34:49.045 --> 00:34:52.076 A:middle
+00:34:49.046 --> 00:34:52.076 A:middle
 These two colors represent
 the two buffers which are used
 
 00:34:52.076 --> 00:34:53.366 A:middle
 in the double-buffering scheme.
 
-00:34:54.485 --> 00:34:58.106 A:middle
+00:34:54.486 --> 00:34:58.106 A:middle
 If our application is spending
 more time in Core Animation
-
-00:34:58.106 --> 00:35:01.426 A:middle
-and in GPU, you will
-see three colors here
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.106 --> 00:35:01.426 A:middle
 and in GPU, you will
@@ -3135,13 +2886,6 @@ its awesome capabilities
 00:35:59.136 --> 00:36:00.326 A:middle
 to provide that to your user.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.136 --> 00:36:00.326 A:middle
-to provide that to your user.
-
 00:36:00.616 --> 00:36:02.996 A:middle
 And with touch prediction, we
 are offering you a small glimpse
@@ -3223,14 +2967,6 @@ which are related to this talk.
 For example, if you
 are very interested
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.436 --> 00:37:00.056 A:middle
-For example, if you
-are very interested
-
 00:37:00.056 --> 00:37:03.246 A:middle
 in profiling the GPU
 performance of your application,
@@ -3307,14 +3043,6 @@ at developer.apple.com.
 I hope you learned a lot today
 and over the entire course
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.716 --> 00:38:02.346 A:middle
-I hope you learned a lot today
-and over the entire course
-
 00:38:02.346 --> 00:38:05.636 A:middle
 of this week, and I hope
 you had an enjoyable WWDC.
@@ -3324,4 +3052,3 @@ Thank you.
 
 00:38:07.516 --> 00:38:21.230 A:middle
 [ Applause ]
-

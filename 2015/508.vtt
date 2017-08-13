@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.516 --> 00:00:26.746 A:middle
 [Applause]
@@ -37,14 +36,6 @@ includes a great number
 00:00:54.436 --> 00:00:57.756 A:middle
 of built-in units ranging
 from I/O units and mixers,
-
-00:00:58.116 --> 00:01:02.386 A:middle
-a lot of different effects
-ranging to software sampler.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.116 --> 00:01:02.386 A:middle
 a lot of different effects
@@ -112,23 +103,15 @@ maintained compatibility,
 and in this session I will go
 through details of this new API,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.116 --> 00:02:00.236 A:middle
-and in this session I will go
-through details of this new API,
-
 00:02:01.216 --> 00:02:05.096 A:middle
 which we are calling the
 version 3 Audio Unit API.
 
-00:02:05.916 --> 00:02:10.175 A:middle
+00:02:05.916 --> 00:02:10.176 A:middle
 It's based on an Objective-C
 class called AUAudioUnit that's
 
-00:02:10.175 --> 00:02:11.626 A:middle
+00:02:10.176 --> 00:02:11.626 A:middle
 in the Audio Unit framework.
 
 00:02:12.036 --> 00:02:15.766 A:middle
@@ -182,13 +165,6 @@ and AVAudioUnitEffect class.
 00:02:53.216 --> 00:02:56.276 A:middle
 Those have been available
 since last year's OS releases.
-
-00:02:58.536 --> 00:03:00.306 A:middle
-So about compatibility now.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.536 --> 00:03:00.306 A:middle
 So about compatibility now.
@@ -263,10 +239,6 @@ be almost completely compatible
 with existing version
 2 Audio Units.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.286 --> 00:04:04.606 A:middle
 And conversely, existing version
 2 hosts would only need minor
@@ -315,13 +287,6 @@ and we can hear Logic playing
 
 00:04:55.246 --> 00:04:55.976 A:middle
 through this Audio Unit.
-
-00:04:56.516 --> 00:05:01.576 A:middle
-[Music]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:56.516 --> 00:05:01.576 A:middle
 [Music]
@@ -383,14 +348,6 @@ version of Logic Pro,
 00:05:55.746 --> 00:05:58.606 A:middle
 but it's still basically
 communicating using the existing
-
-00:05:58.606 --> 00:06:03.846 A:middle
-version 2 API, which is bridged
-to AU Audio Unit and in turn,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.606 --> 00:06:03.846 A:middle
 version 2 API, which is bridged
@@ -462,14 +419,6 @@ connect them together
 into a rendering chain, how
 to select Audio Unit presets,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.826 --> 00:07:02.316 A:middle
-into a rendering chain, how
-to select Audio Unit presets,
-
 00:07:02.766 --> 00:07:05.656 A:middle
 and how to open an Audio
 Unit's custom view.
@@ -534,13 +483,6 @@ little bit of code,
 00:07:56.466 --> 00:07:59.746 A:middle
 but first there is a very
 fundamental data structure here
-
-00:07:59.746 --> 00:08:01.276 A:middle
-when working with Audio Units.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:59.746 --> 00:08:01.276 A:middle
 when working with Audio Units.
@@ -615,14 +557,6 @@ here that identifies any effect.
 And then we can take that any
 effect component description
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:55.536 --> 00:09:00.606 A:middle
-And then we can take that any
-effect component description
-
 00:09:00.606 --> 00:09:03.496 A:middle
 and pass it to AV Audio
 Unit component manager,
@@ -682,14 +616,6 @@ of that internal method is here.
 00:09:52.286 --> 00:09:56.436 A:middle
 We are going to call a new
 class method of AV Audio Unit.
-
-00:09:57.296 --> 00:10:01.026 A:middle
-And this method asks it to
-create an instance based
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:57.296 --> 00:10:01.026 A:middle
 And this method asks it to
@@ -758,10 +684,6 @@ to the main mixer node.
 00:10:57.446 --> 00:10:59.576 A:middle
 So now we have got an
 effect in our play engine.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:01.426 --> 00:11:05.626 A:middle
 And now we can store the
@@ -832,14 +754,6 @@ it will call us back
 00:11:52.916 --> 00:11:56.486 A:middle
 with a View Controller that we
 can embed in the host's view.
-
-00:11:58.266 --> 00:12:00.826 A:middle
-Okay. I would like to bring up
-my colleague Michael Hopkins now
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.266 --> 00:12:00.826 A:middle
 Okay. I would like to bring up
@@ -921,14 +835,6 @@ this with no effect
 and then I will add
 a couple effects
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.596 --> 00:13:01.436 A:middle
-and then I will add
-a couple effects
-
 00:13:01.436 --> 00:13:02.666 A:middle
 so you can hear that working.
 
@@ -998,14 +904,6 @@ and tap the View button.
 And what we have done is we
 have loaded that View Controller
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.396 --> 00:14:02.506 A:middle
-And what we have done is we
-have loaded that View Controller
-
 00:14:02.506 --> 00:14:04.486 A:middle
 from the Audio Unit
 and I have installed it
@@ -1060,14 +958,6 @@ doing some tweaks,
 
 00:14:57.676 --> 00:14:59.036 A:middle
 switching back to your host,
-
-00:14:59.366 --> 00:15:01.306 A:middle
-starting recording,
-switching back.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.366 --> 00:15:01.306 A:middle
 starting recording,
@@ -1149,10 +1039,6 @@ Thank you very much.
 00:15:57.256 --> 00:15:57.846 A:middle
 Back to you, Doug.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.236 --> 00:16:02.056 A:middle
 &gt;&gt; DOUG WYATT: Thank
 you, Michael.
@@ -1229,14 +1115,6 @@ for version 3 hosts.
 If it's a version 2 existing
 plug-in, and that might be one
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.796 --> 00:17:03.336 A:middle
-If it's a version 2 existing
-plug-in, and that might be one
-
 00:17:03.336 --> 00:17:05.616 A:middle
 of the Apple built-in
 ones on iOS
@@ -1245,11 +1123,11 @@ ones on iOS
 or it could be a third-party
 one on OS X, but in any case
 
-00:17:09.796 --> 00:17:13.465 A:middle
+00:17:09.796 --> 00:17:13.466 A:middle
 if it's a version 2 Audio Unit,
 regardless of any other factor,
 
-00:17:13.465 --> 00:17:15.376 A:middle
+00:17:13.466 --> 00:17:15.376 A:middle
 it's always in the
 host's process.
 
@@ -1260,15 +1138,15 @@ a slightly more complicated
 00:17:20.346 --> 00:17:21.016 A:middle
 story here.
 
-00:17:21.665 --> 00:17:25.415 A:middle
+00:17:21.666 --> 00:17:25.416 A:middle
 By default, version 3
 Audio Units are loaded
 
-00:17:25.415 --> 00:17:28.096 A:middle
+00:17:25.416 --> 00:17:28.096 A:middle
 into a separate extension
 service process.
 
-00:17:28.435 --> 00:17:31.186 A:middle
+00:17:28.436 --> 00:17:31.186 A:middle
 And this is the diagram
 we saw before with Logic.
 
@@ -1301,14 +1179,6 @@ to pass this option to any
 00:17:55.836 --> 00:17:58.806 A:middle
 of the asynchronous
 creation methods we just saw,
-
-00:17:59.996 --> 00:18:02.696 A:middle
-and you see the name of that
-new flag there called Load
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.996 --> 00:18:02.696 A:middle
 and you see the name of that
@@ -1379,14 +1249,6 @@ have performance reasons
 00:18:54.316 --> 00:18:57.836 A:middle
 where you may want to load
 plug-ins into your process
-
-00:18:57.836 --> 00:19:00.656 A:middle
-if you are a host, because
-there is some overhead
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:57.836 --> 00:19:00.656 A:middle
 if you are a host, because
@@ -1472,14 +1334,6 @@ component description flags,
 and in there, the
 component flags.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.166 --> 00:20:01.186 A:middle
-and in there, the
-component flags.
-
 00:20:01.186 --> 00:20:04.646 A:middle
 There is a new flag called
 Requires Async Instantiation.
@@ -1544,14 +1398,6 @@ when the flags are set.
 00:20:56.196 --> 00:20:58.836 A:middle
 And the reasoning here,
 well, the big sort
-
-00:20:58.836 --> 00:21:01.926 A:middle
-of externally facing reason is
-that it helps responsiveness.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.836 --> 00:21:01.926 A:middle
 of externally facing reason is
@@ -1633,14 +1479,6 @@ about app extensions
 since the new Audio Unit model
 is based on app extensions.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.826 --> 00:22:04.246 A:middle
-since the new Audio Unit model
-is based on app extensions.
-
 00:22:05.466 --> 00:22:09.986 A:middle
 App extensions are bundles with
 a file type extension of .appex.
@@ -1694,14 +1532,6 @@ extension as well as a framework
 00:22:55.136 --> 00:22:58.506 A:middle
 where a lot of its
 common code exists.
-
-00:22:58.616 --> 00:23:01.806 A:middle
-Both the app and the extension
-link against this framework.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.616 --> 00:23:01.806 A:middle
 Both the app and the extension
@@ -1778,14 +1608,6 @@ that on OS X, if we want to,
 we can designate this
 framework as being the bundle
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:57.786 --> 00:24:00.516 A:middle
-we can designate this
-framework as being the bundle
-
 00:24:00.716 --> 00:24:03.326 A:middle
 that a host process
 can load into itself.
@@ -1854,14 +1676,6 @@ to keep it from being empty.
 00:24:56.876 --> 00:24:59.076 A:middle
 We have to link against
 the Filter Demo framework.
-
-00:24:59.176 --> 00:25:00.366 A:middle
-All of the good stuff
-is in there,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.176 --> 00:25:00.366 A:middle
 All of the good stuff
@@ -1945,14 +1759,6 @@ implements exactly one method,
 Create Audio Unit with
 Component Description.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.056 --> 00:26:01.236 A:middle
-Create Audio Unit with
-Component Description.
-
 00:26:02.546 --> 00:26:04.756 A:middle
 And the job of this method is
 
@@ -2016,10 +1822,6 @@ is in just a second.
 
 00:26:58.476 --> 00:26:59.496 A:middle
 Here is the initializer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.586 --> 00:27:03.196 A:middle
 So the first thing we do
@@ -2104,14 +1906,6 @@ our first parameter.
 We will create our second
 one almost identically.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.366 --> 00:28:02.726 A:middle
-We will create our second
-one almost identically.
-
 00:28:03.736 --> 00:28:06.656 A:middle
 And then finally we can
 create our parameter tree,
@@ -2177,13 +1971,6 @@ value from the DSP
 00:28:59.146 --> 00:29:00.766 A:middle
 and returns it to the tree.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.146 --> 00:29:00.766 A:middle
-and returns it to the tree.
-
 00:29:04.086 --> 00:29:07.066 A:middle
 Next, this is an
 important override method.
@@ -2234,14 +2021,6 @@ processing code here based
 00:29:50.806 --> 00:29:55.636 A:middle
 on the current channel count and
 sample rate of the output bus.
-
-00:29:58.456 --> 00:30:01.276 A:middle
-So entirely parallel, we
-have a method that's called
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.456 --> 00:30:01.276 A:middle
 So entirely parallel, we
@@ -2308,13 +2087,6 @@ the block.
 00:30:59.936 --> 00:31:02.036 A:middle
 It returns AU Audio Unit status.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.936 --> 00:31:02.036 A:middle
-It returns AU Audio Unit status.
-
 00:31:03.086 --> 00:31:05.436 A:middle
 And if you are familiar
 with the version 2 API,
@@ -2377,14 +2149,6 @@ housekeeping with buffers.
 00:31:53.316 --> 00:31:58.546 A:middle
 We will send them down to
 the DSP state, and finally,
-
-00:31:59.046 --> 00:32:03.336 A:middle
-we ask the DSP state to process
-the audio for this render cycle.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.046 --> 00:32:03.336 A:middle
 we ask the DSP state to process
@@ -2463,14 +2227,6 @@ distortion demo application
 
 00:32:58.166 --> 00:32:59.296 A:middle
 that I showed you earlier.
-
-00:32:59.896 --> 00:33:02.026 A:middle
-I will go ahead and
-launch the Filter Demo.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.896 --> 00:33:02.026 A:middle
 I will go ahead and
@@ -2556,14 +2312,6 @@ I drag that with my finger,
 the application is
 receiving notifications
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.746 --> 00:34:01.206 A:middle
-the application is
-receiving notifications
-
 00:34:01.206 --> 00:34:04.496 A:middle
 that the parameters have changed
 and it's updating in turn.
@@ -2585,17 +2333,17 @@ take a listen to that.
 00:34:30.246 --> 00:34:31.976 A:middle
 I could do this all day.
 
-00:34:32.085 --> 00:34:32.735 A:middle
+00:34:32.086 --> 00:34:32.736 A:middle
 You got time?
 
-00:34:34.996 --> 00:34:40.085 A:middle
+00:34:34.996 --> 00:34:40.086 A:middle
 Now, it's really, really
 cool to just, the fluidity.
 
-00:34:40.545 --> 00:34:41.146 A:middle
+00:34:40.546 --> 00:34:41.146 A:middle
 Thank you.
 
-00:34:41.255 --> 00:34:44.596 A:middle
+00:34:41.256 --> 00:34:44.596 A:middle
 Just how fun it is to use your
 fingers to just be able to play
 
@@ -2605,21 +2353,13 @@ with that in a Multi-Touch UI.
 00:34:46.446 --> 00:34:47.616 A:middle
 It's phenomenal.
 
-00:34:47.696 --> 00:34:51.545 A:middle
+00:34:47.696 --> 00:34:51.546 A:middle
 Another thing that's
 cool about this is
 
-00:34:51.545 --> 00:34:55.766 A:middle
+00:34:51.546 --> 00:34:55.766 A:middle
 because we have designed the
 user interface in such a way
-
-00:34:55.766 --> 00:35:00.006 A:middle
-that it can adapt to any
-size that it's embedded in,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:55.766 --> 00:35:00.006 A:middle
 that it can adapt to any
@@ -2688,14 +2428,6 @@ as you would expect,
 
 00:35:52.586 --> 00:35:55.806 A:middle
 and none of the labels overlap.
-
-00:35:56.176 --> 00:36:00.606 A:middle
-It still works exactly
-as we would expect.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:56.176 --> 00:36:00.606 A:middle
 It still works exactly
@@ -2780,14 +2512,6 @@ in your containing app.
 The app is also a good place
 for any documentation or help
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.786 --> 00:37:02.186 A:middle
-The app is also a good place
-for any documentation or help
-
 00:37:02.726 --> 00:37:07.466 A:middle
 that would make the
 plug-in view a little dense.
@@ -2853,14 +2577,6 @@ liberally from the Filter Demo.
 Okay. Now I would like
 to talk in general
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.026 --> 00:38:02.126 A:middle
-Okay. Now I would like
-to talk in general
-
 00:38:02.126 --> 00:38:07.126 A:middle
 about the modernized AU Audio
 Unit API from both the host
@@ -2919,14 +2635,6 @@ the version 3 API, well,
 
 00:38:55.806 --> 00:38:57.116 A:middle
 properties are properties.
-
-00:38:57.926 --> 00:39:00.796 A:middle
-We use a dot syntax in
-Objective-C and Swift,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:57.926 --> 00:39:00.796 A:middle
 We use a dot syntax in
@@ -2996,14 +2704,6 @@ They have a format and a name.
 00:39:54.526 --> 00:39:58.286 A:middle
 The format is manipulated
 by the host.
-
-00:39:58.666 --> 00:40:01.436 A:middle
-We are able to reject
-formats that we don't like.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:58.666 --> 00:40:01.436 A:middle
 We are able to reject
@@ -3083,10 +2783,6 @@ colored boxes beneath are
 00:40:58.896 --> 00:40:59.716 A:middle
 the parameters.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.266 --> 00:41:03.326 A:middle
 So the waveform octave,
 filter cutoff and resonance,
@@ -3150,14 +2846,6 @@ where we aren't the one who made
 
 00:41:53.306 --> 00:41:54.586 A:middle
 up that addressing scheme.
-
-00:41:56.946 --> 00:42:00.156 A:middle
-So that means if I'm a
-host application and I want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:56.946 --> 00:42:00.156 A:middle
 So that means if I'm a
@@ -3227,14 +2915,6 @@ getting notifications
 
 00:42:58.536 --> 00:42:59.556 A:middle
 that are slightly different
-
-00:42:59.626 --> 00:43:02.196 A:middle
-from what we are doing
-as we move a slider.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:59.626 --> 00:43:02.196 A:middle
 from what we are doing
@@ -3310,10 +2990,6 @@ with parameter scheduling
 because I think this
 is a big improvement
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:00.186 --> 00:44:02.346 A:middle
 over the version 2
 API in this area.
@@ -3380,14 +3056,6 @@ little bit different
 
 00:44:55.706 --> 00:44:57.066 A:middle
 on the implementation side.
-
-00:44:57.066 --> 00:45:00.096 A:middle
-We don't just get a
-pass-through call from the host.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:57.066 --> 00:45:00.096 A:middle
 We don't just get a
@@ -3464,13 +3132,6 @@ have 256 virtual MIDI cables.
 00:45:59.536 --> 00:46:00.816 A:middle
 So if you have an Audio Unit
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.536 --> 00:46:00.816 A:middle
-So if you have an Audio Unit
-
 00:46:01.386 --> 00:46:04.476 A:middle
 that wants huge sample
 banks, you can do that.
@@ -3534,14 +3195,6 @@ in the version 2 API,
 00:46:55.236 --> 00:46:58.206 A:middle
 the Audio Unit needs
 to maintain some state.
-
-00:46:58.206 --> 00:47:02.426 A:middle
-It needs to have a notion of
-whether it's getting its input
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:58.206 --> 00:47:02.426 A:middle
 It needs to have a notion of
@@ -3613,14 +3266,6 @@ here some rules
 about the audio buffer lists
 that appear at render time.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.656 --> 00:48:03.296 A:middle
-about the audio buffer lists
-that appear at render time.
-
 00:48:03.946 --> 00:48:06.826 A:middle
 Now, the host provides an
 output audio buffer list,
@@ -3682,14 +3327,6 @@ pointers to that block.
 00:48:52.846 --> 00:48:56.966 A:middle
 Now, the host is allowed to
 replace those pointers to memory
-
-00:48:56.966 --> 00:49:00.736 A:middle
-that it owns and can
-promise to keep valid
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:56.966 --> 00:49:00.736 A:middle
 that it owns and can
@@ -3760,10 +3397,6 @@ miss its deadline,
 and the user will
 experience that as a glitch.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:00.526 --> 00:50:05.426 A:middle
 So we have to be very careful
 when both using and calling or,
@@ -3833,13 +3466,6 @@ up Alec Little now
 00:50:54.156 --> 00:50:57.926 A:middle
 to show Audio Unit extensions
 in Apple Music creation apps.
-
-00:50:58.516 --> 00:51:03.916 A:middle
-[Applause]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:58.516 --> 00:51:03.916 A:middle
 [Applause]
@@ -3917,14 +3543,6 @@ Unit extensions.
 00:51:55.136 --> 00:51:58.926 A:middle
 So first of all, we are going
 to be supporting AU instruments.
-
-00:51:59.206 --> 00:52:02.126 A:middle
-So the example I'm going to be
-giving is about how we're going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:59.206 --> 00:52:02.126 A:middle
 So the example I'm going to be
@@ -4008,14 +3626,6 @@ Audio Units live.
 If I tap on it, then
 we will see all
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:55.826 --> 00:53:00.786 A:middle
-If I tap on it, then
-we will see all
-
 00:53:00.786 --> 00:53:04.656 A:middle
 of the Audio Unit instruments
 installed on the device.
@@ -4091,14 +3701,6 @@ limited screen real estate
 there, so there is a button
 in the top-right corner,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:59.196 --> 00:54:01.646 A:middle
-there, so there is a button
-in the top-right corner,
-
 00:54:01.736 --> 00:54:03.326 A:middle
 which pulls up the
 controls view,
@@ -4168,14 +3770,6 @@ up with really cool stuff!
 00:54:54.416 --> 00:54:57.516 A:middle
 So I imagine you may have
 questions at this point.
-
-00:54:57.966 --> 00:55:01.306 A:middle
-I would like to try to
-anticipate a few of them.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:57.966 --> 00:55:01.306 A:middle
 I would like to try to
@@ -4257,14 +3851,6 @@ as well as we can.
 So I would recommend that you
 update to version 3 when you can
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:55:58.096 --> 00:56:01.726 A:middle
-So I would recommend that you
-update to version 3 when you can
-
 00:56:01.906 --> 00:56:03.846 A:middle
 or need to for some feature.
 
@@ -4337,14 +3923,6 @@ platform-specific UI.
 We are running out of
 time, and there is way more
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:56:56.126 --> 00:57:00.576 A:middle
-We are running out of
-time, and there is way more
-
 00:57:00.576 --> 00:57:03.406 A:middle
 than I could possibly go
 through in an hour here.
@@ -4412,14 +3990,6 @@ Audio Units in both the iOS
 and OS X App Stores by
 packaging your Audio Units
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:57:58.666 --> 00:58:02.566 A:middle
-and OS X App Stores by
-packaging your Audio Units
-
 00:58:02.566 --> 00:58:03.716 A:middle
 as app extensions.
 
@@ -4458,4 +4028,3 @@ so thank you very much!
 
 00:58:36.516 --> 00:58:39.500 A:middle
 [Applause]
-

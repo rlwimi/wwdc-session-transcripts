@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:25.516 --> 00:00:31.016 A:middle
 [ Applause ]
@@ -37,14 +36,6 @@ to love it.
 00:00:54.996 --> 00:00:58.616 A:middle
 So, Metal at the WWDC,
 the story so far.
-
-00:00:59.196 --> 00:01:03.136 A:middle
-In What's New in Metal Part 1,
-we covered great new features
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.196 --> 00:01:03.136 A:middle
 In What's New in Metal Part 1,
@@ -116,14 +107,6 @@ capture of a single frame
 from a Metal app,
 and on the left,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.596 --> 00:02:01.686 A:middle
-from a Metal app,
-and on the left,
-
 00:02:02.106 --> 00:02:06.206 A:middle
 we have the frame navigator
 which shows all of the states
@@ -132,7 +115,7 @@ which shows all of the states
 and Draw calls present
 in the frame.
 
-00:02:08.925 --> 00:02:13.816 A:middle
+00:02:08.926 --> 00:02:13.816 A:middle
 These are grouped by render
 encoder, command buffer,
 
@@ -186,13 +169,6 @@ different formats,
 00:02:55.676 --> 00:02:59.066 A:middle
 you can individual
 bitmap levels, cube maps,
-
-00:02:59.436 --> 00:03:01.986 A:middle
-TD arrays, it's fully featured.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.436 --> 00:03:01.986 A:middle
 TD arrays, it's fully featured.
@@ -262,14 +238,6 @@ are aware now,
 all of these great
 tools are now available
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.266 --> 00:04:00.566 A:middle
-all of these great
-tools are now available
-
 00:04:00.566 --> 00:04:05.606 A:middle
 for debugging your Metal
 apps on OS X El Capitan.
@@ -282,11 +250,11 @@ great companion to Xcode
 as it allows you to profile
 your app's performance
 
-00:04:12.316 --> 00:04:16.005 A:middle
+00:04:12.316 --> 00:04:16.006 A:middle
 across the entire system,
 and now we are enabling you
 
-00:04:16.005 --> 00:04:20.426 A:middle
+00:04:16.006 --> 00:04:20.426 A:middle
 to profile Metal performance
 in a similar manner with this,
 
@@ -337,13 +305,6 @@ of this great new tool,
 00:04:55.176 --> 00:04:58.026 A:middle
 please welcome Serhat
 Tekin to the stage.
-
-00:04:59.016 --> 00:05:03.236 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.016 --> 00:05:03.236 A:middle
 [ Applause ]
@@ -409,14 +370,6 @@ Instruments,
 00:05:55.546 --> 00:05:57.476 A:middle
 and we are at the
 template chooser.
-
-00:05:58.426 --> 00:06:01.556 A:middle
-You can notice that we have
-a new template icon here,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.426 --> 00:06:01.556 A:middle
 You can notice that we have
@@ -499,14 +452,6 @@ process it for a while,
 and they will end up with a
 timeline that looks like this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.736 --> 00:07:00.946 A:middle
-and they will end up with a
-timeline that looks like this.
-
 00:07:01.016 --> 00:07:04.736 A:middle
 So there is quite a lot of stuff
 going on here, so I will zoom
@@ -574,14 +519,6 @@ are fairly intuitive.
 Each box you see here represents
 an item's trace relative start
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.616 --> 00:08:02.636 A:middle
-Each box you see here represents
-an item's trace relative start
-
 00:08:02.636 --> 00:08:05.846 A:middle
 time, end time, and
 how long it took.
@@ -639,14 +576,6 @@ here, shadow buffer and G-buffer
 00:08:52.276 --> 00:08:57.056 A:middle
 and lighting, are labels I
 assigned myself to my encoders
-
-00:08:57.056 --> 00:09:00.486 A:middle
-in my Metal code using the
-encoder's Label property.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.056 --> 00:09:00.486 A:middle
 in my Metal code using the
@@ -716,14 +645,6 @@ buffers and encoders,
 specifically what I see
 here is the creation time
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:56.966 --> 00:10:00.316 A:middle
-specifically what I see
-here is the creation time
-
 00:10:00.316 --> 00:10:02.976 A:middle
 and submission time for
 both my command buffers
@@ -785,14 +706,6 @@ fast, and they are still
 00:10:50.916 --> 00:10:52.856 A:middle
 on the CPU side barely
 consuming anything.
-
-00:10:54.066 --> 00:11:00.246 A:middle
-Similarly, I can go and follow
-the arrows once the encoders are
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:54.066 --> 00:11:00.246 A:middle
 Similarly, I can go and follow
@@ -870,14 +783,6 @@ cost is going
 to include the tiling
 cost as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.066 --> 00:12:03.436 A:middle
-to include the tiling
-cost as well.
-
 00:12:03.436 --> 00:12:05.996 A:middle
 It's something to keep in mind.
 
@@ -945,14 +850,6 @@ this to see all of my frames
 and all of the command
 buffers and encoders along
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.466 --> 00:13:01.556 A:middle
-and all of the command
-buffers and encoders along
-
 00:13:01.556 --> 00:13:02.676 A:middle
 with the hierarchy involved.
 
@@ -1014,14 +911,6 @@ tool for that purpose.
 00:13:53.896 --> 00:13:55.976 A:middle
 But I'm going to give
 you a quick overview
-
-00:13:55.976 --> 00:14:00.426 A:middle
-of the tool's workflow and
-a quick couple of tips.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:55.976 --> 00:14:00.426 A:middle
 of the tool's workflow and
@@ -1094,10 +983,6 @@ target is 60 frames per second,
 these surfaces should
 be staying on display
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.596 --> 00:15:02.576 A:middle
 for a single VSync interval.
 
@@ -1164,10 +1049,6 @@ offering a profile launch option
 
 00:15:58.616 --> 00:15:59.716 A:middle
 for your build products.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.176 --> 00:16:03.246 A:middle
 It's going to automatically
@@ -1242,34 +1123,26 @@ to see how we can diagnose
 and hopefully follow
 these best practices.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.716 --> 00:17:00.966 A:middle
-and hopefully follow
-these best practices.
-
 00:17:01.386 --> 00:17:06.656 A:middle
 So let me introduce our sample
 app, or rather a system trace
 
-00:17:06.656 --> 00:17:10.685 A:middle
+00:17:06.656 --> 00:17:10.686 A:middle
 of our sample app, and
 immediately we can see
 
-00:17:10.685 --> 00:17:12.736 A:middle
+00:17:10.686 --> 00:17:12.736 A:middle
 that there are several
 performance issues.
 
-00:17:13.165 --> 00:17:15.376 A:middle
+00:17:13.166 --> 00:17:15.376 A:middle
 To begin with, there
 is no parallelism
 
-00:17:15.376 --> 00:17:17.435 A:middle
+00:17:15.376 --> 00:17:17.436 A:middle
 between the CPU and the GPU.
 
-00:17:17.976 --> 00:17:21.435 A:middle
+00:17:17.976 --> 00:17:21.436 A:middle
 These are incredibly
 powerful devices,
 
@@ -1284,7 +1157,7 @@ performance is
 by having them run
 independently,
 
-00:17:26.935 --> 00:17:29.166 A:middle
+00:17:26.936 --> 00:17:29.166 A:middle
 whereas here they seem to
 be waiting on the other.
 
@@ -1327,14 +1200,6 @@ And we have blown past that.
 00:17:55.606 --> 00:17:57.986 A:middle
 And things don't look much
 better on the GPU side, either.
-
-00:17:58.576 --> 00:18:02.626 A:middle
-There is a lengthy stall in
-proportion to what is on the CPU
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.576 --> 00:18:02.626 A:middle
 There is a lengthy stall in
@@ -1398,10 +1263,6 @@ dozens or even hundreds of them,
 00:18:57.476 --> 00:18:59.926 A:middle
 and this is a rather
 time-consuming operation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:01.226 --> 00:19:04.246 A:middle
 Now, this is only half of the
@@ -1468,14 +1329,6 @@ pipeline state.
 
 00:19:57.106 --> 00:19:58.756 A:middle
 So when the time comes
-
-00:19:58.756 --> 00:20:02.636 A:middle
-to actually draw using this
-combination state and shaders,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.756 --> 00:20:02.636 A:middle
 to actually draw using this
@@ -1551,10 +1404,6 @@ loop free for Draw calls.
 00:20:56.906 --> 00:20:58.676 A:middle
 Loads of Draw calls.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.016 --> 00:21:01.606 A:middle
 So fundamentally,
 
@@ -1617,14 +1466,6 @@ Look at all of these objects.
 
 00:21:55.626 --> 00:21:56.886 A:middle
 We don't want any of this.
-
-00:21:56.886 --> 00:22:00.546 A:middle
-All that you should be
-seeing is this, the creation
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:56.886 --> 00:22:00.546 A:middle
 All that you should be
@@ -1695,14 +1536,6 @@ avoid compiling your shaders
 from source in runtime, the
 best you can do is create
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:56.936 --> 00:23:01.816 A:middle
-from source in runtime, the
-best you can do is create
-
 00:23:01.816 --> 00:23:02.796 A:middle
 them asynchronously.
 
@@ -1765,14 +1598,6 @@ to create one per GPU used.
 00:23:52.876 --> 00:23:57.246 A:middle
 Now, next is the
 interesting stuff, the render
-
-00:23:57.246 --> 00:24:01.396 A:middle
-and compute pipeline state,
-which encapsulates all
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.246 --> 00:24:01.396 A:middle
 and compute pipeline state,
@@ -1851,14 +1676,6 @@ GPU pipeline states,
 and you should be creating these
 when you load your content along
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.496 --> 00:25:01.546 A:middle
-and you should be creating these
-when you load your content along
-
 00:25:01.626 --> 00:25:02.936 A:middle
 with the other pipeline states.
 
@@ -1920,13 +1737,6 @@ underlying storage.
 00:25:54.816 --> 00:25:57.696 A:middle
 And we are going to be
 covering more on that very soon.
-
-00:25:58.876 --> 00:26:02.006 A:middle
-So to briefly recap.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.876 --> 00:26:02.006 A:middle
 So to briefly recap.
@@ -2002,14 +1812,6 @@ if we can do better soon.
 So in summary, create your
 expensive state and objects
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.086 --> 00:27:02.086 A:middle
-So in summary, create your
-expensive state and objects
-
 00:27:02.086 --> 00:27:05.846 A:middle
 up front and aim to reuse them.
 
@@ -2068,13 +1870,6 @@ index buffers you might have
 00:27:55.856 --> 00:27:58.896 A:middle
 for things like particles
 generated on the CPU,
-
-00:27:59.816 --> 00:28:02.236 A:middle
-in addition to dynamic textures,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.816 --> 00:28:02.236 A:middle
 in addition to dynamic textures,
@@ -2138,14 +1933,6 @@ as it wants through a pointer.
 00:28:53.946 --> 00:28:58.166 A:middle
 And in fact, it's quite easy
 for the CPU to stomp all
-
-00:28:58.166 --> 00:29:01.136 A:middle
-over the data which
-is in use by the GPU,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.166 --> 00:29:01.136 A:middle
 over the data which
@@ -2220,14 +2007,6 @@ GPU in the next frame.
 Now, this is really bad because
 not only is the CPU stored
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.186 --> 00:30:02.376 A:middle
-Now, this is really bad because
-not only is the CPU stored
-
 00:30:02.376 --> 00:30:05.946 A:middle
 but the GPU is stored as well
 because the CPU hasn't had time
@@ -2289,14 +2068,6 @@ want to be doing this.
 00:30:53.076 --> 00:30:57.686 A:middle
 What you should do instead
 is employ a buffer scheme.
-
-00:30:58.246 --> 00:31:00.426 A:middle
-Here we have a triple
-buffering scheme,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.246 --> 00:31:00.426 A:middle
 Here we have a triple
@@ -2370,14 +2141,6 @@ Getting back to our example app,
 you may remember we had these
 very performance-crippling
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.926 --> 00:32:03.766 A:middle
-you may remember we had these
-very performance-crippling
-
 00:32:03.766 --> 00:32:06.066 A:middle
 weights between each
 frame on the CPU.
@@ -2437,10 +2200,6 @@ up front, and that relates
 00:32:56.516 --> 00:32:59.276 A:middle
 to when you acquire your
 app's drawable service.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:01.056 --> 00:33:04.626 A:middle
 Now, the drawable surface is
@@ -2508,13 +2267,6 @@ have any compositing,
 00:33:57.786 --> 00:34:01.616 A:middle
 to the actual display hardware.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.786 --> 00:34:01.616 A:middle
-to the actual display hardware.
-
 00:34:01.726 --> 00:34:04.946 A:middle
 Now, your app grabs a
 drawable surface typically
@@ -2523,7 +2275,7 @@ drawable surface typically
 by calling the next
 drawable method.
 
-00:34:07.866 --> 00:34:11.565 A:middle
+00:34:07.866 --> 00:34:11.566 A:middle
 If you are using MetalKit,
 this will be performed
 
@@ -2531,18 +2283,18 @@ this will be performed
 when you call Current
 Render Pass Descriptor.
 
-00:34:16.085 --> 00:34:20.775 A:middle
+00:34:16.086 --> 00:34:20.776 A:middle
 Now, the method will only return
 once a drawable is available,
 
-00:34:21.505 --> 00:34:24.676 A:middle
+00:34:21.506 --> 00:34:24.676 A:middle
 and if there happens to be a
 drawable available at the time,
 
 00:34:24.726 --> 00:34:26.016 A:middle
 it will return immediately.
 
-00:34:26.166 --> 00:34:29.505 A:middle
+00:34:26.166 --> 00:34:29.506 A:middle
 Great, you can go on and
 continue with the frame.
 
@@ -2558,10 +2310,10 @@ for it, will be blocked
 until at least the next display
 interval waiting for a drawable.
 
-00:34:39.946 --> 00:34:41.085 A:middle
+00:34:39.946 --> 00:34:41.086 A:middle
 This can be a long time.
 
-00:34:41.235 --> 00:34:42.616 A:middle
+00:34:41.236 --> 00:34:42.616 A:middle
 It's 60 frames per second.
 
 00:34:42.616 --> 00:34:44.616 A:middle
@@ -2580,10 +2332,6 @@ these huge gaps in execution?
 
 00:34:58.086 --> 00:34:59.486 A:middle
 Well, let's see what Xcode says.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.556 --> 00:35:03.806 A:middle
 So we go to the frame
@@ -2656,14 +2404,6 @@ to render the UI pass.
 So the best place to acquire the
 next drawable is naturally right
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:56.676 --> 00:36:01.036 A:middle
-So the best place to acquire the
-next drawable is naturally right
-
 00:36:01.036 --> 00:36:04.446 A:middle
 before the UI pass.
 
@@ -2727,10 +2467,6 @@ actually needs a drawable,
 00:36:58.236 --> 00:36:59.536 A:middle
 one is likely to be available.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:01.996 --> 00:37:05.256 A:middle
 So at this point we are
 doing pretty well so far.
@@ -2793,14 +2529,6 @@ the actions acting on them,
 such as the depth stencil
 state, color masking
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:56.756 --> 00:38:01.206 A:middle
-such as the depth stencil
-state, color masking
-
 00:38:01.206 --> 00:38:02.896 A:middle
 and blending, for instance.
 
@@ -2849,13 +2577,6 @@ phase, which processes all
 00:38:54.506 --> 00:38:58.836 A:middle
 of the objects tile
 by tile to determine
-
-00:38:58.836 --> 00:39:01.586 A:middle
-which objects are visible,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.836 --> 00:39:01.586 A:middle
 which objects are visible,
@@ -2915,14 +2636,6 @@ So what can Xcode tell us?
 
 00:39:50.706 --> 00:39:53.476 A:middle
 Can it give us -- or rather,
-
-00:39:55.826 --> 00:40:01.096 A:middle
-I mentioned that each
-encoder corresponds
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:55.826 --> 00:40:01.096 A:middle
 I mentioned that each
@@ -2993,14 +2706,6 @@ because it shouldn't be there
 in the first place, we go down
 to 19, so that's a very nice win
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.466 --> 00:41:05.386 A:middle
-in the first place, we go down
-to 19, so that's a very nice win
-
 00:41:05.386 --> 00:41:06.816 A:middle
 for doing very little at all.
 
@@ -3062,10 +2767,6 @@ passes use this data,
 00:41:55.976 --> 00:41:59.856 A:middle
 and they perform
 lighting and outputs
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:00.146 --> 00:42:02.866 A:middle
 to a single accumulation target
@@ -3137,14 +2838,6 @@ So let's go ahead and do that.
 So we have six passes
 here, and now we are going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:56.906 --> 00:43:00.046 A:middle
-So we have six passes
-here, and now we are going
-
 00:43:00.046 --> 00:43:01.696 A:middle
 to merge them down to four.
 
@@ -3199,14 +2892,6 @@ use of programmable blending.
 00:43:57.636 --> 00:43:59.446 A:middle
 So I'm not going to go
 into too much detail there,
-
-00:43:59.446 --> 00:44:04.446 A:middle
-but what we did was we combined
-these two encoders down to one.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:59.446 --> 00:44:04.446 A:middle
 but what we did was we combined
@@ -3281,14 +2966,6 @@ mistakenly set our loads
 and store actions for each
 attachment incorrectly.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.026 --> 00:45:00.686 A:middle
-and store actions for each
-attachment incorrectly.
-
 00:45:01.526 --> 00:45:05.586 A:middle
 We only wanted to be storing
 the first color attachment,
@@ -3355,14 +3032,6 @@ work as possible in them,
 and definitely do
 not start encoding
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.056 --> 00:46:01.756 A:middle
-and definitely do
-not start encoding
-
 00:46:01.756 --> 00:46:03.326 A:middle
 if you are not going
 to draw anything.
@@ -3419,14 +3088,6 @@ threadsafe and scalable means
 00:46:55.546 --> 00:46:57.366 A:middle
 of multithreading
 your rendering.
-
-00:46:57.366 --> 00:47:01.756 A:middle
-It allows you to encode multiple
-command buffers simultaneously
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:57.366 --> 00:47:01.756 A:middle
 It allows you to encode multiple
@@ -3495,10 +3156,6 @@ we can encode the two passes
 00:47:59.286 --> 00:47:59.916 A:middle
 in parallel.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:00.866 --> 00:48:06.176 A:middle
 And not only have we managed to
 reduce the CPU time per frame,
@@ -3554,14 +3211,6 @@ the approaches
 00:48:55.116 --> 00:48:57.376 A:middle
 to multithreading can
 be quite flexible,
-
-00:48:58.306 --> 00:49:00.706 A:middle
-and once they have all
-finished their encoding,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:58.306 --> 00:49:00.706 A:middle
 and once they have all
@@ -3623,14 +3272,6 @@ point to remember.
 00:49:50.486 --> 00:49:54.966 A:middle
 Because then we create the
 render encoders for each thread,
-
-00:49:55.766 --> 00:50:00.146 A:middle
-and we go ahead and encode our
-draws on the separate threads
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:55.766 --> 00:50:00.146 A:middle
 and we go ahead and encode our
@@ -3710,14 +3351,6 @@ device and the command queue.
 And for this example, we are
 going to be using three threads.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:58.456 --> 00:51:02.306 A:middle
-And for this example, we are
-going to be using three threads.
-
 00:51:03.866 --> 00:51:08.866 A:middle
 But here we only want
 one command buffer.
@@ -3771,14 +3404,6 @@ subordinate command encoders,
 00:51:53.206 --> 00:51:57.396 A:middle
 and each will encode to
 the command buffer now,
-
-00:51:57.396 --> 00:52:00.346 A:middle
-because we are multithreading
-they may finish encoding
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:57.396 --> 00:52:00.346 A:middle
 because we are multithreading
@@ -3852,13 +3477,6 @@ actual parallel encoder.
 00:52:58.516 --> 00:53:01.026 A:middle
 Now, here is the important bit.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:58.516 --> 00:53:01.026 A:middle
-Now, here is the important bit.
-
 00:53:02.516 --> 00:53:05.436 A:middle
 When we create our
 subordinate encoders,
@@ -3913,14 +3531,6 @@ decided to multithread our app.
 
 00:53:53.606 --> 00:53:54.616 A:middle
 Look what turned up.
-
-00:53:56.106 --> 00:54:00.656 A:middle
-So previously, we had
-serial encoding or passes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:56.106 --> 00:54:00.656 A:middle
 So previously, we had
@@ -3983,14 +3593,6 @@ split up a single pass
 
 00:54:58.286 --> 00:54:59.486 A:middle
 across multiple threads,
-
-00:54:59.966 --> 00:55:03.066 A:middle
-you want to use the Parallel
-Render Command Encoder to do so.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:59.966 --> 00:55:03.066 A:middle
 you want to use the Parallel
@@ -4063,13 +3665,6 @@ efficiently using our Render
 00:55:59.326 --> 00:56:00.326 A:middle
 Command Encoders.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:55:59.326 --> 00:56:00.326 A:middle
-Command Encoders.
-
 00:56:00.816 --> 00:56:03.216 A:middle
 We don't have any
 empty encoders,
@@ -4134,14 +3729,6 @@ meet our target,
 which in this case was
 60 frames per second.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:56:59.006 --> 00:57:01.016 A:middle
-which in this case was
-60 frames per second.
-
 00:57:01.146 --> 00:57:03.766 A:middle
 So well done us!
 
@@ -4189,4 +3776,3 @@ Thank you very much!
 
 00:57:39.676 --> 00:57:52.520 A:middle
 [ Applause ]
-

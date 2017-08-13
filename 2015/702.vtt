@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:23.516 --> 00:00:25.676 A:middle
 &gt;&gt; NICK SHEARER: So,
@@ -51,14 +50,6 @@ inside of your own applications.
 00:00:55.466 --> 00:00:57.936 A:middle
 That's what we're going to
 talk about in today's session.
-
-00:00:58.186 --> 00:01:01.666 A:middle
-Now it's an extra long
-bumper hour long session.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.186 --> 00:01:01.666 A:middle
 Now it's an extra long
@@ -155,14 +146,6 @@ use it inside of your app?
 So Apple Pay is an easy
 private and secure way to pay
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.436 --> 00:02:05.166 A:middle
-So Apple Pay is an easy
-private and secure way to pay
-
 00:02:05.476 --> 00:02:09.496 A:middle
 within applications as well as
 contactlessly, and it allows
@@ -227,10 +210,6 @@ valid only for that purchase.
 00:02:56.736 --> 00:02:59.226 A:middle
 So it's really secure,
 and really private.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.286 --> 00:03:03.386 A:middle
 And all of these things combine
@@ -319,14 +298,6 @@ directly on the phone.
 They integrated with
 Apple Pay and they found
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.166 --> 00:04:01.006 A:middle
-They integrated with
-Apple Pay and they found
-
 00:04:01.006 --> 00:04:04.256 A:middle
 that Apple Pay users
 transact 20% more frequently
@@ -348,11 +319,11 @@ from Apple Pay is OpenTable.
 You should try to use
 this app this week.
 
-00:04:14.406 --> 00:04:16.685 A:middle
+00:04:14.406 --> 00:04:16.686 A:middle
 You cannot only book a
 reservation but you can go
 
-00:04:16.685 --> 00:04:19.416 A:middle
+00:04:16.686 --> 00:04:19.416 A:middle
 into a restaurant and pay
 for your meal directly
 
@@ -407,10 +378,6 @@ the CEO of Fancy.
 00:04:54.846 --> 00:04:59.896 A:middle
 He said Apple Pay is not
 only driving more purchases
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.516 --> 00:05:03.586 A:middle
 but activating our
@@ -482,14 +449,6 @@ code bases
 00:05:54.106 --> 00:05:55.766 A:middle
 and you also use them
 for different things.
-
-00:05:56.916 --> 00:06:00.816 A:middle
-So for Apple Pay, you use it
-for physical goods and services.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:56.916 --> 00:06:00.816 A:middle
 So for Apple Pay, you use it
@@ -582,14 +541,6 @@ a Secure Element chip.
 So the Secure Element is this
 hardware chip that's dedicated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.076 --> 00:07:02.996 A:middle
-So the Secure Element is this
-hardware chip that's dedicated
-
 00:07:02.996 --> 00:07:05.106 A:middle
 to securely storing
 your card information.
@@ -660,14 +611,6 @@ from a technical perspective.
 00:07:54.616 --> 00:07:57.986 A:middle
 So Apple Pay, the very
 first thing you need
-
-00:07:57.986 --> 00:08:00.616 A:middle
-to do is create a
-Merchant Identifier.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:57.986 --> 00:08:00.616 A:middle
 to do is create a
@@ -760,14 +703,6 @@ to get Apple Pay up in our app.
 The first thing you do is
 display what we call the payment
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:56.226 --> 00:09:00.166 A:middle
-The first thing you do is
-display what we call the payment
-
 00:09:00.166 --> 00:09:02.396 A:middle
 sheet which is vendored by us
 
@@ -846,14 +781,6 @@ cards available.
 00:09:56.156 --> 00:09:59.036 A:middle
 Because if the user doesn't have
 any Apple Pay cards available,
-
-00:09:59.166 --> 00:10:01.276 A:middle
-or the device doesn't
-support it, you want them
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.166 --> 00:10:01.276 A:middle
 or the device doesn't
@@ -946,14 +873,6 @@ confirmation screen.
 00:10:55.426 --> 00:10:59.186 A:middle
 I think many of you
 might be wondering, well,
-
-00:10:59.186 --> 00:11:00.526 A:middle
-that's all very well
-and good, Nick,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.186 --> 00:11:00.526 A:middle
 that's all very well
@@ -1054,14 +973,6 @@ already using one of these.
 And a number of UK payment
 processes are already set
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.706 --> 00:12:01.176 A:middle
-And a number of UK payment
-processes are already set
-
 00:12:01.176 --> 00:12:02.376 A:middle
 up to support Apple Pay.
 
@@ -1152,14 +1063,6 @@ payments yourself.
 Okay. That was a bit of a
 whistle-stop tour of how
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:56.376 --> 00:13:02.096 A:middle
-Okay. That was a bit of a
-whistle-stop tour of how
-
 00:13:02.096 --> 00:13:04.226 A:middle
 to use Apple Pay, how
 it makes payments.
@@ -1242,14 +1145,6 @@ are to make a sale.
 Now a person's desire to buy
 something can be fleeting.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:56.916 --> 00:14:00.276 A:middle
-Now a person's desire to buy
-something can be fleeting.
-
 00:14:00.726 --> 00:14:02.926 A:middle
 So any obstacle that interferes
 
@@ -1325,14 +1220,6 @@ that transaction.
 
 00:14:57.806 --> 00:14:59.106 A:middle
 Let me give you an example
-
-00:14:59.106 --> 00:15:02.016 A:middle
-of how this looks
-without Apple Pay.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.106 --> 00:15:02.016 A:middle
 of how this looks
@@ -1420,14 +1307,6 @@ Okay, first billing information.
 Lots to type there and I
 happen to live in an apartment
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.226 --> 00:16:03.046 A:middle
-Lots to type there and I
-happen to live in an apartment
-
 00:16:03.046 --> 00:16:05.426 A:middle
 so I have to find that number
 sign on the keyboard to go
@@ -1501,13 +1380,6 @@ Find a product.
 00:16:58.216 --> 00:17:00.026 A:middle
 No account setup necessary.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.216 --> 00:17:00.026 A:middle
-No account setup necessary.
-
 00:17:00.806 --> 00:17:02.256 A:middle
 Tap the Apple Pay button.
 
@@ -1518,10 +1390,10 @@ for Touch ID, done!
 00:17:06.126 --> 00:17:08.126 A:middle
 Two taps. No typing.
 
-00:17:08.816 --> 00:17:10.425 A:middle
+00:17:08.816 --> 00:17:10.426 A:middle
 That is fast.
 
-00:17:11.955 --> 00:17:14.546 A:middle
+00:17:11.956 --> 00:17:14.546 A:middle
 So thanks to Apple Pay,
 you can eliminate a lot
 
@@ -1531,14 +1403,14 @@ of these obstacles.
 00:17:16.226 --> 00:17:18.086 A:middle
 Fewer taps means more sales.
 
-00:17:18.086 --> 00:17:22.965 A:middle
+00:17:18.086 --> 00:17:22.966 A:middle
 So next, let's talk about
 how to integrate Apple Pay
 
-00:17:22.965 --> 00:17:24.175 A:middle
+00:17:22.966 --> 00:17:24.176 A:middle
 into your transaction flows.
 
-00:17:24.175 --> 00:17:26.796 A:middle
+00:17:24.176 --> 00:17:26.796 A:middle
 And the first thing to think
 
 00:17:26.796 --> 00:17:29.426 A:middle
@@ -1583,14 +1455,6 @@ to complete the transaction.
 00:17:55.906 --> 00:17:58.006 A:middle
 Groupon takes a very
 similar approach.
-
-00:17:58.736 --> 00:18:01.006 A:middle
-So I'm going to be in
-Chicago in a couple of weeks.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.736 --> 00:18:01.006 A:middle
 So I'm going to be in
@@ -1675,10 +1539,6 @@ Apple Pay as the payment method
 00:18:57.016 --> 00:18:59.056 A:middle
 and then display those
 buttons prominently.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.766 --> 00:19:05.066 A:middle
 Now, with iOS 8.3, the Apple Pay
@@ -1767,14 +1627,6 @@ you all the core information you
 need to complete
 the transaction.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.906 --> 00:20:01.586 A:middle
-need to complete
-the transaction.
-
 00:20:01.916 --> 00:20:05.466 A:middle
 The one thing you might need to
 take in advance is promo codes
@@ -1855,14 +1707,6 @@ payment sheet will display a
 list of recently used
 addresses as well as the ability
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.066 --> 00:21:02.716 A:middle
-list of recently used
-addresses as well as the ability
-
 00:21:02.716 --> 00:21:04.696 A:middle
 to quickly add one
 in for contacts.
@@ -1937,14 +1781,6 @@ and only ask for what you need.
 Uber only requires
 email and phone number.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.306 --> 00:22:01.736 A:middle
-Uber only requires
-email and phone number.
-
 00:22:01.856 --> 00:22:03.226 A:middle
 So they are not taking
 a shipping address
@@ -2013,14 +1849,6 @@ is listing shipping and tax
 00:22:53.046 --> 00:22:56.556 A:middle
 and handling in addition to
 the merchandise subtotal.
-
-00:22:57.826 --> 00:23:00.776 A:middle
-Now, if you don't have any of
-those items, you don't even have
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.826 --> 00:23:00.776 A:middle
 Now, if you don't have any of
@@ -2106,14 +1934,6 @@ in the payment sheet is clear,
 because no one likes
 surprise charges later.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.116 --> 00:24:00.606 A:middle
-because no one likes
-surprise charges later.
-
 00:24:01.216 --> 00:24:06.686 A:middle
 And then finally, make sure you
 place your business name next
@@ -2187,14 +2007,6 @@ confirmation telling them
 00:24:54.496 --> 00:24:57.366 A:middle
 that the order has been
 processed and letting them know
-
-00:24:57.366 --> 00:25:02.706 A:middle
-that they will get more
-information at their email.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.366 --> 00:25:02.706 A:middle
 that they will get more
@@ -2282,13 +2094,6 @@ Thanks.
 00:25:57.516 --> 00:26:04.636 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:57.516 --> 00:26:04.636 A:middle
-[ Applause ]
-
 00:26:05.136 --> 00:26:06.476 A:middle
 &gt;&gt; NICK SHEARER: Thanks, Rachel.
 
@@ -2357,14 +2162,6 @@ describes an individual item
 00:26:53.286 --> 00:26:55.546 A:middle
 that you would like to charge
 for on the payment sheet, like,
-
-00:26:55.586 --> 00:27:00.216 A:middle
-tax, shipping or total and you
-take all the summary items you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:55.586 --> 00:27:00.216 A:middle
 tax, shipping or total and you
@@ -2446,14 +2243,6 @@ to do, before we do any of this,
 00:27:55.276 --> 00:27:58.956 A:middle
 is to check whether the
 device supports Apple Pay.
-
-00:27:59.896 --> 00:28:01.996 A:middle
-We want to see whether
-they have payment cards
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.896 --> 00:28:01.996 A:middle
 We want to see whether
@@ -2541,10 +2330,6 @@ and that will return yes
 if the device has hardware
 support for Apple Pay.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.116 --> 00:29:03.546 A:middle
 And new in iOS 9, you can also
 now check for capabilities
@@ -2617,14 +2402,6 @@ and it should be the countryCode
 00:29:56.586 --> 00:29:58.326 A:middle
 that your payment
 processor is in,
-
-00:29:58.326 --> 00:30:00.326 A:middle
-the country in which
-you'll be making the charge.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.326 --> 00:30:00.326 A:middle
 the country in which
@@ -2706,14 +2483,6 @@ of how these will work.
 00:30:56.166 --> 00:30:58.816 A:middle
 Most of you will use
 3DS, and you should check
-
-00:30:58.816 --> 00:31:01.166 A:middle
-with your payment processor
-or your inquiring bank
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.816 --> 00:31:01.166 A:middle
 with your payment processor
@@ -2802,14 +2571,6 @@ You may have come
 across NSDecimalNumber
 before it's a Cocoa class
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.586 --> 00:32:01.896 A:middle
-across NSDecimalNumber
-before it's a Cocoa class
-
 00:32:01.896 --> 00:32:04.206 A:middle
 and it precisely represents
 floating point numbers
@@ -2892,10 +2653,6 @@ So payment request is good.
 
 00:32:58.286 --> 00:32:59.636 A:middle
 We are ready to present it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.196 --> 00:33:02.166 A:middle
 into our payment
@@ -2980,14 +2737,6 @@ to target below 8.3,
 we also have some
 imagery available
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.696 --> 00:34:01.406 A:middle
-we also have some
-imagery available
-
 00:34:01.596 --> 00:34:03.256 A:middle
 on our developer site
 that you can use.
@@ -3027,29 +2776,29 @@ it's like right now,
 I haven't implemented
 anything in Apple Pay yet.
 
-00:34:33.315 --> 00:34:37.416 A:middle
+00:34:33.316 --> 00:34:37.416 A:middle
 Let's make the simulator
 a little smaller.
 
 00:34:37.766 --> 00:34:39.136 A:middle
 A little shopping app.
 
-00:34:40.565 --> 00:34:42.726 A:middle
+00:34:40.566 --> 00:34:42.726 A:middle
 And you can see I have got a
 little description of the price
 
-00:34:42.726 --> 00:34:43.795 A:middle
+00:34:42.726 --> 00:34:43.796 A:middle
 and the buy with
 Apple Pay button.
 
-00:34:44.766 --> 00:34:45.985 A:middle
+00:34:44.766 --> 00:34:45.986 A:middle
 Okay, nothing is
 really happening.
 
 00:34:46.696 --> 00:34:47.626 A:middle
 So let's put that code in.
 
-00:34:48.545 --> 00:34:50.226 A:middle
+00:34:48.546 --> 00:34:50.226 A:middle
 Let's talk about what I
 have got so far first.
 
@@ -3060,17 +2809,9 @@ canMakePaymentsUsingNetworks
 00:34:54.166 --> 00:34:54.446 A:middle
 check.
 
-00:34:55.085 --> 00:34:58.286 A:middle
+00:34:55.086 --> 00:34:58.286 A:middle
 And I have got this
 supportedNetworks property.
-
-00:34:58.286 --> 00:35:00.316 A:middle
-So I have actually
-defined this further up.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.286 --> 00:35:00.316 A:middle
 So I have actually
@@ -3162,14 +2903,6 @@ in generic configuration class.
 I'm then passing the mandatory
 properties the countryCode
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.796 --> 00:36:02.186 A:middle
-I'm then passing the mandatory
-properties the countryCode
-
 00:36:02.186 --> 00:36:02.986 A:middle
 and the currencyCode.
 
@@ -3254,14 +2987,6 @@ something, I don't know if any
 of you tried to use
 Apple Pay on iOS 8.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.806 --> 00:37:00.836 A:middle
-of you tried to use
-Apple Pay on iOS 8.
-
 00:37:00.836 --> 00:37:02.926 A:middle
 It doesn't actually
 work on the simulator.
@@ -3339,14 +3064,6 @@ received the payments
 00:37:56.156 --> 00:37:57.666 A:middle
 and whether we've been
 able to process them.
-
-00:37:59.006 --> 00:38:01.726 A:middle
-Now, it has two required
-delegate methods.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.006 --> 00:38:01.726 A:middle
 Now, it has two required
@@ -3439,13 +3156,6 @@ that you might have requested.
 00:38:59.926 --> 00:39:01.406 A:middle
 So a shipping address.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.926 --> 00:39:01.406 A:middle
-So a shipping address.
-
 00:39:02.306 --> 00:39:03.496 A:middle
 Okay. Let's add those in.
 
@@ -3528,13 +3238,6 @@ You can use it if you'd like.
 00:39:59.766 --> 00:40:00.796 A:middle
 You can use it for receipts.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.766 --> 00:40:00.796 A:middle
-You can use it for receipts.
-
 00:40:00.796 --> 00:40:02.856 A:middle
 It's unique to every
 Apple Pay purchase.
@@ -3612,10 +3315,6 @@ returning me dummy information.
 00:40:58.006 --> 00:40:59.986 A:middle
 If this was a real
 device I'd have an actual
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.196 --> 00:41:01.366 A:middle
 transaction identifier.
@@ -3697,14 +3396,6 @@ billing, the billing address.
 00:41:56.446 --> 00:41:59.106 A:middle
 That's another bit mask with
 required billing address fields.
-
-00:41:59.766 --> 00:42:02.716 A:middle
-Now for all of this contact
-information, we recommend
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.766 --> 00:42:02.716 A:middle
 Now for all of this contact
@@ -3794,14 +3485,6 @@ and it has completion handler.
 Now, the completion
 handler has a status.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.746 --> 00:43:01.546 A:middle
-Now, the completion
-handler has a status.
-
 00:43:01.876 --> 00:43:04.306 A:middle
 So you can have success
 or invalid information
@@ -3874,14 +3557,6 @@ un-redacted contact information
 00:43:56.136 --> 00:43:57.556 A:middle
 because the user has
 not Touch IDed yet.
-
-00:43:57.556 --> 00:44:01.016 A:middle
-And we take the user's Touch
-ID as consent to release
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:57.556 --> 00:44:01.016 A:middle
 And we take the user's Touch
@@ -3975,14 +3650,6 @@ informationBut here is a really
 simple example of extracting
 a name and an email address.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.236 --> 00:45:01.706 A:middle
-simple example of extracting
-a name and an email address.
-
 00:45:02.556 --> 00:45:04.776 A:middle
 So let's finish our app up.
 
@@ -4063,14 +3730,6 @@ will get a call back as soon
 
 00:45:58.636 --> 00:45:59.706 A:middle
 as the sheet is presented.
-
-00:45:59.826 --> 00:46:02.016 A:middle
-I'm setting up a shipping
-method, I'm only going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:59.826 --> 00:46:02.016 A:middle
 I'm setting up a shipping
@@ -4162,14 +3821,6 @@ you can check the sample code
 out is adds an additional
 surcharge into my payment items,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:55.686 --> 00:47:00.366 A:middle
-out is adds an additional
-surcharge into my payment items,
-
 00:47:00.736 --> 00:47:01.696 A:middle
 if it's international.
 
@@ -4248,14 +3899,6 @@ It's a single title.
 00:47:54.486 --> 00:47:56.826 A:middle
 It's really easy in the
 Apple Pay sheet to update all
-
-00:47:56.946 --> 00:48:00.676 A:middle
-of your shipping costs
-which are again listed
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:56.946 --> 00:48:00.676 A:middle
 of your shipping costs
@@ -4352,14 +3995,6 @@ It might be useful for you.
 Now there is a caveat, a
 minority of older cards added
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.576 --> 00:49:03.006 A:middle
-Now there is a caveat, a
-minority of older cards added
-
 00:49:03.006 --> 00:49:06.246 A:middle
 to Apple Pay, we don't know
 the type of card they are.
@@ -4443,10 +4078,6 @@ documentation
 
 00:49:58.406 --> 00:49:59.576 A:middle
 for the latest information.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:00.156 --> 00:50:05.276 A:middle
 I already talked about
@@ -4535,14 +4166,6 @@ have a WatchKit extension
 and WatchKit app that triggers
 a payment on the phone.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:57.676 --> 00:51:00.426 A:middle
-and WatchKit app that triggers
-a payment on the phone.
-
 00:51:01.036 --> 00:51:02.576 A:middle
 If you are interested
 in that take a look.
@@ -4621,14 +4244,6 @@ We've got some documentation.
 00:51:55.376 --> 00:51:57.656 A:middle
 We have an Apple Pay for
 developers microsite.
-
-00:51:58.466 --> 00:52:01.006 A:middle
-If you are interested about the
-Secure Element and the hardware,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:58.466 --> 00:52:01.006 A:middle
 If you are interested about the
@@ -4731,13 +4346,6 @@ and we'll have people
 00:52:59.696 --> 00:53:01.466 A:middle
 from the client the iOS side,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:59.696 --> 00:53:01.466 A:middle
-from the client the iOS side,
-
 00:53:01.786 --> 00:53:03.766 A:middle
 we'll have some business team
 there if you have any questions
@@ -4776,4 +4384,3 @@ Goodbye.
 
 00:53:20.516 --> 00:53:23.500 A:middle
 [Applause]
-

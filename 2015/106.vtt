@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:21.356 --> 00:00:22.976 A:middle
 &gt;&gt; CHRIS LATTNER: Welcome
@@ -52,14 +51,6 @@ the tools to be great.
 00:00:55.846 --> 00:00:58.696 A:middle
 A lot of this is taking a
 look at the feedback that many
-
-00:00:58.696 --> 00:01:01.276 A:middle
-of you have produced in
-the process of using Swift.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.696 --> 00:01:01.276 A:middle
 of you have produced in
@@ -146,14 +137,6 @@ three months ago.
 Because of time limitations,
 we don't have time
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.606 --> 00:02:01.846 A:middle
-Because of time limitations,
-we don't have time
-
 00:02:01.846 --> 00:02:02.896 A:middle
 to talk about it much.
 
@@ -225,14 +208,6 @@ and they work great.
 00:02:57.046 --> 00:02:58.096 A:middle
 &gt;&gt; CHRIS LATTNER: Next,
 associated values.
-
-00:02:59.056 --> 00:03:01.686 A:middle
-Enums are also great because
-they're the perfect model
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.056 --> 00:03:01.686 A:middle
 Enums are also great because
@@ -322,14 +297,6 @@ There are workarounds for this.
 Everybody has seen probably
 the box-type that you can turn
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.386 --> 00:04:02.006 A:middle
-Everybody has seen probably
-the box-type that you can turn
-
 00:04:02.006 --> 00:04:04.166 A:middle
 into a reference, but that
 breaks pattern matching,
@@ -356,7 +323,7 @@ indirect allowing you
 to express this naturally, and
 pattern matching works great.
 
-00:04:17.185 --> 00:04:20.125 A:middle
+00:04:17.186 --> 00:04:20.126 A:middle
 Let's move on and talk
 about scoping [applause].
 
@@ -414,14 +381,6 @@ of a big, long statement,
 
 00:04:57.306 --> 00:04:58.546 A:middle
 and we have a Do While loop.
-
-00:04:59.856 --> 00:05:03.736 A:middle
-To make it superclear by just
-looking at the introducer
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.856 --> 00:05:03.736 A:middle
 To make it superclear by just
@@ -498,14 +457,6 @@ and they're conflated together.
 00:05:54.186 --> 00:05:57.006 A:middle
 You extract them with bitwise
 operations, which is a pain
-
-00:05:57.006 --> 00:06:00.836 A:middle
-and super error-prone, and
-you can get it wrong easily.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:57.006 --> 00:06:00.836 A:middle
 and super error-prone, and
@@ -598,14 +549,6 @@ With just a simple definition,
 you now get all the
 syntax we talked about.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.956 --> 00:07:01.956 A:middle
-you now get all the
-syntax we talked about.
-
 00:07:02.576 --> 00:07:04.386 A:middle
 The thing that's
 supercool about this,
@@ -693,14 +636,6 @@ C doesn't have argument labels,
 argument labels are
 superimportant for methods
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.076 --> 00:08:00.886 A:middle
-argument labels are
-superimportant for methods
-
 00:08:00.886 --> 00:08:02.766 A:middle
 in Objective-C, and
 Swift followed.
@@ -742,7 +677,7 @@ pure Swift code.
 If you declare a global
 function in Swift,
 
-00:08:30.866 --> 00:08:32.155 A:middle
+00:08:30.866 --> 00:08:32.156 A:middle
 you get this behavior
 by default.
 
@@ -783,14 +718,6 @@ Swift functions take parameters,
 00:08:55.526 --> 00:08:58.566 A:middle
 parameters can have two
 different names for each value.
-
-00:08:58.566 --> 00:09:01.816 A:middle
-So when you declare
-something with the syntax,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.566 --> 00:09:01.816 A:middle
 So when you declare
@@ -889,14 +816,6 @@ without a label.
 Go me! The even better
 thing, this whole change,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.966 --> 00:10:05.386 A:middle
-Go me! The even better
-thing, this whole change,
-
 00:10:05.386 --> 00:10:07.886 A:middle
 this makes labels much more
 prominent in the system.
@@ -986,14 +905,6 @@ invest in the error messages
 and warnings produced
 by the compiler,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.666 --> 00:11:01.116 A:middle
-and warnings produced
-by the compiler,
-
 00:11:01.476 --> 00:11:04.136 A:middle
 and in Swift 2 it says,
 hey, you can't assign to x
@@ -1073,13 +984,6 @@ mutating method instead,
 00:11:56.466 --> 00:11:57.846 A:middle
 and we can produce
 warnings for those.
-
-00:11:58.036 --> 00:12:01.716 A:middle
-Those are simple examples.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.036 --> 00:12:01.716 A:middle
 Those are simple examples.
@@ -1165,14 +1069,6 @@ later today to learn more
 about these features so you
 can provide a really great
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.946 --> 00:13:01.316 A:middle
-about these features so you
-can provide a really great
-
 00:13:01.496 --> 00:13:02.206 A:middle
 Swift experience.
 
@@ -1250,14 +1146,6 @@ benefits of access control.
 00:13:55.606 --> 00:13:57.826 A:middle
 We have a bunch of
 talks on testing,
-
-00:13:57.826 --> 00:14:00.396 A:middle
-UI Testing in Xcode will
-be a fantastic talk.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.826 --> 00:14:00.396 A:middle
 UI Testing in Xcode will
@@ -1353,14 +1241,6 @@ model, moving things to methods,
 changes to the SDK, a ton
 of the option set changes,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.926 --> 00:15:03.216 A:middle
-changes to the SDK, a ton
-of the option set changes,
-
 00:15:03.216 --> 00:15:05.636 A:middle
 all of these things are
 built in the migrator,
@@ -1440,14 +1320,6 @@ and you can't understand it.
 
 00:15:57.526 --> 00:15:59.066 A:middle
 Swift 1.2 solved this problem
-
-00:15:59.066 --> 00:16:01.756 A:middle
-by introducing a compound
-condition into if statements.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.066 --> 00:16:01.756 A:middle
 by introducing a compound
@@ -1542,14 +1414,6 @@ optional is a great way
 to factor force unwraps into
 a Mecca of unsafety for you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.696 --> 00:17:03.736 A:middle
-to factor force unwraps into
-a Mecca of unsafety for you.
-
 00:17:04.116 --> 00:17:07.016 A:middle
 This is maybe not the
 right approach either.
@@ -1557,7 +1421,7 @@ right approach either.
 00:17:07.016 --> 00:17:08.396 A:middle
 This is ugly.
 
-00:17:08.546 --> 00:17:10.925 A:middle
+00:17:08.546 --> 00:17:10.926 A:middle
 We introduced a new
 Guard statement.
 
@@ -1622,14 +1486,6 @@ the fall-through.
 00:17:54.746 --> 00:17:57.456 A:middle
 If we take this to our
 example, our example gets nicer
-
-00:17:57.566 --> 00:18:00.246 A:middle
-because now we can use
-Guard, and we have very safe,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.566 --> 00:18:00.246 A:middle
 because now we can use
@@ -1709,14 +1565,6 @@ check just one case.
 
 00:18:56.956 --> 00:18:58.726 A:middle
 They have to be exhaustive,
-
-00:18:58.726 --> 00:19:00.716 A:middle
-you have to have a
-default, it is a pain.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.726 --> 00:19:00.716 A:middle
 you have to have a
@@ -1811,14 +1659,6 @@ of pattern matching.
 We talked about the new Guard
 statement, which is great
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.726 --> 00:20:01.946 A:middle
-We talked about the new Guard
-statement, which is great
-
 00:20:01.946 --> 00:20:03.436 A:middle
 for early exits, talked
 
@@ -1895,14 +1735,6 @@ loaded property on it.
 The problem is that this may
 work great on my dev machine,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:56.236 --> 00:21:00.456 A:middle
-The problem is that this may
-work great on my dev machine,
-
 00:21:00.456 --> 00:21:03.126 A:middle
 but when I farm it out
 to my test hardware,
@@ -1960,14 +1792,6 @@ fraught, error-prone pattern.
 00:21:51.306 --> 00:21:57.586 A:middle
 For example, I actually have to
 figure out what the selector is,
-
-00:21:57.676 --> 00:22:01.056 A:middle
-the mapping from some
-Swift language feature back
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.676 --> 00:22:01.056 A:middle
 the mapping from some
@@ -2050,14 +1874,6 @@ deployment [unintelligible].
 Now that's not the entirety
 of the compatibility story,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.916 --> 00:23:02.256 A:middle
-Now that's not the entirety
-of the compatibility story,
-
 00:23:02.256 --> 00:23:08.026 A:middle
 of course, but this is a great
 way to help you adopt new APIs.
@@ -2133,14 +1949,6 @@ and safely in your projects.
 We'll talk more about this
 in a talk later today.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.076 --> 00:24:01.406 A:middle
-We'll talk more about this
-in a talk later today.
-
 00:24:01.406 --> 00:24:03.486 A:middle
 I really suggest
 that you come to it.
@@ -2196,14 +2004,6 @@ That has a lot of advantages.
 00:24:49.016 --> 00:24:54.536 A:middle
 Here I've added a
 Count If method,
-
-00:24:54.536 --> 00:25:00.336 A:middle
-that simply calls a closure for
-every other array and counts
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:54.536 --> 00:25:00.336 A:middle
 that simply calls a closure for
@@ -2282,14 +2082,6 @@ of the functionality on array,
 and in particular it's not
 going to show up in the list
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.476 --> 00:26:01.236 A:middle
-and in particular it's not
-going to show up in the list
-
 00:26:01.326 --> 00:26:04.176 A:middle
 of functionality provided
 by code completion.
@@ -2353,14 +2145,6 @@ happen to conform to this.
 00:26:56.456 --> 00:26:59.496 A:middle
 Not only is that great for
 writing your own generic code,
-
-00:26:59.496 --> 00:27:03.026 A:middle
-but we found it really lets
-us overhaul a lot of things
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.496 --> 00:27:03.026 A:middle
 but we found it really lets
@@ -2433,14 +2217,6 @@ that you'll love it.
 &gt;&gt; JOHN MCCALL: I really
 haven't even gone into a third
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.526 --> 00:28:00.946 A:middle
-&gt;&gt; JOHN MCCALL: I really
-haven't even gone into a third
-
 00:28:00.946 --> 00:28:05.516 A:middle
 of the complexity in the awesome
 new power of this feature.
@@ -2507,13 +2283,6 @@ about error handling.
 00:28:54.036 --> 00:28:58.706 A:middle
 When we looked at the
 solutions that were out there,
-
-00:28:58.706 --> 00:29:00.306 A:middle
-in other languages, in Cocoa,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.706 --> 00:29:00.306 A:middle
 in other languages, in Cocoa,
@@ -2597,14 +2366,6 @@ implicit, it was too easy not
 to think of errors again,
 and you end up with pitfalls
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.686 --> 00:30:01.626 A:middle
-to think of errors again,
-and you end up with pitfalls
-
 00:30:01.626 --> 00:30:06.566 A:middle
 where you just didn't
 understand what could go wrong
@@ -2677,14 +2438,6 @@ to do anything here.
 We're really happy with
 how that works already.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.146 --> 00:31:00.066 A:middle
-We're really happy with
-how that works already.
-
 00:31:00.526 --> 00:31:04.006 A:middle
 On the other end of the
 spectrum, there are a lot
@@ -2750,14 +2503,6 @@ wanted to focus on.
 00:31:54.576 --> 00:31:58.296 A:middle
 The things that you today in
 Cocoa would use NSError for.
-
-00:31:58.296 --> 00:32:03.506 A:middle
-I want to work through
-an example for you.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.296 --> 00:32:03.506 A:middle
 I want to work through
@@ -2838,14 +2583,6 @@ we don't really like.
 It adds a lot of
 boilerplate to my logic.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.346 --> 00:33:02.436 A:middle
-It adds a lot of
-boilerplate to my logic.
-
 00:33:02.996 --> 00:33:08.356 A:middle
 I had a tight little two-line
 function, now it is turned
@@ -2913,13 +2650,6 @@ to get the behavior I want.
 00:33:58.426 --> 00:34:01.186 A:middle
 Okay. That's -- well, no, sorry.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.426 --> 00:34:01.186 A:middle
-Okay. That's -- well, no, sorry.
-
 00:34:02.446 --> 00:34:03.786 A:middle
 Those are the downsides of this.
 
@@ -2939,17 +2669,17 @@ is something that can fail.
 It says right there in the
 name, it talks about errors,
 
-00:34:17.795 --> 00:34:19.666 A:middle
+00:34:17.796 --> 00:34:19.666 A:middle
 it has the explicit
 error handling thing,
 
 00:34:19.936 --> 00:34:21.596 A:middle
 this explicit error parameter.
 
-00:34:22.735 --> 00:34:24.766 A:middle
+00:34:22.736 --> 00:34:24.766 A:middle
 Similarly, it is obvious
 
-00:34:24.766 --> 00:34:26.985 A:middle
+00:34:24.766 --> 00:34:26.986 A:middle
 that preflight is an
 operation that can fail.
 
@@ -2965,10 +2695,10 @@ isn't implicit control flow.
 I can just look at this
 thing and understand
 
-00:34:41.596 --> 00:34:43.025 A:middle
+00:34:41.596 --> 00:34:43.026 A:middle
 where all the jumps in it are.
 
-00:34:43.456 --> 00:34:48.065 A:middle
+00:34:43.456 --> 00:34:48.066 A:middle
 I can analyze my code statically
 as a human, not as a compiler.
 
@@ -2986,13 +2716,6 @@ to know every last detail
 00:34:54.886 --> 00:34:59.606 A:middle
 of every single function
 that I'm calling.
-
-00:34:59.746 --> 00:35:00.026 A:middle
-All right.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.746 --> 00:35:00.026 A:middle
 All right.
@@ -3073,14 +2796,6 @@ for me to think about.
 Hey, should Reset State be
 called every single time I exit
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:56.866 --> 00:36:01.466 A:middle
-Hey, should Reset State be
-called every single time I exit
-
 00:36:01.466 --> 00:36:01.956 A:middle
 the function?
 
@@ -3147,14 +2862,6 @@ error out to my caller.
 00:36:53.906 --> 00:36:57.386 A:middle
 In order to do that, all I have
 to do is tell the compiler, hey,
-
-00:36:57.386 --> 00:37:00.036 A:middle
-it is okay for this thing
-to throw the error out.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:57.386 --> 00:37:00.036 A:middle
 it is okay for this thing
@@ -3227,14 +2934,6 @@ error variable to it.
 I could also write a much
 more elaborate thing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.326 --> 00:38:00.616 A:middle
-I could also write a much
-more elaborate thing.
-
 00:38:00.616 --> 00:38:04.826 A:middle
 For example, I may want to
 treat certain kinds of error
@@ -3281,14 +2980,6 @@ can't actually throw.
 00:38:52.096 --> 00:38:55.476 A:middle
 For example, maybe this file
 is actually in my app bundle
-
-00:38:55.796 --> 00:39:02.736 A:middle
-and I know that if I can't read
-a file in my own app bundle,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:55.796 --> 00:39:02.736 A:middle
 and I know that if I can't read
@@ -3355,14 +3046,6 @@ What kind of thing is an error?
 
 00:39:52.506 --> 00:39:54.676 A:middle
 Well, we have a protocol built
-
-00:39:54.676 --> 00:40:00.566 A:middle
-in to the standard
-library called ErrorType.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:54.676 --> 00:40:00.566 A:middle
 in to the standard
@@ -3439,14 +3122,6 @@ of expressing this.
 They're a great way to express
 a group of related problems,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:57.426 --> 00:41:00.496 A:middle
-They're a great way to express
-a group of related problems,
-
 00:41:00.876 --> 00:41:04.896 A:middle
 just like they're -- you know,
 so that's especially true
@@ -3511,14 +3186,6 @@ expressive error-throwing APIs
 00:41:52.156 --> 00:41:53.996 A:middle
 in your own code
 when you need to.
-
-00:41:57.716 --> 00:42:00.696 A:middle
-Let's go back to that
-example that Chris had
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:57.716 --> 00:42:00.696 A:middle
 Let's go back to that
@@ -3595,13 +3262,6 @@ example that culls
 00:42:56.576 --> 00:43:00.756 A:middle
 that method we just created.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:56.576 --> 00:43:00.756 A:middle
-that method we just created.
-
 00:43:00.756 --> 00:43:05.336 A:middle
 We parsed out, we have a snippet
 of JSON, we parsed out a person.
@@ -3653,14 +3313,6 @@ with error handling.
 00:43:55.366 --> 00:43:57.766 A:middle
 It is really easy for
 all of these -- like --
-
-00:43:57.866 --> 00:44:01.186 A:middle
-if my delegate actually has
-Careful and Variants set
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:57.866 --> 00:44:01.186 A:middle
 if my delegate actually has
@@ -3737,14 +3389,6 @@ if I actually do something.
 If I forget to add Did
 End Reading Sale along
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.546 --> 00:45:02.756 A:middle
-If I forget to add Did
-End Reading Sale along
-
 00:45:02.936 --> 00:45:04.646 A:middle
 that particular path.
 
@@ -3800,13 +3444,6 @@ valuable thing to know.
 00:45:55.516 --> 00:46:06.696 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:55.516 --> 00:46:06.696 A:middle
-[ Applause ]
-
 00:46:07.196 --> 00:46:09.426 A:middle
 &gt;&gt; JOHN MCCALL: I want to make a
 quick note about implementation.
@@ -3858,14 +3495,6 @@ here is far more balanced,
 00:46:55.326 --> 00:46:59.206 A:middle
 much more like, basically, an
 If statement in the caller.
-
-00:46:59.696 --> 00:47:02.926 A:middle
-That means it is not completely
-free in order to call something
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:59.696 --> 00:47:02.926 A:middle
 That means it is not completely
@@ -3927,14 +3556,6 @@ value goes away.
 00:47:51.366 --> 00:47:55.826 A:middle
 Similarly if it returns an
 optional result, we recognize
-
-00:47:55.826 --> 00:48:00.166 A:middle
-that pattern as the nil
-indicates an invalid thing,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:55.826 --> 00:48:00.166 A:middle
 that pattern as the nil
@@ -4005,14 +3626,6 @@ Let me sum up.
 We have been working in Swift
 2 really hard to present,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.576 --> 00:49:04.196 A:middle
-We have been working in Swift
-2 really hard to present,
-
 00:49:04.376 --> 00:49:07.506 A:middle
 to give you a new
 language, really flesh
@@ -4070,13 +3683,8 @@ We really, really value you.
 00:49:57.116 --> 00:49:59.836 A:middle
 Thank you very much [applause].
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:03.106 --> 00:50:04.966 A:middle
 Have a great WWDC 2015.
 
 00:50:05.516 --> 00:50:18.270 A:middle
 [ Applause ]
-

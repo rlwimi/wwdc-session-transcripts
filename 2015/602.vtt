@@ -1,11 +1,10 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:00:06.686 --> 00:00:07.646 A:middle
+00:00:25.046 --> 00:00:25.496 A:middle
 &gt;&gt; NICK PORCINO:
 Hello, everybody.
 
-00:00:24.556 --> 00:00:28.086 A:middle
+00:00:25.796 --> 00:00:28.086 A:middle
 Welcome to managing 3D
 Assets with Model I/O.
 
@@ -43,10 +42,6 @@ more limited than it is now.
 00:00:57.426 --> 00:00:59.506 A:middle
 The thing you have in your
 pocket is absolutely amazing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.166 --> 00:01:04.696 A:middle
 Now we got new frameworks that
@@ -123,14 +118,6 @@ bunch of integration,
 and we've prepared a unified
 set of data structures
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.986 --> 00:02:01.216 A:middle
-and we've prepared a unified
-set of data structures
-
 00:02:01.216 --> 00:02:03.286 A:middle
 to describe these things
 in a consistent way
@@ -138,11 +125,11 @@ in a consistent way
 00:02:03.286 --> 00:02:04.886 A:middle
 and an easy to use API.
 
-00:02:06.456 --> 00:02:10.045 A:middle
+00:02:06.456 --> 00:02:10.046 A:middle
 So as it says, Model
 I/O is a framework
 
-00:02:10.045 --> 00:02:12.166 A:middle
+00:02:10.046 --> 00:02:12.166 A:middle
 for handling 3D assets and data.
 
 00:02:12.986 --> 00:02:17.896 A:middle
@@ -193,13 +180,6 @@ in your own pipelines.
 00:02:54.066 --> 00:02:58.686 A:middle
 Model I/O is integrated into
 Xcode 7, and the GameKit APIs,
-
-00:02:58.856 --> 00:03:03.266 A:middle
-it's on iOS 9, and OS 10.11.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.856 --> 00:03:03.266 A:middle
 it's on iOS 9, and OS 10.11.
@@ -264,14 +244,6 @@ and you can take an asset.
 00:03:56.776 --> 00:03:59.316 A:middle
 You can do one of these baking
 operations which we'll get into,
-
-00:03:59.576 --> 00:04:02.246 A:middle
-bring it back into the unified
-representation and Model I/O
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.576 --> 00:04:02.246 A:middle
 bring it back into the unified
@@ -344,18 +316,10 @@ features and voxels
 and some advanced lighting
 and our baking steps.
 
-00:04:53.126 --> 00:04:53.406 A:middle
+00:04:57.096 --> 00:04:57.426 A:middle
 All right.
 
-00:04:56.476 --> 00:05:01.426 A:middle
-So here we go, bread and
-butter, reading things in.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:56.476 --> 00:05:01.426 A:middle
+00:04:57.516 --> 00:05:01.426 A:middle
 So here we go, bread and
 butter, reading things in.
 
@@ -416,16 +380,12 @@ available everywhere.
 And for exporting at the
 moment, you can export
 
-00:05:51.336 --> 00:05:57.196 A:middle
+00:05:51.336 --> 00:05:57.246 A:middle
 out to your CAD/CAM
-stuff and (inaudible).
+stuff and [inaudible].
 
 00:05:57.756 --> 00:05:59.746 A:middle
 So importing is that easy.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.016 --> 00:06:02.846 A:middle
 You get an MDLAsset,
@@ -497,14 +457,6 @@ to get the irradiance
 
 00:06:56.886 --> 00:06:57.846 A:middle
 from every different angle.
-
-00:06:58.856 --> 00:07:02.836 A:middle
-We read that in into a so-called
-light web, which is a set
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.856 --> 00:07:02.836 A:middle
 We read that in into a so-called
@@ -583,14 +535,6 @@ world materials.
 And once again, that excavator
 has got physical BDRF on it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:55.006 --> 00:08:00.256 A:middle
-And once again, that excavator
-has got physical BDRF on it.
-
 00:08:00.716 --> 00:08:03.366 A:middle
 Cameras, historically
 have been pinhole cameras.
@@ -644,7 +588,7 @@ giant batches or on a farm,
 all of those things
 are available
 
-00:08:41.916 --> 00:08:42.785 A:middle
+00:08:41.916 --> 00:08:42.786 A:middle
 through the frameworks API.
 
 00:08:43.556 --> 00:08:46.576 A:middle
@@ -664,14 +608,6 @@ More on that later.
 00:08:54.996 --> 00:08:56.996 A:middle
 Once again, it's
 very straightforward,
-
-00:08:57.276 --> 00:09:00.206 A:middle
-create your voxels from
-an asset and find voxels
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.276 --> 00:09:00.206 A:middle
 create your voxels from
@@ -739,14 +675,6 @@ All right.
 00:09:50.396 --> 00:09:54.176 A:middle
 Down to the nitty-gritty
 of data types.
-
-00:09:55.276 --> 00:10:00.616 A:middle
-So MDLAsset is the thing
-that you get from a URL
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:55.276 --> 00:10:00.616 A:middle
 So MDLAsset is the thing
@@ -830,14 +758,6 @@ and compose them into a scene.
 So an asset has allocators
 in case you need
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:55.746 --> 00:11:01.606 A:middle
-So an asset has allocators
-in case you need
-
 00:11:01.606 --> 00:11:04.856 A:middle
 to manage memory yourself,
 you can add an allocator.
@@ -904,14 +824,6 @@ of type relationships.
 00:11:52.956 --> 00:11:55.356 A:middle
 Instead you can define
 your own components.
-
-00:11:56.726 --> 00:12:00.686 A:middle
-Now, I guess I should have
-mentioned that the nice thing is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:56.726 --> 00:12:00.686 A:middle
 Now, I guess I should have
@@ -988,14 +900,6 @@ but it is.
 So in one index buffer, I
 might have the whole character
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:56.286 --> 00:13:01.326 A:middle
-So in one index buffer, I
-might have the whole character
-
 00:13:01.326 --> 00:13:03.516 A:middle
 without the hat, and in
 another index buffer,
@@ -1015,10 +919,10 @@ that have got his hat in it.
 So by rendering or not
 rendering that submesh, he does
 
-00:13:11.726 --> 00:13:14.566 A:middle
+00:13:11.726 --> 00:13:13.286 A:middle
 or does not have a hat.
 
-00:13:14.836 --> 00:13:17.126 A:middle
+00:13:14.496 --> 00:13:17.126 A:middle
 Submeshes can share the
 data in the vertex buffers
 
@@ -1069,10 +973,6 @@ that has to go to the hardware.
 
 00:13:57.796 --> 00:13:59.856 A:middle
 It's got the data in it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.816 --> 00:14:01.666 A:middle
 The actual data.
@@ -1157,18 +1057,10 @@ important features is just
 to specify whether the
 material is dialectic
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.086 --> 00:15:01.556 A:middle
-to specify whether the
-material is dialectic
-
-00:15:01.556 --> 00:15:04.056 A:middle
+00:15:01.556 --> 00:15:03.976 A:middle
 like clay or if it's a metal.
 
-00:15:04.056 --> 00:15:07.266 A:middle
+00:15:04.046 --> 00:15:07.266 A:middle
 If you set this value all the
 way to one end, it's dialectic
 
@@ -1220,14 +1112,6 @@ function, whether you want it
 00:15:54.126 --> 00:15:57.056 A:middle
 to be Lambert Blinn-Phong
 because you need compatibility
-
-00:15:57.056 --> 00:16:00.966 A:middle
-with an older system, and,
-or physically plausible
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.056 --> 00:16:00.966 A:middle
 with an older system, and,
@@ -1306,14 +1190,6 @@ got support for color
 that can be specified using
 modern color pipelines.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.026 --> 00:17:00.146 A:middle
-that can be specified using
-modern color pipelines.
-
 00:17:00.646 --> 00:17:04.336 A:middle
 So if you want to use SRGB,
 we have a well-specified SRGB.
@@ -1321,29 +1197,29 @@ we have a well-specified SRGB.
 00:17:04.336 --> 00:17:06.506 A:middle
 If you want to use Rec.709
 
-00:17:06.506 --> 00:17:10.165 A:middle
+00:17:06.506 --> 00:17:10.166 A:middle
 or the new Asus CG color
 profiles you can ensure
 
-00:17:10.165 --> 00:17:11.205 A:middle
+00:17:10.166 --> 00:17:11.206 A:middle
 that your color started
 
 00:17:11.556 --> 00:17:14.646 A:middle
 in a content production
 app a certain way
 
-00:17:14.646 --> 00:17:18.205 A:middle
+00:17:14.646 --> 00:17:18.206 A:middle
 and it got all the way
 to the end, without going
 
-00:17:18.205 --> 00:17:20.236 A:middle
+00:17:18.206 --> 00:17:20.236 A:middle
 through odd transformations
 that might give you some,
 
 00:17:20.236 --> 00:17:21.746 A:middle
 you know, color surprises.
 
-00:17:24.415 --> 00:17:28.766 A:middle
+00:17:24.416 --> 00:17:28.766 A:middle
 So there we have our
 physically plausible light
 
@@ -1378,14 +1254,6 @@ merely a pinhole camera
 00:17:54.696 --> 00:17:57.076 A:middle
 with an infinite in
 focus projection.
-
-00:17:57.716 --> 00:18:01.966 A:middle
-We describe a camera from
-one end to the other.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.716 --> 00:18:01.966 A:middle
 We describe a camera from
@@ -1452,13 +1320,6 @@ that, the utility functions
 00:18:55.696 --> 00:18:59.016 A:middle
 on the MDLCamera will agree with
 what you find in a textbook.
-
-00:18:59.016 --> 00:19:01.956 A:middle
-So that's a handy and fun thing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.016 --> 00:19:01.956 A:middle
 So that's a handy and fun thing.
@@ -1535,14 +1396,6 @@ essentially how high is the sun.
 What are the atmospheric
 conditions.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.716 --> 00:20:01.446 A:middle
-What are the atmospheric
-conditions.
-
 00:20:01.446 --> 00:20:04.016 A:middle
 Is there a lot of back
 scatter from the ground,
@@ -1613,14 +1466,6 @@ can compute the irradiance
 and what these three strips
 show is the original image,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.846 --> 00:21:02.876 A:middle
-and what these three strips
-show is the original image,
-
 00:21:03.106 --> 00:21:07.286 A:middle
 the middle line is a texture
 map showing the irradiance
@@ -1684,14 +1529,6 @@ integrates with SceneKit.
 00:21:52.556 --> 00:21:55.346 A:middle
 There's essentially a
 one-to-one correspondence
-
-00:21:55.666 --> 00:22:00.246 A:middle
-between top level Model I/O
-elements and SceneKit elements.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:55.666 --> 00:22:00.246 A:middle
 between top level Model I/O
@@ -1768,14 +1605,6 @@ metal buffers prepared
 for you is absolutely
 transparent.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:57.936 --> 00:23:00.186 A:middle
-for you is absolutely
-transparent.
-
 00:23:01.036 --> 00:23:07.216 A:middle
 So with that, I would like to
 pass the mic to Claudia Roberts
@@ -1784,8 +1613,8 @@ pass the mic to Claudia Roberts
 to talk about geometry
 and voxels.
 
-00:23:11.006 --> 00:23:11.156 A:middle
-(Applause).
+00:23:10.516 --> 00:23:17.716 A:middle
+[ Applause ]
 
 00:23:18.216 --> 00:23:18.946 A:middle
 &gt;&gt; CLAUDIA ROBERTS:
@@ -1847,10 +1676,6 @@ models have way more geometry
 
 00:23:58.986 --> 00:23:59.946 A:middle
 than they actually do.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.996 --> 00:24:02.546 A:middle
 By default, the vertices
@@ -1923,14 +1748,6 @@ normal smoothing is applied
 00:24:53.496 --> 00:24:55.486 A:middle
 by setting the crease
 threshold value.
-
-00:24:56.836 --> 00:25:00.036 A:middle
-With our spaceship, we
-see our default mesh
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:56.836 --> 00:25:00.036 A:middle
 With our spaceship, we
@@ -2013,14 +1830,6 @@ level to two,
 significantly increasing
 the number of polygons.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.616 --> 00:26:01.346 A:middle
-significantly increasing
-the number of polygons.
-
 00:26:04.036 --> 00:26:05.826 A:middle
 Finally, voxels.
 
@@ -2098,14 +1907,6 @@ this representation allows
 for procedural generation and
 modeling, meaning it can make
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.816 --> 00:27:02.136 A:middle
-for procedural generation and
-modeling, meaning it can make
-
 00:27:02.136 --> 00:27:04.646 A:middle
 for exciting and novel
 opportunities and game play.
@@ -2178,13 +1979,6 @@ represents volume models
 00:27:56.306 --> 00:27:59.146 A:middle
 as a sparse volume grid,
 where voxels can be accessed
-
-00:27:59.146 --> 00:28:01.086 A:middle
-by using a simple spatial index.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.146 --> 00:28:01.086 A:middle
 by using a simple spatial index.
@@ -2273,13 +2067,6 @@ of your model to be
 00:28:59.076 --> 00:29:00.336 A:middle
 with the last two parameters.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.076 --> 00:29:00.336 A:middle
-with the last two parameters.
-
 00:29:00.846 --> 00:29:04.226 A:middle
 Once you have your voxel
 array objects set up,
@@ -2319,24 +2106,17 @@ routine.
 00:29:30.716 --> 00:29:31.676 A:middle
 Simple as that.
 
-00:29:32.556 --> 00:29:38.556 A:middle
+00:29:32.556 --> 00:29:35.236 A:middle
 And now, I will show you voxels
 in action with a quick demo.
 
-00:29:38.906 --> 00:29:55.856 A:middle
+00:29:55.046 --> 00:29:55.856 A:middle
 &gt;&gt; CLAUDIA ROBERTS: So
 here we have this demo.
 
 00:29:56.346 --> 00:29:59.116 A:middle
 It actually took about one
 hour to create from start
-
-00:29:59.116 --> 00:30:00.836 A:middle
-to finish using SceneKit editor.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.116 --> 00:30:00.836 A:middle
 to finish using SceneKit editor.
@@ -2410,14 +2190,10 @@ to Remi now who will talk
 about advanced topics in
 lighting and Xcode support.
 
-00:30:59.826 --> 00:30:59.986 A:middle
-(Applause).
+00:31:00.516 --> 00:31:09.156 A:middle
+[ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:08.716 --> 00:31:11.936 A:middle
+00:31:09.656 --> 00:31:11.936 A:middle
 &gt;&gt; REMI PALANDRI: Hey,
 everyone, and thanks, Claudia.
 
@@ -2497,14 +2273,6 @@ but that doesn't work for us.
 If you look at the picture
 here, you can see, for example,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.916 --> 00:32:03.676 A:middle
-If you look at the picture
-here, you can see, for example,
-
 00:32:03.676 --> 00:32:07.836 A:middle
 that the wall here, the red wall
 on the left irradiates a bit
@@ -2579,14 +2347,6 @@ show you ambient occlusion
 
 00:32:57.366 --> 00:32:58.526 A:middle
 and then light maps.
-
-00:32:59.376 --> 00:33:00.786 A:middle
-And to introduce
-ambient occlusion,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.376 --> 00:33:00.786 A:middle
 And to introduce
@@ -2685,14 +2445,6 @@ of geometry occlusion.
 What that means is, for
 my point or my mesh,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.986 --> 00:34:01.776 A:middle
-What that means is, for
-my point or my mesh,
-
 00:34:02.356 --> 00:34:04.346 A:middle
 how much of the light
 that arrives
@@ -2716,50 +2468,50 @@ signal, one, for white,
 saying I have absolutely
 no blocking.
 
-00:34:17.666 --> 00:34:20.485 A:middle
+00:34:17.666 --> 00:34:20.486 A:middle
 The whole light arrives
 and/or commuting,
 
-00:34:20.485 --> 00:34:22.045 A:middle
+00:34:20.486 --> 00:34:22.046 A:middle
 most of my light can't go there.
 
 00:34:22.476 --> 00:34:23.636 A:middle
 If we were to look
 at the signal,
 
-00:34:23.976 --> 00:34:24.815 A:middle
+00:34:23.976 --> 00:34:24.816 A:middle
 that's what it looks like.
 
-00:34:25.545 --> 00:34:28.016 A:middle
+00:34:25.546 --> 00:34:28.016 A:middle
 Mostly white, because
 most light can go there.
 
 00:34:28.346 --> 00:34:31.466 A:middle
-But you see some (inaudible)
+But you see some [inaudible]
 physical data there.
 
-00:34:32.315 --> 00:34:33.775 A:middle
+00:34:32.316 --> 00:34:33.776 A:middle
 How do we compute that.
 
 00:34:34.496 --> 00:34:37.166 A:middle
 We compute that using
 offline raytracing.
 
-00:34:37.166 --> 00:34:40.036 A:middle
+00:34:37.166 --> 00:34:39.546 A:middle
 So your mesh gets
-into a (inaudible)
+into a [inaudible]
 
-00:34:40.036 --> 00:34:41.795 A:middle
+00:34:39.596 --> 00:34:41.796 A:middle
 and we send rays everywhere.
 
 00:34:42.096 --> 00:34:44.106 A:middle
 And we calculate how much rays
 
-00:34:44.606 --> 00:34:46.505 A:middle
+00:34:44.606 --> 00:34:46.506 A:middle
 if I send rays all
 around my points.
 
-00:34:46.626 --> 00:34:50.485 A:middle
+00:34:46.626 --> 00:34:50.486 A:middle
 How much rays hit the mesh and
 how much rays go to the sky box.
 
@@ -2767,20 +2519,13 @@ how much rays go to the sky box.
 Difference between both is
 my ambient occlusion signal.
 
-00:34:54.315 --> 00:34:55.716 A:middle
+00:34:54.316 --> 00:34:55.716 A:middle
 So what do we require
 from you guys?
 
-00:34:56.545 --> 00:34:59.186 A:middle
+00:34:56.546 --> 00:34:59.186 A:middle
 An input. It's a
 mesh, my spaceship,
-
-00:34:59.626 --> 00:35:00.696 A:middle
-and a set of occlusion meshes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.626 --> 00:35:00.696 A:middle
 and a set of occlusion meshes.
@@ -2862,14 +2607,6 @@ is actually fairly low triangles
 
 00:35:57.176 --> 00:35:58.286 A:middle
 and so we need a texture.
-
-00:35:59.686 --> 00:36:02.386 A:middle
-So we actually built for
-you guys inside Model I/O,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.686 --> 00:36:02.386 A:middle
 So we actually built for
@@ -2964,14 +2701,6 @@ bit your memory cost.
 And then that attenuation will
 simply attenuate the signal
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.946 --> 00:37:01.746 A:middle
-And then that attenuation will
-simply attenuate the signal
-
 00:37:01.816 --> 00:37:03.666 A:middle
 so only the darker
 parts stay dark.
@@ -3051,10 +2780,6 @@ a fair amount of vertexes here
 
 00:37:58.826 --> 00:37:59.816 A:middle
 so we will do a vertex bake.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.086 --> 00:38:02.336 A:middle
 I will bring up the
@@ -3141,14 +2866,6 @@ all white, makes sense, right?
 So by just adding one float
 per vertex, we were able
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:56.746 --> 00:39:00.356 A:middle
-So by just adding one float
-per vertex, we were able
-
 00:39:00.486 --> 00:39:04.406 A:middle
 to give our ambient light
 away to light up our scenes
@@ -3158,7 +2875,7 @@ and give a better look.
 
 00:39:06.816 --> 00:39:09.136 A:middle
 And that's available in the
-(inaudible) of SceneKit.
+[inaudible] of SceneKit.
 
 00:39:09.936 --> 00:39:12.486 A:middle
 So let's go back to the slides.
@@ -3223,14 +2940,6 @@ even launched the game,
 using light map baker how those
 light maps light up my scene
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.396 --> 00:40:02.486 A:middle
-using light map baker how those
-light maps light up my scene
-
 00:40:02.486 --> 00:40:03.586 A:middle
 and light up the texture.
 
@@ -3241,10 +2950,10 @@ look at the scene,
 00:40:08.516 --> 00:40:09.796 A:middle
 that's what it looks like.
 
-00:40:09.856 --> 00:40:11.046 A:middle
+00:40:09.856 --> 00:40:11.976 A:middle
 It's really realistic.
 
-00:40:11.046 --> 00:40:12.896 A:middle
+00:40:12.066 --> 00:40:12.896 A:middle
 We've got the shadows
 and the lights
 
@@ -3316,14 +3025,6 @@ and which ones are not.
 So your shadows look
 really realistic.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.476 --> 00:41:00.506 A:middle
-So your shadows look
-really realistic.
-
 00:41:00.506 --> 00:41:01.616 A:middle
 Calculate it offline.
 
@@ -3355,7 +3056,7 @@ ray tracing.
 So we just send the ray and see
 
 00:41:25.226 --> 00:41:27.376 A:middle
-which ones arrive (inaudible)
+which ones arrive [inaudible]
 and which ones don't.
 
 00:41:28.036 --> 00:41:29.946 A:middle
@@ -3403,10 +3104,6 @@ just defined with floats
 but are actually based
 on stuff in real life.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.136 --> 00:42:03.206 A:middle
 We have integration of system
 in the frameworks and tools
@@ -3449,6 +3146,5 @@ and tomorrow morning at 9AM.
 Thank you all for your
 time and have a great WWDC.
 
-00:42:35.656 --> 00:42:35.846 A:middle
-(Applause)
-
+00:42:33.516 --> 00:42:45.850 A:middle
+[ Applause ]

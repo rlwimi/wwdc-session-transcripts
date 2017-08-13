@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:23.516 --> 00:00:26.806 A:middle
 [ Applause ]
@@ -51,14 +50,6 @@ the different devices
 00:00:54.516 --> 00:00:57.336 A:middle
 and configurations as
 well as multitasking
-
-00:00:57.416 --> 00:01:00.376 A:middle
-and localization
-can be a challenge.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.416 --> 00:01:00.376 A:middle
 and localization
@@ -125,10 +116,6 @@ in this talk for you.
 00:01:55.956 --> 00:01:59.746 A:middle
 You can refer to
 past WWDC sessions
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.266 --> 00:02:01.106 A:middle
 if you need a refresher.
@@ -204,10 +191,6 @@ up as the app.
 00:02:58.236 --> 00:02:59.576 A:middle
 It has a number of
 controls inside.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.236 --> 00:03:03.596 A:middle
 It has a label at the top and
@@ -289,14 +272,6 @@ better than before on the Mac,
 Stack View allows you to
 arrange your views linearly.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.516 --> 00:04:00.976 A:middle
-Stack View allows you to
-arrange your views linearly.
-
 00:04:01.536 --> 00:04:04.436 A:middle
 Stack View has parity
 across both platforms.
@@ -372,14 +347,6 @@ distribute along the axis,
 and you can do some pretty
 complex distribution behaviors
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.816 --> 00:05:02.196 A:middle
-and you can do some pretty
-complex distribution behaviors
-
 00:05:02.446 --> 00:05:04.336 A:middle
 without having to deal
 with any constraints.
@@ -445,14 +412,6 @@ buttons, and images.
 00:05:53.996 --> 00:05:57.566 A:middle
 Now we are going to go ahead and
 put these things into a layout.
-
-00:05:58.506 --> 00:06:02.696 A:middle
-So first I am going to select
-my button and my labels.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.506 --> 00:06:02.696 A:middle
 So first I am going to select
@@ -524,14 +483,6 @@ Not touching any constraints.
 Let's go ahead and stack a whole
 bunch of other views in here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.066 --> 00:07:00.276 A:middle
-Let's go ahead and stack a whole
-bunch of other views in here.
-
 00:07:00.276 --> 00:07:03.546 A:middle
 I am going to go ahead
 and click on my ratings,
@@ -592,14 +543,6 @@ it's got a little more spacing.
 00:07:49.616 --> 00:07:54.386 A:middle
 Let's say about 20
 points, maybe 25.
-
-00:07:57.056 --> 00:08:00.516 A:middle
-Then we will also add some
-spacing into the stack view
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:57.056 --> 00:08:00.516 A:middle
 Then we will also add some
@@ -673,14 +616,6 @@ leading margins.
 00:08:55.146 --> 00:08:57.976 A:middle
 Then I am going to draw your
 attention to this other button
-
-00:08:57.976 --> 00:09:03.796 A:middle
-on the IB canvas that brings
-up the Pin menu and brings
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.976 --> 00:09:03.796 A:middle
 on the IB canvas that brings
@@ -765,14 +700,6 @@ Something isn't quite right yet.
 Take a look at that
 segmented control.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.346 --> 00:10:01.056 A:middle
-Take a look at that
-segmented control.
-
 00:10:01.426 --> 00:10:02.456 A:middle
 It's a little too stretched.
 
@@ -851,13 +778,6 @@ my vertical content compression
 00:10:58.126 --> 00:11:00.776 A:middle
 resistance from 750 to 760.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.126 --> 00:11:00.776 A:middle
-resistance from 750 to 760.
-
 00:11:01.326 --> 00:11:06.076 A:middle
 Now when we run it, it's
 looking much better.
@@ -922,14 +842,6 @@ for its subviews really nicely.
 00:11:54.196 --> 00:11:57.676 A:middle
 You can set it programmatically
 or through Interface Builder.
-
-00:11:57.976 --> 00:12:02.376 A:middle
-It's like it collapses or is
-taken out of the view hierarchy
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.976 --> 00:12:02.376 A:middle
 It's like it collapses or is
@@ -1002,14 +914,6 @@ something pretty cool.
 00:12:56.266 --> 00:12:59.216 A:middle
 And of course, this is what
 it looks like on Cocoa.
-
-00:12:59.476 --> 00:13:02.946 A:middle
-Use NSAnimationContext,
-run animation group.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.476 --> 00:13:02.946 A:middle
 Use NSAnimationContext,
@@ -1091,10 +995,6 @@ find that useful.
 All you need to do is call Add
 Subviews for those other cases.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:01.366 --> 00:14:02.206 A:middle
 What have we seen here?
 
@@ -1161,10 +1061,6 @@ and use constraints as needed.
 
 00:14:58.666 --> 00:14:59.716 A:middle
 And that is Stack View.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.516 --> 00:15:05.556 A:middle
 [ Applause ]
@@ -1244,14 +1140,6 @@ think of them sort of like this.
 00:15:55.756 --> 00:15:58.146 A:middle
 You create some views, you
 create some constraints
-
-00:15:58.146 --> 00:16:01.996 A:middle
-in different ways, and you kind
-of throw them into a black hole.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.146 --> 00:16:01.996 A:middle
 in different ways, and you kind
@@ -1350,14 +1238,6 @@ Use activate and deactivate.
 So there are a few other
 things to keep in mind
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.876 --> 00:17:00.656 A:middle
-So there are a few other
-things to keep in mind
-
 00:17:01.006 --> 00:17:03.356 A:middle
 when you are thinking about
 changing your constraints.
@@ -1366,17 +1246,17 @@ changing your constraints.
 Number one, never
 deactivate everything
 
-00:17:07.366 --> 00:17:08.715 A:middle
+00:17:07.366 --> 00:17:08.716 A:middle
 in self.view.constraints.
 
-00:17:09.205 --> 00:17:10.726 A:middle
+00:17:09.206 --> 00:17:10.726 A:middle
 If anybody has tried this,
 
 00:17:10.726 --> 00:17:13.026 A:middle
 you've probably seen some
 really odd things happen.
 
-00:17:13.636 --> 00:17:15.705 A:middle
+00:17:13.636 --> 00:17:15.706 A:middle
 Not all the constraints in
 that array belong to you,
 
@@ -1394,11 +1274,11 @@ Just please don't.
 00:17:22.856 --> 00:17:24.306 A:middle
 We will see why in a moment.
 
-00:17:25.086 --> 00:17:27.665 A:middle
+00:17:25.086 --> 00:17:27.666 A:middle
 What you need to do instead is
 keep references to constraints
 
-00:17:27.665 --> 00:17:30.556 A:middle
+00:17:27.666 --> 00:17:30.556 A:middle
 that you may need to change
 later, either in an array
 
@@ -1432,14 +1312,6 @@ with multitasking.
 00:17:56.616 --> 00:17:59.016 A:middle
 Except that I am not actually
 removing any constraints,
-
-00:17:59.616 --> 00:18:02.536 A:middle
-so when I move from my nice
-vertical compact layout back
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.616 --> 00:18:02.536 A:middle
 so when I move from my nice
@@ -1523,14 +1395,6 @@ did change, what you want
 to do is check and see with each
 environment whether the other
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.126 --> 00:19:02.596 A:middle
-to do is check and see with each
-environment whether the other
-
 00:19:02.596 --> 00:19:04.716 A:middle
 set of constraints that you
 might need to change are active.
@@ -1596,14 +1460,6 @@ along with a call of layout
 
 00:19:56.736 --> 00:19:58.576 A:middle
 if needed to the superview.
-
-00:19:59.066 --> 00:20:02.756 A:middle
-So you'll see if I double-tap,
-I can move really nicely
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.066 --> 00:20:02.756 A:middle
 So you'll see if I double-tap,
@@ -1700,14 +1556,6 @@ adaptive environments.
 So we have kind of positioning
 for all of our constraints,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.366 --> 00:21:02.366 A:middle
-So we have kind of positioning
-for all of our constraints,
-
 00:21:02.366 --> 00:21:03.646 A:middle
 and now I want to
 talk about size.
@@ -1787,14 +1635,6 @@ a few extra points
 
 00:21:56.976 --> 00:21:57.896 A:middle
 of padding here and there.
-
-00:21:58.906 --> 00:22:02.126 A:middle
-So you can use this in order
-to lay out your views in a way
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.906 --> 00:22:02.126 A:middle
 So you can use this in order
@@ -1898,14 +1738,6 @@ may cause your view to need
 to recalculate its
 internal size.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.616 --> 00:23:01.126 A:middle
-to recalculate its
-internal size.
-
 00:23:02.196 --> 00:23:05.406 A:middle
 So let's look at setting
 up a view with constraints
@@ -1995,14 +1827,6 @@ self-sizing table view cells.
 And these are cells that get
 their height from their content
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.776 --> 00:24:02.746 A:middle
-And these are cells that get
-their height from their content
-
 00:24:02.746 --> 00:24:05.696 A:middle
 so that you don't have to
 have one size of cell all up
@@ -2076,10 +1900,6 @@ order to accommodate that.
 00:24:53.196 --> 00:24:54.976 A:middle
 So let's look at a quick
 demo of how that's done.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:02.376 --> 00:25:04.936 A:middle
 Okay. So here I have my table
@@ -2157,14 +1977,6 @@ isn't tall enough.
 00:25:57.136 --> 00:25:59.786 A:middle
 So to fix this, we can
 take advantage of the fact
-
-00:25:59.906 --> 00:26:02.386 A:middle
-that views can stretch beyond
-their intrinsic content size
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.906 --> 00:26:02.386 A:middle
 that views can stretch beyond
@@ -2253,14 +2065,6 @@ to other views.
 00:26:55.436 --> 00:26:57.826 A:middle
 Constraints should define
 your size when possible.
-
-00:26:57.826 --> 00:27:00.646 A:middle
-When not, you can override
-intrinsic content size,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.826 --> 00:27:00.646 A:middle
 When not, you can override
@@ -2363,14 +2167,6 @@ line, but when I actually ran
 that app it ended up way
 off to the left or right,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:57.856 --> 00:28:00.746 A:middle
-that app it ended up way
-off to the left or right,
-
 00:28:01.276 --> 00:28:02.856 A:middle
 that might mean that I
 don't have enough horizontal
@@ -2460,14 +2256,6 @@ into a text field here.
 00:28:56.736 --> 00:28:59.456 A:middle
 And if you are using explicit
 constraints, it's a property.
-
-00:28:59.456 --> 00:29:01.886 A:middle
-And that's where you can
-actually use these constants
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.456 --> 00:29:01.886 A:middle
 And that's where you can
@@ -2570,13 +2358,6 @@ choosing different images,
 00:29:59.546 --> 00:30:00.176 A:middle
 stuff like that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.546 --> 00:30:00.176 A:middle
-stuff like that.
-
 00:30:00.506 --> 00:30:02.516 A:middle
 It needs to have a
 little bit of wiggle room.
@@ -2673,14 +2454,6 @@ priority is fairly important,
 but the button hugging priority
 is not at all important,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.386 --> 00:31:00.596 A:middle
-but the button hugging priority
-is not at all important,
-
 00:31:00.926 --> 00:31:02.966 A:middle
 so I can go ahead and stretch
 that away from its content
@@ -2767,14 +2540,6 @@ this app?
 00:31:56.226 --> 00:31:58.296 A:middle
 And you had these two
 things that were competing,
-
-00:31:58.536 --> 00:32:00.636 A:middle
-and you had a language that
-used a much longer word for
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.536 --> 00:32:00.636 A:middle
 and you had a language that
@@ -2872,13 +2637,6 @@ priorities well,
 00:32:58.956 --> 00:33:00.016 A:middle
 you can get to the right layout.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.956 --> 00:33:00.016 A:middle
-you can get to the right layout.
-
 00:33:00.366 --> 00:33:02.796 A:middle
 Sometimes all that's
 needed is adjusting hugging
@@ -2962,14 +2720,6 @@ better than top or bottom
 in many circumstances
 and helps with stuff
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.156 --> 00:34:00.426 A:middle
-in many circumstances
-and helps with stuff
-
 00:34:00.426 --> 00:34:01.626 A:middle
 like dynamic text sizing.
 
@@ -2980,11 +2730,11 @@ over changing views as well
 00:34:05.376 --> 00:34:06.606 A:middle
 if something needs to grow.
 
-00:34:06.606 --> 00:34:08.315 A:middle
+00:34:06.606 --> 00:34:08.316 A:middle
 For instance, if you have
 a label next to a button
 
-00:34:08.315 --> 00:34:10.916 A:middle
+00:34:08.316 --> 00:34:10.916 A:middle
 and they are aligned by the
 bottom, the button's frame
 
@@ -3003,19 +2753,19 @@ text to it, the button can sort
 00:34:18.116 --> 00:34:20.436 A:middle
 of end up in a nebulous area.
 
-00:34:21.126 --> 00:34:24.525 A:middle
+00:34:21.126 --> 00:34:24.526 A:middle
 And I might want to center align
 that, or it might be better
 
-00:34:24.525 --> 00:34:26.406 A:middle
+00:34:24.526 --> 00:34:26.406 A:middle
 to have it look more
 something like messages
 
-00:34:26.795 --> 00:34:28.485 A:middle
+00:34:26.796 --> 00:34:28.486 A:middle
 and have it sit right
 at the bottom next
 
-00:34:28.485 --> 00:34:29.476 A:middle
+00:34:28.486 --> 00:34:29.476 A:middle
 to that last line of text.
 
 00:34:29.666 --> 00:34:33.556 A:middle
@@ -3059,17 +2809,9 @@ for all types of views,
 but its big use is
 for localization.
 
-00:34:56.775 --> 00:34:59.376 A:middle
+00:34:56.776 --> 00:34:59.376 A:middle
 If you are in a left-to-right
 language
-
-00:34:59.376 --> 00:35:01.406 A:middle
-when you are writing
-your app and you use left
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.376 --> 00:35:01.406 A:middle
 when you are writing
@@ -3167,14 +2909,6 @@ and matching that with leading
 00:35:55.396 --> 00:35:58.096 A:middle
 and trailing because, again,
 when that environment changes,
-
-00:35:58.096 --> 00:36:00.036 A:middle
-you might end up with
-unsatisfiable constraints.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.096 --> 00:36:00.036 A:middle
 you might end up with
@@ -3279,13 +3013,6 @@ a transform in there.
 00:36:59.276 --> 00:37:00.876 A:middle
 If you do need to change these,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.276 --> 00:37:00.876 A:middle
-If you do need to change these,
-
 00:37:01.126 --> 00:37:04.536 A:middle
 which you should very rarely
 need to do, we have an override
@@ -3369,13 +3096,6 @@ are preparing your app,
 00:37:56.906 --> 00:37:58.776 A:middle
 and Auto Layout can
 really help you with that.
-
-00:37:59.306 --> 00:38:00.816 A:middle
-You also have this possibility
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.306 --> 00:38:00.816 A:middle
 You also have this possibility
@@ -3468,13 +3188,6 @@ less work than having to design
 00:38:59.116 --> 00:39:00.086 A:middle
 for every single screen.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.116 --> 00:39:00.086 A:middle
-for every single screen.
-
 00:39:01.176 --> 00:39:05.186 A:middle
 When you determine specific
 sizes, use constraints.
@@ -3547,4 +3260,3 @@ Thank you.
 
 00:39:51.016 --> 00:39:53.000 A:middle
 [ Applause ]
-

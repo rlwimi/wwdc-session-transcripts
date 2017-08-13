@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:41.426 --> 00:00:42.856 A:middle
 &gt;&gt; ANIL KANDANGATH: Good
@@ -24,14 +23,6 @@ to a few key points.
 00:00:54.836 --> 00:00:59.776 A:middle
 We will begin by talking
 about the Apple Watch.
-
-00:00:59.776 --> 00:01:02.656 A:middle
-We have a new platform
-and we will talk about how
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.776 --> 00:01:02.656 A:middle
 We have a new platform
@@ -122,13 +113,6 @@ Core Motion in your apps.
 00:01:57.456 --> 00:02:00.106 A:middle
 We would love to hear from you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.456 --> 00:02:00.106 A:middle
-We would love to hear from you.
-
 00:02:00.476 --> 00:02:04.066 A:middle
 We do have some great past
 sessions on Apple developer
@@ -210,14 +194,6 @@ to process Motion data.
 It can chug along all
 day long and only turn
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:56.086 --> 00:03:00.076 A:middle
-It can chug along all
-day long and only turn
-
 00:03:00.276 --> 00:03:02.376 A:middle
 on the main processor
 when it really needs to.
@@ -286,10 +262,6 @@ Indeed, you can.
 You also get 24/7
 access to motion activity
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.086 --> 00:04:02.356 A:middle
 and the pedometer
 and on platforms
@@ -306,11 +278,11 @@ motion sensing on iOS today.
 So what does motion sensing
 look like on the Apple Watch?
 
-00:04:17.065 --> 00:04:20.366 A:middle
+00:04:17.066 --> 00:04:20.366 A:middle
 Well, the Apple Watch
 also has a coprocessor
 
-00:04:20.366 --> 00:04:22.055 A:middle
+00:04:20.366 --> 00:04:22.056 A:middle
 and it has an accelerometer
 
 00:04:22.746 --> 00:04:26.836 A:middle
@@ -352,14 +324,6 @@ of the features we have
 
 00:04:56.446 --> 00:04:57.456 A:middle
 on both OSs.
-
-00:04:59.206 --> 00:05:02.706 A:middle
-But the Watch is fundamentally
-a different platform.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.206 --> 00:05:02.706 A:middle
 But the Watch is fundamentally
@@ -436,14 +400,6 @@ is to the accelerometer
 
 00:05:56.206 --> 00:05:58.526 A:middle
 but it is a different platform
-
-00:05:58.526 --> 00:06:00.706 A:middle
-and there are some
-considerations
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.526 --> 00:06:00.706 A:middle
 and there are some
@@ -533,14 +489,6 @@ data you have to ensure
 that you can handle your
 task being suspended
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:56.956 --> 00:07:02.606 A:middle
-that you can handle your
-task being suspended
-
 00:07:02.606 --> 00:07:03.676 A:middle
 in a graceful way.
 
@@ -612,10 +560,6 @@ this data even
 
 00:07:58.426 --> 00:07:59.896 A:middle
 when your app is not running.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:01.356 --> 00:08:06.706 A:middle
 So this enables you to perform
@@ -693,14 +637,6 @@ do is initiate recording data
 and do it by saying
 recordAccelerometerDataFor
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:57.806 --> 00:09:01.636 A:middle
-and do it by saying
-recordAccelerometerDataFor
-
 00:09:01.636 --> 00:09:03.276 A:middle
 and provide a duration.
 
@@ -766,13 +702,6 @@ same problem here, too.
 00:09:54.826 --> 00:09:57.576 A:middle
 So as you are processing
 this big stream
-
-00:09:57.876 --> 00:10:00.586 A:middle
-of historical data you do have
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:57.876 --> 00:10:00.586 A:middle
 of historical data you do have
@@ -845,14 +774,6 @@ So a few best practices again.
 00:10:52.946 --> 00:10:56.706 A:middle
 The first thing is to, and this
 may be obvious, is to record
-
-00:10:56.706 --> 00:11:00.436 A:middle
-and query only data for the
-minimum duration required
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:56.706 --> 00:11:00.436 A:middle
 and query only data for the
@@ -942,10 +863,6 @@ focus on iOS and I'll begin
 00:11:58.276 --> 00:11:59.956 A:middle
 with updates to the pedometer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:01.026 --> 00:12:04.206 A:middle
 This is the pedometer that
 you are familiar with.
@@ -1024,14 +941,6 @@ the pedometer senses
 
 00:12:56.946 --> 00:12:58.506 A:middle
 that GPS data is available
-
-00:12:58.866 --> 00:13:01.566 A:middle
-and it gets more
-accurate by using it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.866 --> 00:13:01.566 A:middle
 and it gets more
@@ -1119,14 +1028,6 @@ pedometer you get a consistent
 performance and that's
 why you should use steps
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.296 --> 00:14:02.146 A:middle
-performance and that's
-why you should use steps
-
 00:14:02.146 --> 00:14:09.016 A:middle
 and distance from the pedometer.
 
@@ -1195,14 +1096,6 @@ on a long hike and you walk slow
 00:14:55.616 --> 00:14:58.466 A:middle
 and eventually you accumulate
 quite a bit of altitude.
-
-00:14:58.746 --> 00:15:03.596 A:middle
-The likelihood is that you won't
-hit the ascend rate requirements
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.746 --> 00:15:03.596 A:middle
 The likelihood is that you won't
@@ -1279,10 +1172,6 @@ provided in this way and not
 00:15:56.806 --> 00:15:59.676 A:middle
 as speed, you know, that pace
 is normally analogous to,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.206 --> 00:16:03.396 A:middle
 is because for runners,
@@ -1362,15 +1251,7 @@ is smooth.
 The other part is you could
 try to get a smooth pace
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.656 --> 00:17:02.346 A:middle
-The other part is you could
-try to get a smooth pace
-
-00:17:02.346 --> 00:17:05.465 A:middle
+00:17:02.346 --> 00:17:05.466 A:middle
 by looking back at a much
 bigger chunk of the history
 
@@ -1382,7 +1263,7 @@ a pace over it.
 But the cost of doing that
 is you lose the ability
 
-00:17:11.726 --> 00:17:14.705 A:middle
+00:17:11.726 --> 00:17:14.706 A:middle
 to respond quickly to
 changes in the user's pace.
 
@@ -1435,14 +1316,6 @@ from the pedometer.
 
 00:17:56.076 --> 00:17:56.306 A:middle
 Yeah! [Applause.]
-
-00:17:56.996 --> 00:18:01.376 A:middle
-&gt;&gt; ANIL KANDANGATH: So that is
-our update for the pedometer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.996 --> 00:18:01.376 A:middle
 &gt;&gt; ANIL KANDANGATH: So that is
@@ -1511,14 +1384,6 @@ will be baselined against that.
 00:18:52.306 --> 00:18:56.066 A:middle
 What do we need to know about
 the altimeter to use it?
-
-00:18:56.596 --> 00:19:02.976 A:middle
-Well, the altimeter is really
-great for floor level changes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:56.596 --> 00:19:02.976 A:middle
 Well, the altimeter is really
@@ -1600,10 +1465,6 @@ should be very familiar to you
 and it gives you pressure
 and altitude in the API.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.016 --> 00:20:03.336 A:middle
 How fast can you access
 data from this sensor?
@@ -1670,14 +1531,6 @@ traditionally been used
 00:20:56.356 --> 00:20:59.336 A:middle
 for gaming, for gestures,
 for fitness.
-
-00:20:59.336 --> 00:21:02.296 A:middle
-There's a bunch of
-applications for Core Motion,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.336 --> 00:21:02.296 A:middle
 There's a bunch of
@@ -1754,14 +1607,6 @@ to you about
 and see exactly how you
 might want to use them
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.556 --> 00:22:01.846 A:middle
-and see exactly how you
-might want to use them
-
 00:22:01.846 --> 00:22:04.576 A:middle
 in your application and
 hopefully make them stick.
@@ -1822,14 +1667,6 @@ magical and our apps smarter.
 00:22:54.086 --> 00:22:56.516 A:middle
 The next thing we can
 do is engage the user.
-
-00:22:57.326 --> 00:23:01.146 A:middle
-Because updates come in every
-few seconds we can see how their
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.326 --> 00:23:01.146 A:middle
 Because updates come in every
@@ -1907,14 +1744,6 @@ have this idea of playlists.
 00:23:56.286 --> 00:23:58.716 A:middle
 I certainly listen to
 different music when I'm
-
-00:23:58.716 --> 00:24:02.316 A:middle
-in my car I want podcasts, or
-if I'm studying or working hard,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.716 --> 00:24:02.316 A:middle
 in my car I want podcasts, or
@@ -2004,14 +1833,6 @@ to come back to our app.
 Also I thought it
 would be really great
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.866 --> 00:25:01.916 A:middle
-Also I thought it
-would be really great
-
 00:25:01.916 --> 00:25:04.796 A:middle
 if I said the user might want
 
@@ -2091,14 +1912,6 @@ and we really engage with them
 and follow along, so we can
 give them a more high intensity
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:57.946 --> 00:26:01.126 A:middle
-and follow along, so we can
-give them a more high intensity
-
 00:26:01.126 --> 00:26:03.206 A:middle
 playlist when they speed up.
 
@@ -2168,14 +1981,6 @@ see if a user is driving.
 If a user is walking, how
 fast they might be walking.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.826 --> 00:27:02.816 A:middle
-If a user is walking, how
-fast they might be walking.
-
 00:27:03.336 --> 00:27:04.826 A:middle
 So what are we going
 to need for that?
@@ -2240,14 +2045,6 @@ hard for me 24/7.
 00:27:53.476 --> 00:27:57.366 A:middle
 So I can look back and get those
 historical activity queries
-
-00:27:57.676 --> 00:28:00.716 A:middle
-and pedometer queries
-to put that information
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.676 --> 00:28:00.716 A:middle
 and pedometer queries
@@ -2326,10 +2123,6 @@ focused on instead of trying
 
 00:28:57.576 --> 00:28:59.036 A:middle
 to do too many things at once.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.076 --> 00:29:01.656 A:middle
 As I said, a lot of text.
@@ -2413,10 +2206,6 @@ startActivitiesUpdateToQueue
 00:29:58.486 --> 00:29:58.876 A:middle
 API.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.036 --> 00:30:03.766 A:middle
 In my case I provide an just
 a simple NS operation queue,
@@ -2493,14 +2282,6 @@ as well.
 Assuming that that's true, I'm
 going to startPedometerUpdates.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.946 --> 00:31:02.086 A:middle
-Assuming that that's true, I'm
-going to startPedometerUpdates.
-
 00:31:02.736 --> 00:31:05.776 A:middle
 This API allows us
 to provide a date.
@@ -2564,14 +2345,6 @@ when you try to receive updates.
 00:31:54.526 --> 00:31:56.946 A:middle
 You are going to want
 to handle those smoothly
-
-00:31:57.146 --> 00:32:01.306 A:middle
-and prompt the user to go
-into the settings application
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:57.146 --> 00:32:01.306 A:middle
 and prompt the user to go
@@ -2643,14 +2416,6 @@ the data accordingly.
 I do check again if
 there is an error.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.546 --> 00:33:01.646 A:middle
-I do check again if
-there is an error.
-
 00:33:01.996 --> 00:33:04.246 A:middle
 And if not, I'm going to
 want to handle that data
@@ -2717,14 +2482,6 @@ with the altitude updates
 to give me what I want
 for my application,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.976 --> 00:34:01.126 A:middle
-to give me what I want
-for my application,
-
 00:34:01.196 --> 00:34:03.046 A:middle
 which is to motivate
 the user through music.
@@ -2760,11 +2517,11 @@ at it during the last week
 so that even if we
 are not looking
 
-00:34:38.275 --> 00:34:41.386 A:middle
+00:34:38.276 --> 00:34:41.386 A:middle
 at using the application during
 that week, we can get all
 
-00:34:41.386 --> 00:34:46.585 A:middle
+00:34:41.386 --> 00:34:46.586 A:middle
 of that data and
 put it together.
 
@@ -2776,24 +2533,16 @@ that data and I put it
 into interesting
 segments for me.
 
-00:34:51.275 --> 00:34:53.616 A:middle
+00:34:51.276 --> 00:34:53.616 A:middle
 I can't wait to see
 what you guys want
 
-00:34:53.616 --> 00:34:54.835 A:middle
+00:34:53.616 --> 00:34:54.836 A:middle
 to do with it yourselves.
 
-00:34:55.505 --> 00:34:57.526 A:middle
+00:34:55.506 --> 00:34:57.526 A:middle
 Again, I know, broken
 record, right?
-
-00:34:57.526 --> 00:35:00.036 A:middle
-I want to handle the
-error accordingly.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.526 --> 00:35:00.036 A:middle
 I want to handle the
@@ -2856,14 +2605,6 @@ So that's it.
 00:35:57.266 --> 00:35:59.156 A:middle
 That's all I really
 have to show you
-
-00:35:59.366 --> 00:36:01.956 A:middle
-with adding motion
-to your application.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.366 --> 00:36:01.956 A:middle
 with adding motion
@@ -2941,14 +2682,6 @@ decided to go for a quick cycle.
 What I've done, I've -- the app
 has already figured that out
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.756 --> 00:37:02.716 A:middle
-What I've done, I've -- the app
-has already figured that out
-
 00:37:02.716 --> 00:37:04.796 A:middle
 and put that into an
 interesting segment for me.
@@ -3014,13 +2747,6 @@ guys to notice that as well.
 00:37:54.856 --> 00:37:57.226 A:middle
 So that's my basic
 music application.
-
-00:37:57.946 --> 00:38:02.966 A:middle
-I'm just going to wrap this up.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:57.946 --> 00:38:02.966 A:middle
 I'm just going to wrap this up.
@@ -3101,14 +2827,6 @@ or the Cocoa Touch presentation.
 If you missed them or
 are sitting at home,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.366 --> 00:39:01.546 A:middle
-If you missed them or
-are sitting at home,
-
 00:39:01.546 --> 00:39:03.186 A:middle
 please go check those
 out online.
@@ -3150,4 +2868,3 @@ Thank you very much.
 
 00:39:33.016 --> 00:39:35.000 A:middle
 [Applause.]
-

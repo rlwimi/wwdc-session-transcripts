@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:27.156 --> 00:00:28.336 A:middle
 &gt;&gt; ERIC BIENVILLE: Good morning.
@@ -29,14 +28,6 @@ some libraries in the system.
 00:00:53.386 --> 00:00:56.176 A:middle
 In the accelerate framework,
 you will find the image
-
-00:00:56.416 --> 00:01:03.496 A:middle
-which is a collection
-of hundreds of functions
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:56.416 --> 00:01:03.496 A:middle
 which is a collection
@@ -86,14 +77,6 @@ a library for data compression;
 00:01:54.896 --> 00:01:58.076 A:middle
 then Steve will present
 addition to the SIMD library,
-
-00:01:59.146 --> 00:02:01.296 A:middle
-and finally Luke will
-present sparse BLAS,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.146 --> 00:02:01.296 A:middle
 and finally Luke will
@@ -166,10 +149,6 @@ and their unified API and also
 with some benefits
 like optimized code
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:00.596 --> 00:03:02.966 A:middle
 and easy switch between
 algorithms.
@@ -233,10 +212,6 @@ compress faster, and that's it.
 So let's put some
 algorithms inside here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.016 --> 00:04:02.206 A:middle
 The center one is zlib.
 
@@ -293,13 +268,6 @@ I will talk about that later.
 00:04:56.736 --> 00:04:58.356 A:middle
 These are the four
 compressors we put
-
-00:04:58.436 --> 00:05:00.136 A:middle
-in the compression library.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.436 --> 00:05:00.136 A:middle
 in the compression library.
@@ -368,10 +336,6 @@ them for Apple hardware.
 00:05:58.766 --> 00:05:59.926 A:middle
 What does that mean?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.716 --> 00:06:01.176 A:middle
 Like that.
 
@@ -430,10 +394,6 @@ it with something else.
 
 00:06:58.526 --> 00:06:59.436 A:middle
 So that's what we did.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.126 --> 00:07:03.816 A:middle
 We took the new technology
@@ -499,14 +459,6 @@ and nothing is compressing.
 With zlib you will
 compress, let's say,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.236 --> 00:08:01.096 A:middle
-With zlib you will
-compress, let's say,
-
 00:08:01.096 --> 00:08:03.936 A:middle
 5 terabytes of data before
 the battery is empty.
@@ -547,11 +499,11 @@ you to use this API.
 00:08:31.566 --> 00:08:32.576 A:middle
 There are two APIs.
 
-00:08:32.576 --> 00:08:36.395 A:middle
+00:08:32.576 --> 00:08:36.396 A:middle
 There is a buffer API to use
 when you have all of the data
 
-00:08:36.395 --> 00:08:37.866 A:middle
+00:08:36.396 --> 00:08:37.866 A:middle
 at once in one single buffer.
 
 00:08:38.626 --> 00:08:41.596 A:middle
@@ -575,10 +527,6 @@ inside, destination buffer
 00:08:55.976 --> 00:08:59.886 A:middle
 and the capacity of it,
 and you just give it also
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.096 --> 00:09:03.666 A:middle
 which algorithms
@@ -645,10 +593,6 @@ you the stream API,
 00:09:56.586 --> 00:09:58.946 A:middle
 which is a little more complex.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.146 --> 00:10:02.976 A:middle
 Because you will need to have
 some state between the calls.
@@ -709,14 +653,6 @@ are the bytes to compress
 
 00:10:53.316 --> 00:10:55.466 A:middle
 and where to put the output.
-
-00:10:56.226 --> 00:11:00.606 A:middle
-And then you call process,
-and it will, as the consumer,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:56.226 --> 00:11:00.606 A:middle
 And then you call process,
@@ -800,14 +736,6 @@ We are done with compression.
 So let me wrap up, that's a new
 library providing a simplified
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.326 --> 00:12:03.496 A:middle
-So let me wrap up, that's a new
-library providing a simplified
-
 00:12:03.496 --> 00:12:06.036 A:middle
 and unified API on top
 of several compressors.
@@ -869,14 +797,6 @@ in C, Objective-C, and C++
 00:12:55.286 --> 00:12:57.556 A:middle
 and it closely mirrors the
 Metal shading language.
-
-00:12:58.036 --> 00:13:01.486 A:middle
-That means it's really easy
-to write code that will run
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.036 --> 00:13:01.486 A:middle
 That means it's really easy
@@ -968,14 +888,6 @@ of a few things
 that were a little
 bit inconvenient
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.786 --> 00:14:01.246 A:middle
-that were a little
-bit inconvenient
-
 00:14:01.506 --> 00:14:02.846 A:middle
 with other vector libraries
 
@@ -1058,14 +970,6 @@ functions are very verbose.
 You have to call it GLK
 vector 3 multiply scaler
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:56.696 --> 00:15:00.696 A:middle
-You have to call it GLK
-vector 3 multiply scaler
-
 00:15:01.216 --> 00:15:03.956 A:middle
 to do your arithmetic
 and that's too wordy.
@@ -1142,13 +1046,6 @@ You can create them, first off.
 00:15:56.826 --> 00:15:58.986 A:middle
 We have a bunch of initializers
 that do nice things,
-
-00:15:58.986 --> 00:16:00.036 A:middle
-you can create the zero vector,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.986 --> 00:16:00.036 A:middle
 you can create the zero vector,
@@ -1237,13 +1134,6 @@ to you already.
 00:16:59.296 --> 00:17:00.226 A:middle
 And it is.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.296 --> 00:17:00.226 A:middle
-And it is.
-
 00:17:00.286 --> 00:17:02.466 A:middle
 We have a bunch of
 geometry, shader,
@@ -1251,7 +1141,7 @@ geometry, shader,
 00:17:02.466 --> 00:17:03.686 A:middle
 and math functions available.
 
-00:17:04.286 --> 00:17:07.175 A:middle
+00:17:04.286 --> 00:17:07.176 A:middle
 So we have dot product, cross
 product, reflect, refract,
 
@@ -1263,7 +1153,7 @@ the stuff you want to use.
 If you have written
 shader programs before,
 
-00:17:12.425 --> 00:17:14.056 A:middle
+00:17:12.426 --> 00:17:14.056 A:middle
 you have used these
 functions a lot.
 
@@ -1318,14 +1208,6 @@ or four, they don't need
 00:17:55.006 --> 00:17:56.906 A:middle
 to be square matrixes
 so, for instance,
-
-00:17:56.906 --> 00:18:02.236 A:middle
-a float 2 by 3 is a matrix with
-two columns and three rows.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.906 --> 00:18:02.236 A:middle
 a float 2 by 3 is a matrix with
@@ -1393,14 +1275,6 @@ well, it translates them.
 00:18:52.166 --> 00:18:54.926 A:middle
 We can apply this to
 a vector of all 1s.
-
-00:18:59.066 --> 00:19:00.856 A:middle
-And we can also undo
-the transform
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.066 --> 00:19:00.856 A:middle
 And we can also undo
@@ -1492,10 +1366,6 @@ types to Objective-C,
 00:19:58.176 --> 00:19:59.506 A:middle
 the story is exactly the same.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.216 --> 00:20:01.696 A:middle
 I can pass the vectors
 
@@ -1577,14 +1447,6 @@ It's pretty easy to use.
 Linear algebra is a new
 interface we introduced last
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.856 --> 00:21:03.566 A:middle
-Linear algebra is a new
-interface we introduced last
-
 00:21:03.566 --> 00:21:06.536 A:middle
 year that has much simpler APIs
 
@@ -1648,14 +1510,6 @@ you solve a 100 by 100 system?
 00:21:54.146 --> 00:21:56.836 A:middle
 But as computers became
 more powerful and faster,
-
-00:21:57.256 --> 00:22:00.166 A:middle
-it wasn't possible to actually
-show how fast you were anymore
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.256 --> 00:22:00.166 A:middle
 it wasn't possible to actually
@@ -1745,14 +1599,6 @@ carefully optimized their
 LINPACK routines; they
 had written vector code,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.436 --> 00:23:01.846 A:middle
-LINPACK routines; they
-had written vector code,
-
 00:23:01.996 --> 00:23:04.776 A:middle
 they had cache tiled, they
 had done multithreading,
@@ -1813,14 +1659,6 @@ and great performance
 00:23:55.626 --> 00:23:57.046 A:middle
 without needing to
 do a lot of work.
-
-00:23:58.036 --> 00:24:01.036 A:middle
-So now I'm going to hand you
-over to Luke, who will tell you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.036 --> 00:24:01.036 A:middle
 So now I'm going to hand you
@@ -1894,14 +1732,6 @@ In order to demonstrate that,
 let me show you a
 typical Sparse matrix.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.806 --> 00:25:02.446 A:middle
-let me show you a
-typical Sparse matrix.
-
 00:25:03.156 --> 00:25:05.606 A:middle
 This is a typical matrix
 from a machine learning.
@@ -1967,14 +1797,6 @@ on your phone, on your iPad.
 So it saves memory, besides
 sparse BLAS is also energy
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:57.106 --> 00:26:03.796 A:middle
-So it saves memory, besides
-sparse BLAS is also energy
-
 00:26:03.796 --> 00:26:05.576 A:middle
 efficient and faster.
 
@@ -2023,14 +1845,6 @@ energy efficient, faster.
 00:26:55.516 --> 00:26:57.586 A:middle
 What are available
 in sparse BLAS?
-
-00:26:58.876 --> 00:27:03.306 A:middle
-We have products, triangular
-solves, we can calculate norm,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.876 --> 00:27:03.306 A:middle
 We have products, triangular
@@ -2094,14 +1908,6 @@ need to store a sparse vector.
 00:27:52.916 --> 00:27:58.446 A:middle
 In order to make the conversion
 from regular dense vector
-
-00:27:58.446 --> 00:28:02.396 A:middle
-to a sparse vector, Sparse
-BLAS provides utility functions
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.446 --> 00:28:02.396 A:middle
 to a sparse vector, Sparse
@@ -2186,14 +1992,6 @@ things easier for you.
 We defined a sparse
 matrix data type.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.516 --> 00:29:01.716 A:middle
-We defined a sparse
-matrix data type.
-
 00:29:02.386 --> 00:29:05.856 A:middle
 It is opaque pointer, so
 if you want to use it,
@@ -2261,14 +2059,6 @@ to that format automatically.
 00:29:54.916 --> 00:29:58.756 A:middle
 So lastly, this enables us
 to hide dimension details
-
-00:29:58.756 --> 00:30:01.636 A:middle
-in our API, that
-makes our API cleaner.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.756 --> 00:30:01.636 A:middle
 in our API, that
@@ -2348,14 +2138,6 @@ so we can do them in batch.
 Good news is, even you forget
 to call the commit function,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.106 --> 00:31:04.736 A:middle
-Good news is, even you forget
-to call the commit function,
-
 00:31:05.216 --> 00:31:07.556 A:middle
 the commit function will
 be triggered automatically
@@ -2424,13 +2206,6 @@ What are the types for A, B, C?
 00:31:56.236 --> 00:31:59.356 A:middle
 For inner product, A is
 sparse, B is either sparse
-
-00:31:59.356 --> 00:32:01.566 A:middle
-or dense, C is a single value.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.356 --> 00:32:01.566 A:middle
 or dense, C is a single value.
@@ -2504,14 +2279,6 @@ The rest is just like BLAS.
 The next operation
 is triangular solve.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:56.936 --> 00:33:00.496 A:middle
-The next operation
-is triangular solve.
-
 00:33:01.146 --> 00:33:03.106 A:middle
 You solve the triangular
 system of equations,
@@ -2580,13 +2347,6 @@ new compressor LZFSE.
 00:33:59.686 --> 00:34:01.456 A:middle
 Now, you can use SIMD on Swift,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.686 --> 00:34:01.456 A:middle
-Now, you can use SIMD on Swift,
-
 00:34:02.096 --> 00:34:04.156 A:middle
 and there is a sparse
 BLAS library.
@@ -2617,10 +2377,10 @@ and feedback very seriously.
 In fact, there are
 many features we add
 
-00:34:25.456 --> 00:34:27.335 A:middle
+00:34:25.456 --> 00:34:27.336 A:middle
 to accelerate framework based
 
-00:34:27.335 --> 00:34:30.056 A:middle
+00:34:27.336 --> 00:34:30.056 A:middle
 on developer requests,
 your requests.
 
@@ -2635,10 +2395,10 @@ please file a feature request.
 For more information, we
 have online documentation
 
-00:34:39.636 --> 00:34:41.485 A:middle
+00:34:39.636 --> 00:34:41.486 A:middle
 for vDSP and compression.
 
-00:34:41.775 --> 00:34:45.536 A:middle
+00:34:41.776 --> 00:34:45.536 A:middle
 If you want to know more about
 other parts of accelerate,
 
@@ -2646,21 +2406,13 @@ other parts of accelerate,
 you can check out the video
 of our previous WWDC sessions.
 
-00:34:49.735 --> 00:34:53.326 A:middle
+00:34:49.736 --> 00:34:53.326 A:middle
 We also have simple code
 for compression vDSP.
 
 00:34:53.326 --> 00:34:56.246 A:middle
 You can join the
 discussion in the forum
-
-00:34:56.656 --> 00:35:01.126 A:middle
-or any general inquiries,
-Paul Dembo is our evangelist.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:56.656 --> 00:35:01.126 A:middle
 or any general inquiries,
@@ -2692,4 +2444,3 @@ Thank you very much!
 
 00:35:18.516 --> 00:35:32.680 A:middle
 [ Applause ]
-

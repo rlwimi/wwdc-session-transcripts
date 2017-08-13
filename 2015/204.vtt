@@ -1,13 +1,12 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:00:06.726 --> 00:00:16.026 A:middle
-(Applause)
+00:00:27.516 --> 00:00:31.826 A:middle
+[Applause]
 
-00:00:26.956 --> 00:00:30.866 A:middle
+00:00:32.326 --> 00:00:34.806 A:middle
 &gt;&gt; Hi. My name is Qasid Sadiq,
 
-00:00:32.305 --> 00:00:36.796 A:middle
+00:00:34.806 --> 00:00:36.796 A:middle
 and I am on the Apple
 Accessibility team.
 
@@ -36,14 +35,6 @@ of interacting with the world.
 00:00:56.546 --> 00:00:59.496 A:middle
 But for the sake of our
 conversation, we are going
-
-00:00:59.496 --> 00:01:03.906 A:middle
-to focus on a certain subset of
-these users, users, for example,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.496 --> 00:01:03.906 A:middle
 to focus on a certain subset of
@@ -111,14 +102,6 @@ Control, Assistive Touch, Zoom,
 Guided Access, and
 so on and so forth.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.756 --> 00:02:00.206 A:middle
-Guided Access, and
-so on and so forth.
-
 00:02:01.096 --> 00:02:02.346 A:middle
 The Apple Watch is no different.
 
@@ -129,7 +112,7 @@ this device accessible
 00:02:05.686 --> 00:02:07.336 A:middle
 to as many users as possible.
 
-00:02:08.015 --> 00:02:09.116 A:middle
+00:02:08.016 --> 00:02:09.116 A:middle
 So let's get into that.
 
 00:02:09.116 --> 00:02:12.506 A:middle
@@ -194,13 +177,6 @@ VoiceOver will read out "clock."
 00:02:56.176 --> 00:02:58.646 A:middle
 Additionally, we provide a
 set of gestures so it's easy
-
-00:02:58.646 --> 00:03:00.216 A:middle
-for a VoiceOver user to safely
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.646 --> 00:03:00.216 A:middle
 for a VoiceOver user to safely
@@ -278,14 +254,6 @@ text size slider and settings.
 Now, for users with certain
 light and color sensitivities,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:54.666 --> 00:04:00.196 A:middle
-Now, for users with certain
-light and color sensitivities,
-
 00:04:00.196 --> 00:04:02.156 A:middle
 there's a Grayscale
 switch, which filters the UI
@@ -312,7 +280,7 @@ with blurs on them.
 Either the contrast
 isn't high enough
 
-00:04:18.476 --> 00:04:20.505 A:middle
+00:04:18.476 --> 00:04:20.506 A:middle
 or there's distracting
 blur or artifacts.
 
@@ -364,10 +332,6 @@ orienting experience
 00:04:58.866 --> 00:04:59.806 A:middle
 for certain users.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:06.696 --> 00:05:10.326 A:middle
 Finally, users with hearing
 issues can adjust the left/right
@@ -411,10 +375,6 @@ to turn VoiceOver on..
 
 00:05:58.566 --> 00:05:59.766 A:middle
 &gt;&gt; VOICEOVER: VoiceOver on.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.016 --> 00:06:00.416 A:middle
 Weather.
@@ -511,14 +471,6 @@ Stop -- world Clock.
 &gt;&gt; QASID SADIQ: Now
 VoiceOver spoke "World Clock."
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.806 --> 00:07:01.806 A:middle
-&gt;&gt; QASID SADIQ: Now
-VoiceOver spoke "World Clock."
-
 00:07:01.806 --> 00:07:03.706 A:middle
 That means I am focused
 on World Clock.
@@ -593,10 +545,6 @@ New York. 4:38 p.m. Today.
 00:07:57.966 --> 00:07:58.886 A:middle
 Plus 3 hours.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.136 --> 00:08:01.746 A:middle
 &gt;&gt; QASID SADIQ: Now I know
 what time it is in New York.
@@ -660,7 +608,7 @@ to adjust the zoom level a bit.
 00:08:40.196 --> 00:08:41.166 A:middle
 To adjust the zoom level,
 
-00:08:41.525 --> 00:08:43.956 A:middle
+00:08:41.526 --> 00:08:43.956 A:middle
 I simply two-finger
 double-tap and scroll.
 
@@ -678,14 +626,6 @@ read this text.
 00:08:57.366 --> 00:08:59.596 A:middle
 Now, I can use a two-finger
 pan gesture, which is similar
-
-00:08:59.596 --> 00:09:02.466 A:middle
-to the iOS pan gesture in
-Zoom to move this around,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.596 --> 00:09:02.466 A:middle
 to the iOS pan gesture in
@@ -748,13 +688,6 @@ completely accessible,
 00:09:56.616 --> 00:09:58.926 A:middle
 it needs to have
 accessible applications.
-
-00:09:58.926 --> 00:10:00.596 A:middle
-This is where you come in.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.926 --> 00:10:00.596 A:middle
 This is where you come in.
@@ -842,10 +775,6 @@ things like buttons, labels,
 and switches are all
 accessibility elements.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.076 --> 00:11:01.816 A:middle
 But sometimes you might need
 to get away from the default.
@@ -922,14 +851,6 @@ determined for you.
 00:11:55.576 --> 00:11:59.706 A:middle
 Accessibility infers a label
 by doing things like looking
-
-00:11:59.806 --> 00:12:03.566 A:middle
-at the text contained inside an
-interface item, but sometimes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.806 --> 00:12:03.566 A:middle
 at the text contained inside an
@@ -1021,14 +942,6 @@ to the user.
 An example of where we
 use this was actually
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.986 --> 00:13:04.496 A:middle
-An example of where we
-use this was actually
-
 00:13:04.496 --> 00:13:08.776 A:middle
 on the Conversation group,
 where we added the button trait
@@ -1110,10 +1023,6 @@ where that value is the number
 00:13:58.226 --> 00:13:59.936 A:middle
 of minutes that's
 currently selected.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.416 --> 00:14:02.686 A:middle
 For this particular situation,
@@ -1203,14 +1112,6 @@ separate regions,
 and associate information
 with them.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.036 --> 00:15:00.596 A:middle
-and associate information
-with them.
-
 00:15:01.586 --> 00:15:05.386 A:middle
 So for example, one
 Condition icon is associated
@@ -1278,10 +1179,6 @@ So for this, we add a new API,
 00:15:54.056 --> 00:15:56.236 A:middle
 WK Accessibility is
 VoiceOver running.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.016 --> 00:16:01.026 A:middle
 Let's see this in action.
@@ -1367,14 +1264,6 @@ So we have one issue right away.
 We can see that this image
 representation of our sandwich,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.816 --> 00:17:02.086 A:middle
-We can see that this image
-representation of our sandwich,
-
 00:17:02.266 --> 00:17:04.236 A:middle
 which presents us valuable
 information in terms
@@ -1390,10 +1279,10 @@ we should make this available
 00:17:09.266 --> 00:17:10.316 A:middle
 to our VoiceOver users.
 
-00:17:11.455 --> 00:17:12.306 A:middle
+00:17:11.456 --> 00:17:12.306 A:middle
 &gt;&gt; VOICEOVER: Make sandwich.
 
-00:17:12.455 --> 00:17:13.856 A:middle
+00:17:12.456 --> 00:17:13.856 A:middle
 Order. Button.
 
 00:17:14.006 --> 00:17:15.266 A:middle
@@ -1466,10 +1355,6 @@ Two layers of.
 
 00:17:58.656 --> 00:17:59.086 A:middle
 Button.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.086 --> 00:18:05.076 A:middle
 &gt;&gt; QASID SADIQ: The first issue
@@ -1546,14 +1431,6 @@ have to find the group
 that contains these
 three labels.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.166 --> 00:19:02.376 A:middle
-that contains these
-three labels.
-
 00:19:03.246 --> 00:19:04.426 A:middle
 And that's here.
 
@@ -1623,14 +1500,6 @@ by the string Calories.
 So a user will hear "210
 calories" instead of "210 c."
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.986 --> 00:20:02.646 A:middle
-So a user will hear "210
-calories" instead of "210 c."
-
 00:20:03.656 --> 00:20:06.196 A:middle
 So we fixed the Make Sandwich
 screen in terms of accessibility
@@ -1691,14 +1560,6 @@ as label, hint, value,
 
 00:20:57.996 --> 00:20:59.236 A:middle
 and traits associated with it.
-
-00:20:59.286 --> 00:21:01.286 A:middle
-So this is awfully
-useful when you are trying
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.286 --> 00:21:01.286 A:middle
 So this is awfully
@@ -1783,13 +1644,6 @@ representation was not
 00:21:59.256 --> 00:22:00.136 A:middle
 accessible at all.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.256 --> 00:22:00.136 A:middle
-accessible at all.
-
 00:22:00.676 --> 00:22:03.106 A:middle
 And that sandwich image
 representation actually provided
@@ -1863,10 +1717,6 @@ the header so we can call it
 
 00:22:55.996 --> 00:22:57.116 A:middle
 from the interface controller.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:02.046 --> 00:23:03.806 A:middle
 And then let's go
@@ -1942,14 +1792,6 @@ a function to do that.
 What this is doing is it checks
 whether VoiceOver is running
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.406 --> 00:24:04.086 A:middle
-What this is doing is it checks
-whether VoiceOver is running
-
 00:24:04.256 --> 00:24:06.586 A:middle
 with a WK Accessibility
 Is VoiceOver Running call,
@@ -1990,13 +1832,6 @@ application in action.
 
 00:24:54.876 --> 00:24:56.696 A:middle
 Eats fixed.
-
-00:24:57.526 --> 00:25:04.156 A:middle
-Eats fixed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.526 --> 00:25:04.156 A:middle
 Eats fixed.
@@ -2088,13 +1923,6 @@ Roast beef.
 00:25:58.586 --> 00:26:00.606 A:middle
 Image. Bread.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.586 --> 00:26:00.606 A:middle
-Image. Bread.
-
 00:26:01.116 --> 00:26:01.546 A:middle
 Image.
 
@@ -2108,11 +1936,11 @@ swipe through their sandwich.
 00:26:06.206 --> 00:26:11.746 A:middle
 So there you go.
 
-00:26:13.316 --> 00:26:18.076 A:middle
+00:26:13.316 --> 00:26:13.926 A:middle
 &gt;&gt; VOICEOVER: Home.
 
-00:26:21.956 --> 00:26:22.136 A:middle
-(Applause)
+00:26:14.516 --> 00:26:21.766 A:middle
+[Applause]
 
 00:26:22.266 --> 00:26:26.056 A:middle
 &gt;&gt; QASID SADIQ: Now, as you
@@ -2155,14 +1983,6 @@ providers, and although most
 00:26:53.086 --> 00:26:56.516 A:middle
 of these providers have very
 obvious accessibility labels
-
-00:26:56.516 --> 00:27:00.976 A:middle
-associated with them,
-a couple don't.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:56.516 --> 00:27:00.976 A:middle
 associated with them,
@@ -2239,10 +2059,6 @@ or the provider is created.
 And we set an accessibility
 label.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:05.416 --> 00:28:06.196 A:middle
 And there you go.
 
@@ -2310,10 +2126,6 @@ very complex set of information,
 00:28:57.906 --> 00:28:59.826 A:middle
 use the accessibility
 image regions API.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:03.336 --> 00:29:04.726 A:middle
 When you design your
@@ -2395,13 +2207,6 @@ get to be the champions
 00:29:59.426 --> 00:30:00.706 A:middle
 of our VoiceOver users.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.426 --> 00:30:00.706 A:middle
-of our VoiceOver users.
-
 00:30:02.376 --> 00:30:05.136 A:middle
 And as you guys just saw, this
 is actually a pretty easy task.
@@ -2437,12 +2242,11 @@ on the Developer forums,
 or contact your Evangelist,
 Paul Marcos.
 
-00:30:29.596 --> 00:30:30.506 A:middle
+00:30:29.596 --> 00:30:30.496 A:middle
 Thank you for your time.
 
-00:30:30.596 --> 00:30:32.926 A:middle
+00:30:30.496 --> 00:30:30.966 A:middle
 I appreciate it.
 
-00:30:33.696 --> 00:30:33.906 A:middle
-(Applause)
-
+00:30:31.516 --> 00:30:36.500 A:middle
+[Applause]

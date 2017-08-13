@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:25.516 --> 00:00:30.566 A:middle
 [Applause]
@@ -8,7 +7,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 &gt;&gt; STEFAN HAFENEGER:
 Welcome to session 211,
 
-00:00:32.665 --> 00:00:33.826 A:middle
+00:00:32.666 --> 00:00:33.826 A:middle
 Multitasking Essentials
 
 00:00:33.826 --> 00:00:36.036 A:middle
@@ -45,14 +44,6 @@ on iPad this year.
 00:00:58.396 --> 00:00:59.996 A:middle
 By now you should
 be familiar with all
-
-00:00:59.996 --> 00:01:02.796 A:middle
-of the iPad multitasking
-features we have introduced
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.996 --> 00:01:02.796 A:middle
 of the iPad multitasking
@@ -128,14 +119,6 @@ refer to is as PiP.
 PiP is supported on all of
 our latest iPads, iPad Air 2,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.336 --> 00:02:02.806 A:middle
-PiP is supported on all of
-our latest iPads, iPad Air 2,
-
 00:02:02.946 --> 00:02:11.156 A:middle
 iPad Air, iPad mini 2 and 3.
 
@@ -194,14 +177,6 @@ of the media framework.
 00:02:55.416 --> 00:02:57.236 A:middle
 AVFoundation is available
 for clients that want
-
-00:02:57.236 --> 00:03:01.896 A:middle
-to create their own video
-player with user interfaces.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.236 --> 00:03:01.896 A:middle
 to create their own video
@@ -284,14 +259,6 @@ video content.
 When PiP is started, a PiP
 window is created in this layer
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.766 --> 00:04:03.616 A:middle
-When PiP is started, a PiP
-window is created in this layer
-
 00:04:04.446 --> 00:04:05.896 A:middle
 and positioned over
 an AVPlayerLayer.
@@ -307,7 +274,7 @@ There is a seamless transition
 and the video will
 just keep playing.
 
-00:04:16.435 --> 00:04:18.426 A:middle
+00:04:16.436 --> 00:04:18.426 A:middle
 To be clear, we are not
 touching the AVPlayerLayer
 
@@ -355,13 +322,6 @@ and we will start with AVKit.
 00:04:57.996 --> 00:04:59.556 A:middle
 AVKit's main API
 for video playback
-
-00:04:59.556 --> 00:05:00.676 A:middle
-is AVPlayerViewController.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.556 --> 00:05:00.676 A:middle
 is AVPlayerViewController.
@@ -440,14 +400,6 @@ play button to bring
 up AVPlayerViewController
 and start video playback
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:57.776 --> 00:06:00.526 A:middle
-up AVPlayerViewController
-and start video playback
-
 00:06:00.746 --> 00:06:05.106 A:middle
 in full screen, but as you can
 see, the user interface does not
@@ -509,14 +461,6 @@ for its shared instance
 
 00:06:57.226 --> 00:06:58.816 A:middle
 and then setting the category
-
-00:06:58.816 --> 00:07:00.806 A:middle
-to AV audio session
-category playback.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.816 --> 00:07:00.806 A:middle
 to AV audio session
@@ -590,14 +534,6 @@ to play.
 On the left button in the PiP
 window should return video
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.046 --> 00:08:00.766 A:middle
-On the left button in the PiP
-window should return video
-
 00:08:00.836 --> 00:08:02.136 A:middle
 playback to the application.
 
@@ -647,11 +583,11 @@ the collection view controller
 the delegate of
 AVPlayerViewController.
 
-00:08:37.376 --> 00:08:40.785 A:middle
+00:08:37.376 --> 00:08:40.786 A:middle
 To reinstall the user interface
 the collection view controller
 
-00:08:40.785 --> 00:08:44.196 A:middle
+00:08:40.786 --> 00:08:44.196 A:middle
 needs to implement a simple
 delegate message has a very
 
@@ -673,14 +609,6 @@ navigation controller
 00:08:55.376 --> 00:08:58.816 A:middle
 for its top view controller, and
 then use the top view controller
-
-00:08:58.816 --> 00:09:01.396 A:middle
-to present the player
-view controller
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.816 --> 00:09:01.396 A:middle
 to present the player
@@ -751,14 +679,6 @@ start Picture in Picture
 00:09:55.416 --> 00:09:57.126 A:middle
 so that the video
 continues to play.
-
-00:09:58.266 --> 00:10:01.376 A:middle
-At any time users may tap
-the right close button
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.266 --> 00:10:01.376 A:middle
 At any time users may tap
@@ -836,10 +756,6 @@ supports audio recording,
 you can alternatively use AV
 audio session play and record.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.396 --> 00:11:04.296 A:middle
 If the application
 supports background audio
@@ -916,14 +832,6 @@ Picture in Picture.
 We don't know the
 structure of the application,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.116 --> 00:12:00.826 A:middle
-We don't know the
-structure of the application,
-
 00:12:00.906 --> 00:12:03.046 A:middle
 or where the user navigated
 to when it was active,
@@ -994,14 +902,6 @@ class called AV Picture
 
 00:12:57.506 --> 00:12:58.256 A:middle
 in Picture controller.
-
-00:12:58.256 --> 00:13:02.606 A:middle
-It allows you to implement same
-PiP viewers I just showed you,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.256 --> 00:13:02.606 A:middle
 It allows you to implement same
@@ -1084,14 +984,6 @@ disable your PiP button.
 For that we have a property
 on the PiP controller
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.486 --> 00:14:01.466 A:middle
-For that we have a property
-on the PiP controller
-
 00:14:01.466 --> 00:14:05.196 A:middle
 that you can observe and
 then update the enable set
@@ -1158,14 +1050,6 @@ your PiP controller.
 00:14:53.306 --> 00:14:57.426 A:middle
 Because if it does happen,
 the PiP window will disappear.
-
-00:14:57.826 --> 00:15:00.676 A:middle
-So make sure you structure
-your application accordingly.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:57.826 --> 00:15:00.676 A:middle
 So make sure you structure
@@ -1238,14 +1122,6 @@ This behavior is not required
 00:15:54.346 --> 00:15:56.226 A:middle
 but we highly recommend
 this for consistency.
-
-00:15:56.296 --> 00:16:00.606 A:middle
-In order to do this you could
-implement the start delegate
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:56.296 --> 00:16:00.606 A:middle
 In order to do this you could
@@ -1330,14 +1206,6 @@ Picture in Picture with WebKit.
 WebKit's main API for
 video play is WKWebView.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:55.216 --> 00:17:02.716 A:middle
-WebKit's main API for
-video play is WKWebView.
-
 00:17:02.716 --> 00:17:08.286 A:middle
 This part of the session is for
 those among you using WebKit
@@ -1350,11 +1218,11 @@ web technologies.
 In iOS 9 WKWebView
 supports Picture in Picture
 
-00:17:15.695 --> 00:17:17.736 A:middle
+00:17:15.696 --> 00:17:17.736 A:middle
 for HTML5 video if
 the application is set
 
-00:17:17.736 --> 00:17:19.705 A:middle
+00:17:17.736 --> 00:17:19.706 A:middle
 up the same way as
 for the other APIs.
 
@@ -1403,14 +1271,6 @@ And that's WebKit.
 00:17:55.056 --> 00:17:57.766 A:middle
 So you saw how easy and straight
 forward it is to adopt Picture
-
-00:17:57.766 --> 00:18:00.486 A:middle
-in Picture in your applications
-for all three media frameworks.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.766 --> 00:18:00.486 A:middle
 in Picture in your applications
@@ -1491,13 +1351,6 @@ still shared between all
 00:18:59.406 --> 00:19:00.946 A:middle
 of the presented apps.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.406 --> 00:19:00.946 A:middle
-of the presented apps.
-
 00:19:01.496 --> 00:19:06.246 A:middle
 I would like to explore with you
 some of the iOS media policies
@@ -1555,13 +1408,6 @@ some of the shared resources
 00:19:55.176 --> 00:19:58.846 A:middle
 so to help manage that, the
 system categorizes your app
-
-00:19:58.846 --> 00:20:00.936 A:middle
-into one of three roles.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.846 --> 00:20:00.936 A:middle
 into one of three roles.
@@ -1637,13 +1483,6 @@ application.
 00:20:58.756 --> 00:21:02.246 A:middle
 The system uses this to figure
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.756 --> 00:21:02.246 A:middle
-The system uses this to figure
-
 00:21:02.246 --> 00:21:04.806 A:middle
 out how your app's
 audio mixes with,
@@ -1711,14 +1550,6 @@ audio interrupts other apps
 such as music or video
 application using audio sessions
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.536 --> 00:22:03.716 A:middle
-such as music or video
-application using audio sessions
-
 00:22:04.306 --> 00:22:05.966 A:middle
 playback category.
 
@@ -1771,14 +1602,6 @@ mixing with other applications.
 00:22:54.326 --> 00:22:57.466 A:middle
 This is critical for these
 kind of applications on,
-
-00:22:57.766 --> 00:23:00.466 A:middle
-with multitasking on iPad,
-because your app may remain
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.766 --> 00:23:00.466 A:middle
 with multitasking on iPad,
@@ -1852,13 +1675,6 @@ most important best practices
 00:23:58.936 --> 00:24:00.696 A:middle
 for using audio on iPad,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.936 --> 00:24:00.696 A:middle
-for using audio on iPad,
-
 00:24:00.696 --> 00:24:04.126 A:middle
 and as a bonus following these
 will insure a great experience
@@ -1923,14 +1739,6 @@ media in the background.
 This means that you will have
 lower maximum memory limits
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.976 --> 00:25:02.656 A:middle
-This means that you will have
-lower maximum memory limits
-
 00:25:02.856 --> 00:25:07.346 A:middle
 so it's really important that
 you discard any unnecessary data
@@ -1986,14 +1794,6 @@ a smaller resolution,
 
 00:25:54.646 --> 00:25:55.956 A:middle
 low bandwidth variant.
-
-00:25:57.136 --> 00:26:00.776 A:middle
-And second, make sure you are
-annotating all of your variants
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.136 --> 00:26:00.776 A:middle
 And second, make sure you are
@@ -2064,14 +1864,6 @@ appreciate that.
 The last topic I would like
 to talk about today is camera.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.636 --> 00:27:01.566 A:middle
-The last topic I would like
-to talk about today is camera.
-
 00:27:04.216 --> 00:27:07.556 A:middle
 In iOS 9 only one app can
 use the camera at a time.
@@ -2133,14 +1925,6 @@ screen key to your info P list.
 00:27:56.936 --> 00:27:59.756 A:middle
 This will help let
 users get quick access
-
-00:27:59.756 --> 00:28:01.746 A:middle
-to the camera inside
-your application
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.756 --> 00:28:01.746 A:middle
 to the camera inside
@@ -2216,14 +2000,6 @@ apps are on screen,
 you can still see a preview
 and take a photo, however,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.776 --> 00:29:01.646 A:middle
-you can still see a preview
-and take a photo, however,
-
 00:29:01.646 --> 00:29:04.096 A:middle
 video capture will be disabled.
 
@@ -2289,14 +2065,6 @@ app regardless
 if you support the multitasking
 modes or full screen only.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.216 --> 00:30:02.536 A:middle
-if you support the multitasking
-modes or full screen only.
-
 00:30:03.006 --> 00:30:12.286 A:middle
 Next, the UI image pickers start
 video capture method may fail
@@ -2345,14 +2113,6 @@ at some of the creative
 00:30:49.146 --> 00:30:53.456 A:middle
 and powerful features you have
 added in your applications.
-
-00:30:57.006 --> 00:31:01.916 A:middle
-In order to ensure that we
-can offer you the resources
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.006 --> 00:31:01.916 A:middle
 In order to ensure that we
@@ -2413,14 +2173,6 @@ dictionary states a reason
 00:31:54.336 --> 00:31:57.566 A:middle
 stating why your
 camera was interrupted.
-
-00:31:58.366 --> 00:32:00.506 A:middle
-There is multiple reasons
-you could be interrupted
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.366 --> 00:32:00.506 A:middle
 There is multiple reasons
@@ -2488,14 +2240,6 @@ that you previously disabled.
 00:32:54.346 --> 00:32:59.166 A:middle
 Be sure to check out our updated
 AV cam sample code for examples
-
-00:32:59.166 --> 00:33:02.516 A:middle
-on using these new interruption
-reasons inside your application.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.166 --> 00:33:02.516 A:middle
 on using these new interruption
@@ -2570,13 +2314,6 @@ your audio session,
 00:33:58.506 --> 00:34:00.256 A:middle
 provide adaptive video streams
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.506 --> 00:34:00.256 A:middle
-provide adaptive video streams
-
 00:34:00.896 --> 00:34:04.026 A:middle
 and handle the new camera
 interruption reasons.
@@ -2585,7 +2322,7 @@ interruption reasons.
 For more information, get
 in touch with our evangelist
 
-00:34:09.656 --> 00:34:10.775 A:middle
+00:34:09.656 --> 00:34:10.776 A:middle
 and check out the forum.
 
 00:34:11.996 --> 00:34:17.186 A:middle
@@ -2604,19 +2341,19 @@ resources is only part
 of the story for
 shared resources.
 
-00:34:27.476 --> 00:34:29.295 A:middle
+00:34:27.476 --> 00:34:29.296 A:middle
 Be sure to check out
 the optimizing your app
 
-00:34:29.295 --> 00:34:34.036 A:middle
+00:34:29.296 --> 00:34:34.036 A:middle
 for multitasking session
 happening next up in Presidio.
 
-00:34:34.815 --> 00:34:37.025 A:middle
+00:34:34.816 --> 00:34:37.026 A:middle
 There is also a great
 Friday talk
 
-00:34:37.025 --> 00:34:39.516 A:middle
+00:34:37.026 --> 00:34:39.516 A:middle
 on delivering performance
 on iOS.
 
@@ -2631,7 +2368,7 @@ is a great place to learn
 about adopting adaptive
 UI in your apps.
 
-00:34:53.025 --> 00:34:56.676 A:middle
+00:34:53.026 --> 00:34:56.676 A:middle
 On behalf of Stefan,
 Felix and myself.
 
@@ -2643,14 +2380,5 @@ to you this afternoon.
 Thanks, and have a
 great rest of the week!
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:34:59.436 --> 00:35:00.976 A:middle
-Thanks, and have a
-great rest of the week!
-
 00:35:01.516 --> 00:35:04.500 A:middle
 [Applause]
-

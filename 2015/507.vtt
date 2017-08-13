@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:25.516 --> 00:00:30.606 A:middle
 [ Applause ]
@@ -36,14 +35,6 @@ Torrey will be talking
 00:00:56.186 --> 00:00:58.986 A:middle
 about other exciting
 new features we have
-
-00:00:58.986 --> 00:01:02.046 A:middle
-for you this year like
-inter-device audio
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.986 --> 00:01:02.046 A:middle
 for you this year like
@@ -110,14 +101,6 @@ familiar with AVAudioEngine,
 I would highly encourage
 you to check
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.606 --> 00:02:00.856 A:middle
-I would highly encourage
-you to check
-
 00:02:00.856 --> 00:02:05.976 A:middle
 out our last year's WWDC session
 AVAudioEngine In Practice.
@@ -168,14 +151,6 @@ to as complex as, say,
 00:02:53.066 --> 00:02:56.136 A:middle
 implementing an entire
 audio engine for a game.
-
-00:02:56.696 --> 00:03:01.716 A:middle
-The third important goal was
-to simplify real-time audio.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.696 --> 00:03:01.716 A:middle
 The third important goal was
@@ -233,14 +208,6 @@ to form your processing chain.
 00:03:54.516 --> 00:03:58.406 A:middle
 You could capture audio at any
 point in this processing chain,
-
-00:03:58.586 --> 00:04:00.836 A:middle
-say for your analysis
-or debugging.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:58.586 --> 00:04:00.836 A:middle
 say for your analysis
@@ -311,13 +278,6 @@ it through an effect node,
 00:04:59.996 --> 00:05:01.436 A:middle
 which could be a simple delay.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.996 --> 00:05:01.436 A:middle
-which could be a simple delay.
-
 00:05:02.606 --> 00:05:05.866 A:middle
 You could also be
 tapping the users voice
@@ -375,10 +335,6 @@ nodes in a little bit of detail.
 There are two kinds of
 mixer nodes in the engine.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.056 --> 00:06:03.606 A:middle
 First is the AV audio
 mixer node that we just saw
@@ -432,14 +388,6 @@ AVAudioMixing protocol.
 00:06:53.976 --> 00:06:58.046 A:middle
 This protocol defines a set of
 properties that are applicable
-
-00:06:58.046 --> 00:07:00.366 A:middle
-at the input bus
-of a mixer node.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.046 --> 00:07:00.366 A:middle
 at the input bus
@@ -511,14 +459,6 @@ used in the gaming use case,
 and those are applicable
 on the environment node.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.526 --> 00:08:00.746 A:middle
-and those are applicable
-on the environment node.
-
 00:08:02.596 --> 00:08:04.486 A:middle
 Now let's look at
 a sample setup.
@@ -561,7 +501,7 @@ volume and pan take effect
 on the mixer node, while the 3D
 mixing property, like position,
 
-00:08:40.765 --> 00:08:43.275 A:middle
+00:08:40.766 --> 00:08:43.276 A:middle
 does not affect the mixer node.
 
 00:08:43.826 --> 00:08:47.556 A:middle
@@ -581,14 +521,6 @@ on the environment node.
 00:08:55.576 --> 00:08:59.176 A:middle
 So this way you could have a
 bunch of mixing properties set
-
-00:08:59.176 --> 00:09:02.906 A:middle
-on a player and move the
-player from one mixer
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.176 --> 00:09:02.906 A:middle
 on a player and move the
@@ -659,13 +591,6 @@ one by one.
 00:09:59.406 --> 00:10:01.446 A:middle
 First, hardware setup on OS X.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.406 --> 00:10:01.446 A:middle
-First, hardware setup on OS X.
-
 00:10:01.446 --> 00:10:07.576 A:middle
 On OS X, there is a built-in
 system tool called audio MIDI
@@ -723,14 +648,6 @@ maximum number of open channels
 00:10:56.046 --> 00:10:58.116 A:middle
 that are available
 for your session.
-
-00:10:59.496 --> 00:11:02.016 A:middle
-Then you set your
-preferred number of channels,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.496 --> 00:11:02.016 A:middle
 Then you set your
@@ -802,14 +719,6 @@ in your session.
 And based on that, you
 set your preferred number
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.796 --> 00:12:03.006 A:middle
-And based on that, you
-set your preferred number
-
 00:12:03.006 --> 00:12:04.396 A:middle
 of channels on the session.
 
@@ -876,14 +785,6 @@ an environment node.
 Case one, you have a
 multichannel audio content
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:57.776 --> 00:13:01.566 A:middle
-Case one, you have a
-multichannel audio content
-
 00:13:02.126 --> 00:13:04.936 A:middle
 and a multichannel hardware
 that's just been set
@@ -943,14 +844,6 @@ and the output node.
 00:13:55.496 --> 00:13:58.676 A:middle
 The next thing is similar
 on the content side.
-
-00:13:58.906 --> 00:14:02.126 A:middle
-You propagate the content
-format to the connection
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.906 --> 00:14:02.126 A:middle
 You propagate the content
@@ -1025,14 +918,6 @@ node and the output node.
 Now, since the environment node
 supports only specific channel
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.346 --> 00:15:03.426 A:middle
-Now, since the environment node
-supports only specific channel
-
 00:15:03.426 --> 00:15:08.046 A:middle
 layouts, you need to map the
 hardware format to a layout
@@ -1099,14 +984,6 @@ player to the environment.
 And the next thing here is
 to set a rendering algorithm
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.576 --> 00:16:03.676 A:middle
-And the next thing here is
-to set a rendering algorithm
-
 00:16:03.676 --> 00:16:08.176 A:middle
 on the player to one which
 supports multichannel rendering.
@@ -1164,17 +1041,10 @@ What's new for this year?
 00:16:55.296 --> 00:17:00.676 A:middle
 We have three main new features.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:55.296 --> 00:17:00.676 A:middle
-We have three main new features.
-
 00:17:01.676 --> 00:17:03.936 A:middle
 First is the splitting support,
 
-00:17:04.215 --> 00:17:06.606 A:middle
+00:17:04.216 --> 00:17:06.606 A:middle
 which I will be talking
 about in a minute.
 
@@ -1182,7 +1052,7 @@ about in a minute.
 Second is the audio
 format conversion support,
 
-00:17:11.195 --> 00:17:13.506 A:middle
+00:17:11.196 --> 00:17:13.506 A:middle
 and we have a couple
 of new classes here,
 
@@ -1190,15 +1060,15 @@ of new classes here,
 the main one being
 AVAudioConverter.
 
-00:17:17.776 --> 00:17:20.965 A:middle
+00:17:17.776 --> 00:17:20.966 A:middle
 And then finally, we have
 another new class called
 
-00:17:20.965 --> 00:17:24.826 A:middle
+00:17:20.966 --> 00:17:24.826 A:middle
 AVAudioSequencer, which supports
 play back of MIDI files.
 
-00:17:25.425 --> 00:17:30.126 A:middle
+00:17:25.426 --> 00:17:30.126 A:middle
 Moving to the splitting support.
 
 00:17:30.886 --> 00:17:34.016 A:middle
@@ -1223,14 +1093,6 @@ node could only be connected
 
 00:17:52.566 --> 00:17:54.846 A:middle
 to one other node in the engine.
-
-00:17:55.386 --> 00:18:02.526 A:middle
-But now, instead of this, we
-have added support to do this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:55.386 --> 00:18:02.526 A:middle
 But now, instead of this, we
@@ -1293,10 +1155,6 @@ node to give you the mix.
 Now, note that when you
 split the output of a node,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.066 --> 00:19:04.026 A:middle
 the entire output is actually
 rendered through multiple paths,
@@ -1349,14 +1207,6 @@ bus: 1 of the mixer node.
 00:19:53.606 --> 00:19:56.926 A:middle
 Then you use the new
 connection API we have
-
-00:19:57.336 --> 00:20:00.216 A:middle
-to connect the player to
-these connection points.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.336 --> 00:20:00.216 A:middle
 to connect the player to
@@ -1417,14 +1267,6 @@ both input bus: 0 and input bus:
 00:20:52.066 --> 00:20:58.466 A:middle
 1 of the mixer node
 get a volume of .5.
-
-00:20:58.676 --> 00:21:02.426 A:middle
-But if you wanted to
-overwrite any of the properties
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.676 --> 00:21:02.426 A:middle
 But if you wanted to
@@ -1496,13 +1338,6 @@ connection will not
 00:21:59.806 --> 00:22:00.466 A:middle
 be preserved.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.806 --> 00:22:00.466 A:middle
-be preserved.
-
 00:22:01.126 --> 00:22:05.536 A:middle
 Hence, the state of mixing
 settings will look like this.
@@ -1560,10 +1395,6 @@ connections as well
 00:22:56.646 --> 00:22:59.686 A:middle
 as any new mixer
 connection that you make.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.286 --> 00:23:02.436 A:middle
 And the properties
@@ -1623,14 +1454,6 @@ rendering at the same rate
 
 00:23:55.426 --> 00:23:57.136 A:middle
 until they reach a common mixer.
-
-00:23:57.136 --> 00:24:01.096 A:middle
-So if you stick to
-these restrictions,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.136 --> 00:24:01.096 A:middle
 So if you stick to
@@ -1697,14 +1520,6 @@ AVAudioCompressedBuffer,
 and this holds compressed
 audio data.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.256 --> 00:25:00.716 A:middle
-and this holds compressed
-audio data.
-
 00:25:02.026 --> 00:25:06.246 A:middle
 And this can be used with
 the new class we have called
@@ -1752,14 +1567,6 @@ be used in conjunction
 00:25:50.156 --> 00:25:56.396 A:middle
 with AVAudioEngine, as we
 will see in an example.
-
-00:25:56.396 --> 00:26:00.546 A:middle
-Okay. So suppose you have your
-engine set up for a playback.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:56.396 --> 00:26:00.546 A:middle
 Okay. So suppose you have your
@@ -1832,14 +1639,6 @@ as well as output format.
 So here I have an input
 format which is a PCM format,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.486 --> 00:27:01.256 A:middle
-So here I have an input
-format which is a PCM format,
-
 00:27:01.836 --> 00:27:04.956 A:middle
 and I have an output format,
 
@@ -1894,14 +1693,6 @@ inform the converter
 
 00:27:55.976 --> 00:27:57.826 A:middle
 about the status of your input.
-
-00:27:58.816 --> 00:28:01.026 A:middle
-So suppose when the
-block gets called,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.816 --> 00:28:01.026 A:middle
 So suppose when the
@@ -1972,14 +1763,6 @@ also return your status,
 which you can check to see
 the state of conversion.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:57.536 --> 00:29:00.616 A:middle
-which you can check to see
-the state of conversion.
-
 00:29:01.216 --> 00:29:03.836 A:middle
 So if the converter
 says it's end of stream
@@ -2030,10 +1813,6 @@ nodes, audio samplers,
 
 00:29:56.556 --> 00:29:58.626 A:middle
 MIDI events et cetera.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:01.486 --> 00:30:03.356 A:middle
 Now let's look at
@@ -2094,14 +1873,6 @@ connections in the engine,
 
 00:30:54.686 --> 00:30:56.876 A:middle
 and then you start your engine.
-
-00:30:58.026 --> 00:31:01.126 A:middle
-Now, at this point, there
-will be no audio playback
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.026 --> 00:31:01.126 A:middle
 Now, at this point, there
@@ -2173,14 +1944,6 @@ instrument nodes,
 you can do that with
 just a few lines of code.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.386 --> 00:32:02.446 A:middle
-you can do that with
-just a few lines of code.
-
 00:32:02.966 --> 00:32:06.996 A:middle
 Now, the creation and
 setting up of the engine
@@ -2245,10 +2008,6 @@ set the playback rate
 00:32:57.276 --> 00:32:58.266 A:middle
 of the MIDI events.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:02.176 --> 00:33:06.036 A:middle
 Okay. So with that, we
 have seen the new features
@@ -2306,30 +2065,22 @@ the other paths are connected
 through two different effects,
 and then to the main mixer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.706 --> 00:34:04.446 A:middle
-through two different effects,
-and then to the main mixer.
-
 00:34:04.446 --> 00:34:07.146 A:middle
 Now, using the AVAudioMixing
 protocol properties we
 
-00:34:07.146 --> 00:34:11.275 A:middle
+00:34:07.146 --> 00:34:11.276 A:middle
 discussed, there are
 volume controls on each
 
-00:34:11.275 --> 00:34:13.005 A:middle
+00:34:11.276 --> 00:34:13.006 A:middle
 of these mixer input buses.
 
 00:34:13.786 --> 00:34:16.666 A:middle
 So the slightest that you
 see for distortion volume,
 
-00:34:16.766 --> 00:34:20.735 A:middle
+00:34:16.766 --> 00:34:20.736 A:middle
 direct volume, and reverb
 volume are the volume controls
 
@@ -2337,7 +2088,7 @@ volume are the volume controls
 and controls through
 mixing protocol.
 
-00:34:24.005 --> 00:34:28.226 A:middle
+00:34:24.006 --> 00:34:28.226 A:middle
 Now, at the top, in
 the light gray box,
 
@@ -2349,33 +2100,25 @@ controls for the sequencer.
 You can see that we have a play
 stop control on the sequencer
 
-00:34:36.485 --> 00:34:40.186 A:middle
+00:34:36.486 --> 00:34:40.186 A:middle
 as well as sliders for
 setting the playback position
 
-00:34:40.585 --> 00:34:43.306 A:middle
+00:34:40.586 --> 00:34:43.306 A:middle
 and the playback
 rate of the MIDIs.
 
-00:34:44.545 --> 00:34:47.596 A:middle
+00:34:44.546 --> 00:34:47.596 A:middle
 There is also a master
 volume on the main mixer
 
-00:34:47.735 --> 00:34:52.036 A:middle
+00:34:47.736 --> 00:34:52.036 A:middle
 to control the volume
 of your mix.
 
 00:34:52.916 --> 00:34:57.986 A:middle
 Now let's go ahead and
 start the sequencer [music].
-
-00:34:57.986 --> 00:35:01.786 A:middle
-So at this point, the
-MIDI events are being sent
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.986 --> 00:35:01.786 A:middle
 So at this point, the
@@ -2419,14 +2162,6 @@ that you desire.
 00:35:52.586 --> 00:35:58.066 A:middle
 And finally, using the master
 volume on the mixer node,
-
-00:35:58.456 --> 00:36:08.856 A:middle
-you could control the volume of
-the overall mix [audio fading].
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.456 --> 00:36:08.856 A:middle
 you could control the volume of
@@ -2479,14 +2214,6 @@ called AVAudioSequencer
 00:36:56.196 --> 00:36:58.346 A:middle
 that supports playback
 of MIDI files.
-
-00:36:59.726 --> 00:37:02.716 A:middle
-I hope you will use these
-new features in your apps
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.726 --> 00:37:02.716 A:middle
 I hope you will use these
@@ -2569,14 +2296,6 @@ breakout box that's connected
 to your Mac, but that
 would be digital to analog
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:57.596 --> 00:38:00.166 A:middle
-to your Mac, but that
-would be digital to analog
-
 00:38:00.166 --> 00:38:01.506 A:middle
 and back again to digital.
 
@@ -2643,14 +2362,6 @@ that came with the darn thing?
 
 00:38:53.136 --> 00:38:54.316 A:middle
 Well, drumroll, please.
-
-00:38:55.906 --> 00:39:00.406 A:middle
-Oh, great latency
-on that [laughter].
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:55.906 --> 00:39:00.406 A:middle
 Oh, great latency
@@ -2730,14 +2441,6 @@ you can rest assured
 that your audio is not
 going to have any artifacts.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.996 --> 00:40:03.436 A:middle
-that your audio is not
-going to have any artifacts.
-
 00:40:04.796 --> 00:40:07.006 A:middle
 Next, my no slide.
 
@@ -2809,14 +2512,6 @@ or just unplug the device.
 00:40:56.666 --> 00:40:58.736 A:middle
 Torrey, how do I
 use it, you may ask?
-
-00:40:59.466 --> 00:41:03.056 A:middle
-So we built support directly
-into audio MIDI setup.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.466 --> 00:41:03.056 A:middle
 So we built support directly
@@ -2900,14 +2595,6 @@ that you buy on the market.
 It's one reason why iPads are
 such great musical instruments.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.526 --> 00:42:01.626 A:middle
-It's one reason why iPads are
-such great musical instruments.
-
 00:42:02.316 --> 00:42:04.926 A:middle
 So I selected a patch here
 that sounds like this.
@@ -2967,14 +2654,6 @@ that's been added here.
 And we do want to use this in
 my Logic project, so I am going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.576 --> 00:43:02.746 A:middle
-And we do want to use this in
-my Logic project, so I am going
-
 00:43:02.746 --> 00:43:04.126 A:middle
 to go ahead and say Use Here.
 
@@ -3012,13 +2691,6 @@ coming directly into my track.
 
 00:43:42.436 --> 00:43:43.976 A:middle
 So let's record a piece.
-
-00:43:44.516 --> 00:44:01.946 A:middle
-[ Music ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:44.516 --> 00:44:01.946 A:middle
 [ Music ]
@@ -3080,14 +2752,6 @@ a work iPhone, a home iPad,
 00:44:55.816 --> 00:44:59.156 A:middle
 a work iPad, and an iPad for
 the kids and the power hubs
-
-00:44:59.156 --> 00:45:02.286 A:middle
-to support it, you can plug all
-of those in at the same time,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:59.156 --> 00:45:02.286 A:middle
 to support it, you can plug all
@@ -3161,14 +2825,6 @@ also wanted to tell you
 00:45:53.796 --> 00:45:56.656 A:middle
 about a couple more you
 might be interested in.
-
-00:45:56.956 --> 00:46:00.776 A:middle
-We've also added
-CABTLEMIDI window controller.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:56.956 --> 00:46:00.776 A:middle
 We've also added
@@ -3255,13 +2911,6 @@ to a soul food restaurant
 00:46:59.636 --> 00:47:00.576 A:middle
 that you've never been to.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.636 --> 00:47:00.576 A:middle
-that you've never been to.
-
 00:47:01.096 --> 00:47:02.036 A:middle
 You are navigating.
 
@@ -3332,14 +2981,6 @@ book apps can use a new
 00:47:54.236 --> 00:47:57.546 A:middle
 AVAudioSession mode called
 AVAudioSession mode spoken
-
-00:47:57.546 --> 00:48:01.026 A:middle
-audio, and for navigation
-and fitness apps or apps
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:57.546 --> 00:48:01.026 A:middle
 audio, and for navigation
@@ -3435,14 +3076,6 @@ and Mix with Others.
 Then you will set your
 audio session category.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.046 --> 00:49:00.936 A:middle
-Then you will set your
-audio session category.
-
 00:49:01.516 --> 00:49:04.346 A:middle
 Okay. Let's actually
 look at the nav prompt.
@@ -3529,10 +3162,6 @@ can get notified
 that you are done
 interrupting them.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:00.046 --> 00:50:01.256 A:middle
 Now let's look at
 the other side.
@@ -3610,14 +3239,6 @@ is we will get the user info
 00:50:56.196 --> 00:50:58.576 A:middle
 dictionary from the NS
 notification object that's
-
-00:50:58.576 --> 00:51:01.496 A:middle
-supplied in the function
-prototype and from
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:58.576 --> 00:51:01.496 A:middle
 supplied in the function
@@ -3705,10 +3326,6 @@ option should resume
 00:51:57.196 --> 00:51:59.536 A:middle
 and you were playing before
 when you were interrupted,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:00.006 --> 00:52:02.146 A:middle
 rewind the audio
@@ -3799,14 +3416,6 @@ back and look at them,
 especially if you are coming
 in from the game audio side.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:57.706 --> 00:53:00.976 A:middle
-especially if you are coming
-in from the game audio side.
-
 00:53:02.136 --> 00:53:04.576 A:middle
 If we are not able to answer
 all your questions at the labs,
@@ -3825,4 +3434,3 @@ at the bottom, and we out.
 
 00:53:18.516 --> 00:53:31.780 A:middle
 [ Applause ]
-

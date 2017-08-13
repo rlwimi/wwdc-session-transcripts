@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:25.516 --> 00:00:31.796 A:middle
 [Applause]
@@ -46,18 +45,14 @@ watchOS on Monday.
 We'll talk about the NSURL
 Session features we've added
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:00.576 --> 00:01:01.666 A:middle
 for watchOS.
 
-00:01:02.026 --> 00:01:05.495 A:middle
+00:01:02.026 --> 00:01:05.496 A:middle
 Following that, we will wrap
 things up with some API changes
 
-00:01:05.495 --> 00:01:07.776 A:middle
+00:01:05.496 --> 00:01:07.776 A:middle
 and some new additions we've
 added to the NSURL Session.
 
@@ -117,14 +112,6 @@ of NSURL Session.
 
 00:01:56.356 --> 00:01:59.196 A:middle
 So now let's talk a little bit
-
-00:01:59.196 --> 00:02:02.096 A:middle
-about the hypertext
-transfer protocol.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.196 --> 00:02:02.096 A:middle
 about the hypertext
@@ -194,14 +181,6 @@ there's a tried
 00:02:49.646 --> 00:02:56.786 A:middle
 and true solution
 known as HTTPS.
-
-00:02:56.786 --> 00:03:00.066 A:middle
-Now, HTTPS is essentially
-HTTP layered on top
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.786 --> 00:03:00.066 A:middle
 Now, HTTPS is essentially
@@ -278,14 +257,6 @@ additional server support is
 required, but HTTPS is supported
 by most server vendors today.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.456 --> 00:04:04.016 A:middle
-required, but HTTPS is supported
-by most server vendors today.
-
 00:04:04.196 --> 00:04:09.386 A:middle
 Also keep in mind that most data
 should be considered sensitive,
@@ -302,11 +273,11 @@ leaving your app going
 out onto the network
 is not sensitive,
 
-00:04:18.815 --> 00:04:21.726 A:middle
+00:04:18.816 --> 00:04:21.726 A:middle
 your customer may,
 in fact, think it is.
 
-00:04:22.005 --> 00:04:24.616 A:middle
+00:04:22.006 --> 00:04:24.616 A:middle
 For example, if you
 have a TV streaming app,
 
@@ -354,10 +325,6 @@ to work together with you guys
 00:04:56.596 --> 00:04:59.866 A:middle
 to make sure that we build
 upon and maintain that trust.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.236 --> 00:05:01.146 A:middle
 And today, I'm proud
@@ -423,13 +390,6 @@ are used in that transaction.
 00:05:53.466 --> 00:05:59.066 A:middle
 Now ATS is simply configured
 via your apps Info.plist.
-
-00:05:59.706 --> 00:06:00.976 A:middle
-And you can see an example here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.706 --> 00:06:00.976 A:middle
 And you can see an example here.
@@ -501,14 +461,6 @@ should aim to be.
 Now, we understand that this
 may not be always the case
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:55.056 --> 00:07:00.546 A:middle
-Now, we understand that this
-may not be always the case
-
 00:07:00.546 --> 00:07:02.016 A:middle
 that you have a server
 that can comply
@@ -575,14 +527,6 @@ is declare which domain needs
 to load over HTTP and NSURL
 Session will still allow
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:56.736 --> 00:08:00.256 A:middle
-to load over HTTP and NSURL
-Session will still allow
-
 00:08:00.256 --> 00:08:01.586 A:middle
 that cleartext load.
 
@@ -624,11 +568,11 @@ or HTTPS resource.
 Now, do note that this is
 a useful tool for debugging
 
-00:08:40.525 --> 00:08:42.236 A:middle
+00:08:40.526 --> 00:08:42.236 A:middle
 that I believe is already
 out on the Internet.
 
-00:08:42.645 --> 00:08:46.486 A:middle
+00:08:42.646 --> 00:08:46.486 A:middle
 So we ask, if you do
 use it for debugging,
 
@@ -647,14 +591,6 @@ specific servers and domains.
 00:08:57.786 --> 00:08:59.676 A:middle
 So you are in this state where
 you are allowing everything,
-
-00:08:59.896 --> 00:09:01.466 A:middle
-but you have your
-own servers, say,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.896 --> 00:09:01.466 A:middle
 but you have your
@@ -724,13 +660,6 @@ the previous release,
 00:09:57.066 --> 00:10:00.716 A:middle
 ATS rules do not apply.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.066 --> 00:10:00.716 A:middle
-ATS rules do not apply.
-
 00:10:00.926 --> 00:10:06.756 A:middle
 NSURL Session will transfer all
 HTTP resources or loads URLs
@@ -792,14 +721,6 @@ tool that's an environment
 00:10:55.216 --> 00:10:57.506 A:middle
 variable known as CF
 Network Diagnostics.
-
-00:10:58.706 --> 00:11:01.186 A:middle
-If you set CF Network
-Diagnostics to level 1,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.706 --> 00:11:01.186 A:middle
 If you set CF Network
@@ -872,14 +793,6 @@ for secure networking is now.
 And we really want to
 work with you in order
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.356 --> 00:12:01.466 A:middle
-And we really want to
-work with you in order
-
 00:12:01.466 --> 00:12:03.056 A:middle
 to protect your customers' data.
 
@@ -940,14 +853,6 @@ after this session and tomorrow.
 00:12:54.556 --> 00:12:57.316 A:middle
 We really want to work with
 you to protect our customers.
-
-00:12:58.186 --> 00:13:01.336 A:middle
-Thank you all for being here and
-I will be followed up by Andreas
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.186 --> 00:13:01.336 A:middle
 Thank you all for being here and
@@ -1018,10 +923,6 @@ change your source code.
 00:13:57.076 --> 00:13:58.766 A:middle
 Everything works automatically.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:00.346 --> 00:14:04.686 A:middle
 So today, we are going to
 talk about three things.
@@ -1083,14 +984,6 @@ So it is time for an update.
 HTTP has been around since
 the beginning of the web,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.436 --> 00:15:03.316 A:middle
-HTTP has been around since
-the beginning of the web,
-
 00:15:03.866 --> 00:15:06.746 A:middle
 and it is not a secret
 that it has many issues.
@@ -1141,14 +1034,6 @@ and lower performance
 00:15:51.576 --> 00:15:58.216 A:middle
 on both the client
 and the server.
-
-00:15:58.386 --> 00:16:01.576 A:middle
-Last year, we introduced SPDY
-Support in NSURL Session.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.386 --> 00:16:01.576 A:middle
 Last year, we introduced SPDY
@@ -1210,22 +1095,15 @@ and the server.
 00:16:57.836 --> 00:17:00.186 A:middle
 HTTP/2 is fully multiplexed.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.836 --> 00:17:00.186 A:middle
-HTTP/2 is fully multiplexed.
-
-00:17:00.976 --> 00:17:04.415 A:middle
+00:17:00.976 --> 00:17:04.416 A:middle
 That means that a new
 request does not need to wait
 
-00:17:04.415 --> 00:17:06.915 A:middle
+00:17:04.416 --> 00:17:06.916 A:middle
 until the server
 sends the response
 
-00:17:06.915 --> 00:17:08.066 A:middle
+00:17:06.916 --> 00:17:08.066 A:middle
 for the previous request.
 
 00:17:09.876 --> 00:17:12.826 A:middle
@@ -1235,11 +1113,11 @@ HTTP/2 has request priorities,
 so that more important
 resources can be delivered
 
-00:17:16.915 --> 00:17:20.675 A:middle
+00:17:16.916 --> 00:17:20.676 A:middle
 at a higher priority
 to the client.
 
-00:17:22.165 --> 00:17:28.386 A:middle
+00:17:22.166 --> 00:17:28.386 A:middle
 Let's take a look at how HTTP/2
 multiplexing resolves the
 
@@ -1268,14 +1146,6 @@ the third request.
 00:17:51.386 --> 00:17:58.586 A:middle
 Now, with pipelining enabled, we
 can send out all the requests,
-
-00:17:59.206 --> 00:18:01.726 A:middle
-one after another,
-without waiting
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.206 --> 00:18:01.726 A:middle
 one after another,
@@ -1327,14 +1197,6 @@ response was a medium priority
 00:18:52.846 --> 00:18:56.606 A:middle
 and the third response for
 request was a high priority,
-
-00:18:57.306 --> 00:19:01.346 A:middle
-arrived prior to the first
-response even though they were
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:57.306 --> 00:19:01.346 A:middle
 arrived prior to the first
@@ -1398,13 +1260,6 @@ the most used HTTP headers
 00:19:59.666 --> 00:20:00.766 A:middle
 and is unchangeable.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.666 --> 00:20:00.766 A:middle
-and is unchangeable.
-
 00:20:03.066 --> 00:20:06.776 A:middle
 The headers, which are not
 included in the static table,
@@ -1450,14 +1305,6 @@ but without its value.
 00:20:53.696 --> 00:20:58.456 A:middle
 So to encode this request,
 we need three bytes
-
-00:20:58.876 --> 00:21:02.546 A:middle
-for the first three headers,
-plus an additional byte,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.876 --> 00:21:02.546 A:middle
 for the first three headers,
@@ -1523,14 +1370,6 @@ of the bandwidth
 and it's remarkable how
 few bytes are needed
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.276 --> 00:22:00.926 A:middle
-and it's remarkable how
-few bytes are needed
-
 00:22:01.356 --> 00:22:09.376 A:middle
 to encode a request or
 response header in HTTP/2.
@@ -1590,13 +1429,6 @@ It just works.
 00:22:58.516 --> 00:23:05.546 A:middle
 [Chuckles]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.516 --> 00:23:05.546 A:middle
-[Chuckles]
-
 00:23:06.046 --> 00:23:10.006 A:middle
 Yes, you only need
 an HTTP/2 server.
@@ -1640,14 +1472,6 @@ work needed.
 00:23:44.726 --> 00:23:50.926 A:middle
 Your apps will use HTTP/2
 protocol automatically.
-
-00:23:56.536 --> 00:24:01.216 A:middle
-Please keep in mind that NSURL
-Session supports HTTP/2 protocol
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:56.536 --> 00:24:01.216 A:middle
 Please keep in mind that NSURL
@@ -1702,14 +1526,6 @@ support today.
 00:24:54.736 --> 00:24:58.116 A:middle
 We worked hard to provide
 HTTP/2 protocol support
-
-00:24:58.116 --> 00:25:01.006 A:middle
-in NSURL Session so
-that you guys can adopt
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.116 --> 00:25:01.006 A:middle
 in NSURL Session so
@@ -1784,10 +1600,6 @@ Transport Security and HTTP/2,
 
 00:25:57.766 --> 00:25:58.816 A:middle
 are built into this support.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.666 --> 00:26:04.296 A:middle
 One major difference between
@@ -1868,14 +1680,6 @@ NSURL Session on watchOS.
 00:26:56.706 --> 00:26:58.506 A:middle
 The first is that
 you should really try
-
-00:26:58.506 --> 00:27:00.726 A:middle
-to just download the
-minimal size assets
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.506 --> 00:27:00.726 A:middle
 to just download the
@@ -1964,14 +1768,6 @@ default session configuration
 00:27:57.046 --> 00:27:59.656 A:middle
 or an ephemeral session
 configuration, keep in mind
-
-00:27:59.656 --> 00:28:03.646 A:middle
-that these networking transfers
-will happen only while your app
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.656 --> 00:28:03.646 A:middle
 that these networking transfers
@@ -2066,13 +1862,6 @@ a lot of apps out there
 00:28:58.776 --> 00:29:00.046 A:middle
 that are using NSURL Connection,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.776 --> 00:29:00.046 A:middle
-that are using NSURL Connection,
-
 00:29:00.246 --> 00:29:01.546 A:middle
 and we're not just
 going to break them.
@@ -2160,14 +1949,6 @@ www.example.com over HTTPS,
 and we have an NSURL
 object to represent that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:57.976 --> 00:30:00.356 A:middle
-and we have an NSURL
-object to represent that.
-
 00:30:01.166 --> 00:30:04.806 A:middle
 We then construct an
 NSURLRequest, wrapping that URL,
@@ -2248,14 +2029,6 @@ shared session.
 Then once we resume the task, we
 would again receive the results
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.396 --> 00:31:02.866 A:middle
-Then once we resume the task, we
-would again receive the results
-
 00:31:02.866 --> 00:31:05.056 A:middle
 of that transaction,
 asynchronously,
@@ -2327,14 +2100,6 @@ are actually being stored
 
 00:31:54.996 --> 00:31:55.856 A:middle
 in different places.
-
-00:31:56.386 --> 00:32:00.076 A:middle
-But you can use what's
-called an application group
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:56.386 --> 00:32:00.076 A:middle
 But you can use what's
@@ -2422,14 +2187,6 @@ the presentations today,
 we have been talking about using
 NSURL Session in the context
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.596 --> 00:33:01.776 A:middle
-we have been talking about using
-NSURL Session in the context
-
 00:33:01.776 --> 00:33:03.186 A:middle
 of loading HTTP content.
 
@@ -2504,13 +2261,6 @@ the read and writes could block,
 00:33:59.656 --> 00:34:00.576 A:middle
 and it was kind of a mess.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.656 --> 00:34:00.576 A:middle
-and it was kind of a mess.
-
 00:34:00.946 --> 00:34:02.506 A:middle
 But this is a lot
 easier and cleaner.
@@ -2523,7 +2273,7 @@ has great built-in support
 for automatically getting
 through HTTP proxies,
 
-00:34:09.835 --> 00:34:12.426 A:middle
+00:34:09.836 --> 00:34:12.426 A:middle
 and NSURL Session Stream Task
 can leverage this support
 
@@ -2531,11 +2281,11 @@ can leverage this support
 so that you can connect
 to a remote server even
 
-00:34:15.226 --> 00:34:17.045 A:middle
+00:34:15.226 --> 00:34:17.046 A:middle
 if there's an HTTP
 proxy between it,
 
-00:34:17.045 --> 00:34:18.516 A:middle
+00:34:17.046 --> 00:34:18.516 A:middle
 and NSStream can't
 really do this.
 
@@ -2543,7 +2293,7 @@ really do this.
 And there are a few
 other new API goodies
 
-00:34:21.426 --> 00:34:23.045 A:middle
+00:34:21.426 --> 00:34:23.046 A:middle
 that I will talk
 about later as well.
 
@@ -2555,7 +2305,7 @@ is a very pervasive API.
 There are a lot of other
 frameworks and APIs that accept
 
-00:34:30.696 --> 00:34:32.315 A:middle
+00:34:30.696 --> 00:34:32.316 A:middle
 and work with NSStream objects.
 
 00:34:32.806 --> 00:34:35.806 A:middle
@@ -2566,18 +2316,18 @@ to be compatible with NSStreams
 as well and I will
 show you that later on.
 
-00:34:38.775 --> 00:34:42.835 A:middle
+00:34:38.776 --> 00:34:42.836 A:middle
 So as I said, NSURL Session
 Stream Task supports TCP/IP
 
-00:34:42.835 --> 00:34:45.896 A:middle
+00:34:42.836 --> 00:34:45.896 A:middle
 connections, which you
 can create explicitly
 
-00:34:45.896 --> 00:34:47.005 A:middle
+00:34:45.896 --> 00:34:47.006 A:middle
 with a host name and port,
 
-00:34:47.335 --> 00:34:50.936 A:middle
+00:34:47.336 --> 00:34:50.936 A:middle
 or if you are using
 the NSNetService's APIs
 
@@ -2591,14 +2341,6 @@ that NSNetService and resolve
 
 00:34:56.016 --> 00:34:57.096 A:middle
 that for you automatically.
-
-00:34:58.636 --> 00:35:02.496 A:middle
-Stream Task uses the existing
-NSURL Session configuration
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.636 --> 00:35:02.496 A:middle
 Stream Task uses the existing
@@ -2679,14 +2421,6 @@ Writing is very similar.
 00:35:55.576 --> 00:35:58.976 A:middle
 We -- unlike -- with NSStream we
 can work directly with NSData,
-
-00:35:58.976 --> 00:36:01.206 A:middle
-you just pass in the NSData
-object that you want us to write
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.976 --> 00:36:01.206 A:middle
 you just pass in the NSData
@@ -2782,14 +2516,6 @@ no longer count against a limit
 that you may have set on
 the session's maximum number
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.626 --> 00:37:00.986 A:middle
-that you may have set on
-the session's maximum number
-
 00:37:00.986 --> 00:37:04.166 A:middle
 of connections per host,
 and it will no longer be
@@ -2870,14 +2596,6 @@ you to decide whether
 
 00:37:58.486 --> 00:37:59.616 A:middle
 or not you want to do this.
-
-00:37:59.706 --> 00:38:03.026 A:middle
-You know, if you are 99% of the
-way through transferring a lot
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.706 --> 00:38:03.026 A:middle
 You know, if you are 99% of the
@@ -2965,10 +2683,6 @@ converted to a Stream Task
 with the 'URL Session Data Task
 Did Become Stream Task' method.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:02.016 --> 00:39:04.156 A:middle
 Before we finish up today,
 I would just like to go
@@ -3043,14 +2757,6 @@ our website, and remind you
 about the developer forums
 that you can participate in,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.236 --> 00:40:00.786 A:middle
-about the developer forums
-that you can participate in,
-
 00:40:00.786 --> 00:40:03.246 A:middle
 and any questions that you
 might have while you are here
@@ -3106,4 +2812,3 @@ Thanks.
 
 00:40:32.516 --> 00:40:35.500 A:middle
 [Applause]
-

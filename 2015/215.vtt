@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:23.516 --> 00:00:31.096 A:middle
 [Applause]
@@ -50,17 +49,10 @@ have shipped an app
 00:00:59.456 --> 00:01:00.606 A:middle
 that uses storyboards?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.456 --> 00:01:00.606 A:middle
-that uses storyboards?
-
-00:01:01.126 --> 00:01:04.025 A:middle
+00:01:01.126 --> 00:01:04.026 A:middle
 That is a very good number.
 
-00:01:04.025 --> 00:01:08.996 A:middle
+00:01:04.026 --> 00:01:08.996 A:middle
 How many people here have
 maybe tried to use storyboards
 
@@ -131,13 +123,6 @@ controllers that you use in iOS.
 00:01:58.316 --> 00:02:01.446 A:middle
 So let's get started.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.316 --> 00:02:01.446 A:middle
-So let's get started.
-
 00:02:01.446 --> 00:02:05.846 A:middle
 We have a really simple
 demo application here.
@@ -146,7 +131,7 @@ demo application here.
 It is just a collection
 view that displays a bunch
 
-00:02:07.856 --> 00:02:09.795 A:middle
+00:02:07.856 --> 00:02:09.796 A:middle
 of photos inside of
 navigation controller.
 
@@ -206,14 +191,6 @@ with regard to storyboards.
 00:02:56.906 --> 00:02:58.896 A:middle
 Those boxes that have been
 turned into circles here,
-
-00:02:59.186 --> 00:03:02.286 A:middle
-we call those scenes and
-they act as templates
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.186 --> 00:03:02.286 A:middle
 we call those scenes and
@@ -294,10 +271,6 @@ in Interface Builder --
 00:03:56.786 --> 00:03:59.496 A:middle
 in Xcode as our main
 interface file for our project
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:00.166 --> 00:04:01.166 A:middle
 and we run the application.
@@ -380,14 +353,6 @@ so do your storyboards.
 Eventually in order to
 keep things manageable,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.156 --> 00:05:00.076 A:middle
-Eventually in order to
-keep things manageable,
-
 00:05:00.076 --> 00:05:02.456 A:middle
 just like you split your source
 code into multiple files,
@@ -464,13 +429,6 @@ or in another storyboard.
 00:05:58.196 --> 00:06:01.856 A:middle
 Just like any scene, it can be
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.196 --> 00:06:01.856 A:middle
-Just like any scene, it can be
-
 00:06:02.296 --> 00:06:05.896 A:middle
 at the destination
 end of any segueway.
@@ -538,14 +496,6 @@ controller and you can open
 00:06:53.276 --> 00:06:55.966 A:middle
 up a tab by tapping
 on its navigation bar.
-
-00:06:56.676 --> 00:07:00.746 A:middle
-This first tab shows a
-table of upcoming events.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:56.676 --> 00:07:00.746 A:middle
 This first tab shows a
@@ -626,14 +576,6 @@ of my storyboard you can see
 that I have the three view
 controllers for my photos tab.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:56.866 --> 00:08:00.016 A:middle
-that I have the three view
-controllers for my photos tab.
-
 00:08:01.436 --> 00:08:04.256 A:middle
 These view controllers are
 mostly independent of the rest
@@ -675,7 +617,7 @@ and puts them in the new file.
 What happened back in
 the main storyboard file?
 
-00:08:32.336 --> 00:08:33.385 A:middle
+00:08:32.336 --> 00:08:33.386 A:middle
 Let's use the back button.
 
 00:08:34.746 --> 00:08:35.916 A:middle
@@ -692,7 +634,7 @@ storyboard reference.
 Whenever you refactor
 scenes from a storyboard
 
-00:08:43.395 --> 00:08:46.406 A:middle
+00:08:43.396 --> 00:08:46.406 A:middle
 and the scenes have incoming
 segueways, Xcode is going
 
@@ -711,14 +653,6 @@ segueway executes,
 00:08:54.916 --> 00:08:57.636 A:middle
 it is going to instantiate
 the initial view controller
-
-00:08:57.636 --> 00:09:00.366 A:middle
-out of my photo storyboard and
-use that as its destination.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.636 --> 00:09:00.366 A:middle
 out of my photo storyboard and
@@ -805,13 +739,6 @@ for a storyboard reference.
 00:09:55.016 --> 00:09:58.566 A:middle
 As you can see, there
 are three fields here.
-
-00:09:59.386 --> 00:10:01.086 A:middle
-The first field is the name
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.386 --> 00:10:01.086 A:middle
 The first field is the name
@@ -904,14 +831,6 @@ because my main storyboard is
 in the same bundle as
 my photo storyboard.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.686 --> 00:11:01.756 A:middle
-in the same bundle as
-my photo storyboard.
-
 00:11:02.226 --> 00:11:08.576 A:middle
 Once again, now that my
 storyboard reference is
@@ -989,14 +908,6 @@ top level objects alongside your
 view controller and you might
 put a view in your SceneDoc
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.396 --> 00:12:01.946 A:middle
-view controller and you might
-put a view in your SceneDoc
-
 00:12:02.236 --> 00:12:04.526 A:middle
 if you don't want that
 view to initially be a part
@@ -1068,14 +979,6 @@ execute that segueway which goes
 00:12:56.146 --> 00:12:58.136 A:middle
 into our main storyboard
 file and instantiates
-
-00:12:58.136 --> 00:13:01.726 A:middle
-that view controller by its
-identifier and it works just
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.136 --> 00:13:01.726 A:middle
 that view controller by its
@@ -1161,10 +1064,6 @@ with the journal button
 and that's going to bring
 up navigation controller
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:00.246 --> 00:14:03.106 A:middle
 that has a table view
 controller inside of it.
@@ -1229,14 +1128,6 @@ can take on in iOS.
 00:14:55.656 --> 00:14:58.496 A:middle
 The default is coming from the
 bottom, its that cover vertical,
-
-00:14:58.496 --> 00:15:01.716 A:middle
-but we can also do a horizontal
-flip or cross dissolve,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.496 --> 00:15:01.716 A:middle
 but we can also do a horizontal
@@ -1312,10 +1203,6 @@ but now your implementation
 00:15:57.146 --> 00:15:59.886 A:middle
 of perform can call up
 the supers implementation
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.076 --> 00:16:01.386 A:middle
 and get the default behavior.
@@ -1398,14 +1285,6 @@ button to trigger the segueway.
 The destination view controller
 exists, it has been instantiated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.856 --> 00:17:00.776 A:middle
-The destination view controller
-exists, it has been instantiated
-
 00:17:00.776 --> 00:17:02.796 A:middle
 from the storyboard but has
 not been put onscreen yet.
@@ -1426,7 +1305,7 @@ transitioning delegate
 to the destination
 view controller.
 
-00:17:12.665 --> 00:17:18.646 A:middle
+00:17:12.666 --> 00:17:18.646 A:middle
 Then it will call super to begin
 the normal modal presentation.
 
@@ -1434,7 +1313,7 @@ the normal modal presentation.
 Now the destination
 view controller,
 
-00:17:22.465 --> 00:17:24.346 A:middle
+00:17:22.466 --> 00:17:24.346 A:middle
 when it gets
 presentViewController
 
@@ -1442,7 +1321,7 @@ presentViewController
 which is done by supers
 implementation or perform,
 
-00:17:27.425 --> 00:17:29.196 A:middle
+00:17:27.426 --> 00:17:29.196 A:middle
 is going to consult with
 the transition delegate
 
@@ -1483,14 +1362,6 @@ has a transitioning delegate
 00:17:56.486 --> 00:17:58.826 A:middle
 assigned to it and asks
 that transitioning delegate
-
-00:17:58.826 --> 00:18:02.446 A:middle
-for an animation controller
-to drive the dismissal.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.826 --> 00:18:02.446 A:middle
 for an animation controller
@@ -1571,14 +1442,6 @@ from a talk on Tuesday,
 00:18:54.646 --> 00:18:58.046 A:middle
 getting started with
 multitasking on iPad in iOS 9
-
-00:18:58.416 --> 00:19:00.756 A:middle
-which explains why you would
-want to do something like this
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.416 --> 00:19:00.756 A:middle
 which explains why you would
@@ -1668,14 +1531,6 @@ to have a new view controller
 to temporarily replace
 the view controller
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.776 --> 00:20:00.586 A:middle
-to temporarily replace
-the view controller
-
 00:20:00.586 --> 00:20:01.826 A:middle
 that is currently
 being presented.
@@ -1746,14 +1601,6 @@ this delete button,
 00:20:55.256 --> 00:20:58.396 A:middle
 I want to conditionally
 present a confirmation sheet
-
-00:20:58.706 --> 00:21:01.956 A:middle
-if this photo here is
-associated with a journal entry.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.706 --> 00:21:01.956 A:middle
 if this photo here is
@@ -1840,14 +1687,6 @@ controller itself.
 To do that, I'll control
 drag from this icon
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.376 --> 00:22:01.926 A:middle
-To do that, I'll control
-drag from this icon
-
 00:22:01.926 --> 00:22:03.546 A:middle
 in my sourceViewController
 SceneDoc
@@ -1906,10 +1745,6 @@ method and now I'm just going
 
 00:22:53.916 --> 00:22:56.386 A:middle
 to paste in some code here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:01.176 --> 00:23:03.076 A:middle
 There you go.
@@ -1975,14 +1810,6 @@ identifier here, confirm delete.
 00:23:55.016 --> 00:23:59.546 A:middle
 You may notice if you used the
 segueway Attributes inspector
-
-00:23:59.546 --> 00:24:01.896 A:middle
-before, there is a new
-field under the identifier
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.546 --> 00:24:01.896 A:middle
 before, there is a new
@@ -2065,13 +1892,6 @@ perform method and in
 00:24:58.676 --> 00:25:00.776 A:middle
 that method I set the segueway
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.676 --> 00:25:00.776 A:middle
-that method I set the segueway
-
 00:25:00.986 --> 00:25:03.126 A:middle
 as the destination view
 controller's transitional
@@ -2146,13 +1966,6 @@ with our custom animation.
 00:25:59.986 --> 00:26:01.656 A:middle
 We see our confirmation sheet.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.986 --> 00:26:01.656 A:middle
-We see our confirmation sheet.
-
 00:26:02.396 --> 00:26:08.476 A:middle
 Now when I cancel this we run
 our dismissal animation using
@@ -2214,14 +2027,6 @@ view controller on iOS?
 
 00:26:55.556 --> 00:26:57.566 A:middle
 About the same number.
-
-00:26:58.646 --> 00:27:00.096 A:middle
-One thing that I'm
-really excited to talk
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.646 --> 00:27:00.096 A:middle
 One thing that I'm
@@ -2305,14 +2110,6 @@ to get to the Cathedral.
 What I want to do is first
 figure out where I'm going,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:57.846 --> 00:28:03.216 A:middle
-What I want to do is first
-figure out where I'm going,
-
 00:28:04.646 --> 00:28:09.516 A:middle
 second, find that
 location, and third,
@@ -2380,14 +2177,6 @@ That's where we're at right now.
 At this point the user
 says I want to go back
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:57.536 --> 00:29:00.416 A:middle
-At this point the user
-says I want to go back
-
 00:29:00.416 --> 00:29:02.306 A:middle
 to that journal table I
 was looking at before.
@@ -2447,14 +2236,6 @@ that we can determine
 00:29:50.166 --> 00:29:52.376 A:middle
 that we have found the view
 controller we are looking for.
-
-00:29:58.216 --> 00:30:00.496 A:middle
-Step two is finding
-the destination.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.216 --> 00:30:00.496 A:middle
 Step two is finding
@@ -2526,14 +2307,6 @@ controller, returns an array
 00:30:56.746 --> 00:30:59.916 A:middle
 of the children of the
 receiver that we should look
-
-00:30:59.916 --> 00:31:02.126 A:middle
-through to try to find
-the destination So we want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.916 --> 00:31:02.126 A:middle
 through to try to find
@@ -2611,10 +2384,6 @@ of our unwind segueway?
 00:31:57.396 --> 00:31:59.166 A:middle
 It doesn't have any children.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:01.086 --> 00:32:03.866 A:middle
 We have the base case for
 our recursion and we ask it,
@@ -2687,10 +2456,6 @@ should we look
 00:32:57.496 --> 00:32:59.196 A:middle
 through to find the
 unwind source?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.246 --> 00:33:01.386 A:middle
 I'm sorry, the unwind
@@ -2766,23 +2531,15 @@ controller hierarchies.
 We have deprecated that
 method and we replaced it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.316 --> 00:34:02.216 A:middle
-We have deprecated that
-method and we replaced it
-
 00:34:02.216 --> 00:34:04.236 A:middle
 with a feature we call
 incremental unwinding.
 
-00:34:04.796 --> 00:34:09.085 A:middle
+00:34:04.796 --> 00:34:09.086 A:middle
 This feature let's every view
 controller from the source
 
-00:34:09.085 --> 00:34:11.636 A:middle
+00:34:09.086 --> 00:34:11.636 A:middle
 to the destination
 participate in the unwind
 
@@ -2815,26 +2572,26 @@ Well, we have found the route
 from the source to
 the destination.
 
-00:34:37.235 --> 00:34:42.505 A:middle
+00:34:37.236 --> 00:34:42.506 A:middle
 The first thing we're going
 to do is ask the first hop
 
-00:34:42.505 --> 00:34:44.466 A:middle
+00:34:42.506 --> 00:34:44.466 A:middle
 on that route to unwind
 
-00:34:44.466 --> 00:34:46.025 A:middle
+00:34:44.466 --> 00:34:46.026 A:middle
 for segueway towards
 view controller.
 
-00:34:46.025 --> 00:34:48.815 A:middle
+00:34:46.026 --> 00:34:48.816 A:middle
 We're going to ask the
 parent of the source
 
-00:34:49.916 --> 00:34:52.505 A:middle
+00:34:49.916 --> 00:34:52.506 A:middle
 to perform whatever action
 is necessary to get us
 
-00:34:52.505 --> 00:34:55.775 A:middle
+00:34:52.506 --> 00:34:55.776 A:middle
 to the next step in the chain.
 
 00:34:55.996 --> 00:34:58.146 A:middle
@@ -2843,14 +2600,6 @@ doesn't know anything
 
 00:34:58.146 --> 00:34:58.586 A:middle
 about its parent.
-
-00:34:58.586 --> 00:35:00.886 A:middle
-This method actually
-doesn't do anything.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.586 --> 00:35:00.886 A:middle
 This method actually
@@ -2930,10 +2679,6 @@ how to use unwind segueways
 00:35:57.406 --> 00:35:58.966 A:middle
 with a custom container
 view controller.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.346 --> 00:36:03.716 A:middle
 You might remember in our first
@@ -3022,13 +2767,6 @@ journal table view controller.
 00:36:59.086 --> 00:37:00.756 A:middle
 Over here in the implementation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.086 --> 00:37:00.756 A:middle
-Over here in the implementation
-
 00:37:00.756 --> 00:37:03.616 A:middle
 for that controller you can
 see I have an IB action method.
@@ -3102,10 +2840,6 @@ for creating a new journal entry
 00:37:56.356 --> 00:37:59.716 A:middle
 and we'll create an unwind
 segueway from this done button.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.446 --> 00:38:02.806 A:middle
 To do that, we'll control-drag
@@ -3182,10 +2916,6 @@ towards view controller.
 00:38:57.986 --> 00:38:59.336 A:middle
 In this method I do two things.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.826 --> 00:39:03.516 A:middle
 First of all, I take the
 currently selected navigation
@@ -3261,14 +2991,6 @@ tap the done button.
 00:39:55.696 --> 00:39:57.636 A:middle
 You can see we have
 switched tabs.
-
-00:39:58.546 --> 00:40:00.166 A:middle
-We have ended up at our
-journal view controller
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:58.546 --> 00:40:00.166 A:middle
 We have ended up at our
@@ -3355,14 +3077,6 @@ view containing controllers
 for segueway source method so
 that it can filter the array
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:56.796 --> 00:41:00.746 A:middle
-for segueway source method so
-that it can filter the array
-
 00:41:00.746 --> 00:41:04.066 A:middle
 of child view controllers
 that it returns.
@@ -3436,14 +3150,6 @@ segueways will hang on to --
 00:41:56.956 --> 00:41:59.196 A:middle
 sorry -- the view
 controllers that are presented
-
-00:41:59.256 --> 00:42:02.526 A:middle
-by present modally and popover
-presentation segueways will hang
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.256 --> 00:42:02.526 A:middle
 by present modally and popover
@@ -3538,18 +3244,9 @@ inquiries,
 contact Curt Rothert,
 our evangelist.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:58.496 --> 00:43:00.546 A:middle
-contact Curt Rothert,
-our evangelist.
-
 00:43:01.186 --> 00:43:02.966 A:middle
 Otherwise, maybe I'll
 see you at the bash.
 
 00:43:03.516 --> 00:43:06.500 A:middle
 [Applause]
-

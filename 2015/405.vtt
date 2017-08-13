@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:25.646 --> 00:00:25.966 A:middle
 &gt;&gt; SAM: Good morning.
@@ -61,22 +60,14 @@ Playground since last year,
 and we're also going to cover
 some of the existing features
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.846 --> 00:01:01.996 A:middle
-and we're also going to cover
-some of the existing features
-
 00:01:01.996 --> 00:01:02.736 A:middle
 that have been updated.
 
-00:01:03.496 --> 00:01:05.355 A:middle
+00:01:03.496 --> 00:01:05.356 A:middle
 And we'll also cover
 some tips and tricks
 
-00:01:05.355 --> 00:01:07.846 A:middle
+00:01:05.356 --> 00:01:07.846 A:middle
 that can help you author
 really, really rich Playgrounds,
 
@@ -154,14 +145,6 @@ places that we want to visit,
 we're going to start
 out at Moscone Center,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.796 --> 00:02:00.286 A:middle
-we're going to start
-out at Moscone Center,
-
 00:02:00.866 --> 00:02:02.486 A:middle
 traverse all the places
 that we're going to see
@@ -174,7 +157,7 @@ before we finally have to jet
 out for San Francisco
 International Airport.
 
-00:02:07.356 --> 00:02:09.895 A:middle
+00:02:07.356 --> 00:02:09.896 A:middle
 Now to do this we're going
 to be building a Playground.
 
@@ -235,14 +218,6 @@ got an array of places,
 00:02:57.486 --> 00:02:59.036 A:middle
 and then we've got
 a function here
-
-00:02:59.036 --> 00:03:00.956 A:middle
-that we can add places
-to our city.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.036 --> 00:03:00.956 A:middle
 that we can add places
@@ -340,14 +315,6 @@ returned in our results sidebar?
 Well for that we've
 got a new protocol,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.866 --> 00:04:01.406 A:middle
-Well for that we've
-got a new protocol,
-
 00:04:01.836 --> 00:04:03.726 A:middle
 and that is called
 Custom String Convertible.
@@ -371,11 +338,11 @@ I've got an area here
 because they're not actually
 conforming to the protocol yet.
 
-00:04:16.826 --> 00:04:19.435 A:middle
+00:04:16.826 --> 00:04:19.436 A:middle
 So to actually conform to
 the protocol we just need
 
-00:04:19.435 --> 00:04:21.646 A:middle
+00:04:19.436 --> 00:04:21.646 A:middle
 to implement a re
 [unintelligible] property
 
@@ -432,14 +399,6 @@ String Convertible there.
 00:04:55.736 --> 00:04:58.756 A:middle
 And go ahead and
 return the description.
-
-00:04:59.046 --> 00:05:02.466 A:middle
-And for that we're going to
-return to places.description,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.046 --> 00:05:02.466 A:middle
 And for that we're going to
@@ -529,14 +488,6 @@ that's a place.
 00:05:57.466 --> 00:05:59.776 A:middle
 And to me nothing
 screams "place" more
-
-00:05:59.776 --> 00:06:02.086 A:middle
-than just a big blue dot
-with a name underneath,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.776 --> 00:06:02.086 A:middle
 than just a big blue dot
@@ -635,14 +586,6 @@ appearing on a map.
 But how do we actually
 join these things up so
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.836 --> 00:07:00.736 A:middle
-But how do we actually
-join these things up so
-
 00:07:01.316 --> 00:07:04.666 A:middle
 when we Quick Look our place, we
 actually see our view returned?
@@ -727,14 +670,6 @@ on place, we have access
 to the name of our place, so
 we can just go ahead and throw
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.396 --> 00:08:00.476 A:middle
-to the name of our place, so
-we can just go ahead and throw
-
 00:08:00.476 --> 00:08:01.536 A:middle
 that into the initializer there.
 
@@ -783,7 +718,7 @@ delete this place view here
 00:08:28.926 --> 00:08:29.666 A:middle
 because we don't need that.
 
-00:08:30.596 --> 00:08:33.775 A:middle
+00:08:30.596 --> 00:08:33.776 A:middle
 And we're going to grab the
 view here that we declared
 
@@ -819,14 +754,6 @@ for our city?
 00:08:56.836 --> 00:08:59.186 A:middle
 So if we're following the
 kind of pattern that we want
-
-00:08:59.186 --> 00:09:02.206 A:middle
-to see what's in our city at
-the moment, then we kind of want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.186 --> 00:09:02.206 A:middle
 to see what's in our city at
@@ -936,14 +863,6 @@ things would be positioned
 within that view based on their
 latitude and longitude pair.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.946 --> 00:10:00.686 A:middle
-within that view based on their
-latitude and longitude pair.
-
 00:10:01.656 --> 00:10:06.296 A:middle
 So now when we Quick Look
 our city we should see, cool,
@@ -1035,10 +954,6 @@ on the rest of our Playground,
 00:10:58.836 --> 00:10:59.736 A:middle
 adding our places to that,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.086 --> 00:11:01.356 A:middle
 and we should see them
 pop up in our map.
@@ -1127,14 +1042,6 @@ and switch back to slides now.
 So you may have noticed that our
 Playground got a little bit long
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.416 --> 00:12:01.006 A:middle
-So you may have noticed that our
-Playground got a little bit long
-
 00:12:01.006 --> 00:12:01.776 A:middle
 towards the end of that.
 
@@ -1215,10 +1122,6 @@ making it more focused.
 Let's head over to
 the demo machine now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:08.806 --> 00:13:10.466 A:middle
 Okay, so here we are in Xcode.
 
@@ -1290,14 +1193,6 @@ a separate swift module.
 00:13:56.066 --> 00:13:58.146 A:middle
 Because they don't
 need to be interactive,
-
-00:13:58.266 --> 00:14:00.506 A:middle
-they can perform better
-than the Playground itself.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.266 --> 00:14:00.506 A:middle
 they can perform better
@@ -1382,14 +1277,6 @@ between each place in the city.
 00:14:53.806 --> 00:14:58.276 A:middle
 If we look at place.swift, we
 see the same basic stuff here.
-
-00:14:58.576 --> 00:15:00.896 A:middle
-So same struct that we
-had before, just modified
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.576 --> 00:15:00.896 A:middle
 So same struct that we
@@ -1492,14 +1379,6 @@ of the main bundle.
 And they live in the
 navigator as well,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.876 --> 00:16:01.076 A:middle
-And they live in the
-navigator as well,
-
 00:16:01.076 --> 00:16:02.326 A:middle
 in this little Resources folder.
 
@@ -1586,14 +1465,6 @@ these destination and origin,
 I am making this a little
 bit simpler and assuming
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.006 --> 00:17:00.846 A:middle
-I am making this a little
-bit simpler and assuming
-
 00:17:00.846 --> 00:17:02.226 A:middle
 that the time it takes
 to get from point A
@@ -1606,7 +1477,7 @@ the time to get from point B
 to point A, so these are
 actually bidirectional
 
-00:17:07.925 --> 00:17:08.656 A:middle
+00:17:07.926 --> 00:17:08.656 A:middle
 travel times.
 
 00:17:10.246 --> 00:17:11.496 A:middle
@@ -1621,11 +1492,11 @@ this code here, I'm just going
 to select a bunch of it and
 delete it and replace it
 
-00:17:18.266 --> 00:17:21.465 A:middle
+00:17:18.266 --> 00:17:21.466 A:middle
 with a call to load my
 city of San Francisco.
 
-00:17:22.496 --> 00:17:25.205 A:middle
+00:17:22.496 --> 00:17:25.206 A:middle
 So start out by calling
 this initializer on city,
 
@@ -1674,14 +1545,6 @@ error with the Try keyword
 00:17:55.456 --> 00:17:57.486 A:middle
 and add an exclamation point
 at the end because I don't want
-
-00:17:57.486 --> 00:18:00.416 A:middle
-to add a bunch of error handling
-code that's not instructive
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.486 --> 00:18:00.416 A:middle
 to add a bunch of error handling
@@ -1781,14 +1644,6 @@ to my Playground.
 I do need to update my
 Quick Look to take advantage
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.776 --> 00:19:02.176 A:middle
-I do need to update my
-Quick Look to take advantage
-
 00:19:02.176 --> 00:19:02.956 A:middle
 of these images, though.
 
@@ -1871,14 +1726,6 @@ on our algorithm.
 00:19:54.766 --> 00:19:56.276 A:middle
 I'm also going to
 hide the navigator
-
-00:19:56.276 --> 00:20:00.566 A:middle
-because I don't need it and
-I'd like the extra space.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:56.276 --> 00:20:00.566 A:middle
 because I don't need it and
@@ -1971,14 +1818,6 @@ to get between all these places
 if we never stopped and
 somehow managed to make all
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.036 --> 00:21:01.696 A:middle
-if we never stopped and
-somehow managed to make all
-
 00:21:01.696 --> 00:21:02.676 A:middle
 of our transit connections.
 
@@ -2041,14 +1880,6 @@ powerful while keeping them
 
 00:21:57.716 --> 00:21:59.016 A:middle
 incredibly focused on the task
-
-00:21:59.196 --> 00:22:00.566 A:middle
-that you're trying
-to actually achieve.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.196 --> 00:22:00.566 A:middle
 that you're trying
@@ -2143,10 +1974,6 @@ there on the Internet
 00:22:51.636 --> 00:22:52.526 A:middle
 and people will love it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:02.666 --> 00:23:04.546 A:middle
 So you can see here
 we have the Playground
@@ -2238,14 +2065,6 @@ the top of the Playground
 with a little bit of information
 about exploring San Francisco.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.906 --> 00:24:03.256 A:middle
-with a little bit of information
-about exploring San Francisco.
-
 00:24:03.346 --> 00:24:05.656 A:middle
 Now you can see this
 looks a lot like a comment
@@ -2332,10 +2151,6 @@ got a nice, big, bold heading
 00:24:57.536 --> 00:24:59.876 A:middle
 that explains exactly what
 we're going to be talking about.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.136 --> 00:25:01.076 A:middle
 So that's a great start.
@@ -2430,14 +2245,6 @@ Xcode 7, and that's Live Views.
 So I've taking the liberty
 of writing a live view.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.166 --> 00:26:01.006 A:middle
-So I've taking the liberty
-of writing a live view.
-
 00:26:01.326 --> 00:26:04.726 A:middle
 I've put it into the auxiliary
 sources already, and we're going
@@ -2520,14 +2327,6 @@ controller's view.
 So if now I switch over and
 show our Assistant editor
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.136 --> 00:27:00.836 A:middle
-So if now I switch over and
-show our Assistant editor
-
 00:27:01.356 --> 00:27:05.146 A:middle
 after the Playground reexecutes,
 we'll see a live view
@@ -2601,14 +2400,6 @@ to add a line in here
 00:27:56.946 --> 00:27:59.556 A:middle
 so we can tell the view code
 controller once we've found a
-
-00:27:59.556 --> 00:28:01.916 A:middle
-better path, we want to
-show that better path,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.556 --> 00:28:01.916 A:middle
 better path, we want to
@@ -2694,10 +2485,6 @@ that, they're going to say,
 
 00:28:58.456 --> 00:28:59.966 A:middle
 well there must be a better way.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.636 --> 00:29:01.606 A:middle
 And in fact there is.
@@ -2804,14 +2591,6 @@ in the same Playground.
 I'm going to call this one
 Nearest Neighbor, after the name
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.596 --> 00:30:02.306 A:middle
-I'm going to call this one
-Nearest Neighbor, after the name
-
 00:30:02.676 --> 00:30:06.106 A:middle
 of the algorithm that
 we're going to be using.
@@ -2888,14 +2667,6 @@ to go ahead and paste that in.
 So what we have here
 is a Playground
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:57.816 --> 00:31:00.106 A:middle
-So what we have here
-is a Playground
-
 00:31:00.486 --> 00:31:03.206 A:middle
 with nearest neighbor
 approximation, and you can see
@@ -2966,14 +2737,6 @@ pages in a single Playground
 00:31:55.976 --> 00:31:59.356 A:middle
 and bring it back to our optimal
 path that we discovered earlier.
-
-00:31:59.356 --> 00:32:03.506 A:middle
-And in fact, when we look
-at the number of paths
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.356 --> 00:32:03.506 A:middle
 And in fact, when we look
@@ -3055,14 +2818,6 @@ those go with the Playground
 00:32:55.696 --> 00:32:56.736 A:middle
 when you share it
 with other people.
-
-00:32:57.426 --> 00:33:00.486 A:middle
-We also have Auxiliary Sources
-so you can take the code
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:57.426 --> 00:33:00.486 A:middle
 We also have Auxiliary Sources
@@ -3156,14 +2911,6 @@ tomorrow afternoon,
 and Building Better Apps
 with Value Types in Swift.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.946 --> 00:34:01.036 A:middle
-and Building Better Apps
-with Value Types in Swift.
-
 00:34:01.166 --> 00:34:02.656 A:middle
 Also the What's New in
 Xcode and What's New
@@ -3178,4 +2925,3 @@ enjoy the rest of the WWDC.
 
 00:34:08.016 --> 00:34:09.000 A:middle
 [Applause]
-

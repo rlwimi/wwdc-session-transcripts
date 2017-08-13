@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.516 --> 00:00:29.826 A:middle
 [Applause]
@@ -36,14 +35,6 @@ and SceneKit for 3D.
 00:00:54.656 --> 00:00:57.986 A:middle
 You can use them with other game
 technologies like Model I/O,
-
-00:00:58.396 --> 00:01:02.706 A:middle
-GameplayKit, and GameController,
-and give you access
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.396 --> 00:01:02.706 A:middle
 GameplayKit, and GameController,
@@ -116,13 +107,6 @@ All right.
 00:01:57.956 --> 00:02:00.076 A:middle
 The new Scene Editor.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.956 --> 00:02:00.076 A:middle
-The new Scene Editor.
-
 00:02:00.816 --> 00:02:06.696 A:middle
 It is available in Xcode 7,
 so we can run it in El Capitan
@@ -171,14 +155,6 @@ the Scene Editor is
 00:02:55.726 --> 00:02:57.986 A:middle
 to let you build the
 levels of your game.
-
-00:02:58.546 --> 00:03:01.956 A:middle
-You will see that it's really
-easy to combine multiple assets
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.546 --> 00:03:01.956 A:middle
 You will see that it's really
@@ -250,10 +226,6 @@ more information about this.
 Okay. But nothing better
 than a demo to show you this,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.256 --> 00:04:03.616 A:middle
 so let me bring Amaury on stage
 for presentation of Xcode 7.
@@ -278,7 +250,7 @@ with the SceneKit team.
 We dramatically improved the
 SceneKit editor in Xcode 7,
 
-00:04:19.505 --> 00:04:22.096 A:middle
+00:04:19.506 --> 00:04:22.096 A:middle
 and with its new
 editing capabilities,
 
@@ -319,10 +291,6 @@ SceneKit Scene Editor showing an
 
 00:04:58.446 --> 00:04:59.006 A:middle
 empty scene.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.056 --> 00:05:03.536 A:middle
 On the right side, you have
@@ -381,14 +349,6 @@ and set its position to zero.
 But actually, there is a
 more simple way to do that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.626 --> 00:06:01.706 A:middle
-But actually, there is a
-more simple way to do that.
-
 00:06:03.106 --> 00:06:04.626 A:middle
 Using the 3D manipulator,
 
@@ -437,14 +397,6 @@ all the objects,
 
 00:06:54.336 --> 00:06:56.666 A:middle
 head to the physics inspector,
-
-00:06:57.736 --> 00:07:00.546 A:middle
-and add a dynamic
-body to each block.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.736 --> 00:07:00.546 A:middle
 and add a dynamic
@@ -510,14 +462,6 @@ corner of the editor.
 The scene review is where
 you can see all the nodes
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.696 --> 00:08:00.416 A:middle
-The scene review is where
-you can see all the nodes
-
 00:08:00.416 --> 00:08:04.256 A:middle
 in your scene, and it is where
 you can edit the node hierarchy.
@@ -558,7 +502,7 @@ And that's it.
 Just through the editor,
 we built an entire scene
 
-00:08:36.155 --> 00:08:40.836 A:middle
+00:08:36.156 --> 00:08:40.836 A:middle
 with 3D objects, textures,
 lighting, and dynamic bodies
 
@@ -581,14 +525,6 @@ more things that you can do
 00:08:56.206 --> 00:08:59.556 A:middle
 with Editor, and to
 cover that, let's switch
-
-00:08:59.556 --> 00:09:06.146 A:middle
-to the Red Panda demo, and
-let's see the demo again.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.556 --> 00:09:06.146 A:middle
 to the Red Panda demo, and
@@ -640,14 +576,6 @@ also have to avoid obstacles.
 00:09:54.286 --> 00:09:58.276 A:middle
 Notice the sound became
 louder as we pushed.
-
-00:09:58.276 --> 00:10:02.666 A:middle
-It's because we used one of
-SceneKit new API's 3D audio.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.276 --> 00:10:02.666 A:middle
 It's because we used one of
@@ -708,14 +636,6 @@ point for our game.
 
 00:10:57.406 --> 00:10:58.486 A:middle
 A quick and easy way
-
-00:10:58.626 --> 00:11:02.396 A:middle
-to immediately improve your
-scene is to add a skybox.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.626 --> 00:11:02.396 A:middle
 to immediately improve your
@@ -786,14 +706,6 @@ little arrow icon.
 It is very nice and convenient
 to have these external resources
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.056 --> 00:12:02.976 A:middle
-It is very nice and convenient
-to have these external resources
-
 00:12:02.976 --> 00:12:06.886 A:middle
 as external files because that
 way you can design the level
@@ -851,10 +763,6 @@ our scene is rich
 
 00:12:58.196 --> 00:12:59.856 A:middle
 and animated with many details.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.096 --> 00:13:01.646 A:middle
 We have a lot of
@@ -916,10 +824,6 @@ to add a geometry modifier.
 00:13:52.596 --> 00:13:59.426 A:middle
 I add the modifier, and you
 can immediately see its effect.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.706 --> 00:14:03.056 A:middle
 You can play with your
@@ -990,13 +894,6 @@ So this is the action editor.
 00:14:59.256 --> 00:15:00.446 A:middle
 I will select my enemy.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.256 --> 00:15:00.446 A:middle
-I will select my enemy.
-
 00:15:00.446 --> 00:15:03.656 A:middle
 Choose a row detection.
 
@@ -1053,13 +950,6 @@ to Thomas, who will talk
 00:15:55.206 --> 00:15:57.346 A:middle
 about the architecture
 of the game.
-
-00:15:58.201 --> 00:16:00.201 A:middle
-[Applause]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.201 --> 00:16:00.201 A:middle
 [Applause]
@@ -1139,14 +1029,6 @@ to achieve using SceneKit.
 Then the next step was to scope
 the 3D models in the 3D tool,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:55.716 --> 00:17:00.836 A:middle
-Then the next step was to scope
-the 3D models in the 3D tool,
-
 00:17:02.086 --> 00:17:05.596 A:middle
 to paint the different
 textures, configure,
@@ -1158,11 +1040,11 @@ and animate our character.
 And the final polish was done
 by adding some particles,
 
-00:17:12.886 --> 00:17:16.185 A:middle
+00:17:12.886 --> 00:17:16.186 A:middle
 vegetation, and fog,
 and we finished the game
 
-00:17:16.185 --> 00:17:20.766 A:middle
+00:17:16.186 --> 00:17:20.766 A:middle
 by adding some 2D
 overlays on top of that.
 
@@ -1211,13 +1093,6 @@ want our character to be able
 00:17:56.726 --> 00:17:58.946 A:middle
 to progress everywhere
 in the level
-
-00:17:59.286 --> 00:18:00.706 A:middle
-but always stick on the ground.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.286 --> 00:18:00.706 A:middle
 but always stick on the ground.
@@ -1288,14 +1163,6 @@ elements in the game.
 The character is animated
 when it is idle or working.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:56.936 --> 00:19:01.186 A:middle
-The character is animated
-when it is idle or working.
-
 00:19:02.506 --> 00:19:04.596 A:middle
 The grass and the
 bamboos are animated
@@ -1356,14 +1223,6 @@ effects in the game, and again,
 00:19:52.636 --> 00:19:57.886 A:middle
 they were all done entirely
 in Xcode 7, no code here.
-
-00:19:57.886 --> 00:20:03.656 A:middle
-The pearl and the flower
-with some sparkles emitted.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.886 --> 00:20:03.656 A:middle
 The pearl and the flower
@@ -1433,13 +1292,6 @@ adding many polygons.
 00:20:58.776 --> 00:21:00.266 A:middle
 So this is quite cheap.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.776 --> 00:21:00.266 A:middle
-So this is quite cheap.
-
 00:21:00.976 --> 00:21:06.626 A:middle
 Then we added a light map using
 the self-illumination property,
@@ -1505,13 +1357,6 @@ and not the main shadows
 00:21:57.066 --> 00:21:59.066 A:middle
 because we want the
 main lighting
-
-00:21:59.066 --> 00:22:00.776 A:middle
-to continue to be fully dynamic.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.066 --> 00:22:00.776 A:middle
 to continue to be fully dynamic.
@@ -1587,10 +1432,6 @@ API to the platforms,
 and most importantly for you
 SceneKit users, it just works.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.216 --> 00:23:02.486 A:middle
 It also brings some new
 features to SceneKit,
@@ -1660,13 +1501,6 @@ can add many more asteroids,
 00:23:58.916 --> 00:24:02.586 A:middle
 as you will see in a moment.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.916 --> 00:24:02.586 A:middle
-as you will see in a moment.
-
 00:24:02.716 --> 00:24:06.326 A:middle
 Yes. Of course, the CPU
 starts to be eaten too,
@@ -1725,14 +1559,6 @@ have custom shaders
 
 00:24:55.986 --> 00:24:57.746 A:middle
 that are OpenGL specific.
-
-00:24:58.896 --> 00:25:02.106 A:middle
-Choosing the renderer
-is really easy,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.896 --> 00:25:02.106 A:middle
 Choosing the renderer
@@ -1803,14 +1629,6 @@ It works in most situations.
 00:25:56.156 --> 00:25:58.206 A:middle
 If you write your
 shadow modifier
-
-00:25:58.206 --> 00:26:01.056 A:middle
-with Metal shadow
-language, it will not work,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.206 --> 00:26:01.056 A:middle
 with Metal shadow
@@ -1888,14 +1706,6 @@ so that you can have access
 to some semantics and, for
 example, the default metrics.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.926 --> 00:27:03.726 A:middle
-to some semantics and, for
-example, the default metrics.
-
 00:27:04.416 --> 00:27:09.726 A:middle
 Here we define our custom
 vertex structure that is
@@ -1951,14 +1761,6 @@ give the vertex
 
 00:27:56.686 --> 00:27:58.446 A:middle
 and fragment function names.
-
-00:27:59.736 --> 00:28:03.756 A:middle
-And then we can give some
-data by using the structure
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.736 --> 00:28:03.756 A:middle
 And then we can give some
@@ -2026,14 +1828,6 @@ models and scenes.
 As you can see, not all the file
 formats support all the data
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:54.036 --> 00:29:01.266 A:middle
-As you can see, not all the file
-formats support all the data
-
 00:29:01.266 --> 00:29:04.376 A:middle
 that we are supporting in
 SceneKit, so choose the one
@@ -2095,14 +1889,6 @@ for everything in SceneKit.
 00:29:52.796 --> 00:29:57.326 A:middle
 We can create 3D sounds,
 attach them to nodes,
-
-00:29:57.436 --> 00:30:00.196 A:middle
-and they will move with
-the nodes in the scene.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.436 --> 00:30:00.196 A:middle
 and they will move with
@@ -2179,14 +1965,6 @@ you have to just flip a switch,
 like digital positional
 audio and start looping.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.076 --> 00:31:01.356 A:middle
-like digital positional
-audio and start looping.
-
 00:31:03.006 --> 00:31:06.866 A:middle
 And last, it's really easy to
 create a play song selection.
@@ -2243,14 +2021,6 @@ Thank you.
 00:31:53.506 --> 00:31:56.706 A:middle
 So that was an overview of what
 we added to SceneKit this year.
-
-00:31:57.356 --> 00:32:00.936 A:middle
-So a great new Scene Editor
-that will save you tons of lines
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:57.356 --> 00:32:00.936 A:middle
 So a great new Scene Editor
@@ -2331,14 +2101,6 @@ demo of the scene editors
 that go much deeper
 into details.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.786 --> 00:33:00.476 A:middle
-that go much deeper
-into details.
-
 00:33:00.476 --> 00:33:02.416 A:middle
 So you definitely
 want to see that one.
@@ -2355,4 +2117,3 @@ Thank you.
 
 00:33:07.508 --> 00:33:09.508 A:middle
 [Applause]
-

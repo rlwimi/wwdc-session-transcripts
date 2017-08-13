@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:19.056 --> 00:00:20.966 A:middle
 &gt;&gt; TODD FERNANDEZ: Good morning
@@ -58,10 +57,6 @@ of devices and content available
 
 00:00:58.156 --> 00:00:59.326 A:middle
 to teachers and students.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.176 --> 00:01:03.136 A:middle
 Technology can now be completely
@@ -142,14 +137,6 @@ shared device deployments.
 Now, I need to take a moment
 for a brief aside here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.086 --> 00:02:01.296 A:middle
-Now, I need to take a moment
-for a brief aside here.
-
 00:02:01.506 --> 00:02:03.676 A:middle
 I likely will be referring
 to these two programs
@@ -221,13 +208,6 @@ to highlight two changes
 
 00:02:56.686 --> 00:02:58.026 A:middle
 that have already taken place.
-
-00:02:58.866 --> 00:03:01.136 A:middle
-The first is that we've expanded
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.866 --> 00:03:01.136 A:middle
 The first is that we've expanded
@@ -313,14 +293,6 @@ until it's fully configured.
 When the device obtains its
 Device Enrollment Program
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.346 --> 00:04:01.976 A:middle
-When the device obtains its
-Device Enrollment Program
-
 00:04:01.976 --> 00:04:05.436 A:middle
 settings from the service,
 when it is enrolling
@@ -389,14 +361,6 @@ if you set a passcode policy.
 
 00:04:57.836 --> 00:04:59.186 A:middle
 That policy will be enforced
-
-00:04:59.266 --> 00:05:00.796 A:middle
-when the user is creating
-their new account.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.266 --> 00:05:00.796 A:middle
 when the user is creating
@@ -484,14 +448,6 @@ Also very simple to explain.
 Automated Enrollment is a
 way to enroll your devices
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.826 --> 00:06:01.536 A:middle
-Automated Enrollment is a
-way to enroll your devices
-
 00:06:01.656 --> 00:06:03.916 A:middle
 in MDM using the Device
 Enrollment Program
@@ -568,14 +524,6 @@ to skip as part
 00:06:57.306 --> 00:06:59.106 A:middle
 of your Device Enrollment
 Program settings.
-
-00:06:59.596 --> 00:07:01.836 A:middle
-Over the past year, we
-rolled out these three panes,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.596 --> 00:07:01.836 A:middle
 Over the past year, we
@@ -663,14 +611,6 @@ instead of having to type
 in the entire URL, can
 just type in the host name
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.866 --> 00:08:03.256 A:middle
-in the entire URL, can
-just type in the host name
-
 00:08:03.256 --> 00:08:06.236 A:middle
 of the MDM server and
 obtain the URL for the user.
@@ -710,7 +650,7 @@ of B2B apps in the App Store.
 There are in-house
 enterprise apps
 
-00:08:30.506 --> 00:08:32.135 A:middle
+00:08:30.506 --> 00:08:32.136 A:middle
 that your organizations
 may be creating,
 
@@ -718,18 +658,18 @@ may be creating,
 and developers may be using
 ad hoc apps to distribute,
 
-00:08:35.996 --> 00:08:37.535 A:middle
+00:08:35.996 --> 00:08:37.536 A:middle
 for beta testing
 or other purposes,
 
 00:08:37.606 --> 00:08:38.946 A:middle
 using provisioning profiles.
 
-00:08:39.846 --> 00:08:42.785 A:middle
+00:08:39.846 --> 00:08:42.786 A:middle
 I will talk primarily today
 about the first three,
 
-00:08:43.145 --> 00:08:44.746 A:middle
+00:08:43.146 --> 00:08:44.746 A:middle
 but there is something
 towards the end
 
@@ -750,14 +690,6 @@ primarily focus on Apple's tools
 
 00:08:55.786 --> 00:08:57.066 A:middle
 as well as MDM in general.
-
-00:08:57.516 --> 00:09:01.286 A:middle
-Finally, there are three
-different ways to purchase apps.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.516 --> 00:09:01.286 A:middle
 Finally, there are three
@@ -850,14 +782,6 @@ this slide quickly.
 What that means is you can
 purchase your VPP apps in any
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.946 --> 00:10:02.236 A:middle
-What that means is you can
-purchase your VPP apps in any
-
 00:10:02.236 --> 00:10:06.346 A:middle
 of those 26 countries, but
 distribute them to any country
@@ -935,10 +859,6 @@ install them, and run.
 00:10:56.136 --> 00:10:59.716 A:middle
 Even if there is an iTunes Apple
 ID configured on the device,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.196 --> 00:11:02.316 A:middle
 these apps will not appear in
@@ -1021,14 +941,6 @@ is exactly the same.
 You purchase VPP managed
 distribution licenses
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.376 --> 00:12:03.066 A:middle
-You purchase VPP managed
-distribution licenses
-
 00:12:03.066 --> 00:12:08.106 A:middle
 on the VPP store, and they can
 be freely reassigned to a user
@@ -1093,14 +1005,6 @@ This is probably a good idea.
 00:12:53.166 --> 00:12:56.246 A:middle
 Remember that piece I mentioned,
 you might sell more copies?
-
-00:12:57.146 --> 00:13:00.486 A:middle
-Also, if your app is
-checking the receipt to ensure
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.146 --> 00:13:00.486 A:middle
 Also, if your app is
@@ -1187,14 +1091,6 @@ OS updates and apps.
 It now caches also iCloud data,
 including Drive documents,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:56.546 --> 00:14:01.666 A:middle
-It now caches also iCloud data,
-including Drive documents,
-
 00:14:01.816 --> 00:14:04.366 A:middle
 CloudKit data, and iCloud
 photo library photos.
@@ -1275,14 +1171,6 @@ the assignment in the Store
 with the installation
 command to the device.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.676 --> 00:15:00.306 A:middle
-with the installation
-command to the device.
-
 00:15:00.306 --> 00:15:06.386 A:middle
 So what are the changes for the
 Install Application command?
@@ -1353,14 +1241,6 @@ much easier.
 00:15:53.806 --> 00:15:59.216 A:middle
 The first supersedes the
 separate commands to associate
-
-00:15:59.216 --> 00:16:01.246 A:middle
-and disassociate
-licenses with users.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.216 --> 00:16:01.246 A:middle
 and disassociate
@@ -1439,21 +1319,14 @@ more than that number
 00:16:58.586 --> 00:17:01.766 A:middle
 of licenses in a single call.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.586 --> 00:17:01.766 A:middle
-of licenses in a single call.
-
-00:17:01.976 --> 00:17:05.415 A:middle
+00:17:01.976 --> 00:17:05.416 A:middle
 We also have added a new
 Retry After header because,
 
-00:17:05.606 --> 00:17:06.965 A:middle
+00:17:05.606 --> 00:17:06.966 A:middle
 how can I say this delicately?
 
-00:17:06.965 --> 00:17:07.506 A:middle
+00:17:06.966 --> 00:17:07.506 A:middle
 I'll be blunt.
 
 00:17:08.346 --> 00:17:12.526 A:middle
@@ -1464,18 +1337,18 @@ you are, have some MDM solutions
 that let's just say they
 send a few too many requests
 
-00:17:15.566 --> 00:17:16.465 A:middle
+00:17:15.566 --> 00:17:16.466 A:middle
 to the iTunes store.
 
 00:17:17.486 --> 00:17:21.596 A:middle
 We need you to fix that but
 also respect this header
 
-00:17:22.066 --> 00:17:24.955 A:middle
+00:17:22.066 --> 00:17:24.956 A:middle
 because if your solution
 continues to do that,
 
-00:17:24.955 --> 00:17:29.006 A:middle
+00:17:24.956 --> 00:17:29.006 A:middle
 we will send this header and
 we may, if you ignore it,
 
@@ -1516,14 +1389,6 @@ the point I made earlier
 00:17:54.626 --> 00:17:57.436 A:middle
 that we've made a very
 smooth migration from user
-
-00:17:57.436 --> 00:18:00.186 A:middle
-to device assignments to leave
-the app and data in place.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.436 --> 00:18:00.186 A:middle
 to device assignments to leave
@@ -1597,14 +1462,6 @@ managed open in will consider
 00:18:55.016 --> 00:18:57.096 A:middle
 that app to be managed and
 all of that data will be
-
-00:18:57.096 --> 00:19:00.626 A:middle
-within the managed sphere,
-just as if it had always been.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:57.096 --> 00:19:00.626 A:middle
 within the managed sphere,
@@ -1691,13 +1548,6 @@ installed silently.
 00:19:57.516 --> 00:20:01.576 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:57.516 --> 00:20:01.576 A:middle
-[ Applause ]
-
 00:20:02.076 --> 00:20:03.726 A:middle
 &gt;&gt; TODD FERNANDEZ: So if
 it is an enterprise app
@@ -1775,14 +1625,6 @@ looks something more like this.
 Wa Wa. Well, I really
 have good news for you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.866 --> 00:21:02.786 A:middle
-Wa Wa. Well, I really
-have good news for you.
-
 00:21:02.786 --> 00:21:05.636 A:middle
 Later this summer
 you will be able
@@ -1850,14 +1692,6 @@ are the new enhancements
 00:21:52.766 --> 00:21:55.506 A:middle
 that we have made in account
 creation and password policy.
-
-00:21:56.086 --> 00:22:02.326 A:middle
-So here is my profile
-manager in OS X server.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:56.086 --> 00:22:02.326 A:middle
 So here is my profile
@@ -1947,14 +1781,6 @@ is registered in DEP
 and has been booted for the
 first time OS X El Capitan,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.936 --> 00:23:02.556 A:middle
-and has been booted for the
-first time OS X El Capitan,
-
 00:23:02.646 --> 00:23:04.886 A:middle
 mimicking out-of-box
 user experience.
@@ -2021,14 +1847,6 @@ my full name here, and let's see
 00:23:55.306 --> 00:23:57.046 A:middle
 if it likes my hello
 kitty password.
-
-00:23:57.676 --> 00:24:01.856 A:middle
-Oh, looks like I need to use
-a more secure password based
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.676 --> 00:24:01.856 A:middle
 Oh, looks like I need to use
@@ -2117,14 +1935,6 @@ credentials
 that I provided on
 the MDM server.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.716 --> 00:25:01.936 A:middle
-that I provided on
-the MDM server.
-
 00:25:02.326 --> 00:25:05.396 A:middle
 Ta-da! You can see that
 it's unlocked successfully.
@@ -2189,14 +1999,6 @@ Thank you very much, Shruti.
 
 00:25:57.716 --> 00:25:58.826 A:middle
 So what did we just see?
-
-00:25:59.076 --> 00:26:01.886 A:middle
-Shruti installed a passcode
-policy before the user account
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.076 --> 00:26:01.886 A:middle
 Shruti installed a passcode
@@ -2275,14 +2077,6 @@ at the top, there's a new query
 that tells you what software
 updates are available
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.866 --> 00:27:00.306 A:middle
-that tells you what software
-updates are available
-
 00:27:00.306 --> 00:27:04.286 A:middle
 for that device and a command
 that will tell the iOS device
@@ -2355,14 +2149,6 @@ other settings added
 00:27:54.716 --> 00:27:57.806 A:middle
 to existing payloads,
 including a lot of changes
-
-00:27:57.836 --> 00:28:02.106 A:middle
-in the IKEv2 VPN connection
-type, more about that later,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.836 --> 00:28:02.106 A:middle
 in the IKEv2 VPN connection
@@ -2454,14 +2240,6 @@ restrictions in iOS 9.
 There are a number
 of restrictions,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.506 --> 00:29:00.216 A:middle
-There are a number
-of restrictions,
-
 00:29:00.216 --> 00:29:03.666 A:middle
 these nine in fact, created
 before supervision existed.
@@ -2532,14 +2310,6 @@ setup configuration
 00:29:54.506 --> 00:29:57.006 A:middle
 and device-configured commands
 in the enrollment section.
-
-00:29:58.086 --> 00:30:00.806 A:middle
-There's also an active
-managed users query,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.086 --> 00:30:00.806 A:middle
 There's also an active
@@ -2627,14 +2397,6 @@ Hello again.
 So I'm going to demo some of
 the new features on iOS now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:56.886 --> 00:31:00.306 A:middle
-So I'm going to demo some of
-the new features on iOS now.
-
 00:31:01.016 --> 00:31:05.036 A:middle
 So here is my device
 that is running iOS 9.
@@ -2699,13 +2461,6 @@ assignment on the iOS device.
 00:31:53.736 --> 00:31:58.256 A:middle
 I am going to push a
 VPP app to this device,
-
-00:31:58.256 --> 00:32:01.166 A:middle
-which is going to be WWDC app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.256 --> 00:32:01.166 A:middle
 which is going to be WWDC app.
@@ -2806,14 +2561,6 @@ I want to highlight,
 I hope that you MDM
 develops are aware of.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.926 --> 00:33:01.776 A:middle
-I hope that you MDM
-develops are aware of.
-
 00:33:01.846 --> 00:33:03.396 A:middle
 If not, this is your moment.
 
@@ -2903,10 +2650,6 @@ Configurator.
 00:33:58.286 --> 00:33:59.746 A:middle
 Here is Configurator.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.486 --> 00:34:01.986 A:middle
 Has the three workflows.
 
@@ -2940,18 +2683,18 @@ devices, and import apps
 from iTunes, and
 create profiles.
 
-00:34:23.906 --> 00:34:26.505 A:middle
+00:34:23.906 --> 00:34:26.506 A:middle
 We received feedback
 over the last three years
 
-00:34:27.025 --> 00:34:29.585 A:middle
+00:34:27.026 --> 00:34:29.586 A:middle
 and learned a lot about
 managing iOS devices
 
-00:34:29.585 --> 00:34:30.795 A:middle
+00:34:29.586 --> 00:34:30.796 A:middle
 over the last seven years.
 
-00:34:31.485 --> 00:34:34.616 A:middle
+00:34:31.486 --> 00:34:34.616 A:middle
 I am thrilled to tell you we
 have completely reinvented Apple
 
@@ -2959,18 +2702,18 @@ have completely reinvented Apple
 Configurator and created
 Apple Configurator 2.
 
-00:34:39.516 --> 00:34:43.545 A:middle
+00:34:39.516 --> 00:34:43.546 A:middle
 [ Applause ]
 
-00:34:44.045 --> 00:34:44.826 A:middle
+00:34:44.046 --> 00:34:44.826 A:middle
 &gt;&gt; TODD FERNANDEZ: So
 what were our goals
 
-00:34:44.826 --> 00:34:46.775 A:middle
+00:34:44.826 --> 00:34:46.776 A:middle
 in creating Apple
 Configurator 2?
 
-00:34:47.956 --> 00:34:50.235 A:middle
+00:34:47.956 --> 00:34:50.236 A:middle
 We wanted to invert
 the user experience
 
@@ -2989,14 +2732,6 @@ your devices are in,
 00:34:57.106 --> 00:34:59.316 A:middle
 which makes it easier for you
 to understand what you can do
-
-00:34:59.316 --> 00:35:00.536 A:middle
-with them and what
-is going to happen.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.316 --> 00:35:00.536 A:middle
 with them and what
@@ -3092,14 +2827,6 @@ Enrique Osuna
 to show you Apple
 Configurator 2.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.836 --> 00:36:02.096 A:middle
-to show you Apple
-Configurator 2.
-
 00:36:03.516 --> 00:36:08.546 A:middle
 [ Applause ]
 
@@ -3183,14 +2910,6 @@ and back to Collection.
 One of the key features that
 Todd mentioned was the ability
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.036 --> 00:37:00.786 A:middle
-One of the key features that
-Todd mentioned was the ability
-
 00:37:00.786 --> 00:37:03.616 A:middle
 to perform discrete tasks
 on connected devices.
@@ -3267,14 +2986,6 @@ devices need an update.
 So I can update that app by
 clicking the Update button.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.076 --> 00:38:01.526 A:middle
-So I can update that app by
-clicking the Update button.
-
 00:38:02.596 --> 00:38:07.806 A:middle
 Configurator is contacting the
 Store, downloading the apps,
@@ -3342,14 +3053,6 @@ might be going on.
 00:38:57.296 --> 00:38:59.636 A:middle
 If I double-click on
 one of these devices,
-
-00:38:59.896 --> 00:39:03.396 A:middle
-Configurator launches you into
-this new UI that allows you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:59.896 --> 00:39:03.396 A:middle
 Configurator launches you into
@@ -3436,14 +3139,6 @@ profile already installed.
 It's the devices that don't
 have the profile installed.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.106 --> 00:40:01.126 A:middle
-It's the devices that don't
-have the profile installed.
-
 00:40:01.126 --> 00:40:03.466 A:middle
 If I click on the token
 in the Search field
@@ -3512,14 +3207,6 @@ without a database of devices.
 
 00:40:55.096 --> 00:40:56.796 A:middle
 I can show you that right now.
-
-00:40:57.326 --> 00:41:01.006 A:middle
-If I select a couple of these
-devices, go to the toolbar,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:57.326 --> 00:41:01.006 A:middle
 If I select a couple of these
@@ -3610,14 +3297,6 @@ another device
 that has the fourth grade tag
 attached to it, it will appear
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.376 --> 00:42:01.216 A:middle
-that has the fourth grade tag
-attached to it, it will appear
-
 00:42:01.216 --> 00:42:02.056 A:middle
 in this particular view.
 
@@ -3688,10 +3367,6 @@ about the device,
 00:42:54.766 --> 00:42:59.446 A:middle
 like the device's serial
 number, type, and capacity.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:00.176 --> 00:43:02.316 A:middle
 For this demonstration,
@@ -3768,14 +3443,6 @@ two prepare workflows.
 00:43:56.226 --> 00:43:59.166 A:middle
 One is manual, and the other
 is the automated enrollment
-
-00:43:59.166 --> 00:44:01.656 A:middle
-that Todd talked about
-earlier in the presentation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:59.166 --> 00:44:01.656 A:middle
 that Todd talked about
@@ -3868,14 +3535,6 @@ actually is a lengthy process.
 So, what we did in Configurator
 2 is automated this process
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.526 --> 00:45:02.426 A:middle
-So, what we did in Configurator
-2 is automated this process
-
 00:45:02.426 --> 00:45:04.186 A:middle
 with what we call blueprints.
 
@@ -3961,14 +3620,6 @@ And these options are fine.
 I am breeze through
 these setup panes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:57.816 --> 00:46:00.606 A:middle
-I am breeze through
-these setup panes.
-
 00:46:01.846 --> 00:46:03.326 A:middle
 Click on Next.
 
@@ -4036,13 +3687,6 @@ last spot I was at for profile.
 
 00:46:54.416 --> 00:46:58.236 A:middle
 I'll click on my WiFi profile.
-
-00:46:59.076 --> 00:47:01.066 A:middle
-Add profiles.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:59.076 --> 00:47:01.066 A:middle
 Add profiles.
@@ -4132,14 +3776,6 @@ Great, this blueprint is done.
 In the lower right-hand corner,
 I can click on the Done button.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:57.626 --> 00:48:00.816 A:middle
-In the lower right-hand corner,
-I can click on the Done button.
-
 00:48:03.096 --> 00:48:05.786 A:middle
 Now I want to apply that
 blueprint to these devices
@@ -4215,14 +3851,6 @@ build and use a blueprint
 00:48:55.066 --> 00:48:59.046 A:middle
 to create a custom workflow
 and replay the set of actions
-
-00:48:59.176 --> 00:49:03.966 A:middle
-that you want on any
-number of further devices.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:59.176 --> 00:49:03.966 A:middle
 that you want on any
@@ -4318,14 +3946,6 @@ is no longer a preference,
 but can be done as a command
 on any number of devices.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:58.956 --> 00:50:01.326 A:middle
-but can be done as a command
-on any number of devices.
-
 00:50:01.666 --> 00:50:03.776 A:middle
 There are cool tricks
 if you look
@@ -4408,10 +4028,6 @@ VPP managed distribution device
 assignments, your customers
 will appreciate that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:00.406 --> 00:51:01.936 A:middle
 The documentation
 is available now,
@@ -4485,14 +4101,6 @@ in your organizations as well
 as help for our tools and forums
 to ask and answer questions
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:56.406 --> 00:52:01.036 A:middle
-as help for our tools and forums
-to ask and answer questions
-
 00:52:01.036 --> 00:52:03.966 A:middle
 about how to bring Apple
 devices into your organizations.
@@ -4506,4 +4114,3 @@ Thank you very much.
 
 00:52:10.516 --> 00:52:22.100 A:middle
 [ Applause ]
-

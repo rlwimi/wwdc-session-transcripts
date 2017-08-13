@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.016 --> 00:00:25.146 A:middle
 [Applause]
@@ -39,14 +38,6 @@ of which this is the first.
 00:00:56.046 --> 00:00:58.226 A:middle
 Tomorrow afternoon
 you can hear all
-
-00:00:58.226 --> 00:01:00.866 A:middle
-about the great new
-media enhancements
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.226 --> 00:01:00.866 A:middle
 about the great new
@@ -114,14 +105,6 @@ adoption experience really easy.
 And the third is making
 the most of the latest
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.176 --> 00:02:00.496 A:middle
-And the third is making
-the most of the latest
-
 00:02:00.496 --> 00:02:04.776 A:middle
 and greatest UIKit APIs to make
 sure your app really shines
@@ -168,14 +151,6 @@ call this mode 'split view.'
 00:02:56.796 --> 00:02:59.446 A:middle
 Being that you're all
 iOS developers I'm sure
-
-00:02:59.446 --> 00:03:03.126 A:middle
-that you're really familiar with
-our UISplitview Controller API.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.446 --> 00:03:03.126 A:middle
 that you're really familiar with
@@ -233,10 +208,6 @@ that those apps are running at.
 There is another really cool
 feature of multitasking in iOS 9
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.196 --> 00:04:04.506 A:middle
 on iPad, and that's
 picture-in-picture video,
@@ -289,14 +260,6 @@ to do the check for what type
 00:04:55.536 --> 00:04:57.686 A:middle
 of interface you should
 be providing to your user,
-
-00:04:57.686 --> 00:05:05.206 A:middle
-through the introduction of
-the horizontal size class.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.686 --> 00:05:05.206 A:middle
 through the introduction of
@@ -362,14 +325,6 @@ But if you look closely,
 there was another message last
 year that's really obvious
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.936 --> 00:06:02.896 A:middle
-there was another message last
-year that's really obvious
-
 00:06:02.896 --> 00:06:06.206 A:middle
 if you use a microscope;
 we were telling you
@@ -421,14 +376,6 @@ it is obvious.
 
 00:06:56.336 --> 00:06:57.036 A:middle
 &gt;&gt; Thank you.
-
-00:06:57.756 --> 00:07:01.396 A:middle
-So how does iPad multitasking
-work with adaptivity?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.756 --> 00:07:01.396 A:middle
 So how does iPad multitasking
@@ -494,10 +441,6 @@ when the user resized it.
 00:07:56.286 --> 00:07:58.896 A:middle
 This is also brand new to iOS 9.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:06.176 --> 00:08:09.876 A:middle
 So what does this mean for
 your app and your users?
@@ -550,14 +493,6 @@ Users will expect that all apps
 00:08:56.216 --> 00:08:58.496 A:middle
 on their iPad support
 multitasking,
-
-00:08:59.006 --> 00:09:00.996 A:middle
-and we're here to
-help you adopt it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.006 --> 00:09:00.996 A:middle
 and we're here to
@@ -634,14 +569,6 @@ settings of your Xcode project.
 Second, support all orientations
 in the iPad version of your app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:56.816 --> 00:10:03.686 A:middle
-Second, support all orientations
-in the iPad version of your app.
-
 00:10:04.466 --> 00:10:07.866 A:middle
 At last year's conference,
 we encouraged you to think
@@ -695,14 +622,6 @@ for your app in all sizes,
 00:10:52.396 --> 00:10:57.036 A:middle
 configurations, orientations,
 and devices that iOS supports.
-
-00:10:58.196 --> 00:11:01.856 A:middle
-With all the different sizes
-supported by iPad multitasking,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.196 --> 00:11:01.856 A:middle
 With all the different sizes
@@ -762,14 +681,6 @@ And this continues in iOS 9.
 00:11:53.076 --> 00:11:58.006 A:middle
 Whether your app is running
 in full screen or is resized
-
-00:11:58.206 --> 00:12:02.976 A:middle
-for multitasking, one
-really important change is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.206 --> 00:12:02.976 A:middle
 for multitasking, one
@@ -837,14 +748,6 @@ that's great with multitasking
 in iOS 9, the brand-new
 Notes app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.916 --> 00:13:03.106 A:middle
-in iOS 9, the brand-new
-Notes app.
-
 00:13:03.676 --> 00:13:05.796 A:middle
 This is the new Notes
 app running
@@ -900,10 +803,6 @@ notes list on the left
 00:13:58.106 --> 00:13:59.486 A:middle
 and a note on the right.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:00.376 --> 00:14:01.746 A:middle
 This is the type of change
 
@@ -955,14 +854,6 @@ Still a single column of UI.
 00:14:54.276 --> 00:14:57.846 A:middle
 UIKit has made some important
 changes to our current API
-
-00:14:58.486 --> 00:15:00.696 A:middle
-to make this really easy
-for your app to adopt.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.486 --> 00:15:00.696 A:middle
 to make this really easy
@@ -1021,14 +912,6 @@ support for free in your app.
 00:15:53.136 --> 00:15:55.846 A:middle
 Another area of importance
 that we saw
-
-00:15:56.196 --> 00:16:01.146 A:middle
-for helping apps handle resizing
-is in the form of legibility.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:56.196 --> 00:16:01.146 A:middle
 for helping apps handle resizing
@@ -1099,14 +982,6 @@ with dynamic type,
 something that we
 encourage all apps to adopt.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.236 --> 00:17:00.966 A:middle
-something that we
-encourage all apps to adopt.
-
 00:17:02.166 --> 00:17:05.396 A:middle
 You can also use it with
 or without Auto Layout.
@@ -1115,7 +990,7 @@ or without Auto Layout.
 A common component in many
 iOS apps is UI Table View.
 
-00:17:11.656 --> 00:17:14.915 A:middle
+00:17:11.656 --> 00:17:14.916 A:middle
 And we wanted to make legibility
 really easy there too.
 
@@ -1127,11 +1002,11 @@ property on UITableView,
 'cell layout margins
 follow readable width.'
 
-00:17:24.256 --> 00:17:25.955 A:middle
+00:17:24.256 --> 00:17:25.956 A:middle
 When this property
 is set to yes,
 
-00:17:26.705 --> 00:17:30.976 A:middle
+00:17:26.706 --> 00:17:30.976 A:middle
 your table view's cells' content
 view will have layout margins
 
@@ -1161,14 +1036,6 @@ running in full screen on iPad
 00:17:55.766 --> 00:17:58.676 A:middle
 or in a smaller screen such
 as an iPhone in portrait.
-
-00:17:58.676 --> 00:18:03.476 A:middle
-Now that we have talked about
-some of the great improvements
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.676 --> 00:18:03.476 A:middle
 Now that we have talked about
@@ -1238,13 +1105,6 @@ That's all for us.
 
 00:18:56.226 --> 00:18:57.156 A:middle
 Enjoy the conference.
-
-00:18:58.031 --> 00:19:00.031 A:middle
-[Laughter]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.031 --> 00:19:00.031 A:middle
 [Laughter]
@@ -1340,14 +1200,6 @@ orientation specifically.
 Let's take a look at
 what you can use instead
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.186 --> 00:20:00.046 A:middle
-Let's take a look at
-what you can use instead
-
 00:20:00.176 --> 00:20:01.156 A:middle
 for these kinds of changes.
 
@@ -1422,14 +1274,6 @@ them as two independent changes.
 00:20:57.406 --> 00:20:59.016 A:middle
 And one of the great
 things about doing that is
-
-00:20:59.016 --> 00:21:02.436 A:middle
-that you can really share a
-lot with multitasking resizes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.016 --> 00:21:02.436 A:middle
 that you can really share a
@@ -1513,14 +1357,6 @@ or the view size changing,
 and we strongly encourage
 you to use these instead.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.816 --> 00:22:02.596 A:middle
-and we strongly encourage
-you to use these instead.
-
 00:22:04.006 --> 00:22:06.266 A:middle
 Now, to get a better
 idea about how this kind
@@ -1595,14 +1431,6 @@ callbacks happen as part
 00:22:55.646 --> 00:22:57.976 A:middle
 of the 'setup' stage
 of these transitions.
-
-00:22:59.316 --> 00:23:01.626 A:middle
-Now, similarly, as the
-size class is changing,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.316 --> 00:23:01.626 A:middle
 Now, similarly, as the
@@ -1688,14 +1516,6 @@ happens, let's take a look
 
 00:23:54.946 --> 00:23:56.256 A:middle
 at a multitasking resize.
-
-00:23:57.696 --> 00:24:00.906 A:middle
-Now, during this transition,
-we first perform some setup,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.696 --> 00:24:00.906 A:middle
 Now, during this transition,
@@ -1795,14 +1615,6 @@ will change in your app
 and the size class
 will stay the same.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.906 --> 00:25:02.016 A:middle
-and the size class
-will stay the same.
-
 00:25:02.946 --> 00:25:05.416 A:middle
 When this happens, the trait
 collections don't change,
@@ -1883,10 +1695,6 @@ Now, when that happens,
 00:25:56.816 --> 00:25:59.746 A:middle
 if the user resizes your
 app during multitasking,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.096 --> 00:26:02.886 A:middle
 then that UI window's frame
@@ -1976,10 +1784,6 @@ resize it along
 00:26:56.516 --> 00:26:58.266 A:middle
 with all multitasking resizes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:00.046 --> 00:27:05.836 A:middle
 Okay. Now let's take a
 look at presentations.
@@ -2049,14 +1853,6 @@ that same popover presentation
 00:27:57.066 --> 00:27:59.256 A:middle
 on an iPhone, it will
 automatically show it
-
-00:27:59.256 --> 00:28:01.666 A:middle
-as a modal full screen
-presentation there as well.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.256 --> 00:28:01.666 A:middle
 as a modal full screen
@@ -2139,14 +1935,6 @@ to this protocol in iOS 8.3.
 These methods allow you a lot
 of control over the changes
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.566 --> 00:29:02.246 A:middle
-These methods allow you a lot
-of control over the changes
-
 00:29:02.246 --> 00:29:04.806 A:middle
 that happen as your view
 controller presentation
@@ -2222,14 +2010,6 @@ like the search bar in Maps,
 00:29:56.506 --> 00:29:59.176 A:middle
 then the keyboard will actually
 be shown over top both apps
-
-00:29:59.356 --> 00:30:00.466 A:middle
-that the user is
-interacting with.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.356 --> 00:30:00.466 A:middle
 that the user is
@@ -2325,14 +2105,6 @@ for iPad multitasking.
 A few important things to
 remember are to consider size
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.346 --> 00:31:01.506 A:middle
-A few important things to
-remember are to consider size
-
 00:31:01.506 --> 00:31:03.916 A:middle
 and size classes
 instead of orientation
@@ -2415,14 +2187,6 @@ things we talked about earlier.
 First, your app should
 be universal;
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.886 --> 00:32:01.046 A:middle
-First, your app should
-be universal;
-
 00:32:01.276 --> 00:32:03.686 A:middle
 your app should run
 on iPhone and iPad.
@@ -2495,14 +2259,6 @@ Don't hard code sizes.
 
 00:32:57.266 --> 00:32:58.246 A:middle
 Don't make assumptions.
-
-00:32:58.546 --> 00:33:00.856 A:middle
-Your app should look
-at what size it is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.546 --> 00:33:00.856 A:middle
 Your app should look
@@ -2603,10 +2359,6 @@ Make it bigger again.
 It will be full screen,
 another size change.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.476 --> 00:34:01.786 A:middle
 Now Slide Over another app
 
@@ -2628,11 +2380,11 @@ the orientation will change,
 00:34:14.216 --> 00:34:15.226 A:middle
 and that will be animated.
 
-00:34:16.306 --> 00:34:18.025 A:middle
+00:34:16.306 --> 00:34:18.026 A:middle
 So these are all things
 that can happen to your app
 
-00:34:18.025 --> 00:34:21.146 A:middle
+00:34:18.026 --> 00:34:21.146 A:middle
 and you should try out every
 place everywhere in your app
 
@@ -2640,14 +2392,14 @@ place everywhere in your app
 to make sure that it
 can handle these things.
 
-00:34:23.815 --> 00:34:25.626 A:middle
+00:34:23.816 --> 00:34:25.626 A:middle
 When you try this, probably
 you'll find some things work,
 
 00:34:25.626 --> 00:34:26.386 A:middle
 some things don't.
 
-00:34:27.235 --> 00:34:31.565 A:middle
+00:34:27.236 --> 00:34:31.566 A:middle
 So for help on fixing the things
 that don't work, keep listening.
 
@@ -2659,7 +2411,7 @@ use Auto Layout.
 This should be no
 surprise; this is the way
 
-00:34:37.835 --> 00:34:39.446 A:middle
+00:34:37.836 --> 00:34:39.446 A:middle
 to make your app's UI flexible.
 
 00:34:40.606 --> 00:34:43.106 A:middle
@@ -2670,32 +2422,24 @@ provide views and constraints,
 the system will consider
 all those constraints
 
-00:34:46.045 --> 00:34:47.795 A:middle
+00:34:46.046 --> 00:34:47.796 A:middle
 and set your views'
 frames based on those.
 
-00:34:47.795 --> 00:34:49.326 A:middle
+00:34:47.796 --> 00:34:49.326 A:middle
 So you don't have to
 hard code anything.
 
-00:34:50.706 --> 00:34:54.315 A:middle
+00:34:50.706 --> 00:34:54.316 A:middle
 You can also use the margins and
 the guides that UIKit gives you
 
-00:34:54.545 --> 00:34:55.826 A:middle
+00:34:54.546 --> 00:34:55.826 A:middle
 to construct these constraints.
 
 00:34:56.856 --> 00:34:59.226 A:middle
 And also in iOS 9,
 there's new APIs
-
-00:34:59.226 --> 00:35:01.046 A:middle
-to make this whole process
-much more convenient.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.226 --> 00:35:01.046 A:middle
 to make this whole process
@@ -2777,10 +2521,6 @@ constraints to make
 00:35:57.666 --> 00:35:59.836 A:middle
 that label match that
 readable content guide.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.736 --> 00:36:03.266 A:middle
 So the constraints is an
@@ -2869,14 +2609,6 @@ change the attributes
 
 00:36:56.146 --> 00:36:57.616 A:middle
 of views like the font size.
-
-00:36:58.086 --> 00:37:00.886 A:middle
-You can also take
-advantage of asset catalogs
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.086 --> 00:37:00.886 A:middle
 You can also take
@@ -2972,10 +2704,6 @@ see there's blue telling me I'm
 in a different, more
 specialized mode.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.336 --> 00:38:02.216 A:middle
 Now I could at this
 point run my app
@@ -3053,13 +2781,6 @@ particular asset.
 00:38:56.846 --> 00:38:59.536 A:middle
 I'll set this thing
 up to be universal;
-
-00:38:59.786 --> 00:39:00.886 A:middle
-it'll work on all devices.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:59.786 --> 00:39:00.886 A:middle
 it'll work on all devices.
@@ -3155,14 +2876,6 @@ That's pretty normal.
 How we'll do that is
 override 'will transition
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.876 --> 00:40:02.776 A:middle
-How we'll do that is
-override 'will transition
-
 00:40:02.776 --> 00:40:03.516 A:middle
 to trait collection.'
 
@@ -3246,14 +2959,6 @@ the change directly,
 we'll provide a block and
 we'll put our changes inside
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:57.536 --> 00:41:01.026 A:middle
-we'll provide a block and
-we'll put our changes inside
-
 00:41:01.026 --> 00:41:01.606 A:middle
 of that block.
 
@@ -3332,14 +3037,6 @@ of views and put them
 00:41:56.426 --> 00:41:58.656 A:middle
 in a vertical stack
 or a horizontal row,
-
-00:41:58.656 --> 00:42:01.146 A:middle
-and set up some parameters
-on how they get laid out.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:58.656 --> 00:42:01.146 A:middle
 and set up some parameters
@@ -3429,10 +3126,6 @@ View Controller,
 because it will do a lot of work
 for you in multitasking cases.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:00.066 --> 00:43:01.586 A:middle
 I'll show you that
 a little bit later.
@@ -3505,14 +3198,6 @@ over in from the side?
 00:43:54.986 --> 00:43:57.956 A:middle
 In that case it is a compact
 width, there is less room,
-
-00:43:58.576 --> 00:44:00.666 A:middle
-so the Split View
-Controller adapts to this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:58.576 --> 00:44:00.666 A:middle
 so the Split View
@@ -3604,14 +3289,6 @@ as a test bed to play
 with Split View Controller
 and see what it can do.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.346 --> 00:45:02.306 A:middle
-with Split View Controller
-and see what it can do.
-
 00:45:02.306 --> 00:45:03.816 A:middle
 So those are the 6
 strategies I'll give you.
@@ -3696,14 +3373,6 @@ but your app can't prevent it.
 Also your app can't
 cause a size change.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:58.896 --> 00:46:01.716 A:middle
-Also your app can't
-cause a size change.
-
 00:46:02.256 --> 00:46:04.666 A:middle
 You can't say, 'My app wants
 to be full screen now.'
@@ -3782,14 +3451,6 @@ scroll through them.'
 00:46:54.356 --> 00:46:57.826 A:middle
 In compact width, I think,
 'Well, let's just show one
-
-00:46:58.326 --> 00:47:02.906 A:middle
-of these categories at a
-time, each on a separate page,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:58.326 --> 00:47:02.906 A:middle
 of these categories at a
@@ -3884,10 +3545,6 @@ Great. Wrote some code today.
 And then they decide to
 resize the app to be compact.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:00.416 --> 00:48:00.846 A:middle
 What do we do?
 
@@ -3975,10 +3632,6 @@ here is another new thing
 
 00:48:58.446 --> 00:48:59.926 A:middle
 that can happen with --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:00.166 --> 00:49:02.056 A:middle
 once your app has
@@ -4075,13 +3728,6 @@ snapshot right here,
 00:49:59.496 --> 00:50:00.616 A:middle
 we're purple, we're at Work.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:59.496 --> 00:50:00.616 A:middle
-we're purple, we're at Work.
-
 00:50:02.176 --> 00:50:06.316 A:middle
 Now, with multitasking, the
 system will resize us to regular
@@ -4171,14 +3817,6 @@ That's no good.
 So what we should do,
 backing all the way up....
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:58.086 --> 00:51:01.826 A:middle
-So what we should do,
-backing all the way up....
-
 00:51:02.926 --> 00:51:04.626 A:middle
 We're in regular width;
 the system is going
@@ -4249,14 +3887,6 @@ guidelines, and these will touch
 
 00:51:58.036 --> 00:51:58.906 A:middle
 on some things that we'll talk
-
-00:51:58.906 --> 00:52:01.396 A:middle
-about in the later multitasking
-talks, but first I need
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:58.906 --> 00:52:01.396 A:middle
 about in the later multitasking
@@ -4335,14 +3965,6 @@ not the secondary app.
 00:52:55.886 --> 00:52:58.586 A:middle
 So normally apps that use the
 external display will split
-
-00:52:58.586 --> 00:53:01.646 A:middle
-their UI across the iPad
-and the external screen
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:58.586 --> 00:53:01.646 A:middle
 their UI across the iPad
@@ -4436,14 +4058,6 @@ as you can get away with.
 If you have anything slow to
 do, use the completion block
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:57.666 --> 00:54:00.866 A:middle
-If you have anything slow to
-do, use the completion block
-
 00:54:01.506 --> 00:54:02.946 A:middle
 and 'view will transition
 to size'
@@ -4523,13 +4137,6 @@ on iPad."
 00:54:59.396 --> 00:55:00.396 A:middle
 Check out our sample code.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:54:59.396 --> 00:55:00.396 A:middle
-Check out our sample code.
-
 00:55:01.286 --> 00:55:04.166 A:middle
 You can talk to tech support,
 the developer forums, DTS.
@@ -4578,4 +4185,3 @@ So thank you for coming.
 
 00:55:33.526 --> 00:55:34.926 A:middle
 Go forth and multitask.
-

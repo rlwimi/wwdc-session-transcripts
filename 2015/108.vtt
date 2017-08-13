@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:06.726 --> 00:00:07.106 A:middle
 (Applause)
@@ -42,14 +41,6 @@ different interface elements
 00:00:54.956 --> 00:00:57.876 A:middle
 to provide a great
 experience for your user.
-
-00:00:58.806 --> 00:01:02.046 A:middle
-We're going to debug the
-app, and we are also going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.806 --> 00:01:02.046 A:middle
 We're going to debug the
@@ -132,14 +123,6 @@ clock face, and this is one
 
 00:01:57.826 --> 00:01:59.056 A:middle
 that I am really excited about.
-
-00:01:59.176 --> 00:02:01.406 A:middle
-This is great for small
-pieces of information
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.176 --> 00:02:01.406 A:middle
 This is great for small
@@ -228,14 +211,6 @@ lives on the Watch,
 you can enable all sorts
 of new capabilities,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:58.336 --> 00:03:00.566 A:middle
-you can enable all sorts
-of new capabilities,
-
 00:03:00.676 --> 00:03:01.736 A:middle
 which I will get into later.
 
@@ -317,14 +292,6 @@ or animating them as needed.
 Additionally, your WatchKit
 extension can send dynamically
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.416 --> 00:04:01.196 A:middle
-Additionally, your WatchKit
-extension can send dynamically
-
 00:04:01.196 --> 00:04:03.846 A:middle
 generated content over to
 the Watch app for display.
@@ -347,11 +314,11 @@ responds to user interactions,
 and updates the UI
 as appropriate.
 
-00:04:17.875 --> 00:04:20.026 A:middle
+00:04:17.876 --> 00:04:20.026 A:middle
 When you create your
 Interface Controller subclass,
 
-00:04:20.555 --> 00:04:23.476 A:middle
+00:04:20.556 --> 00:04:23.476 A:middle
 you add outlets for each UI
 element you need to manage.
 
@@ -397,14 +364,6 @@ thinking about how
 00:04:52.816 --> 00:04:55.446 A:middle
 to modify an existing
 iPhone app.
-
-00:04:56.276 --> 00:05:00.776 A:middle
-So in the run-up to WWDC, I
-have been a little forgetful
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:56.276 --> 00:05:00.776 A:middle
 So in the run-up to WWDC, I
@@ -492,14 +451,6 @@ familiar with the iOS simulator,
 and it looks something
 like this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.256 --> 00:06:00.476 A:middle
-and it looks something
-like this.
-
 00:06:01.466 --> 00:06:03.596 A:middle
 And now we have a
 new Watch simulator.
@@ -580,14 +531,6 @@ face in the sim.
 Now let's jump into Xcode and
 see how we can add our Watch app
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.576 --> 00:07:02.286 A:middle
-Now let's jump into Xcode and
-see how we can add our Watch app
-
 00:07:02.286 --> 00:07:03.866 A:middle
 and use this brand-new
 simulator.
@@ -631,14 +574,6 @@ add a WatchKit app.
 00:07:51.966 --> 00:07:56.896 A:middle
 I double-click, add
 a product name,
-
-00:07:56.896 --> 00:08:00.146 A:middle
-and my main app is always
-going to be enabled by default,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:56.896 --> 00:08:00.146 A:middle
 and my main app is always
@@ -690,7 +625,7 @@ code we might want to add.
 00:08:31.966 --> 00:08:33.496 A:middle
 Let's go into the storyboard.
 
-00:08:36.895 --> 00:08:39.826 A:middle
+00:08:36.896 --> 00:08:39.826 A:middle
 So now, as you can see,
 I have a main interface,
 
@@ -717,14 +652,6 @@ objects here that I can use,
 00:08:55.026 --> 00:08:59.486 A:middle
 and I have all my WatchKit
 interface elements as well.
-
-00:08:59.696 --> 00:09:02.546 A:middle
-So let's just drag and drop
-an interface controller over.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.696 --> 00:09:02.546 A:middle
 So let's just drag and drop
@@ -801,14 +728,6 @@ will see the static interface.
 So also, I have this
 My Category here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:56.076 --> 00:10:00.376 A:middle
-So also, I have this
-My Category here.
-
 00:10:00.826 --> 00:10:05.066 A:middle
 So for different categories that
 we send for different payloads,
@@ -878,14 +797,6 @@ and then hook that up as well.
 
 00:10:55.876 --> 00:10:58.886 A:middle
 So also we have given to us
-
-00:10:58.886 --> 00:11:02.296 A:middle
-by the template a push
-notification payload .apns file.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.886 --> 00:11:02.296 A:middle
 by the template a push
@@ -973,10 +884,6 @@ for the Watch.
 It's actually going to be
 paired with my iPhone sim,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.096 --> 00:12:06.256 A:middle
 so let's select the iPhone 6
 scheme, and let's build and run,
@@ -1043,14 +950,6 @@ Simulate Touch Pressure,
 00:12:55.046 --> 00:12:58.666 A:middle
 and now I can simulate a deep
 press, then I can go back
-
-00:12:59.406 --> 00:13:02.756 A:middle
-to a shallow press, and then
-I can modify my clock face.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.406 --> 00:13:02.756 A:middle
 to a shallow press, and then
@@ -1130,14 +1029,6 @@ so I have my Settings app,
 my clock face, and
 the app I have.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.446 --> 00:14:00.146 A:middle
-my clock face, and
-the app I have.
-
 00:14:00.976 --> 00:14:04.286 A:middle
 And then I can launch my
 app and see it as I expect.
@@ -1199,14 +1090,6 @@ so I can easily create that.
 00:14:53.476 --> 00:14:57.196 A:middle
 Now if I go back to my scheme,
 there's my new simulator.
-
-00:14:58.856 --> 00:15:01.836 A:middle
-So let's go back
-to the storyboard.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.856 --> 00:15:01.836 A:middle
 So let's go back
@@ -1277,14 +1160,6 @@ happen is on the Watch sim,
 00:15:54.666 --> 00:15:57.346 A:middle
 my notification will appear,
 and then it says Dynamic,
-
-00:15:57.806 --> 00:16:03.816 A:middle
-and that's all it
-should say for now.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.806 --> 00:16:03.816 A:middle
 and that's all it
@@ -1363,14 +1238,6 @@ thing here in the simulator,
 and I am taken right
 to the app as I expect.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.756 --> 00:17:08.246 A:middle
-and I am taken right
-to the app as I expect.
-
 00:17:08.376 --> 00:17:13.596 A:middle
 So now I could flesh out this
 code and add a great UI story
@@ -1395,7 +1262,7 @@ Notification
 to get my static interface,
 and I don't want to be doing
 
-00:17:25.996 --> 00:17:28.215 A:middle
+00:17:25.996 --> 00:17:28.216 A:middle
 that while I am iterating
 on my code.
 
@@ -1433,14 +1300,6 @@ they would appear here,
 
 00:17:55.656 --> 00:17:57.036 A:middle
 and I can quickly change
-
-00:17:57.036 --> 00:18:00.796 A:middle
-out which payload I
-am trying to test.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.036 --> 00:18:00.796 A:middle
 out which payload I
@@ -1506,14 +1365,6 @@ when the extension
 00:18:54.486 --> 00:18:57.686 A:middle
 and interface controller get
 called for setup and tear-down
-
-00:18:58.066 --> 00:19:01.136 A:middle
-so you are configuring UI
-elements at the right time,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.066 --> 00:19:01.136 A:middle
 so you are configuring UI
@@ -1606,13 +1457,6 @@ action methods you defined
 00:19:59.446 --> 00:20:00.646 A:middle
 on your interface controller.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.446 --> 00:20:00.646 A:middle
-on your interface controller.
-
 00:20:01.336 --> 00:20:04.536 A:middle
 Those action methods are
 your chance to execute code
@@ -1689,14 +1533,6 @@ of the WatchKit extension,
 but another important
 thing to talk
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.556 --> 00:21:01.096 A:middle
-but another important
-thing to talk
-
 00:21:01.096 --> 00:21:03.666 A:middle
 about is the layout
 of the Watch app.
@@ -1759,14 +1595,6 @@ creation code with WatchKit.
 00:21:54.766 --> 00:21:57.036 A:middle
 You have fine-tuned control
 in the Interface Builder
-
-00:21:57.866 --> 00:22:02.806 A:middle
-of positioning and sizing, the
-layout hierarchy, and animation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.866 --> 00:22:02.806 A:middle
 of positioning and sizing, the
@@ -1844,14 +1672,6 @@ Glance, and your Notification.
 So let's jump into Xcode
 and see what we have.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:56.406 --> 00:23:00.226 A:middle
-So let's jump into Xcode
-and see what we have.
-
 00:23:00.426 --> 00:23:02.286 A:middle
 So we understand what
 the life cycle is
@@ -1923,14 +1743,6 @@ resize our image a bit,
 00:23:56.796 --> 00:23:58.756 A:middle
 and now let's add the
 label into the group,
-
-00:23:58.756 --> 00:24:02.106 A:middle
-and then let's also add the
-image right next to the label.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.756 --> 00:24:02.106 A:middle
 and then let's also add the
@@ -2014,14 +1826,6 @@ I can do the same for my label.
 I just want to position
 it in the center.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:56.436 --> 00:25:00.096 A:middle
-I just want to position
-it in the center.
-
 00:25:00.096 --> 00:25:01.786 A:middle
 Now let's move on to the Glance.
 
@@ -2097,14 +1901,6 @@ figured out my new interface,
 and now let's just build
 and run the interface
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.446 --> 00:26:02.916 A:middle
-and now let's just build
-and run the interface
-
 00:26:02.916 --> 00:26:04.016 A:middle
 by selecting the schemes.
 
@@ -2174,14 +1970,6 @@ is already enabled.
 I can also uninstall my
 app and reinstall it,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:56.006 --> 00:27:02.016 A:middle
-I can also uninstall my
-app and reinstall it,
-
 00:27:02.016 --> 00:27:05.576 A:middle
 and I can also disable my
 Glance and reenable it.
@@ -2245,14 +2033,6 @@ code to talk to my server.
 00:27:55.276 --> 00:27:57.196 A:middle
 However, there are times
 when I need to make sure
-
-00:27:57.196 --> 00:28:00.506 A:middle
-that my iOS app and watchOS app
-are in touch with each other,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.196 --> 00:28:00.506 A:middle
 that my iOS app and watchOS app
@@ -2342,14 +2122,6 @@ simple transfer file API.
 And lastly, there's a transfer
 user info API that ties in more
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:57.866 --> 00:29:01.156 A:middle
-And lastly, there's a transfer
-user info API that ties in more
-
 00:29:01.156 --> 00:29:02.176 A:middle
 so with Complications.
 
@@ -2428,14 +2200,6 @@ are short on the Watch.
 So this means that
 performance is critical,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:57.816 --> 00:30:00.126 A:middle
-So this means that
-performance is critical,
-
 00:30:00.726 --> 00:30:02.966 A:middle
 and we want to be using
 Instruments to make sure
@@ -2507,10 +2271,6 @@ place this code.
 So let me first import
 WatchConnectivity.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.236 --> 00:31:02.436 A:middle
 And now in Application
 Did Become Active,
@@ -2575,14 +2335,6 @@ Let's take a look at my code.
 00:31:52.636 --> 00:31:56.166 A:middle
 I also haven't set
 my delegate either,
-
-00:31:56.396 --> 00:32:02.086 A:middle
-so I want to set a WC session
-delegate, and then after --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:56.396 --> 00:32:02.086 A:middle
 so I want to set a WC session
@@ -2658,14 +2410,6 @@ scheme, and I am going
 to select the same simulator
 that's paired with my Watch sim.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.006 --> 00:33:02.376 A:middle
-to select the same simulator
-that's paired with my Watch sim.
-
 00:33:02.376 --> 00:33:04.876 A:middle
 So I'm going to select
 my iPhone 6 sim.
@@ -2733,14 +2477,6 @@ update my application context.
 So I can hit it again
 on my iOS app
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.106 --> 00:34:00.406 A:middle
-So I can hit it again
-on my iOS app
-
 00:34:00.406 --> 00:34:01.776 A:middle
 and hit the delegate callback.
 
@@ -2763,29 +2499,29 @@ of your calls are occurring
 in the order you want them
 to on both watchOS and iOS.
 
-00:34:16.985 --> 00:34:21.576 A:middle
+00:34:16.986 --> 00:34:21.576 A:middle
 (Applause) Thank you.
 
 00:34:24.646 --> 00:34:27.206 A:middle
 Let's just stop the session
 for now, and I just want
 
-00:34:27.206 --> 00:34:28.835 A:middle
+00:34:27.206 --> 00:34:28.836 A:middle
 to quickly profile
 an Instrument.
 
-00:34:29.525 --> 00:34:33.956 A:middle
+00:34:29.526 --> 00:34:33.956 A:middle
 So I'm going to hit Product,
 Profile, and I am going
 
-00:34:33.956 --> 00:34:38.525 A:middle
+00:34:33.956 --> 00:34:38.526 A:middle
 to have Instruments come up, and
 I expect my template to appear,
 
-00:34:38.525 --> 00:34:39.525 A:middle
+00:34:38.526 --> 00:34:39.526 A:middle
 my template selection.
 
-00:34:40.166 --> 00:34:41.735 A:middle
+00:34:40.166 --> 00:34:41.736 A:middle
 So let's find my -- okay.
 
 00:34:41.896 --> 00:34:43.496 A:middle
@@ -2802,7 +2538,7 @@ iOS sim, I actually want
 to be debugging my,
 profiling my extension.
 
-00:34:53.295 --> 00:34:54.326 A:middle
+00:34:53.296 --> 00:34:54.326 A:middle
 Select that here.
 
 00:34:54.656 --> 00:34:55.766 A:middle
@@ -2811,14 +2547,6 @@ I can press Record.
 00:34:56.666 --> 00:34:58.486 A:middle
 And it looks like
 I've hit an error.
-
-00:34:58.486 --> 00:35:01.986 A:middle
-So let's just open up my
-Watch sim, place that here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.486 --> 00:35:01.986 A:middle
 So let's just open up my
@@ -2896,14 +2624,6 @@ for our app and Glance.
 
 00:35:55.956 --> 00:35:57.416 A:middle
 We used WatchConnectivity.
-
-00:35:58.486 --> 00:36:01.656 A:middle
-We debugged our iOS and
-watchOS apps at the same time.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.486 --> 00:36:01.656 A:middle
 We debugged our iOS and
@@ -2990,14 +2710,6 @@ experience for your user.
 You can also provide a great
 experience using haptics
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:56.936 --> 00:37:00.226 A:middle
-You can also provide a great
-experience using haptics
-
 00:37:00.856 --> 00:37:04.286 A:middle
 and lightly tap your user
 and provide some context
@@ -3066,14 +2778,6 @@ elements and we made our app
 
 00:37:55.806 --> 00:37:58.466 A:middle
 and our Glance, and we talked
-
-00:37:58.466 --> 00:38:00.626 A:middle
-through our notification
-interfaces and how
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:58.466 --> 00:38:00.626 A:middle
 through our notification
@@ -3157,10 +2861,5 @@ any questions you might have.
 00:38:58.316 --> 00:38:59.186 A:middle
 So thank you, everyone.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:03.796 --> 00:39:04.206 A:middle
 (Applause) Thank you.
-

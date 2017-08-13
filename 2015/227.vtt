@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:19.016 --> 00:00:20.046 A:middle
 [Applause]
@@ -55,14 +54,6 @@ Additionally, our install base
 00:00:56.256 --> 00:00:58.516 A:middle
 for Mac OS X is 80
 million devices.
-
-00:00:59.126 --> 00:01:02.956 A:middle
-We have over 450 physical stores
-located all around the world
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.126 --> 00:01:02.956 A:middle
 We have over 450 physical stores
@@ -153,14 +144,6 @@ means making it work in Europe.
 Now, indeed, this is important,
 but additionally you have
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:56.996 --> 00:02:00.096 A:middle
-Now, indeed, this is important,
-but additionally you have
-
 00:02:00.146 --> 00:02:01.616 A:middle
 to keep in mind that
 users in China
@@ -245,14 +228,6 @@ interact with these settings
 
 00:02:55.526 --> 00:02:58.306 A:middle
 on our operating systems.
-
-00:02:58.306 --> 00:03:01.146 A:middle
-On the left, we have OS
-X, on the right, iOS.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.306 --> 00:03:01.146 A:middle
 On the left, we have OS
@@ -364,14 +339,6 @@ that you are translating into,
 but often the concepts
 behind the things you wish
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.686 --> 00:04:02.126 A:middle
-but often the concepts
-behind the things you wish
-
 00:04:02.126 --> 00:04:02.576 A:middle
 to translate.
 
@@ -407,7 +374,7 @@ to customize these settings
 if they have individual
 preferences.
 
-00:04:21.685 --> 00:04:24.896 A:middle
+00:04:21.686 --> 00:04:24.896 A:middle
 So, new in iOS 9 and El
 Capitan, we have the ability
 
@@ -456,10 +423,6 @@ realize, in fact,
 00:04:57.916 --> 00:04:59.836 A:middle
 there are multiple numeric
 systems in use around the world.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.436 --> 00:05:02.026 A:middle
 On the top we have
@@ -554,14 +517,6 @@ keyboards for Indic languages.
 On the right, here, you
 see the Telugu keyboard.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.016 --> 00:06:01.106 A:middle
-On the right, here, you
-see the Telugu keyboard.
-
 00:06:02.016 --> 00:06:04.626 A:middle
 Now, additionally, we've
 added predictive typing
@@ -650,10 +605,6 @@ stored in lproj directories
 of your bundle, within
 the resources directory.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.176 --> 00:07:03.596 A:middle
 English has its own .strings
 files, as, here, does German.
@@ -740,14 +691,6 @@ ambiguous in certain contexts
 and this comment parameter will
 allow you to customize that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.486 --> 00:08:01.736 A:middle
-and this comment parameter will
-allow you to customize that.
-
 00:08:02.616 --> 00:08:04.866 A:middle
 So, the key is the string
 you wish to translate,
@@ -796,15 +739,15 @@ with format' on the result
 of having called
 NSLocalizedString.
 
-00:08:36.046 --> 00:08:37.525 A:middle
+00:08:36.046 --> 00:08:37.526 A:middle
 Now, to see what this
 looks like in action,
 
-00:08:37.525 --> 00:08:42.196 A:middle
+00:08:37.526 --> 00:08:42.196 A:middle
 it might be helpful
 to give a brief demo.
 
-00:08:42.905 --> 00:08:46.446 A:middle
+00:08:42.906 --> 00:08:46.446 A:middle
 So, let's say we wish to
 translate the string location:X.
 
@@ -827,14 +770,6 @@ files may look like.
 00:08:56.056 --> 00:08:58.506 A:middle
 On the left-hand side is
 the string to be translated,
-
-00:08:58.506 --> 00:09:00.036 A:middle
-and on the right is
-the translated variant.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.506 --> 00:09:00.036 A:middle
 and on the right is
@@ -933,14 +868,6 @@ work for German.
 These arguments need
 to be reversed
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.176 --> 00:10:01.236 A:middle
-These arguments need
-to be reversed
-
 00:10:01.276 --> 00:10:02.176 A:middle
 to make sense in German.
 
@@ -1032,14 +959,6 @@ for resource.'
 Let's say we wish to
 localize a stop sign graphic.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.966 --> 00:11:02.856 A:middle
-Let's say we wish to
-localize a stop sign graphic.
-
 00:11:03.726 --> 00:11:05.776 A:middle
 So, here, let's say, though,
 
@@ -1116,14 +1035,6 @@ give you the sound resource.
 00:11:55.816 --> 00:11:57.416 A:middle
 And 'URL for resource,'
 the most generic,
-
-00:11:57.846 --> 00:12:00.196 A:middle
-will give you back any
-given other file format.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.846 --> 00:12:00.196 A:middle
 will give you back any
@@ -1216,14 +1127,6 @@ for a few releases
 00:12:56.126 --> 00:12:57.466 A:middle
 but it's important
 to emphasize here.
-
-00:12:58.576 --> 00:13:01.826 A:middle
-A string stick file is
-essentially a plist file
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.576 --> 00:13:01.826 A:middle
 A string stick file is
@@ -1324,14 +1227,6 @@ which will fill in the variable,
 from the formatted string
 which has been returned to you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.366 --> 00:14:04.746 A:middle
-from the formatted string
-which has been returned to you.
-
 00:14:05.116 --> 00:14:07.786 A:middle
 Therefore, it will do the right
 thing for English, for one, two,
@@ -1405,14 +1300,6 @@ way to solve this is
 00:14:54.946 --> 00:14:58.456 A:middle
 by using a new mechanism,
 'variable width rule type.'
-
-00:14:59.116 --> 00:15:01.006 A:middle
-This is an entry you can
-add within your string stick
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.116 --> 00:15:01.006 A:middle
 This is an entry you can
@@ -1509,14 +1396,6 @@ translations for a given string
 in a different language as well,
 so this is a super useful tool.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.126 --> 00:16:01.876 A:middle
-in a different language as well,
-so this is a super useful tool.
-
 00:16:03.536 --> 00:16:08.806 A:middle
 On OS X, things are a
 little bit different.
@@ -1590,14 +1469,6 @@ to think about the way dates,
 numbers, times, and, new in
 iOS 9 and El Capitan, names.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.556 --> 00:17:01.726 A:middle
-numbers, times, and, new in
-iOS 9 and El Capitan, names.
-
 00:17:02.756 --> 00:17:05.266 A:middle
 So, to begin with,
 there is a right way
@@ -1606,7 +1477,7 @@ there is a right way
 and a wrong way to
 format numbers.
 
-00:17:07.276 --> 00:17:09.435 A:middle
+00:17:07.276 --> 00:17:09.436 A:middle
 Let's say we wish to present
 the constant pi to our users.
 
@@ -1614,7 +1485,7 @@ the constant pi to our users.
 One naive way to
 do this would be
 
-00:17:11.766 --> 00:17:13.415 A:middle
+00:17:11.766 --> 00:17:13.416 A:middle
 to initialize a string variable
 
 00:17:13.536 --> 00:17:17.606 A:middle
@@ -1635,7 +1506,7 @@ your user is running
 in a German localization,
 however,
 
-00:17:28.455 --> 00:17:30.536 A:middle
+00:17:28.456 --> 00:17:30.536 A:middle
 they get back this string.
 
 00:17:30.536 --> 00:17:32.366 A:middle
@@ -1680,14 +1551,6 @@ realizations depending
 
 00:17:57.066 --> 00:17:57.916 A:middle
 on a user's locale.
-
-00:17:58.526 --> 00:18:00.386 A:middle
-And this means now
-the same thing
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.526 --> 00:18:00.386 A:middle
 And this means now
@@ -1773,14 +1636,6 @@ way to format a date.
 00:18:54.756 --> 00:18:57.246 A:middle
 We initialize an NS String
 with this format argument.
-
-00:18:57.726 --> 00:19:01.606 A:middle
-That is to say, this
-represents today's date at 9:00
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:57.726 --> 00:19:01.606 A:middle
 That is to say, this
@@ -1875,14 +1730,6 @@ box styles for NS date formatter
 that allow you to specify
 the amount of space available
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.456 --> 00:20:02.376 A:middle
-that allow you to specify
-the amount of space available
-
 00:20:02.376 --> 00:20:04.386 A:middle
 to you relative to the
 width of the string.
@@ -1963,14 +1810,6 @@ come with a short style.
 00:20:54.406 --> 00:20:57.546 A:middle
 So using this template, we
 have allowed for 24-hour time
-
-00:20:57.546 --> 00:21:03.636 A:middle
-as well, as well as rearranging
-the month and day arguments.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:57.546 --> 00:21:03.636 A:middle
 as well, as well as rearranging
@@ -2066,14 +1905,6 @@ and LengthFormatter, assume
 that under the hood you are
 working in metric units.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:57.836 --> 00:22:00.116 A:middle
-that under the hood you are
-working in metric units.
-
 00:22:00.546 --> 00:22:03.606 A:middle
 So when you assign a float
 here to the variable weight,
@@ -2156,14 +1987,6 @@ from the United States.
 00:22:52.986 --> 00:22:56.726 A:middle
 She coined the term "bug" and
 invented the first compiler.
-
-00:22:57.496 --> 00:23:00.426 A:middle
-Additionally, let's look at a
-Chinese name, "Wang Dongling."
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.496 --> 00:23:00.426 A:middle
 Additionally, let's look at a
@@ -2252,10 +2075,6 @@ precise as to what it does.
 
 00:23:58.096 --> 00:23:59.366 A:middle
 It formats person names.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.456 --> 00:24:01.926 A:middle
 So here is how you would use it.
@@ -2355,14 +2174,6 @@ names, we have determined
 that abbreviated names in
 this form with first, middle,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.266 --> 00:25:02.026 A:middle
-that abbreviated names in
-this form with first, middle,
-
 00:25:02.026 --> 00:25:02.946 A:middle
 and last all shortened
 
@@ -2453,14 +2264,6 @@ immediately straightforward,
 although visually it
 constitutes a single unit.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.706 --> 00:26:01.636 A:middle
-although visually it
-constitutes a single unit.
-
 00:26:02.136 --> 00:26:05.276 A:middle
 Under the hood it's represented
 by one, two, three, four, five,
@@ -2535,14 +2338,6 @@ incorrect way to do this.
 00:26:57.026 --> 00:26:58.586 A:middle
 The correct way to
 enumerate over a string is
-
-00:26:58.586 --> 00:27:00.566 A:middle
-to call 'enumerate
-substrings in range.'
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.586 --> 00:27:00.566 A:middle
 to call 'enumerate
@@ -2643,14 +2438,6 @@ the appropriate capitalized
 representation of the
 string, that is to say,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.586 --> 00:28:01.386 A:middle
-representation of the
-string, that is to say,
-
 00:28:01.476 --> 00:28:03.916 A:middle
 the string with the first
 character upper cased.
@@ -2732,14 +2519,6 @@ As a developer you may call
 00:28:57.106 --> 00:28:58.516 A:middle
 when in fact this
 will return nil.
-
-00:28:59.646 --> 00:29:02.106 A:middle
-The correct way to search
-for this, and new in iOS 9
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.646 --> 00:29:02.106 A:middle
 The correct way to search
@@ -2829,14 +2608,6 @@ to their Latin representation.
 Now, formerly this was
 available to you only
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.366 --> 00:30:00.886 A:middle
-Now, formerly this was
-available to you only
-
 00:30:00.886 --> 00:30:02.106 A:middle
 at the Core Foundation level.
 
@@ -2907,13 +2678,6 @@ to different representations.
 00:30:55.346 --> 00:30:58.916 A:middle
 So, that's how you handle text
 within our operating system
-
-00:30:59.366 --> 00:31:00.596 A:middle
-as received from the user.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.366 --> 00:31:00.596 A:middle
 as received from the user.
@@ -2995,14 +2759,6 @@ with content added at runtime.
 00:31:54.916 --> 00:31:58.496 A:middle
 But if you haven't taken
 allowances for how this works
-
-00:31:58.496 --> 00:32:00.466 A:middle
-in other UIs or in
-other languages,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.496 --> 00:32:00.466 A:middle
 in other UIs or in
@@ -3090,14 +2846,6 @@ This is a huge difference.
 00:32:55.556 --> 00:32:58.026 A:middle
 We have allowed our label to
 expand the available space given
-
-00:32:58.026 --> 00:33:01.766 A:middle
-to us by specifying
-not static constraints
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.026 --> 00:33:01.766 A:middle
 to us by specifying
@@ -3192,14 +2940,6 @@ that you shouldn't assume
 that a given table cell
 will be a certain height.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.926 --> 00:34:01.696 A:middle
-that a given table cell
-will be a certain height.
-
 00:34:02.186 --> 00:34:05.146 A:middle
 It may expand in
 different locales to take
@@ -3215,10 +2955,10 @@ and critical in iOS 9 is
 that we have now
 provided full support
 
-00:34:13.806 --> 00:34:15.025 A:middle
+00:34:13.806 --> 00:34:15.026 A:middle
 for right-to-left languages.
 
-00:34:15.335 --> 00:34:18.346 A:middle
+00:34:15.336 --> 00:34:18.346 A:middle
 On the left, we have an English
 UI, and on the right, an Arabic.
 
@@ -3240,7 +2980,7 @@ one menu into a detail menu
 00:34:30.216 --> 00:34:31.246 A:middle
 by going left to right.
 
-00:34:31.846 --> 00:34:34.735 A:middle
+00:34:31.846 --> 00:34:34.736 A:middle
 Now, in right-to-left languages
 you go to right to left.
 
@@ -3256,29 +2996,21 @@ on the other side and much
 of the text itself
 has been flipped.
 
-00:34:43.016 --> 00:34:45.025 A:middle
+00:34:43.016 --> 00:34:45.026 A:middle
 Important to keep in mind,
 though, is not everything
 
-00:34:45.025 --> 00:34:50.985 A:middle
+00:34:45.026 --> 00:34:50.986 A:middle
 in the UI may shift, and may
 not automatically shift for you.
 
-00:34:50.985 --> 00:34:53.126 A:middle
+00:34:50.986 --> 00:34:53.126 A:middle
 Sometimes you may wish to
 customize the behavior.
 
 00:34:53.926 --> 00:34:57.796 A:middle
 As we see here in the 'do not
 disturb' icon which is, in fact,
-
-00:34:57.796 --> 00:35:00.756 A:middle
-still left to right, as
-well as the Latin text
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.796 --> 00:35:00.756 A:middle
 still left to right, as
@@ -3370,14 +3102,6 @@ is that your UI elements appear
 on the screen to
 international users.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.906 --> 00:36:01.386 A:middle
-on the screen to
-international users.
-
 00:36:02.276 --> 00:36:04.336 A:middle
 Now, luckily if you're
 using the localized variants
@@ -3448,4 +3172,3 @@ So, thank you.
 
 00:36:49.516 --> 00:36:52.500 A:middle
 [Applause]
-

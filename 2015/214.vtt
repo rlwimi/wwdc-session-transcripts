@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:20.516 --> 00:00:22.636 A:middle
 [Applause]
@@ -51,19 +50,11 @@ structured, how you build one.
 We will follow that up by
 giving you a demo using Xcode
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:56.486 --> 00:01:00.036 A:middle
-We will follow that up by
-giving you a demo using Xcode
-
 00:01:00.396 --> 00:01:03.136 A:middle
 and the new ODR API we
 have added to Foundation.
 
-00:01:04.575 --> 00:01:07.116 A:middle
+00:01:04.576 --> 00:01:07.116 A:middle
 And finally, we will wrap
 things up with a segment
 
@@ -146,14 +137,6 @@ that they can't get enough
 00:01:55.696 --> 00:01:58.416 A:middle
 of them and literally
 this means more
-
-00:01:58.416 --> 00:02:00.996 A:middle
-and more the case this
-is literally true.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.416 --> 00:02:00.996 A:middle
 and more the case this
@@ -250,14 +233,6 @@ than if they had
 to download the entire
 app first and they had
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.446 --> 00:03:02.836 A:middle
-to download the entire
-app first and they had
-
 00:03:02.836 --> 00:03:05.716 A:middle
 to use far less disk
 space to do it.
@@ -341,10 +316,6 @@ continue on with the game
 00:03:58.746 --> 00:03:59.876 A:middle
 and play the next level.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.726 --> 00:04:02.886 A:middle
 So this is the basic
 idea behind ODR;
@@ -368,7 +339,7 @@ all of the features of ODR
 that we provide you,
 the developers.
 
-00:04:21.505 --> 00:04:25.096 A:middle
+00:04:21.506 --> 00:04:25.096 A:middle
 First of all, obviously this
 is a dynamically loaded content
 
@@ -410,14 +381,6 @@ that I mentioned.
 00:04:53.956 --> 00:04:58.236 A:middle
 So, for example, we can free
 up space to load something new.
-
-00:04:58.616 --> 00:05:04.366 A:middle
-And finally, a traditional app
-maxes out at 4-gig submission
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.616 --> 00:05:04.366 A:middle
 And finally, a traditional app
@@ -489,14 +452,6 @@ occupying a smaller
 00:05:53.296 --> 00:05:57.306 A:middle
 and more manageable space on
 device, the footprint of the app
-
-00:05:57.306 --> 00:06:00.566 A:middle
-at any one time, we can have
-more apps on the device ready
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:57.306 --> 00:06:00.566 A:middle
 at any one time, we can have
@@ -577,14 +532,6 @@ you need for that phone.
 In the past they
 would have gotten all
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.546 --> 00:07:01.346 A:middle
-In the past they
-would have gotten all
-
 00:07:01.346 --> 00:07:03.136 A:middle
 of the assets including
 those for an iPad.
@@ -658,10 +605,6 @@ Level 2, for example.
 00:07:59.036 --> 00:07:59.786 A:middle
 All right.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.136 --> 00:08:01.786 A:middle
 Now, what can you tag?
 
@@ -715,7 +658,7 @@ All right.
 00:08:38.826 --> 00:08:41.796 A:middle
 So where is this content hosted?
 
-00:08:42.385 --> 00:08:43.846 A:middle
+00:08:42.386 --> 00:08:43.846 A:middle
 Well, I mentioned
 one of the locations;
 
@@ -740,10 +683,6 @@ or the simulator.
 00:08:55.886 --> 00:08:59.216 A:middle
 And it hosts it to your app
 and delivers it on demand.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.056 --> 00:09:03.006 A:middle
 Now, another tool in the Xcode
@@ -834,14 +773,6 @@ There they are.
 So you can tag assets with
 multiple tags in order
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.746 --> 00:10:03.276 A:middle
-So you can tag assets with
-multiple tags in order
-
 00:10:03.276 --> 00:10:06.216 A:middle
 to indicate the sharing
 and avoid duplication.
@@ -916,14 +847,6 @@ that shared asset pack,
 00:10:55.896 --> 00:10:58.706 A:middle
 when we request Level
 2, we get those assets
-
-00:10:59.276 --> 00:11:01.416 A:middle
-and we already have the
-shared assets on the device.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.276 --> 00:11:01.416 A:middle
 and we already have the
@@ -1007,14 +930,6 @@ it to begin its request.
 00:11:54.626 --> 00:11:58.666 A:middle
 So you can create as many of
 these objects as you need.
-
-00:11:58.726 --> 00:12:00.866 A:middle
-That's because the system
-will ref count the tags
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.726 --> 00:12:00.866 A:middle
 That's because the system
@@ -1109,14 +1024,6 @@ a completion handler callback
 which will tell us either the
 resources are now available
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.926 --> 00:13:02.506 A:middle
-which will tell us either the
-resources are now available
-
 00:13:02.506 --> 00:13:05.846 A:middle
 for you to use and you can
 continue to use those APIs
@@ -1205,14 +1112,6 @@ basic methods look like.
 First, an initializer, and
 you can see it takes a set
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.616 --> 00:14:01.526 A:middle
-First, an initializer, and
-you can see it takes a set
-
 00:14:01.526 --> 00:14:02.096 A:middle
 of strings.
 
@@ -1294,14 +1193,6 @@ And that is, the reason is
 because when the
 user buys this app,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.606 --> 00:15:00.226 A:middle
-because when the
-user buys this app,
-
 00:15:00.546 --> 00:15:03.186 A:middle
 they are maybe not interested
 in getting all the information
@@ -1378,14 +1269,6 @@ the AlbumTableViewController.
 00:15:56.156 --> 00:15:58.976 A:middle
 This is the view controller
 that controls this view
-
-00:15:58.976 --> 00:16:01.346 A:middle
-that we see right here with
-the list of points of interest.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.976 --> 00:16:01.346 A:middle
 that we see right here with
@@ -1478,14 +1361,6 @@ function has to change.
 So, again, all of the
 APIs that you use today
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.446 --> 00:17:00.766 A:middle
-So, again, all of the
-APIs that you use today
-
 00:17:00.766 --> 00:17:04.536 A:middle
 that access contents of files
 on disk or finds those files
@@ -1494,7 +1369,7 @@ on disk or finds those files
 like NSBundles, those
 remain exactly the same.
 
-00:17:07.965 --> 00:17:10.316 A:middle
+00:17:07.966 --> 00:17:10.316 A:middle
 So the first thing we are going
 
 00:17:10.316 --> 00:17:12.656 A:middle
@@ -1513,7 +1388,7 @@ already organized my application
 to have a group called
 Resources,
 
-00:17:22.396 --> 00:17:25.195 A:middle
+00:17:22.396 --> 00:17:25.196 A:middle
 and folders that contain
 some of my content.
 
@@ -1555,14 +1430,6 @@ content as Iceland.
 00:17:52.446 --> 00:17:55.446 A:middle
 And we will do the same
 for our Italy content.
-
-00:17:56.156 --> 00:18:02.836 A:middle
-So next we just, so that,
-what that does is, of course,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.156 --> 00:18:02.836 A:middle
 So next we just, so that,
@@ -1649,14 +1516,6 @@ WithCompletionHandler (without
 00:18:56.306 --> 00:18:57.876 A:middle
 space), and when
 we get a result,
-
-00:18:58.026 --> 00:19:01.806 A:middle
-this closure will be called,
-and it may have an error.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.026 --> 00:19:01.806 A:middle
 this closure will be called,
@@ -1756,14 +1615,6 @@ here and choose disk.
 And you'll notice in the middle
 we have a new section called
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.296 --> 00:20:01.676 A:middle
-And you'll notice in the middle
-we have a new section called
-
 00:20:02.106 --> 00:20:03.136 A:middle
 On Demand Resources.
 
@@ -1850,14 +1701,6 @@ for Iceland; it's
 Now, there are two things
 that are important to do here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.386 --> 00:21:00.986 A:middle
-Now, there are two things
-that are important to do here.
-
 00:21:01.226 --> 00:21:05.856 A:middle
 The first is to actually reduce
 the size of the tagged content,
@@ -1924,14 +1767,6 @@ controller as an observer
 00:21:54.526 --> 00:21:58.886 A:middle
 of the progress and in response
 to updates, change some UI
-
-00:21:58.886 --> 00:22:00.486 A:middle
-on the screen, a
-UI progress view,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.886 --> 00:22:00.486 A:middle
 on the screen, a
@@ -2023,14 +1858,6 @@ when the value changes,
 and we do that in the
 traditional KVO method,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.246 --> 00:23:00.486 A:middle
-and we do that in the
-traditional KVO method,
-
 00:23:00.796 --> 00:23:02.066 A:middle
 observeValueForKeyPath.
 
@@ -2109,14 +1936,6 @@ is immediately available
 because it's been cached by
 the On Demand Resources system.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:57.286 --> 00:24:00.216 A:middle
-because it's been cached by
-the On Demand Resources system.
-
 00:24:00.746 --> 00:24:03.026 A:middle
 Let's go back to our slides.
 
@@ -2188,14 +2007,6 @@ it's not already available.
 00:24:57.366 --> 00:24:59.686 A:middle
 However, sometimes you may
 want to only use the content
-
-00:24:59.686 --> 00:25:01.076 A:middle
-if it's already available
-on disk
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.686 --> 00:25:01.076 A:middle
 if it's already available
@@ -2296,14 +2107,6 @@ it provides ordering
 for the outstanding
 requests in your application.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.736 --> 00:26:02.156 A:middle
-for the outstanding
-requests in your application.
-
 00:26:02.656 --> 00:26:04.056 A:middle
 The value ranges from 0 to 1.
 
@@ -2385,14 +2188,6 @@ ranges from 0 to 1,
 00:26:57.386 --> 00:26:59.586 A:middle
 with 0 being the least
 interesting to keep
-
-00:26:59.686 --> 00:27:01.396 A:middle
-and 1 being the most
-important to keep.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.686 --> 00:27:01.396 A:middle
 and 1 being the most
@@ -2481,14 +2276,6 @@ like Tony's iTravel app.
 We couldn't quite anticipate
 where the user would want to go.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.056 --> 00:28:02.006 A:middle
-We couldn't quite anticipate
-where the user would want to go.
-
 00:28:02.726 --> 00:28:03.756 A:middle
 This is random access.
 
@@ -2564,14 +2351,6 @@ getting rid
 00:28:56.636 --> 00:28:58.346 A:middle
 of the NSBundleResourceRequest
 object.
-
-00:28:59.206 --> 00:29:02.086 A:middle
-Now, the third pattern is the
-pattern than I've been using
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.206 --> 00:29:02.086 A:middle
 Now, the third pattern is the
@@ -2661,14 +2440,6 @@ off the download
 if the assets are not
 yet on the device.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.896 --> 00:30:00.766 A:middle
-if the assets are not
-yet on the device.
-
 00:30:01.956 --> 00:30:05.826 A:middle
 Now, the best-laid plans can
 hit, well, network problems,
@@ -2744,14 +2515,6 @@ these requests simultaneously,
 00:30:54.776 --> 00:30:57.906 A:middle
 you just need to remember
 the basic parts of this.
-
-00:30:58.666 --> 00:31:04.756 A:middle
-Okay. Now, I had talked about
-how ODR can benefit the user
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.666 --> 00:31:04.756 A:middle
 Okay. Now, I had talked about
@@ -2834,10 +2597,6 @@ and we will talk
 about this point a
 little bit later as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.796 --> 00:32:04.406 A:middle
 Okay. So now let's talk about
 automating the installation
@@ -2916,13 +2675,6 @@ to make space for a new level.
 00:32:56.736 --> 00:32:59.746 A:middle
 The first thing you need to
 know is we only purge content
-
-00:32:59.806 --> 00:33:01.706 A:middle
-when the system is low on space.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.806 --> 00:33:01.706 A:middle
 when the system is low on space.
@@ -3009,14 +2761,6 @@ your ODR content.
 One of them is to
 avoid overpurging.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.896 --> 00:34:02.116 A:middle
-One of them is to
-avoid overpurging.
-
 00:34:02.546 --> 00:34:03.506 A:middle
 What do I mean by this?
 
@@ -3027,14 +2771,14 @@ Let me give you an example.
 Let's say the system
 needs 100 megabytes,
 
-00:34:08.676 --> 00:34:09.985 A:middle
+00:34:08.676 --> 00:34:09.986 A:middle
 and it's gone everywhere else
 
-00:34:09.985 --> 00:34:11.466 A:middle
+00:34:09.986 --> 00:34:11.466 A:middle
 to find the space,
 it can't find it.
 
-00:34:12.436 --> 00:34:14.815 A:middle
+00:34:12.436 --> 00:34:14.816 A:middle
 Through the attributes we
 discussed just a moment ago,
 
@@ -3046,27 +2790,27 @@ your asset packs,
 but that asset pack
 is 512 megabytes.
 
-00:34:20.196 --> 00:34:22.565 A:middle
+00:34:20.196 --> 00:34:22.566 A:middle
 We are going to have to
 purge that asset pack
 
-00:34:22.565 --> 00:34:25.436 A:middle
+00:34:22.566 --> 00:34:25.436 A:middle
 if it met the conditions
 so we will have overpurged
 
-00:34:25.476 --> 00:34:30.085 A:middle
+00:34:25.476 --> 00:34:30.086 A:middle
 by 412 megabytes, so it's better
 to keep your asset pack smaller.
 
-00:34:30.085 --> 00:34:33.735 A:middle
+00:34:30.086 --> 00:34:33.736 A:middle
 As I mentioned earlier, this
 is also good because you want
 
-00:34:33.735 --> 00:34:35.916 A:middle
+00:34:33.736 --> 00:34:35.916 A:middle
 to progressively download
 and consume content,
 
-00:34:36.295 --> 00:34:37.835 A:middle
+00:34:36.296 --> 00:34:37.836 A:middle
 so smaller is better
 there as well.
 
@@ -3074,10 +2818,10 @@ there as well.
 But smaller is also better
 here to avoid overpurging.
 
-00:34:41.985 --> 00:34:43.036 A:middle
+00:34:41.986 --> 00:34:43.036 A:middle
 All right.
 
-00:34:44.335 --> 00:34:46.466 A:middle
+00:34:44.336 --> 00:34:46.466 A:middle
 Another thing you might
 be tempted to do is
 
@@ -3085,7 +2829,7 @@ be tempted to do is
 to tag everything with a
 1.0 preservation priority,
 
-00:34:50.326 --> 00:34:51.775 A:middle
+00:34:50.326 --> 00:34:51.776 A:middle
 but that doesn't
 really help you.
 
@@ -3096,14 +2840,6 @@ your assets look equivalent
 00:34:55.786 --> 00:34:58.166 A:middle
 to the system when it
 comes to it looking
-
-00:34:58.166 --> 00:35:00.206 A:middle
-at purging something
-from your app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.166 --> 00:35:00.206 A:middle
 at purging something
@@ -3187,14 +2923,6 @@ That's the default.
 But if you get into a
 situation or you just want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.496 --> 00:36:00.746 A:middle
-But if you get into a
-situation or you just want
-
 00:36:00.746 --> 00:36:02.236 A:middle
 to manage this all on
 your own and you want
@@ -3263,14 +2991,6 @@ So what you want to do is
 00:36:51.706 --> 00:36:56.176 A:middle
 to test your app using perhaps
 TestFlight or Xcode Server.
-
-00:36:57.506 --> 00:37:01.976 A:middle
-And then also use the Developer
-Tools Network Link Conditioner
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:57.506 --> 00:37:01.976 A:middle
 And then also use the Developer
@@ -3357,14 +3077,6 @@ of situation you want to create.
 Perhaps you want to mimic 100%
 loss or very slow network,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.406 --> 00:38:03.606 A:middle
-Perhaps you want to mimic 100%
-loss or very slow network,
-
 00:38:04.386 --> 00:38:08.546 A:middle
 or perhaps a high latency in
 DNS lookups, or you just want
@@ -3433,14 +3145,6 @@ for the users to use that app.
 00:38:56.176 --> 00:38:59.466 A:middle
 So just to be ready
 for that error as well.
-
-00:38:59.896 --> 00:39:04.056 A:middle
-Another class of error that
-you can encounter relates
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:59.896 --> 00:39:04.056 A:middle
 Another class of error that
@@ -3523,13 +3227,6 @@ do a couple of things;
 00:39:59.196 --> 00:40:01.006 A:middle
 you could endAccessingResources
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.196 --> 00:40:01.006 A:middle
-you could endAccessingResources
-
 00:40:01.006 --> 00:40:03.236 A:middle
 on any ODR content
 you no longer need.
@@ -3601,14 +3298,6 @@ cellular download limit still
 
 00:40:56.666 --> 00:40:58.286 A:middle
 applies to ODR applications,
-
-00:40:58.626 --> 00:41:01.966 A:middle
-so remember where I had
-the dot app plus the size
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:58.626 --> 00:41:01.966 A:middle
 so remember where I had
@@ -3688,14 +3377,6 @@ and pre-fetched ODR content.
 This is the content we
 set up in Xcode's UI
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.126 --> 00:42:00.106 A:middle
-This is the content we
-set up in Xcode's UI
-
 00:42:01.146 --> 00:42:03.636 A:middle
 to download things
 during the app install
@@ -3765,14 +3446,6 @@ install time and by request.
 00:42:56.236 --> 00:42:58.436 A:middle
 You can prioritize or
 order these downloads.
-
-00:42:59.776 --> 00:43:02.146 A:middle
-We have an intelligent caching
-mechanism so that, for example,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:59.776 --> 00:43:02.146 A:middle
 We have an intelligent caching
@@ -3849,4 +3522,3 @@ Thank you very much!
 
 00:43:58.016 --> 00:44:00.000 A:middle
 [Applause]
-

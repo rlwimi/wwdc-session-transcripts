@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:23.806 --> 00:00:25.486 A:middle
 &gt;&gt; Welcome to session 506.
@@ -50,14 +49,6 @@ this capability because,
 00:00:53.166 --> 00:00:56.466 A:middle
 as you'll see in a little
 bit, this provides the tools
-
-00:00:56.466 --> 00:01:01.116 A:middle
-that I need to manage a personal
-project that I have been working
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:56.466 --> 00:01:01.116 A:middle
 that I need to manage a personal
@@ -137,14 +128,6 @@ is situate these new classes
 in respect to the existing
 classes we have in AVFoundation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.066 --> 00:02:02.766 A:middle
-in respect to the existing
-classes we have in AVFoundation.
-
 00:02:02.766 --> 00:02:05.986 A:middle
 Then I am going to do sort of
 an API crawl where I go through
@@ -156,7 +139,7 @@ and touch on the high points
 of the new methods we've
 added to these classes.
 
-00:02:10.985 --> 00:02:12.706 A:middle
+00:02:10.986 --> 00:02:12.706 A:middle
 And finally, I am going
 to go back and talk
 
@@ -217,14 +200,6 @@ to AVMutableComposition,
 00:02:55.506 --> 00:02:58.216 A:middle
 which is there's no
 standard file format
-
-00:02:58.536 --> 00:03:01.306 A:middle
-into which you can
-serialize your composition.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.536 --> 00:03:01.306 A:middle
 into which you can
@@ -302,14 +277,6 @@ and its whole job in life is
 to indicate where you want new
 sample data that you are writing
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:56.686 --> 00:04:00.836 A:middle
-to indicate where you want new
-sample data that you are writing
-
 00:04:00.836 --> 00:04:03.286 A:middle
 into a file to end up.
 
@@ -329,7 +296,7 @@ with QuickTime movies,
 you know that there are also a
 number of related file formats
 
-00:04:19.505 --> 00:04:23.226 A:middle
+00:04:19.506 --> 00:04:23.226 A:middle
 that were devised based on the
 QuickTime movie file format,
 
@@ -374,14 +341,6 @@ of a QuickTime movie file.
 00:04:56.386 --> 00:04:58.796 A:middle
 It starts with what's
 called a file type box,
-
-00:04:59.136 --> 00:05:02.596 A:middle
-and this is a very simple little
-bit of data that indicates
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.136 --> 00:05:02.596 A:middle
 and this is a very simple little
@@ -466,14 +425,6 @@ of the movie,
 when was this file created,
 and what's the preferred rate
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.876 --> 00:06:02.496 A:middle
-when was this file created,
-and what's the preferred rate
-
 00:06:02.496 --> 00:06:04.866 A:middle
 that you would like
 this played back at.
@@ -548,14 +499,6 @@ other tracks in the movie.
 So the key feature here is that
 the sample data location --
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:56.716 --> 00:07:01.606 A:middle
-So the key feature here is that
-the sample data location --
-
 00:07:01.606 --> 00:07:04.816 A:middle
 so the sample data itself is
 not contained in the track box.
@@ -622,14 +565,6 @@ little bit of information
 and never have to touch that
 huge amount of media data.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.266 --> 00:08:02.186 A:middle
-and never have to touch that
-huge amount of media data.
-
 00:08:02.876 --> 00:08:04.706 A:middle
 However, as you can imagine,
 
@@ -670,19 +605,19 @@ references, and we'll see how
 00:08:29.186 --> 00:08:30.416 A:middle
 to do that in a little bit.
 
-00:08:30.806 --> 00:08:34.765 A:middle
+00:08:30.806 --> 00:08:34.766 A:middle
 But at the end of the
 day, you are going to want
 
-00:08:34.765 --> 00:08:36.686 A:middle
+00:08:34.766 --> 00:08:36.686 A:middle
 to have what's called
 a self-contained movie.
 
-00:08:36.686 --> 00:08:39.515 A:middle
+00:08:36.686 --> 00:08:39.516 A:middle
 If you want to give it to
 a friend to view or post it
 
-00:08:39.515 --> 00:08:40.686 A:middle
+00:08:39.516 --> 00:08:40.686 A:middle
 for delivery on the Web.
 
 00:08:41.086 --> 00:08:42.316 A:middle
@@ -705,14 +640,6 @@ the movie editing API
 
 00:08:53.086 --> 00:08:54.236 A:middle
 that we are introducing.
-
-00:08:54.836 --> 00:09:00.376 A:middle
-At the immutable level -- so
-AVMovie is an immutable subclass
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:54.836 --> 00:09:00.376 A:middle
 At the immutable level -- so
@@ -791,10 +718,6 @@ So here is how easy it is
 to create a sample
 reference movie file.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.026 --> 00:10:04.326 A:middle
 We'll open a URL as an AVMovie.
 
@@ -855,14 +778,6 @@ of AVMovie, AVMutableMovie.
 00:10:52.166 --> 00:10:55.466 A:middle
 This provides editing
 methods that aus
-
-00:10:55.466 --> 00:11:00.236 A:middle
-to perform range-based movie
-editing, add and remove tracks,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:55.466 --> 00:11:00.236 A:middle
 to perform range-based movie
@@ -931,14 +846,6 @@ you want to copy the sample data
 00:11:53.866 --> 00:11:56.906 A:middle
 into the target or just
 copy sample references.
-
-00:11:57.396 --> 00:12:06.076 A:middle
-Now, if you copy sample data
-into the target mutable movie,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.396 --> 00:12:06.076 A:middle
 Now, if you copy sample data
@@ -1018,14 +925,6 @@ we can pass it in as an --
 as a parameter and say take
 the relevant properties
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:57.286 --> 00:13:00.276 A:middle
-as a parameter and say take
-the relevant properties
-
 00:13:00.276 --> 00:13:02.176 A:middle
 from that existing
 track and use those.
@@ -1095,14 +994,6 @@ or modify track metadata.
 00:13:52.876 --> 00:13:55.896 A:middle
 So here are the segment
 editing methods,
-
-00:13:55.896 --> 00:14:00.576 A:middle
-and they should look familiar
-because we've just seen them.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:55.896 --> 00:14:00.576 A:middle
 and they should look familiar
@@ -1183,14 +1074,6 @@ time range at that same spot.
 The net effect of this code
 is to have an empty segment
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:56.756 --> 00:15:00.066 A:middle
-The net effect of this code
-is to have an empty segment
-
 00:15:00.406 --> 00:15:05.096 A:middle
 where there used to be some
 offensive language, say.
@@ -1249,13 +1132,6 @@ want to call it A Study
 00:15:53.836 --> 00:15:58.496 A:middle
 in Scarlet (and Gray)
 apologies to Conan Doyle.
-
-00:15:58.496 --> 00:16:01.756 A:middle
-Let's jump back in time to 1980.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.496 --> 00:16:01.756 A:middle
 Let's jump back in time to 1980.
@@ -1338,31 +1214,23 @@ did in order to keep track
 of where I was, I went out
 and I bought a street map,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.926 --> 00:17:01.116 A:middle
-of where I was, I went out
-and I bought a street map,
-
 00:17:01.976 --> 00:17:03.826 A:middle
 and I got myself a
 yellow highlighter,
 
-00:17:04.356 --> 00:17:07.915 A:middle
+00:17:04.356 --> 00:17:07.916 A:middle
 and I started marking off on my
 map exactly where I had been,
 
-00:17:08.705 --> 00:17:10.586 A:middle
+00:17:08.706 --> 00:17:10.586 A:middle
 which hills were
 particularly good.
 
-00:17:11.516 --> 00:17:14.185 A:middle
+00:17:11.516 --> 00:17:14.186 A:middle
 Well, if you are like me,
 that's a really bad thing
 
-00:17:14.185 --> 00:17:16.366 A:middle
+00:17:14.186 --> 00:17:16.366 A:middle
 to start doing because
 you're going to want to end
 
@@ -1414,14 +1282,6 @@ roadways that you would have
 00:17:54.006 --> 00:17:55.876 A:middle
 to skate in order
 to accomplish this.
-
-00:17:57.026 --> 00:18:01.256 A:middle
-Now, when I was done in
-2005, I had no location data.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.026 --> 00:18:01.256 A:middle
 Now, when I was done in
@@ -1502,14 +1362,6 @@ Council learned about it,
 they passed a resolution
 praising the extraordinary
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.346 --> 00:19:02.466 A:middle
-they passed a resolution
-praising the extraordinary
-
 00:19:02.466 --> 00:19:05.856 A:middle
 physical accomplishment --
 that's their words, not mine.
@@ -1570,13 +1422,6 @@ Same idea.
 00:19:53.336 --> 00:19:56.546 A:middle
 Skate every street in
 the city of Boston.
-
-00:19:57.616 --> 00:20:00.976 A:middle
-So this began about 2011.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.616 --> 00:20:00.976 A:middle
 So this began about 2011.
@@ -1646,14 +1491,6 @@ we will see one later --
 00:20:55.266 --> 00:20:57.876 A:middle
 for about 150 megabytes
 worth of data.
-
-00:20:58.486 --> 00:21:03.176 A:middle
-So just to get an idea of
-what these movies look like,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.486 --> 00:21:03.176 A:middle
 So just to get an idea of
@@ -1751,13 +1588,6 @@ Here's a commercial district.
 00:21:59.616 --> 00:22:01.136 A:middle
 Nobody. It's like a ghost town.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.616 --> 00:22:01.136 A:middle
-Nobody. It's like a ghost town.
-
 00:22:01.316 --> 00:22:02.486 A:middle
 So what's going on?
 
@@ -1813,13 +1643,6 @@ I mean, come on.
 
 00:22:55.116 --> 00:22:56.496 A:middle
 Like, I didn't see that pothole?
-
-00:22:57.516 --> 00:23:04.576 A:middle
-[Laughter]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.516 --> 00:23:04.576 A:middle
 [Laughter]
@@ -1893,14 +1716,6 @@ be to combine the various files
 00:23:55.886 --> 00:23:57.976 A:middle
 that came off the
 camera for one skate
-
-00:23:58.436 --> 00:24:02.306 A:middle
-into a sample reference movie
-file so that I can just open it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.436 --> 00:24:02.306 A:middle
 into a sample reference movie
@@ -1986,14 +1801,6 @@ going to do that?
 Well, AVMovie and AVMutableMovie
 give us the answer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.376 --> 00:25:03.016 A:middle
-Well, AVMovie and AVMutableMovie
-give us the answer.
-
 00:25:03.926 --> 00:25:07.036 A:middle
 The solution to the first
 issue is very simple.
@@ -2063,14 +1870,6 @@ and we'll open the second
 and any subsequent
 movies as just URL assets.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.536 --> 00:26:02.646 A:middle
-and any subsequent
-movies as just URL assets.
-
 00:26:03.666 --> 00:26:07.516 A:middle
 We'll define the range in the
 asset that we want to insert,
@@ -2131,14 +1930,6 @@ Alvin is a sort of acronym
 00:26:55.276 --> 00:26:58.276 A:middle
 for AVFoundation-based
 linear indexer.
-
-00:26:59.346 --> 00:27:03.836 A:middle
-Its job is to do the
-indexing I talked about,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.346 --> 00:27:03.836 A:middle
 Its job is to do the
@@ -2214,10 +2005,6 @@ There is Logan Airport.
 
 00:27:58.466 --> 00:27:59.876 A:middle
 Here is Boston proper.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.816 --> 00:28:01.936 A:middle
 There's Cambridge.
@@ -2299,14 +2086,6 @@ Web Service called reverse
 geocoding, where I am sending
 each longitude and latitude
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.336 --> 00:29:01.936 A:middle
-geocoding, where I am sending
-each longitude and latitude
-
 00:29:02.266 --> 00:29:05.026 A:middle
 out to a server at
 Apple, and it's going
@@ -2375,14 +2154,6 @@ video with our location data,
 00:29:55.046 --> 00:29:57.256 A:middle
 and I tried various
 automatic ways to do this,
-
-00:29:57.286 --> 00:30:00.846 A:middle
-but I discovered the only really
-good way to do it was to go
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.286 --> 00:30:00.846 A:middle
 but I discovered the only really
@@ -2462,10 +2233,6 @@ and third problems for me.
 It's added custom metadata to
 my sample reference movie file.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.386 --> 00:31:02.206 A:middle
 And it basically
 does it like this.
@@ -2544,13 +2311,6 @@ location data.
 00:31:58.966 --> 00:32:00.646 A:middle
 It's in our GPX file.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.966 --> 00:32:00.646 A:middle
-It's in our GPX file.
-
 00:32:00.646 --> 00:32:03.316 A:middle
 So we don't need that
 capture session stuff.
@@ -2608,10 +2368,6 @@ to do -- this is optional --
 00:32:56.226 --> 00:32:59.886 A:middle
 is create a track association
 between the timed media track
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.386 --> 00:33:03.716 A:middle
 and whatever track it is
@@ -2677,14 +2433,6 @@ that you make a copy
 of that mutable movie because if
 you're changing the movie while
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:56.236 --> 00:34:00.366 A:middle
-of that mutable movie because if
-you're changing the movie while
-
 00:34:00.366 --> 00:34:02.776 A:middle
 you are exporting it,
 bad things will happen.
@@ -2700,22 +2448,22 @@ and everything works fine.
 The second best practice is
 that if you are opening an asset
 
-00:34:13.315 --> 00:34:16.806 A:middle
+00:34:13.316 --> 00:34:16.806 A:middle
 that you want to insert
 into an AVMutableMovie,
 
-00:34:17.815 --> 00:34:22.396 A:middle
+00:34:17.816 --> 00:34:22.396 A:middle
 you should set this flag, AV URL
 asset prefer precise duration
 
 00:34:22.396 --> 00:34:24.606 A:middle
 and timing key, to true.
 
-00:34:25.045 --> 00:34:27.156 A:middle
+00:34:25.046 --> 00:34:27.156 A:middle
 Now, we haven't done this
 in any of the code snippets
 
-00:34:27.156 --> 00:34:31.525 A:middle
+00:34:27.156 --> 00:34:31.526 A:middle
 that you've seen so far because
 when you open a QuickTime movie,
 
@@ -2727,42 +2475,38 @@ set to true.
 But if you were to open
 an MP3 file, for instance,
 
-00:34:36.166 --> 00:34:38.485 A:middle
+00:34:36.166 --> 00:34:38.486 A:middle
 and wanted to insert that
 into a mutable movie,
 
-00:34:38.775 --> 00:34:41.775 A:middle
+00:34:38.776 --> 00:34:41.776 A:middle
 you would want to set this flag.
 
-00:34:41.775 --> 00:34:42.686 A:middle
+00:34:41.776 --> 00:34:42.686 A:middle
 So let's summarize.
 
-00:34:44.065 --> 00:34:46.436 A:middle
+00:34:44.066 --> 00:34:46.436 A:middle
 We've added new classes
 to support editing
 
 00:34:46.576 --> 00:34:48.726 A:middle
 on QuickTime movie files.
 
-00:34:50.065 --> 00:34:51.806 A:middle
+00:34:50.066 --> 00:34:51.806 A:middle
 This gives us, as
 I hope you've seen,
 
-00:34:52.556 --> 00:34:55.085 A:middle
+00:34:52.556 --> 00:34:55.086 A:middle
 a really nice, simplified
 workflow.
 
-00:34:55.085 --> 00:34:58.176 A:middle
+00:34:55.086 --> 00:34:58.176 A:middle
 We are able to work on
 reference movies and not
 
 00:34:58.176 --> 00:34:59.846 A:middle
 on the original movies
 themselves.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.116 --> 00:35:01.666 A:middle
 So if you are handling
@@ -2817,4 +2561,3 @@ Thank you very much.
 
 00:35:35.516 --> 00:35:40.500 A:middle
 [Applause]
-

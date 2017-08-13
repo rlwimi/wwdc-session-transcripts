@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:23.516 --> 00:00:29.856 A:middle
 [Applause]
@@ -37,14 +36,6 @@ on top of CloudKits.
 00:00:55.526 --> 00:00:59.266 A:middle
 Most visibly iCloud Drive and
 iCloud Photo Library were built
-
-00:00:59.736 --> 00:01:03.536 A:middle
-from the ground up on top of
-CloudKit but Mail Drop, HomeKit,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.736 --> 00:01:03.536 A:middle
 from the ground up on top of
@@ -107,10 +98,6 @@ the CloudKit public database.
 00:01:56.296 --> 00:01:59.506 A:middle
 Even the WWDC app is now
 using CloudKit this year.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.016 --> 00:02:02.276 A:middle
 And last but not
@@ -185,10 +172,6 @@ Here's what they're saying:
 efficient, and makes it easy to
 detect and troubleshoot errors."
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:00.486 --> 00:03:05.586 A:middle
 Again, that was one of our
 design goals with CloudKit.
@@ -255,14 +238,6 @@ like, okay, what does it mean?
 00:03:52.746 --> 00:03:55.276 A:middle
 What if my app reached
 the limits?
-
-00:03:55.816 --> 00:04:00.316 A:middle
-How much will I have
-to pay Apple?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:55.816 --> 00:04:00.316 A:middle
 How much will I have
@@ -351,14 +326,6 @@ and two is as a public database.
 Now a private database is
 the user's private data.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.026 --> 00:05:02.036 A:middle
-Now a private database is
-the user's private data.
-
 00:05:02.976 --> 00:05:05.226 A:middle
 This example would be
 the iCloud Photo Library.
@@ -436,10 +403,6 @@ you exceed those free limits.
 00:05:58.166 --> 00:05:59.856 A:middle
 And we also have usage data.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.756 --> 00:06:03.956 A:middle
 Let's look at the free offering.
 
@@ -514,10 +477,6 @@ you with 2 gigabytes
 00:06:56.596 --> 00:06:59.106 A:middle
 of data transfer per
 month in and out.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.076 --> 00:07:02.856 A:middle
 And like the others we will grow
@@ -611,14 +570,6 @@ there is a way to pay for more.
 And that's our public
 database fees.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.546 --> 00:08:00.216 A:middle
-And that's our public
-database fees.
-
 00:08:01.266 --> 00:08:03.406 A:middle
 Now, this is over and above
 what we give you for free.
@@ -667,14 +618,14 @@ if you hit the free limits.
 00:08:30.796 --> 00:08:35.726 A:middle
 And, of course, push is free.
 
-00:08:36.035 --> 00:08:40.166 A:middle
+00:08:36.036 --> 00:08:40.166 A:middle
 Okay? So now let's
 take a look at a demo
 
-00:08:40.405 --> 00:08:42.285 A:middle
+00:08:40.406 --> 00:08:42.286 A:middle
 of the CloudKit calculator.
 
-00:08:42.385 --> 00:08:46.196 A:middle
+00:08:42.386 --> 00:08:46.196 A:middle
 This is on
 developer.apple.com/cloudkit.
 
@@ -693,14 +644,6 @@ and talk at the same time.
 00:08:53.176 --> 00:08:57.046 A:middle
 And he's going to help
 us walk through this.
-
-00:08:57.046 --> 00:09:00.916 A:middle
-If you go to the calculator,
-you notice that right now,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.046 --> 00:09:00.916 A:middle
 If you go to the calculator,
@@ -779,14 +722,6 @@ have a lot of storage.
 
 00:09:56.736 --> 00:09:58.596 A:middle
 Now we are up to 125 terabytes.
-
-00:09:58.856 --> 00:10:02.566 A:middle
-We're still growing and the
-cost to you is still zero.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.856 --> 00:10:02.566 A:middle
 We're still growing and the
@@ -875,10 +810,6 @@ well, it's still free.
 00:10:57.546 --> 00:10:59.206 A:middle
 So what's going on here?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.016 --> 00:11:03.986 A:middle
 Well, if your application on
 average uses less per user
@@ -962,14 +893,6 @@ to look at your container
 00:11:54.446 --> 00:11:58.596 A:middle
 and you get to do things like
 manage your record types,
-
-00:11:58.666 --> 00:12:01.066 A:middle
-manage whether they are in
-development or production,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.666 --> 00:12:01.066 A:middle
 manage whether they are in
@@ -1068,14 +991,6 @@ is another graph,
 which shows our requests
 per second and day by day,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.616 --> 00:13:00.866 A:middle
-which shows our requests
-per second and day by day,
-
 00:13:00.866 --> 00:13:03.686 A:middle
 we show you what the peak
 request per second we're seeing
@@ -1166,14 +1081,6 @@ It's off by default.
 You can just turn
 it on if you like.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.856 --> 00:14:00.116 A:middle
-You can just turn
-it on if you like.
-
 00:14:00.596 --> 00:14:02.556 A:middle
 The reason it is off by
 default is because we give you
@@ -1253,14 +1160,6 @@ can take your amazing iOS
 and OS X applications and you
 can extend them to the web.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.866 --> 00:15:00.576 A:middle
-and OS X applications and you
-can extend them to the web.
-
 00:15:01.476 --> 00:15:02.546 A:middle
 So how does this work?
 
@@ -1335,14 +1234,6 @@ CloudKit servers
 00:15:54.626 --> 00:15:57.526 A:middle
 that your native applications
 are talking to on iOS and OS X.
-
-00:15:57.526 --> 00:16:00.726 A:middle
-Now, it's important to
-understand about the JSON
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.526 --> 00:16:00.726 A:middle
 Now, it's important to
@@ -1432,10 +1323,6 @@ and download assets.
 00:16:57.736 --> 00:16:59.566 A:middle
 It lets you execute queries.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.406 --> 00:17:03.086 A:middle
 It even lets you do
 subscriptions and notifications,
@@ -1448,7 +1335,7 @@ get an asynchronous event
 into my web application,
 just like you get pushes
 
-00:17:09.935 --> 00:17:12.406 A:middle
+00:17:09.936 --> 00:17:12.406 A:middle
 to tell you something has
 changed or to notify you
 
@@ -1463,15 +1350,15 @@ refresh button or pulling
 00:17:16.796 --> 00:17:17.896 A:middle
 from your web application.
 
-00:17:18.925 --> 00:17:20.586 A:middle
+00:17:18.926 --> 00:17:20.586 A:middle
 It also has user
 discoverability,
 
-00:17:21.445 --> 00:17:23.876 A:middle
+00:17:21.446 --> 00:17:23.876 A:middle
 and it has the ability to answer
 the question what's changed
 
-00:17:23.876 --> 00:17:26.695 A:middle
+00:17:23.876 --> 00:17:26.696 A:middle
 since within custom zones
 which gives you sync semantics.
 
@@ -1514,14 +1401,6 @@ There's no intermediate servers.
 00:17:56.566 --> 00:17:59.316 A:middle
 So you can create your
 JavaScript application
-
-00:17:59.626 --> 00:18:02.266 A:middle
-and you can talk directly
-to the CloudKit, you know --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.626 --> 00:18:02.266 A:middle
 and you can talk directly
@@ -1597,10 +1476,6 @@ gives all of those --
 00:18:57.016 --> 00:18:59.846 A:middle
 that rich capability that you
 saw demonstrated at the keynote.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.346 --> 00:19:01.906 A:middle
 So Ramiro will click in.
@@ -1692,14 +1567,6 @@ Web Services.
 Once we get through that,
 we should really go off
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.676 --> 00:20:02.316 A:middle
-Once we get through that,
-we should really go off
-
 00:20:02.606 --> 00:20:05.956 A:middle
 and create our first
 CloudKit web application.
@@ -1784,14 +1651,6 @@ developed an amazing CloudKit
 web app with the Notes app
 and why don't we now go back
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.976 --> 00:21:04.136 A:middle
-web app with the Notes app
-and why don't we now go back
-
 00:21:04.136 --> 00:21:06.156 A:middle
 and take a look at the web
 
@@ -1863,14 +1722,6 @@ to ask the user to sign in.
 
 00:21:55.066 --> 00:21:55.866 A:middle
 This is your UI.
-
-00:21:57.206 --> 00:22:00.806 A:middle
-Now when the user clicks this,
-a new browser window is going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.206 --> 00:22:00.806 A:middle
 Now when the user clicks this,
@@ -1958,14 +1809,6 @@ offering includes iCloud
 web-only accounts what I just
 described, which offers 1 gig
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:57.586 --> 00:23:01.016 A:middle
-web-only accounts what I just
-described, which offers 1 gig
-
 00:23:01.326 --> 00:23:03.716 A:middle
 of free storage for
 private database usage.
@@ -2029,14 +1872,6 @@ And it's available now in beta
 00:23:52.926 --> 00:23:55.836 A:middle
 for development,
 releasing with iOS 9.
-
-00:23:57.116 --> 00:24:00.296 A:middle
-And that's it for
-CloudKit Web Services.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.116 --> 00:24:00.296 A:middle
 And that's it for
@@ -2114,14 +1949,6 @@ sessions this week.
 The first one is tomorrow
 and we will do a deep dive
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.906 --> 00:25:01.066 A:middle
-The first one is tomorrow
-and we will do a deep dive
-
 00:25:01.066 --> 00:25:03.966 A:middle
 on the CloudKit JS and
 the Web Services API.
@@ -2186,4 +2013,3 @@ Thank you for your attention.
 
 00:25:55.516 --> 00:25:58.500 A:middle
 [Applause]
-

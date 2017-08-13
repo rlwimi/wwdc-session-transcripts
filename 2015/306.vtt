@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:22.516 --> 00:00:28.616 A:middle
 [ Applause ]
@@ -39,19 +38,11 @@ about automation
 and how it can be used
 in production situations,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:56.626 --> 00:01:00.636 A:middle
-and how it can be used
-in production situations,
-
-00:01:00.636 --> 00:01:05.385 A:middle
+00:01:00.636 --> 00:01:05.386 A:middle
 how it can be used within your
 organization to address some
 
-00:01:05.385 --> 00:01:08.206 A:middle
+00:01:05.386 --> 00:01:08.206 A:middle
 of the tasks and challenges
 that often come up.
 
@@ -103,14 +94,6 @@ perspective, so let's keep
 00:01:51.596 --> 00:01:55.706 A:middle
 that in mind as we look at
 the enterprise and automation.
-
-00:01:56.686 --> 00:02:00.086 A:middle
-And specifically when
-you're creating a solution,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:56.686 --> 00:02:00.086 A:middle
 And specifically when
@@ -178,10 +161,6 @@ connect them in different ways
 or use them in other
 solutions as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:00.056 --> 00:03:04.266 A:middle
 So by keeping your workflow as
 a modular design it's easier
@@ -245,14 +224,6 @@ they'll use it all the time.
 So those are the basic workflow
 strategies that we're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.376 --> 00:04:00.186 A:middle
-So those are the basic workflow
-strategies that we're going
-
 00:04:00.186 --> 00:04:03.186 A:middle
 to look at as I review
 some examples
@@ -272,7 +243,7 @@ and it is to pursue inclusion.
 Now what I mean by that
 is this: that the success
 
-00:04:18.555 --> 00:04:25.046 A:middle
+00:04:18.556 --> 00:04:25.046 A:middle
 of an organization depends upon
 the strategy of and, not or.
 
@@ -306,14 +277,6 @@ at Apple
 00:04:52.876 --> 00:04:56.986 A:middle
 that really personify
 this power.
-
-00:04:57.556 --> 00:05:03.586 A:middle
-And they are OS X and iOS, and
-they work really well together,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.556 --> 00:05:03.586 A:middle
 And they are OS X and iOS, and
@@ -381,14 +344,6 @@ that you can directly talk
 to Cocoa classes and call Cocoa
 methods from within AppleScript,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:57.106 --> 00:06:01.516 A:middle
-to Cocoa classes and call Cocoa
-methods from within AppleScript,
-
 00:06:01.976 --> 00:06:04.136 A:middle
 so that any of the
 Cocoa frameworks
@@ -450,14 +405,6 @@ building automation recipes,
 
 00:06:57.806 --> 00:06:59.496 A:middle
 through a drag-and-drop process
-
-00:06:59.496 --> 00:07:02.246 A:middle
-where you take the individual
-steps that are required
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.496 --> 00:07:02.246 A:middle
 where you take the individual
@@ -532,14 +479,6 @@ that you need
 when you're dealing
 with solutions.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.426 --> 00:08:01.486 A:middle
-when you're dealing
-with solutions.
-
 00:08:02.116 --> 00:08:05.496 A:middle
 So let's take a look at
 three example scenarios.
@@ -574,7 +513,7 @@ have a central computer
 that is accessible by 40 or 50
 people in a local network area
 
-00:08:31.646 --> 00:08:35.525 A:middle
+00:08:31.646 --> 00:08:35.526 A:middle
 by both computers and
 wireless devices as well,
 
@@ -582,7 +521,7 @@ wireless devices as well,
 and how we can use automation
 and the technologies of OS X
 
-00:08:40.086 --> 00:08:41.405 A:middle
+00:08:40.086 --> 00:08:41.406 A:middle
 to make that possible.
 
 00:08:42.326 --> 00:08:45.976 A:middle
@@ -604,14 +543,6 @@ challenges of gathering data,
 00:08:55.636 --> 00:08:59.186 A:middle
 and putting it together, and
 formatting it, and presenting it
-
-00:08:59.186 --> 00:09:02.146 A:middle
-in interesting ways,
-and so we can look
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.186 --> 00:09:02.146 A:middle
 in interesting ways,
@@ -685,14 +616,6 @@ that might be running Mac OS X
 or it could even be running
 Windows, as well as being
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.446 --> 00:10:01.276 A:middle
-or it could even be running
-Windows, as well as being
-
 00:10:01.276 --> 00:10:03.646 A:middle
 in an environment that
 has mobile devices,
@@ -754,14 +677,6 @@ with Wi-Fi
 00:10:54.706 --> 00:10:58.996 A:middle
 so that mobile devices
 can easily recognize
-
-00:10:58.996 --> 00:11:01.916 A:middle
-and transfer files
-to a computer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.996 --> 00:11:01.916 A:middle
 and transfer files
@@ -833,14 +748,6 @@ automatically provides them
 as input to a workflow that it
 executes for you automatically.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.846 --> 00:12:04.176 A:middle
-as input to a workflow that it
-executes for you automatically.
-
 00:12:04.966 --> 00:12:07.906 A:middle
 And Folder Actions
 have been part of OS X
@@ -905,10 +812,6 @@ going to select a folder
 00:12:56.786 --> 00:12:59.846 A:middle
 that is the source
 folder for the workflow.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.116 --> 00:13:06.226 A:middle
 So we'll select that,
@@ -982,14 +885,6 @@ of saving the workflow
 and giving it a name, like
 Import from Dropbox, very good.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.856 --> 00:14:07.346 A:middle
-and giving it a name, like
-Import from Dropbox, very good.
-
 00:14:08.226 --> 00:14:11.776 A:middle
 And once it's been saved
 it's automatically installed
@@ -1051,14 +946,6 @@ window and to connect
 00:14:53.886 --> 00:14:58.146 A:middle
 to the repository shared folder
 is just a matter of going
-
-00:14:58.146 --> 00:15:01.466 A:middle
-to the Finder sidebar
-and connecting that,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.146 --> 00:15:01.466 A:middle
 to the Finder sidebar
@@ -1131,14 +1018,6 @@ using a mobile device.
 So with your mobile device you
 connect it, you turn it on,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.556 --> 00:16:02.856 A:middle
-So with your mobile device you
-connect it, you turn it on,
-
 00:16:02.856 --> 00:16:05.426 A:middle
 you find the image that you
 want from your mobile device,
@@ -1197,19 +1076,11 @@ and mobile devices as well.
 Now I know you're asking,
 well, okay, Sal, wait a second,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.706 --> 00:17:00.436 A:middle
-Now I know you're asking,
-well, okay, Sal, wait a second,
-
-00:17:00.846 --> 00:17:04.915 A:middle
+00:17:00.846 --> 00:17:04.916 A:middle
 so when I send an AirDrop
 over, there's a notification
 
-00:17:04.915 --> 00:17:07.846 A:middle
+00:17:04.916 --> 00:17:07.846 A:middle
 that happens, what
 happens if there's nobody
 
@@ -1279,14 +1150,6 @@ some problems.
 The next scenario
 we're going to look
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:59.246 --> 00:18:00.846 A:middle
-The next scenario
-we're going to look
-
 00:18:00.846 --> 00:18:03.606 A:middle
 at is how we can automate
 document construction.
@@ -1348,13 +1211,6 @@ can really accomplish a lot
 00:18:55.026 --> 00:18:58.266 A:middle
 and create very inventive,
 useful solutions.
-
-00:18:58.726 --> 00:19:00.716 A:middle
-So here's a simple example.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.726 --> 00:19:00.716 A:middle
 So here's a simple example.
@@ -1429,13 +1285,6 @@ is just accept the transfer
 00:19:59.416 --> 00:20:01.676 A:middle
 from the computer and then
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.416 --> 00:20:01.676 A:middle
-from the computer and then
-
 00:20:01.676 --> 00:20:07.136 A:middle
 within a couple seconds you have
 the presentation ready to go
@@ -1497,14 +1346,6 @@ here via AirDrop.
 00:20:53.166 --> 00:20:57.006 A:middle
 So I'm going to launch
 Automator, and I'm going
-
-00:20:57.006 --> 00:21:01.086 A:middle
-to create a new document,
-and let me just zoom this
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:57.006 --> 00:21:01.086 A:middle
 to create a new document,
@@ -1598,14 +1439,6 @@ So let me create a workflow.
 The first thing I'm going
 to do is add an action
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:56.966 --> 00:22:00.066 A:middle
-The first thing I'm going
-to do is add an action
-
 00:22:00.146 --> 00:22:02.566 A:middle
 to the workflow area
 by dragging in here
@@ -1688,14 +1521,6 @@ so that the title
 of the presentation will
 be Sales Report, like this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.416 --> 00:23:03.686 A:middle
-of the presentation will
-be Sales Report, like this.
-
 00:23:04.176 --> 00:23:07.476 A:middle
 And then for the subtitle
 I want the current date.
@@ -1759,14 +1584,6 @@ month, date, and then the year.
 So my second slide, my second
 task, the second action has been
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:56.756 --> 00:24:02.876 A:middle
-So my second slide, my second
-task, the second action has been
-
 00:24:02.876 --> 00:24:07.846 A:middle
 to name the presentation
 and provide a subtitle.
@@ -1824,14 +1641,6 @@ data that I want to have
 00:24:52.876 --> 00:24:58.106 A:middle
 in my presentation, but this
 data lives in another file.
-
-00:24:58.106 --> 00:25:02.936 A:middle
-I have a numbers spreadsheet
-here that contains the data
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.106 --> 00:25:02.936 A:middle
 I have a numbers spreadsheet
@@ -1909,14 +1718,6 @@ Now when it comes to a chart,
 I'm going to pick something
 very standard like a 2D,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.886 --> 00:26:01.706 A:middle
-I'm going to pick something
-very standard like a 2D,
-
 00:26:01.826 --> 00:26:04.536 A:middle
 I'm going to group it by
 column data like this.
@@ -1971,14 +1772,6 @@ replace any existing file.
 00:26:49.966 --> 00:26:56.196 A:middle
 And then, finally, I have over
 here my little iPad ready to go,
-
-00:26:56.406 --> 00:27:00.176 A:middle
-and I have it set up with
-AirDrop, so let's make it easy
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:56.406 --> 00:27:00.176 A:middle
 and I have it set up with
@@ -2053,14 +1846,6 @@ and begin the AirDrop session,
 and there's the Woodbury School,
 so now I'll click over to three.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:57.576 --> 00:28:02.736 A:middle
-and there's the Woodbury School,
-so now I'll click over to three.
-
 00:28:03.756 --> 00:28:07.936 A:middle
 You can see, yes, you can see
 here I'm going to accept this,
@@ -2112,10 +1897,6 @@ a presentation as simple
 00:28:56.546 --> 00:28:59.936 A:middle
 as just going to a menu and
 selecting that option for you.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.786 --> 00:29:02.896 A:middle
 Okay, so let's go
@@ -2190,14 +1971,6 @@ the Automator actions
 and the whole complete
 examples available for you today
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:57.476 --> 00:30:00.566 A:middle
-and the whole complete
-examples available for you today
-
 00:30:00.966 --> 00:30:02.976 A:middle
 at iworkautomation.com.
 
@@ -2267,14 +2040,6 @@ best-of-class applications
 for data deployment to put the
 power of the enterprise right
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:57.906 --> 00:31:02.266 A:middle
-for data deployment to put the
-power of the enterprise right
-
 00:31:02.266 --> 00:31:05.786 A:middle
 at your staff's hands
 and fingers.
@@ -2339,14 +2104,6 @@ Now the second strategy
 for device deployment
 is called Shared Use,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.886 --> 00:32:03.436 A:middle
-for device deployment
-is called Shared Use,
-
 00:32:03.906 --> 00:32:06.906 A:middle
 and in this scenario you
 have a set of devices
@@ -2406,10 +2163,6 @@ service organizations,
 00:32:54.296 --> 00:32:58.796 A:middle
 and you'll also see them
 used in classrooms as well.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.486 --> 00:33:04.196 A:middle
 Many classrooms use a limited
@@ -2478,14 +2231,6 @@ simultaneously.
 You connect your computer
 to the hardware controller
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.366 --> 00:34:01.426 A:middle
-You connect your computer
-to the hardware controller
-
 00:34:01.896 --> 00:34:05.666 A:middle
 and then you run the software
 to manage that device.
@@ -2494,22 +2239,22 @@ to manage that device.
 On Tuesday we announced a
 brand-new reimagined version
 
-00:34:10.766 --> 00:34:14.025 A:middle
+00:34:10.766 --> 00:34:14.026 A:middle
 of Apple Configurator
 with the incredible name
 
-00:34:14.025 --> 00:34:16.156 A:middle
+00:34:14.026 --> 00:34:16.156 A:middle
 of Apple Configurator 2.
 
 00:34:17.476 --> 00:34:22.496 A:middle
 And this look and feel of this
 application is very interesting.
 
-00:34:22.496 --> 00:34:27.485 A:middle
+00:34:22.496 --> 00:34:27.486 A:middle
 It now has a very nice graphical
 flow to it, it's a lot easier
 
-00:34:27.485 --> 00:34:32.896 A:middle
+00:34:27.486 --> 00:34:32.896 A:middle
 to use, and imagine the
 controls, they're visual,
 
@@ -2521,7 +2266,7 @@ job at taking the complexity
 of the processes for setting up
 devices and made them logical
 
-00:34:43.565 --> 00:34:46.815 A:middle
+00:34:43.566 --> 00:34:46.816 A:middle
 and attractive in
 appearance to use.
 
@@ -2533,15 +2278,7 @@ smooth as it is, still requires
 that you have some basic
 knowledge of terminology
 
-00:34:56.315 --> 00:35:00.096 A:middle
-and the intricacies of
-managing mobile devices.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:34:56.315 --> 00:35:00.096 A:middle
+00:34:56.316 --> 00:35:00.096 A:middle
 and the intricacies of
 managing mobile devices.
 
@@ -2607,14 +2344,6 @@ new responsibilities.
 So your challenge as an IT
 professional is to create tools
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:57.436 --> 00:36:01.996 A:middle
-So your challenge as an IT
-professional is to create tools
-
 00:36:01.996 --> 00:36:05.326 A:middle
 that will solve these people's
 problems and allow them
@@ -2668,14 +2397,6 @@ along data as they work.
 00:36:56.386 --> 00:36:59.216 A:middle
 And then it's just a
 matter of you being able
-
-00:36:59.216 --> 00:37:04.496 A:middle
-to save this workflow to the
-Script folder on your computer,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.216 --> 00:37:04.496 A:middle
 to save this workflow to the
@@ -2737,14 +2458,6 @@ this scenario we're going
 00:37:52.926 --> 00:37:56.476 A:middle
 to have a -- we're going to
 create an Automator workflow
-
-00:37:56.676 --> 00:38:01.496 A:middle
-that will automatically install
-required documents onto iPads.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:56.676 --> 00:38:01.496 A:middle
 that will automatically install
@@ -2815,13 +2528,6 @@ to use a standard workflow file
 00:38:55.426 --> 00:38:57.966 A:middle
 that we can have installed
 into the Script menu.
-
-00:38:58.666 --> 00:39:00.216 A:middle
-Over on the left-hand side,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.666 --> 00:39:00.216 A:middle
 Over on the left-hand side,
@@ -2907,14 +2613,6 @@ documents over.
 So I have an action here
 called Copy Documents
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.186 --> 00:40:02.486 A:middle
-So I have an action here
-called Copy Documents
-
 00:40:02.486 --> 00:40:04.636 A:middle
 to Devices, I drag that in.
 
@@ -2983,14 +2681,6 @@ administrator you might want
 to go back into this
 workflow again sometime,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.136 --> 00:41:00.656 A:middle
-to go back into this
-workflow again sometime,
-
 00:41:00.916 --> 00:41:05.566 A:middle
 hold down the right key, the
 Control key, right-click this
@@ -3048,14 +2738,6 @@ Report, very good.
 00:41:52.756 --> 00:41:57.856 A:middle
 And then I'm going to add the
 action one more time over here,
-
-00:41:57.856 --> 00:42:01.826 A:middle
-and I'm going to choose Keynote
-as the associated application,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:57.856 --> 00:42:01.826 A:middle
 and I'm going to choose Keynote
@@ -3128,14 +2810,6 @@ actions,
 so when the workflow is
 run you'll get this kind
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:58.306 --> 00:43:00.546 A:middle
-so when the workflow is
-run you'll get this kind
-
 00:43:00.546 --> 00:43:02.666 A:middle
 of confirmation action here.
 
@@ -3203,13 +2877,6 @@ newsletter
 00:43:58.426 --> 00:44:00.876 A:middle
 that they can read, very good.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:58.426 --> 00:44:00.876 A:middle
-that they can read, very good.
-
 00:44:01.336 --> 00:44:05.806 A:middle
 And if I go to Pages,
 I can import
@@ -3262,13 +2929,6 @@ call that Wind Power like that,
 
 00:44:54.986 --> 00:44:57.536 A:middle
 give that a capital, Power.
-
-00:44:58.836 --> 00:45:00.096 A:middle
-Spell, Sal, spell.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:58.836 --> 00:45:00.096 A:middle
 Spell, Sal, spell.
@@ -3333,14 +2993,6 @@ using a variety
 00:45:52.066 --> 00:45:58.176 A:middle
 of automation technologies, you
 can use the AppleScript library
-
-00:45:58.366 --> 00:46:02.816 A:middle
-that the Apple Configurator,
-Automator actions are based upon
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:58.366 --> 00:46:02.816 A:middle
 that the Apple Configurator,
@@ -3415,14 +3067,6 @@ JavaScript or AppleScript
 to make your own detailed
 controllers as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:58.876 --> 00:47:02.246 A:middle
-to make your own detailed
-controllers as well.
-
 00:47:03.476 --> 00:47:06.516 A:middle
 And that, all of this,
 is documented for you
@@ -3484,14 +3128,6 @@ and for OS X
 in general we have
 macosxautomation.com as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:56.626 --> 00:48:00.336 A:middle
-in general we have
-macosxautomation.com as well.
-
 00:48:01.226 --> 00:48:05.316 A:middle
 So I want to remind you that
 if you want more detailed
@@ -3548,4 +3184,3 @@ Thank you.
 
 00:48:42.516 --> 00:48:56.110 A:middle
 [ Applause ]
-

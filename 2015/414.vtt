@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:20.016 --> 00:00:21.046 A:middle
 [ Applause ]
@@ -18,7 +17,7 @@ Bill Dudney, and we will talk
 about building better apps
 with value types in Swift.
 
-00:00:32.665 --> 00:00:37.696 A:middle
+00:00:32.666 --> 00:00:37.696 A:middle
 First, we are going
 to start off talking
 
@@ -49,18 +48,10 @@ practice and then the mixing
 of reference types and value
 types together within Swift.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:56.856 --> 00:01:00.116 A:middle
-of reference types and value
-types together within Swift.
-
 00:01:01.086 --> 00:01:03.916 A:middle
 Let's get started.
 
-00:01:04.025 --> 00:01:05.075 A:middle
+00:01:04.026 --> 00:01:05.076 A:middle
 Reference semantics.
 
 00:01:05.676 --> 00:01:07.366 A:middle
@@ -139,13 +130,6 @@ We have our house.
 00:01:59.056 --> 00:02:00.806 A:middle
 It has a thermostat and an oven.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.056 --> 00:02:00.806 A:middle
-It has a thermostat and an oven.
-
 00:02:01.166 --> 00:02:03.686 A:middle
 We have this temperature
 object that temp points to.
@@ -218,14 +202,6 @@ temperature points to.
 00:02:56.716 --> 00:02:58.686 A:middle
 When I go ahead and
 change the temperature
-
-00:02:58.686 --> 00:03:00.626 A:middle
-of my temp variable,
-it doesn't affect it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.686 --> 00:03:00.626 A:middle
 of my temp variable,
@@ -312,14 +288,6 @@ I'm sorry [applause].
 Naturally I have to do
 this exact same thing
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.486 --> 00:04:01.516 A:middle
-Naturally I have to do
-this exact same thing
-
 00:04:01.516 --> 00:04:02.936 A:middle
 for the thermostat, all right?
 
@@ -349,7 +317,7 @@ have this notion
 00:04:18.486 --> 00:04:19.836 A:middle
 of the NSCopying protocol.
 
-00:04:20.315 --> 00:04:22.866 A:middle
+00:04:20.316 --> 00:04:22.866 A:middle
 And this codifies
 what it means to copy,
 
@@ -400,10 +368,6 @@ blame us for your bugs.
 
 00:04:58.396 --> 00:04:59.596 A:middle
 We don't really want that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.216 --> 00:05:02.846 A:middle
 What we really do is
@@ -497,14 +461,6 @@ where there are no side effects,
 and so immutable reference
 semantics are a consistent way
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.896 --> 00:06:01.646 A:middle
-and so immutable reference
-semantics are a consistent way
-
 00:06:01.826 --> 00:06:02.766 A:middle
 to work in the system.
 
@@ -592,14 +548,6 @@ making it immutable.
 So, all we had to do here was
 change the stored property
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.386 --> 00:07:00.436 A:middle
-So, all we had to do here was
-change the stored property
-
 00:07:00.436 --> 00:07:03.286 A:middle
 Celsius from a var to a let,
 and now you can't change it.
@@ -678,15 +626,11 @@ because we did an assignment
 that mutated the oven itself.
 
 00:07:55.196 --> 00:07:57.096 A:middle
-If we were actually embracing the notion
+If we were embracing the notion
 
 00:07:57.096 --> 00:07:59.576 A:middle
 of immutable reference
 types throughout here,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:00.116 --> 00:08:02.366 A:middle
 we would be creating a new
@@ -741,7 +685,7 @@ two, first prime number,
 up through whatever
 number you want to compute.
 
-00:08:42.676 --> 00:08:43.535 A:middle
+00:08:42.676 --> 00:08:43.536 A:middle
 We will do 20 here.
 
 00:08:44.836 --> 00:08:47.806 A:middle
@@ -759,14 +703,6 @@ prime number, P.
 00:08:53.786 --> 00:08:56.546 A:middle
 What the inner loop is
 going to do is walk over all
-
-00:08:56.546 --> 00:09:01.666 A:middle
-of the multiples of P,
-erasing them from the array
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:56.546 --> 00:09:01.666 A:middle
 of the multiples of P,
@@ -875,14 +811,6 @@ It doesn't mutate at all.
 Here's a very similar
 implementation because it turns
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.186 --> 00:10:01.106 A:middle
-Here's a very similar
-implementation because it turns
-
 00:10:01.106 --> 00:10:03.676 A:middle
 out Swift can do functional
 also, and if you want
@@ -967,14 +895,6 @@ Go ahead and run the filter.
 Eliminate all the multiples of
 three, and so on and so forth.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:56.886 --> 00:11:00.496 A:middle
-Eliminate all the multiples of
-three, and so on and so forth.
-
 00:11:00.986 --> 00:11:02.286 A:middle
 What happens here is you end
 
@@ -1048,14 +968,6 @@ Swift filter below.
 00:11:53.456 --> 00:11:59.206 A:middle
 In this nonmutating version,
 this operation will walk
-
-00:11:59.206 --> 00:12:01.896 A:middle
-over every single
-element in the array
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.206 --> 00:12:01.896 A:middle
 over every single
@@ -1153,14 +1065,6 @@ there when you work with it.
 I gave myself a little
 task in Objective-C.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.186 --> 00:13:00.816 A:middle
-I gave myself a little
-task in Objective-C.
-
 00:13:01.206 --> 00:13:05.026 A:middle
 I want to create an NSURL by
 starting with my home directory
@@ -1238,13 +1142,6 @@ that's the home directory.
 00:13:56.516 --> 00:13:59.066 A:middle
 Each time through, I
 create a new array,
-
-00:13:59.626 --> 00:14:00.886 A:middle
-adding one more object.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.626 --> 00:14:00.886 A:middle
 adding one more object.
@@ -1334,14 +1231,6 @@ semantics work and you demand
 on it all the time, whether you
 are in Objective-C or in Swift.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.906 --> 00:15:03.976 A:middle
-on it all the time, whether you
-are in Objective-C or in Swift.
-
 00:15:04.046 --> 00:15:05.976 A:middle
 The idea is simple: if
 you have two variables,
@@ -1407,14 +1296,6 @@ fundamental types, like numbers
 00:15:53.636 --> 00:15:57.126 A:middle
 and small structs containing
 numbers, and extend it outward
-
-00:15:57.976 --> 00:16:00.456 A:middle
-to work with much,
-much richer types.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.976 --> 00:16:00.456 A:middle
 to work with much,
@@ -1502,14 +1383,6 @@ logically distinct.
 All the collections we
 build on top of them --
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.806 --> 00:17:02.056 A:middle
-All the collections we
-build on top of them --
-
 00:17:02.056 --> 00:17:03.436 A:middle
 array, set, dictionary --
 
@@ -1588,13 +1461,6 @@ You work with this all the time.
 00:17:56.376 --> 00:17:58.896 A:middle
 You couldn't understand integers
 if they didn't work this way.
-
-00:17:59.516 --> 00:18:01.726 A:middle
-So just extend that notion out.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.516 --> 00:18:01.726 A:middle
 So just extend that notion out.
@@ -1679,14 +1545,6 @@ important?
 00:18:53.016 --> 00:18:55.716 A:middle
 Because you can't understand
 your code unless you have them.
-
-00:18:56.676 --> 00:19:00.346 A:middle
-If I copy from A to B, well,
-I expect that A is equal
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:56.676 --> 00:19:00.346 A:middle
 If I copy from A to B, well,
@@ -1795,13 +1653,6 @@ mutate a property of temp,
 00:19:59.476 --> 00:20:00.556 A:middle
 which is describes as a let.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.476 --> 00:20:00.556 A:middle
-which is describes as a let.
-
 00:20:00.556 --> 00:20:01.726 A:middle
 It's a constant.
 
@@ -1895,14 +1746,6 @@ a really important point.
 Value semantics works
 beautifully in Swift
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:57.586 --> 00:21:00.836 A:middle
-Value semantics works
-beautifully in Swift
-
 00:21:01.226 --> 00:21:04.356 A:middle
 because of the way Swift's
 immutability model works.
@@ -1983,14 +1826,6 @@ So I create numbers.
 00:21:58.086 --> 00:21:59.816 A:middle
 I passed them off
 to some process
-
-00:21:59.816 --> 00:22:01.586 A:middle
-that will do something
-asynchronously.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.816 --> 00:22:01.586 A:middle
 that will do something
@@ -2084,10 +1919,6 @@ ints and so on.
 Like CG points is
 built of two CG floats.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.166 --> 00:23:02.526 A:middle
 And any of these
 structs, enums or tuples,
@@ -2175,14 +2006,6 @@ logically distinct, always.
 You have the notion of
 mutation, an efficient mutation,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.506 --> 00:24:01.566 A:middle
-You have the notion of
-mutation, an efficient mutation,
-
 00:24:01.826 --> 00:24:04.036 A:middle
 when you want it
 locally controlled.
@@ -2256,14 +2079,6 @@ that come straight
 
 00:24:56.056 --> 00:24:57.246 A:middle
 out of the standard library.
-
-00:24:57.856 --> 00:25:00.766 A:middle
-Of course, we want to
-implement the equality operator,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.856 --> 00:25:00.766 A:middle
 Of course, we want to
@@ -2348,14 +2163,6 @@ Swift is with a protocol.
 So we will create a
 protocol called Drawable.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.476 --> 00:26:02.176 A:middle
-So we will create a
-protocol called Drawable.
-
 00:26:02.176 --> 00:26:05.416 A:middle
 We will make both of
 our subtypes implement
@@ -2434,14 +2241,6 @@ drawables called Items.
 We need to create a
 method to add items.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.886 --> 00:27:00.756 A:middle
-We need to create a
-method to add items.
-
 00:27:00.926 --> 00:27:03.436 A:middle
 That's marked as mutating
 because that mutates self.
@@ -2503,14 +2302,6 @@ no effect on doc.
 00:27:52.786 --> 00:27:54.696 A:middle
 I change that circle
 to a polygon.
-
-00:27:55.756 --> 00:28:00.186 A:middle
-The array has value semantics
-even though the collection
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:55.756 --> 00:28:00.186 A:middle
 The array has value semantics
@@ -2591,14 +2382,6 @@ like a duck and is a duck.
 So this brings us to
 an interesting point.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.736 --> 00:29:02.816 A:middle
-So this brings us to
-an interesting point.
-
 00:29:02.816 --> 00:29:08.866 A:middle
 I can create a new diagram and
 add it to my existing diagram.
@@ -2668,14 +2451,6 @@ recursion.
 00:29:56.246 --> 00:29:59.206 A:middle
 I just get two polygons
 and two circles drawn.
-
-00:29:59.206 --> 00:30:05.146 A:middle
-Now that we have talked
-about building a tree
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.206 --> 00:30:05.146 A:middle
 Now that we have talked
@@ -2758,14 +2533,6 @@ a simple example
 00:30:53.786 --> 00:30:56.856 A:middle
 with an immutable
 class, UIImage.
-
-00:30:57.456 --> 00:31:01.236 A:middle
-We will create an image struct
-that is going to be a drawable,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.456 --> 00:31:01.236 A:middle
 We will create an image struct
@@ -2854,14 +2621,6 @@ the same underlying bitmap.
 We want those also to equate to
 being equal, and in this case,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.526 --> 00:32:02.596 A:middle
-We want those also to equate to
-being equal, and in this case,
-
 00:32:02.596 --> 00:32:05.036 A:middle
 since we are comparing the
 reference, they would not.
@@ -2931,14 +2690,6 @@ BezierPaths pointing to that,
 
 00:32:55.316 --> 00:32:56.616 A:middle
 it will cause problems.
-
-00:32:57.436 --> 00:33:00.716 A:middle
-Also notice here, we don't have
-the Mutating keyword there.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:57.436 --> 00:33:00.716 A:middle
 Also notice here, we don't have
@@ -3029,14 +2780,6 @@ And we want to make a path
 for writing computed property
 that's marked as mutating,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.406 --> 00:34:02.776 A:middle
-for writing computed property
-that's marked as mutating,
-
 00:34:03.096 --> 00:34:04.926 A:middle
 and that's going to, in
 fact, change the state.
@@ -3049,11 +2792,11 @@ and we set path equal
 to a new copy of
 our existing path.
 
-00:34:11.275 --> 00:34:15.136 A:middle
+00:34:11.276 --> 00:34:15.136 A:middle
 Now we have both a reading copy
 and a way to get a writing copy.
 
-00:34:16.315 --> 00:34:18.896 A:middle
+00:34:16.316 --> 00:34:18.896 A:middle
 And we change our
 implementation to reflect that.
 
@@ -3061,15 +2804,15 @@ implementation to reflect that.
 In the Is Empty method, we
 will call our reading copy,
 
-00:34:22.025 --> 00:34:23.815 A:middle
+00:34:22.026 --> 00:34:23.816 A:middle
 and in the mutating
 method below,
 
-00:34:23.815 --> 00:34:25.166 A:middle
+00:34:23.816 --> 00:34:25.166 A:middle
 we will call the
 path for writing.
 
-00:34:25.735 --> 00:34:28.466 A:middle
+00:34:25.736 --> 00:34:28.466 A:middle
 And the great thing about this
 that the compiler is going
 
@@ -3080,11 +2823,11 @@ to yell at us and say, "Hey,
 that path for writing
 property is marked as mutating,
 
-00:34:33.806 --> 00:34:36.065 A:middle
+00:34:33.806 --> 00:34:36.066 A:middle
 and this method is not
 marked for mutating."
 
-00:34:36.065 --> 00:34:39.076 A:middle
+00:34:36.066 --> 00:34:39.076 A:middle
 So we are getting help from
 the compiler to help us figure
 
@@ -3092,11 +2835,11 @@ the compiler to help us figure
 out when we are doing
 something wrong.
 
-00:34:41.795 --> 00:34:46.085 A:middle
+00:34:41.796 --> 00:34:46.086 A:middle
 Just to look through it
 in a diagram, the path,
 
-00:34:46.996 --> 00:34:49.545 A:middle
+00:34:46.996 --> 00:34:49.546 A:middle
 I create another one
 by saying Path To.
 
@@ -3107,17 +2850,9 @@ Of course, I can read from it.
 No issue. And when
 I go to write to it,
 
-00:34:54.985 --> 00:34:58.966 A:middle
+00:34:54.986 --> 00:34:58.966 A:middle
 since I'm creating another
 instance of BezierPath,
-
-00:34:59.566 --> 00:35:02.736 A:middle
-path two is none the wiser
-that a mutation has happened.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.566 --> 00:35:02.736 A:middle
 path two is none the wiser
@@ -3189,10 +2924,6 @@ copy or only one instance
 00:35:57.806 --> 00:35:59.926 A:middle
 of UIBezierPath instead
 of multiple.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.536 --> 00:36:05.686 A:middle
 In Swift, we have a great
@@ -3277,14 +3008,6 @@ and an array of diagrams.
 Then with every mutation, I will
 add my doc to my diagram array.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.316 --> 00:37:04.896 A:middle
-Then with every mutation, I will
-add my doc to my diagram array.
-
 00:37:05.246 --> 00:37:06.746 A:middle
 So I create it and append.
 
@@ -3351,10 +3074,6 @@ that gets drawn.
 00:37:56.936 --> 00:37:59.916 A:middle
 This is a super-powerful
 feature, and, in fact,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.316 --> 00:38:03.236 A:middle
 Photoshop uses this
@@ -3432,13 +3151,6 @@ and showed how value types fix
 00:38:59.246 --> 00:39:00.376 A:middle
 up some of those issues.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.246 --> 00:39:00.376 A:middle
-up some of those issues.
-
 00:39:00.906 --> 00:39:03.466 A:middle
 We talked through an example
 and saw some cool features
@@ -3485,4 +3197,3 @@ the rest of your WWDC is great.
 
 00:39:31.516 --> 00:39:42.900 A:middle
 [ Applause ]
-

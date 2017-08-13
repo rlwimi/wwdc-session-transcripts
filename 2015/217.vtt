@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:20.016 --> 00:00:20.376 A:middle
 [Applause]
@@ -60,15 +59,7 @@ And when we've determined
 that the user has pressed
 enough force on the trackpad
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.826 --> 00:01:01.366 A:middle
-that the user has pressed
-enough force on the trackpad
-
-00:01:01.446 --> 00:01:04.995 A:middle
+00:01:01.446 --> 00:01:04.996 A:middle
 to issue a mouse down, we go
 ahead and use the Taptic Engine
 
@@ -164,19 +155,11 @@ you can do with that now.
 I have up here, you can see as
 I'm moving the cursor around,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.536 --> 00:02:06.006 A:middle
-I have up here, you can see as
-I'm moving the cursor around,
-
-00:02:06.396 --> 00:02:09.395 A:middle
+00:02:06.396 --> 00:02:09.396 A:middle
 you can see the force that
 I'm applying to the trackpad.
 
-00:02:09.395 --> 00:02:12.806 A:middle
+00:02:09.396 --> 00:02:12.806 A:middle
 If I go down to the next level,
 you get down to Force click.
 
@@ -252,10 +235,6 @@ TextEdit real quick.
 
 00:02:55.256 --> 00:02:59.646 A:middle
 Let me grab the window.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.356 --> 00:03:03.366 A:middle
 You have seen this example
@@ -343,13 +322,6 @@ the various APIs that we use
 00:03:57.036 --> 00:03:59.116 A:middle
 in the system as well,
 so that you can go ahead
-
-00:03:59.116 --> 00:04:00.426 A:middle
-and add all sorts
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.116 --> 00:04:00.426 A:middle
 and add all sorts
@@ -452,14 +424,6 @@ for your controls
 and manually playing haptic
 feedbacks where appropriate.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:57.946 --> 00:05:00.246 A:middle
-and manually playing haptic
-feedbacks where appropriate.
-
 00:05:01.056 --> 00:05:03.056 A:middle
 So let's dig in.
 
@@ -555,14 +519,6 @@ and left to right for you.
 And then you just return back
 an array of Table Row Actions.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:56.516 --> 00:06:00.736 A:middle
-And then you just return back
-an array of Table Row Actions.
-
 00:06:00.736 --> 00:06:05.066 A:middle
 Create a new NSTable Row Action,
 you init with a style, a title,
@@ -642,14 +598,6 @@ everything
 00:06:54.256 --> 00:06:57.326 A:middle
 and reserve destructive items
 just for destructive, don't try
-
-00:06:57.326 --> 00:07:00.746 A:middle
-and get the red color, there is
-some important semantics there
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.326 --> 00:07:00.746 A:middle
 and get the red color, there is
@@ -747,13 +695,6 @@ intuitive and easier to use.
 00:07:59.336 --> 00:08:02.146 A:middle
 To implement Spring Loading
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.336 --> 00:08:02.146 A:middle
-To implement Spring Loading
-
 00:08:02.146 --> 00:08:05.706 A:middle
 in those toolbar buttons all
 Finder did was set the Spring
@@ -799,22 +740,22 @@ and your segmented controls.
 You have to opt in for
 this, but for places
 
-00:08:31.146 --> 00:08:33.155 A:middle
+00:08:31.146 --> 00:08:33.156 A:middle
 that are doing navigation
 during drag
 
-00:08:33.155 --> 00:08:35.006 A:middle
+00:08:33.156 --> 00:08:35.006 A:middle
 and drop it is really
 useful and I suggest
 
 00:08:35.006 --> 00:08:35.916 A:middle
 that you go and turn it on.
 
-00:08:37.376 --> 00:08:40.405 A:middle
+00:08:37.376 --> 00:08:40.406 A:middle
 There is another example of
 using force; this is QuickTime.
 
-00:08:40.405 --> 00:08:42.866 A:middle
+00:08:40.406 --> 00:08:42.866 A:middle
 I want you to pay attention to
 the fast-forward button here.
 
@@ -844,14 +785,6 @@ you're moving forward,
 00:08:56.036 --> 00:08:58.196 A:middle
 so you slow down when you
 get close to that area
-
-00:08:58.196 --> 00:09:00.036 A:middle
-that you're looking for
-without overshooting.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.196 --> 00:09:00.036 A:middle
 that you're looking for
@@ -931,14 +864,6 @@ get a value of 0.
 00:09:55.786 --> 00:09:58.116 A:middle
 A final action message
 with a value of 0
-
-00:09:58.116 --> 00:10:00.326 A:middle
-when the user ends
-tracking of the button.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.116 --> 00:10:00.326 A:middle
 when the user ends
@@ -1035,13 +960,6 @@ is just mapping 1, 2, 3, 4,
 00:10:58.626 --> 00:11:00.316 A:middle
 and 5 to your various speeds,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.626 --> 00:11:00.316 A:middle
-and 5 to your various speeds,
-
 00:11:00.516 --> 00:11:03.466 A:middle
 and for example 3 is
 10x fast-forwarding.
@@ -1113,14 +1031,6 @@ the continuous mode.
 
 00:11:52.456 --> 00:11:56.356 A:middle
 Here is an example of Photos.
-
-00:11:57.176 --> 00:12:02.386 A:middle
-For moving through your
-photos in Photos by applying,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.176 --> 00:12:02.386 A:middle
 For moving through your
@@ -1209,10 +1119,6 @@ fast you're fast-forwarding
 
 00:12:58.446 --> 00:12:58.916 A:middle
 in the movie.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.296 --> 00:13:05.026 A:middle
 For a continuous control
@@ -1312,14 +1218,6 @@ and then I'm also going to talk
 about the spring-loading
 protocol
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.516 --> 00:14:01.156 A:middle
-about the spring-loading
-protocol
-
 00:14:01.156 --> 00:14:04.766 A:middle
 so that you can use the same
 API that NSButton is doing
@@ -1406,13 +1304,6 @@ the mouse as well.
 00:14:59.176 --> 00:15:00.216 A:middle
 It is really easy to use.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.176 --> 00:15:00.216 A:middle
-It is really easy to use.
-
 00:15:01.686 --> 00:15:03.576 A:middle
 If you prefer to use
 the responder approach
@@ -1490,14 +1381,6 @@ accomplished Force click
 00:15:56.806 --> 00:15:59.526 A:middle
 and you can just immediately do
 your Force click action and go
-
-00:15:59.526 --> 00:16:01.716 A:middle
-into rename on the
-Finder, for example.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.526 --> 00:16:01.716 A:middle
 into rename on the
@@ -1583,10 +1466,6 @@ That's really important.
 Now I'm showing a linear
 mapping between the force
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.006 --> 00:17:03.416 A:middle
 on the trackpad to what the
 user is doing to the values
@@ -1598,7 +1477,7 @@ but I don't want you
 00:17:05.516 --> 00:17:06.506 A:middle
 to read too much into that.
 
-00:17:07.175 --> 00:17:10.316 A:middle
+00:17:07.176 --> 00:17:10.316 A:middle
 We like to think of every
 click on the trackpad
 
@@ -1614,15 +1493,15 @@ the user using their thumb,
 what firmness setting do they
 have in their preferences,
 
-00:17:18.976 --> 00:17:20.935 A:middle
+00:17:18.976 --> 00:17:20.936 A:middle
 how are they interacting
 with the trackpad --
 
-00:17:20.935 --> 00:17:23.165 A:middle
+00:17:20.936 --> 00:17:23.166 A:middle
 so we dynamically change
 these curves on the fly
 
-00:17:23.165 --> 00:17:25.136 A:middle
+00:17:23.166 --> 00:17:25.136 A:middle
 to give the user the
 best possible experience,
 
@@ -1675,14 +1554,6 @@ approaching the transition
 
 00:17:57.906 --> 00:17:59.016 A:middle
 to stage 2 can be useful.
-
-00:17:59.336 --> 00:18:01.056 A:middle
-This is what the stage
-transition property is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.336 --> 00:18:01.056 A:middle
 This is what the stage
@@ -1770,14 +1641,6 @@ at the same time in parallel.
 00:18:55.746 --> 00:18:56.606 A:middle
 This is what we're
 going to cover.
-
-00:18:56.606 --> 00:19:00.856 A:middle
-This is an example of the user
-putting force on the trackpad,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:56.606 --> 00:19:00.856 A:middle
 This is an example of the user
@@ -1880,13 +1743,6 @@ these are going to come
 00:19:59.056 --> 00:20:00.316 A:middle
 through as mouse dragged events,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.056 --> 00:20:00.316 A:middle
-through as mouse dragged events,
-
 00:20:00.536 --> 00:20:01.566 A:middle
 you have the mouse
 dragged events
@@ -1983,13 +1839,6 @@ an event of stage 1.
 00:20:59.496 --> 00:21:00.656 A:middle
 And during that small section
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.496 --> 00:21:00.656 A:middle
-And during that small section
-
 00:21:00.656 --> 00:21:03.956 A:middle
 of time the pressure is
 going to be 0 in the event.
@@ -2079,14 +1928,6 @@ to release even more pressure
 from the trackpad before we
 finally release from stage 1.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.756 --> 00:22:03.496 A:middle
-from the trackpad before we
-finally release from stage 1.
-
 00:22:04.126 --> 00:22:06.746 A:middle
 We're going to do a
 pressure with a phase ended
@@ -2166,14 +2007,6 @@ that's emulating the mouse
 00:22:56.676 --> 00:22:59.886 A:middle
 and also issuing
 pressure gesture events.
-
-00:22:59.886 --> 00:23:01.926 A:middle
-The way we have to
-help you do this is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.886 --> 00:23:01.926 A:middle
 The way we have to
@@ -2259,14 +2092,6 @@ and you use this constant value
 00:23:53.586 --> 00:23:55.956 A:middle
 for the entire mouse
 dragging sequence.
-
-00:23:56.446 --> 00:24:01.146 A:middle
-That's the new
-EventTypePressure,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:56.446 --> 00:24:01.146 A:middle
 That's the new
@@ -2363,14 +2188,6 @@ springLoadingEntered
 
 00:24:57.446 --> 00:24:58.806 A:middle
 and not springLoadingUpdated,
-
-00:24:59.286 --> 00:25:01.436 A:middle
-because a button is
-either enabled or disabled,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.286 --> 00:25:01.436 A:middle
 because a button is
@@ -2476,14 +2293,6 @@ version
 which we'll cover
 a little bit more
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.716 --> 00:26:00.466 A:middle
-which we'll cover
-a little bit more
-
 00:26:00.466 --> 00:26:02.126 A:middle
 in the next couple of slides.
 
@@ -2579,14 +2388,6 @@ to leave out any users
 that don't have a
 Force Touch trackpad,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.146 --> 00:27:00.676 A:middle
-that don't have a
-Force Touch trackpad,
-
 00:27:01.056 --> 00:27:03.816 A:middle
 but if you're getting
 more false activations,
@@ -2668,14 +2469,6 @@ function we have here.
 00:27:55.136 --> 00:27:57.286 A:middle
 If you are both a Spring
 Loading destination
-
-00:27:57.356 --> 00:28:00.546 A:middle
-and an NSDraggingDestination,
-you only need
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.356 --> 00:28:00.546 A:middle
 and an NSDraggingDestination,
@@ -2765,14 +2558,6 @@ If the user is using hover,
 you will get the
 springLoadingActivated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.076 --> 00:29:00.616 A:middle
-you will get the
-springLoadingActivated
-
 00:29:00.616 --> 00:29:03.916 A:middle
 at the hover timeout with
 a yes, and you'll get a no
@@ -2856,14 +2641,6 @@ you don't try to infer any kind
 00:29:56.756 --> 00:29:59.476 A:middle
 of behavior that the user
 is doing with this yet.
-
-00:29:59.896 --> 00:30:02.046 A:middle
-That's what
-springLoadingActivated is for.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.896 --> 00:30:02.046 A:middle
 That's what
@@ -2959,14 +2736,6 @@ mask is, which events you want
 to track, you ask for the next
 event, you move your item,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:57.836 --> 00:31:01.666 A:middle
-to track, you ask for the next
-event, you move your item,
-
 00:31:01.766 --> 00:31:04.156 A:middle
 update your data model,
 set your needs display,
@@ -3043,14 +2812,6 @@ to a tracking loop,
 00:31:52.996 --> 00:31:56.276 A:middle
 everything applies except for
 this one message difference.
-
-00:31:58.256 --> 00:32:00.006 A:middle
-Once Alignment Feedback
-filter returns
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.256 --> 00:32:00.006 A:middle
 Once Alignment Feedback
@@ -3152,14 +2913,6 @@ Feedback token,
 in your data model change
 the X position in this case
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.416 --> 00:33:01.776 A:middle
-in your data model change
-the X position in this case
-
 00:33:02.006 --> 00:33:04.536 A:middle
 to the aligned position
 and hang on to
@@ -3238,14 +2991,6 @@ model if snapping should happen,
 and now you have a
 collection of tokens.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.686 --> 00:34:02.276 A:middle
-and now you have a
-collection of tokens.
-
 00:34:02.766 --> 00:34:04.366 A:middle
 You want to perform
 haptic feedback
@@ -3270,11 +3015,11 @@ at a performance time,
 just use the default for the
 performance time for now,
 
-00:34:15.686 --> 00:34:17.985 A:middle
+00:34:15.686 --> 00:34:17.986 A:middle
 we'll cover performance times
 a little bit more later.
 
-00:34:18.835 --> 00:34:20.856 A:middle
+00:34:18.836 --> 00:34:20.856 A:middle
 Then you just pass the
 array a feedback token.
 
@@ -3282,30 +3027,30 @@ array a feedback token.
 You can even pass an empty
 array if nothing was aligned
 
-00:34:23.596 --> 00:34:26.235 A:middle
+00:34:23.596 --> 00:34:26.236 A:middle
 and Alignment Feedback
 filter is robust with that,
 
-00:34:26.235 --> 00:34:27.446 A:middle
+00:34:26.236 --> 00:34:27.446 A:middle
 it knows to just do nothing.
 
 00:34:28.496 --> 00:34:30.116 A:middle
 Then you set that your
 view needs display
 
-00:34:30.466 --> 00:34:35.815 A:middle
+00:34:30.466 --> 00:34:35.816 A:middle
 and you redraw whenever you're
 asked; if you have the tokens,
 
-00:34:35.866 --> 00:34:37.315 A:middle
+00:34:35.866 --> 00:34:37.316 A:middle
 then you know when
 you're redrawing
 
-00:34:37.315 --> 00:34:41.226 A:middle
+00:34:37.316 --> 00:34:41.226 A:middle
 to also draw alignment guides if
 that's appropriate for your UI.
 
-00:34:41.565 --> 00:34:43.846 A:middle
+00:34:41.566 --> 00:34:43.846 A:middle
 The feedback will then be
 performed synchronously
 
@@ -3332,13 +3077,6 @@ Touch trackpad the Alignment
 00:34:56.916 --> 00:34:59.016 A:middle
 Feedback filter knows how
 to work with that as well,
-
-00:34:59.356 --> 00:35:01.536 A:middle
-and so you just have to write it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.356 --> 00:35:01.536 A:middle
 and so you just have to write it
@@ -3442,14 +3180,6 @@ controlling the force.
 This is about configuring
 the trackpad
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.576 --> 00:36:01.316 A:middle
-This is about configuring
-the trackpad
-
 00:36:01.316 --> 00:36:04.526 A:middle
 so that it works appropriately
 for your custom situations
@@ -3541,14 +3271,6 @@ by default in the system.
 00:36:55.606 --> 00:36:57.526 A:middle
 In this case we want
 PrimaryGeneric;
-
-00:36:57.946 --> 00:37:00.466 A:middle
-PrimaryGeneric is a
-one-stage gesture,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:57.946 --> 00:37:00.466 A:middle
 PrimaryGeneric is a
@@ -3649,14 +3371,6 @@ get the mouse down yet,
 perhaps you're being paged
 in from virtual memory
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.986 --> 00:38:02.026 A:middle
-perhaps you're being paged
-in from virtual memory
-
 00:38:02.026 --> 00:38:03.386 A:middle
 and your app is not responsive.
 
@@ -3740,14 +3454,6 @@ the mouse down yet,
 00:38:58.146 --> 00:38:59.956 A:middle
 but they didn't feel the
 Force click because it is
-
-00:38:59.956 --> 00:39:04.066 A:middle
-in the PrimaryGeneric
-behavior and the events you get
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:59.956 --> 00:39:04.066 A:middle
 in the PrimaryGeneric
@@ -3844,14 +3550,6 @@ Subtle interactions.
 You just ask the
 NSHapticFeedbackManager
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.596 --> 00:40:00.356 A:middle
-You just ask the
-NSHapticFeedbackManager
-
 00:40:00.356 --> 00:40:02.976 A:middle
 for the defaultPerformer, always
 ask for the defaultPerformer
@@ -3934,10 +3632,6 @@ haptic feedbacks during event
 00:40:57.106 --> 00:40:59.836 A:middle
 processing and your drawing can
 just concentrate on drawing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.306 --> 00:41:02.396 A:middle
 If you're using Medal
@@ -4028,14 +3722,6 @@ in the web environment.
 We have a lab coming up
 right after this, the Cocoa
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:59.596 --> 00:42:03.496 A:middle
-We have a lab coming up
-right after this, the Cocoa
-
 00:42:03.496 --> 00:42:06.156 A:middle
 and Force Touch and Gesture
 lab; I will of course be there.
@@ -4067,4 +3753,3 @@ Enjoy the rest of the show.
 
 00:42:21.516 --> 00:42:24.500 A:middle
 [Applause]
-

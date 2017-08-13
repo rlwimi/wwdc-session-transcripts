@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.516 --> 00:00:31.546 A:middle
 [ Applause ]
@@ -37,13 +36,6 @@ closely with are Apple Pay,
 00:00:55.596 --> 00:00:58.356 A:middle
 Siri, Proactive Assistant,
 Health,
-
-00:00:59.356 --> 00:01:01.206 A:middle
-and our newest OS, watchOS.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.356 --> 00:01:01.206 A:middle
 and our newest OS, watchOS.
@@ -107,14 +99,6 @@ to make it easy for you
 to respect user privacy
 and build privacy
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.616 --> 00:02:01.376 A:middle
-to respect user privacy
-and build privacy
-
 00:02:01.486 --> 00:02:02.916 A:middle
 into your apps and services.
 
@@ -170,14 +154,6 @@ with our users.
 00:02:52.916 --> 00:02:56.516 A:middle
 Now, users trust us with
 lots of sensitive data.
-
-00:02:57.996 --> 00:03:00.236 A:middle
-And we need to be good
-stewards of their data.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.996 --> 00:03:00.236 A:middle
 And we need to be good
@@ -245,14 +221,6 @@ Now, you can mitigate this risk
 by applying data
 minimization techniques.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.836 --> 00:04:02.886 A:middle
-by applying data
-minimization techniques.
-
 00:04:04.376 --> 00:04:08.856 A:middle
 To learn more about the list of
 techniques and to see examples
@@ -264,7 +232,7 @@ watch User Privacy in iOS
 00:04:15.666 --> 00:04:18.226 A:middle
 and OS X from last year's WWDC.
 
-00:04:19.435 --> 00:04:24.756 A:middle
+00:04:19.436 --> 00:04:24.756 A:middle
 Aggregation, de-resolution,
 these are all ways
 
@@ -309,10 +277,6 @@ on the list, minimization,
 00:04:57.516 --> 00:04:59.956 A:middle
 and don't collect or
 transfer the data at all.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.636 --> 00:05:05.886 A:middle
 Now, for the data that
@@ -372,14 +336,6 @@ burned during that workout.
 00:05:53.776 --> 00:05:56.436 A:middle
 None of that data is sent
 to server for processing.
-
-00:05:57.106 --> 00:06:02.266 A:middle
-Now, data needs to be
-protected not only in transit
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:57.106 --> 00:06:02.266 A:middle
 Now, data needs to be
@@ -457,10 +413,6 @@ understand what's happening,
 00:06:56.916 --> 00:06:58.696 A:middle
 avoiding any user surprise.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.576 --> 00:07:05.066 A:middle
 Now, one way to do this
 is to be clear to users
@@ -537,14 +489,6 @@ changes in iOS, OS X,
 and some of the foundational
 bits for watchOS.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.136 --> 00:08:01.996 A:middle
-and some of the foundational
-bits for watchOS.
-
 00:08:03.456 --> 00:08:06.576 A:middle
 So first on iOS, we are going
 to go back to last year.
@@ -576,15 +520,15 @@ hardware, make sure to test
 00:08:27.276 --> 00:08:30.016 A:middle
 on iOS 9 because you cannot rely
 
-00:08:30.016 --> 00:08:32.525 A:middle
+00:08:30.016 --> 00:08:32.526 A:middle
 on the MAC address
 before authentication.
 
-00:08:33.155 --> 00:08:40.025 A:middle
+00:08:33.156 --> 00:08:40.026 A:middle
 Now, simply put, we think
 what apps are installed
 
-00:08:40.025 --> 00:08:42.086 A:middle
+00:08:40.026 --> 00:08:42.086 A:middle
 on a user's device
 are their business.
 
@@ -603,14 +547,6 @@ to home.
 00:08:55.566 --> 00:08:58.316 A:middle
 Now, what apps a
 user has installed
-
-00:08:58.716 --> 00:09:01.496 A:middle
-and what can be gleaned from
-them can be very sensitive.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.716 --> 00:09:01.496 A:middle
 and what can be gleaned from
@@ -670,14 +606,6 @@ support functionality,
 00:09:54.066 --> 00:09:57.666 A:middle
 like revealing new
 things that a user can do
-
-00:09:58.456 --> 00:10:02.886 A:middle
-if an app is installed
-in the device.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.456 --> 00:10:02.886 A:middle
 if an app is installed
@@ -744,14 +672,6 @@ So let's say you declared it.
 When you call canOpenURL on
 that scheme, it will return true
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.036 --> 00:11:05.246 A:middle
-When you call canOpenURL on
-that scheme, it will return true
-
 00:11:05.696 --> 00:11:08.286 A:middle
 if there is an app installed
 that does support the scheme.
@@ -802,14 +722,6 @@ One alternate that I mention
 00:11:56.196 --> 00:11:58.256 A:middle
 that is new this year
 is universal links.
-
-00:11:58.886 --> 00:12:01.226 A:middle
-The great thing about
-universal links is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.886 --> 00:12:01.226 A:middle
 The great thing about
@@ -872,10 +784,6 @@ and see data
 from any other processes
 then one's self.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.456 --> 00:13:05.816 A:middle
 This year, on both iOS and OS X,
 
@@ -932,14 +840,6 @@ a single process,
 
 00:13:56.216 --> 00:13:57.386 A:middle
 and they are not shared.
-
-00:13:58.166 --> 00:14:02.406 A:middle
-Note: If you have shipped your
-application in the App Store,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.166 --> 00:14:02.406 A:middle
 Note: If you have shipped your
@@ -1006,14 +906,6 @@ shared across.
 This also includes
 your privacy settings
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.126 --> 00:15:00.966 A:middle
-This also includes
-your privacy settings
-
 00:15:01.976 --> 00:15:03.386 A:middle
 for native WatchKit apps.
 
@@ -1073,14 +965,6 @@ your app the most often.
 00:15:53.036 --> 00:15:56.996 A:middle
 Also, in watchOS 2,
 Keychain is now on Watch.
-
-00:15:57.286 --> 00:16:01.346 A:middle
-Now I am going to hand it
-over to Jason, who is going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.286 --> 00:16:01.346 A:middle
 Now I am going to hand it
@@ -1172,10 +1056,6 @@ doesn't identify a person,
 depending what you
 log against it,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.236 --> 00:17:01.996 A:middle
 how frequently you
 rotate identifiers,
@@ -1187,7 +1067,7 @@ and what controls a user has,
 over time the identifier
 can be de-anonymized
 
-00:17:06.326 --> 00:17:08.955 A:middle
+00:17:06.326 --> 00:17:08.956 A:middle
 as you can log a lot of
 different kinds of data
 
@@ -1211,7 +1091,7 @@ all identifiers carry risk.
 Even though an identifier
 itself may be anonymous,
 
-00:17:25.425 --> 00:17:27.056 A:middle
+00:17:25.426 --> 00:17:27.056 A:middle
 if the data you hold
 against it isn't,
 
@@ -1260,13 +1140,6 @@ and some best practices.
 00:17:56.566 --> 00:17:59.156 A:middle
 So first, before you
 use an identifier,
-
-00:17:59.156 --> 00:18:01.286 A:middle
-ask yourself: Do you need one?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.156 --> 00:18:01.286 A:middle
 ask yourself: Do you need one?
@@ -1353,14 +1226,6 @@ to an installation on device?
 Are you having them create
 an account with your service?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.196 --> 00:19:02.126 A:middle
-Are you having them create
-an account with your service?
-
 00:19:02.256 --> 00:19:03.616 A:middle
 Are you having them log in?
 
@@ -1438,14 +1303,6 @@ It's easy to construct a world
 00:19:57.016 --> 00:19:59.616 A:middle
 where a persistent
 identifier is used to track all
-
-00:19:59.616 --> 00:20:01.856 A:middle
-of the user's activities
-across properties,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.616 --> 00:20:01.856 A:middle
 of the user's activities
@@ -1544,14 +1401,6 @@ fairly clear set of facts.
 User 123 is thinking about
 getting engaged -- probably --
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.886 --> 00:21:02.226 A:middle
-User 123 is thinking about
-getting engaged -- probably --
-
 00:21:02.586 --> 00:21:03.816 A:middle
 probably this past Saturday.
 
@@ -1627,14 +1476,6 @@ users, they are not available
 
 00:21:54.566 --> 00:21:56.806 A:middle
 on iOS and watchOS by design.
-
-00:21:57.536 --> 00:22:00.706 A:middle
-Apple tries to surprise
-and delight its customers,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.536 --> 00:22:00.706 A:middle
 Apple tries to surprise
@@ -1728,14 +1569,6 @@ identifier or the IDFV
 after a user has uninstalled
 all apps from a given team ID.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.506 --> 00:23:03.666 A:middle
-after a user has uninstalled
-all apps from a given team ID.
-
 00:23:04.286 --> 00:23:06.806 A:middle
 And on the advertising context,
 we give users the ability
@@ -1803,14 +1636,6 @@ an identifier at all.
 00:23:53.936 --> 00:23:56.576 A:middle
 Can you just send up a value and
 increment a server-side counter?
-
-00:23:57.126 --> 00:24:00.316 A:middle
-Collecting data against an
-identifier brings responsibility
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.126 --> 00:24:00.316 A:middle
 Collecting data against an
@@ -1902,13 +1727,6 @@ always get the current value
 00:24:58.866 --> 00:25:00.066 A:middle
 of the advertisingIdentifier.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.866 --> 00:25:00.066 A:middle
-of the advertisingIdentifier.
-
 00:25:01.046 --> 00:25:03.586 A:middle
 A user can reset the value
 of the advertisingIdentifier
@@ -1989,14 +1807,6 @@ and say give us all data
 00:25:54.006 --> 00:25:56.696 A:middle
 about your app's usage so
 that they can calculate that,
-
-00:25:57.166 --> 00:26:00.686 A:middle
-instead, agree upon a
-definition of common usage,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.166 --> 00:26:00.686 A:middle
 instead, agree upon a
@@ -2091,14 +1901,6 @@ decision as to whether or not
 to give your app
 access to that data.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.886 --> 00:27:01.496 A:middle
-to give your app
-access to that data.
-
 00:27:02.836 --> 00:27:06.426 A:middle
 So that it's clear to users why
 an app needs this data and so
@@ -2178,14 +1980,6 @@ directed to their iPhone.
 As Katie was saying, we think of
 the iPhone and the paired Watch
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.376 --> 00:28:03.366 A:middle
-As Katie was saying, we think of
-the iPhone and the paired Watch
-
 00:28:03.736 --> 00:28:06.876 A:middle
 as a tightly coupled experience,
 and the privacy decisions
@@ -2259,14 +2053,6 @@ have to continue to run
 
 00:28:54.136 --> 00:28:55.336 A:middle
 without access to that data.
-
-00:28:56.326 --> 00:29:01.836 A:middle
-But at a later point in time,
-your app could prompt again.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:56.326 --> 00:29:01.836 A:middle
 But at a later point in time,
@@ -2355,14 +2141,6 @@ for one aspect of your app,
 they give permission for
 all aspects of your app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:57.636 --> 00:30:01.436 A:middle
-they give permission for
-all aspects of your app.
-
 00:30:01.636 --> 00:30:04.166 A:middle
 Now that you know what data is
 available on iOS, OS X, watchOS,
@@ -2445,10 +2223,6 @@ a.m. in Pacific Heights as well
 as in the security talk
 later this afternoon.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.526 --> 00:31:03.006 A:middle
 If you do want to
 declare an exception
@@ -2525,14 +2299,6 @@ rewards card is presented
 
 00:31:54.846 --> 00:31:56.826 A:middle
 in the contactless payment.
-
-00:31:57.576 --> 00:32:01.616 A:middle
-With the App Search, App
-history, and App links in iOS 9,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:57.576 --> 00:32:01.616 A:middle
 With the App Search, App
@@ -2626,14 +2392,6 @@ were looking at before.
 Think of it as handing off to
 yourself in the future instead
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:57.126 --> 00:33:00.156 A:middle
-Think of it as handing off to
-yourself in the future instead
-
 00:33:00.156 --> 00:33:01.526 A:middle
 of on to another machine.
 
@@ -2718,14 +2476,6 @@ to make your apps searchable.
 We made indexing privacy
 friendly by not indexing it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.196 --> 00:34:01.786 A:middle
-We made indexing privacy
-friendly by not indexing it
-
 00:34:01.786 --> 00:34:05.076 A:middle
 by default and leaving it to
 developers to determine whether
@@ -2737,11 +2487,11 @@ or not to index a specific view.
 But we understand that
 some developers have apps
 
-00:34:11.226 --> 00:34:13.505 A:middle
+00:34:11.226 --> 00:34:13.506 A:middle
 that contain public
 content that they want
 
-00:34:13.505 --> 00:34:15.286 A:middle
+00:34:13.506 --> 00:34:15.286 A:middle
 to be searchable on all devices.
 
 00:34:16.386 --> 00:34:19.116 A:middle
@@ -2752,7 +2502,7 @@ came up with a way
 to protect user privacy while
 also indexing additional data.
 
-00:34:23.596 --> 00:34:26.485 A:middle
+00:34:23.596 --> 00:34:26.486 A:middle
 When you make a view
 eligible for search
 
@@ -2779,11 +2529,11 @@ hash this view
 00:34:42.726 --> 00:34:44.226 A:middle
 and send the hash to Apple.
 
-00:34:45.255 --> 00:34:47.876 A:middle
+00:34:45.256 --> 00:34:47.876 A:middle
 Eventually, when the
 threshold is exceeded,
 
-00:34:48.886 --> 00:34:51.235 A:middle
+00:34:48.886 --> 00:34:51.236 A:middle
 the actual view will
 be sent to Apple,
 
@@ -2793,13 +2543,6 @@ accidentally marked public
 
 00:34:54.996 --> 00:34:58.236 A:middle
 aren't unintentionally sent up.
-
-00:34:59.026 --> 00:35:00.356 A:middle
-That's NSUserActivity.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.026 --> 00:35:00.356 A:middle
 That's NSUserActivity.
@@ -2897,14 +2640,6 @@ That's a brief overview of some
 of the new privacy
 protecting features in iOS 9.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.776 --> 00:36:03.036 A:middle
-of the new privacy
-protecting features in iOS 9.
-
 00:36:03.156 --> 00:36:05.226 A:middle
 I am now going to hand it over
 to Katie to talk about some
@@ -2982,14 +2717,6 @@ to share it with a third party.
 We actually require privacy
 policies for certain types
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.906 --> 00:37:04.126 A:middle
-We actually require privacy
-policies for certain types
-
 00:37:04.126 --> 00:37:07.226 A:middle
 of applications, including
 apps that link to HealthKit.
@@ -3054,14 +2781,6 @@ watchOS device.
 00:37:54.956 --> 00:37:57.856 A:middle
 Data protection is
 controlled on a per-file basis,
-
-00:37:58.246 --> 00:38:00.116 A:middle
-so each file is assigned
-to a class.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:58.246 --> 00:38:00.116 A:middle
 so each file is assigned
@@ -3141,14 +2860,6 @@ It's always accessible.
 Lastly -- so next, protected
 until first authentication,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:57.876 --> 00:39:01.786 A:middle
-Lastly -- so next, protected
-until first authentication,
-
 00:39:02.206 --> 00:39:05.496 A:middle
 this is your default class.
 
@@ -3213,14 +2924,6 @@ financial information.
 00:39:53.616 --> 00:39:56.946 A:middle
 When the device boots,
 the data is unaccessible.
-
-00:39:57.936 --> 00:40:01.226 A:middle
-When the user enters their
-passcode, the data is available.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:57.936 --> 00:40:01.226 A:middle
 When the user enters their
@@ -3297,13 +3000,6 @@ together, so both us and you.
 00:40:59.186 --> 00:41:00.506 A:middle
 It's our responsibility
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.186 --> 00:41:00.506 A:middle
-It's our responsibility
-
 00:41:00.506 --> 00:41:03.006 A:middle
 to protect the privacy
 rights of our users.
@@ -3313,4 +3009,3 @@ Thank you very much.
 
 00:41:06.516 --> 00:41:19.050 A:middle
 [ Applause ]
-

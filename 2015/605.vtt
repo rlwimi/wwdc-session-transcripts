@@ -1,10 +1,9 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:25.516 --> 00:00:31.666 A:middle
 [Applause]
 
-00:00:32.165 --> 00:00:32.926 A:middle
+00:00:32.166 --> 00:00:32.926 A:middle
 &gt;&gt; MEGAN GARDNER:
 Hey, everybody.
 
@@ -45,14 +44,6 @@ basically guest players as well
 00:00:58.066 --> 00:00:59.926 A:middle
 as our new unified
 server environment.
-
-00:00:59.926 --> 00:01:03.306 A:middle
-And then Edwin will get up and
-talk to you about ReplayKit
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.926 --> 00:01:03.306 A:middle
 And then Edwin will get up and
@@ -140,10 +131,6 @@ to your single player game.
 00:01:58.476 --> 00:01:59.736 A:middle
 So, what's new?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.506 --> 00:02:03.076 A:middle
 First up, we have guest players.
 
@@ -154,7 +141,7 @@ we have two main places
 00:02:06.516 --> 00:02:07.696 A:middle
 that you'll run into players.
 
-00:02:08.196 --> 00:02:10.045 A:middle
+00:02:08.196 --> 00:02:10.046 A:middle
 First is your GKLocalPlayer.
 
 00:02:10.566 --> 00:02:12.466 A:middle
@@ -227,14 +214,6 @@ you can fill up the rest
 00:02:55.546 --> 00:02:58.516 A:middle
 of the slots in your game
 with those guest players.
-
-00:02:58.836 --> 00:03:02.716 A:middle
-You do need to have at least
-one authenticated GKPlayer
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.836 --> 00:03:02.716 A:middle
 You do need to have at least
@@ -330,14 +309,6 @@ and that identifier needs
 to be unique across
 each game session.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.456 --> 00:04:01.106 A:middle
-to be unique across
-each game session.
-
 00:04:01.566 --> 00:04:03.266 A:middle
 So whatever method
 you end up using,
@@ -404,14 +375,6 @@ little bit easier for you,
 00:04:54.876 --> 00:04:57.856 A:middle
 we won't be automatching anyone
 that won't be able to join
-
-00:04:57.856 --> 00:05:01.986 A:middle
-that game and if one of your
-users does extend an invitation
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.856 --> 00:05:01.986 A:middle
 that game and if one of your
@@ -500,13 +463,6 @@ data in two places.
 00:05:58.096 --> 00:06:00.446 A:middle
 And this was really great.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.096 --> 00:06:00.446 A:middle
-And this was really great.
-
 00:06:00.906 --> 00:06:04.486 A:middle
 But we feel that Sandbox
 has really done its purpose,
@@ -581,14 +537,6 @@ you do need to be aware of.
 00:06:56.476 --> 00:06:58.886 A:middle
 First, any new game
 that you will be working
-
-00:06:58.886 --> 00:07:02.326 A:middle
-on will actually show up in
-your games list in Game Center.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.886 --> 00:07:02.326 A:middle
 on will actually show up in
@@ -672,10 +620,6 @@ some of that same UI treatment.
 But fortunately, everyone on
 iOS 8 can upgrade to iOS 9,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.056 --> 00:08:01.556 A:middle
 so we just suggest that
 you do that instead.
@@ -728,15 +672,15 @@ you will be posting
 to those same production
 leaderboards.
 
-00:08:33.015 --> 00:08:35.666 A:middle
+00:08:33.016 --> 00:08:35.666 A:middle
 Fortunately, everything is
 iTunes Connect and that is going
 
-00:08:35.666 --> 00:08:37.785 A:middle
+00:08:35.666 --> 00:08:37.786 A:middle
 to allow you to clear the
 leaderboards before you publish
 
-00:08:37.785 --> 00:08:40.716 A:middle
+00:08:37.786 --> 00:08:40.716 A:middle
 them or to call any scores
 that you or your testers end
 
@@ -766,14 +710,6 @@ a really huge benefit.
 00:08:54.496 --> 00:08:58.866 A:middle
 This is going to allow you to
 be able to test your updates
-
-00:08:58.866 --> 00:09:01.966 A:middle
-to your multiplayer games
-against games that are already
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.866 --> 00:09:01.966 A:middle
 to your multiplayer games
@@ -851,14 +787,6 @@ version that you would get
 00:09:53.876 --> 00:09:57.276 A:middle
 from the App Store, you will
 be vended the unreleased data.
-
-00:09:58.326 --> 00:10:02.116 A:middle
-If the CFBundleVersion that you
-have on your device is less than
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.326 --> 00:10:02.116 A:middle
 If the CFBundleVersion that you
@@ -945,14 +873,6 @@ in the compatibility matrix
 and iTunes Connect,
 including versions
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.976 --> 00:11:01.826 A:middle
-and iTunes Connect,
-including versions
-
 00:11:02.206 --> 00:11:05.916 A:middle
 that your game would not
 necessarily know about because
@@ -1025,14 +945,6 @@ for that game and those games --
 00:11:53.436 --> 00:11:56.356 A:middle
 those leaderboards will only
 be viewable by those people
-
-00:11:56.356 --> 00:12:00.406 A:middle
-who have that version of
-your game on their system.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:56.356 --> 00:12:00.406 A:middle
 who have that version of
@@ -1126,14 +1038,6 @@ impossible level.
 Or when you finally
 beat that last boss
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.356 --> 00:13:02.516 A:middle
-Or when you finally
-beat that last boss
-
 00:13:02.516 --> 00:13:04.036 A:middle
 without losing a
 single life point.
@@ -1219,14 +1123,6 @@ about these in the next slide.
 And it's available
 today in the iOS 9 beta.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.526 --> 00:14:01.536 A:middle
-And it's available
-today in the iOS 9 beta.
-
 00:14:02.406 --> 00:14:05.936 A:middle
 And later in the fall, to
 customers when iOS 9 ships.
@@ -1299,14 +1195,6 @@ These are only accessible
 to the user via ReplayKit's
 preview UI and share sheet.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.096 --> 00:15:01.126 A:middle
-to the user via ReplayKit's
-preview UI and share sheet.
-
 00:15:01.676 --> 00:15:05.246 A:middle
 All right, so let's take a
 look at how ReplayKit works
@@ -1373,14 +1261,6 @@ to a location only accessible
 
 00:15:54.356 --> 00:15:56.316 A:middle
 to ReplayKits internal services.
-
-00:15:57.156 --> 00:16:01.446 A:middle
-How does the user actually
-interact with that movie then?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.156 --> 00:16:01.446 A:middle
 How does the user actually
@@ -1467,34 +1347,26 @@ that should conform
 to the RPScreenRecorder
 delegate protocol.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.656 --> 00:17:02.116 A:middle
-to the RPScreenRecorder
-delegate protocol.
-
 00:17:03.276 --> 00:17:05.236 A:middle
 And this delegate can be
 used to check for changes
 
-00:17:05.236 --> 00:17:09.695 A:middle
+00:17:05.236 --> 00:17:09.696 A:middle
 in availability, and also how a
 case is if recording stops due
 
-00:17:09.695 --> 00:17:10.685 A:middle
+00:17:09.696 --> 00:17:10.686 A:middle
 to an error, for example.
 
-00:17:11.246 --> 00:17:14.935 A:middle
+00:17:11.246 --> 00:17:14.936 A:middle
 For the second class,
 RPPreviewViewController,
 
-00:17:15.415 --> 00:17:17.465 A:middle
+00:17:15.416 --> 00:17:17.466 A:middle
 again it's responsible for
 previewing the recording,
 
-00:17:17.465 --> 00:17:19.715 A:middle
+00:17:17.466 --> 00:17:19.716 A:middle
 editing and trimming and
 fially sharing the movie.
 
@@ -1502,10 +1374,10 @@ fially sharing the movie.
 RPPreviewViewController also
 has a delegate that you can set
 
-00:17:24.606 --> 00:17:25.415 A:middle
+00:17:24.606 --> 00:17:25.416 A:middle
 that should conform
 
-00:17:25.415 --> 00:17:27.596 A:middle
+00:17:25.416 --> 00:17:27.596 A:middle
 to the
 RPPreviewViewControllerDelegate
 
@@ -1553,14 +1425,6 @@ created called DemoBots.
 00:17:56.646 --> 00:17:58.006 A:middle
 You have probably seen
 this in other sessions.
-
-00:17:58.706 --> 00:18:01.616 A:middle
-Just in case you haven't,
-the premise of DemoBots is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.706 --> 00:18:01.616 A:middle
 Just in case you haven't,
@@ -1652,13 +1516,6 @@ the scene flow looks like,
 00:18:59.846 --> 00:19:02.416 A:middle
 let's see how ReplayKit fits in.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.846 --> 00:19:02.416 A:middle
-let's see how ReplayKit fits in.
-
 00:19:02.616 --> 00:19:06.006 A:middle
 Since we know that DemoBots has
 short game play sessions we will
@@ -1745,10 +1602,6 @@ this on and then presses
 00:19:58.146 --> 00:19:59.956 A:middle
 on the new game button.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.476 --> 00:20:02.506 A:middle
 At this point, we
 transition to the game level
@@ -1826,10 +1679,6 @@ this user consent prompt.
 And the user at this
 point has three options.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.066 --> 00:21:02.226 A:middle
 It can choose to record the
 screen and the microphone
@@ -1901,14 +1750,6 @@ tell ReplayKit to stop recording
 00:21:54.866 --> 00:21:58.816 A:middle
 to do that in code, we simply
 call stop recording with handler
-
-00:21:59.236 --> 00:22:02.516 A:middle
-on that shared recorder
-instance and then
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.236 --> 00:22:02.516 A:middle
 on that shared recorder
@@ -1998,14 +1839,6 @@ kit's preview UI
 where the user can
 scrub through, trim,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:57.346 --> 00:23:01.766 A:middle
-where the user can
-scrub through, trim,
-
 00:23:03.226 --> 00:23:04.596 A:middle
 and finally share
 their recordings.
@@ -2074,13 +1907,6 @@ So to handle dismissal,
 00:23:56.206 --> 00:23:58.286 A:middle
 we simply set preview
 view controllers delegate
-
-00:23:58.286 --> 00:24:01.076 A:middle
-and that delegate should conform
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.286 --> 00:24:01.076 A:middle
 and that delegate should conform
@@ -2164,14 +1990,6 @@ video content.
 So unfortunately, it cannot be
 used simultaneously with either
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.136 --> 00:25:01.996 A:middle
-So unfortunately, it cannot be
-used simultaneously with either
-
 00:25:01.996 --> 00:25:02.926 A:middle
 of those two services.
 
@@ -2240,14 +2058,6 @@ in RPScreenRecorder and use
 00:25:53.746 --> 00:25:56.166 A:middle
 that to drive the visibility
 of the recording toggle button.
-
-00:25:57.216 --> 00:26:01.126 A:middle
-Simple. All right, next up
-is discarding the recording.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.216 --> 00:26:01.126 A:middle
 Simple. All right, next up
@@ -2325,10 +2135,6 @@ recording is happening and also
 00:26:57.346 --> 00:26:58.966 A:middle
 if voice commentary
 is on or off.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.486 --> 00:27:03.576 A:middle
 So to implement this, you can
@@ -2415,14 +2221,6 @@ applications main UI window.
 If you want to exclude any UI,
 you simply create a new instance
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.746 --> 00:28:03.566 A:middle
-If you want to exclude any UI,
-you simply create a new instance
-
 00:28:03.566 --> 00:28:07.586 A:middle
 of UI window and place any
 elements you want hidden
@@ -2495,13 +2293,6 @@ choose what is appropriate
 00:28:59.816 --> 00:29:02.086 A:middle
 for your particular game type.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.816 --> 00:29:02.086 A:middle
-for your particular game type.
-
 00:29:03.916 --> 00:29:06.256 A:middle
 All right, so that actually
 concludes the fine tuning
@@ -2567,14 +2358,6 @@ with my partners back in 2005.
 00:29:53.816 --> 00:29:59.976 A:middle
 Our purpose was to make
 hard core PC games but all
-
-00:29:59.976 --> 00:30:04.006 A:middle
-of that went out of the
-window in 2009 with iOS
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.976 --> 00:30:04.006 A:middle
 of that went out of the
@@ -2655,13 +2438,6 @@ a mobile battle arena.
 00:30:59.636 --> 00:31:01.926 A:middle
 It's a three-on-three team game,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.636 --> 00:31:01.926 A:middle
-It's a three-on-three team game,
-
 00:31:02.206 --> 00:31:05.326 A:middle
 its got a neat Rugby-inspired
 lane mechanic,
@@ -2725,14 +2501,6 @@ people would love to record
 00:31:53.386 --> 00:31:56.476 A:middle
 and share this as part
 of the energy of creating
-
-00:31:56.616 --> 00:32:00.076 A:middle
-that community of gamers and
-that's where ReplayKit comes in.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:56.616 --> 00:32:00.076 A:middle
 that community of gamers and
@@ -2810,14 +2578,6 @@ setting him on fire.
 00:32:55.786 --> 00:32:58.206 A:middle
 And capturing these moments
 and being able to share them
-
-00:32:58.206 --> 00:33:00.306 A:middle
-from the tail end of a
-game that was important
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.206 --> 00:33:00.306 A:middle
 from the tail end of a
@@ -2914,13 +2674,6 @@ environments and removing
 00:33:59.126 --> 00:34:00.236 A:middle
 that Game Center Sandbox.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.126 --> 00:34:00.236 A:middle
-that Game Center Sandbox.
-
 00:34:01.406 --> 00:34:04.266 A:middle
 And we introduced ReplayKit,
 a whole new way to add social
@@ -2937,26 +2690,26 @@ and it does it efficiently
 and it has privacy
 safeguards for the users.
 
-00:34:12.545 --> 00:34:15.065 A:middle
+00:34:12.546 --> 00:34:15.066 A:middle
 As you have seen, it's an
 incredibly compact framework
 
-00:34:15.065 --> 00:34:17.085 A:middle
+00:34:15.066 --> 00:34:17.086 A:middle
 and has incredibly
 simple adoption.
 
-00:34:18.846 --> 00:34:22.275 A:middle
+00:34:18.846 --> 00:34:22.276 A:middle
 For more information, go to
 developer.Apple.com and refer
 
-00:34:22.275 --> 00:34:25.696 A:middle
+00:34:22.276 --> 00:34:25.696 A:middle
 to the documentation or
 contact Alan Schaffer our game
 
 00:34:25.696 --> 00:34:27.136 A:middle
 technologies evangelist.
 
-00:34:28.126 --> 00:34:31.585 A:middle
+00:34:28.126 --> 00:34:31.586 A:middle
 I urge you to download the iOS
 9 data, check out ReplayKit,
 
@@ -2964,22 +2717,21 @@ I urge you to download the iOS
 get it into your games,
 bring them to the labs
 
-00:34:33.466 --> 00:34:35.755 A:middle
+00:34:33.466 --> 00:34:35.756 A:middle
 and show us what you've got.
 
-00:34:35.896 --> 00:34:36.775 A:middle
+00:34:35.896 --> 00:34:36.776 A:middle
 That's it for me.
 
-00:34:36.846 --> 00:34:38.045 A:middle
+00:34:36.846 --> 00:34:38.046 A:middle
 Thank you so much for attending.
 
-00:34:38.045 --> 00:34:41.366 A:middle
+00:34:38.046 --> 00:34:41.366 A:middle
 I hope you enjoy the rest
 of your WWDC experience.
 
-00:34:41.775 --> 00:34:41.976 A:middle
+00:34:41.776 --> 00:34:41.976 A:middle
 Thank you.
 
-00:34:42.507 --> 00:34:44.507 A:middle
+00:34:42.508 --> 00:34:44.508 A:middle
 [Applause]
-

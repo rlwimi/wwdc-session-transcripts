@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:25.461 --> 00:00:27.461 A:middle
 [Applause]
@@ -7,10 +6,10 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 00:00:27.906 --> 00:00:28.206 A:middle
 &gt;&gt; CHAD WOOLF: Thank you.
 
-00:00:31.486 --> 00:00:32.555 A:middle
+00:00:31.486 --> 00:00:32.556 A:middle
 Thank you.
 
-00:00:32.555 --> 00:00:33.316 A:middle
+00:00:32.556 --> 00:00:33.316 A:middle
 I'm Chad Woolf.
 
 00:00:33.626 --> 00:00:34.536 A:middle
@@ -52,18 +51,11 @@ An example.
 00:00:57.406 --> 00:01:00.076 A:middle
 It is useful when trying
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:57.406 --> 00:01:00.076 A:middle
-It is useful when trying
-
 00:01:00.076 --> 00:01:02.736 A:middle
 to discover what the
 application is doing at runtime.
 
-00:01:02.736 --> 00:01:04.465 A:middle
+00:01:02.736 --> 00:01:04.466 A:middle
 You want to see who
 is calling what.
 
@@ -143,10 +135,6 @@ have the performance
 00:01:57.656 --> 00:01:59.956 A:middle
 to in our existing graphic code.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.306 --> 00:02:04.246 A:middle
 We knew that we would have
 to focus on the rendering
@@ -218,13 +206,6 @@ As we layered on feature
 00:02:55.316 --> 00:02:58.886 A:middle
 after feature we were constantly
 evaluating our performance
-
-00:02:58.886 --> 00:03:00.946 A:middle
-of our code against the budget.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.886 --> 00:03:00.946 A:middle
 of our code against the budget.
@@ -311,14 +292,6 @@ application on iOS
 that looks similar to the
 first track view prototypes
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.176 --> 00:04:02.626 A:middle
-that looks similar to the
-first track view prototypes
-
 00:04:03.546 --> 00:04:06.636 A:middle
 and we set performance
 targets for ourselves,
@@ -331,15 +304,15 @@ what we wanted to graph,
 we wanted a perfect 60 frame per
 second for panning and zooming.
 
-00:04:16.005 --> 00:04:18.826 A:middle
+00:04:16.006 --> 00:04:18.826 A:middle
 We wanted to make it work on
 a iPad mini 1st generation.
 
-00:04:19.495 --> 00:04:21.435 A:middle
+00:04:19.496 --> 00:04:21.436 A:middle
 We picked the iPad
 mini 1st gen --
 
-00:04:21.435 --> 00:04:24.376 A:middle
+00:04:21.436 --> 00:04:24.376 A:middle
 you know what I'm
 talking about --
 
@@ -388,14 +361,6 @@ Initially we're working with
 00:04:56.386 --> 00:04:59.766 A:middle
 Another important point, you
 should do your time profiling
-
-00:04:59.766 --> 00:05:02.616 A:middle
-on release builds, you
-want to take advantage
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.766 --> 00:05:02.616 A:middle
 on release builds, you
@@ -465,14 +430,6 @@ stutter, stutter,
 
 00:05:55.806 --> 00:05:57.826 A:middle
 stutter, that's pretty bad.
-
-00:05:58.776 --> 00:06:02.256 A:middle
-Now, finally, I'm going to
-just scroll back and forth
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.776 --> 00:06:02.256 A:middle
 Now, finally, I'm going to
@@ -557,10 +514,6 @@ particular piece of data,
 00:06:57.896 --> 00:06:59.706 A:middle
 the activity right here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.026 --> 00:07:01.716 A:middle
 I was scrolling here.
 
@@ -638,13 +591,6 @@ see the heaviest stack trace.
 00:07:59.156 --> 00:08:00.246 A:middle
 This is for the main thread.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.156 --> 00:08:00.246 A:middle
-This is for the main thread.
-
 00:08:00.666 --> 00:08:04.086 A:middle
 This is where focusing here is
 where I'll get the most bang
@@ -679,7 +625,7 @@ that seems out of the ordinary.
 In fact, this is a really common
 occurrence when profiling.
 
-00:08:31.356 --> 00:08:33.765 A:middle
+00:08:31.356 --> 00:08:33.766 A:middle
 You look at what the
 application is doing the most,
 
@@ -687,14 +633,14 @@ application is doing the most,
 well it doesn't look like it
 is doing anything special.
 
-00:08:36.916 --> 00:08:38.405 A:middle
+00:08:36.916 --> 00:08:38.406 A:middle
 There is nothing -- no call
 
-00:08:38.405 --> 00:08:40.785 A:middle
+00:08:38.406 --> 00:08:40.786 A:middle
 to compute the 40th
 Fibonacci number here
 
-00:08:40.785 --> 00:08:41.466 A:middle
+00:08:40.786 --> 00:08:41.466 A:middle
 in here or something.
 
 00:08:42.446 --> 00:08:45.496 A:middle
@@ -722,14 +668,6 @@ I can actually see in here
 00:08:56.866 --> 00:08:58.966 A:middle
 that there is a call,
 a CG context path.
-
-00:08:59.246 --> 00:09:02.396 A:middle
-It is not called by my code
-according to the stack trace.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.246 --> 00:09:02.396 A:middle
 It is not called by my code
@@ -804,13 +742,6 @@ up in any sample.
 00:09:55.426 --> 00:09:58.426 A:middle
 Everything in here
 is an add path.
-
-00:09:58.696 --> 00:10:01.356 A:middle
-This is unusual especially
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.696 --> 00:10:01.356 A:middle
 This is unusual especially
@@ -892,14 +823,6 @@ When that call is made
 to the drawRect it will do what
 most functions and methods do,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:57.206 --> 00:11:01.036 A:middle
-to the drawRect it will do what
-most functions and methods do,
-
 00:11:01.126 --> 00:11:02.856 A:middle
 to establish their
 own call frame.
@@ -976,14 +899,6 @@ inside of context draw path.
 00:11:54.366 --> 00:11:58.316 A:middle
 Then the kernal looks at the
 frame Pointer register to see
-
-00:11:58.316 --> 00:12:01.496 A:middle
-where the base of that
-function's frame is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.316 --> 00:12:01.496 A:middle
 where the base of that
@@ -1079,13 +994,6 @@ Doesn't need to do anything.
 00:12:59.006 --> 00:13:00.256 A:middle
 It is going to return.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.006 --> 00:13:00.256 A:middle
-It is going to return.
-
 00:13:00.256 --> 00:13:03.056 A:middle
 The way it returns, it is
 it pops the stack frame,
@@ -1167,14 +1075,6 @@ push its own frame back
 on to the stack using
 the value that it found
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.916 --> 00:14:00.776 A:middle
-on to the stack using
-the value that it found
-
 00:14:00.776 --> 00:14:02.836 A:middle
 in the link register
 and the frame Pointer.
@@ -1244,14 +1144,6 @@ a Tail Call Elimination inside
 00:14:53.436 --> 00:14:56.406 A:middle
 of a recursive function can
 make the performance as good
-
-00:14:56.406 --> 00:15:00.216 A:middle
-as its iterative version, so
-you don't get the stack growth
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:56.406 --> 00:15:00.216 A:middle
 as its iterative version, so
@@ -1334,13 +1226,6 @@ be a direct branch instruction.
 00:15:59.236 --> 00:16:00.776 A:middle
 Without the BL.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.236 --> 00:16:00.776 A:middle
-Without the BL.
-
 00:16:00.926 --> 00:16:04.656 A:middle
 That could be a call instruction
 for a branch and link
@@ -1414,43 +1299,35 @@ my heaviest stack trace
 and it is consuming
 55 to 60% of my time.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.456 --> 00:17:02.946 A:middle
-and it is consuming
-55 to 60% of my time.
-
 00:17:03.016 --> 00:17:03.656 A:middle
 This is great.
 
-00:17:03.656 --> 00:17:04.715 A:middle
+00:17:03.656 --> 00:17:04.716 A:middle
 I know where to optimize.
 
 00:17:04.886 --> 00:17:07.606 A:middle
 I optimize drawRect,
 I'm good to go.
 
-00:17:08.465 --> 00:17:09.695 A:middle
+00:17:08.466 --> 00:17:09.696 A:middle
 Let's look at this drawRect.
 
-00:17:11.215 --> 00:17:14.866 A:middle
+00:17:11.216 --> 00:17:14.866 A:middle
 Looking that the drawRect, if
 I had a table I would flip it.
 
-00:17:15.685 --> 00:17:17.955 A:middle
+00:17:15.686 --> 00:17:17.956 A:middle
 There is not much
 to optimize here.
 
-00:17:18.165 --> 00:17:20.276 A:middle
+00:17:18.166 --> 00:17:20.276 A:middle
 It is hard to think
 of a simpler drawRect
 
 00:17:20.736 --> 00:17:21.996 A:middle
 that actually is functional.
 
-00:17:22.175 --> 00:17:28.006 A:middle
+00:17:22.176 --> 00:17:28.006 A:middle
 We have 4 function calls,
 context, you know, CG calls,
 
@@ -1487,14 +1364,6 @@ tables, crying into your pillow
 00:17:55.466 --> 00:17:59.186 A:middle
 at night, what we did was we
 went through, started to look
-
-00:17:59.186 --> 00:18:01.916 A:middle
-at the core graphics
-documentation and other drawing,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.186 --> 00:18:01.916 A:middle
 at the core graphics
@@ -1575,13 +1444,6 @@ Two moments.
 
 00:18:57.556 --> 00:18:58.946 A:middle
 Three moments.
-
-00:18:59.176 --> 00:19:00.396 A:middle
-Here we go.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.176 --> 00:19:00.396 A:middle
 Here we go.
@@ -1681,13 +1543,6 @@ Hold down the option key.
 00:19:59.886 --> 00:20:02.206 A:middle
 Dispatch, CG calls.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.886 --> 00:20:02.206 A:middle
-Dispatch, CG calls.
-
 00:20:02.506 --> 00:20:03.366 A:middle
 This is good.
 
@@ -1769,14 +1624,6 @@ CPU or CPU relevant data
 and the final one is
 the thread strategy.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.816 --> 00:21:01.656 A:middle
-and the final one is
-the thread strategy.
-
 00:21:01.966 --> 00:21:04.546 A:middle
 It shows you details on
 what each thread is doing.
@@ -1840,14 +1687,6 @@ look at the thread strategy.
 00:21:54.186 --> 00:21:56.166 A:middle
 What this is showing
 us, each icon,
-
-00:21:56.166 --> 00:22:00.226 A:middle
-it represents a sample
-the time profiler took,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:56.166 --> 00:22:00.226 A:middle
 it represents a sample
@@ -1922,10 +1761,6 @@ I'll flip another table I guess.
 00:22:56.246 --> 00:22:59.776 A:middle
 It is not clear, the
 magic button didn't help.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.556 --> 00:23:01.696 A:middle
 What do we do now?
@@ -2016,14 +1851,6 @@ NSLog and we just have a thing,
 every time we add a path
 we increment our counter
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.386 --> 00:24:01.346 A:middle
-every time we add a path
-we increment our counter
-
 00:24:01.346 --> 00:24:05.666 A:middle
 and then we log it when
 we're done with the loop.
@@ -2095,14 +1922,6 @@ implementation that did that.
 00:24:54.296 --> 00:24:58.306 A:middle
 If multiple data
 elements, data points are
-
-00:24:58.306 --> 00:25:01.386 A:middle
-within a single screen
-point it just finds the max
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.306 --> 00:25:01.386 A:middle
 within a single screen
@@ -2183,14 +2002,6 @@ finger really well now.
 It is actually keeping up with
 it, doing a fantastic job.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.726 --> 00:26:02.696 A:middle
-It is actually keeping up with
-it, doing a fantastic job.
-
 00:26:04.046 --> 00:26:07.266 A:middle
 Hooray! All done!
 
@@ -2257,14 +2068,6 @@ expand this out.
 I can actually go down here
 and I can see this method here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.076 --> 00:27:02.206 A:middle
-I can actually go down here
-and I can see this method here.
-
 00:27:02.876 --> 00:27:06.566 A:middle
 You know, now that the drawing
 of the paths is fast enough,
@@ -2315,14 +2118,6 @@ here we can see it is actually
 
 00:27:59.136 --> 00:27:59.686 A:middle
 very clear.
-
-00:27:59.686 --> 00:28:03.396 A:middle
-Most of our time is spent
-on getting the next element.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.686 --> 00:28:03.396 A:middle
 Most of our time is spent
@@ -2385,14 +2180,6 @@ dispatch in Objective-C.
 00:28:54.086 --> 00:28:59.146 A:middle
 Objc msgSend is extremely fast
 and does not push a stack frame.
-
-00:28:59.786 --> 00:29:02.366 A:middle
-When you look at
-your time profiles,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.786 --> 00:29:02.366 A:middle
 When you look at
@@ -2468,14 +2255,6 @@ Objective-C saying I want
 00:29:57.676 --> 00:29:59.516 A:middle
 to call in this particular
 method body.
-
-00:29:59.856 --> 00:30:04.506 A:middle
-The only exception here, if you
-do what's called method caching,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.856 --> 00:30:04.506 A:middle
 The only exception here, if you
@@ -2561,14 +2340,6 @@ Well, you have alternatives.
 The first one, you
 could have used C
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.166 --> 00:31:01.466 A:middle
-The first one, you
-could have used C
-
 00:31:02.406 --> 00:31:04.436 A:middle
 and you could have
 used structures instead
@@ -2645,10 +2416,6 @@ to benefit from C++
 and which codes will
 benefit from Objective-C?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.496 --> 00:32:02.966 A:middle
 Sometimes, until
 you're doing profiling,
@@ -2709,14 +2476,6 @@ on the iterator case.
 00:32:53.606 --> 00:32:56.716 A:middle
 Because we're prototyping,
 rewriting the iterator
-
-00:32:56.716 --> 00:33:00.426 A:middle
-in the View Controller
-in Swift is easy.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:56.716 --> 00:33:00.426 A:middle
 in the View Controller
@@ -2792,36 +2551,28 @@ A lot of data to zoom out of.
 Now, if I go ahead, move back
 and forth, it moves really fast.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.686 --> 00:34:01.976 A:middle
-Now, if I go ahead, move back
-and forth, it moves really fast.
-
 00:34:02.031 --> 00:34:04.031 A:middle
 [Applause]
 
 00:34:04.046 --> 00:34:07.796 A:middle
 &gt;&gt; KRIS MARKEL: It is very nice.
 
-00:34:07.796 --> 00:34:10.045 A:middle
+00:34:07.796 --> 00:34:10.046 A:middle
 Thanks. Actually we can
 go ahead in here and look
 
-00:34:10.045 --> 00:34:11.396 A:middle
+00:34:10.046 --> 00:34:11.396 A:middle
 at what the CPU usage is.
 
 00:34:11.826 --> 00:34:15.156 A:middle
 You know, we've got,
 actually further improvement
 
-00:34:15.156 --> 00:34:19.295 A:middle
+00:34:15.156 --> 00:34:19.296 A:middle
 than what we expected, we're
 expecting 5, 6% improvement
 
-00:34:19.295 --> 00:34:23.786 A:middle
+00:34:19.296 --> 00:34:23.786 A:middle
 from removing the objc msgSend,
 this is lower and I can actually
 
@@ -2833,15 +2584,15 @@ triangle you see the two runs
 next to each other and you see
 the previous run in the lower --
 
-00:34:31.966 --> 00:34:37.025 A:middle
+00:34:31.966 --> 00:34:37.026 A:middle
 the current run, it
 is clearly much lower.
 
-00:34:37.656 --> 00:34:39.585 A:middle
+00:34:37.656 --> 00:34:39.586 A:middle
 Actually if I go
 ahead, I go in here,
 
-00:34:39.585 --> 00:34:44.255 A:middle
+00:34:39.586 --> 00:34:44.256 A:middle
 I look for my build path method
 I have to search for it now, oh,
 
@@ -2855,14 +2606,6 @@ bring up this dialogue here.
 00:34:50.406 --> 00:34:58.886 A:middle
 I can type in build path and
 it shows me my method here.
-
-00:34:59.966 --> 00:35:03.666 A:middle
-If we look at this, you
-see here is my Swift code.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.966 --> 00:35:03.666 A:middle
 If we look at this, you
@@ -2933,14 +2676,6 @@ waiting threads.
 
 00:35:57.756 --> 00:35:59.286 A:middle
 I mentioned that the service
-
-00:35:59.286 --> 00:36:00.926 A:middle
-and kernel we use
-samples the active CPUs
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.286 --> 00:36:00.926 A:middle
 and kernel we use
@@ -3029,14 +2764,6 @@ under there as well.
 One thing that I use from time
 to time is the charge to caller,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.076 --> 00:37:03.116 A:middle
-One thing that I use from time
-to time is the charge to caller,
-
 00:37:03.436 --> 00:37:04.996 A:middle
 so what you can do, you
 can charge a function
@@ -3112,14 +2839,6 @@ by the end we had a
 
 00:37:54.596 --> 00:37:56.076 A:middle
 well-performing application.
-
-00:37:56.626 --> 00:38:00.666 A:middle
-If you go in blind, depends,
-you may be lucky, hit it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:56.626 --> 00:38:00.666 A:middle
 If you go in blind, depends,
@@ -3206,14 +2925,6 @@ have any questions.
 We related sessions, Energy
 debugging issues, turns out that
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:55.756 --> 00:39:00.626 A:middle
-We related sessions, Energy
-debugging issues, turns out that
-
 00:39:00.956 --> 00:39:03.676 A:middle
 if you have efficient code on
 the CPU it uses less energy.
@@ -3243,4 +2954,3 @@ your conference.
 
 00:39:16.016 --> 00:39:18.000 A:middle
 [Applause]
-

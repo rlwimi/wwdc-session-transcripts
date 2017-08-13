@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.516 --> 00:00:29.376 A:middle
 [Cheering and applause]
@@ -42,13 +41,6 @@ chance to watch them,
 
 00:00:55.476 --> 00:00:56.256 A:middle
 you should go watch them.
-
-00:00:56.326 --> 00:01:00.076 A:middle
-So I have a lot to say today.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:56.326 --> 00:01:00.076 A:middle
 So I have a lot to say today.
@@ -129,14 +121,6 @@ about 16 milliseconds
 to get all your work done
 in response to a user event.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.876 --> 00:02:00.316 A:middle
-to get all your work done
-in response to a user event.
-
 00:02:00.316 --> 00:02:03.466 A:middle
 So if this is your app,
 
@@ -144,7 +128,7 @@ So if this is your app,
 let's say it is doing a great
 job rendering at 60 FPS.
 
-00:02:08.026 --> 00:02:10.675 A:middle
+00:02:08.026 --> 00:02:10.676 A:middle
 It can get all its work done
 in only 10 milliseconds.
 
@@ -203,14 +187,6 @@ of the 60 FIPS that we want.
 
 00:02:55.776 --> 00:02:57.276 A:middle
 The user will notice stuttering.
-
-00:02:58.566 --> 00:03:00.616 A:middle
-The same type of problem
-applies to the GPU.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.566 --> 00:03:00.616 A:middle
 The same type of problem
@@ -301,14 +277,6 @@ ripped out of his or her --
 we'll say her --
 current context,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.736 --> 00:04:00.386 A:middle
-we'll say her --
-current context,
-
 00:04:00.936 --> 00:04:03.196 A:middle
 and we are taken
 back to SpringBoard.
@@ -329,11 +297,11 @@ compete for CPU or GPU.
 So now you may be asking
 yourself, what is SpringBoard,
 
-00:04:18.156 --> 00:04:21.245 A:middle
+00:04:18.156 --> 00:04:21.246 A:middle
 and why are SpringBoard
 engineers here today to talk
 
-00:04:21.245 --> 00:04:22.376 A:middle
+00:04:21.246 --> 00:04:22.376 A:middle
 to you about multitasking?
 
 00:04:23.026 --> 00:04:25.336 A:middle
@@ -371,14 +339,6 @@ original multitasking app.
 00:04:53.616 --> 00:04:57.726 A:middle
 Prior to iOS 9 and
 also in iOS 9,
-
-00:04:57.806 --> 00:05:00.646 A:middle
-SpringBoard is always considered
-to be running in the foreground,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.806 --> 00:05:00.646 A:middle
 SpringBoard is always considered
@@ -459,14 +419,6 @@ Allocations instrument to find
 and fix retained cycles and
 unbounded memory growth.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.896 --> 00:06:01.646 A:middle
-and fix retained cycles and
-unbounded memory growth.
-
 00:06:02.736 --> 00:06:06.276 A:middle
 Last, you should use the Time
 Profiler instrument to find
@@ -539,14 +491,6 @@ working on called IconReel.
 00:06:55.676 --> 00:06:58.186 A:middle
 So here is our app
 right out of the box.
-
-00:06:58.936 --> 00:07:00.756 A:middle
-It starts with a
-handful of icons.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.936 --> 00:07:00.756 A:middle
 It starts with a
@@ -631,14 +575,6 @@ like this.
 Think of photos scrolling around
 in a photos or videos app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:55.716 --> 00:08:00.076 A:middle
-Think of photos scrolling around
-in a photos or videos app.
-
 00:08:00.206 --> 00:08:03.936 A:middle
 You may have an animation
 like this in your app.
@@ -709,14 +645,6 @@ it tries to free some up.
 00:08:54.486 --> 00:08:57.556 A:middle
 If there's none it can find,
 it has to terminate processes.
-
-00:08:58.406 --> 00:09:00.616 A:middle
-Sometimes this means
-terminating IconReel,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.406 --> 00:09:00.616 A:middle
 Sometimes this means
@@ -805,14 +733,6 @@ controllers.
 Last, you shouldn't
 let it grow unbounded.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.656 --> 00:10:02.196 A:middle
-Last, you shouldn't
-let it grow unbounded.
-
 00:10:02.646 --> 00:10:04.646 A:middle
 We saw what happens when the
 system runs out of memory.
@@ -886,14 +806,6 @@ what is going on.
 We took another time profiler
 trace, and we saw that CPU
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.576 --> 00:11:03.746 A:middle
-We took another time profiler
-trace, and we saw that CPU
-
 00:11:03.746 --> 00:11:06.296 A:middle
 and disk I/O are actually
 very high while scrolling,
@@ -962,14 +874,6 @@ main thread that is not directly
 00:11:54.676 --> 00:11:57.476 A:middle
 in response to a user event
 should be performed elsewhere.
-
-00:11:59.426 --> 00:12:01.956 A:middle
-What tools can we use to make
-sure that we keep responding
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.426 --> 00:12:01.956 A:middle
 What tools can we use to make
@@ -1054,14 +958,6 @@ multiple apps on screen.
 So how does this
 apply to IconReel?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:57.626 --> 00:13:00.706 A:middle
-So how does this
-apply to IconReel?
-
 00:13:01.666 --> 00:13:03.746 A:middle
 Well, we are going
 to load the icons
@@ -1133,14 +1029,6 @@ for you and your apps
 
 00:13:56.246 --> 00:13:58.196 A:middle
 if your design allows for it.
-
-00:13:58.256 --> 00:14:01.166 A:middle
-Let's say you can show
-placeholder images while you are
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.256 --> 00:14:01.166 A:middle
 Let's say you can show
@@ -1226,14 +1114,6 @@ Well, here is a handy chart.
 Again, the talk from last
 year and the talk coming
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.966 --> 00:15:01.166 A:middle
-Again, the talk from last
-year and the talk coming
-
 00:15:01.166 --> 00:15:03.316 A:middle
 up on Friday go into
 this in more depth.
@@ -1297,14 +1177,6 @@ and see what it looks like.
 00:15:54.726 --> 00:15:58.186 A:middle
 Oh, yeah, looks great,
 with a nice slow swipe.
-
-00:15:59.476 --> 00:16:07.446 A:middle
-So let's try a slow swipe
-followed by a fast swipe.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.476 --> 00:16:07.446 A:middle
 So let's try a slow swipe
@@ -1383,14 +1255,6 @@ We have to be smarter.
 Math calculations told us
 we would have much better
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.616 --> 00:17:02.096 A:middle
-Math calculations told us
-we would have much better
-
 00:17:02.096 --> 00:17:03.866 A:middle
 performance if we
 had the next page
@@ -1399,15 +1263,15 @@ had the next page
 of icons already
 loaded in memory.
 
-00:17:06.945 --> 00:17:10.776 A:middle
+00:17:06.946 --> 00:17:10.776 A:middle
 This ensures that even when
 you are scrolling quickly
 
-00:17:10.776 --> 00:17:12.935 A:middle
+00:17:10.776 --> 00:17:12.936 A:middle
 through multiple pages,
 we have enough time
 
-00:17:12.935 --> 00:17:15.766 A:middle
+00:17:12.936 --> 00:17:15.766 A:middle
 to load the next page of icons
 before the user can swipe again.
 
@@ -1415,11 +1279,11 @@ before the user can swipe again.
 So let's increase our
 working set size from one page
 
-00:17:20.766 --> 00:17:23.685 A:middle
+00:17:20.766 --> 00:17:23.686 A:middle
 to three pages: the page
 you're currently viewing
 
-00:17:23.685 --> 00:17:24.796 A:middle
+00:17:23.686 --> 00:17:24.796 A:middle
 and the page on either side.
 
 00:17:25.796 --> 00:17:27.366 A:middle
@@ -1461,14 +1325,6 @@ that contained only one page,
 
 00:17:57.056 --> 00:17:58.326 A:middle
 we had this memory footprint.
-
-00:17:58.786 --> 00:18:00.716 A:middle
-Now we have this
-memory footprint.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.786 --> 00:18:00.716 A:middle
 Now we have this
@@ -1550,14 +1406,6 @@ memory, then they could stay
 in memory for us so that
 we could use them again
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.886 --> 00:19:01.576 A:middle
-in memory for us so that
-we could use them again
-
 00:19:01.576 --> 00:19:02.166 A:middle
 when we need them.
 
@@ -1630,14 +1478,6 @@ of these are new in iOS 9.
 00:19:54.546 --> 00:19:56.236 A:middle
 They have been around
 for a while.
-
-00:19:56.556 --> 00:20:00.326 A:middle
-Hopefully y'all are
-already using all of them.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:56.556 --> 00:20:00.326 A:middle
 Hopefully y'all are
@@ -1729,14 +1569,6 @@ a memory warning,
 we can let NSCache do all the
 work of evicting all those icons
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.726 --> 00:21:03.216 A:middle
-we can let NSCache do all the
-work of evicting all those icons
-
 00:21:03.216 --> 00:21:06.446 A:middle
 that are not in our working set.
 
@@ -1812,14 +1644,6 @@ is good enough.
 00:21:55.746 --> 00:21:58.416 A:middle
 If your app can run in a
 multitasking environment
-
-00:21:58.566 --> 00:22:03.076 A:middle
-with Maps running Flyover, then
-you are probably in great shape.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.566 --> 00:22:03.076 A:middle
 with Maps running Flyover, then
@@ -1906,14 +1730,6 @@ memory warning and the apps,
 being good multitasking
 citizens, will take care
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.656 --> 00:23:02.006 A:middle
-being good multitasking
-citizens, will take care
-
 00:23:02.006 --> 00:23:04.106 A:middle
 of trimming their caches and
 other objects they don't need.
@@ -1989,14 +1805,6 @@ to think I'm paranoid, but part
 00:23:56.296 --> 00:23:58.786 A:middle
 of being a good multitasking
 citizen is adapting
-
-00:23:58.926 --> 00:24:00.626 A:middle
-to everything that is
-happening around you.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.926 --> 00:24:00.626 A:middle
 to everything that is
@@ -2097,14 +1905,6 @@ how memory is classified.
 I'm going to break it down
 into three different groups,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.656 --> 00:25:01.606 A:middle
-I'm going to break it down
-into three different groups,
-
 00:25:01.606 --> 00:25:03.526 A:middle
 the first of which
 we call dirty.
@@ -2193,14 +1993,6 @@ apps to intervene.
 The goals for your app and for
 adapting the memory usage here
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.246 --> 00:26:05.306 A:middle
-The goals for your app and for
-adapting the memory usage here
-
 00:26:05.306 --> 00:26:07.026 A:middle
 are minimize your dirty memory
 
@@ -2269,14 +2061,6 @@ to reclassify our data a bit.
 00:26:57.536 --> 00:26:59.316 A:middle
 Rather than working
 on a per-icon chunk,
-
-00:26:59.316 --> 00:27:02.296 A:middle
-I'm going to group the
-icons into sets of columns,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.316 --> 00:27:02.296 A:middle
 I'm going to group the
@@ -2363,10 +2147,6 @@ retain some control
 
 00:27:58.456 --> 00:27:59.996 A:middle
 over icons we might need soon.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.696 --> 00:28:02.146 A:middle
 So even though they're
@@ -2456,14 +2236,6 @@ memory warnings and clear
 00:28:51.686 --> 00:28:57.796 A:middle
 up the caches, thus returning
 the system to a good state.
-
-00:28:57.796 --> 00:29:00.226 A:middle
-How can you use purgeable
-data in your apps?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.796 --> 00:29:00.226 A:middle
 How can you use purgeable
@@ -2571,14 +2343,6 @@ that's very expensive.
 Disk I/O and CPU
 spike, that's not great.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.236 --> 00:30:02.156 A:middle
-Disk I/O and CPU
-spike, that's not great.
-
 00:30:02.646 --> 00:30:06.786 A:middle
 Let's, though, analyze the
 data we use in our app to see
@@ -2658,14 +2422,6 @@ it doesn't change frequently.
 
 00:30:55.476 --> 00:30:56.786 A:middle
 All of these points combine
-
-00:30:57.726 --> 00:31:01.676 A:middle
-to make this data a perfect
-candidate for caching to a file.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.726 --> 00:31:01.676 A:middle
 to make this data a perfect
@@ -2752,14 +2508,6 @@ What a coincidence.
 00:31:56.626 --> 00:31:58.346 A:middle
 Data in such a file
 can be memory mapped.
-
-00:31:58.426 --> 00:32:00.896 A:middle
-The system will allocate
-a chunk of memory for you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.426 --> 00:32:00.896 A:middle
 The system will allocate
@@ -2852,14 +2600,6 @@ And you write it out to disk.
 The system now considers
 this, that memory map.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.806 --> 00:33:00.846 A:middle
-The system now considers
-this, that memory map.
-
 00:33:00.846 --> 00:33:05.816 A:middle
 If you go to access a chunk
 of it, all it does is load
@@ -2944,14 +2684,6 @@ are, what they are.
 Virtual memory system does
 all the heavy lifting for us.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.416 --> 00:34:02.966 A:middle
-Virtual memory system does
-all the heavy lifting for us.
-
 00:34:04.776 --> 00:34:06.856 A:middle
 How does this change our
 system resource bars?
@@ -2982,22 +2714,22 @@ count against us.
 It is also worth noting that we
 effectively eliminated the CPU
 
-00:34:25.686 --> 00:34:28.775 A:middle
+00:34:25.686 --> 00:34:28.776 A:middle
 requirements on both
 the front and back end
 
-00:34:28.775 --> 00:34:29.846 A:middle
+00:34:28.776 --> 00:34:29.846 A:middle
 of our data's life cycle.
 
-00:34:30.186 --> 00:34:32.835 A:middle
+00:34:30.186 --> 00:34:32.836 A:middle
 We no longer need CPU
 to generate data to show
 
-00:34:32.835 --> 00:34:35.326 A:middle
+00:34:32.836 --> 00:34:35.326 A:middle
 to the user, nor do we
 need CPU to clean it
 
-00:34:35.326 --> 00:34:36.755 A:middle
+00:34:35.326 --> 00:34:36.756 A:middle
 up in response to
 memory warnings.
 
@@ -3005,7 +2737,7 @@ memory warnings.
 The system is doing
 all of that for us.
 
-00:34:40.186 --> 00:34:41.565 A:middle
+00:34:40.186 --> 00:34:41.566 A:middle
 How can you use memory map data?
 
 00:34:42.106 --> 00:34:44.476 A:middle
@@ -3016,28 +2748,20 @@ simple API on NSData.
 There are some options
 you can use
 
-00:34:46.775 --> 00:34:48.376 A:middle
+00:34:46.776 --> 00:34:48.376 A:middle
 to initialize the data object.
 
-00:34:48.775 --> 00:34:51.616 A:middle
+00:34:48.776 --> 00:34:51.616 A:middle
 If you specified the mapped
 option in your initializer,
 
-00:34:52.096 --> 00:34:54.545 A:middle
+00:34:52.096 --> 00:34:54.546 A:middle
 you will get a memory
 map data file.
 
-00:34:54.545 --> 00:34:59.326 A:middle
+00:34:54.546 --> 00:34:59.326 A:middle
 I would be remiss, however,
 if I did not mention
-
-00:34:59.326 --> 00:35:01.236 A:middle
-that there were caveats
-with using this system.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.326 --> 00:35:01.236 A:middle
 that there were caveats
@@ -3130,14 +2854,6 @@ virtual memory system results
 in your process being
 terminated,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.796 --> 00:36:00.206 A:middle
-in your process being
-terminated,
-
 00:36:00.246 --> 00:36:02.256 A:middle
 which is what we are here to
 avoid in the first place, right?
@@ -3215,13 +2931,6 @@ data structures, algorithms,
 
 00:36:57.856 --> 00:36:58.976 A:middle
 abandoned memory, too.
-
-00:36:59.336 --> 00:37:01.156 A:middle
-Get that stuff fixed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.336 --> 00:37:01.156 A:middle
 Get that stuff fixed.
@@ -3320,13 +3029,6 @@ you have requirements.
 00:37:59.576 --> 00:38:00.826 A:middle
 The system has limitations.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.576 --> 00:38:00.826 A:middle
-The system has limitations.
-
 00:38:01.996 --> 00:38:05.516 A:middle
 Identify ways your app can
 adapt to the environment
@@ -3416,14 +3118,6 @@ I encourage you to watch them.
 There are also Performance
 and GCD talks coming up.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:57.696 --> 00:39:00.486 A:middle
-There are also Performance
-and GCD talks coming up.
-
 00:39:01.336 --> 00:39:02.626 A:middle
 Thank you, everybody,
 for coming out!
@@ -3433,4 +3127,3 @@ I can't wait to see your apps!
 
 00:39:05.508 --> 00:39:07.508 A:middle
 [Applause]
-

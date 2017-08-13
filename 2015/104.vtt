@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:26.536 --> 00:00:27.056 A:middle
 &gt;&gt; Ken Orr: Good morning.
@@ -33,14 +32,6 @@ Watch OS, and of course,
 00:00:57.336 --> 00:00:59.386 A:middle
 you can build Apple
 Watch apps right
-
-00:00:59.386 --> 00:01:02.656 A:middle
-in the same great Xcode
-tools that you already know.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.386 --> 00:01:02.656 A:middle
 in the same great Xcode
@@ -105,14 +96,6 @@ Testability.
 00:01:53.636 --> 00:01:57.306 A:middle
 Test bundles can now
 see internal API,
-
-00:01:57.836 --> 00:02:01.276 A:middle
-letting you get broader
-test coverage without having
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:57.836 --> 00:02:01.276 A:middle
 letting you get broader
@@ -184,14 +167,6 @@ features in our own SDKs.
 So you will start seeing
 the benefits today.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:58.636 --> 00:03:04.706 A:middle
-So you will start seeing
-the benefits today.
-
 00:03:04.896 --> 00:03:08.606 A:middle
 Now, if you want to get started
 with Swift 2 or maybe some
@@ -253,14 +228,6 @@ or lists or even images.
 00:03:54.556 --> 00:03:59.456 A:middle
 We have also made it possible
 to pull results which were shown
-
-00:03:59.456 --> 00:04:02.166 A:middle
-in quick-look popovers,
-you can pull them right
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.456 --> 00:04:02.166 A:middle
 in quick-look popovers,
@@ -335,14 +302,6 @@ that progresses through a topic.
 For example, if you wanted
 to author a playground
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.386 --> 00:05:00.886 A:middle
-For example, if you wanted
-to author a playground
-
 00:05:00.886 --> 00:05:05.416 A:middle
 about sorting, you could add
 an introductory page that went
@@ -406,13 +365,6 @@ you more control
 00:05:59.566 --> 00:06:01.006 A:middle
 and flexibility as a developer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.566 --> 00:06:01.006 A:middle
-and flexibility as a developer.
-
 00:06:02.186 --> 00:06:03.896 A:middle
 If you haven't already,
 I encourage you to check
@@ -472,14 +424,6 @@ introducing a new crosscutting
 
 00:06:53.416 --> 00:06:55.266 A:middle
 feature called App Thinning.
-
-00:06:56.546 --> 00:07:01.256 A:middle
-The App Store can tailor
-your app to deliver the best,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:56.546 --> 00:07:01.256 A:middle
 The App Store can tailor
@@ -550,14 +494,6 @@ to do anything.
 Xcode will do all
 the hard work here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.676 --> 00:08:02.436 A:middle
-Xcode will do all
-the hard work here.
-
 00:08:02.646 --> 00:08:04.476 A:middle
 The second, there is Slicing.
 
@@ -585,11 +521,11 @@ iPhone6 will only get the 2x
 artwork and the iPhone6+
 will only get the 3x artwork.
 
-00:08:29.916 --> 00:08:32.785 A:middle
+00:08:29.916 --> 00:08:32.786 A:middle
 To take advantage of
 Slicing, all you need
 
-00:08:32.785 --> 00:08:38.546 A:middle
+00:08:32.786 --> 00:08:38.546 A:middle
 to do is use Asset
 Catalogs in Xcode.
 
@@ -597,7 +533,7 @@ Catalogs in Xcode.
 Third, on-demand resources,
 which let you control
 
-00:08:43.265 --> 00:08:45.046 A:middle
+00:08:43.266 --> 00:08:45.046 A:middle
 when assets are downloaded.
 
 00:08:45.796 --> 00:08:48.386 A:middle
@@ -613,14 +549,6 @@ It gives you a ton of control.
 
 00:08:55.506 --> 00:08:56.146 A:middle
 Really nice.
-
-00:08:57.426 --> 00:09:01.776 A:middle
-Here to give us a demo of Watch
-OS 2 and App Thinning is Jon.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.426 --> 00:09:01.776 A:middle
 Here to give us a demo of Watch
@@ -693,14 +621,6 @@ OS 2 applications are composed
 00:09:56.316 --> 00:09:58.296 A:middle
 of an app extension
 and application.
-
-00:09:59.076 --> 00:10:00.696 A:middle
-Your code goes in
-the app extension
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.076 --> 00:10:00.696 A:middle
 Your code goes in
@@ -797,10 +717,6 @@ to remove any content.
 This is where the new App
 Slicing feature comes in play.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.556 --> 00:11:02.566 A:middle
 You see every one ever
 these images has a 1,
@@ -884,14 +800,6 @@ to the most high-end devices.
 
 00:11:57.596 --> 00:11:58.256 A:middle
 No problem.
-
-00:11:58.696 --> 00:12:01.846 A:middle
-Just like images can vary by
-scale factor and size class,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.696 --> 00:12:01.846 A:middle
 Just like images can vary by
@@ -982,13 +890,6 @@ fast, local access.
 00:12:58.006 --> 00:12:59.426 A:middle
 Let me show you how
 to get started
-
-00:12:59.426 --> 00:13:00.606 A:middle
-with on-demand resources.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.426 --> 00:13:00.606 A:middle
 with on-demand resources.
@@ -1084,14 +985,6 @@ Application Target and going
 to the New Resource tag section
 I can see all of my tags.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.746 --> 00:14:01.786 A:middle
-to the New Resource tag section
-I can see all of my tags.
-
 00:14:02.386 --> 00:14:04.776 A:middle
 As you see, I tagged a
 lot of content earlier.
@@ -1177,14 +1070,6 @@ resource request.
 NS Bundle resource requests
 are substantiated from tags,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.536 --> 00:15:02.536 A:middle
-NS Bundle resource requests
-are substantiated from tags,
-
 00:15:02.536 --> 00:15:04.946 A:middle
 and remember, tags are
 just simple strings.
@@ -1260,14 +1145,6 @@ changes to the rest
 00:15:53.206 --> 00:15:55.266 A:middle
 of the resource lookout code
 throughout my application.
-
-00:15:57.056 --> 00:16:00.366 A:middle
-Now, I set all that content as
-available until I say I'm done
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.056 --> 00:16:00.366 A:middle
 Now, I set all that content as
@@ -1368,14 +1245,6 @@ Xcode, not on the simulator yet.
 But, when I click
 one of these genres,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.396 --> 00:17:01.216 A:middle
-But, when I click
-one of these genres,
-
 00:17:02.636 --> 00:17:04.796 A:middle
 the code that we just wrote
 runs in the background,
@@ -1391,7 +1260,7 @@ If I switch to a second genre,
 you can see the first
 content is moved to the cache,
 
-00:17:13.175 --> 00:17:16.026 A:middle
+00:17:13.176 --> 00:17:16.026 A:middle
 just marked downloaded, and
 now engineering questions are
 
@@ -1406,11 +1275,11 @@ on-demand resources.
 With Application Slicing,
 we're able to lower the size
 
-00:17:22.756 --> 00:17:26.205 A:middle
+00:17:22.756 --> 00:17:26.206 A:middle
 of our iPhone 6 application
 from more than 140 megabytes
 
-00:17:26.445 --> 00:17:27.826 A:middle
+00:17:26.446 --> 00:17:27.826 A:middle
 to less than 100 megabytes.
 
 00:17:28.516 --> 00:17:30.086 A:middle
@@ -1448,14 +1317,6 @@ squarely
 00:17:54.046 --> 00:17:57.266 A:middle
 at helping you enhance
 the quality of your app.
-
-00:17:58.446 --> 00:18:00.466 A:middle
-Let's start by talking about
-debugging and profiling.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.446 --> 00:18:00.466 A:middle
 Let's start by talking about
@@ -1531,14 +1392,6 @@ like are we asking
 for the user's location
 too often, are we asking
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.456 --> 00:19:03.276 A:middle
-for the user's location
-too often, are we asking
-
 00:19:03.276 --> 00:19:05.926 A:middle
 for the user's location
 with too high a precision?
@@ -1596,14 +1449,6 @@ data is really, really easy.
 00:19:52.156 --> 00:19:55.726 A:middle
 That's a quick peak at
 the new Instruments.
-
-00:19:57.806 --> 00:20:03.186 A:middle
-I'm willing to bet that every
-developer in this room has been
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.806 --> 00:20:03.186 A:middle
 I'm willing to bet that every
@@ -1667,14 +1512,6 @@ crashes
 
 00:20:56.806 --> 00:20:57.866 A:middle
 when they're setting up a game.
-
-00:20:58.996 --> 00:21:01.216 A:middle
-It is unpredictable
-enough that it is the kind
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.996 --> 00:21:01.216 A:middle
 It is unpredictable
@@ -1763,14 +1600,6 @@ All you need to do is go
 to the Scheme editor
 for running your app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.916 --> 00:22:01.596 A:middle
-to the Scheme editor
-for running your app.
-
 00:22:02.136 --> 00:22:04.996 A:middle
 As that handy shortcut, I'll
 hold down Option while I click
@@ -1843,14 +1672,6 @@ is some Objective-C code
 
 00:22:56.406 --> 00:22:57.116 A:middle
 that I'm calling.
-
-00:22:57.866 --> 00:23:01.296 A:middle
-Not everybody has the luxury
-of writing everything in Swift.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.866 --> 00:23:01.296 A:middle
 Not everybody has the luxury
@@ -1935,14 +1756,6 @@ no longer valid memory,
 no longer memory I
 should be accessing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.836 --> 00:24:00.706 A:middle
-no longer memory I
-should be accessing.
-
 00:24:01.476 --> 00:24:02.796 A:middle
 It also gives me the call Stack,
 
@@ -2020,14 +1833,6 @@ In this case it is telling me
 about a heap buffer
 overflow similarly telling me
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.586 --> 00:25:00.646 A:middle
-about a heap buffer
-overflow similarly telling me
-
 00:25:00.646 --> 00:25:04.536 A:middle
 about under flows and Stack
 memory that I'm overflowing
@@ -2097,10 +1902,6 @@ will get.
 
 00:25:58.526 --> 00:25:59.416 A:middle
 Good morning, everyone.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.056 --> 00:26:02.956 A:middle
 As Apple developer program
@@ -2185,14 +1986,6 @@ panel, so all I have to do
 to view crashes is open
 the Organizer window.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.646 --> 00:27:02.306 A:middle
-to view crashes is open
-the Organizer window.
-
 00:27:02.886 --> 00:27:07.576 A:middle
 On the left side of the window,
 Xcode will download information
@@ -2267,14 +2060,6 @@ my app crashed inside
 00:27:55.536 --> 00:27:58.106 A:middle
 of this usage log
 and log in method.
-
-00:27:58.366 --> 00:28:01.276 A:middle
-That looks similar to the
-crash that Kate just found
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.366 --> 00:28:01.276 A:middle
 That looks similar to the
@@ -2370,14 +2155,6 @@ in the organizer right
 into the Debug navigator where
 I can click through Stack Frames
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:57.196 --> 00:29:00.356 A:middle
-into the Debug navigator where
-I can click through Stack Frames
-
 00:29:00.816 --> 00:29:02.696 A:middle
 and navigate through
 my crash log
@@ -2460,10 +2237,6 @@ Now back to Ken.
 00:29:53.516 --> 00:29:59.976 A:middle
 [applause]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.476 --> 00:30:02.056 A:middle
 &gt;&gt; Ken Orr: Thank you, Itai.
 
@@ -2525,14 +2298,6 @@ User Interface testing.
 00:30:53.766 --> 00:30:57.266 A:middle
 The UI testing lets you
 test the part of the app
-
-00:30:57.386 --> 00:31:00.226 A:middle
-that users actually
-see and touch.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.386 --> 00:31:00.226 A:middle
 that users actually
@@ -2610,14 +2375,6 @@ that lets it track exactly
 which lines of code
 are being executed.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.026 --> 00:32:00.096 A:middle
-which lines of code
-are being executed.
-
 00:32:00.706 --> 00:32:02.706 A:middle
 After you run a suite of tests,
 
@@ -2683,14 +2440,6 @@ using your bare hands.
 Now we can write this for you
 recording the application.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:56.126 --> 00:33:01.916 A:middle
-Now we can write this for you
-recording the application.
-
 00:33:02.426 --> 00:33:08.156 A:middle
 Let's take a look.
 
@@ -2749,13 +2498,6 @@ There she is.
 00:33:58.296 --> 00:34:00.056 A:middle
 I'll tap done.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.296 --> 00:34:00.056 A:middle
-I'll tap done.
-
 00:34:00.866 --> 00:34:05.916 A:middle
 Tap next. Finally tap the switch
 to mark the game as ready.
@@ -2776,7 +2518,7 @@ code contains a query
 to find a button label
 start a new game,
 
-00:34:20.585 --> 00:34:23.716 A:middle
+00:34:20.586 --> 00:34:23.716 A:middle
 and it returns what we call an
 element, an element is a proxy
 
@@ -2784,11 +2526,11 @@ element, an element is a proxy
 of the actual button
 in the application.
 
-00:34:27.085 --> 00:34:29.936 A:middle
+00:34:27.086 --> 00:34:29.936 A:middle
 Using this element I can now
 access properties of the button
 
-00:34:29.985 --> 00:34:33.266 A:middle
+00:34:29.986 --> 00:34:33.266 A:middle
 and also send events,
 in this case, a tap.
 
@@ -2796,7 +2538,7 @@ in this case, a tap.
 These next couple of lines
 contains the source code
 
-00:34:38.176 --> 00:34:44.065 A:middle
+00:34:38.176 --> 00:34:44.066 A:middle
 for selecting the sci-fi genre
 and for tapping the Next button.
 
@@ -2804,7 +2546,7 @@ and for tapping the Next button.
 We designed the UI Testing
 APIs to be easy to read here,
 
-00:34:47.255 --> 00:34:49.666 A:middle
+00:34:47.256 --> 00:34:49.666 A:middle
 as you see here,
 to be easy to write
 
@@ -2819,10 +2561,6 @@ a test it would have
 00:34:57.146 --> 00:34:59.506 A:middle
 to actually test something,
 and it already does.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.776 --> 00:35:02.636 A:middle
 If I were to run
@@ -2894,10 +2632,6 @@ place, I will be allowed
 to run the test to make sure
 it performs as expected.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:05.166 --> 00:36:05.546 A:middle
 No hands.
 
@@ -2951,14 +2685,6 @@ by what you've seen,
 and you can see even
 more throughout this week
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.116 --> 00:37:00.166 A:middle
-and you can see even
-more throughout this week
-
 00:37:00.166 --> 00:37:01.626 A:middle
 at the many great
 sessions which will go
@@ -2980,4 +2706,3 @@ Thank you very much.
 
 00:37:10.508 --> 00:37:12.508 A:middle
 [applause]
-

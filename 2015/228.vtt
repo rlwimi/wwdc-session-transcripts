@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.516 --> 00:00:28.066 A:middle
 [Applause]
@@ -40,14 +39,6 @@ applicable to watchOS 2,
 00:00:52.666 --> 00:00:55.156 A:middle
 and I will point those
 out as we move along.
-
-00:00:55.156 --> 00:01:00.786 A:middle
-Now, leading up to the
-release of Apple Watch,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:55.156 --> 00:01:00.786 A:middle
 Now, leading up to the
@@ -117,13 +108,6 @@ down, they get their stuff,
 00:01:55.516 --> 00:01:59.096 A:middle
 they are hurrying to the
 bus, and then they get
-
-00:01:59.096 --> 00:02:00.276 A:middle
-on the bus and get settled.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.096 --> 00:02:00.276 A:middle
 on the bus and get settled.
@@ -207,14 +191,6 @@ you are going to need
 to do is get your network
 request set up, and for this,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:56.996 --> 00:03:01.506 A:middle
-to do is get your network
-request set up, and for this,
-
 00:03:01.606 --> 00:03:04.346 A:middle
 we are going to use a
 default NSURLSession.
@@ -286,14 +262,6 @@ And then this block is executed.
 Now, this block is going
 to be called immediately
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.586 --> 00:04:02.226 A:middle
-Now, this block is going
-to be called immediately
-
 00:04:02.426 --> 00:04:05.156 A:middle
 when 'perform expiring
 activity with reason' is called.
@@ -317,11 +285,11 @@ on an asynchronous queue.
 So your main queue is still
 freed up, the user can interact
 
-00:04:19.636 --> 00:04:21.505 A:middle
+00:04:19.636 --> 00:04:21.506 A:middle
 with the interface,
 there's no problem there.
 
-00:04:21.815 --> 00:04:25.046 A:middle
+00:04:21.816 --> 00:04:25.046 A:middle
 The user doesn't recognize that
 anything different is going on.
 
@@ -361,13 +329,6 @@ execute this block again
 00:04:55.516 --> 00:04:59.846 A:middle
 with expired set to true because
 maybe the system has decided we
-
-00:04:59.846 --> 00:05:01.466 A:middle
-are completely out of time now.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.846 --> 00:05:01.466 A:middle
 are completely out of time now.
@@ -437,14 +398,6 @@ Grand Central Dispatch, or GCD,
 and this essentially allows us
 a way to pause execution over on
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:54.966 --> 00:06:01.146 A:middle
-and this essentially allows us
-a way to pause execution over on
-
 00:06:01.146 --> 00:06:03.646 A:middle
 that asynchronous queue.
 
@@ -500,14 +453,6 @@ look at the code in practice.
 00:06:51.536 --> 00:06:57.586 A:middle
 Okay. So here I have a WatchKit
 extension built for watchOS 1.
-
-00:06:58.506 --> 00:07:01.976 A:middle
-And I am here in a subclass
-WK interface controller.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.506 --> 00:07:01.976 A:middle
 And I am here in a subclass
@@ -588,14 +533,6 @@ to create a URL,
 and now this is just
 pointed to my web service.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.216 --> 00:08:01.776 A:middle
-and now this is just
-pointed to my web service.
-
 00:08:01.776 --> 00:08:04.996 A:middle
 Here it's pointed to the
 metadata on the App Store.
@@ -637,14 +574,14 @@ string, and if expired is set
 00:08:34.206 --> 00:08:35.416 A:middle
 to false, then that means
 
-00:08:35.466 --> 00:08:37.405 A:middle
+00:08:35.466 --> 00:08:37.406 A:middle
 that we've gotten
 some background time,
 
 00:08:37.826 --> 00:08:40.176 A:middle
 and I am passing in my timeout,
 
-00:08:40.385 --> 00:08:42.366 A:middle
+00:08:40.386 --> 00:08:42.366 A:middle
 and I am calling
 'dispatch semaphore wait.'
 
@@ -669,13 +606,6 @@ have enough time
 00:08:55.666 --> 00:08:58.956 A:middle
 to finish our network request
 if the WatchKit extension were
-
-00:08:58.956 --> 00:09:00.146 A:middle
-to go into the background.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.956 --> 00:09:00.146 A:middle
 to go into the background.
@@ -747,14 +677,6 @@ back to will activate.
 00:09:56.676 --> 00:09:58.656 A:middle
 So we've asked for
 our task assertion.
-
-00:09:58.656 --> 00:10:01.996 A:middle
-And the next thing we are going
-to do is we are going to create
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.656 --> 00:10:01.996 A:middle
 And the next thing we are going
@@ -841,14 +763,6 @@ extension can fully suspend.
 This ensures that the
 system doesn't think
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:57.966 --> 00:11:00.646 A:middle
-This ensures that the
-system doesn't think
-
 00:11:00.726 --> 00:11:02.856 A:middle
 that our process has hung.
 
@@ -911,10 +825,6 @@ open parent application is used
 00:11:56.336 --> 00:11:59.406 A:middle
 to have the containing
 iPhone app actually do all
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.006 --> 00:12:00.966 A:middle
 the networking.
@@ -979,10 +889,6 @@ then send back a reply.
 00:12:56.346 --> 00:12:58.926 A:middle
 There are some things to think
 about when you are using this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.136 --> 00:13:03.806 A:middle
 First, if you are doing
@@ -1065,14 +971,6 @@ is quickest.
 Now, for true device-to-device
 communication, we've got a lot.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.336 --> 00:14:03.116 A:middle
-Now, for true device-to-device
-communication, we've got a lot.
-
 00:14:04.316 --> 00:14:07.296 A:middle
 Now, 'open parent application'
 is marked as unavailable
@@ -1146,10 +1044,6 @@ isn't launched
 because it doesn't actually need
 to process anything right now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.396 --> 00:15:02.676 A:middle
 So in this case, it's
 just waiting there
@@ -1220,10 +1114,6 @@ using this for small state data,
 00:15:57.386 --> 00:15:59.886 A:middle
 like a Boolean configuration
 or something like that,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.236 --> 00:16:01.556 A:middle
 not for your model data.
@@ -1299,19 +1189,11 @@ realized at the end of the day
 that all we needed was a
 simplified version of this data.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.236 --> 00:17:02.556 A:middle
-that all we needed was a
-simplified version of this data.
-
 00:17:03.576 --> 00:17:06.286 A:middle
 We just needed a simple
 list of the sessions,
 
-00:17:06.396 --> 00:17:09.455 A:middle
+00:17:06.396 --> 00:17:09.456 A:middle
 which are the sessions
 and labs, and favorites.
 
@@ -1319,7 +1201,7 @@ and labs, and favorites.
 So what we did was we created a
 process where any time the data
 
-00:17:15.086 --> 00:17:16.925 A:middle
+00:17:15.086 --> 00:17:16.926 A:middle
 in the containing
 iPhone app changes,
 
@@ -1330,14 +1212,14 @@ set of JSON files
 00:17:20.896 --> 00:17:22.736 A:middle
 into the shared group container
 
-00:17:23.026 --> 00:17:25.455 A:middle
+00:17:23.026 --> 00:17:25.456 A:middle
 that the WatchKit
 extension can then just read
 
-00:17:25.455 --> 00:17:26.556 A:middle
+00:17:25.456 --> 00:17:26.556 A:middle
 and display to you.
 
-00:17:27.695 --> 00:17:31.226 A:middle
+00:17:27.696 --> 00:17:31.226 A:middle
 This worked really well.
 
 00:17:31.416 --> 00:17:32.646 A:middle
@@ -1369,14 +1251,6 @@ lock screen of the iPhone
 00:17:56.116 --> 00:17:58.776 A:middle
 at specific areas,
 you are going to see
-
-00:17:58.776 --> 00:18:02.456 A:middle
-in the bottom left-hand corner
-the icon for the WWDC app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.776 --> 00:18:02.456 A:middle
 in the bottom left-hand corner
@@ -1451,10 +1325,6 @@ invalidate the user activity
 
 00:18:58.626 --> 00:18:59.836 A:middle
 after some moments.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.646 --> 00:19:02.876 A:middle
 And so you don't
@@ -1532,10 +1402,6 @@ using the WatchConnectivity
 00:19:58.996 --> 00:19:59.916 A:middle
 framework over there.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:01.136 --> 00:20:03.136 A:middle
 Now let's talk about
 interface elements.
@@ -1598,14 +1464,6 @@ includes additional images,
 00:20:54.386 --> 00:20:58.506 A:middle
 table rows, data, and we don't
 necessarily want the user
-
-00:20:58.506 --> 00:21:01.726 A:middle
-to be waiting while we
-load all of this as well.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.506 --> 00:21:01.726 A:middle
 to be waiting while we
@@ -1681,10 +1539,6 @@ up front to display to the user.
 00:21:57.046 --> 00:21:59.536 A:middle
 You're probably going to
 be able to load in the rest
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.006 --> 00:22:01.416 A:middle
 after those have been loaded.
@@ -1768,14 +1622,6 @@ a little bit in some scenarios
 by breaking these out
 into separate controllers.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.556 --> 00:23:02.046 A:middle
-by breaking these out
-into separate controllers.
-
 00:23:02.756 --> 00:23:05.506 A:middle
 If you have the ability to
 load whichever controller you
@@ -1844,14 +1690,6 @@ going to be crucial for video.
 You can also optimize
 your images
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:57.466 --> 00:24:01.916 A:middle
-You can also optimize
-your images
-
 00:24:02.306 --> 00:24:05.846 A:middle
 by using 'set image data'
 instead of just 'set image.'
@@ -1913,14 +1751,6 @@ devices that this asset is for,
 00:24:51.306 --> 00:24:56.146 A:middle
 and you can set and easily see,
 'okay, I've got a 2x asset here,
-
-00:24:56.536 --> 00:25:00.466 A:middle
-a version for 38 millimeter, and
-a version for 42 millimeter.'
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:56.536 --> 00:25:00.466 A:middle
 a version for 38 millimeter, and
@@ -1995,14 +1825,6 @@ it's okay to have that 2x asset
 as well because we are going
 to fall back to that asset.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:57.146 --> 00:26:01.046 A:middle
-as well because we are going
-to fall back to that asset.
-
 00:26:01.376 --> 00:26:04.806 A:middle
 So if there's a situation
 where we can't use that 38
@@ -2062,14 +1884,6 @@ put into your asset.
 00:26:52.376 --> 00:26:57.896 A:middle
 The neat thing here is that when
 the system builds your package,
-
-00:26:57.936 --> 00:27:01.476 A:middle
-when you go ahead and build it,
-we are going to cut this PDF
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.936 --> 00:27:01.476 A:middle
 when you go ahead and build it,
@@ -2135,14 +1949,6 @@ and more rendering.
 00:27:54.056 --> 00:27:59.126 A:middle
 The other thing is that
 you should try and reduce
-
-00:27:59.636 --> 00:28:03.176 A:middle
-and restrain yourself
-with the amount of frames
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.636 --> 00:28:03.176 A:middle
 and restrain yourself
@@ -2226,13 +2032,6 @@ there are a lot of things
 00:28:59.896 --> 00:29:01.776 A:middle
 that you can do under watchOS 2.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.896 --> 00:29:01.776 A:middle
-that you can do under watchOS 2.
-
 00:29:02.796 --> 00:29:05.916 A:middle
 With watchOS 2, we are
 introducing an animation API
@@ -2306,14 +2105,6 @@ lot of those aspects
 from the designer mentality,
 and they are going to talk
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.416 --> 00:30:02.696 A:middle
-from the designer mentality,
-and they are going to talk
-
 00:30:02.696 --> 00:30:04.646 A:middle
 about a ton of other
 great things
@@ -2377,14 +2168,6 @@ Super easy.
 00:30:56.536 --> 00:30:59.026 A:middle
 So let's also talk
 about notifications.
-
-00:30:59.586 --> 00:31:02.946 A:middle
-Notifications are a really
-meaningful experience
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.586 --> 00:31:02.946 A:middle
 Notifications are a really
@@ -2468,14 +2251,6 @@ the icon and the app name.
 This is an amazing way to
 provide a lot more context
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.676 --> 00:32:03.216 A:middle
-This is an amazing way to
-provide a lot more context
-
 00:32:03.936 --> 00:32:07.736 A:middle
 to the notification because a
 lot of users are going to look
@@ -2542,10 +2317,6 @@ into your notifications
 00:32:57.956 --> 00:32:59.886 A:middle
 to really give the user
 a great experience.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.546 --> 00:33:06.226 A:middle
 Now finally, if you want them
@@ -2614,14 +2385,6 @@ times where that's kind of used.
 So a static notification
 is always going to be used
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.916 --> 00:34:01.426 A:middle
-So a static notification
-is always going to be used
-
 00:34:01.756 --> 00:34:03.046 A:middle
 from Notification Center.
 
@@ -2632,14 +2395,14 @@ on the notification
 00:34:07.606 --> 00:34:08.906 A:middle
 from Notification Center,
 
-00:34:08.985 --> 00:34:11.626 A:middle
+00:34:08.986 --> 00:34:11.626 A:middle
 they will always see the
 static representation.
 
-00:34:12.045 --> 00:34:13.085 A:middle
+00:34:12.046 --> 00:34:13.086 A:middle
 So you should make sure
 
-00:34:13.085 --> 00:34:15.226 A:middle
+00:34:13.086 --> 00:34:15.226 A:middle
 that that experience
 is also a great one.
 
@@ -2647,11 +2410,11 @@ is also a great one.
 The other time that the
 static notification is going
 
-00:34:19.196 --> 00:34:23.335 A:middle
+00:34:19.196 --> 00:34:23.336 A:middle
 to be used is if your dynamic
 notification is taking too long
 
-00:34:23.335 --> 00:34:23.896 A:middle
+00:34:23.336 --> 00:34:23.896 A:middle
 to load.
 
 00:34:24.396 --> 00:34:27.956 A:middle
@@ -2662,7 +2425,7 @@ data, retrieving some asset
 from the network, and
 it's just taking too long.
 
-00:34:31.016 --> 00:34:33.295 A:middle
+00:34:31.016 --> 00:34:33.296 A:middle
 Then we're going to
 just call it a loss
 
@@ -2670,7 +2433,7 @@ just call it a loss
 and give the user some
 meaningful information right now
 
-00:34:36.735 --> 00:34:38.556 A:middle
+00:34:36.736 --> 00:34:38.556 A:middle
 in the means of the
 static notification.
 
@@ -2682,21 +2445,13 @@ talk about Glances.
 With Glances, it's a great
 way to provide your users
 
-00:34:49.985 --> 00:34:53.036 A:middle
+00:34:49.986 --> 00:34:53.036 A:middle
 with meaningful,
 timely information.
 
-00:34:54.485 --> 00:34:58.406 A:middle
+00:34:54.486 --> 00:34:58.406 A:middle
 Now, maybe you've seen this,
 where you come to a Glance
-
-00:34:58.406 --> 00:35:01.526 A:middle
-that you haven't viewed in
-a little while, and it shows
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.406 --> 00:35:01.526 A:middle
 that you haven't viewed in
@@ -2772,14 +2527,6 @@ activate' finishes.
 00:35:55.036 --> 00:35:56.866 A:middle
 You want to get all the
 information you need,
-
-00:35:57.246 --> 00:36:00.606 A:middle
-set it so that the UI is
-up and ready to go so that
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:57.246 --> 00:36:00.606 A:middle
 set it so that the UI is
@@ -2865,14 +2612,6 @@ are going to need
 to instantiate all
 those objects up front.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:56.586 --> 00:37:02.076 A:middle
-to instantiate all
-those objects up front.
-
 00:37:02.176 --> 00:37:05.726 A:middle
 Finally, you should be using
 WK interface date labels
@@ -2945,14 +2684,6 @@ First, we talked about ways
 00:37:56.276 --> 00:37:59.466 A:middle
 that you can already start
 optimizing your watchOS 1
-
-00:37:59.466 --> 00:38:02.376 A:middle
-application's networking
-so that the transition
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.466 --> 00:38:02.376 A:middle
 application's networking
@@ -3031,14 +2762,6 @@ We've got sample code.
 If you have technical
 questions, the Forums are there,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.666 --> 00:39:03.106 A:middle
-If you have technical
-questions, the Forums are there,
-
 00:39:03.266 --> 00:39:06.356 A:middle
 as is Developer Technical
 Support for one-on-one help.
@@ -3086,4 +2809,3 @@ With that, thank you very much.
 
 00:39:36.516 --> 00:39:39.500 A:middle
 [Applause]
-

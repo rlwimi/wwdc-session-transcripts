@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:29.036 --> 00:00:31.036 A:middle
 [Applause]
@@ -42,15 +41,7 @@ in Metal session into two parts.
 So today, I'll be focusing on
 providing a high-level review
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:57.046 --> 00:01:01.926 A:middle
-So today, I'll be focusing on
-providing a high-level review
-
-00:01:02.206 --> 00:01:05.325 A:middle
+00:01:02.206 --> 00:01:05.326 A:middle
 of the Metal ecosystem
 over the last 12 months.
 
@@ -116,14 +107,6 @@ directly from your application.
 And finally in the last
 session, Phil Bennett will dive
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.476 --> 00:02:04.556 A:middle
-And finally in the last
-session, Phil Bennett will dive
-
 00:02:04.896 --> 00:02:07.196 A:middle
 into great techniques for
 taking advantage of --
@@ -172,14 +155,6 @@ let's look back at an example
 00:02:55.356 --> 00:02:59.606 A:middle
 that we showed last year at WWDC
 that describes the work done
-
-00:02:59.606 --> 00:03:02.896 A:middle
-by the GPU and The
-CPU per frame.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.606 --> 00:03:02.896 A:middle
 by the GPU and The
@@ -242,14 +217,6 @@ move expensive operations
 like shader compilation and
 state validation from draw time
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.976 --> 00:04:02.386 A:middle
-like shader compilation and
-state validation from draw time
-
 00:04:02.756 --> 00:04:07.106 A:middle
 which happens many thousands of
 times per frame, to load time
@@ -299,10 +266,6 @@ in your way, allowing you
 
 00:04:57.366 --> 00:04:59.466 A:middle
 to encode for multiple threads.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.186 --> 00:05:03.536 A:middle
 And the results have
@@ -360,13 +323,6 @@ Box 2, Metal enabled them
 00:05:55.576 --> 00:05:57.936 A:middle
 to bring their console,
 graphics,
-
-00:05:58.276 --> 00:06:02.446 A:middle
-and game play experience to iOS.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.276 --> 00:06:02.446 A:middle
 and game play experience to iOS.
@@ -429,14 +385,6 @@ Epic's Unreal Engine 4,
 00:06:53.086 --> 00:06:56.756 A:middle
 and EA's Frostbite
 mobile engine.
-
-00:06:59.936 --> 00:07:04.256 A:middle
-Last year we also showed you how
-Metal fits in the big picture
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.936 --> 00:07:04.256 A:middle
 Last year we also showed you how
@@ -512,14 +460,6 @@ experience on our platforms.
 This is also a great year
 for Metal capable devices.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.526 --> 00:08:05.306 A:middle
-This is also a great year
-for Metal capable devices.
-
 00:08:06.216 --> 00:08:09.066 A:middle
 The iPhone 5s and the iPad
 Air were the headliners
@@ -549,7 +489,7 @@ We're happy to announce
 that we're bringing Metal
 to the OS X platform.
 
-00:08:34.456 --> 00:08:36.135 A:middle
+00:08:34.456 --> 00:08:36.136 A:middle
 We have broad support for Metal
 
 00:08:36.436 --> 00:08:38.756 A:middle
@@ -571,14 +511,6 @@ Intel, AMD, and Nvidia.
 00:08:52.126 --> 00:08:57.676 A:middle
 And the other big news is that
 we're bringing all the tools
-
-00:08:57.676 --> 00:09:00.176 A:middle
-that you're familiar
-with using on iOS
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.676 --> 00:09:00.176 A:middle
 that you're familiar
@@ -650,14 +582,6 @@ done exactly that.
 So you heard in the keynote that
 we've been working with Epic
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.426 --> 00:10:03.036 A:middle
-So you heard in the keynote that
-we've been working with Epic
-
 00:10:03.446 --> 00:10:06.646 A:middle
 to bring their iOS
 Metal development code
@@ -712,14 +636,6 @@ using Metal to access the GPU
 
 00:10:54.346 --> 00:10:56.146 A:middle
 to accelerate image processing.
-
-00:10:56.756 --> 00:11:01.496 A:middle
-The guys at The Foundry
-have also been using Metal
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:56.756 --> 00:11:01.496 A:middle
 The guys at The Foundry
@@ -786,14 +702,6 @@ thousands of little experiments.
 
 00:11:56.216 --> 00:11:57.436 A:middle
 We understand this process
-
-00:11:57.436 --> 00:12:02.306 A:middle
-and we create our tools
-specifically to support it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.436 --> 00:12:02.306 A:middle
 and we create our tools
@@ -871,10 +779,6 @@ they could bring over
 00:12:58.546 --> 00:12:59.576 A:middle
 and get running on Metal.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.566 --> 00:13:03.116 A:middle
 And we almost immediately
 got some stunning results.
@@ -944,14 +848,6 @@ We got some incredible results.
 00:13:52.836 --> 00:13:59.316 A:middle
 Putting this all back into Metal
 gave us a fully functional view
-
-00:13:59.316 --> 00:14:03.606 A:middle
-port running inside of MODO
-on Metal in just four weeks.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.316 --> 00:14:03.606 A:middle
 port running inside of MODO
@@ -1031,14 +927,6 @@ seeing the Metal cropping
 up in interesting
 places very, very soon.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.226 --> 00:15:00.986 A:middle
-up in interesting
-places very, very soon.
-
 00:15:01.946 --> 00:15:04.246 A:middle
 So I'm going to hand you back
 to Rav, and thank you very much.
@@ -1104,10 +992,6 @@ in the sessions later this week.
 00:15:57.586 --> 00:15:59.416 A:middle
 So let's dive right into them.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.206 --> 00:16:03.936 A:middle
 I would like to start with the
 GPU, our Metal feature sets.
@@ -1169,29 +1053,21 @@ our iOS 9 features.
 On OS X the GPUFamily1 v1
 feature set represents the
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.586 --> 00:17:04.996 A:middle
-On OS X the GPUFamily1 v1
-feature set represents the
-
-00:17:04.996 --> 00:17:08.435 A:middle
+00:17:04.996 --> 00:17:08.436 A:middle
 features that we're going to
 be shipping in OS X El Capitan.
 
-00:17:09.076 --> 00:17:11.965 A:middle
+00:17:09.076 --> 00:17:11.966 A:middle
 This defines the base for
 a Metal capable device
 
-00:17:11.965 --> 00:17:12.976 A:middle
+00:17:11.966 --> 00:17:12.976 A:middle
 on the desktop platform.
 
-00:17:12.976 --> 00:17:17.705 A:middle
+00:17:12.976 --> 00:17:17.706 A:middle
 Now I would like to talk
 
-00:17:17.925 --> 00:17:21.386 A:middle
+00:17:17.926 --> 00:17:21.386 A:middle
 about two new shader constant
 updates APIs that we're adding.
 
@@ -1199,11 +1075,11 @@ updates APIs that we're adding.
 First a little bit
 of background.
 
-00:17:24.496 --> 00:17:26.175 A:middle
+00:17:24.496 --> 00:17:26.176 A:middle
 So for every draw
 that you encode
 
-00:17:26.175 --> 00:17:29.076 A:middle
+00:17:26.176 --> 00:17:29.076 A:middle
 into command buffer there's
 some constant data you need
 
@@ -1246,14 +1122,6 @@ buffer and the data.
 00:17:54.666 --> 00:17:58.996 A:middle
 Then just like in that
 diagram, within your draw loop,
-
-00:17:59.326 --> 00:18:01.056 A:middle
-you send in the new
-constant data
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.326 --> 00:18:01.056 A:middle
 you send in the new
@@ -1333,14 +1201,6 @@ constants at every draw call.
 Actually there is one more
 thing I want to say about that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.736 --> 00:19:03.426 A:middle
-Actually there is one more
-thing I want to say about that.
-
 00:19:04.126 --> 00:19:07.716 A:middle
 So that API is great if you only
 have a small number of constants
@@ -1402,14 +1262,6 @@ will reside in memory.
 00:19:54.346 --> 00:19:58.386 A:middle
 So the modes are shared,
 private, and managed.
-
-00:19:58.386 --> 00:20:01.486 A:middle
-So I'll talk about
-each of these in turn
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.386 --> 00:20:01.486 A:middle
 So I'll talk about
@@ -1486,14 +1338,6 @@ a way that's more optimal
 for the GPU to access, by
 using frame buffer compression
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.786 --> 00:21:04.276 A:middle
-for the GPU to access, by
-using frame buffer compression
-
 00:21:04.276 --> 00:21:04.926 A:middle
 for example.
 
@@ -1549,14 +1393,6 @@ you don't have to worry
 00:21:54.666 --> 00:21:56.926 A:middle
 about managed having
 any extra overhead.
-
-00:21:57.256 --> 00:22:00.186 A:middle
-There's only one copy of the
-resource that Metal maintains.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.256 --> 00:22:00.186 A:middle
 There's only one copy of the
@@ -1630,14 +1466,6 @@ this with a private buffer,
 but you'd have to manage
 the transfer to that buffer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.256 --> 00:23:00.806 A:middle
-but you'd have to manage
-the transfer to that buffer.
-
 00:23:01.706 --> 00:23:05.036 A:middle
 It's actually a lot simpler
 to use managed buffers,
@@ -1704,14 +1532,6 @@ to use a managed texture.
 
 00:23:55.886 --> 00:23:56.616 A:middle
 This is one of them.
-
-00:23:57.286 --> 00:24:00.006 A:middle
-When you have a frame buffer
-or a renderable texture,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.286 --> 00:24:00.006 A:middle
 When you have a frame buffer
@@ -1791,14 +1611,6 @@ of their environmental lighting.
 So we think you'll find
 this equally useful.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.506 --> 00:25:02.136 A:middle
-So we think you'll find
-this equally useful.
-
 00:25:04.916 --> 00:25:06.906 A:middle
 The second feature
 that's specific
@@ -1852,14 +1664,6 @@ not least, I want to talk
 00:25:51.446 --> 00:25:54.836 A:middle
 about our expanded texturing
 support in Metal this year.
-
-00:25:56.346 --> 00:26:01.506 A:middle
-By default the max
-limits for all textures
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:56.346 --> 00:26:01.506 A:middle
 By default the max
@@ -1927,14 +1731,6 @@ By default, the usage is unknown
 and Metal won't make any
 assumptions about how
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.006 --> 00:27:00.216 A:middle
-and Metal won't make any
-assumptions about how
-
 00:27:00.216 --> 00:27:02.206 A:middle
 that texture is used,
 allowing Metal
@@ -1997,14 +1793,6 @@ these formats including PVRTC,
 ETC2, and EAC, and
 new for GPUFamily2,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:53.906 --> 00:28:00.456 A:middle
-ETC2, and EAC, and
-new for GPUFamily2,
-
 00:28:00.526 --> 00:28:02.846 A:middle
 we're also supporting ASTC.
 
@@ -2060,10 +1848,6 @@ introducing all the native
 00:28:56.056 --> 00:28:59.726 A:middle
 texture compression formats
 that the desktop GPUs support.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:01.066 --> 00:29:04.326 A:middle
 Now, these BCn formats should
@@ -2127,14 +1911,6 @@ that generates some assets.
 00:29:52.296 --> 00:29:56.306 A:middle
 The assets are built via Xcode
 or your custom tools pipeline
-
-00:29:56.676 --> 00:30:01.276 A:middle
-into a binary and then that
-binary is sent up somewhere
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:56.676 --> 00:30:01.276 A:middle
 into a binary and then that
@@ -2206,14 +1982,6 @@ So how do we do this?
 Well, app thinning allows
 you to define capability
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.336 --> 00:31:05.856 A:middle
-Well, app thinning allows
-you to define capability
-
 00:31:05.856 --> 00:31:10.986 A:middle
 across two axis, GPUFamily
 version and device memory size.
@@ -2267,14 +2035,6 @@ a lot more capable than this.
 
 00:31:56.556 --> 00:31:57.866 A:middle
 So let's extend our example.
-
-00:31:58.596 --> 00:32:00.796 A:middle
-And that's support
-for more devices.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.596 --> 00:32:00.796 A:middle
 And that's support
@@ -2353,14 +2113,6 @@ possible for your users.
 So Xcode integrates a great
 new UI that allows you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:55.946 --> 00:33:01.106 A:middle
-So Xcode integrates a great
-new UI that allows you
-
 00:33:01.106 --> 00:33:02.716 A:middle
 to tag assets in this way.
 
@@ -2428,23 +2180,15 @@ asset catalogs defined,
 how do you retrieve
 the data at runtime?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.176 --> 00:34:02.136 A:middle
-how do you retrieve
-the data at runtime?
-
 00:34:02.136 --> 00:34:04.576 A:middle
 The answer is the
 NSDataAsset class,
 
-00:34:05.226 --> 00:34:08.755 A:middle
+00:34:05.226 --> 00:34:08.756 A:middle
 it provides the resource
 matched to the capabilities
 
-00:34:08.755 --> 00:34:10.446 A:middle
+00:34:08.756 --> 00:34:10.446 A:middle
 of the device that
 you're running on.
 
@@ -2460,14 +2204,14 @@ object using the name
 that you assigned in
 your asset catalog,
 
-00:34:23.505 --> 00:34:25.065 A:middle
+00:34:23.506 --> 00:34:25.066 A:middle
 and then use it in your data.
 
-00:34:25.065 --> 00:34:29.146 A:middle
+00:34:25.066 --> 00:34:29.146 A:middle
 So let's tie this
 altogether using the diagram
 
-00:34:29.146 --> 00:34:31.565 A:middle
+00:34:29.146 --> 00:34:31.566 A:middle
 that I originally showed
 and the normal map example.
 
@@ -2475,11 +2219,11 @@ and the normal map example.
 So in this case, your
 artist will create a bunch
 
-00:34:35.886 --> 00:34:38.275 A:middle
+00:34:35.886 --> 00:34:38.276 A:middle
 of normal maps, some
 compressed, some uncompressed
 
-00:34:38.275 --> 00:34:39.656 A:middle
+00:34:38.276 --> 00:34:39.656 A:middle
 to target the devices
 you'd like.
 
@@ -2502,10 +2246,6 @@ only the normal map required
 00:34:55.016 --> 00:34:57.556 A:middle
 by your user, is
 downloaded to their device.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:04.116 --> 00:35:05.736 A:middle
 And that's app thinning.
@@ -2571,14 +2311,6 @@ Metal over the next one.
 So please visit our online
 documentation, and you'd also
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:56.826 --> 00:36:01.956 A:middle
-So please visit our online
-documentation, and you'd also
-
 00:36:01.956 --> 00:36:03.376 A:middle
 like to go to our
 support forums,
@@ -2616,4 +2348,3 @@ Thank you very much.
 
 00:36:27.516 --> 00:36:30.500 A:middle
 [Applause]
-

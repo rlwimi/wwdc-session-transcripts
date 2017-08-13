@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:23.516 --> 00:00:29.486 A:middle
 [Applause]
@@ -34,14 +33,6 @@ Stuart will talk about how
 00:00:53.556 --> 00:00:55.866 A:middle
 to make your applications
 run faster.
-
-00:00:57.476 --> 00:01:02.586 A:middle
-We will start off
-with IPv6 first.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.476 --> 00:01:02.586 A:middle
 We will start off
@@ -98,14 +89,6 @@ client devices had real
 00:01:53.446 --> 00:01:57.946 A:middle
 and unique IPv4 addresses;
 these were the good olden days
-
-00:01:57.946 --> 00:02:00.226 A:middle
-and you had end-to-end
-network connectivity.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:57.946 --> 00:02:00.226 A:middle
 and you had end-to-end
@@ -169,13 +152,6 @@ networks over IPv6.
 
 00:02:57.116 --> 00:02:58.376 A:middle
 So that's great, right?
-
-00:02:59.316 --> 00:03:01.206 A:middle
-Turns out it's actually worse
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.316 --> 00:03:01.206 A:middle
 Turns out it's actually worse
@@ -246,10 +222,6 @@ traffic to the network.
 The network itself is
 configured in a way
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.046 --> 00:04:03.696 A:middle
 that search packets get
 shorted to the NAT64 engine,
@@ -312,10 +284,6 @@ for our consumers.
 00:04:52.286 --> 00:04:58.896 A:middle
 And that is the reason your
 app has to be IPv6 compliant,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.206 --> 00:05:02.686 A:middle
 and this will be an app
@@ -386,14 +354,6 @@ choose your interfaces
 for Internet sharing, and now
 you can host this NAT64 network
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.206 --> 00:06:02.146 A:middle
-for Internet sharing, and now
-you can host this NAT64 network
-
 00:06:03.236 --> 00:06:04.886 A:middle
 and start testing
 your applications.
@@ -454,10 +414,6 @@ the DNS64/NAT64 engine running
 00:06:54.136 --> 00:06:58.836 A:middle
 on it, and it is hosting an IPv6
 network on the Wi-Fi interface.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.096 --> 00:07:03.246 A:middle
 Now the application that you
@@ -538,14 +494,6 @@ of you, you will see
 that either your application
 is severely limited
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.576 --> 00:08:01.846 A:middle
-that either your application
-is severely limited
-
 00:08:01.846 --> 00:08:05.746 A:middle
 in a NAT64 network environment
 or it does not work at all.
@@ -573,11 +521,11 @@ IPv4 and IPv6,
 but maybe you're passing
 an argument that says
 
-00:08:34.885 --> 00:08:38.586 A:middle
+00:08:34.886 --> 00:08:38.586 A:middle
 that only get me
 results for IPv4,
 
-00:08:38.586 --> 00:08:43.655 A:middle
+00:08:38.586 --> 00:08:43.656 A:middle
 all of these things will make
 your application IPv4 only.
 
@@ -596,14 +544,6 @@ thing that we have seen
 00:08:53.496 --> 00:08:56.256 A:middle
 with some of these
 applications that do not work,
-
-00:08:57.786 --> 00:09:00.216 A:middle
-that sometimes there's a
-preflight check that checks
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.786 --> 00:09:00.216 A:middle
 that sometimes there's a
@@ -673,14 +613,6 @@ network like NAT64 network,
 00:09:55.066 --> 00:09:57.596 A:middle
 you do not have IPv4
 connectivity;
-
-00:09:57.656 --> 00:10:01.156 A:middle
-the entire world looks like
-an IPv6-only world to you.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:57.656 --> 00:10:01.156 A:middle
 the entire world looks like
@@ -759,14 +691,6 @@ and you have cellular interface.
 And with Mac devices, you
 may have multiple Ethernet
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.586 --> 00:11:02.176 A:middle
-And with Mac devices, you
-may have multiple Ethernet
-
 00:11:02.176 --> 00:11:04.726 A:middle
 interfaces, and you have
 a Wi-Fi interface also,
@@ -829,14 +753,6 @@ use IP address literals,
 
 00:11:57.286 --> 00:11:58.676 A:middle
 whether IPv4 or IPv6.
-
-00:11:58.676 --> 00:12:02.266 A:middle
-When you are writing
-your very own protocol,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.676 --> 00:12:02.266 A:middle
 When you are writing
@@ -914,14 +830,6 @@ have IPv4 addresses embedded.
 Now, before today, on
 Safari if you clicked on one
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.166 --> 00:13:02.276 A:middle
-Now, before today, on
-Safari if you clicked on one
-
 00:13:02.276 --> 00:13:04.726 A:middle
 such link, it would not load up.
 
@@ -977,14 +885,6 @@ with higher network frameworks.
 
 00:13:53.016 --> 00:13:56.446 A:middle
 So please do that.
-
-00:13:56.656 --> 00:14:00.936 A:middle
-Now, with these data points
-and with the new tool,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:56.656 --> 00:14:00.936 A:middle
 Now, with these data points
@@ -1057,10 +957,6 @@ Stuart?
 00:14:59.136 --> 00:14:59.916 A:middle
 &gt;&gt; STUART CHESHIRE:
 Thank you, Prabhakar.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:02.546 --> 00:15:06.406 A:middle
 What I want to talk about now
@@ -1136,14 +1032,6 @@ to talk about today.
 I'm going to talk about
 four sources of delay
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.316 --> 00:16:03.286 A:middle
-I'm going to talk about
-four sources of delay
-
 00:16:03.906 --> 00:16:05.806 A:middle
 when users are using
 your applications.
@@ -1208,23 +1096,15 @@ They pull out their phone.
 You want to check maps, weather
 forecast, email, whatever,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:55.736 --> 00:17:01.856 A:middle
-You want to check maps, weather
-forecast, email, whatever,
-
 00:17:02.046 --> 00:17:04.496 A:middle
 and you are staring at the
 phone and it's not loading
 
-00:17:04.576 --> 00:17:06.695 A:middle
+00:17:04.576 --> 00:17:06.696 A:middle
 and it's not loading and
 you are walking to your car,
 
-00:17:06.695 --> 00:17:08.786 A:middle
+00:17:06.696 --> 00:17:08.786 A:middle
 and it's still not loading
 and you get frustrated,
 
@@ -1238,18 +1118,18 @@ Now you're on LTE and bam!
 00:17:12.756 --> 00:17:13.846 A:middle
 The page loads.
 
-00:17:15.076 --> 00:17:17.165 A:middle
+00:17:15.076 --> 00:17:17.166 A:middle
 And then you forget
 to turn Wi-Fi back on,
 
-00:17:17.165 --> 00:17:19.536 A:middle
+00:17:17.166 --> 00:17:19.536 A:middle
 and a week later you've got
 a huge cellular data bill
 
-00:17:19.536 --> 00:17:20.205 A:middle
+00:17:19.536 --> 00:17:20.206 A:middle
 that you didn't want.
 
-00:17:20.386 --> 00:17:22.715 A:middle
+00:17:20.386 --> 00:17:22.716 A:middle
 Well, that's not a
 good user experience.
 
@@ -1257,7 +1137,7 @@ good user experience.
 What we are doing now is we
 have some intelligent logic
 
-00:17:28.465 --> 00:17:30.166 A:middle
+00:17:28.466 --> 00:17:30.166 A:middle
 about doing parallel
 connections.
 
@@ -1294,14 +1174,6 @@ first, that's great.
 00:17:56.706 --> 00:17:58.126 A:middle
 You have a connection
 over Wi-Fi.
-
-00:17:58.126 --> 00:18:02.396 A:middle
-But if it doesn't, and the
-cellular connection completes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.126 --> 00:18:02.396 A:middle
 But if it doesn't, and the
@@ -1371,14 +1243,6 @@ or whether you fell back
 
 00:18:54.686 --> 00:18:56.356 A:middle
 to cellular, doesn't matter.
-
-00:18:56.356 --> 00:19:01.056 A:middle
-The user can walk back in range
-of Wi-Fi and at that point,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:56.356 --> 00:19:01.056 A:middle
 The user can walk back in range
@@ -1454,14 +1318,6 @@ of those experiments with you
 so you can understand too how
 critically important it is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:56.406 --> 00:20:00.366 A:middle
-so you can understand too how
-critically important it is
-
 00:20:00.366 --> 00:20:02.316 A:middle
 for all of our applications
 and products
@@ -1528,14 +1384,6 @@ to TCPtrace.org and download it.
 If you are working
 on networking code,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.786 --> 00:21:02.846 A:middle
-If you are working
-on networking code,
-
 00:21:03.366 --> 00:21:06.226 A:middle
 and you are not using tcptrace
 to look at your packets,
@@ -1596,14 +1444,6 @@ looked at tcptrace before,
 
 00:21:56.246 --> 00:21:58.256 A:middle
 I will give a quick overview.
-
-00:21:58.966 --> 00:22:01.766 A:middle
-The little white lines
-represent data packets.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.966 --> 00:22:01.766 A:middle
 The little white lines
@@ -1677,14 +1517,6 @@ so that's good.
 The yellow line indicates
 the receive window.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.736 --> 00:23:04.596 A:middle
-The yellow line indicates
-the receive window.
-
 00:23:05.286 --> 00:23:06.906 A:middle
 When you open up
 a TCP connection,
@@ -1748,13 +1580,6 @@ talking about this one slide.
 00:23:59.986 --> 00:24:01.686 A:middle
 But we don't have time for that,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.986 --> 00:24:01.686 A:middle
-But we don't have time for that,
-
 00:24:02.056 --> 00:24:06.216 A:middle
 so I will just cover some
 highlights that jump out just
@@ -1814,14 +1639,6 @@ is getting longer.
 
 00:24:55.226 --> 00:24:58.296 A:middle
 When we have so much buffered
-
-00:24:58.336 --> 00:25:01.096 A:middle
-that the gateway
-can't buffer anymore,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.336 --> 00:25:01.096 A:middle
 that the gateway
@@ -1896,10 +1713,6 @@ and the recovery starts.
 
 00:25:57.066 --> 00:25:59.766 A:middle
 So this is a big mess.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:01.496 --> 00:26:04.246 A:middle
 Because of the way
@@ -1978,14 +1791,6 @@ want the video to freeze,
 that's why all streaming
 video applications need a
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.826 --> 00:27:01.586 A:middle
-that's why all streaming
-video applications need a
-
 00:27:01.586 --> 00:27:02.426 A:middle
 playback buffer.
 
@@ -2057,14 +1862,6 @@ of starvation equate
 to needing more RAM in the
 device for more buffering
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.356 --> 00:28:02.556 A:middle
-to needing more RAM in the
-device for more buffering
-
 00:28:03.206 --> 00:28:07.406 A:middle
 and slower video start-up
 and a poor user experience.
@@ -2122,14 +1919,6 @@ be retransmitted.
 00:28:55.186 --> 00:28:56.926 A:middle
 So it gets back to where
 it should have been.
-
-00:28:57.916 --> 00:29:00.746 A:middle
-If you measure this
-network using Iperf and look
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.916 --> 00:29:00.746 A:middle
 If you measure this
@@ -2193,14 +1982,6 @@ as a standing queue starts
 00:29:51.986 --> 00:29:56.866 A:middle
 to build up, then it considers
 that to be a sign of congestion.
-
-00:29:57.766 --> 00:30:01.766 A:middle
-And when I say congestion, a
-lot of people think I'm talking
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.766 --> 00:30:01.766 A:middle
 And when I say congestion, a
@@ -2291,14 +2072,6 @@ signals congestion.
 As soon as the first
 sign of it starts
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.336 --> 00:31:01.976 A:middle
-As soon as the first
-sign of it starts
-
 00:31:01.976 --> 00:31:05.156 A:middle
 to happen, it tells the sender.
 
@@ -2366,14 +2139,6 @@ the work and gather the data,
 00:31:56.916 --> 00:31:59.416 A:middle
 and I was finished
 after two hours.
-
-00:31:59.746 --> 00:32:02.286 A:middle
-I did one plot with the
-standard configuration
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.746 --> 00:32:02.286 A:middle
 I did one plot with the
@@ -2454,10 +2219,6 @@ algorithms are great.
 00:32:58.846 --> 00:32:59.846 A:middle
 ECN are great.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.626 --> 00:33:02.446 A:middle
 Put them together,
 it's totally awesome.
@@ -2534,14 +2295,6 @@ this is that we used
 to have applications like
 clicking send on an email,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.866 --> 00:34:03.096 A:middle
-to have applications like
-clicking send on an email,
-
 00:34:03.726 --> 00:34:06.236 A:middle
 where you have a
 predetermined amount of data
@@ -2558,7 +2311,7 @@ like the network to take
 to send your email is
 as little as possible.
 
-00:34:17.025 --> 00:34:19.176 A:middle
+00:34:17.026 --> 00:34:19.176 A:middle
 There's really no such thing
 as sending an email too fast.
 
@@ -2582,10 +2335,10 @@ streaming over the Internet.
 It doesn't help to watch it in
 half an hour or in eight hours.
 
-00:34:35.755 --> 00:34:37.196 A:middle
+00:34:35.756 --> 00:34:37.196 A:middle
 It has to take two hours.
 
-00:34:38.045 --> 00:34:40.056 A:middle
+00:34:38.046 --> 00:34:40.056 A:middle
 So now we have adaptive
 applications
 
@@ -2597,11 +2350,11 @@ but the amount of data
 that could be sent in
 that time has to adjust
 
-00:34:45.226 --> 00:34:47.025 A:middle
+00:34:45.226 --> 00:34:47.026 A:middle
 to accommodate the
 network conditions.
 
-00:34:50.295 --> 00:34:51.386 A:middle
+00:34:50.296 --> 00:34:51.386 A:middle
 Where are we now?
 
 00:34:52.116 --> 00:34:55.246 A:middle
@@ -2611,14 +2364,6 @@ it is in Linux and turned
 00:34:55.246 --> 00:34:59.556 A:middle
 on by default, more than half
 of the top million web servers
-
-00:34:59.556 --> 00:35:01.516 A:middle
-in the world already
-support ECN,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.556 --> 00:35:01.516 A:middle
 in the world already
@@ -2691,13 +2436,6 @@ for all applications.
 00:35:55.516 --> 00:36:01.406 A:middle
 [Applause]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:55.516 --> 00:36:01.406 A:middle
-[Applause]
-
 00:36:01.906 --> 00:36:05.436 A:middle
 We're not expecting to see
 any problems; in our testing,
@@ -2755,13 +2493,6 @@ pain point for me.
 00:36:54.676 --> 00:36:59.336 A:middle
 I use screen sharing to
 connect to my Mac at home,
-
-00:36:59.916 --> 00:37:01.236 A:middle
-and it's absolutely wonderful.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.916 --> 00:37:01.236 A:middle
 and it's absolutely wonderful.
@@ -2833,14 +2564,6 @@ impressed that it dances at all.
 00:37:52.186 --> 00:37:58.216 A:middle
 So for many years, like many
 of us, I kind of suffered
-
-00:37:58.216 --> 00:38:04.626 A:middle
-with this painful, barely usable
-experience, and I would find
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:58.216 --> 00:38:04.626 A:middle
 with this painful, barely usable
@@ -2919,10 +2642,6 @@ Where is the delay coming from?
 00:38:56.016 --> 00:38:59.136 A:middle
 Well, I did some investigation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.626 --> 00:39:04.206 A:middle
 The default socket send buffer
 at that time was 120 kilobytes,
@@ -2998,13 +2717,6 @@ It doesn't help the throughput.
 00:39:59.856 --> 00:40:00.776 A:middle
 It just adds delay.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.856 --> 00:40:00.776 A:middle
-It just adds delay.
-
 00:40:01.626 --> 00:40:04.386 A:middle
 And we end up with something
 that looks like this.
@@ -3071,13 +2783,6 @@ When you send that option,
 00:40:55.606 --> 00:40:58.636 A:middle
 the socket send buffer
 remains unchanged.
-
-00:40:59.496 --> 00:41:02.706 A:middle
-The difference is that kevent
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.496 --> 00:41:02.706 A:middle
 The difference is that kevent
@@ -3156,10 +2861,6 @@ like to show you a demo
 00:41:57.436 --> 00:41:57.976 A:middle
 of this in action.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:07.086 --> 00:42:08.506 A:middle
 Here I'm using screen sharing
 
@@ -3213,13 +2914,6 @@ Hands off the keyboard.
 00:42:55.516 --> 00:43:01.696 A:middle
 [Laughter]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:55.516 --> 00:43:01.696 A:middle
-[Laughter]
-
 00:43:02.196 --> 00:43:04.436 A:middle
 Let's pull down some
 menus: Shell.
@@ -3261,13 +2955,6 @@ and once we reconnect,
 00:43:50.076 --> 00:43:53.086 A:middle
 now I will try dragging
 this window around.
-
-00:43:54.516 --> 00:44:04.966 A:middle
-[Applause]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:54.516 --> 00:44:04.966 A:middle
 [Applause]
@@ -3319,14 +3006,6 @@ of the data on the sending side.
 00:44:54.636 --> 00:44:57.356 A:middle
 So for those of you who
 are running Linux servers,
-
-00:44:57.696 --> 00:45:02.866 A:middle
-this option is available
-for your servers too.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:57.696 --> 00:45:02.866 A:middle
 this option is available
@@ -3411,14 +3090,6 @@ from over-stuffing the kernel.
 So once we had that
 realization, we decided starting
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:55.946 --> 00:46:00.836 A:middle
-So once we had that
-realization, we decided starting
-
 00:46:00.836 --> 00:46:04.686 A:middle
 in the next seed, this option
 will be turned on automatically
@@ -3488,13 +3159,6 @@ final part of the presentation,
 00:46:59.336 --> 00:47:01.416 A:middle
 and that is a sneak peek
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.336 --> 00:47:01.416 A:middle
-and that is a sneak peek
-
 00:47:02.096 --> 00:47:06.416 A:middle
 of a brand-new technology
 called TCP Fast Open.
@@ -3555,10 +3219,6 @@ sends you the response,
 00:47:58.336 --> 00:47:59.586 A:middle
 and then you close
 the connection.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:00.686 --> 00:48:05.566 A:middle
 But the service model of the
@@ -3642,14 +3302,6 @@ in the network.
 Well, if one of those copies is
 delayed and shows up much later,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:58.786 --> 00:49:02.956 A:middle
-Well, if one of those copies is
-delayed and shows up much later,
-
 00:49:03.716 --> 00:49:06.496 A:middle
 then to the server that looks
 
@@ -3715,14 +3367,6 @@ has to support TFO as well,
 and the application
 has to opt in.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:59.776 --> 00:50:03.536 A:middle
-and the application
-has to opt in.
-
 00:50:03.536 --> 00:50:06.546 A:middle
 For those of you running Linux
 servers, if you have the very,
@@ -3780,10 +3424,6 @@ give your customers a better
 00:50:57.256 --> 00:50:59.286 A:middle
 user experience with
 your applications.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:00.526 --> 00:51:04.246 A:middle
 What you can do is pay attention
@@ -3855,14 +3495,6 @@ in the PDF version.
 There are some good forums
 where you can ask questions
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:59.066 --> 00:52:03.066 A:middle
-There are some good forums
-where you can ask questions
-
 00:52:03.066 --> 00:52:04.176 A:middle
 and have discussions
 
@@ -3894,4 +3526,3 @@ Thank you.
 
 00:52:26.516 --> 00:52:32.500 A:middle
 [Applause]
-

@@ -1,23 +1,22 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:00:06.716 --> 00:00:09.086 A:middle
+00:00:25.406 --> 00:00:26.386 A:middle
 &gt;&gt; JORDAN ROSE: Good
 afternoon, everyone.
 
-00:00:09.086 --> 00:00:11.346 A:middle
+00:00:26.986 --> 00:00:27.956 A:middle
 My name is Jordan Rose.
 
-00:00:11.346 --> 00:00:16.026 A:middle
-(Applause).
+00:00:28.516 --> 00:00:33.306 A:middle
+[Applause]
 
-00:00:22.676 --> 00:00:22.756 A:middle
+00:00:33.806 --> 00:00:34.006 A:middle
 &gt;&gt; JORDAN ROSE: Wow.
 
-00:00:23.716 --> 00:00:25.186 A:middle
+00:00:34.006 --> 00:00:34.266 A:middle
 Thank you.
 
-00:00:25.386 --> 00:00:35.316 A:middle
+00:00:34.266 --> 00:00:35.316 A:middle
 I haven't even done
 anything yet.
 
@@ -56,10 +55,6 @@ to see how this mapping works.
 
 00:00:57.716 --> 00:00:59.676 A:middle
 Go to any Objective-C header
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.076 --> 00:01:02.506 A:middle
 and choose the 'show
@@ -152,14 +147,6 @@ APIs into Swift.
 But a lot of people come
 up with the question,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.956 --> 00:02:01.626 A:middle
-But a lot of people come
-up with the question,
-
 00:02:01.976 --> 00:02:05.126 A:middle
 when is my Swift
 exposed to Objective-C?
@@ -168,7 +155,7 @@ exposed to Objective-C?
 And so, let's go over
 the rules for this.
 
-00:02:09.925 --> 00:02:12.506 A:middle
+00:02:09.926 --> 00:02:12.506 A:middle
 If you have a class that's
 a subclass of NSObject,
 
@@ -227,14 +214,6 @@ this method to Objective-C
 
 00:02:52.806 --> 00:02:55.756 A:middle
 and Swift won't even try.
-
-00:02:55.956 --> 00:03:00.116 A:middle
-Finally, if you are not
-a subclass of NSObject
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:55.956 --> 00:03:00.116 A:middle
 Finally, if you are not
@@ -331,14 +310,6 @@ that's all you need to do
 to make this refresh
 method a valid action
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.426 --> 00:04:01.676 A:middle
-to make this refresh
-method a valid action
-
 00:04:01.676 --> 00:04:02.626 A:middle
 in interface builder.
 
@@ -414,14 +385,6 @@ result type here,
 00:04:54.046 --> 00:04:57.376 A:middle
 then I will get an error message
 saying this 'method cannot be
-
-00:04:57.376 --> 00:05:00.216 A:middle
-marked at-objc because
-its result type cannot be
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.376 --> 00:05:00.216 A:middle
 marked at-objc because
@@ -512,14 +475,6 @@ form of the ObjC attribute.
 So if I write this code, then
 I've renamed the bottom method
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.476 --> 00:06:02.936 A:middle
-So if I write this code, then
-I've renamed the bottom method
-
 00:06:03.006 --> 00:06:05.456 A:middle
 to 'perform binary operation,
 
@@ -576,12 +531,9 @@ this room that are really happy
 that we have a slide
 called function pointers.
 
-00:06:47.686 --> 00:06:47.896 A:middle
-(Laughter).
-
 00:06:49.636 --> 00:06:52.736 A:middle
-A function pointer is
-what C uses for callbacks.
+[Laughter] A function pointer
+is what C uses for callbacks.
 
 00:06:53.416 --> 00:06:55.876 A:middle
 That means they are
@@ -590,13 +542,6 @@ kind of like closures,
 00:06:56.406 --> 00:06:58.676 A:middle
 but they can't carry any
 additional state with them.
-
-00:06:59.336 --> 00:07:00.466 A:middle
-What do I mean by that?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.336 --> 00:07:00.466 A:middle
 What do I mean by that?
@@ -680,29 +625,21 @@ and even call them.
 Which means there's a
 whole family of C APIs
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.116 --> 00:08:00.226 A:middle
-Which means there's a
-whole family of C APIs
-
 00:08:00.506 --> 00:08:02.386 A:middle
 that you can now
 access directly in Swift
 
-00:08:02.496 --> 00:08:03.506 A:middle
+00:08:02.496 --> 00:08:03.526 A:middle
 that you couldn't before.
 
-00:08:03.506 --> 00:08:03.796 A:middle
-(Applause).
+00:08:05.516 --> 00:08:10.666 A:middle
+[Applause]
 
-00:08:04.116 --> 00:08:11.296 A:middle
+00:08:11.166 --> 00:08:11.986 A:middle
 &gt;&gt; JORDAN ROSE: So
 those are just two
 
-00:08:11.296 --> 00:08:14.516 A:middle
+00:08:11.986 --> 00:08:14.516 A:middle
 of the little things we have
 done to enhance the bridge
 
@@ -728,15 +665,15 @@ course, being error handling.
 00:08:28.176 --> 00:08:29.466 A:middle
 Now, if you haven't really heard
 
-00:08:29.466 --> 00:08:33.275 A:middle
+00:08:29.466 --> 00:08:33.276 A:middle
 about the error handling model
 yet, essentially we took a lot
 
-00:08:33.275 --> 00:08:37.496 A:middle
+00:08:33.276 --> 00:08:37.496 A:middle
 of lessons from Cocoa's
 NSError paradigm and the rules
 
-00:08:37.496 --> 00:08:39.155 A:middle
+00:08:37.496 --> 00:08:39.156 A:middle
 and the conventions
 that surrounded that,
 
@@ -769,14 +706,6 @@ check it out later on,
 00:08:55.586 --> 00:08:58.606 A:middle
 to find out really how all this
 error handling stuff works.
-
-00:08:59.126 --> 00:09:04.266 A:middle
-But what I want to focus on now
-is specifics about this going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.126 --> 00:09:04.266 A:middle
 But what I want to focus on now
@@ -855,14 +784,6 @@ you will get will be void.
 Now, on both of these examples,
 I have shown that these methods
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.946 --> 00:10:04.026 A:middle
-Now, on both of these examples,
-I have shown that these methods
-
 00:10:04.026 --> 00:10:06.096 A:middle
 in Objective-C have
 multiple parameters,
@@ -897,15 +818,12 @@ from that 'throws' keyword,
 we will chop off
 those last three words
 
-00:10:24.096 --> 00:10:25.406 A:middle
+00:10:24.096 --> 00:10:25.466 A:middle
 for you, just for you!
 
-00:10:25.406 --> 00:10:25.586 A:middle
-(Laughter).
-
 00:10:27.776 --> 00:10:30.756 A:middle
-Now, all of this is
-about what happens
+[Laughter] Now, all of
+this is about what happens
 
 00:10:30.756 --> 00:10:33.586 A:middle
 when you have the
@@ -945,14 +863,6 @@ to Swift's error type protocol,
 
 00:10:57.006 --> 00:10:58.206 A:middle
 so you can also use it
-
-00:10:58.206 --> 00:11:00.316 A:middle
-with Swift's own error
-handling mechanisms.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.206 --> 00:11:00.316 A:middle
 with Swift's own error
@@ -1026,14 +936,6 @@ it ought to just work.
 
 00:11:56.836 --> 00:11:58.646 A:middle
 Let's see what that looks like.
-
-00:11:59.836 --> 00:12:02.086 A:middle
-The first thing to
-notice is that the name
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.836 --> 00:12:02.086 A:middle
 The first thing to
@@ -1114,13 +1016,6 @@ the Objective-C side
 
 00:12:56.476 --> 00:12:57.626 A:middle
 of your Swift classes.
-
-00:12:59.566 --> 00:13:01.826 A:middle
-In Xcode -- sorry -- in Xcode 7,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.566 --> 00:13:01.826 A:middle
 In Xcode -- sorry -- in Xcode 7,
@@ -1206,13 +1101,6 @@ that you can use them
 00:13:58.946 --> 00:14:00.786 A:middle
 with Swift's own catch syntax.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.946 --> 00:14:00.786 A:middle
-with Swift's own catch syntax.
-
 00:14:01.506 --> 00:14:03.336 A:middle
 So there's are all sorts
 of errors you can use here.
@@ -1255,13 +1143,13 @@ side of the world,
 I would like to hand
 it over to Doug.
 
-00:14:27.496 --> 00:14:27.646 A:middle
-(Applause.)
+00:14:27.516 --> 00:14:33.586 A:middle
+[Applause]
 
-00:14:27.756 --> 00:14:33.336 A:middle
+00:14:34.086 --> 00:14:34.266 A:middle
 &gt;&gt; DOUG GREGOR: Thank you.
 
-00:14:34.246 --> 00:14:34.936 A:middle
+00:14:34.266 --> 00:14:34.936 A:middle
 Thank you, Jordan.
 
 00:14:35.956 --> 00:14:37.336 A:middle
@@ -1297,13 +1185,6 @@ for Objective-C.
 00:14:55.836 --> 00:14:58.626 A:middle
 So take a look at this
 bit of Objective-C code.
-
-00:14:59.696 --> 00:15:00.616 A:middle
-Lots of pointers here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.696 --> 00:15:00.616 A:middle
 Lots of pointers here.
@@ -1392,10 +1273,6 @@ something you have to deal with,
 and everything else
 is non-optional.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.836 --> 00:16:02.726 A:middle
 This is still not
 that wonderful,
@@ -1476,10 +1353,6 @@ nil is not a meaningful value.
 Now, for a non-null pointer,
 it could end up being nil
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.616 --> 00:17:01.916 A:middle
 in an Objective-C program.
 
@@ -1490,23 +1363,23 @@ messaged nil at some point
 00:17:05.026 --> 00:17:06.286 A:middle
 and the nil propagated through
 
-00:17:07.165 --> 00:17:08.705 A:middle
+00:17:07.166 --> 00:17:08.706 A:middle
 and maybe this has
 worked in the past.
 
-00:17:08.986 --> 00:17:11.705 A:middle
+00:17:08.986 --> 00:17:11.706 A:middle
 The compiler is not going to
 change the way it generates code
 
-00:17:11.705 --> 00:17:13.246 A:middle
+00:17:11.706 --> 00:17:13.246 A:middle
 because of a non-null
 annotation.
 
-00:17:13.556 --> 00:17:16.175 A:middle
+00:17:13.556 --> 00:17:16.176 A:middle
 But this indicates the
 intent of the API author
 
-00:17:16.175 --> 00:17:17.756 A:middle
+00:17:16.176 --> 00:17:17.756 A:middle
 that nil does not
 make sense here.
 
@@ -1514,11 +1387,11 @@ make sense here.
 We also have a third qualifier,
 and that is null-unspecified.
 
-00:17:23.866 --> 00:17:26.695 A:middle
+00:17:23.866 --> 00:17:26.696 A:middle
 This is for cases where
 neither nullable nor non-null is
 
-00:17:26.695 --> 00:17:29.736 A:middle
+00:17:26.696 --> 00:17:29.736 A:middle
 actually the right thing,
 and we map these into Swift
 
@@ -1566,13 +1439,6 @@ everywhere else.
 00:17:56.866 --> 00:17:59.226 A:middle
 For your Objective-C code, it
 means you are going to start
-
-00:17:59.226 --> 00:18:01.116 A:middle
-to see new warnings for places
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.226 --> 00:18:01.116 A:middle
 to see new warnings for places
@@ -1666,14 +1532,6 @@ value for most of our APIs.
 The other interesting
 special case here is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.256 --> 00:19:01.506 A:middle
-The other interesting
-special case here is
-
 00:19:01.506 --> 00:19:03.166 A:middle
 NSError-star-star parameters.
 
@@ -1750,14 +1608,6 @@ It hasn't been documented.
 00:19:55.206 --> 00:19:57.806 A:middle
 Maybe it's doing something
 really, really interesting
-
-00:19:57.806 --> 00:20:00.396 A:middle
-with messaging nil that may or
-may not work and the only guy
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.806 --> 00:20:00.396 A:middle
 with messaging nil that may or
@@ -1841,14 +1691,6 @@ to apply to that pointer.
 This is particularly important
 for multilevel pointers
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:57.766 --> 00:21:00.816 A:middle
-This is particularly important
-for multilevel pointers
-
 00:21:00.956 --> 00:21:02.786 A:middle
 like this values parameter here
 
@@ -1922,10 +1764,6 @@ Collections.
 00:21:56.996 --> 00:21:59.696 A:middle
 Here we have this
 NSArray of subviews.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.226 --> 00:22:02.406 A:middle
 What's in the array?
@@ -2013,14 +1851,6 @@ property again.
 To make this an array
 of UI-views,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.546 --> 00:23:00.596 A:middle
-To make this an array
-of UI-views,
-
 00:23:01.096 --> 00:23:04.896 A:middle
 we just place UI-view-star, so
 UIV pointer, in angle brackets.
@@ -2028,13 +1858,13 @@ UIV pointer, in angle brackets.
 00:23:05.086 --> 00:23:06.556 A:middle
 Same syntax you have seen.
 
-00:23:06.556 --> 00:23:06.826 A:middle
+00:23:06.556 --> 00:23:06.886 A:middle
 Whoops, sorry.
 
-00:23:06.826 --> 00:23:06.996 A:middle
-(Applause).
+00:23:07.516 --> 00:23:14.566 A:middle
+[Applause]
 
-00:23:15.056 --> 00:23:18.056 A:middle
+00:23:15.066 --> 00:23:18.056 A:middle
 The same syntax you have
 seen from Swift and C++
 
@@ -2094,14 +1924,6 @@ if I didn't know this API
 00:23:56.506 --> 00:23:59.826 A:middle
 and it would be a while before
 I got the run time error,
-
-00:23:59.826 --> 00:24:02.136 A:middle
-the unrecognized selector
-that points out that no,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.826 --> 00:24:02.136 A:middle
 the unrecognized selector
@@ -2185,14 +2007,6 @@ It is okay.
 Let's do the same thing
 with the mutable variant.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.026 --> 00:25:00.886 A:middle
-Let's do the same thing
-with the mutable variant.
-
 00:25:02.336 --> 00:25:05.986 A:middle
 So we take the stored mutable
 array of views and assign it
@@ -2268,14 +2082,6 @@ at how we use this
 
 00:25:55.646 --> 00:25:57.116 A:middle
 within Foundation itself,
-
-00:25:58.446 --> 00:26:00.346 A:middle
-to actually create
-typed collections.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.446 --> 00:26:00.346 A:middle
 to actually create
@@ -2365,13 +2171,6 @@ and we want to have
 00:26:57.566 --> 00:27:00.326 A:middle
 that information in our APIs.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.566 --> 00:27:00.326 A:middle
-that information in our APIs.
-
 00:27:00.526 --> 00:27:04.116 A:middle
 Now, of course, there are
 existing categories defined
@@ -2447,18 +2246,10 @@ does not affect your ability
 to deploy back to
 existing operating systems.
 
-00:27:55.096 --> 00:27:55.246 A:middle
-(Applause.)
+00:27:55.516 --> 00:28:02.546 A:middle
+[Applause]
 
-00:27:55.546 --> 00:28:04.836 A:middle
-&gt;&gt; DOUG GREGOR: And if it wasn't
-obvious from that description,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:55.546 --> 00:28:04.836 A:middle
+00:28:03.046 --> 00:28:04.836 A:middle
 &gt;&gt; DOUG GREGOR: And if it wasn't
 obvious from that description,
 
@@ -2549,14 +2340,6 @@ system as you need.
 So all of your new code can
 be written with generics
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.806 --> 00:29:01.846 A:middle
-So all of your new code can
-be written with generics
-
 00:29:01.936 --> 00:29:03.316 A:middle
 and if you don't want
 to touch your old code,
@@ -2633,14 +2416,6 @@ respond to this selector.
 And so while the
 compiler is right,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.486 --> 00:30:02.846 A:middle
-And so while the
-compiler is right,
-
 00:30:03.286 --> 00:30:05.056 A:middle
 it's not necessarily useful
 
@@ -2709,10 +2484,6 @@ I can convert it to an NSObject
 00:30:56.936 --> 00:30:59.686 A:middle
 because every NSApplication
 is an NSObject.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.466 --> 00:31:02.746 A:middle
 The important part here,
@@ -2808,14 +2579,6 @@ it as a kindof NSview.
 So returning some kind of
 NSView, and on the Swift side,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.396 --> 00:32:03.846 A:middle
-So returning some kind of
-NSView, and on the Swift side,
-
 00:32:04.176 --> 00:32:06.466 A:middle
 ah, now we are returning
 an optional NSView.
@@ -2879,10 +2642,6 @@ specific type information
 00:32:56.286 --> 00:32:59.056 A:middle
 than ID for various
 important scenarios.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.056 --> 00:33:01.866 A:middle
 And the same year
@@ -2972,14 +2731,6 @@ that statement better.
 So, a canonical example here
 is the user info dictionary.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.606 --> 00:34:02.786 A:middle
-So, a canonical example here
-is the user info dictionary.
-
 00:34:03.156 --> 00:34:07.886 A:middle
 You have string keys and
 you have ID for the values.
@@ -2987,36 +2738,36 @@ you have ID for the values.
 00:34:08.666 --> 00:34:09.766 A:middle
 It's completely reasonable
 
-00:34:09.766 --> 00:34:12.315 A:middle
+00:34:09.766 --> 00:34:12.316 A:middle
 because the different keys
 will have different types
 
-00:34:12.315 --> 00:34:14.505 A:middle
+00:34:12.316 --> 00:34:14.506 A:middle
 in those values and it's
 something you can only
 
-00:34:14.505 --> 00:34:15.525 A:middle
+00:34:14.506 --> 00:34:15.526 A:middle
 determine dynamically.
 
-00:34:16.085 --> 00:34:20.456 A:middle
+00:34:16.086 --> 00:34:20.456 A:middle
 Let's wrap things up.
 
-00:34:20.985 --> 00:34:24.866 A:middle
+00:34:20.986 --> 00:34:24.866 A:middle
 So, we have big improvements
 for both Swift and Objective-C.
 
-00:34:25.025 --> 00:34:27.496 A:middle
+00:34:25.026 --> 00:34:27.496 A:middle
 These languages are
 codesigned and coevolved
 
-00:34:27.835 --> 00:34:29.576 A:middle
+00:34:27.836 --> 00:34:29.576 A:middle
 to work together beautifully.
 
-00:34:30.136 --> 00:34:34.295 A:middle
+00:34:30.136 --> 00:34:34.296 A:middle
 And Xcode and the tools
 supporting it will help you move
 
-00:34:34.295 --> 00:34:37.976 A:middle
+00:34:34.296 --> 00:34:37.976 A:middle
 between the two languages, the
 best way for your workflow.
 
@@ -3031,7 +2782,7 @@ modernize your usage
 00:34:44.126 --> 00:34:44.916 A:middle
 of Objective-C.
 
-00:34:45.525 --> 00:34:48.246 A:middle
+00:34:45.526 --> 00:34:48.246 A:middle
 These new language features
 give you much better APIs,
 
@@ -3039,7 +2790,7 @@ give you much better APIs,
 and you will see this in
 our APIs and in yours,
 
-00:34:50.766 --> 00:34:53.065 A:middle
+00:34:50.766 --> 00:34:53.066 A:middle
 and give you far
 better type safety
 
@@ -3050,14 +2801,6 @@ they manifest
 00:34:55.196 --> 00:34:57.386 A:middle
 as the dreaded unrecognized
 selector at runtime.
-
-00:34:57.386 --> 00:35:01.526 A:middle
-And using these features can
-really make your Objective-C
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.386 --> 00:35:01.526 A:middle
 And using these features can
@@ -3097,6 +2840,5 @@ sessions here.
 00:35:24.386 --> 00:35:24.976 A:middle
 Thank you very much.
 
-00:35:28.246 --> 00:35:28.456 A:middle
-(Applause.)
-
+00:35:25.516 --> 00:35:39.370 A:middle
+[Applause]

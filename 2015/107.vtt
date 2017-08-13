@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.406 --> 00:00:27.936 A:middle
 &gt;&gt; Jason Beaver: Good afternoon.
@@ -40,14 +39,6 @@ each major release.
 
 00:00:55.696 --> 00:00:57.786 A:middle
 In iOS 6 we added autolayout.
-
-00:00:58.336 --> 00:01:00.576 A:middle
-This allows you to
-easily build a dynamic
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.336 --> 00:01:00.576 A:middle
 This allows you to
@@ -130,23 +121,15 @@ on whether space is constrained
 in a particular dimension
 or not.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.836 --> 00:02:00.206 A:middle
-in a particular dimension
-or not.
-
 00:02:01.486 --> 00:02:05.136 A:middle
 In the settings application
 shown here this is the identical
 
-00:02:05.136 --> 00:02:08.395 A:middle
+00:02:05.136 --> 00:02:08.396 A:middle
 code running on both
 an iPad and an iPhone.
 
-00:02:08.395 --> 00:02:11.246 A:middle
+00:02:08.396 --> 00:02:11.246 A:middle
 The difference in size classes
 driven structural changes
 
@@ -210,14 +193,6 @@ distinct experiences tailored
 
 00:02:57.866 --> 00:02:59.296 A:middle
 to specific pieces of hardware.
-
-00:02:59.986 --> 00:03:04.046 A:middle
-You're providing a continuum of
-experiences tailored to the size
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.986 --> 00:03:04.046 A:middle
 You're providing a continuum of
@@ -303,14 +278,6 @@ Multitasking on iPad,
 Multitasking Essentials
 for Media-based Apps
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.586 --> 00:04:02.136 A:middle
-Multitasking Essentials
-for Media-based Apps
-
 00:04:02.486 --> 00:04:04.746 A:middle
 and Optimizing your
 App for Multitasking.
@@ -372,14 +339,6 @@ you should replace margins
 
 00:04:54.926 --> 00:04:55.706 A:middle
 with layout guides.
-
-00:04:56.026 --> 00:05:00.036 A:middle
-I want to take a moment though
-to talk about the second case,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:56.026 --> 00:05:00.036 A:middle
 I want to take a moment though
@@ -454,14 +413,6 @@ layout guides can be used
 00:05:50.676 --> 00:05:51.936 A:middle
 to reduce the number of
 views in your application.
-
-00:05:52.006 --> 00:06:00.346 A:middle
-Let's say we have a view that
-shows a number of planets
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:52.006 --> 00:06:00.346 A:middle
 Let's say we have a view that
@@ -542,14 +493,6 @@ a set of sub views as stack
 that can be arranged either
 horizontally or vertically,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.856 --> 00:07:02.106 A:middle
-that can be arranged either
-horizontally or vertically,
-
 00:07:02.396 --> 00:07:06.226 A:middle
 the StackView uses autolayout
 under the covers but manages all
@@ -623,14 +566,6 @@ in your application.
 Anything that conforms to the UI
 text input protocol can return
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.676 --> 00:08:03.966 A:middle
-Anything that conforms to the UI
-text input protocol can return
-
 00:08:04.016 --> 00:08:06.036 A:middle
 an input-assistant
 item using this method.
@@ -661,15 +596,15 @@ interface for your application
 00:08:29.226 --> 00:08:30.356 A:middle
 in a single storyboard.
 
-00:08:30.356 --> 00:08:33.395 A:middle
+00:08:30.356 --> 00:08:33.396 A:middle
 You can now link from one
 storyboard to another.
 
-00:08:34.645 --> 00:08:37.176 A:middle
+00:08:34.646 --> 00:08:37.176 A:middle
 We also offer a way
 now to unwind segues.
 
-00:08:38.015 --> 00:08:43.486 A:middle
+00:08:38.016 --> 00:08:43.486 A:middle
 [ Applause ]
 
 00:08:43.986 --> 00:08:47.106 A:middle
@@ -694,15 +629,7 @@ happen automatically
 in your app as well.
 
 00:08:57.496 --> 00:09:00.246 A:middle
-All UIKit controls will
-automatically reverse.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:57.496 --> 00:09:00.246 A:middle
-All UIKit controls will
+All UI Kit controls will
 automatically reverse.
 
 00:09:00.816 --> 00:09:02.686 A:middle
@@ -775,14 +702,6 @@ content attribute.
 The semantic content attribute
 has one of five values,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.086 --> 00:10:02.136 A:middle
-The semantic content attribute
-has one of five values,
-
 00:10:02.266 --> 00:10:03.496 A:middle
 the first is unspecified.
 
@@ -791,7 +710,7 @@ This is the default.
 
 00:10:05.096 --> 00:10:07.446 A:middle
 Unless you have a reason to
-change what UIKit is doing,
+change what UI Kit is doing,
 
 00:10:07.446 --> 00:10:09.176 A:middle
 this is the value you
@@ -840,7 +759,7 @@ either left to right
 or right-to-left layout.
 
 00:10:46.016 --> 00:10:50.026 A:middle
-Now, for images, UIKit can't
+Now, for images, UI Kit can't
 know whether an image should be
 
 00:10:50.026 --> 00:10:51.676 A:middle
@@ -862,14 +781,6 @@ you may want to flip.
 So we have a property
 or a method on UI image
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.816 --> 00:11:02.666 A:middle
-So we have a property
-or a method on UI image
-
 00:11:02.756 --> 00:11:06.436 A:middle
 from right-to-left to allow
 you to tell us that you want
@@ -883,7 +794,7 @@ if that image has been flipped.
 
 00:11:10.716 --> 00:11:14.466 A:middle
 I encourage you all to come
-to the new UIKit support
+to the new UI Kit support
 
 00:11:14.466 --> 00:11:16.266 A:middle
 for international
@@ -932,14 +843,6 @@ or in the text area itself.
 00:11:55.376 --> 00:11:58.746 A:middle
 They allow you to move the
 insertion point indirectly,
-
-00:11:59.676 --> 00:12:02.386 A:middle
-they allow you to
-select a word, sentence,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.676 --> 00:12:02.386 A:middle
 they allow you to
@@ -997,10 +900,10 @@ hardware keyboard commands.
 
 00:12:44.786 --> 00:12:46.966 A:middle
 App could have their own
-commands like command-N
+commands like command
 
 00:12:46.966 --> 00:12:48.316 A:middle
-to create a new document.
+in to create a new document.
 
 00:12:49.376 --> 00:12:50.886 A:middle
 This was a benefit
@@ -1017,14 +920,6 @@ these commands are.
 00:12:55.636 --> 00:12:59.636 A:middle
 In iOS 9 we're introducing a new
 keyboard command discoverability
-
-00:12:59.636 --> 00:13:02.656 A:middle
-HUD and if you press
-and hold the command key
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.636 --> 00:13:02.656 A:middle
 HUD and if you press
@@ -1071,7 +966,7 @@ to set the discoverability title
 for each of your key commands.
 
 00:13:33.426 --> 00:13:35.536 A:middle
-UIKit will take care
+UI Kit will take care
 automatically to figure
 
 00:13:35.536 --> 00:13:42.066 A:middle
@@ -1099,14 +994,6 @@ that you see on the screen.
 00:13:54.396 --> 00:13:58.686 A:middle
 It simply takes time to
 scan the hardware to do all
-
-00:13:58.686 --> 00:14:01.016 A:middle
-of the intermediate
-processing and drawing
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.686 --> 00:14:01.016 A:middle
 of the intermediate
@@ -1148,7 +1035,7 @@ When a touch is tracking
 on the screen,
 
 00:14:27.856 --> 00:14:29.996 A:middle
-UIKit is notifying
+UI Kit is notifying
 the application
 
 00:14:29.996 --> 00:14:32.826 A:middle
@@ -1190,10 +1077,6 @@ we now offer touch prediction
 
 00:14:59.356 --> 00:14:59.846 A:middle
 as well.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:01.016 --> 00:15:03.866 A:middle
 This uses a sophisticated
@@ -1245,7 +1128,7 @@ to less than 30 milliseconds.
 
 00:15:49.096 --> 00:15:52.896 A:middle
 We have also introduced a number
-of changes in UIKit dynamics.
+of changes in UI Kit dynamics.
 
 00:15:54.116 --> 00:15:56.886 A:middle
 The first of these is now
@@ -1253,10 +1136,6 @@ we support non-rectangular
 
 00:15:56.886 --> 00:15:59.806 A:middle
 collision bounds.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.516 --> 00:16:04.376 A:middle
 [ Applause ]
@@ -1324,37 +1203,29 @@ attachment types,
 it can dramatically simplify
 how you build your UI
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.926 --> 00:17:00.526 A:middle
-it can dramatically simplify
-how you build your UI
-
 00:17:00.526 --> 00:17:01.286 A:middle
 dynamics model.
 
-00:17:04.876 --> 00:17:09.175 A:middle
+00:17:04.876 --> 00:17:09.176 A:middle
 We're also adding the ability
 to animate the blur radius.
 
-00:17:10.516 --> 00:17:14.705 A:middle
+00:17:10.516 --> 00:17:14.706 A:middle
 [ Applause ]
 
-00:17:15.205 --> 00:17:17.955 A:middle
+00:17:15.206 --> 00:17:17.956 A:middle
 To let you receive beautiful
 effects here like you see here,
 
-00:17:17.955 --> 00:17:20.626 A:middle
+00:17:17.956 --> 00:17:20.626 A:middle
 moving into and out
 of spotlight.
 
-00:17:21.516 --> 00:17:25.185 A:middle
+00:17:21.516 --> 00:17:25.186 A:middle
 We've also made a number
 of EPI changes in iOS 9
 
-00:17:25.425 --> 00:17:28.185 A:middle
+00:17:25.426 --> 00:17:28.186 A:middle
 to optimize their
 use with Swift.
 
@@ -1389,14 +1260,6 @@ guaranteed not to be nil.
 00:17:58.126 --> 00:17:59.756 A:middle
 We also have lightweight
 generics.
-
-00:17:59.886 --> 00:18:02.426 A:middle
-This is a lightweight form
-of type parameterization
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.886 --> 00:18:02.426 A:middle
 This is a lightweight form
@@ -1454,14 +1317,6 @@ for a quick reply.
 00:18:55.616 --> 00:18:58.446 A:middle
 There is also an additional
 action parameters dictionary
-
-00:18:58.446 --> 00:19:01.186 A:middle
-that allows you to customize
-the title of the Send button.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.446 --> 00:19:01.186 A:middle
 that allows you to customize
@@ -1544,14 +1399,6 @@ content filtering.
 For Safari there's two
 new extension points.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.006 --> 00:20:01.056 A:middle
-For Safari there's two
-new extension points.
-
 00:20:02.336 --> 00:20:05.066 A:middle
 Shared Links lets your
 application specify content
@@ -1597,14 +1444,6 @@ audio plug-ins that can act
 00:20:54.356 --> 00:20:57.466 A:middle
 as musical instruments, audio
 effects or audio generators,
-
-00:20:58.896 --> 00:21:01.256 A:middle
-and until now iOS
-users were limited
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.896 --> 00:21:01.256 A:middle
 and until now iOS
@@ -1672,14 +1511,6 @@ from coming up in situations
 00:21:55.636 --> 00:21:57.556 A:middle
 where it would interfere
 with your application.
-
-00:21:57.816 --> 00:22:00.956 A:middle
-So say your application
-needs to display a barcode
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.816 --> 00:22:00.956 A:middle
 So say your application
@@ -1753,10 +1584,6 @@ custom callouts now.
 00:22:56.516 --> 00:22:59.546 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.046 --> 00:23:03.726 A:middle
 In HealthKit you have direct
 real-time access to sensor data
@@ -1823,14 +1650,6 @@ capture step to use.
 00:23:54.046 --> 00:23:57.466 A:middle
 As you saw yesterday, we made
 a number of changes to HomeKit.
-
-00:23:58.936 --> 00:24:01.446 A:middle
-We now support detailed
-change notifications.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.936 --> 00:24:01.446 A:middle
 We now support detailed
@@ -1909,14 +1728,6 @@ is detecting motion
 and it is 30 minutes
 after sunset do something.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.656 --> 00:25:01.916 A:middle
-and it is 30 minutes
-after sunset do something.
-
 00:25:02.566 --> 00:25:07.616 A:middle
 Of course HomeKit is available
 on the Watch and you can use it
@@ -1977,14 +1788,6 @@ with your web applications.
 
 00:25:56.516 --> 00:25:58.956 A:middle
 [ Applause ]
-
-00:25:59.456 --> 00:26:01.556 A:middle
-There are two sessions
-discussing CloudKit this week:
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.456 --> 00:26:01.556 A:middle
 There are two sessions
@@ -2059,14 +1862,6 @@ which can impact your sales.
 So to address this we're
 introducing on-demand resources.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.406 --> 00:27:00.886 A:middle
-So to address this we're
-introducing on-demand resources.
-
 00:27:01.816 --> 00:27:04.726 A:middle
 Your application is uploaded
 as single package exactly
@@ -2133,14 +1928,6 @@ we're introducing
 00:27:55.546 --> 00:27:58.316 A:middle
 to address your application
 size is app slicing.
-
-00:27:59.406 --> 00:28:03.546 A:middle
-Now, applications often have
-assets and executable content
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.406 --> 00:28:03.546 A:middle
 Now, applications often have
@@ -2219,14 +2006,6 @@ Game Center multiplayer.
 We've also unified the Game
 Center server environment
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.536 --> 00:29:01.926 A:middle
-We've also unified the Game
-Center server environment
-
 00:29:01.926 --> 00:29:05.796 A:middle
 to streamline development
 and testing.
@@ -2290,10 +2069,6 @@ actions, and much more.
 00:29:56.036 --> 00:29:59.866 A:middle
 There is also a ton of new
 features in SceneKit itself.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.766 --> 00:30:05.316 A:middle
 Things like scene transitions,
@@ -2364,14 +2139,6 @@ to existing frameworks,
 there is now new frameworks
 such as Watch connectivity
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.206 --> 00:31:01.826 A:middle
-there is now new frameworks
-such as Watch connectivity
-
 00:31:02.236 --> 00:31:05.596 A:middle
 for connecting to your app
 on the phone and WatchKit
@@ -2405,4 +2172,3 @@ have a great week.
 
 00:31:29.516 --> 00:31:46.360 A:middle
 [ Applause ]
-

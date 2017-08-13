@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.141 --> 00:00:26.141 A:middle
 [Applause]
@@ -41,14 +40,6 @@ of home devices in the market.
 00:00:54.336 --> 00:00:57.486 A:middle
 What this gives you is
 a tremendous opportunity
-
-00:00:58.016 --> 00:01:01.676 A:middle
-to influence the experience
-people have when interacting
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.016 --> 00:01:01.676 A:middle
 to influence the experience
@@ -107,14 +98,6 @@ made it flexible
 00:01:54.496 --> 00:01:58.916 A:middle
 so that you can define profiles
 that define custom features
-
-00:01:59.006 --> 00:02:02.176 A:middle
-of your accessory and
-still be HomeKit-enabled.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.006 --> 00:02:02.176 A:middle
 of your accessory and
@@ -182,14 +165,6 @@ matter to our customers
 if their data is not
 private or secure.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:58.016 --> 00:03:00.766 A:middle
-if their data is not
-private or secure.
-
 00:03:01.626 --> 00:03:05.806 A:middle
 HomeKit was designed
 with privacy and security
@@ -246,14 +221,6 @@ in our accessories space.
 
 00:03:53.176 --> 00:03:55.586 A:middle
 So let's get right to it.
-
-00:03:58.496 --> 00:04:01.856 A:middle
-We've got some great
-features for HomeKit in iOS 9,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:58.496 --> 00:04:01.856 A:middle
 We've got some great
@@ -327,13 +294,6 @@ and only update properties
 00:04:59.886 --> 00:05:01.046 A:middle
 that have actually changed.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.886 --> 00:05:01.046 A:middle
-that have actually changed.
-
 00:05:01.706 --> 00:05:03.196 A:middle
 [Applause] Thank you.
 
@@ -403,10 +363,6 @@ can change this.
 To solve our problem, we need
 something more persistent.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.536 --> 00:06:04.566 A:middle
 So in iOS 9, we are introducing
 persistent identifiers
@@ -462,14 +418,6 @@ these and replacing it
 00:06:53.946 --> 00:06:57.976 A:middle
 with a much simpler API, manage
 users with completion handler.
-
-00:06:58.826 --> 00:07:03.266 A:middle
-So this API presents a full
-view controller that is going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.826 --> 00:07:03.266 A:middle
 So this API presents a full
@@ -537,14 +485,6 @@ APIs to let you figure this out.
 So on HMHome, we are adding
 a new property, current user.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.246 --> 00:08:02.156 A:middle
-So on HMHome, we are adding
-a new property, current user.
-
 00:08:02.886 --> 00:08:07.276 A:middle
 That represents the currently
 signed-in user on that device.
@@ -576,7 +516,7 @@ property that will be set
 if you are the administrator
 of the home.
 
-00:08:32.025 --> 00:08:34.936 A:middle
+00:08:32.026 --> 00:08:34.936 A:middle
 So now you can update your
 apps and use this property
 
@@ -598,14 +538,6 @@ with a single command.
 00:08:54.256 --> 00:08:58.636 A:middle
 So I can have a good night
 scene where it switches out all
-
-00:08:58.636 --> 00:09:01.936 A:middle
-of the lights, secures my
-home, and sets the temperature
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.636 --> 00:09:01.936 A:middle
 of the lights, secures my
@@ -676,13 +608,6 @@ represented using a HM action
 00:09:59.576 --> 00:10:00.446 A:middle
 set object.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.576 --> 00:10:00.446 A:middle
-set object.
-
 00:10:01.686 --> 00:10:04.266 A:middle
 We have added a new
 property, action set type,
@@ -746,10 +671,6 @@ So that's the APIs, but we want
 to make scenes even much
 easier for our customers.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.196 --> 00:11:08.246 A:middle
 So now Siri works even
 better with scenes in iOS 9.
@@ -810,14 +731,6 @@ to give some kind of indication
 00:11:54.796 --> 00:11:57.086 A:middle
 that provides more
 information about the accessory.
-
-00:11:58.256 --> 00:12:01.296 A:middle
-Let's say, for example, we
-can give them visual clues,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.256 --> 00:12:01.296 A:middle
 Let's say, for example, we
@@ -889,14 +802,6 @@ property on an HM accessory.
 So this is available when you
 browse for these accessories.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.006 --> 00:13:01.456 A:middle
-So this is available when you
-browse for these accessories.
-
 00:13:02.056 --> 00:13:06.086 A:middle
 So we recommend that you use
 this new feature and enhance
@@ -951,14 +856,6 @@ mirrored from your iOS device
 00:13:52.836 --> 00:13:55.756 A:middle
 onto the watch, so you can
 make changes on your phone
-
-00:13:55.916 --> 00:14:00.416 A:middle
-and they will automatically
-synch to the watch.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:55.916 --> 00:14:00.416 A:middle
 and they will automatically
@@ -1019,13 +916,6 @@ unlock my front door,
 
 00:14:55.966 --> 00:14:56.956 A:middle
 now that generates an event.
-
-00:14:57.606 --> 00:15:00.536 A:middle
-Let's say it's before 6 p.m.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:57.606 --> 00:15:00.536 A:middle
 Let's say it's before 6 p.m.
@@ -1106,14 +996,6 @@ characteristic you want
 to be the source of that event
 and a trigger value that,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.626 --> 00:16:02.466 A:middle
-to be the source of that event
-and a trigger value that,
-
 00:16:02.646 --> 00:16:04.556 A:middle
 when that characteristic
 meets that value,
@@ -1179,14 +1061,6 @@ I talked about conditions.
 Conditions get execution of
 a scene in a given trigger.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.756 --> 00:17:03.576 A:middle
-Conditions get execution of
-a scene in a given trigger.
-
 00:17:04.406 --> 00:17:07.336 A:middle
 We support three types of
 conditions: time-based,
@@ -1207,7 +1081,7 @@ sensor detecting motion.
 Finally, we also have
 significant events in a day,
 
-00:17:21.425 --> 00:17:22.536 A:middle
+00:17:21.426 --> 00:17:22.536 A:middle
 like sunrise and sunset.
 
 00:17:23.066 --> 00:17:25.626 A:middle
@@ -1251,14 +1125,6 @@ that you can configure.
 00:17:55.986 --> 00:17:57.896 A:middle
 And you can use this,
 for example,
-
-00:17:58.886 --> 00:18:01.056 A:middle
-to create the before
-6 p.m. condition.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.886 --> 00:18:01.056 A:middle
 to create the before
@@ -1321,14 +1187,6 @@ the state of an accessory.
 00:18:52.726 --> 00:18:58.486 A:middle
 So we also have a convenience
 API on the HMEventTrigger class,
-
-00:18:58.876 --> 00:19:03.616 A:middle
-namely predicate for evaluating
-trigger with characteristic,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.876 --> 00:19:03.616 A:middle
 namely predicate for evaluating
@@ -1407,14 +1265,6 @@ We have two constants defined
 for significant events:
 sunrise and sunset.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.116 --> 00:20:02.596 A:middle
-for significant events:
-sunrise and sunset.
-
 00:20:02.596 --> 00:20:07.746 A:middle
 Let's walk through an
 example for condition
@@ -1474,14 +1324,6 @@ and then we have conditions.
 
 00:20:56.556 --> 00:20:57.496 A:middle
 How do we tie it all together?
-
-00:20:58.996 --> 00:21:01.486 A:middle
-That's when you create
-an HMEventTrigger class,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.996 --> 00:21:01.486 A:middle
 That's when you create
@@ -1558,14 +1400,6 @@ to be ended and evaluated.
 Both have to be true for
 us to execute our scene.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.826 --> 00:22:02.786 A:middle
-Both have to be true for
-us to execute our scene.
-
 00:22:03.736 --> 00:22:07.016 A:middle
 For that, just use NS compound
 predicate and predicate
@@ -1633,14 +1467,6 @@ of this example I just talked
 about using our HomeKit
 Accessory Simulator
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:55.756 --> 00:23:00.126 A:middle
-about using our HomeKit
-Accessory Simulator
-
 00:23:00.196 --> 00:23:03.846 A:middle
 and our HomeKit catalog
 sample app,
@@ -1697,14 +1523,6 @@ Simulator.
 00:23:48.346 --> 00:23:52.696 A:middle
 And I have added my
 accessories to my home.
-
-00:23:56.716 --> 00:24:01.826 A:middle
-So let's go down to the
-scenes section of the app,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:56.716 --> 00:24:01.826 A:middle
 So let's go down to the
@@ -1776,13 +1594,6 @@ to arriving home, that switches
 00:24:54.586 --> 00:24:56.456 A:middle
 on the two lights
 behind the bridge.
-
-00:24:58.236 --> 00:25:00.016 A:middle
-Now, let's simulate leaving home
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.236 --> 00:25:00.016 A:middle
 Now, let's simulate leaving home
@@ -1859,14 +1670,6 @@ the door being unlocked.
 I am going to go
 back and hit done.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:54.566 --> 00:26:00.176 A:middle
-I am going to go
-back and hit done.
-
 00:26:00.396 --> 00:26:03.486 A:middle
 So now I have captured my
 front door being unlocked
@@ -1937,14 +1740,6 @@ which would mean I need
 00:26:54.446 --> 00:26:57.016 A:middle
 to capture a characteristic
 as a source of that condition.
-
-00:26:57.376 --> 00:27:02.616 A:middle
-Select condition,
-find my sensor,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.376 --> 00:27:02.616 A:middle
 Select condition,
@@ -2031,14 +1826,6 @@ And why is that?
 The door opens, so that causes
 the event to be activated.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.326 --> 00:28:02.156 A:middle
-The door opens, so that causes
-the event to be activated.
-
 00:28:02.156 --> 00:28:05.976 A:middle
 It is before 6 p.m. So one
 of my conditions was met,
@@ -2107,14 +1894,6 @@ you know, that happy feeling.
 For those of you who have
 used the Accessory Simulator,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:57.536 --> 00:29:01.716 A:middle
-For those of you who have
-used the Accessory Simulator,
-
 00:29:01.926 --> 00:29:04.826 A:middle
 you see there's a motion sensor.
 
@@ -2161,13 +1940,6 @@ new features and enhancements
 00:29:56.686 --> 00:29:59.136 A:middle
 for Bluetooth Low Energy
 HomeKit accessories
-
-00:29:59.746 --> 00:30:02.196 A:middle
-and new accessory categories.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.746 --> 00:30:02.196 A:middle
 and new accessory categories.
@@ -2249,14 +2021,6 @@ not every one
 of our customers may
 have an Apple TV.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.416 --> 00:31:03.006 A:middle
-of our customers may
-have an Apple TV.
-
 00:31:05.156 --> 00:31:09.476 A:middle
 [Laughter] So in iOS 9, I
 am very excited to announce
@@ -2321,14 +2085,6 @@ scaled the infrastructure
 that runs the service to handle
 billions of HAP messages.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.976 --> 00:32:05.376 A:middle
-that runs the service to handle
-billions of HAP messages.
-
 00:32:05.466 --> 00:32:08.216 A:middle
 And we thought: How can
 we make this better?
@@ -2376,14 +2132,6 @@ have more ubiquitous access
 
 00:32:56.026 --> 00:32:56.996 A:middle
 to their accessories.
-
-00:32:57.476 --> 00:33:02.686 A:middle
-Now, moving on from remote
-access to Bluetooth Low Energy.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:57.476 --> 00:33:02.686 A:middle
 Now, moving on from remote
@@ -2450,14 +2198,6 @@ intermediate device to associate
 over Bluetooth Low Energy
 and expose it as an artifact
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.776 --> 00:34:04.296 A:middle
-over Bluetooth Low Energy
-and expose it as an artifact
-
 00:34:04.296 --> 00:34:08.976 A:middle
 over Wi-Fi to an iOS device.
 
@@ -2488,15 +2228,15 @@ that works with HomeKit.
 What this means is not only can
 you reach your accessories no
 
-00:34:37.596 --> 00:34:39.085 A:middle
+00:34:37.596 --> 00:34:39.086 A:middle
 matter where they
 are in the house,
 
-00:34:39.085 --> 00:34:44.136 A:middle
+00:34:39.086 --> 00:34:44.136 A:middle
 but you can also reach them
 wherever you are, home or away.
 
-00:34:44.315 --> 00:34:46.616 A:middle
+00:34:44.316 --> 00:34:46.616 A:middle
 Ultimately, privacy
 and security.
 
@@ -2517,10 +2257,6 @@ device, the range extender,
 00:34:57.376 --> 00:34:59.806 A:middle
 cannot see the content
 of the communication.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.316 --> 00:35:02.696 A:middle
 We didn't stop there.
@@ -2589,14 +2325,6 @@ regardless of the transport
 that the accessory uses
 to communicate with it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:57.626 --> 00:36:00.616 A:middle
-that the accessory uses
-to communicate with it.
-
 00:36:00.796 --> 00:36:02.006 A:middle
 Really a compelling feature.
 
@@ -2652,14 +2380,6 @@ also a new category.
 00:36:56.816 --> 00:36:59.406 A:middle
 Now, this is a category
 that several --
-
-00:36:59.406 --> 00:37:02.216 A:middle
-and alarm system and security
-system providers have asked
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.406 --> 00:37:02.216 A:middle
 and alarm system and security
@@ -2736,14 +2456,6 @@ an example.
 So let's say it's bedtime,
 and you're in your bed,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.696 --> 00:38:04.486 A:middle
-So let's say it's bedtime,
-and you're in your bed,
-
 00:38:05.396 --> 00:38:07.926 A:middle
 you stow away your
 electronics, charging somewhere,
@@ -2811,14 +2523,6 @@ as Anush mentioned,
 in our updated version of the
 HomeKit Accessory Simulator,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:58.476 --> 00:39:01.096 A:middle
-in our updated version of the
-HomeKit Accessory Simulator,
-
 00:39:01.276 --> 00:39:05.226 A:middle
 so that you, as developers,
 can develop apps
@@ -2879,14 +2583,6 @@ the debug information
 00:39:54.056 --> 00:39:56.756 A:middle
 that may not be available
 to you when you use iOS,
-
-00:39:57.416 --> 00:40:01.206 A:middle
-but the most important reason
-is that we use HAT at Apple
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:57.416 --> 00:40:01.206 A:middle
 but the most important reason
@@ -2962,14 +2658,6 @@ you are going to do with them.
 If you have any more questions,
 any questions on HomeKit,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.446 --> 00:41:01.676 A:middle
-If you have any more questions,
-any questions on HomeKit,
-
 00:41:02.676 --> 00:41:04.546 A:middle
 here's where you can get
 more information from.
@@ -2980,4 +2668,3 @@ attending our session.
 
 00:41:08.516 --> 00:41:12.500 A:middle
 [Applause]
-

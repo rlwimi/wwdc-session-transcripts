@@ -1,10 +1,9 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:15.516 A:middle
 [Music]
 
-00:00:16.015 --> 00:00:26.000 A:middle
+00:00:16.016 --> 00:00:26.000 A:middle
 [Silence]
 
 00:00:26.516 --> 00:00:33.636 A:middle
@@ -38,14 +37,6 @@ of thinking about programming.
 00:00:54.466 --> 00:00:58.656 A:middle
 What we're going to do together
 here won't necessarily be easy,
-
-00:00:58.656 --> 00:01:00.336 A:middle
-but I promise you if
-you stick with me,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.656 --> 00:01:00.336 A:middle
 but I promise you if
@@ -117,14 +108,6 @@ talking about app development,
 and said flat out, 'I
 don't do object-oriented.'
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.666 --> 00:02:02.916 A:middle
-and said flat out, 'I
-don't do object-oriented.'
-
 00:02:03.946 --> 00:02:06.406 A:middle
 I could hardly believe my ears.
 
@@ -183,14 +166,6 @@ that's what lets us
 
 00:02:54.896 --> 00:02:56.076 A:middle
 maintain invariants.
-
-00:02:58.516 --> 00:03:03.266 A:middle
-Then we use classes to represent
-relatable ideas, like window
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.516 --> 00:03:03.266 A:middle
 Then we use classes to represent
@@ -264,14 +239,6 @@ myself pretty inspired,
 but Crusty just snorted
 and [sighed].
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.176 --> 00:04:04.196 A:middle
-but Crusty just snorted
-and [sighed].
-
 00:04:05.806 --> 00:04:07.206 A:middle
 [hiss sound] He let all
 the air out of my balloon.
@@ -289,11 +256,11 @@ finished the sentence.
 00:04:15.366 --> 00:04:17.596 A:middle
 Because it's true, in Swift,
 
-00:04:17.896 --> 00:04:22.005 A:middle
+00:04:17.896 --> 00:04:22.006 A:middle
 any type you can name is a first
 class citizen and it's able
 
-00:04:22.005 --> 00:04:24.896 A:middle
+00:04:22.006 --> 00:04:24.896 A:middle
 to take advantage of
 all these capabilities.
 
@@ -330,14 +297,6 @@ and fine-grained customization.
 00:04:54.746 --> 00:04:58.666 A:middle
 So, for example, a superclass
 can define a substantial method
-
-00:04:58.666 --> 00:05:01.576 A:middle
-with complex logic,
-and subclasses get all
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.666 --> 00:05:01.576 A:middle
 with complex logic,
@@ -417,14 +376,6 @@ but let's talk about the costs.
 I have got three major beefs
 with classes,' said Crusty.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.476 --> 00:06:04.566 A:middle
-I have got three major beefs
-with classes,' said Crusty.
-
 00:06:05.156 --> 00:06:07.376 A:middle
 And he started in on
 his list of complaints.
@@ -482,10 +433,6 @@ surprise mutation.
 00:06:57.256 --> 00:06:59.206 A:middle
 B wants her data,
 not A's ponies.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.526 --> 00:07:03.816 A:middle
 Well, Crusty has a whole rant
@@ -563,13 +510,6 @@ over the years to handle this.
 00:07:59.416 --> 00:08:02.136 A:middle
 And we still get bitten.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.416 --> 00:08:02.136 A:middle
-And we still get bitten.
-
 00:08:03.176 --> 00:08:05.586 A:middle
 For example, there's
 this warning
@@ -606,7 +546,7 @@ so the one you're iterating
 and the one you're
 modifying are distinct.
 
-00:08:36.606 --> 00:08:39.395 A:middle
+00:08:36.606 --> 00:08:39.396 A:middle
 Okay, number two
 on Crusty's list,
 
@@ -614,7 +554,7 @@ on Crusty's list,
 class inheritance
 is too intrusive.
 
-00:08:43.155 --> 00:08:46.096 A:middle
+00:08:43.156 --> 00:08:46.096 A:middle
 First of all, it's monolithic.
 
 00:08:46.636 --> 00:08:48.806 A:middle
@@ -632,10 +572,6 @@ and be serialized?
 00:08:57.146 --> 00:08:59.986 A:middle
 Well, not if collection
 and serialized are classes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:01.436 --> 00:09:04.196 A:middle
 And because class inheritance
@@ -700,14 +636,6 @@ they know what their methods are
 00:09:53.106 --> 00:09:57.826 A:middle
 going to do, without using
 final and without accounting
-
-00:09:57.916 --> 00:10:00.516 A:middle
-for the chance that the
-methods might get overridden.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:57.916 --> 00:10:00.516 A:middle
 for the chance that the
@@ -784,13 +712,6 @@ this, you need a way
 00:10:59.116 --> 00:11:00.326 A:middle
 to compare two elements.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.116 --> 00:11:00.326 A:middle
-to compare two elements.
-
 00:11:00.916 --> 00:11:03.406 A:middle
 And with classes, you end
 up with something like this.
@@ -858,13 +779,6 @@ So, here's a subclass.
 00:11:59.376 --> 00:12:01.116 A:middle
 It's got a double value
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.376 --> 00:12:01.116 A:middle
-It's got a double value
-
 00:12:01.466 --> 00:12:04.926 A:middle
 and we override precedes
 to do the comparison.
@@ -923,14 +837,6 @@ type safety hole.
 
 00:12:56.656 --> 00:12:57.786 A:middle
 Why did it happen?
-
-00:12:58.656 --> 00:13:02.296 A:middle
-Well, it's because classes don't
-let us express this crucial type
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.656 --> 00:13:02.296 A:middle
 Well, it's because classes don't
@@ -1000,14 +906,6 @@ about protocols.
 Protocols have all these
 advantages, and that's why,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.886 --> 00:14:03.446 A:middle
-Protocols have all these
-advantages, and that's why,
-
 00:14:03.766 --> 00:14:07.086 A:middle
 when we made Swift, we made
 the first protocol-oriented
@@ -1062,14 +960,6 @@ our last example.
 00:14:53.396 --> 00:14:58.166 A:middle
 Okay, first, we need a protocol,
 and right away Swift complains
-
-00:14:58.316 --> 00:15:00.056 A:middle
-that we can't put
-a method body here,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.316 --> 00:15:00.056 A:middle
 that we can't put
@@ -1134,14 +1024,6 @@ first version of this example.
 
 00:15:56.236 --> 00:15:57.496 A:middle
 It's definitely a bit better.
-
-00:15:57.646 --> 00:16:00.176 A:middle
-I mean, we don't have
-that fatal error anymore,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.646 --> 00:16:00.176 A:middle
 I mean, we don't have
@@ -1214,14 +1096,6 @@ when Ordered was a class.
 And it also worked
 perfectly before we added
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.916 --> 00:17:01.866 A:middle
-And it also worked
-perfectly before we added
-
 00:17:01.866 --> 00:17:03.226 A:middle
 that Self-requirement
 to Ordered.
@@ -1245,11 +1119,11 @@ contain numbers
 and labels mixed
 together, right?
 
-00:17:22.226 --> 00:17:26.175 A:middle
+00:17:22.226 --> 00:17:26.176 A:middle
 Now that we've made
 this change to Ordered
 
-00:17:26.175 --> 00:17:28.536 A:middle
+00:17:26.176 --> 00:17:28.536 A:middle
 and added the Self-requirement,
 the compiler is going
 
@@ -1286,13 +1160,6 @@ was really a lie.
 00:17:56.396 --> 00:17:59.906 A:middle
 I mean, we never really handled
 the heterogeneous case other
-
-00:17:59.906 --> 00:18:00.976 A:middle
-than by trapping.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.906 --> 00:18:00.976 A:middle
 than by trapping.
@@ -1347,14 +1214,6 @@ you how to build a bridge
 
 00:18:56.236 --> 00:18:58.156 A:middle
 between them, at least one way.
-
-00:18:59.596 --> 00:19:07.296 A:middle
-Okay. So, I understood
-how the static aspect
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.596 --> 00:19:07.296 A:middle
 Okay. So, I understood
@@ -1423,14 +1282,6 @@ this was probably enough
 to prove his point, and then
 he created a Drawable protocol
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:56.456 --> 00:20:01.426 A:middle
-to prove his point, and then
-he created a Drawable protocol
-
 00:20:01.836 --> 00:20:05.856 A:middle
 to provide a common interface
 for all of our drawing elements.
@@ -1487,14 +1338,6 @@ from zero to two pi radians.
 00:20:51.696 --> 00:20:55.826 A:middle
 So, now we can build a diagram
 out of circles and polygons.
-
-00:20:59.076 --> 00:21:01.316 A:middle
-'Okay,' said Crusty,
-'let's take her for a spin.'
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.076 --> 00:21:01.316 A:middle
 'Okay,' said Crusty,
@@ -1562,14 +1405,6 @@ So, Crusty created a Circle
 00:21:55.046 --> 00:21:58.656 A:middle
 with curiously specific
 center and radius.
-
-00:21:59.076 --> 00:22:02.386 A:middle
-And then, with uncanny
-Spock-like precision,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.076 --> 00:22:02.386 A:middle
 And then, with uncanny
@@ -1643,14 +1478,6 @@ going to test my code?'
 And then he laid out a pretty
 compelling case for the use
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.726 --> 00:23:04.156 A:middle
-And then he laid out a pretty
-compelling case for the use
-
 00:23:04.156 --> 00:23:06.296 A:middle
 of plaintext in testing.
 
@@ -1707,14 +1534,6 @@ his code again.
 00:23:55.916 --> 00:23:59.826 A:middle
 And when he was finally
 satisfied, he said to me, 'Okay,
-
-00:23:59.826 --> 00:24:01.036 A:middle
-what are you going to
-put in your Renderer?'
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.826 --> 00:24:01.036 A:middle
 what are you going to
@@ -1782,14 +1601,6 @@ necessary CoreGraphics goop,
 and threw it all into a
 playground, and there it is.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.926 --> 00:25:02.596 A:middle
-and threw it all into a
-playground, and there it is.
-
 00:25:02.746 --> 00:25:04.646 A:middle
 Now, you can download
 this playground,
@@ -1852,14 +1663,6 @@ see the results.
 00:25:55.256 --> 00:25:58.796 A:middle
 So, I built a little scaling
 adapter and wrapped it
-
-00:25:58.796 --> 00:26:03.576 A:middle
-around the Diagram and
-this is the result.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.796 --> 00:26:03.576 A:middle
 around the Diagram and
@@ -1935,14 +1738,6 @@ really similar to what you get
 with mocks, but it's
 so much better.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.686 --> 00:27:01.836 A:middle
-with mocks, but it's
-so much better.
-
 00:27:03.086 --> 00:27:06.586 A:middle
 See, mocks are inherently
 fragile, right?
@@ -2009,10 +1804,6 @@ So, you have two circles.
 
 00:27:59.476 --> 00:27:59.976 A:middle
 Just like that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.966 --> 00:28:03.936 A:middle
 And when I put this
@@ -2089,13 +1880,6 @@ new feature in Swift.
 00:28:56.436 --> 00:29:01.896 A:middle
 This is a protocol extension.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:56.436 --> 00:29:01.896 A:middle
-This is a protocol extension.
-
 00:29:03.276 --> 00:29:05.806 A:middle
 This says 'all models
 
@@ -2165,14 +1949,6 @@ And then we'll just call them.
 Okay. Now, what happens here
 is totally unsurprising.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:57.976 --> 00:30:01.696 A:middle
-Okay. Now, what happens here
-is totally unsurprising.
-
 00:30:02.186 --> 00:30:04.856 A:middle
 We're directly calling the
 implementations in TestRenderer
@@ -2227,13 +2003,6 @@ Renderer and not a TestRenderer,
 00:30:56.586 --> 00:30:58.066 A:middle
 the protocol implementation
 is called.
-
-00:30:58.626 --> 00:31:01.226 A:middle
-Which is kind of weird, right?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.626 --> 00:31:01.226 A:middle
 Which is kind of weird, right?
@@ -2307,14 +2076,6 @@ it just feels like magic.
 I really hope that you'll enjoy
 working with the latest library
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:57.916 --> 00:32:01.176 A:middle
-I really hope that you'll enjoy
-working with the latest library
-
 00:32:01.516 --> 00:32:03.226 A:middle
 as much as we've
 enjoyed applying this
@@ -2378,13 +2139,6 @@ of this new feature.
 00:32:54.896 --> 00:32:58.766 A:middle
 So, by saying this extension
 applies when the element type
-
-00:32:58.766 --> 00:33:00.186 A:middle
-of the collection is Equatable,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.766 --> 00:33:00.186 A:middle
 of the collection is Equatable,
@@ -2457,14 +2211,6 @@ precedes for those conformances.
 So, on the one hand, this
 is really nice, right?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.746 --> 00:34:01.826 A:middle
-So, on the one hand, this
-is really nice, right?
-
 00:34:01.826 --> 00:34:03.736 A:middle
 When I want a binary
 search for Doubles, well,
@@ -2473,18 +2219,18 @@ search for Doubles, well,
 all I have to is add this
 conformance and I can do it.
 
-00:34:08.976 --> 00:34:13.295 A:middle
+00:34:08.976 --> 00:34:13.296 A:middle
 On the other hand, it's
 kind of icky, because even
 
-00:34:13.295 --> 00:34:15.156 A:middle
+00:34:13.296 --> 00:34:15.156 A:middle
 if I take away the conformance,
 
 00:34:15.516 --> 00:34:19.266 A:middle
 I still have this precedes
 function that's been glommed
 
-00:34:19.266 --> 00:34:22.045 A:middle
+00:34:19.266 --> 00:34:22.046 A:middle
 onto Doubles, which already have
 enough of an interface, right?
 
@@ -2499,10 +2245,10 @@ about adding stuff to Double.
 So, and even though
 I can do that,
 
-00:34:33.846 --> 00:34:35.755 A:middle
+00:34:33.846 --> 00:34:35.756 A:middle
 I can't binarySearch with it.
 
-00:34:35.755 --> 00:34:38.255 A:middle
+00:34:35.756 --> 00:34:38.256 A:middle
 So it's really, that precedes
 function buys me nothing.
 
@@ -2510,14 +2256,14 @@ function buys me nothing.
 Fortunately, I can
 be more selective
 
-00:34:41.766 --> 00:34:43.315 A:middle
+00:34:41.766 --> 00:34:43.316 A:middle
 about what gets a precedes API,
 
-00:34:44.235 --> 00:34:46.295 A:middle
+00:34:44.236 --> 00:34:46.296 A:middle
 by using a constrained
 extension on Ordered.
 
-00:34:46.985 --> 00:34:52.786 A:middle
+00:34:46.986 --> 00:34:52.786 A:middle
 So, this says that a type that
 is Comparable and is declared
 
@@ -2528,13 +2274,6 @@ automatically be able
 00:34:55.476 --> 00:34:57.166 A:middle
 to satisfy the precedes
 requirement,
-
-00:34:57.806 --> 00:35:00.406 A:middle
-which is exactly what we want.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.806 --> 00:35:00.406 A:middle
 which is exactly what we want.
@@ -2603,14 +2342,6 @@ extensions to make them
 00:35:52.576 --> 00:35:55.816 A:middle
 into methods like this,
 which is awesome, right?
-
-00:35:56.506 --> 00:36:00.156 A:middle
-Now, everybody focuses on
-the improvement this makes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:56.506 --> 00:36:00.156 A:middle
 Now, everybody focuses on
@@ -2687,14 +2418,6 @@ protocol extensions.
 And when you get a chance,
 I invite you to take a look
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.966 --> 00:37:01.026 A:middle
-And when you get a chance,
-I invite you to take a look
-
 00:37:01.026 --> 00:37:02.736 A:middle
 at how those extensions
 are declared
@@ -2757,14 +2480,6 @@ parts for equality, like this.
 00:37:52.946 --> 00:37:55.236 A:middle
 But, now, let's see what
 happens with Diagram.
-
-00:37:55.826 --> 00:38:03.366 A:middle
-Uh-oh. We can't compare two
-arrays of Drawable for equality.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:55.826 --> 00:38:03.366 A:middle
 Uh-oh. We can't compare two
@@ -2840,13 +2555,6 @@ We change our design like this.
 00:38:56.516 --> 00:39:01.296 A:middle
 Well, the problem with this is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:56.516 --> 00:39:01.296 A:middle
-Well, the problem with this is
-
 00:39:01.336 --> 00:39:03.266 A:middle
 that Equatable has
 Self-requirements,
@@ -2913,14 +2621,6 @@ And without Self, this is just
 00:39:54.946 --> 00:39:57.846 A:middle
 like implementing
 Ordered with classes was.
-
-00:39:58.756 --> 00:40:00.836 A:middle
-We're now going to
-force all Drawables
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:58.756 --> 00:40:00.836 A:middle
 We're now going to
@@ -2993,14 +2693,6 @@ and use equality comparison,
 because we have an
 Equatable conformance.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.526 --> 00:41:00.496 A:middle
-because we have an
-Equatable conformance.
-
 00:41:01.466 --> 00:41:04.056 A:middle
 Otherwise, the instances
 are deemed unequal.
@@ -3055,14 +2747,6 @@ solved using a special property
 00:41:51.986 --> 00:41:55.556 A:middle
 of equality, but the
 problems aren't all like that,
-
-00:41:55.906 --> 00:42:00.456 A:middle
-and there's lots of really
-cool stuff you can do.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:55.906 --> 00:42:00.456 A:middle
 and there's lots of really
@@ -3148,13 +2832,6 @@ your view hierarchy.
 00:42:59.976 --> 00:43:00.676 A:middle
 Doesn't make sense.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.976 --> 00:43:00.676 A:middle
-Doesn't make sense.
-
 00:43:01.186 --> 00:43:04.146 A:middle
 So, another case
 where the lifetime
@@ -3220,14 +2897,6 @@ We tell it to draw a line.
 00:43:52.136 --> 00:43:55.456 A:middle
 So, for example, if you
 wanted to make a TestRenderer
-
-00:43:55.456 --> 00:44:00.636 A:middle
-that accumulated the text
-to output of these commands
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:55.456 --> 00:44:00.636 A:middle
 that accumulated the text
@@ -3302,14 +2971,6 @@ just as well as anything else.
 So, when you're refactoring
 and factoring something
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.816 --> 00:45:01.826 A:middle
-So, when you're refactoring
-and factoring something
-
 00:45:01.826 --> 00:45:07.216 A:middle
 out of class, consider
 using a value type instead.
@@ -3350,4 +3011,3 @@ Thank you very much.
 
 00:45:43.016 --> 00:45:51.576 A:middle
 [Silence]
-

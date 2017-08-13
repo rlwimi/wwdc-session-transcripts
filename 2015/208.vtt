@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.516 --> 00:00:27.386 A:middle
 [Applause]
@@ -11,7 +10,7 @@ Good morning, everyone.
 00:00:30.666 --> 00:00:31.946 A:middle
 My name is Nathan deVries,
 
-00:00:32.165 --> 00:00:35.586 A:middle
+00:00:32.166 --> 00:00:35.586 A:middle
 and shortly you'll meet
 my colleague Chloe Chang.
 
@@ -46,14 +45,6 @@ change bringing your watch app
 
 00:00:56.006 --> 00:00:57.606 A:middle
 and extension to the watch.
-
-00:00:59.186 --> 00:01:01.266 A:middle
-Now, to start with, I will
-be talking a little bit
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.186 --> 00:01:01.266 A:middle
 Now, to start with, I will
@@ -135,14 +126,6 @@ new user input mechanism
 that allows you to fluidly and
 very tactilely scroll through
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:56.596 --> 00:02:02.246 A:middle
-that allows you to fluidly and
-very tactilely scroll through
-
 00:02:02.246 --> 00:02:05.536 A:middle
 and pick elements on the
 screen using the Digital Crown.
@@ -151,7 +134,7 @@ screen using the Digital Crown.
 It's a really fantastic way
 to interact with the device.
 
-00:02:10.015 --> 00:02:11.966 A:middle
+00:02:10.016 --> 00:02:11.966 A:middle
 Let's take a look at some
 of the core interactions
 
@@ -208,14 +191,6 @@ UI for choosing my age all
 
 00:02:54.806 --> 00:02:55.966 A:middle
 in a single modal sheet.
-
-00:02:56.526 --> 00:03:03.586 A:middle
-Next, we have a different way
-of presenting option picking.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.526 --> 00:03:03.586 A:middle
 Next, we have a different way
@@ -287,14 +262,6 @@ in the now playing glance.
 00:03:53.466 --> 00:03:56.356 A:middle
 So these are a few of the
 core interactions enabled
-
-00:03:56.356 --> 00:04:00.026 A:middle
-by the Crown, and we are excited
-to be able to provide those
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:56.356 --> 00:04:00.026 A:middle
 by the Crown, and we are excited
@@ -374,14 +341,6 @@ very precisely tune a 2,
 3 or 4-minute timer
 or zip through
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:57.656 --> 00:05:00.596 A:middle
-3 or 4-minute timer
-or zip through
-
 00:05:00.596 --> 00:05:03.106 A:middle
 and create a 60-minute
 timer very quickly,
@@ -454,14 +413,6 @@ if you have a very visual,
 00:05:56.366 --> 00:05:59.026 A:middle
 graphical way of
 presenting your data.
-
-00:05:59.026 --> 00:06:01.136 A:middle
-It could be photographs,
-it could be stickers
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.026 --> 00:06:01.136 A:middle
 It could be photographs,
@@ -545,14 +496,6 @@ of another emoji picking UI
 where we have the opportunity to
 choose both a face and a hand.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.336 --> 00:07:02.816 A:middle
-where we have the opportunity to
-choose both a face and a hand.
-
 00:07:03.826 --> 00:07:06.276 A:middle
 It's not immediately obvious
 what turning the Crown would do
@@ -628,13 +571,6 @@ editing UI where you want
 00:07:59.286 --> 00:08:00.626 A:middle
 to show a little breakout box
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.286 --> 00:08:00.626 A:middle
-to show a little breakout box
-
 00:08:00.766 --> 00:08:03.216 A:middle
 that clearly shows
 what the item is
@@ -683,11 +619,11 @@ with the Digital Crown.
 00:08:29.546 --> 00:08:31.416 A:middle
 One of these is the system style
 
-00:08:31.416 --> 00:08:33.275 A:middle
+00:08:31.416 --> 00:08:33.276 A:middle
 of showing a contextual
 indicator,
 
-00:08:33.275 --> 00:08:34.706 A:middle
+00:08:33.276 --> 00:08:34.706 A:middle
 the Digital Crown indicator.
 
 00:08:35.466 --> 00:08:37.696 A:middle
@@ -716,13 +652,6 @@ where you are in the options,
 
 00:08:56.696 --> 00:08:58.676 A:middle
 just through the visuals itself.
-
-00:08:59.326 --> 00:09:02.196 A:middle
-For applications that want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.326 --> 00:09:02.196 A:middle
 For applications that want
@@ -797,14 +726,6 @@ I have coordinated the picker
 with another interface element
 in my UI so it updates the image
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.136 --> 00:10:02.206 A:middle
-with another interface element
-in my UI so it updates the image
-
 00:10:02.206 --> 00:10:04.066 A:middle
 as I turn through
 the picker's items.
@@ -873,14 +794,6 @@ whether or not you would
 00:10:54.906 --> 00:10:57.646 A:middle
 like that optional Digital
 Crown indicator to be shown.
-
-00:10:58.746 --> 00:11:01.006 A:middle
-In this case, I'm
-using the list style,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.746 --> 00:11:01.006 A:middle
 In this case, I'm
@@ -969,14 +882,6 @@ as you can see from the title.
 To do that, now that we have
 a reference to the picker
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.506 --> 00:12:00.666 A:middle
-To do that, now that we have
-a reference to the picker
-
 00:12:00.666 --> 00:12:04.066 A:middle
 through the IB outlet, we can
 simply call the set items API
@@ -1052,10 +957,6 @@ So new in watchOS
 for specifying images you would
 like to be shown in your UI
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.596 --> 00:13:02.636 A:middle
 for pickers and for
 a few other objects
@@ -1124,14 +1025,6 @@ image data into the application
 00:13:53.556 --> 00:13:56.346 A:middle
 where it will be converted into
 an image just prior to display.
-
-00:13:57.366 --> 00:14:00.946 A:middle
-These first two ways of creating
-images are the preferred way
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.366 --> 00:14:00.946 A:middle
 These first two ways of creating
@@ -1207,14 +1100,6 @@ that takes a single argument,
 00:14:54.476 --> 00:14:58.776 A:middle
 which is an integer representing
 the index of the selected item
-
-00:14:58.926 --> 00:15:01.986 A:middle
-in your items array that you
-specified using set items.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.926 --> 00:15:01.986 A:middle
 in your items array that you
@@ -1297,10 +1182,6 @@ its value changes.
 This is also very
 simple to set up.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.036 --> 00:16:02.466 A:middle
 In this case, I have a picker
 in the center of the screen
@@ -1378,14 +1259,6 @@ coordinated animations
 on the picker giving
 it a list of all
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.416 --> 00:17:01.706 A:middle
-on the picker giving
-it a list of all
-
 00:17:01.706 --> 00:17:03.406 A:middle
 of the different interface
 objects that we would
@@ -1394,18 +1267,18 @@ objects that we would
 like the picker to coordinate
 as you turn through the picker.
 
-00:17:07.816 --> 00:17:09.665 A:middle
+00:17:07.816 --> 00:17:09.666 A:middle
 In this case, we only
 have a single group,
 
-00:17:10.165 --> 00:17:12.205 A:middle
+00:17:10.166 --> 00:17:12.206 A:middle
 but we could also
 specify multiple groups,
 
-00:17:12.806 --> 00:17:14.915 A:middle
+00:17:12.806 --> 00:17:14.916 A:middle
 a group in an image, and so on.
 
-00:17:15.185 --> 00:17:19.586 A:middle
+00:17:15.186 --> 00:17:19.586 A:middle
 This supports as many
 objects as you like.
 
@@ -1417,7 +1290,7 @@ WK interface picker's items,
 we coordinate with any
 associated groups and images
 
-00:17:27.435 --> 00:17:31.206 A:middle
+00:17:27.436 --> 00:17:31.206 A:middle
 which image is shown in that
 particular interface object.
 
@@ -1454,10 +1327,6 @@ So let me just get that set up.
 00:17:57.076 --> 00:17:59.416 A:middle
 So here is a little app
 that I created earlier.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.386 --> 00:18:03.636 A:middle
 It shows each of the
@@ -1534,14 +1403,6 @@ squares of random color,
 00:18:55.006 --> 00:18:58.446 A:middle
 and here you will see that I can
 very smoothly and quickly flick
-
-00:18:58.516 --> 00:19:01.676 A:middle
-through images in this
-stack style picker.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.516 --> 00:19:01.676 A:middle
 through images in this
@@ -1627,14 +1488,6 @@ left picker focused.
 As I turn the Digital Crown,
 I'm moving through 12 options
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.536 --> 00:20:03.516 A:middle
-As I turn the Digital Crown,
-I'm moving through 12 options
-
 00:20:03.516 --> 00:20:04.536 A:middle
 on the left-hand side.
 
@@ -1697,14 +1550,6 @@ experiences you can use provide
 
 00:20:56.086 --> 00:20:57.786 A:middle
 to your users in watchOS 2,
-
-00:20:58.686 --> 00:21:01.696 A:middle
-we have three brand new
-customizable styles, the list,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.686 --> 00:21:01.696 A:middle
 we have three brand new
@@ -1780,10 +1625,6 @@ Thank you very much!
 00:21:59.096 --> 00:21:59.796 A:middle
 &gt;&gt; CHLOE CHANG: Hi, everyone!
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.556 --> 00:22:06.676 A:middle
 I'm here to talk about more
 new features in watchOS 2.
@@ -1838,14 +1679,6 @@ Apple Watch speaker
 
 00:22:56.356 --> 00:22:59.696 A:middle
 or a paired bluetooth device.
-
-00:22:59.806 --> 00:23:03.686 A:middle
-Now, let me show you
-how to do this in code.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.806 --> 00:23:03.686 A:middle
 Now, let me show you
@@ -1906,14 +1739,6 @@ the media player is on screen
 
 00:23:57.216 --> 00:23:58.656 A:middle
 and the content is loaded,
-
-00:23:59.406 --> 00:24:01.496 A:middle
-the playback will
-automatically start.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.406 --> 00:24:01.496 A:middle
 the playback will
@@ -1984,13 +1809,6 @@ want to embed a snippet of video
 00:24:58.346 --> 00:25:00.026 A:middle
 in some kind of context.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.346 --> 00:25:00.026 A:middle
-in some kind of context.
-
 00:25:00.946 --> 00:25:04.366 A:middle
 We have the object
 that you need.
@@ -2054,13 +1872,6 @@ in code if you want
 00:25:59.646 --> 00:26:01.566 A:middle
 to dynamically configure this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.646 --> 00:26:01.566 A:middle
-to dynamically configure this.
-
 00:26:02.336 --> 00:26:05.356 A:middle
 Suppose in your code you
 have member variables
@@ -2119,14 +1930,6 @@ resolution is 208 by 260.
 If your content actually works
 best in a 16:9 aspect ratio,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.456 --> 00:27:05.356 A:middle
-If your content actually works
-best in a 16:9 aspect ratio,
-
 00:27:05.546 --> 00:27:09.746 A:middle
 the recommended resolution
 is 320 by 180.
@@ -2176,14 +1979,6 @@ UI is dismissed,
 00:27:53.266 --> 00:27:56.396 A:middle
 the playback can actually
 continue in the background.
-
-00:27:57.126 --> 00:28:02.846 A:middle
-A common use case for this is
-a podcast app or a music app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.126 --> 00:28:02.846 A:middle
 A common use case for this is
@@ -2252,14 +2047,6 @@ for the asset.
 And you can use KVO
 to observe the status.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.216 --> 00:29:01.056 A:middle
-And you can use KVO
-to observe the status.
-
 00:29:02.406 --> 00:29:04.406 A:middle
 Just like with AV
 foundation APIs.
@@ -2323,14 +2110,6 @@ a couple of moments to talk
 about where you should store all
 of this media data in your app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.666 --> 00:30:03.986 A:middle
-about where you should store all
-of this media data in your app.
-
 00:30:04.076 --> 00:30:08.136 A:middle
 As you know now, your app on
 Apple Watch has two components.
@@ -2388,10 +2167,6 @@ your code, you should put it
 00:30:55.416 --> 00:30:58.886 A:middle
 in the extension bundle, so that
 you can create the URL for them.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.676 --> 00:31:05.356 A:middle
 Now, in other cases, if you
@@ -2451,10 +2226,6 @@ talk about is audio recording.
 00:31:54.766 --> 00:31:59.656 A:middle
 Let's take a look at the UI,
 and see how it works in action.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.516 --> 00:32:02.986 A:middle
 Once the user presses
@@ -2517,14 +2288,6 @@ corner of the UI.
 00:32:53.546 --> 00:32:55.886 A:middle
 Suppose your app
 provides a feature
-
-00:32:55.886 --> 00:33:01.016 A:middle
-to send this recording output
-to another person, customize it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:55.886 --> 00:33:01.016 A:middle
 to send this recording output
@@ -2597,13 +2360,6 @@ the output file will be larger.
 00:33:57.666 --> 00:34:00.356 A:middle
 So it depends on your use case.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.666 --> 00:34:00.356 A:middle
-So it depends on your use case.
-
 00:34:00.596 --> 00:34:03.496 A:middle
 So if you are recording
 for a voice memo case,
@@ -2620,18 +2376,18 @@ something with higher quality,
 maybe for post processing
 purpose, then you might want
 
-00:34:14.876 --> 00:34:17.025 A:middle
+00:34:14.876 --> 00:34:17.026 A:middle
 to consider high
 quality audio preset.
 
 00:34:17.686 --> 00:34:19.076 A:middle
 With these presets,
 
-00:34:19.335 --> 00:34:22.246 A:middle
+00:34:19.336 --> 00:34:22.246 A:middle
 audio recording becomes really
 straight forward and easy
 
-00:34:22.246 --> 00:34:23.735 A:middle
+00:34:22.246 --> 00:34:23.736 A:middle
 to customize for your feature.
 
 00:34:24.206 --> 00:34:27.936 A:middle
@@ -2650,28 +2406,20 @@ sensitive data.
 You can make those
 data only accessible
 
-00:34:40.505 --> 00:34:42.666 A:middle
+00:34:40.506 --> 00:34:42.666 A:middle
 when the device is unlocked.
 
 00:34:43.576 --> 00:34:48.266 A:middle
 Apple Watch is unlocked when
 user enters the correct password
 
-00:34:49.045 --> 00:34:53.116 A:middle
+00:34:49.046 --> 00:34:53.116 A:middle
 on the Apple Watch when the
 device is on the user's wrist.
 
 00:34:53.876 --> 00:34:58.866 A:middle
 And then the data always
 becomes available to you
-
-00:34:59.156 --> 00:35:03.606 A:middle
-until the user takes the
-watch off their wrist.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.156 --> 00:35:03.606 A:middle
 until the user takes the
@@ -2739,14 +2487,6 @@ you can do something like this.
 And call item add to
 add these tributes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.666 --> 00:36:04.536 A:middle
-And call item add to
-add these tributes.
-
 00:36:05.556 --> 00:36:10.196 A:middle
 So you would create a key chain.
 
@@ -2803,14 +2543,6 @@ sample code that you want
 to reference to, and there are a
 few related sessions throughout
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:56.996 --> 00:37:02.716 A:middle
-to reference to, and there are a
-few related sessions throughout
-
 00:37:02.716 --> 00:37:06.396 A:middle
 this week you can attend
 in person or take a look
@@ -2823,4 +2555,3 @@ Thank you for listening!
 
 00:37:10.516 --> 00:37:14.500 A:middle
 [Applause]
-

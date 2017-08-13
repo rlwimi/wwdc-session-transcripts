@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:22.016 --> 00:00:23.256 A:middle
 [ Applause ]
@@ -59,14 +58,6 @@ of those new things and some
 00:00:58.306 --> 00:00:59.306 A:middle
 of the ones you're
 already familiar
-
-00:00:59.306 --> 00:01:02.326 A:middle
-with to cover what's new in
-those specifically in watchOS.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.306 --> 00:01:02.326 A:middle
 with to cover what's new in
@@ -140,14 +131,6 @@ provide much lower interaction
 latencies making your apps far
 more responsive for your users.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.316 --> 00:02:01.806 A:middle
-latencies making your apps far
-more responsive for your users.
-
 00:02:03.116 --> 00:02:05.516 A:middle
 Of course this also enables
 some really great new things
@@ -156,7 +139,7 @@ some really great new things
 like running your app when
 the iPhone is not present.
 
-00:02:09.545 --> 00:02:12.426 A:middle
+00:02:09.546 --> 00:02:12.426 A:middle
 In order to make sure that that
 can happen efficiently you need
 
@@ -229,14 +212,6 @@ that later.
 00:02:57.146 --> 00:02:58.716 A:middle
 But first let's talk
 about what's new
-
-00:02:59.016 --> 00:03:00.306 A:middle
-in the WatchKit framework
-itself.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.016 --> 00:03:00.306 A:middle
 in the WatchKit framework
@@ -330,14 +305,6 @@ have the optional focus outline
 around it and a caption
 up at the top
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.926 --> 00:04:02.286 A:middle
-around it and a caption
-up at the top
-
 00:04:02.486 --> 00:04:04.816 A:middle
 that can give you more detail
 about the selected item
@@ -361,14 +328,14 @@ elements.
 If you have multiple
 pickers onscreen
 
-00:04:15.186 --> 00:04:18.255 A:middle
+00:04:15.186 --> 00:04:18.256 A:middle
 at the same time you probably
 want to show the focus outline
 
-00:04:18.466 --> 00:04:19.565 A:middle
+00:04:18.466 --> 00:04:19.566 A:middle
 to make it clear to the user
 
-00:04:19.565 --> 00:04:22.116 A:middle
+00:04:19.566 --> 00:04:22.116 A:middle
 when they turn the crown what's
 going to end up happening.
 
@@ -420,14 +387,6 @@ transitions between them.
 00:04:57.476 --> 00:04:59.746 A:middle
 If you have something that looks
 really natural as you just move
-
-00:04:59.746 --> 00:05:02.096 A:middle
-from one frame to the
-next, you can use this one
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.746 --> 00:05:02.096 A:middle
 from one frame to the
@@ -528,14 +487,6 @@ images.
 The really cool thing
 about this,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.876 --> 00:06:01.416 A:middle
-The really cool thing
-about this,
-
 00:06:01.416 --> 00:06:03.746 A:middle
 you can take an animated
 image that you may have set
@@ -618,10 +569,6 @@ programmatically
 00:06:57.546 --> 00:06:59.696 A:middle
 but some could only be set
 within the storyboard itself.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.336 --> 00:07:02.716 A:middle
 In watchOS 2 we have gone
@@ -721,14 +668,6 @@ about Taptic Engine,
 this is another really
 unique element on Apple Watch
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.646 --> 00:08:00.646 A:middle
-this is another really
-unique element on Apple Watch
-
 00:08:00.846 --> 00:08:02.776 A:middle
 that lets you get
 information to your users
@@ -788,7 +727,7 @@ to read anything.
 You want to make sure that
 you use these consistently
 
-00:08:38.775 --> 00:08:40.376 A:middle
+00:08:38.776 --> 00:08:40.376 A:middle
 and they're named in such
 a way to help you figure
 
@@ -825,14 +764,6 @@ understand what's happening
 00:08:56.446 --> 00:08:58.206 A:middle
 without having to
 look at the screen.
-
-00:08:58.746 --> 00:09:03.916 A:middle
-There is also a few other
-pieces of hardware we wanted
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.746 --> 00:09:03.916 A:middle
 There is also a few other
@@ -920,14 +851,6 @@ your applications.
 00:09:55.856 --> 00:09:58.616 A:middle
 There is three APIs that
 enable this in different ways.
-
-00:09:59.286 --> 00:10:02.286 A:middle
-The first one is a new
-interface object called wk
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.286 --> 00:10:02.286 A:middle
 The first one is a new
@@ -1021,14 +944,6 @@ element there is also an API
 that lets you just present
 that controller directly
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.756 --> 00:11:00.826 A:middle
-that lets you just present
-that controller directly
-
 00:11:00.826 --> 00:11:01.976 A:middle
 from some other interaction.
 
@@ -1109,14 +1024,6 @@ high performance
 00:11:55.486 --> 00:11:59.566 A:middle
 and great battery usage for
 the app it doesn't require
-
-00:11:59.566 --> 00:12:01.696 A:middle
-that your application continue
-to run in the background
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.566 --> 00:12:01.696 A:middle
 that your application continue
@@ -1211,10 +1118,6 @@ description, then the list
 of buttons and the actions that
 should be taken in a block.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.246 --> 00:13:02.276 A:middle
 They'll just be displayed
 and you get called back
@@ -1288,14 +1191,6 @@ is part of the watchOS
 00:13:56.806 --> 00:13:58.546 A:middle
 so you can get access
 to the passes
-
-00:13:58.546 --> 00:14:01.126 A:middle
-that your application
-may have on iPhone.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.546 --> 00:14:01.126 A:middle
 that your application
@@ -1385,14 +1280,6 @@ a few of the other ones now.
 Starting with two that are
 specific just to watchOS.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.466 --> 00:15:00.066 A:middle
-Starting with two that are
-specific just to watchOS.
-
 00:15:00.936 --> 00:15:03.566 A:middle
 The first is Clock Kit.
 
@@ -1468,14 +1355,6 @@ of text or an image.
 00:15:54.606 --> 00:15:57.346 A:middle
 Finally, on the digital
 modular face we have our biggest
-
-00:15:57.346 --> 00:16:00.156 A:middle
-complication right in the center
-and four others are on the edge.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.346 --> 00:16:00.156 A:middle
 complication right in the center
@@ -1568,19 +1447,11 @@ current session coming up.
 As the day progresses,
 let's say it becomes 2:00
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.686 --> 00:17:01.926 A:middle
-As the day progresses,
-let's say it becomes 2:00
-
-00:17:01.986 --> 00:17:04.415 A:middle
+00:17:01.986 --> 00:17:04.416 A:middle
 and it already has the
 data so Clock Kit chooses
 
-00:17:04.415 --> 00:17:06.506 A:middle
+00:17:04.416 --> 00:17:06.506 A:middle
 to show the appropriate
 thing for that time of day.
 
@@ -1588,7 +1459,7 @@ thing for that time of day.
 It would have moved to the
 platform state of the union.
 
-00:17:09.165 --> 00:17:11.586 A:middle
+00:17:09.166 --> 00:17:11.586 A:middle
 Moving on to 4:00,
 Apple Design Awards.
 
@@ -1600,14 +1471,14 @@ this format,
 you get the automatic
 behavior throughout the day
 
-00:17:18.846 --> 00:17:21.945 A:middle
+00:17:18.846 --> 00:17:21.946 A:middle
 without the code having to run
 all the time, but you also get
 
-00:17:21.945 --> 00:17:23.445 A:middle
+00:17:21.946 --> 00:17:23.446 A:middle
 to participate in time travel
 
-00:17:23.445 --> 00:17:25.296 A:middle
+00:17:23.446 --> 00:17:25.296 A:middle
 without any additional
 effort on your part.
 
@@ -1656,14 +1527,6 @@ you need to get started.
 00:17:53.126 --> 00:17:55.906 A:middle
 Check out Creating
 Complications with Clock Kit.
-
-00:17:57.556 --> 00:18:01.056 A:middle
-The next thing I want to
-talk about, networking.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.556 --> 00:18:01.056 A:middle
 The next thing I want to
@@ -1740,14 +1603,6 @@ it has all the same set
 00:18:56.686 --> 00:18:58.816 A:middle
 of features including
 background downloads.
-
-00:18:59.386 --> 00:19:04.436 A:middle
-Of course, there are some times
-where you have code now running
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.386 --> 00:19:04.436 A:middle
 Of course, there are some times
@@ -1833,14 +1688,6 @@ best we could do,
 
 00:19:58.116 --> 00:19:59.216 A:middle
 we could definitely do better.
-
-00:19:59.456 --> 00:20:02.256 A:middle
-We had the data, we just got
-it on the iPhone and it's
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.456 --> 00:20:02.256 A:middle
 We had the data, we just got
@@ -1935,14 +1782,6 @@ to have available in your app
 on the other side
 whenever it runs next.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.906 --> 00:21:01.936 A:middle
-on the other side
-whenever it runs next.
-
 00:21:02.626 --> 00:21:05.716 A:middle
 It's always got the
 latest version of the data
@@ -2031,14 +1870,6 @@ like start a session
 or perform some activity
 on the iPhone.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.156 --> 00:22:00.966 A:middle
-or perform some activity
-on the iPhone.
-
 00:22:00.966 --> 00:22:04.726 A:middle
 Now I mentioned that these
 APIs exist on both sides
@@ -2117,14 +1948,6 @@ frameworks that are brand-new
 
 00:22:55.616 --> 00:22:57.506 A:middle
 and specific to watchOS.
-
-00:22:57.896 --> 00:23:00.306 A:middle
-There is a bunch much
-frameworks that exist on iOS
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.896 --> 00:23:00.306 A:middle
 There is a bunch much
@@ -2209,14 +2032,6 @@ go check that out.
 Additionally, core location
 is part of the watch iOS
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.176 --> 00:24:01.786 A:middle
-Additionally, core location
-is part of the watch iOS
-
 00:24:02.396 --> 00:24:06.096 A:middle
 and there is a great way to find
 out the user's new location,
@@ -2283,14 +2098,6 @@ for the users.
 00:24:51.846 --> 00:24:56.206 A:middle
 There is a whole session
 on core location what's new
-
-00:24:56.206 --> 00:25:00.116 A:middle
-in core location, a lot of
-new stuff to learn on that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:56.206 --> 00:25:00.116 A:middle
 in core location, a lot of
@@ -2380,14 +2187,6 @@ the heart rate information
 to be recorded in
 high frequency.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.316 --> 00:26:00.616 A:middle
-to be recorded in
-high frequency.
-
 00:26:01.946 --> 00:26:03.766 A:middle
 The other great thing
 about using this API
@@ -2471,14 +2270,6 @@ on What's New in HealthKit,
 definitely check that out
 if you're writing work
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.846 --> 00:27:01.936 A:middle
-definitely check that out
-if you're writing work
-
 00:27:01.936 --> 00:27:04.236 A:middle
 out style apps or anything
 that may take advantage
@@ -2556,14 +2347,6 @@ locked [applause].
 Thanks. He was very excited
 about that [laughter]!
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.426 --> 00:28:06.926 A:middle
-Thanks. He was very excited
-about that [laughter]!
-
 00:28:08.056 --> 00:28:08.906 A:middle
 All right.
 
@@ -2629,14 +2412,6 @@ to learn all about that.
 00:28:55.656 --> 00:28:58.116 A:middle
 The last two frameworks
 I want to talk about,
-
-00:28:58.116 --> 00:29:01.676 A:middle
-they're all about getting access
-to your data on Apple Watch --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.116 --> 00:29:01.676 A:middle
 they're all about getting access
@@ -2718,13 +2493,6 @@ on both Apple Watch and iPhone.
 00:29:57.436 --> 00:30:00.836 A:middle
 The final is EventKit.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:57.436 --> 00:30:00.836 A:middle
-The final is EventKit.
-
 00:30:01.186 --> 00:30:03.646 A:middle
 EventKit is how you get
 access to the user's calendar.
@@ -2792,14 +2560,6 @@ stuff when you learn it
 on one platform you apply it
 to all of the apps running
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:57.956 --> 00:31:00.976 A:middle
-on one platform you apply it
-to all of the apps running
-
 00:31:00.976 --> 00:31:03.996 A:middle
 on all platforms and other
 frameworks to take advantage
@@ -2857,4 +2617,3 @@ guys build with all of this.
 
 00:31:41.516 --> 00:31:52.950 A:middle
 [ Applause ]
-

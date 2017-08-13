@@ -1,19 +1,18 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:00:06.716 --> 00:00:10.806 A:middle
+00:00:29.046 --> 00:00:29.966 A:middle
 &gt;&gt; RICKY MONDELLO: Good
 afternoon everyone.
 
-00:00:22.376 --> 00:00:32.066 A:middle
+00:00:30.456 --> 00:00:33.106 A:middle
 Welcome. Before we get
 started I just want
 
-00:00:32.066 --> 00:00:34.256 A:middle
+00:00:33.106 --> 00:00:34.966 A:middle
 to get a little feel
 for the crowd.
 
-00:00:34.606 --> 00:00:36.036 A:middle
+00:00:35.136 --> 00:00:36.036 A:middle
 Little show of hands.
 
 00:00:36.716 --> 00:00:37.796 A:middle
@@ -55,18 +54,10 @@ you've built or you're thinking
 about building, how many of them
 are a dedicated web browser?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:57.196 --> 00:01:01.196 A:middle
-about building, how many of them
-are a dedicated web browser?
-
 00:01:02.526 --> 00:01:03.966 A:middle
 Okay. A few of you.
 
-00:01:04.696 --> 00:01:05.355 A:middle
+00:01:04.696 --> 00:01:05.356 A:middle
 Not that many.
 
 00:01:07.036 --> 00:01:09.366 A:middle
@@ -95,10 +86,10 @@ of you out of the business
 of writing those
 miniature web browsers.
 
-00:01:25.186 --> 00:01:27.126 A:middle
-(Cheers and applause.)
+00:01:25.516 --> 00:01:30.646 A:middle
+[ Cheers and applause ]
 
-00:01:29.806 --> 00:01:31.336 A:middle
+00:01:31.146 --> 00:01:31.336 A:middle
 &gt;&gt; RICKY MONDELLO: I'm going
 
 00:01:31.336 --> 00:01:33.726 A:middle
@@ -141,10 +132,6 @@ discussion I'm going to lump it
 
 00:01:58.026 --> 00:01:59.916 A:middle
 into two different buckets.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.656 --> 00:02:03.316 A:middle
 The first bucket is
@@ -230,13 +217,6 @@ is the preferred tool
 00:02:59.896 --> 00:03:01.696 A:middle
 to do this; it's your friend.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.896 --> 00:03:01.696 A:middle
-to do this; it's your friend.
-
 00:03:02.896 --> 00:03:06.136 A:middle
 It was introduced in
 iOS 8 and OS X Yosemite,
@@ -283,10 +263,10 @@ of WKWebView that were missing.
 First and foremost, you can
 securely loadFileURLs now.
 
-00:03:45.146 --> 00:03:45.436 A:middle
-(Applause.)
+00:03:45.516 --> 00:03:50.546 A:middle
+[ Applause ]
 
-00:03:49.726 --> 00:03:52.306 A:middle
+00:03:51.046 --> 00:03:52.306 A:middle
 &gt;&gt; RICKY MONDELLO:
 You can also loadData,
 
@@ -297,20 +277,12 @@ that you wanted this way.
 00:03:55.806 --> 00:03:57.126 A:middle
 No need to spin up a server.
 
-00:03:57.426 --> 00:04:02.066 A:middle
-And if you like, you can set
-your own customUserAgent string.
+00:03:57.426 --> 00:04:01.906 A:middle
+And if you like, you can
+set your own customUserAgent
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.426 --> 00:04:02.066 A:middle
-And if you like, you can set
-your own customUserAgent string.
-
-00:04:02.866 --> 00:04:03.246 A:middle
-(Applause.)
+00:04:02.896 --> 00:04:03.296 A:middle
+string [applause].
 
 00:04:07.966 --> 00:04:11.206 A:middle
 We've also added a new API to
@@ -372,14 +344,6 @@ customizing,
 00:04:55.986 --> 00:04:58.246 A:middle
 WKWebView is the right
 tool for the job.
-
-00:04:59.116 --> 00:05:03.936 A:middle
-And in iOS 9 and OS X El Capitan
-we've given you more flexibility
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.116 --> 00:05:03.936 A:middle
 And in iOS 9 and OS X El Capitan
@@ -457,22 +421,14 @@ going back to the last app,
 makes this a better
 option than ever.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.716 --> 00:06:00.216 A:middle
-makes this a better
-option than ever.
-
-00:06:00.696 --> 00:06:02.626 A:middle
+00:06:00.696 --> 00:06:02.606 A:middle
 It's more lightweight
 than iOS 8 was.
 
-00:06:02.626 --> 00:06:02.856 A:middle
-(Applause.)
+00:06:03.516 --> 00:06:08.596 A:middle
+[ Applause ]
 
-00:06:08.036 --> 00:06:10.796 A:middle
+00:06:09.096 --> 00:06:10.796 A:middle
 &gt;&gt; RICKY MONDELLO: And
 delegating the responsibility
 
@@ -536,10 +492,6 @@ tap on a link within your app,
 00:06:55.236 --> 00:06:58.456 A:middle
 view a web page and press done
 to go right back to your app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.006 --> 00:07:02.336 A:middle
 Safari View Controller
@@ -626,14 +578,6 @@ really important to point
 out this is completely
 safe for your users.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.196 --> 00:08:02.316 A:middle
-out this is completely
-safe for your users.
-
 00:08:02.676 --> 00:08:05.386 A:middle
 And the reason that
 this is safe is
@@ -701,14 +645,6 @@ interesting, compelling,
 00:08:56.366 --> 00:08:58.856 A:middle
 but difficult to
 read, she will be able
-
-00:08:58.856 --> 00:09:01.496 A:middle
-to use the Safari
-Reader button in order
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.856 --> 00:09:01.496 A:middle
 to use the Safari
@@ -787,10 +723,6 @@ Really cool.
 And while we're on the
 topic of customization,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.956 --> 00:10:04.126 A:middle
 Safari View Controller will
 respect a custom tint color
@@ -818,17 +750,14 @@ View Controller.
 This next feature is really
 awesome and it's new to iOS 9.
 
-00:10:24.006 --> 00:10:27.316 A:middle
-It's called Content
-Blocking -- go ahead!
+00:10:24.006 --> 00:10:27.836 A:middle
+It's called Content Blocking
+-- go ahead [chuckles]!
 
-00:10:27.316 --> 00:10:27.736 A:middle
-(Chuckles.)
+00:10:28.516 --> 00:10:31.546 A:middle
+[ Applause ]
 
-00:10:27.736 --> 00:10:27.926 A:middle
-(Applause.)
-
-00:10:31.966 --> 00:10:33.786 A:middle
+00:10:32.046 --> 00:10:33.786 A:middle
 &gt;&gt; RICKY MONDELLO: So the big
 idea behind Content Blocking,
 
@@ -867,32 +796,22 @@ really don't like all
 of the clickbait headlines
 that are in that side bar.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.486 --> 00:11:01.676 A:middle
-of the clickbait headlines
-that are in that side bar.
-
 00:11:02.536 --> 00:11:05.056 A:middle
 So if you install the right
 content blocker you won't
 
 00:11:05.056 --> 00:11:06.156 A:middle
-believe what happens next.
+believe what happens
+next [chuckles].
 
-00:11:06.566 --> 00:11:06.796 A:middle
-(Chuckles.)
-
-00:11:07.046 --> 00:11:08.586 A:middle
+00:11:06.666 --> 00:11:08.586 A:middle
 Oh, well, you will.
 
 00:11:10.266 --> 00:11:11.196 A:middle
 The content disappears.
 
-00:11:15.626 --> 00:11:15.806 A:middle
-(Applause.)
+00:11:12.516 --> 00:11:16.096 A:middle
+[ Applause ]
 
 00:11:16.596 --> 00:11:17.356 A:middle
 &gt;&gt; RICKY MONDELLO:
@@ -958,14 +877,6 @@ So that's a bunch of features.
 
 00:11:56.556 --> 00:11:57.706 A:middle
 Let's talk about safety.
-
-00:11:58.286 --> 00:12:02.346 A:middle
-I mentioned a moment ago that
-Safari View Controller runs
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.286 --> 00:12:02.346 A:middle
 I mentioned a moment ago that
@@ -1046,10 +957,6 @@ passwords, have shared cookies,
 clean up articles
 with Safari Reader
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.306 --> 00:13:02.686 A:middle
 and in iOS 9, Content Blocking.
 
@@ -1129,14 +1036,6 @@ I'll get to in a moment,
 and initializer which
 takes a URL.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.956 --> 00:14:02.096 A:middle
-and initializer which
-takes a URL.
-
 00:14:02.826 --> 00:14:05.256 A:middle
 This is the URL of the web
 page that your user tapped on,
@@ -1208,13 +1107,6 @@ Hi, everyone.
 00:14:59.086 --> 00:15:00.106 A:middle
 My name is Yongjun.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.086 --> 00:15:00.106 A:middle
-My name is Yongjun.
-
 00:15:00.366 --> 00:15:02.196 A:middle
 I'm a Safari and
 WebKit engineer.
@@ -1281,10 +1173,6 @@ option one first.
 00:15:57.376 --> 00:15:58.916 A:middle
 So I go to my Xcode project.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.036 --> 00:16:04.996 A:middle
 And here in my store view
 controller I got a function
@@ -1301,7 +1189,7 @@ This will let Safari
 open the URL.
 
 00:16:16.806 --> 00:16:18.146 A:middle
-Lets test it.
+Let's test it.
 
 00:16:19.516 --> 00:16:25.286 A:middle
 I run the app and select
@@ -1352,23 +1240,15 @@ Because they can get distracted
 and might not come
 back to my app later.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.956 --> 00:17:02.266 A:middle
-and might not come
-back to my app later.
-
 00:17:03.286 --> 00:17:05.256 A:middle
 So I really need a
 browser in my app.
 
-00:17:05.866 --> 00:17:10.215 A:middle
+00:17:05.866 --> 00:17:10.216 A:middle
 I'm going to try option 2
 now to make my own browser.
 
-00:17:11.705 --> 00:17:16.736 A:middle
+00:17:11.706 --> 00:17:16.736 A:middle
 So first thing I want to do,
 I want to go back to my app.
 
@@ -1419,14 +1299,6 @@ of delegates I can use to listen
 00:17:55.596 --> 00:17:57.646 A:middle
 to page load events
 or navigation events.
-
-00:17:58.276 --> 00:18:00.596 A:middle
-I can use this delegate
-to drive my UI.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.276 --> 00:18:00.596 A:middle
 I can use this delegate
@@ -1502,14 +1374,6 @@ load my view controller
 from the story board assigned
 a URL to it and presented it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.226 --> 00:19:01.886 A:middle
-from the story board assigned
-a URL to it and presented it.
-
 00:19:02.936 --> 00:19:04.366 A:middle
 Now let's take a look.
 
@@ -1566,12 +1430,12 @@ and password autofilled.
 So it will be harder for me
 to order pizza now especially
 
-00:19:45.316 --> 00:19:47.806 A:middle
+00:19:45.316 --> 00:19:46.866 A:middle
 when I'm hungry, and impatient,
-and I don't have my password.
 
-00:19:48.326 --> 00:19:48.476 A:middle
-(Laughter.)
+00:19:46.866 --> 00:19:47.806 A:middle
+and I don't have my
+password [laughter].
 
 00:19:49.616 --> 00:19:54.176 A:middle
 &gt;&gt; YONGJUN ZHANG: So, what
@@ -1580,13 +1444,6 @@ I really need is some simple
 00:19:54.176 --> 00:19:59.076 A:middle
 and easy way to show
 a website from my app.
-
-00:19:59.846 --> 00:20:01.246 A:middle
-I don't want to spend my time
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.846 --> 00:20:01.246 A:middle
 I don't want to spend my time
@@ -1658,13 +1515,6 @@ gives delegate and present it.
 00:20:59.616 --> 00:21:02.056 A:middle
 Before we test it I also need
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.616 --> 00:21:02.056 A:middle
-Before we test it I also need
-
 00:21:02.056 --> 00:21:05.386 A:middle
 to implement
 safariViewControllerDidFinish,
@@ -1724,12 +1574,8 @@ really happy about it.
 00:21:56.956 --> 00:21:57.526 A:middle
 Thank you.
 
-00:21:57.706 --> 00:21:57.896 A:middle
-(Applause.)
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:21:58.516 --> 00:22:02.926 A:middle
+[ Applause ]
 
 00:22:03.426 --> 00:22:07.176 A:middle
 &gt;&gt; YONGJUN ZHANG:
@@ -1794,14 +1640,6 @@ use WKWebView for,
 00:22:55.206 --> 00:22:58.616 A:middle
 or actual websites when a user
 taps on a link in your app
-
-00:22:59.016 --> 00:23:01.916 A:middle
-which you'll use Safari or
-Safari View Controller for.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.016 --> 00:23:01.916 A:middle
 which you'll use Safari or
@@ -1879,14 +1717,6 @@ Let's say that it's your app.
 
 00:23:57.596 --> 00:23:59.166 A:middle
 The second actor is a user.
-
-00:23:59.896 --> 00:24:01.126 A:middle
-Let's say it's one
-of your users.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.896 --> 00:24:01.126 A:middle
 Let's say it's one
@@ -1971,10 +1801,6 @@ to protect a user's credentials
 so that an app doesn't
 have to remember them.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.236 --> 00:25:01.676 A:middle
 Instead the app gets a token.
 
@@ -2056,14 +1882,6 @@ awesome user story.
 Because since Safari View
 Controller has access
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.026 --> 00:26:00.816 A:middle
-Because since Safari View
-Controller has access
-
 00:26:00.816 --> 00:26:04.436 A:middle
 to a user's credentials, synced
 across all of their devices
@@ -2132,14 +1950,6 @@ handleOpenURL method.
 00:26:55.556 --> 00:26:57.526 A:middle
 From there you can
 inspect the response
-
-00:26:58.146 --> 00:27:01.036 A:middle
-and dismiss the instance
-of SFSafariViewController
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.146 --> 00:27:01.036 A:middle
 and dismiss the instance
@@ -2221,14 +2031,6 @@ and OS X El Capitan,
 it has much more
 flexibility for you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.816 --> 00:28:01.546 A:middle
-it has much more
-flexibility for you.
-
 00:28:03.196 --> 00:28:05.866 A:middle
 If you'd like to learn more
 about adopting WKWebView,
@@ -2297,14 +2099,6 @@ to Safari itself.
 00:28:56.666 --> 00:28:58.316 A:middle
 And the system wide
 ability to go back
-
-00:28:58.436 --> 00:29:00.566 A:middle
-to the last app makes
-this much better
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.436 --> 00:29:00.566 A:middle
 to the last app makes
@@ -2383,18 +2177,11 @@ exist as you're trying it
 00:29:59.686 --> 00:30:00.946 A:middle
 out over the next few months,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.686 --> 00:30:00.946 A:middle
-out over the next few months,
-
-00:30:01.396 --> 00:30:03.916 A:middle
+00:30:01.396 --> 00:30:04.976 A:middle
 please let us know how we can
 make it more useful to you.
 
-00:30:04.706 --> 00:30:08.866 A:middle
+00:30:05.056 --> 00:30:08.866 A:middle
 We really do appreciate
 your feedback.
 
@@ -2471,13 +2258,6 @@ the right place to go.
 00:30:58.936 --> 00:31:00.616 A:middle
 And the first one is happening
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.936 --> 00:31:00.616 A:middle
-And the first one is happening
-
 00:31:00.616 --> 00:31:03.136 A:middle
 in about a half an
 hour in Media Lab A.
@@ -2486,10 +2266,9 @@ hour in Media Lab A.
 Alright, thank you
 so much everybody.
 
-00:31:06.566 --> 00:31:14.736 A:middle
+00:31:06.566 --> 00:31:08.336 A:middle
 I hope you have a
 fantastic WWDC.
 
-00:31:14.736 --> 00:31:14.886 A:middle
-(Applause.)
-
+00:31:10.516 --> 00:31:23.690 A:middle
+[ Applause ]

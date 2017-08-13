@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:14.546 A:middle
 [ Music ]
@@ -40,21 +39,14 @@ to a hybrid scenario
 00:00:56.926 --> 00:01:00.036 A:middle
 of both the object-orientated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:56.926 --> 00:01:00.036 A:middle
-of both the object-orientated
-
 00:01:00.036 --> 00:01:02.306 A:middle
 and functionally
 asynchronous concepts.
 
-00:01:03.106 --> 00:01:05.025 A:middle
+00:01:03.106 --> 00:01:05.026 A:middle
 Now, I am pretty sure that all
 
-00:01:05.025 --> 00:01:06.976 A:middle
+00:01:05.026 --> 00:01:06.976 A:middle
 of you have seen
 this application.
 
@@ -106,22 +98,15 @@ Philippe.
 00:01:55.516 --> 00:02:01.546 A:middle
 [ Silence ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:55.516 --> 00:02:01.546 A:middle
-[ Silence ]
-
 00:02:02.046 --> 00:02:05.456 A:middle
 So, my name is Dave DeLong, and
 I am a Frameworks Evangelist
 
-00:02:05.456 --> 00:02:08.045 A:middle
+00:02:05.456 --> 00:02:08.046 A:middle
 at Apple, and I am also
 the primary engineer
 
-00:02:08.045 --> 00:02:11.126 A:middle
+00:02:08.046 --> 00:02:11.126 A:middle
 on the WWDC app, which hopefully
 you are all familiar with.
 
@@ -171,14 +156,6 @@ Any time you use an NSOperation,
 00:02:55.076 --> 00:02:58.026 A:middle
 you will always be using
 an NSOperationQueue.
-
-00:02:58.886 --> 00:03:01.886 A:middle
-And the way to think about
-an NSOperationQueue is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.886 --> 00:03:01.886 A:middle
 And the way to think about
@@ -251,14 +228,6 @@ of an NSOperationQueue to be 1,
 then we essentially make
 our NSOperationQueue
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.026 --> 00:04:00.666 A:middle
-then we essentially make
-our NSOperationQueue
-
 00:04:00.716 --> 00:04:01.976 A:middle
 into a serial operation queue.
 
@@ -320,14 +289,6 @@ behavior of an operation queue
 
 00:04:56.306 --> 00:04:58.186 A:middle
 like this can be very powerful.
-
-00:04:58.496 --> 00:05:00.856 A:middle
-We don't have to decide
-this at creation time
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.496 --> 00:05:00.856 A:middle
 We don't have to decide
@@ -397,14 +358,6 @@ logic on how it executes.
 So in order to subclass
 NSOperation,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.836 --> 00:06:02.486 A:middle
-So in order to subclass
-NSOperation,
-
 00:06:03.036 --> 00:06:04.796 A:middle
 let's take a look
 at its lifecycle.
@@ -461,14 +414,6 @@ So that's pretty simple.
 00:06:54.276 --> 00:06:57.896 A:middle
 The other thing that
 an operation can do is
-
-00:06:57.896 --> 00:07:01.556 A:middle
-at any point, it can
-enter a canceled state.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.896 --> 00:07:01.556 A:middle
 at any point, it can
@@ -548,14 +493,6 @@ So as you subclass NSOperation,
 be sure to observe this value
 changing and react appropriately
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.636 --> 00:08:03.176 A:middle
-be sure to observe this value
-changing and react appropriately
-
 00:08:03.466 --> 00:08:04.976 A:middle
 if there's any reaction
 you need to do.
@@ -605,7 +542,7 @@ And if in that small window
 of time your operation
 finishes executing,
 
-00:08:42.655 --> 00:08:45.236 A:middle
+00:08:42.656 --> 00:08:45.236 A:middle
 then your operation will
 actually never be canceled
 
@@ -626,10 +563,6 @@ there are some cases
 
 00:08:57.776 --> 00:08:59.446 A:middle
 where it won't actually cancel.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.956 --> 00:09:04.036 A:middle
 However, if you do need
@@ -692,14 +625,6 @@ Now, the first operation
 00:09:54.326 --> 00:09:58.686 A:middle
 to enter the ready state
 is the first operation
-
-00:09:58.686 --> 00:10:02.926 A:middle
-that will be executed, even,
-for example, in this case,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.686 --> 00:10:02.926 A:middle
 that will be executed, even,
@@ -771,14 +696,6 @@ that first we want
 to execute this thing, and then
 we want to execute that thing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.686 --> 00:11:03.166 A:middle
-to execute this thing, and then
-we want to execute that thing.
-
 00:11:07.656 --> 00:11:08.906 A:middle
 And the neat thing
 
@@ -839,10 +756,6 @@ amongst your operations,
 00:11:58.316 --> 00:11:59.876 A:middle
 again, is extremely simple.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.666 --> 00:12:04.226 A:middle
 All we need to do is use
 the add dependency method.
@@ -896,14 +809,6 @@ they will both never start.
 00:12:57.286 --> 00:12:59.006 A:middle
 So as you are setting
 up dependencies
-
-00:12:59.006 --> 00:13:01.676 A:middle
-in your application,
-don't do this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.006 --> 00:13:01.676 A:middle
 in your application,
@@ -965,14 +870,6 @@ iTunes username and password.
 00:13:53.836 --> 00:13:57.706 A:middle
 So your Apple ID is an
 appropriate developer Apple ID.
-
-00:13:59.076 --> 00:14:03.486 A:middle
-Now, favorites in the WWDC
-app are stored in CloudKit,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.076 --> 00:14:03.486 A:middle
 Now, favorites in the WWDC
@@ -1053,10 +950,6 @@ of the application,
 what features we have
 enabled, and so on.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.516 --> 00:15:02.966 A:middle
 So after we download
 this file, we are going
@@ -1135,10 +1028,6 @@ to move them all
 into the Pending
 Operations state.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.026 --> 00:16:01.396 A:middle
 Now, the first operation
 
@@ -1213,22 +1102,14 @@ has already finished.
 By using dependencies, we can
 guarantee that things happen
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.736 --> 00:17:02.116 A:middle
-By using dependencies, we can
-guarantee that things happen
-
 00:17:02.166 --> 00:17:06.306 A:middle
 in the correct order and that
 nothing will get out of order.
 
-00:17:06.925 --> 00:17:08.316 A:middle
+00:17:06.926 --> 00:17:08.316 A:middle
 So now that this one is ready,
 
-00:17:08.715 --> 00:17:11.205 A:middle
+00:17:08.716 --> 00:17:11.206 A:middle
 it can be executed,
 and it can finish.
 
@@ -1246,7 +1127,7 @@ are a fantastic way
 00:17:22.816 --> 00:17:24.846 A:middle
 to abstract logic in your code.
 
-00:17:26.195 --> 00:17:30.676 A:middle
+00:17:26.196 --> 00:17:30.676 A:middle
 By putting our logic inside of
 operations, it makes it easier
 
@@ -1281,14 +1162,6 @@ you all to think about,
 00:17:54.026 --> 00:17:58.136 A:middle
 what would it take to move
 your application from a custom,
-
-00:17:58.246 --> 00:18:01.346 A:middle
-from whatever service you
-are using now to CloudKit?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.246 --> 00:18:01.346 A:middle
 from whatever service you
@@ -1368,10 +1241,6 @@ through it, you will see places
 where we are using Grand Central
 Dispatch in that sample code
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.276 --> 00:19:02.976 A:middle
 for things that are not really
 appropriate to NSOperations.
@@ -1443,14 +1312,6 @@ we can put UI elements,
 UI functionality
 within our operations.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:57.636 --> 00:20:01.036 A:middle
-UI functionality
-within our operations.
-
 00:20:01.366 --> 00:20:04.076 A:middle
 So for example, the
 authentication dialogue
@@ -1514,14 +1375,6 @@ is an excellent thing
 to encapsulate inside
 of an NSOperation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.566 --> 00:21:02.336 A:middle
-to encapsulate inside
-of an NSOperation.
-
 00:21:02.966 --> 00:21:07.646 A:middle
 So to reiterate, the first
 time you launch the WWDC app,
@@ -1577,14 +1430,6 @@ operations, NSBlock operation
 00:21:54.336 --> 00:21:56.366 A:middle
 and other custom
 operations that we created.
-
-00:21:58.586 --> 00:22:01.396 A:middle
-So this is really just an
-NSOperation to execute a block.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.586 --> 00:22:01.396 A:middle
 So this is really just an
@@ -1657,14 +1502,6 @@ and then we are going
 to put this block inside
 of a block operation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.806 --> 00:23:03.116 A:middle
-to put this block inside
-of a block operation.
-
 00:23:03.746 --> 00:23:07.316 A:middle
 Now, we only want to allow
 you to leave feedback
@@ -1728,14 +1565,6 @@ the WWDC app,
 00:23:54.466 --> 00:23:58.496 A:middle
 we noticed that there were some
 cases where we were doing a lot
-
-00:23:58.496 --> 00:24:00.846 A:middle
-of the same operations
-over and over again.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.496 --> 00:24:00.846 A:middle
 of the same operations
@@ -1810,14 +1639,6 @@ encapsulate some small pieces
 of information, the session
 identifier and whether
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.466 --> 00:25:02.896 A:middle
-of information, the session
-identifier and whether
-
 00:25:02.896 --> 00:25:05.296 A:middle
 or not you want it added
 to favorites or removed
@@ -1879,14 +1700,6 @@ to remove the requirement
 00:25:56.596 --> 00:25:58.636 A:middle
 that you need to be logged
 in to save a favorite,
-
-00:25:58.966 --> 00:26:01.126 A:middle
-then we simply remove
-the small line of code
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.966 --> 00:26:01.126 A:middle
 then we simply remove
@@ -1960,14 +1773,6 @@ our CloudKit operation.
 We also want to guarantee,
 perhaps, that maybe we only want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.416 --> 00:27:01.866 A:middle
-We also want to guarantee,
-perhaps, that maybe we only want
-
 00:27:01.976 --> 00:27:04.616 A:middle
 to execute an operation if we
 have access to your location.
@@ -2025,10 +1830,6 @@ of operations where we found
 00:27:56.756 --> 00:27:59.356 A:middle
 that they were always
 being done together.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.296 --> 00:28:03.016 A:middle
 So we thought, wouldn't it
@@ -2109,14 +1910,6 @@ create a second operation
 to parse whatever was
 downloaded and make it dependent
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.616 --> 00:29:04.196 A:middle
-to parse whatever was
-downloaded and make it dependent
-
 00:29:04.466 --> 00:29:05.626 A:middle
 on the download operation
 
@@ -2173,14 +1966,6 @@ needed a way to be able
 00:29:54.726 --> 00:29:57.446 A:middle
 to dynamically compose
 operations.
-
-00:29:59.956 --> 00:30:03.636 A:middle
-So we created this wrapper
-called a Fetch Favorites
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.956 --> 00:30:03.636 A:middle
 So we created this wrapper
@@ -2246,10 +2031,6 @@ potentially, in sequence.
 00:30:58.076 --> 00:30:59.986 A:middle
 Now, in the code, it
 looks something like this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.736 --> 00:31:03.576 A:middle
 Our operations have
@@ -2318,14 +2099,6 @@ this cursor
 and semi-recursively call
 this execute query operation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:55.826 --> 00:32:00.476 A:middle
-and semi-recursively call
-this execute query operation.
-
 00:32:00.886 --> 00:32:04.546 A:middle
 And this is how we can be
 executing many query operations.
@@ -2387,10 +2160,6 @@ longer even sure if you are back
 00:32:56.686 --> 00:32:59.046 A:middle
 on the first alert or if
 you are now on the third.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.316 --> 00:33:03.966 A:middle
 We really wanted to avoid
@@ -2462,14 +2231,6 @@ And it is really simple.
 So let's go back to
 the alert example.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.116 --> 00:34:00.026 A:middle
-So let's go back to
-the alert example.
-
 00:34:01.546 --> 00:34:05.306 A:middle
 Let's say we create an operation
 to display alert and alert
@@ -2478,7 +2239,7 @@ to display alert and alert
 to the user, and we put it
 onto an operation queue.
 
-00:34:08.755 --> 00:34:11.186 A:middle
+00:34:08.756 --> 00:34:11.186 A:middle
 And maybe it's there waiting
 for something else to finish,
 
@@ -2497,28 +2258,28 @@ happens, and we decide
 to create another
 alert operation.
 
-00:34:21.606 --> 00:34:25.735 A:middle
+00:34:21.606 --> 00:34:25.736 A:middle
 Well, all we need to do is
 make the second alert operation
 
 00:34:26.036 --> 00:34:28.156 A:middle
 dependent on the first one.
 
-00:34:29.146 --> 00:34:32.835 A:middle
+00:34:29.146 --> 00:34:32.836 A:middle
 And this is where
 cross-queue dependencies are
 
-00:34:32.835 --> 00:34:33.826 A:middle
+00:34:32.836 --> 00:34:33.826 A:middle
 really powerful.
 
 00:34:34.726 --> 00:34:36.906 A:middle
 Because it does not matter
 
-00:34:37.045 --> 00:34:40.956 A:middle
+00:34:37.046 --> 00:34:40.956 A:middle
 which queue this alert
 operation is executing on,
 
-00:34:41.476 --> 00:34:44.815 A:middle
+00:34:41.476 --> 00:34:44.816 A:middle
 as long as the second operation
 is dependent on the first,
 
@@ -2537,14 +2298,6 @@ for some insane reason,
 00:34:56.446 --> 00:34:58.826 A:middle
 we decide to create
 more alert operations,
-
-00:34:59.066 --> 00:35:02.176 A:middle
-even more alert operations,
-as long as we set
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.066 --> 00:35:02.176 A:middle
 even more alert operations,
@@ -2619,13 +2372,6 @@ thought was a pretty neat way
 00:35:59.586 --> 00:36:01.926 A:middle
 to solve them.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.586 --> 00:36:01.926 A:middle
-to solve them.
-
 00:36:02.136 --> 00:36:04.726 A:middle
 So let's talk about
 the sample code.
@@ -2681,14 +2427,6 @@ subclass of NSOperation.
 00:36:50.096 --> 00:36:54.366 A:middle
 And in the sample code, this
 operation adds two key features.
-
-00:36:55.676 --> 00:37:00.116 A:middle
-The first is the
-idea of a condition,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:55.676 --> 00:37:00.116 A:middle
 The first is the
@@ -2768,14 +2506,6 @@ in the sample code.
 Now, this operation has
 a concept of a condition.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.476 --> 00:38:02.256 A:middle
-Now, this operation has
-a concept of a condition.
-
 00:38:02.596 --> 00:38:05.226 A:middle
 And a condition is a
 protocol that we have defined,
@@ -2848,14 +2578,6 @@ or only execute this operation
 if we have access
 to your calendar
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.596 --> 00:39:01.156 A:middle
-if we have access
-to your calendar
-
 00:39:01.256 --> 00:39:03.926 A:middle
 or to your photo library
 or to your contacts
@@ -2916,14 +2638,6 @@ to watch to make sure
 
 00:39:57.016 --> 00:39:58.446 A:middle
 that the operation completes
-
-00:39:58.446 --> 00:40:00.726 A:middle
-within whatever time
-interval you specified,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:58.446 --> 00:40:00.726 A:middle
 within whatever time
@@ -3009,14 +2723,6 @@ can attach to an operation,
 and when it begins, it's
 going to increment a sort
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:57.976 --> 00:41:00.676 A:middle
-and when it begins, it's
-going to increment a sort
-
 00:41:00.676 --> 00:41:05.746 A:middle
 of retain count on the
 activity indicator spinner
@@ -3094,10 +2800,6 @@ lots of really meaty goodness,
 and I really encourage you to
 download it and check it out.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.266 --> 00:42:03.946 A:middle
 So, in summary, use operations
 
@@ -3157,14 +2859,6 @@ things with very minimal effort.
 00:42:56.346 --> 00:42:58.176 A:middle
 So we have a couple of
 related sessions for you.
-
-00:42:58.666 --> 00:43:02.606 A:middle
-Immediately after this
-session is "Building Responsive
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.666 --> 00:43:02.606 A:middle
 Immediately after this
@@ -3239,4 +2933,3 @@ a great rest of the conference.
 
 00:43:57.508 --> 00:43:59.508 A:middle
 [ Applause ]
-

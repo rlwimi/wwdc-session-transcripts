@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.516 --> 00:00:26.806 A:middle
 [ Applause ]
@@ -45,19 +44,11 @@ like to control from an app.
 Or maybe a golf club that
 would send information
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.146 --> 00:01:01.506 A:middle
-Or maybe a golf club that
-would send information
-
 00:01:01.506 --> 00:01:03.136 A:middle
 about your swing back
 to an application.
 
-00:01:04.275 --> 00:01:06.046 A:middle
+00:01:04.276 --> 00:01:06.046 A:middle
 Perhaps you have an
 application and you would
 
@@ -136,13 +127,6 @@ Thank you for joining us.
 00:01:58.896 --> 00:02:00.016 A:middle
 Did anyone watch it online?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.896 --> 00:02:00.016 A:middle
-Did anyone watch it online?
-
 00:02:02.826 --> 00:02:03.786 A:middle
 Less people, all right.
 
@@ -150,7 +134,7 @@ Less people, all right.
 Well, it is not required
 for this session,
 
-00:02:08.136 --> 00:02:09.545 A:middle
+00:02:08.136 --> 00:02:09.546 A:middle
 but I suggest you check
 it out afterwards.
 
@@ -215,14 +199,6 @@ again until the experience
 
 00:02:55.946 --> 00:02:57.116 A:middle
 of your product is incredible.
-
-00:02:59.346 --> 00:03:01.156 A:middle
-As you might have
-imagined, the reception
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.346 --> 00:03:01.156 A:middle
 As you might have
@@ -310,10 +286,6 @@ Would you all like to see it?
 00:03:56.516 --> 00:03:59.726 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.226 --> 00:04:00.716 A:middle
 &gt;&gt; JEFFREY TRAER
 BERNSTEIN: Excellent.
@@ -325,13 +297,6 @@ disruptive, connected, social,
 00:04:11.326 --> 00:04:22.646 A:middle
 big data-y Internet of
 Things thing and this is it.
-
-00:04:24.516 --> 00:05:24.356 A:middle
-[ Music ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:24.516 --> 00:05:24.356 A:middle
 [ Music ]
@@ -366,10 +331,6 @@ three great colors: Silver,
 
 00:05:56.856 --> 00:05:59.686 A:middle
 Space Grey and 18-Karat gold.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.516 --> 00:06:07.016 A:middle
 [ Applause ]
@@ -440,14 +401,6 @@ begin by drawing the Watch
 00:06:56.116 --> 00:06:59.276 A:middle
 on another device so we can
 experiment with the interface.
-
-00:06:59.926 --> 00:07:03.726 A:middle
-This is a pretty well formed
-watch as it exists today.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.926 --> 00:07:03.726 A:middle
 This is a pretty well formed
@@ -526,13 +479,6 @@ This was important.
 00:07:59.406 --> 00:08:00.636 A:middle
 This is a Transit app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.406 --> 00:08:00.636 A:middle
-This is a Transit app.
-
 00:08:00.636 --> 00:08:03.286 A:middle
 I need to be able to see
 what it's like to run
@@ -588,7 +534,7 @@ with pictures
 as we explained last
 year with Toast Modern,
 
-00:08:39.285 --> 00:08:43.736 A:middle
+00:08:39.286 --> 00:08:43.736 A:middle
 and it is important to try it
 in context at the right size,
 
@@ -610,13 +556,6 @@ and learn from their feedback.
 00:08:55.676 --> 00:08:58.576 A:middle
 This year we are going to make
 fake hardware and software.
-
-00:08:59.386 --> 00:09:00.466 A:middle
-Before we begin we are going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.386 --> 00:09:00.466 A:middle
 Before we begin we are going
@@ -697,14 +636,6 @@ ideas does this give us?
 Now we are going to go through
 the cycle three times today
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.946 --> 00:10:00.556 A:middle
-Now we are going to go through
-the cycle three times today
-
 00:10:00.926 --> 00:10:02.186 A:middle
 and show you a few
 different techniques.
@@ -772,14 +703,6 @@ that Jeff just mentioned.
 00:10:53.626 --> 00:10:56.646 A:middle
 First of all, what do
 we make more real now?
-
-00:10:56.646 --> 00:11:02.176 A:middle
-Well, I want us actually
-to start with the receiving
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:56.646 --> 00:11:02.176 A:middle
 Well, I want us actually
@@ -859,10 +782,6 @@ or at least anywhere
 00:11:57.476 --> 00:11:58.416 A:middle
 around the house for sure.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.676 --> 00:12:03.346 A:middle
 So let's start with
 looking at our Toaster.
@@ -927,14 +846,6 @@ put in a piece of bread.
 00:12:56.176 --> 00:12:58.036 A:middle
 We also said that we
 wanted to indicate
-
-00:12:58.516 --> 00:13:00.656 A:middle
-when a new Toastie
-has been received.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.516 --> 00:13:00.656 A:middle
 when a new Toastie
@@ -1011,14 +922,6 @@ corner there's a convenient open
 spot that is the perfect place
 for the link to our Toast inbox.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:55.576 --> 00:14:00.096 A:middle
-spot that is the perfect place
-for the link to our Toast inbox.
-
 00:14:00.456 --> 00:14:04.656 A:middle
 I'll put a Toaster icon up there
 and a little notification badge.
@@ -1083,13 +986,6 @@ like on an actual device.
 00:14:55.756 --> 00:14:58.596 A:middle
 This immediately gives
 us a really life like
-
-00:14:58.596 --> 00:15:01.206 A:middle
-but completely fake app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.596 --> 00:15:01.206 A:middle
 but completely fake app.
@@ -1165,14 +1061,6 @@ there is a new Toastie even
 00:15:55.716 --> 00:15:57.266 A:middle
 when we are not sitting
 in the kitchen
-
-00:15:57.816 --> 00:16:00.046 A:middle
-in full anticipation
-looking at our Toaster.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.816 --> 00:16:00.046 A:middle
 in full anticipation
@@ -1255,10 +1143,6 @@ toasting we are not even going
 00:16:58.756 --> 00:16:59.866 A:middle
 to touch that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.816 --> 00:17:03.406 A:middle
 For the app sending data back
 and forth, again we are going
@@ -1267,20 +1151,20 @@ and forth, again we are going
 to fake that and our UI
 is mostly still pictures
 
-00:17:06.715 --> 00:17:07.406 A:middle
+00:17:06.716 --> 00:17:07.406 A:middle
 and animations.
 
 00:17:08.856 --> 00:17:10.096 A:middle
 Where will the products be used?
 
-00:17:10.205 --> 00:17:11.336 A:middle
+00:17:10.206 --> 00:17:11.336 A:middle
 Still the same as before.
 
 00:17:11.576 --> 00:17:14.826 A:middle
 The Toaster in the kitchen
 and the app really anywhere.
 
-00:17:16.376 --> 00:17:17.665 A:middle
+00:17:16.376 --> 00:17:17.666 A:middle
 Let's look at our Toaster again.
 
 00:17:18.236 --> 00:17:22.146 A:middle
@@ -1336,10 +1220,6 @@ a different Toastie has
 
 00:17:59.076 --> 00:17:59.666 A:middle
 been selected.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.836 --> 00:18:04.296 A:middle
 We will also add a screen
@@ -1407,13 +1287,6 @@ push down the digital lever
 00:18:53.656 --> 00:18:58.396 A:middle
 and eventually the Toastie
 pops back out on both devices.
-
-00:18:59.486 --> 00:19:00.336 A:middle
-Now, that's pretty cool.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.486 --> 00:19:00.336 A:middle
 Now, that's pretty cool.
@@ -1499,14 +1372,6 @@ additional effort into it.
 I want to keep using the keynote
 prototypes we just built.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:56.566 --> 00:20:01.276 A:middle
-I want to keep using the keynote
-prototypes we just built.
-
 00:20:01.276 --> 00:20:04.546 A:middle
 It turns out our team has a
 really convenient technique
@@ -1566,14 +1431,6 @@ But how do we do that?
 00:20:53.576 --> 00:20:56.926 A:middle
 Especially considering that
 this is really just images
-
-00:20:56.926 --> 00:21:02.056 A:middle
-on devices, and we didn't
-write a single line of code.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:56.926 --> 00:21:02.056 A:middle
 on devices, and we didn't
@@ -1643,13 +1500,6 @@ do anything to achieve it.
 00:21:57.256 --> 00:21:59.596 A:middle
 You wouldn't believe
 actually how many people
-
-00:21:59.596 --> 00:22:00.826 A:middle
-at Apple we tricked
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.596 --> 00:22:00.826 A:middle
 at Apple we tricked
@@ -1725,13 +1575,6 @@ Bill on the stage
 00:22:58.856 --> 00:23:00.666 A:middle
 to show you guys how to do that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.856 --> 00:23:00.666 A:middle
-to show you guys how to do that.
-
 00:23:01.516 --> 00:23:03.916 A:middle
 [ Applause ]
 
@@ -1794,10 +1637,6 @@ For example, the digital lever.
 00:23:53.706 --> 00:23:56.256 A:middle
 We can't drag that up and
 down, which is pretty critical.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:03.046 --> 00:24:06.856 A:middle
 So let's return to
@@ -1865,14 +1704,6 @@ completely canned
 00:24:56.426 --> 00:24:58.496 A:middle
 and also the Toasties
 themselves,
-
-00:24:58.966 --> 00:25:01.246 A:middle
-we'll have them be
-images on both devices.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.966 --> 00:25:01.246 A:middle
 we'll have them be
@@ -1948,10 +1779,6 @@ is starting to feel very real.
 Maybe it's time to 3D print
 a model of our Toaster
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.516 --> 00:26:03.816 A:middle
 and start customizing
 Toasties with a laser cutter.
@@ -2007,14 +1834,6 @@ us from the task at hand
 00:26:57.096 --> 00:26:58.666 A:middle
 which is designing
 the experience.
-
-00:26:58.666 --> 00:27:04.316 A:middle
-So to the extent that we do
-any engineering at this point,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.666 --> 00:27:04.316 A:middle
 So to the extent that we do
@@ -2084,14 +1903,6 @@ the app of the Toaster.
 00:27:55.936 --> 00:27:57.896 A:middle
 We are going to port
 them to Swift.
-
-00:27:58.566 --> 00:28:02.496 A:middle
-And when I say we are going to
-port them to Swift, I don't mean
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.566 --> 00:28:02.496 A:middle
 And when I say we are going to
@@ -2169,14 +1980,6 @@ the Toastie is Toasted.
 So here is our new
 interactive app prototype.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.826 --> 00:29:05.146 A:middle
-So here is our new
-interactive app prototype.
-
 00:29:05.146 --> 00:29:09.426 A:middle
 What we've done is turned this
 carousel into a UI scroll view
@@ -2233,10 +2036,6 @@ which sets Toasting to true,
 00:29:54.226 --> 00:29:56.976 A:middle
 kicks off an animation and
 our Toastie is presented.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:06.046 --> 00:30:06.276 A:middle
 All right.
@@ -2312,14 +2111,6 @@ in our studio all the time.
 You can imagine that you are
 making a connected Fireplace
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.826 --> 00:31:01.546 A:middle
-You can imagine that you are
-making a connected Fireplace
-
 00:31:01.806 --> 00:31:03.476 A:middle
 and you want to integrate
 that with HomeKit.
@@ -2383,14 +2174,6 @@ Now we need to send data across.
 00:31:52.286 --> 00:31:56.346 A:middle
 Pick the Toastie from the
 app and send physical states
-
-00:31:56.346 --> 00:32:00.706 A:middle
-across from the Toaster
-back to the app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:56.346 --> 00:32:00.706 A:middle
 across from the Toaster
@@ -2476,10 +2259,6 @@ to peer connection.
 This is what our network
 is going to look like.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.316 --> 00:33:02.646 A:middle
 We have two iPhones
 connected to an iPad
@@ -2556,10 +2335,6 @@ we send back and forth?
 The app Prototype wants to tell
 the Toaster the Toasty number
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.276 --> 00:34:01.786 A:middle
 and the Toast darkness.
 
@@ -2571,29 +2346,29 @@ send the lever position
 when Toasting began and
 when Toasting ended.
 
-00:34:10.315 --> 00:34:13.545 A:middle
+00:34:10.316 --> 00:34:13.546 A:middle
 A little bit of code
 that does that.
 
-00:34:13.795 --> 00:34:16.106 A:middle
+00:34:13.796 --> 00:34:16.106 A:middle
 We are just going to
 convert our string to data
 
 00:34:16.106 --> 00:34:17.396 A:middle
 and send that to the session.
 
-00:34:18.636 --> 00:34:21.315 A:middle
+00:34:18.636 --> 00:34:21.316 A:middle
 And this is an example of how we
 might send the letter position.
 
-00:34:21.315 --> 00:34:23.676 A:middle
+00:34:21.316 --> 00:34:23.676 A:middle
 We are going to say
 we've got our message
 
-00:34:23.735 --> 00:34:24.866 A:middle
+00:34:23.736 --> 00:34:24.866 A:middle
 which is lever position.
 
-00:34:25.005 --> 00:34:27.606 A:middle
+00:34:25.006 --> 00:34:27.606 A:middle
 Throw a carat in there and
 pass some data along with it.
 
@@ -2601,11 +2376,11 @@ pass some data along with it.
 This is a totally arbitrary
 format but fast and simple.
 
-00:34:32.315 --> 00:34:34.856 A:middle
+00:34:32.316 --> 00:34:34.856 A:middle
 We will split the incoming
 messages on that carat
 
-00:34:35.326 --> 00:34:38.985 A:middle
+00:34:35.326 --> 00:34:38.986 A:middle
 and switch overall the message
 names and pass the data off
 
@@ -2613,7 +2388,7 @@ names and pass the data off
 to whatever function
 is appropriate.
 
-00:34:41.815 --> 00:34:45.096 A:middle
+00:34:41.816 --> 00:34:45.096 A:middle
 This allows us this really
 cool dynamic relationship
 
@@ -2624,25 +2399,18 @@ between our Toaster and our app.
 You can see as I drag the
 digital lever up and down,
 
-00:34:50.426 --> 00:34:54.045 A:middle
+00:34:50.426 --> 00:34:54.046 A:middle
 that's reflected in the app.
 
-00:34:54.306 --> 00:34:55.085 A:middle
+00:34:54.306 --> 00:34:55.086 A:middle
 That's pretty great.
 
-00:34:55.085 --> 00:34:56.085 A:middle
+00:34:55.086 --> 00:34:56.086 A:middle
 We've closed the loop.
 
-00:34:56.525 --> 00:34:58.456 A:middle
+00:34:56.526 --> 00:34:58.456 A:middle
 We have interactive
 apps and Toasters.
-
-00:34:59.636 --> 00:35:00.436 A:middle
-The world is good.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.636 --> 00:35:00.436 A:middle
 The world is good.
@@ -2702,14 +2470,6 @@ from the color slider.
 
 00:35:58.206 --> 00:35:59.366 A:middle
 Maybe in the next round
-
-00:35:59.366 --> 00:36:04.896 A:middle
-of Prototyping iteration we
-adjust the color of the LEDs
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.366 --> 00:36:04.896 A:middle
 of Prototyping iteration we
@@ -2795,14 +2555,6 @@ where most Toasters have that.
 We need a number
 display on the Toaster.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.036 --> 00:37:00.896 A:middle
-We need a number
-display on the Toaster.
-
 00:37:01.616 --> 00:37:03.656 A:middle
 We need a sensor on
 the digital lever
@@ -2881,10 +2633,6 @@ In context.
 For your app, fake it
 with pictures in context
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.106 --> 00:38:03.636 A:middle
 and for the connection between
 the two, just tap through both.
@@ -2935,4 +2683,3 @@ Thank you very much, everybody!
 
 00:38:38.516 --> 00:38:41.500 A:middle
 [ Applause ]
-

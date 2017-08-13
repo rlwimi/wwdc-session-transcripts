@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.116 --> 00:00:24.536 A:middle
 &gt;&gt; ANDERS BERTELRUD:
@@ -56,14 +55,6 @@ and how it is being improved.
 00:00:56.126 --> 00:00:58.376 A:middle
 We are going to talk about
 what you can do in order
-
-00:00:58.376 --> 00:01:01.036 A:middle
-to make app thinning as
-efficient as possible.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.376 --> 00:01:01.036 A:middle
 to make app thinning as
@@ -144,14 +135,6 @@ into that.
 Some of your apps are code
 heavy, have a lot of code
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.156 --> 00:02:01.146 A:middle
-Some of your apps are code
-heavy, have a lot of code
-
 00:02:01.146 --> 00:02:04.366 A:middle
 and not so many resources
 and others are the other way
@@ -211,14 +194,6 @@ and others for the iPad idiom.
 00:02:50.536 --> 00:02:57.756 A:middle
 If you have a game or other 3D
 graphics oriented app, maybe 1X,
-
-00:02:57.796 --> 00:03:01.626 A:middle
-2X doesn't mean as much to
-you as text compression does
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.796 --> 00:03:01.626 A:middle
 2X doesn't mean as much to
@@ -302,13 +277,6 @@ loaded on the right device.
 00:03:59.986 --> 00:04:00.836 A:middle
 That's great.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.986 --> 00:04:00.836 A:middle
-That's great.
-
 00:04:01.016 --> 00:04:04.056 A:middle
 That's actually what app
 slicing takes advantage of.
@@ -324,7 +292,7 @@ slice, for the iPad, et cetera.
 What we are doing with app
 slicing is making the runtime
 
-00:04:18.676 --> 00:04:22.125 A:middle
+00:04:18.676 --> 00:04:22.126 A:middle
 decision of what assets to load,
 moving that up into the store.
 
@@ -362,14 +330,6 @@ Similar thing.
 
 00:04:55.926 --> 00:04:57.266 A:middle
 What is important to note here,
-
-00:04:57.266 --> 00:05:01.686 A:middle
-you still will be uploading
-one universal app with all
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.266 --> 00:05:01.686 A:middle
 you still will be uploading
@@ -439,14 +399,6 @@ and 29-megabytes,
 00:05:55.466 --> 00:05:58.446 A:middle
 This is an app that
 we run the slicing on.
-
-00:05:58.806 --> 00:06:00.886 A:middle
-There is actually 19 different
-variants that are produced
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.806 --> 00:06:00.886 A:middle
 There is actually 19 different
@@ -543,14 +495,6 @@ a lot of those.
 In order to provide a rich
 experience, you may have a lot
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.766 --> 00:07:02.306 A:middle
-In order to provide a rich
-experience, you may have a lot
-
 00:07:02.306 --> 00:07:04.476 A:middle
 of templates, but they
 might take a lot of space.
@@ -626,14 +570,6 @@ to keep in the app itself.
 We can have things
 that come in on demand.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.806 --> 00:08:02.316 A:middle
-We can have things
-that come in on demand.
-
 00:08:03.506 --> 00:08:09.756 A:middle
 By splitting this up, then you
 can actually shrink the base
@@ -696,14 +632,6 @@ managed by the system
 00:08:55.906 --> 00:08:58.456 A:middle
 that can cache the
 on-demand resources
-
-00:08:58.456 --> 00:09:00.726 A:middle
-from the different
-applications on the device.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.456 --> 00:09:00.726 A:middle
 from the different
@@ -790,14 +718,6 @@ any nonexecutable assets.
 App slicing works on
 the asset catalogs
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.586 --> 00:10:00.696 A:middle
-App slicing works on
-the asset catalogs
-
 00:10:00.696 --> 00:10:01.896 A:middle
 in the assets you've
 put in there.
@@ -865,14 +785,6 @@ Pacific Heights at 4:30.
 00:10:54.186 --> 00:10:56.996 A:middle
 Let's take a look at what kind
 of slice savings we get then.
-
-00:10:57.116 --> 00:11:00.386 A:middle
-After slicing, we had
-on average 22 megabytes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.116 --> 00:11:00.386 A:middle
 After slicing, we had
@@ -957,14 +869,6 @@ over the wire which is great.
 That makes it easier for you
 to stay under the 100-megabyte
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.856 --> 00:12:00.386 A:middle
-That makes it easier for you
-to stay under the 100-megabyte
-
 00:12:00.826 --> 00:12:04.646 A:middle
 over the air size limit,
 the cellular limit.
@@ -1031,14 +935,6 @@ compromise for you when you look
 00:12:52.236 --> 00:12:57.596 A:middle
 at your size versus the things
 you want to put into your app.
-
-00:12:57.996 --> 00:13:01.476 A:middle
-So after that overview, I
-would like to ask Patrick,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.996 --> 00:13:01.476 A:middle
 So after that overview, I
@@ -1131,14 +1027,6 @@ or doing it already.
 If you have been developing
 iOS apps for a while,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.916 --> 00:14:03.756 A:middle
-If you have been developing
-iOS apps for a while,
-
 00:14:03.756 --> 00:14:06.276 A:middle
 you have already been
 incorporating 1X, 2X,
@@ -1205,14 +1093,6 @@ It is an important note.
 
 00:14:54.746 --> 00:14:56.416 A:middle
 So I mentioned device traits.
-
-00:14:56.876 --> 00:15:00.656 A:middle
-So in the asset catalog
-world, devices have a key set
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:56.876 --> 00:15:00.656 A:middle
 So in the asset catalog
@@ -1290,14 +1170,6 @@ and high end devices.
 The new device traits
 allow you to tailor assets
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.686 --> 00:16:00.776 A:middle
-The new device traits
-allow you to tailor assets
-
 00:16:01.136 --> 00:16:04.966 A:middle
 to those different capabilities.
 
@@ -1357,14 +1229,6 @@ What is this for?
 Name data allows you to
 store arbitrary file content.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.366 --> 00:17:03.216 A:middle
-Name data allows you to
-store arbitrary file content.
-
 00:17:04.586 --> 00:17:06.626 A:middle
 Now, this in fact
 alleviates some
@@ -1377,26 +1241,26 @@ have had at my statement
 that we only thin asset
 catalogue based content.
 
-00:17:10.925 --> 00:17:14.465 A:middle
+00:17:10.926 --> 00:17:14.466 A:middle
 You ask: What if I'm trying to
 thin non-image based resources?
 
-00:17:14.636 --> 00:17:15.955 A:middle
+00:17:14.636 --> 00:17:15.956 A:middle
 That is what name data is for.
 
-00:17:16.236 --> 00:17:19.175 A:middle
+00:17:16.236 --> 00:17:19.176 A:middle
 It allows you to put any
 arbitrary file content stored
 
-00:17:19.175 --> 00:17:22.226 A:middle
+00:17:19.176 --> 00:17:22.226 A:middle
 in your asset catalog
 and classified according
 
-00:17:22.226 --> 00:17:24.715 A:middle
+00:17:22.226 --> 00:17:24.716 A:middle
 to those hardware capabilities
 I mentioned to you earlier.
 
-00:17:27.195 --> 00:17:30.516 A:middle
+00:17:27.196 --> 00:17:30.516 A:middle
 And then at runtime you use
 the new NS DataAsset class
 
@@ -1437,14 +1301,6 @@ OS X and Watch.
 
 00:17:57.666 --> 00:17:59.266 A:middle
 All these features work there.
-
-00:17:59.266 --> 00:18:01.486 A:middle
-The APIs are present
-on all the platforms.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.266 --> 00:18:01.486 A:middle
 The APIs are present
@@ -1510,14 +1366,6 @@ create a thinned version
 00:18:53.406 --> 00:18:58.886 A:middle
 of those compiled texture
 atlases and treat those
-
-00:18:58.886 --> 00:19:02.436 A:middle
-as thinnable resources that
-will be thinned automatically
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.886 --> 00:19:02.436 A:middle
 as thinnable resources that
@@ -1607,14 +1455,6 @@ correctly today on a range
 of devices, odds are it will
 work well with app thinning,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.136 --> 00:20:01.156 A:middle
-of devices, odds are it will
-work well with app thinning,
-
 00:20:01.656 --> 00:20:03.966 A:middle
 because it is reallythe
 same mechanism.
@@ -1687,14 +1527,6 @@ but that never gets presented
 00:20:57.306 --> 00:20:59.116 A:middle
 on the iPhone versions
 of the application.
-
-00:20:59.396 --> 00:21:00.876 A:middle
-It would have worked
-fine before to have it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.396 --> 00:21:00.876 A:middle
 It would have worked
@@ -1776,14 +1608,6 @@ for other platforms.
 When you add this to your
 project, you are presented
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.196 --> 00:22:04.046 A:middle
-When you add this to your
-project, you are presented
-
 00:22:04.046 --> 00:22:06.656 A:middle
 with an organization array
 and spectrum on the left
@@ -1848,14 +1672,6 @@ the asset catalog feature
 00:22:53.716 --> 00:22:56.506 A:middle
 in conjunction with thinning
 to accommodate these scenarios.
-
-00:22:57.986 --> 00:23:00.166 A:middle
-Specifically, we've
-designed it in a way
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.986 --> 00:23:00.166 A:middle
 Specifically, we've
@@ -1931,13 +1747,6 @@ runtime artifacts.
 00:23:52.426 --> 00:23:56.306 A:middle
 Let's take a look at what
 this means in detail.
-
-00:23:56.876 --> 00:24:00.006 A:middle
-We take the previous example
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:56.876 --> 00:24:00.006 A:middle
 We take the previous example
@@ -2032,10 +1841,6 @@ what traits are relevant
 00:24:56.936 --> 00:24:59.346 A:middle
 for a particular resource.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.126 --> 00:25:01.846 A:middle
 So if we were to actually look
 
@@ -2108,14 +1913,6 @@ the way this works,
 00:25:54.326 --> 00:25:56.886 A:middle
 how they join the file
 names with the properties
-
-00:25:57.326 --> 00:26:00.056 A:middle
-that this is why it doesn't
-matter what file name you put
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.326 --> 00:26:00.056 A:middle
 that this is why it doesn't
@@ -2201,14 +1998,6 @@ coventions and default layer
 to export directly
 into an image set,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.896 --> 00:27:00.216 A:middle
-to export directly
-into an image set,
-
 00:27:00.996 --> 00:27:03.996 A:middle
 and they have a special hacked
 version of the generator
@@ -2280,14 +2069,6 @@ only requirement
 00:27:55.176 --> 00:27:58.396 A:middle
 from a project file level, from
 an Xcode project file level.
-
-00:27:59.656 --> 00:28:04.976 A:middle
-Anything contained within that
-can have an arbitrary hierarchy,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.656 --> 00:28:04.976 A:middle
 Anything contained within that
@@ -2368,14 +2149,6 @@ automatically thins resources
 for the currently active
 run destination in Xcode.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:57.496 --> 00:29:01.666 A:middle
-for the currently active
-run destination in Xcode.
-
 00:29:02.706 --> 00:29:05.106 A:middle
 So what this means is that
 every time you hit build,
@@ -2446,14 +2219,6 @@ and off for that purpose.
 00:29:57.596 --> 00:29:59.926 A:middle
 Some other benefits of
 this build workflow is
-
-00:29:59.926 --> 00:30:02.496 A:middle
-that it dramatically
-can speed up iterative
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.926 --> 00:30:02.496 A:middle
 that it dramatically
@@ -2537,14 +2302,6 @@ What's next?
 
 00:30:56.696 --> 00:30:57.946 A:middle
 Well, distribution.
-
-00:30:57.996 --> 00:31:01.986 A:middle
-This is the essential
-step involved
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.996 --> 00:31:01.986 A:middle
 This is the essential
@@ -2636,14 +2393,6 @@ hoc and enterprise distribution
 which is a very common way for
 you to distribute applications
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.486 --> 00:32:00.906 A:middle
-which is a very common way for
-you to distribute applications
-
 00:32:01.246 --> 00:32:03.936 A:middle
 in your organization or to
 your team for QA testing
@@ -2726,14 +2475,6 @@ trying to test a build
 or hand off a build to
 somebody with a specific device.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.856 --> 00:33:01.066 A:middle
-or hand off a build to
-somebody with a specific device.
-
 00:33:01.066 --> 00:33:03.126 A:middle
 You can immediately
 create an IPA
@@ -2807,14 +2548,6 @@ bushel full of applications.
 You may ask yourself how do
 I get the right application
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.966 --> 00:34:03.106 A:middle
-You may ask yourself how do
-I get the right application
-
 00:34:03.106 --> 00:34:04.076 A:middle
 to the right device?
 
@@ -2844,7 +2577,7 @@ with thinning for a moment.
 The first step is to save for ad
 hoc or enterprise distribution.
 
-00:34:20.985 --> 00:34:25.136 A:middle
+00:34:20.986 --> 00:34:25.136 A:middle
 It is important here that
 you include the distribution
 
@@ -2852,7 +2585,7 @@ you include the distribution
 manifest option, the check
 box on the lower left there.
 
-00:34:29.775 --> 00:34:30.576 A:middle
+00:34:29.776 --> 00:34:30.576 A:middle
 What does this do?
 
 00:34:32.146 --> 00:34:35.616 A:middle
@@ -2881,14 +2614,6 @@ type of that app variant.
 00:34:53.876 --> 00:34:59.376 A:middle
 The impact of this is that when
 a device tries to pull that,
-
-00:34:59.376 --> 00:35:00.736 A:middle
-tries to install
-one of the apps,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.376 --> 00:35:00.736 A:middle
 tries to install
@@ -2976,14 +2701,6 @@ Xcode server deployment.
 The bot builds your application
 automatically, produces all
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.896 --> 00:36:03.996 A:middle
-The bot builds your application
-automatically, produces all
-
 00:36:03.996 --> 00:36:06.466 A:middle
 of the variants, produces
 the manifest P list
@@ -3064,14 +2781,6 @@ installation method
 for thinned app variants using
 the over the air manifest.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.896 --> 00:37:02.636 A:middle
-for thinned app variants using
-the over the air manifest.
-
 00:37:03.426 --> 00:37:09.406 A:middle
 Nice, simple solution, one stop.
 
@@ -3138,14 +2847,6 @@ features we have.
 00:37:56.466 --> 00:37:59.556 A:middle
 And what this means for your
 workflow in terms of testing
-
-00:37:59.556 --> 00:38:00.886 A:middle
-and then submitting
-to the App Store.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.556 --> 00:38:00.886 A:middle
 and then submitting
@@ -3228,14 +2929,6 @@ on real devices.
 And take advantage of on-demand
 resources to tag your assets
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.276 --> 00:39:06.416 A:middle
-And take advantage of on-demand
-resources to tag your assets
-
 00:39:06.506 --> 00:39:08.726 A:middle
 and to have those
 built into asset packs
@@ -3306,10 +2999,6 @@ all to check that out.
 And DemoBots will be talked
 about in greater detail
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.446 --> 00:40:02.736 A:middle
 in Mission tomorrow at 1:30.
 
@@ -3326,4 +3015,3 @@ rest of the WWDC.
 
 00:40:10.516 --> 00:40:15.500 A:middle
 [Applause]
-

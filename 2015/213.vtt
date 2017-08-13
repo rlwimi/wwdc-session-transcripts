@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:25.516 --> 00:00:30.236 A:middle
 [Applause]
@@ -47,10 +46,6 @@ ResearchKit can help you
 
 00:00:59.006 --> 00:00:59.876 A:middle
 to build research apps.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.336 --> 00:01:03.746 A:middle
 And finally, since it's
@@ -127,14 +122,6 @@ problems with it.
 00:01:51.556 --> 00:01:55.116 A:middle
 The first problem is
 limited participation.
-
-00:01:57.896 --> 00:02:01.196 A:middle
-Posting flyers around university
-campuses limits participation
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:57.896 --> 00:02:01.196 A:middle
 Posting flyers around university
@@ -226,14 +213,6 @@ data continuously in contrast
 to subjective and infrequent
 manual data collection.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.876 --> 00:03:02.126 A:middle
-to subjective and infrequent
-manual data collection.
-
 00:03:03.326 --> 00:03:05.956 A:middle
 And finally, apps can
 keep a local record
@@ -313,14 +292,6 @@ The first module is surveys.
 ResearchKit provides standard
 UI templates that you can use
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.436 --> 00:04:00.056 A:middle
-ResearchKit provides standard
-UI templates that you can use
-
 00:04:00.056 --> 00:04:02.166 A:middle
 for doing surveys on
 an iPhone or on an iPad
@@ -344,11 +315,11 @@ is informed consent.
 It's a common requirement in
 human observational research.
 
-00:04:16.565 --> 00:04:19.516 A:middle
+00:04:16.566 --> 00:04:19.516 A:middle
 To obtain consent from
 participants while making sure
 
-00:04:19.516 --> 00:04:21.565 A:middle
+00:04:19.516 --> 00:04:21.566 A:middle
 that they are fully informed
 about the details of the study.
 
@@ -401,14 +372,6 @@ that can assess your gait.
 00:04:56.506 --> 00:04:59.216 A:middle
 So again, we've got three
 things in ResearchKit.
-
-00:04:59.386 --> 00:05:04.006 A:middle
-We've got surveys, informed
-consent and active tasks.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.386 --> 00:05:04.006 A:middle
 We've got surveys, informed
@@ -495,14 +458,6 @@ objective measures
 by doing passive data collection
 using HealthKit and CoreMotion.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.696 --> 00:06:02.076 A:middle
-by doing passive data collection
-using HealthKit and CoreMotion.
-
 00:06:03.946 --> 00:06:07.586 A:middle
 And in addition, they address
 
@@ -572,14 +527,6 @@ important will be
 
 00:06:54.546 --> 00:06:57.426 A:middle
 to approach an ethics committee
-
-00:06:57.616 --> 00:07:00.096 A:middle
-or institutional
-review board associated
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.616 --> 00:07:00.096 A:middle
 or institutional
@@ -667,14 +614,6 @@ with other investigators
 which might require you
 generating a very broad
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.706 --> 00:08:00.106 A:middle
-which might require you
-generating a very broad
-
 00:08:00.196 --> 00:08:00.906 A:middle
 informed consent.
 
@@ -726,15 +665,15 @@ you in your studies?
 So as I mentioned before,
 there are three modules
 
-00:08:32.366 --> 00:08:34.905 A:middle
+00:08:32.366 --> 00:08:34.906 A:middle
 in ResearchKit, surveys,
 informed consent
 
-00:08:35.275 --> 00:08:37.775 A:middle
+00:08:35.276 --> 00:08:37.776 A:middle
 and active tasks and
 all of those modules
 
-00:08:37.775 --> 00:08:40.846 A:middle
+00:08:37.776 --> 00:08:40.846 A:middle
 in ResearchKit behave
 more or less the same way.
 
@@ -756,14 +695,6 @@ you will want to present it
 00:08:54.536 --> 00:08:57.986 A:middle
 to the user and to do that, you
 will use task view controller.
-
-00:08:59.046 --> 00:09:02.406 A:middle
-Now, a task view controller is
-a container view controller,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.046 --> 00:09:02.406 A:middle
 Now, a task view controller is
@@ -844,13 +775,6 @@ bit deeper dive into one
 00:09:51.696 --> 00:09:53.416 A:middle
 of the core objects
 which is the step.
-
-00:09:53.976 --> 00:10:00.346 A:middle
-So we will look at steps next.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:53.976 --> 00:10:00.346 A:middle
 So we will look at steps next.
@@ -936,14 +860,6 @@ a subclass within this object.
 Now, I should mention that the
 framework itself is written
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.526 --> 00:11:02.116 A:middle
-Now, I should mention that the
-framework itself is written
-
 00:11:02.116 --> 00:11:04.276 A:middle
 in Objective-C but it's
 perfectly usable from Swift
@@ -1015,14 +931,6 @@ for example, for a question step
 00:11:54.186 --> 00:11:56.686 A:middle
 in a survey, you will
 typically put a short title
-
-00:11:57.006 --> 00:12:02.756 A:middle
-and the actual question itself
-will go into the text property.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.006 --> 00:12:02.756 A:middle
 and the actual question itself
@@ -1109,14 +1017,6 @@ from the task view controller.
 Often, you'll just
 return the next step.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.296 --> 00:13:00.076 A:middle
-Often, you'll just
-return the next step.
-
 00:13:00.736 --> 00:13:02.606 A:middle
 But sometimes you
 will want to know --
@@ -1198,14 +1098,6 @@ be a complicated endeavor
 00:13:54.136 --> 00:13:57.756 A:middle
 and so ResearchKit includes
 an implementation of ORKTask
-
-00:13:58.266 --> 00:14:01.266 A:middle
-which is ORKOrder task for
-the simple case where you want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.266 --> 00:14:01.266 A:middle
 which is ORKOrder task for
@@ -1303,14 +1195,6 @@ and that is a UUID
 which uniquely identifies this
 particular run of the task.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.426 --> 00:15:00.946 A:middle
-which uniquely identifies this
-particular run of the task.
-
 00:15:01.496 --> 00:15:04.506 A:middle
 So if here we pass nil
 
@@ -1398,14 +1282,6 @@ In ResearchKit, to support that,
 00:15:57.656 --> 00:15:59.036 A:middle
 you'll specify an
 output directory
-
-00:15:59.036 --> 00:16:01.746 A:middle
-to your task view controller
-where the file-based output
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.036 --> 00:16:01.746 A:middle
 to your task view controller
@@ -1501,19 +1377,11 @@ their work in the middle of task
 and in that case you'll want
 to extract the restoration data
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.146 --> 00:17:00.906 A:middle
-and in that case you'll want
-to extract the restoration data
-
-00:17:01.246 --> 00:17:04.665 A:middle
+00:17:01.246 --> 00:17:04.666 A:middle
 which is an opaque NSData
 property and then save it
 
-00:17:04.665 --> 00:17:06.056 A:middle
+00:17:04.666 --> 00:17:06.056 A:middle
 for later, when you want
 
 00:17:06.056 --> 00:17:08.586 A:middle
@@ -1527,7 +1395,7 @@ that restoration data
 00:17:10.616 --> 00:17:11.586 A:middle
 in a special initializer.
 
-00:17:12.455 --> 00:17:17.016 A:middle
+00:17:12.456 --> 00:17:17.016 A:middle
 But in the usual case, your task
 will have completed successfully
 
@@ -1535,7 +1403,7 @@ will have completed successfully
 and in that case you
 want to grab the result
 
-00:17:18.915 --> 00:17:21.316 A:middle
+00:17:18.916 --> 00:17:21.316 A:middle
 from the task view controller's
 result property and do something
 
@@ -1543,7 +1411,7 @@ result property and do something
 with it, like serialize
 it, send it to a server
 
-00:17:24.175 --> 00:17:27.136 A:middle
+00:17:24.176 --> 00:17:27.136 A:middle
 or perhaps analyze it
 in order to display some
 
@@ -1591,14 +1459,6 @@ corresponds to a step.
 
 00:17:58.396 --> 00:17:59.726 A:middle
 So we have a survey question --
-
-00:17:59.726 --> 00:18:01.906 A:middle
-I'm sorry, we have
-an instruction step,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.726 --> 00:18:01.906 A:middle
 I'm sorry, we have
@@ -1701,14 +1561,6 @@ an identifier which needs
 to be unique within the
 context of that form step.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.716 --> 00:19:01.056 A:middle
-to be unique within the
-context of that form step.
-
 00:19:01.566 --> 00:19:06.276 A:middle
 Like a question step, a form
 item has an answer format
@@ -1779,14 +1631,6 @@ data being collected during
 
 00:19:58.206 --> 00:19:58.906 A:middle
 that instruction step.
-
-00:19:58.906 --> 00:20:00.376 A:middle
-All we did is show
-them the instruction.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.906 --> 00:20:00.376 A:middle
 All we did is show
@@ -1876,14 +1720,6 @@ for each form item
 with identifiers matching
 the corresponding form items.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:56.916 --> 00:21:00.006 A:middle
-with identifiers matching
-the corresponding form items.
-
 00:21:02.626 --> 00:21:05.796 A:middle
 So that's the object
 model in ResearchKit
@@ -1938,14 +1774,6 @@ dismiss the task view controller
 
 00:21:55.646 --> 00:21:56.726 A:middle
 in the did finish callback.
-
-00:21:58.766 --> 00:22:00.736 A:middle
-Now, switching over to
-the task enumeration
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.766 --> 00:22:00.736 A:middle
 Now, switching over to
@@ -2036,14 +1864,6 @@ localize in your app.
 
 00:22:55.586 --> 00:22:58.676 A:middle
 Then I might add a question step
-
-00:22:59.316 --> 00:23:02.016 A:middle
-and this question step
-is a yes/no question.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.316 --> 00:23:02.016 A:middle
 and this question step
@@ -2140,14 +1960,6 @@ value that's a property list
 type, it could be an integer
 -- an s-number, rather,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.526 --> 00:24:00.786 A:middle
-type, it could be an integer
--- an s-number, rather,
-
 00:24:01.106 --> 00:24:04.226 A:middle
 or it could be a
 string like this.
@@ -2229,10 +2041,6 @@ on the reason.
 00:24:57.526 --> 00:24:59.946 A:middle
 So in the case that the task is
 actually completed successfully,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.146 --> 00:25:02.096 A:middle
 I will extract the result
@@ -2318,14 +2126,6 @@ the answer is gone
 00:25:56.206 --> 00:25:58.106 A:middle
 and I can answer something
 different when I come back.
-
-00:25:59.156 --> 00:26:00.876 A:middle
-So I'll just go through,
-and give some answers,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.156 --> 00:26:00.876 A:middle
 So I'll just go through,
@@ -2425,14 +2225,6 @@ that form I didn't answer
 and you can see there's no
 actual answer property here
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.836 --> 00:27:02.096 A:middle
-and you can see there's no
-actual answer property here
-
 00:27:03.566 --> 00:27:05.016 A:middle
 and finally we have
 another step result
@@ -2524,14 +2316,6 @@ some horizontal slidders
 that I could use to display
 more or less the same content,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.876 --> 00:28:02.496 A:middle
-that I could use to display
-more or less the same content,
-
 00:28:02.816 --> 00:28:06.156 A:middle
 get the same answer, but in
 a different presentation.
@@ -2602,14 +2386,6 @@ in ResearchKit.
 00:28:57.656 --> 00:28:59.326 A:middle
 So the second module
 in informed consent --
-
-00:28:59.526 --> 00:29:02.006 A:middle
-the second module in
-ResearchKit is informed consent.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.526 --> 00:29:02.006 A:middle
 the second module in
@@ -2689,14 +2465,6 @@ must now include evidence
 
 00:29:57.586 --> 00:29:58.886 A:middle
 of some form of ethical review.
-
-00:29:59.796 --> 00:30:01.766 A:middle
-That doesn't necessarily
-mean that you need
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.796 --> 00:30:01.766 A:middle
 That doesn't necessarily
@@ -2800,14 +2568,6 @@ be custom sections.
 So ResearchKit doesn't intend
 to provide a full solution,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.766 --> 00:31:02.106 A:middle
-So ResearchKit doesn't intend
-to provide a full solution,
-
 00:31:02.256 --> 00:31:03.516 A:middle
 we provide an 80% solution.
 
@@ -2886,14 +2646,6 @@ your consent document.
 00:31:56.966 --> 00:31:58.196 A:middle
 So let's look at how
 you do that in code.
-
-00:31:59.136 --> 00:32:01.186 A:middle
-You'll create a consent
-section of a particular type,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.136 --> 00:32:01.186 A:middle
 You'll create a consent
@@ -2984,14 +2736,6 @@ to a visual consent step
 00:32:53.946 --> 00:32:55.536 A:middle
 to present your visual
 consent sequence.
-
-00:32:55.536 --> 00:33:00.666 A:middle
-The next step in the informed
-consent module is the consent
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:55.536 --> 00:33:00.666 A:middle
 The next step in the informed
@@ -3093,23 +2837,15 @@ The final step
 in the ResearchKit informed
 consent module is the consent
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.776 --> 00:34:03.556 A:middle
-in the ResearchKit informed
-consent module is the consent
-
 00:34:03.556 --> 00:34:06.266 A:middle
 review step and here the
 participant reviews the actual
 
-00:34:06.266 --> 00:34:08.505 A:middle
+00:34:06.266 --> 00:34:08.506 A:middle
 document and possibly
 enters their name
 
-00:34:08.505 --> 00:34:09.985 A:middle
+00:34:08.506 --> 00:34:09.986 A:middle
 and maybe signs with
 their finger.
 
@@ -3128,7 +2864,7 @@ consent document here
 and then you'll need
 to add a signature
 
-00:34:19.085 --> 00:34:20.396 A:middle
+00:34:19.086 --> 00:34:20.396 A:middle
 which is the signature
 you want to collect.
 
@@ -3144,7 +2880,7 @@ for the participant
 which is wat goes beneath the
 signature line if you were
 
-00:34:25.386 --> 00:34:26.835 A:middle
+00:34:25.386 --> 00:34:26.836 A:middle
 to generate a PDF
 of the document.
 
@@ -3160,15 +2896,15 @@ is if we are trying
 to find a particular signature
 in the consent document.
 
-00:34:35.356 --> 00:34:41.005 A:middle
+00:34:35.356 --> 00:34:41.006 A:middle
 You can turn off either
 the name collection
 
-00:34:41.005 --> 00:34:42.525 A:middle
+00:34:41.006 --> 00:34:42.526 A:middle
 or the signature
 image collection,
 
-00:34:43.386 --> 00:34:45.295 A:middle
+00:34:43.386 --> 00:34:45.296 A:middle
 in this case we're
 turning off the
 
@@ -3187,14 +2923,6 @@ your consent document
 00:34:55.266 --> 00:34:58.546 A:middle
 to a consent review step while
 also specifying what signature
-
-00:34:58.546 --> 00:35:00.986 A:middle
-it is that you are
-trying to collect.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.546 --> 00:35:00.986 A:middle
 it is that you are
@@ -3277,10 +3005,6 @@ sections so you can see some
 00:35:57.506 --> 00:35:59.966 A:middle
 of these animations, so I'll
 add a data gathering section
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.376 --> 00:36:03.806 A:middle
 and a privacy section, each
@@ -3365,14 +3089,6 @@ display this consent process.
 00:36:56.366 --> 00:36:58.766 A:middle
 So here's my consent task,
 with the identifier Consent,
-
-00:36:59.136 --> 00:37:00.856 A:middle
-I've just chosen that because
-it's different from Survey
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.136 --> 00:37:00.856 A:middle
 I've just chosen that because
@@ -3468,14 +3184,6 @@ steps to my step array.
 Then I'll justneed to extend my
 table view to display that task.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:56.206 --> 00:38:07.316 A:middle
-Then I'll justneed to extend my
-table view to display that task.
-
 00:38:07.426 --> 00:38:12.786 A:middle
 And specify that that's the
 actual task I want to display
@@ -3545,14 +3253,6 @@ next button down here
 00:38:57.826 --> 00:38:59.756 A:middle
 and actually change the
 tint color of this image
-
-00:38:59.756 --> 00:39:02.136 A:middle
-and the corresponding
-animation so it can fit nicely
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:59.756 --> 00:39:02.136 A:middle
 and the corresponding
@@ -3654,14 +3354,6 @@ in this consent review step
 or by using a completely
 different consent document
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.806 --> 00:40:01.096 A:middle
-or by using a completely
-different consent document
-
 00:40:01.096 --> 00:40:03.616 A:middle
 object to represent
 this or a third option,
@@ -3734,13 +3426,6 @@ looking at the actual object
 00:40:55.266 --> 00:40:59.116 A:middle
 in Swift then I'd be able to
 pull out the actual UI image
-
-00:40:59.146 --> 00:41:01.756 A:middle
-to the signature that I drew.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.146 --> 00:41:01.756 A:middle
 to the signature that I drew.
@@ -3824,14 +3509,6 @@ your ethical --
 
 00:41:55.926 --> 00:41:57.076 A:middle
 of your ethics review process.
-
-00:41:59.186 --> 00:42:01.116 A:middle
-Next, you should plan
-for accepting questions
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.186 --> 00:42:01.116 A:middle
 Next, you should plan
@@ -3929,14 +3606,6 @@ to a person, but for your study,
 possibly coming out of
 your ethics review process,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.176 --> 00:43:01.026 A:middle
-possibly coming out of
-your ethics review process,
-
 00:43:01.236 --> 00:43:03.116 A:middle
 you may need either
 less or more than that.
@@ -4016,14 +3685,6 @@ structure in some
 00:43:54.466 --> 00:43:56.056 A:middle
 of the predefined
 tasks in ResearchKit.
-
-00:43:58.676 --> 00:44:02.146 A:middle
-These tasks typically have a
-couple of instruction steps
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:58.676 --> 00:44:02.146 A:middle
 These tasks typically have a
@@ -4115,10 +3776,6 @@ we use the microphone
 to collect information
 about your voice.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:00.316 --> 00:45:02.956 A:middle
 In addition to these,
 we have two more tasks
@@ -4187,14 +3844,6 @@ these simple predefined tasks.
 00:45:55.686 --> 00:45:58.446 A:middle
 So I will create this active
 task computed property
-
-00:45:59.066 --> 00:46:01.636 A:middle
-which returns a two finger
-tapping interval task,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:59.066 --> 00:46:01.636 A:middle
 which returns a two finger
@@ -4284,14 +3933,6 @@ should have a third task now,
 00:46:55.146 --> 00:46:59.376 A:middle
 which will be this two
 finger tapping task.
-
-00:46:59.506 --> 00:47:02.266 A:middle
-So the intended use description
-gets populated in here
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:59.506 --> 00:47:02.266 A:middle
 So the intended use description
@@ -4396,14 +4037,6 @@ interval result
 for the two finger
 tapping interval task.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.206 --> 00:48:02.246 A:middle
-for the two finger
-tapping interval task.
-
 00:48:02.246 --> 00:48:05.086 A:middle
 That in turn contains an array
 of samples which contain --
@@ -4478,10 +4111,6 @@ consent and active tasks
 but we really don't
 think it will stop there.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:00.556 --> 00:49:03.926 A:middle
 We think that ResearchKit is
 going to continue to expand both
@@ -4552,13 +4181,6 @@ up with the ResearchKit
 00:49:56.276 --> 00:49:57.506 A:middle
 and how it fits in
 with the project.
-
-00:49:59.236 --> 00:50:01.376 A:middle
-Now, so far, about 90%
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:59.236 --> 00:50:01.376 A:middle
 Now, so far, about 90%
@@ -4647,13 +4269,6 @@ last month and a half
 00:50:58.896 --> 00:51:00.186 A:middle
 with this project public.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:58.896 --> 00:51:00.186 A:middle
-with this project public.
-
 00:51:01.976 --> 00:51:04.356 A:middle
 But other areas where we've seen
 contributions have been answer
@@ -4728,14 +4343,6 @@ talk about all of these
 00:51:52.676 --> 00:51:54.676 A:middle
 in much detail but
 what I do want to look
-
-00:51:54.676 --> 00:52:01.696 A:middle
-at a little more
-is active tasks.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:54.676 --> 00:52:01.696 A:middle
 at a little more
@@ -4820,14 +4427,6 @@ location recorder
 
 00:52:56.206 --> 00:52:57.576 A:middle
 that can pull some information
-
-00:52:57.576 --> 00:53:02.706 A:middle
-from CoreLocation during the
-duration of your active step.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:57.576 --> 00:53:02.706 A:middle
 from CoreLocation during the
@@ -4921,14 +4520,6 @@ which needs to be unique
 within this step because
 this is going to correspond
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:58.266 --> 00:54:00.506 A:middle
-within this step because
-this is going to correspond
-
 00:54:00.506 --> 00:54:02.616 A:middle
 to the result as you
 will see in a minute.
@@ -5011,14 +4602,6 @@ with identifiers that correspond
 00:54:54.646 --> 00:54:56.266 A:middle
 to the corresponding
 recorder configurations.
-
-00:54:56.886 --> 00:55:00.666 A:middle
-The file URL as I mentioned
-already will point to a file
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:56.886 --> 00:55:00.666 A:middle
 The file URL as I mentioned
@@ -5125,14 +4708,6 @@ game, for example,
 you saw we had the tapping
 interval task result there.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:55:58.786 --> 00:56:02.156 A:middle
-you saw we had the tapping
-interval task result there.
-
 00:56:02.706 --> 00:56:05.216 A:middle
 That was an example
 of a result class
@@ -5212,13 +4787,6 @@ additional information
 
 00:56:56.376 --> 00:56:56.986 A:middle
 about ResearchKit.
-
-00:56:57.496 --> 00:57:00.696 A:middle
-We have the ResearchKit.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:56:57.496 --> 00:57:00.696 A:middle
 We have the ResearchKit.
@@ -5320,14 +4888,5 @@ join us for that.
 With that, thank you very
 much and thanks for listening.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:57:59.926 --> 00:58:02.416 A:middle
-With that, thank you very
-much and thanks for listening.
-
 00:58:03.516 --> 00:58:06.500 A:middle
 [Applause]
-

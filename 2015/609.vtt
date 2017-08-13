@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:23.516 --> 00:00:28.136 A:middle
 [Applause]
@@ -44,13 +43,6 @@ Check it out if you couldn't.
 00:00:53.216 --> 00:00:57.506 A:middle
 We couldn't make a
 game called DemoBots
-
-00:00:58.276 --> 00:01:00.086 A:middle
-without giving you a demo.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.276 --> 00:01:00.086 A:middle
 without giving you a demo.
@@ -133,18 +125,11 @@ They can turn each other bad.
 00:01:59.736 --> 00:02:01.406 A:middle
 That's what happened there.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.736 --> 00:02:01.406 A:middle
-That's what happened there.
-
 00:02:02.596 --> 00:02:09.936 A:middle
 Once all of them are fixed
 the level is complete.
 
-00:02:10.515 --> 00:02:13.356 A:middle
+00:02:10.516 --> 00:02:13.356 A:middle
 [Applause]
 
 00:02:13.856 --> 00:02:14.776 A:middle
@@ -208,10 +193,6 @@ of the things around the corner.
 00:02:58.386 --> 00:02:59.476 A:middle
 This is almost a certainty.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:01.916 --> 00:03:04.406 A:middle
 We can use his benevolent
 blast after he's been made bad,
@@ -266,10 +247,6 @@ keep the app size realistic.
 We decided to keep the new
 action editor in SpriteKit
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.276 --> 00:04:01.136 A:middle
 to create the actions as --
 
@@ -293,7 +270,7 @@ and FlyingBot.
 If we click into that action
 we can see it is made of lots
 
-00:04:15.426 --> 00:04:17.495 A:middle
+00:04:15.426 --> 00:04:17.496 A:middle
 of small move actions
 one after another.
 
@@ -342,13 +319,6 @@ and use it in the game.
 00:04:56.066 --> 00:04:58.276 A:middle
 All of the assets in the
 game have been created
-
-00:04:58.276 --> 00:05:00.056 A:middle
-in asset catalogs and out
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.276 --> 00:05:00.056 A:middle
 in asset catalogs and out
@@ -431,14 +401,6 @@ he'll be 50 points high.
 We don't need such a
 high resolution texture
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.246 --> 00:06:00.376 A:middle
-We don't need such a
-high resolution texture
-
 00:06:00.376 --> 00:06:02.526 A:middle
 as on the iPad and
 we can save space.
@@ -505,14 +467,6 @@ from a 3D rendering output.
 
 00:06:56.916 --> 00:06:57.686 A:middle
 Which we can also connect.
-
-00:06:58.596 --> 00:07:02.186 A:middle
-We automated that creation
-of the asset catalogs too.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.596 --> 00:07:02.186 A:middle
 We automated that creation
@@ -598,14 +552,6 @@ the view is currently looking.
 Because it is a node we can
 do node-like things with it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.976 --> 00:08:01.046 A:middle
-Because it is a node we can
-do node-like things with it.
-
 00:08:01.516 --> 00:08:03.536 A:middle
 We can apply constraints
 to that node for example.
@@ -637,11 +583,11 @@ near the edge of the level.
 00:08:28.126 --> 00:08:29.026 A:middle
 That's how that looks.
 
-00:08:30.206 --> 00:08:32.525 A:middle
+00:08:30.206 --> 00:08:32.526 A:middle
 We follow the PlayerBot
 generally speaking
 
-00:08:33.155 --> 00:08:35.746 A:middle
+00:08:33.156 --> 00:08:35.746 A:middle
 but if he's near we
 stop following him
 
@@ -672,14 +618,6 @@ on the screens width and height
 00:08:55.246 --> 00:08:56.286 A:middle
 that they're viewing
 the game on.
-
-00:08:57.166 --> 00:09:00.716 A:middle
-We make sure that the Camera can
-never move outside of that box.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.166 --> 00:09:00.716 A:middle
 We make sure that the Camera can
@@ -771,13 +709,6 @@ this is the states he has.
 00:09:59.336 --> 00:10:00.936 A:middle
 He starts in his Appear state
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.336 --> 00:10:00.936 A:middle
-He starts in his Appear state
-
 00:10:01.006 --> 00:10:03.316 A:middle
 where he teleports
 into the game.
@@ -846,14 +777,6 @@ The state actually does the job
 00:10:55.476 --> 00:10:57.106 A:middle
 of adding more charge
 back on to the player.
-
-00:10:57.866 --> 00:11:00.276 A:middle
-Eventually when recharged,
-it goes back
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.866 --> 00:11:00.276 A:middle
 Eventually when recharged,
@@ -935,14 +858,6 @@ and components.
 00:11:56.776 --> 00:11:59.406 A:middle
 Now components are a
 really good way to package
-
-00:11:59.406 --> 00:12:01.306 A:middle
-up self-contained
-pieces of functionality
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.406 --> 00:12:01.306 A:middle
 up self-contained
@@ -1035,13 +950,6 @@ need an agent,
 00:12:59.186 --> 00:13:00.576 A:middle
 he's powered by your input.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.186 --> 00:13:00.576 A:middle
-he's powered by your input.
-
 00:13:01.866 --> 00:13:03.006 A:middle
 Likewise, GroundBot
 
@@ -1125,14 +1033,6 @@ on stage to tell you more
 about how we have
 used GameplayKit
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.836 --> 00:14:01.126 A:middle
-about how we have
-used GameplayKit
-
 00:14:01.516 --> 00:14:04.566 A:middle
 to create our games
 Logic and Gameplay.
@@ -1195,14 +1095,6 @@ getting the player Bot.
 
 00:14:53.526 --> 00:14:54.296 A:middle
 Got that one too.
-
-00:14:55.816 --> 00:15:01.956 A:middle
-Finally, I may move around the
-level opposite direction messing
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:55.816 --> 00:15:01.956 A:middle
 Finally, I may move around the
@@ -1272,10 +1164,6 @@ fuzzy Logic, I'll give you a bit
 of an idea of what we're
 talking about here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.246 --> 00:16:04.386 A:middle
 The fuzzy that we're referring
 to is actually the fact
@@ -1333,34 +1221,26 @@ that you create the GKRule.
 Let's look at what those -- what
 that proximity rule looks like.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.866 --> 00:17:04.396 A:middle
-Let's look at what those -- what
-that proximity rule looks like.
-
 00:17:04.636 --> 00:17:07.836 A:middle
 Thinking about being
 near or far,
 
-00:17:08.415 --> 00:17:11.526 A:middle
+00:17:08.416 --> 00:17:11.526 A:middle
 and let's actually use a
 graph to take a look at this
 
-00:17:11.665 --> 00:17:13.256 A:middle
+00:17:11.666 --> 00:17:13.256 A:middle
 and see how these
 functions work.
 
-00:17:14.006 --> 00:17:17.445 A:middle
+00:17:14.006 --> 00:17:17.446 A:middle
 Up here near the origin you can
 see that we have a PlayerBot
 
 00:17:18.016 --> 00:17:19.306 A:middle
 and out about as far away
 
-00:17:19.306 --> 00:17:21.215 A:middle
+00:17:19.306 --> 00:17:21.216 A:middle
 as we can get them
 you have the TaskBot,
 
@@ -1405,14 +1285,6 @@ about clearly.
 00:17:55.866 --> 00:17:58.226 A:middle
 Here the grade for
 the far rule is.
-
-00:17:58.226 --> 00:18:02.656 A:middle
-75 and for the medium
-rule, about.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.226 --> 00:18:02.656 A:middle
 75 and for the medium
@@ -1477,14 +1349,6 @@ like a telling of a story.
 If a percentage of
 bad TaskBots is high
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.496 --> 00:19:00.246 A:middle
-If a percentage of
-bad TaskBots is high
-
 00:19:00.866 --> 00:19:03.376 A:middle
 and the PlayerBot is
 a medium distance away
@@ -1537,14 +1401,6 @@ the minimum is our mandate
 00:19:53.346 --> 00:19:56.596 A:middle
 for hunting the PlayerBot based
 on that information is only
-
-00:19:56.596 --> 00:20:02.496 A:middle
-as strong as the weakest
-fact contributing to it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:56.596 --> 00:20:02.496 A:middle
 as strong as the weakest
@@ -1609,14 +1465,6 @@ we'll hunt the PlayerBot.
 Now that we know we want to hunt
 the PlayerBot the first problem
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:50.866 --> 00:21:02.896 A:middle
-Now that we know we want to hunt
-the PlayerBot the first problem
-
 00:21:02.896 --> 00:21:07.756 A:middle
 we've got is how do I
 actually get to the PlayerBot.
@@ -1673,14 +1521,6 @@ to get things up and running.
 
 00:21:56.956 --> 00:21:58.826 A:middle
 Only a few lines of code.
-
-00:21:59.006 --> 00:22:02.146 A:middle
-Let's take a look at what
-those lines look like.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.006 --> 00:22:02.146 A:middle
 Let's take a look at what
@@ -1750,14 +1590,6 @@ think about it might be
 as you're walking towards a
 doorway and you're walking
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.866 --> 00:23:01.716 A:middle
-as you're walking towards a
-doorway and you're walking
-
 00:23:01.716 --> 00:23:04.346 A:middle
 through the doorway you're
 not actually going to walk
@@ -1820,10 +1652,6 @@ We have a path, we have points,
 but how am I actually
 going to get there?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:00.276 --> 00:24:03.096 A:middle
 How do I actually get there
 and make it look nice?
@@ -1884,14 +1712,6 @@ here makes it very simple
 
 00:24:56.036 --> 00:24:58.926 A:middle
 to integrate the two of them.
-
-00:24:59.206 --> 00:25:01.536 A:middle
-Let's take a look at
-what it actually --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.206 --> 00:25:01.536 A:middle
 Let's take a look at
@@ -1972,14 +1792,6 @@ about from before.
 The first one on the screen,
 our goal to follow path is going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.716 --> 00:26:05.546 A:middle
-The first one on the screen,
-our goal to follow path is going
-
 00:26:05.546 --> 00:26:09.136 A:middle
 to establish the direction in
 which we'll travel our array.
@@ -2029,14 +1841,6 @@ update loop it will notify you
 
 00:26:55.756 --> 00:26:57.816 A:middle
 before and after changes,
-
-00:26:57.866 --> 00:27:00.216 A:middle
-and this delegate
-notification before
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.866 --> 00:27:00.216 A:middle
 and this delegate
@@ -2106,14 +1910,6 @@ the SpriteKit world updating our
 node before it goes
 into physics simulation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.636 --> 00:28:01.946 A:middle
-node before it goes
-into physics simulation
-
 00:28:02.336 --> 00:28:08.036 A:middle
 and constraint application
 this time around.
@@ -2161,14 +1957,6 @@ see emanating from the player,
 00:28:51.786 --> 00:28:56.616 A:middle
 the task Bots are a
 representation of that path
-
-00:28:57.536 --> 00:29:01.506 A:middle
-that we talked about, the
-path radius that was there.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.536 --> 00:29:01.506 A:middle
 that we talked about, the
@@ -2252,14 +2040,6 @@ and deciding to get into it.
 But we know this 100 mega
 download limit is hard
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:56.426 --> 00:30:00.056 A:middle
-But we know this 100 mega
-download limit is hard
-
 00:30:00.056 --> 00:30:01.356 A:middle
 for games to stay under.
 
@@ -2328,14 +2108,6 @@ all of the assets plus the 1X,
 00:30:54.226 --> 00:30:58.136 A:middle
 2X, 3X versions, they're
 bundled in the app.
-
-00:30:58.386 --> 00:31:00.306 A:middle
-We have a better
-story for this now.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.386 --> 00:31:00.306 A:middle
 We have a better
@@ -2410,14 +2182,6 @@ see if you notice something.
 So especially when the character
 is moving back towards the top
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.796 --> 00:32:01.526 A:middle
-So especially when the character
-is moving back towards the top
-
 00:32:01.526 --> 00:32:04.596 A:middle
 of the map there, we
 term that skating.
@@ -2486,14 +2250,6 @@ more animation frames here
 
 00:32:53.776 --> 00:32:55.146 A:middle
 to represent that.
-
-00:32:56.456 --> 00:33:00.186 A:middle
-Then when it comes to aiming,
-now it is much more granular.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:56.456 --> 00:33:00.186 A:middle
 Then when it comes to aiming,
@@ -2592,13 +2348,6 @@ can tag those level 1,
 00:33:59.396 --> 00:34:00.696 A:middle
 level 2, and level 3 .
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.396 --> 00:34:00.696 A:middle
-level 2, and level 3 .
-
 00:34:01.236 --> 00:34:04.536 A:middle
 The advantage here, it is
 now that we have tagged these
@@ -2613,7 +2362,7 @@ the game, we know they'll go
 00:34:09.966 --> 00:34:11.996 A:middle
 to level 1, there is no reason
 
-00:34:11.996 --> 00:34:13.585 A:middle
+00:34:11.996 --> 00:34:13.586 A:middle
 to include the other
 two levels there.
 
@@ -2636,29 +2385,29 @@ level early and it is unlikely
 00:34:28.196 --> 00:34:30.106 A:middle
 that they'll replay level 1
 
-00:34:30.466 --> 00:34:32.545 A:middle
+00:34:30.466 --> 00:34:32.546 A:middle
 to we can recycle some
 of those resources.
 
 00:34:32.946 --> 00:34:35.676 A:middle
 Let's take it a step further.
 
-00:34:36.315 --> 00:34:40.176 A:middle
+00:34:36.316 --> 00:34:40.176 A:middle
 If we look closely at
 level 2 and you will notice
 
-00:34:40.176 --> 00:34:42.335 A:middle
+00:34:40.176 --> 00:34:42.336 A:middle
 from the demo and from
 this small picture
 
-00:34:42.335 --> 00:34:44.896 A:middle
+00:34:42.336 --> 00:34:44.896 A:middle
 that only the FlyingBot
 shows up in this level
 
-00:34:45.045 --> 00:34:46.556 A:middle
+00:34:45.046 --> 00:34:46.556 A:middle
 and shows up again in level 3.
 
-00:34:47.275 --> 00:34:51.416 A:middle
+00:34:47.276 --> 00:34:51.416 A:middle
 Contrast that with a GroundBot
 who is in levels 1 and 3.
 
@@ -2673,14 +2422,6 @@ resources even further.
 00:34:57.756 --> 00:34:59.616 A:middle
 If we know the user
 is downloading the app
-
-00:34:59.616 --> 00:35:02.816 A:middle
-for the first time we only ship
-with the GroundBot in level 1
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.616 --> 00:35:02.816 A:middle
 for the first time we only ship
@@ -2764,14 +2505,6 @@ the same footprint on device
 but accessing everything
 else on demand.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:57.496 --> 00:36:01.436 A:middle
-but accessing everything
-else on demand.
-
 00:36:01.706 --> 00:36:04.186 A:middle
 We recognize this
 does add complication.
@@ -2849,14 +2582,6 @@ associated with ODR
 00:36:55.206 --> 00:36:58.126 A:middle
 because this is a full pipeline
 to model bringing your resources
-
-00:36:58.126 --> 00:37:00.976 A:middle
-into memory whether they're
-from local storage or need
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.126 --> 00:37:00.976 A:middle
 into memory whether they're
@@ -2947,13 +2672,6 @@ level 2 as soon
 00:37:58.456 --> 00:38:01.036 A:middle
 as the player begins level 1.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.456 --> 00:38:01.036 A:middle
-as the player begins level 1.
-
 00:38:02.516 --> 00:38:06.196 A:middle
 Don't forget about the tools
 for ODR that are within Xcode.
@@ -3035,14 +2753,6 @@ all be interested in.
 So Dave spoke to you initially
 about fine tuning your assets
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.316 --> 00:39:02.946 A:middle
-So Dave spoke to you initially
-about fine tuning your assets
-
 00:39:02.946 --> 00:39:06.696 A:middle
 for every device, including
 special assets for the Mac.
@@ -3102,4 +2812,3 @@ Thank you all so much.
 
 00:39:48.516 --> 00:39:51.500 A:middle
 [Applause]
-

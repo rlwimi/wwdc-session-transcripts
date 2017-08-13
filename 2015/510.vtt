@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.031 --> 00:00:26.031 A:middle
 [ Applause ]
@@ -12,7 +11,7 @@ morning, everyone,
 my name is David Hayward, and
 it's my privilege today to talk
 
-00:00:29.416 --> 00:00:32.415 A:middle
+00:00:29.416 --> 00:00:32.416 A:middle
 about what's new in
 Core Image on iOS 9
 
@@ -63,15 +62,7 @@ discussion today will be talking
 about using Core
 Image and bridging it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.736 --> 00:01:00.786 A:middle
-about using Core
-Image and bridging it
-
-00:01:00.786 --> 00:01:04.855 A:middle
+00:01:00.786 --> 00:01:04.856 A:middle
 with other graphics
 frameworks on our platforms.
 
@@ -158,14 +149,6 @@ one or more kernels.
 CI kernels are small subroutines
 that apply the effect
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.636 --> 00:02:01.306 A:middle
-CI kernels are small subroutines
-that apply the effect
-
 00:02:01.306 --> 00:02:03.106 A:middle
 that that kernel is
 trying to achieve.
@@ -240,13 +223,6 @@ Core Image.
 
 00:02:57.716 --> 00:02:59.066 A:middle
 The first is the CI kernel.
-
-00:02:59.066 --> 00:03:00.646 A:middle
-I mentioned this earlier.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.066 --> 00:03:00.646 A:middle
 I mentioned this earlier.
@@ -334,14 +310,6 @@ renderers in our system.
 So the next thing I would
 like to talk about now
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.326 --> 00:04:02.786 A:middle
-So the next thing I would
-like to talk about now
-
 00:04:02.786 --> 00:04:04.516 A:middle
 that the introduction
 is behind us is to talk
@@ -358,15 +326,15 @@ to talk about today.
 We will be talking about Metal,
 talking about new filters,
 
-00:04:14.276 --> 00:04:18.375 A:middle
+00:04:14.276 --> 00:04:18.376 A:middle
 new detector, color management
 support, and some improvements
 
-00:04:18.375 --> 00:04:20.836 A:middle
+00:04:18.376 --> 00:04:20.836 A:middle
 to the kernel classes
 and languages.
 
-00:04:21.815 --> 00:04:24.576 A:middle
+00:04:21.816 --> 00:04:24.576 A:middle
 And most important thing I want
 to talk about is that we now
 
@@ -415,14 +383,6 @@ So it makes it a lot easier
 00:04:53.326 --> 00:04:56.266 A:middle
 if you're doing cross-platform
 code.
-
-00:04:56.626 --> 00:05:03.976 A:middle
-We have now got API parity
-between the two platforms.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:56.626 --> 00:05:03.976 A:middle
 We have now got API parity
@@ -506,14 +466,6 @@ Again, as I mentioned before,
 we now have a unified
 implementation of Core Image.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.796 --> 00:06:01.016 A:middle
-we now have a unified
-implementation of Core Image.
-
 00:06:01.016 --> 00:06:04.366 A:middle
 This means we have 200 buil-
 in filters on both platforms.
@@ -587,14 +539,6 @@ pop-up in this application,
 00:06:55.936 --> 00:06:58.156 A:middle
 we have now broken them
 up into categories.
-
-00:06:58.556 --> 00:07:00.246 A:middle
-You can also see
-highlighted in red all
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.556 --> 00:07:00.246 A:middle
 You can also see
@@ -675,14 +619,6 @@ And we have a new one this year,
 which is for detecting
 areas of text in an image.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.846 --> 00:08:01.596 A:middle
-which is for detecting
-areas of text in an image.
-
 00:08:02.036 --> 00:08:05.006 A:middle
 The idea in the filter is to
 locate areas that are likely
@@ -718,14 +654,14 @@ rotate the camera,
 the upright text will
 detect some of the text
 
-00:08:30.786 --> 00:08:33.395 A:middle
+00:08:30.786 --> 00:08:33.396 A:middle
 that was at an angle as well.
 
 00:08:34.426 --> 00:08:36.236 A:middle
 So that's our new text
 detector so I'm excited
 
-00:08:36.236 --> 00:08:39.385 A:middle
+00:08:36.236 --> 00:08:39.386 A:middle
 to see what developers
 come up with to use that.
 
@@ -751,14 +687,6 @@ OS X ever since the beginning
 00:08:53.256 --> 00:08:56.476 A:middle
 of Core Image, but now we
 have this on iOS as well.
-
-00:08:57.096 --> 00:09:01.266 A:middle
-What this means is that Core
-Image now supports ICC-based
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.096 --> 00:09:01.266 A:middle
 What this means is that Core
@@ -829,14 +757,6 @@ embedded ICC profile on this,
 
 00:09:56.456 --> 00:09:57.686 A:middle
 the image is rendered correctly.
-
-00:09:58.856 --> 00:10:03.936 A:middle
-And this you get
-automatically in Core Image.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.856 --> 00:10:03.936 A:middle
 And this you get
@@ -924,14 +844,6 @@ It makes it easier.
 It also makes the job for
 Core Image easier to simplify
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:57.456 --> 00:11:01.336 A:middle
-It also makes the job for
-Core Image easier to simplify
-
 00:11:01.906 --> 00:11:04.036 A:middle
 and concatenate programs.
 
@@ -997,14 +909,6 @@ parameter, which is a count.
 00:11:56.566 --> 00:11:58.646 A:middle
 And we want to have a For
 loop inside this kernel
-
-00:11:58.946 --> 00:12:00.676 A:middle
-that loops based on
-that count variable.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.946 --> 00:12:00.676 A:middle
 that loops based on
@@ -1090,14 +994,6 @@ of images.
 And the CI kernel
 language works independent
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.696 --> 00:13:02.136 A:middle
-And the CI kernel
-language works independent
-
 00:13:02.186 --> 00:13:03.656 A:middle
 of what our back-end
 renderer is,
@@ -1168,13 +1064,6 @@ Tony Chu, who will be talking
 00:13:55.126 --> 00:13:56.916 A:middle
 about Core Image and
 Metal in more detail.
-
-00:13:58.516 --> 00:14:04.606 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.516 --> 00:14:04.606 A:middle
 [ Applause ]
@@ -1258,14 +1147,6 @@ we can render to
 and from these resources
 very efficiently.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.496 --> 00:15:01.276 A:middle
-and from these resources
-very efficiently.
-
 00:15:01.786 --> 00:15:06.246 A:middle
 Let's take a look at some of
 the new APIs we have available
@@ -1331,14 +1212,6 @@ space or working floor mat
 00:15:52.896 --> 00:15:56.886 A:middle
 for intermediate buffers or
 even, you can even declare
-
-00:15:56.886 --> 00:16:03.336 A:middle
-that you want to use
-a low-priority GPU.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:56.886 --> 00:16:03.336 A:middle
 that you want to use
@@ -1422,14 +1295,6 @@ into a command buffer.
 So let me explain that in
 a little bit more detail.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.586 --> 00:17:00.886 A:middle
-So let me explain that in
-a little bit more detail.
-
 00:17:00.886 --> 00:17:03.376 A:middle
 For those who are new to Metal,
 
@@ -1441,15 +1306,15 @@ involves encoding a series
 of render commands
 to a command buffer.
 
-00:17:08.576 --> 00:17:10.715 A:middle
+00:17:08.576 --> 00:17:10.716 A:middle
 In this case, we have
 two sets of commands.
 
-00:17:10.715 --> 00:17:16.185 A:middle
+00:17:10.716 --> 00:17:16.186 A:middle
 And with that new API that we
 just saw, you can now insert
 
-00:17:16.185 --> 00:17:19.736 A:middle
+00:17:16.186 --> 00:17:19.736 A:middle
 that CI filter anywhere into
 this command buffer such as
 
@@ -1502,13 +1367,6 @@ shaders to take advantage
 00:17:56.586 --> 00:17:59.516 A:middle
 of these highly optimized
 shaders specifically tuned
-
-00:17:59.516 --> 00:18:00.766 A:middle
-for Metal-capable devices.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.516 --> 00:18:00.766 A:middle
 for Metal-capable devices.
@@ -1589,14 +1447,6 @@ View Delegate function,
 this is the code you would
 need to write in order
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.946 --> 00:19:01.936 A:middle
-this is the code you would
-need to write in order
-
 00:19:01.936 --> 00:19:03.546 A:middle
 to render some CI
 filters through that view.
@@ -1660,14 +1510,6 @@ drawable and render the CI image
 00:19:52.746 --> 00:19:56.226 A:middle
 to that texture with the command
 buffer we want to use here.
-
-00:19:57.856 --> 00:20:00.236 A:middle
-Then finally, once we have
-encoded the render commands
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.856 --> 00:20:00.236 A:middle
 Then finally, once we have
@@ -1751,10 +1593,6 @@ playback of a video.
 So for the purpose of
 demonstrating these examples,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.096 --> 00:21:01.366 A:middle
 we are going to use a filter
 
@@ -1823,14 +1661,6 @@ you want to export as well
 as a callback block in which
 you can specify a filter recipe
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.796 --> 00:22:04.666 A:middle
-as a callback block in which
-you can specify a filter recipe
-
 00:22:05.196 --> 00:22:09.586 A:middle
 to be applied as each frame of
 the video is being rendered.
@@ -1891,14 +1721,6 @@ that Finish With Image call.
 00:22:50.986 --> 00:22:57.106 A:middle
 Now, that filter we just showed
 you is a pretty simple filter
-
-00:22:57.676 --> 00:23:00.446 A:middle
-that has no convolution
-filters involved.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.676 --> 00:23:00.446 A:middle
 that has no convolution
@@ -1971,14 +1793,6 @@ order to crop that image back
 
 00:23:54.176 --> 00:23:55.636 A:middle
 into the source image's extent.
-
-00:23:57.256 --> 00:24:01.626 A:middle
-By applying that simple recipe,
-you will get a much cleaner look
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.256 --> 00:24:01.626 A:middle
 By applying that simple recipe,
@@ -2057,10 +1871,6 @@ of that export,
 you can use the Composition Time
 parameter in your callback block
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.016 --> 00:25:01.936 A:middle
 to update such a UI element.
 
@@ -2133,14 +1943,6 @@ deterministic results.
 
 00:25:58.016 --> 00:25:59.466 A:middle
 So that is Core Image
-
-00:25:59.466 --> 00:26:02.726 A:middle
-and AV Foundation interoperating
-together very efficiently.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.466 --> 00:26:02.726 A:middle
 and AV Foundation interoperating
@@ -2228,14 +2030,6 @@ streaming from some site
 and you wanted to
 create a CI image,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.546 --> 00:27:01.006 A:middle
-and you wanted to
-create a CI image,
-
 00:27:01.006 --> 00:27:02.206 A:middle
 you could use a CIImageProvider.
 
@@ -2307,14 +2101,6 @@ to fill in this information.
 00:27:55.066 --> 00:27:56.976 A:middle
 And you have to fill
 in that data pointer
-
-00:27:57.216 --> 00:28:01.616 A:middle
-with a given row bytes value,
-a certain location in X and Y,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.216 --> 00:28:01.616 A:middle
 with a given row bytes value,
@@ -2399,14 +2185,6 @@ and all you have to do is
 on your UIImageView, set the
 Image property to a UI image --
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.916 --> 00:29:03.386 A:middle
-on your UIImageView, set the
-Image property to a UI image --
-
 00:29:03.936 --> 00:29:06.226 A:middle
 in this case, one
 based on a CI image.
@@ -2467,10 +2245,6 @@ get 48 frames per second.
 00:29:53.096 --> 00:29:58.656 A:middle
 And if we go one step further
 and do a Metal-based view,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.026 --> 00:30:02.966 A:middle
 we get slight improvement here.
@@ -2547,14 +2321,6 @@ all you need to do.
 On iOS, we don't
 have that support,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.886 --> 00:31:03.396 A:middle
-On iOS, we don't
-have that support,
-
 00:31:03.396 --> 00:31:06.126 A:middle
 so instead what you could
 do is OpenGL directly.
@@ -2621,14 +2387,6 @@ using the lower-level APIs.
 00:31:51.126 --> 00:31:56.736 A:middle
 Now, I would like to talk
 about Core Image on IOSurface.
-
-00:31:57.976 --> 00:32:01.736 A:middle
-Internally, within the
-Core Image implementation,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:57.976 --> 00:32:01.736 A:middle
 Internally, within the
@@ -2721,14 +2479,6 @@ internally is
 that Core Image knows that it's
 an IOSurface-backed CV Pixel
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.316 --> 00:33:02.166 A:middle
-that Core Image knows that it's
-an IOSurface-backed CV Pixel
-
 00:33:02.166 --> 00:33:04.256 A:middle
 Buffer and we can render
 as efficiently as possible.
@@ -2795,14 +2545,6 @@ So in this case, we will go
 and modify the Touches
 Began method inside
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.716 --> 00:34:01.986 A:middle
-and modify the Touches
-Began method inside
-
 00:34:01.986 --> 00:34:06.086 A:middle
 of GameScene.swift, and
 initially what was happening was
@@ -2811,11 +2553,11 @@ initially what was happening was
 for every tap it was adding
 that sprite to the root node.
 
-00:34:09.676 --> 00:34:15.565 A:middle
+00:34:09.676 --> 00:34:15.566 A:middle
 We will modify that a bit, and
 we will use an SK effect node.
 
-00:34:15.565 --> 00:34:18.856 A:middle
+00:34:15.566 --> 00:34:18.856 A:middle
 An SK effect node renders the
 entire contexts into a buffer,
 
@@ -2826,7 +2568,7 @@ a series of filters to.
 00:34:23.226 --> 00:34:24.716 A:middle
 So we put an SK effect node.
 
-00:34:25.065 --> 00:34:27.286 A:middle
+00:34:25.066 --> 00:34:27.286 A:middle
 Instead of adding our sprite
 that we had earlier to the root,
 
@@ -2841,10 +2583,10 @@ some effects, we are going
 to create a filter, in
 this case we are going
 
-00:34:35.536 --> 00:34:36.565 A:middle
+00:34:35.536 --> 00:34:36.566 A:middle
 to use a pixelate filter,
 
-00:34:37.315 --> 00:34:39.025 A:middle
+00:34:37.316 --> 00:34:39.026 A:middle
 which is the same one
 we were viewing earlier.
 
@@ -2855,11 +2597,11 @@ that effect to the root.
 00:34:43.716 --> 00:34:44.786 A:middle
 That is all we need to do.
 
-00:34:45.266 --> 00:34:47.255 A:middle
+00:34:45.266 --> 00:34:47.256 A:middle
 This is the exact code you
 would write if you wanted
 
-00:34:47.255 --> 00:34:51.505 A:middle
+00:34:47.256 --> 00:34:51.506 A:middle
 to add Core Image to a
 SpriteKit application.
 
@@ -2870,13 +2612,6 @@ same sample that we had
 00:34:54.866 --> 00:34:59.706 A:middle
 and start tapping away, we get
 beautifully pixelated sprites
-
-00:34:59.856 --> 00:35:01.846 A:middle
-in our application and running
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.856 --> 00:35:01.846 A:middle
 in our application and running
@@ -2939,13 +2674,6 @@ a beautifully pixelated ship.
 00:35:55.616 --> 00:35:59.396 A:middle
 So you can apply this to any
 node in your scene, and, again,
-
-00:35:59.396 --> 00:36:01.956 A:middle
-we get great frame rate.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.396 --> 00:36:01.956 A:middle
 we get great frame rate.
@@ -3014,14 +2742,6 @@ called Bananas,
 00:36:56.466 --> 00:36:59.006 A:middle
 where we have applied the same
 effect along with animation
-
-00:36:59.986 --> 00:37:04.066 A:middle
-and we are changing the pixelate
-scale in real time here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.986 --> 00:37:04.066 A:middle
 and we are changing the pixelate
@@ -3100,14 +2820,6 @@ CIImageProvider,
 and how to use it in the context
 of games or other applications
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:57.766 --> 00:38:01.826 A:middle
-and how to use it in the context
-of games or other applications
-
 00:38:02.106 --> 00:38:08.786 A:middle
 that you can create very simply
 with SceneKit or SpriteKit.
@@ -3160,4 +2872,3 @@ Thank you very much!
 
 00:38:47.516 --> 00:38:58.360 A:middle
 [ Applause ]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:31.271 --> 00:00:33.271 A:middle
 [ Applause ]
@@ -34,14 +33,6 @@ of WatchKit.
 00:00:54.206 --> 00:00:58.136 A:middle
 I will be going into more detail
 about how to use groups to set
-
-00:00:58.136 --> 00:01:01.256 A:middle
-up your complex layouts, and
-then you will hear from Tom,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.136 --> 00:01:01.256 A:middle
 up your complex layouts, and
@@ -123,14 +114,6 @@ you have your library of,
 and your catalog
 of WatchKit objects
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.456 --> 00:02:00.476 A:middle
-and your catalog
-of WatchKit objects
-
 00:02:00.996 --> 00:02:03.316 A:middle
 and you are dragging them
 on to your controller.
@@ -139,7 +122,7 @@ on to your controller.
 As you are dragging
 them, they are falling
 
-00:02:07.086 --> 00:02:09.895 A:middle
+00:02:07.086 --> 00:02:09.896 A:middle
 on the next available
 slot on the flow.
 
@@ -208,10 +191,6 @@ one of these in detail.
 Let's start out with
 alignment and sizing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:00.506 --> 00:03:01.706 A:middle
 All of your instances
 
@@ -275,14 +254,6 @@ you'll see later.
 
 00:03:57.136 --> 00:03:59.806 A:middle
 This is a new API set horizontal
-
-00:03:59.806 --> 00:04:03.776 A:middle
-and vertical alignment
-with new enum types.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.806 --> 00:04:03.776 A:middle
 and vertical alignment
@@ -356,10 +327,6 @@ as an absolute zero value.
 00:04:58.916 --> 00:04:59.976 A:middle
 So just keep that in mind.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:02.336 --> 00:05:06.646 A:middle
 Let's say that you want to
 size the rectangle to be 75%
@@ -421,14 +388,6 @@ we are sizing appropriately.
 00:05:55.246 --> 00:05:57.726 A:middle
 Now, let's move on
 to group elements.
-
-00:05:59.026 --> 00:06:01.306 A:middle
-This is where you really start
-to fine tune your layout.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.026 --> 00:06:01.306 A:middle
 This is where you really start
@@ -501,10 +460,6 @@ out your objects there.
 00:06:57.456 --> 00:06:59.746 A:middle
 So once you have defined
 your containment hierarchy,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.816 --> 00:07:04.206 A:middle
 you are able to define
@@ -581,10 +536,6 @@ stacked on top of each other,
 followed by two squares
 right next to each other,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.066 --> 00:08:04.466 A:middle
 you first use a group
 with a vertical layout.
@@ -627,22 +578,22 @@ start animating.
 00:08:30.696 --> 00:08:31.806 A:middle
 So we have WKRecipes.
 
-00:08:32.015 --> 00:08:33.796 A:middle
+00:08:32.016 --> 00:08:33.796 A:middle
 This is a very simple
 recipe viewer.
 
-00:08:34.316 --> 00:08:35.395 A:middle
+00:08:34.316 --> 00:08:35.396 A:middle
 It lists your recipes.
 
 00:08:36.416 --> 00:08:38.546 A:middle
 Fish tacos, pizza,
 barbecue wings.
 
-00:08:40.275 --> 00:08:42.785 A:middle
+00:08:40.276 --> 00:08:42.786 A:middle
 You can see the list of
 ingredients for each one
 
-00:08:42.785 --> 00:08:46.076 A:middle
+00:08:42.786 --> 00:08:46.076 A:middle
 of your recipes, and you can
 see the number of servings
 
@@ -666,14 +617,6 @@ of these three elements.
 
 00:08:56.866 --> 00:08:57.816 A:middle
 So how do we do this?
-
-00:08:58.956 --> 00:09:02.826 A:middle
-The first screen that we
-see is a table of recipes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.956 --> 00:09:02.826 A:middle
 The first screen that we
@@ -749,14 +692,6 @@ the slot that it corresponds to,
 right, because there's an image
 before it, so right next to it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.116 --> 00:10:01.066 A:middle
-right, because there's an image
-before it, so right next to it.
-
 00:10:02.286 --> 00:10:04.386 A:middle
 Sizing our images are square.
 
@@ -820,14 +755,6 @@ We still have a group.
 
 00:10:55.816 --> 00:10:58.836 A:middle
 We have the label, obviously,
-
-00:10:58.836 --> 00:11:01.936 A:middle
-but what is that red
-circle on the top left?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.836 --> 00:11:01.936 A:middle
 but what is that red
@@ -905,14 +832,6 @@ but this is the model.
 Now you define -- you
 find tune your left inset,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:56.786 --> 00:12:00.076 A:middle
-Now you define -- you
-find tune your left inset,
-
 00:12:00.126 --> 00:12:04.696 A:middle
 top, bottom, and spacing.
 
@@ -975,10 +894,6 @@ just three top level groups.
 
 00:12:57.336 --> 00:12:59.296 A:middle
 So we have the first group,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.306 --> 00:13:05.266 A:middle
 the second group,
@@ -1052,13 +967,6 @@ alignment, the precise alignment
 00:13:59.516 --> 00:14:00.816 A:middle
 on each one of those circles.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.516 --> 00:14:00.816 A:middle
-on each one of those circles.
-
 00:14:01.086 --> 00:14:02.426 A:middle
 Now you can clearly see
 
@@ -1128,14 +1036,6 @@ an exact number.
 00:14:56.436 --> 00:14:58.626 A:middle
 It depends on what
 your backgrounds are
-
-00:14:58.626 --> 00:15:02.776 A:middle
-or how your layout is behaving,
-but keep these things in mind.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.626 --> 00:15:02.776 A:middle
 or how your layout is behaving,
@@ -1232,14 +1132,6 @@ at that particular time.
 And finally, as I showed you
 with groups and their ability
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.136 --> 00:16:03.766 A:middle
-And finally, as I showed you
-with groups and their ability
-
 00:16:03.766 --> 00:16:10.176 A:middle
 to have images, keep in mind
 that images have a transfer cost
@@ -1320,31 +1212,23 @@ image, we will resize it
 for whatever you tell us
 to display on the screen.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.446 --> 00:17:02.216 A:middle
-for whatever you tell us
-to display on the screen.
-
 00:17:03.286 --> 00:17:06.076 A:middle
 But by doing, that you are
 adding more processing cycles
 
-00:17:06.286 --> 00:17:08.965 A:middle
+00:17:06.286 --> 00:17:08.966 A:middle
 from our -- from the WatchKit
 side on the watch, right?
 
-00:17:08.965 --> 00:17:12.316 A:middle
+00:17:08.966 --> 00:17:12.316 A:middle
 So you have the ability to
 resize your images properly,
 
-00:17:13.026 --> 00:17:15.175 A:middle
+00:17:13.026 --> 00:17:15.176 A:middle
 either on the phone or in
 your servers, if they happen
 
-00:17:15.175 --> 00:17:18.195 A:middle
+00:17:15.176 --> 00:17:18.196 A:middle
 to be dynamic images and
 this makes an impact,
 
@@ -1352,11 +1236,11 @@ this makes an impact,
 in terms of the rendering
 of your UI.
 
-00:17:22.316 --> 00:17:25.425 A:middle
+00:17:22.316 --> 00:17:25.426 A:middle
 Finally, you will have
 some images that need
 
-00:17:25.425 --> 00:17:27.146 A:middle
+00:17:25.426 --> 00:17:27.146 A:middle
 to be resized, for
 example, buttons.
 
@@ -1403,13 +1287,6 @@ add more dynamic aspects
 
 00:17:56.816 --> 00:17:57.506 A:middle
 to this model.
-
-00:17:58.516 --> 00:18:01.006 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.516 --> 00:18:01.006 A:middle
 [ Applause ]
@@ -1489,14 +1366,6 @@ as we are doing this.
 00:18:55.636 --> 00:18:58.546 A:middle
 And so it would be great if
 we could possibly insert a row
-
-00:18:58.856 --> 00:19:01.326 A:middle
-and say how the list is
-sorted and then after a couple
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.856 --> 00:19:01.326 A:middle
 and say how the list is
@@ -1583,10 +1452,6 @@ that I'm sure you all know
 if you've used WatchKit
 or Watch OS 1.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:02.006 --> 00:20:05.746 A:middle
 So moving on to the content
 within a row and we will tap
@@ -1668,10 +1533,6 @@ have a third label.
 So that's a full
 descriptionlabel.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:01.186 --> 00:21:06.416 A:middle
 So the initial state of our cell
 has the full description label
@@ -1734,14 +1595,6 @@ they have a fixed height,
 00:21:51.276 --> 00:21:52.686 A:middle
 again the row isn't
 actually changing.
-
-00:21:57.636 --> 00:22:00.186 A:middle
-So now we will go back
-to our recipe list
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.636 --> 00:22:00.186 A:middle
 So now we will go back
@@ -1823,10 +1676,6 @@ as you can, and the size of the
 and you will get
 better performance.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:02.496 --> 00:23:05.526 A:middle
 I also want to point out
 now our new picker object,
@@ -1880,14 +1729,6 @@ alignment, so left to right
 
 00:23:54.266 --> 00:23:55.646 A:middle
 or top and bottom or center.
-
-00:23:57.086 --> 00:24:01.746 A:middle
-The background colors on
-groups, so the color or the tint
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.086 --> 00:24:01.746 A:middle
 The background colors on
@@ -1956,13 +1797,6 @@ So like this.
 00:24:55.606 --> 00:24:59.366 A:middle
 So in code, we are going
 to loop through our groups
-
-00:24:59.366 --> 00:25:00.296 A:middle
-around that outer ring.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.366 --> 00:25:00.296 A:middle
 around that outer ring.
@@ -2038,13 +1872,6 @@ to start your animation.
 00:25:57.056 --> 00:26:00.636 A:middle
 So use the did appear method.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:57.056 --> 00:26:00.636 A:middle
-So use the did appear method.
-
 00:26:00.636 --> 00:26:03.786 A:middle
 Also you can stagger your
 animations with timers or GCD.
@@ -2116,14 +1943,6 @@ have that in the storyboard
 00:26:55.296 --> 00:26:56.806 A:middle
 and not have to worry
 about it at runtime.
-
-00:26:57.376 --> 00:27:00.996 A:middle
-So we will move on to
-our second example,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.376 --> 00:27:00.996 A:middle
 So we will move on to
@@ -2211,14 +2030,6 @@ both for horizontal flow
 and vertical flow
 to kind of affect
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.786 --> 00:28:00.546 A:middle
-and vertical flow
-to kind of affect
-
 00:28:00.546 --> 00:28:01.716 A:middle
 where things are laying out.
 
@@ -2298,14 +2109,6 @@ you animate, we actually relay
 out your entire interface and
 this is how I can set the width
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:57.306 --> 00:29:00.846 A:middle
-out your entire interface and
-this is how I can set the width
-
 00:29:00.846 --> 00:29:05.106 A:middle
 on that group and the label is
 actually changing its position,
@@ -2379,14 +2182,6 @@ So back to a wire frame.
 Within our interface,
 we have a group
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.816 --> 00:30:00.676 A:middle
-Within our interface,
-we have a group
-
 00:30:01.136 --> 00:30:04.166 A:middle
 and that's the text
 container I will call it.
@@ -2454,10 +2249,6 @@ that note is, it will fit.
 00:30:55.896 --> 00:30:59.066 A:middle
 We will fade in the button
 by updating the alpha
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.466 --> 00:31:02.536 A:middle
 and we'll update the
@@ -2527,13 +2318,6 @@ is full height
 00:31:54.516 --> 00:31:57.826 A:middle
 and the confirmation container
 actually has a height of zero
-
-00:31:58.116 --> 00:32:00.596 A:middle
-and so it's hidden on screen.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.116 --> 00:32:00.596 A:middle
 and so it's hidden on screen.
@@ -2611,13 +2395,6 @@ affects the sizing
 00:32:56.726 --> 00:32:59.096 A:middle
 of your interface
 objects can actually --
-
-00:32:59.516 --> 00:33:00.816 A:middle
-can actually animate the layout.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.516 --> 00:33:00.816 A:middle
 can actually animate the layout.
@@ -2701,14 +2478,6 @@ a glance or notification.
 So those updates
 will still be applied
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.306 --> 00:34:00.126 A:middle
-So those updates
-will still be applied
-
 00:34:00.126 --> 00:34:01.166 A:middle
 but they won't be animated.
 
@@ -2720,16 +2489,16 @@ point in using this
 within a glance or
 a notification.
 
-00:34:06.106 --> 00:34:08.835 A:middle
+00:34:06.106 --> 00:34:08.836 A:middle
 A few more notes.
 
-00:34:10.045 --> 00:34:11.196 A:middle
+00:34:10.046 --> 00:34:11.196 A:middle
 So use with restraint.
 
 00:34:11.436 --> 00:34:12.876 A:middle
 And that's because animation,
 
-00:34:13.005 --> 00:34:15.146 A:middle
+00:34:13.006 --> 00:34:15.146 A:middle
 it should never be the
 focus of your interface.
 
@@ -2749,22 +2518,22 @@ the total duration short.
 We -- so the amount of time
 within your app is probably
 
-00:34:29.786 --> 00:34:32.775 A:middle
+00:34:29.786 --> 00:34:32.776 A:middle
 on the order of seconds and so
 don't prolong the animation,
 
-00:34:32.775 --> 00:34:33.726 A:middle
+00:34:32.776 --> 00:34:33.726 A:middle
 like, any more than you have to.
 
 00:34:34.116 --> 00:34:35.596 A:middle
 And there's a great
 session on this,
 
-00:34:35.596 --> 00:34:39.275 A:middle
+00:34:35.596 --> 00:34:39.276 A:middle
 "Designing with Animation",
 I highly recommend that.
 
-00:34:39.275 --> 00:34:42.496 A:middle
+00:34:39.276 --> 00:34:42.496 A:middle
 And so to wrap up and conclude
 the talk, and so layout
 
@@ -2786,13 +2555,6 @@ introducing a lot of new API
 00:34:54.156 --> 00:34:57.946 A:middle
 that allows you to update, to
 update your UI at one time.
-
-00:34:59.136 --> 00:35:00.376 A:middle
-Again, it's flow based
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.136 --> 00:35:00.376 A:middle
 Again, it's flow based
@@ -2870,13 +2632,6 @@ content this week
 00:35:59.956 --> 00:36:01.276 A:middle
 and some are still happening.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.956 --> 00:36:01.276 A:middle
-and some are still happening.
-
 00:36:01.886 --> 00:36:05.216 A:middle
 I want to point out the Tips
 and Tricks one tomorrow morning,
@@ -2899,4 +2654,3 @@ Thanks.
 
 00:36:16.516 --> 00:36:28.870 A:middle
 [ Applause ]
-

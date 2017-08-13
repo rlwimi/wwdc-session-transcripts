@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:27.516 --> 00:00:31.156 A:middle
 [Applause]
@@ -49,19 +48,11 @@ about performance?
 It can be like a very broad
 and sometimes daunting topic,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.536 --> 00:01:01.756 A:middle
-It can be like a very broad
-and sometimes daunting topic,
-
 00:01:01.756 --> 00:01:04.566 A:middle
 but we are going to break it
 down into a couple of categories
 
-00:01:05.075 --> 00:01:07.076 A:middle
+00:01:05.076 --> 00:01:07.076 A:middle
 and give you a few
 specific strategies
 
@@ -129,14 +120,6 @@ user input right away,
 00:01:53.576 --> 00:01:55.886 A:middle
 that actually builds
 the trust of your users.
-
-00:01:56.886 --> 00:02:00.516 A:middle
-That lets them know that if they
-quickly need to access a piece
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:56.886 --> 00:02:00.516 A:middle
 That lets them know that if they
@@ -214,14 +197,6 @@ a huge range of hardware,
 00:02:54.326 --> 00:02:57.026 A:middle
 and performance is a
 prerequisite of continuing
-
-00:02:57.026 --> 00:03:00.316 A:middle
-to bring great apps and features
-to all of your customers.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.026 --> 00:03:00.316 A:middle
 to bring great apps and features
@@ -308,14 +283,6 @@ choosing technologies.
 Picking the right tool for
 the job is a really early
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.006 --> 00:04:02.206 A:middle
-Picking the right tool for
-the job is a really early
-
 00:04:02.206 --> 00:04:03.186 A:middle
 and critical aspect
 
@@ -337,11 +304,11 @@ So over the course of this talk,
 I'm going to reference several
 other talks from this year
 
-00:04:16.245 --> 00:04:19.046 A:middle
+00:04:16.246 --> 00:04:19.046 A:middle
 and previous years
 that cover technologies
 
-00:04:19.286 --> 00:04:20.745 A:middle
+00:04:19.286 --> 00:04:20.746 A:middle
 that we have found
 really helpful
 
@@ -395,10 +362,6 @@ I strongly encourage you
 00:04:57.316 --> 00:04:59.436 A:middle
 to consider Apple
 APIs and frameworks.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.336 --> 00:05:03.016 A:middle
 We spent a lot of time trying
@@ -480,13 +443,6 @@ quickly you react to user input,
 00:05:59.876 --> 00:06:01.706 A:middle
 and actually, the simplest way
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.876 --> 00:06:01.706 A:middle
-and actually, the simplest way
-
 00:06:01.706 --> 00:06:05.176 A:middle
 of measuring responsiveness
 may seem a little bit low tech,
@@ -564,14 +520,6 @@ instrumentation example.
 00:06:55.616 --> 00:06:58.856 A:middle
 Here I've got an IBAction
 that's wired to a button,
-
-00:06:58.856 --> 00:07:01.926 A:middle
-so when my user taps this,
-I am going to load an image
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.856 --> 00:07:01.926 A:middle
 so when my user taps this,
@@ -667,14 +615,6 @@ app is actually behaving
 in the field; however,
 it's equally important not
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.836 --> 00:08:03.476 A:middle
-in the field; however,
-it's equally important not
-
 00:08:03.476 --> 00:08:05.616 A:middle
 to submit your performance
 instrumentation
@@ -709,11 +649,11 @@ are we interested in measuring?
 Well, definitely taps
 and button presses.
 
-00:08:29.416 --> 00:08:32.635 A:middle
+00:08:29.416 --> 00:08:32.636 A:middle
 Most commonly, you'll be
 doing these in IBActions.
 
-00:08:33.336 --> 00:08:37.155 A:middle
+00:08:33.336 --> 00:08:37.156 A:middle
 You may also do them in
 UIView touch handling code.
 
@@ -748,10 +688,6 @@ about the time between
 00:08:57.266 --> 00:08:59.776 A:middle
 and 'view did appear'
 because that lets you compare
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.106 --> 00:09:03.096 A:middle
 which of your views take longer
@@ -838,13 +774,6 @@ be 100 milliseconds.
 00:09:58.756 --> 00:10:00.376 A:middle
 By the way, you want to think
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.756 --> 00:10:00.376 A:middle
-By the way, you want to think
-
 00:10:00.376 --> 00:10:02.466 A:middle
 about reaching these
 performance goals
@@ -922,14 +851,6 @@ closer to a coin toss.
 Along those lines, avoid
 premature optimization.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.866 --> 00:11:02.016 A:middle
-Along those lines, avoid
-premature optimization.
-
 00:11:02.586 --> 00:11:05.506 A:middle
 Don't complexify your code
 until you have evidence
@@ -997,14 +918,6 @@ or a functional issue.
 00:11:51.866 --> 00:11:57.166 A:middle
 So here is the picture
 I want you to print out,
-
-00:11:57.166 --> 00:12:00.016 A:middle
-stick on your wall, set as
-the wallpaper on your Mac.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.166 --> 00:12:00.016 A:middle
 stick on your wall, set as
@@ -1096,14 +1009,6 @@ reproduce again, it's better,
 but you are not where
 you want to be.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.196 --> 00:13:00.456 A:middle
-but you are not where
-you want to be.
-
 00:13:01.256 --> 00:13:08.326 A:middle
 So you can keep going through
 the cycle until you are happy.
@@ -1164,14 +1069,6 @@ scenarios, there's System Trace.
 00:13:50.276 --> 00:13:52.086 A:middle
 So let's talk about
 responsiveness.
-
-00:13:56.996 --> 00:14:00.206 A:middle
-Responsiveness is all about
-reacting to user input.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:56.996 --> 00:14:00.206 A:middle
 Responsiveness is all about
@@ -1261,14 +1158,6 @@ And I will come back to that.
 I am not going to spend too much
 time on CPU-intensive work today
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.946 --> 00:15:02.106 A:middle
-I am not going to spend too much
-time on CPU-intensive work today
-
 00:15:02.106 --> 00:15:04.746 A:middle
 because there was a great talk
 earlier this week from the folks
@@ -1345,14 +1234,6 @@ resource that is available,
 00:15:55.766 --> 00:15:57.666 A:middle
 but it's waiting for
 someone else to finish using
-
-00:15:57.666 --> 00:16:00.476 A:middle
-that resource because that
-resource only allows one client
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.666 --> 00:16:00.476 A:middle
 that resource because that
@@ -1445,14 +1326,6 @@ restructuring is required.
 But let's say you don't
 have an async equivalent
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.216 --> 00:17:01.846 A:middle
-But let's say you don't
-have an async equivalent
-
 00:17:01.846 --> 00:17:05.516 A:middle
 that you can easily switch to or
 you want to move a whole section
@@ -1469,7 +1342,7 @@ Grand Central Dispatch.
 Grand Central Dispatch
 is an Apple technology
 
-00:17:15.006 --> 00:17:17.435 A:middle
+00:17:15.006 --> 00:17:17.436 A:middle
 that manages a global
 thread pool in your app.
 
@@ -1483,11 +1356,11 @@ Even if you don't notice it.
 If you are familiar with
 programming with threads
 
-00:17:22.846 --> 00:17:26.425 A:middle
+00:17:22.846 --> 00:17:26.426 A:middle
 on other platforms, Grand
 Central Dispatch sort of takes
 
-00:17:26.425 --> 00:17:29.016 A:middle
+00:17:26.426 --> 00:17:29.016 A:middle
 out all the confusion
 and trouble of worrying
 
@@ -1525,14 +1398,6 @@ but they have the caveat.
 00:17:55.546 --> 00:17:58.896 A:middle
 Since you don't control which
 thread your code is running on,
-
-00:17:59.606 --> 00:18:01.786 A:middle
-any operation you
-express in a closure
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.606 --> 00:18:01.786 A:middle
 any operation you
@@ -1614,14 +1479,6 @@ of exactly how it expects
 to be accessed by
 threads in your app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.666 --> 00:19:01.246 A:middle
-to be accessed by
-threads in your app.
-
 00:19:01.986 --> 00:19:03.416 A:middle
 So, let's go back
 to my example here.
@@ -1691,14 +1548,6 @@ So how do we fix this?
 00:19:55.876 --> 00:19:58.066 A:middle
 Well, we can use Grand
 Central Dispatch,
-
-00:19:58.396 --> 00:20:01.026 A:middle
-and we can use a Grand
-Central Dispatch API called
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.396 --> 00:20:01.026 A:middle
 and we can use a Grand
@@ -1784,13 +1633,6 @@ I am done.
 
 00:20:57.426 --> 00:20:58.276 A:middle
 It's off the main thread.
-
-00:20:58.476 --> 00:21:00.986 A:middle
-Right? Not quite.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.476 --> 00:21:00.986 A:middle
 Right? Not quite.
@@ -1882,14 +1724,6 @@ main queue.
 The main queue is guaranteed to
 be serviced by the main thread.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.086 --> 00:22:02.326 A:middle
-The main queue is guaranteed to
-be serviced by the main thread.
-
 00:22:02.756 --> 00:22:06.146 A:middle
 You can get it using the API
 dispatch 'get main queue.'
@@ -1963,14 +1797,6 @@ As I mentioned, networking.
 
 00:22:56.186 --> 00:22:57.766 A:middle
 NSURLConnection and friends.
-
-00:22:57.766 --> 00:23:00.426 A:middle
-It's very easy to,
-without meaning to,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.766 --> 00:23:00.426 A:middle
 It's very easy to,
@@ -2063,14 +1889,6 @@ new API in Core Data this year
 to simplify that and other
 common bulk operations.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.246 --> 00:24:01.406 A:middle
-to simplify that and other
-common bulk operations.
-
 00:24:02.066 --> 00:24:04.086 A:middle
 You can go learn about it in
 the session from the other day,
@@ -2149,14 +1967,6 @@ especially important
 that its memory footprint
 be compact.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.636 --> 00:25:02.266 A:middle
-that its memory footprint
-be compact.
-
 00:25:02.346 --> 00:25:05.236 A:middle
 Once again, iOS 9 supports
 a huge range of hardware.
@@ -2223,14 +2033,6 @@ system, we might write the state
 00:25:55.256 --> 00:25:57.826 A:middle
 of those apps out to
 disk first, but it turns
-
-00:25:57.826 --> 00:26:00.086 A:middle
-out that doesn't make
-sense on mobile devices,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.826 --> 00:26:00.086 A:middle
 out that doesn't make
@@ -2327,14 +2129,6 @@ then returns to your app,
 you will be able to resume
 instead of launching,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.726 --> 00:27:02.076 A:middle
-you will be able to resume
-instead of launching,
-
 00:27:02.076 --> 00:27:05.286 A:middle
 and that will feel a lot faster.
 
@@ -2410,14 +2204,6 @@ and Leaks Instruments.
 00:27:55.576 --> 00:27:58.466 A:middle
 I am not going to go into
 those today, but please check
-
-00:27:58.466 --> 00:28:00.496 A:middle
-out this talk from last year
-called "Improving Your App
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.466 --> 00:28:00.496 A:middle
 out this talk from last year
@@ -2510,14 +2296,6 @@ action over and over.
 So I might open the
 same photo or a couple
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.706 --> 00:29:01.736 A:middle
-So I might open the
-same photo or a couple
-
 00:29:01.736 --> 00:29:03.226 A:middle
 of different photos a few times.
 
@@ -2595,10 +2373,6 @@ have this behavior often built
 00:29:57.046 --> 00:29:59.786 A:middle
 in, and they manage sort of
 their underlying resources
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.046 --> 00:30:02.956 A:middle
 in response to application
@@ -2684,14 +2458,6 @@ if their footprint goes down.
 00:30:56.706 --> 00:30:59.146 A:middle
 So here is a quick
 example of that.
-
-00:30:59.146 --> 00:31:03.266 A:middle
-I am going to use the
-default NSNotificationCenter.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.146 --> 00:31:03.266 A:middle
 I am going to use the
@@ -2785,14 +2551,6 @@ It's really great.
 Last but not least, I hope
 you are all really excited
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.466 --> 00:32:04.396 A:middle
-Last but not least, I hope
-you are all really excited
-
 00:32:04.396 --> 00:32:06.366 A:middle
 to bring native code
 to watchOS 2.
@@ -2860,14 +2618,6 @@ for performance reasons.
 00:32:53.236 --> 00:32:55.386 A:middle
 And you will end up
 implementing new mechanisms
-
-00:32:55.596 --> 00:33:05.426 A:middle
-to achieve the same result
-on the other platform.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:55.596 --> 00:33:05.426 A:middle
 to achieve the same result
@@ -2941,14 +2691,6 @@ simple as removing unused keys
 from JSON or XML
 blobs; resizing images
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.686 --> 00:34:01.496 A:middle
-from JSON or XML
-blobs; resizing images
-
 00:34:01.786 --> 00:34:03.926 A:middle
 so that the Watch can
 just display them exactly
@@ -2972,7 +2714,7 @@ it may be sending back all
 00:34:16.496 --> 00:34:17.946 A:middle
 that information in one call.
 
-00:34:18.485 --> 00:34:19.585 A:middle
+00:34:18.486 --> 00:34:19.586 A:middle
 But actually, for the Watch,
 
 00:34:19.946 --> 00:34:21.766 A:middle
@@ -2994,7 +2736,7 @@ use your iPhone app
 00:34:30.706 --> 00:34:32.386 A:middle
 to keep the app context updated.
 
-00:34:33.196 --> 00:34:36.505 A:middle
+00:34:33.196 --> 00:34:36.506 A:middle
 The app context is a piece
 of bidirectional shared state
 
@@ -3009,15 +2751,15 @@ an action on either end
 that will cause them to expect
 to see something different
 
-00:34:42.746 --> 00:34:45.065 A:middle
+00:34:42.746 --> 00:34:45.066 A:middle
 on the other end,
 that can be updated.
 
-00:34:45.676 --> 00:34:49.235 A:middle
+00:34:45.676 --> 00:34:49.236 A:middle
 The API for doing this is
 'watch connectivity update
 
-00:34:49.235 --> 00:34:50.315 A:middle
+00:34:49.236 --> 00:34:50.316 A:middle
 application context.'
 
 00:34:51.346 --> 00:34:55.036 A:middle
@@ -3030,14 +2772,6 @@ up by background app refresh.
 00:34:57.616 --> 00:34:59.286 A:middle
 When it's done downloading
 new information
-
-00:34:59.286 --> 00:35:02.156 A:middle
-and updating its own
-snapshot, it can also push
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.286 --> 00:35:02.156 A:middle
 and updating its own
@@ -3119,14 +2853,6 @@ It's an essential aspect
 of giving your users a great
 experience in your apps.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:57.656 --> 00:36:00.006 A:middle
-of giving your users a great
-experience in your apps.
-
 00:36:00.756 --> 00:36:02.676 A:middle
 And it should be on
 your mind from day one
@@ -3197,4 +2923,3 @@ Thanks, and have a great Friday.
 
 00:36:49.516 --> 00:36:52.500 A:middle
 [Applause]
-

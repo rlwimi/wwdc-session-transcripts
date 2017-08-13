@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:23.516 --> 00:00:27.126 A:middle
 [Applause]
@@ -55,14 +54,6 @@ into your app's UI
 and its user interface elements,
 and how they behave at runtime.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:56.636 --> 00:01:00.116 A:middle
-and its user interface elements,
-and how they behave at runtime.
-
 00:01:00.646 --> 00:01:02.896 A:middle
 We are going to debug an
 AutoLayout Constraints problem,
@@ -71,7 +62,7 @@ AutoLayout Constraints problem,
 which, at least for me, I
 could always use a little help
 
-00:01:05.465 --> 00:01:07.866 A:middle
+00:01:05.466 --> 00:01:07.866 A:middle
 understanding exactly what
 AutoLayout is doing at runtime.
 
@@ -135,14 +126,6 @@ demo machine, and show you.
 00:01:55.856 --> 00:01:58.776 A:middle
 So here we have an
 application called Jogr.
-
-00:01:59.586 --> 00:02:03.466 A:middle
-It's a fitness application that
-allows you to time your runs,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.586 --> 00:02:03.466 A:middle
 It's a fitness application that
@@ -228,13 +211,6 @@ was fully adaptable
 00:02:59.946 --> 00:03:01.306 A:middle
 down to smaller screen sizes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.946 --> 00:03:01.306 A:middle
-down to smaller screen sizes.
-
 00:03:01.656 --> 00:03:05.336 A:middle
 To help get a little insight
 into what's going on here,
@@ -310,14 +286,6 @@ double-clicking on the view.
 Just in case you missed that,
 I will show you how to unfocus,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.346 --> 00:04:00.636 A:middle
-Just in case you missed that,
-I will show you how to unfocus,
-
 00:04:00.706 --> 00:04:02.416 A:middle
 which is just double-clicking
 on the canvas
@@ -371,14 +339,6 @@ the bounds, or the x and the y,
 
 00:04:57.346 --> 00:04:58.986 A:middle
 are shown down here in gray.
-
-00:04:59.846 --> 00:05:01.836 A:middle
-So this is actually
-a little odd.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.846 --> 00:05:01.836 A:middle
 So this is actually
@@ -464,14 +424,6 @@ looks normal.
 The top and the bottom
 relationships are sensical,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.746 --> 00:06:01.386 A:middle
-The top and the bottom
-relationships are sensical,
-
 00:06:01.386 --> 00:06:03.146 A:middle
 top is higher than
 bottom, bottom is connected
@@ -539,14 +491,6 @@ here on our storyboard
 
 00:06:55.176 --> 00:06:56.196 A:middle
 and see if that's the issue.
-
-00:06:57.516 --> 00:07:01.446 A:middle
-So I can select the stack
-view and there it is.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.516 --> 00:07:01.446 A:middle
 So I can select the stack
@@ -620,14 +564,6 @@ to the Breakpoint Navigator
 and click down here on the plus
 to add an exception breakpoint,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.676 --> 00:08:04.356 A:middle
-and click down here on the plus
-to add an exception breakpoint,
-
 00:08:04.356 --> 00:08:07.096 A:middle
 and I'm going to configure
 this breakpoint to stop
@@ -656,7 +592,7 @@ So this is great, but if I look
 at my console now, I
 don't see anything.
 
-00:08:32.525 --> 00:08:36.926 A:middle
+00:08:32.526 --> 00:08:36.926 A:middle
 There's no message to describe
 exactly what the exception is.
 
@@ -686,14 +622,6 @@ exception object itself.
 00:08:52.326 --> 00:08:56.266 A:middle
 I do that by saying
 print object, arg1,
-
-00:08:57.276 --> 00:09:01.286 A:middle
-and this is the actual
-exception message itself.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.276 --> 00:09:01.286 A:middle
 and this is the actual
@@ -768,14 +696,6 @@ length of the string
 when we are setting
 the font attribute.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.826 --> 00:10:01.566 A:middle
-when we are setting
-the font attribute.
-
 00:10:02.566 --> 00:10:09.986 A:middle
 So let's rerun this
 again and see, alright,
@@ -829,14 +749,6 @@ with our data model here.
 00:10:56.836 --> 00:10:58.966 A:middle
 So I want to figure
 out what we are doing
-
-00:10:58.966 --> 00:11:02.516 A:middle
-when we are making
-the overlay of points
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.966 --> 00:11:02.516 A:middle
 when we are making
@@ -906,14 +818,6 @@ to make this faster,
 and just to see all
 the values together,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.286 --> 00:12:01.096 A:middle
-and just to see all
-the values together,
-
 00:12:01.096 --> 00:12:02.396 A:middle
 is I will edit this breakpoint.
 
@@ -971,10 +875,6 @@ more help from someone else.
 00:12:49.796 --> 00:12:59.996 A:middle
 So, let's switch
 back to the sides.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.506 --> 00:13:04.016 A:middle
 So just to recap what we saw,
@@ -1049,14 +949,6 @@ I would like to introduce Anna.
 00:13:54.326 --> 00:13:57.266 A:middle
 Hello. Let's go back
 to that route
-
-00:13:57.266 --> 00:14:00.266 A:middle
-that Mike showed
-last in his demo.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.266 --> 00:14:00.266 A:middle
 that Mike showed
@@ -1142,14 +1034,6 @@ produce them locally.
 Memory corruptions are
 known to be notoriously hard
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:56.226 --> 00:15:00.436 A:middle
-Memory corruptions are
-known to be notoriously hard
-
 00:15:00.476 --> 00:15:03.356 A:middle
 to consistently reproduce
 and finding the root cause
@@ -1223,14 +1107,6 @@ purpose as Guard Malloc,
 as it finds memory errors at
 runtime, however, it has a lot
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:55.086 --> 00:16:00.576 A:middle
-as it finds memory errors at
-runtime, however, it has a lot
-
 00:16:00.576 --> 00:16:02.376 A:middle
 of benefits over
 the other tools.
@@ -1299,10 +1175,6 @@ Let's go back to the demo
 and see how you can turn
 this on in your project.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:02.896 --> 00:17:06.386 A:middle
 So I will start right at the
 place where Mike left off
@@ -1311,14 +1183,14 @@ place where Mike left off
 and let's see if the Address
 Sanitizer will help us diagnose
 
-00:17:09.586 --> 00:17:10.685 A:middle
+00:17:09.586 --> 00:17:10.686 A:middle
 this routes issue.
 
-00:17:11.435 --> 00:17:13.346 A:middle
+00:17:11.436 --> 00:17:13.346 A:middle
 In order to turn
 Address Sanitizer [on],
 
-00:17:13.925 --> 00:17:15.455 A:middle
+00:17:13.926 --> 00:17:15.456 A:middle
 you go to Edit Scheme.
 
 00:17:16.066 --> 00:17:20.046 A:middle
@@ -1374,14 +1246,6 @@ are integrated directly
 
 00:17:57.516 --> 00:17:58.946 A:middle
 into the Xcode Debugger UI.
-
-00:17:59.976 --> 00:18:03.106 A:middle
-What happens is very similar
-to what will occur on a crash,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.976 --> 00:18:03.106 A:middle
 What happens is very similar
@@ -1462,13 +1326,6 @@ is presented here
 00:18:59.116 --> 00:19:00.216 A:middle
 under the memory item.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.116 --> 00:19:00.216 A:middle
-under the memory item.
-
 00:19:00.836 --> 00:19:04.766 A:middle
 So here it tells us that the
 faulty address is one byte
@@ -1528,13 +1385,6 @@ Let's go back to the Use site.
 00:19:53.866 --> 00:19:57.506 A:middle
 Well, the type you pass the
 size of here, is different.
-
-00:19:58.146 --> 00:20:01.366 A:middle
-We pass MK Map Point star.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.146 --> 00:20:01.366 A:middle
 We pass MK Map Point star.
@@ -1616,14 +1466,6 @@ perspective.
 To go to the Memory View, you
 can click on the address here,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.646 --> 00:21:03.096 A:middle
-To go to the Memory View, you
-can click on the address here,
-
 00:21:03.876 --> 00:21:07.366 A:middle
 and here you can see all the
 greyed-out stuff is invalid
@@ -1682,14 +1524,6 @@ the demo app, the overhead
 00:21:55.406 --> 00:21:58.106 A:middle
 of using Address Sanitizer
 was not even noticeable.
-
-00:21:58.626 --> 00:22:01.776 A:middle
-This low runtime overhead allows
-you to use Address Sanitizer,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.626 --> 00:22:01.776 A:middle
 This low runtime overhead allows
@@ -1768,10 +1602,6 @@ compiler optimizations are
 00:22:58.956 --> 00:22:59.616 A:middle
 turned off.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.426 --> 00:23:03.926 A:middle
 However, it is also supported
 with the Fast optimization level
@@ -1838,13 +1668,6 @@ links with asan runtime dylib,
 00:23:55.636 --> 00:23:59.096 A:middle
 that contains even more checks,
 and that dylib is required
-
-00:23:59.096 --> 00:24:00.186 A:middle
-by the instrumentation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.096 --> 00:24:00.186 A:middle
 by the instrumentation.
@@ -1930,14 +1753,6 @@ valid, so the program is allowed
 to write to that
 memory location.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.466 --> 00:25:01.426 A:middle
-to write to that
-memory location.
-
 00:25:01.866 --> 00:25:06.936 A:middle
 However, if it does not
 point to valid memory,
@@ -2004,14 +1819,6 @@ the shadow in the memory.
 00:25:55.816 --> 00:25:58.856 A:middle
 Even if the byte of the
 computed address is nonzero,
-
-00:25:59.136 --> 00:26:00.516 A:middle
-we know that the
-memory is poisoned.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.136 --> 00:26:00.516 A:middle
 we know that the
@@ -2085,14 +1892,6 @@ deallocated, we mark the object
 
 00:26:55.886 --> 00:26:57.066 A:middle
 as poisoned in the shadow.
-
-00:26:57.706 --> 00:27:03.866 A:middle
-To summarize, the custom Malloc
-implementation inserts poisoned
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.706 --> 00:27:03.866 A:middle
 To summarize, the custom Malloc
@@ -2175,14 +1974,6 @@ in between those variables,
 so we can detect any
 overflows on stack variables.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.406 --> 00:28:03.486 A:middle
-so we can detect any
-overflows on stack variables.
-
 00:28:04.326 --> 00:28:08.876 A:middle
 Stack red zones are poisoned
 when you enter the function
@@ -2245,14 +2036,6 @@ memory to v.begin,
 00:28:56.026 --> 00:28:58.476 A:middle
 to v.begin plus capacity
 has been allocated,
-
-00:28:59.186 --> 00:29:02.286 A:middle
-accessing memory past
-v.end is an error.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.186 --> 00:29:02.286 A:middle
 accessing memory past
@@ -2324,14 +2107,6 @@ checks if the source
 and the destination buffers
 are valid, before forwarding
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:57.126 --> 00:30:00.756 A:middle
-and the destination buffers
-are valid, before forwarding
-
 00:30:00.946 --> 00:30:03.256 A:middle
 on towards the original
 memcpy implementation.
@@ -2394,14 +2169,6 @@ Safari under Address Sanitizer.
 
 00:30:52.086 --> 00:30:53.906 A:middle
 And that's a large app.
-
-00:30:54.416 --> 00:31:00.196 A:middle
-And this was Address
-Sanitizer, new in Xcode 7.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:54.416 --> 00:31:00.196 A:middle
 And this was Address
@@ -2482,14 +2249,6 @@ is NSZombie, which is good
 for catching Objective-C
 object over-releases.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.126 --> 00:32:01.616 A:middle
-for catching Objective-C
-object over-releases.
-
 00:32:02.556 --> 00:32:05.516 A:middle
 It works by replacing
 deallocated objects
@@ -2563,14 +2322,6 @@ problems in your layout.
 Second, set up breakpoint
 actions
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.266 --> 00:33:00.166 A:middle
-Second, set up breakpoint
-actions
-
 00:33:00.196 --> 00:33:03.926 A:middle
 to automatically evaluate and
 print any LLVD expressions,
@@ -2619,4 +2370,3 @@ enjoy the rest of your day.
 
 00:33:37.516 --> 00:33:40.500 A:middle
 [Applause]
-

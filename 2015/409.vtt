@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:25.516 --> 00:00:32.766 A:middle
 [Applause]
@@ -38,19 +37,11 @@ highly optimized.
 And if you feel the same way,
 then this talk is for you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:54.406 --> 00:01:00.736 A:middle
-And if you feel the same way,
-then this talk is for you.
-
-00:01:01.916 --> 00:01:04.075 A:middle
+00:01:01.916 --> 00:01:04.076 A:middle
 Today I'll start by
 telling you about some
 
-00:01:04.075 --> 00:01:05.716 A:middle
+00:01:04.076 --> 00:01:05.716 A:middle
 of the new compiler
 optimizations
 
@@ -119,10 +110,6 @@ So how did we make Swift fast?
 00:01:57.226 --> 00:01:59.756 A:middle
 Well, we made Swift fast
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.066 --> 00:02:04.016 A:middle
 by implementing compiler
 optimizations that target all
@@ -130,7 +117,7 @@ optimizations that target all
 00:02:04.016 --> 00:02:05.396 A:middle
 of these high-level features.
 
-00:02:05.866 --> 00:02:09.265 A:middle
+00:02:05.866 --> 00:02:09.266 A:middle
 These compiler optimizations
 make sure that the overhead
 
@@ -193,14 +180,6 @@ read or write outside
 
 00:02:54.596 --> 00:02:55.426 A:middle
 of the bounds of the array.
-
-00:02:56.106 --> 00:03:00.056 A:middle
-Now, the problem is that this
-check slows your code down.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.106 --> 00:03:00.056 A:middle
 Now, the problem is that this
@@ -287,10 +266,6 @@ to existing optimizations,
 we noticed that these
 programs became faster.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.786 --> 00:04:03.546 A:middle
 Now, it's not going to be very
 interesting for you to see all
@@ -313,7 +288,7 @@ from multiple domains.
 One is an object-oriented
 program.
 
-00:04:16.055 --> 00:04:17.305 A:middle
+00:04:16.056 --> 00:04:17.306 A:middle
 Another one is numeric.
 
 00:04:17.466 --> 00:04:19.146 A:middle
@@ -378,14 +353,6 @@ asking yourself, wait,
 
 00:04:58.716 --> 00:04:59.946 A:middle
 how can improvements
-
-00:04:59.946 --> 00:05:04.306 A:middle
-to the optimizer improve the
-performance of unoptimized code.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.946 --> 00:05:04.306 A:middle
 to the optimizer improve the
@@ -461,14 +428,6 @@ comparison to Objective-C.
 00:05:54.536 --> 00:05:58.706 A:middle
 So on the screen you can see
 two very well-known benchmarks.
-
-00:05:59.116 --> 00:06:01.176 A:middle
-It's Richards and
-DeltaBlue, both written
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.116 --> 00:06:01.176 A:middle
 It's Richards and
@@ -557,14 +516,6 @@ to the scope of one file.
 With Whole Module Optimization,
 the compiler is able
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.826 --> 00:07:05.156 A:middle
-With Whole Module Optimization,
-the compiler is able
-
 00:07:05.156 --> 00:07:09.016 A:middle
 to optimize the entire module
 at once, which is great
@@ -630,14 +581,6 @@ with Whole Module Optimization
 because the compiler was able
 to make better decisions,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.046 --> 00:08:01.036 A:middle
-because the compiler was able
-to make better decisions,
-
 00:08:01.076 --> 00:08:03.366 A:middle
 it was able to analyze
 the entire module
@@ -687,10 +630,10 @@ and give you some advice
 on writing high-performance
 Swift code.
 
-00:08:32.655 --> 00:08:32.905 A:middle
+00:08:32.656 --> 00:08:32.906 A:middle
 Thank you.
 
-00:08:33.515 --> 00:08:43.706 A:middle
+00:08:33.516 --> 00:08:43.706 A:middle
 [Applause]
 
 00:08:44.206 --> 00:08:45.596 A:middle
@@ -716,10 +659,6 @@ techniques that you can use
 00:08:57.416 --> 00:08:59.766 A:middle
 to improve the performance
 of your app today.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.506 --> 00:09:04.126 A:middle
 Let's begin by talking
@@ -800,14 +739,6 @@ there's only one reference
 to the class instance
 currently, namely x.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.486 --> 00:10:01.426 A:middle
-to the class instance
-currently, namely x.
-
 00:10:02.896 --> 00:10:05.856 A:middle
 Then we assign x
 to the variable y.
@@ -876,14 +807,6 @@ we made an assignment,
 00:10:55.556 --> 00:10:58.066 A:middle
 we had to perform a
 reference counting operation
-
-00:10:58.226 --> 00:11:00.346 A:middle
-to maintain the reference
-count of the class instance.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.226 --> 00:11:00.346 A:middle
 to maintain the reference
@@ -970,14 +893,6 @@ over the array,
 when I initialize
 the loop variable p,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:56.906 --> 00:12:01.346 A:middle
-when I initialize
-the loop variable p,
-
 00:12:01.346 --> 00:12:04.876 A:middle
 I am actually creating a new
 reference to the class instance,
@@ -1049,14 +964,6 @@ and both properties
 00:12:54.496 --> 00:12:57.136 A:middle
 of the struct also don't
 require reference counting,
-
-00:12:57.366 --> 00:13:00.636 A:middle
-we can immediately eliminate all
-the reference counting overhead
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.366 --> 00:13:00.636 A:middle
 we can immediately eliminate all
@@ -1139,14 +1046,6 @@ a reference to my struct.
 Now, this means that every
 time I assign this struct,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:56.986 --> 00:14:00.906 A:middle
-Now, this means that every
-time I assign this struct,
-
 00:14:01.326 --> 00:14:03.926 A:middle
 it's equivalent to assigning
 this UIColor independently
@@ -1217,14 +1116,6 @@ properties are value types,
 internally, they contain
 a class which is used
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.606 --> 00:15:02.006 A:middle
-internally, they contain
-a class which is used
-
 00:15:02.416 --> 00:15:05.756 A:middle
 to manage the lifetime
 of their internal data.
@@ -1289,14 +1180,6 @@ something with value semantics
 00:15:54.866 --> 00:15:56.996 A:middle
 to something with
 reference semantics.
-
-00:15:58.356 --> 00:16:02.346 A:middle
-This may cause unexpected
-data sharing that may lead
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.356 --> 00:16:02.346 A:middle
 This may cause unexpected
@@ -1376,30 +1259,22 @@ than one might think.
 For instance, the code
 that's actually emitted --
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.916 --> 00:17:00.896 A:middle
-For instance, the code
-that's actually emitted --
-
 00:17:00.896 --> 00:17:02.686 A:middle
 here, again I am
 using a pseudo-Swift
 
-00:17:02.686 --> 00:17:04.195 A:middle
+00:17:02.686 --> 00:17:04.196 A:middle
 to represent the code
 the compiler emits --
 
-00:17:04.195 --> 00:17:07.175 A:middle
+00:17:04.196 --> 00:17:07.176 A:middle
 the code the compiler emits
 is not these three lines.
 
-00:17:07.266 --> 00:17:09.965 A:middle
+00:17:07.266 --> 00:17:09.966 A:middle
 Instead, it's this.
 
-00:17:10.695 --> 00:17:13.656 A:middle
+00:17:10.696 --> 00:17:13.656 A:middle
 First notice that the
 compiler is using indirection
 
@@ -1414,11 +1289,11 @@ be passing in two integers
 to the min function, or we
 could be passing in two floats
 
-00:17:22.116 --> 00:17:24.685 A:middle
+00:17:22.116 --> 00:17:24.686 A:middle
 or two strings, or we could be
 passing in any comparable type.
 
-00:17:24.685 --> 00:17:28.016 A:middle
+00:17:24.686 --> 00:17:28.016 A:middle
 So the compiler must be
 correct in all cases and be able
 
@@ -1460,10 +1335,6 @@ compiler is being conservative
 00:17:56.126 --> 00:17:59.986 A:middle
 since it must be able to
 handle any type T in this case.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:01.536 --> 00:18:03.796 A:middle
 Luckily, there is a
@@ -1538,14 +1409,6 @@ two integers directly.
 00:18:56.356 --> 00:18:58.556 A:middle
 Finally, the compiler
 replaces the call
-
-00:18:58.556 --> 00:19:01.126 A:middle
-to the generic min-T
-function with a call
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.556 --> 00:19:01.126 A:middle
 to the generic min-T
@@ -1627,14 +1490,6 @@ when it's compiling file 1,
 and so we must call the
 generic min-T function.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:57.536 --> 00:20:01.206 A:middle
-and so we must call the
-generic min-T function.
-
 00:20:02.576 --> 00:20:06.466 A:middle
 But what if we have Whole
 Module Optimization enabled?
@@ -1696,10 +1551,6 @@ extra information provided to it
 00:20:54.266 --> 00:20:56.866 A:middle
 by having Whole Module
 Optimization being enabled.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.876 --> 00:21:05.466 A:middle
 Now that I have spoken about
@@ -1777,14 +1628,6 @@ here that's used
 to call names getter
 or the method noise.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.956 --> 00:22:02.266 A:middle
-to call names getter
-or the method noise.
-
 00:22:02.436 --> 00:22:04.516 A:middle
 The compiler must
 insert this indirection
@@ -1852,14 +1695,6 @@ this is actually undesirable.
 
 00:22:55.326 --> 00:22:56.586 A:middle
 This is because in this API,
-
-00:22:57.226 --> 00:23:01.006 A:middle
-name is not -- is
-never overridden.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.226 --> 00:23:01.006 A:middle
 name is not -- is
@@ -1942,14 +1777,6 @@ name is never overridden,
 and we know that in this API,
 it's not intended for name
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:56.096 --> 00:24:00.236 A:middle
-and we know that in this API,
-it's not intended for name
-
 00:24:00.236 --> 00:24:02.056 A:middle
 to be able to be overridden.
 
@@ -2022,14 +1849,6 @@ in subclasses like Cat and Dog.
 But we know that
 this is not true.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.916 --> 00:25:02.516 A:middle
-But we know that
-this is not true.
-
 00:25:02.806 --> 00:25:06.936 A:middle
 We know that noiseimpl is a
 private implementation detail
@@ -2097,14 +1916,6 @@ We have been talking a lot
 00:25:54.246 --> 00:25:56.966 A:middle
 about the class Pet,
 but what about Dog?
-
-00:25:58.036 --> 00:26:00.906 A:middle
-Remember that Dog
-is a subclass of Pet
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.036 --> 00:26:00.906 A:middle
 Remember that Dog
@@ -2187,14 +1998,6 @@ any work on my part.
 Now I'd like to bring
 back that graph
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.526 --> 00:27:01.496 A:middle
-Now I'd like to bring
-back that graph
-
 00:27:01.496 --> 00:27:02.676 A:middle
 that Nadav introduced earlier.
 
@@ -2261,14 +2064,6 @@ keyword in access control
 00:27:55.406 --> 00:27:57.036 A:middle
 to communicate your
 API's intent.
-
-00:27:57.686 --> 00:28:00.426 A:middle
-This will help the compiler to
-understand your class hierarchy,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.686 --> 00:28:00.426 A:middle
 This will help the compiler to
@@ -2351,13 +2146,6 @@ and today I want to take you
 00:28:52.256 --> 00:28:54.806 A:middle
 through a demo application
 that's running a little slowly
-
-00:28:54.806 --> 00:29:03.686 A:middle
-right now, so let's get started.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:54.806 --> 00:29:03.686 A:middle
 right now, so let's get started.
@@ -2457,14 +2245,6 @@ so we can see what's going on.
 You can just drag
 this, drag that around.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.846 --> 00:30:01.606 A:middle
-You can just drag
-this, drag that around.
-
 00:30:01.816 --> 00:30:03.416 A:middle
 View Snap Track to Fit is handy
 
@@ -2557,14 +2337,6 @@ including its children,
 00:30:55.846 --> 00:30:57.466 A:middle
 right here in this first
 column Running Time.
-
-00:30:57.546 --> 00:31:01.436 A:middle
-We can see 11,220 milliseconds,
-or 99% of our time,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.546 --> 00:31:01.436 A:middle
 We can see 11,220 milliseconds,
@@ -2678,14 +2450,6 @@ and click on my code,
 and Instruments has
 automatically expanded the call
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.176 --> 00:32:00.246 A:middle
-and Instruments has
-automatically expanded the call
-
 00:32:00.246 --> 00:32:02.336 A:middle
 tree on the left side so you can
 see what you just clicked on.
@@ -2775,14 +2539,6 @@ this has been hidden.
 00:32:56.556 --> 00:32:59.406 A:middle
 Running time has been
 renormalized to 100%,
-
-00:32:59.406 --> 00:33:02.356 A:middle
-just to help you do a
-little less mental math.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.406 --> 00:33:02.356 A:middle
 just to help you do a
@@ -2888,14 +2644,6 @@ So what can we do about that?
 Let's return to our code here
 and go to my particle file.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.846 --> 00:34:04.176 A:middle
-Let's return to our code here
-and go to my particle file.
-
 00:34:04.316 --> 00:34:05.596 A:middle
 Here is my class Particle,
 
@@ -2910,19 +2658,19 @@ collidable protocol.
 00:34:09.686 --> 00:34:10.016 A:middle
 All right.
 
-00:34:11.106 --> 00:34:13.775 A:middle
+00:34:11.106 --> 00:34:13.776 A:middle
 Down below is -- this is the
 Find Nearest Neighbor routine
 
-00:34:13.775 --> 00:34:15.286 A:middle
+00:34:13.776 --> 00:34:15.286 A:middle
 that was taking all
 of that time before.
 
-00:34:15.956 --> 00:34:19.255 A:middle
+00:34:15.956 --> 00:34:19.256 A:middle
 Now, I know that when the update
 timer fires, that code is going
 
-00:34:19.255 --> 00:34:21.246 A:middle
+00:34:19.256 --> 00:34:21.246 A:middle
 to call Find Nearest Neighbor
 on every single particle
 
@@ -2950,32 +2698,32 @@ large number of times.
 Whatever we do to optimize this
 thing should have big payoff.
 
-00:34:37.815 --> 00:34:38.636 A:middle
+00:34:37.816 --> 00:34:38.636 A:middle
 So what is going on?
 
 00:34:39.016 --> 00:34:40.466 A:middle
 We have our for loop itself
 
-00:34:40.466 --> 00:34:42.275 A:middle
+00:34:40.466 --> 00:34:42.276 A:middle
 where we access one
 of those particles.
 
-00:34:42.275 --> 00:34:43.735 A:middle
+00:34:42.276 --> 00:34:43.736 A:middle
 So there's some retain
 release overhead.
 
-00:34:44.416 --> 00:34:46.755 A:middle
+00:34:44.416 --> 00:34:46.756 A:middle
 There are property
 getters being called here,
 
-00:34:46.755 --> 00:34:47.896 A:middle
+00:34:46.756 --> 00:34:47.896 A:middle
 this dot ID property.
 
 00:34:48.246 --> 00:34:49.426 A:middle
 And as Michael was
 talking about,
 
-00:34:49.426 --> 00:34:50.755 A:middle
+00:34:49.426 --> 00:34:50.756 A:middle
 since this is an internal class,
 
 00:34:50.786 --> 00:34:52.246 A:middle
@@ -2986,7 +2734,7 @@ Swift files somewhere
 that overrides these property
 getters, so we are going
 
-00:34:54.866 --> 00:34:56.565 A:middle
+00:34:54.866 --> 00:34:56.566 A:middle
 to be performing
 a dynamic dispatch
 
@@ -2996,10 +2744,6 @@ to these property getters,
 00:34:57.916 --> 00:34:59.706 A:middle
 which has retain/release
 overhead as well.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.976 --> 00:35:03.096 A:middle
 Down here there is this
@@ -3085,14 +2829,6 @@ other number of optimizations
 00:35:53.626 --> 00:35:55.796 A:middle
 that can reduce the
 overhead that we had before.
-
-00:35:56.586 --> 00:36:00.276 A:middle
-So if we record, this time
-when I add the particles,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:56.586 --> 00:36:00.276 A:middle
 So if we record, this time
@@ -3187,14 +2923,6 @@ pane is going to have data
 00:36:57.656 --> 00:36:59.666 A:middle
 from this avoidance phase,
 which is running fine,
-
-00:36:59.966 --> 00:37:02.516 A:middle
-as well as this collision phase,
-which is what I really want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.966 --> 00:37:02.516 A:middle
 as well as this collision phase,
@@ -3303,14 +3031,6 @@ is being spent inside
 of Swift.array.underscore
 getelement.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.756 --> 00:38:02.286 A:middle
-of Swift.array.underscore
-getelement.
-
 00:38:02.956 --> 00:38:05.726 A:middle
 When you see this A
 inside of angle brackets,
@@ -3394,14 +3114,6 @@ that's of generic type T.
 00:38:55.446 --> 00:38:58.296 A:middle
 And here down below is
 our runtime step routine,
-
-00:38:58.436 --> 00:39:00.566 A:middle
-and that's where we were
-spending all of our time.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.436 --> 00:39:00.566 A:middle
 and that's where we were
@@ -3501,14 +3213,6 @@ your release build
 over to Whole Module
 Optimization.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.816 --> 00:40:00.376 A:middle
-over to Whole Module
-Optimization.
-
 00:40:01.046 --> 00:40:03.406 A:middle
 And now when we profile, the
 compiler is going to look
@@ -3603,14 +3307,6 @@ on your APIs and your code
 that when you are writing them,
 you keep performance in mind.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.446 --> 00:41:01.816 A:middle
-that when you are writing them,
-you keep performance in mind.
-
 00:41:01.816 --> 00:41:04.316 A:middle
 And how do you know what
 costs you are paying for?
@@ -3686,4 +3382,3 @@ So thank you very much.
 
 00:41:43.516 --> 00:41:47.500 A:middle
 [Applause]
-

@@ -1,7 +1,6 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:00:27.516 --> 00:00:32.665 A:middle
+00:00:27.516 --> 00:00:32.666 A:middle
 [ Applause ]
 
 00:00:33.166 --> 00:00:34.366 A:middle
@@ -36,14 +35,6 @@ developer with Address Book,
 00:00:55.166 --> 00:00:56.546 A:middle
 you will love this
 new Framework.
-
-00:00:59.756 --> 00:01:02.716 A:middle
-So what is this new
-Contacts Framework?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.756 --> 00:01:02.716 A:middle
 So what is this new
@@ -111,14 +102,6 @@ contacts easily between queues
 on your app and not have
 unexpected I/O occur on them.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.376 --> 00:02:05.036 A:middle
-on your app and not have
-unexpected I/O occur on them.
-
 00:02:05.246 --> 00:02:07.966 A:middle
 Another is to have
 the same contacts API
@@ -175,14 +158,6 @@ Another telemarketer?
 00:02:56.136 --> 00:02:58.936 A:middle
 It is a much better experience
 when a contact is displayed.
-
-00:02:59.846 --> 00:03:02.396 A:middle
-Oh, it's John Apleseed,
-one of my best friends.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.846 --> 00:03:02.396 A:middle
 Oh, it's John Apleseed,
@@ -252,14 +227,6 @@ picture, his first name,
 last name, his home e-mail
 address, work e-mail address,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:56.146 --> 00:04:05.286 A:middle
-last name, his home e-mail
-address, work e-mail address,
-
 00:04:06.276 --> 00:04:07.786 A:middle
 and the phone number
 for his iPhone.
@@ -271,7 +238,7 @@ represent this
 00:04:14.576 --> 00:04:15.536 A:middle
 contact information.
 
-00:04:16.995 --> 00:04:19.416 A:middle
+00:04:16.996 --> 00:04:19.416 A:middle
 The profile image is
 represented by image data.
 
@@ -312,14 +279,6 @@ about this object.
 
 00:04:52.976 --> 00:04:55.066 A:middle
 This is the CNContact object.
-
-00:04:56.776 --> 00:05:00.906 A:middle
-It is an immutable value
-object of contact properties.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:56.776 --> 00:05:00.906 A:middle
 It is an immutable value
@@ -382,14 +341,6 @@ or a work e-mail address.
 00:05:53.096 --> 00:05:57.266 A:middle
 For those of you
 experienced with Address Book,
-
-00:05:58.036 --> 00:06:02.496 A:middle
-AB multivalue is replaced by
-this array of CNLabeledValue.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.036 --> 00:06:02.496 A:middle
 AB multivalue is replaced by
@@ -459,14 +410,6 @@ in your apps UI.
 You can also create
 your own custom labels.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.626 --> 00:07:00.536 A:middle
-You can also create
-your own custom labels.
-
 00:07:01.096 --> 00:07:05.766 A:middle
 We take these two label values,
 home e-mail and work e-mail,
@@ -527,10 +470,6 @@ NSDateComponent, set the day,
 00:07:58.696 --> 00:07:59.816 A:middle
 month, and year component,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.446 --> 00:08:01.886 A:middle
 and set that to the
 birthday property.
@@ -569,14 +508,14 @@ formatting contact data.
 The CNContactFormatter will
 format a contact's name.
 
-00:08:35.956 --> 00:08:38.905 A:middle
+00:08:35.956 --> 00:08:38.906 A:middle
 In this example, we're
 formatting the full name,
 
-00:08:38.986 --> 00:08:40.275 A:middle
+00:08:38.986 --> 00:08:40.276 A:middle
 and get back John Appleseed.
 
-00:08:41.775 --> 00:08:44.486 A:middle
+00:08:41.776 --> 00:08:44.486 A:middle
 CNContact Formatter
 will correctly format
 
@@ -593,14 +532,6 @@ labels for postal addresses.
 
 00:08:55.816 --> 00:08:57.726 A:middle
 That returns back...that.
-
-00:08:58.986 --> 00:09:02.896 A:middle
-CNPostalAddressFormatter will
-correctly format international
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.986 --> 00:09:02.896 A:middle
 CNPostalAddressFormatter will
@@ -674,14 +605,6 @@ for an incoming phone call.
 The Contacts Framework
 allows you to provide
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.186 --> 00:10:00.096 A:middle
-The Contacts Framework
-allows you to provide
-
 00:10:00.096 --> 00:10:01.976 A:middle
 that same rich experience
 for your app.
@@ -708,7 +631,8 @@ Let's start off with fetching.
 The main method you are going
 
 00:10:17.216 --> 00:10:20.926 A:middle
-to use is called unifiedContactsMatchingPredicate,
+to use is called unified
+ContactsMatchingPredicate,
 
 00:10:20.926 --> 00:10:21.636 A:middle
 keysToFetch.
@@ -758,14 +682,6 @@ to be matched
 00:10:54.556 --> 00:10:55.956 A:middle
 against an object
 while searching.
-
-00:10:59.536 --> 00:11:02.936 A:middle
-The Contacts Framework
-provides predicates you can use
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.536 --> 00:11:02.936 A:middle
 The Contacts Framework
@@ -847,14 +763,6 @@ in a small subset of that,
 00:11:52.436 --> 00:11:53.976 A:middle
 and that's where
 keysToFetch comes in.
-
-00:11:57.596 --> 00:12:00.246 A:middle
-KeysToFetch is an
-array of strings.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.596 --> 00:12:00.246 A:middle
 KeysToFetch is an
@@ -951,10 +859,6 @@ Here we are just going to print
 out the given name
 and family name.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:01.266 --> 00:13:02.576 A:middle
 There's a couple of
 important things I want
@@ -1038,10 +942,6 @@ good reason to fetch
 on a background queue
 is data privacy.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:02.796 --> 00:14:07.146 A:middle
 So, users take the privacy of
 their contacts very seriously.
@@ -1120,10 +1020,6 @@ in your app session
 
 00:14:59.356 --> 00:14:59.906 A:middle
 for more information.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:02.256 --> 00:15:05.156 A:middle
 I would like to talk a little
@@ -1208,14 +1104,6 @@ isKeyAvailable method to see
 00:15:57.986 --> 00:15:59.596 A:middle
 if the PhoneNumbers
 key is available
-
-00:15:59.596 --> 00:16:01.216 A:middle
-for accessing the
-phone numbers property.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.596 --> 00:16:01.216 A:middle
 for accessing the
@@ -1312,14 +1200,6 @@ like name, prefix, or suffix.
 If they're not there, it's
 going to throw an exception.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.936 --> 00:17:01.766 A:middle
-If they're not there, it's
-going to throw an exception.
-
 00:17:02.406 --> 00:17:06.356 A:middle
 So, we could document all
 the keys you need in order
@@ -1336,7 +1216,7 @@ concept of key descriptors.
 And key descriptors
 represent a set of keys
 
-00:17:16.165 --> 00:17:18.126 A:middle
+00:17:16.166 --> 00:17:18.126 A:middle
 for a particular operation.
 
 00:17:18.626 --> 00:17:20.736 A:middle
@@ -1347,7 +1227,7 @@ knows which keys it needs
 to do its job, so it is
 providing the key descriptors
 
-00:17:23.705 --> 00:17:26.175 A:middle
+00:17:23.706 --> 00:17:26.176 A:middle
 with the descriptor
 ForRequiredKeysForStyle method,
 
@@ -1395,14 +1275,6 @@ for style (.FullName).
 00:17:55.156 --> 00:17:58.066 A:middle
 And this is going to, uh,
 allows us to get the full name,
-
-00:17:58.106 --> 00:18:00.216 A:middle
-using the Contact
-Formatter later on.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.106 --> 00:18:00.216 A:middle
 using the Contact
@@ -1497,14 +1369,6 @@ unified contacts.
 And contacts apps
 have been doing this
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.936 --> 00:19:00.286 A:middle
-And contacts apps
-have been doing this
-
 00:19:00.286 --> 00:19:01.186 A:middle
 for a few releases now.
 
@@ -1584,14 +1448,6 @@ to container with identifier.
 00:19:56.866 --> 00:19:58.726 A:middle
 Now we don't have time
 to talk about containers,
-
-00:19:59.216 --> 00:20:01.696 A:middle
-but the nil container identifier
-means the default container,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.216 --> 00:20:01.696 A:middle
 but the nil container identifier
@@ -1684,14 +1540,6 @@ the contact for being updated,
 and doesn't actually
 apply those changes
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.816 --> 00:21:00.266 A:middle
-and doesn't actually
-apply those changes
-
 00:21:00.976 --> 00:21:02.676 A:middle
 until you call
 executeSaveRequest.
@@ -1759,14 +1607,6 @@ in the iOS contacts team.
 00:21:52.676 --> 00:21:57.296 A:middle
 And now that Bruce and
 Dave made you experts
-
-00:21:57.296 --> 00:22:00.886 A:middle
-in the Contacts Framework, I
-will talk about user interface
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.296 --> 00:22:00.886 A:middle
 in the Contacts Framework, I
@@ -1841,14 +1681,6 @@ of the class we had
 in Address Book UI, AB People
 Picker Navigation Controller.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.946 --> 00:23:03.276 A:middle
-in Address Book UI, AB People
-Picker Navigation Controller.
-
 00:23:04.616 --> 00:23:08.206 A:middle
 As you can guess by its
 name, it is a direct subclass
@@ -1906,14 +1738,6 @@ is defined by two things,
 00:23:55.166 --> 00:23:58.656 A:middle
 first the delegate method that
 you implement, and second,
-
-00:23:58.656 --> 00:24:00.636 A:middle
-the predicate that
-you set on it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.656 --> 00:24:00.636 A:middle
 the predicate that
@@ -1988,13 +1812,6 @@ as the key of the property
 00:24:59.266 --> 00:25:00.886 A:middle
 that was selected by the user.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.266 --> 00:25:00.886 A:middle
-that was selected by the user.
-
 00:25:01.606 --> 00:25:04.786 A:middle
 Its value and potentially,
 the identifier,
@@ -2054,14 +1871,6 @@ and we have three of them.
 00:25:53.706 --> 00:25:56.356 A:middle
 The first one is predicate
 for enabling contact.
-
-00:25:57.066 --> 00:26:01.326 A:middle
-This lets you decide which
-contacts are available
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.066 --> 00:26:01.326 A:middle
 This lets you decide which
@@ -2138,14 +1947,6 @@ the property that is tapped
 by the user will be
 returned to your app,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.916 --> 00:27:01.246 A:middle
-by the user will be
-returned to your app,
-
 00:27:01.566 --> 00:27:03.646 A:middle
 otherwise the default
 action will be performed,
@@ -2212,10 +2013,6 @@ what we had in Address Book UI.
 But you can still get the
 behavior that you want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:00.446 --> 00:28:02.726 A:middle
 by using the appropriate
 creation method.
@@ -2281,14 +2078,6 @@ it, it will display the UI
 00:28:53.056 --> 00:28:55.266 A:middle
 to update the existing contact
 with the new information.
-
-00:28:55.766 --> 00:29:01.156 A:middle
-This Contact View Controller
-is now always out of process,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:55.766 --> 00:29:01.156 A:middle
 This Contact View Controller
@@ -2362,13 +2151,6 @@ so that we can reuse it.
 00:29:59.286 --> 00:30:01.086 A:middle
 Set self as a delegate.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.286 --> 00:30:01.086 A:middle
-Set self as a delegate.
-
 00:30:02.326 --> 00:30:03.816 A:middle
 Push the View Controller.
 
@@ -2417,14 +2199,6 @@ we are going to build now.
 00:30:50.836 --> 00:30:54.386 A:middle
 The app is using an e-mail
 address to send the cat sounds.
-
-00:30:55.556 --> 00:31:00.026 A:middle
-So what we need is just a
-nickname and e-mail address.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:55.556 --> 00:31:00.026 A:middle
 So what we need is just a
@@ -2495,14 +2269,6 @@ info button here.
 And we want to show
 the contact view
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.246 --> 00:32:00.656 A:middle
-And we want to show
-the contact view
-
 00:32:01.036 --> 00:32:02.866 A:middle
 when we click on
 this info button.
@@ -2557,14 +2323,6 @@ to use the contact picker.
 00:32:53.226 --> 00:32:58.896 A:middle
 So this function is called
 when I tap on addFromContacts.
-
-00:32:58.896 --> 00:33:01.226 A:middle
-And I am going to
-implement it now.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.896 --> 00:33:01.226 A:middle
 And I am going to
@@ -2625,14 +2383,6 @@ we present the View Controller.
 We also need delegate methods
 where we add the new contact
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:55.356 --> 00:34:01.206 A:middle
-We also need delegate methods
-where we add the new contact
-
 00:34:01.206 --> 00:34:02.326 A:middle
 to our list of contacts.
 
@@ -2674,14 +2424,14 @@ returned directly.
 So what happens if I want
 to show the card for John?
 
-00:34:39.696 --> 00:34:41.045 A:middle
+00:34:39.696 --> 00:34:41.046 A:middle
 So we have an exception.
 
-00:34:41.545 --> 00:34:44.876 A:middle
+00:34:41.546 --> 00:34:44.876 A:middle
 And the reason is that
 because we were not careful
 
-00:34:45.306 --> 00:34:48.815 A:middle
+00:34:45.306 --> 00:34:48.816 A:middle
 when presenting the
 contact here,
 
@@ -2692,14 +2442,6 @@ returned the partial contacts,
 00:34:53.456 --> 00:34:56.146 A:middle
 it is missing some keys for
 the Contact View Controller.
-
-00:34:56.146 --> 00:35:03.266 A:middle
-So we are going to fix
-that by first checking
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:56.146 --> 00:35:03.266 A:middle
 So we are going to fix
@@ -2760,13 +2502,6 @@ we have no dialogue showing
 00:35:54.186 --> 00:35:58.936 A:middle
 up because Emily
 was created in code.
-
-00:35:58.936 --> 00:36:00.366 A:middle
-So she has all the fetch keys.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.936 --> 00:36:00.366 A:middle
 So she has all the fetch keys.
@@ -2835,14 +2570,6 @@ across multiple Apple platforms.
 Address book is being
 deprecated,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.916 --> 00:37:01.976 A:middle
-Address book is being
-deprecated,
-
 00:37:02.116 --> 00:37:03.446 A:middle
 so start adopting now.
 
@@ -2874,4 +2601,3 @@ Thank you
 
 00:37:27.016 --> 00:37:29.000 A:middle
 [ Applause ]
-

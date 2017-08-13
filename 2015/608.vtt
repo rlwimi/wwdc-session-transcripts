@@ -1,7 +1,6 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
-00:00:32.095 --> 00:00:33.746 A:middle
+00:00:32.096 --> 00:00:33.746 A:middle
 &gt;&gt; BRUNO SOMMER: Hello
 everyone and welcome.
 
@@ -38,15 +37,11 @@ really important part
 00:00:58.196 --> 00:00:59.426 A:middle
 of that game development puzzle.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:00.296 --> 00:01:03.756 A:middle
 As it turns out, there is hard
 problems in the gameplay space,
 
-00:01:04.105 --> 00:01:07.316 A:middle
+00:01:04.106 --> 00:01:07.316 A:middle
 things like AI, pathfinding,
 autonomous movement.
 
@@ -132,13 +127,6 @@ SceneKit, Metal, and more.
 00:01:59.316 --> 00:02:04.126 A:middle
 So here we have GameplayKit
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.316 --> 00:02:04.126 A:middle
-So here we have GameplayKit
-
 00:02:04.176 --> 00:02:06.236 A:middle
 and the seven major
 features that make it up.
@@ -216,13 +204,6 @@ in with entities and components.
 00:02:53.626 --> 00:02:59.816 A:middle
 I want to pose sort of this
 classic problem with inheriting
-
-00:02:59.866 --> 00:03:01.216 A:middle
-from common game objects.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.866 --> 00:03:01.216 A:middle
 from common game objects.
@@ -324,14 +305,6 @@ become anything but basic.
 They become large and hard to
 understand, hard to maintain,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.706 --> 00:04:02.926 A:middle
-They become large and hard to
-understand, hard to maintain,
-
 00:04:03.346 --> 00:04:04.386 A:middle
 and hard to collaborate on.
 
@@ -409,14 +382,6 @@ nice black boxes
 00:04:54.716 --> 00:04:57.276 A:middle
 of incapsulated functionality;
 they tend to be simpler.
-
-00:04:58.696 --> 00:05:00.936 A:middle
-We also have a really
-nice collaboration
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.696 --> 00:05:00.936 A:middle
 We also have a really
@@ -525,14 +490,6 @@ details of magic spells.
 So let's go ahead and take
 a look at the classes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.006 --> 00:06:01.286 A:middle
-So let's go ahead and take
-a look at the classes.
-
 00:06:02.116 --> 00:06:03.336 A:middle
 Here we have GKEntity.
 
@@ -620,14 +577,6 @@ your component.
 00:06:56.796 --> 00:06:59.036 A:middle
 So the MoveComponent here for
 example would likely have a move
-
-00:06:59.036 --> 00:07:01.396 A:middle
-to position function that
-you would call from the input
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.036 --> 00:07:01.396 A:middle
 to position function that
@@ -725,13 +674,6 @@ synchronize the movement
 00:07:59.946 --> 00:08:01.446 A:middle
 between my various entities.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.946 --> 00:08:01.446 A:middle
-between my various entities.
-
 00:08:02.046 --> 00:08:06.636 A:middle
 So lastly we have a code
 example of what using entities
@@ -779,7 +721,7 @@ archer's MoveComponent
 to that moveSystem
 and I'm good to go.
 
-00:08:31.546 --> 00:08:34.265 A:middle
+00:08:31.546 --> 00:08:34.266 A:middle
 This archer and moveSystem
 are ready for use in my game.
 
@@ -817,13 +759,6 @@ that ghost might look like.
 00:08:57.446 --> 00:08:59.816 A:middle
 You see here we have
 the four states
-
-00:08:59.816 --> 00:09:00.836 A:middle
-that a ghost can ever be in,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.816 --> 00:09:00.836 A:middle
 that a ghost can ever be in,
@@ -919,10 +854,6 @@ elements are full of state,
 00:09:55.516 --> 00:09:58.966 A:middle
 things like animation,
 AI, UI, levels.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.436 --> 00:10:02.256 A:middle
 Anyone who's tried to bring
@@ -1022,10 +953,6 @@ the hood, is it checks
 if that transition is valid,
 and if so, makes that change.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.246 --> 00:11:02.746 A:middle
 And it calls a number of call
 backs on the state objects.
@@ -1119,14 +1046,6 @@ implemented as GKStates.
 So I want to end
 on an example here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:56.256 --> 00:12:00.126 A:middle
-So I want to end
-on an example here.
-
 00:12:01.316 --> 00:12:01.786 A:middle
 Let's implement
 
@@ -1212,14 +1131,6 @@ goals, that you combine
 
 00:12:56.046 --> 00:12:57.016 A:middle
 with the appropriate weights,
-
-00:12:57.306 --> 00:13:00.366 A:middle
-to achieve some meaningful
-autonomous movement functionally
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.306 --> 00:13:00.366 A:middle
 to achieve some meaningful
@@ -1317,14 +1228,6 @@ obstacles, and following paths.
 Let's go ahead and take
 a look at the classes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.586 --> 00:14:01.826 A:middle
-Let's go ahead and take
-a look at the classes.
-
 00:14:02.596 --> 00:14:05.236 A:middle
 GKAgent is a simple
 autonomous point mass
@@ -1410,14 +1313,6 @@ for your game world here.
 00:14:54.166 --> 00:14:58.476 A:middle
 Here we have our
 GKBehavior class.
-
-00:14:58.476 --> 00:15:00.306 A:middle
-And it's a simple
-dictionary-like container
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.476 --> 00:15:00.306 A:middle
 And it's a simple
@@ -1522,13 +1417,6 @@ agent in my environment.
 00:15:58.046 --> 00:16:00.516 A:middle
 I'm going to make an avoid goal,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.046 --> 00:16:00.516 A:middle
-I'm going to make an avoid goal,
-
 00:16:00.516 --> 00:16:02.216 A:middle
 I want to avoid nearby
 obstacles.
@@ -1621,26 +1509,18 @@ or a render component.
 Let's take a look at what
 this delegation looks
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.086 --> 00:17:01.566 A:middle
-Let's take a look at what
-this delegation looks
-
 00:17:01.566 --> 00:17:02.766 A:middle
 like in a SpriteKit game.
 
-00:17:03.486 --> 00:17:05.925 A:middle
+00:17:03.486 --> 00:17:05.926 A:middle
 You see here I have a custom
 sprite node MyAgentSpriteNode
 
-00:17:06.326 --> 00:17:07.915 A:middle
+00:17:06.326 --> 00:17:07.916 A:middle
 and I'm going to go
 ahead and implement both
 
-00:17:07.915 --> 00:17:09.786 A:middle
+00:17:07.916 --> 00:17:09.786 A:middle
 of those callbacks
 that I talked about.
 
@@ -1652,23 +1532,23 @@ agent's position in rotation,
 equal to my node's
 position in rotation,
 
-00:17:15.976 --> 00:17:18.685 A:middle
+00:17:15.976 --> 00:17:18.686 A:middle
 I want that underlying agent
 simulation to match my visuals.
 
-00:17:19.915 --> 00:17:21.116 A:middle
+00:17:19.916 --> 00:17:21.116 A:middle
 Then we are going
 to do some updating.
 
-00:17:21.215 --> 00:17:23.715 A:middle
+00:17:21.216 --> 00:17:23.716 A:middle
 And then an agentDidUpdate,
 I'm going to do the inverse,
 
-00:17:23.715 --> 00:17:25.866 A:middle
+00:17:23.716 --> 00:17:25.866 A:middle
 I'm going to set my node's
 position in rotation,
 
-00:17:26.205 --> 00:17:28.646 A:middle
+00:17:26.206 --> 00:17:28.646 A:middle
 equal to my agent's position in
 rotation, the visuals will match
 
@@ -1706,13 +1586,6 @@ Here I have a seat goal.
 00:17:57.846 --> 00:17:59.436 A:middle
 The agent in the center
 is simply going to try
-
-00:17:59.436 --> 00:18:00.716 A:middle
-to seek my mouse position.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.436 --> 00:18:00.716 A:middle
 to seek my mouse position.
@@ -1777,10 +1650,6 @@ to seek the mouse position,
 00:18:51.246 --> 00:18:53.506 A:middle
 he's also going to avoid
 colliding with the obstacles.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:02.236 --> 00:19:04.396 A:middle
 Here I have an example
@@ -1867,13 +1736,6 @@ maintaining some minimum
 00:19:59.196 --> 00:20:00.136 A:middle
 separation between them,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.196 --> 00:20:00.136 A:middle
-separation between them,
-
 00:20:00.336 --> 00:20:03.456 A:middle
 the cohere goal makes them stay
 together in a cohesive mass,
@@ -1942,14 +1804,6 @@ in game development.
 00:20:55.726 --> 00:20:58.266 A:middle
 I have some entity in my
 game world that wants to get
-
-00:20:58.266 --> 00:21:00.766 A:middle
-from point A to B, but there
-is an obstacle in my way.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.266 --> 00:21:00.766 A:middle
 from point A to B, but there
@@ -2035,14 +1889,6 @@ the path we're looking
 
 00:21:55.686 --> 00:21:56.846 A:middle
 for in pathfinding.
-
-00:21:56.846 --> 00:22:00.536 A:middle
-So let's go ahead and take
-a look at the classes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:56.846 --> 00:22:00.536 A:middle
 So let's go ahead and take
@@ -2146,13 +1992,6 @@ undoubtedly become impassable
 00:22:59.096 --> 00:23:03.026 A:middle
 and passable again in your game.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.096 --> 00:23:03.026 A:middle
-and passable again in your game.
-
 00:23:03.246 --> 00:23:05.186 A:middle
 Next we have our
 GKObstacleGraph.
@@ -2241,14 +2080,6 @@ bounding radius, and we're going
 
 00:23:56.766 --> 00:23:58.216 A:middle
 to use that as our buffer radius
-
-00:23:58.246 --> 00:24:00.296 A:middle
-to artificially make
-our obstacles larger.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.246 --> 00:24:00.296 A:middle
 to artificially make
@@ -2345,14 +2176,6 @@ spatiality of my obstacles.
 Then at the end here I'm going
 to find a path for my start
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.176 --> 00:25:00.806 A:middle
-Then at the end here I'm going
-to find a path for my start
-
 00:25:00.806 --> 00:25:03.756 A:middle
 and end node and I get back a
 simple NSArray of graph nodes,
@@ -2444,10 +2267,6 @@ portals into account
 00:25:58.366 --> 00:25:59.586 A:middle
 for pathfinding purposes,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.166 --> 00:26:02.686 A:middle
 even though those portals aren't
 spatially connected in anyway.
@@ -2521,13 +2340,6 @@ a SpriteKit scene.
 00:26:57.346 --> 00:26:59.856 A:middle
 I'm generating entities on
 the left and they want to move
-
-00:26:59.856 --> 00:27:00.786 A:middle
-to the bridge on the right.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.856 --> 00:27:00.786 A:middle
 to the bridge on the right.
@@ -2616,13 +2428,6 @@ with SpriteKit.
 00:27:56.516 --> 00:28:04.546 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:56.516 --> 00:28:04.546 A:middle
-[ Applause ]
-
 00:28:05.046 --> 00:28:06.766 A:middle
 Now I would like to call
 my colleague Ross Dexter
@@ -2696,14 +2501,6 @@ from each of those moves.
 00:28:56.846 --> 00:28:59.286 A:middle
 When you request a move
 from it, it searches this,
-
-00:28:59.286 --> 00:29:01.276 A:middle
-the decision tree,
-looking for a move
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.286 --> 00:29:01.276 A:middle
 the decision tree,
@@ -2792,10 +2589,6 @@ suboptimum moves
 to give it an element
 of human error.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.556 --> 00:30:02.356 A:middle
 So let's look at how this
 integrates with your game.
@@ -2882,14 +2675,6 @@ are currently in play.
 00:30:56.416 --> 00:30:58.646 A:middle
 As I mentioned on the
 previous slide, all this needs
-
-00:30:58.646 --> 00:31:01.486 A:middle
-to do is provide a list of
-the players that are active
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.646 --> 00:31:01.486 A:middle
 to do is provide a list of
@@ -2986,10 +2771,6 @@ Now we get to the AI itself,
 it's within the class
 GKMinMaxStrategist,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.116 --> 00:32:01.946 A:middle
 and it operates on
 a GKGameModel.
@@ -3084,10 +2865,6 @@ more human
 and have a chance
 of making an error.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.166 --> 00:33:02.256 A:middle
 And both bestMoveForPlayer
 
@@ -3174,23 +2951,19 @@ the game model to make the move.
 00:33:53.296 --> 00:33:56.866 A:middle
 So let's look at a quick demo.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:34:13.076 --> 00:34:15.005 A:middle
+00:34:13.076 --> 00:34:15.006 A:middle
 So here we have a simple game
 where there are two players,
 
-00:34:15.326 --> 00:34:17.565 A:middle
+00:34:15.326 --> 00:34:17.566 A:middle
 black and white, and they're
 trying to get as many pieces
 
-00:34:17.815 --> 00:34:19.856 A:middle
+00:34:17.816 --> 00:34:19.856 A:middle
 of their color on the
 board as they can.
 
-00:34:20.505 --> 00:34:25.136 A:middle
+00:34:20.506 --> 00:34:25.136 A:middle
 When they place a piece on the
 board they will flip any colors
 
@@ -3198,18 +2971,18 @@ board they will flip any colors
 of the opponent's pieces
 to their color that lie
 
-00:34:27.576 --> 00:34:28.835 A:middle
+00:34:27.576 --> 00:34:28.836 A:middle
 between their own pieces.
 
 00:34:29.386 --> 00:34:33.416 A:middle
 So here we have both
 players controlled by the AI,
 
-00:34:33.696 --> 00:34:36.025 A:middle
+00:34:33.696 --> 00:34:36.026 A:middle
 the black player is looking
 ahead five moves in advance,
 
-00:34:36.025 --> 00:34:38.565 A:middle
+00:34:36.026 --> 00:34:38.566 A:middle
 while the white player is only
 looking ahead three moves.
 
@@ -3238,14 +3011,6 @@ with some weights,
 
 00:34:57.436 --> 00:34:58.556 A:middle
 and that gives us our score.
-
-00:34:58.556 --> 00:35:01.286 A:middle
-So you see here the black player
-easily defeats the white player.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.556 --> 00:35:01.286 A:middle
 So you see here the black player
@@ -3318,13 +3083,6 @@ white in the end.
 
 00:35:54.096 --> 00:35:54.736 A:middle
 That's MinMax AI.
-
-00:35:56.516 --> 00:36:02.696 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:56.516 --> 00:36:02.696 A:middle
 [ Applause ]
@@ -3430,14 +3188,6 @@ two systems apart,
 so that the numbers generated
 in one system have no effect
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.806 --> 00:37:01.346 A:middle
-so that the numbers generated
-in one system have no effect
-
 00:37:01.526 --> 00:37:03.646 A:middle
 on the numbers generated
 in a different system.
@@ -3532,14 +3282,6 @@ or fair random distribution
 00:37:56.806 --> 00:37:58.506 A:middle
 which helps eliminate
 runs of numbers.
-
-00:37:59.146 --> 00:38:02.246 A:middle
-And finally we have NSArray
-shuffling, which is super useful
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.146 --> 00:38:02.246 A:middle
 And finally we have NSArray
@@ -3641,14 +3383,6 @@ some more frequently repeated
 sequences of numbers, finally
 we have the Mersenne Twister,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.346 --> 00:39:02.006 A:middle
-sequences of numbers, finally
-we have the Mersenne Twister,
-
 00:39:02.296 --> 00:39:04.056 A:middle
 which is high quality
 but memory intensive.
@@ -3728,10 +3462,6 @@ of 3 occurs far more frequently
 
 00:39:58.796 --> 00:39:59.946 A:middle
 than any of the other numbers.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.476 --> 00:40:03.016 A:middle
 In fact it occurs
@@ -3824,14 +3554,6 @@ we're hitting every number
 in the range before we start
 to see any repeated values.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.466 --> 00:41:02.296 A:middle
-in the range before we start
-to see any repeated values.
-
 00:41:02.666 --> 00:41:06.496 A:middle
 And in fact every value is
 generated exactly three times.
@@ -3903,13 +3625,6 @@ up with a number around there.
 00:41:55.656 --> 00:41:59.416 A:middle
 And here we're creating
 a die, a 20 sided die
-
-00:41:59.876 --> 00:42:01.576 A:middle
-with our shuffle distribution,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.876 --> 00:42:01.576 A:middle
 with our shuffle distribution,
@@ -3997,13 +3712,6 @@ about our rule systems.
 00:42:55.516 --> 00:43:02.076 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:55.516 --> 00:43:02.076 A:middle
-[ Applause ]
-
 00:43:02.576 --> 00:43:02.996 A:middle
 &gt;&gt; JOSHUA BOGGS: Thanks, Ross.
 
@@ -4075,14 +3783,6 @@ texture to your gam,
 and great games have
 great rules.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.256 --> 00:44:00.656 A:middle
-and great games have
-great rules.
-
 00:44:00.656 --> 00:44:03.526 A:middle
 So let's have a look
 at an example rule.
@@ -4147,14 +3847,6 @@ we output facts about what
 00:44:55.426 --> 00:44:58.216 A:middle
 to do rather than perform
 the actions immediately,
-
-00:44:58.766 --> 00:45:01.266 A:middle
-we've output two facts
-here, closeness and farness,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:58.766 --> 00:45:01.266 A:middle
 we've output two facts
@@ -4236,14 +3928,6 @@ Here we have GKRule.
 GKRule consists of a Boolean
 predicate and an action.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.116 --> 00:46:02.136 A:middle
-GKRule consists of a Boolean
-predicate and an action.
-
 00:46:03.626 --> 00:46:06.566 A:middle
 The predicate matches
 against facts and the state
@@ -4308,14 +3992,6 @@ that manages these rules.
 00:46:52.696 --> 00:46:57.106 A:middle
 Here we have the other
 class, GKRuleSystem.
-
-00:46:57.306 --> 00:47:02.986 A:middle
-GKRuleSystem is an ordered
-collection of rules and facts.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:57.306 --> 00:47:02.986 A:middle
 GKRuleSystem is an ordered
@@ -4392,14 +4068,6 @@ initialize our rule system,
 and then later we
 access the state
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.936 --> 00:48:02.286 A:middle
-and then later we
-access the state
-
 00:48:02.846 --> 00:48:06.416 A:middle
 and assert two facts
 based off this.
@@ -4449,14 +4117,6 @@ based off the distance
 
 00:48:57.956 --> 00:48:58.856 A:middle
 of the car in front.
-
-00:48:59.966 --> 00:49:01.366 A:middle
-They're asserting two
-facts about the world.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:59.966 --> 00:49:01.366 A:middle
 They're asserting two
@@ -4516,14 +4176,6 @@ rules and fewer facts.
 00:49:55.256 --> 00:49:58.596 A:middle
 It is also important to note
 that facts are approximations
-
-00:49:58.596 --> 00:50:00.716 A:middle
-and it is up to you to decide
-how you should use them.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:58.596 --> 00:50:00.716 A:middle
 and it is up to you to decide
@@ -4603,14 +4255,6 @@ which helps you give life
 00:50:53.846 --> 00:50:55.216 A:middle
 to your computer
 controlled opponents.
-
-00:50:56.226 --> 00:51:00.116 A:middle
-Also the slew of great random
-sources and distributions
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:56.226 --> 00:51:00.116 A:middle
 Also the slew of great random
@@ -4711,13 +4355,6 @@ lab today after lunch,
 00:51:59.786 --> 00:52:01.726 A:middle
 meet the team, ask questions,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:59.786 --> 00:52:01.726 A:middle
-meet the team, ask questions,
-
 00:52:01.946 --> 00:52:03.946 A:middle
 talk about any problems you
 might have with the code.
@@ -4746,4 +4383,3 @@ rest of your conference.
 
 00:52:19.516 --> 00:52:31.040 A:middle
 [ Applause ]
-

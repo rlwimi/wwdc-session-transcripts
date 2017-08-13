@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:28.516 --> 00:00:33.106 A:middle
 [Applause]
@@ -46,13 +45,6 @@ about what Xcode Server is.
 00:00:56.596 --> 00:00:58.846 A:middle
 Xcode Server is a
 continuous integration product
-
-00:00:58.946 --> 00:01:00.086 A:middle
-that we bundle with Xcode.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.946 --> 00:01:00.086 A:middle
 that we bundle with Xcode.
@@ -141,14 +133,6 @@ right away.
 Now, there's a lot of ways you
 can do continuous integration
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:56.166 --> 00:02:00.336 A:middle
-Now, there's a lot of ways you
-can do continuous integration
-
 00:02:00.336 --> 00:02:02.786 A:middle
 out there, but we think Xcode
 Server is especially great
@@ -157,11 +141,11 @@ Server is especially great
 for app developers like
 you for two reasons.
 
-00:02:05.376 --> 00:02:08.295 A:middle
+00:02:05.376 --> 00:02:08.296 A:middle
 First of all, it's
 really easy to set up.
 
-00:02:08.645 --> 00:02:10.506 A:middle
+00:02:08.646 --> 00:02:10.506 A:middle
 Thanks to integration
 with OS X Server,
 
@@ -240,14 +224,6 @@ own custom schemes,
 00:02:57.456 --> 00:02:59.926 A:middle
 and they basically form a recipe
 for building your project,
-
-00:02:59.926 --> 00:03:03.566 A:middle
-so they tell you what targets to
-build, what test bundles to run,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.926 --> 00:03:03.566 A:middle
 so they tell you what targets to
@@ -332,14 +308,6 @@ for creating a bot again,
 just with a lot of the
 values already filled in.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.476 --> 00:04:00.326 A:middle
-just with a lot of the
-values already filled in.
-
 00:04:01.036 --> 00:04:03.906 A:middle
 Now, that's a little
 tedious when you want
@@ -415,14 +383,6 @@ Xcode figured it out correctly.
 00:04:57.236 --> 00:04:59.656 A:middle
 We also made improvements to
 security in source control,
-
-00:04:59.926 --> 00:05:02.876 A:middle
-specifically when it comes
-to SSH fingerprinting
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.926 --> 00:05:02.876 A:middle
 specifically when it comes
@@ -509,14 +469,6 @@ show you a stacked view of all
 of your logs, but that has
 some significant performance
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.246 --> 00:06:01.626 A:middle
-of your logs, but that has
-some significant performance
-
 00:06:01.676 --> 00:06:03.906 A:middle
 penalties when you try to
 expand one of those logs.
@@ -592,14 +544,6 @@ new because we can compare them
 00:06:56.256 --> 00:06:58.326 A:middle
 to the previous integration,
 and that allows us
-
-00:06:58.326 --> 00:07:00.376 A:middle
-to pinpoint exactly what
-integration and thus
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.326 --> 00:07:00.376 A:middle
 to pinpoint exactly what
@@ -690,14 +634,6 @@ But one of the best things
 about Xcode Server is
 how well we interact
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.996 --> 00:08:01.666 A:middle
-about Xcode Server is
-how well we interact
-
 00:08:01.666 --> 00:08:04.116 A:middle
 with all the other features
 that Xcode introduces.
@@ -744,18 +680,18 @@ on your server.
 That's where all
 of your tests run.
 
-00:08:31.386 --> 00:08:33.525 A:middle
+00:08:31.386 --> 00:08:33.526 A:middle
 That means you don't have
 to worry about is it going
 
-00:08:33.525 --> 00:08:36.806 A:middle
+00:08:33.526 --> 00:08:36.806 A:middle
 to be the right environment for
 Xcode 2, launch my application,
 
-00:08:37.015 --> 00:08:38.135 A:middle
+00:08:37.016 --> 00:08:38.136 A:middle
 we'll make sure it works fine.
 
-00:08:38.525 --> 00:08:40.236 A:middle
+00:08:38.526 --> 00:08:40.236 A:middle
 If you are using
 real iOS devices,
 
@@ -785,14 +721,6 @@ users will see it,
 00:08:56.416 --> 00:08:58.456 A:middle
 and test all the different
 layers interacting together.
-
-00:08:59.006 --> 00:09:01.406 A:middle
-It's even better when you have
-a server running those tests
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.006 --> 00:09:01.406 A:middle
 It's even better when you have
@@ -881,14 +809,6 @@ you don't have to do anything.
 Xcode Server will see you
 have on-demand resources
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.746 --> 00:10:00.946 A:middle
-Xcode Server will see you
-have on-demand resources
-
 00:10:00.946 --> 00:10:03.516 A:middle
 in your application, it will
 host them on its own server
@@ -967,14 +887,6 @@ useful as I might think it is.
 00:10:57.016 --> 00:10:59.316 A:middle
 So code coverage is all about
 surfacing this information
-
-00:10:59.316 --> 00:11:01.036 A:middle
-to you so you can make
-informed decisions.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.316 --> 00:11:01.036 A:middle
 to you so you can make
@@ -1065,14 +977,6 @@ can see by target and then file
 and then method exactly how
 well covered the different parts
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.176 --> 00:12:02.136 A:middle
-and then method exactly how
-well covered the different parts
-
 00:12:02.136 --> 00:12:02.986 A:middle
 of your application are.
 
@@ -1145,14 +1049,6 @@ your project over time
 
 00:12:56.886 --> 00:12:58.016 A:middle
 across multiple devices.
-
-00:12:58.666 --> 00:13:01.466 A:middle
-So that's one of the
-things that's special
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.666 --> 00:13:01.466 A:middle
 So that's one of the
@@ -1239,14 +1135,6 @@ those changes in coverage
 00:13:53.966 --> 00:13:57.696 A:middle
 so you can pinpoint that down
 to a specific set of commits.
-
-00:13:59.596 --> 00:14:03.266 A:middle
-This history also allows us
-to show trends, so in Xcode 6,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.596 --> 00:14:03.266 A:middle
 This history also allows us
@@ -1350,14 +1238,6 @@ up my colleague, Eric,
 to demonstrate some of
 the code coverage features
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.786 --> 00:15:01.756 A:middle
-to demonstrate some of
-the code coverage features
-
 00:15:01.756 --> 00:15:02.976 A:middle
 in Xcode and Xcode Server.
 
@@ -1436,14 +1316,6 @@ So let's take a look at it.
 00:15:56.666 --> 00:15:58.866 A:middle
 I actually ran the test
 earlier before I got up here.
-
-00:15:58.866 --> 00:16:01.086 A:middle
-We can just take a
-look on the device.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.866 --> 00:16:01.086 A:middle
 We can just take a
@@ -1548,10 +1420,6 @@ little bit about our app.
 00:16:58.466 --> 00:16:59.716 A:middle
 It has a really neat feature,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.226 --> 00:17:02.626 A:middle
 which is using a proprietary
 algorithm that we have.
@@ -1571,15 +1439,15 @@ coffee that I owe Matt.
 Really secret algorithm
 that I want
 
-00:17:11.376 --> 00:17:14.165 A:middle
+00:17:11.376 --> 00:17:14.166 A:middle
 to make sure is very well
 tested, and also I am not
 
-00:17:14.165 --> 00:17:16.986 A:middle
+00:17:14.166 --> 00:17:16.986 A:middle
 that good at math, so
 I have to make sure.
 
-00:17:17.925 --> 00:17:20.606 A:middle
+00:17:17.926 --> 00:17:20.606 A:middle
 So let's see and look at the
 actual source file for this,
 
@@ -1641,10 +1509,6 @@ over to the unit test
 
 00:17:58.546 --> 00:17:59.466 A:middle
 and take a look at this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.256 --> 00:18:02.006 A:middle
 If I go to the transaction
@@ -1736,14 +1600,6 @@ Perfect timing.
 
 00:18:56.796 --> 00:18:58.026 A:middle
 All my tests succeeded.
-
-00:18:58.246 --> 00:19:00.266 A:middle
-Great, they always do when I
-build them with magic macros.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.246 --> 00:19:00.266 A:middle
 Great, they always do when I
@@ -1850,14 +1706,6 @@ that you know has edge cases.
 This way you can ensure that
 every edge case is covered
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.766 --> 00:20:00.846 A:middle
-This way you can ensure that
-every edge case is covered
-
 00:20:00.846 --> 00:20:02.126 A:middle
 when you are writing
 your unit tests.
@@ -1945,14 +1793,6 @@ the beginning of your bot.
 
 00:20:56.736 --> 00:20:58.076 A:middle
 Then we see build history.
-
-00:20:58.076 --> 00:21:00.116 A:middle
-This is where we
-surface errors, warnings,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.076 --> 00:21:00.116 A:middle
 This is where we
@@ -2069,14 +1909,6 @@ big differences.
 So in this case,
 I can see change
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.776 --> 00:22:00.676 A:middle
-So in this case,
-I can see change
-
 00:22:00.676 --> 00:22:02.246 A:middle
 over time right in the report.
 
@@ -2177,14 +2009,6 @@ very easy in Xcode Server
 to see differences between
 different classes of devices.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.806 --> 00:23:00.936 A:middle
-to see differences between
-different classes of devices.
-
 00:23:01.776 --> 00:23:04.336 A:middle
 It makes it very easy
 to determine when code
@@ -2259,14 +2083,6 @@ The first one is triggers.
 00:23:55.706 --> 00:23:59.316 A:middle
 So triggers were introduced
 in Xcode 6, and they are all
-
-00:23:59.316 --> 00:24:02.626 A:middle
-about providing custom actions
-that integrate in the lifecycle
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.316 --> 00:24:02.626 A:middle
 about providing custom actions
@@ -2354,14 +2170,6 @@ before integration run
 00:24:56.976 --> 00:24:58.246 A:middle
 after your source
 code checks out.
-
-00:24:58.736 --> 00:25:00.716 A:middle
-That's important because it
-means you have full access
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.736 --> 00:25:00.716 A:middle
 That's important because it
@@ -2461,14 +2269,6 @@ weird and out of place.
 So we have a bot ID
 and integration ID
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.026 --> 00:26:01.056 A:middle
-So we have a bot ID
-and integration ID
-
 00:26:01.056 --> 00:26:03.456 A:middle
 for the integration
 running and its bot.
@@ -2552,14 +2352,6 @@ verbs like get, post, patch,
 and delete, to perform
 operations on those resources.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.856 --> 00:27:02.866 A:middle
-and delete, to perform
-operations on those resources.
-
 00:27:04.436 --> 00:27:07.556 A:middle
 And of course, we communicate
 data back and forth using JSON.
@@ -2629,10 +2421,6 @@ but I want you to remember
 00:27:56.506 --> 00:27:59.876 A:middle
 that when you try out the API
 yourself on your own server.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.386 --> 00:28:04.056 A:middle
 When we make that request,
@@ -2714,14 +2502,6 @@ important because as your --
 
 00:28:56.936 --> 00:28:58.726 A:middle
 your project changes over time
-
-00:28:58.896 --> 00:29:01.136 A:middle
-or maybe you adopt new Xcode
-features, things like that,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.896 --> 00:29:01.136 A:middle
 or maybe you adopt new Xcode
@@ -2820,14 +2600,6 @@ gone from saying I want
 to list the integrations
 for this bot to I want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.836 --> 00:30:01.666 A:middle
-to list the integrations
-for this bot to I want
-
 00:30:01.666 --> 00:30:05.246 A:middle
 to create a new integration
 for this bot.
@@ -2921,14 +2693,6 @@ artifacts, then you can do
 that by passing some
 JSON in the body to tell
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.746 --> 00:31:02.296 A:middle
-that by passing some
-JSON in the body to tell
-
 00:31:02.426 --> 00:31:04.636 A:middle
 that this integration
 should clean before it runs.
@@ -3013,10 +2777,6 @@ and a black coffee cup.
 00:31:56.916 --> 00:31:59.606 A:middle
 This way when we are running
 internal builds on our device,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.366 --> 00:32:01.266 A:middle
 we know that they are internal
@@ -3110,10 +2870,6 @@ the edit workflow.
 And just like Matt said, this
 is now completely nonlinear,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:00.006 --> 00:33:02.536 A:middle
 so since I am most
 interested in the triggers,
@@ -3205,14 +2961,6 @@ and pull up a Swift trigger.
 In this case, just like the bash
 trigger, I go ahead and set it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.746 --> 00:34:00.766 A:middle
-In this case, just like the bash
-trigger, I go ahead and set it
-
 00:34:00.766 --> 00:34:03.286 A:middle
 up using the hash bang
 for user bin swift.
@@ -3248,19 +2996,19 @@ other script through bash,
 in this case, the
 XCS source directory.
 
-00:34:24.966 --> 00:34:30.755 A:middle
+00:34:24.966 --> 00:34:30.756 A:middle
 After that I am going to find
 the settings bundle I had.
 
-00:34:30.755 --> 00:34:33.076 A:middle
+00:34:30.756 --> 00:34:33.076 A:middle
 This is where things get
 more interesting with Swift.
 
-00:34:33.076 --> 00:34:37.085 A:middle
+00:34:33.076 --> 00:34:37.086 A:middle
 I can load the plist as a
 dictionary right in Swift.
 
-00:34:37.085 --> 00:34:38.896 A:middle
+00:34:37.086 --> 00:34:38.896 A:middle
 I don't have to do
 any manual editing
 
@@ -3279,21 +3027,13 @@ new dictionary literal in swift
 and go ahead and shove
 that into my dictionary.
 
-00:34:51.565 --> 00:34:53.636 A:middle
+00:34:51.566 --> 00:34:53.636 A:middle
 Here we grab the
 environment variable
 
 00:34:53.636 --> 00:34:56.636 A:middle
 for the integration number to
 set as this build number title.
-
-00:34:56.916 --> 00:35:01.046 A:middle
-Finally, I am going to go
-ahead and write that out
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:56.916 --> 00:35:01.046 A:middle
 Finally, I am going to go
@@ -3385,13 +3125,6 @@ be the get method.
 00:35:59.266 --> 00:36:00.646 A:middle
 I go ahead and call that,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.266 --> 00:36:00.646 A:middle
-I go ahead and call that,
-
 00:36:00.646 --> 00:36:04.626 A:middle
 and using the NS JSON
 serialization API, go ahead
@@ -3465,13 +3198,6 @@ is now running.
 00:36:59.216 --> 00:37:00.436 A:middle
 We have the modem picked up.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.216 --> 00:37:00.436 A:middle
-We have the modem picked up.
-
 00:37:00.436 --> 00:37:04.516 A:middle
 So I am just going to zoom in
 here on my bot and step away
@@ -3537,14 +3263,6 @@ more advanced features
 
 00:37:54.966 --> 00:37:56.836 A:middle
 of Xcode Server, and I am going
-
-00:37:56.836 --> 00:38:00.246 A:middle
-to let Matt talk a little bit
-more about where you can find us
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:56.836 --> 00:38:00.246 A:middle
 to let Matt talk a little bit
@@ -3642,14 +3360,6 @@ All right.
 So today we looked at Xcode
 Server improvements we've made
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:57.076 --> 00:39:00.786 A:middle
-So today we looked at Xcode
-Server improvements we've made
-
 00:39:00.786 --> 00:39:02.786 A:middle
 in Xcode 7, both around quality
 
@@ -3740,14 +3450,6 @@ about getting started
 with Xcode Server, last
 year we demonstrated setting
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.036 --> 00:40:00.976 A:middle
-with Xcode Server, last
-year we demonstrated setting
-
 00:40:00.976 --> 00:40:03.516 A:middle
 up your server from scratch
 and getting your bots set
@@ -3767,4 +3469,3 @@ Have a great rest of your WWDC.
 
 00:40:11.508 --> 00:40:13.508 A:middle
 [Applause]
-

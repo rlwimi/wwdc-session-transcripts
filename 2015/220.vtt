@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:25.516 --> 00:00:30.966 A:middle
 [Applause]
@@ -38,14 +37,6 @@ source or provided
 
 00:00:57.916 --> 00:00:58.966 A:middle
 with your resource bundle.
-
-00:00:59.736 --> 00:01:02.726 A:middle
-Now as you process those
-objects you're building
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.736 --> 00:01:02.726 A:middle
 Now as you process those
@@ -121,19 +112,11 @@ deletes as you define.
 Finding objects in your object
 graph is also particularly easy.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.036 --> 00:02:03.426 A:middle
-Finding objects in your object
-graph is also particularly easy.
-
 00:02:04.326 --> 00:02:08.306 A:middle
 Simply use an NSFetchRequest
 and give it a predicate
 
-00:02:08.485 --> 00:02:10.336 A:middle
+00:02:08.486 --> 00:02:10.336 A:middle
 to find the objects
 you're looking for.
 
@@ -191,13 +174,6 @@ we've done here.
 00:02:56.946 --> 00:02:58.566 A:middle
 And as I delete the
 Apple butter,
-
-00:02:59.016 --> 00:03:00.756 A:middle
-my UI will update accordingly.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.016 --> 00:03:00.756 A:middle
 my UI will update accordingly.
@@ -270,14 +246,6 @@ as you see fit.
 Or you can choose from
 several merge policies
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.596 --> 00:04:01.306 A:middle
-Or you can choose from
-several merge policies
-
 00:04:01.306 --> 00:04:02.546 A:middle
 that we have already provided,
 
@@ -293,11 +261,11 @@ trumps the persistent store.
 Choose what is best for you
 and your particular scenario.
 
-00:04:15.446 --> 00:04:18.125 A:middle
+00:04:15.446 --> 00:04:18.126 A:middle
 Once you've adopted Core Data
 you get several benefits.
 
-00:04:18.125 --> 00:04:20.616 A:middle
+00:04:18.126 --> 00:04:20.616 A:middle
 I would like to give
 you two in particular
 
@@ -343,14 +311,6 @@ of Core Data.
 00:04:57.446 --> 00:04:59.366 A:middle
 Now let's jump into
 the new stuff.
-
-00:04:59.666 --> 00:05:01.546 A:middle
-All the new APIs
-we have for you.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.666 --> 00:05:01.546 A:middle
 All the new APIs
@@ -424,14 +384,6 @@ in smaller sizes.
 Let me show you a quick
 example of this in code.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.006 --> 00:06:00.946 A:middle
-Let me show you a quick
-example of this in code.
-
 00:06:02.766 --> 00:06:06.796 A:middle
 Here I am with my person object
 and I ask for its object IDs
@@ -494,13 +446,6 @@ which may have occurred
 00:06:57.096 --> 00:06:59.166 A:middle
 when you traversed a bi
 directional relationship
-
-00:06:59.166 --> 00:07:01.046 A:middle
-and looped yourself around.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.166 --> 00:07:01.046 A:middle
 and looped yourself around.
@@ -576,14 +521,6 @@ try to have to go back to disk
 and that object has been
 deleted out from underneath you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.646 --> 00:08:02.006 A:middle
-and that object has been
-deleted out from underneath you.
-
 00:08:03.496 --> 00:08:05.296 A:middle
 What's better than
 throwing in exception,
@@ -617,11 +554,11 @@ defaults to yes.
 If we encounter a fault we'll
 mark the fault as deleted
 
-00:08:30.076 --> 00:08:33.285 A:middle
+00:08:30.076 --> 00:08:33.286 A:middle
 and any missing attributes
 will be null, nil or zero.
 
-00:08:33.856 --> 00:08:37.275 A:middle
+00:08:33.856 --> 00:08:37.276 A:middle
 This allows your app to
 continue on with this object
 
@@ -646,14 +583,6 @@ coordinator we have two new APIs
 
 00:08:56.296 --> 00:08:56.976 A:middle
 to introduce.
-
-00:08:58.116 --> 00:09:01.546 A:middle
-We introduced these two new
-APIs because we have seen issues
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.116 --> 00:09:01.546 A:middle
 We introduced these two new
@@ -715,14 +644,6 @@ introduced replace persistent
 00:09:51.636 --> 00:09:56.906 A:middle
 tore at URL, similar pattern
 as destroy and if the database
-
-00:09:57.196 --> 00:10:00.126 A:middle
-at the destination doesn't exist
-we'll simply copy it into place.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:57.196 --> 00:10:00.126 A:middle
 at the destination doesn't exist
@@ -795,14 +716,6 @@ unique across any entity
 00:10:53.586 --> 00:10:56.996 A:middle
 and we'll make sure all
 instances of that entity keep
-
-00:10:56.996 --> 00:11:00.306 A:middle
-that unique attribute, be it
-email addresses, part numbers,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:56.996 --> 00:11:00.306 A:middle
 that unique attribute, be it
@@ -883,14 +796,6 @@ as a unique constraint.
 The sub entity has added
 email as an addition
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.846 --> 00:12:03.926 A:middle
-The sub entity has added
-email as an addition
-
 00:12:03.926 --> 00:12:05.566 A:middle
 to its unique constraints.
 
@@ -953,10 +858,6 @@ look at our object model
 and here we are on our
 entity, I'll select a recipe
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.416 --> 00:13:05.236 A:middle
 and now we have a
 new option over here
@@ -1007,14 +908,6 @@ that your uniqueness is there.
 
 00:13:50.516 --> 00:13:57.166 A:middle
 [Applause]
-
-00:13:57.666 --> 00:14:02.516 A:middle
-&gt;&gt; However, having all of
-those duplicates isn't ideal.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.666 --> 00:14:02.516 A:middle
 &gt;&gt; However, having all of
@@ -1095,14 +988,6 @@ of NSBatch delete request.
 NSBatch delete request works
 like NSBatch update request
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.796 --> 00:15:03.446 A:middle
-NSBatch delete request works
-like NSBatch update request
-
 00:15:03.676 --> 00:15:05.406 A:middle
 in that it acts directly
 in the persistent store
@@ -1178,14 +1063,6 @@ object notifications.
 We think this is going to
 be really helpful for people
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.276 --> 00:16:02.116 A:middle
-We think this is going to
-be really helpful for people
-
 00:16:02.116 --> 00:16:04.046 A:middle
 if they have a lot of
 duplicates and I would
@@ -1251,10 +1128,6 @@ batches in the thousands,
 we're now in our first
 batch and it's still going.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.336 --> 00:17:01.306 A:middle
 This will take a while.
 
@@ -1266,7 +1139,7 @@ here and wait for it.
 If we break in a convenient
 spot we can kill the app
 
-00:17:09.106 --> 00:17:12.425 A:middle
+00:17:09.106 --> 00:17:12.426 A:middle
 and try again using
 batch deletions.
 
@@ -1310,14 +1183,6 @@ queries the generator has
 00:17:56.736 --> 00:17:58.796 A:middle
 created a trigger that deletes
 all of the relationships
-
-00:17:58.796 --> 00:18:01.266 A:middle
-that need to be cleaned
-up and we're done.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.796 --> 00:18:01.266 A:middle
 that need to be cleaned
@@ -1400,14 +1265,6 @@ your apps.
 And if you forget to
 deploy a model to the hands
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.776 --> 00:19:01.716 A:middle
-And if you forget to
-deploy a model to the hands
-
 00:19:01.716 --> 00:19:02.836 A:middle
 of a customer that's running
 
@@ -1473,14 +1330,6 @@ migrations you have your model
 
 00:19:54.156 --> 00:19:55.956 A:middle
 ready anyways because you need
-
-00:19:55.956 --> 00:20:00.246 A:middle
-to know what you're actually
-transitioning from and to.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:55.956 --> 00:20:00.246 A:middle
 to know what you're actually
@@ -1567,14 +1416,6 @@ to subclass generation as well.
 In Xcode 6 you would get
 an implementation file
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.036 --> 00:21:04.416 A:middle
-In Xcode 6 you would get
-an implementation file
-
 00:21:04.416 --> 00:21:07.216 A:middle
 and a header file for using
 Objective-C containing both the
@@ -1636,14 +1477,6 @@ deprecations, we're getting rid
 00:21:54.536 --> 00:21:59.076 A:middle
 of confinement currency
 in iOs9 and OS 10.10--
-
-00:21:59.076 --> 00:22:01.436 A:middle
-it is marked as deprecated,
-we're getting rid of it later.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.076 --> 00:22:01.436 A:middle
 it is marked as deprecated,
@@ -1717,14 +1550,6 @@ attributes to the models,
 00:22:56.906 --> 00:22:58.096 A:middle
 the amount of data
 that's carried
-
-00:22:58.096 --> 00:23:00.456 A:middle
-by your users gets larger
-as they hold on to our apps
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.096 --> 00:23:00.456 A:middle
 by your users gets larger
@@ -1805,14 +1630,6 @@ recipes app and right away
 00:23:55.676 --> 00:23:58.596 A:middle
 in the cache missed
 Instruments we can see
-
-00:23:58.596 --> 00:24:02.396 A:middle
-that we blew the cache on three
-objects we wanted to display.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.596 --> 00:24:02.396 A:middle
 that we blew the cache on three
@@ -1903,14 +1720,6 @@ in the list view.
 In the detailed view,
 in the controller,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.426 --> 00:25:00.596 A:middle
-In the detailed view,
-in the controller,
-
 00:25:00.596 --> 00:25:02.866 A:middle
 we have to execute
 another fetch request
@@ -1995,14 +1804,6 @@ as they're needed to display.
 The last one I wanted to
 show is sequence blocking.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.366 --> 00:26:03.746 A:middle
-The last one I wanted to
-show is sequence blocking.
-
 00:26:05.136 --> 00:26:07.196 A:middle
 If you have really complex
 fetches that take a lot
@@ -2067,14 +1868,6 @@ to note here that we can use
 00:26:56.926 --> 00:26:59.306 A:middle
 as a metrics for how to
 expect the performance to be.
-
-00:26:59.396 --> 00:27:03.386 A:middle
-The first is scan table, scan
-table means that SQLite is going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.396 --> 00:27:03.386 A:middle
 The first is scan table, scan
@@ -2148,14 +1941,6 @@ attach to the new database
 00:27:55.246 --> 00:27:58.306 A:middle
 with SQLite we can then see
 that we're using an index.
-
-00:27:59.026 --> 00:28:01.656 A:middle
-Using index means that
-the searches is going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.026 --> 00:28:01.656 A:middle
 Using index means that
@@ -2241,10 +2026,6 @@ they're problems.
 That's it this year for
 What's New in Core Data.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.236 --> 00:29:01.966 A:middle
 If you find any problems,
 please file them.
@@ -2294,4 +2075,3 @@ Thank you for coming.
 
 00:29:31.516 --> 00:29:35.500 A:middle
 [Applause]
-

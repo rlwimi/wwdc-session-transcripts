@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:29.206 --> 00:00:31.206 A:middle
 [Applause]
@@ -53,19 +52,11 @@ system, and we'll do
 that with a basic example, and
 then we are going to dive right
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.736 --> 00:01:01.226 A:middle
-that with a basic example, and
-then we are going to dive right
-
 00:01:01.226 --> 00:01:03.656 A:middle
 into what's new this
 year with UIKit Dynamics.
 
-00:01:04.215 --> 00:01:06.106 A:middle
+00:01:04.216 --> 00:01:06.106 A:middle
 Then David's going to
 come up and talk to us
 
@@ -141,14 +132,6 @@ bottom edge, bounces a bit,
 
 00:01:58.636 --> 00:01:59.376 A:middle
 and then comes to rest.
-
-00:01:59.596 --> 00:02:02.726 A:middle
-So let's look at how we can
-create this basic example.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.596 --> 00:02:02.726 A:middle
 So let's look at how we can
@@ -244,14 +227,6 @@ so it's a great option.
 So we take our dynamic
 item, associate it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:57.846 --> 00:03:00.126 A:middle
-So we take our dynamic
-item, associate it
-
 00:03:00.126 --> 00:03:01.076 A:middle
 with the sliding behavior,
 
@@ -336,14 +311,6 @@ bounds for your dynamic item.
 And by default your collision
 bounds will be rectangular
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.246 --> 00:04:02.306 A:middle
-And by default your collision
-bounds will be rectangular
-
 00:04:02.496 --> 00:04:04.796 A:middle
 matching what's returned
 from the bounds accesser
@@ -367,7 +334,7 @@ a UI BezierPath to use
 for the collision bounds
 of your dynamic item.
 
-00:04:20.755 --> 00:04:23.666 A:middle
+00:04:20.756 --> 00:04:23.666 A:middle
 Now, to accomplish this, we have
 taken the existing dynamic item
 
@@ -432,10 +399,6 @@ looks a lot more realistic
 
 00:04:58.986 --> 00:04:59.796 A:middle
 than it would have in the past,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.066 --> 00:05:03.236 A:middle
 had all the items had
@@ -528,14 +491,6 @@ on the items as a whole.
 And a group cannot be
 added to other groups.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.876 --> 00:06:02.526 A:middle
-And a group cannot be
-added to other groups.
-
 00:06:02.526 --> 00:06:03.886 A:middle
 This is a one-level abstraction.
 
@@ -609,14 +564,6 @@ going to use UIPushBehavior --
 00:06:56.076 --> 00:06:59.476 A:middle
 where UIPushBehavior, if you
 recall, has two distinct modes.
-
-00:06:59.896 --> 00:07:03.046 A:middle
-It has a continuous mode that
-represents a constant force
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.896 --> 00:07:03.046 A:middle
 It has a continuous mode that
@@ -717,14 +664,6 @@ gravity, it might look something
 like this, where
 the force is applied
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.656 --> 00:08:01.826 A:middle
-like this, where
-the force is applied
-
 00:08:01.866 --> 00:08:03.406 A:middle
 at all positions and all times.
 
@@ -784,10 +723,10 @@ that can be added to a region
 of your reference view, and the
 field is evaluated at each point
 
-00:08:42.296 --> 00:08:43.285 A:middle
+00:08:42.296 --> 00:08:43.286 A:middle
 within the reference view,
 
-00:08:43.285 --> 00:08:46.456 A:middle
+00:08:43.286 --> 00:08:46.456 A:middle
 and any resulting forces
 are automatically applied
 
@@ -809,13 +748,6 @@ has been implemented
 00:08:55.236 --> 00:08:58.866 A:middle
 as a field all along, and
 it's important to keep in mind
-
-00:08:58.866 --> 00:09:00.146 A:middle
-that this is simplified physics.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.866 --> 00:09:00.146 A:middle
 that this is simplified physics.
@@ -915,14 +847,6 @@ which can be modeled
 with radial gravity
 as a point mass.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.256 --> 00:10:00.796 A:middle
-with radial gravity
-as a point mass.
-
 00:10:01.266 --> 00:10:03.826 A:middle
 And if you recall, the
 gravitational force
@@ -1008,13 +932,6 @@ and initialize it
 
 00:10:57.686 --> 00:10:58.856 A:middle
 with a field evaluation block.
-
-00:10:59.356 --> 00:11:00.666 A:middle
-We will then call your block
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.356 --> 00:11:00.666 A:middle
 We will then call your block
@@ -1105,13 +1022,6 @@ from the corner it bounces back.
 00:11:59.006 --> 00:12:01.096 A:middle
 If I pull farther, it has
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.006 --> 00:12:01.096 A:middle
-If I pull farther, it has
-
 00:12:01.096 --> 00:12:02.836 A:middle
 that nice ease-in
 curve as we are going.
@@ -1191,14 +1101,6 @@ So let's see how we set this up,
 00:12:53.016 --> 00:12:55.916 A:middle
 and how we can actually
 set this all ourselves.
-
-00:12:56.696 --> 00:13:00.836 A:middle
-So the first thing that we have
-is this StickyCorners behavior,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:56.696 --> 00:13:00.836 A:middle
 So the first thing that we have
@@ -1305,10 +1207,6 @@ user can pick up the face
 00:13:58.676 --> 00:13:59.766 A:middle
 and move it around the screen.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:00.966 --> 00:14:03.486 A:middle
 This long press gesture
 recognizer we have here lets me
@@ -1411,14 +1309,6 @@ otherwise it is going to slip
 out from underneath
 their finger.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.976 --> 00:15:00.116 A:middle
-out from underneath
-their finger.
-
 00:15:00.666 --> 00:15:03.026 A:middle
 So we can go back
 over here briefly
@@ -1497,14 +1387,6 @@ can help you visualize fields,
 00:15:54.696 --> 00:15:56.996 A:middle
 collision bounds,
 attachments, and whether
-
-00:15:56.996 --> 00:16:00.106 A:middle
-or not a particular item
-is in motion or at rest.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:56.996 --> 00:16:00.106 A:middle
 or not a particular item
@@ -1607,23 +1489,15 @@ when you slow things down.
 So always ensure
 correction at 1x.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.176 --> 00:17:00.866 A:middle
-So always ensure
-correction at 1x.
-
-00:17:03.506 --> 00:17:06.215 A:middle
+00:17:03.506 --> 00:17:06.216 A:middle
 So, next, let's talk about
 UIDynamicItemBehavior.
 
-00:17:06.836 --> 00:17:08.195 A:middle
+00:17:06.836 --> 00:17:08.196 A:middle
 Now, if you recall,
 this is a way
 
-00:17:08.195 --> 00:17:11.486 A:middle
+00:17:08.196 --> 00:17:11.486 A:middle
 to alter the physical properties
 of your view or a dynamic item,
 
@@ -1639,7 +1513,7 @@ he applied a lower density
 and a higher resistance
 to the FaceTime square
 
-00:17:20.935 --> 00:17:22.776 A:middle
+00:17:20.936 --> 00:17:22.776 A:middle
 to make it really stick
 to the field corners.
 
@@ -1694,14 +1568,6 @@ velocity of its own.
 00:17:56.736 --> 00:17:59.126 A:middle
 So it really behaves more
 like a collision boundary.
-
-00:17:59.636 --> 00:18:03.506 A:middle
-So next, I would like to talk
-about UIAttachmentBehavior.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.636 --> 00:18:03.506 A:middle
 So next, I would like to talk
@@ -1798,14 +1664,6 @@ type of attachment
 by first specifying
 an anchor point.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.316 --> 00:19:01.056 A:middle
-by first specifying
-an anchor point.
-
 00:19:01.396 --> 00:19:03.336 A:middle
 This anchor point is
 in the coordinate space
@@ -1884,14 +1742,6 @@ attachment anchor point that's
 00:19:56.146 --> 00:19:57.616 A:middle
 in the coordinate space
 of the reference view.
-
-00:19:58.876 --> 00:20:00.396 A:middle
-But unlike those
-types, we also need
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.876 --> 00:20:00.396 A:middle
 But unlike those
@@ -2000,14 +1850,6 @@ along the vertical axis.
 Well, with UI attachment
 behavior, we don't need to do
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.036 --> 00:21:00.366 A:middle
-Well, with UI attachment
-behavior, we don't need to do
-
 00:21:00.366 --> 00:21:02.776 A:middle
 that anymore, we can use a
 sliding attachment to do that.
@@ -2106,14 +1948,6 @@ the ability
 to customize the snap
 point after init time
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.096 --> 00:22:00.296 A:middle
-to customize the snap
-point after init time
-
 00:22:00.296 --> 00:22:01.816 A:middle
 as well, which is pretty cool.
 
@@ -2194,14 +2028,6 @@ So we are going to motivate this
 00:22:54.136 --> 00:22:57.006 A:middle
 with just a simple image viewer
 application, where what we want
-
-00:22:57.006 --> 00:23:00.256 A:middle
-to do is show the user
-some extra information
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.006 --> 00:23:00.256 A:middle
 to do is show the user
@@ -2301,10 +2127,6 @@ We create our vibrancy effect,
 just like we did
 before with the blur.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:00.026 --> 00:24:01.806 A:middle
 And then, in this case
 we're going to add it
@@ -2394,10 +2216,6 @@ animation from day to night
 00:24:56.996 --> 00:24:58.966 A:middle
 in your application and
 move the user along.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.276 --> 00:25:02.176 A:middle
 Now, the next thing we are
@@ -2499,14 +2317,6 @@ the definition
 of something you might
 have heard before called an
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.896 --> 00:26:00.506 A:middle
-of something you might
-have heard before called an
-
 00:26:00.506 --> 00:26:01.936 A:middle
 offscreen pass.
 
@@ -2587,14 +2397,6 @@ view hierarchy in rect and
 00:26:54.166 --> 00:26:57.136 A:middle
 and the UIScreen method snapshot
 view after screen updates,
-
-00:26:57.656 --> 00:27:00.636 A:middle
-and these all hand you back
-content from a snapshot.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.656 --> 00:27:00.636 A:middle
 and these all hand you back
@@ -2693,14 +2495,6 @@ we have decided, let's instead
 of keeping the blur
 rendering all the time,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.576 --> 00:28:01.106 A:middle
-of keeping the blur
-rendering all the time,
-
 00:28:01.106 --> 00:28:02.896 A:middle
 let's just take a
 snapshot of it.
@@ -2785,14 +2579,6 @@ there was a mask view somewhere
 up in the hierarchy that was
 causing the visual effect
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.936 --> 00:29:01.686 A:middle
-up in the hierarchy that was
-causing the visual effect
-
 00:29:01.716 --> 00:29:04.566 A:middle
 to go offscreen, and thus
 not capture as much content
@@ -2872,14 +2658,6 @@ take an offscreen pass,
 00:29:55.206 --> 00:29:56.756 A:middle
 so you should be very
 careful about performance
-
-00:29:56.756 --> 00:30:00.066 A:middle
-when do a transformation
-like this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:56.756 --> 00:30:00.066 A:middle
 when do a transformation
@@ -2979,14 +2757,6 @@ Dynamics for the outside view,
 just by turning translate
 auto resizing mask
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.946 --> 00:31:02.536 A:middle
-just by turning translate
-auto resizing mask
-
 00:31:02.536 --> 00:31:03.936 A:middle
 into constraints to true.
 
@@ -3069,10 +2839,6 @@ Dynamic Item protocol
 and provide the required
 methods.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.666 --> 00:32:02.036 A:middle
 A bounds some of size --
 
@@ -3146,13 +2912,6 @@ very set, rigid path.
 00:32:55.466 --> 00:32:58.886 A:middle
 So it's very reactive to
 exactly what the user is doing.
-
-00:32:59.726 --> 00:33:01.066 A:middle
-So how do we get that to work?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.726 --> 00:33:01.066 A:middle
 So how do we get that to work?
@@ -3234,14 +2993,6 @@ with respect to the position.
 And this keeps it from
 flying outside of the system
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.626 --> 00:34:00.036 A:middle
-And this keeps it from
-flying outside of the system
-
 00:34:00.036 --> 00:34:01.986 A:middle
 or collapsing to too
 small of a position.
@@ -3249,11 +3000,11 @@ small of a position.
 00:34:01.986 --> 00:34:05.096 A:middle
 Now, in the view controller,
 
-00:34:05.096 --> 00:34:08.065 A:middle
+00:34:05.096 --> 00:34:08.066 A:middle
 the way we get this behavior is
 we have a gravity behavior along
 
-00:34:08.065 --> 00:34:09.096 A:middle
+00:34:08.066 --> 00:34:09.096 A:middle
 with the face layout guide,
 
 00:34:09.406 --> 00:34:10.896 A:middle
@@ -3279,22 +3030,22 @@ constantly twiddle with it
 if we decide we want to
 change the style we are using.
 
-00:34:21.766 --> 00:34:26.085 A:middle
+00:34:21.766 --> 00:34:26.086 A:middle
 And we use constraints
 to attach that blur view
 
 00:34:26.356 --> 00:34:27.576 A:middle
 to the face layout guide.
 
-00:34:27.886 --> 00:34:29.795 A:middle
+00:34:27.886 --> 00:34:29.796 A:middle
 So that when that
 guide changes size,
 
-00:34:29.886 --> 00:34:31.545 A:middle
+00:34:29.886 --> 00:34:31.546 A:middle
 the blur view will
 also change with it.
 
-00:34:33.005 --> 00:34:35.916 A:middle
+00:34:33.006 --> 00:34:35.916 A:middle
 Now, in order to make it look
 like the blur view is cutting
 
@@ -3302,19 +3053,19 @@ like the blur view is cutting
 out everything but the faces,
 we actually have a little trick.
 
-00:34:38.666 --> 00:34:40.815 A:middle
+00:34:38.666 --> 00:34:40.816 A:middle
 We make imposters from
 the original image,
 
-00:34:40.976 --> 00:34:44.295 A:middle
+00:34:40.976 --> 00:34:44.296 A:middle
 just cut out the images that
 we want, apply a mask to them,
 
-00:34:44.606 --> 00:34:47.815 A:middle
+00:34:44.606 --> 00:34:47.816 A:middle
 and create additional UI
 Image Views to place on top
 
-00:34:47.815 --> 00:34:48.806 A:middle
+00:34:47.816 --> 00:34:48.806 A:middle
 of the one that's already there.
 
 00:34:49.456 --> 00:34:52.156 A:middle
@@ -3328,14 +3079,6 @@ is you're seeing the views
 00:34:54.246 --> 00:34:58.306 A:middle
 that were placed on top that
 have the faces cut out on them.
-
-00:34:58.496 --> 00:35:01.176 A:middle
-Finally, we have this tap
-gesture recognizer that we set,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.496 --> 00:35:01.176 A:middle
 Finally, we have this tap
@@ -3424,10 +3167,6 @@ interface that responds nicely
 00:35:57.056 --> 00:35:59.126 A:middle
 and as the user expects
 to their input.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:00.016 --> 00:36:01.606 A:middle
 But you also want to
@@ -3520,4 +3259,3 @@ WWDC and a safe trip home.
 
 00:36:57.016 --> 00:36:59.000 A:middle
 [Applause]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:26.516 --> 00:00:31.966 A:middle
 [Applause]
@@ -40,14 +39,6 @@ NSProgress as an interface
 00:00:55.456 --> 00:00:57.636 A:middle
 for cancellation,
 pausing, and resuming.
-
-00:00:58.466 --> 00:01:00.756 A:middle
-Then we'll talk a little
-bit about hooking NSProgress
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.466 --> 00:01:00.756 A:middle
 Then we'll talk a little
@@ -131,14 +122,6 @@ which we'll get to soon.
 But first, these are the core
 properties on NSProgress.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.116 --> 00:02:03.056 A:middle
-But first, these are the core
-properties on NSProgress.
-
 00:02:03.056 --> 00:02:06.026 A:middle
 We have the totalUnitCount,
 which is how much work there is
@@ -211,14 +194,6 @@ progress indeterminant.
 00:02:55.206 --> 00:02:58.406 A:middle
 And you do that by either
 setting the completedUnitCount
-
-00:02:58.646 --> 00:03:00.986 A:middle
-or the totalUnitCount
-to a negative value.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.646 --> 00:03:00.986 A:middle
 or the totalUnitCount
@@ -313,14 +288,6 @@ alter those defaults.
 So the first is through
 the kind property.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.706 --> 00:04:01.686 A:middle
-So the first is through
-the kind property.
-
 00:04:02.186 --> 00:04:05.516 A:middle
 Currently the only option is
 for files, NSProgressKindFile.
@@ -336,7 +303,7 @@ your units are bytes,
 00:04:11.216 --> 00:04:12.586 A:middle
 it can format them as such,
 
-00:04:12.586 --> 00:04:17.055 A:middle
+00:04:12.586 --> 00:04:17.056 A:middle
 so you see now it can say 419
 kilobytes of 5.3 megabytes.
 
@@ -388,14 +355,6 @@ Description now includes
 00:04:52.556 --> 00:04:56.266 A:middle
 that information formatted as
 1 minute, 37 seconds remaining.
-
-00:04:57.676 --> 00:05:00.946 A:middle
-And there are additional
-userInfo keys that are only used
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.676 --> 00:05:00.946 A:middle
 And there are additional
@@ -486,14 +445,6 @@ might use that information,
 so now it says, downloading
 9 files.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.706 --> 00:06:01.816 A:middle
-so now it says, downloading
-9 files.
-
 00:06:02.916 --> 00:06:06.316 A:middle
 Note that the kind is still File
 and the units are still bytes,
@@ -571,13 +522,6 @@ First the creation side.
 00:06:55.026 --> 00:06:58.976 A:middle
 So, when you create an
 NSProgress, you are responsible
-
-00:06:58.976 --> 00:07:00.446 A:middle
-for setting its properties
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.976 --> 00:07:00.446 A:middle
 for setting its properties
@@ -675,14 +619,6 @@ And it makes it really obvious
 that a class supports
 progress reporting.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.226 --> 00:08:01.336 A:middle
-that a class supports
-progress reporting.
-
 00:08:01.886 --> 00:08:03.206 A:middle
 All right.
 
@@ -726,11 +662,11 @@ to the user for our download.
 So, if we go to our project,
 we have our download class
 
-00:08:37.436 --> 00:08:43.775 A:middle
+00:08:37.436 --> 00:08:43.776 A:middle
 that is used to download the
 photo, and it has an initializer
 
-00:08:43.775 --> 00:08:46.136 A:middle
+00:08:43.776 --> 00:08:46.136 A:middle
 that takes a URL
 for it to download,
 
@@ -745,14 +681,6 @@ an error if an error occurs.
 00:08:52.286 --> 00:08:57.136 A:middle
 Next there is a start
 method which gets --
-
-00:08:57.136 --> 00:09:00.646 A:middle
-which kicks the whole download
-off, and we have a handful
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.136 --> 00:09:00.646 A:middle
 which kicks the whole download
@@ -826,10 +754,6 @@ to our list of classes.
 00:09:55.006 --> 00:09:59.286 A:middle
 And in order to conform
 to NSProgressReporting,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.606 --> 00:10:02.016 A:middle
 we need a ProgressProperty.
@@ -907,14 +831,6 @@ amount to download.
 So we want to set our
 totalUnitCount to that amount.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.136 --> 00:11:01.146 A:middle
-So we want to set our
-totalUnitCount to that amount.
-
 00:11:01.676 --> 00:11:04.606 A:middle
 And at that point the progress
 will no longer be indeterminant.
@@ -986,14 +902,6 @@ So, back to slides.
 00:11:55.576 --> 00:11:57.636 A:middle
 So, that's the basics
 of NSProgress.
-
-00:11:57.636 --> 00:12:00.716 A:middle
-Now let's get into what really
-makes NSProgress powerful,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.636 --> 00:12:00.716 A:middle
 Now let's get into what really
@@ -1087,14 +995,6 @@ will be updated.
 So for composing NSProgress
 objects, we have this idea
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.076 --> 00:13:01.926 A:middle
-So for composing NSProgress
-objects, we have this idea
-
 00:13:01.926 --> 00:13:03.116 A:middle
 of a pendingUnitCount.
 
@@ -1175,14 +1075,6 @@ total, so the totalUnitCount
 
 00:13:56.846 --> 00:13:58.456 A:middle
 for our import progress is 2.
-
-00:13:59.526 --> 00:14:01.926 A:middle
-And it is going to assign
-its entire totalUnitCount
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.526 --> 00:14:01.926 A:middle
 And it is going to assign
@@ -1273,14 +1165,6 @@ updating in the parents.
 Progress kind of flows
 up to the parent.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.626 --> 00:15:00.736 A:middle
-Progress kind of flows
-up to the parent.
-
 00:15:01.366 --> 00:15:03.016 A:middle
 And note that the
 completedUnitCount
@@ -1352,14 +1236,6 @@ an individual photo's import,
 
 00:15:56.086 --> 00:15:57.506 A:middle
 so this is just one photo.
-
-00:15:58.186 --> 00:16:00.746 A:middle
-There are the two steps,
-download and filter.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.186 --> 00:16:00.746 A:middle
 There are the two steps,
@@ -1449,14 +1325,6 @@ about is implicit composition.
 So you create a parent
 progress object.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.556 --> 00:17:02.296 A:middle
-So you create a parent
-progress object.
-
 00:17:02.676 --> 00:17:05.076 A:middle
 This will be the
 photoProgress from before.
@@ -1464,11 +1332,11 @@ photoProgress from before.
 00:17:05.856 --> 00:17:07.886 A:middle
 So there are two steps.
 
-00:17:08.425 --> 00:17:12.826 A:middle
+00:17:08.426 --> 00:17:12.826 A:middle
 And we have -- so we have
 a totalUnitCount of 2.
 
-00:17:13.516 --> 00:17:16.915 A:middle
+00:17:13.516 --> 00:17:16.916 A:middle
 And what we want to do, is add
 a download progress as a child.
 
@@ -1480,7 +1348,7 @@ With Pending Unit Count
 on the parent progress,
 the photoProgress.
 
-00:17:22.915 --> 00:17:26.965 A:middle
+00:17:22.916 --> 00:17:26.966 A:middle
 And what this does is it sets
 a thread local current progress
 
@@ -1519,10 +1387,6 @@ convenience constructor,
 00:17:56.356 --> 00:17:59.836 A:middle
 we'll add the created progress
 to the current progress.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.826 --> 00:18:05.296 A:middle
 So the download is added as
@@ -1590,14 +1454,6 @@ Also, be sure to document it.
 00:18:54.736 --> 00:18:57.076 A:middle
 Implicit composition
 is implicit after all,
-
-00:18:57.476 --> 00:19:00.406 A:middle
-clients won't know you support
-implicit composition unless you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:57.476 --> 00:19:00.406 A:middle
 clients won't know you support
@@ -1681,14 +1537,6 @@ you want to add it with,
 since it is one step, we want to
 add it with a pendingCount of 1.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:57.736 --> 00:20:00.716 A:middle
-since it is one step, we want to
-add it with a pendingCount of 1.
-
 00:20:01.596 --> 00:20:02.306 A:middle
 And that's it.
 
@@ -1756,14 +1604,6 @@ has been changed a bit.
 
 00:20:56.166 --> 00:20:57.826 A:middle
 Now it has a CollectionView
-
-00:20:57.826 --> 00:21:00.586 A:middle
-of photos instead
-of a single photo.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:57.826 --> 00:21:00.586 A:middle
 of photos instead
@@ -1840,10 +1680,6 @@ our photo import.
 It has an initializer,
 which takes a URL
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.436 --> 00:22:03.726 A:middle
 and it creates the
 download with that URL.
@@ -1915,10 +1751,6 @@ our class declaration
 
 00:22:57.086 --> 00:22:58.566 A:middle
 and add NSProgressReporting.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.096 --> 00:23:04.216 A:middle
 Now we need to have a progress
@@ -2002,13 +1834,6 @@ to our progress.
 00:23:59.376 --> 00:24:01.536 A:middle
 But the filter is a class method
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.376 --> 00:24:01.536 A:middle
-But the filter is a class method
-
 00:24:01.536 --> 00:24:03.756 A:middle
 that takes an image
 and returns an image.
@@ -2075,14 +1900,6 @@ child to the current progress,
 
 00:24:56.606 --> 00:24:58.166 A:middle
 and once it returns, we need
-
-00:24:58.166 --> 00:25:00.226 A:middle
-to no longer be the current
-progress, so we're going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.166 --> 00:25:00.226 A:middle
 to no longer be the current
@@ -2163,14 +1980,6 @@ photos that we're downloading.
 And it has IBActions
 for the toolbar buttons,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:57.626 --> 00:26:02.156 A:middle
-And it has IBActions
-for the toolbar buttons,
-
 00:26:02.156 --> 00:26:03.866 A:middle
 in this case the
 start import button
@@ -2231,14 +2040,6 @@ handler
 00:26:55.646 --> 00:26:58.956 A:middle
 for that photo import
 class, to set the image
-
-00:26:58.956 --> 00:27:00.416 A:middle
-as the image that's
-been imported.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.956 --> 00:27:00.416 A:middle
 as the image that's
@@ -2315,14 +2116,6 @@ is going to have a child
 for every photo in our album,
 we want our totalUnitCount
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:56.766 --> 00:28:01.486 A:middle
-for every photo in our album,
-we want our totalUnitCount
-
 00:28:01.876 --> 00:28:06.106 A:middle
 to be the number of
 photos in the album.
@@ -2393,14 +2186,6 @@ progress being assigned
 
 00:28:56.436 --> 00:28:58.316 A:middle
 to a progress made up --
-
-00:28:58.316 --> 00:29:01.066 A:middle
-that has children for each
-import that's happening,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.316 --> 00:29:01.066 A:middle
 that has children for each
@@ -2484,14 +2269,6 @@ the NSProgress will set cancel
 to true and invoke the
 cancellationHandler.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.326 --> 00:30:01.986 A:middle
-to true and invoke the
-cancellationHandler.
-
 00:30:02.396 --> 00:30:04.666 A:middle
 So cancellation flows
 down to children.
@@ -2559,14 +2336,6 @@ just like cancellation.
 00:30:51.546 --> 00:30:57.406 A:middle
 And let's go ahead
 and do a demo of that.
-
-00:30:57.606 --> 00:31:00.356 A:middle
-So if your objects, if your
-operations already support
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.606 --> 00:31:00.356 A:middle
 So if your objects, if your
@@ -2655,14 +2424,6 @@ Will Begin Download callback,
 we can add cancellation,
 pausing,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:57.846 --> 00:32:01.016 A:middle
-we can add cancellation,
-pausing,
-
 00:32:01.016 --> 00:32:02.956 A:middle
 resuming support
 to this NSProgress.
@@ -2730,14 +2491,6 @@ the download pauses itself,
 00:32:55.956 --> 00:32:58.546 A:middle
 and we press resume,
 and it resumes,
-
-00:32:58.546 --> 00:33:00.466 A:middle
-and we can hit cancel,
-and it gets canceled.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.546 --> 00:33:00.466 A:middle
 and we can hit cancel,
@@ -2823,10 +2576,6 @@ UIControls, you want to move
 00:33:58.516 --> 00:33:59.766 A:middle
 that work to the main queue.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.336 --> 00:34:02.736 A:middle
 So here is an example of what
 
@@ -2838,7 +2587,7 @@ might look like.
 You call addObserver for
 key path on the NSProgress
 
-00:34:11.585 --> 00:34:13.306 A:middle
+00:34:11.586 --> 00:34:13.306 A:middle
 for the fractionCompleted
 property.
 
@@ -2850,11 +2599,11 @@ of observe Value
 For Key Path we enqueue
 some work on the main queue,
 
-00:34:21.356 --> 00:34:23.735 A:middle
+00:34:21.356 --> 00:34:23.736 A:middle
 and on the main queue we
 get the fractionCompleted
 
-00:34:23.735 --> 00:34:26.886 A:middle
+00:34:23.736 --> 00:34:26.886 A:middle
 from the NSProgress, and
 update our UIProgressView.
 
@@ -2871,15 +2620,15 @@ or buttons in your UI.
 00:34:33.376 --> 00:34:37.166 A:middle
 All right, finally, let's go
 
-00:34:37.166 --> 00:34:39.735 A:middle
+00:34:37.166 --> 00:34:39.736 A:middle
 over some best practice
 for NSProgress.
 
-00:34:39.735 --> 00:34:42.896 A:middle
+00:34:39.736 --> 00:34:42.896 A:middle
 Since this talk is called best
 practices, I better squeeze some
 
-00:34:42.896 --> 00:34:45.315 A:middle
+00:34:42.896 --> 00:34:45.316 A:middle
 in at the last minute.
 
 00:34:45.456 --> 00:34:47.346 A:middle
@@ -2889,24 +2638,16 @@ So, first is completion.
 Don't use fractionCompleted
 to determine completion.
 
-00:34:50.686 --> 00:34:53.085 A:middle
+00:34:50.686 --> 00:34:53.086 A:middle
 It's a floating point
 value determined --
 
-00:34:53.085 --> 00:34:54.446 A:middle
+00:34:53.086 --> 00:34:54.446 A:middle
 derived from a calculation.
 
 00:34:54.786 --> 00:34:58.346 A:middle
 So comparing it to 1.0
 won't always be right.
-
-00:34:58.346 --> 00:35:02.896 A:middle
-Use completedUnitCount and
-totalUnitCount instead,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.346 --> 00:35:02.896 A:middle
 Use completedUnitCount and
@@ -2995,14 +2736,6 @@ than you're expecting
 since your composition can be
 arbitrarily large and very deep.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.596 --> 00:36:03.226 A:middle
-since your composition can be
-arbitrarily large and very deep.
-
 00:36:03.876 --> 00:36:07.426 A:middle
 But when you do so, don't
 forget to finish the progress.
@@ -3075,13 +2808,6 @@ observable, so you can use it,
 00:36:57.066 --> 00:37:00.166 A:middle
 use that to update your UI.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:57.066 --> 00:37:00.166 A:middle
-use that to update your UI.
-
 00:37:00.166 --> 00:37:00.746 A:middle
 &gt;&gt; That's it.
 
@@ -3124,4 +2850,3 @@ Thanks.
 
 00:37:23.508 --> 00:37:25.508 A:middle
 [Applause]
-

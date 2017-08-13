@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.326 --> 00:00:25.236 A:middle
 &gt;&gt; JON ANDREWS: Good morning.
@@ -47,14 +46,6 @@ to see it to date.
 00:00:55.226 --> 00:00:58.936 A:middle
 We are going to walk
 through some aspects
-
-00:00:58.936 --> 00:01:01.686 A:middle
-of achieving all-day
-battery life under iOS.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.936 --> 00:01:01.686 A:middle
 of achieving all-day
@@ -129,10 +120,6 @@ go on throughout the day,
 with bursts of workload and
 then some periods of idle.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.046 --> 00:02:02.126 A:middle
 And in order to achieve
 all-day battery life,
@@ -197,14 +184,6 @@ and that's why we are able
 
 00:02:56.596 --> 00:02:58.046 A:middle
 to offer great playback time.
-
-00:02:59.126 --> 00:03:02.586 A:middle
-But as you get further up into
-the more intense workloads,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.126 --> 00:03:02.586 A:middle
 But as you get further up into
@@ -281,14 +260,6 @@ a snappy user experience.
 So let's now look at that from
 an app life cycle perspective.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.796 --> 00:04:03.326 A:middle
-So let's now look at that from
-an app life cycle perspective.
-
 00:04:05.096 --> 00:04:08.186 A:middle
 The area under this graph
 represents the energy used
@@ -300,10 +271,10 @@ by an application.
 You launch the application, and
 there's some work that goes on,
 
-00:04:14.676 --> 00:04:16.625 A:middle
+00:04:14.676 --> 00:04:16.626 A:middle
 to initialize your application,
 
-00:04:16.625 --> 00:04:18.356 A:middle
+00:04:16.626 --> 00:04:18.356 A:middle
 maybe you have some
 animations at the beginning.
 
@@ -358,10 +329,6 @@ think about that just
 
 00:04:57.806 --> 00:04:59.086 A:middle
 from a system perspective too.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.306 --> 00:05:02.876 A:middle
 So let's look at what a
@@ -431,14 +398,6 @@ nice slow drain
 on the user's battery
 throughout the day,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.246 --> 00:06:01.196 A:middle
-on the user's battery
-throughout the day,
-
 00:06:01.596 --> 00:06:03.926 A:middle
 and hopefully now this
 is going into the evening
@@ -493,14 +452,6 @@ You want to do less work.
 00:06:55.576 --> 00:06:58.286 A:middle
 And you want to then think
 about whether that work needs
-
-00:06:58.286 --> 00:07:00.186 A:middle
-to be done now or whether
-you could do it later.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.286 --> 00:07:00.186 A:middle
 to be done now or whether
@@ -576,14 +527,6 @@ We optimized the kernel.
 We applied our quality
 of service to threads,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:56.286 --> 00:08:00.196 A:middle
-We applied our quality
-of service to threads,
-
 00:08:00.956 --> 00:08:04.666 A:middle
 adopted more NS operations,
 scheduled IO
@@ -619,7 +562,7 @@ to be a really popular feature
 in adding the "Significant
 Energy" identification
 
-00:08:33.145 --> 00:08:34.956 A:middle
+00:08:33.146 --> 00:08:34.956 A:middle
 to the battery menu
 so you could see
 
@@ -627,7 +570,7 @@ so you could see
 which applications were drawing
 a lot of power from the battery.
 
-00:08:40.676 --> 00:08:43.655 A:middle
+00:08:40.676 --> 00:08:43.656 A:middle
 So going back to iOS now,
 look at how we applied those,
 
@@ -649,14 +592,6 @@ applied
 00:08:53.816 --> 00:08:56.226 A:middle
 to all our iOS products,
 to some extent.
-
-00:08:57.536 --> 00:09:00.586 A:middle
-Now, let's go through
-those three components
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.536 --> 00:09:00.586 A:middle
 Now, let's go through
@@ -735,14 +670,6 @@ available to them.
 00:09:54.026 --> 00:09:55.606 A:middle
 So now moving on to
 doing work later.
-
-00:09:56.296 --> 00:10:00.316 A:middle
-We've made a lot of
-effort to defer work
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:56.296 --> 00:10:00.316 A:middle
 We've made a lot of
@@ -827,10 +754,6 @@ of keeping the system
 00:10:58.606 --> 00:10:59.506 A:middle
 in its low power state.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.666 --> 00:11:03.336 A:middle
 And we reduced the cost of
 our own logging mechanisms
@@ -893,10 +816,6 @@ let me go back and forward --
 you see that small control that
 allows you to switch mode here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:02.406 --> 00:12:08.306 A:middle
 And then we've added
 Low Power Mode.
@@ -956,14 +875,6 @@ gauges that we had in OS X
 00:12:52.676 --> 00:12:57.216 A:middle
 over to iOS, and we've done
 that in a rather thoughtful way
-
-00:12:57.216 --> 00:13:02.276 A:middle
-in bringing gauges that
-make the most impact on iOS.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.216 --> 00:13:02.276 A:middle
 in bringing gauges that
@@ -1034,14 +945,6 @@ full-screen video,
 
 00:13:57.686 --> 00:13:58.966 A:middle
 just from this simple mechanism.
-
-00:13:59.686 --> 00:14:03.916 A:middle
-However, if you put
-any UI on the screen,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.686 --> 00:14:03.916 A:middle
 However, if you put
@@ -1120,14 +1023,6 @@ initiated, make sure it's tagged
 as such, but if it's
 background work, tag it as that,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.166 --> 00:15:01.996 A:middle
-as such, but if it's
-background work, tag it as that,
-
 00:15:02.656 --> 00:15:08.106 A:middle
 and the OS will schedule that
 work to give great performance
@@ -1188,13 +1083,6 @@ over to my colleague Soren
 00:15:51.796 --> 00:15:53.296 A:middle
 who is going to go
 into more detail.
-
-00:15:54.516 --> 00:16:01.576 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:54.516 --> 00:16:01.576 A:middle
 [ Applause ]
@@ -1287,14 +1175,6 @@ will talk a little bit
 about how you can
 integrate this understanding
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.006 --> 00:17:00.996 A:middle
-about how you can
-integrate this understanding
-
 00:17:01.416 --> 00:17:02.596 A:middle
 into your development process
 
@@ -1302,22 +1182,22 @@ into your development process
 so that each day you are
 thinking a little bit
 
-00:17:05.376 --> 00:17:06.215 A:middle
+00:17:05.376 --> 00:17:06.216 A:middle
 about energy.
 
-00:17:06.996 --> 00:17:11.915 A:middle
+00:17:06.996 --> 00:17:11.916 A:middle
 Before I go a little bit
 farther, I can't see too well
 
-00:17:11.915 --> 00:17:13.455 A:middle
+00:17:11.916 --> 00:17:13.456 A:middle
 out there, but can
 you raise your hand
 
-00:17:13.455 --> 00:17:15.445 A:middle
+00:17:13.456 --> 00:17:15.446 A:middle
 if you have an LED light
 bulb somewhere in your home.
 
-00:17:16.685 --> 00:17:18.516 A:middle
+00:17:16.686 --> 00:17:18.516 A:middle
 Okay. You know about
 LED light bulbs.
 
@@ -1384,14 +1264,6 @@ of equipment in your houses,
 00:17:54.406 --> 00:17:57.586 A:middle
 networking, maybe DVRs,
 even computers and servers,
-
-00:17:58.206 --> 00:18:00.526 A:middle
-that is running all the time,
-and you might not think about it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.206 --> 00:18:00.526 A:middle
 that is running all the time,
@@ -1496,14 +1368,6 @@ user interactions.
 So you want your software
 to not be trying to run
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.616 --> 00:19:02.596 A:middle
-So you want your software
-to not be trying to run
-
 00:19:02.596 --> 00:19:05.866 A:middle
 at computer speed unless
 it's doing work directly
@@ -1587,14 +1451,6 @@ batch things together.
 00:19:54.476 --> 00:19:58.136 A:middle
 Finally, batching is important
 for getting efficiency.
-
-00:19:58.136 --> 00:20:00.366 A:middle
-You want to turn on that
-hardware, there is some cost
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.136 --> 00:20:00.366 A:middle
 You want to turn on that
@@ -1685,14 +1541,6 @@ to think about this.
 Approximately 5 percent of that
 10 percent load is just turning
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:56.616 --> 00:21:00.126 A:middle
-Approximately 5 percent of that
-10 percent load is just turning
-
 00:21:00.126 --> 00:21:00.756 A:middle
 on the display.
 
@@ -1775,14 +1623,6 @@ a significant amount of work.
 00:21:55.246 --> 00:21:57.636 A:middle
 We've got the CPU running, we've
 got the GPU running for a while,
-
-00:21:58.206 --> 00:22:00.906 A:middle
-and in fact, this is not
-going to last all day.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.206 --> 00:22:00.906 A:middle
 and in fact, this is not
@@ -1880,14 +1720,6 @@ different time scale monster,
 but this is way more often
 than you need to wake the GPU,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.996 --> 00:23:03.186 A:middle
-but this is way more often
-than you need to wake the GPU,
-
 00:23:03.186 --> 00:23:06.016 A:middle
 even for really nice graphics.
 
@@ -1974,14 +1806,6 @@ But we can do better.
 
 00:23:56.686 --> 00:23:57.966 A:middle
 We can parallelize the work.
-
-00:23:58.196 --> 00:24:00.156 A:middle
-We can use multiple
-cores, right?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.196 --> 00:24:00.156 A:middle
 We can use multiple
@@ -2077,10 +1901,6 @@ cost to running any part
 of the system, whether it's
 CPU, GPU, or anything else.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:01.126 --> 00:25:03.016 A:middle
 That fixed cost adds
 up over time.
@@ -2169,14 +1989,6 @@ the time was very short.
 That's how you should design
 your apps, but don't do it over
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.296 --> 00:26:02.626 A:middle
-That's how you should design
-your apps, but don't do it over
-
 00:26:02.626 --> 00:26:03.876 A:middle
 and over and over again.
 
@@ -2244,14 +2056,6 @@ for, you know --
 00:26:58.116 --> 00:26:59.666 A:middle
 I'm looking at the map
 and watching the dot.
-
-00:26:59.666 --> 00:27:00.956 A:middle
-I am going to walk
-across the stage
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.666 --> 00:27:00.956 A:middle
 I am going to walk
@@ -2330,14 +2134,6 @@ That orange is not good.
 
 00:27:54.566 --> 00:27:55.656 A:middle
 That orange is the overhead.
-
-00:27:56.566 --> 00:28:01.096 A:middle
-Here's what happens when
-you want to send some data
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:56.566 --> 00:28:01.096 A:middle
 Here's what happens when
@@ -2447,14 +2243,6 @@ significant energy impact.
 It doesn't matter how much
 networking you are doing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.526 --> 00:29:02.876 A:middle
-It doesn't matter how much
-networking you are doing.
-
 00:29:03.236 --> 00:29:05.666 A:middle
 If the radios are off,
 we have to fire them up
@@ -2557,14 +2345,6 @@ Whichever one is more important.
 But if you know there's
 two pieces of work,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.826 --> 00:30:01.556 A:middle
-But if you know there's
-two pieces of work,
-
 00:30:01.976 --> 00:30:03.786 A:middle
 the goal for your apps --
 
@@ -2652,14 +2432,6 @@ the system decide when,
 give it some variance of in the
 next 10 minutes, the next hour,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.126 --> 00:31:02.316 A:middle
-give it some variance of in the
-next 10 minutes, the next hour,
-
 00:31:02.316 --> 00:31:06.386 A:middle
 the next 24 hours, that will
 allow us to batch it together
@@ -2734,14 +2506,6 @@ with PushKit
 00:31:55.616 --> 00:31:58.566 A:middle
 with an appropriate priority
 so we can batch them together.
-
-00:31:58.626 --> 00:32:01.196 A:middle
-So when I get an instant
-message, which is important
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.626 --> 00:32:01.196 A:middle
 So when I get an instant
@@ -2829,14 +2593,6 @@ Oh, okay, good.
 00:32:56.446 --> 00:32:58.276 A:middle
 Imprecise location
 is a lot cheaper.
-
-00:32:58.276 --> 00:33:00.016 A:middle
-We can just say oh, what
-Wi-Fi network am I on?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.276 --> 00:33:00.016 A:middle
 We can just say oh, what
@@ -2946,14 +2702,6 @@ It does the start and the stop,
 makes sure you get the
 appropriate precision,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.396 --> 00:34:00.466 A:middle
-makes sure you get the
-appropriate precision,
-
 00:34:00.746 --> 00:34:03.286 A:middle
 and you don't have to
 manage the start and stop.
@@ -2966,7 +2714,7 @@ so you're going to need
 to keep doing the right
 thing for the older OSes.
 
-00:34:06.896 --> 00:34:09.585 A:middle
+00:34:06.896 --> 00:34:09.586 A:middle
 We have a location talk linked
 at the end of the slides.
 
@@ -2974,11 +2722,11 @@ at the end of the slides.
 We are also changing how
 background location behaves
 
-00:34:14.646 --> 00:34:16.505 A:middle
+00:34:14.646 --> 00:34:16.506 A:middle
 in the system, so your
 app may have permission
 
-00:34:16.505 --> 00:34:18.446 A:middle
+00:34:16.506 --> 00:34:18.446 A:middle
 to use background
 location, but there's going
 
@@ -2986,15 +2734,15 @@ location, but there's going
 to be a little bit more
 interaction with the user before
 
-00:34:20.556 --> 00:34:23.255 A:middle
+00:34:20.556 --> 00:34:23.256 A:middle
 that permission is granted,
 and to be careful in your app
 
-00:34:23.255 --> 00:34:25.146 A:middle
+00:34:23.256 --> 00:34:25.146 A:middle
 so you don't accidentally
 use it in the background,
 
-00:34:25.636 --> 00:34:28.835 A:middle
+00:34:25.636 --> 00:34:28.836 A:middle
 keep the property allows
 background location updates,
 
@@ -3013,7 +2761,7 @@ turn the location hardware on.
 You are actually
 powering up, like turning
 
-00:34:37.926 --> 00:34:40.755 A:middle
+00:34:37.926 --> 00:34:40.756 A:middle
 on the light switch, it's a very
 easy switch to leave turned on.
 
@@ -3043,14 +2791,6 @@ you know, very accurately.
 00:34:57.336 --> 00:34:59.356 A:middle
 But the hardware does it
 rather than the software.
-
-00:34:59.606 --> 00:35:02.896 A:middle
-So defer those updates,
-so every 15 minutes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.606 --> 00:35:02.896 A:middle
 So defer those updates,
@@ -3144,14 +2884,6 @@ for other things.
 It's reducing -- it's
 basically if I lowered the bar
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.406 --> 00:36:00.766 A:middle
-It's reducing -- it's
-basically if I lowered the bar
-
 00:36:00.766 --> 00:36:04.306 A:middle
 and said you've got to get under
 9 percent instead of 10 percent.
@@ -3234,14 +2966,6 @@ to do, like maybe that saving
 00:36:56.406 --> 00:36:58.706 A:middle
 to the disk, that's probably
 going to happen, that's fine.
-
-00:36:59.146 --> 00:37:02.236 A:middle
-Network activity -- this is a
-great opportunity to offload
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.146 --> 00:37:02.236 A:middle
 Network activity -- this is a
@@ -3334,14 +3058,6 @@ home, run these new tools.
 Check out your app, run
 it through all its paces.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.746 --> 00:38:00.786 A:middle
-Check out your app, run
-it through all its paces.
-
 00:38:00.946 --> 00:38:03.266 A:middle
 Because these tools will only
 show you what you ask the app
@@ -3424,14 +3140,6 @@ interaction is high frequency.
 00:38:56.796 --> 00:38:58.766 A:middle
 And try to set expectations
 for yourself.
-
-00:38:58.766 --> 00:39:00.676 A:middle
-Because if you are writing
-a chat app and you are going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.766 --> 00:39:00.676 A:middle
 Because if you are writing
@@ -3538,13 +3246,6 @@ in between -- not good.
 00:39:59.526 --> 00:40:00.616 A:middle
 Got to take an eye on that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.526 --> 00:40:00.616 A:middle
-Got to take an eye on that.
-
 00:40:00.886 --> 00:40:02.296 A:middle
 Finally, test.
 
@@ -3638,13 +3339,6 @@ presented is fully documented,
 00:40:57.706 --> 00:40:59.556 A:middle
 and we'll continue to
 update that information
-
-00:40:59.776 --> 00:41:01.316 A:middle
-on developer.Apple.com.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.776 --> 00:41:01.316 A:middle
 on developer.Apple.com.
@@ -3746,14 +3440,6 @@ Related sessions.
 The very next session,
 please stick around.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:57.856 --> 00:42:00.606 A:middle
-The very next session,
-please stick around.
-
 00:42:00.606 --> 00:42:03.196 A:middle
 We've got networking,
 we've got some performance,
@@ -3775,4 +3461,3 @@ your apps for energy.
 
 00:42:13.516 --> 00:42:28.570 A:middle
 [ Applause ]
-

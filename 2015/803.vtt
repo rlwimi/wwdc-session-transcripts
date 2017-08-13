@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:36.516 --> 00:00:39.866 A:middle
 [Applause]
@@ -29,14 +28,6 @@ you want to tell someone
 
 00:00:57.696 --> 00:00:58.896 A:middle
 that something has happened.
-
-00:00:59.596 --> 00:01:01.656 A:middle
-Perhaps a new item is
-added to this list.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.596 --> 00:01:01.656 A:middle
 Perhaps a new item is
@@ -99,14 +90,6 @@ about who we are.
 We're a team of inventors,
 designers, and prototypers.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.176 --> 00:02:02.466 A:middle
-We're a team of inventors,
-designers, and prototypers.
-
 00:02:03.776 --> 00:02:07.826 A:middle
 We explore what new interfaces
 mean for Apple's products,
@@ -154,14 +137,6 @@ So what is animation?
 00:02:53.816 --> 00:02:58.886 A:middle
 How do we think about animation
 when we are making our apps?
-
-00:02:59.126 --> 00:03:03.866 A:middle
-Well, at one point in time,
-your app will have one screen,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.126 --> 00:03:03.866 A:middle
 Well, at one point in time,
@@ -237,13 +212,6 @@ and what should be on them.
 00:03:59.696 --> 00:04:04.636 A:middle
 But the manner of this change
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.696 --> 00:04:04.636 A:middle
-But the manner of this change
-
 00:04:04.636 --> 00:04:06.896 A:middle
 over time can communicate
 things.
@@ -256,11 +224,11 @@ more than just two screens.
 In fact, it may have many,
 many different screens.
 
-00:04:15.016 --> 00:04:18.435 A:middle
+00:04:15.016 --> 00:04:18.436 A:middle
 And you can use a different type
 of animation for the transition
 
-00:04:18.435 --> 00:04:22.176 A:middle
+00:04:18.436 --> 00:04:22.176 A:middle
 between different types of
 screens to communicate something
 
@@ -303,14 +271,6 @@ new item in like this.
 00:04:55.326 --> 00:04:59.156 A:middle
 And this might be
 appropriate for a game
-
-00:04:59.186 --> 00:05:02.266 A:middle
-if a new player has been added,
-and this is a very rare event
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.186 --> 00:05:02.266 A:middle
 if a new player has been added,
@@ -381,14 +341,6 @@ lot of different reasons,
 so today we are just going to
 look at three main categories.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.306 --> 00:06:01.346 A:middle
-so today we are just going to
-look at three main categories.
-
 00:06:02.116 --> 00:06:06.776 A:middle
 The first is to direct
 people's attention.
@@ -441,14 +393,6 @@ for both of those scenarios.
 00:06:54.256 --> 00:06:59.446 A:middle
 The second reason to animate is
 to help keep people oriented.
-
-00:06:59.446 --> 00:07:03.666 A:middle
-To help them understand where
-they are within your app
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.446 --> 00:07:03.666 A:middle
 To help them understand where
@@ -519,13 +463,6 @@ behavior
 00:07:59.386 --> 00:08:00.776 A:middle
 to what's happening on screen.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.386 --> 00:08:00.776 A:middle
-to what's happening on screen.
-
 00:08:02.126 --> 00:08:04.296 A:middle
 We want people to
 feel in control
@@ -556,19 +493,19 @@ a little bit and think
 about how we connect
 people's behavior.
 
-00:08:31.976 --> 00:08:33.635 A:middle
+00:08:31.976 --> 00:08:33.636 A:middle
 I start going into
 Notification Center
 
-00:08:33.635 --> 00:08:36.956 A:middle
+00:08:33.636 --> 00:08:36.956 A:middle
 by touching the top
 of the screen.
 
-00:08:37.145 --> 00:08:42.765 A:middle
+00:08:37.146 --> 00:08:42.766 A:middle
 Then, as my finger moves, the
 Notification Center is connected
 
-00:08:42.765 --> 00:08:43.966 A:middle
+00:08:42.766 --> 00:08:43.966 A:middle
 to my finger at all times.
 
 00:08:44.226 --> 00:08:47.456 A:middle
@@ -590,10 +527,6 @@ complete this gesture.
 00:08:57.386 --> 00:08:59.636 A:middle
 And the animation will
 respond appropriately.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.946 --> 00:09:04.426 A:middle
 And perhaps even hint at how I
@@ -651,14 +584,6 @@ show you too much.
 00:09:57.416 --> 00:09:59.086 A:middle
 There are a lot of
 details involved
-
-00:09:59.086 --> 00:10:02.366 A:middle
-in building a full working
-app that get in the way
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.086 --> 00:10:02.366 A:middle
 in building a full working
@@ -741,14 +666,6 @@ their feedback.
 This is actually a
 bit of a cycle; right?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:57.566 --> 00:11:00.316 A:middle
-This is actually a
-bit of a cycle; right?
-
 00:11:00.316 --> 00:11:01.926 A:middle
 We make things, we
 show them to people,
@@ -815,14 +732,6 @@ You can comment on toast.
 00:11:54.756 --> 00:11:57.356 A:middle
 If you watched a session
 yesterday, you might have seen
-
-00:11:57.356 --> 00:12:00.886 A:middle
-that we've connected Toast
-Modern to Toastal Service.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.356 --> 00:12:00.886 A:middle
 that we've connected Toast
@@ -899,14 +808,6 @@ Joe up to the stage.
 Hi. I'm Joe, and I spend most
 of my day in the team designing
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.886 --> 00:13:05.686 A:middle
-Hi. I'm Joe, and I spend most
-of my day in the team designing
-
 00:13:05.686 --> 00:13:09.116 A:middle
 and animating and not
 writing very much code.
@@ -974,10 +875,6 @@ So -
 
 00:13:57.516 --> 00:13:59.976 A:middle
 [Applause]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.476 --> 00:14:01.906 A:middle
 -- he's had some thoughts.
@@ -1059,14 +956,6 @@ time, get through as many
 as we can quickly, and
 get them onto a device.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.726 --> 00:15:00.876 A:middle
-as we can quickly, and
-get them onto a device.
-
 00:15:02.106 --> 00:15:05.006 A:middle
 So the designers out there
 amongst you might use
@@ -1125,14 +1014,6 @@ Favorite button is there.
 00:15:54.056 --> 00:15:57.766 A:middle
 So let's look at an example
 where animation is used
-
-00:15:58.066 --> 00:16:02.146 A:middle
-to subtly draw attention
-to a feature within an app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.066 --> 00:16:02.146 A:middle
 to subtly draw attention
@@ -1212,14 +1093,6 @@ a closer look and think
 about how we can change
 some of the properties
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.396 --> 00:17:01.546 A:middle
-about how we can change
-some of the properties
-
 00:17:01.546 --> 00:17:03.376 A:middle
 of this button over time.
 
@@ -1251,11 +1124,11 @@ the scale, at the same time.
 00:17:20.976 --> 00:17:23.336 A:middle
 We could change the shape.
 
-00:17:24.626 --> 00:17:26.935 A:middle
+00:17:24.626 --> 00:17:26.936 A:middle
 It's just scaling down
 one object and scaling
 
-00:17:26.935 --> 00:17:27.986 A:middle
+00:17:26.936 --> 00:17:27.986 A:middle
 up another one quickly.
 
 00:17:27.986 --> 00:17:32.856 A:middle
@@ -1287,14 +1160,6 @@ grabbing attention,
 00:17:55.666 --> 00:17:58.586 A:middle
 but if it's going to be
 animating constantly like this,
-
-00:17:59.296 --> 00:18:01.986 A:middle
-it could go way beyond
-just grabbing attention,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.296 --> 00:18:01.986 A:middle
 it could go way beyond
@@ -1379,14 +1244,6 @@ when people launch the app.
 And actually, there's
 a whole bunch
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.576 --> 00:19:04.366 A:middle
-And actually, there's
-a whole bunch
-
 00:19:04.366 --> 00:19:06.046 A:middle
 of different ways we
 could just move the button
@@ -1466,14 +1323,6 @@ to find in the future.
 What we need is a
 place to store a list
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.716 --> 00:20:02.896 A:middle
-What we need is a
-place to store a list
-
 00:20:02.996 --> 00:20:04.926 A:middle
 of only our favorite toast.
 
@@ -1538,10 +1387,6 @@ we might move toast
 around in the real world
 as a starting point.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.406 --> 00:21:07.086 A:middle
 So if I was to move toast
 from one plate to another,
@@ -1595,13 +1440,6 @@ ends up in the toast list.
 00:21:56.126 --> 00:21:57.876 A:middle
 Let's see that one
 again, I think.
-
-00:21:59.486 --> 00:22:01.216 A:middle
-There we go.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.486 --> 00:22:01.216 A:middle
 There we go.
@@ -1675,14 +1513,6 @@ at the structure of our app.
 But the CEO wants people to
 be able to use the button
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.096 --> 00:23:03.076 A:middle
-But the CEO wants people to
-be able to use the button
-
 00:23:03.236 --> 00:23:06.826 A:middle
 from the first touch, and in
 order to do that, we are going
@@ -1747,10 +1577,6 @@ So we will zoom in again.
 00:23:53.216 --> 00:23:59.256 A:middle
 We could move the button down
 to hint that it's been pressed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.636 --> 00:24:03.146 A:middle
 Or we could animate the shadow
@@ -1826,14 +1652,6 @@ that you first touch the screen.
 00:24:54.666 --> 00:24:59.136 A:middle
 So we want some feedback
 when you first tap the app.
-
-00:24:59.136 --> 00:25:02.386 A:middle
-So let's start by making the
-star bigger when you touch down,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.136 --> 00:25:02.386 A:middle
 So let's start by making the
@@ -1925,14 +1743,6 @@ what we are after here,
 so when we press
 the Favorite button,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.896 --> 00:26:00.506 A:middle
-so when we press
-the Favorite button,
-
 00:26:00.646 --> 00:26:03.926 A:middle
 let's make it slightly smaller,
 as if it's moving away from you.
@@ -1997,10 +1807,6 @@ then we can just tap
 
 00:26:58.916 --> 00:26:59.896 A:middle
 through the interaction.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:01.656 --> 00:27:05.746 A:middle
 So what I'll do is I'll grab
@@ -2067,14 +1873,6 @@ going, and we are going
 00:27:55.196 --> 00:27:56.706 A:middle
 to do a little bit
 of programming
-
-00:27:57.096 --> 00:28:00.366 A:middle
-to create an interactive
-prototype.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.096 --> 00:28:00.366 A:middle
 to create an interactive
@@ -2151,13 +1949,6 @@ these animations are supposed
 00:28:56.916 --> 00:29:00.266 A:middle
 to say, and see if they get it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:56.916 --> 00:29:00.266 A:middle
-to say, and see if they get it.
-
 00:29:00.266 --> 00:29:02.356 A:middle
 I just quickly want to
 go back to this diagram
@@ -2227,14 +2018,6 @@ going to build an app,
 00:29:53.156 --> 00:29:56.966 A:middle
 but we are going to cut as
 many corners as we possibly can
-
-00:29:57.306 --> 00:30:00.746 A:middle
-to create the illusion
-of a fully fledged app
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.306 --> 00:30:00.746 A:middle
 to create the illusion
@@ -2319,14 +2102,6 @@ off to the right-hand side,
 and then it brings the favorited
 version of the row from behind.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:56.036 --> 00:31:00.386 A:middle
-and then it brings the favorited
-version of the row from behind.
-
 00:31:01.696 --> 00:31:04.296 A:middle
 So running it on the phone
 looks something like this.
@@ -2385,14 +2160,6 @@ broken down into the stages
 00:31:51.066 --> 00:31:58.836 A:middle
 of the start, the
 change, and the complete.
-
-00:31:58.836 --> 00:32:04.906 A:middle
-And each of these stages
-is an opportunity for you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.836 --> 00:32:04.906 A:middle
 And each of these stages
@@ -2462,14 +2229,6 @@ we can allow them to move out --
 00:32:55.016 --> 00:32:59.066 A:middle
 I mean, to back out of what
 the action is going to do.
-
-00:32:59.066 --> 00:33:03.026 A:middle
-So maybe for the animation,
-we just reverse that animation
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.066 --> 00:33:03.026 A:middle
 So maybe for the animation,
@@ -2553,29 +2312,21 @@ So here's our prototype.
 We've got something we can
 get someone to try out.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.676 --> 00:34:01.886 A:middle
-We've got something we can
-get someone to try out.
-
 00:34:02.536 --> 00:34:04.306 A:middle
 So let's try it out on others.
 
-00:34:04.306 --> 00:34:09.985 A:middle
+00:34:04.306 --> 00:34:09.986 A:middle
 So I took it to my next-door
 neighbor, which coincidentally,
 
-00:34:09.985 --> 00:34:12.036 A:middle
+00:34:09.986 --> 00:34:12.036 A:middle
 he's a massive toast fan,
 
-00:34:12.036 --> 00:34:13.795 A:middle
+00:34:12.036 --> 00:34:13.796 A:middle
 so he was really
 excited to try it out.
 
-00:34:13.795 --> 00:34:18.295 A:middle
+00:34:13.796 --> 00:34:18.296 A:middle
 And he came back
 with some concise
 
@@ -2611,18 +2362,18 @@ can really give you these
 insights of things that, in
 hindsight, are really obvious,
 
-00:34:40.926 --> 00:34:44.005 A:middle
+00:34:40.926 --> 00:34:44.006 A:middle
 but we just didn't see
 it because we were too
 
-00:34:44.186 --> 00:34:46.545 A:middle
+00:34:44.186 --> 00:34:46.546 A:middle
 in the process of the project.
 
 00:34:46.896 --> 00:34:51.706 A:middle
 So maybe he is alluding to
 this nice animation in Mail
 
-00:34:51.706 --> 00:34:54.255 A:middle
+00:34:51.706 --> 00:34:54.256 A:middle
 where you can swipe
 to mark as Unread.
 
@@ -2632,10 +2383,6 @@ So let's try a swipe gesture.
 00:34:57.616 --> 00:34:59.986 A:middle
 Let's think of it in
 terms of our start,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.146 --> 00:35:01.686 A:middle
 change, and complete model.
@@ -2722,13 +2469,6 @@ look like on the phone.
 00:35:59.776 --> 00:36:03.096 A:middle
 And then finally, the complete.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.776 --> 00:36:03.096 A:middle
-And then finally, the complete.
-
 00:36:03.506 --> 00:36:07.236 A:middle
 If the user carries on swiping,
 we need to make sure, again,
@@ -2801,10 +2541,6 @@ to have a great weekend.
 00:36:57.246 --> 00:36:59.456 A:middle
 Anyway, that's interactive
 prototypes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.096 --> 00:37:03.576 A:middle
 Hopefully now you can see
@@ -2881,10 +2617,6 @@ about the character
 00:37:55.566 --> 00:37:59.056 A:middle
 of your app, how it feels.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.196 --> 00:38:04.326 A:middle
 We have three different reasons
 why we might want to animate.
@@ -2958,13 +2690,6 @@ available in videos online.
 00:38:59.706 --> 00:39:00.696 A:middle
 You should certainly also check
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.706 --> 00:39:00.696 A:middle
-You should certainly also check
-
 00:39:00.696 --> 00:39:03.876 A:middle
 out all the other design
 sessions for more information
@@ -3007,4 +2732,3 @@ Thank you all.
 
 00:39:45.516 --> 00:39:49.500 A:middle
 [Applause]
-

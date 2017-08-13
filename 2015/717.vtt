@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:27.516 --> 00:00:31.896 A:middle
 [Applause]
@@ -41,10 +40,6 @@ it have to offer to me
 
 00:00:58.176 --> 00:00:59.526 A:middle
 for use in my application?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.166 --> 00:01:04.186 A:middle
 Network Extension Framework
@@ -116,14 +111,6 @@ creates a network content
 filtering solution
 for use by schools
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.996 --> 00:02:02.026 A:middle
-filtering solution
-for use by schools
-
 00:02:02.026 --> 00:02:03.896 A:middle
 to protect the students'
 Internet browsing,
@@ -176,14 +163,6 @@ but they have limitations.
 00:02:54.696 --> 00:02:58.796 A:middle
 One problem is that the
 Hotspot list you can pass
-
-00:02:59.236 --> 00:03:02.166 A:middle
-to CNSetSupportedSSIDs
-is limited in size.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.236 --> 00:03:02.166 A:middle
 to CNSetSupportedSSIDs
@@ -270,14 +249,6 @@ the opportunity
 to claim the Wi-Fi
 Hotspot with a level
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.996 --> 00:04:01.376 A:middle
-to claim the Wi-Fi
-Hotspot with a level
-
 00:04:01.376 --> 00:04:04.036 A:middle
 of confidence, high,
 medium or low.
@@ -351,14 +322,6 @@ to securely browse the Internet.
 Now, the NEVPN manager
 API is not new in iOS 9.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:56.006 --> 00:05:01.686 A:middle
-Now, the NEVPN manager
-API is not new in iOS 9.
-
 00:05:02.306 --> 00:05:04.866 A:middle
 We introduced this API in iOS 8.
 
@@ -420,14 +383,6 @@ you can configure http proxies
 00:05:53.616 --> 00:05:57.136 A:middle
 for http traffic
 traversing your VPN tunnel.
-
-00:05:57.706 --> 00:06:03.936 A:middle
-And personal VPN configurations
-coexist and cooperate
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:57.706 --> 00:06:03.936 A:middle
 And personal VPN configurations
@@ -510,13 +465,6 @@ in this release.
 00:06:58.426 --> 00:07:01.076 A:middle
 We now support MOBIKE.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.426 --> 00:07:01.076 A:middle
-We now support MOBIKE.
-
 00:07:01.856 --> 00:07:07.306 A:middle
 We will now seamlessly
 transition your IKE v2 tunnel
@@ -595,13 +543,6 @@ in a wider number
 00:07:59.466 --> 00:08:02.746 A:middle
 of network environments.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.466 --> 00:08:02.746 A:middle
-of network environments.
-
 00:08:03.076 --> 00:08:04.846 A:middle
 So now let's take a
 look at some code.
@@ -641,15 +582,15 @@ on the system are stored
 in the network extension
 preferences.
 
-00:08:33.035 --> 00:08:36.145 A:middle
+00:08:33.036 --> 00:08:36.146 A:middle
 Before I can work with my
 configuration, in my code,
 
-00:08:36.145 --> 00:08:39.015 A:middle
+00:08:36.146 --> 00:08:39.016 A:middle
 I need to load it from those
 preferences using this load
 
-00:08:39.015 --> 00:08:40.856 A:middle
+00:08:39.016 --> 00:08:40.856 A:middle
 from preferences with
 completion handler call.
 
@@ -671,14 +612,6 @@ don't have a configuration yet.
 
 00:08:55.066 --> 00:08:56.006 A:middle
 I want to set one up.
-
-00:08:56.006 --> 00:09:00.266 A:middle
-I'll configure a IKE v2
-configuration here and I fill it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:56.006 --> 00:09:00.266 A:middle
 I'll configure a IKE v2
@@ -760,14 +693,6 @@ to go ahead and set up a rule
 that says that my VPN should
 connect whenever the device is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.106 --> 00:10:01.316 A:middle
-that says that my VPN should
-connect whenever the device is
-
 00:10:01.316 --> 00:10:02.256 A:middle
 on a Wi-Fi network.
 
@@ -843,10 +768,6 @@ Let's go ahead and talk
 about the any tunnel
 provider family of APIs.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.086 --> 00:11:02.306 A:middle
 You use these APIs to
 create apps that connect
@@ -917,14 +838,6 @@ client, these APIs allow you
 to configure and control your
 own custom protocol provider.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.946 --> 00:12:01.026 A:middle
-to configure and control your
-own custom protocol provider.
-
 00:12:05.056 --> 00:12:08.756 A:middle
 Let's take a closer look at the
 NEPacket Tunnel provider API.
@@ -984,14 +897,6 @@ then can take the packets,
 00:12:54.736 --> 00:12:57.556 A:middle
 encapsulate them in
 your tunneling protocol,
-
-00:12:58.046 --> 00:13:00.036 A:middle
-send them over to
-the tunneling server.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.046 --> 00:13:00.036 A:middle
 send them over to
@@ -1078,13 +983,6 @@ NEPacket Tunnel Provider.
 00:13:58.516 --> 00:14:02.696 A:middle
 [Applause]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.516 --> 00:14:02.696 A:middle
-[Applause]
-
 00:14:03.196 --> 00:14:05.106 A:middle
 &gt;&gt; TOM PAULY: Thank you, Jamie.
 
@@ -1158,14 +1056,6 @@ extension framework.
 So on your system if you go to
 system, library, Frameworks,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.896 --> 00:15:02.616 A:middle
-So on your system if you go to
-system, library, Frameworks,
-
 00:15:03.216 --> 00:15:06.166 A:middle
 network extension
 Framework and you go
@@ -1223,14 +1113,6 @@ Tunnel Provider.
 
 00:15:51.276 --> 00:15:54.916 A:middle
 Going to write in Swift.
-
-00:15:54.916 --> 00:16:01.446 A:middle
-Let's just call it
-packet tunnel.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:54.916 --> 00:16:01.446 A:middle
 Let's just call it
@@ -1309,14 +1191,6 @@ and it's ready to go.
 So I mentioned already that my
 protocol is based around UDP.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.356 --> 00:17:00.736 A:middle
-So I mentioned already that my
-protocol is based around UDP.
-
 00:17:00.736 --> 00:17:06.656 A:middle
 I want to in my start create
 a UDP connection to my server.
@@ -1325,7 +1199,7 @@ a UDP connection to my server.
 In order to do this I'm going to
 create an NWUDP session object.
 
-00:17:12.016 --> 00:17:15.965 A:middle
+00:17:12.016 --> 00:17:15.966 A:middle
 This is one of many convenience
 networking APIs that we've added
 
@@ -1339,11 +1213,11 @@ and very efficient connections.
 00:17:23.116 --> 00:17:24.556 A:middle
 So UDP session allows me
 
-00:17:24.556 --> 00:17:27.415 A:middle
+00:17:24.556 --> 00:17:27.416 A:middle
 to create a connection
 to a host name.
 
-00:17:27.415 --> 00:17:29.496 A:middle
+00:17:27.416 --> 00:17:29.496 A:middle
 It will do all the
 DNS resolution for me
 
@@ -1378,14 +1252,6 @@ to get my server address.
 00:17:54.256 --> 00:17:56.476 A:middle
 This might be an IP
 address or a host name.
-
-00:17:57.066 --> 00:18:01.866 A:middle
-I then wrap it up in
-an NW host end point.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.066 --> 00:18:01.866 A:middle
 I then wrap it up in
@@ -1463,14 +1329,6 @@ over the part
 where we actually
 negotiate with our server.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.806 --> 00:19:02.046 A:middle
-where we actually
-negotiate with our server.
-
 00:19:02.046 --> 00:19:05.046 A:middle
 I assume your protocol
 already knows how to do that.
@@ -1541,14 +1399,6 @@ how much do I incur
 00:19:56.246 --> 00:19:57.716 A:middle
 for encryption and
 encapsulation.
-
-00:19:58.086 --> 00:20:03.716 A:middle
-This helps the system know how
-large it should send packets.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.086 --> 00:20:03.716 A:middle
 This helps the system know how
@@ -1633,14 +1483,6 @@ with the outbound flow.
 A packet tunnel provider has a
 property called a packet flow.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:57.846 --> 00:21:03.206 A:middle
-A packet tunnel provider has a
-property called a packet flow.
-
 00:21:03.486 --> 00:21:05.446 A:middle
 This represents the
 virtual interface
@@ -1697,14 +1539,6 @@ in from the UDP server.
 00:21:53.086 --> 00:21:56.456 A:middle
 And I can simply send
 these to my protocol.
-
-00:21:56.456 --> 00:22:01.336 A:middle
-I can decapsulate them, generate
-IP packets which I then write
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:56.456 --> 00:22:01.336 A:middle
 I can decapsulate them, generate
@@ -1775,14 +1609,6 @@ into Safari and I see
 00:22:56.716 --> 00:22:58.426 A:middle
 that my internal
 page has now loaded.
-
-00:22:58.986 --> 00:23:03.856 A:middle
-So we have a fully working VPN
-protocol provider all written
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.986 --> 00:23:03.856 A:middle
 So we have a fully working VPN
@@ -1866,14 +1692,6 @@ to restrict the applications
 that can access their
 internal network.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.496 --> 00:24:00.276 A:middle
-that can access their
-internal network.
-
 00:24:01.276 --> 00:24:04.636 A:middle
 So this is where
 Per-App VPN is great.
@@ -1934,13 +1752,6 @@ we now support Per-App VPN
 00:24:57.276 --> 00:24:58.816 A:middle
 with custom packet
 tunnel providers
-
-00:24:59.406 --> 00:25:00.926 A:middle
-and support Per-App VPN
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.406 --> 00:25:00.926 A:middle
 and support Per-App VPN
@@ -2028,13 +1839,6 @@ to configure Per-App VPN.
 00:25:59.506 --> 00:26:00.626 A:middle
 Thank you, Jamie.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.506 --> 00:26:00.626 A:middle
-Thank you, Jamie.
-
 00:26:01.326 --> 00:26:02.886 A:middle
 We are really excited to have...
 
@@ -2107,14 +1911,6 @@ that you need to make
 to have this profile
 work with Per-App VPN.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.876 --> 00:27:01.666 A:middle
-to have this profile
-work with Per-App VPN.
-
 00:27:01.886 --> 00:27:03.086 A:middle
 The first is the payload type.
 
@@ -2173,10 +1969,6 @@ managed apps, it will mark them
 
 00:27:58.156 --> 00:27:59.886 A:middle
 with the same VPN UUID
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.136 --> 00:28:04.616 A:middle
 so the system knows those
@@ -2240,14 +2032,6 @@ This is a dictionary of arrays,
 00:28:55.486 --> 00:28:58.546 A:middle
 the keys are the same
 UUID I mentioned before,
-
-00:28:58.546 --> 00:29:03.136 A:middle
-the glue to hold configurations
-and apps together.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.546 --> 00:29:03.136 A:middle
 the glue to hold configurations
@@ -2325,14 +2109,6 @@ for company employees.
 We highly encourage
 you to deploy it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.686 --> 00:30:01.366 A:middle
-We highly encourage
-you to deploy it.
-
 00:30:02.076 --> 00:30:08.146 A:middle
 So next I want to talk about
 the NEApp Proxy Provider API.
@@ -2392,14 +2168,6 @@ it can inject it into the socket
 00:30:51.936 --> 00:30:53.776 A:middle
 to be delivered to
 the application.
-
-00:30:55.056 --> 00:31:00.066 A:middle
-The reason why we added the
-NEApp Proxy Provider API is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:55.056 --> 00:31:00.066 A:middle
 The reason why we added the
@@ -2476,13 +2244,6 @@ for your tunneling protocol,
 00:31:56.236 --> 00:31:58.696 A:middle
 to connect to enterprise
 VPN servers.
-
-00:31:58.696 --> 00:32:01.696 A:middle
-Now let's take a look
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.696 --> 00:32:01.696 A:middle
 Now let's take a look
@@ -2565,14 +2326,6 @@ filtering.
 The draw back, the school has to
 deploy and maintain the proxy,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:56.876 --> 00:33:00.986 A:middle
-The draw back, the school has to
-deploy and maintain the proxy,
-
 00:33:00.986 --> 00:33:06.086 A:middle
 and not all the schools have
 the resources to do that.
@@ -2641,14 +2394,6 @@ try to access something
 that they are not
 allowed to access.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:56.726 --> 00:34:02.396 A:middle
-that they are not
-allowed to access.
-
 00:34:03.066 --> 00:34:06.916 A:middle
 Now, NEFilter provider only
 works on supervised devices.
@@ -2665,7 +2410,7 @@ are locking them down so
 that users can't install
 new apps or change settings.
 
-00:34:15.746 --> 00:34:18.255 A:middle
+00:34:15.746 --> 00:34:18.256 A:middle
 This is where filter
 provider works.
 
@@ -2676,7 +2421,7 @@ So let's take a look
 at how filter provider
 works in the data path.
 
-00:34:24.626 --> 00:34:28.085 A:middle
+00:34:24.626 --> 00:34:28.086 A:middle
 So we have an NEFilter data
 provider extension running
 
@@ -2691,7 +2436,7 @@ pass and block decisions
 about network content that is
 flowing through the system.
 
-00:34:36.065 --> 00:34:38.466 A:middle
+00:34:36.066 --> 00:34:38.466 A:middle
 Now, because it has access
 to all this network content,
 
@@ -2699,17 +2444,17 @@ to all this network content,
 we've locked down this
 data provider so it runs
 
-00:34:40.936 --> 00:34:41.985 A:middle
+00:34:40.936 --> 00:34:41.986 A:middle
 in a read only sand box.
 
 00:34:42.606 --> 00:34:43.806 A:middle
 It can't access the network
 
-00:34:44.335 --> 00:34:46.416 A:middle
+00:34:44.336 --> 00:34:46.416 A:middle
 and it has read only
 access to the disk.
 
-00:34:48.735 --> 00:34:51.735 A:middle
+00:34:48.736 --> 00:34:51.736 A:middle
 So we've also provided
 another extension,
 
@@ -2723,14 +2468,6 @@ the filter data provider
 
 00:34:57.346 --> 00:34:58.396 A:middle
 so that it can do its job.
-
-00:34:58.726 --> 00:35:00.656 A:middle
-For instance, download
-rules over the Internet,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.726 --> 00:35:00.656 A:middle
 For instance, download
@@ -2799,14 +2536,6 @@ filter control provider
 00:35:52.986 --> 00:35:56.966 A:middle
 and data provider together
 provide a comprehensive content
-
-00:35:56.966 --> 00:36:00.456 A:middle
-filtering solution
-on the device.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:56.966 --> 00:36:00.456 A:middle
 filtering solution
@@ -2891,14 +2620,6 @@ filtering solutions for schools.
 Here is all the Network
 Extension APIs we've talked
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.586 --> 00:37:05.466 A:middle
-Here is all the Network
-Extension APIs we've talked
-
 00:37:05.466 --> 00:37:06.706 A:middle
 about today.
 
@@ -2968,14 +2689,6 @@ NEFilter provider family
 of APIs you need access to
 other special entitlements.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:56.736 --> 00:38:00.096 A:middle
-of APIs you need access to
-other special entitlements.
-
 00:38:00.886 --> 00:38:02.916 A:middle
 The way to get these
 is to send a request
@@ -3038,13 +2751,6 @@ that connect to your VPN server.
 00:38:54.986 --> 00:38:58.696 A:middle
 Use the MDM to deploy
 Per-App VPN
-
-00:38:58.696 --> 00:39:01.546 A:middle
-for great BYOD user experiences.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.696 --> 00:39:01.546 A:middle
 for great BYOD user experiences.
@@ -3126,14 +2832,6 @@ Especially want to give a plug
 for the other Core OS networking
 session today happening 11:00
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.766 --> 00:40:01.906 A:middle
-for the other Core OS networking
-session today happening 11:00
-
 00:40:01.906 --> 00:40:04.206 A:middle
 a.m., Your app and next
 generation networks.
@@ -3147,4 +2845,3 @@ Have a great day.
 
 00:40:07.516 --> 00:40:10.500 A:middle
 [Applause]
-

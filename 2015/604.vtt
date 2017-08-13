@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:23.516 --> 00:00:29.176 A:middle
 [Applause]
@@ -36,14 +35,6 @@ like integrated physics,
 
 00:00:56.936 --> 00:00:58.896 A:middle
 particle simulations, actions
-
-00:00:58.896 --> 00:01:00.726 A:middle
-and animations and,
-of course, Sprite.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.896 --> 00:01:00.726 A:middle
 and animations and,
@@ -113,22 +104,14 @@ invest in that year after year
 to allow you to edit your
 particle affects as well
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.506 --> 00:02:02.036 A:middle
-to allow you to edit your
-particle affects as well
-
 00:02:02.036 --> 00:02:06.396 A:middle
 as entire scenes and new this
 year actions and animations
 
-00:02:06.396 --> 00:02:08.175 A:middle
+00:02:06.396 --> 00:02:08.176 A:middle
 as well, directly inside
 
-00:02:08.175 --> 00:02:11.606 A:middle
+00:02:08.176 --> 00:02:11.606 A:middle
 of Xcode before you even
 write a line of code.
 
@@ -186,14 +169,6 @@ you're changing their actual
 00:02:54.806 --> 00:02:57.526 A:middle
 position, you can get
 artifacts from that.
-
-00:02:58.716 --> 00:03:00.906 A:middle
-We thought we could do
-something a little bit better.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.716 --> 00:03:00.906 A:middle
 We thought we could do
@@ -280,10 +255,6 @@ our actions library
 so you can now run
 actions on the camera.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.176 --> 00:04:02.076 A:middle
 You have access to
 our constraint system
@@ -307,11 +278,11 @@ of objects within your game.
 Beyond just moving the camera
 you now have access to rotation
 
-00:04:13.646 --> 00:04:16.065 A:middle
+00:04:13.646 --> 00:04:16.066 A:middle
 and scale via those
 properties on the node.
 
-00:04:17.305 --> 00:04:21.726 A:middle
+00:04:17.306 --> 00:04:21.726 A:middle
 So for example, in a game like
 this, I may start the camera off
 
@@ -370,13 +341,6 @@ to your toolkit.
 00:04:57.716 --> 00:04:59.346 A:middle
 &gt;&gt; TIM ORIOL: In
 addition to camera,
-
-00:04:59.346 --> 00:05:00.856 A:middle
-we've also done work with audio.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.346 --> 00:05:00.856 A:middle
 we've also done work with audio.
@@ -456,14 +420,6 @@ deeper and get your hands-on,
 you can access the
 underlying AVAudioNode as well
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:56.976 --> 00:06:00.106 A:middle
-you can access the
-underlying AVAudioNode as well
-
 00:06:00.426 --> 00:06:02.856 A:middle
 from a property on the
 node and go to town
@@ -537,14 +493,6 @@ Let's take a listen.
 &gt;&gt; TIM ORIOL: So that's
 pretty cool, right?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.806 --> 00:07:00.976 A:middle
-&gt;&gt; TIM ORIOL: So that's
-pretty cool, right?
-
 00:07:01.516 --> 00:07:05.236 A:middle
 [Applause]
 
@@ -611,14 +559,6 @@ part of my scene,
 maybe a background element,
 or some scenery in our editor
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.756 --> 00:08:02.816 A:middle
-maybe a background element,
-or some scenery in our editor
-
 00:08:02.816 --> 00:08:07.356 A:middle
 with an Xcode and then I can
 just drag-and-drop those files
@@ -657,11 +597,11 @@ on the latest version
 of the file that's
 in your bundle.
 
-00:08:30.616 --> 00:08:34.025 A:middle
+00:08:30.616 --> 00:08:34.026 A:middle
 We can also do the
 same thing for actions.
 
-00:08:34.525 --> 00:08:37.395 A:middle
+00:08:34.526 --> 00:08:37.396 A:middle
 With actions go check out
 our great new action editor
 
@@ -688,14 +628,6 @@ for SKTexture and textureNamed.
 00:08:55.056 --> 00:08:56.766 A:middle
 You pass in the name
 of the action you want.
-
-00:08:57.416 --> 00:09:00.996 A:middle
-We're going to automatically
-look inside of your app bundle
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.416 --> 00:09:00.996 A:middle
 We're going to automatically
@@ -782,14 +714,6 @@ new actions to the framework.
 So now that we have these
 positional AudioNodes it would
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.046 --> 00:10:01.746 A:middle
-So now that we have these
-positional AudioNodes it would
-
 00:10:01.746 --> 00:10:04.286 A:middle
 be nice to be able to control
 the playback via actions.
@@ -864,14 +788,6 @@ action as well
 so you can use this
 alongside the normal animation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.506 --> 00:11:01.236 A:middle
-so you can use this
-alongside the normal animation
-
 00:11:01.726 --> 00:11:04.606 A:middle
 and get both of them in
 sync for every frame.
@@ -933,14 +849,6 @@ fall back to OpenGL.
 00:11:54.816 --> 00:11:58.286 A:middle
 This means that you get
 lower CPU utilization,
-
-00:11:58.576 --> 00:12:00.526 A:middle
-it means you get better
-draw call performance
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.576 --> 00:12:00.526 A:middle
 it means you get better
@@ -1031,10 +939,6 @@ whether you're using Swift
 00:12:59.166 --> 00:12:59.926 A:middle
 or Objective C.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.506 --> 00:13:04.086 A:middle
 Now I would like to talk
 a bit about SceneKit.
@@ -1112,14 +1016,6 @@ we'll render using OpenGL.
 00:13:52.256 --> 00:13:54.756 A:middle
 You never have additional
 overhead for us
-
-00:13:54.786 --> 00:14:00.356 A:middle
-to translate between
-the two APIs.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:54.786 --> 00:14:00.356 A:middle
 to translate between
@@ -1208,14 +1104,6 @@ in the lower corner, I have --
 maybe I want him to move
 to a certain destination.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.616 --> 00:15:01.676 A:middle
-maybe I want him to move
-to a certain destination.
-
 00:15:02.216 --> 00:15:05.856 A:middle
 I'll then specify a couple
 of obstacles in my scene
@@ -1289,14 +1177,6 @@ directly from a sprite's bounds,
 00:15:54.296 --> 00:15:57.746 A:middle
 you can create the
 obstacles from a physics body
-
-00:15:57.746 --> 00:16:01.316 A:middle
-that you may have set
-on the sprite or even
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.746 --> 00:16:01.316 A:middle
 that you may have set
@@ -1376,14 +1256,6 @@ iteration problem you also,
 as a game developer, face
 the scalability problem.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.756 --> 00:17:01.536 A:middle
-as a game developer, face
-the scalability problem.
-
 00:17:01.906 --> 00:17:05.386 A:middle
 How do I replicate a current
 design across multiple levels.
@@ -1399,11 +1271,11 @@ wanted not only to provide you
 with a high performance and easy
 to use API but also the tools
 
-00:17:17.066 --> 00:17:20.425 A:middle
+00:17:17.066 --> 00:17:20.426 A:middle
 to help you with scalability and
 iteration so that we can focus
 
-00:17:20.425 --> 00:17:21.586 A:middle
+00:17:20.426 --> 00:17:21.586 A:middle
 on just building the game.
 
 00:17:22.556 --> 00:17:24.006 A:middle
@@ -1446,14 +1318,6 @@ GPU to optimize the efficiency.
 00:17:53.756 --> 00:17:57.816 A:middle
 We don't want to force our
 users to adopt a manual process
-
-00:17:58.136 --> 00:18:01.826 A:middle
-by manually building these
-texture atlas, [unintelligible]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.136 --> 00:18:01.826 A:middle
 by manually building these
@@ -1535,10 +1399,6 @@ you will not see any seams,
 that's automatic
 texture atlas generation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.446 --> 00:19:02.536 A:middle
 This year we have
 made that even better.
@@ -1616,14 +1476,6 @@ the amount of bandwidth as well
 as install time for the app
 to get on the users phone
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:57.746 --> 00:20:01.056 A:middle
-as install time for the app
-to get on the users phone
-
 00:20:01.416 --> 00:20:06.986 A:middle
 but also minimizes the amount
 of storage overhead on the app.
@@ -1685,14 +1537,6 @@ very powerful and flexible APIs
 
 00:20:57.066 --> 00:20:58.696 A:middle
 in the framework for you to use.
-
-00:20:59.596 --> 00:21:02.856 A:middle
-The downside of being
-powerful and flexible is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.596 --> 00:21:02.856 A:middle
 The downside of being
@@ -1760,14 +1604,6 @@ to learn the new Swift.
 00:21:53.696 --> 00:21:57.576 A:middle
 I create a brand-new
 playground and try to play
-
-00:21:57.576 --> 00:22:00.746 A:middle
-around with the SpriteKit
-API using the new Swift
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.576 --> 00:22:00.746 A:middle
 around with the SpriteKit
@@ -1842,10 +1678,6 @@ are running on iOS devices
 00:22:58.266 --> 00:22:59.586 A:middle
 or running on Mac OS X.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.456 --> 00:23:03.946 A:middle
 So here I'm trying to debug an
 application that I have written,
@@ -1906,14 +1738,6 @@ live simulations
 00:23:56.196 --> 00:23:59.126 A:middle
 of these physics
 simulations without having
-
-00:23:59.126 --> 00:24:01.626 A:middle
-to launch your game or
-rebuild the application.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.126 --> 00:24:01.626 A:middle
 to launch your game or
@@ -1999,14 +1823,6 @@ iteration time.
 This year we have made
 a lot of enhancements
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.116 --> 00:25:00.956 A:middle
-This year we have made
-a lot of enhancements
-
 00:25:00.956 --> 00:25:02.066 A:middle
 to the visual scene editor.
 
@@ -2068,14 +1884,6 @@ the zoom factor as well
 00:25:56.546 --> 00:25:58.976 A:middle
 as run actions right inside
 of the scene editor rather
-
-00:25:58.976 --> 00:26:01.516 A:middle
-than having to rebuild
-your game.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.976 --> 00:26:01.516 A:middle
 than having to rebuild
@@ -2148,14 +1956,6 @@ saved out as part of scene
 when the scene is loaded
 that automatically gets run
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.606 --> 00:27:02.676 A:middle
-when the scene is loaded
-that automatically gets run
-
 00:27:02.676 --> 00:27:05.326 A:middle
 for any node that has
 action in a scene.
@@ -2213,14 +2013,6 @@ and instancing.
 00:27:50.956 --> 00:27:56.666 A:middle
 On SpriteKit side with support
 references on the actions
-
-00:27:56.716 --> 00:28:00.336 A:middle
-as well as references on the
-node which is your art assets
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:56.716 --> 00:28:00.336 A:middle
 as well as references on the
@@ -2300,10 +2092,6 @@ from the object library.
 Creating reference
 nodes is also easier.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.806 --> 00:29:04.266 A:middle
 It is just as simple as
 dragging another SKS file
@@ -2368,13 +2156,6 @@ stage to give you a quick demo
 00:29:55.056 --> 00:29:56.976 A:middle
 of these great new
 features in Xcode.
-
-00:29:57.516 --> 00:30:02.496 A:middle
-[Applause]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.516 --> 00:30:02.496 A:middle
 [Applause]
@@ -2449,14 +2230,6 @@ with the ReferenceNode.
 00:30:56.196 --> 00:30:58.726 A:middle
 So see here in a separate
 file I've created all
-
-00:30:58.726 --> 00:31:00.856 A:middle
-of my elements for
-our environment.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.726 --> 00:31:00.856 A:middle
 of my elements for
@@ -2539,13 +2312,6 @@ and that change is echoed to all
 00:31:53.486 --> 00:31:55.906 A:middle
 of our instances
 within our level.
-
-00:31:56.516 --> 00:32:00.646 A:middle
-[Applause]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:56.516 --> 00:32:00.646 A:middle
 [Applause]
@@ -2648,14 +2414,6 @@ within our object library.
 We provide you a set of
 building block actions to use
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:57.696 --> 00:33:01.276 A:middle
-We provide you a set of
-building block actions to use
-
 00:33:01.276 --> 00:33:03.056 A:middle
 to create your more
 complex actions
@@ -2742,14 +2500,6 @@ playing it once so we're going
 to add a loop so that we
 can span the whole time
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.056 --> 00:34:00.476 A:middle
-to add a loop so that we
-can span the whole time
-
 00:34:00.476 --> 00:34:01.546 A:middle
 of our movement.
 
@@ -2779,7 +2529,7 @@ only want to loop twice
 and then I'll adjust the
 duration to match our movement.
 
-00:34:17.025 --> 00:34:19.106 A:middle
+00:34:17.026 --> 00:34:19.106 A:middle
 Now we have the player
 running across the scene.
 
@@ -2791,11 +2541,11 @@ gaps within the level
 so let's make the
 player jump over them.
 
-00:34:24.616 --> 00:34:30.085 A:middle
+00:34:24.616 --> 00:34:30.086 A:middle
 In the action editor we're
 able to scrub to specific times
 
-00:34:30.085 --> 00:34:33.815 A:middle
+00:34:30.086 --> 00:34:33.816 A:middle
 within our action so I can scrub
 to just before we reach the gap
 
@@ -2803,11 +2553,11 @@ to just before we reach the gap
 and we'll add another
 movement action.
 
-00:34:36.335 --> 00:34:38.045 A:middle
+00:34:36.336 --> 00:34:38.046 A:middle
 We'll snap right to
 where we're scrubbed.
 
-00:34:39.616 --> 00:34:43.985 A:middle
+00:34:39.616 --> 00:34:43.986 A:middle
 For this movement we'll move
 in the Y direction 100 units
 
@@ -2829,14 +2579,6 @@ so that we reach the top
 00:34:53.436 --> 00:34:56.076 A:middle
 of our jump right there
 in the center of the gap.
-
-00:34:56.786 --> 00:35:00.736 A:middle
-Then I'll copy the first part of
-our action and simply reverse it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:56.786 --> 00:35:00.736 A:middle
 Then I'll copy the first part of
@@ -2935,14 +2677,6 @@ one of those files
 by right clicking our selected
 actions and we're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.226 --> 00:36:00.676 A:middle
-by right clicking our selected
-actions and we're going
-
 00:36:00.676 --> 00:36:01.756 A:middle
 to convert it to a reference.
 
@@ -3034,14 +2768,6 @@ go ahead and scrub back
 to our next gap and in our
 object library we automatically
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.186 --> 00:37:02.686 A:middle
-to our next gap and in our
-object library we automatically
-
 00:37:02.686 --> 00:37:04.446 A:middle
 populate it with
 all of the actions
@@ -3120,13 +2846,6 @@ providing them
 00:37:57.066 --> 00:37:58.956 A:middle
 with the names we have just
 created the actions with,
-
-00:37:59.276 --> 00:38:00.966 A:middle
-idle, run, and jump.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.276 --> 00:38:00.966 A:middle
 idle, run, and jump.
@@ -3211,10 +2930,6 @@ and assign our scene
 to use the camera
 I've just added.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.186 --> 00:39:02.696 A:middle
 For our cinematic opening
 I'm going to start us off
@@ -3290,14 +3005,6 @@ the same time as our movement.
 
 00:39:58.036 --> 00:39:59.386 A:middle
 Now within that short amount
-
-00:39:59.386 --> 00:40:00.986 A:middle
-of time we have created
-the cinematic opening,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:59.386 --> 00:40:00.986 A:middle
 of time we have created
@@ -3379,14 +3086,6 @@ Metal backed on every device
 that supports it and
 provides you easy access
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.126 --> 00:41:01.976 A:middle
-that supports it and
-provides you easy access
-
 00:41:02.086 --> 00:41:03.836 A:middle
 to the new GamePlayKit
 framework.
@@ -3436,4 +3135,3 @@ Please enjoy your conference.
 
 00:41:33.516 --> 00:41:37.500 A:middle
 [Applause]
-

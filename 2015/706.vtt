@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:21.516 --> 00:00:25.846 A:middle
 [Applause]
@@ -12,10 +11,10 @@ Ivan, and I head the Security
 and Privacy Strategy group at
 Apple, and today we are going
 
-00:00:31.686 --> 00:00:32.555 A:middle
+00:00:31.686 --> 00:00:32.556 A:middle
 to talk about security.
 
-00:00:32.555 --> 00:00:36.846 A:middle
+00:00:32.556 --> 00:00:36.846 A:middle
 And, in fact, most of
 today's talk will focus
 
@@ -57,19 +56,11 @@ about network security.
 When we think about network
 security most of you think
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.476 --> 00:01:02.376 A:middle
-When we think about network
-security most of you think
-
-00:01:02.376 --> 00:01:05.135 A:middle
+00:01:02.376 --> 00:01:05.136 A:middle
 of HTTPS, which most
 of us experience
 
-00:01:05.135 --> 00:01:06.846 A:middle
+00:01:05.136 --> 00:01:06.846 A:middle
 as the lock icon in the browser.
 
 00:01:07.996 --> 00:01:13.076 A:middle
@@ -148,14 +139,6 @@ service providers
 that are injecting tracking
 headers into every request,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.256 --> 00:02:00.826 A:middle
-that are injecting tracking
-headers into every request,
-
 00:02:01.186 --> 00:02:03.476 A:middle
 or even outright
 recording browsing histories
@@ -163,7 +146,7 @@ recording browsing histories
 00:02:03.526 --> 00:02:04.566 A:middle
 to support ad targeting.
 
-00:02:04.566 --> 00:02:09.795 A:middle
+00:02:04.566 --> 00:02:09.796 A:middle
 So in 2015 we believe that TLS
 is really a minimum base line
 
@@ -243,14 +226,6 @@ if an attacker is able
 to compromise a server and steal
 the TLS key, they can only use
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.726 --> 00:03:03.166 A:middle
-to compromise a server and steal
-the TLS key, they can only use
-
 00:03:03.166 --> 00:03:04.986 A:middle
 that key to decrypt
 future traffic
@@ -321,13 +296,6 @@ OS X El Capitan or iOS 9,
 00:03:59.546 --> 00:04:00.736 A:middle
 by default it won't be able
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.546 --> 00:04:00.736 A:middle
-by default it won't be able
-
 00:04:00.736 --> 00:04:03.106 A:middle
 to make any unprotected
 HTTP connections;
@@ -354,7 +322,7 @@ that are known
 00:04:14.446 --> 00:04:16.176 A:middle
 to be insecure are not allowed,
 
-00:04:16.505 --> 00:04:18.826 A:middle
+00:04:16.506 --> 00:04:18.826 A:middle
 and there are minimum key size
 requirements put in place.
 
@@ -410,14 +378,6 @@ Pierre-Olivier Martel.
 
 00:04:57.546 --> 00:04:59.086 A:middle
 I'm the engineering manager
-
-00:04:59.086 --> 00:05:01.116 A:middle
-for Sandboxing Technologies
-here at Apple.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.086 --> 00:05:01.116 A:middle
 for Sandboxing Technologies
@@ -496,14 +456,6 @@ concept of defense in depth.
 Now, the key principle here is
 something you've probably heard
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:57.196 --> 00:06:00.096 A:middle
-Now, the key principle here is
-something you've probably heard
-
 00:06:00.096 --> 00:06:03.186 A:middle
 before, which is that
 security is all about layers.
@@ -577,14 +529,6 @@ the King of France
 to rebuild all the
 fortresses around the country
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.496 --> 00:07:01.566 A:middle
-to rebuild all the
-fortresses around the country
-
 00:07:02.166 --> 00:07:04.766 A:middle
 that were used to
 defend the kingdom.
@@ -652,14 +596,6 @@ Developer ID certificate
 00:07:56.656 --> 00:07:58.416 A:middle
 that Apple has issued
 to a developer,
-
-00:07:59.106 --> 00:08:02.596 A:middle
-otherwise the application
-does not get to launch.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:59.106 --> 00:08:02.596 A:middle
 otherwise the application
@@ -741,14 +677,6 @@ manage to go through
 or around the first two, is the
 classic POSIX permission scheme,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:58.376 --> 00:09:02.426 A:middle
-or around the first two, is the
-classic POSIX permission scheme,
-
 00:09:03.196 --> 00:09:05.776 A:middle
 which means that your
 application only runs
@@ -822,14 +750,6 @@ It doesn't stop the application
 when it's run from
 doing anything.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.126 --> 00:10:01.486 A:middle
-when it's run from
-doing anything.
-
 00:10:02.276 --> 00:10:05.516 A:middle
 Also, it does not protect code
 that's already on the machine.
@@ -889,14 +809,6 @@ password and you ask for it,
 
 00:10:55.506 --> 00:10:56.946 A:middle
 the users likely give it to you.
-
-00:10:58.186 --> 00:11:02.926 A:middle
-And finally, when you root, then
-you actually have full control
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.186 --> 00:11:02.926 A:middle
 And finally, when you root, then
@@ -973,14 +885,6 @@ Both on disk and at runtime.
 And because we are talking
 about taking some power away
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.566 --> 00:12:02.036 A:middle
-And because we are talking
-about taking some power away
-
 00:12:02.096 --> 00:12:05.276 A:middle
 from root, then we need
 
@@ -1043,14 +947,6 @@ binaries are protected
 00:12:54.386 --> 00:12:58.426 A:middle
 from runtime attachments,
 and from code injection.
-
-00:12:58.976 --> 00:13:01.556 A:middle
-So before we dive
-into the details here,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.976 --> 00:13:01.556 A:middle
 So before we dive
@@ -1129,14 +1025,6 @@ including system processes.
 So let's look at the key
 aspects of this new mechanism.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.456 --> 00:14:02.576 A:middle
-So let's look at the key
-aspects of this new mechanism.
-
 00:14:03.076 --> 00:14:05.666 A:middle
 First, we look at new
 filesystem restrictions
@@ -1202,14 +1090,6 @@ the kernel will stop any attempt
 00:14:56.846 --> 00:14:58.946 A:middle
 at modifying these
 protected files
-
-00:14:58.946 --> 00:15:02.046 A:middle
-or protected folders
-unless the attempt comes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.946 --> 00:15:02.046 A:middle
 or protected folders
@@ -1291,14 +1171,6 @@ in an installer package.
 So it should not
 impact many of you here
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.366 --> 00:16:01.226 A:middle
-So it should not
-impact many of you here
-
 00:16:01.226 --> 00:16:03.686 A:middle
 because we've been
 advising for many years now,
@@ -1371,23 +1243,15 @@ actually drag your application
 to the trash and just
 remove all content.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.796 --> 00:17:00.516 A:middle
-to the trash and just
-remove all content.
-
 00:17:01.856 --> 00:17:07.506 A:middle
 One important note here,
 that when the user upgrades
 
-00:17:07.685 --> 00:17:10.695 A:middle
+00:17:07.686 --> 00:17:10.696 A:middle
 from a Yosemite install,
 to a Capitan install,
 
-00:17:11.435 --> 00:17:14.806 A:middle
+00:17:11.436 --> 00:17:14.806 A:middle
 the installer will actually
 migrate any third-party content
 
@@ -1398,15 +1262,15 @@ system locations outside
 00:17:17.766 --> 00:17:18.506 A:middle
 of these locations.
 
-00:17:19.656 --> 00:17:23.165 A:middle
+00:17:19.656 --> 00:17:23.166 A:middle
 So you need to make sure that
 today you start migrating
 
-00:17:23.165 --> 00:17:25.945 A:middle
+00:17:23.166 --> 00:17:25.946 A:middle
 that content away as soon
 as possible so as not
 
-00:17:25.945 --> 00:17:26.816 A:middle
+00:17:25.946 --> 00:17:26.816 A:middle
 to impact these users.
 
 00:17:26.816 --> 00:17:31.606 A:middle
@@ -1442,14 +1306,6 @@ of these system processes.
 00:17:52.696 --> 00:17:56.716 A:middle
 To do so, we are introducing
 a new restricted flag
-
-00:17:57.356 --> 00:18:00.426 A:middle
-in the process structure
-that the kernel holds
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.356 --> 00:18:00.426 A:middle
 in the process structure
@@ -1513,14 +1369,6 @@ to be able to inject code
 00:18:51.226 --> 00:18:56.246 A:middle
 into the Finder, that is
 not going to work anymore.
-
-00:18:56.276 --> 00:19:00.676 A:middle
-Then if you fork an exec,
-a binary that will result
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:56.276 --> 00:19:00.676 A:middle
 Then if you fork an exec,
@@ -1600,14 +1448,6 @@ restricted process memory space
 and you won't be able to
 inspect the kernel memory.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.926 --> 00:20:00.956 A:middle
-and you won't be able to
-inspect the kernel memory.
-
 00:20:01.556 --> 00:20:05.386 A:middle
 Of course, this applies
 to our own debugger, LLDB.
@@ -1669,14 +1509,6 @@ I'll show you how in a minute.
 00:20:56.036 --> 00:20:59.696 A:middle
 But it also means that,
 this comment line here
-
-00:20:59.696 --> 00:21:02.846 A:middle
-that you probably saw out
-there to disable kext signing,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.696 --> 00:21:02.846 A:middle
 that you probably saw out
@@ -1752,13 +1584,6 @@ across OS install.
 00:21:55.646 --> 00:21:59.196 A:middle
 So as you move from seed 1 to
 seed 2 up to GM and even later,
-
-00:21:59.766 --> 00:22:01.306 A:middle
-the configuration will persist.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.766 --> 00:22:01.306 A:middle
 the configuration will persist.
@@ -1842,13 +1667,6 @@ is a new policy that applies
 00:22:59.996 --> 00:23:01.196 A:middle
 to every process on the system.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.996 --> 00:23:01.196 A:middle
-to every process on the system.
-
 00:23:02.276 --> 00:23:06.516 A:middle
 It protects the system as it was
 installed by Apple, both on disk
@@ -1920,14 +1738,6 @@ Engineering.
 You heard about app
 transport security,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:57.516 --> 00:24:01.466 A:middle
-You heard about app
-transport security,
-
 00:24:02.136 --> 00:24:04.626 A:middle
 and how it helps
 protect data in motion,
@@ -1982,14 +1792,6 @@ which we call Keychain items,
 00:24:51.896 --> 00:24:54.696 A:middle
 and then query for them
 with the attributes.
-
-00:24:55.196 --> 00:25:01.316 A:middle
-It's optimized for small secrets
-and by secret I mean a password,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:55.196 --> 00:25:01.316 A:middle
 It's optimized for small secrets
@@ -2058,14 +1860,6 @@ dictionary to describe or query
 for an item, is also used by
 the calls to query, delete,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.606 --> 00:26:05.106 A:middle
-for an item, is also used by
-the calls to query, delete,
-
 00:26:05.106 --> 00:26:08.536 A:middle
 and update an item, as well
 as some of the other APIs,
@@ -2117,14 +1911,6 @@ that your application can use.
 00:26:53.666 --> 00:26:56.996 A:middle
 We describe and talk about
 data protection classes,
-
-00:26:57.526 --> 00:27:02.926 A:middle
-which are the times at which
-cryptographic access is provided
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.526 --> 00:27:02.926 A:middle
 which are the times at which
@@ -2189,14 +1975,6 @@ data from a paired iOS device,
 consider just sending
 that content across
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.076 --> 00:28:01.406 A:middle
-consider just sending
-that content across
-
 00:28:01.736 --> 00:28:03.756 A:middle
 and not a persistent credential.
 
@@ -2251,14 +2029,6 @@ Safari saved passwords
 00:28:52.276 --> 00:28:55.506 A:middle
 and how it will suggest
 and store them for us.
-
-00:28:56.096 --> 00:29:00.436 A:middle
-With iCloud Keychain, passwords
-will be synced and autofilled
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:56.096 --> 00:29:00.436 A:middle
 With iCloud Keychain, passwords
@@ -2336,14 +2106,6 @@ So let's have a look at that.
 Here I'm going through the
 registration flow of my app
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.196 --> 00:30:02.816 A:middle
-Here I'm going through the
-registration flow of my app
-
 00:30:03.226 --> 00:30:06.306 A:middle
 to which I just added the code
 I showed you a few moments ago.
@@ -2402,14 +2164,6 @@ on device and not just
 in the simulator, you're going
 to have to add an entitlement
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.116 --> 00:31:01.216 A:middle
-in the simulator, you're going
-to have to add an entitlement
-
 00:31:01.216 --> 00:31:04.026 A:middle
 to your application,
 and you can do this
@@ -2462,14 +2216,6 @@ directly in your own apps.
 00:31:53.156 --> 00:31:59.066 A:middle
 Imagine you have an iOS, iPad,
 iPhone, and OS X App Store app
-
-00:31:59.376 --> 00:32:01.986 A:middle
-and you want to make
-logging into one the same
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.376 --> 00:32:01.986 A:middle
 and you want to make
@@ -2544,14 +2290,6 @@ highest level possible
 and if appropriate use
 SharedWedCredentials
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.456 --> 00:33:03.026 A:middle
-and if appropriate use
-SharedWedCredentials
-
 00:33:03.026 --> 00:33:06.276 A:middle
 like our Keychain to sync them
 around your user's devices
@@ -2616,13 +2354,6 @@ control over items.
 00:33:59.356 --> 00:34:04.696 A:middle
 So since we are talking
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.356 --> 00:34:04.696 A:middle
-So since we are talking
-
 00:34:04.816 --> 00:34:07.446 A:middle
 about protecting
 device-specific credentials,
@@ -2631,7 +2362,7 @@ device-specific credentials,
 let's look at the security
 domains on an iOS device.
 
-00:34:12.315 --> 00:34:14.806 A:middle
+00:34:12.316 --> 00:34:14.806 A:middle
 User space, where
 your application runs,
 
@@ -2643,23 +2374,23 @@ mentioned provides process
 separation and other
 security functionality.
 
-00:34:22.545 --> 00:34:25.835 A:middle
+00:34:22.546 --> 00:34:25.836 A:middle
 But it also provides many,
 many other OS facilities,
 
-00:34:26.045 --> 00:34:28.335 A:middle
+00:34:26.046 --> 00:34:28.336 A:middle
 which means it has quite
 a large attack service.
 
-00:34:29.036 --> 00:34:32.315 A:middle
+00:34:29.036 --> 00:34:32.316 A:middle
 So with iPhone 5s, we
 added Secure Enclave.
 
-00:34:34.795 --> 00:34:40.676 A:middle
+00:34:34.796 --> 00:34:40.676 A:middle
 Secure Enclave is a separate on
 core that has been architected
 
-00:34:40.815 --> 00:34:43.525 A:middle
+00:34:40.816 --> 00:34:43.526 A:middle
 from the ground up
 with security in mind.
 
@@ -2678,14 +2409,6 @@ component from the kernel
 00:34:55.696 --> 00:34:58.516 A:middle
 into Secure Enclave
 and it's that component
-
-00:34:58.876 --> 00:35:02.056 A:middle
-which controls the cryptography
-around Keychain items
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.876 --> 00:35:02.056 A:middle
 which controls the cryptography
@@ -2756,13 +2479,6 @@ to have to know how Touch ID
 00:35:59.566 --> 00:36:01.496 A:middle
 and biometrics security works.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.566 --> 00:36:01.496 A:middle
-and biometrics security works.
-
 00:36:01.846 --> 00:36:03.616 A:middle
 But luckily, it's very simple.
 
@@ -2824,10 +2540,6 @@ in user space
 where a security
 decision is being made.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:00.976 --> 00:37:02.906 A:middle
 So when might you
 want to use Touch ID
@@ -2884,14 +2596,6 @@ in your application's flow.
 00:37:55.026 --> 00:37:58.246 A:middle
 But this can lead to a situation
 where the user has just unlocked
-
-00:37:58.246 --> 00:38:01.666 A:middle
-with Touch ID, and then moments
-later has been prompted again
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:58.246 --> 00:38:01.666 A:middle
 with Touch ID, and then moments
@@ -2964,14 +2668,6 @@ it is compare it over time.
 If it changed, then a finger
 has been added or removed
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:56.406 --> 00:39:00.566 A:middle
-If it changed, then a finger
-has been added or removed
-
 00:39:00.566 --> 00:39:02.406 A:middle
 to the enrolled set in settings.
 
@@ -3028,14 +2724,6 @@ Control Lists, I will touch
 00:39:53.396 --> 00:39:56.126 A:middle
 on that later and there's
 also a lot more examples
-
-00:39:56.226 --> 00:40:00.256 A:middle
-in some example code
-we are releasing today.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:56.226 --> 00:40:00.256 A:middle
 in some example code
@@ -3109,14 +2797,6 @@ really don't want to save,
 you're prompting every
 time or very frequently.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.216 --> 00:41:00.406 A:middle
-you're prompting every
-time or very frequently.
-
 00:41:01.866 --> 00:41:04.236 A:middle
 Maybe using Access Control
 Lists you can save it,
@@ -3185,13 +2865,6 @@ to the device passcode.
 00:41:58.036 --> 00:42:00.276 A:middle
 And you can go straight
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.036 --> 00:42:00.276 A:middle
-And you can go straight
-
 00:42:00.276 --> 00:42:02.376 A:middle
 to .DevicePasscode
 as well if you want.
@@ -3248,14 +2921,6 @@ Secure Enclave and Touch ID.
 
 00:42:56.576 --> 00:42:59.066 A:middle
 If you store an item, protected
-
-00:42:59.176 --> 00:43:02.986 A:middle
-with the TouchIDCurrentSet
-policy, there's no way to get
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:59.176 --> 00:43:02.986 A:middle
 with the TouchIDCurrentSet
@@ -3329,14 +2994,6 @@ and the Keychain comes
 down to the device passcode
 and that's stored in one
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.636 --> 00:44:03.066 A:middle
-down to the device passcode
-and that's stored in one
-
 00:44:03.066 --> 00:44:06.176 A:middle
 of the most complex systems
 we know, the user's brain.
@@ -3390,14 +3047,6 @@ really doesn't offer any
 
 00:44:57.866 --> 00:44:58.736 A:middle
 additional protection.
-
-00:44:58.736 --> 00:45:00.796 A:middle
-So you have to think
-about where off
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:58.736 --> 00:45:00.796 A:middle
 So you have to think
@@ -3468,13 +3117,6 @@ the Keychain item.
 00:45:59.106 --> 00:46:03.136 A:middle
 So that was ApplicationPassword.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.106 --> 00:46:03.136 A:middle
-So that was ApplicationPassword.
-
 00:46:04.436 --> 00:46:07.116 A:middle
 The final new policy,
 it's Private Key Usage.
@@ -3534,14 +3176,6 @@ have to keep safe.
 00:46:54.116 --> 00:46:58.656 A:middle
 Using this requires the
 SecKey API and the details
-
-00:46:58.656 --> 00:47:00.336 A:middle
-that are somewhat
-beyond the scope
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:58.656 --> 00:47:00.336 A:middle
 that are somewhat
@@ -3610,14 +3244,6 @@ will the private key be used
 to sign that data, and have it
 returned to your application.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.416 --> 00:48:02.936 A:middle
-to sign that data, and have it
-returned to your application.
-
 00:48:09.036 --> 00:48:10.626 A:middle
 So one place you might want
 
@@ -3672,14 +3298,6 @@ device that you were before,
 00:48:55.836 --> 00:48:59.036 A:middle
 it can send a challenge
 to your application,
-
-00:48:59.946 --> 00:49:02.336 A:middle
-which in turn calls
-SecKeyRawSign.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:59.946 --> 00:49:02.336 A:middle
 which in turn calls
@@ -3746,14 +3364,6 @@ user with password prompts.
 Looked at the two Touch ID
 APIs, Local Authentication
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:57.096 --> 00:50:02.336 A:middle
-Looked at the two Touch ID
-APIs, Local Authentication
-
 00:50:02.736 --> 00:50:04.396 A:middle
 and Keychain Access Controls.
 
@@ -3806,14 +3416,6 @@ with NSURL Session, session.
 And come and visit us tomorrow
 morning and Thursday morning
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:55.856 --> 00:51:02.246 A:middle
-And come and visit us tomorrow
-morning and Thursday morning
-
 00:51:02.656 --> 00:51:04.396 A:middle
 in the Security and
 Privacy labs.
@@ -3823,4 +3425,3 @@ Thank you very much, indeed.
 
 00:51:07.516 --> 00:51:11.500 A:middle
 [Applause]
-

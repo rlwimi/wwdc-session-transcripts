@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:21.516 --> 00:00:23.546 A:middle
 [ Applause ]
@@ -64,14 +63,6 @@ of the new features
 00:00:55.626 --> 00:00:57.496 A:middle
 that you've seen
 in Mac OS X v11.
-
-00:00:58.326 --> 00:01:00.346 A:middle
-Taylor's going to come up and
-talk about flexible layout
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.326 --> 00:01:00.346 A:middle
 Taylor's going to come up and
@@ -162,14 +153,6 @@ green button again,
 and it can take you
 back out of Full Screen.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.786 --> 00:02:00.696 A:middle
-and it can take you
-back out of Full Screen.
-
 00:02:01.286 --> 00:02:05.126 A:middle
 So what are the things to
 do to adopt Full Screen?
@@ -178,14 +161,14 @@ do to adopt Full Screen?
 Hopefully you're
 already aware of this,
 
-00:02:07.076 --> 00:02:08.235 A:middle
+00:02:07.076 --> 00:02:08.236 A:middle
 but it's pretty easy to do.
 
-00:02:08.526 --> 00:02:10.705 A:middle
+00:02:08.526 --> 00:02:10.706 A:middle
 You're going to specify
 which windows you want
 
-00:02:10.705 --> 00:02:11.776 A:middle
+00:02:10.706 --> 00:02:11.776 A:middle
 to be Full Screen-capable.
 
 00:02:11.776 --> 00:02:14.026 A:middle
@@ -256,14 +239,6 @@ for your application.
 00:02:56.646 --> 00:02:58.596 A:middle
 It's the thing that you can
 go into Full Screen with.
-
-00:02:59.866 --> 00:03:02.336 A:middle
-However, there's also another
-option if you've seen this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.866 --> 00:03:02.336 A:middle
 However, there's also another
@@ -347,14 +322,6 @@ options into that window
 
 00:03:56.116 --> 00:03:57.386 A:middle
 and make it Full Screen-capable.
-
-00:03:59.226 --> 00:04:02.196 A:middle
-Once you are in Full
-Screen, you may need
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.226 --> 00:04:02.196 A:middle
 Once you are in Full
@@ -454,10 +421,6 @@ It's really easy to do this.
 There's a window
 delegate method,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:00.006 --> 00:05:03.986 A:middle
 Window Will Use Full
 Screen Presentation Options,
@@ -542,14 +505,6 @@ talking about Full Screen
 
 00:05:57.286 --> 00:05:58.886 A:middle
 and how to properly adopt it.
-
-00:05:59.256 --> 00:06:01.416 A:middle
-Let's move forward
-and go about talking
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.256 --> 00:06:01.416 A:middle
 Let's move forward
@@ -643,14 +598,6 @@ Your content's underneath it.
 But as of Mac OS X v10, you can
 actually utilize a full content
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.616 --> 00:07:06.886 A:middle
-But as of Mac OS X v10, you can
-actually utilize a full content
-
 00:07:06.886 --> 00:07:11.166 A:middle
 area that can extend underneath
 the title bar toolbar.
@@ -732,13 +679,6 @@ view controllers do for you.
 00:07:58.936 --> 00:08:00.196 A:middle
 Well like I said before,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.936 --> 00:08:00.196 A:middle
-Well like I said before,
-
 00:08:00.196 --> 00:08:04.556 A:middle
 they will automatically blur
 everything behind them for you.
@@ -779,7 +719,7 @@ more about that in a minute.
 So let's look at the first
 property, the layout attribute.
 
-00:08:29.436 --> 00:08:34.145 A:middle
+00:08:29.436 --> 00:08:34.146 A:middle
 So here is the layout attribute
 when it's set to dot bottom.
 
@@ -791,11 +731,11 @@ your view is going
 to be placed below
 the title bar.
 
-00:08:40.576 --> 00:08:42.765 A:middle
+00:08:40.576 --> 00:08:42.766 A:middle
 Its height is whatever height
 you've actually specified
 
-00:08:42.765 --> 00:08:45.296 A:middle
+00:08:42.766 --> 00:08:45.296 A:middle
 for that view in your nib
 or however you specified it.
 
@@ -816,14 +756,6 @@ of Safari.
 00:08:55.786 --> 00:08:57.616 A:middle
 They're using the dot
 right option in order
-
-00:08:57.616 --> 00:09:01.126 A:middle
-to add the plus button to the
-Safari window when it's not
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.616 --> 00:09:01.126 A:middle
 to add the plus button to the
@@ -911,13 +843,6 @@ some screenshots
 00:09:59.456 --> 00:10:00.376 A:middle
 of that in just a second.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.456 --> 00:10:00.376 A:middle
-of that in just a second.
-
 00:10:01.076 --> 00:10:02.536 A:middle
 The default body is zero.
 
@@ -992,13 +917,6 @@ height properties work very
 00:10:53.196 --> 00:10:56.116 A:middle
 similar to what's in title
 bar accessory view controller.
-
-00:10:56.706 --> 00:11:00.516 A:middle
-So how do you actually add them?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:56.706 --> 00:11:00.516 A:middle
 So how do you actually add them?
@@ -1096,14 +1014,6 @@ screen real estate.
 So in this screen shot we have
 Safari, and we have reminders
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.966 --> 00:12:01.956 A:middle
-So in this screen shot we have
-Safari, and we have reminders
-
 00:12:01.956 --> 00:12:07.296 A:middle
 on the side to focus on a
 couple tasks at the same time.
@@ -1178,10 +1088,6 @@ exactly what we do
 00:12:57.296 --> 00:12:59.246 A:middle
 and how we determine this
 might change over time.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.026 --> 00:13:02.436 A:middle
 So you might want to
@@ -1267,13 +1173,6 @@ window is not in Full Screen,
 00:13:56.126 --> 00:13:59.606 A:middle
 you can resize it, and it's
 automatically restricted
-
-00:13:59.606 --> 00:14:00.656 A:middle
-by its min and max size.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.606 --> 00:14:00.656 A:middle
 by its min and max size.
@@ -1371,14 +1270,6 @@ that and do something special.
 You might also add extra views
 there to show more information
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.326 --> 00:15:02.266 A:middle
-You might also add extra views
-there to show more information
-
 00:15:02.266 --> 00:15:04.786 A:middle
 to the user when it's
 in a Full Screen tile.
@@ -1467,14 +1358,6 @@ content size to do that.
 You need to set these
 early, because if you played
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.796 --> 00:16:02.166 A:middle
-You need to set these
-early, because if you played
-
 00:16:02.166 --> 00:16:04.916 A:middle
 around with Mac OS X v11,
 you may notice when you click
@@ -1555,31 +1438,24 @@ how to handle that by talking
 00:16:59.326 --> 00:17:00.156 A:middle
 about flexible layout.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.326 --> 00:17:00.156 A:middle
-about flexible layout.
-
 00:17:01.136 --> 00:17:01.376 A:middle
 Thank you.
 
-00:17:02.516 --> 00:17:13.675 A:middle
+00:17:02.516 --> 00:17:13.676 A:middle
 [ Applause ]
 
-00:17:14.175 --> 00:17:14.776 A:middle
+00:17:14.176 --> 00:17:14.776 A:middle
 &gt;&gt; TAYLOR KELLY: Hello.
 
 00:17:15.116 --> 00:17:16.656 A:middle
 In this half we're
 going to talk about how
 
-00:17:16.656 --> 00:17:19.175 A:middle
+00:17:16.656 --> 00:17:19.176 A:middle
 to make your layouts more
 flexible, especially in terms
 
-00:17:19.175 --> 00:17:21.586 A:middle
+00:17:19.176 --> 00:17:21.586 A:middle
 of how narrow they can be made
 while in a new split view.
 
@@ -1632,14 +1508,6 @@ such as the new Retina MacBook.
 00:17:55.006 --> 00:17:58.586 A:middle
 This has a default resolution
 of 1280 by 800 points.
-
-00:17:59.426 --> 00:18:00.616 A:middle
-Meaning that while
-in split view,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.426 --> 00:18:00.616 A:middle
 Meaning that while
@@ -1728,14 +1596,6 @@ such as with localization.
 00:18:57.826 --> 00:18:59.806 A:middle
 You can establish priorities
 between those constraints
-
-00:18:59.806 --> 00:19:01.836 A:middle
-so that stronger ones
-can override weaker ones.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.806 --> 00:19:01.836 A:middle
 so that stronger ones
@@ -1847,14 +1707,6 @@ spacing between the label
 and the thin button to prevent
 overlapping on that side.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.676 --> 00:20:02.666 A:middle
-and the thin button to prevent
-overlapping on that side.
-
 00:20:03.156 --> 00:20:05.646 A:middle
 This time, the label is
 centered as long as possible
@@ -1949,14 +1801,6 @@ it this priority exactly.
 00:20:56.306 --> 00:20:58.536 A:middle
 There's also Windows Size Stay
 Put, which is the priority
-
-00:20:58.536 --> 00:21:00.156 A:middle
-at which a window
-holds its current size.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.536 --> 00:21:00.156 A:middle
 at which a window
@@ -2061,14 +1905,6 @@ which is the behavior
 when an item is dragged within
 a split view that can occur,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:57.236 --> 00:22:00.066 A:middle
-when an item is dragged within
-a split view that can occur,
-
 00:22:00.396 --> 00:22:02.156 A:middle
 as well as several new metrics
 
@@ -2161,14 +1997,6 @@ behavior that you just saw.
 And with that, the overlays
 will in Full Screen.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.286 --> 00:23:00.526 A:middle
-And with that, the overlays
-will in Full Screen.
-
 00:23:01.916 --> 00:23:03.916 A:middle
 In addition, a default several
 of the other properties,
@@ -2255,14 +2083,6 @@ will want this behavior.
 00:23:55.126 --> 00:23:58.586 A:middle
 Next I want to talk about
 several new metrics that we have
-
-00:23:58.726 --> 00:24:00.436 A:middle
-on NSSplitViewItem
-and controller.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.726 --> 00:24:00.436 A:middle
 on NSSplitViewItem
@@ -2367,14 +2187,6 @@ proportionally according
 to how large they were
 before the resize.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.436 --> 00:25:00.796 A:middle
-to how large they were
-before the resize.
-
 00:25:01.066 --> 00:25:02.806 A:middle
 So both views get sized
 a little bit larger.
@@ -2464,14 +2276,6 @@ while in Full Screen,
 00:25:57.636 --> 00:25:59.646 A:middle
 except the key difference
 is that when in Full Screen
-
-00:25:59.646 --> 00:26:02.176 A:middle
-if it's explicitly reshown,
-it shows as that overlay.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.646 --> 00:26:02.176 A:middle
 if it's explicitly reshown,
@@ -2569,14 +2373,6 @@ no way to separate that.
 So now in X v11 you can
 designate certain subviews
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.756 --> 00:27:01.306 A:middle
-So now in X v11 you can
-designate certain subviews
-
 00:27:01.306 --> 00:27:03.956 A:middle
 as being arranged by the
 split view using new API
@@ -2660,13 +2456,6 @@ have this checked
 
 00:27:57.756 --> 00:27:58.836 A:middle
 at do not legacy behavior.
-
-00:27:59.276 --> 00:28:00.166 A:middle
-But new split views dragged
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.276 --> 00:28:00.166 A:middle
 But new split views dragged
@@ -2769,14 +2558,6 @@ overriding certain methods
 that are incompatible
 with Auto Layout.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.376 --> 00:29:00.686 A:middle
-that are incompatible
-with Auto Layout.
-
 00:29:00.686 --> 00:29:02.966 A:middle
 And it'll tell you exactly
 which ones those are.
@@ -2868,14 +2649,6 @@ for each of its constraints.
 00:29:55.036 --> 00:29:58.056 A:middle
 I want to talk about
 NSStackView now.
-
-00:29:58.766 --> 00:30:00.906 A:middle
-So this is a class we
-introduced in Mavericks
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.766 --> 00:30:00.906 A:middle
 So this is a class we
@@ -2982,14 +2755,6 @@ stacking axis.
 You can set this with
 the Distribution property
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.916 --> 00:31:01.096 A:middle
-You can set this with
-the Distribution property
-
 00:31:01.176 --> 00:31:02.036 A:middle
 on NSStackView.
 
@@ -3087,14 +2852,6 @@ towards that equal sizing.
 Fill Proportionally is
 similar, except here they grow
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:56.836 --> 00:32:01.246 A:middle
-Fill Proportionally is
-similar, except here they grow
-
 00:32:01.246 --> 00:32:03.756 A:middle
 in proportion to how big their
 intrinsic content sizes are.
@@ -3173,14 +2930,6 @@ its contents at that priority.
 
 00:32:57.976 --> 00:32:58.956 A:middle
 So now we can actually be made,
-
-00:32:58.956 --> 00:33:03.506 A:middle
-the stack view be made
-smaller than its container.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.956 --> 00:33:03.506 A:middle
 the stack view be made
@@ -3279,14 +3028,6 @@ scalable presentations
 of large collections with
 items with section support.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.606 --> 00:34:00.346 A:middle
-of large collections with
-items with section support.
-
 00:34:01.246 --> 00:34:03.326 A:middle
 In addition, there's some
 really powerful layout support,
@@ -3307,7 +3048,7 @@ iOS, as well the ability
 to create your own
 custom layouts.
 
-00:34:13.835 --> 00:34:15.946 A:middle
+00:34:13.836 --> 00:34:15.946 A:middle
 Troy has an awesome talk
 about this later today,
 
@@ -3322,11 +3063,11 @@ checking that out.
 With this talk we also have
 Sample Code associated.
 
-00:34:23.926 --> 00:34:27.275 A:middle
+00:34:23.926 --> 00:34:27.276 A:middle
 It's a photo-browsing app that
 shows off various features, API,
 
-00:34:27.275 --> 00:34:29.335 A:middle
+00:34:27.276 --> 00:34:29.336 A:middle
 and behaviors that
 Corbin and I talked about.
 
@@ -3337,27 +3078,27 @@ different Full Screen API,
 00:34:32.356 --> 00:34:33.626 A:middle
 specifically the new tiling API.
 
-00:34:33.626 --> 00:34:36.505 A:middle
+00:34:33.626 --> 00:34:36.506 A:middle
 We have this little standalone
 window that's normally required
 
-00:34:36.505 --> 00:34:39.286 A:middle
+00:34:36.506 --> 00:34:39.286 A:middle
 to be aspect-ratio sized
 and isn't Full Screenable.
 
-00:34:39.835 --> 00:34:41.426 A:middle
+00:34:39.836 --> 00:34:41.426 A:middle
 However, we have
 made it tileable
 
-00:34:41.656 --> 00:34:43.585 A:middle
+00:34:41.656 --> 00:34:43.586 A:middle
 with a custom layout
 once it's in that tile.
 
-00:34:45.096 --> 00:34:47.005 A:middle
+00:34:45.096 --> 00:34:47.006 A:middle
 It also uses the new split
 view controller features,
 
-00:34:47.005 --> 00:34:49.646 A:middle
+00:34:47.006 --> 00:34:49.646 A:middle
 such as the autocollapsing
 sidebar with the overlay,
 
@@ -3374,14 +3115,6 @@ which is really, really awesome.
 00:34:57.526 --> 00:34:59.056 A:middle
 It also uses that
 detaching behavior
-
-00:34:59.396 --> 00:35:01.596 A:middle
-so that it can be made
-smaller than those items
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.396 --> 00:35:01.596 A:middle
 so that it can be made
@@ -3469,10 +3202,6 @@ you can contact Paul Marcos.
 00:35:58.146 --> 00:35:59.226 A:middle
 He loves getting emails.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:00.436 --> 00:36:02.116 A:middle
 In addition, we have
 some related sessions
@@ -3506,4 +3235,3 @@ See you later.
 
 00:36:18.516 --> 00:36:32.150 A:middle
 [ Applause ]
-

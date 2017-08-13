@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:20.516 --> 00:00:23.106 A:middle
 [ Applause ]
@@ -45,10 +44,6 @@ jump right into talking
 
 00:00:55.956 --> 00:00:56.976 A:middle
 about content blockers.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.166 --> 00:01:01.876 A:middle
 Let's start with the
@@ -132,14 +127,6 @@ very efficiently.
 Additionally this new model is
 great for your user's privacy
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.846 --> 00:02:02.486 A:middle
-Additionally this new model is
-great for your user's privacy
-
 00:02:02.746 --> 00:02:05.986 A:middle
 because content blockers have
 no knowledge of the browsing
@@ -210,14 +197,6 @@ which element we should hide.
 Looking at web inspector we see
 there's a div with ID leaks.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:56.946 --> 00:03:00.436 A:middle
-Looking at web inspector we see
-there's a div with ID leaks.
-
 00:03:00.436 --> 00:03:03.296 A:middle
 When that is selected
 in web inspector,
@@ -282,14 +261,6 @@ is CSS display none,
 00:03:54.476 --> 00:03:57.466 A:middle
 a selector is required
 in the action dictionary.
-
-00:03:57.876 --> 00:04:00.136 A:middle
-All selectors that are
-supported by Safari
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:57.876 --> 00:04:00.136 A:middle
 All selectors that are
@@ -367,14 +338,6 @@ And we'll talk a little more
 about URL filter
 in a later example.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.706 --> 00:05:01.006 A:middle
-about URL filter
-in a later example.
-
 00:05:01.806 --> 00:05:04.316 A:middle
 So let's see what this rule
 looks like all together.
@@ -445,14 +408,6 @@ visit and can build up a profile
 about me from my
 browsing history.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.786 --> 00:06:00.576 A:middle
-about me from my
-browsing history.
-
 00:06:00.966 --> 00:06:04.596 A:middle
 When I look in the console
 it also helpfully warns me
@@ -517,14 +472,6 @@ that is being requested.
 00:06:55.896 --> 00:06:58.446 A:middle
 So in this case it
 will match any URLs
-
-00:06:58.726 --> 00:07:01.676 A:middle
-that contain the string
-Tracking underscore script.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.726 --> 00:07:01.676 A:middle
 that contain the string
@@ -604,14 +551,6 @@ load successfully.
 So let's see what the rule
 looks like all put together.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.646 --> 00:08:02.316 A:middle
-So let's see what the rule
-looks like all put together.
-
 00:08:03.566 --> 00:08:06.716 A:middle
 And when we reload the page
 with this content blocking rule,
@@ -644,14 +583,14 @@ of these rules.
 Now that you've described the
 content that you want to block,
 
-00:08:33.895 --> 00:08:36.456 A:middle
+00:08:33.896 --> 00:08:36.456 A:middle
 the next step is to get
 your content blocker
 
 00:08:36.596 --> 00:08:37.866 A:middle
 on an iOS device.
 
-00:08:38.385 --> 00:08:41.926 A:middle
+00:08:38.386 --> 00:08:41.926 A:middle
 As I mentioned before, content
 blockers on iOS are loaded
 
@@ -680,14 +619,6 @@ will be instantiated
 00:08:57.066 --> 00:08:59.336 A:middle
 when your content blocker
 is enabled in settings.
-
-00:08:59.846 --> 00:09:01.846 A:middle
-And like all other
-app extensions,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.846 --> 00:09:01.846 A:middle
 And like all other
@@ -762,14 +693,6 @@ this week introducing Safari
 
 00:09:54.116 --> 00:09:54.856 A:middle
 View Controller.
-
-00:09:55.266 --> 00:10:00.006 A:middle
-However, a static block
-list might not be enough
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:55.266 --> 00:10:00.006 A:middle
 However, a static block
@@ -864,14 +787,6 @@ started making your own.
 I would like to bring up Alex
 Christensen to show us a demo.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.836 --> 00:11:02.836 A:middle
-I would like to bring up Alex
-Christensen to show us a demo.
-
 00:11:03.186 --> 00:11:03.646 A:middle
 Alex?
 
@@ -931,14 +846,6 @@ There we go.
 00:11:51.486 --> 00:11:56.766 A:middle
 Oh! Now, I just love
 Web pages like this.
-
-00:11:56.766 --> 00:12:01.076 A:middle
-I got to stay up to date with
-what's going on in the world
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:56.766 --> 00:12:01.076 A:middle
 I got to stay up to date with
@@ -1012,14 +919,6 @@ divs that I want
 to hide also have
 the class comment.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.096 --> 00:13:00.796 A:middle
-to hide also have
-the class comment.
-
 00:13:00.906 --> 00:13:04.236 A:middle
 It's pretty easy to write
 a selector div.comments
@@ -1066,10 +965,6 @@ the content blocker extension
 template that Brian
 just mentioned.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:04.556 --> 00:14:05.706 A:middle
 My content blocker.
 
@@ -1111,14 +1006,6 @@ that match that selector.
 00:14:54.126 --> 00:14:57.246 A:middle
 And let's have this
 apply everywhere for now.
-
-00:14:57.326 --> 00:15:01.506 A:middle
-So we have the dot star regular
-expression, meaning everywhere.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:57.326 --> 00:15:01.506 A:middle
 So we have the dot star regular
@@ -1169,14 +1056,6 @@ a dog person than a cat person
 and I don't want to
 see these cat pictures.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:56.006 --> 00:16:02.386 A:middle
-and I don't want to
-see these cat pictures.
-
 00:16:02.826 --> 00:16:06.426 A:middle
 (Laughter) I don't want to wait
 for the cat pictures to load
@@ -1222,13 +1101,6 @@ matches the regular expression
 00:16:59.646 --> 00:17:01.666 A:middle
 slash cat, let's block it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.646 --> 00:17:01.666 A:middle
-slash cat, let's block it.
-
 00:17:01.996 --> 00:17:04.036 A:middle
 I think this is a
 little bit too generic.
@@ -1245,7 +1117,7 @@ if there's slash category
 in the URL anywhere on
 the, this will block it
 
-00:17:11.506 --> 00:17:12.955 A:middle
+00:17:11.506 --> 00:17:12.956 A:middle
 but that could cause problems.
 
 00:17:13.536 --> 00:17:14.396 A:middle
@@ -1259,7 +1131,7 @@ I'm pretty sure that anything
 on this website that
 has slash cat
 
-00:17:19.396 --> 00:17:22.195 A:middle
+00:17:19.396 --> 00:17:22.196 A:middle
 in its URL is probably a cat
 picture that I want to block.
 
@@ -1296,14 +1168,6 @@ I have no background color.
 00:17:57.436 --> 00:17:59.156 A:middle
 It looks like the
 CSS is also gone.
-
-00:17:59.706 --> 00:18:03.636 A:middle
-(Laughter) That's
-definitely not what we wanted.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.706 --> 00:18:03.636 A:middle
 (Laughter) That's
@@ -1365,14 +1229,6 @@ pictures, which is what I want
 to do, but it will let the
 cats and dogs.css through.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.926 --> 00:19:02.676 A:middle
-to do, but it will let the
-cats and dogs.css through.
-
 00:19:06.586 --> 00:19:08.726 A:middle
 All right, let's rerun this.
 
@@ -1420,13 +1276,6 @@ blocker on iOS.
 
 00:19:53.206 --> 00:19:53.976 A:middle
 Brian, come on back.
-
-00:19:54.516 --> 00:20:01.096 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:54.516 --> 00:20:01.096 A:middle
 [ Applause ]
@@ -1518,14 +1367,6 @@ the can load method
 and if your Safari extension
 specifies a block list,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.786 --> 00:21:03.086 A:middle
-and if your Safari extension
-specifies a block list,
-
 00:21:03.406 --> 00:21:06.646 A:middle
 calls to can load will become
 no ops in your extension.
@@ -1590,10 +1431,6 @@ or a JSON string.
 
 00:21:56.876 --> 00:21:57.976 A:middle
 This API accepts both.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.456 --> 00:22:02.456 A:middle
 So that was an overview
@@ -1674,14 +1511,6 @@ this, all you have
 to do is resubmit your
 extensions to the gallery.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.776 --> 00:23:02.566 A:middle
-to do is resubmit your
-extensions to the gallery.
-
 00:23:03.576 --> 00:23:06.066 A:middle
 And another great
 thing about this is
@@ -1746,13 +1575,6 @@ Shared Links app extensions.
 00:23:55.136 --> 00:23:59.126 A:middle
 Shared Links is a Safari feature
 that shows up next to your list
-
-00:23:59.126 --> 00:24:00.956 A:middle
-of bookmarks and reading lists.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.126 --> 00:24:00.956 A:middle
 of bookmarks and reading lists.
@@ -1833,14 +1655,6 @@ select Shared Links extension
 on the platform you're
 interested in.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.846 --> 00:25:00.476 A:middle
-on the platform you're
-interested in.
-
 00:25:01.366 --> 00:25:06.126 A:middle
 How an app extension works
 on a high level is that,
@@ -1910,14 +1724,6 @@ date of the Shared Links item
 and Safari uses the date of
 each item to intersperse items
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.486 --> 00:26:03.156 A:middle
-and Safari uses the date of
-each item to intersperse items
-
 00:26:03.156 --> 00:26:07.726 A:middle
 from various sources inside
 of your user Shared Links.
@@ -1982,14 +1788,6 @@ attributed content text
 
 00:26:55.836 --> 00:26:58.006 A:middle
 of the NSExtension item.
-
-00:26:58.006 --> 00:27:00.556 A:middle
-Both of these will be
-automatically ellipsized
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.006 --> 00:27:00.556 A:middle
 Both of these will be
@@ -2066,14 +1864,6 @@ content inside Shared Links.
 I would like to bring Alex
 back up to give another demo.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.026 --> 00:28:01.726 A:middle
-I would like to bring Alex
-back up to give another demo.
-
 00:28:02.316 --> 00:28:02.826 A:middle
 Alex?
 
@@ -2127,10 +1917,6 @@ Create a new project.
 Let's make it for OS X, but you
 can do the same thing for iOS.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:06.766 --> 00:29:08.386 A:middle
 Put it on the desktop for now.
 
@@ -2176,10 +1962,6 @@ Links extension
 00:29:54.796 --> 00:29:57.526 A:middle
 and it put some template
 Swift right here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.226 --> 00:30:03.406 A:middle
 And this Swift is
@@ -2233,14 +2015,6 @@ extension and if I click on it,
 then it takes me to
 Apple.com, which is great.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:57.316 --> 00:31:00.766 A:middle
-then it takes me to
-Apple.com, which is great.
-
 00:31:00.896 --> 00:31:02.416 A:middle
 That's what the template
 said to do.
@@ -2285,14 +2059,6 @@ some links and some content
 00:31:50.506 --> 00:31:53.336 A:middle
 that I might want to put
 into the Shared Links.
-
-00:31:55.506 --> 00:32:00.796 A:middle
-All right, so it will make
-a request, get this JSON.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:55.506 --> 00:32:00.796 A:middle
 All right, so it will make
@@ -2352,10 +2118,6 @@ Let's put it in this demo.
 00:32:55.516 --> 00:32:57.276 A:middle
 I need to add it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:02.426 --> 00:33:03.606 A:middle
 Adding puppy icon.
 
@@ -2409,14 +2171,6 @@ console and look
 at the sys log console
 you'll see a bunch
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.876 --> 00:34:02.196 A:middle
-at the sys log console
-you'll see a bunch
-
 00:34:04.066 --> 00:34:05.576 A:middle
 of sandbox exceptions.
 
@@ -2431,14 +2185,14 @@ to keep users safe,
 these extensions only have
 access to what they need to.
 
-00:34:15.585 --> 00:34:18.775 A:middle
+00:34:15.586 --> 00:34:18.776 A:middle
 This particular extension
 right now does not have access
 
-00:34:18.775 --> 00:34:19.235 A:middle
+00:34:18.776 --> 00:34:19.236 A:middle
 to the network.
 
-00:34:19.735 --> 00:34:23.126 A:middle
+00:34:19.736 --> 00:34:23.126 A:middle
 So we are trying to
 make an NSURL request,
 
@@ -2450,18 +2204,18 @@ access to the network.
 So if I click on
 the project here,
 
-00:34:31.146 --> 00:34:37.005 A:middle
+00:34:31.146 --> 00:34:37.006 A:middle
 and then go to capabilities,
 right here I need
 
-00:34:37.005 --> 00:34:38.525 A:middle
+00:34:37.006 --> 00:34:38.526 A:middle
 to check outgoing connections
 
 00:34:39.196 --> 00:34:44.376 A:middle
 to let this extension have
 the ability to be able to send
 
-00:34:44.376 --> 00:34:46.835 A:middle
+00:34:44.376 --> 00:34:46.836 A:middle
 and initiate outgoing
 connections
 
@@ -2473,10 +2227,6 @@ All right.
 
 00:34:54.476 --> 00:34:55.326 A:middle
 Now, let's run it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:08.296 --> 00:35:09.216 A:middle
 There we go!
@@ -2538,14 +2288,6 @@ ability for you
 00:35:56.396 --> 00:35:58.126 A:middle
 to write content
 blockers for iOS.
-
-00:35:58.816 --> 00:36:00.976 A:middle
-If you have a content
-blocker on the Mac,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.816 --> 00:36:00.976 A:middle
 If you have a content
@@ -2626,13 +2368,6 @@ if you have an app
 00:36:59.916 --> 00:37:01.796 A:middle
 that displays Web content check
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.916 --> 00:37:01.796 A:middle
-that displays Web content check
-
 00:37:01.796 --> 00:37:04.256 A:middle
 out the talk Introducing
 Safari View Controller.
@@ -2672,4 +2407,3 @@ Enjoy the rest of your Friday.
 
 00:37:27.516 --> 00:37:30.500 A:middle
 [ Applause ]
-

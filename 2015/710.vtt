@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:25.516 --> 00:00:33.796 A:middle
 [Applause]
@@ -37,14 +36,6 @@ little bit of familiarity
 00:00:56.136 --> 00:00:58.746 A:middle
 with CloudKit I will be
 giving you a brief overview
-
-00:00:58.966 --> 00:01:02.006 A:middle
-of the architecture but if you
-want a more deep dive we had a
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.966 --> 00:01:02.006 A:middle
 of the architecture but if you
@@ -114,14 +105,6 @@ interface with the server.
 We are introducing
 CloudKit Web Services today,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.696 --> 00:02:01.536 A:middle
-We are introducing
-CloudKit Web Services today,
-
 00:02:02.696 --> 00:02:04.966 A:middle
 which we have used to
 bill the Notes Web app,
@@ -130,7 +113,7 @@ bill the Notes Web app,
 and today you can use
 to build your web app.
 
-00:02:10.735 --> 00:02:15.036 A:middle
+00:02:10.736 --> 00:02:15.036 A:middle
 So what exactly is the
 CloudKit Web Service?
 
@@ -178,14 +161,6 @@ have user discoverability
 00:02:55.756 --> 00:02:57.206 A:middle
 where you can find
 users' real names.
-
-00:02:57.766 --> 00:03:02.656 A:middle
-You can do sync and we
-provide authentication.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.766 --> 00:03:02.656 A:middle
 You can do sync and we
@@ -256,13 +231,6 @@ through the WWDR portal
 00:03:59.516 --> 00:04:00.286 A:middle
 or through Xcode.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.516 --> 00:04:00.286 A:middle
-or through Xcode.
-
 00:04:01.516 --> 00:04:03.416 A:middle
 Once you have the container
 you need to create a schema.
@@ -282,10 +250,10 @@ application up and running.
 00:04:15.566 --> 00:04:16.946 A:middle
 Let's enable web access.
 
-00:04:18.005 --> 00:04:19.346 A:middle
+00:04:18.006 --> 00:04:19.346 A:middle
 This is a three-step process.
 
-00:04:20.005 --> 00:04:22.956 A:middle
+00:04:20.006 --> 00:04:22.956 A:middle
 Number one, you need to generate
 a web service API token.
 
@@ -320,14 +288,6 @@ ID, which is what you pass
 00:04:54.366 --> 00:04:57.386 A:middle
 in when you make a
 web service call,
-
-00:04:58.466 --> 00:05:01.486 A:middle
-below that I have chosen post
-message as my login call back.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.466 --> 00:05:01.486 A:middle
 below that I have chosen post
@@ -402,13 +362,6 @@ we don't provide user name
 00:05:59.556 --> 00:06:00.936 A:middle
 or password to your app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.556 --> 00:06:00.936 A:middle
-or password to your app.
-
 00:06:01.756 --> 00:06:04.536 A:middle
 Instead we give you a
 stable anonymous identifier
@@ -461,14 +414,6 @@ authenticated user.
 00:06:55.186 --> 00:06:58.816 A:middle
 So in the response
 we get a redirect URL
-
-00:06:58.816 --> 00:07:00.846 A:middle
-where we can send the
-user to authenticate.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.816 --> 00:07:00.846 A:middle
 where we can send the
@@ -546,14 +491,6 @@ easy to use as possible.
 So we are proud to introduce
 CloudKit JS a wrapper
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:56.476 --> 00:08:01.346 A:middle
-So we are proud to introduce
-CloudKit JS a wrapper
-
 00:08:01.346 --> 00:08:02.706 A:middle
 on top of the JSON.
 
@@ -587,7 +524,7 @@ library that works well
 with any framework or library
 you might already be using
 
-00:08:33.905 --> 00:08:34.405 A:middle
+00:08:33.906 --> 00:08:34.406 A:middle
 on the web.
 
 00:08:35.816 --> 00:08:36.806 A:middle
@@ -597,11 +534,11 @@ It's also important to note
 that this is a low level
 transport API which means
 
-00:08:39.626 --> 00:08:42.395 A:middle
+00:08:39.626 --> 00:08:42.396 A:middle
 that it doesn't really
 intend to be a data store.
 
-00:08:42.395 --> 00:08:45.196 A:middle
+00:08:42.396 --> 00:08:45.196 A:middle
 It doesn't allow a lot
 of abstraction on top
 
@@ -620,13 +557,6 @@ straight into it.
 00:08:57.296 --> 00:08:59.576 A:middle
 Also it allows for
 an easy transition
-
-00:08:59.576 --> 00:09:00.656 A:middle
-from CloudKit Framework.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.576 --> 00:09:00.656 A:middle
 from CloudKit Framework.
@@ -696,14 +626,6 @@ So before we start looking more
 00:09:56.136 --> 00:09:58.296 A:middle
 at the API let me
 give you a quick demo.
-
-00:09:58.296 --> 00:10:11.726 A:middle
-So what we are looking at here
-is the CloudKit catalog sample
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.296 --> 00:10:11.726 A:middle
 So what we are looking at here
@@ -786,14 +708,6 @@ a signed in button.
 And you can actually go ahead
 on top here and run this code.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.816 --> 00:11:01.556 A:middle
-And you can actually go ahead
-on top here and run this code.
-
 00:11:01.556 --> 00:11:03.636 A:middle
 So if I click this
 run code button,
@@ -863,10 +777,6 @@ as well as being discoverable
 00:11:57.386 --> 00:11:59.576 A:middle
 in the container for
 other users to find them.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.426 --> 00:12:02.576 A:middle
 So now that we have the first
@@ -954,14 +864,6 @@ name landscape 1.
 This is the record name which
 is the unique identifier.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.876 --> 00:13:01.086 A:middle
-This is the record name which
-is the unique identifier.
-
 00:13:01.706 --> 00:13:05.006 A:middle
 And I will change the name here
 to just called it green field.
@@ -1025,14 +927,6 @@ is to save records
 
 00:13:52.426 --> 00:13:54.956 A:middle
 with CloudKit, with CloudKit JS.
-
-00:13:55.096 --> 00:14:00.296 A:middle
-Now, let's go and do another
-feature called querying.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:55.096 --> 00:14:00.296 A:middle
 Now, let's go and do another
@@ -1112,14 +1006,6 @@ of the additional features
 but we encourage
 you to check it out.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.636 --> 00:15:00.526 A:middle
-but we encourage
-you to check it out.
-
 00:15:00.526 --> 00:15:03.306 A:middle
 You can go to
 developer@Apple.com/CloudKit
@@ -1172,14 +1058,6 @@ Apple magic here.
 00:15:55.416 --> 00:15:59.376 A:middle
 So hopefully you are as excited
 about CloudKit JS as we are
-
-00:15:59.376 --> 00:16:01.966 A:middle
-and see a lot of new
-possibilities here and want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.376 --> 00:16:01.966 A:middle
 and see a lot of new
@@ -1256,23 +1134,15 @@ like we saw in the sample app.
 So on iOS and OS X this is
 straight forward with CloudKit.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.526 --> 00:17:01.306 A:middle
-So on iOS and OS X this is
-straight forward with CloudKit.
-
-00:17:01.986 --> 00:17:04.925 A:middle
+00:17:01.986 --> 00:17:04.926 A:middle
 All you need to do since
 most users are already signed
 
-00:17:04.925 --> 00:17:09.935 A:middle
+00:17:04.926 --> 00:17:09.936 A:middle
 into iCloud on the device is
 to call the fetch user method
 
-00:17:09.935 --> 00:17:12.596 A:middle
+00:17:09.936 --> 00:17:12.596 A:middle
 on the container and you
 get back a user record
 
@@ -1341,14 +1211,6 @@ user name and credentials.
 00:17:57.696 --> 00:17:59.586 A:middle
 This obviously only
 goes back to Apple.
-
-00:17:59.586 --> 00:18:02.116 A:middle
-There is also a two-step
-verification
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.586 --> 00:18:02.116 A:middle
 There is also a two-step
@@ -1432,14 +1294,6 @@ is going to be the same now
 on the web as it is on iOS
 and OS X so you have a way
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.956 --> 00:19:02.926 A:middle
-on the web as it is on iOS
-and OS X so you have a way
-
 00:19:02.926 --> 00:19:06.326 A:middle
 of referencing the same user
 across all of the platforms.
@@ -1507,13 +1361,6 @@ persist property
 00:19:59.176 --> 00:20:00.676 A:middle
 to true in the configuration.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.176 --> 00:20:00.676 A:middle
-to true in the configuration.
-
 00:20:01.976 --> 00:20:05.516 A:middle
 Now, instead of cookies,
 you might actually want
@@ -1571,14 +1418,6 @@ a record named task 1.
 
 00:20:56.876 --> 00:20:57.916 A:middle
 We have record type tasks,
-
-00:20:57.916 --> 00:21:02.226 A:middle
-and we have some metadata
-fields created and modified
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:57.916 --> 00:21:02.226 A:middle
 and we have some metadata
@@ -1656,14 +1495,6 @@ objects like CL location,
 we have a location object,
 and a reference object
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.366 --> 00:22:03.156 A:middle
-we have a location object,
-and a reference object
-
 00:22:03.156 --> 00:22:06.276 A:middle
 and also an asset object,
 and we ask you to look
@@ -1729,10 +1560,6 @@ this value is fully a string
 00:22:53.736 --> 00:22:56.986 A:middle
 to you have to specify this for
 all of the basic types we have.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:01.416 --> 00:23:05.646 A:middle
 So next we want to talk about
@@ -1807,14 +1634,6 @@ from every record.
 We are limiting the result set
 to ten and we will limit records
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:57.976 --> 00:24:03.406 A:middle
-We are limiting the result set
-to ten and we will limit records
-
 00:24:03.486 --> 00:24:09.296 A:middle
 in the all task custom zone.
 
@@ -1881,14 +1700,6 @@ So results limits at 10.
 00:24:54.876 --> 00:24:58.966 A:middle
 So we will get back
 the first 10 records
-
-00:24:58.966 --> 00:25:02.616 A:middle
-when this promise resolves but
-there is more coming property
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.966 --> 00:25:02.616 A:middle
 when this promise resolves but
@@ -1967,13 +1778,6 @@ in the CloudKit catalogue app.
 00:25:58.246 --> 00:26:00.306 A:middle
 So when a file is selected,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.246 --> 00:26:00.306 A:middle
-So when a file is selected,
-
 00:26:00.506 --> 00:26:03.576 A:middle
 the handle file select
 function is going to get called,
@@ -2037,14 +1841,6 @@ CloudKit is subscriptions
 
 00:26:55.666 --> 00:26:56.636 A:middle
 and push notifications.
-
-00:26:57.886 --> 00:27:01.436 A:middle
-And all pushes to
-Apple devices go
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.886 --> 00:27:01.436 A:middle
 And all pushes to
@@ -2123,14 +1919,6 @@ subscription ID is change tasks
 and we give is zone
 ID of all tasks.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.126 --> 00:28:01.536 A:middle
-and we give is zone
-ID of all tasks.
-
 00:28:01.666 --> 00:28:05.276 A:middle
 I would go ahead and save the
 subscription with the database.
@@ -2189,14 +1977,6 @@ to implement two things,
 00:28:54.186 --> 00:28:57.086 A:middle
 first you have to implement
 register for notifications.
-
-00:28:57.536 --> 00:29:00.116 A:middle
-This will go ahead and fetch
-a token from the server
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.536 --> 00:29:00.116 A:middle
 This will go ahead and fetch
@@ -2273,14 +2053,6 @@ you might load on the web page
 00:29:55.686 --> 00:29:59.256 A:middle
 and it will avoid any blocking
 and impact on user experience
-
-00:29:59.406 --> 00:30:05.396 A:middle
-and last you want to make sure
-you handle the request responses
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.406 --> 00:30:05.396 A:middle
 and last you want to make sure
@@ -2363,13 +2135,6 @@ it back to Chris.
 00:30:52.516 --> 00:31:02.116 A:middle
 [Applause]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:52.516 --> 00:31:02.116 A:middle
-[Applause]
-
 00:31:02.616 --> 00:31:03.416 A:middle
 &gt;&gt; CHRIS EDSTROM: Thanks Onar.
 
@@ -2439,14 +2204,6 @@ yesterday which is available
 on line and tomorrow as Onar
 mentioned we have CloudKit tips
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.556 --> 00:32:02.956 A:middle
-on line and tomorrow as Onar
-mentioned we have CloudKit tips
-
 00:32:02.956 --> 00:32:03.326 A:middle
 and tricks.
 
@@ -2458,4 +2215,3 @@ And thank you very much.
 
 00:32:05.516 --> 00:32:10.500 A:middle
 [Applause]
-

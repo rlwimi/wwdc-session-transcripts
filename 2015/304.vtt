@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:22.111 --> 00:00:24.111 A:middle
 [Applause]
@@ -58,14 +57,6 @@ wildly popular what's new
 
 00:00:55.756 --> 00:00:56.456 A:middle
 on iTunes Connect.
-
-00:00:57.276 --> 00:01:01.466 A:middle
-We just devoted an incredible
-session to app analytics
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.276 --> 00:01:01.466 A:middle
 We just devoted an incredible
@@ -161,13 +152,6 @@ beautiful modules on this.
 
 00:01:57.226 --> 00:01:59.176 A:middle
 This is my favorite module.
-
-00:01:59.176 --> 00:02:00.056 A:middle
-My favorite module.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.176 --> 00:02:00.056 A:middle
 My favorite module.
@@ -271,14 +255,6 @@ tax, and banking section
 and so this section -- my protip
 is make sure you are caring
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:58.966 --> 00:03:01.836 A:middle
-and so this section -- my protip
-is make sure you are caring
-
 00:03:01.836 --> 00:03:04.046 A:middle
 and feeding for your
 iTunes Connect by going
@@ -359,14 +335,6 @@ you need in it!
 00:03:55.826 --> 00:03:57.406 A:middle
 This tells you how to
 launch apps and how
-
-00:03:57.406 --> 00:04:00.686 A:middle
-to get your assets ready and how
-to interact with iTunes Connect.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:57.406 --> 00:04:00.686 A:middle
 to get your assets ready and how
@@ -474,14 +442,6 @@ relevant FAQs for you guys.
 It's likely that if
 you have a question,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.496 --> 00:05:01.336 A:middle
-It's likely that if
-you have a question,
-
 00:05:01.336 --> 00:05:02.766 A:middle
 it's answerable in the FAQs.
 
@@ -577,14 +537,6 @@ corner, it's called contact us,
 and you can reach it via
 the developer forums.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.846 --> 00:06:00.916 A:middle
-and you can reach it via
-the developer forums.
-
 00:06:01.806 --> 00:06:06.986 A:middle
 Then we can filter it down by,
 I think 19 different categories.
@@ -665,13 +617,6 @@ that I wouldn't sing.
 
 00:06:56.216 --> 00:06:57.026 A:middle
 There you go.
-
-00:06:57.026 --> 00:07:01.236 A:middle
-All right.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.026 --> 00:07:01.236 A:middle
 All right.
@@ -771,13 +716,6 @@ They keep it up to date.
 00:07:59.676 --> 00:08:00.396 A:middle
 It's fantastic.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.676 --> 00:08:00.396 A:middle
-It's fantastic.
-
 00:08:00.446 --> 00:08:01.486 A:middle
 There are a couple of others.
 
@@ -838,17 +776,17 @@ good friend, Alex Miyamura
 to give you a demo
 of TestFlight.
 
-00:08:34.515 --> 00:08:36.885 A:middle
+00:08:34.516 --> 00:08:36.886 A:middle
 [Applause]
 
-00:08:37.385 --> 00:08:38.716 A:middle
+00:08:37.386 --> 00:08:38.716 A:middle
 &gt;&gt; ALEX MIYAMURA: Thank
 you so much, Paul.
 
 00:08:39.756 --> 00:08:40.486 A:middle
 I'm Alex Miyamura.
 
-00:08:40.765 --> 00:08:43.166 A:middle
+00:08:40.766 --> 00:08:43.166 A:middle
 I'm an engineer with the
 TestFlight team I'm here
 
@@ -873,14 +811,6 @@ and this is Xcode.
 00:08:55.816 --> 00:08:58.886 A:middle
 I have an app that I
 created open, Touch Fighter
-
-00:08:58.926 --> 00:09:02.086 A:middle
-and I'm going to upload
-it up to iTunes Connect.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.926 --> 00:09:02.086 A:middle
 and I'm going to upload
@@ -946,14 +876,6 @@ Thank you so much.
 00:09:56.356 --> 00:09:58.836 A:middle
 &gt;&gt; ALEX MIYAMURA: And so now
 you will see the My Apps module
-
-00:09:58.836 --> 00:10:01.376 A:middle
-that Paul spoke about,
-and we'll click in there
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.836 --> 00:10:01.376 A:middle
 that Paul spoke about,
@@ -1034,14 +956,6 @@ and external testing.
 And first, we'll go
 over internal testing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.866 --> 00:11:00.866 A:middle
-And first, we'll go
-over internal testing.
-
 00:11:01.366 --> 00:11:04.256 A:middle
 Internal testing is used
 to distribute your app
@@ -1113,14 +1027,6 @@ TestFlight beta testers
 and select his Apple
 ID and hit save.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.396 --> 00:12:00.576 A:middle
-and select his Apple
-ID and hit save.
-
 00:12:01.056 --> 00:12:04.976 A:middle
 When we have done that, that
 actually adds my colleague,
@@ -1179,14 +1085,6 @@ is active for 30 days now.
 00:12:48.996 --> 00:12:57.476 A:middle
 And so once you -- once
 you switched that switch,
-
-00:12:57.476 --> 00:13:01.166 A:middle
-you will see that I as a
-tester have received an email
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.476 --> 00:13:01.166 A:middle
 you will see that I as a
@@ -1260,10 +1158,6 @@ compared to 25 internal testers.
 That's 40 times and
 coming this fall,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:00.046 --> 00:14:01.136 A:middle
 again, we will double that.
 
@@ -1326,14 +1220,6 @@ populate all the tester names
 00:14:53.656 --> 00:14:58.306 A:middle
 and you will be able
 to add the testers.
-
-00:14:59.556 --> 00:15:03.076 A:middle
-The one difference, other than
-the large amount of testers
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.556 --> 00:15:03.076 A:middle
 The one difference, other than
@@ -1417,14 +1303,6 @@ to reach out to you, and so
 that that can be get
 resolved as soon as possible.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.546 --> 00:16:02.006 A:middle
-that that can be get
-resolved as soon as possible.
-
 00:16:03.196 --> 00:16:04.006 A:middle
 And once you fill
 
@@ -1502,23 +1380,15 @@ make T-shirts that say that
 and we're going to wear them
 around town and everyone's going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.966 --> 00:17:03.096 A:middle
-and we're going to wear them
-around town and everyone's going
-
 00:17:03.096 --> 00:17:06.636 A:middle
 to think we are the
 weirdest people ever.
 
-00:17:06.636 --> 00:17:11.205 A:middle
+00:17:06.636 --> 00:17:11.206 A:middle
 Before I bring up Mr. Nik Uglov
 to do a deep dive into XML,
 
-00:17:11.205 --> 00:17:14.566 A:middle
+00:17:11.206 --> 00:17:14.566 A:middle
 I just want to remind everybody
 of all the materials needed
 
@@ -1526,7 +1396,7 @@ of all the materials needed
 to launch an app
 on the App Store.
 
-00:17:16.165 --> 00:17:21.536 A:middle
+00:17:16.166 --> 00:17:21.536 A:middle
 We come to the end and we are
 about to release and we go, oh,
 
@@ -1585,14 +1455,6 @@ understand how
 
 00:17:57.156 --> 00:17:58.216 A:middle
 to use it before they buy it.
-
-00:17:58.216 --> 00:18:02.716 A:middle
-If it has a new version,
-it's what's new text.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.216 --> 00:18:02.716 A:middle
 If it has a new version,
@@ -1682,14 +1544,6 @@ my name is Nik Uglov,
 I'm an engineering manager with
 iTunes Store for content import.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.236 --> 00:19:02.996 A:middle
-I'm an engineering manager with
-iTunes Store for content import.
-
 00:19:03.946 --> 00:19:08.206 A:middle
 And as Paul just showed you
 and kind of gave you a hint
@@ -1765,13 +1619,6 @@ shots in their own right.
 00:19:58.836 --> 00:20:00.136 A:middle
 Game Center achievements
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.836 --> 00:20:00.136 A:middle
-Game Center achievements
-
 00:20:00.136 --> 00:20:03.946 A:middle
 and leaderboards also have
 images and localization.
@@ -1843,10 +1690,6 @@ the rates and pricing,
 00:20:55.826 --> 00:20:59.566 A:middle
 and in-app purchases and
 Game Center achievements
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.016 --> 00:21:02.266 A:middle
 and leaderboards.
@@ -1928,14 +1771,6 @@ need to park it somewhere.
 You are holding it somewhere and
 you have some sort of process
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:57.436 --> 00:22:00.916 A:middle
-You are holding it somewhere and
-you have some sort of process
-
 00:22:01.236 --> 00:22:02.416 A:middle
 that works for your company.
 
@@ -2007,10 +1842,6 @@ And the feed itself is available
 00:22:55.536 --> 00:22:57.606 A:middle
 for iOS apps and
 Mac apps equally.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:01.516 --> 00:23:02.726 A:middle
 So how does this work?
@@ -2092,14 +1923,6 @@ cycle of your interactions
 with iTunes Connect
 using Transporter.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.096 --> 00:24:00.296 A:middle
-with iTunes Connect
-using Transporter.
-
 00:24:01.286 --> 00:24:06.736 A:middle
 Download the package, edit XML
 and add assets to it, validate,
@@ -2157,14 +1980,6 @@ metadata XML data inside
 00:24:53.746 --> 00:24:58.206 A:middle
 and the reason I recommend
 that you start this way is
-
-00:24:58.206 --> 00:25:01.006 A:middle
-that it's a lot easier
-to start by example.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.206 --> 00:25:01.006 A:middle
 that it's a lot easier
@@ -2257,14 +2072,6 @@ to make sure
 that they match the
 devices that they are for.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.786 --> 00:26:01.446 A:middle
-that they match the
-devices that they are for.
-
 00:26:02.806 --> 00:26:04.296 A:middle
 If there are any errors,
 we will report it back
@@ -2338,14 +2145,6 @@ to be processed,
 00:26:51.696 --> 00:26:57.616 A:middle
 alongside the binaries and
 any other content we process.
-
-00:26:58.136 --> 00:27:02.286 A:middle
-And it might take a
-minute or two for it to be,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.136 --> 00:27:02.286 A:middle
 And it might take a
@@ -2432,14 +2231,6 @@ vendor ID which is the app SKU
 
 00:27:57.176 --> 00:27:58.836 A:middle
 and then the software metadata
-
-00:27:58.836 --> 00:28:00.406 A:middle
-because this is what
-you are about to send.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.836 --> 00:28:00.406 A:middle
 because this is what
@@ -2536,14 +2327,6 @@ which is the app's SKU.
 And the next step
 depends on what it is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.376 --> 00:29:03.966 A:middle
-And the next step
-depends on what it is
-
 00:29:04.216 --> 00:29:05.616 A:middle
 that you are trying to do.
 
@@ -2622,10 +2405,6 @@ In the XML, it would be locale,
 00:29:55.176 --> 00:29:59.766 A:middle
 name and the BCP47 tag
 identifying the language.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.896 --> 00:30:03.406 A:middle
 BCP47 is a format --
@@ -2708,14 +2487,6 @@ and all of the iPhones
 and Apple Watch and
 iPad and if it happens
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.616 --> 00:31:02.346 A:middle
-and Apple Watch and
-iPad and if it happens
-
 00:31:02.346 --> 00:31:04.506 A:middle
 to be a Mac app is
 the option there
@@ -2789,14 +2560,6 @@ discount and also still
 on the same level, also
 territory WW for worldwide,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.956 --> 00:32:03.016 A:middle
-on the same level, also
-territory WW for worldwide,
-
 00:32:03.716 --> 00:32:05.446 A:middle
 what is the pricing
 tier for your app?
@@ -2854,14 +2617,6 @@ for five days and back up to 3.
 00:32:53.646 --> 00:32:57.016 A:middle
 Notice no end date there, which
 means it's effective forever,
-
-00:32:58.016 --> 00:33:00.836 A:middle
-until you decide to change
-that with a next update.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.016 --> 00:33:00.836 A:middle
 until you decide to change
@@ -2954,14 +2709,6 @@ enough section of the feed
 that I won't go through
 the tags here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.166 --> 00:34:01.006 A:middle
-that I won't go through
-the tags here.
-
 00:34:01.666 --> 00:34:03.636 A:middle
 Please download the
 documentation,
@@ -2976,18 +2723,18 @@ can do in the web interface,
 00:34:07.786 --> 00:34:09.406 A:middle
 you can do in the feed.
 
-00:34:10.255 --> 00:34:12.626 A:middle
+00:34:10.256 --> 00:34:12.626 A:middle
 The same goes for
 leaderboards and achievements.
 
-00:34:13.985 --> 00:34:15.076 A:middle
+00:34:13.986 --> 00:34:15.076 A:middle
 Fully supported.
 
 00:34:15.366 --> 00:34:18.966 A:middle
 Everything you can do in a
 web GUI, you can do in a feed.
 
-00:34:19.295 --> 00:34:20.536 A:middle
+00:34:19.296 --> 00:34:20.536 A:middle
 Please download the
 documentation,
 
@@ -3002,15 +2749,15 @@ able to you is Transporter,
 the command line tool for
 managing the interactions
 
-00:34:34.206 --> 00:34:35.795 A:middle
+00:34:34.206 --> 00:34:35.796 A:middle
 in your environment
 and iTunes Connect
 
-00:34:36.696 --> 00:34:40.485 A:middle
+00:34:36.696 --> 00:34:40.486 A:middle
 and app metadata XML feed for
 all the areas that we covered.
 
-00:34:41.085 --> 00:34:44.216 A:middle
+00:34:41.086 --> 00:34:44.216 A:middle
 And those are great
 for automation.
 
@@ -3026,19 +2773,11 @@ copy/paste business.
 And you can integrate
 iTunes Connect
 
-00:34:54.686 --> 00:34:55.755 A:middle
+00:34:54.686 --> 00:34:55.756 A:middle
 with your back-end systems.
 
-00:34:55.755 --> 00:34:56.585 A:middle
+00:34:55.756 --> 00:34:56.586 A:middle
 Whatever those may be.
-
-00:34:58.166 --> 00:35:00.326 A:middle
-So get your hands on two
-pieces of information,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.166 --> 00:35:00.326 A:middle
 So get your hands on two
@@ -3130,14 +2869,6 @@ obviously the developer portal.
 And you can contact our fearless
 evangelist, Marc Malone.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:57.846 --> 00:36:01.086 A:middle
-And you can contact our fearless
-evangelist, Marc Malone.
-
 00:36:02.256 --> 00:36:03.996 A:middle
 Some related sessions
 already happened
@@ -3163,4 +2894,3 @@ have a great conference!
 
 00:36:15.516 --> 00:36:19.500 A:middle
 [Applause]
-

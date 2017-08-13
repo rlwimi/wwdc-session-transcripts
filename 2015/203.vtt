@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:20.016 --> 00:00:24.926 A:middle
 [ Applause ]
@@ -16,7 +15,7 @@ opportunity for you to learn
 about the new things
 we have in store
 
-00:00:30.886 --> 00:00:32.375 A:middle
+00:00:30.886 --> 00:00:32.376 A:middle
 for you in the SDK this year.
 
 00:00:32.476 --> 00:00:34.106 A:middle
@@ -59,14 +58,6 @@ preferences API introduced
 
 00:00:57.816 --> 00:00:58.946 A:middle
 in iOS 8.2.
-
-00:00:58.996 --> 00:01:01.216 A:middle
-We will talk about
-the diatribes iOS 9,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.996 --> 00:01:01.216 A:middle
 We will talk about
@@ -156,13 +147,6 @@ experience while being part
 00:01:58.956 --> 00:02:00.046 A:middle
 of a greater ecosystem.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.956 --> 00:02:00.046 A:middle
-of a greater ecosystem.
-
 00:02:02.926 --> 00:02:05.976 A:middle
 Finally, with HealthKit
 comes a Health app,
@@ -171,7 +155,7 @@ comes a Health app,
 which provides a general
 view into HealthKit.
 
-00:02:08.895 --> 00:02:12.356 A:middle
+00:02:08.896 --> 00:02:12.356 A:middle
 In iOS 9 we have added more
 views to allow to make it easier
 
@@ -234,13 +218,6 @@ We find the possibility
 00:02:56.276 --> 00:02:58.846 A:middle
 of automatic quantified health
 data syncing to HealthKit
-
-00:02:58.846 --> 00:03:00.386 A:middle
-on your device to be powerful.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.846 --> 00:03:00.386 A:middle
 on your device to be powerful.
@@ -336,13 +313,6 @@ and unit.
 00:03:58.876 --> 00:04:00.536 A:middle
 I would like to take time now
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.876 --> 00:04:00.536 A:middle
-I would like to take time now
-
 00:04:00.606 --> 00:04:02.366 A:middle
 to discuss the new
 unit preferences API.
@@ -362,11 +332,11 @@ to cover it now.
 You might have noticed
 in iOS 8.2
 
-00:04:15.886 --> 00:04:20.685 A:middle
+00:04:15.886 --> 00:04:20.686 A:middle
 that there was a new unit
 pane in the Health app.
 
-00:04:20.685 --> 00:04:23.376 A:middle
+00:04:20.686 --> 00:04:23.376 A:middle
 Units are shown based on the
 region and locale of a user;
 
@@ -416,10 +386,6 @@ the new data types available
 00:04:55.646 --> 00:04:58.716 A:middle
 in iOS 9, the first
 one is water intake.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:01.966 --> 00:05:03.996 A:middle
 I'm sure we all know
@@ -496,14 +462,6 @@ and benefits to human health.
 00:05:55.976 --> 00:05:59.066 A:middle
 It can stimulate the
 production of vitamin D,
-
-00:05:59.126 --> 00:06:01.586 A:middle
-and it can improve
-mood and well-being.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.126 --> 00:06:01.586 A:middle
 and it can improve
@@ -593,14 +551,6 @@ of burning or tanning.
 The emogis in iOS 8.3 are
 based on the Fitzpatrick scale.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:56.866 --> 00:07:00.376 A:middle
-The emogis in iOS 8.3 are
-based on the Fitzpatrick scale.
-
 00:07:00.376 --> 00:07:02.316 A:middle
 All the way on the
 left is type 1,
@@ -679,14 +629,6 @@ a major component of health.
 For many women who track their
 health data, nothing has been
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.436 --> 00:08:00.976 A:middle
-For many women who track their
-health data, nothing has been
-
 00:08:00.976 --> 00:08:03.836 A:middle
 as exciting or revealing as
 tracking their menstrual cycles,
@@ -737,7 +679,7 @@ It helps and has helped millions
 of people make informed
 decisions
 
-00:08:34.456 --> 00:08:36.285 A:middle
+00:08:34.456 --> 00:08:36.286 A:middle
 about their fertility
 and family planning.
 
@@ -745,11 +687,11 @@ and family planning.
 Apps that track cycles
 in fertility are some
 
-00:08:40.446 --> 00:08:41.635 A:middle
+00:08:40.446 --> 00:08:41.636 A:middle
 of the most popular
 in the Health
 
-00:08:41.635 --> 00:08:43.186 A:middle
+00:08:41.636 --> 00:08:43.186 A:middle
 and Fitness category
 in the App Store.
 
@@ -768,14 +710,6 @@ to reproductive health,
 00:08:56.676 --> 00:08:58.916 A:middle
 and we starting by
 adding six new types.
-
-00:08:59.326 --> 00:09:01.116 A:middle
-These are meant to be
-open, so they may be useful
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.326 --> 00:09:01.116 A:middle
 These are meant to be
@@ -866,14 +800,6 @@ is a category sample,
 which lists the generally
 medically accepted CM states.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.706 --> 00:10:00.336 A:middle
-which lists the generally
-medically accepted CM states.
-
 00:10:03.906 --> 00:10:06.306 A:middle
 The next type we're adding
 is Ovulation Test Results.
@@ -937,14 +863,6 @@ last period and regularity
 00:10:56.166 --> 00:10:57.846 A:middle
 of a cycle is medically
 important information,
-
-00:10:57.846 --> 00:11:00.836 A:middle
-we want to make it easier for
-apps to easily calculate this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.846 --> 00:11:00.836 A:middle
 we want to make it easier for
@@ -1037,14 +955,6 @@ have dates, metadata,
 and other attributes, but
 they cannot be enumerated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.996 --> 00:12:01.106 A:middle
-and other attributes, but
-they cannot be enumerated
-
 00:12:01.106 --> 00:12:02.036 A:middle
 into multiple values.
 
@@ -1126,14 +1036,6 @@ in your apps and devices.
 Now, I will hand
 it over to Allen
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.546 --> 00:13:01.456 A:middle
-Now, I will hand
-it over to Allen
-
 00:13:01.866 --> 00:13:03.036 A:middle
 to talk about data sources.
 
@@ -1204,14 +1106,6 @@ by developers like you.
 00:13:55.356 --> 00:13:58.576 A:middle
 Knowing where the
 data in HealthKit came
-
-00:13:58.576 --> 00:14:01.286 A:middle
-from can be important,
-especially if you are using
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.576 --> 00:14:01.286 A:middle
 from can be important,
@@ -1290,14 +1184,6 @@ the application
 that created the sample, it also
 carries the version of the app
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.326 --> 00:15:00.686 A:middle
-that created the sample, it also
-carries the version of the app
-
 00:15:00.836 --> 00:15:01.806 A:middle
 that saved the object.
 
@@ -1371,14 +1257,6 @@ Now, let's talk about HK Device.
 HK Device is a class that
 includes a number of strings
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.836 --> 00:16:03.096 A:middle
-HK Device is a class that
-includes a number of strings
-
 00:16:03.486 --> 00:16:06.006 A:middle
 that represent different
 aspects of a hardware device
@@ -1444,14 +1322,6 @@ a sample using one
 of the HK sample subclass
 initializer methods
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.746 --> 00:17:01.746 A:middle
-of the HK sample subclass
-initializer methods
-
 00:17:01.746 --> 00:17:02.736 A:middle
 that takes a device.
 
@@ -1462,21 +1332,21 @@ that object to HealthKit just
 00:17:06.776 --> 00:17:07.896 A:middle
 as you would have previously.
 
-00:17:10.476 --> 00:17:12.665 A:middle
+00:17:10.476 --> 00:17:12.666 A:middle
 Querying for objects that come
 
-00:17:12.665 --> 00:17:15.465 A:middle
+00:17:12.666 --> 00:17:15.466 A:middle
 from a particular source
 revision or device is easy too.
 
-00:17:15.465 --> 00:17:19.656 A:middle
+00:17:15.466 --> 00:17:19.656 A:middle
 You can use one of the new
 predicate convenience methods
 
 00:17:19.656 --> 00:17:24.106 A:middle
 exposed on HK Query in iOS 9.
 
-00:17:24.965 --> 00:17:29.106 A:middle
+00:17:24.966 --> 00:17:29.106 A:middle
 Here is an example of querying
 for objects that were saved
 
@@ -1506,13 +1376,6 @@ execute an HK sample query,
 00:17:51.996 --> 00:17:56.066 A:middle
 and it will return to us all of
 the objects that were created
-
-00:17:56.066 --> 00:18:05.936 A:middle
-by version 1 of our application.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.066 --> 00:18:05.936 A:middle
 by version 1 of our application.
@@ -1589,10 +1452,6 @@ of your previous objects,
 00:18:56.356 --> 00:18:59.246 A:middle
 you could delete all of the
 old ones using Delete Objects.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.856 --> 00:19:04.636 A:middle
 The second new method that we
@@ -1673,14 +1532,6 @@ block that has parameters
 for both new sample
 and deleted samples.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.626 --> 00:20:01.006 A:middle
-for both new sample
-and deleted samples.
-
 00:20:02.246 --> 00:20:05.016 A:middle
 Now, when you execute this
 query, HealthKit will return
@@ -1749,10 +1600,6 @@ iOS 8 to be launched in response
 00:20:55.396 --> 00:20:59.226 A:middle
 to deletions and sample
 creations in iOS 9.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:01.316 --> 00:21:03.166 A:middle
 Now, we are going
@@ -1842,13 +1689,6 @@ on that device?
 00:21:58.686 --> 00:22:00.006 A:middle
 Well, it turns out you can.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.686 --> 00:22:00.006 A:middle
-Well, it turns out you can.
-
 00:22:01.786 --> 00:22:05.056 A:middle
 So in addition to making
 improvements for HealthKit
@@ -1912,10 +1752,6 @@ sync automatically
 
 00:22:56.256 --> 00:22:58.746 A:middle
 to the phone that the user has.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.436 --> 00:23:04.276 A:middle
 When your app saves a workout on
@@ -1981,14 +1817,6 @@ app for access.
 00:23:53.426 --> 00:23:58.276 A:middle
 So if your phone application
 is authorized to store
-
-00:23:58.276 --> 00:24:00.596 A:middle
-and retrieve distance
-samples, let's say,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.276 --> 00:24:00.596 A:middle
 and retrieve distance
@@ -2077,10 +1905,6 @@ workout session
 with an activity type
 and a location type.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.326 --> 00:25:03.186 A:middle
 The location type indicates
 whether the activity is taking
@@ -2150,13 +1974,6 @@ Session or Stop Workout Session
 00:25:59.566 --> 00:26:00.476 A:middle
 on an HK Health Store.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.566 --> 00:26:00.476 A:middle
-on an HK Health Store.
-
 00:26:01.286 --> 00:26:04.176 A:middle
 So now I'd like to give you
 a quick demonstration of how
@@ -2216,14 +2033,6 @@ Let's do that now.
 
 00:26:54.816 --> 00:26:58.626 A:middle
 Here in Xcode, we are looking
-
-00:26:58.626 --> 00:27:01.166 A:middle
-at my activity interface
-controller.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.626 --> 00:27:01.166 A:middle
 at my activity interface
@@ -2295,14 +2104,6 @@ of my companion app
 and I will implement a new UI
 application delegate method.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:57.786 --> 00:28:03.886 A:middle
-and I will implement a new UI
-application delegate method.
-
 00:28:04.526 --> 00:28:07.046 A:middle
 Application should request
 health authorization.
@@ -2354,13 +2155,6 @@ when the user taps Start.
 00:28:56.996 --> 00:28:59.406 A:middle
 I have a Workout Session
 Manager class here,
-
-00:28:59.406 --> 00:29:01.596 A:middle
-and that's what is responsible
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.406 --> 00:29:01.596 A:middle
 and that's what is responsible
@@ -2434,10 +2228,6 @@ Start method, and if it changes
 to Ended, I will
 call Workout Did End.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.316 --> 00:30:05.286 A:middle
 So let's go down to
 Workout Did Start.
@@ -2497,13 +2287,6 @@ the workout start date.
 00:30:54.306 --> 00:30:58.346 A:middle
 Next, I have instantiated
 an HK anchored object query
-
-00:30:59.426 --> 00:31:00.466 A:middle
-with a results handler
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.426 --> 00:31:00.466 A:middle
 with a results handler
@@ -2577,10 +2360,6 @@ queries that we created,
 and then it informs the UI
 that the workout started.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.946 --> 00:32:03.396 A:middle
 So let's take a look
 at how this works now.
@@ -2640,14 +2419,6 @@ So now let's implement that.
 So I have a Stop Workout And
 Save method that's called
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:54.676 --> 00:33:01.556 A:middle
-So I have a Stop Workout And
-Save method that's called
-
 00:33:01.826 --> 00:33:06.426 A:middle
 by the UI whenever the user taps
 that Force Touch menu button.
@@ -2698,14 +2469,6 @@ HealthKit is pretty simple, too.
 The first thing I have done
 is unwrap the optional start
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.756 --> 00:34:02.596 A:middle
-The first thing I have done
-is unwrap the optional start
-
 00:34:02.596 --> 00:34:05.086 A:middle
 and end dates that I noted
 
@@ -2748,7 +2511,7 @@ these samples with it
 00:34:32.966 --> 00:34:36.936 A:middle
 after we save the workout.
 
-00:34:37.076 --> 00:34:38.795 A:middle
+00:34:37.076 --> 00:34:38.796 A:middle
 Next, I will save the
 workout to HealthKit,
 
@@ -2763,10 +2526,6 @@ at that now.
 00:34:55.626 --> 00:34:58.486 A:middle
 So I'm choosing running
 again, outdoor run,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.266 --> 00:35:01.376 A:middle
 my workout is progressing.
@@ -2828,14 +2587,6 @@ HK workout to HealthKit
 
 00:35:54.306 --> 00:35:56.406 A:middle
 and associated samples with it.
-
-00:35:58.856 --> 00:36:01.826 A:middle
-So that's what's new
-in HealthKit in iOS 9.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.856 --> 00:36:01.826 A:middle
 So that's what's new
@@ -2917,18 +2668,9 @@ or contact technical support.
 You can make a general query
 to healthkit@apple.com.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.886 --> 00:37:02.606 A:middle
-You can make a general query
-to healthkit@apple.com.
-
 00:37:02.696 --> 00:37:05.046 A:middle
 So thanks, and enjoy the
 rest of the conference.
 
 00:37:05.676 --> 00:37:19.100 A:middle
 [ Applause ]
-

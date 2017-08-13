@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.516 --> 00:00:27.036 A:middle
 [Applause]
@@ -44,14 +43,6 @@ Mac was the MacBook Pro
 
 00:00:57.896 --> 00:00:59.286 A:middle
 with the Core II Duo.
-
-00:00:59.656 --> 00:01:02.646 A:middle
-One of the selling points
-of GCD at the time was
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.656 --> 00:01:02.646 A:middle
 One of the selling points
@@ -130,14 +121,6 @@ new multitasking features.
 This is the first time your
 app had to run side-by-side,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.946 --> 00:02:02.836 A:middle
-This is the first time your
-app had to run side-by-side,
-
 00:02:02.976 --> 00:02:06.896 A:middle
 quite literally, with other
 applications on the system.
@@ -146,7 +129,7 @@ applications on the system.
 GCD can inform the system
 what kind of work you're doing
 
-00:02:09.985 --> 00:02:13.406 A:middle
+00:02:09.986 --> 00:02:13.406 A:middle
 and better share
 resources between your app
 
@@ -195,14 +178,6 @@ for using GCD, and how
 00:02:54.706 --> 00:02:56.576 A:middle
 to integrate QLS
 with these patterns.
-
-00:02:57.676 --> 00:03:00.296 A:middle
-I'll then go through some
-details about threads, queues,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.676 --> 00:03:00.296 A:middle
 I'll then go through some
@@ -291,10 +266,6 @@ That data will come back.
 You'll update the
 user interface.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:02.436 --> 00:04:05.666 A:middle
 And then finally return
 control back to the Frameworks
@@ -360,14 +331,6 @@ the main thread, update the UI.
 00:04:53.346 --> 00:04:57.356 A:middle
 Now, the advantage here is that
 while your work is happening
-
-00:04:57.356 --> 00:05:00.596 A:middle
-on that GCD queue, the main
-thread can continue waiting
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.356 --> 00:05:00.596 A:middle
 on that GCD queue, the main
@@ -458,14 +421,6 @@ classes: user interactive,
 user initiated, utility
 and background.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.036 --> 00:06:01.616 A:middle
-user initiated, utility
-and background.
-
 00:06:02.806 --> 00:06:04.776 A:middle
 These are ways you tell
 the system what kind
@@ -539,14 +494,6 @@ to tune correctly and a lot
 00:06:54.526 --> 00:06:58.176 A:middle
 of platforms where
 your code can run.
-
-00:06:58.176 --> 00:07:00.306 A:middle
-Quality of Service
-Classes are designed
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.176 --> 00:07:00.306 A:middle
 Quality of Service
@@ -639,14 +586,6 @@ be user-interactive.
 This isn't loading the content
 potentially of that scroll view.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.826 --> 00:08:04.386 A:middle
-This isn't loading the content
-potentially of that scroll view.
-
 00:08:04.976 --> 00:08:07.926 A:middle
 It is just drawing
 the new animation.
@@ -685,10 +624,10 @@ this work required
 00:08:33.206 --> 00:08:34.716 A:middle
 to continue user interaction?
 
-00:08:35.096 --> 00:08:36.775 A:middle
+00:08:35.096 --> 00:08:36.776 A:middle
 It's helpful not to any about it
 
-00:08:36.775 --> 00:08:38.726 A:middle
+00:08:36.776 --> 00:08:38.726 A:middle
 as user initiated
 but user blocking.
 
@@ -718,13 +657,6 @@ from continuing to use your app.
 00:08:57.176 --> 00:08:59.126 A:middle
 You want to ask yourself,
 is the user aware
-
-00:08:59.126 --> 00:09:01.356 A:middle
-of the progress of this work?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.126 --> 00:09:01.356 A:middle
 of the progress of this work?
@@ -809,14 +741,6 @@ So I mentioned our new MacBook.
 As I said, this is
 the first fanless Mac.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.836 --> 00:10:02.546 A:middle
-As I said, this is
-the first fanless Mac.
-
 00:10:02.546 --> 00:10:05.676 A:middle
 In previous MacBooks
 that had a fan,
@@ -884,13 +808,6 @@ reasonable temperature.
 00:10:55.616 --> 00:10:58.986 A:middle
 Well, what we can do is we can
 start to squeeze the amount
-
-00:10:58.986 --> 00:11:00.126 A:middle
-of work we are going to do
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.986 --> 00:11:00.126 A:middle
 of work we are going to do
@@ -973,14 +890,6 @@ really help you out.
 Indicating to the operating
 system the Quality of Service
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.856 --> 00:12:01.716 A:middle
-Indicating to the operating
-system the Quality of Service
-
 00:12:01.716 --> 00:12:04.026 A:middle
 of each thread we
 can correctly decide
@@ -1049,14 +958,6 @@ resolve some priority inversions
 
 00:12:54.656 --> 00:12:55.766 A:middle
 for you automatically.
-
-00:12:56.196 --> 00:13:00.236 A:middle
-We won't have time to go into
-depth on the specific API calls.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:56.196 --> 00:13:00.236 A:middle
 We won't have time to go into
@@ -1140,14 +1041,6 @@ of Service class.
 On the right-hand
 side of the screen,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.266 --> 00:14:00.786 A:middle
-On the right-hand
-side of the screen,
-
 00:14:00.786 --> 00:14:03.236 A:middle
 that's the asynchronous work not
 happening on the main thread.
@@ -1223,14 +1116,6 @@ propagation of Quality
 00:14:56.036 --> 00:14:59.206 A:middle
 of Service from the
 submitting thread to the queue
-
-00:14:59.646 --> 00:15:02.696 A:middle
-where you submit the
-block to execute.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.646 --> 00:15:02.696 A:middle
 where you submit the
@@ -1320,14 +1205,6 @@ this propagated value
 and run the UI update block
 at the bottom at Quality
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:57.336 --> 00:16:01.386 A:middle
-and run the UI update block
-at the bottom at Quality
-
 00:16:01.386 --> 00:16:02.636 A:middle
 of Service Class
 user interactive.
@@ -1394,13 +1271,6 @@ updates the UI with the progress
 00:16:58.996 --> 00:17:00.446 A:middle
 by asyncing back a block
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.996 --> 00:17:00.446 A:middle
-by asyncing back a block
-
 00:17:00.546 --> 00:17:02.596 A:middle
 that updates some
 progress UI element.
@@ -1409,25 +1279,25 @@ progress UI element.
 What are the appropriate
 Quality of Service classes here?
 
-00:17:08.715 --> 00:17:11.425 A:middle
+00:17:08.716 --> 00:17:11.426 A:middle
 On the left-hand side you
 have user interactive,
 
-00:17:11.915 --> 00:17:14.965 A:middle
+00:17:11.916 --> 00:17:14.966 A:middle
 and the right-hand side as
 Anthony has described earlier,
 
-00:17:14.965 --> 00:17:17.026 A:middle
+00:17:14.966 --> 00:17:17.026 A:middle
 this is something where Quality
 
-00:17:17.026 --> 00:17:18.925 A:middle
+00:17:17.026 --> 00:17:18.926 A:middle
 of Service utility
 is appropriate.
 
 00:17:19.336 --> 00:17:20.506 A:middle
 It's something long running.
 
-00:17:20.816 --> 00:17:22.205 A:middle
+00:17:20.816 --> 00:17:22.206 A:middle
 The user can continue
 to use the UI.
 
@@ -1476,14 +1346,6 @@ we want to execute as well
 
 00:17:57.486 --> 00:17:58.586 A:middle
 as the Quality of Service Class
-
-00:17:58.666 --> 00:18:00.346 A:middle
-that we would like,
-utility here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.666 --> 00:18:00.346 A:middle
 that we would like,
@@ -1568,14 +1430,6 @@ the Quality of Service class
 in a block that you
 are provided,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.716 --> 00:19:00.406 A:middle
-in a block that you
-are provided,
-
 00:19:00.856 --> 00:19:05.106 A:middle
 say in a callback block scenario
 where you are writing an API
@@ -1644,14 +1498,6 @@ has too many loose objects,
 00:19:49.566 --> 00:19:53.036 A:middle
 has to do some compaction,
 some clean up task,
-
-00:19:53.936 --> 00:20:00.996 A:middle
-typical example again
-of the use of GCD
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:53.936 --> 00:20:00.996 A:middle
 typical example again
@@ -1741,14 +1587,6 @@ on the database in this mode.
 It might be appropriate to have
 a queue specifically dedicated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.526 --> 00:21:02.366 A:middle
-It might be appropriate to have
-a queue specifically dedicated
-
 00:21:02.406 --> 00:21:05.046 A:middle
 to this task so you
 can also create queues
@@ -1819,10 +1657,6 @@ it may be appropriate
 00:21:55.316 --> 00:21:59.936 A:middle
 to consider whether the dispatch
 block detached flag is of use.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.626 --> 00:22:04.476 A:middle
 This is a way to tell the
@@ -1896,14 +1730,6 @@ property
 
 00:22:56.996 --> 00:22:58.196 A:middle
 that you have set up here.
-
-00:22:58.976 --> 00:23:01.646 A:middle
-If you just use the automatic
-propagation feature here,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.976 --> 00:23:01.646 A:middle
 If you just use the automatic
@@ -1992,13 +1818,6 @@ work in queue or running
 00:23:58.606 --> 00:24:00.026 A:middle
 at a lower Quality of Service
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.606 --> 00:24:00.026 A:middle
-at a lower Quality of Service
-
 00:24:00.276 --> 00:24:01.966 A:middle
 and you have a priority
 inversion.
@@ -2074,14 +1893,6 @@ maintenance or background.
 And using QoS on the queue
 causes us to ignore the QoS
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.946 --> 00:25:03.586 A:middle
-And using QoS on the queue
-causes us to ignore the QoS
-
 00:25:03.586 --> 00:25:06.856 A:middle
 in the asynchronous
 blocks exempt in the case
@@ -2138,13 +1949,6 @@ lock is obtained on the thread
 00:25:56.136 --> 00:25:59.396 A:middle
 that calls dispatch sync
 and releases the thread
-
-00:25:59.396 --> 00:26:01.606 A:middle
-with the block returns.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.396 --> 00:26:01.606 A:middle
 with the block returns.
@@ -2239,14 +2043,6 @@ undesirable.
 So Quality of Service
 inheritance,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.086 --> 00:27:02.126 A:middle
-So Quality of Service
-inheritance,
-
 00:27:02.316 --> 00:27:04.346 A:middle
 synchronous priority inversion
 will help you with that.
@@ -2329,14 +2125,6 @@ where you can wait
 on an explicit entity
 that we can raise.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.006 --> 00:28:00.246 A:middle
-on an explicit entity
-that we can raise.
-
 00:28:00.246 --> 00:28:05.416 A:middle
 With that I hand it back to
 Anthony to talk about queues,
@@ -2403,14 +2191,6 @@ you execute this code.
 00:28:54.106 --> 00:28:56.256 A:middle
 You dispatch async
 on to some queue.
-
-00:28:57.396 --> 00:29:01.876 A:middle
-A block, and we will bring
-up a thread for that block.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.396 --> 00:29:01.876 A:middle
 A block, and we will bring
@@ -2486,14 +2266,6 @@ to a particular thread.
 00:29:54.306 --> 00:29:58.036 A:middle
 As an API you generally see them
 get delegate method callbacks.
-
-00:29:59.186 --> 00:30:02.506 A:middle
-They have an auto release pool
-that pops after each iteration
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.186 --> 00:30:02.506 A:middle
 They have an auto release pool
@@ -2578,14 +2350,6 @@ to use them reentrantly.
 These rules are bound
 together in the sense
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.256 --> 00:31:01.966 A:middle
-These rules are bound
-together in the sense
-
 00:31:01.966 --> 00:31:05.166 A:middle
 that main thread's run loop is
 also exposed as the main queue.
@@ -2649,14 +2413,6 @@ whole bunch of dispatch asyncs.
 00:31:53.336 --> 00:31:55.746 A:middle
 I put those on the
 global queues.
-
-00:31:57.056 --> 00:32:00.446 A:middle
-The system is going to take
-a thread from the thread pool
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:57.056 --> 00:32:00.446 A:middle
 The system is going to take
@@ -2745,14 +2501,6 @@ from the GCD perspective,
 we want one block or one thread
 executing actively per core
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:56.836 --> 00:33:01.606 A:middle
-we want one block or one thread
-executing actively per core
-
 00:33:01.606 --> 00:33:02.206 A:middle
 on the device.
 
@@ -2831,13 +2579,6 @@ waiting at the same time,
 00:33:59.176 --> 00:34:00.496 A:middle
 we have lots of contention.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.176 --> 00:34:00.496 A:middle
-we have lots of contention.
-
 00:34:01.306 --> 00:34:03.576 A:middle
 So this isn't great
 for performance.
@@ -2874,11 +2615,11 @@ of our applications internally.
 I hope I can talk
 you through this.
 
-00:34:25.466 --> 00:34:28.085 A:middle
+00:34:25.466 --> 00:34:28.086 A:middle
 This is a great example
 of how different parts
 
-00:34:28.085 --> 00:34:30.656 A:middle
+00:34:28.086 --> 00:34:30.656 A:middle
 of your application
 interact in unexpected ways.
 
@@ -2886,14 +2627,14 @@ interact in unexpected ways.
 We have the main thread and
 the main thread has a bunch
 
-00:34:36.216 --> 00:34:38.065 A:middle
+00:34:36.216 --> 00:34:38.066 A:middle
 of work it wants to do.
 
-00:34:38.065 --> 00:34:41.065 A:middle
+00:34:38.066 --> 00:34:41.066 A:middle
 It will dispatch async
 a whole butch of blocks
 
-00:34:41.065 --> 00:34:42.045 A:middle
+00:34:41.066 --> 00:34:42.046 A:middle
 onto a concurrent queue.
 
 00:34:42.716 --> 00:34:45.246 A:middle
@@ -2915,23 +2656,15 @@ At this point we've brought
 up all the threads
 we are willing to.
 
-00:34:53.485 --> 00:34:55.226 A:middle
+00:34:53.486 --> 00:34:55.226 A:middle
 In the simple example
 here, it's four.
 
-00:34:55.295 --> 00:34:57.005 A:middle
+00:34:55.296 --> 00:34:57.006 A:middle
 We hit the thread limit.
 
-00:34:57.005 --> 00:34:58.646 A:middle
+00:34:57.006 --> 00:34:58.646 A:middle
 We are not going to bring
-
-00:34:58.646 --> 00:35:00.576 A:middle
-up any additional threads
-for the thread pool.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.646 --> 00:35:00.576 A:middle
 up any additional threads
@@ -3022,14 +2755,6 @@ the thread pool are waiting
 
 00:35:57.796 --> 00:35:59.086 A:middle
 on a resource, the main thread.
-
-00:35:59.516 --> 00:36:01.386 A:middle
-They're both waiting on each
-other and neither is going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.516 --> 00:36:01.386 A:middle
 They're both waiting on each
@@ -3128,14 +2853,6 @@ one block at a time.
 I'm not telling you to serialize
 your entire application,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.106 --> 00:37:01.956 A:middle
-I'm not telling you to serialize
-your entire application,
-
 00:37:02.616 --> 00:37:05.526 A:middle
 but as you are building
 your application
@@ -3213,10 +2930,6 @@ specific code examples
 00:37:57.476 --> 00:37:58.526 A:middle
 of things that went wrong here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.056 --> 00:38:03.326 A:middle
 The first is that we
 mixed sync and async
@@ -3285,10 +2998,6 @@ is that we try to dispatch a lot
 00:38:56.696 --> 00:38:58.936 A:middle
 of blocks on to a
 concurrent queue all at once.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:00.016 --> 00:39:05.186 A:middle
 If you do this, and in our
@@ -3361,14 +3070,6 @@ Say we want four running.
 00:39:53.376 --> 00:39:57.476 A:middle
 Every time our block completes,
 it signals the semaphore.
-
-00:39:58.166 --> 00:40:01.016 A:middle
-Every time we submit, we
-wait on the semaphore.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:58.166 --> 00:40:01.016 A:middle
 Every time we submit, we
@@ -3448,14 +3149,6 @@ in your application are doing.
 00:40:57.216 --> 00:40:58.926 A:middle
 So the first one is
 the manager thread.
-
-00:40:59.836 --> 00:41:02.146 A:middle
-So the manager thread is
-something that you are going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.836 --> 00:41:02.146 A:middle
 So the manager thread is
@@ -3544,14 +3237,6 @@ thread.
 On the other hand, if
 your main queue is active,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:57.346 --> 00:42:01.586 A:middle
-On the other hand, if
-your main queue is active,
-
 00:42:02.126 --> 00:42:05.246 A:middle
 you might see CF run loop is
 servicing the main dispatch
@@ -3626,14 +3311,6 @@ and the existing uses of GCD.
 Finally, consider how
 your apps use GCD and try
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.486 --> 00:43:02.216 A:middle
-Finally, consider how
-your apps use GCD and try
-
 00:43:02.216 --> 00:43:03.316 A:middle
 to avoid thread explosion.
 
@@ -3689,4 +3366,3 @@ you, I highly recommend
 
 00:43:42.186 --> 00:43:44.406 A:middle
 that you check those out.
-

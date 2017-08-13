@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:24.516 --> 00:00:31.906 A:middle
 [ Applause ]
@@ -55,10 +54,6 @@ whether you've done it or not.
 00:00:57.786 --> 00:00:59.876 A:middle
 Hopefully by the end of it
 you will all be using Swift
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.246 --> 00:01:01.946 A:middle
 with your existing
@@ -124,14 +119,6 @@ I've got a remote control now.
 00:01:51.656 --> 00:01:57.626 A:middle
 So what I want to do is
 take you through some
-
-00:01:57.626 --> 00:02:00.966 A:middle
-of the techniques you can use to
-add Swift to an existing project
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:57.626 --> 00:02:00.966 A:middle
 of the techniques you can use to
@@ -230,13 +217,6 @@ controllers push presentation
 00:02:58.766 --> 00:03:04.286 A:middle
 to show some details about that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:58.766 --> 00:03:04.286 A:middle
-to show some details about that.
-
 00:03:05.236 --> 00:03:09.906 A:middle
 Great. I figure it's something
 
@@ -323,14 +303,6 @@ that using Swift.
 Then we are also going to
 take a look at, for example,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.396 --> 00:04:01.776 A:middle
-Then we are also going to
-take a look at, for example,
-
 00:04:01.776 --> 00:04:05.346 A:middle
 Swift's structs and its
 functions like mapping
@@ -346,11 +318,11 @@ features to the application.
 This application has small
 tiles and large tiles.
 
-00:04:15.866 --> 00:04:17.305 A:middle
+00:04:15.866 --> 00:04:17.306 A:middle
 The small tile is
 the table view,
 
-00:04:17.305 --> 00:04:18.636 A:middle
+00:04:17.306 --> 00:04:18.636 A:middle
 the large tile is
 the detail view.
 
@@ -412,14 +384,6 @@ artifacts, called aliasing,
 00:04:57.536 --> 00:04:59.876 A:middle
 on the rounded corners because
 we don't have enough pixel data
-
-00:04:59.876 --> 00:05:01.286 A:middle
-to represent those
-corners smoothly.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.876 --> 00:05:01.286 A:middle
 to represent those
@@ -520,10 +484,6 @@ small tile as well
 as in the large tile
 for this app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.186 --> 00:06:02.086 A:middle
 Now, we could rerender the
 new backgrounds in Photoshop,
@@ -612,14 +572,6 @@ about classes in Objective-C,
 00:06:56.496 --> 00:06:58.696 A:middle
 we have a header file and
 an implementation file,
-
-00:06:58.986 --> 00:07:01.226 A:middle
-and those two things together
-form our class definition.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.986 --> 00:07:01.226 A:middle
 and those two things together
@@ -721,14 +673,6 @@ a set of bridging headers --
 we use a bridging header
 and a generated header.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.946 --> 00:08:01.666 A:middle
-we use a bridging header
-and a generated header.
-
 00:08:02.266 --> 00:08:06.176 A:middle
 Now, the bridging
 header is made in Xcode.
@@ -786,7 +730,7 @@ two header files.
 You are going to see them
 in the demonstration,
 
-00:08:37.135 --> 00:08:38.856 A:middle
+00:08:37.136 --> 00:08:38.856 A:middle
 which is coming up right now.
 
 00:08:50.156 --> 00:08:51.296 A:middle
@@ -806,14 +750,6 @@ There is a method in it.
 00:08:58.156 --> 00:08:59.936 A:middle
 It's actually not just
 drawing the background,
-
-00:08:59.936 --> 00:09:01.856 A:middle
-it's drawing the background and
-all the text that goes on top
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.936 --> 00:09:01.856 A:middle
 it's drawing the background and
@@ -905,14 +841,6 @@ forth between all three.
 Now, the bridging
 header is where I choose
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.806 --> 00:10:01.336 A:middle
-Now, the bridging
-header is where I choose
-
 00:10:01.336 --> 00:10:04.396 A:middle
 to expose data types that
 I've declared in Objective-C
@@ -978,10 +906,6 @@ I will go ahead and put the code
 00:10:55.346 --> 00:10:58.846 A:middle
 in that actually
 does the drawing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:02.376 --> 00:11:03.796 A:middle
 And that's it for
@@ -1053,13 +977,6 @@ So I will pass over the element.
 00:11:57.426 --> 00:12:04.616 A:middle
 Pass it to bounding rectangle
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.426 --> 00:12:04.616 A:middle
-Pass it to bounding rectangle
-
 00:12:04.616 --> 00:12:06.026 A:middle
 in which it will draw
 the rounded rectangle.
@@ -1125,14 +1042,6 @@ and the outside.
 00:12:56.716 --> 00:12:59.906 A:middle
 So let's explore in more
 detail why that's happening
-
-00:12:59.906 --> 00:13:02.886 A:middle
-as we take a look
-at Swift structures.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.906 --> 00:13:02.886 A:middle
 as we take a look
@@ -1215,14 +1124,6 @@ of the bounding rectangle.
 
 00:13:55.316 --> 00:13:58.016 A:middle
 And that results in clipping.
-
-00:13:58.746 --> 00:14:00.816 A:middle
-So the rounded rectangle is
-actually there on the outside,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.746 --> 00:14:00.816 A:middle
 So the rounded rectangle is
@@ -1317,14 +1218,6 @@ That's what we are going to do.
 We are just going to
 inset the bezier path
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.856 --> 00:15:02.266 A:middle
-We are just going to
-inset the bezier path
-
 00:15:02.266 --> 00:15:03.536 A:middle
 so that it doesn't clip itself.
 
@@ -1401,10 +1294,6 @@ global functions that can act
 00:15:56.326 --> 00:15:59.096 A:middle
 on that structure and build
 it into the structure,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.546 --> 00:16:02.776 A:middle
 which makes it much easier
@@ -1486,14 +1375,6 @@ in Swift because they behave
 as first-class data
 types with methods.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.646 --> 00:17:00.746 A:middle
-as first-class data
-types with methods.
-
 00:17:01.406 --> 00:17:04.386 A:middle
 Okay. The other thing
 that we are going to do
@@ -1502,15 +1383,15 @@ that we are going to do
 in the following demonstration
 is, I don't know about you,
 
-00:17:06.836 --> 00:17:07.925 A:middle
+00:17:06.836 --> 00:17:07.926 A:middle
 but when I work with
 graphics code,
 
-00:17:07.925 --> 00:17:09.965 A:middle
+00:17:07.926 --> 00:17:09.966 A:middle
 especially some Core Graphics
 stuff, one of the approaches
 
-00:17:09.965 --> 00:17:15.756 A:middle
+00:17:09.966 --> 00:17:15.756 A:middle
 that I would use is, I
 would render the code,
 
@@ -1522,11 +1403,11 @@ then it builds and it copies
 into the simulator, then
 I navigate to that part
 
-00:17:20.016 --> 00:17:22.945 A:middle
+00:17:20.016 --> 00:17:22.946 A:middle
 in the simulator where the
 code is actually activated,
 
-00:17:22.945 --> 00:17:23.626 A:middle
+00:17:22.946 --> 00:17:23.626 A:middle
 where it's used.
 
 00:17:23.786 --> 00:17:25.906 A:middle
@@ -1592,14 +1473,6 @@ loop gets switched
 
 00:17:58.586 --> 00:17:59.466 A:middle
 to just something like this.
-
-00:17:59.466 --> 00:18:01.716 A:middle
-You just tweak the code, and
-you see the change right away,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.466 --> 00:18:01.716 A:middle
 You just tweak the code, and
@@ -1688,14 +1561,6 @@ draw in the context of --
 well, a drawing context
 or graphics context.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.796 --> 00:19:00.526 A:middle
-well, a drawing context
-or graphics context.
-
 00:19:00.526 --> 00:19:02.826 A:middle
 And the easiest way to get
 a graphics context is just
@@ -1778,14 +1643,6 @@ with it.
 And then once you have the code
 working the way that you like,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.616 --> 00:20:00.556 A:middle
-And then once you have the code
-working the way that you like,
-
 00:20:00.886 --> 00:20:01.896 A:middle
 you just copy and paste it back
 
@@ -1862,13 +1719,6 @@ be half the line width.
 00:20:53.936 --> 00:20:58.546 A:middle
 So that's line width
 divided by 2 and same thing,
-
-00:20:58.756 --> 00:21:00.526 A:middle
-line width divided by 2.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.756 --> 00:21:00.526 A:middle
 line width divided by 2.
@@ -1955,14 +1805,6 @@ especially WWDC and said, hey,
 there's this new version
 of iOS coming out,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.366 --> 00:22:01.036 A:middle
-there's this new version
-of iOS coming out,
-
 00:22:01.036 --> 00:22:02.606 A:middle
 for example, iOS
 9 is coming out.
@@ -2034,14 +1876,6 @@ elements app is when I am
 00:22:53.816 --> 00:22:57.626 A:middle
 on any device that supports it
 -- for example, an iOS 8 device
-
-00:22:57.626 --> 00:23:00.016 A:middle
-or newer -- I want to use
-a popover presentation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.626 --> 00:23:00.016 A:middle
 or newer -- I want to use
@@ -2135,10 +1969,6 @@ properly guarded it
 by giving it another path,
 it's able to compile.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:00.096 --> 00:24:05.056 A:middle
 In this case, if I hadn't put
 that guard in, if I hadn't said,
@@ -2225,10 +2055,6 @@ a new file, it's a Swift file.
 It's elements view
 controller dot Swift.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:01.086 --> 00:25:03.616 A:middle
 Then I will write a class
 extension on it here.
@@ -2302,14 +2128,6 @@ okay to take an extension
 in Swift and use it
 to add conformance
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.896 --> 00:26:00.786 A:middle
-in Swift and use it
-to add conformance
-
 00:26:01.226 --> 00:26:02.626 A:middle
 to additional protocols.
 
@@ -2372,10 +2190,6 @@ at WWDC [applause].
 
 00:26:52.646 --> 00:26:52.836 A:middle
 Alright.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:05.076 --> 00:27:06.586 A:middle
 For more information about
@@ -2460,14 +2274,6 @@ has an array of content.
 00:27:54.566 --> 00:27:59.216 A:middle
 And when I type something
 into the search field,
-
-00:27:59.286 --> 00:28:01.396 A:middle
-I have a delegate
-method that's called,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.286 --> 00:28:01.396 A:middle
 I have a delegate
@@ -2564,10 +2370,6 @@ letter, in this case N,
 it's passed through to the
 returning filtered array.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.806 --> 00:29:02.476 A:middle
 And if not, it's not.
 
@@ -2659,14 +2461,6 @@ double-click it, it expands out.
 And I know that I have an
 array of atomic elements.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:57.436 --> 00:30:01.926 A:middle
-And I know that I have an
-array of atomic elements.
-
 00:30:01.926 --> 00:30:03.556 A:middle
 The data type is
 called atomic element.
@@ -2730,14 +2524,6 @@ that begins with letter N.
 
 00:30:59.416 --> 00:30:59.796 A:middle
 There we go.
-
-00:30:59.796 --> 00:31:01.766 A:middle
-We get it filtered
-using Swift's filter.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.796 --> 00:31:01.766 A:middle
 We get it filtered
@@ -2833,13 +2619,6 @@ get rid of that and just tidy
 00:31:57.336 --> 00:32:00.656 A:middle
 up the spacing a bit, and I end
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:57.336 --> 00:32:00.656 A:middle
-up the spacing a bit, and I end
-
 00:32:00.656 --> 00:32:04.926 A:middle
 up getting something
 that looks like this.
@@ -2920,13 +2699,6 @@ of this existing closure.
 00:32:58.376 --> 00:33:01.716 A:middle
 Dot sort. Now, in this case,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.376 --> 00:33:01.716 A:middle
-Dot sort. Now, in this case,
-
 00:33:01.716 --> 00:33:04.786 A:middle
 I could double-click this blue
 token, have it expand out,
@@ -3002,14 +2774,6 @@ I'll run it again.
 Search on letter N, and now
 it's being properly sorted.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.476 --> 00:34:01.296 A:middle
-Search on letter N, and now
-it's being properly sorted.
-
 00:34:01.296 --> 00:34:03.476 A:middle
 It's filtered and sorted
 all in just one line.
@@ -3027,10 +2791,10 @@ important elements,
 00:34:08.696 --> 00:34:09.426 A:middle
 like Swiftonium [laughter].
 
-00:34:11.045 --> 00:34:11.926 A:middle
+00:34:11.046 --> 00:34:11.926 A:middle
 Very important.
 
-00:34:13.585 --> 00:34:17.616 A:middle
+00:34:13.586 --> 00:34:17.616 A:middle
 Okay. Let's come back.
 
 00:34:17.616 --> 00:34:20.126 A:middle
@@ -3064,17 +2828,17 @@ lets me select multiple rows
 and then it adds them up to give
 me the sum of the atomic weights
 
-00:34:39.076 --> 00:34:40.045 A:middle
+00:34:39.076 --> 00:34:40.046 A:middle
 for the selected elements.
 
-00:34:40.275 --> 00:34:41.286 A:middle
+00:34:40.276 --> 00:34:41.286 A:middle
 It looks kinds of like this.
 
 00:34:41.656 --> 00:34:44.036 A:middle
 We start off with
 the table view.
 
-00:34:44.735 --> 00:34:47.226 A:middle
+00:34:44.736 --> 00:34:47.226 A:middle
 The nav bar at the top is
 saying select two or more items.
 
@@ -3093,14 +2857,6 @@ with my content array.
 00:34:56.826 --> 00:34:58.556 A:middle
 That's all the atomic
 elements that I have,
-
-00:34:58.596 --> 00:35:00.456 A:middle
-those are all the ones that are
-displayed in the table view.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.596 --> 00:35:00.456 A:middle
 those are all the ones that are
@@ -3188,14 +2944,6 @@ around it has been removed.
 Next, once I have an array
 of all the selected items,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:56.716 --> 00:36:02.326 A:middle
-Next, once I have an array
-of all the selected items,
-
 00:36:02.726 --> 00:36:05.616 A:middle
 I want to add up
 their atomic weights.
@@ -3277,14 +3025,6 @@ the demo computer.
 Alright. So here's the
 function that does all the work.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:57.216 --> 00:37:04.956 A:middle
-Alright. So here's the
-function that does all the work.
-
 00:37:04.956 --> 00:37:07.776 A:middle
 I start off by ensuring
 that I have more
@@ -3349,14 +3089,6 @@ a table view.
 Alright. In summary, I'm hoping
 you will see that there's a lot
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:56.376 --> 00:38:01.196 A:middle
-Alright. In summary, I'm hoping
-you will see that there's a lot
-
 00:38:01.196 --> 00:38:03.376 A:middle
 of advantages to
 incorporating Swift,
@@ -3411,4 +3143,3 @@ and have a great conference.
 
 00:38:31.516 --> 00:38:45.430 A:middle
 [ Applause ]
-
