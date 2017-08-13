@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.516 A:middle
 [ Silence ]
@@ -13,9 +12,12 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 00:00:18.396 --> 00:00:18.896 A:middle
 Thank you.
 
-00:00:18.946 --> 00:00:23.836 A:middle
-Welcome to what they tell me is
-Session 416, Modern Frameworks.
+00:00:18.946 --> 00:00:22.696 A:middle
+Welcome to what they
+tell me is Session 416,
+
+00:00:22.696 --> 00:00:23.836 A:middle
+"Modern Frameworks".
 
 00:00:23.836 --> 00:00:28.246 A:middle
 Today I'm going to be talking a
@@ -67,14 +69,6 @@ of getting all of that set up.
 So, how many of you have
 actually used static libraries
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.746 --> 00:01:05.556 A:middle
-So, how many of you have
-actually used static libraries
-
 00:01:05.556 --> 00:01:08.986 A:middle
 in your application that
 you get from a third party?
@@ -95,7 +89,7 @@ mechanisms in Xcode.
 
 00:01:15.936 --> 00:01:17.846 A:middle
 Right? You download a
-bunch of Source Code files,
+bunch of source code files,
 
 00:01:17.846 --> 00:01:21.206 A:middle
 you put them someplace on your
@@ -163,14 +157,6 @@ a bunch of nice pictures
 or customized controls
 and things
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.366 --> 00:02:01.976 A:middle
-or customized controls
-and things
-
 00:02:01.976 --> 00:02:03.256 A:middle
 like that in your application.
 
@@ -178,7 +164,7 @@ like that in your application.
 So, this is good but not great.
 
 00:02:07.116 --> 00:02:11.276 A:middle
-In iOS 8 -- so actually let
+In iOS 8-so actually let
 me back up for a second,
 
 00:02:11.926 --> 00:02:13.586 A:middle
@@ -229,12 +215,12 @@ to include headers,
 it's going to include
 images, asset catalogs.
 
-00:02:46.126 --> 00:02:46.956 A:middle
-You name it, throw it
+00:02:46.126 --> 00:02:46.596 A:middle
+You name it.
 
-00:02:46.956 --> 00:02:49.026 A:middle
-in the framework it goes
-along as a single unit.
+00:02:46.596 --> 00:02:49.026 A:middle
+Throw it in the framework it
+goes along as a single unit.
 
 00:02:49.106 --> 00:02:50.626 A:middle
 You'll be able to put
@@ -255,14 +241,6 @@ your application builds.
 00:02:56.696 --> 00:02:58.116 A:middle
 Right? There are a lot
 of really neat features
-
-00:02:58.116 --> 00:03:00.676 A:middle
-that have been built in for
-iOS 8, especially in the face
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.116 --> 00:03:00.676 A:middle
 that have been built in for
@@ -356,14 +334,6 @@ for the app, you'll put it
 in the framework
 and link the two
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.006 --> 00:04:00.366 A:middle
-in the framework
-and link the two
-
 00:04:00.696 --> 00:04:03.816 A:middle
 against the framework itself.
 
@@ -383,13 +353,13 @@ have a bunch of your own tried
 and true tested code that you
 like, all of your categories
 
-00:04:15.376 --> 00:04:18.156 A:middle
-on NS string -- because, you
-know, who does that, but, okay,
+00:04:15.376 --> 00:04:17.466 A:middle
+on NSString-because,
+you know, who does that.
 
-00:04:18.156 --> 00:04:20.176 A:middle
-categories on a NS string,
-and things like that.
+00:04:17.556 --> 00:04:20.176 A:middle
+But, okay, categories on a
+NSString, and things like that.
 
 00:04:20.176 --> 00:04:22.866 A:middle
 If you're sharing code between
@@ -399,7 +369,7 @@ multiple applications you're
 going to want to use frameworks.
 
 00:04:24.326 --> 00:04:25.456 A:middle
-And obviously also
+And obviously also,
 if you're going
 
 00:04:25.456 --> 00:04:27.366 A:middle
@@ -449,14 +419,6 @@ through the same form,
 00:04:56.816 --> 00:04:58.446 A:middle
 give it a bundle ID,
 things like that.
-
-00:04:58.446 --> 00:05:00.726 A:middle
-Save it someplace,
-you're off to the races.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.446 --> 00:05:00.726 A:middle
 Save it someplace,
@@ -551,14 +513,6 @@ custom appearance
 because your extension
 probably has all of that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.636 --> 00:06:01.836 A:middle
-because your extension
-probably has all of that.
-
 00:06:02.976 --> 00:06:04.506 A:middle
 You're also going
 to put in things
@@ -590,7 +544,7 @@ to put the service API
 that you're using down there.
 
 00:06:19.406 --> 00:06:21.386 A:middle
-So if you're doing network
+So if you're doing networking
 code, things like that,
 
 00:06:21.676 --> 00:06:22.806 A:middle
@@ -640,7 +594,7 @@ Right? The idea here
 is you want to be able
 
 00:06:53.326 --> 00:06:55.316 A:middle
-to change the Source Code
+to change the source code
 once, build a new version
 
 00:06:55.316 --> 00:06:56.916 A:middle
@@ -651,20 +605,12 @@ make it available
 to all your applications
 on your machines so that
 
-00:06:59.156 --> 00:06:59.786 A:middle
-when you ship them off
+00:06:59.156 --> 00:07:00.336 A:middle
+when you ship them
+off to the store,
 
-00:06:59.786 --> 00:07:01.716 A:middle
-to the store all those
-changes get picked up.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.786 --> 00:07:01.716 A:middle
-to the store all those
-changes get picked up.
+00:07:00.406 --> 00:07:01.716 A:middle
+all those changes get picked up.
 
 00:07:02.776 --> 00:07:04.566 A:middle
 And when you're publishing
@@ -730,22 +676,14 @@ All right?
 
 00:07:49.636 --> 00:07:50.866 A:middle
 You've got a bunch of
-Source Code in there
+source code in there
 
 00:07:52.116 --> 00:07:56.026 A:middle
 and it probably shares some
-Source Code and Swift files,
+source code and Swift files,
 
 00:07:56.026 --> 00:07:57.536 A:middle
 maybe some Objective-C files.
-
-00:07:58.136 --> 00:08:01.626 A:middle
-Those things are all going to
-be part of the target, right?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:58.136 --> 00:08:01.626 A:middle
 Those things are all going to
@@ -789,21 +727,21 @@ in a framework, right.
 00:08:30.576 --> 00:08:31.416 A:middle
 We do this at Apple.
 
-00:08:31.916 --> 00:08:33.385 A:middle
+00:08:31.916 --> 00:08:33.386 A:middle
 We look across all
 the applications
 
-00:08:33.385 --> 00:08:34.206 A:middle
+00:08:33.386 --> 00:08:34.206 A:middle
 that we're developing.
 
 00:08:34.566 --> 00:08:35.716 A:middle
 We start seeing patterns.
 
-00:08:36.376 --> 00:08:38.035 A:middle
+00:08:36.376 --> 00:08:38.036 A:middle
 We start seeing things that
 are repeating themselves.
 
-00:08:38.035 --> 00:08:40.176 A:middle
+00:08:38.036 --> 00:08:40.176 A:middle
 So we take those patterns, we
 pull them down in the framework.
 
@@ -813,7 +751,7 @@ the UIKit or they go in the apps
 
 00:08:43.246 --> 00:08:46.256 A:middle
 in the AppKit on OS X, or they
-go down in the foundation,
+go down in the Foundation,
 
 00:08:46.256 --> 00:08:48.286 A:middle
 or they wind up going
@@ -834,14 +772,6 @@ wind up at the right level
 00:08:55.496 --> 00:08:57.426 A:middle
 of abstraction for
 use everywhere else.
-
-00:08:57.826 --> 00:09:02.226 A:middle
-Right? So, a really good
-technique in terms of separating
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.826 --> 00:09:02.226 A:middle
 Right? So, a really good
@@ -869,12 +799,13 @@ stuff together.
 00:09:14.376 --> 00:09:15.266 A:middle
 Frameworks are API.
 
-00:09:16.466 --> 00:09:20.136 A:middle
-You heard Andy and Collin talk
-a little bit about it yes --
+00:09:16.466 --> 00:09:18.616 A:middle
+You heard Andy and
+Collin talk a little bit
 
-00:09:20.376 --> 00:09:21.486 A:middle
-yesterday -- earlier today.
+00:09:18.616 --> 00:09:21.486 A:middle
+about it yes-yesterday-earlier
+today.
 
 00:09:21.486 --> 00:09:25.906 A:middle
 Identifying the
@@ -918,7 +849,7 @@ really separable code.
 
 00:09:49.056 --> 00:09:51.196 A:middle
 You get easily testable
-code, you get very,
+code; you get very,
 
 00:09:51.196 --> 00:09:52.986 A:middle
 very good abstraction layers.
@@ -930,14 +861,6 @@ going to be offering frameworks
 00:09:56.626 --> 00:09:58.356 A:middle
 to your application or to
 anyone else, you're going
-
-00:09:58.356 --> 00:10:01.326 A:middle
-to publish a framework as API
-for your service, you know,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.356 --> 00:10:01.326 A:middle
 to publish a framework as API
@@ -997,7 +920,7 @@ is very brief, it's very terse.
 What are you inserting?
 
 00:10:43.146 --> 00:10:48.536 A:middle
-What is the at that
+What is the "at" that
 you're inserting it to?
 
 00:10:48.776 --> 00:10:49.466 A:middle
@@ -1018,14 +941,6 @@ what, once, twice.
 00:10:57.606 --> 00:10:59.346 A:middle
 We're going to read
 it thousands of times.
-
-00:10:59.876 --> 00:11:01.326 A:middle
-I'm going to hand a
-whole bunch of code off
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.876 --> 00:11:01.326 A:middle
 I'm going to hand a
@@ -1103,31 +1018,23 @@ Be really specific.
 Don't abbreviate, right?
 
 00:11:50.606 --> 00:11:52.546 A:middle
-Don't' make your selectors
+Don't make your selectors
 look like line noise.
 
 00:11:52.956 --> 00:11:58.116 A:middle
-All right -- setBkgndColor:
+All right-setBkgndColor:
 We have code completion,
 
 00:11:58.116 --> 00:12:00.316 A:middle
 it fills it out for you, you
 can get a couple of keystrokes
 
+00:12:00.316 --> 00:12:03.176 A:middle
+into it and it'll tell
+you, oh, look, you know,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.116 --> 00:12:00.316 A:middle
-it fills it out for you, you
-can get a couple of keystrokes
-
-00:12:00.316 --> 00:12:02.106 A:middle
-into it and it'll
-tell you, oh, look,
-
-00:12:02.956 --> 00:12:05.086 A:middle
-you know, setBackgroundColor:.
+00:12:04.246 --> 00:12:05.086 A:middle
+"setBackgroundColor:".
 
 00:12:05.586 --> 00:12:12.066 A:middle
 Right? It's long, it tells
@@ -1149,7 +1056,7 @@ actually proposes and managed
 
 00:12:23.316 --> 00:12:27.356 A:middle
 to get by and now
-regret, displayName:.
+regret, "displayName:".
 
 00:12:28.296 --> 00:12:29.916 A:middle
 Right? You see this in a
@@ -1197,13 +1104,6 @@ as it's going to get.
 00:12:59.366 --> 00:13:00.626 A:middle
 Right? It's coming from that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.366 --> 00:13:00.626 A:middle
-Right? It's coming from that.
-
 00:13:01.566 --> 00:13:04.186 A:middle
 If you're showing it to the user
 and it's in your strings files
@@ -1229,7 +1129,7 @@ It's for display.
 
 00:13:17.056 --> 00:13:20.016 A:middle
 And then everybody went, well,
-why -- I'm calling displayName,
+why-I'm calling displayName,
 
 00:13:20.016 --> 00:13:20.926 A:middle
 why isn't this drawing?
@@ -1261,8 +1161,8 @@ So this produces a call site
 that looks like sendAction::,
 
 00:13:46.766 --> 00:13:51.896 A:middle
-you know, sendAction: --
-Selector,:object, :flag.
+you know, sendAction:-
+Selector:, object:, flag.
 
 00:13:51.896 --> 00:13:55.186 A:middle
 It's not specific enough, what's
@@ -1271,14 +1171,6 @@ the object intended to be?
 00:13:55.426 --> 00:13:57.016 A:middle
 What does that flag
 actually mean?
-
-00:13:58.226 --> 00:14:01.066 A:middle
-Right? Fill the whole
-selector out.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.226 --> 00:14:01.066 A:middle
 Right? Fill the whole
@@ -1316,8 +1208,8 @@ by later and curse your
 name because they have
 
 00:14:22.416 --> 00:14:24.636 A:middle
-to read it 1000 times
-after that.
+to read it a thousand
+times after that.
 
 00:14:25.306 --> 00:14:29.566 A:middle
 Don't be that guy.
@@ -1368,14 +1260,6 @@ for a language that has had
 about 200 native speakers
 for less than a year.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:56.776 --> 00:15:00.406 A:middle
-about 200 native speakers
-for less than a year.
-
 00:15:00.516 --> 00:15:03.726 A:middle
 So, trying to figure out sort of
 what some of this stuff is going
@@ -1419,12 +1303,9 @@ versus what makes it feel
 like there's a little
 bit of friction there.
 
-00:15:29.006 --> 00:15:30.376 A:middle
+00:15:29.006 --> 00:15:31.346 A:middle
 All right, so please make sure
-
-00:15:30.376 --> 00:15:31.346 A:middle
-that you're filing
-those [inaudible]
+that you're filing those radars
 
 00:15:31.346 --> 00:15:32.406 A:middle
 on how you'd like it to work.
@@ -1464,16 +1345,8 @@ to describe the variables.
 Right, so this produces a call
 site that looks like this,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.296 --> 00:16:01.126 A:middle
-Right, so this produces a call
-site that looks like this,
-
 00:16:01.126 --> 00:16:02.806 A:middle
-containsCharacter"Buddy", "u".
+containsCharacter, "Buddy", "u".
 
 00:16:02.866 --> 00:16:05.286 A:middle
 Right, there's a string,
@@ -1492,11 +1365,11 @@ out what's trending in
 your code [laughter],
 
 00:16:15.206 --> 00:16:16.446 A:middle
-although that might an
-interesting question.
+although that might be
+an interesting question.
 
 00:16:16.526 --> 00:16:21.396 A:middle
-Right? How often do you use
+Right? How often do you use the
 hashtag character in your code?
 
 00:16:21.576 --> 00:16:25.396 A:middle
@@ -1516,7 +1389,7 @@ containsCharacterstring:
 character:.
 
 00:16:32.876 --> 00:16:37.816 A:middle
-Java code -- you've got method
+Java code- you've got method
 overloading, you can wind
 
 00:16:37.816 --> 00:16:40.846 A:middle
@@ -1554,10 +1427,6 @@ It's a way to be expressive.
 00:16:58.906 --> 00:16:59.986 A:middle
 It's a way to be specific.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.016 --> 00:17:06.366 A:middle
 Right? One of the really nifty
 things about Swift is the mix
@@ -1566,7 +1435,7 @@ things about Swift is the mix
 and match feature, being able to
 take code that already exists,
 
-00:17:10.226 --> 00:17:13.195 A:middle
+00:17:10.226 --> 00:17:13.196 A:middle
 you've already got a
 ton of Objective-C code.
 
@@ -1594,7 +1463,7 @@ Mix and match lets you
 do things like this.
 
 00:17:27.136 --> 00:17:31.526 A:middle
-This is the Popover
+This is the popover
 presentation API from UIKit.
 
 00:17:31.896 --> 00:17:37.676 A:middle
@@ -1627,13 +1496,6 @@ of what's happening, right?
 00:17:59.986 --> 00:18:01.126 A:middle
 What's .Any there?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:59.986 --> 00:18:01.126 A:middle
-What's .Any there?
-
 00:18:01.126 --> 00:18:01.656 A:middle
 I have no idea.
 
@@ -1651,12 +1513,12 @@ but that doesn't really help me
 out if those aren't
 my variable names.
 
-00:18:08.866 --> 00:18:11.396 A:middle
-Right? If we re-declare --
+00:18:08.866 --> 00:18:11.566 A:middle
+Right? If we re-declare-oh,
 
-00:18:11.396 --> 00:18:13.576 A:middle
-oh, and then we've got
-presentFromBarButtonItem
+00:18:11.566 --> 00:18:13.576 A:middle
+and then we've got
+presentPopoverFromBarButtonItem
 
 00:18:13.576 --> 00:18:15.406 A:middle
 and that just throws the
@@ -1721,23 +1583,13 @@ inside the method,
 the implementation
 variable that you're using.
 
-00:18:54.536 --> 00:18:55.326 A:middle
-It's the parameter that --
-
-00:18:55.326 --> 00:18:56.256 A:middle
-it's the name that you use
+00:18:54.536 --> 00:18:56.256 A:middle
+It's the parameter that-it's
+the name that you use
 
 00:18:56.256 --> 00:18:58.366 A:middle
 for the parameter
 that gets passed in.
-
-00:18:58.366 --> 00:19:00.676 A:middle
-inView view and then the
-hash marks there again,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.366 --> 00:19:00.676 A:middle
 inView view and then the
@@ -1759,24 +1611,26 @@ that look like this.
 Right? So now I've got
 presentPopover fromRect, inView,
 
-00:19:12.106 --> 00:19:14.116 A:middle
-ArrowDirections,
-Animated, and presentPopover
+00:19:12.106 --> 00:19:13.246 A:middle
+ArrowDirections, Animated,
 
-00:19:14.116 --> 00:19:16.696 A:middle
-from BarButtonItem,
+00:19:13.246 --> 00:19:15.006 A:middle
+and presentPopover
+fromBarButtonItem,
+
+00:19:15.686 --> 00:19:16.696 A:middle
 arrowDirections, animated.
 
 00:19:16.746 --> 00:19:19.336 A:middle
 Great, I can tell the different
 between them, that's awesome.
 
-00:19:19.746 --> 00:19:24.456 A:middle
+00:19:19.746 --> 00:19:23.016 A:middle
 That's a lot of typing.
 
-00:19:24.576 --> 00:19:27.496 A:middle
-Co-completions nice but that's
-still a bunch of typing.
+00:19:23.546 --> 00:19:27.496 A:middle
+Code completion's nice but
+that's still a bunch of typing.
 
 00:19:28.296 --> 00:19:30.356 A:middle
 Swift has some really
@@ -1810,20 +1664,12 @@ Right? Swift, when it
 goes through the mix
 
 00:19:51.616 --> 00:19:55.396 A:middle
-and match bits takes the common
-pre-fix off of the ENUM's
+and match bits takes the
+common pre-fix off of the enums
 
 00:19:55.396 --> 00:19:59.196 A:middle
 for the options and makes
 them the shortened version
-
-00:19:59.196 --> 00:20:00.626 A:middle
-at the end, which is
-one really nice thing
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.196 --> 00:20:00.626 A:middle
 at the end, which is
@@ -1834,23 +1680,25 @@ about when we went back through
 
 00:20:01.936 --> 00:20:03.836 A:middle
 and started normalizing
-all the ENUM's again
+all the enums again
 
 00:20:03.836 --> 00:20:06.016 A:middle
 and the common prefixes
 allowed us to do this.
 
-00:20:06.166 --> 00:20:11.446 A:middle
-So, .Any as passed into a
-popoverArrowDirection type is
+00:20:06.166 --> 00:20:11.016 A:middle
+So, .Any, as passed into a
+popoverArrowDirection type,
 
-00:20:11.986 --> 00:20:15.876 A:middle
-that particular entry out
-of the NS ENUM argument.
+00:20:11.016 --> 00:20:15.876 A:middle
+is that particular entry
+out of the NS-ENUM argument.
 
-00:20:15.876 --> 00:20:18.896 A:middle
-And Bool gets true there
-is a way to say that YES,
+00:20:15.876 --> 00:20:16.986 A:middle
+And Bool gets true.
+
+00:20:16.986 --> 00:20:18.896 A:middle
+There is a way to say that YES.
 
 00:20:19.036 --> 00:20:21.436 A:middle
 if there's no argument
@@ -1878,7 +1726,7 @@ see a really long method,
 
 00:20:39.926 --> 00:20:42.356 A:middle
 it'll have probably, I don't
-know, anywhere between six,
+know, anywhere between six
 
 00:20:42.356 --> 00:20:44.136 A:middle
 and eight to 12 arguments.
@@ -1892,8 +1740,8 @@ Generally you'll see
 that the end arguments
 
 00:20:49.216 --> 00:20:51.276 A:middle
-of an Objective-C [inaudible]
-starting to get peeled off.
+of an Objective-C sort of
+start to get peeled off.
 
 00:20:51.486 --> 00:20:53.006 A:middle
 Those shorter versions
@@ -1905,15 +1753,7 @@ with default values.
 
 00:20:55.836 --> 00:20:57.976 A:middle
 Right? Those are all generally
-one line implementations
-
-00:20:57.976 --> 00:21:01.056 A:middle
-that call back out to the big
-guy with all the switches on it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+one-line implementations
 
 00:20:57.976 --> 00:21:01.056 A:middle
 that call back out to the big
@@ -1943,7 +1783,7 @@ code, be really clear in Swift,
 
 00:21:15.836 --> 00:21:21.026 A:middle
 and doing this in Swift,
-talking to Objective-C API's,
+talking to Objective-C APIs,
 
 00:21:21.426 --> 00:21:25.106 A:middle
 you can start really
@@ -1961,7 +1801,7 @@ You've got one place to
 do these implementations
 
 00:21:30.976 --> 00:21:34.536 A:middle
-and the default value's
+and the default values
 just go in the right place.
 
 00:21:34.716 --> 00:21:36.646 A:middle
@@ -1995,14 +1835,6 @@ we're trying to put down there,
 00:21:56.596 --> 00:21:58.236 A:middle
 they're the same things
 that we use at Apple.
-
-00:21:58.706 --> 00:22:03.346 A:middle
-So another good reason to
-go and look at these is all
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.706 --> 00:22:03.346 A:middle
 So another good reason to
@@ -2098,13 +1930,6 @@ bugreport.apple.com,
 00:22:59.616 --> 00:23:00.766 A:middle
 get the radars in on Swift
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.616 --> 00:23:00.766 A:middle
-get the radars in on Swift
-
 00:23:00.816 --> 00:23:02.926 A:middle
 because this is really your
 opportunity to have a lot
@@ -2161,7 +1986,7 @@ say, used the latest version
 
 00:23:39.106 --> 00:23:42.776 A:middle
 of this new framework that just
-came out and its version 1.
+came out and it's version one.
 
 00:23:43.386 --> 00:23:47.116 A:middle
 So for a while at least
@@ -2182,13 +2007,6 @@ or via the open URL call,
 00:23:54.066 --> 00:23:58.426 A:middle
 things like that, hey, all
 of the objects work together.
-
-00:23:59.616 --> 00:24:00.376 A:middle
-No problem, right?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.616 --> 00:24:00.376 A:middle
 No problem, right?
@@ -2216,10 +2034,10 @@ Right? So some applications
 on the user's device are going
 
 00:24:21.246 --> 00:24:24.446 A:middle
-to be Version 2, the blue ones,
+to be Version 2, the blue ones.
 
 00:24:24.446 --> 00:24:26.066 A:middle
-some versions are
+Some versions are
 going to be Version 1.
 
 00:24:26.566 --> 00:24:29.356 A:middle
@@ -2280,14 +2098,6 @@ First, you're going to have
 to put a framework
 version in there anyway.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.916 --> 00:25:00.466 A:middle
-to put a framework
-version in there anyway.
-
 00:25:01.456 --> 00:25:04.656 A:middle
 The framework mechanism
 when you create a new target
@@ -2296,12 +2106,11 @@ when you create a new target
 or when you create a new
 project for a framework,
 
-00:25:07.716 --> 00:25:08.456 A:middle
-that goes in the
-info [inaudible],
+00:25:07.716 --> 00:25:08.756 A:middle
+that goes in the info .plist.
 
-00:25:08.456 --> 00:25:11.166 A:middle
-there's a short version string,
+00:25:08.756 --> 00:25:11.166 A:middle
+There's a short version string,
 keep track of that, use that.
 
 00:25:11.436 --> 00:25:13.206 A:middle
@@ -2385,14 +2194,6 @@ to what a key-value pair means
 or what a relationship between
 two key-value pairs mean inside
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.706 --> 00:26:03.056 A:middle
-or what a relationship between
-two key-value pairs mean inside
-
 00:26:03.056 --> 00:26:04.696 A:middle
 those archives that you're
 sending back and forth
@@ -2431,12 +2232,13 @@ able to deal with that.
 So, one is missing keys should
 return 'nil' or the equivalent.
 
-00:26:28.636 --> 00:26:31.236 A:middle
-In the face of getting back
-'nil' you probably want
+00:26:28.636 --> 00:26:30.116 A:middle
+In the face of getting
+back 'nil',
 
-00:26:31.236 --> 00:26:31.996 A:middle
-to do something sane.
+00:26:30.486 --> 00:26:31.996 A:middle
+you probably want to
+do something sane.
 
 00:26:33.406 --> 00:26:35.606 A:middle
 Right? If you're looking for
@@ -2479,14 +2281,6 @@ you kind of have to look at it
 00:26:55.666 --> 00:26:58.366 A:middle
 and go, well, I'm not
 really sure where this comes
-
-00:26:58.366 --> 00:27:00.116 A:middle
-from so I should at
-least be wary of it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.366 --> 00:27:00.116 A:middle
 from so I should at
@@ -2565,10 +2359,11 @@ your stuff
 and they're sending stuff back
 and forth but they're depending
 
-00:27:45.586 --> 00:27:46.966 A:middle
-on your framework, you won't
+00:27:45.586 --> 00:27:47.056 A:middle
+on your framework,
+you don't want
 
-00:27:46.966 --> 00:27:49.646 A:middle
+00:27:47.056 --> 00:27:49.646 A:middle
 to actually stomp
 on their name space.
 
@@ -2587,19 +2382,16 @@ name spaced at all.
 00:27:58.686 --> 00:28:00.106 A:middle
 So make sure they're unique.
 
+00:28:00.106 --> 00:28:01.116 A:middle
+Use the prefixes.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:28:01.616 --> 00:28:02.666 A:middle
+If you want to be
+really defensive,
 
-00:27:58.686 --> 00:28:00.106 A:middle
-So make sure they're unique.
-
-00:28:00.106 --> 00:28:01.916 A:middle
-Use the prefixes, if you want
-
-00:28:01.916 --> 00:28:05.046 A:middle
-to be really defensive use your
-bundle ID, prefix it there.
+00:28:02.666 --> 00:28:05.046 A:middle
+use your bundle ID,
+prefix it there.
 
 00:28:05.996 --> 00:28:10.476 A:middle
 One of the ways you can also
@@ -2678,15 +2470,11 @@ message except in Version 2.
 Okay, this is all
 awesome, great.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:01.386 --> 00:29:04.856 A:middle
 How does all this work?
 
 00:29:06.356 --> 00:29:07.256 A:middle
-Pretty well actually.
+Pretty well, actually.
 
 00:29:08.536 --> 00:29:12.456 A:middle
 If you follow me on
@@ -2753,14 +2541,6 @@ that I've been working on.
 It's called Budstagram
 and it's a way
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.376 --> 00:30:04.186 A:middle
-It's called Budstagram
-and it's a way
-
 00:30:04.186 --> 00:30:05.366 A:middle
 that you can take your pictures
 
@@ -2775,12 +2555,12 @@ So --
 [ Applause ]
 
 00:30:14.316 --> 00:30:16.536 A:middle
-What we'll do is I'm
+What we'll do is, I'm
 going to take a quick tour
 
 00:30:16.536 --> 00:30:21.546 A:middle
-through Xcode both on -- for
-what I've done so far with this
+through Xcode both on-for what
+I've done so far with this
 
 00:30:21.546 --> 00:30:25.456 A:middle
 and just to walk through the
@@ -2795,8 +2575,8 @@ But you're going to be able
 to do this kind of thing.
 
 00:30:29.816 --> 00:30:33.096 A:middle
-The idea is -- but this is
-a terrible picture isn't it?
+The idea is-but this is a
+terrible picture isn't it?
 
 00:30:33.096 --> 00:30:34.366 A:middle
 This is a beach in Corsica.
@@ -2839,18 +2619,10 @@ picture having been photo bombed
 by my dog.
 
 00:30:54.746 --> 00:30:54.846 A:middle
-So --
+So,
 
 00:30:55.516 --> 00:30:57.776 A:middle
 [ Applause ]
-
-00:30:58.276 --> 00:31:00.486 A:middle
-We're going to take a
-look at three things.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.276 --> 00:31:00.486 A:middle
 We're going to take a
@@ -2961,14 +2733,6 @@ are common to your service
 and there are things that
 make your app unique.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.766 --> 00:32:01.346 A:middle
-and there are things that
-make your app unique.
-
 00:32:02.736 --> 00:32:05.296 A:middle
 Right? So you want to try and
 keep those two things separate.
@@ -3015,18 +2779,18 @@ application here.
 
 00:32:30.506 --> 00:32:33.386 A:middle
 And if I tap on it,
-there's Bud in Corsica,
+there's Bud in Corsica.
 
-00:32:33.386 --> 00:32:37.026 A:middle
-this is the feed here,
-and if we were going
+00:32:33.386 --> 00:32:35.266 A:middle
+This is the feed here.
 
-00:32:37.026 --> 00:32:38.316 A:middle
-to post something
-here, this is a picture
+00:32:35.796 --> 00:32:37.866 A:middle
+And if we were going
+to post something here,
 
-00:32:38.316 --> 00:32:39.946 A:middle
-of my parents' backyard
+00:32:37.866 --> 00:32:39.946 A:middle
+this is a picture of
+my parents' backyard
 
 00:32:39.946 --> 00:32:44.276 A:middle
 in Connecticut looking very
@@ -3060,14 +2824,6 @@ two, you're only going
 
 00:32:57.146 --> 00:32:59.306 A:middle
 to use in the framework.
-
-00:32:59.356 --> 00:33:02.396 A:middle
-So you don't have to be
-jocking targets, you don't have
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.356 --> 00:33:02.396 A:middle
 So you don't have to be
@@ -3111,8 +2867,8 @@ view application here just
 for the basics.
 
 00:33:26.336 --> 00:33:30.066 A:middle
-We'll call this framework
-example
+We'll call this "framework
+example"
 
 00:33:30.066 --> 00:33:31.836 A:middle
 because I'm not particularly
@@ -3122,12 +2878,12 @@ creative.
 And we've got a language
 choice here, I'm going to stick
 
-00:33:36.106 --> 00:33:39.026 A:middle
+00:33:36.106 --> 00:33:39.786 A:middle
 with Objective-C for a
-minute and we'll just --
+minute and we'll just-oh,
 
-00:33:39.636 --> 00:33:44.896 A:middle
-oh, I am not an organization
+00:33:40.726 --> 00:33:44.896 A:middle
+I am not an organization
 unto myself, so we'll call
 
 00:33:45.746 --> 00:33:47.316 A:middle
@@ -3148,14 +2904,6 @@ different things here,
 there's some build settings, and
 build phases, and all this stuff
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.506 --> 00:34:00.396 A:middle
-there's some build settings, and
-build phases, and all this stuff
-
 00:34:00.396 --> 00:34:01.176 A:middle
 that you're familiar with.
 
@@ -3166,11 +2914,11 @@ with libraries bit here.
 00:34:05.046 --> 00:34:07.346 A:middle
 And if you were just going
 
-00:34:07.346 --> 00:34:08.775 A:middle
+00:34:07.346 --> 00:34:08.776 A:middle
 to have an application
 this would be fine,
 
-00:34:08.775 --> 00:34:11.596 A:middle
+00:34:08.776 --> 00:34:11.596 A:middle
 you'd work with this and
 you'd put all of your code in
 
@@ -3192,9 +2940,9 @@ framework and library target,
 00:34:19.976 --> 00:34:20.996 A:middle
 a Cocoa Touch Framework.
 
-00:34:22.795 --> 00:34:28.886 A:middle
-We'll call this --
-let's call it Budstakit.
+00:34:22.796 --> 00:34:28.886 A:middle
+We'll call this-let's
+call it Budstakit.
 
 00:34:28.886 --> 00:34:30.406 A:middle
 And you'll see two
@@ -3204,8 +2952,8 @@ new things here.
 It says here the project is
 the framework example here,
 
-00:34:33.985 --> 00:34:36.186 A:middle
-and embed in application
+00:34:33.986 --> 00:34:36.186 A:middle
+and "embed in application":
 framework example.
 
 00:34:36.186 --> 00:34:41.616 A:middle
@@ -3223,7 +2971,7 @@ it all that stuff winds
 00:34:46.146 --> 00:34:47.016 A:middle
 up in the right place.
 
-00:34:48.005 --> 00:34:49.056 A:middle
+00:34:48.006 --> 00:34:49.056 A:middle
 So we can do Finish here.
 
 00:34:49.716 --> 00:34:53.146 A:middle
@@ -3239,14 +2987,6 @@ create the extension here too
 
 00:34:58.886 --> 00:34:59.546 A:middle
 while we're at it.
-
-00:34:59.576 --> 00:35:00.986 A:middle
-So here's an application
-extension.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.576 --> 00:35:00.986 A:middle
 So here's an application
@@ -3281,12 +3021,13 @@ identification.
 So there's nothing in
 BudstaKit right now.
 
-00:35:41.506 --> 00:35:42.366 A:middle
-There's nothing in the --
+00:35:41.506 --> 00:35:43.166 A:middle
+There's nothing in
+the-there's this sort
 
-00:35:42.366 --> 00:35:45.086 A:middle
-there's this sort of empty
-share view controller in here.
+00:35:43.166 --> 00:35:45.086 A:middle
+of empty share view
+controller in here.
 
 00:35:45.086 --> 00:35:47.266 A:middle
 And we've got this
@@ -3296,13 +3037,13 @@ ViewController
 for the framework example
 for the application.
 
-00:35:50.816 --> 00:35:54.056 A:middle
-One of the things that I
-mentioned before was I wanted
+00:35:50.816 --> 00:35:53.776 A:middle
+One of the things that
+I mentioned before was,
 
-00:35:54.056 --> 00:35:56.746 A:middle
-to be able to have the share
-view controller be part
+00:35:53.776 --> 00:35:56.746 A:middle
+I wanted to be able to have the
+share view controller be part
 
 00:35:56.746 --> 00:35:57.606 A:middle
 of the framework.
@@ -3310,14 +3051,6 @@ of the framework.
 00:35:57.606 --> 00:35:59.216 A:middle
 Right? Because I
 want to use that both
-
-00:35:59.216 --> 00:36:03.816 A:middle
-in Budstagram itself
-and in the extension.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.216 --> 00:36:03.816 A:middle
 in Budstagram itself
@@ -3343,7 +3076,7 @@ Xcodes are organizing all
 the code in directories here,
 
 00:36:22.826 --> 00:36:26.866 A:middle
-but the directory -- obviously
+but the directory-obviously
 directory hierarchy is not
 
 00:36:26.866 --> 00:36:30.016 A:middle
@@ -3387,13 +3120,6 @@ I'm going to go ahead and,
 00:36:59.126 --> 00:37:00.116 A:middle
 it says here, in this header,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.126 --> 00:37:00.116 A:middle
-it says here, in this header,
-
 00:37:00.116 --> 00:37:01.736 A:middle
 you should import all
 the public headers
@@ -3408,7 +3134,7 @@ PublicHeader.
 
 00:37:05.256 --> 00:37:14.906 A:middle
 So let's do import
-BudstaKit ShareViewController.
+BudstaKit/ShareViewController.
 
 00:37:15.436 --> 00:37:17.996 A:middle
 Hello code completion.
@@ -3420,16 +3146,17 @@ sure that we change these
 00:37:22.956 --> 00:37:24.176 A:middle
 to be part of the right targets.
 
-00:37:24.176 --> 00:37:27.456 A:middle
-Over here on the right-hand side
+00:37:24.176 --> 00:37:25.696 A:middle
+Over here on the
+right-hand side,
+
+00:37:26.116 --> 00:37:28.716 A:middle
 ShareViewController.m is part
+of the BudstaPosting target,
 
-00:37:27.456 --> 00:37:29.756 A:middle
-of the BudstaPosting target, we
-actually want to make it part
-
-00:37:29.756 --> 00:37:30.816 A:middle
-of the BudstaKit target.
+00:37:28.716 --> 00:37:30.816 A:middle
+we actually want to make it
+part of the BudstaKit target.
 
 00:37:30.816 --> 00:37:32.776 A:middle
 And the thing that
@@ -3468,13 +3195,13 @@ done before.
 Right? Usually you use
 the headers, the .m's,
 
-00:37:49.186 --> 00:37:50.666 A:middle
-or the .s's are part
-of the framework --
+00:37:49.186 --> 00:37:51.676 A:middle
+or the .s's are part of the
+framework-or the target,
 
-00:37:51.006 --> 00:37:53.746 A:middle
-or the target, the headers are
-just loose, they never wind
+00:37:51.906 --> 00:37:53.746 A:middle
+the headers are just
+loose, they never wind
 
 00:37:53.746 --> 00:37:54.476 A:middle
 up getting distributed.
@@ -3495,14 +3222,6 @@ your team, you're going to want
 to tell us whether this
 thing is a project header,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.276 --> 00:38:01.796 A:middle
-to tell us whether this
-thing is a project header,
-
 00:38:02.076 --> 00:38:03.706 A:middle
 a private header,
 or a public header.
@@ -3514,11 +3233,11 @@ means that only things
 00:38:07.966 --> 00:38:09.036 A:middle
 within the project can see it.
 
-00:38:09.976 --> 00:38:11.136 A:middle
-The private header goes --
+00:38:09.976 --> 00:38:11.796 A:middle
+The private header
+goes-anything that's marked
 
-00:38:11.136 --> 00:38:12.676 A:middle
-anything that's marked
+00:38:11.796 --> 00:38:12.676 A:middle
 as a private header goes
 
 00:38:12.676 --> 00:38:15.416 A:middle
@@ -3583,14 +3302,6 @@ can grope all over it.
 So, and then down here in the
 BudstaPosting thing, well,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:56.326 --> 00:39:00.546 A:middle
-So, and then down here in the
-BudstaPosting thing, well,
-
 00:39:00.546 --> 00:39:01.946 A:middle
 we're going to have
 to edit the target.
@@ -3615,8 +3326,8 @@ I need to make BudstaPosting
 link with BudstaKit,
 
 00:39:16.946 --> 00:39:20.496 A:middle
-so what I can do is just drag
-this guy here -- no, okay.
+so what I can do is just
+drag this guy here-no, okay.
 
 00:39:20.926 --> 00:39:24.066 A:middle
 We'll pick a plus, we'll choose
@@ -3631,15 +3342,15 @@ So now ShareViewController
 is now part of the framework.
 
 00:39:31.536 --> 00:39:35.746 A:middle
-Since BudstaPosting the
-extension links the framework
+Since BudstaPosting, the
+extension links the framework,
 
-00:39:35.746 --> 00:39:37.246 A:middle
-and the app links the
-framework they can both
+00:39:35.746 --> 00:39:36.756 A:middle
+and the app links the framework,
 
-00:39:37.246 --> 00:39:38.866 A:middle
-use ShareViewController.
+00:39:36.756 --> 00:39:38.866 A:middle
+they can both use
+ShareViewController.
 
 00:39:38.866 --> 00:39:41.556 A:middle
 Let's go ahead and build
@@ -3653,7 +3364,7 @@ a quick look here
 at what actually got produced.
 
 00:39:46.636 --> 00:39:49.186 A:middle
-So, if we go look at -- I moved
+So, if we go look at-I moved
 my build directory up here
 
 00:39:49.186 --> 00:39:51.026 A:middle
@@ -3670,14 +3381,6 @@ of different products based
 00:39:55.756 --> 00:39:59.296 A:middle
 on our target configuration
 and our target.
-
-00:39:59.516 --> 00:40:02.776 A:middle
-Here's sort of everything
-spread out.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:59.516 --> 00:40:02.776 A:middle
 Here's sort of everything
@@ -3711,17 +3414,17 @@ all old school
 
 00:40:21.776 --> 00:40:22.976 A:middle
 and go look in the
-terminal here.
+Terminal here.
 
 00:40:32.256 --> 00:40:33.556 A:middle
 The old tricks are the best.
 
-00:40:33.936 --> 00:40:36.756 A:middle
-And the BudstaKit framework
-has inside it this headers
+00:40:33.936 --> 00:40:37.346 A:middle
+And the BudstaKit framework has
+inside it this headers directory
 
-00:40:36.756 --> 00:40:39.766 A:middle
-directory, and a module.
+00:40:38.826 --> 00:40:39.766 A:middle
+and a module.
 
 00:40:40.666 --> 00:40:44.516 A:middle
 Modules are generated for use
@@ -3755,14 +3458,6 @@ be aware of is you're going
 to have multiple copies of the
 frameworks on disk at a time.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.146 --> 00:41:00.686 A:middle
-to have multiple copies of the
-frameworks on disk at a time.
-
 00:41:00.686 --> 00:41:03.816 A:middle
 We're not sharing frameworks
 across sandbox boundaries.
@@ -3784,16 +3479,16 @@ if it's one of your own.
 
 00:41:12.046 --> 00:41:14.886 A:middle
 All right, so all of these
-things get imbedded directly
+things get embedded directly
 
 00:41:14.886 --> 00:41:15.576 A:middle
 in the application.
 
-00:41:15.576 --> 00:41:20.006 A:middle
+00:41:15.576 --> 00:41:18.296 A:middle
 So your apps are still
-completely stand-alone items.
+completely standalone items.
 
-00:41:20.896 --> 00:41:25.496 A:middle
+00:41:19.126 --> 00:41:25.496 A:middle
 So, let's go back to this
 and take a quick look here.
 
@@ -3822,7 +3517,7 @@ by bundle identifier
 using the bundle API.
 
 00:41:43.806 --> 00:41:45.576 A:middle
-No that isn't a bug
+No, that isn't a bug
 I ran into myself
 
 00:41:45.576 --> 00:41:48.706 A:middle
@@ -3836,14 +3531,6 @@ has the standard extension stuff
 00:41:54.826 --> 00:41:56.986 A:middle
 here for things like
 isContentValid, didSelect.
-
-00:41:56.986 --> 00:42:00.916 A:middle
-These are peculiar to
-the ShareViewController
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:56.986 --> 00:42:00.916 A:middle
 These are peculiar to
@@ -3903,12 +3590,13 @@ BudstaKit has all of the stuff
 00:42:43.806 --> 00:42:46.646 A:middle
 like the public umbrella header.
 
-00:42:47.516 --> 00:42:50.736 A:middle
-Right? So just like you just
-type importUIKit.h you should
+00:42:47.516 --> 00:42:50.446 A:middle
+Right? So just like, you
+just type importUIKit.h,
 
-00:42:50.736 --> 00:42:51.856 A:middle
-setting your umbrella header
+00:42:50.446 --> 00:42:51.856 A:middle
+you should set your
+umbrella header
 
 00:42:51.856 --> 00:42:53.166 A:middle
 in your framework to
@@ -3919,15 +3607,7 @@ Put all your public API in there
 so you'll import BudstaKit.h.
 
 00:42:58.086 --> 00:43:00.266 A:middle
-Or at list I hope
-you will someday.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:58.086 --> 00:43:00.266 A:middle
-Or at list I hope
+Or at least I hope
 you will someday.
 
 00:43:00.306 --> 00:43:03.036 A:middle
@@ -3991,12 +3671,12 @@ pulling all of these things
 down into the right place
 is very, very, important.
 
-00:43:41.836 --> 00:43:44.296 A:middle
+00:43:41.836 --> 00:43:44.066 A:middle
 Most of those 13 years I've
-spent doing frameworks I've
+spent doing frameworks,
 
-00:43:44.296 --> 00:43:46.406 A:middle
-worked for a lot of really
+00:43:44.156 --> 00:43:46.406 A:middle
+I've worked for a lot of really
 talented frameworks developers,
 
 00:43:46.406 --> 00:43:51.276 A:middle
@@ -4009,14 +3689,6 @@ from shipping software.
 00:43:53.136 --> 00:43:57.046 A:middle
 Right? Being clear,
 being explicit,
-
-00:43:57.806 --> 00:44:01.136 A:middle
-having the right amount of
-API, having expressive API,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:57.806 --> 00:44:01.136 A:middle
 having the right amount of
@@ -4093,19 +3765,11 @@ in the week and there's
 one tomorrow.
 
 00:44:51.706 --> 00:44:54.306 A:middle
-Creating Extensions
-for iOS and OS X,
+"Creating Extensions
+for iOS and OS X",
 
 00:44:54.756 --> 00:44:57.206 A:middle
 Parts 1 and 2 were earlier.
-
-00:44:57.516 --> 00:45:00.696 A:middle
-Go watch those for breaking
-up things into the extensions
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:57.516 --> 00:45:00.696 A:middle
 Go watch those for breaking
@@ -4188,4 +3852,3 @@ Thank you, very much.
 
 00:45:49.516 --> 00:45:54.730 A:middle
 [ Applause ]
-

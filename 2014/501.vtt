@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:13.046 --> 00:00:14.086 A:middle
 &gt;&gt; Good morning everyone.
@@ -30,7 +29,7 @@ talking about some enhancements
 that we've made to
 Core MIDI and how
 
-00:00:30.516 --> 00:00:32.555 A:middle
+00:00:30.516 --> 00:00:32.556 A:middle
 that affects you and your apps.
 
 00:00:32.946 --> 00:00:34.856 A:middle
@@ -68,13 +67,6 @@ following this one
 00:00:55.426 --> 00:00:58.676 A:middle
 in the same room
 starting at 10:15 a.m.
-
-00:00:59.036 --> 00:01:00.516 A:middle
-So without further ado,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.036 --> 00:01:00.516 A:middle
 So without further ado,
@@ -150,14 +142,6 @@ to send and receive MIDI data
 over Bluetooth Low Energy
 connections on any device or Mac
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.466 --> 00:02:01.666 A:middle
-over Bluetooth Low Energy
-connections on any device or Mac
-
 00:02:01.736 --> 00:02:03.906 A:middle
 that has native Bluetooth
 Low Energy support.
@@ -169,11 +153,11 @@ established is secure meaning
 00:02:07.176 --> 00:02:08.446 A:middle
 that pairing is enforced.
 
-00:02:08.675 --> 00:02:10.175 A:middle
+00:02:08.676 --> 00:02:10.176 A:middle
 No one can connect
 to your devices
 
-00:02:10.175 --> 00:02:11.426 A:middle
+00:02:10.176 --> 00:02:11.426 A:middle
 without your explicit consent,
 
 00:02:12.266 --> 00:02:15.706 A:middle
@@ -243,14 +227,6 @@ You can connect to me now."
 
 00:02:55.886 --> 00:02:57.076 A:middle
 And then that side waits.
-
-00:02:57.716 --> 00:03:00.316 A:middle
-The Central can scan
-for a device
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.716 --> 00:03:00.316 A:middle
 The Central can scan
@@ -335,14 +311,6 @@ or the Peripheral role.
 00:03:56.406 --> 00:03:58.706 A:middle
 If you look at kind of the
 top third of the window,
-
-00:03:58.706 --> 00:04:00.846 A:middle
-you'll see where there's a
-button that says Advertise.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:58.706 --> 00:04:00.846 A:middle
 you'll see where there's a
@@ -443,13 +411,6 @@ will terminate the Bluetooth
 00:04:59.506 --> 00:05:01.036 A:middle
 connection to save power.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.506 --> 00:05:01.036 A:middle
-connection to save power.
-
 00:05:02.106 --> 00:05:04.716 A:middle
 So what does all of this
 look like in practice?
@@ -522,14 +483,6 @@ So here's my iPad.
 00:05:55.496 --> 00:05:59.146 A:middle
 And this is a little test
 application that we wrote
-
-00:05:59.146 --> 00:06:02.146 A:middle
-to implement the
-CoreAudioKit View Controllers
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.146 --> 00:06:02.146 A:middle
 to implement the
@@ -609,14 +562,6 @@ called Arpeggionome Pro.
 So I'm going to launch that,
 and I'm going to use it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.806 --> 00:07:03.496 A:middle
-So I'm going to launch that,
-and I'm going to use it
-
 00:07:03.496 --> 00:07:11.996 A:middle
 to send MIDI data over
 to the Main Stage 3.
@@ -656,14 +601,6 @@ preset, it's called Epic Fall.
 
 00:07:54.336 --> 00:07:56.386 A:middle
 And it is epic.
-
-00:07:57.066 --> 00:08:00.646 A:middle
-So that's Bluetooth
-being sent over MIDI.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:57.066 --> 00:08:00.646 A:middle
 So that's Bluetooth
@@ -749,13 +686,6 @@ is really low latency.
 00:08:59.636 --> 00:09:00.516 A:middle
 It's very sensitive.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:59.636 --> 00:09:00.516 A:middle
-It's very sensitive.
-
 00:09:01.356 --> 00:09:05.676 A:middle
 And the Bluetooth LE bandwidth
 greatly exceeds the minimum MIDI
@@ -833,14 +763,6 @@ over Bluetooth LE UI
 that Torrey just demonstrated as
 well as some new views for those
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.136 --> 00:10:03.536 A:middle
-that Torrey just demonstrated as
-well as some new views for those
-
 00:10:03.536 --> 00:10:05.306 A:middle
 of you that are doing
 Inter-App Audio.
@@ -903,14 +825,6 @@ PeripheralViewController.
 00:10:55.226 --> 00:10:57.116 A:middle
 That's quite a mouthful
 this early in the morning.
-
-00:10:58.636 --> 00:11:01.646 A:middle
-If you want to advertise
-your iOS device
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.636 --> 00:11:01.646 A:middle
 If you want to advertise
@@ -981,10 +895,6 @@ allows you to stream audio
 between one or more
 apps in real time.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.556 --> 00:12:05.766 A:middle
 A host application can discover
 available node apps even
@@ -1044,14 +954,6 @@ together and switch
 00:12:55.046 --> 00:12:57.176 A:middle
 between them using a
 simple tap gesture.
-
-00:12:59.516 --> 00:13:03.766 A:middle
-We also provide an Inter-App
-Audio Host Transport view.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.516 --> 00:13:03.766 A:middle
 We also provide an Inter-App
@@ -1123,13 +1025,6 @@ connect this to GarageBand.
 00:13:59.806 --> 00:14:01.226 A:middle
 I'm going to launch GarageBand.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.806 --> 00:14:01.226 A:middle
-I'm going to launch GarageBand.
-
 00:14:07.796 --> 00:14:11.236 A:middle
 I'm going to connect
 to that Sampler app,
@@ -1188,13 +1083,6 @@ try to find that application.
 
 00:14:58.476 --> 00:14:59.246 A:middle
 Where is it?
-
-00:14:59.246 --> 00:15:00.616 A:middle
-It's difficult to find.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.246 --> 00:15:00.616 A:middle
 It's difficult to find.
@@ -1266,10 +1154,6 @@ I can do recording.
 
 00:15:56.516 --> 00:15:59.786 A:middle
 [ Music Playing ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.286 --> 00:16:01.506 A:middle
 Sorry. I'm no Dr. Dre.
@@ -1357,14 +1241,6 @@ We import the umbrella header.
 In this case, I'm
 demonstrating how
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.436 --> 00:17:01.326 A:middle
-In this case, I'm
-demonstrating how
-
 00:17:01.326 --> 00:17:03.856 A:middle
 to add the Switcher
 View from a nib file.
@@ -1373,18 +1249,18 @@ View from a nib file.
 So you go into IV,
 drag out your UI view,
 
-00:17:07.016 --> 00:17:10.715 A:middle
+00:17:07.016 --> 00:17:10.716 A:middle
 assign that to be the class of
 the CAInterAppAudioSwitcherView,
 
 00:17:11.146 --> 00:17:13.106 A:middle
 create an outlet for that view,
 
-00:17:13.215 --> 00:17:19.296 A:middle
+00:17:13.216 --> 00:17:19.296 A:middle
 and then in the viewDidLoad
 method we specified a visual
 
-00:17:19.296 --> 00:17:20.685 A:middle
+00:17:19.296 --> 00:17:20.686 A:middle
 appearance of that view.
 
 00:17:20.866 --> 00:17:25.406 A:middle
@@ -1427,14 +1303,6 @@ add that transport view
 00:17:53.106 --> 00:17:57.806 A:middle
 as a subview of our
 main content.
-
-00:17:58.576 --> 00:18:01.936 A:middle
-OK. Now I'd like to switch
-gears a little bit now back
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.576 --> 00:18:01.936 A:middle
 OK. Now I'd like to switch
@@ -1516,14 +1384,6 @@ in a moment.
 And finally we have a
 centralized Audio Unit cache
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.146 --> 00:19:01.676 A:middle
-And finally we have a
-centralized Audio Unit cache
-
 00:19:02.086 --> 00:19:04.816 A:middle
 so that if you have
 multiple host applications
@@ -1594,14 +1454,6 @@ for finer programmatic control.
 And for those of you
 using older host apps
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:57.536 --> 00:20:00.246 A:middle
-And for those of you
-using older host apps
-
 00:20:00.626 --> 00:20:02.696 A:middle
 with our current
 audio component API,
@@ -1664,13 +1516,6 @@ that pass a specific test.
 00:20:54.776 --> 00:20:58.726 A:middle
 And in this block I'm checking
 to see if the type name
-
-00:20:58.766 --> 00:21:00.406 A:middle
-of that audio unit is equal
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.766 --> 00:21:00.406 A:middle
 of that audio unit is equal
@@ -1749,14 +1594,6 @@ OS X release.
 Users can now specify their own
 tags with an audio unit in order
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.036 --> 00:22:03.606 A:middle
-Users can now specify their own
-tags with an audio unit in order
-
 00:22:03.606 --> 00:22:07.376 A:middle
 to create broad categories
 or even specific categories
@@ -1820,14 +1657,6 @@ of tags.
 00:22:53.426 --> 00:22:58.156 A:middle
 A tag is a localized string
 in the user's own language.
-
-00:22:58.636 --> 00:23:00.246 A:middle
-Swedish, Swahili,
-it doesn't matter.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.636 --> 00:23:00.246 A:middle
 Swedish, Swahili,
@@ -1898,14 +1727,6 @@ two user tags, one specifying
 that it's useful
 for a drum track
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.646 --> 00:24:01.706 A:middle
-that it's useful
-for a drum track
-
 00:24:01.706 --> 00:24:03.306 A:middle
 and another one for
 a guitar track.
@@ -1971,10 +1792,6 @@ now at the API.
 To find an Audio Unit
 with a specific tag,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.176 --> 00:25:01.366 A:middle
 in this example I'm going
 
@@ -2039,14 +1856,6 @@ two tags to the audio Unit.
 00:25:54.256 --> 00:25:57.946 A:middle
 We could get all tags
 for a specific component,
-
-00:25:57.946 --> 00:26:01.196 A:middle
-and these will include the user
-tags as well as the system tags.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.946 --> 00:26:01.196 A:middle
 and these will include the user
@@ -2122,14 +1931,6 @@ be something meaningful
 00:26:57.206 --> 00:26:59.316 A:middle
 to your own company,
 for example,
-
-00:26:59.316 --> 00:27:02.606 A:middle
-if you have like the
-Silver Effect Package,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.316 --> 00:27:02.606 A:middle
 if you have like the
@@ -2211,14 +2012,6 @@ the AV Foundation framework.
 This time we're on iOS
 only with AVAudioSession.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.166 --> 00:28:02.376 A:middle
-This time we're on iOS
-only with AVAudioSession.
-
 00:28:02.866 --> 00:28:05.756 A:middle
 So today we're just going to
 spend a few minutes talking
@@ -2293,14 +2086,6 @@ So let's dive into talking
 00:28:55.646 --> 00:28:58.606 A:middle
 about managing your
 session's activation state.
-
-00:28:59.636 --> 00:29:02.296 A:middle
-So there's your application
-state.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.636 --> 00:29:02.296 A:middle
 So there's your application
@@ -2392,14 +2177,6 @@ are idle, inactive.
 So now the user launches
 our app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.606 --> 00:30:02.286 A:middle
-So now the user launches
-our app.
-
 00:30:03.796 --> 00:30:06.796 A:middle
 When we first come into the
 foreground our Audio Session is
@@ -2472,14 +2249,6 @@ and now the system is going
 00:30:54.636 --> 00:30:57.876 A:middle
 to deliver an end interruption
 event to our Audio Session.
-
-00:30:57.876 --> 00:31:01.576 A:middle
-And we're going to
-use that as a signal
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.876 --> 00:31:01.576 A:middle
 And we're going to
@@ -2564,13 +2333,6 @@ applicationDidBecomeActive
 00:31:59.876 --> 00:32:00.236 A:middle
 method.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.876 --> 00:32:00.236 A:middle
-method.
-
 00:32:00.816 --> 00:32:03.446 A:middle
 So that will cover the case
 when you're being launched.
@@ -2651,14 +2413,6 @@ types of applications
 00:32:55.726 --> 00:32:58.206 A:middle
 that we usually have
 a play/pause button,
-
-00:32:58.326 --> 00:33:01.396 A:middle
-and they're what we refer
-to as non-mixable meaning
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.326 --> 00:33:01.396 A:middle
 and they're what we refer
@@ -2757,10 +2511,6 @@ to do is you do not need
 00:33:58.596 --> 00:33:59.836 A:middle
 to make your session inactive
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.056 --> 00:34:02.476 A:middle
 because the system has
 already done that for you.
@@ -2776,11 +2526,11 @@ end interruption event,
 we ask that you honor
 the ShouldResume option.
 
-00:34:13.045 --> 00:34:16.386 A:middle
+00:34:13.046 --> 00:34:16.386 A:middle
 So if this option is part of
 the info dictionary that's part
 
-00:34:16.386 --> 00:34:19.775 A:middle
+00:34:16.386 --> 00:34:19.776 A:middle
 of that notification, that's
 the system giving you a hint
 
@@ -2804,11 +2554,11 @@ user to press play again.
 OK. So we talked about for game
 apps and media playback apps
 
-00:34:35.815 --> 00:34:37.226 A:middle
+00:34:35.816 --> 00:34:37.226 A:middle
 when you would make
 your session active.
 
-00:34:37.315 --> 00:34:38.916 A:middle
+00:34:37.316 --> 00:34:38.916 A:middle
 What about making
 your session inactive.
 
@@ -2820,24 +2570,16 @@ a navigation or a fitness app,
 you're typically going to be
 playing short prompts of audio.
 
-00:34:50.045 --> 00:34:54.646 A:middle
+00:34:50.046 --> 00:34:54.646 A:middle
 And you're going to be using
 the duck others category option
 
-00:34:55.085 --> 00:34:56.406 A:middle
+00:34:55.086 --> 00:34:56.406 A:middle
 which will lower the volume
 
 00:34:56.516 --> 00:34:58.606 A:middle
 of other audio applications
 on the system.
-
-00:34:58.896 --> 00:35:02.186 A:middle
-So it's important when you're
-done playing your short prompts
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.896 --> 00:35:02.186 A:middle
 So it's important when you're
@@ -2907,14 +2649,6 @@ All right.
 00:35:53.936 --> 00:35:58.416 A:middle
 So now let's shift gears
 a little bit and talk
-
-00:35:58.416 --> 00:36:02.946 A:middle
-about managing your secondary
-audio in response to other audio
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.416 --> 00:36:02.946 A:middle
 about managing your secondary
@@ -2990,14 +2724,6 @@ to have your soundtrack resume.
 So in iOS 8 we've added a bit
 of new API to help you do this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:57.146 --> 00:37:01.876 A:middle
-So in iOS 8 we've added a bit
-of new API to help you do this.
-
 00:37:02.336 --> 00:37:04.626 A:middle
 We've added a new property
 and a new notification.
@@ -3067,14 +2793,6 @@ an end event all wrapped
 
 00:37:54.586 --> 00:37:56.056 A:middle
 up in the same notification.
-
-00:37:57.066 --> 00:38:00.656 A:middle
-So when you get a
-begin SilenceSecondary
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:57.066 --> 00:38:00.656 A:middle
 So when you get a
@@ -3164,14 +2882,6 @@ in the foreground.
 And in response to that we
 can mute our soundtrack.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.606 --> 00:39:02.076 A:middle
-And in response to that we
-can mute our soundtrack.
-
 00:39:02.846 --> 00:39:04.946 A:middle
 So our app is still
 in the foreground.
@@ -3236,14 +2946,6 @@ manage your soundtrack.
 00:39:51.876 --> 00:39:56.976 A:middle
 So kind of on a similar thread,
 in the past we've given advice
-
-00:39:57.056 --> 00:40:00.916 A:middle
-about how you could manage
-your secondary audio based
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:57.056 --> 00:40:00.916 A:middle
 about how you could manage
@@ -3341,14 +3043,6 @@ they're not always easy
 for developers to get their
 hands around at the beginning.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:57.856 --> 00:41:01.066 A:middle
-for developers to get their
-hands around at the beginning.
-
 00:41:01.706 --> 00:41:03.086 A:middle
 We've tried to work around this
 
@@ -3423,14 +3117,6 @@ from our Objective-C objects
 and pass them to the low-level
 APIs we might already be using.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:57.326 --> 00:42:00.726 A:middle
-and pass them to the low-level
-APIs we might already be using.
-
 00:42:02.006 --> 00:42:05.786 A:middle
 And this is a philosophy we used
 also with the AVAudioEngine,
@@ -3498,14 +3184,6 @@ which has an audio format.
 00:42:55.316 --> 00:42:58.186 A:middle
 Every buffer has a
 format describing it.
-
-00:42:58.666 --> 00:43:01.346 A:middle
-And finally we'll be
-talking about AVAudioFile,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.666 --> 00:43:01.346 A:middle
 And finally we'll be
@@ -3587,14 +3265,6 @@ to describe an audio format.
 But, again, it's a
 little challenging.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.856 --> 00:44:01.576 A:middle
-But, again, it's a
-little challenging.
-
 00:44:02.066 --> 00:44:05.476 A:middle
 But, in any case, you can
 always create an AVAudioFormat
@@ -3658,13 +3328,6 @@ was 8.24 fixed-point.
 00:44:55.986 --> 00:44:58.646 A:middle
 But because of that
 schism we want to reunite
-
-00:44:58.646 --> 00:45:00.166 A:middle
-under something new now.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:58.646 --> 00:45:00.166 A:middle
 under something new now.
@@ -3741,14 +3404,6 @@ specifying which one you want,
 the sample rate channel count,
 and whether it's inter-leaved.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.776 --> 00:46:01.936 A:middle
-the sample rate channel count,
-and whether it's inter-leaved.
-
 00:46:02.606 --> 00:46:05.936 A:middle
 You can query any format to
 see if it is some common format
@@ -3820,14 +3475,6 @@ AudioChannelLayout object is
 pretty much exposed
 the way it is here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.316 --> 00:47:00.966 A:middle
-pretty much exposed
-the way it is here.
-
 00:47:00.966 --> 00:47:03.386 A:middle
 You can go look at that
 in the CoreAudioTypes.h,
@@ -3888,13 +3535,6 @@ for you of the right size.
 00:47:54.906 --> 00:47:58.186 A:middle
 And you can always fetch it back
 out of the AVAudioPCMBuffer.
-
-00:47:58.776 --> 00:48:02.526 A:middle
-Here's the initializer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:58.776 --> 00:48:02.526 A:middle
 Here's the initializer.
@@ -3967,14 +3607,6 @@ may involve a method lookup,
 which can, in principle,
 take a miss on the lookup
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:58.866 --> 00:49:04.006 A:middle
-which can, in principle,
-take a miss on the lookup
-
 00:49:04.416 --> 00:49:06.456 A:middle
 and cause you to block.
 
@@ -4031,14 +3663,6 @@ completely independent
 00:49:54.396 --> 00:49:56.176 A:middle
 of the file's actual
 data format.
-
-00:49:56.586 --> 00:50:00.766 A:middle
-So if it's an encoded format
-like AAC or Apple Lossless
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:56.586 --> 00:50:00.766 A:middle
 So if it's an encoded format
@@ -4117,10 +3741,6 @@ functionally very similar,
 and it's just a bit
 simpler to use.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:00.556 --> 00:51:04.446 A:middle
 So I'm looking now
 at the initializers
@@ -4196,14 +3816,6 @@ actual file format on disk.
 So that might be, for example,
 AAC, 44 kHz, two channels.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:58.186 --> 00:52:03.026 A:middle
-So that might be, for example,
-AAC, 44 kHz, two channels.
-
 00:52:03.396 --> 00:52:06.446 A:middle
 But you can also query
 the processing format
@@ -4265,14 +3877,6 @@ when reading from audio files.
 00:52:54.486 --> 00:52:57.496 A:middle
 So this is like the
 standard C-library's seek
-
-00:52:57.496 --> 00:53:00.946 A:middle
-and tell functions,
-F seek and F tell.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:57.496 --> 00:53:00.946 A:middle
 and tell functions,
@@ -4340,14 +3944,6 @@ and gotten a standard format.
 00:53:53.676 --> 00:53:56.296 A:middle
 I'm going to fetch some basic
 information from the file
-
-00:53:56.296 --> 00:54:00.356 A:middle
-and print it, including
-the files on disk format
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:56.296 --> 00:54:00.356 A:middle
 and print it, including
@@ -4427,13 +4023,6 @@ discovered earlier.
 00:54:58.476 --> 00:55:00.016 A:middle
 I can read into buffer,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:54:58.476 --> 00:55:00.016 A:middle
-I can read into buffer,
-
 00:55:00.016 --> 00:55:02.706 A:middle
 which will again fill
 the buffer to capacity.
@@ -4495,13 +4084,6 @@ just sort of foreshadow the uses
 00:55:53.686 --> 00:55:59.796 A:middle
 of these classes in the
 AVAudioEngine session,
-
-00:55:59.996 --> 00:56:01.636 A:middle
-which will follow this one.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:55:59.996 --> 00:56:01.636 A:middle
 which will follow this one.
@@ -4582,14 +4164,6 @@ level C structures.
 And, again, we'll be seeing how
 these are used in more detail
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:56:57.996 --> 00:57:00.786 A:middle
-And, again, we'll be seeing how
-these are used in more detail
-
 00:57:00.786 --> 00:57:03.136 A:middle
 in the next session
 on AVAudioEngine.
@@ -4625,4 +4199,3 @@ developer forums.
 00:57:27.686 --> 00:57:30.566 A:middle
 Here's the next session
 I keep talking about.
-

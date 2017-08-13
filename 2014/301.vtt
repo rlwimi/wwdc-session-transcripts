@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.416 --> 00:00:13.016 A:middle
 &gt;&gt; All right.
@@ -60,14 +59,6 @@ to be a deep dive on tools
 00:00:50.256 --> 00:00:57.676 A:middle
 and services that you can use
 to interact with the program.
-
-00:00:58.236 --> 00:01:00.096 A:middle
-So first off, we kind of
-need a cast of characters.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.236 --> 00:01:00.096 A:middle
 So first off, we kind of
@@ -141,14 +132,6 @@ released a sequel to it.
 You want to promote
 that app, and you can do
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.246 --> 00:02:00.726 A:middle
-You want to promote
-that app, and you can do
-
 00:02:00.726 --> 00:02:02.116 A:middle
 that using the affiliate
 program.
@@ -210,14 +193,6 @@ and you can promote that.
 00:02:52.866 --> 00:02:55.926 A:middle
 Or if you're a productivity
 app, and there's a similar app
-
-00:02:56.226 --> 00:03:00.396 A:middle
-that works well with it,
-you can promote that from
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.226 --> 00:03:00.396 A:middle
 that works well with it,
@@ -298,14 +273,6 @@ with our tools.
 And best of all, this works
 on both web and in your app,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.296 --> 00:04:03.886 A:middle
-And best of all, this works
-on both web and in your app,
-
 00:04:04.296 --> 00:04:07.076 A:middle
 so there's no reason
 to limit the usage
@@ -369,14 +336,6 @@ tap happens on and the purchase.
 Now, once the purchase
 happens, the data is copied
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.666 --> 00:05:03.576 A:middle
-Now, once the purchase
-happens, the data is copied
-
 00:05:03.576 --> 00:05:07.716 A:middle
 into the database and
 the database is synced
@@ -433,14 +392,6 @@ credit for the sale.
 00:05:55.326 --> 00:05:57.596 A:middle
 So if some - if a
 user taps on your link
-
-00:05:57.596 --> 00:06:00.486 A:middle
-and then three hours
-later taps on another link
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:57.596 --> 00:06:00.486 A:middle
 and then three hours
@@ -517,14 +468,6 @@ program in a nutshell.
 Let's talk about what's happened
 in the past couple years.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:56.516 --> 00:07:00.746 A:middle
-Let's talk about what's happened
-in the past couple years.
-
 00:07:00.746 --> 00:07:05.006 A:middle
 Most importantly, we have had
 a massive territory expansion.
@@ -584,14 +527,6 @@ program to work in the Americas,
 a second program to work in
 Europe, and a third program
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.986 --> 00:08:01.756 A:middle
-a second program to work in
-Europe, and a third program
-
 00:08:01.756 --> 00:08:04.196 A:middle
 to work in Australia
 and New Zealand.
@@ -630,13 +565,13 @@ across the globe.
 Even better, we have a
 common link structure
 
-00:08:35.785 --> 00:08:36.796 A:middle
+00:08:35.786 --> 00:08:36.796 A:middle
 for the entire world.
 
-00:08:37.566 --> 00:08:41.515 A:middle
+00:08:37.566 --> 00:08:41.516 A:middle
 Now this is what a normal,
 
-00:08:41.515 --> 00:08:43.546 A:middle
+00:08:41.516 --> 00:08:43.546 A:middle
 unaffiliated iTunes
 Store link looks like.
 
@@ -662,13 +597,6 @@ end up with something
 00:08:56.966 --> 00:08:59.936 A:middle
 like these two options,
 and you would have to do it
-
-00:08:59.936 --> 00:09:01.526 A:middle
-in a region specific manner.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.936 --> 00:09:01.526 A:middle
 in a region specific manner.
@@ -745,14 +673,6 @@ essentially your user ID
 
 00:09:54.976 --> 00:09:56.156 A:middle
 within the affiliate program.
-
-00:09:56.336 --> 00:10:00.796 A:middle
-This is how we identify you,
-and this is how you get credited
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:56.336 --> 00:10:00.796 A:middle
 This is how we identify you,
@@ -847,14 +767,6 @@ your marketing efforts.
 Now it's important to note
 one thing about these URLs.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.126 --> 00:11:02.916 A:middle
-Now it's important to note
-one thing about these URLs.
-
 00:11:03.376 --> 00:11:06.096 A:middle
 I said that there's one
 link structure worldwide,
@@ -919,14 +831,6 @@ query string on the URL.
 
 00:11:55.056 --> 00:11:57.046 A:middle
 Now the query string, the start
-
-00:11:57.046 --> 00:12:00.076 A:middle
-of the query string is
-identified by the question mark,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.046 --> 00:12:00.076 A:middle
 of the query string is
@@ -1007,10 +911,6 @@ there, use ampersand
 00:12:50.236 --> 00:12:51.976 A:middle
 to attach your affiliate data.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:00.126 --> 00:13:02.166 A:middle
 Now I mentioned one network.
 
@@ -1081,10 +981,6 @@ compared month over month,
 and adjust your marketing
 campaign accordingly.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:01.466 --> 00:14:04.846 A:middle
 Also of note is that the
 conversion rate is mentioned
@@ -1143,14 +1039,6 @@ more than one type of content -
 00:14:53.876 --> 00:14:57.016 A:middle
 so for example, apps and
 books or movies and music -
-
-00:14:57.376 --> 00:15:00.996 A:middle
-you can slice and dice and
-get reports on how each one
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:57.376 --> 00:15:00.996 A:middle
 you can slice and dice and
@@ -1222,14 +1110,6 @@ you are similarly excited.
 00:15:55.076 --> 00:15:56.506 A:middle
 You want to - you're
 ready to go.
-
-00:15:56.696 --> 00:16:00.016 A:middle
-Go sign up with your program,
-and you want to know how next
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:56.696 --> 00:16:00.016 A:middle
 Go sign up with your program,
@@ -1313,13 +1193,6 @@ can be very, very useful.
 00:16:58.596 --> 00:17:00.366 A:middle
 The StoreKit Product Sheet
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.596 --> 00:17:00.366 A:middle
-The StoreKit Product Sheet
-
 00:17:00.816 --> 00:17:03.666 A:middle
 and iTunes Radio have been
 recently added to the program,
@@ -1328,21 +1201,21 @@ recently added to the program,
 and we'll talk about how
 to work with those and how
 
-00:17:06.276 --> 00:17:07.955 A:middle
+00:17:06.276 --> 00:17:07.956 A:middle
 to get the most out of that.
 
-00:17:08.165 --> 00:17:11.866 A:middle
+00:17:08.166 --> 00:17:11.866 A:middle
 And finally, we'll finish
 with the Collection feature
 
-00:17:12.286 --> 00:17:16.715 A:middle
+00:17:12.286 --> 00:17:16.716 A:middle
 that allows you to define
 dynamic playlists for the store.
 
 00:17:17.376 --> 00:17:18.556 A:middle
 This can be really useful
 
-00:17:18.965 --> 00:17:22.086 A:middle
+00:17:18.966 --> 00:17:22.086 A:middle
 for customizing content
 for your users.
 
@@ -1350,7 +1223,7 @@ for your users.
 Let's get started
 with the simple stuff.
 
-00:17:27.175 --> 00:17:29.496 A:middle
+00:17:27.176 --> 00:17:29.496 A:middle
 The simplest of all
 is Link Maker.
 
@@ -1389,13 +1262,6 @@ about question marks
 00:17:57.136 --> 00:17:58.686 A:middle
 and ampersands and
 URL encodings.
-
-00:17:58.826 --> 00:18:00.716 A:middle
-It's all dramatically easier.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.826 --> 00:18:00.716 A:middle
 It's all dramatically easier.
@@ -1465,14 +1331,6 @@ It's all UI oriented.
 00:18:55.726 --> 00:18:58.676 A:middle
 It's a bit of HTML
 that you can drop in.
-
-00:18:58.676 --> 00:19:00.946 A:middle
-It's a great way if you haven't
-started and you only want -
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.676 --> 00:19:00.946 A:middle
 It's a great way if you haven't
@@ -1549,14 +1407,6 @@ really help you out there.
 So that's the simple
 stuff that you can do.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.096 --> 00:20:06.306 A:middle
-So that's the simple
-stuff that you can do.
-
 00:20:06.596 --> 00:20:09.006 A:middle
 You might be more interested
 in the advanced stuff
@@ -1625,14 +1475,6 @@ Store content IDs,
 
 00:20:56.866 --> 00:20:58.746 A:middle
 you can get the latest data
-
-00:20:58.746 --> 00:21:01.916 A:middle
-about that content
-using the Lookup API.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.746 --> 00:21:01.916 A:middle
 about that content
@@ -1719,14 +1561,6 @@ for the search itself.
 If you only are interested
 in movies or only interested
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.116 --> 00:22:01.026 A:middle
-If you only are interested
-in movies or only interested
-
 00:22:01.026 --> 00:22:03.946 A:middle
 in books, you can specify
 Media equals Movies
@@ -1805,14 +1639,6 @@ song "Lady Madonna."
 You can specify Attribute
 equals Song term
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.456 --> 00:23:01.906 A:middle
-You can specify Attribute
-equals Song term
-
 00:23:02.446 --> 00:23:05.026 A:middle
 and get song results back.
 
@@ -1875,13 +1701,6 @@ Callback Query parameter
 00:23:52.886 --> 00:23:59.256 A:middle
 to essentially call a function
 with the result of the query.
-
-00:23:59.326 --> 00:24:01.736 A:middle
-This can be very useful,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.326 --> 00:24:01.736 A:middle
 This can be very useful,
@@ -1961,14 +1780,6 @@ of similar query parameters
 to the Search API, but the
 only thing required is an ID,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.006 --> 00:25:00.246 A:middle
-to the Search API, but the
-only thing required is an ID,
-
 00:25:00.656 --> 00:25:04.506 A:middle
 and the ID can be an
 iTunes Store content ID,
@@ -2025,13 +1836,6 @@ one or more content IDs,
 00:25:54.386 --> 00:25:58.046 A:middle
 and you can use the Entity
 ID to actually navigate up
-
-00:25:58.046 --> 00:26:00.116 A:middle
-or down the content tree.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.046 --> 00:26:00.116 A:middle
 or down the content tree.
@@ -2115,14 +1919,6 @@ album artwork.
 What is the user rating for
 this particular content?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:56.996 --> 00:27:00.006 A:middle
-What is the user rating for
-this particular content?
-
 00:27:00.256 --> 00:27:02.136 A:middle
 What is the age rating
 for the content?
@@ -2182,14 +1978,6 @@ to be - what you're going
 00:27:54.616 --> 00:27:59.826 A:middle
 to get is basically one of
 Ed Sheeran's popular songs
-
-00:27:59.996 --> 00:28:02.416 A:middle
-from the past couple years,
-which is called "The A Team,"
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.996 --> 00:28:02.416 A:middle
 from the past couple years,
@@ -2274,13 +2062,6 @@ showing content for movies,
 00:28:57.146 --> 00:29:00.356 A:middle
 and that wouldn't be good.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:57.146 --> 00:29:00.356 A:middle
-and that wouldn't be good.
-
 00:29:00.356 --> 00:29:01.546 A:middle
 So that's one option.
 
@@ -2352,10 +2133,6 @@ get the results we want back,
 00:29:58.606 --> 00:29:58.976 A:middle
 which is great.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:07.046 --> 00:30:12.736 A:middle
 Now, this is just one piece of
 results, or one result back.
@@ -2406,14 +2183,6 @@ figured out that our user is
 00:30:51.126 --> 00:30:55.466 A:middle
 in Great Britain, and so we
 would just change the country
-
-00:30:55.726 --> 00:31:00.356 A:middle
-code in the URL to be GB, Great
-Britain, and we're passing
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:55.726 --> 00:31:00.356 A:middle
 code in the URL to be GB, Great
@@ -2489,14 +2258,6 @@ case is attach the entity
 that we're looking for, and the
 entity=song will tell the Lookup
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.716 --> 00:32:04.296 A:middle
-that we're looking for, and the
-entity=song will tell the Lookup
-
 00:32:04.296 --> 00:32:07.036 A:middle
 API, okay, give me back the
 results that I asked for,
@@ -2560,10 +2321,6 @@ in terms of data.
 00:32:56.266 --> 00:32:59.916 A:middle
 And for that, we have the
 Enterprise Partner Feeds,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.146 --> 00:33:01.846 A:middle
 or EPF as we commonly call them.
@@ -2645,14 +2402,6 @@ with relational databases,
 there's a relational
 artist application table
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.266 --> 00:34:01.786 A:middle
-there's a relational
-artist application table
-
 00:34:02.186 --> 00:34:05.666 A:middle
 that represents which
 artists produced which apps.
@@ -2669,33 +2418,33 @@ and run your queries that way.
 And again, it's aimed
 at organizations
 
-00:34:18.886 --> 00:34:21.295 A:middle
+00:34:18.886 --> 00:34:21.296 A:middle
 that have really
 deep data needs.
 
 00:34:22.346 --> 00:34:23.666 A:middle
 There's a lot of data.
 
-00:34:23.666 --> 00:34:26.565 A:middle
+00:34:23.666 --> 00:34:26.566 A:middle
 There's pricing for
 all countries
 
-00:34:26.565 --> 00:34:31.045 A:middle
+00:34:26.566 --> 00:34:31.046 A:middle
 that the iTunes Store supports,
 and analyzing that and dealing
 
-00:34:31.045 --> 00:34:33.286 A:middle
+00:34:31.046 --> 00:34:33.286 A:middle
 with the data, especially
 on an ongoing basis,
 
 00:34:33.286 --> 00:34:36.096 A:middle
 can be really a huge effort.
 
-00:34:36.835 --> 00:34:39.136 A:middle
+00:34:36.836 --> 00:34:39.136 A:middle
 Fortunately, we do have
 an Importer script.
 
-00:34:39.815 --> 00:34:45.795 A:middle
+00:34:39.816 --> 00:34:45.796 A:middle
 The script is available as a
 Python app, and it's intended
 
@@ -2710,14 +2459,6 @@ open, so if you'd like,
 00:34:54.466 --> 00:34:57.276 A:middle
 you can provide a different
 back end and maybe write
-
-00:34:57.276 --> 00:35:02.716 A:middle
-to Hadoop HDFS or something like
-that if your needs go that way.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.276 --> 00:35:02.716 A:middle
 to Hadoop HDFS or something like
@@ -2792,14 +2533,6 @@ now, what's a user see
 when they open iTunes to the
 main page and check that out.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.526 --> 00:36:03.216 A:middle
-when they open iTunes to the
-main page and check that out.
-
 00:36:03.216 --> 00:36:06.176 A:middle
 And finally, you can
 see customer reviews
@@ -2864,14 +2597,6 @@ probably seen this browsing the
 
 00:36:56.546 --> 00:36:57.706 A:middle
 web with the mobile Safari.
-
-00:36:58.026 --> 00:37:01.216 A:middle
-You link to a website, and
-this little banner slides down
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.026 --> 00:37:01.216 A:middle
 You link to a website, and
@@ -2944,14 +2669,6 @@ It's actually fairly simple.
 00:37:55.316 --> 00:37:58.696 A:middle
 You drop a simple metatag into
 the head of your web page,
-
-00:37:59.156 --> 00:38:02.426 A:middle
-and the metatag has your
-app ID defined in it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.156 --> 00:38:02.426 A:middle
 and the metatag has your
@@ -3037,14 +2754,6 @@ can see the same content
 that the user was
 looking at on the store.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:58.986 --> 00:39:01.126 A:middle
-that the user was
-looking at on the store.
-
 00:39:01.806 --> 00:39:05.446 A:middle
 So it's a way, you know,
 it's easy, easy integration
@@ -3107,10 +2816,6 @@ So you can read reviews.
 
 00:39:58.956 --> 00:39:59.976 A:middle
 You can look at screenshots.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:01.636 --> 00:40:04.006 A:middle
 You can buy it right
@@ -3175,14 +2880,6 @@ Xcode and drop it in.
 
 00:40:54.796 --> 00:40:56.686 A:middle
 So I'm Rick Rubenstein.
-
-00:40:56.686 --> 00:41:00.296 A:middle
-I write tools and automation for
-the iTunes store and App Store
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:56.686 --> 00:41:00.296 A:middle
 I write tools and automation for
@@ -3263,14 +2960,6 @@ link, it will bring
 up the StoreKit Product
 Sheet, just as Mark showed,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:57.346 --> 00:42:00.676 A:middle
-up the StoreKit Product
-Sheet, just as Mark showed,
-
 00:42:00.676 --> 00:42:06.526 A:middle
 and in the case, the StoreKit
 Product Sheet is displaying a
@@ -3342,13 +3031,6 @@ receive a commission
 00:42:59.866 --> 00:43:00.836 A:middle
 on all those purchases.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.866 --> 00:43:00.836 A:middle
-on all those purchases.
-
 00:43:01.496 --> 00:43:02.996 A:middle
 So I'm going to switch over now
 
@@ -3407,14 +3089,6 @@ to make sure you do is link
 
 00:43:55.966 --> 00:43:59.156 A:middle
 against the StoreKit framework.
-
-00:43:59.536 --> 00:44:01.706 A:middle
-This is a public
-framework that is available
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:59.536 --> 00:44:01.706 A:middle
 This is a public
@@ -3483,14 +3157,6 @@ and the campaignToken.
 00:44:56.026 --> 00:44:58.516 A:middle
 Now this is the new
 difference in iOS 8.
-
-00:44:58.956 --> 00:45:03.616 A:middle
-As Mark mentioned, the StoreKit
-Product Sheet itself has been
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:58.956 --> 00:45:03.616 A:middle
 As Mark mentioned, the StoreKit
@@ -3567,14 +3233,6 @@ passed in and the two new ones,
 00:45:56.786 --> 00:45:58.576 A:middle
 the
 ProductParameterAffiliateToken
-
-00:45:58.916 --> 00:46:00.866 A:middle
-and the
-ProductParameterCampaignToken.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:58.916 --> 00:46:00.866 A:middle
 and the
@@ -3666,14 +3324,6 @@ block,
 which is the standard
 Objective-C block,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.446 --> 00:47:02.146 A:middle
-which is the standard
-Objective-C block,
-
 00:47:03.616 --> 00:47:08.056 A:middle
 which will return a
 result, simply yes or no
@@ -3756,13 +3406,6 @@ which is our ViewController,
 00:47:58.656 --> 00:48:00.296 A:middle
 present the sheetController.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:58.656 --> 00:48:00.296 A:middle
-present the sheetController.
-
 00:48:00.916 --> 00:48:03.716 A:middle
 Animated, you normally
 want a yes,
@@ -3830,14 +3473,6 @@ that was in the top of the app
 00:48:54.506 --> 00:48:58.196 A:middle
 and simply in this case,
 preloads it with the iTunesId
-
-00:48:58.196 --> 00:49:01.196 A:middle
-of that juggling pinball
-app that I showed,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:58.196 --> 00:49:01.196 A:middle
 of that juggling pinball
@@ -3919,14 +3554,6 @@ which means that if you link
 to an iTunes Radio station, you
 get credited for that referral.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:54.646 --> 00:50:00.626 A:middle
-to an iTunes Radio station, you
-get credited for that referral.
-
 00:50:02.056 --> 00:50:04.126 A:middle
 And again, it's very easy to do.
 
@@ -3994,14 +3621,6 @@ and that applies not just
 to purchases made within
 the iTunes Radio app,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:58.236 --> 00:51:00.806 A:middle
-to purchases made within
-the iTunes Radio app,
-
 00:51:01.246 --> 00:51:04.646 A:middle
 but any other store on that same
 device where the cookie exists.
@@ -4063,13 +3682,6 @@ for users to listen to,
 00:51:56.566 --> 00:51:59.576 A:middle
 and you get a bonus
 for any purchases made
-
-00:51:59.576 --> 00:52:00.596 A:middle
-after clicking that link.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:59.576 --> 00:52:00.596 A:middle
 after clicking that link.
@@ -4141,14 +3753,6 @@ So how do we do this?
 The - to create a Collection
 Link you need set something
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:58.606 --> 00:53:01.276 A:middle
-The - to create a Collection
-Link you need set something
-
 00:53:01.276 --> 00:53:02.066 A:middle
 up beforehand.
 
@@ -4213,14 +3817,6 @@ movies with one tap.
 00:53:52.666 --> 00:53:57.216 A:middle
 That can mean a lot of money
 in terms of commissions.
-
-00:53:57.676 --> 00:54:02.476 A:middle
-To get started with the
-Collection system, you -
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:57.676 --> 00:54:02.476 A:middle
 To get started with the
@@ -4303,10 +3899,6 @@ make things happen on the fly
 if your user has a special set
 of desires that you know about.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:55:00.066 --> 00:55:03.376 A:middle
 You can put together a single
 collection with this on the fly.
@@ -4385,14 +3977,6 @@ for additional content,
 add that to your dynamic
 playlist, and you hit go,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:55:55.476 --> 00:56:01.246 A:middle
-add that to your dynamic
-playlist, and you hit go,
-
 00:56:01.276 --> 00:56:05.446 A:middle
 and you get a collection
 URL that you can paste
@@ -4459,14 +4043,6 @@ so we can see what's going
 00:56:55.696 --> 00:56:59.046 A:middle
 on at a glance across the
 world, or we can drill
-
-00:56:59.046 --> 00:57:02.236 A:middle
-down into a particular country,
-a particular content type.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:56:59.046 --> 00:57:02.236 A:middle
 down into a particular country,
@@ -4558,14 +4134,6 @@ about the affiliate program
 or the StoreKit Product
 Sheet, we've got a couple labs
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:57:58.316 --> 00:58:00.406 A:middle
-or the StoreKit Product
-Sheet, we've got a couple labs
-
 00:58:00.406 --> 00:58:01.246 A:middle
 in the next couple days.
 
@@ -4589,4 +4157,3 @@ a great rest of the conference.
 
 00:58:13.516 --> 00:58:20.560 A:middle
 [ Applause ]
-

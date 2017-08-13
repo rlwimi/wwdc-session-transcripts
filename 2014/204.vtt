@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.046 --> 00:00:12.646 A:middle
 &gt;&gt; Good morning.
@@ -80,14 +79,6 @@ in OS X Yosemite
 00:00:55.376 --> 00:00:57.066 A:middle
 or in some case to
 iOS 8 as well.
-
-00:00:58.266 --> 00:01:01.456 A:middle
-OK, so with that, let's
-get started with New Look.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.266 --> 00:01:01.456 A:middle
 OK, so with that, let's
@@ -182,14 +173,6 @@ in Mavericks is pulsing,
 continuously pulsing while the
 one in Yosemite is not pulsing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.896 --> 00:02:03.376 A:middle
-continuously pulsing while the
-one in Yosemite is not pulsing.
-
 00:02:03.716 --> 00:02:05.496 A:middle
 Another thing to notice
 is the focus ring.
@@ -266,14 +249,6 @@ something very custom using
 00:02:55.726 --> 00:02:58.406 A:middle
 custom artwork on Saw and your
 apps will get the Yosemite look.
-
-00:02:58.406 --> 00:03:01.056 A:middle
-In fact, we do not even
-support the Mavericks look
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.406 --> 00:03:01.056 A:middle
 In fact, we do not even
@@ -362,13 +337,6 @@ is something
 00:03:59.676 --> 00:04:01.376 A:middle
 like a preview application.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.676 --> 00:04:01.376 A:middle
-like a preview application.
-
 00:04:01.706 --> 00:04:03.846 A:middle
 Here I have an image and
 I haven't scrolled it yet
@@ -445,13 +413,6 @@ toolbars will get translucency
 
 00:04:57.746 --> 00:04:58.966 A:middle
 in a number of cases.
-
-00:04:59.056 --> 00:05:01.476 A:middle
-Let me talk about that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.056 --> 00:05:01.476 A:middle
 Let me talk about that.
@@ -539,14 +500,6 @@ top of our desktop here,
 you'll see that there is
 through window translucency
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.216 --> 00:06:01.886 A:middle
-you'll see that there is
-through window translucency
-
 00:06:01.886 --> 00:06:04.466 A:middle
 on the left side and
 in-window translucency
@@ -619,14 +572,6 @@ view which includes some texts
 00:06:55.396 --> 00:06:58.636 A:middle
 and an image and they're now
 being treated with vibrancy.
-
-00:06:58.636 --> 00:07:02.716 A:middle
-If I were to remove vibrancy
-from this, you get the sort
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.636 --> 00:07:02.716 A:middle
 If I were to remove vibrancy
@@ -717,14 +662,6 @@ with vibrant-capable controls.
 And you can recognize such
 controls because they return YES
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.016 --> 00:08:00.116 A:middle
-And you can recognize such
-controls because they return YES
-
 00:08:00.116 --> 00:08:02.236 A:middle
 from this new property
 called allowsVibrancy.
@@ -768,7 +705,7 @@ on dark vibrancy.
 And as you saw, the
 viewed imagery
 
-00:08:29.896 --> 00:08:32.135 A:middle
+00:08:29.896 --> 00:08:32.136 A:middle
 on the left is applying
 the vibrancy
 
@@ -776,11 +713,11 @@ the vibrancy
 and treating the template image
 to give it the appropriate look
 
-00:08:35.586 --> 00:08:38.015 A:middle
+00:08:35.586 --> 00:08:38.016 A:middle
 on top of a dark vibrant
 background while the elephant
 
-00:08:38.015 --> 00:08:39.306 A:middle
+00:08:38.016 --> 00:08:39.306 A:middle
 image remains put.
 
 00:08:39.306 --> 00:08:40.566 A:middle
@@ -808,14 +745,6 @@ not depending on its content.
 
 00:08:55.576 --> 00:08:57.566 A:middle
 We made some changes in NSColor.
-
-00:08:57.566 --> 00:09:02.196 A:middle
-We've updated existing system
-colors to be consistent with,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.566 --> 00:09:02.196 A:middle
 We've updated existing system
@@ -902,14 +831,6 @@ this font with methods
 such as systemFontOfSize,
 which is of course what happens
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.876 --> 00:10:02.296 A:middle
-such as systemFontOfSize,
-which is of course what happens
-
 00:10:02.566 --> 00:10:03.976 A:middle
 by default when you
 drag elements
@@ -980,14 +901,6 @@ where there may be problems.
 00:10:57.126 --> 00:10:58.766 A:middle
 Now, for instance if
 you're finding that some
-
-00:10:58.766 --> 00:11:00.836 A:middle
-of your controls are too
-tight and not fitting,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.766 --> 00:11:00.836 A:middle
 of your controls are too
@@ -1075,10 +988,6 @@ a bit about extensions.
 Again, extensions is a
 feature you saw yesterday.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:01.636 --> 00:12:04.646 A:middle
 Extensions provide access
 to your app's functionality
@@ -1164,14 +1073,6 @@ choice of four extensions.
 Action Extensions are, like the
 extensions you saw yesterday,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.626 --> 00:13:03.686 A:middle
-Action Extensions are, like the
-extensions you saw yesterday,
-
 00:13:03.966 --> 00:13:05.106 A:middle
 the Markup Extension.
 
@@ -1247,14 +1148,6 @@ or UIViewController.
 00:13:56.076 --> 00:13:58.896 A:middle
 The principal class has a point
 with the ExtensionContext,
-
-00:13:59.316 --> 00:14:03.196 A:middle
-which is basically the central
-point for that extensions data,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.316 --> 00:14:03.196 A:middle
 which is basically the central
@@ -1344,13 +1237,6 @@ completeRequestReturningItems
 00:14:59.406 --> 00:15:00.406 A:middle
 completionHandler.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.406 --> 00:15:00.406 A:middle
-completionHandler.
-
 00:15:00.686 --> 00:15:03.866 A:middle
 Now, if it turns out the
 user canceled the operation
@@ -1427,14 +1313,6 @@ sort of an identifier
 00:15:57.826 --> 00:15:59.636 A:middle
 or the activity the
 user might be doing,
-
-00:15:59.636 --> 00:16:02.106 A:middle
-whether it's browsing a
-web page, playing a game,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.636 --> 00:16:02.106 A:middle
 whether it's browsing a
@@ -1532,30 +1410,22 @@ which has the data
 from which you can
 re-create the activity.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.096 --> 00:17:00.656 A:middle
-from which you can
-re-create the activity.
-
 00:17:01.116 --> 00:17:03.876 A:middle
 Now, if you're using NSDocument,
 
-00:17:04.486 --> 00:17:06.925 A:middle
+00:17:04.486 --> 00:17:06.926 A:middle
 there's easy handoff
 support for iCloud documents.
 
-00:17:06.925 --> 00:17:09.445 A:middle
+00:17:06.926 --> 00:17:09.446 A:middle
 You really just have to
 do one thing and that is
 
-00:17:09.445 --> 00:17:11.685 A:middle
+00:17:09.446 --> 00:17:11.686 A:middle
 to add this key to
 your Info.plist
 
-00:17:11.685 --> 00:17:13.726 A:middle
+00:17:11.686 --> 00:17:13.726 A:middle
 for your document
 type indicating
 
@@ -1574,7 +1444,7 @@ com.apple.TextEdit.editing.
 Now, if you're going to do
 something more sophisticated,
 
-00:17:23.675 --> 00:17:25.496 A:middle
+00:17:23.676 --> 00:17:25.496 A:middle
 for instance, specify
 the selection
 
@@ -1628,14 +1498,6 @@ of your user interface.
 00:17:56.226 --> 00:17:59.056 A:middle
 It's higher level than
 creating individual nibs
-
-00:17:59.056 --> 00:18:00.916 A:middle
-and maybe setting targets
-and actions together.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.056 --> 00:18:00.916 A:middle
 and maybe setting targets
@@ -1727,13 +1589,6 @@ Storyboard that they came from,
 00:18:59.066 --> 00:19:00.396 A:middle
 that they were created from.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.066 --> 00:19:00.396 A:middle
-that they were created from.
-
 00:19:00.886 --> 00:19:03.486 A:middle
 Now, we have two new
 View Controllers as well
@@ -1813,14 +1668,6 @@ you just first create an item,
 00:19:56.126 --> 00:19:58.686 A:middle
 NSTabViewItem
 tabViewItemWithViewController.
-
-00:19:59.696 --> 00:20:02.616 A:middle
-You go set - and that
-creates, so that creates
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.696 --> 00:20:02.616 A:middle
 You go set - and that
@@ -1916,14 +1763,6 @@ ViewControllers.
 To create it, you do
 the item, you add it,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.546 --> 00:21:00.986 A:middle
-To create it, you do
-the item, you add it,
-
 00:21:00.986 --> 00:21:02.966 A:middle
 or you create
 addChildViewController.
@@ -1999,14 +1838,6 @@ be familiar to you from iOS,
 00:21:52.946 --> 00:21:57.706 A:middle
 methods that lets you
 see a - well - thanks.
-
-00:21:58.396 --> 00:22:01.416 A:middle
-I should have talked
-about this first, I guess.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.396 --> 00:22:01.416 A:middle
 I should have talked
@@ -2106,14 +1937,6 @@ in Objective-C in recent years,
 for instance @property, that's
 been around for a while now,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.226 --> 00:23:03.196 A:middle
-for instance @property, that's
-been around for a while now,
-
 00:23:03.196 --> 00:23:06.516 A:middle
 instancetype, enums with
 explicit underlying types,
@@ -2188,14 +2011,6 @@ context-sensitive completions
 
 00:23:55.066 --> 00:23:55.816 A:middle
 in some cases.
-
-00:23:56.696 --> 00:24:02.046 A:middle
-It allows the - it enables the
-compiler to warn and to detect
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:56.696 --> 00:24:02.046 A:middle
 It allows the - it enables the
@@ -2287,14 +2102,6 @@ the target property
 and objectValue property
 are now real properties,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.466 --> 00:25:00.856 A:middle
-and objectValue property
-are now real properties,
-
 00:25:01.216 --> 00:25:02.936 A:middle
 and you'll notice that the
 target property is weak,
@@ -2376,14 +2183,6 @@ like a property should be.
 00:25:55.486 --> 00:25:58.996 A:middle
 You know, sometimes if it looks
 like a duck, it's not a duck.
-
-00:25:59.606 --> 00:26:02.136 A:middle
-The canonical example is
-the retain method, you know,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.606 --> 00:26:02.136 A:middle
 The canonical example is
@@ -2477,14 +2276,6 @@ candidate for property as well.
 So, you have to make sure the
 methods also swim like a duck
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.956 --> 00:27:03.156 A:middle
-So, you have to make sure the
-methods also swim like a duck
-
 00:27:03.156 --> 00:27:05.316 A:middle
 and quack like a duck before
 you make them into properties.
@@ -2558,14 +2349,6 @@ it might help you find bugs
 00:27:52.476 --> 00:27:54.876 A:middle
 in your code and, you know,
 get the benefit I've shown.
-
-00:27:55.666 --> 00:28:00.496 A:middle
-The Convert to Modern
-Objective-C syntax refactoring
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:55.666 --> 00:28:00.496 A:middle
 The Convert to Modern
@@ -2662,14 +2445,6 @@ interoperability
 with the Cocoa APIs and of
 course Objective-C code.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.976 --> 00:29:05.396 A:middle
-with the Cocoa APIs and of
-course Objective-C code.
-
 00:29:05.676 --> 00:29:08.016 A:middle
 Now, as you know, API
 is - API design is near
@@ -2734,14 +2509,6 @@ across in Swift.
 00:29:54.366 --> 00:29:56.976 A:middle
 First, properties, here's
 a pretty obvious one.
-
-00:29:57.296 --> 00:30:02.526 A:middle
-The NSRect - the frame property
-in NSView type, that's NSRect,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.296 --> 00:30:02.526 A:middle
 The NSRect - the frame property
@@ -2827,14 +2594,6 @@ an array of NSViews of course.
 00:30:56.546 --> 00:30:58.936 A:middle
 Right now, this is not coming
 through to the APIs here,
-
-00:30:58.936 --> 00:31:00.156 A:middle
-but these are refinement
-that we'd
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.936 --> 00:31:00.156 A:middle
 but these are refinement
@@ -2926,13 +2685,6 @@ of this method is addSubview,
 00:31:59.526 --> 00:32:00.636 A:middle
 and it takes an NSView.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.526 --> 00:32:00.636 A:middle
-and it takes an NSView.
-
 00:32:01.876 --> 00:32:04.476 A:middle
 Calling something like
 this is again also pretty
@@ -3012,14 +2764,6 @@ and then sender:
 
 00:32:56.046 --> 00:32:58.226 A:middle
 which is an AnyObject argument.
-
-00:32:58.716 --> 00:33:02.036 A:middle
-An invocation of this is
-pretty straightforward
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.716 --> 00:33:02.036 A:middle
 An invocation of this is
@@ -3115,14 +2859,6 @@ of a whole.
 For instance let's say you
 had a method called moveToX y.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.556 --> 00:34:02.636 A:middle
-For instance let's say you
-had a method called moveToX y.
-
 00:34:02.636 --> 00:34:04.526 A:middle
 In Swift it would
 come across like this,
@@ -3131,7 +2867,7 @@ come across like this,
 and maybe this doesn't
 look so good.
 
-00:34:06.766 --> 00:34:09.255 A:middle
+00:34:06.766 --> 00:34:09.256 A:middle
 Why is X treated somewhat
 differently than Y?
 
@@ -3189,7 +2925,7 @@ the arguments one by one,
 you're specifying this one
 whole thing to represent them.
 
-00:34:47.485 --> 00:34:48.926 A:middle
+00:34:47.486 --> 00:34:48.926 A:middle
 And, you know, we
 have many other types
 
@@ -3207,14 +2943,6 @@ type to represent the points
 
 00:34:58.406 --> 00:34:59.876 A:middle
 in 3D space and so on.
-
-00:34:59.876 --> 00:35:02.576 A:middle
-So, you know, use such types
-where appropriate and it -
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.876 --> 00:35:02.576 A:middle
 So, you know, use such types
@@ -3291,13 +3019,6 @@ And these were just another way
 00:35:57.156 --> 00:35:59.846 A:middle
 to say the init method except
 you didn't have to call alloc,
-
-00:35:59.846 --> 00:36:01.406 A:middle
-hence the convenience aspect.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.846 --> 00:36:01.406 A:middle
 hence the convenience aspect.
@@ -3386,14 +3107,6 @@ pretty neat too.
 
 00:36:58.246 --> 00:36:59.126 A:middle
 Here is that enum.
-
-00:36:59.646 --> 00:37:02.536 A:middle
-To call it you might
-say NSByteCountFormatter
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.646 --> 00:37:02.536 A:middle
 To call it you might
@@ -3488,14 +3201,6 @@ NSGestureRecognizer.
 There's going to be more
 about gesture recognizers
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.346 --> 00:38:01.246 A:middle
-There's going to be more
-about gesture recognizers
-
 00:38:01.246 --> 00:38:03.016 A:middle
 at the Storyboards
 and Controllers talk,
@@ -3570,10 +3275,6 @@ directly as properties.
 
 00:38:58.356 --> 00:38:59.516 A:middle
 There's no need to subclass.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:00.286 --> 00:39:03.386 A:middle
 Good, somebody's
@@ -3665,14 +3366,6 @@ NSThread and so on.
 00:39:53.896 --> 00:39:56.286 A:middle
 This allows indicating
 the nature and importance
-
-00:39:56.286 --> 00:40:00.536 A:middle
-of the work you're doing and
-lets system manage resources
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:56.286 --> 00:40:00.536 A:middle
 of the work you're doing and
@@ -3771,13 +3464,6 @@ there are more important
 00:40:59.346 --> 00:41:00.066 A:middle
 things happening.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.346 --> 00:41:00.066 A:middle
-things happening.
-
 00:41:00.306 --> 00:41:03.626 A:middle
 And then the Default which
 allows the QualityOfService
@@ -3856,14 +3542,6 @@ afternoon at 2.
 00:41:51.136 --> 00:41:56.366 A:middle
 Now, let me talk to you
 a bit about NSStrings.
-
-00:41:57.646 --> 00:42:00.446 A:middle
-We have a new API,
-NSString Encoding Detector.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:57.646 --> 00:42:00.446 A:middle
 We have a new API,
@@ -3948,14 +3626,6 @@ the encoding it was intended
 
 00:42:58.016 --> 00:42:58.426 A:middle
 to be in.
-
-00:42:58.976 --> 00:43:03.636 A:middle
-We have two small new
-APIs, containsString
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.976 --> 00:43:03.636 A:middle
 We have two small new
@@ -4049,14 +3719,6 @@ guide of how this works.
 00:43:55.706 --> 00:43:57.786 A:middle
 Here you're creating
 a UTF8String.
-
-00:43:59.296 --> 00:44:02.426 A:middle
-Typically you have your object
-pointer, the base pointer
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:59.296 --> 00:44:02.426 A:middle
 Typically you have your object
@@ -4158,14 +3820,6 @@ does a better job.
 Since all of these three
 are potential compatibility
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:57.836 --> 00:45:00.166 A:middle
-Since all of these three
-are potential compatibility
-
 00:45:00.166 --> 00:45:03.676 A:middle
 concerns, we actually make it
 so that these changes enabled
@@ -4236,14 +3890,6 @@ minutes remaining.
 
 00:45:54.516 --> 00:45:58.276 A:middle
 [ Applause ]
-
-00:45:58.776 --> 00:46:01.506 A:middle
-And now note that these
-are for formatting only,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:58.776 --> 00:46:01.506 A:middle
 And now note that these
@@ -4330,14 +3976,6 @@ usually the one you want
 to use unless you definitely
 know where the result is going.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:58.716 --> 00:47:03.416 A:middle
-to use unless you definitely
-know where the result is going.
-
 00:47:03.516 --> 00:47:05.966 A:middle
 There was internationalization
 talk this morning.
@@ -4408,14 +4046,6 @@ and we also have another feature
 00:47:54.906 --> 00:47:57.526 A:middle
 where document versions are
 now available on iCloud.
-
-00:47:59.116 --> 00:48:01.736 A:middle
-In addition, you've heard
-about iCloud Drive yesterday
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:59.116 --> 00:48:01.736 A:middle
 In addition, you've heard
@@ -4495,14 +4125,6 @@ to one of these other APIs
 00:48:57.846 --> 00:48:59.446 A:middle
 if you can, and the
 higher level the better.
-
-00:48:59.836 --> 00:49:04.636 A:middle
-We also have some APIs on NSURL
-that allow you to get metadata
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:59.836 --> 00:49:04.636 A:middle
 We also have some APIs on NSURL
@@ -4588,13 +4210,6 @@ Data," Thursday morning.
 00:49:59.276 --> 00:50:01.086 A:middle
 Auto Layout, we have some -
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:59.276 --> 00:50:01.086 A:middle
-Auto Layout, we have some -
-
 00:50:01.256 --> 00:50:03.556 A:middle
 we've been improving
 Auto Layout all along.
@@ -4667,14 +4282,6 @@ have been promoted
 00:50:55.916 --> 00:50:57.846 A:middle
 to their corresponding
 control subclasses,
-
-00:50:58.296 --> 00:51:01.146 A:middle
-and so you should use the
-controls where possible,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:58.296 --> 00:51:01.146 A:middle
 and so you should use the
@@ -4769,14 +4376,6 @@ TableView with like five rows
 and you don't want to do
 anything else, you don't want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:59.176 --> 00:52:01.216 A:middle
-and you don't want to do
-anything else, you don't want
-
 00:52:01.216 --> 00:52:02.896 A:middle
 to provide data source,
 you can do that now.
@@ -4849,14 +4448,6 @@ delegate method.
 00:52:57.456 --> 00:52:59.736 A:middle
 ComboBox, DatePicker,
 PopupButton, SearchField,
-
-00:52:59.736 --> 00:53:02.506 A:middle
-and SplitView now all do
-right-to-left properly
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:59.736 --> 00:53:02.506 A:middle
 and SplitView now all do
@@ -4938,10 +4529,6 @@ you to resolve alias files
 00:53:54.756 --> 00:53:57.636 A:middle
 with
 URLByResolvingAliasFileAtURL.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:00.026 --> 00:54:03.656 A:middle
 OK, and we have last two,
@@ -5032,4 +4619,3 @@ you very much.
 
 00:54:55.516 --> 00:55:03.890 A:middle
 [ Applause ]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:11.516 A:middle
 [ Silence ]
@@ -62,14 +61,6 @@ at the language level.
 00:00:55.116 --> 00:00:58.786 A:middle
 We're going to hit a number
 of different topics today.
-
-00:00:59.426 --> 00:01:01.336 A:middle
-We're going to talk
-about working with Cocoa,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.426 --> 00:01:01.336 A:middle
 We're going to talk
@@ -138,14 +129,6 @@ about working with Cocoa.
 00:01:55.466 --> 00:01:59.616 A:middle
 So Swift provides seamless
 access to Objective-C APIs
-
-00:01:59.916 --> 00:02:03.166 A:middle
-through the Objective-C Module
-System we introduced last year.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.916 --> 00:02:03.166 A:middle
 through the Objective-C Module
@@ -228,14 +211,6 @@ differences that you see
 when looking at the
 APIs, it's still Cocoa,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.486 --> 00:03:02.396 A:middle
-when looking at the
-APIs, it's still Cocoa,
-
 00:03:02.586 --> 00:03:04.006 A:middle
 it's still Cocoa Touch.
 
@@ -307,14 +282,6 @@ What does that mean?
 Well, let's look at
 Swift in Objective-C.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.156 --> 00:04:01.456 A:middle
-Well, let's look at
-Swift in Objective-C.
-
 00:04:01.456 --> 00:04:03.946 A:middle
 They're different languages with
 some different ideas in them.
@@ -337,7 +304,7 @@ So a very strong constraint.
 And it makes life a bit
 simpler when you know
 
-00:04:16.616 --> 00:04:17.565 A:middle
+00:04:16.616 --> 00:04:17.566 A:middle
 that thing is not nil.
 
 00:04:19.036 --> 00:04:21.646 A:middle
@@ -395,14 +362,6 @@ with the exclamation point here.
 00:04:57.486 --> 00:04:59.916 A:middle
 And this gives us
 a nice balance.
-
-00:04:59.916 --> 00:05:02.336 A:middle
-It means that we can
-express the notion of nil
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.916 --> 00:05:02.336 A:middle
 It means that we can
@@ -470,14 +429,6 @@ of Objective-C types
 00:05:55.286 --> 00:05:58.056 A:middle
 that get mapped slightly
 differently into Swift.
-
-00:05:58.776 --> 00:06:01.846 A:middle
-So there's some very, very
-fundamental types like BOOL
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.776 --> 00:06:01.846 A:middle
 So there's some very, very
@@ -564,14 +515,6 @@ piece, SaveOperation,
 has become a label on
 the second argument.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.226 --> 00:07:00.576 A:middle
-has become a label on
-the second argument.
-
 00:07:01.966 --> 00:07:05.046 A:middle
 A really important thing
 here is that these labels
@@ -650,14 +593,6 @@ talk about is the naming
 of these argument labels and
 the internal parameter names.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.586 --> 00:08:02.096 A:middle
-of these argument labels and
-the internal parameter names.
-
 00:08:02.676 --> 00:08:05.816 A:middle
 So here in Objective-C you
 always have a selector piece,
@@ -698,11 +633,11 @@ so you just write the name once.
 It serves both as the label
 and the internal name.
 
-00:08:29.906 --> 00:08:32.525 A:middle
+00:08:29.906 --> 00:08:32.526 A:middle
 If you want those names
 to be different, fine,
 
-00:08:32.525 --> 00:08:33.576 A:middle
+00:08:32.526 --> 00:08:33.576 A:middle
 we can handle that, too.
 
 00:08:33.706 --> 00:08:35.416 A:middle
@@ -735,10 +670,6 @@ that takes a Block,
 00:08:55.126 --> 00:08:59.716 A:middle
 and Blocks in Objective-C get
 mapped into Closures in Swift.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.566 --> 00:09:03.316 A:middle
 You see, again, this is an
@@ -819,10 +750,6 @@ you have a lot of requirements.
 00:09:59.356 --> 00:09:59.966 A:middle
 You need to call "super init."
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.046 --> 00:10:01.896 A:middle
 You need to reassign "self."
 
@@ -899,14 +826,6 @@ send it an init message
 
 00:10:58.386 --> 00:10:59.556 A:middle
 to initialize the Object.
-
-00:10:59.846 --> 00:11:02.246 A:middle
-These two steps are
-almost never separated.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.846 --> 00:11:02.246 A:middle
 These two steps are
@@ -993,14 +912,6 @@ directly imported in Swift.
 It would just be a class
 method, colorwithRed,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.646 --> 00:12:01.496 A:middle
-It would just be a class
-method, colorwithRed,
-
 00:12:01.496 --> 00:12:04.406 A:middle
 and green blue alpha
 as argument labels,
@@ -1080,14 +991,6 @@ as defined in Objective-C.
 And if we look at this we see
 a whole lot of redundancy.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.646 --> 00:13:02.666 A:middle
-And if we look at this we see
-a whole lot of redundancy.
-
 00:13:03.416 --> 00:13:06.646 A:middle
 This UIDocumentSave
 prefix is used for the enum
@@ -1160,14 +1063,6 @@ the enum type itself.
 How does this play
 out in actual code?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.016 --> 00:14:02.026 A:middle
-How does this play
-out in actual code?
-
 00:14:02.596 --> 00:14:04.656 A:middle
 Well, okay, if we call
 fileNameExtensionForType
@@ -1231,14 +1126,6 @@ special type in Swift.
 
 00:14:57.166 --> 00:14:58.216 A:middle
 In fact, if you type alias
-
-00:14:58.216 --> 00:15:01.896 A:middle
-for a much longer type
-name call NSErrorPointer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.216 --> 00:15:01.896 A:middle
 for a much longer type
@@ -1322,13 +1209,6 @@ with NSError in Swift.
 00:15:57.296 --> 00:15:59.036 A:middle
 If you truly don't
 care about the error,
-
-00:15:59.176 --> 00:16:00.176 A:middle
-you can also pass nil.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.176 --> 00:16:00.176 A:middle
 you can also pass nil.
@@ -1419,30 +1299,22 @@ can view your own Objective-C
 APIs in Swift to get
 to know them better.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.956 --> 00:17:01.186 A:middle
-APIs in Swift to get
-to know them better.
-
 00:17:02.246 --> 00:17:05.146 A:middle
 Now this works best
 when you're following
 
-00:17:05.175 --> 00:17:07.136 A:middle
+00:17:05.176 --> 00:17:07.136 A:middle
 "modern" Objective-C practices.
 
-00:17:07.705 --> 00:17:11.935 A:middle
+00:17:07.706 --> 00:17:11.936 A:middle
 So these are using features
 like Properties, instancetype,
 
-00:17:12.726 --> 00:17:15.915 A:middle
+00:17:12.726 --> 00:17:15.916 A:middle
 marking your enumerations
 with NS-ENUM or NS-OPTIONS
 
-00:17:15.965 --> 00:17:17.866 A:middle
+00:17:15.966 --> 00:17:17.866 A:middle
 to describe more
 semantic information
 
@@ -1500,14 +1372,6 @@ Objective-C features
 00:17:55.786 --> 00:17:57.876 A:middle
 and give you a better
 projection into Swift.
-
-00:17:58.426 --> 00:18:00.696 A:middle
-And that Modernizer is
-discussed in the "What's New
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.426 --> 00:18:00.696 A:middle
 And that Modernizer is
@@ -1587,14 +1451,6 @@ by doing a Message Send.
 I can subscript an id
 if I really feel like.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.206 --> 00:19:02.786 A:middle
-I can subscript an id
-if I really feel like.
-
 00:19:03.516 --> 00:19:08.546 A:middle
 In Swift, any object is
 the equivalent to id.
@@ -1663,13 +1519,6 @@ on this object.
 00:19:54.506 --> 00:19:59.216 A:middle
 And the thing to note here
 is that removeFromSuperview()
-
-00:19:59.836 --> 00:20:02.576 A:middle
-on an object of unknown type,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.836 --> 00:20:02.576 A:middle
 on an object of unknown type,
@@ -1750,14 +1599,6 @@ produce a compiler error
 because this is a
 unsafe downcast.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.166 --> 00:21:01.786 A:middle
-because this is a
-unsafe downcast.
-
 00:21:02.276 --> 00:21:05.146 A:middle
 How do we deal with this?
 
@@ -1823,14 +1664,6 @@ figured it out?
 00:21:54.286 --> 00:21:57.476 A:middle
 But just to be sure, this is
 doing "is kind of" class check.
-
-00:21:57.476 --> 00:22:00.936 A:middle
-And it's wrapping the result
-in an optional UIView.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.476 --> 00:22:00.936 A:middle
 And it's wrapping the result
@@ -1909,14 +1742,6 @@ that you can't just look
 00:22:56.996 --> 00:22:59.126 A:middle
 at one single declaration
 in the protocol
-
-00:22:59.126 --> 00:23:00.846 A:middle
-and know whether it's
-optional or required.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.126 --> 00:23:00.846 A:middle
 and know whether it's
@@ -2002,14 +1827,6 @@ conflict between a class name
 and a protocol name,
 we'll append protocol
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.376 --> 00:24:01.336 A:middle
-and a protocol name,
-we'll append protocol
-
 00:24:01.336 --> 00:24:03.286 A:middle
 to the name of the protocol.
 
@@ -2080,13 +1897,6 @@ it conform to the protocol?
 00:24:55.456 --> 00:24:57.606 A:middle
 This is the "conforms
 to protocol check"
-
-00:24:57.606 --> 00:25:00.236 A:middle
-in the Objective-C runtime.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.606 --> 00:25:00.236 A:middle
 in the Objective-C runtime.
@@ -2176,14 +1986,6 @@ the same way we deal
 with optionality everywhere
 else in the Swift language,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.796 --> 00:26:02.736 A:middle
-with optionality everywhere
-else in the Swift language,
-
 00:26:03.576 --> 00:26:05.166 A:middle
 using the mechanisms we have.
 
@@ -2259,14 +2061,6 @@ safe by default.
 Now we didn't talk about it,
 but there's also AnyClass,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.756 --> 00:27:02.826 A:middle
-Now we didn't talk about it,
-but there's also AnyClass,
-
 00:27:02.956 --> 00:27:06.706 A:middle
 which is Swift's equivalent
 to class and has most
@@ -2336,14 +2130,6 @@ safe by default.
 00:27:57.066 --> 00:27:58.846 A:middle
 This means bounds
 restricting for arrays,
-
-00:27:58.846 --> 00:28:00.796 A:middle
-automatic memory
-management, and so on.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.846 --> 00:28:00.796 A:middle
 automatic memory
@@ -2426,14 +2212,6 @@ has Unicode built in through
 and through so it makes
 it easy to work with.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.356 --> 00:29:01.056 A:middle
-and through so it makes
-it easy to work with.
-
 00:29:01.626 --> 00:29:02.706 A:middle
 We provide flexible
 
@@ -2502,14 +2280,6 @@ even though there's no emoji
 
 00:29:53.596 --> 00:29:55.516 A:middle
 at the end.
-
-00:29:55.516 --> 00:30:01.016 A:middle
-So I want to talk a little bit
-about characters and code points
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:55.516 --> 00:30:01.016 A:middle
 So I want to talk a little bit
@@ -2587,14 +2357,6 @@ so causes big problems.
 Instead we want you to
 use the high-level APIs
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.886 --> 00:31:03.876 A:middle
-Instead we want you to
-use the high-level APIs
-
 00:31:04.186 --> 00:31:06.726 A:middle
 and let the library do
 the hard work of dealing
@@ -2664,13 +2426,6 @@ code points.
 00:31:55.096 --> 00:31:58.536 A:middle
 We can print out the number of
 code points here and, of course,
-
-00:31:58.536 --> 00:32:00.836 A:middle
-you'll get the answer "6"
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.536 --> 00:32:00.836 A:middle
 you'll get the answer "6"
@@ -2754,13 +2509,6 @@ turn it into an NSString,
 00:32:59.796 --> 00:33:00.926 A:middle
 so this is just a conversion,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.796 --> 00:33:00.926 A:middle
-so this is just a conversion,
-
 00:33:01.986 --> 00:33:04.426 A:middle
 and then call your
 NSStringMethod.
@@ -2829,10 +2577,6 @@ them and, of course,
 00:33:57.486 --> 00:33:58.786 A:middle
 you will get an AnyObject.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.256 --> 00:34:04.976 A:middle
 Now, in Swift, you tend to deal
 in typed arrays more often.
@@ -2845,10 +2589,10 @@ some other operations
 that the core language
 needs to provide
 
-00:34:09.846 --> 00:34:11.315 A:middle
+00:34:09.846 --> 00:34:11.316 A:middle
 for you to make this clean.
 
-00:34:12.085 --> 00:34:16.696 A:middle
+00:34:12.086 --> 00:34:16.696 A:middle
 So maybe I'm composing my
 toolbar items into a Swift array
 
@@ -2864,14 +2608,14 @@ the toolbar items property.
 I can work with that Swift
 Array and then I can assign it
 
-00:34:29.636 --> 00:34:31.335 A:middle
+00:34:29.636 --> 00:34:31.336 A:middle
 into the AnyObject array.
 
-00:34:31.335 --> 00:34:35.065 A:middle
+00:34:31.336 --> 00:34:35.066 A:middle
 So this is essentially doing
 a safe upcast of any array
 
-00:34:35.065 --> 00:34:37.636 A:middle
+00:34:35.066 --> 00:34:37.636 A:middle
 of ToolbarItems to any
 array of AnyObjects.
 
@@ -2879,31 +2623,24 @@ array of AnyObjects.
 It also happens to be
 calling into Objective-C,
 
-00:34:41.085 --> 00:34:43.916 A:middle
+00:34:41.086 --> 00:34:43.916 A:middle
 which we'll get to in a minute.
 
-00:34:44.076 --> 00:34:48.025 A:middle
+00:34:44.076 --> 00:34:48.026 A:middle
 Now we also see the flip side
 of this where we want to, say,
 
-00:34:48.025 --> 00:34:49.636 A:middle
+00:34:48.026 --> 00:34:49.636 A:middle
 iterate over all
 the ToolbarItems
 
-00:34:50.735 --> 00:34:56.295 A:middle
+00:34:50.736 --> 00:34:56.296 A:middle
 in this particular view
 controller and here we're going
 
-00:34:56.295 --> 00:34:59.476 A:middle
+00:34:56.296 --> 00:34:59.476 A:middle
 to get AnyObject values and,
 we talked about cast earlier,
-
-00:34:59.476 --> 00:35:01.226 A:middle
-so we can downcast each of them.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.476 --> 00:35:01.226 A:middle
 so we can downcast each of them.
@@ -2979,14 +2716,6 @@ It's a native representation.
 It has a length, which is the
 number of elements in the array.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.596 --> 00:36:02.166 A:middle
-It has a length, which is the
-number of elements in the array.
-
 00:36:02.166 --> 00:36:04.316 A:middle
 It has a capacity that's used
 
@@ -3056,14 +2785,6 @@ on an array handle both
 
 00:36:54.476 --> 00:36:55.996 A:middle
 of these representations.
-
-00:36:56.486 --> 00:37:00.386 A:middle
-So if I subscript my array and
-it happens to be an NSArray,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:56.486 --> 00:37:00.386 A:middle
 So if I subscript my array and
@@ -3154,14 +2875,6 @@ that NSArray directly.
 All we need to do is
 one copy operation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.426 --> 00:38:00.616 A:middle
-All we need to do is
-one copy operation
-
 00:38:00.946 --> 00:38:03.256 A:middle
 to make sure the contents
 don't change underneath us
@@ -3241,13 +2954,6 @@ allocate a little shim object.
 00:38:59.016 --> 00:39:00.636 A:middle
 That's also possible.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.016 --> 00:39:00.636 A:middle
-That's also possible.
-
 00:39:01.346 --> 00:39:05.096 A:middle
 Instead, we decided to make
 our native representation
@@ -3299,10 +3005,6 @@ if you define a class in Swift,
 00:39:57.456 --> 00:39:59.976 A:middle
 it has basic Objective-C
 interoperability built in.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.226 --> 00:40:05.136 A:middle
 We use the same layout as an
@@ -3380,13 +3082,6 @@ talk about a couple
 00:40:57.046 --> 00:40:58.666 A:middle
 of the things that
 subclasses do.
-
-00:40:59.076 --> 00:41:00.266 A:middle
-They override methods.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.076 --> 00:41:00.266 A:middle
 They override methods.
@@ -3472,14 +3167,6 @@ something from my super class,
 but I typed part of
 the selector wrong
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:59.056 --> 00:42:01.046 A:middle
-but I typed part of
-the selector wrong
-
 00:42:01.796 --> 00:42:04.006 A:middle
 and the method name
 no longer overrides.
@@ -3557,14 +3244,6 @@ or the setter separately.
 Instead you override
 the property itself
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.146 --> 00:43:01.796 A:middle
-Instead you override
-the property itself
-
 00:43:02.396 --> 00:43:06.116 A:middle
 and then you provide a getter
 or a setter as appropriate.
@@ -3637,14 +3316,6 @@ out of a pointer.
 00:43:55.736 --> 00:43:58.966 A:middle
 You can test it for nil, as
 we do in the if check here,
-
-00:43:59.396 --> 00:44:02.116 A:middle
-to see whether we were actually
-given a valid point error
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:59.396 --> 00:44:02.116 A:middle
 to see whether we were actually
@@ -3733,13 +3404,6 @@ this into Objective-C,
 00:44:59.886 --> 00:45:01.656 A:middle
 it would look like this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.886 --> 00:45:01.656 A:middle
-it would look like this.
-
 00:45:01.656 --> 00:45:04.406 A:middle
 All the same elements are there.
 
@@ -3804,14 +3468,6 @@ this as MyApp.MyDocument,
 00:45:51.996 --> 00:45:53.716 A:middle
 unless you're poking at
 the internal somewhere.
-
-00:45:54.306 --> 00:46:00.126 A:middle
-And the purpose of this mangled
-name is to put everything
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:54.306 --> 00:46:00.126 A:middle
 And the purpose of this mangled
@@ -3890,10 +3546,6 @@ because Objective-C has no way
 00:46:58.576 --> 00:46:59.766 A:middle
 to express that signature.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:00.306 --> 00:47:01.076 A:middle
 There's nothing we can do.
 
@@ -3966,14 +3618,6 @@ It has a setter.
 00:47:53.486 --> 00:47:56.336 A:middle
 In Objective-C this is going to
 come through as a property named
-
-00:47:56.336 --> 00:48:00.216 A:middle
-"enabled," a getter named
-"enabled," and a setter named
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:56.336 --> 00:48:00.216 A:middle
 "enabled," a getter named
@@ -4059,14 +3703,6 @@ implementation.
 In Swift, for your
 Objective-C class,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:58.316 --> 00:49:00.116 A:middle
-In Swift, for your
-Objective-C class,
-
 00:49:00.476 --> 00:49:01.976 A:middle
 you can use the objc attribute
 
@@ -4139,10 +3775,6 @@ is bridge casts.
 
 00:49:57.916 --> 00:49:58.726 A:middle
 So we're in ARC.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:00.056 --> 00:50:00.666 A:middle
 It's partly great.
@@ -4224,14 +3856,6 @@ do the toll-free bridging
 over to CFArrayRef
 because that's what we use
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:56.256 --> 00:51:00.846 A:middle
-over to CFArrayRef
-because that's what we use
-
 00:51:00.846 --> 00:51:04.846 A:middle
 with Core Graphics APIs.
 
@@ -4306,14 +3930,6 @@ about being a class?
 Well, that means we're in
 the ARC model and we're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:57.996 --> 00:52:00.226 A:middle
-Well, that means we're in
-the ARC model and we're going
-
 00:52:00.226 --> 00:52:02.606 A:middle
 to automatically manage
 the memory for you.
@@ -4378,14 +3994,6 @@ to the underlying C array
 
 00:52:57.776 --> 00:52:59.436 A:middle
 that this C function expects.
-
-00:52:59.926 --> 00:53:03.136 A:middle
-Let's keep going with
-our example here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:59.926 --> 00:53:03.136 A:middle
 Let's keep going with
@@ -4468,13 +4076,6 @@ taken over the management.
 00:53:59.516 --> 00:54:06.356 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:59.516 --> 00:54:06.356 A:middle
-[ Applause ]
-
 00:54:06.856 --> 00:54:09.086 A:middle
 Now you may have some of
 your own APIs that we refer
@@ -4537,13 +4138,6 @@ manage the memory here
 00:54:55.326 --> 00:54:57.076 A:middle
 because we don't know
 what the conventions are.
-
-00:54:58.656 --> 00:55:00.536 A:middle
-So what is this Unmanaged thing?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:58.656 --> 00:55:00.536 A:middle
 So what is this Unmanaged thing?
@@ -4631,14 +4225,6 @@ little line of code
 where you establish
 what the convention is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:55:59.556 --> 00:56:01.306 A:middle
-where you establish
-what the convention is
-
 00:56:01.596 --> 00:56:03.776 A:middle
 for CGColorGetRandomColor.
 
@@ -4705,14 +4291,6 @@ between Swift and Objective-C.
 We've talked about a whole lot
 of rules about how that works.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:56:57.616 --> 00:57:00.166 A:middle
-We've talked about a whole lot
-of rules about how that works.
-
 00:57:00.476 --> 00:57:02.746 A:middle
 But let the tools and
 documentation help you.
@@ -4771,4 +4349,3 @@ Thank you.
 
 00:57:40.516 --> 00:57:55.880 A:middle
 [ Applause ]
-

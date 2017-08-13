@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:13.046 --> 00:00:13.526 A:middle
 &gt;&gt; Welcome.
@@ -65,9 +64,6 @@ a host of new features,
 00:00:59.596 --> 00:01:01.516 A:middle
 some very powerful
 things beginning
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:01.516 --> 00:01:05.296 A:middle
 with notification support in
@@ -208,7 +204,6 @@ process,
 we integrated Code Signing
 with workflow files.
 
-
 00:03:00.786 --> 00:03:03.926 A:middle
 So not only applets but now
 your workflow files can be
@@ -275,9 +270,6 @@ bar in a floating window,
 and all of this is done for
 you automatically, all you have
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.036 --> 00:04:02.796 A:middle
 to do is set properties
 within your scripts.
@@ -300,10 +292,10 @@ and we've advanced it now
 because of the dictation
 architecture in Yosemite
 
-00:04:16.366 --> 00:04:18.435 A:middle
+00:04:16.366 --> 00:04:18.436 A:middle
 that works with all languages.
 
-00:04:19.125 --> 00:04:21.986 A:middle
+00:04:19.126 --> 00:04:21.986 A:middle
 We now have a new
 template item in Automator
 
@@ -350,9 +342,6 @@ and very pleased
 00:04:52.576 --> 00:04:55.766 A:middle
 to have here today is
 JavaScript for Automation.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.036 --> 00:05:01.496 A:middle
 Now, those of you that are
@@ -491,7 +480,6 @@ the script
 to make sure your
 syntax is correct,
 
-
 00:07:02.556 --> 00:07:05.596 A:middle
 and there's also a control for
 running or stopping your script.
@@ -562,7 +550,6 @@ when you're executing scripts,
 and as David shows
 you the examples,
 
-
 00:08:01.596 --> 00:08:03.626 A:middle
 this is what you're
 going to see.
@@ -598,17 +585,17 @@ scripting you want to make sure
 that you change this
 value to JavaScript.
 
-00:08:29.946 --> 00:08:32.135 A:middle
+00:08:29.946 --> 00:08:32.136 A:middle
 Now this says JavaScript 1.0.
 
-00:08:32.135 --> 00:08:34.765 A:middle
+00:08:32.136 --> 00:08:34.766 A:middle
 This is JavaScript
 for Automation 1.0.
 
-00:08:34.765 --> 00:08:37.385 A:middle
+00:08:34.766 --> 00:08:37.386 A:middle
 It is not JavaScript 1.0.
 
-00:08:37.385 --> 00:08:41.275 A:middle
+00:08:37.386 --> 00:08:41.276 A:middle
 We use the current JavaScript
 core language as the basis.
 
@@ -627,9 +614,6 @@ this will do is activate the
 00:08:53.376 --> 00:08:56.666 A:middle
 system-wide Script Menu at the
 top right of your menu bar.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:56.996 --> 00:09:00.946 A:middle
 And from this Script Menu you
@@ -711,9 +695,6 @@ complete dictionary
 of all the terms
 that it understands.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:09:58.706 --> 00:10:02.576 A:middle
 It will list all the classes and
 all the methods and the commands
@@ -791,9 +772,6 @@ this window, the top pane
 of this window, is
 the Model Viewer.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:59.826 --> 00:11:01.976 A:middle
 And this is where you
 see how the objects
@@ -867,9 +845,6 @@ a presentation.
 00:11:55.746 --> 00:11:57.796 A:middle
 And you see classes
 like document.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.366 --> 00:12:02.136 A:middle
 And then when you select a
@@ -945,9 +920,6 @@ for Automation.
 00:12:59.206 --> 00:12:59.996 A:middle
 Enjoy this [applause].
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:13:02.226 --> 00:13:02.946 A:middle
 &gt;&gt; Thank you, Sal.
 
@@ -1018,9 +990,6 @@ party you're having.
 00:13:54.626 --> 00:13:58.656 A:middle
 I'd like to demonstrate the
 power of Automation to you now.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.536 --> 00:14:02.026 A:middle
 So I work for Acme
@@ -1275,15 +1244,14 @@ such as being able
 00:16:58.406 --> 00:17:00.106 A:middle
 to be told to open, or to print.
 
-
 00:17:01.046 --> 00:17:02.016 A:middle
 And a wide variety
 
-00:17:02.016 --> 00:17:04.415 A:middle
+00:17:02.016 --> 00:17:04.416 A:middle
 of applications have fully
 embraced scriptability,
 
-00:17:04.836 --> 00:17:07.455 A:middle
+00:17:04.836 --> 00:17:07.456 A:middle
 detailing the Object
 Model of the application
 
@@ -1291,7 +1259,7 @@ Model of the application
 and offering rich suites of
 functionality beyond the basics.
 
-00:17:13.935 --> 00:17:17.506 A:middle
+00:17:13.936 --> 00:17:17.506 A:middle
 Apple events are the underlying
 communication mechanism behind
 
@@ -1310,7 +1278,7 @@ that are defined
 in an application's scripting
 dictionary, as Sal showed,
 
-00:17:27.715 --> 00:17:31.286 A:middle
+00:17:27.716 --> 00:17:31.286 A:middle
 detailing what objects can
 be interacted with and how.
 
@@ -1352,7 +1320,6 @@ pinpoint the second message
 00:17:58.556 --> 00:18:02.486 A:middle
 of the inbox of the application
 mail, as an object specifier,
-
 
 00:18:02.846 --> 00:18:05.286 A:middle
 or a reference to
@@ -1429,7 +1396,6 @@ engine is the same,
 00:18:59.466 --> 00:19:01.296 A:middle
 JavaScript for Automation
 is quite different
-
 
 00:19:01.296 --> 00:19:02.646 A:middle
 from running scripts
@@ -1523,7 +1489,6 @@ with scripting applications.
 We introduced an
 application object
 
-
 00:20:04.736 --> 00:20:07.816 A:middle
 into a JavaScript context,
 which is the main entrance point
@@ -1586,7 +1551,6 @@ as functions using parentheses.
 00:20:57.906 --> 00:21:01.416 A:middle
 And you can create new objects
 by calling class constructors
-
 
 00:21:01.616 --> 00:21:03.916 A:middle
 as functions, again,
@@ -1821,7 +1785,6 @@ just like we wanted.
 But what if we want to
 do this multiple times
 
-
 00:24:01.206 --> 00:24:02.106 A:middle
 from the same script?
 
@@ -1893,7 +1856,6 @@ to log as many times as we want,
 00:24:58.656 --> 00:25:01.286 A:middle
 style any different way that
 we choose, every single time.
-
 
 00:25:01.976 --> 00:25:07.206 A:middle
 So this is powerful stuff simply
@@ -1969,7 +1931,6 @@ commands as methods locally
 00:25:58.986 --> 00:26:01.386 A:middle
 that send the command
 events to the application.
-
 
 00:26:02.716 --> 00:26:04.436 A:middle
 So again, let's say
@@ -2048,7 +2009,6 @@ files as parameters,
 such as opening a
 document using TextEdit.
 
-
 00:27:01.016 --> 00:27:04.386 A:middle
 So to accomplish this we've
 introduced a path object
@@ -2126,7 +2086,6 @@ for example.
 00:27:57.856 --> 00:28:01.736 A:middle
 And optionally, when you
 create objects, you can pass
-
 
 00:28:01.736 --> 00:28:04.156 A:middle
 in a dictionary of properties
@@ -2600,7 +2559,7 @@ interacting with system APIs.
 00:34:06.726 --> 00:34:08.216 A:middle
 ObjC and $.
 
-00:34:08.946 --> 00:34:10.835 A:middle
+00:34:08.946 --> 00:34:10.836 A:middle
 And for those coming from
 a browser environment,
 
@@ -2608,11 +2567,11 @@ a browser environment,
 $ may mean something
 very special to you,
 
-00:34:13.335 --> 00:34:15.576 A:middle
+00:34:13.336 --> 00:34:15.576 A:middle
 but in our environment
 it's a very different $.
 
-00:34:16.216 --> 00:34:22.085 A:middle
+00:34:16.216 --> 00:34:22.086 A:middle
 ObjC can be used to do things
 like bridging JavaScript values
 
@@ -2627,11 +2586,11 @@ importing frameworks
 00:34:30.206 --> 00:34:31.196 A:middle
 that you'd like to use.
 
-00:34:32.666 --> 00:34:35.585 A:middle
+00:34:32.666 --> 00:34:35.586 A:middle
 So once you've imported a
 framework you can access its
 
-00:34:35.585 --> 00:34:39.196 A:middle
+00:34:35.586 --> 00:34:39.196 A:middle
 classes and functions and
 so on using the $ object,
 
@@ -2639,7 +2598,7 @@ so on using the $ object,
 and you can also call $ as
 a function, as a shorthand
 
-00:34:44.076 --> 00:34:46.815 A:middle
+00:34:44.076 --> 00:34:46.816 A:middle
 for bridging JavaScript
 values into Objective-C.
 
@@ -3266,9 +3225,6 @@ where you can use JavaScript
 for Automation already,
 now let's look at the rest.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:01.746 --> 00:43:05.376 A:middle
 Let me set the scene, I
 work as a photographer
@@ -3333,9 +3289,6 @@ activate mail and have it ready
 
 00:43:55.146 --> 00:43:58.336 A:middle
 to send whenever I'd like.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:58.576 --> 00:44:00.966 A:middle
 So, here are some of
@@ -3416,9 +3369,6 @@ and so on and so forth.
 00:44:56.516 --> 00:44:58.896 A:middle
 But then I realized,
 why don't I automate it?
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:59.546 --> 00:45:01.826 A:middle
 So I whipped up this script here
@@ -3790,7 +3740,6 @@ up Script Editor
 and I'm going access the
 Library window and let's see,
 
-
 00:50:03.706 --> 00:50:05.726 A:middle
 we'll access Safari
 scripting Dictionary.
@@ -3861,7 +3810,6 @@ where you can use it.
 00:50:57.916 --> 00:51:01.846 A:middle
 To summarize, JavaScript
 for Automation is built
-
 
 00:51:01.846 --> 00:51:05.006 A:middle
 on JavaScriptCore, a modern

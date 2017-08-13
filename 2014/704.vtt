@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.316 --> 00:00:12.056 A:middle
 &gt;&gt; Good morning!
@@ -54,11 +53,7 @@ that solves a problem.
 You have to have an app
 that is well-designed.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:01.196 --> 00:01:04.525 A:middle
+00:01:01.196 --> 00:01:04.526 A:middle
 And it's got to be a
 pleasure to use for the user.
 
@@ -119,10 +114,6 @@ developer in this field.
 So let's get started by talking
 about mobile device management.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.296 --> 00:02:03.466 A:middle
 So what's mobile
 device management?
@@ -178,14 +169,6 @@ can be renewed
 without the user ever having
 to type in a password.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:58.886 --> 00:03:01.976 A:middle
-without the user ever having
-to type in a password.
-
 00:03:02.516 --> 00:03:08.706 A:middle
 [ Applause ]
 
@@ -231,10 +214,6 @@ on iOS, we call "managed".
 These include everything that
 you saw from the last slide.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.286 --> 00:04:01.926 A:middle
 Managed apps.
 
@@ -260,7 +239,7 @@ that has an extension in it.
 If that app was installed
 using MDM,
 
-00:04:20.375 --> 00:04:24.266 A:middle
+00:04:20.376 --> 00:04:24.266 A:middle
 that keyboard extension is then
 considered as managed as well.
 
@@ -289,10 +268,6 @@ intranet resources, or you know,
 00:04:52.206 --> 00:04:58.836 A:middle
 your network file storage, that
 app also becomes "managed."
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.456 --> 00:05:03.296 A:middle
 So this is in contrast
@@ -352,14 +327,6 @@ bottom of your screen?
 00:05:53.396 --> 00:05:54.996 A:middle
 All the apps that can
 handle that document.
-
-00:05:56.416 --> 00:06:01.066 A:middle
-That list of apps will
-be filtered down so that,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:56.416 --> 00:06:01.066 A:middle
 That list of apps will
@@ -431,14 +398,6 @@ domains in Safari as belonging
 to your corporate intranet,
 documents that you download
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:55.956 --> 00:07:00.276 A:middle
-to your corporate intranet,
-documents that you download
-
 00:07:00.276 --> 00:07:04.186 A:middle
 from those domains will
 only go into managed apps.
@@ -497,14 +456,6 @@ Don't try to do it yourself.
 iOS has a great way of allowing
 this to happen in a very clean
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.476 --> 00:08:03.286 A:middle
-iOS has a great way of allowing
-this to happen in a very clean
-
 00:08:03.676 --> 00:08:06.136 A:middle
 and intuitive way,
 using the fact
@@ -530,14 +481,14 @@ So what's this?
 A supervised device is a device
 that has been activated into,
 
-00:08:31.986 --> 00:08:33.275 A:middle
+00:08:31.986 --> 00:08:33.276 A:middle
 you know, a supervision.
 
 00:08:34.296 --> 00:08:39.596 A:middle
 It tells iOS that the device
 is owned by the enterprise.
 
-00:08:40.275 --> 00:08:43.446 A:middle
+00:08:40.276 --> 00:08:43.446 A:middle
 This is in contrast to a
 device that's owned by a user
 
@@ -555,13 +506,6 @@ supervision during activation.
 00:08:55.736 --> 00:08:59.366 A:middle
 The first way, and you saw
 this in the keynote yesterday,
-
-00:08:59.996 --> 00:09:01.526 A:middle
-is Device Enrollment Program.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.996 --> 00:09:01.526 A:middle
 is Device Enrollment Program.
@@ -631,14 +575,6 @@ on enterprise-owned devices.
 Such as Always-On
 VPN -- new in iOS 8.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.756 --> 00:10:02.426 A:middle
-Such as Always-On
-VPN -- new in iOS 8.
-
 00:10:03.836 --> 00:10:08.326 A:middle
 Global HTTP proxy.
 
@@ -688,14 +624,6 @@ If you own it, supervise it.
 
 00:10:49.956 --> 00:10:54.326 A:middle
 You won't regret it.
-
-00:10:54.596 --> 00:11:03.676 A:middle
-OK. So for the next part
-of our presentation,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:54.596 --> 00:11:03.676 A:middle
 OK. So for the next part
@@ -752,14 +680,6 @@ that education may use,
 an Assessment app where
 the student uses your app
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.336 --> 00:12:03.366 A:middle
-an Assessment app where
-the student uses your app
-
 00:12:04.036 --> 00:12:05.286 A:middle
 to take exams.
 
@@ -807,14 +727,6 @@ about MDM App Configuration.
 00:12:51.416 --> 00:12:55.056 A:middle
 So you remember a few
 minutes ago I talked
-
-00:12:55.056 --> 00:13:00.246 A:middle
-about allowing an MDM server
-to configure your apps.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:55.056 --> 00:13:00.246 A:middle
 about allowing an MDM server
@@ -876,14 +788,6 @@ probably, hit some server.
 You may have an app that is
 deployed in more than one branch
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.506 --> 00:14:02.946 A:middle
-You may have an app that is
-deployed in more than one branch
-
 00:14:03.066 --> 00:14:05.636 A:middle
 of your business, and
 you want to configure it
@@ -937,14 +841,6 @@ very important.
 00:14:53.756 --> 00:14:59.416 A:middle
 It helps you to prevent
 man-in-the-middle attacks.
-
-00:14:59.416 --> 00:15:03.476 A:middle
-And we'll show you how to
-do that in the code example.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.416 --> 00:15:03.476 A:middle
 And we'll show you how to
@@ -1019,14 +915,6 @@ defaults when you receive it.
 00:15:56.256 --> 00:15:58.576 A:middle
 So in our example I
 have a ViewController.
-
-00:15:58.576 --> 00:16:00.856 A:middle
-When the ViewController
-loads, I'm going to register
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.576 --> 00:16:00.856 A:middle
 When the ViewController
@@ -1123,14 +1011,6 @@ into NSUserDefaults.
 I make sure I call into
 that configuration key.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.526 --> 00:17:02.526 A:middle
-I make sure I call into
-that configuration key.
-
 00:17:02.996 --> 00:17:05.006 A:middle
 And then from the
 dictionary I pull
@@ -1142,15 +1022,15 @@ information that I need,
 00:17:07.806 --> 00:17:08.826 A:middle
 such as the server URL.
 
-00:17:09.146 --> 00:17:12.675 A:middle
+00:17:09.146 --> 00:17:12.676 A:middle
 An important thing to note is
 do put error checking on this
 
-00:17:12.675 --> 00:17:15.506 A:middle
+00:17:12.676 --> 00:17:15.506 A:middle
 to make sure that you're
 not loading bad values.
 
-00:17:16.205 --> 00:17:19.846 A:middle
+00:17:16.206 --> 00:17:19.846 A:middle
 And so now what we'll do is
 I'll switch over to the iPad
 
@@ -1203,14 +1083,6 @@ I automatically started
 00:17:56.656 --> 00:17:58.546 A:middle
 up a session and
 retrieved this document
-
-00:17:58.546 --> 00:18:00.036 A:middle
-from the server URL
-that I was given.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.546 --> 00:18:00.036 A:middle
 from the server URL
@@ -1290,13 +1162,6 @@ Next. All right.
 00:18:57.796 --> 00:19:01.886 A:middle
 Let's talk about Single Sign-on.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.796 --> 00:19:01.886 A:middle
-Let's talk about Single Sign-on.
-
 00:19:03.756 --> 00:19:07.986 A:middle
 Single sign-on is a Kerberos -
 
@@ -1349,14 +1214,6 @@ it works; it's great.
 The MDM server will
 apply the configuration,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.346 --> 00:20:02.206 A:middle
-The MDM server will
-apply the configuration,
-
 00:20:02.656 --> 00:20:07.466 A:middle
 and your apps will either
 get a 200 OK or a 401 Fail.
@@ -1403,14 +1260,6 @@ Next. Okay.
 00:20:51.626 --> 00:20:56.226 A:middle
 Here is something that we've
 gotten asked several times.
-
-00:20:57.526 --> 00:21:02.656 A:middle
-How do I download files securely
-all the way from my server
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:57.526 --> 00:21:02.656 A:middle
 How do I download files securely
@@ -1468,14 +1317,6 @@ you're going to get.
 
 00:21:56.626 --> 00:21:58.126 A:middle
 But we want to upgrade that.
-
-00:21:58.396 --> 00:22:02.646 A:middle
-So we want to have
-the file be specified
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.396 --> 00:22:02.646 A:middle
 So we want to have
@@ -1544,13 +1385,6 @@ code to do this.
 00:22:56.256 --> 00:22:59.186 A:middle
 You'll notice that we have
 on our ViewController set it
-
-00:22:59.186 --> 00:23:01.456 A:middle
-as implementing the delegates
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.186 --> 00:23:01.456 A:middle
 as implementing the delegates
@@ -1624,14 +1458,6 @@ NSFileManager defaultManager
 00:23:56.966 --> 00:23:59.726 A:middle
 createFileAtPath
 contents and attributes.
-
-00:23:59.726 --> 00:24:01.476 A:middle
-And the attribute
-I'm going to pass
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.726 --> 00:24:01.476 A:middle
 And the attribute
@@ -1723,10 +1549,6 @@ to store it all
 into that file I
 created earlier.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.016 --> 00:25:01.596 A:middle
 And then at the very end
 
@@ -1810,14 +1632,6 @@ to FileProtectionComplete.
 And as you can tell,
 as you can see,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.886 --> 00:26:02.676 A:middle
-And as you can tell,
-as you can see,
-
 00:26:02.676 --> 00:26:06.206 A:middle
 there's an NSURLMethod
 you can call to set a bit
@@ -1866,14 +1680,6 @@ trusted, for example, Safari.
 00:26:52.046 --> 00:26:56.196 A:middle
 And to do this of
 course you need HTTPS.
-
-00:26:56.376 --> 00:27:00.126 A:middle
-You need to specify your
-trusted root certificates during
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:56.376 --> 00:27:00.126 A:middle
 You need to specify your
@@ -1942,14 +1748,6 @@ key that I set.
 00:27:54.466 --> 00:27:56.836 A:middle
 So when I push down the
 MDM App Configuration,
-
-00:27:56.896 --> 00:28:00.056 A:middle
-I push down the data for my
-server's root certificate.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:56.896 --> 00:28:00.056 A:middle
 I push down the data for my
@@ -2038,13 +1836,6 @@ up that data.
 00:28:56.816 --> 00:28:59.126 A:middle
 And I'm going to create
 a SecCertificate with it.
-
-00:28:59.826 --> 00:29:00.906 A:middle
-And I want to double check
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.826 --> 00:29:00.906 A:middle
 And I want to double check
@@ -2144,14 +1935,6 @@ get a trust result.
 From that trust result I'm going
 to make sure that, you know,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.176 --> 00:30:01.526 A:middle
-From that trust result I'm going
-to make sure that, you know,
-
 00:30:01.666 --> 00:30:02.996 A:middle
 I didn't receive any errors.
 
@@ -2223,14 +2006,6 @@ do is - oop they already went
 00:30:54.246 --> 00:30:56.426 A:middle
 through this, so let
 me just reset this.
-
-00:30:56.966 --> 00:31:01.006 A:middle
-So when I call into
-the app - yeah,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:56.966 --> 00:31:01.006 A:middle
 So when I call into
@@ -2316,14 +2091,6 @@ to your trusted server.
 So what have we learned
 from the first example app?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.296 --> 00:32:04.296 A:middle
-So what have we learned
-from the first example app?
-
 00:32:04.296 --> 00:32:06.106 A:middle
 The Secure Document Viewer?
 
@@ -2375,14 +2142,6 @@ is use HTTP or HTTPS.
 00:32:51.696 --> 00:32:56.336 A:middle
 And if your admin has configured
 Single Sign-on on the device,
-
-00:32:56.736 --> 00:33:00.076 A:middle
-then it will just work or
-you will get an auth failure.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:56.736 --> 00:33:00.076 A:middle
 then it will just work or
@@ -2453,25 +2212,17 @@ about is Single App Mode.
 Single App Mode is a way that an
 MDM server can lock the device
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.106 --> 00:34:05.736 A:middle
-Single App Mode is a way that an
-MDM server can lock the device
-
-00:34:06.236 --> 00:34:08.735 A:middle
+00:34:06.236 --> 00:34:08.736 A:middle
 into just your app.
 
-00:34:08.735 --> 00:34:10.386 A:middle
+00:34:08.736 --> 00:34:10.386 A:middle
 You can send a command down
 
 00:34:11.096 --> 00:34:13.806 A:middle
 and tell the device
 just run this app.
 
-00:34:14.255 --> 00:34:16.096 A:middle
+00:34:14.256 --> 00:34:16.096 A:middle
 If the app crashes,
 it relaunches the app.
 
@@ -2479,14 +2230,14 @@ it relaunches the app.
 If the user presses
 the Home button,
 
-00:34:18.846 --> 00:34:19.775 A:middle
+00:34:18.846 --> 00:34:19.776 A:middle
 this gets stuck in the app.
 
-00:34:20.786 --> 00:34:22.045 A:middle
+00:34:20.786 --> 00:34:22.046 A:middle
 So that's all in
 Single App Mode.
 
-00:34:22.045 --> 00:34:23.946 A:middle
+00:34:22.046 --> 00:34:23.946 A:middle
 We'll show that later
 in a later example.
 
@@ -2497,14 +2248,14 @@ to talk about iBeacon.
 00:34:30.616 --> 00:34:33.216 A:middle
 So iBeacon is awesome.
 
-00:34:33.795 --> 00:34:35.326 A:middle
+00:34:33.796 --> 00:34:35.326 A:middle
 It gives you context.
 
 00:34:35.536 --> 00:34:38.846 A:middle
 It tells your device,
 it tells your app
 
-00:34:38.985 --> 00:34:40.866 A:middle
+00:34:38.986 --> 00:34:40.866 A:middle
 that you're near
 something, right?
 
@@ -2520,7 +2271,7 @@ provide your app with context.
 In this case, for the
 Point of Sale app,
 
-00:34:51.545 --> 00:34:53.996 A:middle
+00:34:51.546 --> 00:34:53.996 A:middle
 we want to provide
 the app the knowledge
 
@@ -2530,14 +2281,6 @@ the barcode scanner near the
 
 00:34:57.466 --> 00:34:58.886 A:middle
 checkout register, right?
-
-00:34:59.086 --> 00:35:00.686 A:middle
-So if you take the
-device elsewhere,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.086 --> 00:35:00.686 A:middle
 So if you take the
@@ -2607,13 +2350,6 @@ And so in my example,
 00:35:58.086 --> 00:35:59.856 A:middle
 what I have is I have
 this app delegate.
-
-00:35:59.856 --> 00:36:01.446 A:middle
-In this app delegate I'm going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.856 --> 00:36:01.446 A:middle
 In this app delegate I'm going
@@ -2697,14 +2433,6 @@ for this region.
 00:36:57.196 --> 00:36:59.646 A:middle
 One of the important
 things that you need
-
-00:36:59.646 --> 00:37:01.846 A:middle
-to make sure you
-implement is this method
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.646 --> 00:37:01.846 A:middle
 to make sure you
@@ -2804,14 +2532,6 @@ close to one of them.
 And I'm going to check the
 proximity and make sure
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.346 --> 00:38:01.546 A:middle
-And I'm going to check the
-proximity and make sure
-
 00:38:01.546 --> 00:38:03.026 A:middle
 that it's not far or unknown.
 
@@ -2905,14 +2625,6 @@ so I have a nice little camera.
 My cashiers can just run through
 the barcodes and do that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:55.766 --> 00:39:00.276 A:middle
-My cashiers can just run through
-the barcodes and do that.
-
 00:39:00.276 --> 00:39:03.436 A:middle
 This view will only show
 up while I'm in the -
@@ -2979,14 +2691,6 @@ talk about Network Reachability.
 00:39:55.146 --> 00:39:57.586 A:middle
 Network Reachability
 is a set of APIs
-
-00:39:57.676 --> 00:40:00.186 A:middle
-that lets you know whether
-a server is reachable
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:57.676 --> 00:40:00.186 A:middle
 that lets you know whether
@@ -3067,14 +2771,6 @@ check the flags, and I'm going
 
 00:40:57.106 --> 00:40:57.406 A:middle
 to check
-
-00:40:57.466 --> 00:41:00.986 A:middle
-that SCNetworkReachabilityFlags
-is reachable.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:57.466 --> 00:41:00.986 A:middle
 that SCNetworkReachabilityFlags
@@ -3162,14 +2858,6 @@ in Objective-C.
 00:41:55.316 --> 00:41:59.096 A:middle
 So all I'm going to have my C
 method reachabilityChanged do
-
-00:41:59.096 --> 00:42:02.356 A:middle
-up here is I'm just going
-to have it call that block
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.096 --> 00:42:02.356 A:middle
 up here is I'm just going
@@ -3266,14 +2954,6 @@ while they're offline, like try
 and edit a document
 that you want to sync
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.086 --> 00:43:01.596 A:middle
-and edit a document
-that you want to sync
-
 00:43:01.596 --> 00:43:02.986 A:middle
 up between multiple users.
 
@@ -3341,14 +3021,6 @@ apps to a very fine grain.
 And finally, network
 reachability allows you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.396 --> 00:44:02.476 A:middle
-And finally, network
-reachability allows you
-
 00:44:02.476 --> 00:44:06.096 A:middle
 to behave intelligently when
 a server is not available.
@@ -3398,14 +3070,6 @@ and they'll submit it.
 00:44:53.246 --> 00:44:56.576 A:middle
 And the students will be
 allowed to use the iPad again.
-
-00:44:57.296 --> 00:45:01.796 A:middle
-So let's start with
-Document Providers.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:57.296 --> 00:45:01.796 A:middle
 So let's start with
@@ -3471,14 +3135,6 @@ Alex and he's going
 00:45:55.056 --> 00:45:59.306 A:middle
 to show you a little
 bit of an example.
-
-00:45:59.356 --> 00:46:01.906 A:middle
-&gt;&gt; So you'll notice that
-I have an application,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:59.356 --> 00:46:01.906 A:middle
 &gt;&gt; So you'll notice that
@@ -3576,14 +3232,6 @@ the test file that they want,
 I'm going to get
 this documentPicker
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.276 --> 00:47:01.536 A:middle
-I'm going to get
-this documentPicker
-
 00:47:01.536 --> 00:47:02.756 A:middle
 WasCancelled callback.
 
@@ -3676,14 +3324,6 @@ in the simulator.
 This view is not
 created by your app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:58.766 --> 00:48:00.596 A:middle
-This view is not
-created by your app.
-
 00:48:00.886 --> 00:48:03.386 A:middle
 And so in this case if I
 wanted to, I could log in.
@@ -3759,10 +3399,6 @@ app, we want the app to be able
 to put itself into
 Single App Mode.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:00.586 --> 00:49:04.096 A:middle
 So this mode of operation
 is called Autonomous Single
@@ -3831,14 +3467,6 @@ I have this requestSingleAppMode
 
 00:49:55.216 --> 00:49:56.296 A:middle
 method that I've created.
-
-00:49:56.556 --> 00:50:00.286 A:middle
-What I'm going to call into
-is UIAccessibilityRequest
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:56.556 --> 00:50:00.286 A:middle
 What I'm going to call into
@@ -3930,14 +3558,6 @@ App Mode - what is it?
 State. So you'll notice here I
 have GuidedAccess StatusChanged.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:59.546 --> 00:51:03.106 A:middle
-State. So you'll notice here I
-have GuidedAccess StatusChanged.
-
 00:51:03.246 --> 00:51:05.346 A:middle
 And I said, you know,
 I am in Single App Mode
@@ -4021,13 +3641,6 @@ Autonomous Single App Mode.
 00:51:59.256 --> 00:52:00.216 A:middle
 Very powerful.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:59.256 --> 00:52:00.216 A:middle
-Very powerful.
-
 00:52:00.916 --> 00:52:01.866 A:middle
 Use it sparingly.
 
@@ -4094,14 +3707,6 @@ You can safely assume
 00:52:53.196 --> 00:52:56.656 A:middle
 that enterprise owned
 devices will be supervised.
-
-00:52:57.016 --> 00:53:00.616 A:middle
-So check out the list of
-features that are available
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:57.016 --> 00:53:00.616 A:middle
 So check out the list of
@@ -4174,14 +3779,6 @@ to call your attention
 to a great new portal that
 we've just put online,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:57.376 --> 00:54:00.006 A:middle
-to a great new portal that
-we've just put online,
-
 00:54:00.206 --> 00:54:02.516 A:middle
 developer.apple.com/enterprise,
 
@@ -4244,4 +3841,3 @@ Thank you very much.
 
 00:54:48.516 --> 00:54:52.500 A:middle
 [ Applause ]
-

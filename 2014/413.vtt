@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.271 --> 00:00:14.271 A:middle
 [ Applause ]
@@ -8,7 +7,8 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 &gt;&gt; Good morning.
 
 00:00:15.926 --> 00:00:17.996 A:middle
-Welcome to Debugging in Xcode 6.
+Welcome to "Debugging
+in Xcode 6."
 
 00:00:18.736 --> 00:00:21.046 A:middle
 So if you had seen our
@@ -34,7 +34,7 @@ to introduce myself, but my name
 has not changed from last year,
 
 00:00:35.376 --> 00:00:38.316 A:middle
-so I'm still Han Ming Ong and
+so I'm still Han Ming Ong, and
 I'm still Debugger UI Engineer.
 
 00:00:39.676 --> 00:00:43.826 A:middle
@@ -54,19 +54,11 @@ with debugging your use
 
 00:00:52.436 --> 00:00:54.776 A:middle
 of Grand Central
-Dispatch which is GCD.
+Dispatch, which is GCD.
 
 00:00:54.816 --> 00:00:58.146 A:middle
 This feature is called
 Queue Debugging.
-
-00:00:59.106 --> 00:01:02.596 A:middle
-Next up, Troy is going to come
-up and show you amazing new way
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.106 --> 00:01:02.596 A:middle
 Next up, Troy is going to come
@@ -80,11 +72,11 @@ your user interface.
 And then Kerry is going
 to talk in detail,
 
-00:01:08.496 --> 00:01:10.606 A:middle
-how to integrate your --
-
-00:01:10.716 --> 00:01:12.546 A:middle
+00:01:08.496 --> 00:01:11.546 A:middle
+how to integrate your -
 the Quick Look Preview
+
+00:01:11.546 --> 00:01:12.546 A:middle
 into your custom class.
 
 00:01:16.546 --> 00:01:18.606 A:middle
@@ -95,13 +87,13 @@ for Queue Debugging
 so that we're all
 on the same page.
 
-00:01:21.196 --> 00:01:23.086 A:middle
-My apologies if this
-is a bit of --
+00:01:21.196 --> 00:01:24.006 A:middle
+My apologies if this is a bit
+of - a little bit too basic
 
-00:01:23.086 --> 00:01:26.476 A:middle
-a bit of it too basic for some
-of you, but it's important
+00:01:24.006 --> 00:01:26.476 A:middle
+for some of you,
+but it's important
 
 00:01:26.476 --> 00:01:27.876 A:middle
 that we get the fundamentals
@@ -144,14 +136,6 @@ as a backtrace.
 So a stack frame is an instance
 of location of your method.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.646 --> 00:02:01.906 A:middle
-So a stack frame is an instance
-of location of your method.
-
 00:02:02.926 --> 00:02:04.066 A:middle
 Now backtraces are important
 
@@ -164,8 +148,8 @@ and the state of
 your application.
 
 00:02:08.726 --> 00:02:14.606 A:middle
-So what happens -- how
-does GCD impact backtraces?
+So what happens - how does
+GCD impact backtraces?
 
 00:02:15.546 --> 00:02:16.976 A:middle
 But first, what is GCD?
@@ -176,7 +160,7 @@ that is introduced five
 
 00:02:21.336 --> 00:02:23.736 A:middle
 or six years ago, in the
-Snow Leopard timeframe.
+Snow Leopard time frame.
 
 00:02:23.736 --> 00:02:27.006 A:middle
 Since then, it has
@@ -216,34 +200,23 @@ when it comes to debugging.
 
 00:02:56.616 --> 00:03:00.046 A:middle
 You enqueue asynchronously
-using the dispatch async API.
+using the dispatch-async API.
 
+00:03:01.056 --> 00:03:06.806 A:middle
+And then what you're telling
+the system, the OS, is,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:56.616 --> 00:03:00.046 A:middle
-You enqueue asynchronously
-using the dispatch async API.
-
-00:03:01.056 --> 00:03:06.586 A:middle
-And then what you're
-telling the system, the OS,
-
-00:03:06.586 --> 00:03:11.136 A:middle
-is at some time later, it
-can be dequeue your block
+00:03:06.856 --> 00:03:11.136 A:middle
+at some time later, it
+can dequeue your block
 
 00:03:11.446 --> 00:03:14.086 A:middle
 and find a worker thread
 to start executing it.
 
-00:03:15.696 --> 00:03:17.246 A:middle
-Imagine that you've
-hit a breakpoint
-
-00:03:18.146 --> 00:03:19.106 A:middle
-in your block right now.
+00:03:15.696 --> 00:03:19.106 A:middle
+Imagine that you've hit a break
+point in your block right now.
 
 00:03:20.776 --> 00:03:23.456 A:middle
 So let's look at a
@@ -291,27 +264,18 @@ search for all the call sites
 of it, put break points there,
 
 00:03:56.156 --> 00:03:57.646 A:middle
-re-launch the application,
+relaunch the application,
 
 00:03:58.106 --> 00:04:00.006 A:middle
 go through all the
 crazy UI gestures
 
+00:04:00.416 --> 00:04:03.376 A:middle
+to make sure I can repeat the
+similar - the same problem
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.106 --> 00:04:00.006 A:middle
-go through all the
-crazy UI gestures
-
-00:04:00.416 --> 00:04:02.336 A:middle
-to make sure I can
-repeat the similar --
-
-00:04:02.336 --> 00:04:05.336 A:middle
-the same problem to
-hit the break point.
+00:04:03.376 --> 00:04:05.336 A:middle
+to hit the break point.
 
 00:04:07.186 --> 00:04:10.946 A:middle
 And heaven forbids if
@@ -321,7 +285,7 @@ those call sites are also
 in another dispatch async
 because that means I have
 
-00:04:13.676 --> 00:04:16.185 A:middle
+00:04:13.676 --> 00:04:16.186 A:middle
 to wash, rinse, and repeat.
 
 00:04:16.896 --> 00:04:20.196 A:middle
@@ -368,16 +332,8 @@ And we agree with you.
 So in the scenario that I
 described above, over here,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:54.456 --> 00:05:00.026 A:middle
-So in the scenario that I
-described above, over here,
-
 00:05:01.226 --> 00:05:03.626 A:middle
-we're going to splice and
+we're going to splice - and
 Xcode 6 is going to splice
 
 00:05:03.626 --> 00:05:06.306 A:middle
@@ -392,8 +348,8 @@ in a more logical
 manner in the UI.
 
 00:05:12.846 --> 00:05:16.466 A:middle
-And if you have one in --
-more than one enqueuing event,
+And if you have one in - more
+than one enqueuing event,
 
 00:05:16.736 --> 00:05:18.316 A:middle
 Xcode is going to
@@ -405,24 +361,24 @@ so that it shows you everything.
 00:05:24.196 --> 00:05:26.006 A:middle
 So how did we do that?
 
-00:05:26.046 --> 00:05:28.226 A:middle
+00:05:26.046 --> 00:05:27.586 A:middle
 Well we worked through
-several layers of the OS,
+several layers
 
-00:05:28.686 --> 00:05:33.136 A:middle
-down to the core OS, we
-shortcuts all the backtraces
+00:05:27.586 --> 00:05:30.466 A:middle
+of the OS, down to the core OS.
 
-00:05:33.366 --> 00:05:36.506 A:middle
-of the enqueuing event, so
-when your application hits a
+00:05:31.036 --> 00:05:34.736 A:middle
+We shortcut all the backtraces
+of the enqueuing event,
 
-00:05:36.506 --> 00:05:38.866 A:middle
-breakpoint, Xcode
-will ask the debugger
+00:05:35.336 --> 00:05:37.156 A:middle
+so when your application
+hits a break point,
 
-00:05:39.496 --> 00:05:40.656 A:middle
-to retrieve the backtrace,
+00:05:37.426 --> 00:05:40.656 A:middle
+Xcode will ask the debugger
+to retrieve the backtrace
 
 00:05:41.516 --> 00:05:44.786 A:middle
 so that we can show
@@ -438,19 +394,11 @@ they have gray icons.
 
 00:05:52.246 --> 00:05:57.536 A:middle
 But, just like the live stack
-frame, you can select it
+frame, you can select it,
 
 00:05:57.536 --> 00:05:59.826 A:middle
 and if Xcode has
 its debug symbols,
-
-00:05:59.826 --> 00:06:04.016 A:middle
-it will show you the source
-code, like in this case.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.826 --> 00:06:04.016 A:middle
 it will show you the source
@@ -499,7 +447,7 @@ because recording the frame
 variables would cause the
 
 00:06:40.826 --> 00:06:45.156 A:middle
-application to blow up the
+application to bloat up in
 memory, possibly causing it
 
 00:06:45.156 --> 00:06:48.286 A:middle
@@ -510,15 +458,7 @@ So that wraps up the first
 part of Queue Debugging.
 
 00:06:52.256 --> 00:06:54.366 A:middle
-Moving onto the second part.
-
-00:06:55.276 --> 00:07:00.106 A:middle
-Xcode by default shows you the
-backtraces in the threads view
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+Moving on to the second part.
 
 00:06:55.276 --> 00:07:00.106 A:middle
 Xcode by default shows you the
@@ -528,8 +468,7 @@ backtraces in the threads view
 in the debug navigator.
 
 00:07:01.886 --> 00:07:03.246 A:middle
-As you can see here,
-Threads 5 --
+As you can see here, Threads 5 -
 
 00:07:03.896 --> 00:07:06.306 A:middle
 Thread 5 is showing
@@ -601,14 +540,6 @@ Queue as an illustration,
 but this happens with
 concurrent queues as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.236 --> 00:08:00.696 A:middle
-but this happens with
-concurrent queues as well.
-
 00:08:01.916 --> 00:08:05.606 A:middle
 The green square is your
 currently Executing Block.
@@ -633,24 +564,24 @@ So in Xcode 6, we're going
 
 00:08:22.126 --> 00:08:26.766 A:middle
 to show you the Pending
-Blocks as well of a queue.
+Blocks, as well, of a queue.
 
 00:08:27.516 --> 00:08:30.926 A:middle
 [ Applause ]
 
-00:08:31.426 --> 00:08:33.645 A:middle
-So in this case, we
-have 9 Pending Blocks.
+00:08:31.426 --> 00:08:33.646 A:middle
+So in this case, we have
+nine Pending Blocks.
 
 00:08:35.196 --> 00:08:38.556 A:middle
 The Pending Blocks are like
-Executing Block in that
+the Executing Block in that
 
 00:08:38.556 --> 00:08:42.326 A:middle
 if you twist it down,
-it will show you the --
+it will show you the -
 
-00:08:42.775 --> 00:08:45.766 A:middle
+00:08:42.776 --> 00:08:45.766 A:middle
 a backtrace which by definition,
 is a recorded backtrace
 
@@ -671,14 +602,6 @@ I submitted to the queue?
 00:08:56.256 --> 00:08:58.036 A:middle
 Am I'm oversaturating
 the queue?"
-
-00:08:59.256 --> 00:09:01.836 A:middle
-And if you have literally
-tens and thousands of blocks -
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.256 --> 00:09:01.836 A:middle
 And if you have literally
@@ -718,8 +641,8 @@ that I'm going to go
 into a demonstration now.
 
 00:09:29.426 --> 00:09:33.406 A:middle
-So, running on the simulator
-is an application called Jogr
+So, running on the simulator is
+an application called "Jogr,"
 
 00:09:33.626 --> 00:09:37.106 A:middle
 which helps you track
@@ -727,7 +650,7 @@ your runs in San Francisco
 
 00:09:37.576 --> 00:09:40.976 A:middle
 and keep fit while you're
-at -- during this WWDC.
+at - during this WWDC.
 
 00:09:41.036 --> 00:09:43.716 A:middle
 Well, I know, developers jogging
@@ -746,14 +669,6 @@ and a map of all
 
 00:09:56.486 --> 00:09:58.826 A:middle
 of the routes that I've done.
-
-00:09:58.826 --> 00:10:01.106 A:middle
-And I've done exactly
-one this year,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.826 --> 00:10:01.106 A:middle
 And I've done exactly
@@ -797,16 +712,16 @@ So things I know to code
 pretty well, I'm just going
 
 00:10:34.656 --> 00:10:37.986 A:middle
-to jump straight into Xcode
-to the class known GraphView.
+to jump straight into Xcode to
+the class known as GraphView.
 
 00:10:39.446 --> 00:10:41.246 A:middle
 GraphView is the class
 that draws the graph.
 
 00:10:42.546 --> 00:10:45.896 A:middle
-And I'm going to jump
-straight awakeFromNib by going
+And I'm going to jump straight
+to awakeFromNib by going
 
 00:10:45.896 --> 00:10:48.186 A:middle
 to the implementation field
@@ -825,14 +740,6 @@ creates my velocity path.
 00:10:56.656 --> 00:10:59.206 A:middle
 And I know that it is doing
 a lot of heavy-duty work,
-
-00:10:59.616 --> 00:11:01.816 A:middle
-so let's jump into
-the definition
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.616 --> 00:11:01.816 A:middle
 so let's jump into
@@ -885,19 +792,16 @@ So let's do that.
 00:11:38.296 --> 00:11:39.466 A:middle
 Going back to awakeFromNib.
 
-00:11:39.466 --> 00:11:42.896 A:middle
-And I'm going to paste --
+00:11:39.466 --> 00:11:44.396 A:middle
+And I'm going to paste -
+pasting a chunk of code,
 
-00:11:43.086 --> 00:11:46.976 A:middle
-pasting a chunk of code which
-I don't have, but it's alright.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:11:45.006 --> 00:11:46.976 A:middle
+which I don't have,
+but it's all right.
 
 00:12:06.046 --> 00:12:09.576 A:middle
-Alright, I'm going to move
+All right, I'm going to move
 the line that creates the path
 
 00:12:09.966 --> 00:12:11.786 A:middle
@@ -926,7 +830,7 @@ Let's rerun by clicking on the
 Run button to see if it works.
 
 00:12:35.056 --> 00:12:40.306 A:middle
-Okay, I'm going to go to the
+OK, I'm going to go to the
 date so that I can select it.
 
 00:12:40.776 --> 00:12:45.016 A:middle
@@ -940,23 +844,15 @@ in very quickly, which it does,
 00:12:53.616 --> 00:12:55.036 A:middle
 but my graph is not drawing.
 
-00:12:55.796 --> 00:12:59.346 A:middle
-So, there are many ways to --
+00:12:55.796 --> 00:13:00.676 A:middle
+So, there are many ways
+to - you can try to figure
 
-00:12:59.346 --> 00:13:02.476 A:middle
-you can try to figure out
-what is the problem but one
+00:13:00.676 --> 00:13:03.996 A:middle
+out what is the problem, but one
+of my favorite ways is to look
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.346 --> 00:13:02.476 A:middle
-you can try to figure out
-what is the problem but one
-
-00:13:02.476 --> 00:13:05.346 A:middle
-of my favorite way is to look
+00:13:03.996 --> 00:13:05.346 A:middle
 at the state of the application.
 
 00:13:05.346 --> 00:13:08.516 A:middle
@@ -978,16 +874,16 @@ for my graph is done
 on the Graph Serial Queue,
 
 00:13:22.506 --> 00:13:24.806 A:middle
-so I found a thread
+so I found a thread,
 which is Thread 22.
 
-00:13:25.456 --> 00:13:32.116 A:middle
-I'm going to twist it
-open and you see --
+00:13:25.456 --> 00:13:33.916 A:middle
+I'm going to twist it open, and
+you see - you may not be able
 
-00:13:32.116 --> 00:13:36.586 A:middle
-you may not be able to see at
-the back, but Frame 2 shows
+00:13:33.916 --> 00:13:36.586 A:middle
+to see at the back,
+but Frame 2 shows
 
 00:13:36.586 --> 00:13:38.546 A:middle
 that I'm trying to
@@ -1008,36 +904,28 @@ for the lock.
 So those of us who have faced
 this situation before have a
 
-00:13:49.686 --> 00:13:52.936 A:middle
+00:13:49.686 --> 00:13:52.386 A:middle
 pretty standard following
-path [inaudible] which is
+path [inaudible],
 
-00:13:52.936 --> 00:13:55.406 A:middle
-to find a thread
-that has the lock.
+00:13:52.606 --> 00:13:55.406 A:middle
+which is to find a
+thread that has the lock.
 
 00:13:56.076 --> 00:13:57.446 A:middle
 So let's do that.
 
 00:13:57.446 --> 00:14:01.116 A:middle
 I'm going to show you a nifty
-way to show all the backtraces
+way to show all the backtraces,
 
+00:14:01.516 --> 00:14:05.376 A:middle
+which is to first
+collapse the process item.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.446 --> 00:14:01.116 A:middle
-I'm going to show you a nifty
-way to show all the backtraces
-
-00:14:01.516 --> 00:14:06.926 A:middle
-which is to first collapse the
-process item and by holding
-
-00:14:06.926 --> 00:14:09.296 A:middle
-down the Option key,
-you can twist it open.
+00:14:05.886 --> 00:14:09.296 A:middle
+And by holding down the Option
+key, you can twist it open.
 
 00:14:09.926 --> 00:14:13.466 A:middle
 So now I'm going to visually
@@ -1088,14 +976,10 @@ So there it is.
 
 00:14:52.086 --> 00:14:57.116 A:middle
 So, it says here, I have one
-running block which is my --
+running block which is my -
 
 00:14:57.236 --> 00:14:59.496 A:middle
 the block waiting for the lock.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.056 --> 00:15:02.896 A:middle
 And I have one Pending Block.
@@ -1117,21 +1001,22 @@ Out pops my Pending Block.
 
 00:15:14.876 --> 00:15:18.516 A:middle
 I'm going to twist it open
-and select the first frame
+and select the first frame,
 
 00:15:18.956 --> 00:15:19.956 A:middle
 which has my source code.
 
-00:15:20.486 --> 00:15:24.716 A:middle
-So plotAccelerationGraph --
+00:15:20.486 --> 00:15:24.906 A:middle
+So plotAccelerationGraph
+- Curve,
 
-00:15:24.716 --> 00:15:27.596 A:middle
-Curve, is a method which I
-enhanced this morning as well,
+00:15:24.906 --> 00:15:27.596 A:middle
+is a method which I enhanced
+this morning as well,
 
 00:15:28.076 --> 00:15:32.286 A:middle
-to use dispatch async so that
-I can work off the main thread.
+to use dispatch async so that I
+can do work off the main thread.
 
 00:15:32.886 --> 00:15:35.816 A:middle
 And it looks like in
@@ -1164,31 +1049,27 @@ move because it has to wait
 for the Execution
 Block to finish.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.326 --> 00:16:05.626 A:middle
 So this is a kind of deadlock,
-albeit in a non-classical way.
+albeit in a nonclassical way.
 
 00:16:06.306 --> 00:16:10.186 A:middle
 So thankfully the
 solution is pretty simple.
 
-00:16:10.346 --> 00:16:12.516 A:middle
-I just have to move the
-line that does the locking,
+00:16:10.346 --> 00:16:14.056 A:middle
+I just have to move the line
+that does the locking closer
 
-00:16:13.516 --> 00:16:18.236 A:middle
-closer to the place, where
-it's protecting its data,
+00:16:14.056 --> 00:16:18.236 A:middle
+to the place, where it's
+protecting its data,
 
 00:16:18.936 --> 00:16:20.106 A:middle
 which is velocity data.
 
 00:16:20.816 --> 00:16:24.876 A:middle
-This insures that it
+This ensures that it
 doesn't try to get a lock
 
 00:16:24.876 --> 00:16:27.666 A:middle
@@ -1202,12 +1083,9 @@ round of simple change,
 00:16:32.946 --> 00:16:33.886 A:middle
 let's see if this works.
 
-00:16:43.046 --> 00:16:43.896 A:middle
-Okay, let's get to the point
-
-00:16:43.896 --> 00:16:45.546 A:middle
-where I can select
-the date again.
+00:16:43.046 --> 00:16:45.546 A:middle
+OK, let's get to the point where
+I can select the date again.
 
 00:16:46.166 --> 00:16:48.916 A:middle
 And voila.
@@ -1227,15 +1105,7 @@ to search for all the places
 where my velocity data lock is
 used and visually look at them
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.026 --> 00:17:03.536 A:middle
-where my velocity data lock is
-used and visually look at them
-
-00:17:03.536 --> 00:17:06.675 A:middle
+00:17:03.536 --> 00:17:06.676 A:middle
 and reason really hard
 about how it's used.
 
@@ -1250,17 +1120,16 @@ to get Queue Debugging
 00:17:11.726 --> 00:17:14.566 A:middle
 in Xcode 6, which has two parts.
 
-00:17:15.195 --> 00:17:16.986 A:middle
-Recorded backtrace is
-going to get you --
+00:17:15.196 --> 00:17:18.326 A:middle
+Recorded backtrace is going to
+get you - show you backtrace
 
-00:17:17.256 --> 00:17:20.346 A:middle
-show you backtrace of
-the enqueuing event
+00:17:18.386 --> 00:17:21.716 A:middle
+of the enqueuing event when
+you're using dispatch async
 
-00:17:20.346 --> 00:17:24.476 A:middle
-when you're using dispatch
-async and Pending Blocks, by --
+00:17:22.416 --> 00:17:24.476 A:middle
+and Pending Blocks, by -
 
 00:17:24.846 --> 00:17:27.016 A:middle
 hopefully by surfacing
@@ -1282,7 +1151,7 @@ to talk about view debugging.
 
 00:17:42.626 --> 00:17:46.566 A:middle
 And thank you for coming to
-our Debugging in Xcode 6.
+our "Debugging in Xcode 6."
 
 00:17:47.116 --> 00:17:49.876 A:middle
 As you may know, Xcode
@@ -1299,14 +1168,6 @@ through the debugger.
 00:17:55.296 --> 00:17:57.566 A:middle
 Han Ming just showed
 us two new features
-
-00:17:57.696 --> 00:18:00.746 A:middle
-through the Pending Blocks
-and recorded stack traces
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.696 --> 00:18:00.746 A:middle
 through the Pending Blocks
@@ -1356,7 +1217,7 @@ am I talking about?
 
 00:18:28.816 --> 00:18:31.226 A:middle
 These are the bugs where you
-have a mis-positioned view
+have a mispositioned view
 
 00:18:31.226 --> 00:18:32.626 A:middle
 or clipping is wrong.
@@ -1396,17 +1257,13 @@ application like this,
 and I would like to add
 a new button down here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.646 --> 00:19:04.476 A:middle
 And I don't know, maybe
 it's a new code base to me,
 
 00:19:04.476 --> 00:19:06.106 A:middle
 maybe it's been awhile
-since I've read this,
+since I've read this;
 
 00:19:06.106 --> 00:19:08.426 A:middle
 I don't know what this
@@ -1484,15 +1341,7 @@ window of Xcode.
 
 00:19:57.016 --> 00:20:01.436 A:middle
 But it's not just imported as
-a static image, it's imported
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:57.016 --> 00:20:01.436 A:middle
-But it's not just imported as
-a static image, it's imported
+a static image; it's imported
 
 00:20:01.436 --> 00:20:05.546 A:middle
 as separate pieces so that
@@ -1539,14 +1388,14 @@ Option Selector.
 
 00:20:36.746 --> 00:20:40.916 A:middle
 If you select the View option
-in there, now there's threads,
+in there - now there's threads,
 
 00:20:40.916 --> 00:20:44.396 A:middle
-queues, and views, down below
+queues, and views - down below
 we have, your view hierarchy
 
 00:20:44.746 --> 00:20:52.106 A:middle
-in the application
+in the application,
 which is right here.
 
 00:20:52.276 --> 00:20:53.816 A:middle
@@ -1558,19 +1407,11 @@ to help you tame that list.
 
 00:20:56.286 --> 00:20:58.056 A:middle
 We have the Show
-Only Primary Views
+Only Primary Views,
 
 00:20:58.056 --> 00:20:59.736 A:middle
 and we have a Show
 Only Displayed Views.
-
-00:20:59.736 --> 00:21:02.626 A:middle
-Let me stop on this second one,
-because this one's important.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.736 --> 00:21:02.626 A:middle
 Let me stop on this second one,
@@ -1596,7 +1437,7 @@ It could show it to you.
 
 00:21:15.286 --> 00:21:19.266 A:middle
 So, you can simply turn off this
-option and Xcode will show all
+option, and Xcode will show all
 
 00:21:19.266 --> 00:21:21.016 A:middle
 of your views, even the
@@ -1621,7 +1462,7 @@ looking for.
 Now let's turn our attention
 
 00:21:34.366 --> 00:21:37.026 A:middle
-over to the right hand
+over to the right-hand
 side of the Xcode window.
 
 00:21:37.316 --> 00:21:38.966 A:middle
@@ -1633,7 +1474,7 @@ familiar with this
 
 00:21:40.366 --> 00:21:41.816 A:middle
 if you've ever used
-an interface builder,
+an Interface Builder,
 
 00:21:41.816 --> 00:21:42.936 A:middle
 because these are very similar.
@@ -1654,28 +1495,19 @@ And not only that, this is
 a specific UIImageView
 
 00:21:55.016 --> 00:21:58.336 A:middle
-because we're selecting --
+because we're selecting -
 we're clicking on one that's
 
 00:21:58.506 --> 00:22:00.906 A:middle
 in our application, so we
 actually have the address
 
+00:22:00.906 --> 00:22:04.466 A:middle
+of that object as well, which is
+Resident in Memory, on your Mac
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.506 --> 00:22:00.906 A:middle
-in our application, so we
-actually have the address
-
-00:22:00.906 --> 00:22:03.676 A:middle
-of that object as well,
-which is Resident in Memory,
-
-00:22:03.906 --> 00:22:05.756 A:middle
-on your Mac of on
-your iOS device.
+00:22:04.466 --> 00:22:05.756 A:middle
+or on your iOS device.
 
 00:22:07.026 --> 00:22:10.606 A:middle
 We have the thumbnail and all
@@ -1683,11 +1515,11 @@ the other interesting attributes
 
 00:22:10.876 --> 00:22:14.036 A:middle
 about that view listed
-in this Inspector.
+in this inspector.
 
 00:22:14.686 --> 00:22:16.136 A:middle
 Finally, we have
-the Size Inspector.
+the Size inspector.
 
 00:22:16.136 --> 00:22:17.356 A:middle
 This is going to
@@ -1710,7 +1542,7 @@ Down at the bottom,
 you see two constraints
 
 00:22:29.176 --> 00:22:30.346 A:middle
-which are deemphasized.
+which are de-emphasized.
 
 00:22:30.346 --> 00:22:33.216 A:middle
 These are not affecting the
@@ -1718,7 +1550,7 @@ layout of your view currently,
 
 00:22:33.456 --> 00:22:34.656 A:middle
 but they're still
-attached to the view
+attached to the view,
 
 00:22:34.656 --> 00:22:36.216 A:middle
 and they still have meaning.
@@ -1739,7 +1571,7 @@ this implicitly to this view
 to represent the content size.
 
 00:22:49.536 --> 00:22:51.696 A:middle
-They're deemphasized because
+They're de-emphasized because
 up above, they're redundant
 
 00:22:51.696 --> 00:22:54.146 A:middle
@@ -1754,10 +1586,6 @@ those also have a width of 320,
 in this case, but they
 might not always match.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.406 --> 00:23:01.776 A:middle
 So this is a great
 place to check
@@ -1770,18 +1598,18 @@ having constraint issues,
 as we're going to see
 in a demo which I'd
 
-00:23:06.406 --> 00:23:10.006 A:middle
+00:23:06.406 --> 00:23:08.356 A:middle
 like to show you right now.
 
-00:23:10.266 --> 00:23:12.116 A:middle
-Alright, here we
+00:23:09.936 --> 00:23:12.116 A:middle
+All right, here we
 have the application
 
 00:23:12.256 --> 00:23:13.256 A:middle
 that Han Ming started with.
 
 00:23:14.376 --> 00:23:16.916 A:middle
-And if you have super,
+And if you have super
 eagle eyes, or maybe not,
 
 00:23:17.096 --> 00:23:20.346 A:middle
@@ -1805,7 +1633,7 @@ What's happening now is Xcode's
 going through all of the views
 
 00:23:36.556 --> 00:23:39.876 A:middle
-in the application, and pulling
+in the application and pulling
 them back into the Xcode window.
 
 00:23:40.556 --> 00:23:43.176 A:middle
@@ -1834,15 +1662,7 @@ to be contained.
 
 00:23:56.906 --> 00:24:01.466 A:middle
 That's a pretty interesting fact
-to help diagnose the problem
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:56.906 --> 00:24:01.466 A:middle
-That's a pretty interesting fact
-to help diagnose the problem
+to help diagnose the problem,
 
 00:24:01.466 --> 00:24:04.936 A:middle
 but it doesn't help us solve
@@ -1852,7 +1672,7 @@ the problem, so we're going
 to have to dig deeper.
 
 00:24:09.196 --> 00:24:12.486 A:middle
-To explode the View Hierarchy
+To explode the view hierarchy
 of you application, all you need
 
 00:24:12.486 --> 00:24:14.936 A:middle
@@ -1867,31 +1687,31 @@ parent-child relationships
 between some of these views.
 
 00:24:21.556 --> 00:24:25.856 A:middle
-I have open on the right
-hand side, the Assist Editor
+I have open on the right-hand
+side, the Assist Editor,
 
 00:24:25.856 --> 00:24:27.006 A:middle
-which is in Automatic Mode.
+which is in Automatic mode.
 
 00:24:27.626 --> 00:24:33.416 A:middle
 This allows Xcode to track the
 file that I click over here
 
 00:24:33.416 --> 00:24:35.186 A:middle
-in the view debugger,
+in the view debugger
 
 00:24:35.606 --> 00:24:37.936 A:middle
 with a source code file
 that matches with it.
 
-00:24:38.246 --> 00:24:40.406 A:middle
+00:24:38.246 --> 00:24:41.836 A:middle
 So if I click here, I
 get the source code file
 
-00:24:40.406 --> 00:24:43.276 A:middle
+00:24:42.406 --> 00:24:43.786 A:middle
 for UIImageView.
 
-00:24:43.276 --> 00:24:48.776 A:middle
+00:24:44.996 --> 00:24:48.776 A:middle
 I'm going to traverse backwards
 up through the hierarchy,
 
@@ -1903,7 +1723,7 @@ that has been written
 for this class.
 
 00:24:53.026 --> 00:24:55.316 A:middle
-The parent of this 
+The parent of this
 UIImageView is a UIView,
 
 00:24:55.486 --> 00:24:57.486 A:middle
@@ -1912,15 +1732,7 @@ View of that cell.
 
 00:24:57.976 --> 00:25:01.986 A:middle
 And the one behind that is the
-Run-Details Collection View Cell
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.976 --> 00:25:01.986 A:middle
-And the one behind that is the
-Run-Details Collection View Cell
+Run-DetailsCollectionViewCell,
 
 00:25:01.986 --> 00:25:03.926 A:middle
 which is custom code
@@ -1928,11 +1740,11 @@ in my application.
 
 00:25:04.516 --> 00:25:09.876 A:middle
 I'm also going to open up
-the Inspector here and check
+the inspector here and check
 
 00:25:09.876 --> 00:25:12.086 A:middle
 out some of the positions
-of these views as --
+of these views as -
 
 00:25:12.086 --> 00:25:14.676 A:middle
 because it looks like there's
@@ -1950,12 +1762,14 @@ going to click here and see
 that the position is 160 45.
 
 00:25:26.406 --> 00:25:32.546 A:middle
-Its child is 45 45, because
+Its child is 45 45 because
 the position is relative
 
-00:25:32.546 --> 00:25:36.486 A:middle
-to its parent, but where
-is this final view?
+00:25:32.546 --> 00:25:33.316 A:middle
+to its parent.
+
+00:25:34.446 --> 00:25:36.486 A:middle
+But where is this final view?
 
 00:25:37.246 --> 00:25:38.556 A:middle
 I'm going to go over
@@ -1989,21 +1803,13 @@ based on the parent.
 So what I'm actually looking
 at is this view over here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:57.016 --> 00:26:00.236 A:middle
-So what I'm actually looking
-at is this view over here.
-
 00:26:00.236 --> 00:26:01.316 A:middle
 I thought that was
 a working one,
 
 00:26:01.666 --> 00:26:06.816 A:middle
 but the view has been shifted
-off of the cell and it's --
+off of the cell and it's -
 
 00:26:06.946 --> 00:26:07.966 A:middle
 that's the reason it's missing.
@@ -2017,7 +1823,7 @@ at the implementation
 of that class.
 
 00:26:17.016 --> 00:26:19.926 A:middle
-I'm going to Command Click on
+I'm going to Command-click on
 the class name here to dive
 
 00:26:19.926 --> 00:26:20.816 A:middle
@@ -2033,42 +1839,34 @@ overrides the initWithFrame,
 
 00:26:29.296 --> 00:26:33.046 A:middle
 it creates a new UIImageView,
-and then it adds it as the --
+and then it adds it as the -
 
 00:26:33.046 --> 00:26:36.596 A:middle
-a sub view of the Content
-View right down here.
+a subview of the
+contentView right down here.
 
 00:26:37.436 --> 00:26:40.416 A:middle
 Thinking about the
-information we found earlier.
+information we found earlier,
 
 00:26:41.056 --> 00:26:43.746 A:middle
-We know that there's a
-position issue and I can see
+we know that there's a
+position issue, and I can see
 
 00:26:43.746 --> 00:26:48.136 A:middle
 that we're passing the frameRect
-of the cell to this sub view.
+of the cell to this subview.
 
 00:26:48.946 --> 00:26:49.686 A:middle
 That's not what I want.
 
 00:26:49.686 --> 00:26:53.186 A:middle
-I want the sub view to have
+I want the subview to have
 the same bounds as the cell.
 
 00:26:53.306 --> 00:26:58.776 A:middle
 So instead of frameRect, I'm
 going to type self.bounds.
-
-00:26:59.246 --> 00:27:00.576 A:middle
-This should be enough
-to fix our problem,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.246 --> 00:27:00.576 A:middle
 This should be enough
@@ -2082,7 +1880,7 @@ Switch over to the simulator.
 
 00:27:07.176 --> 00:27:12.506 A:middle
 And dive back into
-our Run Details View.
+our Run Details view.
 
 00:27:14.006 --> 00:27:18.186 A:middle
 Sure enough, we have the fully
@@ -2109,8 +1907,8 @@ but this is a serious
 running app.
 
 00:27:33.156 --> 00:27:36.146 A:middle
-This is an app for those
-of us that go every morning
+This is an app for those of
+us that go every morning,
 
 00:27:36.146 --> 00:27:38.566 A:middle
 and we don't call this
@@ -2139,26 +1937,18 @@ Looks great.
 
 00:27:59.716 --> 00:28:02.436 A:middle
 I'm going then turn back
-to two dimensional mode.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.716 --> 00:28:02.436 A:middle
-I'm going then turn back
-to two dimensional mode.
+to two-dimensional mode.
 
 00:28:02.436 --> 00:28:05.046 A:middle
 This button down here allows
 us to reset the view hierarchy,
 
-00:28:05.576 --> 00:28:07.376 A:middle
+00:28:05.576 --> 00:28:07.346 A:middle
 and I'm going to
 click on this label.
 
-00:28:07.926 --> 00:28:13.596 A:middle
-Alright, I know that I'm using
+00:28:07.346 --> 00:28:13.596 A:middle
+All right, I know that I'm using
 Auto Layout in this application,
 
 00:28:13.596 --> 00:28:16.276 A:middle
@@ -2179,7 +1969,7 @@ constraints, and it also dims
 
 00:28:26.006 --> 00:28:28.656 A:middle
 out the views that are not
-currently related to those --
+currently related to those -
 
 00:28:28.656 --> 00:28:30.606 A:middle
 to that view or its constraints.
@@ -2210,14 +2000,6 @@ the content size is 109.5.
 00:28:54.966 --> 00:28:57.796 A:middle
 So clearly, somebody added
 an explicit constraint
-
-00:28:57.796 --> 00:29:01.936 A:middle
-in Interface Builder and that's
-clipping the implicit size
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.796 --> 00:29:01.936 A:middle
 in Interface Builder and that's
@@ -2263,10 +2045,10 @@ string of that label.
 
 00:29:36.696 --> 00:29:40.306 A:middle
 So we've seen that the View
-Debugger, is a fantastic way
+Debugger is a fantastic way
 
 00:29:40.646 --> 00:29:44.226 A:middle
-to look -- take a look
+to look - take a look
 at your application.
 
 00:29:44.226 --> 00:29:45.466 A:middle
@@ -2284,11 +2066,12 @@ the View Debugger button
 00:29:51.556 --> 00:29:52.356 A:middle
 on your application.
 
-00:29:52.356 --> 00:29:55.676 A:middle
-I think you'll find it
-illuminating and the integration
+00:29:52.356 --> 00:29:53.816 A:middle
+I think you'll find
+it illuminating,
 
-00:29:55.676 --> 00:29:57.016 A:middle
+00:29:54.046 --> 00:29:57.016 A:middle
+and the integration
 with Xcode is fantastic.
 
 00:29:57.606 --> 00:29:59.156 A:middle
@@ -2299,16 +2082,8 @@ it over to Kerry,
 who's going to teach
 you a little bit more
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.416 --> 00:30:01.046 A:middle
-who's going to teach
-you a little bit more
-
 00:30:01.046 --> 00:30:02.326 A:middle
-about Quick Look Previews.
+about Quick Look previews.
 
 00:30:03.516 --> 00:30:06.566 A:middle
 [ Applause ]
@@ -2358,7 +2133,7 @@ So simply by clicking
 on the Quick Look icon
 
 00:30:44.006 --> 00:30:46.486 A:middle
-in the Debug Bar, you
+in the Debug bar, you
 can get this popover
 
 00:30:46.486 --> 00:30:47.676 A:middle
@@ -2380,14 +2155,6 @@ from there, just by clicking
 on the Quick Look icon in
 the popover that appears.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:57.326 --> 00:31:02.306 A:middle
-on the Quick Look icon in
-the popover that appears.
-
 00:31:02.546 --> 00:31:07.196 A:middle
 Now, Xcode 5 debuted with
 default support for a number
@@ -2400,16 +2167,17 @@ object types like images
 and Bezier paths and even
 things like map locations.
 
-00:31:16.646 --> 00:31:19.326 A:middle
-Well, we've gotten a lot of
-great feedback from this feature
+00:31:16.646 --> 00:31:18.546 A:middle
+Well, we've gotten a
+lot of great feedback
 
-00:31:19.326 --> 00:31:22.426 A:middle
-and I know that it's been
-very useful to a number
+00:31:18.546 --> 00:31:21.416 A:middle
+from this feature, and I know
+that it's been very useful
 
-00:31:22.426 --> 00:31:23.896 A:middle
-of developers including myself.
+00:31:21.416 --> 00:31:23.896 A:middle
+to a number of developers,
+including myself.
 
 00:31:24.486 --> 00:31:29.826 A:middle
 So to build on the success,
@@ -2431,11 +2199,11 @@ of that, simply by clicking
 
 00:31:44.446 --> 00:31:48.976 A:middle
 in the Variables view and
-clicking on the Quick Look icon
+clicking on the Quick Look icon,
 
 00:31:48.976 --> 00:31:51.386 A:middle
-or my favorite is
-just hit the Space Bar
+or my favorite, is
+just hit the Space bar,
 
 00:31:51.456 --> 00:31:53.976 A:middle
 and it will bring
@@ -2444,14 +2212,6 @@ up a nice preview.
 00:31:54.166 --> 00:31:57.436 A:middle
 And considering how common
 views are in most applications,
-
-00:31:58.066 --> 00:32:00.196 A:middle
-I think this will be a
-very powerful feature.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.066 --> 00:32:00.196 A:middle
 I think this will be a
@@ -2472,13 +2232,13 @@ your own custom class.
 So now for the first
 time, if you have a class
 
-00:32:16.256 --> 00:32:19.976 A:middle
+00:32:16.256 --> 00:32:22.266 A:middle
 that does some custom drawing
-and perhaps returns a --
+and perhaps returns a - an image
 
-00:32:19.976 --> 00:32:24.356 A:middle
-an image or a Bezier path
-or something like that,
+00:32:22.266 --> 00:32:24.356 A:middle
+or a Bezier path or
+something like that,
 
 00:32:25.246 --> 00:32:28.026 A:middle
 you can now get a
@@ -2522,14 +2282,6 @@ debugQuickLookObject.
 Now in this class, you can
 either call your drawing code
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:57.756 --> 00:33:00.246 A:middle
-Now in this class, you can
-either call your drawing code
-
 00:33:00.246 --> 00:33:03.566 A:middle
 or implement it in there,
 but the important point is,
@@ -2546,8 +2298,8 @@ So one of the default supported
 types should be returned
 
 00:33:12.376 --> 00:33:15.196 A:middle
-from this method and then
-you'll be good to go.
+from this method, and
+then you'll be good to go.
 
 00:33:15.236 --> 00:33:19.186 A:middle
 And I would like to
@@ -2555,7 +2307,7 @@ show you that now.
 
 00:33:20.416 --> 00:33:22.516 A:middle
 So here we have the
-Jogr application
+"Jogr" application
 
 00:33:22.516 --> 00:33:24.726 A:middle
 that we've been seeing
@@ -2567,24 +2319,24 @@ the Routes button,
 
 00:33:27.696 --> 00:33:30.196 A:middle
 and we'll see Han Ming's
-run from this morning,
+run from this morning -
 
 00:33:30.836 --> 00:33:33.886 A:middle
 if that's indeed the case.
 
 00:33:35.576 --> 00:33:38.986 A:middle
-Okay, so this class has a --
+OK, so this class has a -
 
 00:33:38.986 --> 00:33:42.456 A:middle
 an object class called
-RoutePathOverlay
+RoutePathOverlay,
 
 00:33:42.936 --> 00:33:47.826 A:middle
 which accesses the run data
 to generate this Bezier path
 
 00:33:47.826 --> 00:33:49.896 A:middle
-that they gets overlaid
+that then gets overlaid
 onto the map.
 
 00:33:50.956 --> 00:33:53.206 A:middle
@@ -2593,7 +2345,7 @@ a little further.
 
 00:33:53.206 --> 00:33:57.086 A:middle
 Well I'm going to click on the
-map and I'm going to hit this --
+map, and I'm going to hit this -
 
 00:33:57.216 --> 00:33:58.896 A:middle
 whoa, scrolls really fast.
@@ -2602,42 +2354,34 @@ whoa, scrolls really fast.
 I'm going to hit
 this break point.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.176 --> 00:34:00.596 A:middle
-I'm going to hit
-this break point.
-
 00:34:01.066 --> 00:34:03.496 A:middle
 And let's say I'm trying
-to debug some issue here,
+to debug some issue here.
 
 00:34:04.466 --> 00:34:07.226 A:middle
-now down in the Variables View,
+Now down in the Variables view,
 we can see we've got a number
 
 00:34:07.226 --> 00:34:09.376 A:middle
 of local variables
 like this point.
 
-00:34:09.916 --> 00:34:12.835 A:middle
+00:34:09.916 --> 00:34:12.836 A:middle
 And if I click on
 the Quick Look icon,
 
-00:34:12.835 --> 00:34:14.806 A:middle
+00:34:12.836 --> 00:34:14.806 A:middle
 I can see a preview
 of the point.
 
 00:34:15.096 --> 00:34:16.746 A:middle
 This is our route path overlay.
 
-00:34:17.436 --> 00:34:20.005 A:middle
+00:34:17.436 --> 00:34:20.006 A:middle
 And if I click on that, so I'm
-going to hit the Space Bar,
+going to hit the Space bar,
 
-00:34:20.005 --> 00:34:22.556 A:middle
+00:34:20.006 --> 00:34:22.556 A:middle
 and what it just comes up
 with is just some generic
 
@@ -2645,7 +2389,7 @@ with is just some generic
 information, but we can
 do better than that.
 
-00:34:26.315 --> 00:34:27.795 A:middle
+00:34:26.316 --> 00:34:27.796 A:middle
 So I'm going to stop here.
 
 00:34:28.446 --> 00:34:32.186 A:middle
@@ -2655,38 +2399,31 @@ our RoutePathOverlay.
 00:34:32.786 --> 00:34:35.396 A:middle
 And I've got the method
 
-00:34:35.396 --> 00:34:37.835 A:middle
+00:34:35.396 --> 00:34:37.836 A:middle
 that I was talking about:
 debugQuickLookObject.
 
-00:34:38.025 --> 00:34:42.766 A:middle
+00:34:38.026 --> 00:34:42.766 A:middle
 And it's a sort of a long
 title but try and remember.
 
-00:34:43.545 --> 00:34:47.096 A:middle
-Okay, and if I uncomment
-that, what this method does,
+00:34:43.546 --> 00:34:45.206 A:middle
+OK, and if I uncomment that.
 
-00:34:47.246 --> 00:34:48.806 A:middle
+00:34:45.576 --> 00:34:48.216 A:middle
+What this method does,
 it's not really important
+
+00:34:48.216 --> 00:34:49.306 A:middle
 because it's going
+to be different
 
-00:34:48.806 --> 00:34:51.596 A:middle
-to be different for
-every custom class,
+00:34:49.306 --> 00:34:54.116 A:middle
+for every custom class, but
+what it does is it accesses each
 
-00:34:51.676 --> 00:34:58.076 A:middle
-but what it does is it accesses
-each of the 364 some odd points
-
-00:34:58.206 --> 00:35:00.776 A:middle
-of map location for that run.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:34:58.206 --> 00:35:00.776 A:middle
+00:34:54.116 --> 00:35:00.776 A:middle
+of the 364 some odd points
 of map location for that run.
 
 00:35:01.366 --> 00:35:05.776 A:middle
@@ -2730,20 +2467,11 @@ until the ambulance picked up
 Han Ming when he collapsed.
 
 00:35:49.366 --> 00:35:52.486 A:middle
-Okay. So, what have
-we seen today?
+OK. So, what have we seen today?
 
 00:35:52.756 --> 00:35:56.316 A:middle
 We've seen Han Ming show
 us how we can very easily
-
-00:35:56.316 --> 00:36:00.716 A:middle
-and more effectively
-debug queues and blocks
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:56.316 --> 00:36:00.716 A:middle
 and more effectively
@@ -2815,10 +2543,5 @@ so be sure to check them out.
 00:36:57.636 --> 00:36:59.346 A:middle
 Thank you very much.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:00.516 --> 00:37:06.770 A:middle
 [ Applause ]
-

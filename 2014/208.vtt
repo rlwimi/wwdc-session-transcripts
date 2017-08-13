@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:13.236 --> 00:00:14.526 A:middle
 &gt;&gt; My name is Olivier Bonnet.
@@ -49,14 +48,6 @@ with what is CloudKit.
 00:00:55.566 --> 00:00:58.996 A:middle
 We're going to walk you through
 the couple of steps you need
-
-00:00:58.996 --> 00:01:01.466 A:middle
-to enable CloudKit in your
-application and start using it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.996 --> 00:01:01.466 A:middle
 to enable CloudKit in your
@@ -126,13 +117,6 @@ framework, cloudkit.framework.
 00:01:59.436 --> 00:02:01.326 A:middle
 Check it out in SDK.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.436 --> 00:02:01.326 A:middle
-Check it out in SDK.
-
 00:02:02.596 --> 00:02:05.826 A:middle
 CloudKit uses the iCloud
 accounts infrastructure.
@@ -186,14 +170,6 @@ from the iCloud servers.
 00:02:55.926 --> 00:02:59.546 A:middle
 Importantly CloudKit is
 a transport technology.
-
-00:02:59.776 --> 00:03:02.356 A:middle
-It doesn't provide
-any local persistence.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.776 --> 00:03:02.356 A:middle
 It doesn't provide
@@ -278,14 +254,6 @@ we're going to start talking
 about the fundamental
 CloudKit objects.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.446 --> 00:04:01.746 A:middle
-about the fundamental
-CloudKit objects.
-
 00:04:01.796 --> 00:04:03.206 A:middle
 These are going to
 be the set of objects
@@ -314,11 +282,11 @@ records, we're going to talk
 about record zones
 and RecordIDentifiers,
 
-00:04:20.196 --> 00:04:21.555 A:middle
+00:04:20.196 --> 00:04:21.556 A:middle
 we're going to talk
 about references
 
-00:04:21.555 --> 00:04:23.126 A:middle
+00:04:21.556 --> 00:04:23.126 A:middle
 and we're going to
 talk about assets.
 
@@ -372,14 +340,6 @@ process is going to be siloed,
 
 00:04:56.486 --> 00:04:57.926 A:middle
 sandboxed in some ways.
-
-00:04:58.616 --> 00:05:02.206 A:middle
-In some cases, it's
-a literal sandbox.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.616 --> 00:05:02.206 A:middle
 In some cases, it's
@@ -478,14 +438,6 @@ ability to segregate data.
 That means that your application
 can read and write data
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.866 --> 00:06:01.306 A:middle
-That means that your application
-can read and write data
-
 00:06:01.306 --> 00:06:03.856 A:middle
 to iCloud, another application
 can read and write data
@@ -566,13 +518,6 @@ for your container make sure
 00:06:58.046 --> 00:06:59.366 A:middle
 that you're using
 it in a reverse,
-
-00:06:59.406 --> 00:07:01.706 A:middle
-you're using a reverse DNS name.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.406 --> 00:07:01.706 A:middle
 you're using a reverse DNS name.
@@ -664,14 +609,6 @@ not treated equally.
 One of the first things that we
 notice was there's a fundamental
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.536 --> 00:08:01.116 A:middle
-One of the first things that we
-notice was there's a fundamental
-
 00:08:01.116 --> 00:08:03.796 A:middle
 difference in the
 audience of data.
@@ -710,21 +647,21 @@ on a restaurant.
 Or it could be information that
 you the developer has uploaded
 
-00:08:29.916 --> 00:08:32.265 A:middle
+00:08:29.916 --> 00:08:32.266 A:middle
 to iCloud because it's
 useful to your application.
 
-00:08:33.025 --> 00:08:35.736 A:middle
+00:08:33.026 --> 00:08:35.736 A:middle
 In either case, the audience
 is not just a single user
 
 00:08:35.736 --> 00:08:36.686 A:middle
 but a community of people.
 
-00:08:37.395 --> 00:08:38.895 A:middle
+00:08:37.396 --> 00:08:38.896 A:middle
 So how did we solve the fact
 
-00:08:38.895 --> 00:08:40.756 A:middle
+00:08:38.896 --> 00:08:40.756 A:middle
 that we've got these
 different types of data.
 
@@ -759,14 +696,6 @@ and you're going to find
 00:08:57.366 --> 00:08:59.076 A:middle
 that there's an individual
 private database
-
-00:08:59.076 --> 00:09:00.716 A:middle
-for each user of
-your application.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.076 --> 00:09:00.716 A:middle
 for each user of
@@ -874,14 +803,6 @@ between these 2 databases.
 As we mentioned, the
 desired audience is going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.396 --> 00:10:01.166 A:middle
-As we mentioned, the
-desired audience is going
-
 00:10:01.166 --> 00:10:02.906 A:middle
 to be different between
 the public database
@@ -965,13 +886,6 @@ those limits.
 00:10:56.086 --> 00:10:59.086 A:middle
 Data stored in the public
 database is accounted
-
-00:10:59.086 --> 00:11:00.196 A:middle
-for on the developer's quota.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.086 --> 00:11:00.196 A:middle
 for on the developer's quota.
@@ -1070,14 +984,6 @@ no need to edit them.
 The user is the only
 one to create data
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.236 --> 00:12:00.036 A:middle
-The user is the only
-one to create data
-
 00:12:00.036 --> 00:12:01.966 A:middle
 and the user is the only one
 to be able to read that data.
@@ -1164,14 +1070,6 @@ move it into CloudKit,
 00:12:55.816 --> 00:12:57.126 A:middle
 then let's continue
 with that analogy.
-
-00:12:57.586 --> 00:13:00.416 A:middle
-An instance of an object in
-your application is equivalent
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.586 --> 00:13:00.416 A:middle
 An instance of an object in
@@ -1268,14 +1166,6 @@ value types
 that you can put
 into a CKRecord?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.596 --> 00:14:01.046 A:middle
-that you can put
-into a CKRecord?
-
 00:14:01.736 --> 00:14:04.646 A:middle
 Well, we've got your usual
 suspects, your P list types,
@@ -1351,14 +1241,6 @@ enumerate all keys on a record
 00:14:55.336 --> 00:14:57.926 A:middle
 so that you can dump the
 entire key value pair.
-
-00:14:57.926 --> 00:15:00.886 A:middle
-Let's have a look at
-a specific example.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:57.926 --> 00:15:00.886 A:middle
 Let's have a look at
@@ -1454,14 +1336,6 @@ Similarly we want a way
 to express this grouping
 in CloudKit.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.516 --> 00:16:00.576 A:middle
-to express this grouping
-in CloudKit.
-
 00:16:00.756 --> 00:16:03.926 A:middle
 Fundamentally we're trying
 via CloudKit to take as much
@@ -1550,15 +1424,7 @@ created by the client.
 You get to specify the ID,
 the record name of the record,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.306 --> 00:17:01.246 A:middle
-You get to specify the ID,
-the record name of the record,
-
-00:17:02.456 --> 00:17:04.695 A:middle
+00:17:02.456 --> 00:17:04.696 A:middle
 but because we are
 coupling this record name,
 
@@ -1569,18 +1435,18 @@ zone, along with a reference
 00:17:08.656 --> 00:17:09.996 A:middle
 to the owning record zone,
 
-00:17:10.455 --> 00:17:13.236 A:middle
+00:17:10.456 --> 00:17:13.236 A:middle
 they become a fully normalized
 representation of the record.
 
 00:17:13.326 --> 00:17:15.256 A:middle
 It's the full path to it.
 
-00:17:15.256 --> 00:17:19.695 A:middle
+00:17:15.256 --> 00:17:19.696 A:middle
 We think that it's going to be
 fairly common for you to try
 
-00:17:19.695 --> 00:17:22.246 A:middle
+00:17:19.696 --> 00:17:22.246 A:middle
 and bridge an external
 dataset into CloudKit.
 
@@ -1638,14 +1504,6 @@ to give it a zone.
 00:17:57.186 --> 00:17:59.946 A:middle
 Throughout CloudKit's
 API if you choose not
-
-00:17:59.946 --> 00:18:01.556 A:middle
-to give us a record zone,
-we're going to assume
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.946 --> 00:18:01.556 A:middle
 to give us a record zone,
@@ -1739,10 +1597,6 @@ to its parent object.
 00:18:56.816 --> 00:18:58.846 A:middle
 We call that a back reference.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.316 --> 00:19:03.816 A:middle
 References are exposing API
 as the CKReference class.
@@ -1831,14 +1685,6 @@ called data modeling
 and if you come back
 on Thursday we're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.066 --> 00:20:00.606 A:middle
-and if you come back
-on Thursday we're going
-
 00:20:00.606 --> 00:20:02.526 A:middle
 to tell you a whole bunch about
 data modeling in CloudKit.
@@ -1917,14 +1763,6 @@ that we're going
 00:20:57.036 --> 00:20:59.496 A:middle
 to have a get together after
 the presentation and I'm going
-
-00:20:59.496 --> 00:21:01.316 A:middle
-to read you a screen play
-that I've been working on.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.496 --> 00:21:01.316 A:middle
 to read you a screen play
@@ -2029,14 +1867,6 @@ of it as a CKRecord
 and other bits of
 it as a CKAsset.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.296 --> 00:22:01.146 A:middle
-and other bits of
-it as a CKAsset.
-
 00:22:01.436 --> 00:22:04.296 A:middle
 A CKAsset is the representation
 of this bag of bits.
@@ -2124,14 +1954,6 @@ efficiently as possible.
 This is all sort of inside
 of CloudKit but we're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.676 --> 00:23:01.316 A:middle
-This is all sort of inside
-of CloudKit but we're going
-
 00:23:01.316 --> 00:23:03.926 A:middle
 to send only the bits
 that the minimal amount
@@ -2208,14 +2030,6 @@ for using CloudKit.
 00:23:54.416 --> 00:23:56.986 A:middle
 We call them the operational
 API and the convenience API.
-
-00:23:57.786 --> 00:24:00.086 A:middle
-The operational API
-has every single bell
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.786 --> 00:24:00.086 A:middle
 The operational API
@@ -2306,14 +2120,6 @@ well familiar with this.
 00:24:57.566 --> 00:24:59.196 A:middle
 When I want to save the
 record, I have to choose
-
-00:24:59.196 --> 00:25:02.176 A:middle
-which database I
-want to save it into.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.196 --> 00:25:02.176 A:middle
 which database I
@@ -2413,10 +2219,6 @@ this a synchronous call.
 00:25:57.256 --> 00:25:59.006 A:middle
 So here we've got an
 asynchronous call.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.366 --> 00:26:02.206 A:middle
 Now the third thing
@@ -2523,14 +2325,6 @@ really nice error handling.
 [Laughter] So let's talk about
 now that we've saved a record
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.876 --> 00:27:02.486 A:middle
-[Laughter] So let's talk about
-now that we've saved a record
-
 00:27:02.486 --> 00:27:04.146 A:middle
 up to the server, how do
 we fetch a record back
@@ -2613,14 +2407,6 @@ my CKRecord instance and just
 00:27:57.476 --> 00:27:59.776 A:middle
 like one that I've created
 locally I can turn around
-
-00:27:59.776 --> 00:28:02.506 A:middle
-and save it back up
-to the database again
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.776 --> 00:28:02.506 A:middle
 and save it back up
@@ -2718,14 +2504,6 @@ big data and a very tiny phone.
 The more popular my app
 becomes the more data
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.626 --> 00:29:00.776 A:middle
-The more popular my app
-becomes the more data
-
 00:29:00.776 --> 00:29:03.876 A:middle
 on the database the less
 reasonable it is to have a cache
@@ -2809,14 +2587,6 @@ type, a predicate
 00:29:55.096 --> 00:29:56.796 A:middle
 and optionally a
 sort descriptor.
-
-00:29:57.986 --> 00:30:00.126 A:middle
-If you've used NS
-predicate in the past,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.986 --> 00:30:00.126 A:middle
 If you've used NS
@@ -2906,14 +2676,6 @@ and it's going to come
 00:30:55.376 --> 00:30:57.906 A:middle
 up with two different
 tokens, after and session.
-
-00:30:58.726 --> 00:31:00.466 A:middle
-This predicate will
-match any record
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.726 --> 00:31:00.466 A:middle
 This predicate will
@@ -3010,14 +2772,6 @@ public database.
 Let's have a look
 at what happens
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.946 --> 00:32:01.156 A:middle
-Let's have a look
-at what happens
-
 00:32:01.226 --> 00:32:02.796 A:middle
 in the completion handler.
 
@@ -3100,13 +2854,6 @@ mostly static dataset
 00:32:55.866 --> 00:32:58.606 A:middle
 and queries are bad for that
 use case for a few reasons.
-
-00:32:59.336 --> 00:33:00.506 A:middle
-They're bad for battery life.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.336 --> 00:33:00.506 A:middle
 They're bad for battery life.
@@ -3199,14 +2946,6 @@ Yay.
 So subscriptions are
 exposed in our API
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.486 --> 00:34:01.436 A:middle
-So subscriptions are
-exposed in our API
-
 00:34:01.436 --> 00:34:03.516 A:middle
 as the CKSubscription class.
 
@@ -3234,14 +2973,14 @@ specific information
 about what caused
 the push to happen.
 
-00:34:20.576 --> 00:34:21.985 A:middle
+00:34:20.576 --> 00:34:21.986 A:middle
 Let's have a look at an example.
 
 00:34:23.726 --> 00:34:26.516 A:middle
 Here we have a phone and that
 phone is interested in parties
 
-00:34:26.516 --> 00:34:27.985 A:middle
+00:34:26.516 --> 00:34:27.986 A:middle
 that are going to be
 happening in the future.
 
@@ -3249,54 +2988,46 @@ happening in the future.
 This phone when it sees that
 happening wants to be alerted
 
-00:34:31.866 --> 00:34:33.335 A:middle
+00:34:31.866 --> 00:34:33.336 A:middle
 with a push that
 says party time.
 
-00:34:34.005 --> 00:34:36.426 A:middle
+00:34:34.006 --> 00:34:36.426 A:middle
 The phone is going to go ahead
 and save that up to iCloud
 
-00:34:36.516 --> 00:34:39.235 A:middle
+00:34:36.516 --> 00:34:39.236 A:middle
 and iCloud is going to,
 you know, shuffle it away
 
-00:34:39.235 --> 00:34:40.505 A:middle
+00:34:39.236 --> 00:34:40.506 A:middle
 with all the other
 subscriptions.
 
 00:34:41.436 --> 00:34:42.576 A:middle
 Now along comes the Mac.
 
-00:34:42.886 --> 00:34:44.275 A:middle
+00:34:42.886 --> 00:34:44.276 A:middle
 The Mac creates a new record.
 
-00:34:44.505 --> 00:34:46.706 A:middle
+00:34:44.506 --> 00:34:46.706 A:middle
 It's a record-type party
 and it's happening tonight
 
-00:34:47.266 --> 00:34:50.295 A:middle
+00:34:47.266 --> 00:34:50.296 A:middle
 and because the Mac didn't chose
 to give us a RecordID we created
 
-00:34:50.295 --> 00:34:52.306 A:middle
+00:34:50.296 --> 00:34:52.306 A:middle
 that random UUID you see.
 
-00:34:52.746 --> 00:34:55.795 A:middle
+00:34:52.746 --> 00:34:55.796 A:middle
 The Mac goes ahead and
 saves that to ICloud.
 
-00:34:55.795 --> 00:34:58.756 A:middle
+00:34:55.796 --> 00:34:58.756 A:middle
 ICloud is then going
 to loop through all
-
-00:34:58.756 --> 00:35:00.376 A:middle
-of the subscriptions
-that it knows about.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.756 --> 00:35:00.376 A:middle
 of the subscriptions
@@ -3390,14 +3121,6 @@ in my localized strings file.
 I can associate that
 notification info
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.846 --> 00:36:02.186 A:middle
-I can associate that
-notification info
-
 00:36:02.186 --> 00:36:04.846 A:middle
 with a subscription and now
 I've created everything I need
@@ -3486,14 +3209,6 @@ pull off APS level information
 from it and you can also pull
 off CloudKit level information
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.326 --> 00:37:02.126 A:middle
-from it and you can also pull
-off CloudKit level information
-
 00:37:02.126 --> 00:37:02.966 A:middle
 from it.
 
@@ -3573,14 +3288,6 @@ about that, that's implicit.
 00:37:55.976 --> 00:37:57.626 A:middle
 Let's talk about
 the explicit things.
-
-00:37:58.286 --> 00:38:00.556 A:middle
-What do we give you
-because we're built
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:58.286 --> 00:38:00.556 A:middle
 What do we give you
@@ -3674,14 +3381,6 @@ we can correlate users.
 For example, here we
 see that the user,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.636 --> 00:39:01.776 A:middle
-For example, here we
-see that the user,
-
 00:39:01.776 --> 00:39:04.116 A:middle
 whose email address is
 c at iCloud dot com,
@@ -3759,14 +3458,6 @@ and do with it what you will.
 00:39:55.276 --> 00:39:58.796 A:middle
 Note that different applications
 running on your phone
-
-00:39:58.796 --> 00:40:03.426 A:middle
-because they're talking to
-different containers are going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:58.796 --> 00:40:03.426 A:middle
 because they're talking to
@@ -3854,13 +3545,6 @@ Let's have a look at the code.
 00:40:57.516 --> 00:41:00.806 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:57.516 --> 00:41:00.806 A:middle
-[ Applause ]
-
 00:41:01.306 --> 00:41:02.746 A:middle
 All right let's have
 a look at the code.
@@ -3943,10 +3627,6 @@ there is one user record
 
 00:41:58.696 --> 00:41:59.886 A:middle
 in the private database
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:00.296 --> 00:42:02.656 A:middle
 that user record
@@ -4034,13 +3714,6 @@ that created
 00:42:59.996 --> 00:43:01.166 A:middle
 that record in the first place.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.996 --> 00:43:01.166 A:middle
-that record in the first place.
-
 00:43:02.116 --> 00:43:04.526 A:middle
 Secondly, we think that it
 doesn't make sense for you
@@ -4117,14 +3790,6 @@ like I would any other CKRecord.
 00:43:53.616 --> 00:43:57.206 A:middle
 I can pull records, excuse me,
 I can pull key value pairs off
-
-00:43:57.206 --> 00:44:00.376 A:middle
-of it, I can set key value
-pairs on it, and if I wanted to,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:57.206 --> 00:44:00.376 A:middle
 of it, I can set key value
@@ -4211,14 +3876,6 @@ Here's our image.
 00:44:57.706 --> 00:44:59.556 A:middle
 We've got our client
 talking to a container
-
-00:44:59.556 --> 00:45:01.436 A:middle
-and the container
-is backed by iCloud
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:59.556 --> 00:45:01.436 A:middle
 and the container
@@ -4312,10 +3969,6 @@ in an email address,
 we can do the same
 sort of dance.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:00.166 --> 00:46:02.716 A:middle
 This email address is sent from
 your client over to CloudKit
@@ -4400,14 +4053,6 @@ is then going to pull
 
 00:46:56.796 --> 00:46:57.996 A:middle
 in the user's address book.
-
-00:46:57.996 --> 00:47:00.386 A:middle
-We're going to take all
-the emailed addresses
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:57.996 --> 00:47:00.386 A:middle
 We're going to take all
@@ -4502,14 +4147,6 @@ for user discovery.
 You can start off with a user
 RecordID, an email address
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:58.656 --> 00:48:01.506 A:middle
-You can start off with a user
-RecordID, an email address
-
 00:48:01.586 --> 00:48:04.076 A:middle
 or request to view the
 entire address book.
@@ -4584,13 +4221,6 @@ the four tent poles
 00:48:59.046 --> 00:49:01.286 A:middle
 of how we do user accounts.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.046 --> 00:49:01.286 A:middle
-of how we do user accounts.
-
 00:49:01.286 --> 00:49:05.196 A:middle
 We give you a stable identifier,
 we give you the ability to store
@@ -4654,14 +4284,6 @@ and they're appropriate to use.
 00:49:54.916 --> 00:49:57.036 A:middle
 So, first, iCloud
 Key Value Store.
-
-00:49:57.036 --> 00:50:03.126 A:middle
-iCloud Key Value Store keeps
-small piles of data up to date
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:57.036 --> 00:50:03.126 A:middle
 iCloud Key Value Store keeps
@@ -4739,14 +4361,6 @@ takes care of uploading
 and downloading those changes
 up and from the iCloud servers.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:58.636 --> 00:51:05.176 A:middle
-and downloading those changes
-up and from the iCloud servers.
-
 00:51:06.156 --> 00:51:09.776 A:middle
 We think it's great for document
 centric apps or apps that need
@@ -4806,13 +4420,6 @@ give access to all the users
 00:51:57.476 --> 00:52:00.046 A:middle
 of your app to large datasets,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:57.476 --> 00:52:00.046 A:middle
-of your app to large datasets,
-
 00:52:00.046 --> 00:52:05.536 A:middle
 CloudKit public databases are
 pretty good compiling tool.
@@ -4861,14 +4468,6 @@ enables you to do that.
 
 00:52:56.746 --> 00:52:58.486 A:middle
 Last but not least compared
-
-00:52:58.486 --> 00:53:03.246 A:middle
-to the other three technologies
-we think CloudKit is closer
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:58.486 --> 00:53:03.246 A:middle
 to the other three technologies
@@ -4935,14 +4534,6 @@ on it in a big way.
 Both iCloud Drive and iCloud
 file Library were built
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:57.146 --> 00:54:00.916 A:middle
-Both iCloud Drive and iCloud
-file Library were built
-
 00:54:00.916 --> 00:54:02.656 A:middle
 from scratch on top of CloudKit.
 
@@ -4987,4 +4578,3 @@ your attention.
 
 00:54:33.508 --> 00:54:35.508 A:middle
 [ Applause ]
-

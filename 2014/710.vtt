@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.356 --> 00:00:13.036 A:middle
 &gt;&gt; Good morning.
@@ -27,7 +26,7 @@ of coffee, your iDevices
 and Macs have a full
 charge from overnight.
 
-00:00:29.476 --> 00:00:32.735 A:middle
+00:00:29.476 --> 00:00:32.736 A:middle
 But unfortunately, as we all
 know, as the day wears on,
 
@@ -71,14 +70,6 @@ something we all hate.
 00:00:57.416 --> 00:00:59.546 A:middle
 So, hopefully, that in
 itself is motivation to try
-
-00:00:59.546 --> 00:01:01.866 A:middle
-to help improve the energy
-efficiency of your application.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.546 --> 00:01:01.866 A:middle
 to help improve the energy
@@ -171,14 +162,6 @@ of what it is we're discussing.
 And then, we'll go
 through some specific ways
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.176 --> 00:02:00.466 A:middle
-And then, we'll go
-through some specific ways
-
 00:02:00.466 --> 00:02:01.996 A:middle
 that you can improve
 your energy use.
@@ -191,7 +174,7 @@ of doing something never,
 progress to doing
 it at a better time,
 
-00:02:08.545 --> 00:02:10.096 A:middle
+00:02:08.546 --> 00:02:10.096 A:middle
 discuss how to do
 it more efficiently,
 
@@ -266,14 +249,6 @@ write to a storage device,
 00:02:56.496 --> 00:02:58.376 A:middle
 you're going to incur
 more energy consumption.
-
-00:02:59.456 --> 00:03:01.636 A:middle
-Networking, especially
-on iOS devices
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.456 --> 00:03:01.636 A:middle
 Networking, especially
@@ -372,14 +347,6 @@ a device is very, very low.
 We then have these portions
 where the system is active.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.546 --> 00:04:01.116 A:middle
-We then have these portions
-where the system is active.
-
 00:04:01.116 --> 00:04:02.956 A:middle
 Your code might have been
 running, doing something,
@@ -410,11 +377,11 @@ down to our lowest idle power.
 We need some time to
 achieve that state
 
-00:04:17.546 --> 00:04:18.805 A:middle
+00:04:17.546 --> 00:04:18.806 A:middle
 and you can see at
 the end, we do.
 
-00:04:19.315 --> 00:04:20.546 A:middle
+00:04:19.316 --> 00:04:20.546 A:middle
 But if you have sporadic work,
 
 00:04:20.546 --> 00:04:22.436 A:middle
@@ -479,14 +446,6 @@ we're consuming
 00:04:55.166 --> 00:04:58.156 A:middle
 to get a very small
 actual amount of work done.
-
-00:04:59.096 --> 00:05:02.566 A:middle
-So, any time you can help
-avoid small sporadic work units
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.096 --> 00:05:02.566 A:middle
 So, any time you can help
@@ -581,14 +540,6 @@ trade power for energy.
 00:05:55.866 --> 00:05:58.466 A:middle
 So, let's imagine we have
 a single-threaded workload.
-
-00:05:59.006 --> 00:06:01.856 A:middle
-The actual dynamic cost of
-that work is just this top part
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.006 --> 00:06:01.856 A:middle
 The actual dynamic cost of
@@ -689,14 +640,6 @@ avoid doing it.
 That's certainly going to have
 better energy consumption.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.556 --> 00:07:00.086 A:middle
-That's certainly going to have
-better energy consumption.
-
 00:07:00.176 --> 00:07:01.966 A:middle
 So, let's imagine we
 have an application
@@ -790,14 +733,6 @@ use the pair of these
 to pause any animations,
 UI updating timers
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.996 --> 00:08:02.946 A:middle
-to pause any animations,
-UI updating timers
-
 00:08:02.946 --> 00:08:06.096 A:middle
 that might be firing and make
 sure your app gets as quiesced
@@ -844,11 +779,11 @@ have something called
 00:08:35.476 --> 00:08:36.676 A:middle
 Occlusion Notifications.
 
-00:08:36.676 --> 00:08:39.275 A:middle
+00:08:36.676 --> 00:08:39.276 A:middle
 So, this is a new feature
 that was new in OS X Mavericks
 
-00:08:39.515 --> 00:08:41.746 A:middle
+00:08:39.516 --> 00:08:41.746 A:middle
 and it lets you determine
 the visibility
 
@@ -879,14 +814,6 @@ becomes visible
 
 00:08:57.296 --> 00:08:58.506 A:middle
 or becomes fully occluded.
-
-00:08:58.966 --> 00:09:04.316 A:middle
-And with the use of these and
-the applicationDidBecomeActive
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.966 --> 00:09:04.316 A:middle
 And with the use of these and
@@ -984,14 +911,6 @@ piece of work is necessary.
 And so, ultimately,
 in a well-behaved app,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.576 --> 00:10:00.966 A:middle
-And so, ultimately,
-in a well-behaved app,
-
 00:10:00.966 --> 00:10:02.706 A:middle
 App Nap should never
 have an effect.
@@ -1077,10 +996,6 @@ experience over a long period
 00:10:57.686 --> 00:10:59.526 A:middle
 of time is with respect
 to their battery life.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.576 --> 00:11:03.966 A:middle
 So, if we imagine here,
@@ -1188,14 +1103,6 @@ window to schedule in
 and then let the system
 automatically move
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.326 --> 00:12:02.386 A:middle
-and then let the system
-automatically move
-
 00:12:02.386 --> 00:12:04.706 A:middle
 that work out to a better time.
 
@@ -1275,10 +1182,6 @@ are right.
 00:12:56.896 --> 00:12:58.756 A:middle
 So, let's take a look
 at how to use this API.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.146 --> 00:13:01.516 A:middle
 The first thing you'll
@@ -1369,14 +1272,6 @@ we can specify an interval
 00:13:55.996 --> 00:13:58.726 A:middle
 of 30 minutes and a
 tolerance of 15 minutes.
-
-00:13:59.246 --> 00:14:01.196 A:middle
-And what this means is
-that we want this work
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.246 --> 00:14:01.196 A:middle
 And what this means is
@@ -1475,13 +1370,6 @@ handler
 00:14:58.656 --> 00:15:00.046 A:middle
 with NSBackgroundActivity
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.656 --> 00:15:00.046 A:middle
-with NSBackgroundActivity
-
 00:15:00.046 --> 00:15:02.406 A:middle
 ResultFinished to
 indicate that to the system
@@ -1570,14 +1458,6 @@ time to perform that work.
 We have support for
 repeating tasks without drift,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.976 --> 00:16:01.696 A:middle
-We have support for
-repeating tasks without drift,
-
 00:16:02.086 --> 00:16:05.736 A:middle
 and it's available in OS
 X Yosemite, or if you want
@@ -1657,14 +1537,6 @@ with NSURLSession.
 But the really cool thing is
 if your app happens to go away,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.366 --> 00:17:00.086 A:middle
-But the really cool thing is
-if your app happens to go away,
-
 00:17:00.556 --> 00:17:03.506 A:middle
 let's say the user quits it,
 maybe the system reboots,
@@ -1673,7 +1545,7 @@ maybe the system reboots,
 those tasks will stick around
 in that out-of-process session
 
-00:17:07.665 --> 00:17:10.445 A:middle
+00:17:07.666 --> 00:17:10.446 A:middle
 and get processed while
 your app isn't running.
 
@@ -1692,15 +1564,15 @@ for that download to continue.
 Then, when your app
 gets relaunched,
 
-00:17:20.136 --> 00:17:23.195 A:middle
+00:17:20.136 --> 00:17:23.196 A:middle
 you'll use the same
 backgroundSession
 
-00:17:23.195 --> 00:17:26.346 A:middle
+00:17:23.196 --> 00:17:26.346 A:middle
 ConfigurationWithIdentifier
 call and make sure you pass
 
-00:17:26.346 --> 00:17:27.925 A:middle
+00:17:26.346 --> 00:17:27.926 A:middle
 in the same identifier
 as before,
 
@@ -1746,14 +1618,6 @@ So, there's a configuration
 00:17:55.586 --> 00:17:57.856 A:middle
 on the NSURLSession
 configuration object.
-
-00:17:58.226 --> 00:18:00.186 A:middle
-You can set the discretionary
-property to TRUE.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.226 --> 00:18:00.186 A:middle
 You can set the discretionary
@@ -1843,14 +1707,6 @@ we schedule discretionary tasks
 00:18:56.636 --> 00:18:58.756 A:middle
 by changing the
 timeoutIntervalForResource
-
-00:18:58.756 --> 00:19:00.496 A:middle
-property on the configuration
-object.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.756 --> 00:19:00.496 A:middle
 property on the configuration
@@ -1946,14 +1802,6 @@ work more efficiently.
 00:19:55.316 --> 00:19:58.036 A:middle
 So, our system has a variety of
 resource management properties.
-
-00:19:58.426 --> 00:20:00.726 A:middle
-Some of these affect the
-responsiveness of the system
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.426 --> 00:20:00.726 A:middle
 Some of these affect the
@@ -2055,14 +1903,6 @@ that's touch events or meeting
 or some other kind
 of event processing
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.386 --> 00:21:02.176 A:middle
-or some other kind
-of event processing
-
 00:21:02.176 --> 00:21:04.516 A:middle
 where we need very,
 very short latencies.
@@ -2145,10 +1985,6 @@ this work actively involved
 
 00:21:58.396 --> 00:21:59.156 A:middle
 in updating the UI?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.106 --> 00:22:02.796 A:middle
 If this doesn't happen, will
@@ -2249,14 +2085,6 @@ aware of the progress of.
 And for Background work,
 you want to ask yourself,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.006 --> 00:23:00.706 A:middle
-And for Background work,
-you want to ask yourself,
-
 00:23:00.996 --> 00:23:03.896 A:middle
 Can this work be
 deferred to a better time?
@@ -2349,14 +2177,6 @@ have a Background Quality
 of Service operation running,
 and it's using a lot of CPU
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.986 --> 00:24:03.226 A:middle
-of Service operation running,
-and it's using a lot of CPU
-
 00:24:03.226 --> 00:24:05.386 A:middle
 and has a lot of I/O going on.
 
@@ -2431,13 +2251,6 @@ User Interactive work
 00:24:56.176 --> 00:24:58.286 A:middle
 and improve your overall
 energy efficiency.
-
-00:24:59.496 --> 00:25:00.356 A:middle
-All right.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.496 --> 00:25:00.356 A:middle
 All right.
@@ -2545,14 +2358,6 @@ to view the photo full size.
 Their next interaction, which
 might be looking at the photos,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.736 --> 00:26:02.126 A:middle
-Their next interaction, which
-might be looking at the photos,
-
 00:26:02.126 --> 00:26:04.196 A:middle
 scrolling through it,
 depends on the ability
@@ -2640,14 +2445,6 @@ we want to generate.
 And we might create another
 queue for image conversion
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.246 --> 00:27:00.456 A:middle
-And we might create another
-queue for image conversion
-
 00:27:00.906 --> 00:27:03.066 A:middle
 and an operation for each
 image we want to convert.
@@ -2725,14 +2522,6 @@ of Service set later
 00:27:56.466 --> 00:27:58.016 A:middle
 on that operation
 or on the queue.
-
-00:27:58.626 --> 00:28:03.386 A:middle
-So, if we go back to
-our application example,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.626 --> 00:28:03.386 A:middle
 So, if we go back to
@@ -2821,13 +2610,6 @@ Also, to User Initiated.
 00:28:56.256 --> 00:28:58.796 A:middle
 So, that operation gets to the
 front of the queue and runs
-
-00:28:58.796 --> 00:29:00.546 A:middle
-at an appropriate time.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.796 --> 00:29:00.546 A:middle
 at an appropriate time.
@@ -2924,10 +2706,6 @@ So, quiz time.
 00:29:59.496 --> 00:29:59.976 A:middle
 This is your turn.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.326 --> 00:30:02.096 A:middle
 We have another example
 app and I'm going to walk
@@ -3013,14 +2791,6 @@ in this stream of news.
 What Quality of Service
 might that run at?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.906 --> 00:31:02.046 A:middle
-What Quality of Service
-might that run at?
-
 00:31:04.696 --> 00:31:06.556 A:middle
 So, we're going to want
 to run that at Background.
@@ -3096,14 +2866,6 @@ happens automatically.
 
 00:31:56.486 --> 00:31:57.906 A:middle
 Let's say we have a timer,
-
-00:31:58.146 --> 00:32:00.906 A:middle
-hopefully using
-NSBackgroundActivityScheduler
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.146 --> 00:32:00.906 A:middle
 hopefully using
@@ -3202,14 +2964,6 @@ a particular piece
 of code is executing with
 if what you find using one
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.726 --> 00:33:02.446 A:middle
-of code is executing with
-if what you find using one
-
 00:33:02.446 --> 00:33:03.746 A:middle
 of these other methods
 is unexpected.
@@ -3299,14 +3053,6 @@ today, that won't appear here.
 So, let's say you've
 gone through,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.016 --> 00:34:00.386 A:middle
-So, let's say you've
-gone through,
-
 00:34:00.516 --> 00:34:03.846 A:middle
 validated your initial adoption,
 and now you want to know, OK,
@@ -3330,11 +3076,11 @@ spending time.
 So, in this case,
 we'll run powermetrics
 
-00:34:17.065 --> 00:34:18.436 A:middle
+00:34:17.066 --> 00:34:18.436 A:middle
 and we'll get a list
 of running tasks
 
-00:34:18.436 --> 00:34:20.085 A:middle
+00:34:18.436 --> 00:34:20.086 A:middle
 and we can see MyApplication
 is here.
 
@@ -3345,22 +3091,22 @@ milliseconds per second
 00:34:23.536 --> 00:34:26.446 A:middle
 on the CPU, or about 8 percent.
 
-00:34:26.446 --> 00:34:29.985 A:middle
+00:34:26.446 --> 00:34:29.986 A:middle
 I can see some information
 about timers, which we'll talk
 
-00:34:29.985 --> 00:34:30.846 A:middle
+00:34:29.986 --> 00:34:30.846 A:middle
 about later in the talk.
 
 00:34:31.286 --> 00:34:34.106 A:middle
 But then, what's important to
 us here is I get a breakdown
 
-00:34:34.106 --> 00:34:36.085 A:middle
+00:34:34.106 --> 00:34:36.086 A:middle
 of what Quality of Service
 Classes I was using.
 
-00:34:36.226 --> 00:34:39.755 A:middle
+00:34:36.226 --> 00:34:39.756 A:middle
 So, I can see that I'm spending
 88 milliseconds at Utility,
 
@@ -3371,7 +3117,7 @@ my time is there.
 00:34:41.686 --> 00:34:42.626 A:middle
 And if that's what I wanted,
 
-00:34:42.626 --> 00:34:44.775 A:middle
+00:34:42.626 --> 00:34:44.776 A:middle
 then I've done a good job
 adopting Quality of Service.
 
@@ -3393,20 +3139,13 @@ executing with respect
 00:34:54.596 --> 00:34:55.636 A:middle
 to Quality of Service.
 
-00:34:56.295 --> 00:34:57.526 A:middle
+00:34:56.296 --> 00:34:57.526 A:middle
 So, if you're not
 familiar with spindump,
 
 00:34:57.526 --> 00:34:59.466 A:middle
 it's kind of like
 sample or time profile.
-
-00:34:59.466 --> 00:35:01.186 A:middle
-It's a sampling-based profiler.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.466 --> 00:35:01.186 A:middle
 It's a sampling-based profiler.
@@ -3489,14 +3228,6 @@ kind of immediately walking
 00:35:56.146 --> 00:35:58.656 A:middle
 out of the session, should be
 to try to classify long running
-
-00:35:58.656 --> 00:36:01.186 A:middle
-or resource intensive
-parts of your application.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.656 --> 00:36:01.186 A:middle
 or resource intensive
@@ -3589,14 +3320,6 @@ in each of these areas.
 But before we talk
 about a specific topic,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.966 --> 00:37:01.036 A:middle
-But before we talk
-about a specific topic,
-
 00:37:01.036 --> 00:37:03.446 A:middle
 how do you just generally
 monitor your energy consumption?
@@ -3666,14 +3389,6 @@ will cause two times the amount
 00:37:54.726 --> 00:37:56.476 A:middle
 of power draw compared
 to an idle CPU.
-
-00:37:57.076 --> 00:38:00.786 A:middle
-And finally, if I have
-100 percent CPU use,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:57.076 --> 00:38:00.786 A:middle
 And finally, if I have
@@ -3764,10 +3479,6 @@ the performance
 of particular parts
 of your application.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.066 --> 00:39:03.596 A:middle
 I mentioned before performance
 and energy go hand in hand.
@@ -3839,10 +3550,6 @@ hogging routines.
 00:39:54.846 --> 00:39:57.756 A:middle
 And use performance unit
 tests to prevent regressions.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.066 --> 00:40:02.636 A:middle
 Now, reducing the amount
@@ -3923,10 +3630,6 @@ application is waking due
 
 00:40:58.656 --> 00:40:59.546 A:middle
 to a timer firing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.606 --> 00:41:02.236 A:middle
 If you find this is
@@ -4015,14 +3718,6 @@ keep the system
 
 00:41:57.276 --> 00:41:58.536 A:middle
 in an idle state for longer.
-
-00:41:59.456 --> 00:42:02.226 A:middle
-And we will try to do this
-as best we can but we have
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.456 --> 00:42:02.226 A:middle
 And we will try to do this
@@ -4120,14 +3815,6 @@ if you find more wakeups
 than you expect, and make sure
 you specify a timer tolerance
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:58.876 --> 00:43:01.866 A:middle
-than you expect, and make sure
-you specify a timer tolerance
-
 00:43:02.446 --> 00:43:03.456 A:middle
 whenever you create a timer.
 
@@ -4212,14 +3899,6 @@ updates as much as possible.
 00:43:56.676 --> 00:43:58.976 A:middle
 This includes avoiding updating
 the screen when we don't need
-
-00:43:58.976 --> 00:44:02.776 A:middle
-to because unnecessary drawing
-can kick the graphics hardware
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:58.976 --> 00:44:02.776 A:middle
 to because unnecessary drawing
@@ -4315,14 +3994,6 @@ a flash only when we expect
 that button to be updated
 and that the region flashed,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.086 --> 00:45:02.016 A:middle
-that button to be updated
-and that the region flashed,
-
 00:45:02.016 --> 00:45:03.316 A:middle
 which is indicated in yellow,
 
@@ -4409,14 +4080,6 @@ elements.
 Because if something
 underneath that effect changes,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:58.406 --> 00:46:01.556 A:middle
-Because if something
-underneath that effect changes,
-
 00:46:01.806 --> 00:46:03.956 A:middle
 you have to update
 the, and redo the work
@@ -4498,14 +4161,6 @@ do writing in aggregate
 00:46:55.586 --> 00:46:57.796 A:middle
 to help amortize some
 of those fixed costs.
-
-00:46:58.886 --> 00:47:02.086 A:middle
-Also, remember that any I/O you
-do can pull the storage device
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:58.886 --> 00:47:02.086 A:middle
 Also, remember that any I/O you
@@ -4600,14 +4255,6 @@ system schedule work using the
 NSBackgroundActivityScheduler or
 NSURLSessionBackground Session.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.936 --> 00:48:04.166 A:middle
-NSBackgroundActivityScheduler or
-NSURLSessionBackground Session.
-
 00:48:04.776 --> 00:48:08.526 A:middle
 Do It More Efficiently, specify
 Quality of Service Classes
@@ -4692,14 +4339,6 @@ unit tests.
 Fix Bugs Faster Using Activity
 Tracking is a great way
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:58.656 --> 00:49:01.596 A:middle
-Fix Bugs Faster Using Activity
-Tracking is a great way
-
 00:49:01.596 --> 00:49:03.616 A:middle
 to help understand the
 asynchronous work your
@@ -4728,4 +4367,3 @@ Thank you.
 
 00:49:16.516 --> 00:49:23.880 A:middle
 [ Applause ]
-

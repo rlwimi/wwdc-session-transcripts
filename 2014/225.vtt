@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:13.896 A:middle
 [ Silence ]
@@ -73,10 +72,6 @@ about what I'm sure is
 00:00:57.416 --> 00:00:58.966 A:middle
 on all your minds, Swift.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:02.396 --> 00:01:06.136 A:middle
 Batch updates, what are
 they, why do you care?
@@ -138,14 +133,6 @@ edit them, and save them,
 00:01:54.866 --> 00:01:59.746 A:middle
 and there was a problem
 here, which will kind of look
-
-00:01:59.746 --> 00:02:02.206 A:middle
-like this, which is on a
-memory-constrained device,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.746 --> 00:02:02.206 A:middle
 like this, which is on a
@@ -216,14 +203,6 @@ for NSFetchRequest
 
 00:02:56.416 --> 00:02:58.136 A:middle
 and NSSaveChangesRequest.
-
-00:02:58.136 --> 00:03:02.836 A:middle
-It's now the new parent class
-for NSBatchUpdateRequest
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.136 --> 00:03:02.836 A:middle
 It's now the new parent class
@@ -314,14 +293,6 @@ This is a dictionary.
 It specifies the
 property as a key
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.636 --> 00:04:00.526 A:middle
-It specifies the
-property as a key
-
 00:04:00.526 --> 00:04:02.106 A:middle
 that will be either
 the property name
@@ -349,11 +320,11 @@ that's supported as part
 of PropertiesToFetch
 is supported here.
 
-00:04:19.276 --> 00:04:21.745 A:middle
+00:04:19.276 --> 00:04:21.746 A:middle
 Pretty much anything that's
 either a valid left-hand side
 
-00:04:21.745 --> 00:04:23.886 A:middle
+00:04:21.746 --> 00:04:23.886 A:middle
 or a right-hand side in a
 fetch predicate is going
 
@@ -398,14 +369,6 @@ in finding out whether
 00:04:55.136 --> 00:04:58.506 A:middle
 or not anything changed in
 the database, you can set it
-
-00:04:58.506 --> 00:05:01.666 A:middle
-to return Account, which will
-just give you the number of rows
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.506 --> 00:05:01.666 A:middle
 to return Account, which will
@@ -485,14 +448,6 @@ with those IDs.
 00:05:53.536 --> 00:05:58.336 A:middle
 Another implication of the way
 this is set up is that, well,
-
-00:05:58.336 --> 00:06:00.396 A:middle
-context doesn't know anything
-about the changes you're making,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.336 --> 00:06:00.396 A:middle
 context doesn't know anything
@@ -585,14 +540,6 @@ anything about those changes.
 So you're going to need to
 remember to set a merge policy
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.686 --> 00:07:00.416 A:middle
-So you're going to need to
-remember to set a merge policy
-
 00:07:00.416 --> 00:07:02.256 A:middle
 on your Managed Object Context
 
@@ -670,13 +617,6 @@ random SCM messages that, well,
 00:07:59.996 --> 00:08:01.946 A:middle
 nobody cares about, and I forgot
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.996 --> 00:08:01.946 A:middle
-nobody cares about, and I forgot
-
 00:08:01.946 --> 00:08:03.236 A:middle
 to reset my database,
 but oh well.
@@ -715,11 +655,11 @@ out it took several seconds.
 00:08:39.966 --> 00:08:41.576 A:middle
 Then I'm going to come down,
 
-00:08:41.576 --> 00:08:44.035 A:middle
+00:08:41.576 --> 00:08:44.036 A:middle
 this mailbox contains the
 exact same set of messages
 
-00:08:44.035 --> 00:08:45.456 A:middle
+00:08:44.036 --> 00:08:45.456 A:middle
 that the previous mailbox did.
 
 00:08:46.046 --> 00:08:48.736 A:middle
@@ -731,14 +671,6 @@ That took less than a second.
 
 00:08:52.516 --> 00:08:57.926 A:middle
 [ Applause ]
-
-00:08:58.426 --> 00:09:00.326 A:middle
-So yeah, we think your
-developers are going to be kind
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.426 --> 00:09:00.326 A:middle
 So yeah, we think your
@@ -821,13 +753,6 @@ conflicts on yourself, so,
 00:09:59.116 --> 00:10:00.266 A:middle
 you know, set a merge policy.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.116 --> 00:10:00.266 A:middle
-you know, set a merge policy.
-
 00:10:02.076 --> 00:10:03.746 A:middle
 So that's our first new API.
 
@@ -899,10 +824,6 @@ down to the store,
 which takes some
 time, thinks about it,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:03.226 --> 00:11:06.126 A:middle
 returns a response in
 the shape of an NSArray,
@@ -969,14 +890,6 @@ NSMainQueueConcurrencyType
 00:11:55.606 --> 00:11:59.396 A:middle
 because this is the only way
 that we have a separate queue
-
-00:11:59.396 --> 00:12:03.576 A:middle
-that we know has sole
-access to the state
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.396 --> 00:12:03.576 A:middle
 that we know has sole
@@ -1058,14 +971,6 @@ and tell you, hey,
 you have data, maybe you
 should do something with it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:57.696 --> 00:13:00.126 A:middle
-you have data, maybe you
-should do something with it.
-
 00:13:03.216 --> 00:13:06.266 A:middle
 So NSAsynchronousFetchRequest
 is a new subclass
@@ -1136,10 +1041,6 @@ How do you set one up?
 
 00:13:59.086 --> 00:13:59.746 A:middle
 It's pretty simple.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.606 --> 00:14:03.126 A:middle
 Here, we're just setting up a
@@ -1224,14 +1125,6 @@ standard use of NSProgress.
 You create your own before
 you call executeRequest.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.536 --> 00:15:01.146 A:middle
-You create your own before
-you call executeRequest.
-
 00:15:02.226 --> 00:15:06.236 A:middle
 Core Data will notice if you
 have done this and will go off
@@ -1309,14 +1202,6 @@ context performBlock we saw
 00:15:49.416 --> 00:15:54.446 A:middle
 on the last slide, progress
 resignCurrent, and you're done.
-
-00:15:54.446 --> 00:16:00.276 A:middle
-And at this point, I'm going
-to bring my manager, Ben,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:54.446 --> 00:16:00.276 A:middle
 And at this point, I'm going
@@ -1407,14 +1292,6 @@ as Melissa had mentioned,
 database queries
 are sort of streams.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.186 --> 00:17:01.096 A:middle
-database queries
-are sort of streams.
-
 00:17:01.096 --> 00:17:02.586 A:middle
 You don't really know how many
 rows you're going to get back
@@ -1423,14 +1300,14 @@ rows you're going to get back
 until you're done, and sometimes
 your audience must positively
 
-00:17:05.356 --> 00:17:06.465 A:middle
+00:17:05.356 --> 00:17:06.466 A:middle
 know exactly what's going on.
 
-00:17:06.796 --> 00:17:08.415 A:middle
+00:17:06.796 --> 00:17:08.416 A:middle
 So, we've already
 preflighted that.
 
-00:17:08.415 --> 00:17:11.935 A:middle
+00:17:08.416 --> 00:17:11.936 A:middle
 So, I'm going to give you
 a quick demonstration here,
 
@@ -1438,14 +1315,14 @@ a quick demonstration here,
 and you can see in the status
 bar it's counting along.
 
-00:17:20.465 --> 00:17:25.506 A:middle
+00:17:20.466 --> 00:17:25.506 A:middle
 And we've populated the last
 few objects in the array
 
-00:17:25.506 --> 00:17:26.425 A:middle
+00:17:25.506 --> 00:17:26.426 A:middle
 up here in the table view.
 
-00:17:26.425 --> 00:17:29.146 A:middle
+00:17:26.426 --> 00:17:29.146 A:middle
 I have not actually just
 put 5 million objects
 
@@ -1491,14 +1368,6 @@ we can decide to cancel it.
 00:17:54.676 --> 00:17:57.856 A:middle
 And what will end up happening
 is the fetch will abort,
-
-00:17:57.856 --> 00:18:00.186 A:middle
-and Core Data will return
-an NSUserCancelled Error.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.856 --> 00:18:00.186 A:middle
 and Core Data will return
@@ -1576,14 +1445,6 @@ if these new APIs affect you.
 
 00:18:54.626 --> 00:18:57.536 A:middle
 Well, they kind of do.
-
-00:18:58.906 --> 00:19:02.156 A:middle
-If you want to just publish
-your store and have it used
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.906 --> 00:19:02.156 A:middle
 If you want to just publish
@@ -1672,13 +1533,6 @@ That never ends well.
 00:19:59.406 --> 00:20:03.036 A:middle
 New request types.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.406 --> 00:20:03.036 A:middle
-New request types.
-
 00:20:03.416 --> 00:20:06.216 A:middle
 You should still be using
 
@@ -1753,14 +1607,6 @@ executed, specifically
 00:20:51.346 --> 00:20:55.566 A:middle
 at the stores that know
 what to do with them.
-
-00:20:56.296 --> 00:21:00.016 A:middle
-Why might you want to
-add your own subclass
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:56.296 --> 00:21:00.016 A:middle
 Why might you want to
@@ -1849,13 +1695,6 @@ only the objects
 00:21:59.336 --> 00:22:00.506 A:middle
 that need to be refreshed.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.336 --> 00:22:00.506 A:middle
-that need to be refreshed.
-
 00:22:00.506 --> 00:22:03.066 A:middle
 You may want to do status
 checks, that kind of thing.
@@ -1930,14 +1769,6 @@ which brings us to concurrency.
 00:22:53.286 --> 00:22:56.466 A:middle
 And at this point, I'm
 going to take a little bit
-
-00:22:56.466 --> 00:23:00.796 A:middle
-of a winding path to get
-to our new stuff and sort
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:56.466 --> 00:23:00.796 A:middle
 of a winding path to get
@@ -2029,14 +1860,6 @@ to lock the context.
 If they wanted to message
 PersistentStoreCoordinator,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:57.576 --> 00:24:00.716 A:middle
-If they wanted to message
-PersistentStoreCoordinator,
-
 00:24:00.716 --> 00:24:04.596 A:middle
 they needed to manually lock
 PersistentStoreCoordinator
@@ -2116,14 +1939,6 @@ affairs because anything you try
 00:24:54.836 --> 00:24:56.446 A:middle
 and do now is going
 to dead lock.
-
-00:24:57.736 --> 00:25:00.416 A:middle
-It's also kind of tricky
-doing some UI programming
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.736 --> 00:25:00.416 A:middle
 It's also kind of tricky
@@ -2217,14 +2032,6 @@ ever had access to it.
 And in this model, the
 developer still had
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.126 --> 00:26:01.746 A:middle
-And in this model, the
-developer still had
-
 00:26:01.746 --> 00:26:03.316 A:middle
 to lock the Coordinator
 before they used it
@@ -2305,14 +2112,6 @@ with the context easier,
 00:26:56.266 --> 00:26:58.226 A:middle
 and about this time
 another group
-
-00:26:58.226 --> 00:27:01.746 A:middle
-at Apple was inventing a really
-cool technology or technology we
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.226 --> 00:27:01.746 A:middle
 at Apple was inventing a really
@@ -2416,14 +2215,6 @@ as much as you want.
 And we also had the Concurrency
 Thread Confinement Type,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.886 --> 00:28:03.386 A:middle
-And we also had the Concurrency
-Thread Confinement Type,
-
 00:28:04.416 --> 00:28:07.536 A:middle
 well that said, well, I've
 got Legacy code and I want
@@ -2497,13 +2288,6 @@ whatever it wants to,
 00:28:56.726 --> 00:28:59.346 A:middle
 update all of its internal
 state, and then return
-
-00:28:59.806 --> 00:29:01.026 A:middle
-to the calling thread.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.806 --> 00:29:01.026 A:middle
 to the calling thread.
@@ -2595,14 +2379,6 @@ It still has concurrency types.
 It still has the same
 concurrency types.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.956 --> 00:30:00.976 A:middle
-It still has the same
-concurrency types.
-
 00:30:01.196 --> 00:30:06.136 A:middle
 You still message it
 using performBlock
@@ -2682,10 +2458,6 @@ you have done something wrong.
 00:30:58.056 --> 00:30:59.676 A:middle
 And this is available
 on iOS as well.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.896 --> 00:31:03.316 A:middle
 No special debug version
@@ -2770,14 +2542,6 @@ so you'll be able to see
 which queues are
 actually associated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.636 --> 00:32:00.466 A:middle
-which queues are
-actually associated
-
 00:32:00.556 --> 00:32:05.896 A:middle
 with which managed object
 context in your application.
@@ -2856,13 +2620,6 @@ Everything should work.
 00:32:54.486 --> 00:32:56.886 A:middle
 It should just be more
 reliable and faster.
-
-00:32:58.516 --> 00:33:01.616 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.516 --> 00:33:01.616 A:middle
 [ Applause ]
@@ -2951,14 +2708,6 @@ everything that's in the cloud,
 so you've got a full offline
 cache of all of your documents.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.936 --> 00:34:01.836 A:middle
-so you've got a full offline
-cache of all of your documents.
-
 00:34:02.136 --> 00:34:03.926 A:middle
 This is good for
 unstructured data
@@ -2966,11 +2715,11 @@ unstructured data
 00:34:03.926 --> 00:34:05.366 A:middle
 and is tied to the file system.
 
-00:34:05.506 --> 00:34:08.485 A:middle
+00:34:05.506 --> 00:34:08.486 A:middle
 This is good if you want to
 replace everything on all
 
-00:34:09.295 --> 00:34:12.286 A:middle
+00:34:09.296 --> 00:34:12.286 A:middle
 of your devices with whatever
 the latest greatest state
 
@@ -2988,22 +2737,22 @@ to merge data that is created
 across multiple devices,
 instead of replacing it.
 
-00:34:23.815 --> 00:34:26.926 A:middle
+00:34:23.816 --> 00:34:26.926 A:middle
 If you add a contact on machine
 1, you want that to be added
 
-00:34:26.985 --> 00:34:28.466 A:middle
+00:34:26.986 --> 00:34:28.466 A:middle
 to your global cloud data store.
 
 00:34:28.466 --> 00:34:30.926 A:middle
 You don't want it to replace
 your global cloud data store.
 
-00:34:31.406 --> 00:34:36.295 A:middle
+00:34:31.406 --> 00:34:36.296 A:middle
 It's used to keep private data,
 user data, structured data
 
-00:34:36.545 --> 00:34:39.926 A:middle
+00:34:36.546 --> 00:34:39.926 A:middle
 in sync across multiple devices
 and it's replicated between all
 
@@ -3014,32 +2763,24 @@ it is single-user data,
 00:34:43.036 --> 00:34:44.106 A:middle
 which brings us to CloudKit.
 
-00:34:45.646 --> 00:34:49.565 A:middle
+00:34:45.646 --> 00:34:49.566 A:middle
 CloudKit is the new API
 in Yosemite and iOS 8.
 
-00:34:50.065 --> 00:34:51.235 A:middle
+00:34:50.066 --> 00:34:51.236 A:middle
 It's a client server model,
 
-00:34:51.426 --> 00:34:53.275 A:middle
+00:34:51.426 --> 00:34:53.276 A:middle
 which means that it
 has no local store.
 
-00:34:53.275 --> 00:34:55.716 A:middle
+00:34:53.276 --> 00:34:55.716 A:middle
 If you're going to be using it,
 your users are going to need
 
 00:34:55.716 --> 00:34:57.816 A:middle
 to be connected to the
 network at all times.
-
-00:34:58.836 --> 00:35:01.806 A:middle
-It allows for predicate-based
-queries, not the full power
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.836 --> 00:35:01.806 A:middle
 It allows for predicate-based
@@ -3134,14 +2875,6 @@ that you have on our platform.
 Some of you may want to actually
 go look at CloudKit, and,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.196 --> 00:36:01.726 A:middle
-Some of you may want to actually
-go look at CloudKit, and,
-
 00:36:01.836 --> 00:36:04.876 A:middle
 you know, do interesting
 things with it, which brings us
@@ -3199,14 +2932,6 @@ of Core Data in Swift.
 00:36:53.756 --> 00:36:58.956 A:middle
 You can create managed
 object subclasses in Swift.
-
-00:36:59.416 --> 00:37:00.926 A:middle
-I'll show you how to do
-that on the next slide,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.416 --> 00:37:00.926 A:middle
 I'll show you how to do
@@ -3281,14 +3006,6 @@ you up is that you now need
 00:37:52.796 --> 00:37:55.146 A:middle
 to add the module
 name in the data model
-
-00:37:55.726 --> 00:38:00.026 A:middle
-when you specify the class
-that your entity is going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:55.726 --> 00:38:00.026 A:middle
 when you specify the class
@@ -3377,14 +3094,6 @@ you know, duplication of lines.
 Some things to remember about
 Swift is that it uses types.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:54.586 --> 00:39:01.376 A:middle
-Some things to remember about
-Swift is that it uses types.
-
 00:39:02.106 --> 00:39:04.406 A:middle
 It's very, very firm
 in the beliefs
@@ -3452,10 +3161,6 @@ that looks awfully
 
 00:39:56.976 --> 00:39:59.076 A:middle
 like the last thing I demoed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.336 --> 00:40:01.586 A:middle
 It's got an app delegate.
@@ -3530,14 +3235,6 @@ as I built this,
 so you can see a lazy
 property, deferring binding
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.486 --> 00:41:04.856 A:middle
-so you can see a lazy
-property, deferring binding
-
 00:41:04.856 --> 00:41:07.016 A:middle
 to managed object models data
 
@@ -3600,13 +3297,6 @@ same thing the previous messages
 
 00:41:56.306 --> 00:41:57.046 A:middle
 controller did.
-
-00:41:57.286 --> 00:42:01.676 A:middle
-I'm going to build and run.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:57.286 --> 00:42:01.676 A:middle
 I'm going to build and run.
@@ -3675,13 +3365,6 @@ what we do know about, but,
 00:42:55.966 --> 00:42:58.476 A:middle
 you know, we can't fix
 what we don't know about.
-
-00:42:58.986 --> 00:43:00.436 A:middle
-File a bug report.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.986 --> 00:43:00.436 A:middle
 File a bug report.
@@ -3777,14 +3460,5 @@ watching that as well,
 and welcome and thanks
 for coming.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.596 --> 00:44:02.916 A:middle
-and welcome and thanks
-for coming.
-
 00:44:03.516 --> 00:44:07.850 A:middle
 [ Applause ]
-

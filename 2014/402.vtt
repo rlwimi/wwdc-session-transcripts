@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.046 --> 00:00:12.676 A:middle
 &gt;&gt; Hello, welcome.
@@ -59,14 +58,6 @@ to Swift".
 00:00:55.196 --> 00:00:57.766 A:middle
 I am Tim Isted and I'm
 joined by Dave Addey.
-
-00:00:59.466 --> 00:01:02.376 A:middle
-This is the first of three talks
-on the Swift language this,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.466 --> 00:01:02.376 A:middle
 This is the first of three talks
@@ -153,14 +144,6 @@ right there and for something
 like this we shouldn't need
 to have to specify, you know,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.436 --> 00:02:00.266 A:middle
-like this we shouldn't need
-to have to specify, you know,
-
 00:02:00.266 --> 00:02:01.666 A:middle
 "This is the entry
 point for the app."
@@ -172,11 +155,11 @@ So we don't have to.
 Because then it's
 not a function.
 
-00:02:05.666 --> 00:02:09.425 A:middle
+00:02:05.666 --> 00:02:09.426 A:middle
 We're not returning any random
 values anymore and last,
 
-00:02:09.425 --> 00:02:11.546 A:middle
+00:02:09.426 --> 00:02:11.546 A:middle
 but not least, no semicolons.
 
 00:02:12.396 --> 00:02:13.316 A:middle
@@ -252,13 +235,6 @@ and a colon and the type.
 00:02:57.556 --> 00:02:59.756 A:middle
 And this colon appears
 quite often in Swift.
-
-00:02:59.756 --> 00:03:00.816 A:middle
-This means, "is of type."
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.756 --> 00:03:00.816 A:middle
 This means, "is of type."
@@ -350,14 +326,6 @@ Now this makes your code safer
 in a multi-threaded
 environments.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.376 --> 00:04:00.966 A:middle
-in a multi-threaded
-environments.
-
 00:04:01.476 --> 00:04:03.746 A:middle
 It also means that Swift
 can optimize your code more
@@ -388,7 +356,7 @@ an integer and a Boolean.
 And it's pretty obvious
 from these values
 
-00:04:19.086 --> 00:04:21.185 A:middle
+00:04:19.086 --> 00:04:21.186 A:middle
 on the right-hand side what
 it is that I want to create.
 
@@ -449,14 +417,6 @@ for your constant
 00:04:57.056 --> 00:04:58.646 A:middle
 and variable names,
 such as pi here.
-
-00:04:59.796 --> 00:05:03.236 A:middle
-And, yes, [applause]
-that does include emojis.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.796 --> 00:05:03.236 A:middle
 And, yes, [applause]
@@ -543,14 +503,6 @@ Array of the components therein.
 Now every Swift string is
 a collection of characters
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.506 --> 00:06:02.166 A:middle
-Now every Swift string is
-a collection of characters
-
 00:06:02.166 --> 00:06:06.146 A:middle
 and you can use a for-in loop
 to iterate over those characters
@@ -619,10 +571,6 @@ a and b, which are inferred
 00:06:56.616 --> 00:06:58.986 A:middle
 to be integers from these
 default values of 3 and 5,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.366 --> 00:07:04.226 A:middle
 and we'd like to make this
@@ -708,14 +656,6 @@ working with the constant
 in which case the
 string can't change.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.086 --> 00:08:00.756 A:middle
-in which case the
-string can't change.
-
 00:08:01.806 --> 00:08:04.086 A:middle
 It's actually a compile
 time error to try
@@ -769,7 +709,7 @@ to return an NSArray.
 Now the easiest way to create a
 new collection is with a literal
 
-00:08:40.785 --> 00:08:42.056 A:middle
+00:08:40.786 --> 00:08:42.056 A:middle
 and Array and Dictionary
 literals
 
@@ -802,10 +742,6 @@ key value pairs,
 
 00:08:58.766 --> 00:08:59.646 A:middle
 square brackets around the edge.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.596 --> 00:09:02.976 A:middle
 Here we have keys,
@@ -886,10 +822,6 @@ to have a way to say
 00:09:55.946 --> 00:09:59.976 A:middle
 that it can only always be
 strings and in Swift we can.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.046 --> 00:10:01.026 A:middle
 We can provide a
@@ -974,14 +906,6 @@ these Dictionaries.
 00:10:57.076 --> 00:10:58.386 A:middle
 So, having defined
 our collections,
-
-00:10:58.866 --> 00:11:00.906 A:middle
-it would now be useful
-to loop over them,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.866 --> 00:11:00.906 A:middle
 it would now be useful
@@ -1080,14 +1004,6 @@ so to print a nice welcome
 to the four people
 in our names Array,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.906 --> 00:12:00.536 A:middle
-to the four people
-in our names Array,
-
 00:12:01.386 --> 00:12:02.946 A:middle
 and we can even use
 it with Dictionary.
@@ -1175,14 +1091,6 @@ add it to the end.
 00:12:56.696 --> 00:12:58.056 A:middle
 Here we're adding a
 third item, flour.
-
-00:12:59.326 --> 00:13:02.426 A:middle
-We can also add multiple
-items in one go just
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.326 --> 00:13:02.426 A:middle
 We can also add multiple
@@ -1278,14 +1186,6 @@ Spiders do not have 273 legs.
 
 00:13:57.916 --> 00:13:58.946 A:middle
 If you find one that does,
-
-00:13:59.156 --> 00:14:02.546 A:middle
-run away [laughter] although
-be warned it will probably
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.156 --> 00:14:02.546 A:middle
 run away [laughter] although
@@ -1389,14 +1289,6 @@ to stick with aardvark.
 How do we get the
 number of legs out?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.336 --> 00:15:00.676 A:middle
-How do we get the
-number of legs out?
-
 00:15:00.676 --> 00:15:02.426 A:middle
 Well, we can subscript
 and we can query this
@@ -1484,14 +1376,6 @@ or we get nothing at all.
 00:15:56.446 --> 00:15:57.566 A:middle
 So what does nothing
 at all mean?
-
-00:15:58.696 --> 00:16:00.766 A:middle
-Well, nothing in Swift
-is represented by nil.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.696 --> 00:16:00.766 A:middle
 Well, nothing in Swift
@@ -1593,48 +1477,40 @@ the value out.
 If I try and unwrap an
 optional and there's,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.966 --> 00:17:02.666 A:middle
-If I try and unwrap an
-optional and there's,
-
 00:17:02.666 --> 00:17:04.296 A:middle
 in fact that there's no
 value there, it's nil,
 
-00:17:04.945 --> 00:17:05.876 A:middle
+00:17:04.946 --> 00:17:05.876 A:middle
 I'll trigger an assertion.
 
-00:17:06.215 --> 00:17:08.046 A:middle
+00:17:06.216 --> 00:17:08.046 A:middle
 So I should only do this
 when I know for sure
 
-00:17:08.046 --> 00:17:09.915 A:middle
+00:17:08.046 --> 00:17:09.916 A:middle
 that the value is there.
 
-00:17:09.915 --> 00:17:12.266 A:middle
+00:17:09.916 --> 00:17:12.266 A:middle
 Because of this, there's a
 very common pattern in Swift,
 
-00:17:12.266 --> 00:17:15.195 A:middle
+00:17:12.266 --> 00:17:15.196 A:middle
 which is to say, is there a
 value in this optional thing?
 
 00:17:15.796 --> 00:17:17.246 A:middle
 If there is, then unwrap it,
 
-00:17:17.246 --> 00:17:18.675 A:middle
+00:17:17.246 --> 00:17:18.676 A:middle
 give me the value
 back so I can use it.
 
-00:17:19.455 --> 00:17:21.965 A:middle
+00:17:19.456 --> 00:17:21.966 A:middle
 So common, in fact, that
 we have a special syntax
 
-00:17:21.965 --> 00:17:22.896 A:middle
+00:17:21.966 --> 00:17:22.896 A:middle
 for this that's much safer.
 
 00:17:22.896 --> 00:17:26.126 A:middle
@@ -1689,14 +1565,6 @@ unnecessary punctuation noise
 
 00:17:57.086 --> 00:17:57.876 A:middle
 so I'm going to leave them out.
-
-00:17:59.206 --> 00:18:01.696 A:middle
-The braces though, braces
-are required [applause].
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.206 --> 00:18:01.696 A:middle
 The braces though, braces
@@ -1805,13 +1673,6 @@ and slides; case 1,
 00:18:58.966 --> 00:19:00.256 A:middle
 it hops; otherwise, it walks.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.966 --> 00:19:00.256 A:middle
-it hops; otherwise, it walks.
-
 00:19:00.256 --> 00:19:03.486 A:middle
 So use case like you do
 in C and Objective-C.
@@ -1891,14 +1752,6 @@ get an error and the error says,
 00:19:55.236 --> 00:19:58.586 A:middle
 In Swift you must include
 a case or a default
-
-00:19:58.656 --> 00:20:01.186 A:middle
-for every possible value that,
-that could be matched against.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.656 --> 00:20:01.186 A:middle
 for every possible value that,
@@ -1994,10 +1847,6 @@ awesomeness that you can find
 out about by watching the
 "Intermediate Swift" talk.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.896 --> 00:21:03.056 A:middle
 So, for the examples we've used
 
@@ -2086,14 +1935,6 @@ have a default value as well.
 00:21:56.956 --> 00:21:59.096 A:middle
 So let's say I usually
 want to say, "Hello World."
-
-00:21:59.796 --> 00:22:03.596 A:middle
-I can add that with
-"=" so "name: string"
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.796 --> 00:22:03.596 A:middle
 I can add that with
@@ -2196,13 +2037,6 @@ a single value.
 00:22:59.676 --> 00:23:00.916 A:middle
 What about multiple values?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.676 --> 00:23:00.916 A:middle
-What about multiple values?
-
 00:23:01.586 --> 00:23:03.626 A:middle
 Well in Swift we can
 return multiple values
@@ -2297,13 +2131,6 @@ How do I use them?
 00:23:59.386 --> 00:24:00.276 A:middle
 Let's create a constant.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.386 --> 00:24:00.276 A:middle
-Let's create a constant.
-
 00:24:01.556 --> 00:24:04.316 A:middle
 This time I've got two names,
 also in parentheses with a comma
@@ -2386,14 +2213,6 @@ in the full statement.
 00:24:53.366 --> 00:24:57.076 A:middle
 So tuple decomposition is one
 way to get these values out.
-
-00:24:57.076 --> 00:25:00.396 A:middle
-There's another one and that is
-we can actually name the values
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.076 --> 00:25:00.396 A:middle
 There's another one and that is
@@ -2495,13 +2314,6 @@ this is this thing, () -&gt; ().
 00:25:58.756 --> 00:26:00.566 A:middle
 Empty parens are empty parens.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.756 --> 00:26:00.566 A:middle
-Empty parens are empty parens.
-
 00:26:00.626 --> 00:26:01.716 A:middle
 That's the type of this Closure.
 
@@ -2588,14 +2400,6 @@ Closure inline right there
 
 00:26:56.176 --> 00:26:56.916 A:middle
 in the function call.
-
-00:26:57.366 --> 00:27:00.456 A:middle
-Don't know about you, not
-so keen on that syntax.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.366 --> 00:27:00.456 A:middle
 Don't know about you, not
@@ -2697,14 +2501,6 @@ to write in Swift.
 You don't have to import
 vehicle.h and the reason is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.816 --> 00:28:03.396 A:middle
-You don't have to import
-vehicle.h and the reason is
-
 00:28:03.396 --> 00:28:05.206 A:middle
 because Vehicle.h
 does not exist.
@@ -2786,14 +2582,6 @@ a bit more detail
 00:28:56.566 --> 00:28:57.916 A:middle
 to our base class,
 to our vehicle.
-
-00:28:59.326 --> 00:29:00.626 A:middle
-So we'll start by
-adding a property,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.326 --> 00:29:00.626 A:middle
 So we'll start by
@@ -2885,14 +2673,6 @@ for you as well.
 00:29:54.326 --> 00:29:57.436 A:middle
 Now, in this case, were we just
 storing a value, these are known
-
-00:29:57.436 --> 00:30:00.396 A:middle
-as stored properties but we do
-have a second kind of property
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.436 --> 00:30:00.396 A:middle
 as stored properties but we do
@@ -2993,14 +2773,6 @@ of the computed property.
 The end result is the same,
 you just don't have to write
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.216 --> 00:31:01.226 A:middle
-The end result is the same,
-you just don't have to write
-
 00:31:01.226 --> 00:31:02.166 A:middle
 that extra level of nesting.
 
@@ -3088,14 +2860,6 @@ to be a vehicle.
 00:31:56.006 --> 00:31:58.546 A:middle
 As I mentioned earlier we,
 we have these default values.
-
-00:31:58.546 --> 00:32:00.066 A:middle
-Now, this means we
-actually haven't had
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.546 --> 00:32:00.066 A:middle
 Now, this means we
@@ -3197,14 +2961,6 @@ use a new value of 2.
 Now because we're changing an
 inherited property we do need
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:57.256 --> 00:33:00.966 A:middle
-Now because we're changing an
-inherited property we do need
-
 00:33:00.966 --> 00:33:03.506 A:middle
 to give our super class a chance
 to set that property first,
@@ -3300,14 +3056,6 @@ of vehicle called Car,
 give it a new stored property
 called speed, initial value
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.436 --> 00:34:02.316 A:middle
-give it a new stored property
-called speed, initial value
-
 00:34:02.316 --> 00:34:04.086 A:middle
 of 0.0 (so inferred
 to be a double),
@@ -3319,7 +3067,7 @@ that sets the car's number
 00:34:07.586 --> 00:34:08.876 A:middle
 of wheels to be four by default.
 
-00:34:08.985 --> 00:34:11.246 A:middle
+00:34:08.986 --> 00:34:11.246 A:middle
 Same approach we just
 saw for, for the bicycle.
 
@@ -3327,11 +3075,11 @@ saw for, for the bicycle.
 So its overrider
 description: in this case I'd
 
-00:34:14.876 --> 00:34:17.065 A:middle
+00:34:14.876 --> 00:34:17.066 A:middle
 like to add the speed on to
 the end of the description.
 
-00:34:17.545 --> 00:34:19.106 A:middle
+00:34:17.546 --> 00:34:19.106 A:middle
 We just write the,
 we write the property
 
@@ -3349,11 +3097,11 @@ have the override keywords
 00:34:25.456 --> 00:34:26.246 A:middle
 on the beginning.
 
-00:34:27.036 --> 00:34:29.025 A:middle
+00:34:27.036 --> 00:34:29.026 A:middle
 This makes the override
 safe for two reasons.
 
-00:34:30.005 --> 00:34:32.846 A:middle
+00:34:30.006 --> 00:34:32.846 A:middle
 Firstly, it makes it clear we
 want to provide an override.
 
@@ -3361,11 +3109,11 @@ want to provide an override.
 We haven't just accidentally
 written a property
 
-00:34:35.716 --> 00:34:38.025 A:middle
+00:34:35.716 --> 00:34:38.026 A:middle
 that has the same name and
 the same type of something
 
-00:34:38.025 --> 00:34:40.356 A:middle
+00:34:38.026 --> 00:34:40.356 A:middle
 in our super class that maybe
 we didn't even know about.
 
@@ -3399,10 +3147,6 @@ we'll add an extra bit of text
 
 00:34:58.536 --> 00:34:59.856 A:middle
 on the end that shows the speed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.386 --> 00:35:02.946 A:middle
 So, if we create
@@ -3488,14 +3232,6 @@ in the same way.
 00:35:54.276 --> 00:35:56.656 A:middle
 This time, however, we won't
 provide a custom getter
-
-00:35:56.656 --> 00:36:00.846 A:middle
-and setter, we'll provide either
-willSet or a didSet observer
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:56.656 --> 00:36:00.846 A:middle
 and setter, we'll provide either
@@ -3594,13 +3330,6 @@ complex, if we add a parameter,
 00:36:58.966 --> 00:37:00.086 A:middle
 again, it's just the same
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.966 --> 00:37:00.086 A:middle
-again, it's just the same
-
 00:37:00.086 --> 00:37:01.666 A:middle
 as the function parameters
 we saw earlier.
@@ -3694,14 +3423,6 @@ size with a width and a height,
 00:37:54.566 --> 00:37:56.136 A:middle
 rectangle with an
 origin and a size.
-
-00:37:57.486 --> 00:38:01.086 A:middle
-With structures I get a very
-handy memberwise initializer
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:57.486 --> 00:38:01.086 A:middle
 With structures I get a very
@@ -3814,14 +3535,6 @@ incredibly powerful,
 a lot more functionality
 than you're used to in C.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.296 --> 00:39:01.326 A:middle
-a lot more functionality
-than you're used to in C.
-
 00:39:02.066 --> 00:39:04.726 A:middle
 So that raises the question,
 what is the difference
@@ -3914,14 +3627,6 @@ What would happen?
 00:39:56.996 --> 00:39:59.096 A:middle
 Well, I'd probably get a
 second window on screen
-
-00:39:59.096 --> 00:40:00.456 A:middle
-and that doesn't
-feel right at all.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:59.096 --> 00:40:00.456 A:middle
 and that doesn't
@@ -4025,14 +3730,6 @@ with these things in mind.
 Let's say I create a window
 and this time I declare it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.906 --> 00:41:02.406 A:middle
-Let's say I create a window
-and this time I declare it
-
 00:41:02.406 --> 00:41:04.496 A:middle
 with a let keyword, that
 means I have a constant
@@ -4119,14 +3816,6 @@ it's a variable, it can do that.
 00:41:55.186 --> 00:41:58.876 A:middle
 But if I use let
 to declare point2,
-
-00:41:59.706 --> 00:42:01.466 A:middle
-the entire value
-is now immutable.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.706 --> 00:42:01.466 A:middle
 the entire value
@@ -4220,10 +3909,6 @@ planet enumeration
 
 00:42:58.156 --> 00:42:59.606 A:middle
 and it has a raw value of Int.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:00.296 --> 00:43:02.046 A:middle
 So I'm using a 1-based index.
@@ -4329,14 +4014,6 @@ change that in the future.
 And I'm going to set it
 to CompassPoint.West.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:58.156 --> 00:44:00.846 A:middle
-And I'm going to set it
-to CompassPoint.West.
-
 00:44:01.916 --> 00:44:04.136 A:middle
 Compiler will then say
 oh, it's a compass point.
@@ -4421,10 +4098,6 @@ different type I want to talk
 about and that's enumerations
 with associated values,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:00.016 --> 00:45:01.726 A:middle
 neither are discriminated
 unions.
@@ -4500,14 +4173,6 @@ we can do more than this.
 00:45:55.876 --> 00:45:58.406 A:middle
 I'm going to add a little
 bit more functionality
-
-00:45:58.406 --> 00:46:01.746 A:middle
-to my train status and I'm gonna
-start by adding an initializer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:58.406 --> 00:46:01.746 A:middle
 to my train status and I'm gonna
@@ -4596,14 +4261,6 @@ give me "delayed by 42 minutes".
 00:46:54.726 --> 00:46:58.636 A:middle
 But this status is very
 much tied to a train.
-
-00:46:59.336 --> 00:47:01.236 A:middle
-It's very likely that the
-only place we really use this
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:59.336 --> 00:47:01.236 A:middle
 It's very likely that the
@@ -4712,14 +4369,6 @@ by a given factor
 because it changes the
 underlying values I've marked
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:58.676 --> 00:48:00.736 A:middle
-because it changes the
-underlying values I've marked
-
 00:48:00.736 --> 00:48:01.396 A:middle
 as mutating.
 
@@ -4800,14 +4449,6 @@ closure on the call
 00:48:54.606 --> 00:48:57.006 A:middle
 to repetitions on
 any integer value.
-
-00:48:57.596 --> 00:49:00.366 A:middle
-So I can say, for
-example, 500.repetitions
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:57.596 --> 00:49:00.366 A:middle
 So I can say, for
@@ -4907,14 +4548,6 @@ change would be these
 highlighted bits, the
 Ints across there.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:58.886 --> 00:50:00.986 A:middle
-highlighted bits, the
-Ints across there.
-
 00:50:00.986 --> 00:50:04.136 A:middle
 That's the types used for the
 Array and the two functions
@@ -5008,14 +4641,6 @@ knows it can only work
 00:50:57.816 --> 00:50:59.496 A:middle
 with a string and when
 I pop it off it knows
-
-00:50:59.496 --> 00:51:01.346 A:middle
-that I'm returning a string,
-therefore I can print it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:59.496 --> 00:51:01.346 A:middle
 that I'm returning a string,
@@ -5121,14 +4746,6 @@ We want to hear your questions.
 If you're playing along at home,
 talk to this guy, Dave DeLong.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:57.976 --> 00:52:00.586 A:middle
-If you're playing along at home,
-talk to this guy, Dave DeLong.
-
 00:52:00.586 --> 00:52:01.396 A:middle
 He's our evangelist.
 
@@ -5143,4 +4760,3 @@ That is Swift.
 
 00:52:05.516 --> 00:52:12.310 A:middle
 [ Applause ]
-

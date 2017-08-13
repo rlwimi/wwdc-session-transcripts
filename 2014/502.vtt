@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.056 --> 00:00:12.606 A:middle
 &gt;&gt; Good morning, everyone.
@@ -60,14 +59,6 @@ on both iOS and Mac OS X.
 00:00:57.176 --> 00:00:59.766 A:middle
 And you can use these
 different APIs
-
-00:00:59.916 --> 00:01:02.286 A:middle
-to implement audio features
-in your applications.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.916 --> 00:01:02.286 A:middle
 to implement audio features
@@ -137,14 +128,6 @@ classes in session 501.
 00:01:55.806 --> 00:01:58.706 A:middle
 So using this new
 API you will be able
-
-00:01:58.706 --> 00:02:02.206 A:middle
-to write powerful features with
-just a fraction of the amount
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.706 --> 00:02:02.206 A:middle
 to write powerful features with
@@ -238,14 +221,6 @@ easier for you to work
 with by giving you a
 real-time audio system but one
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:58.896 --> 00:03:02.486 A:middle
-with by giving you a
-real-time audio system but one
-
 00:03:02.486 --> 00:03:05.446 A:middle
 that you interact with in
 a non real-time context.
@@ -315,14 +290,6 @@ is a karaoke application.
 00:03:56.696 --> 00:03:58.316 A:middle
 You have a backing
 track that's playing
-
-00:03:58.316 --> 00:04:00.966 A:middle
-and the user is singing
-along with it in real-time.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:58.316 --> 00:04:00.966 A:middle
 and the user is singing
@@ -407,14 +374,6 @@ two sample use cases.
 You'll be able to do a
 whole lot more once we talk
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.276 --> 00:05:01.736 A:middle
-You'll be able to do a
-whole lot more once we talk
-
 00:05:01.736 --> 00:05:02.866 A:middle
 about AVAudioEngine.
 
@@ -493,13 +452,6 @@ is rendering you can add new
 00:05:58.476 --> 00:06:00.796 A:middle
 nodes and then wire them up.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.476 --> 00:06:00.796 A:middle
-nodes and then wire them up.
-
 00:06:00.956 --> 00:06:04.066 A:middle
 And so essentially you're adding
 or removing chains dynamically.
@@ -572,13 +524,6 @@ and do something with it.
 00:06:56.396 --> 00:06:58.796 A:middle
 Every one of these nodes
 has a certain number
-
-00:06:58.796 --> 00:07:01.766 A:middle
-of input and output buses.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.796 --> 00:07:01.766 A:middle
 of input and output buses.
@@ -663,14 +608,6 @@ in this example.
 So let's now look at
 the specific node types.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.976 --> 00:08:03.016 A:middle
-So let's now look at
-the specific node types.
-
 00:08:03.796 --> 00:08:05.256 A:middle
 The first node that
 we're going to talk
@@ -723,7 +660,7 @@ busses which they then mix
 to a single output, which
 goes out on the output bus.
 
-00:08:41.145 --> 00:08:43.346 A:middle
+00:08:41.146 --> 00:08:43.346 A:middle
 When you use a mixer,
 you get control
 
@@ -751,10 +688,6 @@ that you want to hear.
 
 00:08:58.236 --> 00:08:59.556 A:middle
 So you create a mix.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.656 --> 00:09:03.806 A:middle
 You now have control
@@ -843,10 +776,6 @@ of the output node
 and connects it together
 for you by default.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.326 --> 00:10:02.346 A:middle
 The difference here
 between the mixer node
@@ -930,13 +859,6 @@ so I have an active chain.
 00:10:59.746 --> 00:11:01.486 A:middle
 When I then start up the engine,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.746 --> 00:11:01.486 A:middle
-When I then start up the engine,
-
 00:11:01.846 --> 00:11:03.776 A:middle
 an active render
 thread is created
@@ -1006,14 +928,6 @@ you can schedule either multiple
 00:11:54.666 --> 00:11:57.956 A:middle
 buffers and as each
 buffer is consumed
-
-00:11:57.956 --> 00:12:00.076 A:middle
-by the player you get
-an individual callback,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.956 --> 00:12:00.076 A:middle
 by the player you get
@@ -1089,14 +1003,6 @@ it on the render thread.
 00:12:55.516 --> 00:12:59.526 A:middle
 In a similar manner, I can
 work with multiple buffers.
-
-00:12:59.926 --> 00:13:02.086 A:middle
-So over here I have
-multiple buffers.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.926 --> 00:13:02.086 A:middle
 So over here I have
@@ -1179,14 +1085,6 @@ aware of the player.
 I'm now going to
 split my example up
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.816 --> 00:14:02.986 A:middle
-I'm now going to
-split my example up
-
 00:14:02.986 --> 00:14:05.066 A:middle
 and show how you can
 first work with a file.
@@ -1255,14 +1153,6 @@ I can pass in a block over here.
 00:14:53.146 --> 00:14:56.986 A:middle
 So in a similar manner I can
 work with a buffer as well.
-
-00:14:57.636 --> 00:15:01.066 A:middle
-Let's say that I create
-an AVAudioPCMBuffer object
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:57.636 --> 00:15:01.066 A:middle
 Let's say that I create
@@ -1349,13 +1239,6 @@ the different buffer
 00:15:59.946 --> 00:16:01.186 A:middle
 scheduling options.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.946 --> 00:16:01.186 A:middle
-scheduling options.
-
 00:16:03.436 --> 00:16:06.596 A:middle
 In all of the examples that
 I'm going to talk about now,
@@ -1425,14 +1308,6 @@ schedule the new buffer
 with the AVAudioPlayerNode
 BufferInterrupts option.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.346 --> 00:17:01.486 A:middle
-with the AVAudioPlayerNode
-BufferInterrupts option.
-
 00:17:02.056 --> 00:17:04.476 A:middle
 So that will interrupt the
 currently playing buffer
@@ -1441,15 +1316,15 @@ currently playing buffer
 and start playing my
 new buffer right away.
 
-00:17:08.445 --> 00:17:11.616 A:middle
+00:17:08.446 --> 00:17:11.616 A:middle
 Let's now look at the different
 variants with a looping buffer.
 
-00:17:12.346 --> 00:17:14.695 A:middle
+00:17:12.346 --> 00:17:14.696 A:middle
 So like I said earlier,
 if I have a buffer that's
 
-00:17:14.695 --> 00:17:17.016 A:middle
+00:17:14.696 --> 00:17:17.016 A:middle
 to be played in a looped
 fashion, like a sound effect,
 
@@ -1461,7 +1336,7 @@ data in that buffer and schedule
 that buffer with the
 AVAudioPlayerNodeBufferLoops
 
-00:17:24.046 --> 00:17:24.435 A:middle
+00:17:24.046 --> 00:17:24.436 A:middle
 option.
 
 00:17:25.346 --> 00:17:27.976 A:middle
@@ -1500,14 +1375,6 @@ an interesting one.
 00:17:54.626 --> 00:17:56.936 A:middle
 So if you have a looping
 buffer but you want
-
-00:17:56.936 --> 00:18:00.636 A:middle
-to let the current loop finish
-before you start playing your
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.936 --> 00:18:00.636 A:middle
 to let the current loop finish
@@ -1590,14 +1457,6 @@ implement this in code is
 to first schedule the attack
 buffer with my options set
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.346 --> 00:19:00.786 A:middle
-to first schedule the attack
-buffer with my options set
-
 00:19:00.786 --> 00:19:04.576 A:middle
 to nil and then schedule
 the sustain buffer
@@ -1667,14 +1526,6 @@ So here's an example of that.
 00:19:56.796 --> 00:19:59.276 A:middle
 In this case I'm just
 going to schedule a buffer
-
-00:19:59.276 --> 00:20:01.936 A:middle
-to play 10 seconds
-in the future.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.276 --> 00:20:01.936 A:middle
 to play 10 seconds
@@ -1752,14 +1603,6 @@ mix of the game.
 You can do all of
 that using a node tap.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.456 --> 00:21:00.976 A:middle
-You can do all of
-that using a node tap.
-
 00:21:01.286 --> 00:21:05.096 A:middle
 And what that is, is essentially
 a tap that you install
@@ -1823,10 +1666,6 @@ output bus 0 with a buffer size
 00:21:53.426 --> 00:21:59.766 A:middle
 of 4096 frames and the mixer's
 output format for that bus.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.106 --> 00:22:03.716 A:middle
 Within the block I have an
@@ -1900,14 +1739,6 @@ node to the mixer nodes
 00:22:55.946 --> 00:22:57.616 A:middle
 and that's connected
 to the output node.
-
-00:22:58.226 --> 00:23:01.126 A:middle
-So when I start the engine,
-this is an active chain
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.226 --> 00:23:01.126 A:middle
 So when I start the engine,
@@ -1997,14 +1828,6 @@ just one line of code.
 Using the engine, you
 disconnect the node output
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:57.896 --> 00:24:00.776 A:middle
-Using the engine, you
-disconnect the node output
-
 00:24:00.776 --> 00:24:02.396 A:middle
 of the input node.
 
@@ -2073,10 +1896,6 @@ effect, they take some amount
 of data in, they process
 it and push that data out.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.736 --> 00:25:03.066 A:middle
 We have two main
 categories of effects.
@@ -2140,10 +1959,6 @@ cannot connect a TimeEffect
 
 00:25:57.716 --> 00:25:59.326 A:middle
 directly with the input node.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.226 --> 00:26:02.556 A:middle
 Because, when you have
@@ -2216,14 +2031,6 @@ of the source content.
 00:26:53.796 --> 00:26:56.476 A:middle
 So let's say that you have a
 speech file that you're playing
-
-00:26:56.606 --> 00:27:00.296 A:middle
-and you want to pitch the voice
-up to sound like a chipmunk.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:56.606 --> 00:27:00.296 A:middle
 and you want to pitch the voice
@@ -2302,14 +2109,6 @@ filter parameters.
 Connecting the EQ
 is no different
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.586 --> 00:28:04.466 A:middle
-Connecting the EQ
-is no different
-
 00:28:04.566 --> 00:28:06.376 A:middle
 than what we've already seen.
 
@@ -2375,10 +2174,6 @@ controls a node tap
 that I've installed
 on the main mixer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.846 --> 00:29:04.526 A:middle
 So when I hit Record, a tap
 gets installed and I capture
@@ -2440,10 +2235,6 @@ in that performance.
 So when we go back and listen
 to that we should hear that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.386 --> 00:30:01.846 A:middle
 So let me do that.
 
@@ -2470,14 +2261,6 @@ AVAudioEngine in action.
 
 00:30:55.966 --> 00:30:57.116 A:middle
 Let's go back to slides.
-
-00:30:57.996 --> 00:31:01.216 A:middle
-Alright, so two of the
-settings that I was changing
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.996 --> 00:31:01.216 A:middle
 Alright, so two of the
@@ -2539,14 +2322,6 @@ is not connected to a mixer
 00:31:53.666 --> 00:31:55.806 A:middle
 and you make changes to
 the protocol's properties,
-
-00:31:56.596 --> 00:32:00.546 A:middle
-those changes are cached in the
-source node and then applied
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:56.596 --> 00:32:00.546 A:middle
 those changes are cached in the
@@ -2628,14 +2403,6 @@ been able to carry settings
 that belong to the input
 bus of a mixer along
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.576 --> 00:33:02.906 A:middle
-that belong to the input
-bus of a mixer along
-
 00:33:02.906 --> 00:33:04.346 A:middle
 with the source node itself.
 
@@ -2706,14 +2473,6 @@ your sound will play.
 With AVAudioPlayer
 you can't play sounds
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.866 --> 00:34:00.316 A:middle
-With AVAudioPlayer
-you can't play sounds
-
 00:34:00.316 --> 00:34:01.496 A:middle
 that you have in buffers.
 
@@ -2735,23 +2494,23 @@ and cover cases one
 00:34:12.716 --> 00:34:15.146 A:middle
 and two; we can easily do so.
 
-00:34:15.906 --> 00:34:17.775 A:middle
+00:34:15.906 --> 00:34:17.776 A:middle
 For short sounds we
 can just load them
 
-00:34:17.775 --> 00:34:20.946 A:middle
+00:34:17.776 --> 00:34:20.946 A:middle
 into AVAudioBuffer objects
 and schedule them on a player.
 
-00:34:22.005 --> 00:34:25.706 A:middle
+00:34:22.006 --> 00:34:25.706 A:middle
 For music you can just create
 an AVAudioFile log object
 
-00:34:25.795 --> 00:34:27.876 A:middle
+00:34:25.796 --> 00:34:27.876 A:middle
 and schedule that
 directly on a player.
 
-00:34:28.815 --> 00:34:31.386 A:middle
+00:34:28.816 --> 00:34:31.386 A:middle
 So how do you play sounds
 that need to be spatialized?
 
@@ -2766,32 +2525,24 @@ node called the environment node
 and this is essentially
 a 3D mixer.
 
-00:34:40.946 --> 00:34:44.775 A:middle
+00:34:40.946 --> 00:34:44.776 A:middle
 So when you create an instance
 of the environment node.
 
-00:34:44.775 --> 00:34:48.706 A:middle
+00:34:44.776 --> 00:34:48.706 A:middle
 You have a 3D space and you
 get a listener that's implicit
 
 00:34:48.746 --> 00:34:49.926 A:middle
 to that 3D space.
 
-00:34:50.976 --> 00:34:53.025 A:middle
+00:34:50.976 --> 00:34:53.026 A:middle
 All of the source
 nodes that connect
 
 00:34:53.656 --> 00:34:58.026 A:middle
 to the environment node act
 as sources in this 3D space.
-
-00:34:59.366 --> 00:35:01.416 A:middle
-So the environment
-has some attributes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.366 --> 00:35:01.416 A:middle
 So the environment
@@ -2876,14 +2627,6 @@ of the source attributes.
 So what makes things
 sound 3D or virtual 3D?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.766 --> 00:36:04.326 A:middle
-So what makes things
-sound 3D or virtual 3D?
-
 00:36:04.786 --> 00:36:07.436 A:middle
 Well, we have a number of
 attributes and some belong
@@ -2955,14 +2698,6 @@ depending on the ears.
 So we have several rendering
 algorithms and each one
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.156 --> 00:37:01.926 A:middle
-So we have several rendering
-algorithms and each one
-
 00:37:01.926 --> 00:37:04.216 A:middle
 of them model these
 spatial cues differently.
@@ -3024,13 +2759,6 @@ the source and the listener.
 00:37:53.326 --> 00:37:58.116 A:middle
 So the direct path of sound is
 muffled whereas the reflected
-
-00:37:58.176 --> 00:38:00.746 A:middle
-paths across the walls are clear
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:58.176 --> 00:38:00.746 A:middle
 paths across the walls are clear
@@ -3109,14 +2837,6 @@ two points of interest.
 There's the reference
 distance, which is the distance
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:58.796 --> 00:39:01.626 A:middle
-There's the reference
-distance, which is the distance
-
 00:39:01.626 --> 00:39:05.236 A:middle
 above which we start applying
 some amount of attenuation.
@@ -3181,14 +2901,6 @@ of factory presets.
 00:39:53.166 --> 00:39:56.536 A:middle
 Now once you pick the type
 of reverb you want to use,
-
-00:39:57.296 --> 00:40:00.306 A:middle
-you can set a blend
-amount for each source
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:57.296 --> 00:40:00.306 A:middle
 you can set a blend
@@ -3276,14 +2988,6 @@ the player or the input node,
 talk to these mixers using
 the AVAudioMixing protocol.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.096 --> 00:41:02.836 A:middle
-talk to these mixers using
-the AVAudioMixing protocol.
-
 00:41:03.896 --> 00:41:05.826 A:middle
 So I just wanted
 to point out that
@@ -3352,14 +3056,6 @@ from the mixer and connect it
 00:41:53.026 --> 00:41:57.836 A:middle
 to the environment node, the
 pan property will now be cached.
-
-00:41:57.946 --> 00:42:00.956 A:middle
-It doesn't take effect because
-it's a 2D mixing property.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:57.946 --> 00:42:00.956 A:middle
 It doesn't take effect because
@@ -3448,14 +3144,6 @@ that to the main mixer.
 Let's say that I present
 some UI for the users
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.746 --> 00:43:02.346 A:middle
-Let's say that I present
-some UI for the users
-
 00:43:02.346 --> 00:43:04.166 A:middle
 so that he can tweak
 the EQ settings,
@@ -3512,14 +3200,6 @@ SceneKit for the graphics
 00:43:56.986 --> 00:43:59.146 A:middle
 and SceneKit also comes
 with a physics engine.
-
-00:43:59.276 --> 00:44:01.306 A:middle
-So this works nicely
-with AVAudioEngine.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:59.276 --> 00:44:01.306 A:middle
 So this works nicely
@@ -3595,14 +3275,6 @@ physics engine lets me know
 that a collision has happened
 with some other surface.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.946 --> 00:45:02.326 A:middle
-that a collision has happened
-with some other surface.
-
 00:45:02.666 --> 00:45:07.406 A:middle
 And I get the point of
 collision and also the impulse.
@@ -3669,10 +3341,6 @@ the end of our talk.
 00:45:56.936 --> 00:45:59.376 A:middle
 So let's quickly summarize all
 the things we've seen today.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:00.586 --> 00:46:02.516 A:middle
 We started off with
@@ -3747,14 +3415,6 @@ So I just wanted to point
 out that node taps are also
 a useful debugging tool.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:58.206 --> 00:47:01.026 A:middle
-out that node taps are also
-a useful debugging tool.
-
 00:47:01.666 --> 00:47:03.776 A:middle
 Let's say that you have
 a number of connections
@@ -3816,4 +3476,3 @@ who's our Graphics
 00:47:42.916 --> 00:47:45.666 A:middle
 and Game Technologies
 Evangelist.
-

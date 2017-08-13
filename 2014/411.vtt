@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:12.706 A:middle
 [ Silence ]
@@ -84,14 +83,6 @@ a couple of themes,
 00:00:57.986 --> 00:00:58.616 A:middle
 themes that you're
 going to be --
-
-00:00:58.616 --> 00:01:00.686 A:middle
-have been familiar with
-so far in the conference.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.616 --> 00:01:00.686 A:middle
 have been familiar with
@@ -194,14 +185,6 @@ best is in Interface Builder.
 And so we've got some tools
 to help you seamlessly work
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.546 --> 00:02:02.196 A:middle
-And so we've got some tools
-to help you seamlessly work
-
 00:02:02.196 --> 00:02:05.806 A:middle
 between both of our platforms
 using really familiar
@@ -287,13 +270,6 @@ and Applause ]
 00:02:57.056 --> 00:02:59.166 A:middle
 Now if I tap on one of these
 sites it's going to slide over
-
-00:02:59.166 --> 00:03:00.106 A:middle
-and give me a little slideshow.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.166 --> 00:03:00.106 A:middle
 and give me a little slideshow.
@@ -394,13 +370,6 @@ we'll fill in a little bit.
 00:03:59.886 --> 00:04:00.826 A:middle
 There's a couple of ways
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.886 --> 00:04:00.826 A:middle
-There's a couple of ways
-
 00:04:00.826 --> 00:04:02.286 A:middle
 to add constraints
 in Interface Builder.
@@ -497,14 +466,6 @@ Now if I look back at my mockup,
 you can see that the text
 is really not centered
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.786 --> 00:05:04.356 A:middle
-you can see that the text
-is really not centered
-
 00:05:04.356 --> 00:05:04.956 A:middle
 with the tile view.
 
@@ -586,14 +547,6 @@ just flips the constraint.
 00:05:56.956 --> 00:05:58.426 A:middle
 This is mathematically
 equivalent
-
-00:05:58.426 --> 00:06:00.876 A:middle
-to the other constraint but
-I can express it in a way
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.426 --> 00:06:00.876 A:middle
 to the other constraint but
@@ -686,14 +639,6 @@ to get my views all laid out.
 And I can show this by
 resizing my Table View.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.526 --> 00:07:02.146 A:middle
-And I can show this by
-resizing my Table View.
-
 00:07:02.146 --> 00:07:04.866 A:middle
 Now, one of the things
 I love about getting
@@ -778,14 +723,6 @@ I mean really, how easy it is.
 The first thing we need to do,
 Step 1 of 4, is we're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.366 --> 00:08:02.166 A:middle
-The first thing we need to do,
-Step 1 of 4, is we're going
-
 00:08:02.166 --> 00:08:04.206 A:middle
 to create a custom framework.
 
@@ -836,14 +773,14 @@ builds, it's going to copy
 that framework into
 the app bundle.
 
-00:08:35.846 --> 00:08:39.035 A:middle
+00:08:35.846 --> 00:08:39.036 A:middle
 So let's go ahead and
 create that framework.
 
 00:08:39.116 --> 00:08:40.466 A:middle
 And that's it.
 
-00:08:40.466 --> 00:08:43.285 A:middle
+00:08:40.466 --> 00:08:43.286 A:middle
 I have a custom framework
 and it's all ready for me.
 
@@ -865,10 +802,6 @@ my group here, choose New File.
 
 00:08:57.426 --> 00:08:59.406 A:middle
 I want a Cocoa Touch class.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.416 --> 00:09:04.016 A:middle
 And I'm going to call
@@ -939,14 +872,6 @@ back to the storyboard,
 00:09:53.976 --> 00:09:55.376 A:middle
 just using the recent
 files here.
-
-00:09:58.056 --> 00:10:00.596 A:middle
-And let me go ahead and
-select my tile view.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.056 --> 00:10:00.596 A:middle
 And let me go ahead and
@@ -1047,14 +972,6 @@ a new tab, a new window,
 I can even target splits in
 tabs that aren't even open.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.816 --> 00:11:03.136 A:middle
-I can even target splits in
-tabs that aren't even open.
-
 00:11:03.446 --> 00:11:05.366 A:middle
 So, very, very flexible to get
 
@@ -1132,14 +1049,6 @@ this grey ring and then fill it
 
 00:11:54.976 --> 00:11:56.206 A:middle
 in with a colored one.
-
-00:11:56.326 --> 00:12:01.666 A:middle
-So let's create a
-new shape layer
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:56.326 --> 00:12:01.666 A:middle
 So let's create a
@@ -1226,13 +1135,6 @@ is showing me the result
 
 00:12:53.326 --> 00:12:55.146 A:middle
 of my code so far.
-
-00:12:56.516 --> 00:13:01.076 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:56.516 --> 00:13:01.076 A:middle
 [ Applause ]
@@ -1326,14 +1228,6 @@ gave us, so we'll fill that in.
 And, wow, that looks
 really, really light.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.696 --> 00:14:03.416 A:middle
-And, wow, that looks
-really, really light.
-
 00:14:03.416 --> 00:14:06.616 A:middle
 Hmm. I'm going to
 change this to 0.3.
@@ -1409,14 +1303,6 @@ bunch of different spots.
 So one of these spots that
 I'm going to call this from is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.536 --> 00:15:02.996 A:middle
-So one of these spots that
-I'm going to call this from is
-
 00:15:02.996 --> 00:15:04.746 A:middle
 from changing the rating itself.
 
@@ -1487,13 +1373,6 @@ and mark it as IBInspectable...
 00:15:57.866 --> 00:15:59.716 A:middle
 This is a flag for
 Interface Builder
-
-00:15:59.716 --> 00:16:01.886 A:middle
-that says, "Hey, this property?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.716 --> 00:16:01.886 A:middle
 that says, "Hey, this property?
@@ -1578,26 +1457,18 @@ to worry about where
 to store this data
 and how to encode it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.996 --> 00:17:01.226 A:middle
-to store this data
-and how to encode it.
-
 00:17:01.416 --> 00:17:02.996 A:middle
 We take care of all
 of that for you
 
-00:17:02.996 --> 00:17:04.955 A:middle
+00:17:02.996 --> 00:17:04.956 A:middle
 at design time and at runtime.
 
-00:17:05.516 --> 00:17:08.715 A:middle
+00:17:05.516 --> 00:17:08.716 A:middle
 The different types
 that I can use
 
-00:17:08.715 --> 00:17:10.226 A:middle
+00:17:08.716 --> 00:17:10.226 A:middle
 for Inspectables are
 anything supported
 
@@ -1609,7 +1480,7 @@ attributes: Booleans, strings,
 numbers, values like points and
 sizes and rects and even images,
 
-00:17:19.396 --> 00:17:25.185 A:middle
+00:17:19.396 --> 00:17:25.186 A:middle
 which is new this year.
 
 00:17:25.376 --> 00:17:29.796 A:middle
@@ -1653,14 +1524,6 @@ how good that rating is.
 00:17:52.236 --> 00:17:56.686 A:middle
 Red means "you better catch up,"
 and green might be "well done!"
-
-00:17:57.266 --> 00:18:00.706 A:middle
-So let's go ahead
-and change the color
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.266 --> 00:18:00.706 A:middle
 So let's go ahead
@@ -1759,14 +1622,6 @@ be behaving as expected.
 Now the next place that I
 can use Inspectables in terms
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.276 --> 00:19:06.056 A:middle
-Now the next place that I
-can use Inspectables in terms
-
 00:19:06.056 --> 00:19:10.616 A:middle
 of playing with my views is
 also in just experimenting
@@ -1844,14 +1699,6 @@ redrawing my view.
 
 00:19:56.066 --> 00:19:57.416 A:middle
 It's interacting with it just
-
-00:19:57.416 --> 00:20:00.426 A:middle
-like any other view that's
-inside of Interface Builder.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.416 --> 00:20:00.426 A:middle
 like any other view that's
@@ -1940,14 +1787,6 @@ of that square layer behind it.
 00:20:57.286 --> 00:20:59.336 A:middle
 So let's get an image
 to set inside of here.
-
-00:20:59.336 --> 00:21:03.326 A:middle
-Now I don't want
-to ship any images
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.336 --> 00:21:03.326 A:middle
 Now I don't want
@@ -2045,14 +1884,6 @@ my entire team.
 So Interface Builder will
 actually pass the paths
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:57.146 --> 00:22:00.576 A:middle
-So Interface Builder will
-actually pass the paths
-
 00:22:01.156 --> 00:22:05.156 A:middle
 to your projects through the
 environment and allow you
@@ -2127,13 +1958,6 @@ missed something.
 00:22:56.926 --> 00:22:59.776 A:middle
 Wouldn't it be great if I
 could just debug my view right
-
-00:22:59.776 --> 00:23:00.476 A:middle
-in the canvas?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.776 --> 00:23:00.476 A:middle
 in the canvas?
@@ -2222,14 +2046,6 @@ And, oh, interesting.
 That method never
 actually gets called.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.176 --> 00:24:00.776 A:middle
-That method never
-actually gets called.
-
 00:24:01.426 --> 00:24:03.456 A:middle
 What I must be doing is
 I must have forgotten
@@ -2308,14 +2124,6 @@ It's called Star Rating.
 00:24:55.656 --> 00:24:58.336 A:middle
 And I'm going to go ahead
 and change this to 3.5.
-
-00:24:59.316 --> 00:25:01.176 A:middle
-And when I zoom back
-out and zoom in instead
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.316 --> 00:25:01.176 A:middle
 And when I zoom back
@@ -2408,14 +2216,6 @@ of the file to add our new code.
 So I've overwritten our
 intrinsicContentSize method
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.416 --> 00:26:02.276 A:middle
-So I've overwritten our
-intrinsicContentSize method
-
 00:26:02.666 --> 00:26:04.516 A:middle
 and now Interface
 Builder is going
@@ -2496,14 +2296,6 @@ called viewForBaselineLayout.
 I'm going to return the
 label that's internal
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.776 --> 00:27:02.606 A:middle
-I'm going to return the
-label that's internal
-
 00:27:02.606 --> 00:27:03.776 A:middle
 to my custom view.
 
@@ -2571,14 +2363,6 @@ showing up in Interface Builder:
 00:27:54.586 --> 00:27:56.416 A:middle
 Why do you need to create a
 framework in the first place?
-
-00:27:56.946 --> 00:28:01.016 A:middle
-The way that this feature works
-is that when you define a class
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:56.946 --> 00:28:01.016 A:middle
 The way that this feature works
@@ -2664,10 +2448,6 @@ hook up your custom view
 00:28:57.316 --> 00:28:59.866 A:middle
 with the class that
 you just created.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.596 --> 00:29:02.516 A:middle
 Live Views allows you to
@@ -2765,14 +2545,6 @@ called Size Classes.
 Size Classes is a feature of iOS
 8 and Xcode 6 that allows you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.626 --> 00:30:03.216 A:middle
-Size Classes is a feature of iOS
-8 and Xcode 6 that allows you
-
 00:30:03.216 --> 00:30:05.746 A:middle
 to specify how your View
 Controller and your UI adapt
@@ -2846,14 +2618,6 @@ when we're in landscape
 00:30:54.636 --> 00:30:57.826 A:middle
 on the iPhone, I'd really like
 that bottom bar to tighten
-
-00:30:57.826 --> 00:31:00.546 A:middle
-up a little bit, to make
-more room for those images.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.826 --> 00:31:00.546 A:middle
 up a little bit, to make
@@ -2951,14 +2715,6 @@ configuration.
 This says that it doesn't
 matter which device
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.796 --> 00:32:01.646 A:middle
-This says that it doesn't
-matter which device
-
 00:32:01.646 --> 00:32:04.716 A:middle
 or which orientation or what the
 size of my View controller is,
@@ -3049,13 +2805,6 @@ to upgrade all of your segues
 00:32:59.246 --> 00:33:01.636 A:middle
 to the new Adaptive Segues.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.246 --> 00:33:01.636 A:middle
-to the new Adaptive Segues.
-
 00:33:01.636 --> 00:33:03.196 A:middle
 Now, I'm going to talk
 about that in a little bit.
@@ -3141,14 +2890,6 @@ the View Controllers
 for that particular
 configuration to reflect that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.906 --> 00:34:01.126 A:middle
-for that particular
-configuration to reflect that.
-
 00:34:01.496 --> 00:34:03.596 A:middle
 And now, any edits
 that I make inside
@@ -3160,11 +2901,11 @@ configuration will be customized
 00:34:06.546 --> 00:34:07.566 A:middle
 for that configuration.
 
-00:34:08.436 --> 00:34:11.005 A:middle
+00:34:08.436 --> 00:34:11.006 A:middle
 So let's go ahead and do
 that now for the constant --
 
-00:34:11.005 --> 00:34:12.896 A:middle
+00:34:11.006 --> 00:34:12.896 A:middle
 the height constant
 -- on our bar.
 
@@ -3183,7 +2924,7 @@ going to do is I'm going
 00:34:17.876 --> 00:34:19.136 A:middle
 to open the Size Inspector.
 
-00:34:19.275 --> 00:34:23.326 A:middle
+00:34:19.276 --> 00:34:23.326 A:middle
 And you can see here all
 the constraints for my bar.
 
@@ -3207,7 +2948,7 @@ to look at size constraints.
 Then, to change the constant,
 just click once, type in 30,
 
-00:34:41.686 --> 00:34:44.335 A:middle
+00:34:41.686 --> 00:34:44.336 A:middle
 hit Return, and now
 I've customized my bar
 
@@ -3217,20 +2958,12 @@ for Any, Compact.
 00:34:47.516 --> 00:34:53.096 A:middle
 [ Applause ]
 
-00:34:53.596 --> 00:34:55.545 A:middle
+00:34:53.596 --> 00:34:55.546 A:middle
 You can see the result of that
 
-00:34:55.545 --> 00:34:56.775 A:middle
+00:34:55.546 --> 00:34:56.776 A:middle
 if I switch back
 to "Any Any" here.
-
-00:34:56.976 --> 00:35:00.436 A:middle
-And you can see that bar grew
-back to that taller height.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:56.976 --> 00:35:00.436 A:middle
 And you can see that bar grew
@@ -3325,14 +3058,6 @@ the canvas into Compact width.
 00:35:56.406 --> 00:35:57.806 A:middle
 And I don't really
 care what height it is.
-
-00:35:57.806 --> 00:36:01.456 A:middle
-It can, you know, be as tall
-or short as it needs to be.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:57.806 --> 00:36:01.456 A:middle
 It can, you know, be as tall
@@ -3437,10 +3162,6 @@ new -- or not the new --
 00:36:57.046 --> 00:36:59.686 A:middle
 just the existing
 alignment popover here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.486 --> 00:37:02.936 A:middle
 I'm going to choose Horizontal,
@@ -3549,14 +3270,6 @@ very easily.
 And let's see what this
 looks like at runtime.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.466 --> 00:38:01.246 A:middle
-And let's see what this
-looks like at runtime.
-
 00:38:02.636 --> 00:38:04.646 A:middle
 If I go ahead and
 run my application...
@@ -3648,14 +3361,6 @@ onto my master when I'm
 in a more compact
 environment like an iPhone.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:58.986 --> 00:39:02.116 A:middle
-in a more compact
-environment like an iPhone.
-
 00:39:02.266 --> 00:39:05.396 A:middle
 Similarly, with my
 Popover Segue,
@@ -3742,14 +3447,6 @@ Controller Selectors,
 Show View Controller and
 Show Detail View Controller.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.486 --> 00:40:00.976 A:middle
-Show View Controller and
-Show Detail View Controller.
-
 00:40:01.136 --> 00:40:05.106 A:middle
 You can override these
 for custom containers
@@ -3816,14 +3513,6 @@ button for closing this.
 00:40:55.656 --> 00:40:59.526 A:middle
 And so, if I had time, I
 could go ahead and add this,
-
-00:40:59.786 --> 00:41:01.046 A:middle
-and you're welcome to
-come down to the labs
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.786 --> 00:41:01.046 A:middle
 and you're welcome to
@@ -3917,14 +3606,6 @@ Segue Types because it's going
 00:41:56.956 --> 00:41:59.806 A:middle
 to make your application
 be able to (hence,
-
-00:41:59.806 --> 00:42:02.426 A:middle
-as their name suggests)
-adapt very easily
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.806 --> 00:42:02.426 A:middle
 as their name suggests)
@@ -4032,13 +3713,6 @@ inside your application,
 00:42:58.856 --> 00:43:00.186 A:middle
 both for iOS and for OS X.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:58.856 --> 00:43:00.186 A:middle
-both for iOS and for OS X.
-
 00:43:00.186 --> 00:43:03.026 A:middle
 And one of the first new
 features that we've added
@@ -4133,14 +3807,6 @@ that causes it to be inset.
 00:43:56.286 --> 00:43:59.516 A:middle
 And now you can also show
 that information and convey
-
-00:43:59.516 --> 00:44:02.476 A:middle
-that inside of Interface
-Builder and your Asset Catalogs.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:59.516 --> 00:44:02.476 A:middle
 that inside of Interface
@@ -4241,13 +3907,6 @@ at scale for printing
 00:44:58.536 --> 00:45:00.466 A:middle
 which is a really cool bonus.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.536 --> 00:45:00.466 A:middle
-which is a really cool bonus.
-
 00:45:00.466 --> 00:45:03.796 A:middle
 And you're also able to mix and
 match bitmap and vector images
@@ -4339,14 +3998,6 @@ to your own applications.
 00:45:55.256 --> 00:45:57.786 A:middle
 VisualEffectView is supported
 completely in Interface Builder.
-
-00:45:58.086 --> 00:46:00.706 A:middle
-And you can have your own
-custom views participate
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:58.086 --> 00:46:00.706 A:middle
 And you can have your own
@@ -4447,10 +4098,6 @@ over and over.
 00:46:57.326 --> 00:46:58.646 A:middle
 This is a fantastic timesaver.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:00.026 --> 00:47:01.366 A:middle
 All right.
 
@@ -4540,14 +4187,6 @@ Hmm. Bump the size up to
 00:47:56.166 --> 00:47:59.296 A:middle
 Okay. And now, since those fonts
 are just a little bit different
-
-00:47:59.296 --> 00:48:02.396 A:middle
-in metrics, I can
-update those frames.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:59.296 --> 00:48:02.396 A:middle
 in metrics, I can
@@ -4663,14 +4302,6 @@ within an OS X Storyboard.
 So, in addition to just being
 familiar to iOS developers,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.866 --> 00:49:04.176 A:middle
-So, in addition to just being
-familiar to iOS developers,
-
 00:49:04.376 --> 00:49:06.276 A:middle
 there's some great
 features within storyboards
@@ -4759,10 +4390,6 @@ running this application,
 
 00:49:55.186 --> 00:49:56.756 A:middle
 on Mac using storyboards.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:00.786 --> 00:50:00.956 A:middle
 Okay.
@@ -4878,14 +4505,6 @@ here on the left.
 Okay? Now all I have
 to do is connect it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:59.096 --> 00:51:00.876 A:middle
-Okay? Now all I have
-to do is connect it
-
 00:51:00.876 --> 00:51:01.656 A:middle
 up to the source code.
 
@@ -4980,14 +4599,6 @@ convenient way
 
 00:51:56.266 --> 00:51:57.316 A:middle
 to develop your applications.
-
-00:51:58.276 --> 00:52:01.506 A:middle
-Okay. You know I'm already kind
-of starting to regret the choice
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:58.276 --> 00:52:01.506 A:middle
 Okay. You know I'm already kind
@@ -5098,14 +4709,6 @@ my connection,
 change my selector name, and
 recreate all those connections
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:59.936 --> 00:53:02.406 A:middle
-change my selector name, and
-recreate all those connections
-
 00:53:02.406 --> 00:53:03.086 A:middle
 that may call into it.
 
@@ -5194,14 +4797,6 @@ I'd like to demonstrate
 00:53:56.196 --> 00:53:59.826 A:middle
 for you is a little bit of how
 Interface Builder participates
-
-00:53:59.876 --> 00:54:02.576 A:middle
-in your localization
-workflow to help improve that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:59.876 --> 00:54:02.576 A:middle
 in your localization
@@ -5307,14 +4902,6 @@ can easily plug those in as well
 and you can test those in
 Interface Builder at design time
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:54:58.176 --> 00:55:01.066 A:middle
-and you can test those in
-Interface Builder at design time
-
 00:55:01.166 --> 00:55:02.496 A:middle
 which is a fantastic timesaver.
 
@@ -5412,14 +4999,5 @@ that you can catch on video.
 Thank you so much and enjoy
 the rest of the conference.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:55:59.636 --> 00:56:00.976 A:middle
-Thank you so much and enjoy
-the rest of the conference.
-
 00:56:01.516 --> 00:56:16.100 A:middle
 [ Applause ]
-

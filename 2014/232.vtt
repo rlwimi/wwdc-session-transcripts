@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.656 --> 00:00:13.056 A:middle
 &gt;&gt; So good afternoon, everybody.
@@ -50,14 +49,6 @@ for our codes since iOS 2.
 00:00:53.746 --> 00:00:58.706 A:middle
 And as you can imagine, the
 decisions that we made back
-
-00:00:58.706 --> 00:01:02.936 A:middle
-in iOS 2 were really
-not the same decisions
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.706 --> 00:01:02.936 A:middle
 in iOS 2 were really
@@ -130,14 +121,6 @@ that goes along with this talk.
 But what makes this sample code
 even more interesting is this
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.226 --> 00:02:02.146 A:middle
-But what makes this sample code
-even more interesting is this
-
 00:02:02.146 --> 00:02:03.806 A:middle
 sample code is distilled
 
@@ -201,10 +184,6 @@ sorts of additions
 00:02:57.626 --> 00:02:59.606 A:middle
 to this sample code
 as time goes on.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.206 --> 00:03:02.976 A:middle
 So, we had some requirements
@@ -271,14 +250,6 @@ these content types
 as you can see has
 multiple sections,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.916 --> 00:04:01.866 A:middle
-as you can see has
-multiple sections,
-
 00:04:02.586 --> 00:04:07.186 A:middle
 multiple different tabs
 within there, we're talking
@@ -298,7 +269,7 @@ On top of that, we really wanted
 to have a single
 loading indicator.
 
-00:04:19.136 --> 00:04:21.935 A:middle
+00:04:19.136 --> 00:04:21.936 A:middle
 One of the things that I think
 is really tremendously important
 
@@ -346,14 +317,6 @@ and this was easy.
 00:04:57.036 --> 00:04:58.276 A:middle
 We could have done
 this in our sleep.
-
-00:04:59.536 --> 00:05:03.426 A:middle
-But, it got more interesting
-on iPad because we needed
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.536 --> 00:05:03.426 A:middle
 But, it got more interesting
@@ -432,10 +395,6 @@ I might wind up having
 00:05:58.796 --> 00:05:59.696 A:middle
 to write my own layout."
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.176 --> 00:06:05.796 A:middle
 In addition, we also needed
 to support pinned headers.
@@ -504,13 +463,6 @@ delete Xcode from their list
 00:06:57.806 --> 00:07:01.406 A:middle
 of favorites and move on.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.806 --> 00:07:01.406 A:middle
-of favorites and move on.
-
 00:07:02.516 --> 00:07:04.906 A:middle
 [ Applause ]
 
@@ -574,10 +526,6 @@ Come on.
 With Swift and all of the
 other stuff they've been doing,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.136 --> 00:08:07.276 A:middle
 those guys-so, those were our
 requirements and that was kind
@@ -613,11 +561,11 @@ lines and pretty pictures.
 So, getting the data right
 is the most important thing
 
-00:08:34.056 --> 00:08:35.885 A:middle
+00:08:34.056 --> 00:08:35.886 A:middle
 and quite frankly, it was
 the thing that I was really,
 
-00:08:35.885 --> 00:08:41.806 A:middle
+00:08:35.886 --> 00:08:41.806 A:middle
 really convolutedly freaked out
 about because five data types
 
@@ -640,10 +588,6 @@ at this is I took all
 00:08:56.206 --> 00:08:59.656 A:middle
 of the designs that our
 HI guys and gals, in fact,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.126 --> 00:09:04.806 A:middle
 mostly a gal had come up with,
@@ -707,10 +651,6 @@ challenges with code reuse
 
 00:09:55.226 --> 00:09:59.956 A:middle
 when it comes to data sources.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.046 --> 00:10:02.346 A:middle
 The traditional approach
@@ -783,14 +723,6 @@ just does innately
 00:10:55.246 --> 00:10:58.276 A:middle
 and the way you wind up with
 sharing common code is you wind
-
-00:10:58.276 --> 00:11:00.446 A:middle
-up pushing it down to
-a common base class,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.276 --> 00:11:00.446 A:middle
 up pushing it down to
@@ -872,10 +804,6 @@ not to implement the data source
 00:11:58.816 --> 00:11:59.586 A:middle
 on your view controller.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.776 --> 00:12:02.226 A:middle
 In fact, I'd go so
 far as to say,
@@ -956,13 +884,6 @@ up our responder chain.
 00:12:59.296 --> 00:13:00.916 A:middle
 I think there's some, you know,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.296 --> 00:13:00.916 A:middle
-I think there's some, you know,
-
 00:13:01.006 --> 00:13:03.216 A:middle
 delegate methods in
 there and whatnot.
@@ -1033,14 +954,6 @@ with a UISegmentedControl
 
 00:13:54.756 --> 00:13:57.956 A:middle
 as part of its base behavior.
-
-00:13:59.066 --> 00:14:02.006 A:middle
-Then there's the
-AAPLComposedDataSource
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.066 --> 00:14:02.006 A:middle
 Then there's the
@@ -1123,14 +1036,6 @@ and it has four segments.
 No surprise, one for
 Details, one for Episodes,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.996 --> 00:15:02.376 A:middle
-No surprise, one for
-Details, one for Episodes,
-
 00:15:02.756 --> 00:15:04.876 A:middle
 one for Reviews and
 one for Trends.
@@ -1185,14 +1090,6 @@ out of the product object.
 00:15:53.556 --> 00:15:59.216 A:middle
 Now, Episodes is just one
 of those basic data sources
-
-00:15:59.306 --> 00:16:00.976 A:middle
-because we've just got
-a list of Episodes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.306 --> 00:16:00.976 A:middle
 because we've just got
@@ -1260,19 +1157,15 @@ performance rather than allowing
 00:16:57.446 --> 00:16:59.526 A:middle
 that to happen in each cell.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.956 --> 00:17:04.036 A:middle
 Then Reviews is another
 composed data source.
 
-00:17:04.526 --> 00:17:07.955 A:middle
+00:17:04.526 --> 00:17:07.956 A:middle
 You're probably getting
 tired of this but it's great.
 
-00:17:07.955 --> 00:17:09.366 A:middle
+00:17:07.956 --> 00:17:09.366 A:middle
 Let me tell you.
 
 00:17:09.366 --> 00:17:12.506 A:middle
@@ -1283,19 +1176,19 @@ for Reviews has one for Ratings
 and another one for
 the Actual Reviews.
 
-00:17:15.695 --> 00:17:19.846 A:middle
+00:17:15.696 --> 00:17:19.846 A:middle
 And we'll actually come back
 to the Reviews data source
 
-00:17:20.146 --> 00:17:23.675 A:middle
+00:17:20.146 --> 00:17:23.676 A:middle
 when we look at how things
 load in the upcoming slides.
 
-00:17:23.675 --> 00:17:27.215 A:middle
+00:17:23.676 --> 00:17:27.216 A:middle
 And then Trends is a
 custom data source.
 
-00:17:27.215 --> 00:17:30.376 A:middle
+00:17:27.216 --> 00:17:30.376 A:middle
 It derives directly from
 the base data source.
 
@@ -1326,14 +1219,6 @@ benefit.
 00:17:53.776 --> 00:17:56.066 A:middle
 Because remember I
 told that we wanted
-
-00:17:56.066 --> 00:18:00.106 A:middle
-to have a single
-loading indicator, right?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.066 --> 00:18:00.106 A:middle
 to have a single
@@ -1402,14 +1287,6 @@ data they need to load.
 They know exactly how to load it
 and they're already responsible
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.356 --> 00:19:02.006 A:middle
-They know exactly how to load it
-and they're already responsible
-
 00:19:02.006 --> 00:19:05.956 A:middle
 for their own task-specific
 logic so they can format it,
@@ -1468,14 +1345,6 @@ AAPLLoadableContentStateMachine,
 
 00:19:56.056 --> 00:19:59.356 A:middle
 it's got a few states.
-
-00:19:59.696 --> 00:20:02.676 A:middle
-It's not as nasty
-as it could be.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.696 --> 00:20:02.676 A:middle
 It's not as nasty
@@ -1558,14 +1427,6 @@ because I am cat crazy.
 And yes, I was heartbroken
 when we switched
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.576 --> 00:21:02.626 A:middle
-And yes, I was heartbroken
-when we switched
-
 00:21:02.626 --> 00:21:04.196 A:middle
 to California landmarks.
 
@@ -1640,14 +1501,6 @@ planned on your machines.
 And we'll see our list of big
 cats right there on our devices.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.786 --> 00:22:03.176 A:middle
-And we'll see our list of big
-cats right there on our devices.
-
 00:22:05.316 --> 00:22:09.476 A:middle
 However, if you know anything
 about cats, they're never
@@ -1714,13 +1567,6 @@ into the Error state.
 00:22:59.846 --> 00:23:01.886 A:middle
 And similarly to No Content,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.846 --> 00:23:01.886 A:middle
-And similarly to No Content,
-
 00:23:02.736 --> 00:23:06.496 A:middle
 if we've configured an Error
 message and an Error title,
@@ -1775,14 +1621,6 @@ everything all at once.
 00:23:53.416 --> 00:23:57.436 A:middle
 And in order to do that,
 we needed a solution
-
-00:23:57.786 --> 00:24:02.246 A:middle
-that was elegant because
-anything less would be
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.786 --> 00:24:02.246 A:middle
 that was elegant because
@@ -1865,14 +1703,6 @@ of hang out there for a bit.
 Then, the next data source
 will get its response,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.496 --> 00:25:03.066 A:middle
-Then, the next data source
-will get its response,
-
 00:25:03.676 --> 00:25:06.096 A:middle
 it does the same thing.
 
@@ -1934,14 +1764,6 @@ Sources were a great way for us
 00:25:57.376 --> 00:25:59.186 A:middle
 to reduce our view
 controller complexity.
-
-00:25:59.366 --> 00:26:03.076 A:middle
-Our view controller only
-does view controllery things.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.366 --> 00:26:03.076 A:middle
 Our view controller only
@@ -2009,13 +1831,6 @@ It worked.
 00:26:59.936 --> 00:27:01.206 A:middle
 It worked actually really well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.936 --> 00:27:01.206 A:middle
-It worked actually really well.
-
 00:27:01.996 --> 00:27:07.826 A:middle
 But I am-how shall I put
 this, hard to please?
@@ -2075,14 +1890,6 @@ the information I kept,
 00:27:51.676 --> 00:27:56.386 A:middle
 the information I didn't keep
 and what I should have kept.
-
-00:27:56.636 --> 00:28:01.456 A:middle
-So first, what did I need to
-keep and where did it belong?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:56.636 --> 00:28:01.456 A:middle
 So first, what did I need to
@@ -2170,14 +1977,6 @@ That's where you'll find them.
 So let's take a look
 at the section metrics.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.616 --> 00:29:03.316 A:middle
-So let's take a look
-at the section metrics.
-
 00:29:03.796 --> 00:29:08.236 A:middle
 So here, we've got some Big
 Cats and naturally we're going
@@ -2232,10 +2031,6 @@ multiple columns so we needed
 
 00:29:58.646 --> 00:29:59.876 A:middle
 to know, based on the section,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.006 --> 00:30:03.206 A:middle
 how many columns it
@@ -2311,10 +2106,6 @@ there we're going to have 20."
 00:30:59.186 --> 00:30:59.926 A:middle
 So we added padding.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:01.196 --> 00:31:04.076 A:middle
 It actually wound up being
 hugely helpful when we needed
@@ -2381,14 +2172,6 @@ the header to reach the top pin
 and change to be blue,
 and it would need to know
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:55.896 --> 00:32:00.046 A:middle
-and change to be blue,
-and it would need to know
-
 00:32:00.046 --> 00:32:01.386 A:middle
 that it was pinned
 in order to do that.
@@ -2449,13 +2232,6 @@ these four items so don't try.
 00:32:54.876 --> 00:32:58.666 A:middle
 But this is how we
 separated our global headers
-
-00:32:59.356 --> 00:33:00.956 A:middle
-from everything else.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.356 --> 00:33:00.956 A:middle
 from everything else.
@@ -2530,14 +2306,6 @@ have heard Olivier mention
 that you want to be really
 careful about using invalidation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.126 --> 00:34:03.116 A:middle
-that you want to be really
-careful about using invalidation
-
 00:34:03.606 --> 00:34:04.726 A:middle
 or you want to be really careful
 
@@ -2548,7 +2316,7 @@ I should say.
 00:34:07.036 --> 00:34:08.766 A:middle
 And that's exactly the case.
 
-00:34:09.186 --> 00:34:12.735 A:middle
+00:34:09.186 --> 00:34:12.736 A:middle
 You might be tempted to
 build the most perfect,
 
@@ -2558,15 +2326,15 @@ single-pass layout engine.
 00:34:16.876 --> 00:34:19.726 A:middle
 Don't, because what you'll wind
 
-00:34:19.726 --> 00:34:23.985 A:middle
+00:34:19.726 --> 00:34:23.986 A:middle
 up with is absolute
 efficiency the first time.
 
-00:34:24.755 --> 00:34:27.376 A:middle
+00:34:24.756 --> 00:34:27.376 A:middle
 And then someone will come in
 and-the collection will come in
 
-00:34:27.376 --> 00:34:29.735 A:middle
+00:34:27.376 --> 00:34:29.736 A:middle
 and say, "Hey, this
 cell has changed."
 
@@ -2574,7 +2342,7 @@ cell has changed."
 And you'll have to
 re-layout everything.
 
-00:34:33.846 --> 00:34:36.795 A:middle
+00:34:33.846 --> 00:34:36.796 A:middle
 Or the origin has changed
 because you've scrolled
 
@@ -2589,11 +2357,11 @@ Your performance will die.
 So let's take a look at the
 pseudo-code so to speak,
 
-00:34:45.596 --> 00:34:47.775 A:middle
+00:34:45.596 --> 00:34:47.776 A:middle
 for the layout that
 we came up with.
 
-00:34:48.585 --> 00:34:51.326 A:middle
+00:34:48.586 --> 00:34:51.326 A:middle
 And then, we're going
 to show you a little bit
 
@@ -2604,14 +2372,6 @@ for one of our sections.
 00:34:55.166 --> 00:34:58.026 A:middle
 And I'll think you'll get a
 good sense of why breaking this
-
-00:34:58.026 --> 00:35:00.696 A:middle
-up into sections is
-really important.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.026 --> 00:35:00.696 A:middle
 up into sections is
@@ -2693,14 +2453,6 @@ headers and any pinned headers
 that might have been
 defined within the content.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.846 --> 00:36:03.456 A:middle
-that might have been
-defined within the content.
-
 00:36:03.526 --> 00:36:06.966 A:middle
 So, I make that single pass
 and I layout everything.
@@ -2752,10 +2504,6 @@ very least specific data source,
 00:36:58.056 --> 00:36:59.576 A:middle
 which is the Segmented
 Data Source.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.316 --> 00:37:03.516 A:middle
 Now in this case, these are
@@ -2826,14 +2574,6 @@ on the actual color.
 00:37:53.846 --> 00:37:57.176 A:middle
 So, we have these
 overrides for rowHeight
-
-00:37:57.936 --> 00:38:01.666 A:middle
-and we have a new attribute for
-the selectedBackgroundColor.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:57.936 --> 00:38:01.666 A:middle
 and we have a new attribute for
@@ -2911,14 +2651,6 @@ So let me implement
 ViewUpdates and I'll just
 grab the array of updates.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.336 --> 00:39:04.476 A:middle
-ViewUpdates and I'll just
-grab the array of updates.
-
 00:39:05.116 --> 00:39:08.806 A:middle
 I'll just stash those over
 here because I need them.
@@ -2988,14 +2720,6 @@ Prepare for layout.
 You probably already implement
 this if you're doing a layout
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.136 --> 00:40:01.636 A:middle
-You probably already implement
-this if you're doing a layout
-
 00:40:02.476 --> 00:40:04.826 A:middle
 but there's some information
 that we need to capture here,
@@ -3055,14 +2779,6 @@ to items, all the IndexPaths
 00:40:54.836 --> 00:40:58.176 A:middle
 to supplementary views, all the
 IndexPaths to decoration views.
-
-00:40:59.386 --> 00:41:01.246 A:middle
-Remember I said,
-keep everything.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.386 --> 00:41:01.246 A:middle
 Remember I said,
@@ -3134,14 +2850,6 @@ off the screen.
 
 00:41:56.696 --> 00:41:57.796 A:middle
 It gets a little bit tricky.
-
-00:41:58.526 --> 00:42:00.036 A:middle
-And for the sake
-of the examples,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:58.526 --> 00:42:00.036 A:middle
 And for the sake
@@ -3220,14 +2928,6 @@ here I've got my old content
 and it's 320 by 1000 and
 I'm scrolled all the way
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:58.396 --> 00:43:02.426 A:middle
-and it's 320 by 1000 and
-I'm scrolled all the way
-
 00:43:03.226 --> 00:43:04.546 A:middle
 to the bottom.
 
@@ -3291,14 +2991,6 @@ contentOffset of 0, 432.
 00:43:55.366 --> 00:43:59.546 A:middle
 And this time, I propose-give
 a new contentOffset of 0,
-
-00:43:59.546 --> 00:44:04.206 A:middle
-0 and notice, whoosh,
-everything slides down
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:59.546 --> 00:44:04.206 A:middle
 0 and notice, whoosh,
@@ -3371,14 +3063,6 @@ on the screen after the update.
 finalLayoutAttributes is
 called if the view was
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:57.836 --> 00:45:00.906 A:middle
-finalLayoutAttributes is
-called if the view was
-
 00:45:00.906 --> 00:45:02.986 A:middle
 on the screen before the
 update and they're both going
@@ -3437,14 +3121,6 @@ new content is synced
 00:45:54.086 --> 00:45:57.896 A:middle
 up with the viewport and
 as the viewport transitions
-
-00:45:57.896 --> 00:46:01.956 A:middle
-to its new location, the
-new content animates with it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:57.896 --> 00:46:01.956 A:middle
 to its new location, the
@@ -3522,14 +3198,6 @@ Then it was inserted.
 We changed the alpha to be
 0 so it's going to fade in.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:57.766 --> 00:47:01.796 A:middle
-We changed the alpha to be
-0 so it's going to fade in.
-
 00:47:02.286 --> 00:47:08.636 A:middle
 If it was reloaded and it
 didn't exist in the old layout,
@@ -3589,14 +3257,6 @@ make these methods work.
 00:47:53.916 --> 00:47:57.566 A:middle
 And then the optional methods
 really make a huge difference.
-
-00:47:58.006 --> 00:48:01.376 A:middle
-They're the difference between
-a layout that technically works
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:58.006 --> 00:48:01.376 A:middle
 They're the difference between
@@ -3664,13 +3324,6 @@ has a title and a selector.
 00:48:55.636 --> 00:48:59.356 A:middle
 Those selectors when they
 get-- when the actions invoked,
-
-00:48:59.766 --> 00:49:01.316 A:middle
-bubble up the responder chain
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:59.766 --> 00:49:01.316 A:middle
 bubble up the responder chain
@@ -3744,14 +3397,6 @@ Center, we wanted it to appear
 that our cell was sliding
 underneath the other content.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:55.906 --> 00:50:01.166 A:middle
-that our cell was sliding
-underneath the other content.
-
 00:50:02.496 --> 00:50:07.066 A:middle
 And in order to do that, we
 needed to have the column index
@@ -3809,14 +3454,6 @@ another state machine.
 00:50:58.086 --> 00:50:59.886 A:middle
 This manages all of our
 gesture recognizers,
-
-00:50:59.926 --> 00:51:03.676 A:middle
-the UIPanGestureRecognizer, the
-UILongPressGestureRecognizer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:59.926 --> 00:51:03.676 A:middle
 the UIPanGestureRecognizer, the
@@ -3883,13 +3520,6 @@ that's a great feature.
 
 00:51:56.726 --> 00:51:57.956 A:middle
 So, Drag to Reorder.
-
-00:51:58.846 --> 00:52:00.426 A:middle
-It required some layout changes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:58.846 --> 00:52:00.426 A:middle
 It required some layout changes.
@@ -3971,14 +3601,6 @@ You can drag those things."
 And so there are some methods
 on your data source that need
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:59.576 --> 00:53:03.276 A:middle
-And so there are some methods
-on your data source that need
-
 00:53:03.276 --> 00:53:04.896 A:middle
 to have the right responses.
 
@@ -4039,14 +3661,6 @@ Keep all the data.
 
 00:53:55.876 --> 00:53:56.916 A:middle
 Don't let it out of your sight.
-
-00:53:58.286 --> 00:54:00.376 A:middle
-At the very end,
-when you're concerned
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:58.286 --> 00:54:00.376 A:middle
 At the very end,
@@ -4118,4 +3732,3 @@ this evening.
 
 00:54:50.516 --> 00:54:53.350 A:middle
 [ Applause ]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.211 --> 00:00:13.211 A:middle
 [ Applause ]
@@ -59,14 +58,6 @@ are really just things
 00:00:53.536 --> 00:00:58.116 A:middle
 that the user can interact with,
 see or hear on their device.
-
-00:00:58.366 --> 00:01:00.696 A:middle
-And they're coming
-directly from your app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.366 --> 00:01:00.696 A:middle
 And they're coming
@@ -147,10 +138,6 @@ to check out what's there.
 00:01:56.806 --> 00:01:59.606 A:middle
 So we have badges, we have
 sounds, we have alerts.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.596 --> 00:02:03.426 A:middle
 And for alerts, they
@@ -236,14 +223,6 @@ to the user.
 Alternatively, you could
 also have user notifications
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.486 --> 00:03:02.896 A:middle
-Alternatively, you could
-also have user notifications
-
 00:03:03.166 --> 00:03:06.206 A:middle
 that are triggered in response
 to remote push payloads.
@@ -308,14 +287,6 @@ background image processing
 
 00:03:55.976 --> 00:03:57.156 A:middle
 or information processing.
-
-00:03:57.236 --> 00:04:00.936 A:middle
-In this case, your app is
-fetching content from a server
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:57.236 --> 00:04:00.936 A:middle
 In this case, your app is
@@ -402,14 +373,6 @@ pass the baton again.
 I'm going to come back to talk
 about remote notifications,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:57.826 --> 00:05:00.936 A:middle
-I'm going to come back to talk
-about remote notifications,
-
 00:05:00.936 --> 00:05:03.646 A:middle
 some changes that we have
 there for registering.
@@ -482,13 +445,6 @@ to do is declare the types
 00:05:57.146 --> 00:05:59.046 A:middle
 of user notifications
 that you wish
-
-00:05:59.046 --> 00:06:00.556 A:middle
-to present from within your app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.046 --> 00:06:00.556 A:middle
 to present from within your app.
@@ -579,14 +535,6 @@ to them.
 Now, they're either going
 to say OK or maybe not now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.306 --> 00:07:00.456 A:middle
-Now, they're either going
-to say OK or maybe not now.
-
 00:07:01.166 --> 00:07:04.636 A:middle
 But no matter what they do, they
 could always, at a later time,
@@ -666,14 +614,6 @@ when you don't really need to.
 So, we have API in UI
 application as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.706 --> 00:08:02.616 A:middle
-So, we have API in UI
-application as well.
-
 00:08:03.896 --> 00:08:07.146 A:middle
 This
 currentUserNotificationSettings
@@ -730,7 +670,7 @@ shared instance.
 Any time you need to get the
 most current user preferences,
 
-00:08:44.145 --> 00:08:46.226 A:middle
+00:08:44.146 --> 00:08:46.226 A:middle
 you just have to call
 currentNotificationSettings
 
@@ -751,14 +691,6 @@ the categories was nil
 
 00:08:57.726 --> 00:08:59.126 A:middle
 in the previous sample slide.
-
-00:08:59.436 --> 00:09:01.696 A:middle
-And that has something to do
-with notification actions.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.436 --> 00:09:01.696 A:middle
 And that has something to do
@@ -834,14 +766,6 @@ to the left, two new actions.
 In banners, when you pull
 down, two more actions.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.056 --> 00:10:02.076 A:middle
-In banners, when you pull
-down, two more actions.
-
 00:10:02.276 --> 00:10:06.226 A:middle
 And in modal alerts, when you
 tap on the Options button,
@@ -911,10 +835,6 @@ You then set a title.
 00:10:55.736 --> 00:10:58.186 A:middle
 This is a localized string
 that'll be shown to the user.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.346 --> 00:11:01.816 A:middle
 You then set the
@@ -1006,14 +926,6 @@ at the end of this session.
 So here's an example of
 the accept invite action.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:56.486 --> 00:12:00.886 A:middle
-So here's an example of
-the accept invite action.
-
 00:12:01.846 --> 00:12:05.136 A:middle
 It doesn't need to show any UI,
 so it can run in the background.
@@ -1088,14 +1000,6 @@ So, in this case,
 00:12:52.896 --> 00:12:55.286 A:middle
 the authentication required
 property has no effect.
-
-00:12:57.636 --> 00:13:00.016 A:middle
-So, now that you've
-defined your actions,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.636 --> 00:13:00.016 A:middle
 So, now that you've
@@ -1179,14 +1083,6 @@ was then presented
 on the lock screen, you would
 see the first two actions,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.066 --> 00:14:02.066 A:middle
-on the lock screen, you would
-see the first two actions,
-
 00:14:02.066 --> 00:14:02.896 A:middle
 Accept and Maybe.
 
@@ -1259,13 +1155,6 @@ to show those actions.
 00:14:58.336 --> 00:15:00.026 A:middle
 In the remote notification case,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.336 --> 00:15:00.026 A:middle
-In the remote notification case,
-
 00:15:00.476 --> 00:15:03.326 A:middle
 you need to include the category
 identifier in your push payload.
@@ -1328,14 +1217,6 @@ handle that action.
 00:15:54.076 --> 00:15:57.416 A:middle
 To handle the default action
 when a user just swipes or taps
-
-00:15:57.416 --> 00:16:01.266 A:middle
-on the notification, launch your
-application in the foreground
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.416 --> 00:16:01.266 A:middle
 on the notification, launch your
@@ -1413,14 +1294,6 @@ what action was tapped on.
 We'll also pass you either
 the remote notification
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.296 --> 00:17:00.996 A:middle
-We'll also pass you either
-the remote notification
-
 00:17:01.896 --> 00:17:03.276 A:middle
 or the local notification.
 
@@ -1428,14 +1301,14 @@ or the local notification.
 And you can use this to retrieve
 any information you need
 
-00:17:07.486 --> 00:17:08.455 A:middle
+00:17:07.486 --> 00:17:08.456 A:middle
 to handle that action.
 
-00:17:11.955 --> 00:17:14.546 A:middle
+00:17:11.956 --> 00:17:14.546 A:middle
 Finally, we'll pass you
 the completion handler,
 
-00:17:15.516 --> 00:17:17.705 A:middle
+00:17:15.516 --> 00:17:17.706 A:middle
 which you must call when you
 finish handling the action.
 
@@ -1447,7 +1320,7 @@ use notification actions
 in your application, you first
 need to register your actions.
 
-00:17:27.945 --> 00:17:30.796 A:middle
+00:17:27.946 --> 00:17:30.796 A:middle
 This involves defining
 your actions, grouping them
 
@@ -1496,13 +1369,6 @@ going to do with them.
 00:17:57.496 --> 00:17:59.456 A:middle
 I'm now going to pass
 it back to Dan to talk
-
-00:17:59.456 --> 00:18:00.646 A:middle
-about remote notifications.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.456 --> 00:18:00.646 A:middle
 about remote notifications.
@@ -1581,14 +1447,6 @@ content it needs to
 or do whatever info
 processing is necessary so that
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.766 --> 00:19:01.106 A:middle
-or do whatever info
-processing is necessary so that
-
 00:19:01.106 --> 00:19:02.916 A:middle
 when the user next
 launches the app,
@@ -1657,13 +1515,6 @@ Your app actually can use both.
 00:19:54.766 --> 00:19:57.236 A:middle
 Mix and match them to
 whatever makes most sense
-
-00:19:57.236 --> 00:20:02.056 A:middle
-for your users and for your app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.236 --> 00:20:02.056 A:middle
 for your users and for your app.
@@ -1740,14 +1591,6 @@ we asked you
 to call this method
 here registerForRemote
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.586 --> 00:21:01.406 A:middle
-to call this method
-here registerForRemote
-
 00:21:01.406 --> 00:21:02.716 A:middle
 NotificationTypes.
 
@@ -1819,14 +1662,6 @@ This actually isn't new API.
 00:21:55.936 --> 00:21:58.746 A:middle
 This is something that has
 existed in iOS 7 and previously.
-
-00:21:59.116 --> 00:22:01.886 A:middle
-Just letting you know that you
-still need to implement this
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.116 --> 00:22:01.886 A:middle
 Just letting you know that you
@@ -1915,13 +1750,6 @@ to be coming in.
 00:22:59.546 --> 00:23:01.016 A:middle
 Just gracefully degrade.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.546 --> 00:23:01.016 A:middle
-Just gracefully degrade.
-
 00:23:01.586 --> 00:23:06.556 A:middle
 So, that's what's new with
 remote notifications in iOS 8.
@@ -1989,14 +1817,6 @@ about it today.
 00:23:53.446 --> 00:23:56.256 A:middle
 So, let's say that
 you've got an app.
-
-00:23:57.166 --> 00:24:00.666 A:middle
-And you want to notify the
-user when they happen to arrive
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.166 --> 00:24:00.666 A:middle
 And you want to notify the
@@ -2083,14 +1903,6 @@ for your app.
 And, again, since this feature
 is so tightly integrated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.566 --> 00:25:01.216 A:middle
-And, again, since this feature
-is so tightly integrated
-
 00:25:01.296 --> 00:25:04.066 A:middle
 with core location, it
 does require a little bit
@@ -2162,10 +1974,6 @@ know about the user's location
 00:25:57.156 --> 00:25:58.966 A:middle
 when your app is running
 in the foreground.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.676 --> 00:26:03.216 A:middle
 However, recall these
@@ -2243,14 +2051,6 @@ And you need to make sure
 00:26:53.006 --> 00:26:55.556 A:middle
 that your app defines
 this usage text as well.
-
-00:26:56.996 --> 00:27:01.076 A:middle
-So to do that, in
-your info.plist file,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:56.996 --> 00:27:01.076 A:middle
 So to do that, in
@@ -2343,14 +2143,6 @@ if you are authorized
 for tracking the user's
 location when in use.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.646 --> 00:28:02.046 A:middle
-for tracking the user's
-location when in use.
-
 00:28:02.996 --> 00:28:05.736 A:middle
 Then at that point you
 can start scheduling these
@@ -2431,14 +2223,6 @@ this notification
 to trigger the very first
 time the user happens
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.476 --> 00:29:02.126 A:middle
-to trigger the very first
-time the user happens
-
 00:29:02.126 --> 00:29:03.366 A:middle
 to enter or exit this region.
 
@@ -2509,14 +2293,6 @@ to point you towards
 
 00:29:54.346 --> 00:29:59.146 A:middle
 at the end of this talk.
-
-00:29:59.326 --> 00:30:02.196 A:middle
-Finally, on your UIApplication
-shared instance, you just need
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.326 --> 00:30:02.196 A:middle
 Finally, on your UIApplication
@@ -2602,14 +2378,6 @@ latter step, or the latter part.
 So, we've been informed that the
 user has entered into a region,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:57.256 --> 00:31:01.046 A:middle
-So, we've been informed that the
-user has entered into a region,
-
 00:31:01.616 --> 00:31:04.796 A:middle
 or rather that the user has
 received a local notification,
@@ -2684,14 +2452,6 @@ have ever disabled your app
 00:31:56.526 --> 00:31:59.726 A:middle
 from being able to track their
 location, even when your app is
-
-00:31:59.726 --> 00:32:02.886 A:middle
-in the foreground, you're not
-going to be receiving callbacks
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.726 --> 00:32:02.886 A:middle
 in the foreground, you're not
@@ -2776,14 +2536,6 @@ notifications,
 00:32:57.376 --> 00:32:59.376 A:middle
 integrating tightly
 with Core Location
-
-00:32:59.746 --> 00:33:03.486 A:middle
-to schedule user
-notifications in response
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.746 --> 00:33:03.486 A:middle
 to schedule user
@@ -2876,18 +2628,9 @@ So, you guys have been great.
 Thank you so much
 for coming to WWDC.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.266 --> 00:34:00.146 A:middle
-Thank you so much
-for coming to WWDC.
-
 00:34:00.146 --> 00:34:01.976 A:middle
 Hope you have a great
 rest of your week.
 
-00:34:02.516 --> 00:34:13.219 A:middle
+00:34:02.516 --> 00:34:13.220 A:middle
 [ Applause ]
-

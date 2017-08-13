@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.296 --> 00:00:11.796 A:middle
 &gt;&gt; Good morning.
@@ -71,14 +70,6 @@ management capabilities
 00:00:52.926 --> 00:00:58.206 A:middle
 that we've built into iOS 8 and
 OS X Yosemite, to app developers
-
-00:00:58.206 --> 00:01:01.196 A:middle
-who want to understand how their
-apps may be used in schools
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.206 --> 00:01:01.196 A:middle
 who want to understand how their
@@ -158,14 +149,6 @@ iPhone or that Mac to its user?
 And it turns out many of you
 are asking the same question.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.626 --> 00:02:01.476 A:middle
-And it turns out many of you
-are asking the same question.
-
 00:02:01.946 --> 00:02:05.116 A:middle
 And I'm very pleased to report
 that our customers are just
@@ -174,7 +157,7 @@ that our customers are just
 as thrilled by the
 transformative nature
 
-00:02:06.856 --> 00:02:08.455 A:middle
+00:02:06.856 --> 00:02:08.456 A:middle
 of this new service
 as we had hoped.
 
@@ -235,13 +218,6 @@ out the inconsistencies
 
 00:02:56.576 --> 00:02:58.296 A:middle
 between iOS and OS X.
-
-00:02:58.926 --> 00:03:00.256 A:middle
-So that vendors, like some
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.926 --> 00:03:00.256 A:middle
 So that vendors, like some
@@ -331,14 +307,6 @@ how to manage Activation Lock
 on supervised devices
 and be thinking
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.826 --> 00:04:01.596 A:middle
-on supervised devices
-and be thinking
-
 00:04:01.596 --> 00:04:03.086 A:middle
 about that at enrollment time.
 
@@ -419,14 +387,6 @@ in their management solution.
 00:04:54.456 --> 00:04:58.036 A:middle
 And the integration
 of the completion
-
-00:04:58.036 --> 00:05:00.436 A:middle
-of that enrollment process
-right into the normal set
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.036 --> 00:05:00.436 A:middle
 of that enrollment process
@@ -520,14 +480,6 @@ take further action.
 You can also now see which
 administrators assigned
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.626 --> 00:06:01.876 A:middle
-You can also now see which
-administrators assigned
-
 00:06:01.876 --> 00:06:04.216 A:middle
 which devices to
 which MDM servers.
@@ -600,14 +552,6 @@ the box and start walking
 00:06:55.896 --> 00:06:59.096 A:middle
 through the setup assistant,
 the device receives its settings
-
-00:06:59.096 --> 00:07:01.766 A:middle
-from the Device Enrollment
-Program which tell it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.096 --> 00:07:01.766 A:middle
 from the Device Enrollment
@@ -692,14 +636,6 @@ settings to the program.
 One caveat here to keep in mind,
 though, is what I explained
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:56.176 --> 00:08:01.056 A:middle
-One caveat here to keep in mind,
-though, is what I explained
-
 00:08:01.056 --> 00:08:03.046 A:middle
 on the previous slide: Even
 
@@ -756,7 +692,7 @@ Program.
 00:08:31.896 --> 00:08:33.236 A:middle
 And I'm here to scare you.
 
-00:08:35.936 --> 00:08:38.765 A:middle
+00:08:35.936 --> 00:08:38.766 A:middle
 Our recommendation is to
 not implement this feature.
 
@@ -792,14 +728,6 @@ following Rule 1.
 
 00:08:55.886 --> 00:08:58.116 A:middle
 All right.
-
-00:08:58.116 --> 00:09:01.696 A:middle
-Our final topic is thinking
-about the combinations of two
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.116 --> 00:09:01.696 A:middle
 Our final topic is thinking
@@ -893,14 +821,6 @@ super interesting
 to supervise a device
 but still allow the user
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.456 --> 00:10:00.386 A:middle
-to supervise a device
-but still allow the user
-
 00:10:00.386 --> 00:10:02.066 A:middle
 to un enroll from MDM.
 
@@ -985,13 +905,6 @@ overwrite those settings.
 00:10:59.486 --> 00:11:01.716 A:middle
 One additional caveat is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.486 --> 00:11:01.716 A:middle
-One additional caveat is
-
 00:11:01.716 --> 00:11:04.156 A:middle
 that delivering your enrollment
 settings via the Device
@@ -1060,14 +973,6 @@ enable Activation Lock.
 00:11:52.156 --> 00:11:57.656 A:middle
 But there is now a way that
 we introduced in the spring
-
-00:11:58.266 --> 00:12:03.446 A:middle
-that MDM can request a bypass
-code that allows the MDM server
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.266 --> 00:12:03.446 A:middle
 that MDM can request a bypass
@@ -1152,14 +1057,6 @@ And we strongly recommend
 00:12:56.656 --> 00:12:58.996 A:middle
 that when you're completing
 the MDM enrollment, that,
-
-00:12:58.996 --> 00:13:00.816 A:middle
-at that time, you
-always retrieve
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.996 --> 00:13:00.816 A:middle
 at that time, you
@@ -1254,14 +1151,6 @@ MDM commands are sent
 to the device while it is
 still in the Setup Assistant,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.336 --> 00:14:00.006 A:middle
-to the device while it is
-still in the Setup Assistant,
-
 00:14:00.006 --> 00:14:02.086 A:middle
 it will return the
 "not now" status.
@@ -1347,10 +1236,6 @@ I'm going to pick my language.
 00:14:58.076 --> 00:14:59.586 A:middle
 Go pick my country.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.046 --> 00:15:00.876 A:middle
 Connect to my network.
 
@@ -1429,14 +1314,6 @@ bypassing this step.
 00:15:56.736 --> 00:15:59.856 A:middle
 So I'll provide my log in
 information and move on.
-
-00:15:59.856 --> 00:16:04.726 A:middle
-And now we're downloading the
-profiles from our MDM server.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.856 --> 00:16:04.726 A:middle
 And now we're downloading the
@@ -1539,26 +1416,19 @@ to send the settings down.
 00:16:59.736 --> 00:17:00.826 A:middle
 The next option is whether
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.736 --> 00:17:00.826 A:middle
-The next option is whether
-
 00:17:00.826 --> 00:17:03.066 A:middle
 or not the user is
 allowed to skip enrollment.
 
-00:17:03.486 --> 00:17:06.715 A:middle
+00:17:03.486 --> 00:17:06.716 A:middle
 And, as you saw in the case of
 Jussi's device, he's not allowed
 
-00:17:06.715 --> 00:17:09.205 A:middle
+00:17:06.716 --> 00:17:09.206 A:middle
 to skip enrollment; he's going
 to be prompted for credentials,
 
-00:17:09.205 --> 00:17:10.486 A:middle
+00:17:09.206 --> 00:17:10.486 A:middle
 credentials for his
 directory server.
 
@@ -1566,7 +1436,7 @@ directory server.
 Our next option is whether
 or not we want to do
 
-00:17:12.816 --> 00:17:14.675 A:middle
+00:17:12.816 --> 00:17:14.676 A:middle
 over the air supervision
 of the device.
 
@@ -1578,10 +1448,10 @@ able to supervise the device,
 when you supervise the device,
 you also have the option
 
-00:17:20.636 --> 00:17:22.205 A:middle
+00:17:20.636 --> 00:17:22.206 A:middle
 of locking the MDM Profile
 
-00:17:22.205 --> 00:17:23.756 A:middle
+00:17:22.206 --> 00:17:23.756 A:middle
 so it can't be removed
 from the device.
 
@@ -1639,14 +1509,6 @@ Setup Assistant.
 00:17:55.656 --> 00:17:58.276 A:middle
 In our case, we have Apple
 ID enabled because we want
-
-00:17:58.606 --> 00:18:00.426 A:middle
-to caption on, Jussi's
-device will get Activation
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.606 --> 00:18:00.426 A:middle
 to caption on, Jussi's
@@ -1740,14 +1602,6 @@ using the Device Enrollment
 Program and how to configure
 the enrollment settings
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.186 --> 00:19:01.286 A:middle
-Program and how to configure
-the enrollment settings
-
 00:19:01.286 --> 00:19:03.096 A:middle
 that were used using
 Profile Manager.
@@ -1832,10 +1686,6 @@ distribution allows the
 administrator to buy
 licenses instead of codes,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.226 --> 00:20:03.206 A:middle
 which can be revoked and
 reallocated to a different user
@@ -1909,14 +1759,6 @@ can download the bits directly
 00:20:55.766 --> 00:20:58.176 A:middle
 from the store just as if they
 had purchased them themselves.
-
-00:20:59.306 --> 00:21:02.196 A:middle
-And, also, the administrator
-can send MDM commands
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.306 --> 00:21:02.196 A:middle
 And, also, the administrator
@@ -2002,14 +1844,6 @@ supports group assignments,
 00:21:56.696 --> 00:21:59.006 A:middle
 you'll need to keep that
 information in your MDM server
-
-00:21:59.006 --> 00:22:01.286 A:middle
-because there's no way to
-store group information
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.006 --> 00:22:01.286 A:middle
 because there's no way to
@@ -2107,14 +1941,6 @@ take over that account.
 That may, in fact, be the right
 thing if they're transitioning
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.896 --> 00:23:01.356 A:middle
-That may, in fact, be the right
-thing if they're transitioning
-
 00:23:01.356 --> 00:23:02.796 A:middle
 from one server to the next.
 
@@ -2202,14 +2028,6 @@ have an enrolled device.
 But there's a concern that
 you need to be aware of that
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.986 --> 00:24:02.636 A:middle
-But there's a concern that
-you need to be aware of that
-
 00:24:02.636 --> 00:24:05.616 A:middle
 because the invitation URL,
 there's an example on screen,
@@ -2276,14 +2094,6 @@ perspective of the VPP service,
 
 00:24:54.446 --> 00:24:56.296 A:middle
 and the end user's Apple ID,
-
-00:24:56.426 --> 00:25:00.416 A:middle
-which your MDM server will never
-see directly but will see a hash
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:56.426 --> 00:25:00.416 A:middle
 which your MDM server will never
@@ -2366,14 +2176,6 @@ associated with an Apple ID
 00:25:55.966 --> 00:25:59.276 A:middle
 that already has that
 app or book assigned,
-
-00:25:59.636 --> 00:26:02.546 A:middle
-that second assignment
-will fail.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.636 --> 00:26:02.546 A:middle
 that second assignment
@@ -2463,10 +2265,6 @@ look up which VPP account
 that that particular MDM
 user is associated with.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:00.606 --> 00:27:02.886 A:middle
 Whether it's just registered
 and you've sent the invitation
@@ -2535,14 +2333,6 @@ again, so you can keep track
 00:27:53.706 --> 00:27:55.456 A:middle
 of any irrevocable
 book assignments.
-
-00:27:55.896 --> 00:28:01.196 A:middle
-There's another new change
-that will allow you MDM vendors
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:55.896 --> 00:28:01.196 A:middle
 There's another new change
@@ -2626,14 +2416,6 @@ and then alert the administrator
 so they could take action
 outside of MDM, if necessary,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.046 --> 00:29:02.766 A:middle
-so they could take action
-outside of MDM, if necessary,
-
 00:29:03.176 --> 00:29:05.306 A:middle
 to have the user delete that app
 
@@ -2704,14 +2486,6 @@ and treat it as managed.
 00:29:57.316 --> 00:29:59.096 A:middle
 That that book must
 be published,
-
-00:29:59.266 --> 00:30:02.156 A:middle
-purchased via VPP even
-if the user has it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.266 --> 00:30:02.156 A:middle
 purchased via VPP even
@@ -2791,14 +2565,6 @@ and not escape their control.
 00:30:54.136 --> 00:30:57.496 A:middle
 They can disable iCloud backups
 of these enterprise books
-
-00:30:58.136 --> 00:31:00.276 A:middle
-so that they just stay on the
-device where they're installed
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.136 --> 00:31:00.276 A:middle
 so that they just stay on the
@@ -2885,14 +2651,6 @@ that the App Store is enabled
 on the device that you're
 pushing an enterprise book to.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.096 --> 00:32:00.376 A:middle
-on the device that you're
-pushing an enterprise book to.
-
 00:32:02.336 --> 00:32:04.836 A:middle
 Another distinction
 between managed apps
@@ -2964,14 +2722,6 @@ application MDM command
 00:32:54.546 --> 00:32:58.366 A:middle
 which is now supported on OS
 X for non App Store books.
-
-00:32:58.936 --> 00:33:02.006 A:middle
-And, in fact, your MDM
-solution can do the same thing
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.936 --> 00:33:02.006 A:middle
 And, in fact, your MDM
@@ -3063,14 +2813,6 @@ share the book anywhere else.
 So this our fancy new PDF
 that just got installed.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.346 --> 00:34:01.596 A:middle
-So this our fancy new PDF
-that just got installed.
-
 00:34:01.966 --> 00:34:04.986 A:middle
 And now, since this is a
 managed book controlled
@@ -3079,7 +2821,7 @@ managed book controlled
 by our MDM solution, Mark
 can also remove the book.
 
-00:34:08.835 --> 00:34:11.726 A:middle
+00:34:08.836 --> 00:34:11.726 A:middle
 So Mark can now remove the book
 
 00:34:11.726 --> 00:34:13.706 A:middle
@@ -3129,7 +2871,7 @@ to install our fancy ACME app
 onto the OS X client
 and no hands.
 
-00:34:43.446 --> 00:34:46.045 A:middle
+00:34:43.446 --> 00:34:46.046 A:middle
 This is all installed
 by the system.
 
@@ -3152,14 +2894,6 @@ And now back to Todd.
 
 00:34:58.686 --> 00:34:59.716 A:middle
 Thank you very much, guys.
-
-00:34:59.716 --> 00:35:01.426 A:middle
-That app was written
-using Swift, right?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.716 --> 00:35:01.426 A:middle
 That app was written
@@ -3251,14 +2985,6 @@ the device information
 and it reflected the change
 and Activation Lock status.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.876 --> 00:36:02.666 A:middle
-and it reflected the change
-and Activation Lock status.
-
 00:36:02.756 --> 00:36:05.116 A:middle
 There's a key that tells you
 whether the device thinks it's
@@ -3344,14 +3070,6 @@ need to use it again.
 
 00:36:57.516 --> 00:36:57.886 A:middle
 All right.
-
-00:36:58.206 --> 00:37:01.296 A:middle
-So one of the most important
-external data sources
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.206 --> 00:37:01.296 A:middle
 So one of the most important
@@ -3452,13 +3170,6 @@ not use those services
 00:37:58.886 --> 00:38:01.816 A:middle
 for live access.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.886 --> 00:38:01.816 A:middle
-for live access.
-
 00:38:01.996 --> 00:38:04.616 A:middle
 Similarly, you're
 going to want to mirror
@@ -3538,14 +3249,6 @@ URI MDM service config
 00:38:52.316 --> 00:38:57.096 A:middle
 that any tool could then make
 an unauthenticated HTTPS request
-
-00:38:57.096 --> 00:39:01.616 A:middle
-to your server and ask for it to
-provide a UTF8 JSON encoded hash
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:57.096 --> 00:39:01.616 A:middle
 to your server and ask for it to
@@ -3640,14 +3343,6 @@ restrictions.
 Now, you can send an MDM command
 that removes those settings
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.636 --> 00:40:02.046 A:middle
-Now, you can send an MDM command
-that removes those settings
-
 00:40:02.046 --> 00:40:05.426 A:middle
 and allows the MDM server to
 configure its own settings.
@@ -3717,14 +3412,6 @@ keep their data secure.
 
 00:40:55.896 --> 00:40:57.366 A:middle
 I think they actually mentioned,
-
-00:40:57.416 --> 00:41:00.146 A:middle
-Craig actually mentioned
-the message S/MIME switch
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:57.416 --> 00:41:00.146 A:middle
 Craig actually mentioned
@@ -3814,14 +3501,6 @@ you can disable the user
 from actually configuring them
 using the device UI in settings.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.966 --> 00:42:05.336 A:middle
-from actually configuring them
-using the device UI in settings.
-
 00:42:06.246 --> 00:42:08.046 A:middle
 Speaking of the device
 UI in settings,
@@ -3898,13 +3577,6 @@ settings, it will indicate
 00:42:55.886 --> 00:42:59.286 A:middle
 to the user that this particular
 feature has been disabled due
-
-00:42:59.286 --> 00:43:00.606 A:middle
-to a profile being installed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:59.286 --> 00:43:00.606 A:middle
 to a profile being installed.
@@ -3988,14 +3660,6 @@ few things that I just talked
 about and completing
 the device duty cycle.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.156 --> 00:44:02.336 A:middle
-about and completing
-the device duty cycle.
-
 00:44:03.086 --> 00:44:07.396 A:middle
 &gt;&gt; So we go to the settings and
 we'll see what we have active
@@ -4071,14 +3735,6 @@ have been installed here.
 00:44:56.566 --> 00:44:58.786 A:middle
 And we have also accounts
 that have been configured.
-
-00:44:59.116 --> 00:45:01.396 A:middle
-So we don't show the
-individual profiles
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:59.116 --> 00:45:01.396 A:middle
 So we don't show the
@@ -4168,14 +3824,6 @@ that meets our email rules.
 And this also applies
 to my sending account
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:58.946 --> 00:46:00.736 A:middle
-And this also applies
-to my sending account
-
 00:46:00.736 --> 00:46:03.426 A:middle
 so since I have configured
 this device for iCloud,
@@ -4259,14 +3907,6 @@ back for the duty cycle.
 And I've got the Activation Lock
 bypass code for this device.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.496 --> 00:47:02.656 A:middle
-And I've got the Activation Lock
-bypass code for this device.
-
 00:47:03.116 --> 00:47:04.896 A:middle
 And so he's just
 going to walk through,
@@ -4332,14 +3972,6 @@ going to get prompted
 00:47:53.836 --> 00:47:56.866 A:middle
 to enter their password,
 and we're good to go.
-
-00:47:57.126 --> 00:48:00.456 A:middle
-So that's the duty cycle
-of using iPads with MDM
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:57.126 --> 00:48:00.456 A:middle
 So that's the duty cycle
@@ -4429,14 +4061,6 @@ wirelessly or Apple Configurator
 
 00:48:56.316 --> 00:48:57.356 A:middle
 if you want to do it wired.
-
-00:48:58.456 --> 00:49:00.926 A:middle
-You should use the Volume
-Purchase Program managed
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:58.456 --> 00:49:00.926 A:middle
 You should use the Volume
@@ -4534,14 +4158,6 @@ and Apple representatives.
 There are a number of additional
 sessions this week including 2
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:58.116 --> 00:50:01.466 A:middle
-There are a number of additional
-sessions this week including 2
-
 00:50:01.466 --> 00:50:03.826 A:middle
 following this session right
 here in Pacific Heights.
@@ -4564,4 +4180,3 @@ great rest of the show.
 
 00:50:14.496 --> 00:50:14.856 A:middle
 Thank you.
-

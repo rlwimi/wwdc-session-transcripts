@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:13.276 --> 00:00:13.976 A:middle
 &gt;&gt; Good afternoon.
@@ -60,18 +59,11 @@ to look pretty familiar.
 00:00:57.136 --> 00:01:00.176 A:middle
 So what are we going to see?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:57.136 --> 00:01:00.176 A:middle
-So what are we going to see?
-
 00:01:01.576 --> 00:01:03.936 A:middle
 First, I'm going to start by
 giving you a brief overview
 
-00:01:03.936 --> 00:01:05.385 A:middle
+00:01:03.936 --> 00:01:05.386 A:middle
 of how storyboards work.
 
 00:01:05.976 --> 00:01:08.966 A:middle
@@ -151,14 +143,6 @@ application like Pages.
 We can decompose each of
 the major pieces of the UI
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.926 --> 00:02:03.036 A:middle
-We can decompose each of
-the major pieces of the UI
-
 00:02:03.486 --> 00:02:05.456 A:middle
 into each major section
 of functionality,
@@ -229,14 +213,6 @@ Each top-level scene
 00:02:53.956 --> 00:02:57.066 A:middle
 in a storyboard represents one
 view controller in your code.
-
-00:02:58.616 --> 00:03:02.096 A:middle
-Each controller is a
-reusable self-contained module
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.616 --> 00:03:02.096 A:middle
 Each controller is a
@@ -323,14 +299,6 @@ inside the same window.
 Some are grouped in splits
 or sometimes hidden in tabs.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.666 --> 00:04:02.486 A:middle
-Some are grouped in splits
-or sometimes hidden in tabs.
-
 00:04:02.886 --> 00:04:06.776 A:middle
 That's not to say that we
 don't have presentation segues
@@ -406,10 +374,6 @@ from view controllers,
 00:04:57.956 --> 00:04:59.976 A:middle
 windows are separated
 from window controllers,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.526 --> 00:05:03.296 A:middle
 and the transition
@@ -496,14 +460,6 @@ the relationships
 between your controllers
 on the canvas,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.546 --> 00:06:00.466 A:middle
-between your controllers
-on the canvas,
-
 00:06:00.906 --> 00:06:02.846 A:middle
 all with the absolute
 minimum of glue code.
@@ -569,14 +525,6 @@ and then have a split.
 00:06:55.656 --> 00:06:58.746 A:middle
 And on the other side of that
 will be the inspector area
-
-00:06:59.686 --> 00:07:01.526 A:middle
-where you can see the
-different properties
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.686 --> 00:07:01.526 A:middle
 where you can see the
@@ -655,10 +603,6 @@ of the lines connected to them.
 Let's run this and
 see what shows up.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.136 --> 00:08:06.126 A:middle
 So here is our application,
 and as I resize it,
@@ -701,15 +645,15 @@ that corresponds to that.
 And I can set the holding
 priority of the split
 
-00:08:37.035 --> 00:08:39.145 A:middle
+00:08:37.036 --> 00:08:39.146 A:middle
 to be just a little bit
 more than the default.
 
-00:08:39.916 --> 00:08:41.785 A:middle
+00:08:39.916 --> 00:08:41.786 A:middle
 And while we're here,
 we might as well mark it
 
-00:08:41.785 --> 00:08:44.086 A:middle
+00:08:41.786 --> 00:08:44.086 A:middle
 as saying it can collapse
 because, you know,
 
@@ -729,14 +673,6 @@ All right.
 
 00:08:54.846 --> 00:08:57.396 A:middle
 Now, as I drag this, we notice
-
-00:08:57.396 --> 00:09:00.816 A:middle
-that the split view edge is
-actually hugging the side
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.396 --> 00:09:00.816 A:middle
 that the split view edge is
@@ -792,14 +728,6 @@ going to uncomment it here.
 00:09:54.346 --> 00:09:58.476 A:middle
 And what it does is it takes
 the destination view controller
-
-00:09:58.476 --> 00:10:01.446 A:middle
-out of the Passed In
-and a storyboard segue.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.476 --> 00:10:01.446 A:middle
 out of the Passed In
@@ -863,14 +791,6 @@ to show you guys.
 00:10:55.936 --> 00:10:58.716 A:middle
 Right here we have
 a TabViewController
-
-00:10:59.056 --> 00:11:01.546 A:middle
-that has both a General
-Pref pane
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.056 --> 00:11:01.546 A:middle
 that has both a General
@@ -944,10 +864,6 @@ class of our view controllers --
 in this case this is the General
 Prefs pane view controller,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.366 --> 00:12:04.626 A:middle
 and then this one is the
 keyboard shortcuts view
@@ -1002,14 +918,6 @@ didn't even use a single line
 
 00:12:57.876 --> 00:12:58.296 A:middle
 of code.
-
-00:12:59.336 --> 00:13:01.536 A:middle
-So now I'd like to
-ask Raleigh to come up
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.336 --> 00:13:01.536 A:middle
 So now I'd like to
@@ -1087,14 +995,6 @@ in with storyboards.
 00:13:53.896 --> 00:13:58.296 A:middle
 Storyboards are a resource file
 in your project like NIBs are.
-
-00:13:59.666 --> 00:14:02.536 A:middle
-By default if you
-do the checkbox
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.666 --> 00:14:02.536 A:middle
 By default if you
@@ -1191,13 +1091,6 @@ part to it.
 00:14:59.356 --> 00:15:00.446 A:middle
 This is the initial guy.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.356 --> 00:15:00.446 A:middle
-This is the initial guy.
-
 00:15:00.736 --> 00:15:02.486 A:middle
 There's always one of
 them with your storyboard.
@@ -1286,10 +1179,6 @@ to break it down into sections.
 00:15:56.926 --> 00:15:59.936 A:middle
 So we'll talk about loading and
 layout and the life cycle there.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.476 --> 00:16:02.606 A:middle
 About containerships; we've
@@ -1386,19 +1275,11 @@ with the name that you gave it
 if you initialized it
 init with NIB name.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.806 --> 00:17:03.086 A:middle
-if you initialized it
-init with NIB name.
-
-00:17:04.195 --> 00:17:07.546 A:middle
+00:17:04.196 --> 00:17:07.546 A:middle
 But new on Yosemite is
 AppKit will go ahead
 
-00:17:07.546 --> 00:17:10.665 A:middle
+00:17:07.546 --> 00:17:10.666 A:middle
 and if your NIB name is
 nil, will look for a NIB
 
@@ -1406,7 +1287,7 @@ nil, will look for a NIB
 that has the same name
 as your view controller
 
-00:17:13.656 --> 00:17:15.455 A:middle
+00:17:13.656 --> 00:17:15.456 A:middle
 and automatically
 load that NIB for you.
 
@@ -1424,7 +1305,7 @@ the right thing and it'll do it
 00:17:23.806 --> 00:17:24.526 A:middle
 for you automatically.
 
-00:17:26.705 --> 00:17:29.036 A:middle
+00:17:26.706 --> 00:17:29.036 A:middle
 During load view, set view
 is going to get called
 
@@ -1472,14 +1353,6 @@ you only want to do once
 00:17:55.366 --> 00:17:57.956 A:middle
 when the view is loaded and
 you'll never need to do again
-
-00:17:57.956 --> 00:18:00.336 A:middle
-because your view is going
-to be hanging around.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.956 --> 00:18:00.336 A:middle
 because your view is going
@@ -1568,14 +1441,6 @@ or you're doing some kind
 00:18:55.546 --> 00:18:57.446 A:middle
 of transition, that
 transition animation occurs.
-
-00:18:58.016 --> 00:19:00.776 A:middle
-When that completes and your
-view is drawn at least once,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.016 --> 00:19:00.776 A:middle
 When that completes and your
@@ -1684,14 +1549,6 @@ closing the window.
 In either of these cases
 you will be preceded
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:57.906 --> 00:20:00.056 A:middle
-In either of these cases
-you will be preceded
-
 00:20:00.056 --> 00:20:01.326 A:middle
 with a view will disappear.
 
@@ -1779,10 +1636,6 @@ And they're automatically wired
 00:20:57.306 --> 00:20:59.846 A:middle
 up in the responder chain
 right after their view.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.646 --> 00:21:02.336 A:middle
 So you can now participate
@@ -1873,14 +1726,6 @@ things to do with containment.
 View controllers can
 now have children
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.356 --> 00:22:00.296 A:middle
-View controllers can
-now have children
-
 00:22:00.296 --> 00:22:02.086 A:middle
 and you can give
 back to your parent.
@@ -1966,14 +1811,6 @@ demo it's incredibly easy.
 Without code, you could get a
 nice preferences user interface
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.396 --> 00:23:02.046 A:middle
-Without code, you could get a
-nice preferences user interface
-
 00:23:02.046 --> 00:23:03.866 A:middle
 style using a tab
 view controller.
@@ -2039,14 +1876,6 @@ the view controller.
 00:23:50.216 --> 00:23:52.796 A:middle
 And it's the view controller
 that now owns the view,
-
-00:23:52.956 --> 00:24:00.506 A:middle
-and it can lazily load the view
-as you switch to those tabs.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:52.956 --> 00:24:00.506 A:middle
 and it can lazily load the view
@@ -2123,14 +1952,6 @@ default tab view controller
 
 00:24:55.446 --> 00:24:57.356 A:middle
 for it using this method.
-
-00:24:57.416 --> 00:25:01.506 A:middle
-And what this does is it doesn't
-just create a generic tab
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.416 --> 00:25:01.506 A:middle
 And what this does is it doesn't
@@ -2226,14 +2047,6 @@ to toolbar.
 The TabViewController
 will create the toolbar
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.336 --> 00:26:01.166 A:middle
-The TabViewController
-will create the toolbar
-
 00:26:01.166 --> 00:26:03.536 A:middle
 on your behalf and
 place it in the window
@@ -2308,13 +2121,6 @@ we set it to crossfade.
 00:26:56.436 --> 00:26:59.296 A:middle
 Mike showed you this in
 the demo as he changed tabs
-
-00:26:59.296 --> 00:27:00.656 A:middle
-in our preferences UI.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.296 --> 00:27:00.656 A:middle
 in our preferences UI.
@@ -2408,10 +2214,6 @@ manages the tab view item.
 00:27:56.016 --> 00:27:58.716 A:middle
 In NSTabView it owns a tab view.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.286 --> 00:28:04.716 A:middle
 So it's important that you let
 NSTabViewController manage it
@@ -2497,14 +2299,6 @@ NSTabViewController
 and override these
 delegate methods.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.726 --> 00:29:00.246 A:middle
-and override these
-delegate methods.
-
 00:29:02.026 --> 00:29:05.276 A:middle
 Perhaps you want to do something
 like add some additional items
@@ -2583,14 +2377,6 @@ constraints to your window.
 00:29:55.876 --> 00:29:58.436 A:middle
 But we have all migrated
 our apps forward
-
-00:29:58.436 --> 00:30:00.616 A:middle
-to using auto layout, so that
-won't be a problem, right?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.436 --> 00:30:00.616 A:middle
 to using auto layout, so that
@@ -2682,10 +2468,6 @@ a default split view item
 if you have some
 child view controller.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:01.706 --> 00:31:07.536 A:middle
 Pro Tip: If you want to
 animate a collapsible split,
@@ -2767,14 +2549,6 @@ of items
 so those items can have the
 specific information associated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.336 --> 00:32:01.606 A:middle
-so those items can have the
-specific information associated
-
 00:32:01.606 --> 00:32:02.036 A:middle
 with that.
 
@@ -2851,14 +2625,6 @@ know what to do with them.
 00:32:55.516 --> 00:32:58.216 A:middle
 Like tab view controller will
 go ahead and create another tab,
-
-00:32:58.216 --> 00:33:00.196 A:middle
-but won't show the views
-or load the views yet,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.216 --> 00:33:00.196 A:middle
 but won't show the views
@@ -2947,23 +2713,15 @@ with view controllers
 and storyboards called
 triggered segues.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.606 --> 00:34:02.746 A:middle
-and storyboards called
-triggered segues.
-
 00:34:04.176 --> 00:34:06.916 A:middle
 These triggered segues
 perform a presentation.
 
-00:34:06.976 --> 00:34:10.565 A:middle
+00:34:06.976 --> 00:34:10.566 A:middle
 And a presentation needs to have
 an identifier so we can find it
 
-00:34:10.565 --> 00:34:12.186 A:middle
+00:34:10.566 --> 00:34:12.186 A:middle
 in a storyboard if
 needed manually.
 
@@ -2975,7 +2733,7 @@ source view controller.
 For example, the
 canvas view controller
 
-00:34:17.826 --> 00:34:20.585 A:middle
+00:34:17.826 --> 00:34:20.586 A:middle
 in this case is our source
 to do our shape picker popup.
 
@@ -2983,18 +2741,18 @@ to do our shape picker popup.
 A destination controller,
 which is going
 
-00:34:23.516 --> 00:34:27.045 A:middle
+00:34:23.516 --> 00:34:27.046 A:middle
 to be our shape picker
 controller, and then a style.
 
-00:34:27.255 --> 00:34:28.565 A:middle
+00:34:27.256 --> 00:34:28.566 A:middle
 And as we did in the demo,
 
-00:34:28.755 --> 00:34:33.565 A:middle
+00:34:28.756 --> 00:34:33.566 A:middle
 the segue style was a
 popover and this was a segue.
 
-00:34:33.565 --> 00:34:35.366 A:middle
+00:34:33.566 --> 00:34:35.366 A:middle
 Depending on the style,
 
 00:34:35.366 --> 00:34:37.206 A:middle
@@ -3005,7 +2763,7 @@ attributes you need to set up.
 For example, with a popover you
 need to set up the anchor view.
 
-00:34:40.866 --> 00:34:43.315 A:middle
+00:34:40.866 --> 00:34:43.316 A:middle
 Since we had dragged it
 directly from the Plus button,
 
@@ -3020,28 +2778,21 @@ but you could actually go in IB
 and set the anchor
 view for the popover.
 
-00:34:49.275 --> 00:34:52.436 A:middle
+00:34:49.276 --> 00:34:52.436 A:middle
 As Mike pointed out,
 the one line of code
 
-00:34:52.436 --> 00:34:55.025 A:middle
+00:34:52.436 --> 00:34:55.026 A:middle
 that you really need to write
 in the source view controller --
 
-00:34:55.025 --> 00:34:56.815 A:middle
+00:34:55.026 --> 00:34:56.816 A:middle
 so in this case our
 canvas view controller --
 
 00:34:56.896 --> 00:34:58.576 A:middle
 in your source view
 controller you need
-
-00:34:58.576 --> 00:35:00.746 A:middle
-to override Prepare For Segue.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.576 --> 00:35:00.746 A:middle
 to override Prepare For Segue.
@@ -3124,14 +2875,6 @@ find the segue in the storyboard
 for you and call perform,
 which will flow back
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.766 --> 00:36:02.906 A:middle
-for you and call perform,
-which will flow back
-
 00:36:03.096 --> 00:36:05.036 A:middle
 through shape perform
 segue with identifier
@@ -3205,14 +2948,6 @@ or as a popover.
 00:36:54.626 --> 00:36:59.026 A:middle
 And as the destination
 controller, the sheet
-
-00:36:59.026 --> 00:37:00.826 A:middle
-or the modal window,
-the controller
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.026 --> 00:37:00.826 A:middle
 or the modal window,
@@ -3300,14 +3035,6 @@ dramatically different.
 Just go ahead and let
 NSViewController handle
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:57.916 --> 00:38:00.256 A:middle
-Just go ahead and let
-NSViewController handle
-
 00:38:00.256 --> 00:38:02.676 A:middle
 that on your behalf and it'll
 do the appropriate thing.
@@ -3384,14 +3111,6 @@ controller from view controller.
 00:38:56.256 --> 00:38:59.076 A:middle
 You're now responsible for doing
 any dismissal animation however
-
-00:38:59.076 --> 00:39:04.136 A:middle
-you see fit, and once we return
-from that we will go ahead
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:59.076 --> 00:39:04.136 A:middle
 you see fit, and once we return
@@ -3484,14 +3203,6 @@ has associated with it.
 Of course, like view controller,
 you can also get the storyboard
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.466 --> 00:40:02.276 A:middle
-Of course, like view controller,
-you can also get the storyboard
-
 00:40:02.276 --> 00:40:03.536 A:middle
 that loaded the window
 controller,
@@ -3570,14 +3281,6 @@ was pressed?
 00:40:57.206 --> 00:40:59.016 A:middle
 Manage the titlebar
 and the toolbar,
-
-00:40:59.016 --> 00:41:01.606 A:middle
-make sure that has the
-appropriate look there.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.016 --> 00:41:01.606 A:middle
 make sure that has the
@@ -3666,10 +3369,6 @@ about gesture recognizers.
 I'm really excited about
 gesture recognizers.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.146 --> 00:42:04.906 A:middle
 I'm an event guy at heart, so I
 like to play around with events.
@@ -3737,14 +3436,6 @@ trackpad, which is going
 00:42:54.946 --> 00:42:57.846 A:middle
 to emulate a mouse event,
 or you press a mouse button,
-
-00:42:57.846 --> 00:43:00.746 A:middle
-you get a mouse down event
-followed by a mouse up event
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:57.846 --> 00:43:00.746 A:middle
 you get a mouse down event
@@ -3828,14 +3519,6 @@ to disambiguate the user input,
 00:43:54.966 --> 00:43:56.906 A:middle
 gives you hooks to tap
 into there when you need
-
-00:43:56.906 --> 00:44:00.476 A:middle
-to add some custom logic, and
-it's much easier to maintain.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:56.906 --> 00:44:00.476 A:middle
 to add some custom logic, and
@@ -3932,13 +3615,6 @@ in the action.
 00:44:54.756 --> 00:44:57.816 A:middle
 I want to point out a slight
 difference here from iOS.
-
-00:44:58.386 --> 00:45:00.236 A:middle
-On OS X, all of our controls
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:58.386 --> 00:45:00.236 A:middle
 On OS X, all of our controls
@@ -4041,14 +3717,6 @@ magnification.
 Something like a click,
 there is another state
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:58.296 --> 00:46:01.626 A:middle
-Something like a click,
-there is another state
-
 00:46:01.626 --> 00:46:03.416 A:middle
 which is just recognized.
 
@@ -4131,14 +3799,6 @@ down with a time component.
 So a long press is another
 way that we've said it,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:58.396 --> 00:47:01.296 A:middle
-So a long press is another
-way that we've said it,
-
 00:47:01.656 --> 00:47:03.126 A:middle
 but an NS Press Gesture
 Recognizer,
@@ -4213,10 +3873,6 @@ aside on magnification
 
 00:47:58.616 --> 00:47:59.996 A:middle
 and rotation gestures.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:00.836 --> 00:48:03.266 A:middle
 The raw event, the magnification
@@ -4310,14 +3966,6 @@ and whereas normal now
 in Yosemite includes
 your view controllers.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:58.526 --> 00:49:02.636 A:middle
-in Yosemite includes
-your view controllers.
-
 00:49:03.136 --> 00:49:07.266 A:middle
 And gesture recognizers
 are here.
@@ -4397,14 +4045,6 @@ in NS Application or NS Window,
 
 00:49:57.416 --> 00:49:58.666 A:middle
 if you consume events
-
-00:49:58.666 --> 00:50:01.116 A:middle
-that gesture recognizers have
-already started to process
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:58.666 --> 00:50:01.116 A:middle
 that gesture recognizers have
@@ -4498,14 +4138,6 @@ about gesture recognizers.
 So let's put this all together
 a little bit, and let's go back
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:58.786 --> 00:51:01.626 A:middle
-So let's put this all together
-a little bit, and let's go back
-
 00:51:01.626 --> 00:51:05.006 A:middle
 to our demo and let's
 get that shape to move.
@@ -4560,13 +4192,6 @@ what you need to do there.
 00:51:54.526 --> 00:51:59.876 A:middle
 So let's go back into
 our Storyboard and look
-
-00:51:59.876 --> 00:52:01.626 A:middle
-at our canvas view controller,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:59.876 --> 00:52:01.626 A:middle
 at our canvas view controller,
@@ -4628,13 +4253,6 @@ of each other.
 
 00:52:52.256 --> 00:52:54.476 A:middle
 And there we go.
-
-00:52:56.516 --> 00:53:02.326 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:56.516 --> 00:53:02.326 A:middle
 [ Applause ]
@@ -4712,14 +4330,6 @@ in Interface Builder."
 This and along with other
 things are going to be covered.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:59.216 --> 00:54:01.296 A:middle
-This and along with other
-things are going to be covered.
-
 00:54:01.716 --> 00:54:02.756 A:middle
 I really want to point out
 
@@ -4752,4 +4362,3 @@ So thank you.
 00:54:21.566 --> 00:54:22.546 A:middle
 Enjoy the rest of
 the conference.
-

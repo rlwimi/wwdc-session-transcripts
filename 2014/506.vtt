@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:14.076 --> 00:00:18.476 A:middle
 &gt;&gt; Welcome to Session 506, "Your
@@ -63,14 +62,6 @@ an email where you left off
 
 00:00:56.456 --> 00:00:57.576 A:middle
 from one device to another.
-
-00:00:57.996 --> 00:01:00.176 A:middle
-Picking up a phone call
-from one device to another.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.996 --> 00:01:00.176 A:middle
 Picking up a phone call
@@ -160,14 +151,6 @@ on Handoff this year.
 It's tomorrow at 2 p.m. So
 if you're here, you're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.296 --> 00:02:01.366 A:middle
-It's tomorrow at 2 p.m. So
-if you're here, you're going
-
 00:02:01.366 --> 00:02:02.536 A:middle
 to be interested
 in that as well.
@@ -240,13 +223,6 @@ accounts, state, databases,
 
 00:02:55.956 --> 00:02:57.906 A:middle
 all that sort of stuff.
-
-00:02:58.306 --> 00:03:00.046 A:middle
-But finally, it's also going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.306 --> 00:03:00.046 A:middle
 But finally, it's also going
@@ -339,13 +315,6 @@ your website
 00:03:58.626 --> 00:04:00.076 A:middle
 and your website's content.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.626 --> 00:04:00.076 A:middle
-and your website's content.
-
 00:04:01.186 --> 00:04:02.686 A:middle
 Learn how to make
 that even better.
@@ -369,7 +338,7 @@ or on a Mac with a
 00:04:14.356 --> 00:04:15.206 A:middle
 That sounds good to you?
 
-00:04:15.756 --> 00:04:16.435 A:middle
+00:04:15.756 --> 00:04:16.436 A:middle
 Let's get started.
 
 00:04:18.476 --> 00:04:21.036 A:middle
@@ -431,10 +400,6 @@ it's going to be okay.
 00:04:57.006 --> 00:04:59.656 A:middle
 Something that I realized while
 I was beta testing Andrew's app
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.466 --> 00:05:03.376 A:middle
 is that my first run
@@ -531,14 +496,6 @@ that you see when checking
 out of the online shopping
 site with information
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.336 --> 00:06:01.766 A:middle
-out of the online shopping
-site with information
-
 00:06:01.766 --> 00:06:04.376 A:middle
 from your contacts card.
 
@@ -614,14 +571,6 @@ that the system breaks down.
 00:06:54.356 --> 00:06:56.956 A:middle
 And that's when your
 application enters the picture.
-
-00:06:57.956 --> 00:07:01.206 A:middle
-When a user hits an apps login
-screen anything can happen.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.956 --> 00:07:01.206 A:middle
 When a user hits an apps login
@@ -709,14 +658,6 @@ for a security engineer,
 I'm going to start off by
 talking about password security.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.406 --> 00:08:00.286 A:middle
-I'm going to start off by
-talking about password security.
-
 00:08:01.566 --> 00:08:04.786 A:middle
 Passwords are some of the most
 sensitive and important data
@@ -757,11 +698,11 @@ came from to make sure
 that they are only ever filled
 back to the exact same website.
 
-00:08:35.856 --> 00:08:37.785 A:middle
+00:08:35.856 --> 00:08:37.786 A:middle
 This security and
 actually privacy
 
-00:08:37.785 --> 00:08:41.606 A:middle
+00:08:37.786 --> 00:08:41.606 A:middle
 as well guarantee is
 provided by Safari itself
 
@@ -783,14 +724,6 @@ and password pair.
 00:08:54.806 --> 00:08:57.276 A:middle
 I'm sure like me
 you have hundreds
-
-00:08:57.496 --> 00:09:00.636 A:middle
-of native iOS applications
-installed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.496 --> 00:09:00.636 A:middle
 of native iOS applications
@@ -858,14 +791,6 @@ within your application.
 So really what we're doing
 is trying to make sure
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.246 --> 00:10:00.546 A:middle
-So really what we're doing
-is trying to make sure
-
 00:10:00.626 --> 00:10:04.506 A:middle
 that the website
 developer and the owner
@@ -922,14 +847,6 @@ a similar table linking apps
 00:10:55.186 --> 00:10:57.616 A:middle
 and websites and whether
 they have been approved
-
-00:10:57.786 --> 00:11:00.126 A:middle
-to share information
-between them.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.786 --> 00:11:00.126 A:middle
 to share information
@@ -1008,14 +925,6 @@ include a list of domains.
 They're included in
 the app's entitlements.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.396 --> 00:12:01.106 A:middle
-They're included in
-the app's entitlements.
-
 00:12:01.726 --> 00:12:07.886 A:middle
 An entitlement is a signed
 key value that's included
@@ -1079,14 +988,6 @@ you actually specify yourself
 from within Xcode in the
 general identity section.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:57.646 --> 00:13:02.516 A:middle
-from within Xcode in the
-general identity section.
-
 00:13:02.936 --> 00:13:04.626 A:middle
 Together the team ID
 
@@ -1145,13 +1046,6 @@ on the app side of things.
 00:13:56.116 --> 00:13:58.206 A:middle
 Let's look at what's
 needed service side.
-
-00:13:58.796 --> 00:14:02.206 A:middle
-As I mentioned, iOS is going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.796 --> 00:14:02.206 A:middle
 As I mentioned, iOS is going
@@ -1227,14 +1121,6 @@ you saw a moment ago
 but with all the
 white space removed,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.196 --> 00:15:00.696 A:middle
-but with all the
-white space removed,
-
 00:15:00.866 --> 00:15:05.386 A:middle
 and I'm saving it
 off into json.txt.
@@ -1286,14 +1172,6 @@ at some of the statuses.
 00:15:53.286 --> 00:15:59.036 A:middle
 If the file exists and we
 get 200 okay, iOS is going
-
-00:15:59.036 --> 00:16:02.766 A:middle
-to take the file and
-check the service name
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.036 --> 00:16:02.766 A:middle
 to take the file and
@@ -1357,14 +1235,6 @@ testing and need to go
 through this a few
 times to get it right.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:55.696 --> 00:17:00.076 A:middle
-through this a few
-times to get it right.
-
 00:17:00.436 --> 00:17:03.226 A:middle
 So now we've set up
 that trust relationship
@@ -1372,7 +1242,7 @@ that trust relationship
 00:17:03.316 --> 00:17:04.996 A:middle
 between our app and our website.
 
-00:17:05.695 --> 00:17:08.185 A:middle
+00:17:05.696 --> 00:17:08.186 A:middle
 Let's see how we can
 integrate prompting
 
@@ -1380,14 +1250,14 @@ integrate prompting
 for Safari's saved passwords
 into our app's application flow.
 
-00:17:15.616 --> 00:17:17.965 A:middle
+00:17:15.616 --> 00:17:17.966 A:middle
 Here we are on our home screen.
 
 00:17:18.356 --> 00:17:21.276 A:middle
 The "Shiny" app just installed
 and waiting to be launched.
 
-00:17:22.445 --> 00:17:24.886 A:middle
+00:17:22.446 --> 00:17:24.886 A:middle
 Once launched, it's going
 to go through this flow.
 
@@ -1432,14 +1302,6 @@ credentials, then we're going
 00:17:53.876 --> 00:17:57.646 A:middle
 to save them for accessing them
 next time and then we can log in
-
-00:17:57.706 --> 00:18:01.096 A:middle
-and see a wonderful "Shiny"
-teapot - tea also another one
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.706 --> 00:18:01.096 A:middle
 and see a wonderful "Shiny"
@@ -1522,14 +1384,6 @@ and password view as a fallback
 in case the user hasn't
 saved anything with Safari
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.466 --> 00:19:02.376 A:middle
-in case the user hasn't
-saved anything with Safari
-
 00:19:02.436 --> 00:19:03.726 A:middle
 or declined to select one.
 
@@ -1589,14 +1443,6 @@ have usually no idea what your
 
 00:19:56.716 --> 00:19:58.836 A:middle
 user names your users have.
-
-00:19:59.066 --> 00:20:01.686 A:middle
-So what you can do
-is pass NULL for both
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.066 --> 00:20:01.686 A:middle
 So what you can do
@@ -1664,14 +1510,6 @@ that our application already had
 
 00:20:56.686 --> 00:20:57.496 A:middle
 to log in to the server.
-
-00:20:57.496 --> 00:21:00.466 A:middle
-Because this is running in
-the block, I'm going to run
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:57.496 --> 00:21:00.466 A:middle
 Because this is running in
@@ -1749,14 +1587,6 @@ completes with no UI.
 
 00:21:56.066 --> 00:21:56.986 A:middle
 It just goes straight in.
-
-00:21:57.346 --> 00:22:00.376 A:middle
-Which makes it really easy
-to include in your flow
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.346 --> 00:22:00.376 A:middle
 Which makes it really easy
@@ -1844,14 +1674,6 @@ format used by Safari.
 Returning for a moment
 to the completion block,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:56.556 --> 00:23:00.506 A:middle
-Returning for a moment
-to the completion block,
-
 00:23:01.216 --> 00:23:03.166 A:middle
 there are a number of errors
 that could be returned,
@@ -1927,14 +1749,6 @@ than they really deserve.
 So now let's have a
 quick demo of putting
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.756 --> 00:24:04.666 A:middle
-So now let's have a
-quick demo of putting
-
 00:24:04.666 --> 00:24:06.106 A:middle
 that all into practice.
 
@@ -2000,14 +1814,6 @@ On View Controller.
 
 00:24:58.126 --> 00:24:59.616 A:middle
 And if you scroll down a bit,
-
-00:24:59.616 --> 00:25:02.576 A:middle
-we've got the method
-loginWithCached
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.616 --> 00:25:02.576 A:middle
 we've got the method
@@ -2081,13 +1887,6 @@ block, the failure block
 00:25:58.346 --> 00:26:00.936 A:middle
 of our previous method.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.346 --> 00:26:00.936 A:middle
-of our previous method.
-
 00:26:00.936 --> 00:26:06.016 A:middle
 And instead of the back,
 fallback being show log
@@ -2149,14 +1948,6 @@ So I'm going to accept that.
 
 00:26:55.476 --> 00:26:57.156 A:middle
 That looks reasonably secure.
-
-00:26:57.706 --> 00:27:00.116 A:middle
-Change password, and because
-I already had something
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.706 --> 00:27:00.116 A:middle
 Change password, and because
@@ -2224,10 +2015,6 @@ Thank you all.
 
 00:27:55.516 --> 00:27:59.556 A:middle
 [ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.056 --> 00:28:00.606 A:middle
 &gt;&gt; Thanks, Andrew.
@@ -2302,14 +2089,6 @@ on the web however.
 00:28:54.046 --> 00:28:56.516 A:middle
 Your website doesn't have
 a way of saying, "Hey,
-
-00:28:56.516 --> 00:29:00.366 A:middle
-Safari I just updated Andrew's
-password from Foo to Bar."
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:56.516 --> 00:29:00.366 A:middle
 Safari I just updated Andrew's
@@ -2396,14 +2175,6 @@ didn't have a password saved
 00:29:55.496 --> 00:29:58.846 A:middle
 for your website when you call
 SecRequestShared WebCredential
-
-00:29:58.846 --> 00:30:00.496 A:middle
-from within your iOS
-app, you're going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.846 --> 00:30:00.496 A:middle
 from within your iOS
@@ -2502,14 +2273,6 @@ to generate a random credential
 
 00:30:57.026 --> 00:30:58.366 A:middle
 for the user, a random password,
-
-00:30:58.366 --> 00:31:01.196 A:middle
-and then after you've
-created the account,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.366 --> 00:31:01.196 A:middle
 and then after you've
@@ -2618,14 +2381,6 @@ is saved.
 And then finally if your
 website offers a way for users
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.256 --> 00:32:02.486 A:middle
-And then finally if your
-website offers a way for users
-
 00:32:02.486 --> 00:32:04.486 A:middle
 to change their passwords
 when they have forgotten them,
@@ -2699,14 +2454,6 @@ The first one is the
 00:32:54.526 --> 00:32:56.596 A:middle
 about declaring your
 forms' intentions.
-
-00:32:58.146 --> 00:33:02.416 A:middle
-New in Safari 8 on Yosemite
-and Safari on iOS 8,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.146 --> 00:33:02.416 A:middle
 New in Safari 8 on Yosemite
@@ -2796,13 +2543,6 @@ them the right way both times,
 00:33:59.816 --> 00:34:00.326 A:middle
 that's fine.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.816 --> 00:34:00.326 A:middle
-that's fine.
-
 00:34:00.676 --> 00:34:02.936 A:middle
 Just go ahead and label
 both your password field
@@ -2815,17 +2555,17 @@ field as new-password
 and Safari's going to
 understand that better as well.
 
-00:34:08.525 --> 00:34:10.966 A:middle
+00:34:08.526 --> 00:34:10.966 A:middle
 And then now changing passwords.
 
 00:34:11.606 --> 00:34:12.206 A:middle
 That's fine.
 
-00:34:12.646 --> 00:34:14.565 A:middle
+00:34:12.646 --> 00:34:14.566 A:middle
 You're going to want to know the
 user's current password to prove
 
-00:34:14.565 --> 00:34:15.716 A:middle
+00:34:14.566 --> 00:34:15.716 A:middle
 that they are who
 they say they are.
 
@@ -2833,10 +2573,10 @@ they say they are.
 And you're going to
 want a new password
 
-00:34:17.516 --> 00:34:18.275 A:middle
+00:34:17.516 --> 00:34:18.276 A:middle
 because that's the point.
 
-00:34:19.005 --> 00:34:20.985 A:middle
+00:34:19.006 --> 00:34:20.986 A:middle
 Just use current-password
 and new-password.
 
@@ -2851,10 +2591,10 @@ the current user's user name
 00:34:29.426 --> 00:34:30.246 A:middle
 within the form.
 
-00:34:31.376 --> 00:34:32.525 A:middle
+00:34:31.376 --> 00:34:32.526 A:middle
 This is a really good idea
 
-00:34:32.846 --> 00:34:35.295 A:middle
+00:34:32.846 --> 00:34:35.296 A:middle
 because what this does
 is it tells Safari
 
@@ -2874,28 +2614,20 @@ a good idea in general.
 Now if your design doesn't
 accommodate this sort of thing,
 
-00:34:47.926 --> 00:34:50.005 A:middle
+00:34:47.926 --> 00:34:50.006 A:middle
 putting the user name out
 in plain text read only
 
-00:34:50.005 --> 00:34:51.766 A:middle
+00:34:50.006 --> 00:34:51.766 A:middle
 like this, don't worry about it.
 
-00:34:52.376 --> 00:34:55.045 A:middle
+00:34:52.376 --> 00:34:55.046 A:middle
 Just change the input from
 type "text" to type "hidden."
 
 00:34:55.916 --> 00:34:58.426 A:middle
 Your users aren't going
 to see it, but Safari is,
-
-00:34:58.786 --> 00:35:00.556 A:middle
-and Safari is going to
-understand your forms better
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.786 --> 00:35:00.556 A:middle
 and Safari is going to
@@ -2990,10 +2722,6 @@ applicable.
 I mean you can use it on
 any website that has forms.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:00.016 --> 00:36:02.296 A:middle
 The second technique
 I want to tell you
@@ -3085,10 +2813,6 @@ list, so if I'm a user
 on your site and I
 click three links
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:00.426 --> 00:37:02.876 A:middle
 when I hit the back button,
 if you're not using this,
@@ -3163,14 +2887,6 @@ JavaScript-driven XHR never
 00:37:55.136 --> 00:37:59.466 A:middle
 reload awesome web application
 can go ahead and add to it.
-
-00:37:59.696 --> 00:38:03.326 A:middle
-So the next time that a user
-is on your dynamic website
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.696 --> 00:38:03.326 A:middle
 So the next time that a user
@@ -3268,14 +2984,6 @@ SecRequestSharedWebCredential.
 But if these two
 techniques don't solve all
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.456 --> 00:39:01.096 A:middle
-But if these two
-techniques don't solve all
-
 00:39:01.096 --> 00:39:02.636 A:middle
 of your problems, what I'm going
 
@@ -3351,14 +3059,6 @@ OS X Yosemite share
 
 00:39:56.326 --> 00:39:57.836 A:middle
 that same start page design.
-
-00:39:59.136 --> 00:40:01.826 A:middle
-The quality of the icon
-for your website that shows
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:59.136 --> 00:40:01.826 A:middle
 The quality of the icon
@@ -3455,14 +3155,6 @@ be specifying this
 because this is the
 icon that's used
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.676 --> 00:41:00.396 A:middle
-because this is the
-icon that's used
-
 00:41:00.396 --> 00:41:03.806 A:middle
 when a user adds your website
 to their home screen on iOS.
@@ -3553,14 +3245,6 @@ and adds your website
 to their home screen
 on iOS, where you know
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:59.866 --> 00:42:02.056 A:middle
-to their home screen
-on iOS, where you know
-
 00:42:02.056 --> 00:42:05.346 A:middle
 that icons are rounded off, iOS
 is going to handle that for you
@@ -3635,13 +3319,6 @@ Safari Reader.
 00:42:59.916 --> 00:43:02.836 A:middle
 And on OS X Mavericks and iOS 7,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.916 --> 00:43:02.836 A:middle
-And on OS X Mavericks and iOS 7,
-
 00:43:03.176 --> 00:43:06.526 A:middle
 a feature called Shared Links
 lets the user find articles
@@ -3699,14 +3376,6 @@ all devices, even mobile ones.
 00:43:54.346 --> 00:43:57.066 A:middle
 Safari on an iPhone is just
 as capable of participating
-
-00:43:57.066 --> 00:44:01.596 A:middle
-in shared links as
-Safari on a Mac.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:57.066 --> 00:44:01.596 A:middle
 in shared links as
@@ -3794,14 +3463,6 @@ an example of this.
 Here's some markup taken
 from the WebKit blog,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.156 --> 00:45:01.116 A:middle
-Here's some markup taken
-from the WebKit blog,
-
 00:45:01.566 --> 00:45:03.556 A:middle
 a recent blog post
 about the fourth tier,
@@ -3879,13 +3540,6 @@ be specifying a description
 00:45:55.616 --> 00:45:58.826 A:middle
 to let's say, search engines
 for your pages on your site.
-
-00:45:59.476 --> 00:46:00.816 A:middle
-Safari can listen to this, too,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:59.476 --> 00:46:00.816 A:middle
 Safari can listen to this, too,
@@ -3983,13 +3637,6 @@ Your icons are awesome.
 00:46:59.936 --> 00:47:01.246 A:middle
 Just as good as your app icons.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.936 --> 00:47:01.246 A:middle
-Just as good as your app icons.
-
 00:47:01.886 --> 00:47:05.236 A:middle
 And you've adopted some metadata
 so that websites, browsers
@@ -4070,10 +3717,6 @@ are completely unreadable.
 On other websites when
 I've run into this problem,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:00.206 --> 00:48:01.886 A:middle
 I've seen this version of it,
 
@@ -4147,14 +3790,6 @@ that the user, my friend,
 00:48:54.876 --> 00:48:58.816 A:middle
 went to a link on her iPhone,
 and when she went to example.com
-
-00:48:58.816 --> 00:49:01.726 A:middle
-in this case, the website
-said, "Hey, I can tell you're
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:58.816 --> 00:49:01.726 A:middle
 in this case, the website
@@ -4242,14 +3877,6 @@ better solution to be had.
 And that comes by
 admitting that the time
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:59.386 --> 00:50:02.636 A:middle
-And that comes by
-admitting that the time
-
 00:50:02.636 --> 00:50:04.846 A:middle
 of the mobile website is over.
 
@@ -4317,14 +3944,6 @@ been getting excellent battery
 00:50:56.426 --> 00:50:59.236 A:middle
 life and smooth video
 playback even
-
-00:50:59.236 --> 00:51:01.046 A:middle
-on relatively low-powered
-devices.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:59.236 --> 00:51:01.046 A:middle
 on relatively low-powered
@@ -4401,14 +4020,6 @@ for all of our users,
 00:51:55.956 --> 00:51:57.706 A:middle
 whether they're using
 our products and services
-
-00:51:58.136 --> 00:52:00.726 A:middle
-with an app, with a
-website and no matter
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:58.136 --> 00:52:00.726 A:middle
 with an app, with a
@@ -4503,10 +4114,6 @@ It might only take five minutes,
 and it will make a huge
 difference for your users.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:53:00.996 --> 00:53:03.956 A:middle
 Then sweat the details on
 your application's icons.
@@ -4583,4 +4190,3 @@ an awesome WWDC.
 
 00:53:56.516 --> 00:54:01.720 A:middle
 [ Applause ]
-

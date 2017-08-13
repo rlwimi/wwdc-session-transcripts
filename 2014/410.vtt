@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:13.136 --> 00:00:13.976 A:middle
 &gt;&gt; Hello, everyone.
@@ -60,15 +59,7 @@ the tools you know and love,
 
 00:00:54.416 --> 00:00:57.196 A:middle
 the Xcode you know and love, the
-source ADAFEr you know and love,
-
-00:00:57.476 --> 00:01:01.256 A:middle
-they all just feel great, and
-the debugger you know and love,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+source editor you know and love,
 
 00:00:57.476 --> 00:01:01.256 A:middle
 they all just feel great, and
@@ -136,13 +127,6 @@ happened that there were bugs
 00:01:55.516 --> 00:01:58.466 A:middle
 in your code, you could
 actually use the debugger
-
-00:01:58.466 --> 00:02:00.186 A:middle
-to be productive to fix them.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.466 --> 00:02:00.186 A:middle
 to be productive to fix them.
@@ -220,13 +204,6 @@ debugging awesome.
 00:02:59.636 --> 00:03:01.566 A:middle
 Optional types.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.636 --> 00:03:01.566 A:middle
-Optional types.
-
 00:03:02.496 --> 00:03:05.536 A:middle
 Optional types introduce
 a level of indirection.
@@ -292,14 +269,6 @@ Swift string optional.
 We create an NSRect as
 bridge C struct optional
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.766 --> 00:04:03.386 A:middle
-We create an NSRect as
-bridge C struct optional
-
 00:04:03.766 --> 00:04:06.836 A:middle
 and we create an NSURL
 optional, and we choose
@@ -312,15 +281,15 @@ in the NSURL.
 The variable views will
 transparently unwrap for you.
 
-00:04:13.636 --> 00:04:17.536 A:middle
-Your string will show just
-the contents of the string
+00:04:13.636 --> 00:04:17.026 A:middle
+Your string will show
+just the contents
 
-00:04:17.536 --> 00:04:19.856 A:middle
-literal you put in
-the, in the optional.
+00:04:17.026 --> 00:04:19.856 A:middle
+of the string literal you
+put in the, in the optional.
 
-00:04:20.055 --> 00:04:21.755 A:middle
+00:04:20.056 --> 00:04:21.756 A:middle
 The boxes open, oh,
 there's a string.
 
@@ -368,14 +337,6 @@ us a really big, bulky box.
 00:04:56.096 --> 00:04:58.626 A:middle
 And then we open the
 really big, bulky box
-
-00:04:58.806 --> 00:05:00.306 A:middle
-and there's a smaller
-box inside.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.806 --> 00:05:00.306 A:middle
 and there's a smaller
@@ -462,14 +423,6 @@ to be that smart guy.
 It looks inside all
 the level of boxes
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.726 --> 00:06:00.766 A:middle
-It looks inside all
-the level of boxes
-
 00:06:01.476 --> 00:06:03.316 A:middle
 and it tells you, you know what?
 
@@ -520,7 +473,7 @@ used throughout the debugger
 
 00:06:38.796 --> 00:06:42.876 A:middle
 when you're looking at data
-to present you in no frills,
+to present you is no frills,
 
 00:06:43.276 --> 00:06:46.556 A:middle
 just get me the data that
@@ -544,13 +497,6 @@ what you want
 00:06:58.626 --> 00:07:00.796 A:middle
 to use is this row display mode.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.626 --> 00:07:00.796 A:middle
-to use is this row display mode.
-
 00:07:01.506 --> 00:07:04.246 A:middle
 At the LLDB consult,
 the row display,
@@ -559,17 +505,20 @@ the row display,
 the show me the real guts
 of my objective memory
 
-00:07:07.866 --> 00:07:11.306 A:middle
-without formatting it in an
-intelligent way is invoked
+00:07:07.866 --> 00:07:10.196 A:middle
+without formatting it
+in an intelligent way,
 
-00:07:11.306 --> 00:07:15.756 A:middle
-with the dash dash row, or for
-short, dash upper case R option
+00:07:10.656 --> 00:07:14.896 A:middle
+is invoked with the dash
+dash row, or for short,
 
-00:07:16.196 --> 00:07:20.826 A:middle
-to the expression command or
-the frame variable command.
+00:07:14.896 --> 00:07:17.596 A:middle
+-R option to the
+expression command
+
+00:07:18.066 --> 00:07:20.826 A:middle
+or the frame variable command.
 
 00:07:21.756 --> 00:07:25.446 A:middle
 Some of you have probably
@@ -612,19 +561,12 @@ could change the state
 00:07:52.566 --> 00:07:54.026 A:middle
 of your app as you look at data.
 
-00:07:55.106 --> 00:07:57.116 A:middle
+00:07:55.106 --> 00:07:57.876 A:middle
 You can use the frame
-variable command
+variable command to say,
 
-00:07:57.246 --> 00:07:58.856 A:middle
-to say, "Show me on variable.
-
-00:07:58.936 --> 00:08:00.266 A:middle
-Show me a bunch of variables.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:07:57.876 --> 00:07:58.856 A:middle
+"Show me one variable.
 
 00:07:58.936 --> 00:08:00.266 A:middle
 Show me a bunch of variables.
@@ -638,7 +580,7 @@ And that is the frame
 variable command.
 
 00:08:08.216 --> 00:08:12.166 A:middle
-If you also pass it the dash R
+If you also pass it the -R
 option, you get the row display.
 
 00:08:12.296 --> 00:08:14.966 A:middle
@@ -649,23 +591,28 @@ really are under the covers.
 And if we do that to our
 big box with smaller box
 
-00:08:18.906 --> 00:08:24.066 A:middle
-with nothing inside, we see that
-the first thing LLDB tells us is
+00:08:18.906 --> 00:08:20.896 A:middle
+with nothing inside, we see
 
-00:08:24.406 --> 00:08:29.826 A:middle
-that yeah, there is a big box
-and I see that there's something
+00:08:20.896 --> 00:08:25.366 A:middle
+that the first thing LLDB
+tells us is that, "Yeah,
 
-00:08:29.826 --> 00:08:31.466 A:middle
-in there, that's
-what that Some means.
+00:08:25.936 --> 00:08:28.846 A:middle
+there is a big box and I see
+
+00:08:28.846 --> 00:08:30.236 A:middle
+that there's something
+in there."
+
+00:08:30.306 --> 00:08:31.466 A:middle
+That's what that Some means.
 
 00:08:32.346 --> 00:08:36.716 A:middle
 Now let me open this big box and
 see exactly what is in there,
 
-00:08:37.635 --> 00:08:42.946 A:middle
+00:08:37.636 --> 00:08:42.946 A:middle
 and we see that there is a
 smaller box with nothing inside.
 
@@ -687,14 +634,6 @@ that would fit a string.
 If there was a string here,
 we would pretty much see that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:56.936 --> 00:09:00.176 A:middle
-If there was a string here,
-we would pretty much see that.
-
 00:09:00.766 --> 00:09:02.646 A:middle
 We would see the low-level,
 
@@ -706,12 +645,12 @@ of a Swift string.
 But there's no string
 in this case.
 
-00:09:08.856 --> 00:09:11.896 A:middle
+00:09:08.856 --> 00:09:11.936 A:middle
 So, everything in the storage
 that the compiler reserved
 
-00:09:11.896 --> 00:09:13.886 A:middle
-from the string is zeroed
+00:09:11.936 --> 00:09:13.886 A:middle
+for the string is zeroed
 
 00:09:13.886 --> 00:09:16.086 A:middle
 out because there
@@ -763,10 +702,6 @@ and we could keep moving.
 
 00:09:57.496 --> 00:09:59.906 A:middle
 Let's just do that, will we?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.096 --> 00:10:04.026 A:middle
 I'm going to go with the idea
@@ -835,14 +770,6 @@ run times and debuggers is,
 for instance, the static
 dynamic type distinction.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.676 --> 00:11:02.626 A:middle
-for instance, the static
-dynamic type distinction.
-
 00:11:03.926 --> 00:11:08.116 A:middle
 We're all pretty familiar
 I assume with the concept
@@ -884,13 +811,13 @@ telling the compiler to keep us,
 00:11:41.916 --> 00:11:43.526 A:middle
 the code writers, honest.
 
-00:11:44.666 --> 00:11:49.356 A:middle
+00:11:44.666 --> 00:11:50.556 A:middle
 When I, when I tell the compiler
-that thing is an any object,
+that thing is an AnyObject, I'm,
 
-00:11:50.326 --> 00:11:54.396 A:middle
-I'm, in a sense I'm telling
-the compiler, "Please make sure
+00:11:50.606 --> 00:11:54.396 A:middle
+in a sense I'm telling the
+compiler, "Please make sure
 
 00:11:54.546 --> 00:11:56.416 A:middle
 that whenever I use that object,
@@ -898,10 +825,6 @@ that whenever I use that object,
 00:11:56.846 --> 00:11:59.486 A:middle
 I play by the rules
 of any object."
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.176 --> 00:12:03.586 A:middle
 And as long as I do that,
@@ -912,8 +835,8 @@ and if I break the contract,
 when I told the compiler
 
 00:12:07.586 --> 00:12:09.656 A:middle
-if this is an any
-object, keep me honest,
+if this is an AnyObject,
+keep me honest,
 
 00:12:10.226 --> 00:12:12.046 A:middle
 then the compiler will complain.
@@ -939,7 +862,7 @@ for something.
 
 00:12:31.966 --> 00:12:35.916 A:middle
 How does the system know
-that when I say URL.hash,
+that when I say "url.hash",
 
 00:12:36.626 --> 00:12:40.436 A:middle
 the implementation that I expect
@@ -950,7 +873,7 @@ How does that work?
 
 00:12:43.256 --> 00:12:46.866 A:middle
 Well, that can't rely on the
-fact that that's an any object,
+fact that that's an AnyObject,
 
 00:12:47.196 --> 00:12:50.556 A:middle
 because an any object could
@@ -965,12 +888,8 @@ What happens is there's
 a reliance
 
 00:12:57.366 --> 00:12:59.576 A:middle
-on the run time type
+on the runtime type
 of the object.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.146 --> 00:13:02.046 A:middle
 The system looks at the type
@@ -981,7 +900,7 @@ code is running at that moment,
 
 00:13:05.816 --> 00:13:09.186 A:middle
 and that's called the
-run time dynamic type,
+runtime dynamic type,
 
 00:13:09.466 --> 00:13:14.316 A:middle
 and it uses that information to
@@ -1037,14 +956,6 @@ type information tells us is
 which methods that this
 objects type implement.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.566 --> 00:14:00.866 A:middle
-which methods that this
-objects type implement.
-
 00:14:00.866 --> 00:14:05.646 A:middle
 And in this case, one of the
 ones that NSURL implements,
@@ -1063,12 +974,12 @@ call, and we're done.
 00:14:12.626 --> 00:14:14.466 A:middle
 Dynamic dispatch actually works.
 
-00:14:15.706 --> 00:14:20.066 A:middle
+00:14:15.706 --> 00:14:19.786 A:middle
 What if we're trying to call
 something that is not in the
 
-00:14:20.066 --> 00:14:22.416 A:middle
-in the [inaudible] methods that
+00:14:19.786 --> 00:14:22.416 A:middle
+in the list of methods that
 that objects type implements?
 
 00:14:23.116 --> 00:14:24.856 A:middle
@@ -1103,22 +1014,14 @@ and if that succeeds,
 then we found it.
 
 00:14:50.336 --> 00:14:52.606 A:middle
-We can tell the method, hey,
+We can tell the method, "Hey,
 here's an option for you,
 
 00:14:52.606 --> 00:14:54.056 A:middle
 please do your thing for me.
 
 00:14:54.406 --> 00:14:54.806 A:middle
-Thank you.
-
-00:14:57.136 --> 00:15:00.446 A:middle
-This same concept
-is also interesting
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+Thank you."
 
 00:14:57.136 --> 00:15:00.446 A:middle
 This same concept
@@ -1155,14 +1058,14 @@ that are okay for me to do
 with the base class type."
 
 00:15:28.226 --> 00:15:33.546 A:middle
-But I can call in with an object
-of derived class, can I not?
+But I can call it with an object
+of the derived class, can I not?
 
 00:15:34.146 --> 00:15:36.036 A:middle
 That's perfectly okay.
 
 00:15:38.016 --> 00:15:42.696 A:middle
-When I hit my break point, the
+When I hit my breakpoint, the
 compiler has to keep me honest,
 
 00:15:43.176 --> 00:15:45.306 A:middle
@@ -1187,17 +1090,9 @@ the dynamic type of X because on
 that dynamic type
 relies the fact
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.896 --> 00:16:02.446 A:middle
-that dynamic type
-relies the fact
-
 00:16:02.926 --> 00:16:04.406 A:middle
 that I could have
-more [inaudible] data,
+more insets data,
 
 00:16:04.656 --> 00:16:06.346 A:middle
 that I could have
@@ -1254,14 +1149,6 @@ That's the whole point.
 I want to make sure
 that I only do what's OK
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.446 --> 00:17:02.566 A:middle
-I want to make sure
-that I only do what's OK
-
 00:17:02.566 --> 00:17:04.296 A:middle
 to do on the protocol type.
 
@@ -1269,7 +1156,7 @@ to do on the protocol type.
 But again, when I'm debugging,
 I want to see the full truth.
 
-00:17:09.425 --> 00:17:11.616 A:middle
+00:17:09.426 --> 00:17:11.616 A:middle
 I actually want to see
 my implementing object,
 
@@ -1277,10 +1164,10 @@ my implementing object,
 and that's what LLDB
 will show you.
 
-00:17:14.796 --> 00:17:17.665 A:middle
+00:17:14.796 --> 00:17:17.666 A:middle
 Let's look at an example.
 
-00:17:17.715 --> 00:17:21.586 A:middle
+00:17:17.716 --> 00:17:21.586 A:middle
 Let's say I'm writing
 an app for a zoo system
 
@@ -1322,14 +1209,6 @@ We gave something a static type
 00:17:51.916 --> 00:17:56.056 A:middle
 that is somehow abstract
 compared to the real thing
-
-00:17:56.056 --> 00:18:00.796 A:middle
-that we're probably passing
-at run time, and LLDB knows
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.056 --> 00:18:00.796 A:middle
 that we're probably passing
@@ -1405,14 +1284,6 @@ by design.
 It wants at the same
 time to make sure
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.856 --> 00:19:02.696 A:middle
-It wants at the same
-time to make sure
-
 00:19:03.036 --> 00:19:05.846 A:middle
 that you only do things that
 are declared in a protocol
@@ -1475,20 +1346,12 @@ under the covers
 to go ask the language run time,
 "Can you help me out here?"
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:56.206 --> 00:20:00.016 A:middle
-to go ask the language run time,
-"Can you help me out here?"
-
 00:20:01.096 --> 00:20:03.376 A:middle
 In that most liberal
 settings, the run,
 
 00:20:03.416 --> 00:20:07.486 A:middle
-the allow run target are here
+the Allow Run Target R Here
 setting, you tell the debugger,
 
 00:20:07.596 --> 00:20:09.916 A:middle
@@ -1519,9 +1382,9 @@ you're telling the debugger,
 about the dynamic type of this
 thing but I prefer you not
 
-00:20:29.616 --> 00:20:31.346 A:middle
-to run any code in my
-[inaudible] process.
+00:20:29.616 --> 00:20:31.436 A:middle
+to run any code that might
+interfere with my process.
 
 00:20:32.006 --> 00:20:35.436 A:middle
 If it turns out that you have to
@@ -1535,7 +1398,7 @@ type, that's OK.
 I'll understand."
 
 00:20:39.146 --> 00:20:41.716 A:middle
-Limitation is that information
+Limitation is that, information
 
 00:20:41.716 --> 00:20:44.566 A:middle
 to resolve the type will
@@ -1562,15 +1425,7 @@ LLDB can use that
 same information
 
 00:20:58.926 --> 00:21:00.816 A:middle
-to reconstruction the
-meaning of your code.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.926 --> 00:21:00.816 A:middle
-to reconstruction the
+to reconstruct the
 meaning of your code.
 
 00:21:00.816 --> 00:21:04.566 A:middle
@@ -1618,11 +1473,11 @@ function and it realizes
 that your function takes
 a generic argument, P.
 
-00:21:45.946 --> 00:21:49.586 A:middle
-So, LLDB has to look for
-type information to resolve .
+00:21:45.946 --> 00:21:50.026 A:middle
+So, LLDB has to look for type
+information to resolve P.
 
-00:21:49.586 --> 00:21:51.606 A:middle
+00:21:50.746 --> 00:21:51.606 A:middle
 And it finds it.
 
 00:21:52.296 --> 00:21:54.746 A:middle
@@ -1630,16 +1485,8 @@ When you debug generic code,
 you're going to see a lot
 
 00:21:54.746 --> 00:21:58.646 A:middle
-of this $ with dot type
-dot name special variables.
-
-00:21:59.196 --> 00:22:02.826 A:middle
-Those special variables carry
-the generic type information.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+of this $ with .type
+.name special variables.
 
 00:21:59.196 --> 00:22:02.826 A:middle
 Those special variables carry
@@ -1705,14 +1552,6 @@ literally as I'm debugging
 through it, it's really easy for
 me to see the correspondence.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:57.016 --> 00:23:00.356 A:middle
-through it, it's really easy for
-me to see the correspondence.
-
 00:23:00.786 --> 00:23:04.276 A:middle
 Evolution, evolutioning
 machine code execution,
@@ -1768,8 +1607,7 @@ There will be steps, there will
 be jumps, data will not be there
 
 00:23:38.916 --> 00:23:40.256 A:middle
-that it was supposed
-to be there.
+that was supposed to be there.
 
 00:23:40.676 --> 00:23:45.686 A:middle
 As a result of that,
@@ -1795,10 +1633,6 @@ and you probably get bugs
 from those apps very,
 very rarely, I'm sure.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:00.846 --> 00:24:05.096 A:middle
 But sometimes it happens, and
 the first thing you should do
@@ -1811,7 +1645,7 @@ incoming bugs is reproduce it
 in a debug build of your app.
 
 00:24:12.876 --> 00:24:17.496 A:middle
-Only if that doesn't work
+Only if that doesn't work,
 then, sorry, tough luck.
 
 00:24:17.586 --> 00:24:19.576 A:middle
@@ -1831,7 +1665,7 @@ to things we covered
 in the previous slides.
 
 00:24:30.546 --> 00:24:33.336 A:middle
-While in general type
+While in general, type
 metadata is passed along,
 
 00:24:34.516 --> 00:24:37.836 A:middle
@@ -1840,7 +1674,7 @@ free in optimized builds
 
 00:24:37.946 --> 00:24:42.346 A:middle
 to actually specialize
-a way some types, some,
+away some types, some,
 
 00:24:42.496 --> 00:24:47.216 A:middle
 your generic functions
@@ -1861,13 +1695,6 @@ free to do devirtualization
 00:24:57.046 --> 00:24:59.526 A:middle
 to skip dynamic dispatch
 and directly call
-
-00:24:59.526 --> 00:25:00.746 A:middle
-into the implementing object.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.526 --> 00:25:00.746 A:middle
 into the implementing object.
@@ -1897,7 +1724,7 @@ to use Cocoa or Cocoa Touch.
 
 00:25:28.826 --> 00:25:32.526 A:middle
 You're going to import
-foundation, import UIKit.
+Foundation, import UIKit.
 
 00:25:33.236 --> 00:25:35.976 A:middle
 Those frameworks are
@@ -1924,21 +1751,13 @@ when that happens?
 
 00:25:53.456 --> 00:25:55.556 A:middle
 What can you expect
-to seen in the LLDB,
+to see in the LLDB,
 
 00:25:55.556 --> 00:25:56.956 A:middle
 in the Xcode variables view?
 
 00:25:57.326 --> 00:25:58.696 A:middle
 What can you expect as you try
-
-00:25:58.696 --> 00:26:00.836 A:middle
-to evaluate expressions
-in the LLDB console?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.696 --> 00:26:00.836 A:middle
 to evaluate expressions
@@ -1963,13 +1782,16 @@ in the language
 in which the type
 was first written.
 
-00:26:17.806 --> 00:26:23.366 A:middle
-In this case, we see a Swift
-string and an NSstring side
+00:26:17.806 --> 00:26:21.176 A:middle
+In this case, we
+see a Swift string
 
-00:26:23.366 --> 00:26:27.596 A:middle
-by side, and the Swift string is
-shown as a Swift string literal,
+00:26:21.606 --> 00:26:26.436 A:middle
+and an NSString side-by-side,
+and the Swift string is shown
+
+00:26:26.436 --> 00:26:27.596 A:middle
+as a Swift string literal,
 
 00:26:27.596 --> 00:26:29.346 A:middle
 as you would type in
@@ -2005,14 +1827,6 @@ more strongly separated.
 00:26:55.826 --> 00:26:58.066 A:middle
 Expressions see two
 separate worlds.
-
-00:26:59.516 --> 00:27:02.836 A:middle
-Objects that exist in Swift
-frames are all useable
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.516 --> 00:27:02.836 A:middle
 Objects that exist in Swift
@@ -2090,14 +1904,6 @@ expression because we're
 in Objective-C frame,
 just be self.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.276 --> 00:28:01.866 A:middle
-in Objective-C frame,
-just be self.
-
 00:28:02.096 --> 00:28:06.846 A:middle
 And we get a variable $0
 that stores away self.
@@ -2140,7 +1946,7 @@ gets really unhappy
 and he mentions things like,
 
 00:28:42.536 --> 00:28:45.686 A:middle
-"anonymous closure argument
+"Anonymous closure argument
 not contained in a closure."
 
 00:28:45.686 --> 00:28:48.386 A:middle
@@ -2157,14 +1963,6 @@ to use the other language.
 00:28:53.636 --> 00:28:57.426 A:middle
 And there's a way for you to do
 that but you have to tell LLDB
-
-00:28:57.956 --> 00:29:00.486 A:middle
-"Don't automatically infer
-the language of my expressions
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.956 --> 00:29:00.486 A:middle
 "Don't automatically infer
@@ -2222,8 +2020,8 @@ language, as we said before,
 locals are not available.
 
 00:29:37.286 --> 00:29:42.236 A:middle
-PO is in a way similar to
-the expression command,
+PO is, in a way, similar
+to the expression command,
 
 00:29:42.796 --> 00:29:46.486 A:middle
 but it actually, once you get
@@ -2243,10 +2041,6 @@ using data formatters.
 00:29:55.486 --> 00:29:59.656 A:middle
 Objective-C objects will display
 using their description method,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.016 --> 00:30:03.286 A:middle
 much like they did
@@ -2317,24 +2111,13 @@ to get an Objective-C behavior.
 Skimming for the help for PO,
 an expression, I can discover
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:54.976 --> 00:31:02.516 A:middle
-Skimming for the help for PO,
-an expression, I can discover
-
 00:31:02.516 --> 00:31:06.176 A:middle
 that the PO behavior is
 actually triggered by a flag
 
-00:31:06.216 --> 00:31:09.526 A:middle
-to the expression command,
-the dash uppercase O flag
-
-00:31:09.706 --> 00:31:10.936 A:middle
-for object description.
+00:31:06.216 --> 00:31:10.936 A:middle
+to the expression command, the
+-O flag for object description.
 
 00:31:12.636 --> 00:31:15.106 A:middle
 And so I can guess that I need
@@ -2394,23 +2177,22 @@ that what I actually want
 
 00:31:56.356 --> 00:31:59.866 A:middle
 to see is not the
-number OX 000 something.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+number OX000-something.
 
 00:32:00.196 --> 00:32:03.066 A:middle
 I want to see the object
 of that location in memory.
 
-00:32:04.386 --> 00:32:08.736 A:middle
-The simplest way to get
-there, just [inaudible],
+00:32:04.386 --> 00:32:05.656 A:middle
+The simplest way to get there?
 
-00:32:09.166 --> 00:32:19.736 A:middle
-and after all this magic, your
-result shows up, just like that.
+00:32:06.466 --> 00:32:11.306 A:middle
+Just cast to it, and
+after all this magic,
+
+00:32:12.816 --> 00:32:19.736 A:middle
+your result shows
+up, just like that.
 
 00:32:21.146 --> 00:32:21.736 A:middle
 Thank you [applause].
@@ -2420,7 +2202,7 @@ Thank you.
 
 00:32:25.786 --> 00:32:28.766 A:middle
 Let's very quickly step through
-a couple stepping scenarios,
+a couple stepping scenarios:
 
 00:32:29.696 --> 00:32:31.026 A:middle
 protocols and closures.
@@ -2459,13 +2241,6 @@ protocol witness
 
 00:32:56.836 --> 00:32:59.046 A:middle
 for Creature.speak on the stack.
-
-00:32:59.776 --> 00:33:02.676 A:middle
-That frame is the protocol,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.776 --> 00:33:02.676 A:middle
 That frame is the protocol,
@@ -2530,7 +2305,7 @@ your closure is aligned
 
 00:33:48.076 --> 00:33:50.826 A:middle
 and anonymous, it's called
-closure number 1 in my call,
+closure #1 in my call,
 
 00:33:50.826 --> 00:33:52.266 A:middle
 in my calling function.
@@ -2542,14 +2317,6 @@ to see your locals.
 00:33:56.746 --> 00:33:59.396 A:middle
 Even those, yes, even
 those $ variables
-
-00:33:59.396 --> 00:34:01.606 A:middle
-that are automatically
-generated by the compiler
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:59.396 --> 00:34:01.606 A:middle
 that are automatically
@@ -2588,9 +2355,9 @@ details and only focus
 on the core things that matter
 to you when you're debugging.
 
-00:34:28.565 --> 00:34:32.146 A:middle
+00:34:28.566 --> 00:34:32.146 A:middle
 Much like we do for
-C++ and Objective-C.,
+C++ and Objective-C,
 
 00:34:32.146 --> 00:34:34.976 A:middle
 we automatically format
@@ -2604,15 +2371,15 @@ worry about that.
 That will happen
 automatically for you.
 
-00:34:39.746 --> 00:34:42.525 A:middle
+00:34:39.746 --> 00:34:42.526 A:middle
 But the good news is that
 the mechanism is pluggable.
 
-00:34:43.116 --> 00:34:46.735 A:middle
+00:34:43.116 --> 00:34:46.736 A:middle
 This is covered in great
 detail in last year's session,
 
-00:34:47.206 --> 00:34:50.545 A:middle
+00:34:47.206 --> 00:34:50.546 A:middle
 which you're welcome to watch
 online or on the LLDB website.
 
@@ -2626,10 +2393,6 @@ formatters much like you could
 
 00:34:57.606 --> 00:34:59.156 A:middle
 in C++ and Objective-C.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.446 --> 00:35:03.166 A:middle
 Let's say we have a struct that
@@ -2664,7 +2427,7 @@ I can do that with the
 LLDB-type summary add command.
 
 00:35:28.946 --> 00:35:32.376 A:middle
-The type summary add command
+The "type summary add" command
 is that LLDB's command to say,
 
 00:35:32.746 --> 00:35:34.706 A:middle
@@ -2679,7 +2442,7 @@ information I'd
 like to see represented."
 
 00:35:39.216 --> 00:35:44.166 A:middle
-And so we can tell LLDB, You
+And so we can tell LLDB, "You
 should use the variable's name.
 
 00:35:44.796 --> 00:35:46.806 A:middle
@@ -2705,28 +2468,22 @@ And then after a
 comma and a space,
 
 00:35:59.926 --> 00:36:01.166 A:middle
-could you please put the state.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.926 --> 00:36:01.166 A:middle
-could you please put the state.
+could you please put the state."
 
 00:36:01.796 --> 00:36:03.766 A:middle
-This is the US address
+This is the U.S. address
 format, basically.
 
 00:36:04.106 --> 00:36:07.176 A:middle
-And we're saying, Use that
-for the address object.
+And we're saying, "Use that
+for the address object."
 
-00:36:08.166 --> 00:36:14.996 A:middle
-Now, when we PO me again, we get
-something that looks a lot more
+00:36:08.166 --> 00:36:13.406 A:middle
+Now, when you PO me
+again, we get something
 
-00:36:14.996 --> 00:36:16.026 A:middle
+00:36:13.406 --> 00:36:16.026 A:middle
+that looks a lot more
 like an actual address.
 
 00:36:17.376 --> 00:36:19.056 A:middle
@@ -2762,7 +2519,7 @@ Python formatters,
 
 00:36:41.426 --> 00:36:43.666 A:middle
 you want to use
-SBValue.GetSummary.
+SBValue.GetSummary().
 
 00:36:43.666 --> 00:36:45.576 A:middle
 You want to ask objects
@@ -2790,15 +2547,8 @@ show, what you want
 00:36:59.436 --> 00:37:00.736 A:middle
 to ask is the object summary.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.436 --> 00:37:00.736 A:middle
-to ask is the object summary.
-
 00:37:01.106 --> 00:37:04.976 A:middle
-Caveat to the caveat,
+Caveat to the caveat:
 except for enums.
 
 00:37:05.766 --> 00:37:07.956 A:middle
@@ -2869,13 +2619,6 @@ is not nice at all.
 00:37:59.846 --> 00:38:01.716 A:middle
 The result of this is undefined.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.846 --> 00:38:01.716 A:middle
-The result of this is undefined.
-
 00:38:02.006 --> 00:38:05.336 A:middle
 There's two frameworks with the
 same class with the same name,
@@ -2910,7 +2653,7 @@ and among classes in
 different frameworks.
 
 00:38:30.206 --> 00:38:34.926 A:middle
-The way to let the old is
+The way to access all this
 goodness is a feature called
 
 00:38:35.076 --> 00:38:35.966 A:middle
@@ -2935,7 +2678,7 @@ They don't know about each
 other but they both think
 
 00:38:48.536 --> 00:38:51.196 A:middle
-that my class is the best
+that MyClass is the best
 name ever for a class.
 
 00:38:51.586 --> 00:38:55.076 A:middle
@@ -2950,24 +2693,16 @@ code to the Swift Compiler.
 The first guy goes
 on and does it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.606 --> 00:39:02.966 A:middle
-The first guy goes
-on and does it.
-
 00:39:02.966 --> 00:39:05.936 A:middle
 As a result, he gets a
 compiled version of his code
 
-00:39:06.486 --> 00:39:09.466 A:middle
-where his class is actually
-called something my module
+00:39:06.486 --> 00:39:09.076 A:middle
+where his class is
+actually called something my
 
-00:39:09.466 --> 00:39:10.066 A:middle
-my class.
+00:39:09.076 --> 00:39:10.066 A:middle
+module MyClass.
 
 00:39:10.206 --> 00:39:11.556 A:middle
 We'll get back to
@@ -2982,7 +2717,7 @@ it tries to compile.
 
 00:39:17.976 --> 00:39:21.246 A:middle
 His class actually gets called
-something module 2 my class.
+something module 2 MyClass.
 
 00:39:22.166 --> 00:39:25.986 A:middle
 Now they don't clash anymore,
@@ -2995,13 +2730,13 @@ There's a little price to pay.
 Now, if I actually look at the
 screen and see what the name
 
-00:39:33.246 --> 00:39:35.116 A:middle
+00:39:33.246 --> 00:39:37.236 A:middle
 of the class became
 at linkage time,
 
-00:39:35.886 --> 00:39:44.076 A:middle
-it's called underscore
-TtC7Module17MyClass.
+00:39:37.236 --> 00:39:44.076 A:middle
+it's called
+-TtC7Module17MyClass.
 
 00:39:44.586 --> 00:39:48.506 A:middle
 And that's just for
@@ -3022,20 +2757,12 @@ through dark streets and out
 of a little alley a mangled
 name came right at you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.226 --> 00:40:01.966 A:middle
-of a little alley a mangled
-name came right at you.
-
 00:40:03.086 --> 00:40:04.546 A:middle
 That could happen
 while you're, you know,
 
 00:40:04.666 --> 00:40:06.966 A:middle
-you're just sitting there
+you're just sitting there in
 interface builder doing things
 
 00:40:06.966 --> 00:40:08.796 A:middle
@@ -3052,23 +2779,23 @@ get crash reporter window.
 
 00:40:15.616 --> 00:40:17.486 A:middle
 You're also getting
-mangles names in there.
+mangled names in there.
 
 00:40:17.866 --> 00:40:19.216 A:middle
 It doesn't get much
 worse than that,
 
 00:40:19.896 --> 00:40:23.716 A:middle
-except Swift demangled
+except swift-demangle
 comes to the rescue.
 
 00:40:24.506 --> 00:40:27.736 A:middle
-Swift demangled is a little
+swift-demangle is a little
 tool that ships with Xcode
 
 00:40:28.476 --> 00:40:31.836 A:middle
-that lets you pass as
-input on the command line 1
+that lets you pass as input
+on the command line one
 
 00:40:31.836 --> 00:40:33.306 A:middle
 or more Swift mangled names,
@@ -3095,14 +2822,6 @@ of avoiding clashes.
 00:40:55.906 --> 00:40:58.326 A:middle
 Modules can do a
 lot more for us.
-
-00:40:58.866 --> 00:41:02.376 A:middle
-Modules actually make
-debugging a lot more awesome.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:58.866 --> 00:41:02.376 A:middle
 Modules actually make
@@ -3164,10 +2883,6 @@ Why is that so important?
 Let me give you a little
 perspective on what happens
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.086 --> 00:42:01.996 A:middle
 when you compile an
 app for debugging
@@ -3188,15 +2903,15 @@ When you tell Clang, "Please
 compile my app for debugging",
 
 00:42:13.386 --> 00:42:16.856 A:middle
-what Clang does it
+what Clang does is it
 ingests your code as usual.
 
 00:42:17.016 --> 00:42:18.346 A:middle
-It understands that your code
+It understands your code
 
 00:42:18.346 --> 00:42:21.256 A:middle
-and gets get a mental
-module of it in some sense.
+and gets a mental model
+of it in some sense.
 
 00:42:22.536 --> 00:42:25.396 A:middle
 Then you tell Clang,
@@ -3243,14 +2958,6 @@ of the type system of your app.
 The way LLDB does that is
 it generates Clang types
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:57.756 --> 00:43:01.596 A:middle
-The way LLDB does that is
-it generates Clang types
-
 00:43:01.876 --> 00:43:02.716 A:middle
 out of DWARF.
 
@@ -3261,13 +2968,12 @@ Hold on a second.
 So what you're telling
 me here is basically
 
-00:43:08.306 --> 00:43:12.206 A:middle
-that Clang generates Clang
-types out of my source code.
+00:43:08.306 --> 00:43:10.586 A:middle
+that Clang generates Clang types
 
-00:43:12.756 --> 00:43:15.066 A:middle
-Then it translates
-that into DWARF.
+00:43:11.016 --> 00:43:15.066 A:middle
+out of my source code then it
+translates that into DWARF.
 
 00:43:15.646 --> 00:43:21.366 A:middle
 Then, LLDB consumes the DWARF
@@ -3317,7 +3023,7 @@ nice for us that have
 to actually write the debugger.
 
 00:43:52.626 --> 00:43:53.576 A:middle
-We skip 1 step.
+We skip one step.
 
 00:43:53.636 --> 00:43:55.916 A:middle
 We can directly use the
@@ -3326,10 +3032,6 @@ compiler's notion of the truth.
 00:43:56.756 --> 00:43:59.806 A:middle
 It's also really nice for you,
 the users of the debugger.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:00.286 --> 00:44:03.476 A:middle
 The reason, well, there's
@@ -3362,7 +3064,7 @@ That is what happens in Swift.
 
 00:44:29.976 --> 00:44:32.176 A:middle
 The Swift Compiler
-generates a module
+generates a model
 
 00:44:32.436 --> 00:44:36.336 A:middle
 which is the compiler's
@@ -3377,7 +3079,7 @@ LLDB's copy of the
 Swift Compiler ingests
 
 00:44:44.116 --> 00:44:47.136 A:middle
-that module information
+that model information
 and can use it
 
 00:44:47.136 --> 00:44:50.296 A:middle
@@ -3394,14 +3096,6 @@ information and there's no need
 
 00:44:55.666 --> 00:44:56.796 A:middle
 for the intermediate step
-
-00:44:57.196 --> 00:45:00.216 A:middle
-of re-creating the types
-from, back from DWARF.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:57.196 --> 00:45:00.216 A:middle
 of re-creating the types
@@ -3434,11 +3128,11 @@ that in your source program
 and now LLDB's complaining,
 "You're trying
 
-00:45:24.266 --> 00:45:26.496 A:middle
+00:45:24.266 --> 00:45:26.486 A:middle
 to use this function with
 this really weird name
 
-00:45:26.656 --> 00:45:28.316 A:middle
+00:45:26.486 --> 00:45:28.316 A:middle
 that is not present
 in the target."
 
@@ -3473,14 +3167,6 @@ and even generic ones.
 00:45:53.086 --> 00:45:57.346 A:middle
 That was a lot of
 ground covered today.
-
-00:45:58.316 --> 00:46:02.736 A:middle
-If you remember one thing
-from this session, well,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:58.316 --> 00:46:02.736 A:middle
 If you remember one thing
@@ -3556,16 +3242,12 @@ you've started doing in Swift,
 including the Flappy Birds
 app in Swift, I've seen that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:00.826 --> 00:47:04.696 A:middle
 We've gotten emails where
 people tell us amazing things
 
 00:47:04.696 --> 00:47:07.826 A:middle
-about how they expect this new
+about how they expect these new
 tools to change their lives,
 
 00:47:07.866 --> 00:47:09.176 A:middle
@@ -3591,9 +3273,8 @@ we can do better,
 and of course, thank
 you everyone.
 
-00:47:19.406 --> 00:47:22.376 A:middle
-I -- thank you.
+00:47:19.406 --> 00:47:19.826 A:middle
+Thank you.
 
 00:47:23.516 --> 00:47:34.520 A:middle
 [ Applause ]
-

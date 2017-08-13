@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:14.616 --> 00:00:16.976 A:middle
 &gt;&gt; Hi. Welcome to the
@@ -65,14 +64,6 @@ use in the new iCloud Photos
 00:00:56.796 --> 00:00:58.956 A:middle
 and iCloud Drive feature
 that we're introducing,
-
-00:00:59.516 --> 00:01:02.366 A:middle
-and we're building all of
-that on top of CloudKit.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.516 --> 00:01:02.366 A:middle
 and we're building all of
@@ -157,14 +148,6 @@ And we did this because all
 of these requests are
 going out over the network.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.056 --> 00:02:00.836 A:middle
-of these requests are
-going out over the network.
-
 00:02:01.316 --> 00:02:03.686 A:middle
 When you get the network
 involved, anything can happen,
@@ -177,7 +160,7 @@ not be responding quickly,
 there might be a bad
 network connection.
 
-00:02:08.395 --> 00:02:11.736 A:middle
+00:02:08.396 --> 00:02:11.736 A:middle
 We don't want to block the UI
 and cause a bad user experience.
 
@@ -244,14 +227,6 @@ the CKFetchRecordsOperation.
 00:02:55.556 --> 00:02:58.696 A:middle
 And this is an NSOperation
 that does the equivalent
-
-00:02:58.696 --> 00:03:00.436 A:middle
-of that convenience
-API we just saw.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.696 --> 00:03:00.436 A:middle
 of that convenience
@@ -343,14 +318,6 @@ about the operation.
 And NSOperations
 have dependencies,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.756 --> 00:04:01.916 A:middle
-And NSOperations
-have dependencies,
-
 00:04:01.916 --> 00:04:04.376 A:middle
 so you can link two
 NSOperations together.
@@ -432,14 +399,6 @@ that is has dependencies.
 So, you can set a dependency
 between two operations
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.616 --> 00:05:01.656 A:middle
-So, you can set a dependency
-between two operations
-
 00:05:02.226 --> 00:05:04.506 A:middle
 and the second operation
 won't fire
@@ -514,14 +473,6 @@ This completionBlock ends
 00:05:56.926 --> 00:05:59.496 A:middle
 up firing asynchronously
 with dependencies.
-
-00:05:59.496 --> 00:06:01.056 A:middle
-So, if you've set
-up dependencies
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.496 --> 00:06:01.056 A:middle
 So, if you've set
@@ -618,14 +569,6 @@ that stores a whole bunch
 of data up on the server, and
 when you use the application,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.816 --> 00:07:02.836 A:middle
-of data up on the server, and
-when you use the application,
-
 00:07:02.836 --> 00:07:04.476 A:middle
 it's just presenting
 the view of that data.
@@ -711,14 +654,6 @@ that information on your phone,
 in your iPad, in your Mac,
 and you want them all to be
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.846 --> 00:08:00.746 A:middle
-in your iPad, in your Mac,
-and you want them all to be
-
 00:08:00.746 --> 00:08:02.306 A:middle
 up to date with the
 same receipts.
@@ -760,14 +695,14 @@ them down into zones.
 So, both the public and the
 private database have a default
 
-00:08:32.736 --> 00:08:33.265 A:middle
+00:08:32.736 --> 00:08:33.266 A:middle
 zone in them.
 
-00:08:34.426 --> 00:08:37.275 A:middle
+00:08:34.426 --> 00:08:37.276 A:middle
 But we've also given you
 what we call custom zones,
 
-00:08:37.275 --> 00:08:40.486 A:middle
+00:08:37.276 --> 00:08:40.486 A:middle
 and these custom zones allow us
 to give you some extra features
 
@@ -789,14 +724,6 @@ is atomic commits.
 00:08:54.516 --> 00:08:57.286 A:middle
 So, CloudKit has
 relationships between records.
-
-00:08:57.286 --> 00:09:00.596 A:middle
-And if you start using CloudKit
-and using these relationships,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.286 --> 00:09:00.596 A:middle
 And if you start using CloudKit
@@ -883,14 +810,6 @@ userInfo dictionary is going
 to have this
 CKPartialErrorsByItemID key.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.576 --> 00:10:02.246 A:middle
-to have this
-CKPartialErrorsByItemID key.
-
 00:10:03.386 --> 00:10:05.796 A:middle
 And that's going to be a
 dictionary of record IDs
@@ -972,14 +891,6 @@ and we've got our iPhone,
 
 00:10:55.736 --> 00:10:57.126 A:middle
 and we've got a custom zone.
-
-00:10:57.936 --> 00:11:00.096 A:middle
-So, let's step through a
-delta download really quick.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.936 --> 00:11:00.096 A:middle
 So, let's step through a
@@ -1074,13 +985,6 @@ for you, A is good enough.
 00:11:59.986 --> 00:12:00.916 A:middle
 There's nothing to download."
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.986 --> 00:12:00.916 A:middle
-There's nothing to download."
-
 00:12:01.446 --> 00:12:05.796 A:middle
 But let's say the Mac
 comes along and it creates
@@ -1167,14 +1071,6 @@ to want to do in your app is
 
 00:12:56.846 --> 00:12:58.456 A:middle
 to track the local changes.
-
-00:12:58.916 --> 00:13:00.716 A:middle
-You're going to want
-to make a change table,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.916 --> 00:13:00.716 A:middle
 You're going to want
@@ -1278,14 +1174,6 @@ you can get only the records
 that have changed
 and not everything.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.916 --> 00:14:01.646 A:middle
-that have changed
-and not everything.
-
 00:14:04.476 --> 00:14:07.296 A:middle
 So, one of the other features
 we give you with custom zones
@@ -1369,14 +1257,6 @@ couple of restrictions on them.
 The first is that you can't
 move records between zones.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.696 --> 00:15:02.416 A:middle
-The first is that you can't
-move records between zones.
-
 00:15:03.226 --> 00:15:05.096 A:middle
 You can pick these
 records up and copy them
@@ -1445,14 +1325,6 @@ advanced record operations.
 00:15:55.826 --> 00:15:59.266 A:middle
 When you're using CKRecord,
 any changes you make
-
-00:15:59.266 --> 00:16:03.676 A:middle
-to a CKRecord object locally get
-tracked, and then when we talk
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.266 --> 00:16:03.676 A:middle
 to a CKRecord object locally get
@@ -1531,14 +1403,6 @@ since the time you fetched it,
 the server will give you an
 error saying your record is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.206 --> 00:17:00.336 A:middle
-the server will give you an
-error saying your record is
-
 00:17:00.336 --> 00:17:03.466 A:middle
 out of date, you need to resolve
 this conflict and try again.
@@ -1562,7 +1426,7 @@ So, SaveChangedKeys
 and SaveAllKeys always overwrite
 the values on the server.
 
-00:17:22.435 --> 00:17:25.626 A:middle
+00:17:22.436 --> 00:17:25.626 A:middle
 These policies also determine
 how much data we're sending
 
@@ -1616,14 +1480,6 @@ this contact card.
 00:17:57.076 --> 00:17:59.456 A:middle
 We've got the same name,
 first name, last name,
-
-00:17:59.456 --> 00:18:02.496 A:middle
-picture on two clients,
-and in iCloud.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.456 --> 00:18:02.496 A:middle
 picture on two clients,
@@ -1708,14 +1564,6 @@ a change tag.
 So, the change tag is a
 property on the record
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.266 --> 00:19:01.606 A:middle
-So, the change tag is a
-property on the record
-
 00:19:02.286 --> 00:19:05.976 A:middle
 that necessarily changes anytime
 a value in the record changes.
@@ -1785,14 +1633,6 @@ modifications on that,
 00:19:57.316 --> 00:19:59.136 A:middle
 you'll be using the
 updated change token,
-
-00:19:59.166 --> 00:20:01.586 A:middle
-and you shouldn't have any
-conflicts with the server.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.166 --> 00:20:01.586 A:middle
 and you shouldn't have any
@@ -1887,14 +1727,6 @@ and try to save again.
 And we've already
 anticipated that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.566 --> 00:21:01.066 A:middle
-And we've already
-anticipated that.
-
 00:21:01.156 --> 00:21:03.596 A:middle
 So, what we're going to do
 is help you out a little bit,
@@ -1972,14 +1804,6 @@ policy should you use?
 
 00:21:55.476 --> 00:21:57.286 A:middle
 And the simple answer to that is
-
-00:21:57.286 --> 00:22:00.846 A:middle
-that you should just always
-use CKRecordSaveIfUnchanged,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.286 --> 00:22:00.846 A:middle
 that you should just always
@@ -2074,14 +1898,6 @@ always write both the first
 and last name, and you
 know it'll be consistent.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:57.786 --> 00:23:00.196 A:middle
-and last name, and you
-know it'll be consistent.
-
 00:23:02.176 --> 00:23:05.956 A:middle
 The other reason to use an
 unlocked update in the case
@@ -2166,10 +1982,6 @@ delete the hobby.
 We're now going to do a
 SaveAllKeys to the server.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.306 --> 00:24:04.316 A:middle
 What that's going to do is send
 up all of these properties,
@@ -2244,14 +2056,6 @@ no hometown property
 00:24:53.376 --> 00:24:57.696 A:middle
 on this record, we can still
 call CKRecordSetValueForKey nil
-
-00:24:58.066 --> 00:25:00.246 A:middle
-or we can call
-removeObjectForKey.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.066 --> 00:25:00.246 A:middle
 or we can call
@@ -2346,14 +2150,6 @@ that has that one value.
 If you're doing this
 with locking enabled,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.836 --> 00:26:01.956 A:middle
-If you're doing this
-with locking enabled,
-
 00:26:02.306 --> 00:26:05.266 A:middle
 you know it's safe because
 if the record is changed
@@ -2431,10 +2227,6 @@ you might have hundreds
 00:26:57.746 --> 00:26:59.606 A:middle
 of clients trying to
 save this record at once.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.386 --> 00:27:03.166 A:middle
 And every time a client
@@ -2517,13 +2309,6 @@ all of the records that have
 00:27:59.636 --> 00:28:04.446 A:middle
 that shoebox as an owner.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.636 --> 00:28:04.446 A:middle
-that shoebox as an owner.
-
 00:28:04.446 --> 00:28:05.696 A:middle
 One other neat feature
 we give you
@@ -2596,14 +2381,6 @@ But one thing to keep in mind
 00:28:56.076 --> 00:28:57.986 A:middle
 with these delete
 self references is
-
-00:28:57.986 --> 00:29:00.216 A:middle
-that they're not
-reference counted.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.986 --> 00:29:00.216 A:middle
 that they're not
@@ -2683,14 +2460,6 @@ to use these reference objects?
 00:29:55.346 --> 00:29:58.306 A:middle
 I have to, you know, alloc and
 omit and it's so much work.
-
-00:29:58.306 --> 00:30:01.646 A:middle
-You know, I've got a record
-ID, why can't I just put it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.306 --> 00:30:01.646 A:middle
 You know, I've got a record
@@ -2780,14 +2549,6 @@ could be a recordID,
 that shoebox could be a record
 itself, it could be a reference.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.356 --> 00:31:01.106 A:middle
-that shoebox could be a record
-itself, it could be a reference.
-
 00:31:01.566 --> 00:31:04.046 A:middle
 All of those will just work as
 long as you use the CKReference.
@@ -2849,14 +2610,6 @@ the introductory talk,
 00:31:57.136 --> 00:31:59.466 A:middle
 we have these things that
 we call subscriptions.
-
-00:31:59.596 --> 00:32:01.686 A:middle
-They're persistent queries
-that run on the server,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.596 --> 00:32:01.686 A:middle
 They're persistent queries
@@ -2955,14 +2708,6 @@ per client.
 So, if you received a bunch of
 pushes while you're offline,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:57.776 --> 00:33:00.376 A:middle
-So, if you received a bunch of
-pushes while you're offline,
-
 00:33:00.376 --> 00:33:02.086 A:middle
 you're only going to
 get the most recent one.
@@ -3051,13 +2796,6 @@ notification collection
 00:33:59.356 --> 00:34:00.006 A:middle
 in CloudKit.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.356 --> 00:34:00.006 A:middle
-in CloudKit.
-
 00:34:01.406 --> 00:34:04.376 A:middle
 Every time the server sends
 a push to the APS server,
@@ -3085,11 +2823,11 @@ and it gets the push,
 and because this is a
 well-behaved client,
 
-00:34:19.406 --> 00:34:21.485 A:middle
+00:34:19.406 --> 00:34:21.486 A:middle
 it knows every time
 it receives a push,
 
-00:34:21.545 --> 00:34:23.726 A:middle
+00:34:21.546 --> 00:34:23.726 A:middle
 it should go check the
 notification collection to find
 
@@ -3108,14 +2846,14 @@ collection is a lot
 like the delta downloads
 I talked about earlier.
 
-00:34:33.275 --> 00:34:34.676 A:middle
+00:34:33.276 --> 00:34:34.676 A:middle
 It's all change token-based.
 
 00:34:35.126 --> 00:34:36.656 A:middle
 You hand a change
 token to the server,
 
-00:34:37.005 --> 00:34:39.116 A:middle
+00:34:37.006 --> 00:34:39.116 A:middle
 and the server hands back
 all the notifications
 
@@ -3123,7 +2861,7 @@ all the notifications
 that have changed
 since then along
 
-00:34:41.016 --> 00:34:42.255 A:middle
+00:34:41.016 --> 00:34:42.256 A:middle
 with an updated change token.
 
 00:34:42.826 --> 00:34:45.716 A:middle
@@ -3141,19 +2879,15 @@ up a nil change token.
 We're going to get back
 both of those pushes,
 
-00:34:51.676 --> 00:34:53.045 A:middle
+00:34:51.676 --> 00:34:53.046 A:middle
 one of them which we missed.
 
-00:34:53.525 --> 00:34:57.005 A:middle
+00:34:53.526 --> 00:34:57.006 A:middle
 And then we're also going to
 get an updated change token
 
-00:34:57.005 --> 00:34:59.566 A:middle
+00:34:57.006 --> 00:34:59.566 A:middle
 for the current state.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.376 --> 00:35:04.396 A:middle
 One thing with subscriptions is
@@ -3234,14 +2968,6 @@ we mark our receipt.
 00:35:56.136 --> 00:35:58.826 A:middle
 We're going to go mark
 that subscription as red
-
-00:35:58.826 --> 00:36:00.846 A:middle
-on the server, and now
-there's a new entry.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.826 --> 00:36:00.846 A:middle
 on the server, and now
@@ -3333,13 +3059,6 @@ might have been more pushes
 00:36:58.726 --> 00:37:00.206 A:middle
 that you didn't hear about.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.726 --> 00:37:00.206 A:middle
-that you didn't hear about.
-
 00:37:04.176 --> 00:37:06.696 A:middle
 So, now we're going to go
 over the iCloud Dashboard.
@@ -3403,10 +3122,6 @@ database is again one database
 
 00:37:58.336 --> 00:37:59.706 A:middle
 for each individual user.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.646 --> 00:38:03.266 A:middle
 And in this case, we're
@@ -3502,14 +3217,6 @@ as rapidly as possible.
 We didn't want you have to go
 to a, this dashboard and plan
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:57.256 --> 00:39:01.706 A:middle
-We didn't want you have to go
-to a, this dashboard and plan
-
 00:39:01.706 --> 00:39:03.576 A:middle
 out what you were going
 to do in your application
@@ -3587,10 +3294,6 @@ create a new schema entry
 for the date value using an
 actual date instead of a string.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.066 --> 00:40:02.306 A:middle
 So next up, you can
 view all the records
@@ -3662,14 +3365,6 @@ that we have in CKQuery.
 00:40:54.246 --> 00:40:56.836 A:middle
 We can build compound queries
 right in the dashboard.
-
-00:40:57.326 --> 00:41:01.516 A:middle
-So, if you click on the Plus
-button, let's choose location,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:57.326 --> 00:41:01.516 A:middle
 So, if you click on the Plus
@@ -3758,14 +3453,6 @@ that is create a new role.
 I'm going to call this, you
 know, PartyAdmin, and in that,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.556 --> 00:42:04.336 A:middle
-I'm going to call this, you
-know, PartyAdmin, and in that,
-
 00:42:04.336 --> 00:42:07.206 A:middle
 I need to choose a record type
 and give it special permissions.
@@ -3842,14 +3529,6 @@ that recordID up there.
 So, I'm going to click on
 my user, and then I'm going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:58.036 --> 00:43:01.396 A:middle
-So, I'm going to click on
-my user, and then I'm going
-
 00:43:01.396 --> 00:43:05.976 A:middle
 to add myself as a party admin.
 
@@ -3916,14 +3595,6 @@ our customers are going to hit.
 00:43:56.656 --> 00:43:59.216 A:middle
 So, the way this works
 is we've got our records,
-
-00:43:59.326 --> 00:44:00.696 A:middle
-we're developing
-our app right now,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:59.326 --> 00:44:00.696 A:middle
 we're developing
@@ -4013,10 +3684,6 @@ schema entry, build a new index,
 00:44:57.536 --> 00:44:58.606 A:middle
 and index that property.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:00.536 --> 00:45:03.006 A:middle
 When you're ready to release
 your app, you're going to want
@@ -4096,14 +3763,6 @@ CloudKit tips and tricks.
 
 00:45:56.286 --> 00:45:57.866 A:middle
 So, we already went over this
-
-00:45:57.866 --> 00:46:00.286 A:middle
-in the intro talk
-about error handling.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:57.866 --> 00:46:00.286 A:middle
 in the intro talk
@@ -4191,14 +3850,6 @@ the information to do that.
 00:46:57.136 --> 00:46:59.236 A:middle
 So, keep in mind when you're
 handling your errors here
-
-00:46:59.236 --> 00:47:01.566 A:middle
-that your operations
-can have partial errors.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:59.236 --> 00:47:01.566 A:middle
 that your operations
@@ -4296,14 +3947,6 @@ we need a little more time.
 This request was OK, but
 please try it again".
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:58.656 --> 00:48:00.796 A:middle
-This request was OK, but
-please try it again".
-
 00:48:01.426 --> 00:48:03.556 A:middle
 And anytime we give you
 a server busy error,
@@ -4381,14 +4024,6 @@ we want you to, you know,
 00:48:54.346 --> 00:48:55.916 A:middle
 remember to be nice
 to your users.
-
-00:48:55.916 --> 00:49:01.086 A:middle
-It's technically free space for
-you because it's theirs but,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:55.916 --> 00:49:01.086 A:middle
 It's technically free space for
@@ -4478,10 +4113,6 @@ it's a transport mechanism.
 We are only there to talk to
 the iCloud servers for you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:00.676 --> 00:50:02.636 A:middle
 We're not storing any records.
 
@@ -4568,14 +4199,6 @@ built iCloud Photos on top
 of this, and we want you guys to
 start using the same technology
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:58.466 --> 00:51:02.326 A:middle
-of this, and we want you guys to
-start using the same technology
-
 00:51:02.326 --> 00:51:03.646 A:middle
 that we're using at Apple.
 
@@ -4621,4 +4244,3 @@ Thank you.
 
 00:51:40.016 --> 00:51:41.000 A:middle
 [ Applause ]
-

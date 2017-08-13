@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.066 --> 00:00:13.486 A:middle
 &gt;&gt; Good morning, hello.
@@ -36,14 +35,7 @@ over MDM, making sure they run
 on a whole bunch of different
 regions and make sure
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.046 --> 00:01:01.916 A:middle
-on a whole bunch of different
-regions and make sure
-
-00:01:01.916 --> 00:01:05.105 A:middle
+00:01:01.916 --> 00:01:05.106 A:middle
 that it keeps running for
 years and years to come.
 
@@ -86,18 +78,11 @@ strategies that will keep you
 in the clear for years and
 finally custom B2B and how
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.876 --> 00:02:06.006 A:middle
-in the clear for years and
-finally custom B2B and how
-
 00:02:06.006 --> 00:02:09.056 A:middle
 that fits within your
 organizations deployment plan.
 
-00:02:10.515 --> 00:02:12.886 A:middle
+00:02:10.516 --> 00:02:12.886 A:middle
 All right so four major topics,
 
 00:02:14.066 --> 00:02:18.966 A:middle
@@ -140,13 +125,6 @@ you are eligible.
 
 00:02:51.166 --> 00:02:55.106 A:middle
 This program is 299 a year.
-
-00:02:59.896 --> 00:03:04.096 A:middle
-To get started you need
-to create an agent account
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.896 --> 00:03:04.096 A:middle
 To get started you need
@@ -195,13 +173,6 @@ so agents sign contracts,
 admins publish apps with your
 code signing certificate.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.336 --> 00:04:03.126 A:middle
-admins publish apps with your
-code signing certificate.
-
 00:04:04.136 --> 00:04:08.926 A:middle
 They should be employees
 of your enterprise,
@@ -241,13 +212,6 @@ including the team members use
 00:04:52.746 --> 00:04:56.356 A:middle
 to actually do debugging
 on iOS hardware,
-
-00:04:58.096 --> 00:05:02.216 A:middle
-they get to manage the
-distribution code signing
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.096 --> 00:05:02.216 A:middle
 they get to manage the
@@ -312,12 +276,6 @@ have their own code signing
 00:05:55.046 --> 00:05:58.786 A:middle
 certificate, don't share your
 private keys between developers.
-
-00:05:59.506 --> 00:06:02.606 A:middle
-During the development cycle
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.506 --> 00:06:02.606 A:middle
 During the development cycle
@@ -387,13 +345,6 @@ group of devices.
 Now contractors, many of us have
 contractors that come in and out
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:54.936 --> 00:07:02.906 A:middle
-Now contractors, many of us have
-contractors that come in and out
-
 00:07:02.906 --> 00:07:04.186 A:middle
 of our development circle,
 
@@ -454,13 +405,6 @@ and we have a list of people
 in your development team
 including some admins
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.086 --> 00:08:00.846 A:middle
-in your development team
-including some admins
-
 00:08:00.846 --> 00:08:08.156 A:middle
 and some members, what you do
 is click on the invitations icon
@@ -492,11 +436,11 @@ because any e-mail address
 00:08:28.106 --> 00:08:29.486 A:middle
 that they can be reached at.
 
-00:08:29.986 --> 00:08:35.385 A:middle
+00:08:29.986 --> 00:08:35.386 A:middle
 And they will get something
 like this so you've been invited
 
-00:08:35.385 --> 00:08:37.196 A:middle
+00:08:35.386 --> 00:08:37.196 A:middle
 to join the Apple
 developer program,
 
@@ -522,13 +466,6 @@ developer ID.
 
 00:08:56.076 --> 00:08:58.296 A:middle
 If they're already a developer
-
-00:08:58.296 --> 00:09:02.456 A:middle
-like the 99 dollar app developer
-they can click the top button
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.296 --> 00:09:02.456 A:middle
 like the 99 dollar app developer
@@ -585,13 +522,6 @@ you admins using Xcode.
 When you log in Xcode will show
 you what development teams you
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:54.956 --> 00:10:01.566 A:middle
-When you log in Xcode will show
-you what development teams you
-
 00:10:01.566 --> 00:10:03.736 A:middle
 belong to down there
 on the bottom right,
@@ -640,13 +570,6 @@ code signing certificate,
 
 00:10:50.526 --> 00:10:54.576 A:middle
 all you got to do is hit approve
-
-00:10:54.756 --> 00:11:00.126 A:middle
-and Xcode will get the
-signing certificate installed
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:54.756 --> 00:11:00.126 A:middle
 and Xcode will get the
@@ -717,13 +640,6 @@ identifiers and profiles.
 Click on app ID's and plus
 and create your new app ID.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.716 --> 00:12:07.066 A:middle
-Click on app ID's and plus
-and create your new app ID.
-
 00:12:07.646 --> 00:12:11.886 A:middle
 Create this at the beginning
 of your development cycle
@@ -777,9 +693,6 @@ provisioning profile,
 
 00:12:56.846 --> 00:12:59.806 A:middle
 so you have iCloud entitlements,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.206 --> 00:13:03.946 A:middle
 for extensions you would need
@@ -837,13 +750,6 @@ your team members
 
 00:13:56.756 --> 00:13:59.766 A:middle
 as you create your program
-
-00:13:59.856 --> 00:14:02.246 A:middle
-and you should approve
-their code signing
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.856 --> 00:14:02.246 A:middle
 and you should approve
@@ -907,13 +813,6 @@ bar to enable Xcode service.
 So here's how you set it up
 for enterprise development,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.726 --> 00:15:00.936 A:middle
-So here's how you set it up
-for enterprise development,
-
 00:15:01.576 --> 00:15:07.666 A:middle
 the first thing you want
 to do if you want to log
@@ -960,13 +859,6 @@ should create a user for each
 00:15:51.976 --> 00:15:57.216 A:middle
 of you admin and team
 members on OS X server.
-
-00:15:57.726 --> 00:16:02.206 A:middle
-You don't have to give
-them home directories,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.726 --> 00:16:02.206 A:middle
 You don't have to give
@@ -1021,13 +913,6 @@ I can recommend git these days,
 you should create one
 repository per app and because
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.046 --> 00:17:00.816 A:middle
-you should create one
-repository per app and because
-
 00:17:00.816 --> 00:17:01.866 A:middle
 that makes it easier
 
@@ -1050,11 +935,11 @@ to do is hit the plus button,
 create a repository,
 it's that simple.
 
-00:17:15.536 --> 00:17:20.685 A:middle
+00:17:15.536 --> 00:17:20.686 A:middle
 Now on your developers machine
 you can actually add a server
 
-00:17:20.685 --> 00:17:24.646 A:middle
+00:17:20.686 --> 00:17:24.646 A:middle
 as its own entry under your
 preferences, under your accounts
 
@@ -1085,12 +970,6 @@ you have access to and this is
 00:17:53.766 --> 00:17:58.696 A:middle
 where all the accounts
 come into play click that
-
-00:17:58.696 --> 00:18:02.686 A:middle
-and you're good to go.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.696 --> 00:18:02.686 A:middle
 and you're good to go.
@@ -1140,13 +1019,6 @@ project that you are interested
 00:18:48.826 --> 00:18:54.996 A:middle
 in and create a share scheme,
 go here, click manage schemes.
-
-00:18:56.326 --> 00:19:00.306 A:middle
-Most of the time you already
-have a scheme that you want
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:56.326 --> 00:19:00.306 A:middle
 Most of the time you already
@@ -1218,13 +1090,6 @@ by your team members
 so why do you want to connect
 test devices to the server?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:57.186 --> 00:20:00.376 A:middle
-so why do you want to connect
-test devices to the server?
-
 00:20:01.146 --> 00:20:04.816 A:middle
 This device is actually
 used for the unit test,
@@ -1288,13 +1153,6 @@ all commitment integration
 so for this example
 we want the bot to run
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:57.066 --> 00:21:00.166 A:middle
-so for this example
-we want the bot to run
-
 00:21:00.596 --> 00:21:06.806 A:middle
 when a new commit is made to
 the repository and that's it.
@@ -1340,13 +1198,6 @@ failed, you can even see this
 00:21:51.156 --> 00:21:55.786 A:middle
 on a web browser by going to
 the servername/Xcode/bots.
-
-00:21:56.526 --> 00:22:00.676 A:middle
-Your bot will produce
-these results,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:56.526 --> 00:22:00.676 A:middle
 Your bot will produce
@@ -1410,9 +1261,6 @@ enterprise account,
 00:22:55.306 --> 00:22:59.186 A:middle
 any admin account will do, host
 your code repository there,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.606 --> 00:23:03.226 A:middle
 connect your test
@@ -1481,12 +1329,6 @@ provisioned before right there
 00:23:59.086 --> 00:24:03.306 A:middle
 and that's it.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.086 --> 00:24:03.306 A:middle
-and that's it.
-
 00:24:04.576 --> 00:24:08.756 A:middle
 You can download the
 provisioning profile and then go
@@ -1541,13 +1383,6 @@ And then save the file.
 If you're using MDM to
 distribute your apps
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.836 --> 00:25:03.196 A:middle
-If you're using MDM to
-distribute your apps
-
 00:25:03.376 --> 00:25:07.046 A:middle
 and you should you
 get the opportunity
@@ -1595,13 +1430,6 @@ Thank you.
 00:25:51.836 --> 00:25:57.996 A:middle
 You can have up to two valid
 certificates at a time all right
-
-00:25:58.256 --> 00:26:02.606 A:middle
-so they can overlap but at any
-particular time you can only
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.256 --> 00:26:02.606 A:middle
 so they can overlap but at any
@@ -1664,9 +1492,6 @@ illustrate the kind of strategy
 00:26:57.206 --> 00:26:59.356 A:middle
 that you might have to
 build around these rules,
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.066 --> 00:27:05.806 A:middle
 I've got a little chart here
@@ -1743,13 +1568,6 @@ you use it to sign an app
 and then you have a
 provisioning profile.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.396 --> 00:28:00.036 A:middle
-and then you have a
-provisioning profile.
-
 00:28:00.766 --> 00:28:03.566 A:middle
 So the provisioning profiles
 are embedded in the app
@@ -1814,13 +1632,6 @@ just assign it a code signing
 
 00:28:55.986 --> 00:28:58.246 A:middle
 certificate, you don't have
-
-00:28:58.246 --> 00:29:01.246 A:middle
-to include another provisioning
-profile in app A 2.0
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.246 --> 00:29:01.246 A:middle
 to include another provisioning
@@ -1891,12 +1702,6 @@ developers will have some kind
 00:29:55.336 --> 00:29:59.256 A:middle
 of threshold date where
 they say if there is less
-
-00:29:59.256 --> 00:30:00.576 A:middle
-than this number of days left
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.256 --> 00:30:00.576 A:middle
 than this number of days left
@@ -1974,13 +1779,6 @@ signing certificate
 in your app you must distribute
 a new version of your app
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.906 --> 00:31:03.356 A:middle
-in your app you must distribute
-a new version of your app
-
 00:31:04.086 --> 00:31:09.496 A:middle
 that is signed with a new code
 signing certificate, okay.
@@ -2043,13 +1841,6 @@ provisioning profiles silently.
 Remember that an app must
 be updated in order in order
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.056 --> 00:32:03.646 A:middle
-Remember that an app must
-be updated in order in order
-
 00:32:03.646 --> 00:32:05.946 A:middle
 to change its code
 signing certificates.
@@ -2103,13 +1894,6 @@ enterprise developer,
 you follow the same
 steps that you do
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.716 --> 00:33:02.616 A:middle
-you follow the same
-steps that you do
-
 00:33:03.076 --> 00:33:08.246 A:middle
 for publishing irregular App
 Store app, however all you got
@@ -2157,9 +1941,6 @@ they were App Store apps.
 00:33:56.936 --> 00:33:59.676 A:middle
 So why would you use custom B2B?
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.356 --> 00:34:03.346 A:middle
 If you're an enterprise
 custom B2B is great
@@ -2176,7 +1957,7 @@ buy an app tailor made for you
 from some, from a
 separate company
 
-00:34:14.516 --> 00:34:17.835 A:middle
+00:34:14.516 --> 00:34:17.836 A:middle
 for example you can ask
 them to publish the app
 
@@ -2208,14 +1989,14 @@ have different VPP programs
 with different requirements
 creating a custom B2B
 
-00:34:43.335 --> 00:34:45.426 A:middle
+00:34:43.336 --> 00:34:45.426 A:middle
 distribution maybe easier
 
 00:34:45.426 --> 00:34:48.746 A:middle
 than developing an enterprise
 app for them, all right.
 
-00:34:49.045 --> 00:34:52.446 A:middle
+00:34:49.046 --> 00:34:52.446 A:middle
 So a custom B2B app does
 not require any code signing
 
@@ -2225,12 +2006,6 @@ or provisioning profile watching
 00:34:54.386 --> 00:34:57.206 A:middle
 for code signing
 provisioning profile expiration
-
-00:34:57.696 --> 00:35:00.636 A:middle
-because they are App Store apps.
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.696 --> 00:35:00.636 A:middle
 because they are App Store apps.
@@ -2288,9 +2063,6 @@ dates and use custom B2B
 00:35:56.326 --> 00:35:59.466 A:middle
 if you don't own the code.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:00.196 --> 00:36:03.866 A:middle
 All right I want to call your
 attention to a great portal site
@@ -2330,4 +2102,3 @@ with that thank you very much.
 
 00:36:32.516 --> 00:36:36.500 A:middle
 [ Applause ]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:13.306 --> 00:00:14.296 A:middle
 &gt;&gt; Hello, everybody.
@@ -44,14 +43,6 @@ for iOS that is bringing,
 00:00:54.096 --> 00:00:59.016 A:middle
 as Craig said very well, some
 rationality to home automation.
-
-00:00:59.736 --> 00:01:07.286 A:middle
-It provides a great opportunity
-for us, you as developers and us
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.736 --> 00:01:07.286 A:middle
 It provides a great opportunity
@@ -110,14 +101,6 @@ and is core
 00:01:52.706 --> 00:01:57.736 A:middle
 to delivering a consistency
 that I talked about.
-
-00:01:58.576 --> 00:02:02.286 A:middle
-So we have a Common Database
-that is stored in iOS,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.576 --> 00:02:02.286 A:middle
 So we have a Common Database
@@ -192,13 +175,6 @@ that consistent experience
 00:02:56.326 --> 00:03:00.866 A:middle
 that we want to deliver.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:56.326 --> 00:03:00.866 A:middle
-that we want to deliver.
-
 00:03:00.966 --> 00:03:06.116 A:middle
 Now building on that, as
 we mentioned yesterday,
@@ -253,14 +229,6 @@ dozens of interesting things
 that are well beyond
 what we're starting with.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.036 --> 00:04:03.026 A:middle
-that are well beyond
-what we're starting with.
-
 00:04:04.106 --> 00:04:06.446 A:middle
 So you can see here,
 garage door, light bulb,
@@ -277,7 +245,7 @@ HomeKit, and I'll talk some more
 about that as well, but
 anything else is possible.
 
-00:04:15.956 --> 00:04:20.625 A:middle
+00:04:15.956 --> 00:04:20.626 A:middle
 We don't want HomeKit to be
 restricted and contained.
 
@@ -311,14 +279,6 @@ provides access
 00:04:56.236 --> 00:04:59.396 A:middle
 to your HomeKit accessories
 when you are not at home.
-
-00:04:59.946 --> 00:05:03.236 A:middle
-This is enabled through
-iOS device connectivity.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.946 --> 00:05:03.236 A:middle
 This is enabled through
@@ -388,14 +348,6 @@ user privacy is maintained.
 We don't think that it's good
 enough to be sort of private,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:55.426 --> 00:06:00.046 A:middle
-We don't think that it's good
-enough to be sort of private,
-
 00:06:00.816 --> 00:06:02.636 A:middle
 your data stored somewhere else.
 
@@ -455,14 +407,6 @@ So, to get started with HomeKit,
 00:06:52.646 --> 00:06:56.656 A:middle
 your entry point is
 the Home Manager.
-
-00:06:58.036 --> 00:07:02.986 A:middle
-The Home Manager provides your
-pointers to the common database,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.036 --> 00:07:02.986 A:middle
 The Home Manager provides your
@@ -540,14 +484,6 @@ When you get this callback,
 that means that the Home
 Manager has finished loading
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.806 --> 00:08:01.666 A:middle
-that means that the Home
-Manager has finished loading
-
 00:08:01.666 --> 00:08:03.336 A:middle
 or preparing the home data.
 
@@ -603,14 +539,6 @@ are recognized by Siri
 00:08:51.406 --> 00:08:54.166 A:middle
 so that users can refer to them
 when they are giving commands.
-
-00:08:54.736 --> 00:09:01.966 A:middle
-On a home we have the name, we
-have an array of all the rooms,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:54.736 --> 00:09:01.966 A:middle
 On a home we have the name, we
@@ -687,14 +615,6 @@ with their accessories.
 Rooms are represented
 by the HMRoom class.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.886 --> 00:10:01.976 A:middle
-Rooms are represented
-by the HMRoom class.
-
 00:10:03.726 --> 00:10:06.366 A:middle
 And they have an array
 of the accessories
@@ -748,14 +668,6 @@ how the details
 00:10:53.836 --> 00:10:57.566 A:middle
 of that accessory are exposed
 and made available after this.
-
-00:10:58.926 --> 00:11:01.766 A:middle
-So an accessory has a pointer
-back to the room that it's in,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.926 --> 00:11:01.766 A:middle
 So an accessory has a pointer
@@ -833,13 +745,6 @@ more about how accessories look,
 00:11:59.576 --> 00:12:01.756 A:middle
 let's talk about services.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.576 --> 00:12:01.756 A:middle
-let's talk about services.
-
 00:12:01.896 --> 00:12:05.826 A:middle
 So services represent
 functionality of accessories.
@@ -911,14 +816,6 @@ to in many different ways.
 00:12:53.546 --> 00:12:55.846 A:middle
 It's something that your
 application would take care
-
-00:12:55.846 --> 00:13:00.196 A:middle
-of for them, present that
-in a more user friendly way
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:55.846 --> 00:13:00.196 A:middle
 of for them, present that
@@ -1003,14 +900,6 @@ in HMService.
 We have a name, an array
 of characteristics,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.156 --> 00:14:01.316 A:middle
-We have a name, an array
-of characteristics,
-
 00:14:01.316 --> 00:14:03.556 A:middle
 the service type of the service,
 
@@ -1086,14 +975,6 @@ not named by the user.
 00:14:55.376 --> 00:14:59.546 A:middle
 So we've defined a number
 of characteristic types,
-
-00:14:59.546 --> 00:15:02.696 A:middle
-and Siri can understand
-what those mean,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.546 --> 00:15:02.696 A:middle
 and Siri can understand
@@ -1185,14 +1066,6 @@ that you only write to.
 A write-only characteristic
 is something,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.346 --> 00:16:01.656 A:middle
-A write-only characteristic
-is something,
-
 00:16:01.906 --> 00:16:05.936 A:middle
 think about it a little bit,
 but where you tell the accessory
@@ -1274,18 +1147,10 @@ is accessory specific.
 And the purpose is to help the
 user know which thing they are
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.026 --> 00:17:00.426 A:middle
-And the purpose is to help the
-user know which thing they are
-
 00:17:00.426 --> 00:17:01.496 A:middle
 about to interact with.
 
-00:17:01.656 --> 00:17:04.965 A:middle
+00:17:01.656 --> 00:17:04.966 A:middle
 It's especially useful when
 a user, for example, say,
 
@@ -1312,7 +1177,7 @@ default information.
 I'm not going to go look
 them up by serial number.
 
-00:17:14.776 --> 00:17:15.685 A:middle
+00:17:14.776 --> 00:17:15.686 A:middle
 That's boring.
 
 00:17:16.596 --> 00:17:18.546 A:middle
@@ -1357,14 +1222,6 @@ things in the real world.
 00:17:54.566 --> 00:17:58.256 A:middle
 We need to be able to find
 and set up these accessories.
-
-00:17:58.996 --> 00:18:03.606 A:middle
-We do that with the
-Accessory Browser.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.996 --> 00:18:03.606 A:middle
 We do that with the
@@ -1448,14 +1305,6 @@ example, add this to a list
 of accessories in the UI that
 the user can select from for
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.196 --> 00:19:01.646 A:middle
-of accessories in the UI that
-the user can select from for
-
 00:19:01.646 --> 00:19:04.846 A:middle
 which ones they want
 to configure.
@@ -1532,13 +1381,6 @@ to a home.
 00:19:59.176 --> 00:20:00.776 A:middle
 This is didRemoveNewAccessory.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.176 --> 00:20:00.776 A:middle
-This is didRemoveNewAccessory.
-
 00:20:01.806 --> 00:20:05.186 A:middle
 This allows you in your UI when
 you have a list of accessories
@@ -1607,14 +1449,6 @@ Accessory Simulator.
 00:20:53.966 --> 00:20:58.296 A:middle
 And this is available for you
 in Xcode at this location.
-
-00:20:59.026 --> 00:21:01.796 A:middle
-And it's a great
-tool, and I'm going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.026 --> 00:21:01.796 A:middle
 And it's a great
@@ -1694,14 +1528,6 @@ I'm going to add this accessory.
 So you'll see now that
 I've added a new accessory
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:57.176 --> 00:22:00.336 A:middle
-So you'll see now that
-I've added a new accessory
-
 00:22:00.536 --> 00:22:02.216 A:middle
 to the accessory simulator.
 
@@ -1776,14 +1602,6 @@ all of these characteristics.
 And now since garage door
 openers typically also have a
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:57.566 --> 00:23:00.856 A:middle
-And now since garage door
-openers typically also have a
-
 00:23:00.856 --> 00:23:02.256 A:middle
 light, let's add a light.
 
@@ -1847,13 +1665,6 @@ So let me enter that.
 00:23:55.456 --> 00:24:00.816 A:middle
 I'll go ahead and set that up.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:55.456 --> 00:24:00.816 A:middle
-I'll go ahead and set that up.
-
 00:24:00.816 --> 00:24:03.016 A:middle
 And you can see now that
 disappears from the list
@@ -1906,14 +1717,6 @@ for the light.
 00:24:48.196 --> 00:24:55.456 A:middle
 And just to show that these are
 connected, we can see if I click
-
-00:24:55.456 --> 00:25:00.296 A:middle
-on the power characteristic
-of the light,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:55.456 --> 00:25:00.296 A:middle
 on the power characteristic
@@ -1990,14 +1793,6 @@ other protocol.
 So in this case the hub
 is the first accessory
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:55.936 --> 00:26:02.416 A:middle
-So in this case the hub
-is the first accessory
-
 00:26:02.706 --> 00:26:05.116 A:middle
 that HomeKit connects to.
 
@@ -2054,13 +1849,6 @@ While we're here, let's go ahead
 00:26:52.086 --> 00:26:58.376 A:middle
 and add another light
 behind that Bridge.
-
-00:26:59.386 --> 00:27:00.646 A:middle
-So now we have two lights.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.386 --> 00:27:00.646 A:middle
 So now we have two lights.
@@ -2138,14 +1926,6 @@ information of the Bridge.
 
 00:27:55.826 --> 00:27:57.716 A:middle
 But the lights are also here.
-
-00:27:58.176 --> 00:28:01.016 A:middle
-So lights that are behind a
-Bridge are presented to you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.176 --> 00:28:01.016 A:middle
 So lights that are behind a
@@ -2235,14 +2015,6 @@ through HomeKit.
 So this is a great way for you
 to get started and a great way
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.716 --> 00:29:02.906 A:middle
-So this is a great way for you
-to get started and a great way
-
 00:29:02.906 --> 00:29:04.966 A:middle
 for you to develop and test
 your HomeKit applications.
@@ -2326,14 +2098,6 @@ applications,
 through other applications,
 through Siri.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.046 --> 00:30:01.306 A:middle
-through other applications,
-through Siri.
-
 00:30:04.616 --> 00:30:11.216 A:middle
 So now let's move on to
 some more advanced topics.
@@ -2383,14 +2147,6 @@ encourage innovation, invention,
 00:30:52.836 --> 00:30:56.666 A:middle
 creativity, we allow definition
 of any custom service,
-
-00:30:56.666 --> 00:31:00.446 A:middle
-any custom characteristic an
-accessory manufacturer wants
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:56.666 --> 00:31:00.446 A:middle
 any custom characteristic an
@@ -2459,10 +2215,6 @@ any number of zones.
 
 00:31:57.656 --> 00:31:59.316 A:middle
 Zones also are uniquely named,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.096 --> 00:32:01.906 A:middle
 and zones are recognized
@@ -2546,14 +2298,6 @@ This is just an association.
 Service Groups are
 also named uniquely
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.836 --> 00:33:02.946 A:middle
-Service Groups are
-also named uniquely
-
 00:33:02.946 --> 00:33:03.966 A:middle
 of course within a home.
 
@@ -2616,14 +2360,6 @@ together to be easily referred
 to for the user and
 easily execute all at once.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.256 --> 00:34:02.346 A:middle
-to for the user and
-easily execute all at once.
-
 00:34:02.546 --> 00:34:05.976 A:middle
 And when I say all at once,
 I really mean all at once.
@@ -2640,22 +2376,22 @@ something is always going
 to happen before something
 else in an Action Set.
 
-00:34:14.706 --> 00:34:16.085 A:middle
+00:34:14.706 --> 00:34:16.086 A:middle
 Everything will just be
 done at the same time.
 
-00:34:16.085 --> 00:34:20.716 A:middle
+00:34:16.086 --> 00:34:20.716 A:middle
 It's all going to get done,
 best effort to do everything.
 
-00:34:20.985 --> 00:34:25.606 A:middle
+00:34:20.986 --> 00:34:25.606 A:middle
 Action Sets, again, uniquely
 named and recognized by Siri.
 
 00:34:26.596 --> 00:34:29.396 A:middle
 So what are these actions?
 
-00:34:30.985 --> 00:34:35.286 A:middle
+00:34:30.986 --> 00:34:35.286 A:middle
 So actions are
 HMCharacteristicWriteAction.
 
@@ -2667,7 +2403,7 @@ because what you're doing
 in an action is you're
 writing to a characteristic.
 
-00:34:42.226 --> 00:34:48.085 A:middle
+00:34:42.226 --> 00:34:48.086 A:middle
 So, for example, you may have an
 action that is Close the Garage.
 
@@ -2680,14 +2416,6 @@ the garage door opener service.
 
 00:34:55.616 --> 00:34:56.716 A:middle
 And so that's a single action.
-
-00:34:56.716 --> 00:35:02.626 A:middle
-So you would create that action,
-add it to the Action Set.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:56.716 --> 00:35:02.626 A:middle
 So you would create that action,
@@ -2755,14 +2483,6 @@ even when no apps are running
 or whatever because the
 Trigger is managed by iOS.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:57.556 --> 00:36:02.206 A:middle
-or whatever because the
-Trigger is managed by iOS.
-
 00:36:05.396 --> 00:36:11.176 A:middle
 So you can imagine that
 even with just being able
@@ -2816,14 +2536,6 @@ these Action Sets,
 00:36:53.886 --> 00:36:57.106 A:middle
 we have the Night Action Set,
 that example I gave earlier,
-
-00:36:57.366 --> 00:37:01.256 A:middle
-and we also have a Lights On
-and Lights Off Action Set.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:57.366 --> 00:37:01.256 A:middle
 and we also have a Lights On
@@ -2897,14 +2609,6 @@ set up, very simple way to go
 and control many
 accessories at the same time.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.086 --> 00:38:02.016 A:middle
-and control many
-accessories at the same time.
-
 00:38:03.056 --> 00:38:05.986 A:middle
 So now let's look
 at these other two.
@@ -2968,14 +2672,6 @@ Let's go back to the slides.
 So using Action Sets
 and Triggers together,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.396 --> 00:39:02.066 A:middle
-So using Action Sets
-and Triggers together,
-
 00:39:02.066 --> 00:39:04.216 A:middle
 you'll be able to
 script or allow the user
@@ -3028,14 +2724,6 @@ about the shared database.
 00:39:54.536 --> 00:39:56.846 A:middle
 And because of the
 shared database,
-
-00:39:56.846 --> 00:40:03.046 A:middle
-we get this great consistency
-across the user experience,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:56.846 --> 00:40:03.046 A:middle
 we get this great consistency
@@ -3122,14 +2810,6 @@ has changed.
 Someone has added a-I should
 be so lucky-added a lake house
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.136 --> 00:41:03.406 A:middle
-Someone has added a-I should
-be so lucky-added a lake house
-
 00:41:03.466 --> 00:41:05.076 A:middle
 to their collection of homes.
 
@@ -3184,14 +2864,6 @@ consistent experience
 00:41:49.706 --> 00:41:53.736 A:middle
 for home automation
 through your applications.
-
-00:41:55.536 --> 00:42:00.286 A:middle
-The framework has been
-designed to be easy to use.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:55.536 --> 00:42:00.286 A:middle
 The framework has been
@@ -3266,10 +2938,6 @@ So that finishes for me today.
 I want to say thank
 you very much.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:00.516 --> 00:43:08.556 A:middle
 [ Applause ]
 
@@ -3279,4 +2947,3 @@ opportunity to talk to you.
 
 00:43:10.726 --> 00:43:12.216 A:middle
 Enjoy the rest of the show.
-

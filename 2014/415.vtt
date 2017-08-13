@@ -1,15 +1,14 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.756 --> 00:00:12.786 A:middle
-&gt;&gt; Good afternoon everyone.
+&gt;&gt; Good afternoon, everyone.
 
 00:00:12.786 --> 00:00:14.346 A:middle
-Welcome to our session:
+Welcome to our session,
 
 00:00:14.346 --> 00:00:16.386 A:middle
-Continuous Integration
-with Xcode 6.
+"Continuous Integration
+with Xcode 6".
 
 00:00:16.496 --> 00:00:17.876 A:middle
 Thanks for being
@@ -24,7 +23,7 @@ on the Xcode team,
 
 00:00:21.556 --> 00:00:24.056 A:middle
 and today we're going to
-talk about my favorite topic
+talk about my favorite topic,
 
 00:00:24.166 --> 00:00:25.976 A:middle
 which is, of course,
@@ -34,7 +33,7 @@ continuous integration.
 So just a show of hands, how
 many people are using some kind
 
-00:00:30.786 --> 00:00:32.485 A:middle
+00:00:30.786 --> 00:00:32.486 A:middle
 of continuous integration
 system out there?
 
@@ -82,14 +81,6 @@ We're going to tell you
 00:00:55.226 --> 00:00:58.086 A:middle
 about all the great new things
 we built into Xcode Server.
-
-00:00:58.146 --> 00:01:00.886 A:middle
-You probably want
-to see that slide.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.146 --> 00:01:00.886 A:middle
 You probably want
@@ -188,14 +179,6 @@ those problems quickly.
 Another key thing
 is that a system
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.316 --> 00:02:00.166 A:middle
-Another key thing
-is that a system
-
 00:02:00.166 --> 00:02:02.586 A:middle
 like this helps broaden
 your test coverage.
@@ -289,24 +272,18 @@ So hopefully you have testers.
 I hope everyone does,
 and if you do,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:57.886 --> 00:03:00.476 A:middle
-I hope everyone does,
-and if you do,
-
 00:03:00.476 --> 00:03:01.436 A:middle
 a system like this makes it easy
 
 00:03:01.436 --> 00:03:04.036 A:middle
 to distribute those
-kind of builds.
+kinds of builds.
 
-00:03:04.426 --> 00:03:06.996 A:middle
-So terminology, bear
-with me here.
+00:03:04.426 --> 00:03:05.896 A:middle
+So terminology.
+
+00:03:06.476 --> 00:03:06.996 A:middle
+Bear with me here.
 
 00:03:06.996 --> 00:03:10.566 A:middle
 So there are three terms that
@@ -328,8 +305,8 @@ for a while, you've seen this
 term, and it's really simple.
 
 00:03:22.776 --> 00:03:24.726 A:middle
-All a scheme is it's
-just a recipe
+All a scheme is,
+it's just a recipe
 
 00:03:24.726 --> 00:03:25.606 A:middle
 for building your project.
@@ -376,7 +353,7 @@ that scheme isn't shared.
 We'll show you how to do it.
 
 00:03:49.816 --> 00:03:52.956 A:middle
-It's not a big deal; just
+It's not a big deal, just
 something to keep in mind.
 
 00:03:53.066 --> 00:03:54.306 A:middle
@@ -384,15 +361,7 @@ So term number two is bot.
 
 00:03:55.116 --> 00:03:58.856 A:middle
 And this is our friend the bot,
-and it's just a thing that we --
-
-00:03:59.006 --> 00:04:01.146 A:middle
-the word we use to
-refer to the thing
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+and it's just a thing that we -
 
 00:03:59.006 --> 00:04:01.146 A:middle
 the word we use to
@@ -420,10 +389,10 @@ scheme, bot and integration.
 So let's take a look,
 in a little more depth,
 
-00:04:17.685 --> 00:04:19.096 A:middle
+00:04:17.686 --> 00:04:19.096 A:middle
 at our friend the bot.
 
-00:04:20.255 --> 00:04:25.396 A:middle
+00:04:20.256 --> 00:04:25.396 A:middle
 So what defines a bot?
 
 00:04:26.216 --> 00:04:29.356 A:middle
@@ -478,14 +447,6 @@ possible options here.
 00:04:55.826 --> 00:04:58.346 A:middle
 You can choose to schedule
 your bot periodically.
-
-00:04:58.416 --> 00:05:01.466 A:middle
-So, every hour or once a day or
-even once a week if you want.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.416 --> 00:05:01.466 A:middle
 So, every hour or once a day or
@@ -560,21 +521,13 @@ results of each integration.
 00:05:48.146 --> 00:05:50.956 A:middle
 So like I said,
 
-00:05:51.276 --> 00:05:54.506 A:middle
+00:05:51.276 --> 00:05:54.176 A:middle
 we call our continuous
-integration product Xcode
+integration product,
 
-00:05:54.506 --> 00:05:57.716 A:middle
-Server, and there are two parts
-of Xcode Server, actually.
-
-00:05:57.896 --> 00:06:00.036 A:middle
-There's the Xcode part,
-the part that lives
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:05:54.176 --> 00:05:57.716 A:middle
+Xcode Server, and there are two
+parts of Xcode Server, actually.
 
 00:05:57.896 --> 00:06:00.036 A:middle
 There's the Xcode part,
@@ -630,7 +583,7 @@ Program,
 
 00:06:26.556 --> 00:06:28.926 A:middle
 and this is really important
-because in order to run any
+because, in order to run any
 
 00:06:28.926 --> 00:06:32.146 A:middle
 of your code on devices, we need
@@ -677,29 +630,20 @@ So think about it.
 Before we had this product,
 if you wanted to test
 
-00:06:57.306 --> 00:06:59.346 A:middle
-on a couple iPhone's
-and a couple iPads
+00:06:57.306 --> 00:07:00.956 A:middle
+on a couple iPhones and a couple
+iPads and a couple iPod Touches,
 
-00:06:59.346 --> 00:07:02.166 A:middle
-and a couple iPod Touches, you
-would have to plug each one
+00:07:01.176 --> 00:07:02.416 A:middle
+you would have to
+plug each one of these
 
+00:07:02.416 --> 00:07:05.786 A:middle
+into your development system
+separately and run the tests
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.346 --> 00:07:02.166 A:middle
-and a couple iPod Touches, you
-would have to plug each one
-
-00:07:02.166 --> 00:07:05.096 A:middle
-of these into your
-development system separately
-
-00:07:05.096 --> 00:07:07.026 A:middle
-and run the tests on them,
-and it was a big pain.
+00:07:05.786 --> 00:07:07.026 A:middle
+on them, and it was a big pain.
 
 00:07:07.596 --> 00:07:10.006 A:middle
 But now you can plug all those
@@ -743,7 +687,7 @@ the other part of this equation.
 Setup is really easy.
 
 00:07:35.306 --> 00:07:37.326 A:middle
-It's got great features
+It's got great features,
 like hosted repositories,
 
 00:07:37.706 --> 00:07:40.876 A:middle
@@ -776,14 +720,6 @@ product and we took a look
 00:07:56.646 --> 00:07:59.146 A:middle
 at what features we wanted
 to build in this release
-
-00:07:59.146 --> 00:08:01.926 A:middle
-and future releases, it
-was pretty clear to us
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:59.146 --> 00:08:01.926 A:middle
 and future releases, it
@@ -863,11 +799,11 @@ really scalable too.
 So I decided to do a
 little test a few weeks ago.
 
-00:08:41.145 --> 00:08:43.395 A:middle
+00:08:41.146 --> 00:08:43.396 A:middle
 I took an old Mac Pro that
 was sitting in my office.
 
-00:08:43.395 --> 00:08:44.566 A:middle
+00:08:43.396 --> 00:08:44.566 A:middle
 It's a five-year-old Mac Pro.
 
 00:08:44.846 --> 00:08:45.776 A:middle
@@ -894,13 +830,6 @@ I created a bot for that.
 00:08:59.906 --> 00:09:00.856 A:middle
 That went pretty well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:59.906 --> 00:09:00.856 A:middle
-That went pretty well.
-
 00:09:01.296 --> 00:09:03.226 A:middle
 Then I decided to
 just keep going.
@@ -923,7 +852,7 @@ running on this one old server.
 
 00:09:13.946 --> 00:09:16.256 A:middle
 I added a bot for the
-maps project, for UIKit,
+Maps project, for UIKit,
 
 00:09:16.256 --> 00:09:18.676 A:middle
 and that was all going well so
@@ -992,14 +921,6 @@ the shell script triggers is
 that you can do anything
 you want to do.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.576 --> 00:10:00.826 A:middle
-that you can do anything
-you want to do.
-
 00:10:01.006 --> 00:10:03.586 A:middle
 Right? It's just a shell
 script, and we provide a number
@@ -1063,7 +984,7 @@ and in fact we have a
 policy, a really good policy,
 
 00:10:40.476 --> 00:10:43.526 A:middle
-on the Xcode team, which is
+on the Xcode team, which is,
 if there's a build warning
 
 00:10:43.526 --> 00:10:46.496 A:middle
@@ -1087,14 +1008,6 @@ a great issue tracking service
 00:10:55.846 --> 00:10:57.946 A:middle
 in Xcode Server, it makes
 it really easy to know
-
-00:10:57.946 --> 00:11:00.306 A:middle
-when those issues
-get introduced.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.946 --> 00:11:00.306 A:middle
 when those issues
@@ -1151,7 +1064,7 @@ to show it in a demo.
 
 00:11:29.916 --> 00:11:32.146 A:middle
 So I'd like to bring up Matt
-number 1, who's going to talk
+number one, who's going to talk
 
 00:11:32.146 --> 00:11:32.796 A:middle
 about all these things.
@@ -1185,14 +1098,6 @@ installed on this machine,
 00:11:55.406 --> 00:11:57.676 A:middle
 which you can get from
 developer.apple.com.
-
-00:11:57.676 --> 00:12:00.086 A:middle
-You need the preview to
-work with Xcode 6 beta
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.676 --> 00:12:00.086 A:middle
 You need the preview to
@@ -1300,17 +1205,9 @@ All set. Good to go.
 But because we're going
 to be testing on devices
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.616 --> 00:13:02.096 A:middle
-But because we're going
-to be testing on devices
-
 00:13:02.096 --> 00:13:04.946 A:middle
 and everything that we do on
-iOS needs to be code signed,
+iOS needs to be code-signed,
 
 00:13:05.336 --> 00:13:08.116 A:middle
 we also need a way for Xcode
@@ -1368,26 +1265,18 @@ profiles that work with the apps
 
 00:13:49.436 --> 00:13:52.766 A:middle
 that you have registered for
-app IDs on your developer team,
+app IDs on your developer team.
 
 00:13:52.766 --> 00:13:55.086 A:middle
-and this can take a few
+And this can take a few
 seconds because it does go out
 
 00:13:55.086 --> 00:13:56.836 A:middle
 and make a bunch of
-certificate sign and requests
+certificates, sign-in requests
 
 00:13:57.126 --> 00:13:58.196 A:middle
 and then pull those all in.
-
-00:13:58.766 --> 00:14:01.586 A:middle
-But once it finishes, you'll
-see that you are now a member
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.766 --> 00:14:01.586 A:middle
 But once it finishes, you'll
@@ -1403,7 +1292,7 @@ to test on devices,
 
 00:14:06.666 --> 00:14:08.796 A:middle
 I do have an iPad
-mini right here.
+Mini right here.
 
 00:14:08.936 --> 00:14:09.526 A:middle
 You can all see it.
@@ -1443,7 +1332,7 @@ out to the portal and adds it
 to your developer team.
 
 00:14:31.666 --> 00:14:32.656 A:middle
-So really easy to do.
+So, really easy to do.
 
 00:14:33.876 --> 00:14:36.286 A:middle
 From this screen you also
@@ -1479,19 +1368,11 @@ some users can create bots.
 Administrators is fine for me,
 
 00:14:54.246 --> 00:14:56.716 A:middle
-but I'll turn view only
+but I'll turn view-only
 access for everyone back on.
 
 00:14:56.926 --> 00:14:58.376 A:middle
 So that's pretty good for me.
-
-00:14:58.376 --> 00:15:01.566 A:middle
-I think that's a good set of
-access controls for my server.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.376 --> 00:15:01.566 A:middle
 I think that's a good set of
@@ -1549,12 +1430,9 @@ you can see my server, Bobert,
 00:15:36.356 --> 00:15:37.496 A:middle
 is going to show up right here.
 
-00:15:37.496 --> 00:15:40.706 A:middle
-So I'll select Bobert,
-choose Next and log
-
-00:15:40.706 --> 00:15:41.646 A:middle
-in with my user name
+00:15:37.496 --> 00:15:41.646 A:middle
+So I'll select Bobert, choose
+Next and log in with my username
 
 00:15:42.466 --> 00:15:45.906 A:middle
 and super-secret
@@ -1579,14 +1457,6 @@ server machine is using.
 00:15:57.786 --> 00:15:59.096 A:middle
 So if you've got
 multiple servers
-
-00:15:59.096 --> 00:16:00.846 A:middle
-and something starts
-going a little funky,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.096 --> 00:16:00.846 A:middle
 and something starts
@@ -1619,7 +1489,7 @@ to open our project, and it's
 a project called CoffeeBoard.
 
 00:16:16.596 --> 00:16:20.196 A:middle
-So on our team from time
+So on our team, from time
 to time we make mistakes.
 
 00:16:20.286 --> 00:16:20.986 A:middle
@@ -1682,14 +1552,7 @@ navigator, and I'll choose
 
 00:16:55.726 --> 00:16:58.216 A:middle
 from the Product
-menu Create Bot.
-
-00:16:59.136 --> 00:17:00.786 A:middle
-Now, the first choice you get is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+menu, Create Bot.
 
 00:16:59.136 --> 00:17:00.786 A:middle
 Now, the first choice you get is
@@ -1701,18 +1564,17 @@ is going to integrate with.
 00:17:03.656 --> 00:17:04.896 A:middle
 I'll use the iOS one.
 
-00:17:05.406 --> 00:17:08.316 A:middle
-You get to choose what the
-name of your project --
+00:17:05.406 --> 00:17:08.666 A:middle
+You get to choose what the name
+of your project - what the name
 
-00:17:08.316 --> 00:17:09.646 A:middle
-what the name of your
-bot is going to be.
+00:17:08.666 --> 00:17:09.646 A:middle
+of your bot is going to be.
 
 00:17:09.646 --> 00:17:10.766 A:middle
 So I'll choose CoffeeBoard.
 
-00:17:11.195 --> 00:17:13.806 A:middle
+00:17:11.196 --> 00:17:13.806 A:middle
 You also choose which server
 your bot gets created on
 
@@ -1720,7 +1582,7 @@ your bot gets created on
 and whether or not it integrates
 immediately after creation.
 
-00:17:16.415 --> 00:17:17.665 A:middle
+00:17:16.416 --> 00:17:17.666 A:middle
 So I'll leave that set.
 
 00:17:18.056 --> 00:17:19.816 A:middle
@@ -1735,11 +1597,11 @@ iteration of Xcode Server was
 that you would go through the
 process of creating a bot,
 
-00:17:24.536 --> 00:17:25.945 A:middle
+00:17:24.536 --> 00:17:25.946 A:middle
 it would all look
 like it was all fine
 
-00:17:26.246 --> 00:17:28.415 A:middle
+00:17:26.246 --> 00:17:28.416 A:middle
 and then your bot would go
 to run its first integration,
 
@@ -1788,13 +1650,6 @@ server can determine right now
 00:17:57.526 --> 00:17:59.226 A:middle
 if there's going to be
 a problem when it's time
-
-00:17:59.226 --> 00:18:00.486 A:middle
-to check out the repository.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.226 --> 00:18:00.486 A:middle
 to check out the repository.
@@ -1873,8 +1728,8 @@ on the hour, but
 because we want this
 
 00:18:45.336 --> 00:18:47.316 A:middle
-to be a little bit more
-alive for our demo,
+to be a little bit
+more live for our demo,
 
 00:18:47.316 --> 00:18:48.716 A:middle
 we're going to choose On-Commit
@@ -1896,15 +1751,7 @@ when it integrates and also
 how frequently it cleans.
 
 00:18:58.306 --> 00:19:00.476 A:middle
-By default we always
-do incremental builds,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.306 --> 00:19:00.476 A:middle
-By default we always
+By default, we always
 do incremental builds,
 
 00:19:00.736 --> 00:19:02.716 A:middle
@@ -1996,14 +1843,6 @@ you want to hide those
 because they might contain
 sensitive information.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.966 --> 00:20:02.066 A:middle
-because they might contain
-sensitive information.
-
 00:20:02.446 --> 00:20:04.976 A:middle
 Or you can turn both off if
 you just want people to know
@@ -2084,14 +1923,6 @@ have the results
 for our integration
 that has completed.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.596 --> 00:21:01.156 A:middle
-for our integration
-that has completed.
-
 00:21:01.526 --> 00:21:05.396 A:middle
 You can see that because
 multiple people have committed
@@ -2102,17 +1933,17 @@ for this integration,
 
 00:21:08.176 --> 00:21:10.286 A:middle
 we have a nice breakdown
-of the commits,
+of the commits.
 
-00:21:10.286 --> 00:21:14.066 A:middle
-and we have these nice little
-circles which indicate relative
+00:21:10.286 --> 00:21:13.076 A:middle
+And we have these nice little
+circles which indicate,
 
-00:21:14.066 --> 00:21:15.836 A:middle
-to each committer how much
+00:21:13.456 --> 00:21:14.876 A:middle
+relative to each committer,
 
-00:21:15.836 --> 00:21:18.186 A:middle
-of that integration
+00:21:15.116 --> 00:21:18.186 A:middle
+how much of that integration
 they own, so to speak.
 
 00:21:18.186 --> 00:21:19.986 A:middle
@@ -2167,19 +1998,11 @@ which is our issue
 tracking feature.
 
 00:21:52.766 --> 00:21:54.686 A:middle
-So if I select integration 4,
+So if I select integration #4,
 
 00:21:55.316 --> 00:21:57.806 A:middle
 you can see that it shows we
 have no errors, one warning,
-
-00:21:57.956 --> 00:22:01.166 A:middle
-one analysis issue and six
-tests ran successfully.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.956 --> 00:22:01.166 A:middle
 one analysis issue and six
@@ -2194,8 +2017,8 @@ and you can see that Xcode
 Server's smart enough
 
 00:22:07.906 --> 00:22:10.626 A:middle
-to notice that, because it
-puts a plus 1 under each
+to notice that, because
+it puts a "+1" under each
 
 00:22:10.626 --> 00:22:12.396 A:middle
 of those circles so that we know
@@ -2215,25 +2038,29 @@ also says New Issues:
 Well, I came along and
 fixed that warning.
 
-00:22:23.176 --> 00:22:27.666 A:middle
-So in integration 5, you can see
+00:22:23.176 --> 00:22:25.676 A:middle
+So in integration
+#5, you can see
+
+00:22:25.836 --> 00:22:29.116 A:middle
 that it says Resolved Issues,
+Warning: Unused variable.
 
-00:22:27.986 --> 00:22:29.946 A:middle
-Warning: Unused variable,
-and it knows,
+00:22:29.316 --> 00:22:32.156 A:middle
+And it knows, based on the
+file location of these issues
 
-00:22:29.946 --> 00:22:33.006 A:middle
-based on the file location of
-these issues and the message
+00:22:32.236 --> 00:22:34.076 A:middle
+and the message that
+the issues generated,
 
-00:22:33.006 --> 00:22:36.026 A:middle
-that the issues generated, that
-this is exactly the same issue,
+00:22:34.286 --> 00:22:37.376 A:middle
+that this is exactly the same
+issue, and we can safely say
 
-00:22:36.156 --> 00:22:38.556 A:middle
-and we can safely say that
-this issue has been resolved.
+00:22:37.376 --> 00:22:38.556 A:middle
+that this issue has
+been resolved.
 
 00:22:38.946 --> 00:22:40.726 A:middle
 So that's a really
@@ -2265,14 +2092,6 @@ from looking at these
 00:22:54.956 --> 00:22:57.266 A:middle
 from a local product,
 which is really cool.
-
-00:22:58.446 --> 00:23:00.976 A:middle
-But now I want to show you
-probably what was the most
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.446 --> 00:23:00.976 A:middle
 But now I want to show you
@@ -2373,14 +2192,6 @@ we're not really changing much
 about the bot, and you'll
 see as I click Next,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.516 --> 00:24:00.546 A:middle
-about the bot, and you'll
-see as I click Next,
-
 00:24:00.986 --> 00:24:03.356 A:middle
 it will revalidate those
 credentials that I set
@@ -2405,7 +2216,7 @@ Now, I've already got some
 triggers written down here.
 
 00:24:17.326 --> 00:24:18.476 A:middle
-This is a ruby script.
+This is a Ruby script.
 
 00:24:18.616 --> 00:24:20.126 A:middle
 They're shell scripts
@@ -2421,7 +2232,7 @@ interpreter you'd like,
 
 00:24:26.176 --> 00:24:30.456 A:middle
 and all this does is it hits
-a http endpoint that we expose
+an HTTP endpoint that we expose
 
 00:24:30.456 --> 00:24:34.516 A:middle
 on Jeeves, and it uses things
@@ -2461,14 +2272,6 @@ post-integration triggers you
 00:24:56.066 --> 00:24:59.596 A:middle
 get a choice of under what
 conditions your trigger will
-
-00:24:59.596 --> 00:25:01.076 A:middle
-run, whether it's
-only on success,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.596 --> 00:25:01.076 A:middle
 run, whether it's
@@ -2531,16 +2334,16 @@ message in our chat room,
 and because we wanted to take
 it just one little step further,
 
-00:25:43.476 --> 00:25:45.836 A:middle
+00:25:43.476 --> 00:25:45.976 A:middle
 we added another little feature
-where we can say, Jeeves --
+where we can say, "Jeeves - oh,
 
-00:25:45.836 --> 00:25:50.036 A:middle
-oh, not weather -- Jeeves,
-integrate CoffeeBoard,
+00:25:45.976 --> 00:25:50.036 A:middle
+not weather - Jeeves,
+integrate CoffeeBoard."
 
 00:25:50.586 --> 00:25:53.876 A:middle
-and you can see it's kicking off
+And you can see it's kicking off
 another integration in Xcode,
 
 00:25:54.446 --> 00:25:55.486 A:middle
@@ -2548,14 +2351,6 @@ which we think is pretty cool.
 
 00:25:56.231 --> 00:25:58.231 A:middle
 [ Applause ]
-
-00:25:58.446 --> 00:26:00.146 A:middle
-So that's just one
-of the many things
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.446 --> 00:26:00.146 A:middle
 So that's just one
@@ -2594,7 +2389,7 @@ Brent, back to you.
 
 00:26:16.816 --> 00:26:19.166 A:middle
 &gt;&gt; So, of course, the big
-news this week, Swift support.
+news this week: Swift support.
 
 00:26:19.616 --> 00:26:21.996 A:middle
 So how does Xcode
@@ -2632,7 +2427,7 @@ in Objective-C or you write them
 
 00:26:42.546 --> 00:26:45.036 A:middle
 in Swift, all the testing
-supports just works.
+support just works.
 
 00:26:45.206 --> 00:26:46.726 A:middle
 The same goes for
@@ -2652,14 +2447,6 @@ that works just as well
 00:26:54.096 --> 00:26:56.676 A:middle
 for Swift code as it does
 for Objective-C code.
-
-00:26:58.686 --> 00:27:01.716 A:middle
-Let's talk about
-performance testing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.686 --> 00:27:01.716 A:middle
 Let's talk about
@@ -2748,7 +2535,7 @@ to set them on a per
 test, per device basis.
 
 00:27:54.136 --> 00:27:55.886 A:middle
-So that look something
+So that looks something
 like this.
 
 00:27:56.186 --> 00:27:57.106 A:middle
@@ -2756,14 +2543,6 @@ We have this report.
 
 00:27:57.106 --> 00:27:58.386 A:middle
 You can see all the tests here.
-
-00:27:58.716 --> 00:28:00.266 A:middle
-You can see I have a
-couple of different devices
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.716 --> 00:28:00.266 A:middle
 You can see I have a
@@ -2825,7 +2604,7 @@ So to show you all this in
 action, I'm going to bring
 
 00:28:38.856 --> 00:28:40.236 A:middle
-up my officemate, Matt number 2,
+up my officemate, Matt #2,
 
 00:28:40.236 --> 00:28:42.816 A:middle
 who has the loudest
@@ -2854,14 +2633,6 @@ and Xcode 6 with you guys,
 00:28:55.286 --> 00:28:58.376 A:middle
 with support for Swift, our
 brand-new programming language,
-
-00:28:58.576 --> 00:29:00.656 A:middle
-and the awesome new
-performance testing features.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.576 --> 00:29:00.656 A:middle
 and the awesome new
@@ -2917,11 +2688,11 @@ it will get added to the list.
 
 00:29:32.136 --> 00:29:35.406 A:middle
 Now, I'm worried that as we
-keep adding transactions --
+keep adding transactions -
 
 00:29:35.406 --> 00:29:37.786 A:middle
 we have some back-and-forth
-on our team --
+on our team -
 
 00:29:38.106 --> 00:29:40.856 A:middle
 I'm worried that as this
@@ -2956,14 +2727,6 @@ the simulator
 
 00:29:56.676 --> 00:29:59.786 A:middle
 and switch back to Xcode.
-
-00:29:59.926 --> 00:30:03.036 A:middle
-So here I've got an
-XCTestCase subclass with a bunch
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.926 --> 00:30:03.036 A:middle
 So here I've got an
@@ -3031,7 +2794,7 @@ It's just a method on
 your XCTestCase subclass.
 
 00:30:50.366 --> 00:30:51.456 A:middle
-It starts with the word test.
+It starts with a word test.
 
 00:30:51.566 --> 00:30:52.536 A:middle
 Takes no arguments.
@@ -3051,14 +2814,6 @@ and then I don't want
 to waste any time
 measuring that,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.836 --> 00:31:00.966 A:middle
-to waste any time
-measuring that,
-
 00:31:00.966 --> 00:31:02.836 A:middle
 so I do it outside
 the measure block,
@@ -3070,19 +2825,19 @@ and that's the next step here.
 We call this measureBlock
 function,
 
-00:31:06.126 --> 00:31:07.186 A:middle
-and pass it at a closure,
+00:31:06.126 --> 00:31:09.136 A:middle
+and pass it at a closure, and
+whatever code's inside there,
 
-00:31:07.746 --> 00:31:10.336 A:middle
-and whatever code's inside
-there we'll run multiple times
-
-00:31:10.636 --> 00:31:12.486 A:middle
+00:31:09.136 --> 00:31:11.486 A:middle
+we'll run multiple times
 and measure the time,
-each iteration,
 
-00:31:12.746 --> 00:31:16.456 A:middle
-and average those together
+00:31:11.656 --> 00:31:13.846 A:middle
+each iteration, and
+average those together
+
+00:31:13.846 --> 00:31:16.456 A:middle
 and report that to you.
 
 00:31:16.616 --> 00:31:18.596 A:middle
@@ -3153,14 +2908,6 @@ for the time performance metric,
 and that's because when you
 first add a performance test,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:57.806 --> 00:32:00.536 A:middle
-and that's because when you
-first add a performance test,
-
 00:32:01.136 --> 00:32:02.946 A:middle
 Xcode's not going to
 make any assumptions
@@ -3203,15 +2950,15 @@ if this performance gets worse.
 I want Xcode Server to
 notify me when that happens,
 
-00:32:28.276 --> 00:32:32.026 A:middle
-by failing my test, and so to
-do that I can set a baseline
+00:32:28.276 --> 00:32:30.456 A:middle
+by failing my test, and so to do
 
-00:32:32.026 --> 00:32:35.306 A:middle
-for this test, and to
-do that I click the time
+00:32:30.456 --> 00:32:33.346 A:middle
+that I can set a
+baseline for this test.
 
-00:32:35.716 --> 00:32:37.086 A:middle
+00:32:33.746 --> 00:32:37.086 A:middle
+And to do that I click the time
 for this particular device,
 
 00:32:37.636 --> 00:32:39.316 A:middle
@@ -3236,14 +2983,6 @@ like iPhone 5S, iPhone 4S, iPad,
 00:32:55.256 --> 00:32:57.636 A:middle
 that this is the
 performance standard,
-
-00:32:58.076 --> 00:33:00.806 A:middle
-that if we significantly
-regress and get slower,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.076 --> 00:33:00.806 A:middle
 that if we significantly
@@ -3280,8 +3019,8 @@ You could edit them
 by hand if you want,
 
 00:33:19.566 --> 00:33:21.336 A:middle
-but we've got a an
-[inaudible] on that test report
+but we've got a nice
+UI on that test report
 
 00:33:21.336 --> 00:33:22.576 A:middle
 for managing those baselines.
@@ -3334,14 +3073,6 @@ match that name.
 Or if I'm interested in what
 the code is for a specific test,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:56.686 --> 00:34:01.076 A:middle
-Or if I'm interested in what
-the code is for a specific test,
-
 00:34:01.076 --> 00:34:04.156 A:middle
 I can click this little
 button here and jump right
@@ -3349,7 +3080,7 @@ button here and jump right
 00:34:04.156 --> 00:34:05.926 A:middle
 to the code for that test.
 
-00:34:09.545 --> 00:34:12.585 A:middle
+00:34:09.546 --> 00:34:12.586 A:middle
 Now let's see what's
 happening with their bot.
 
@@ -3357,14 +3088,14 @@ happening with their bot.
 We can see exactly which test
 it's running and there it goes,
 
-00:34:19.025 --> 00:34:21.356 A:middle
+00:34:19.026 --> 00:34:21.356 A:middle
 and now let's see what
 happens when a test runs
 
 00:34:21.406 --> 00:34:23.226 A:middle
 when we have a baseline set.
 
-00:34:24.295 --> 00:34:28.406 A:middle
+00:34:24.296 --> 00:34:28.406 A:middle
 So now I can see that this time
 our test ran a little bit worse,
 
@@ -3372,11 +3103,11 @@ our test ran a little bit worse,
 a little bit longer than
 the baseline that I set,
 
-00:34:32.216 --> 00:34:33.775 A:middle
+00:34:32.216 --> 00:34:33.776 A:middle
 but our test still
 passes because it's
 
-00:34:33.775 --> 00:34:35.216 A:middle
+00:34:33.776 --> 00:34:35.216 A:middle
 within a acceptable range.
 
 00:34:35.216 --> 00:34:37.126 A:middle
@@ -3387,7 +3118,7 @@ going to be fluctuations
 between each test
 run, and we don't want
 
-00:34:39.716 --> 00:34:41.585 A:middle
+00:34:39.716 --> 00:34:41.586 A:middle
 to fail overzealously.
 
 00:34:44.456 --> 00:34:45.476 A:middle
@@ -3397,11 +3128,11 @@ So let's see what happens
 when I actually do introduce
 a significant regression.
 
-00:34:48.485 --> 00:34:50.946 A:middle
+00:34:48.486 --> 00:34:50.946 A:middle
 So I'm going to switch
 back to the code
 
-00:34:51.565 --> 00:34:53.696 A:middle
+00:34:51.566 --> 00:34:53.696 A:middle
 that handles merging
 these transactions.
 
@@ -3411,14 +3142,6 @@ is clearly working.
 
 00:34:57.496 --> 00:34:58.596 A:middle
 My tests are all passing.
-
-00:34:58.806 --> 00:35:03.586 A:middle
-The performance tests are
-succeeding, but I'm worried
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.806 --> 00:35:03.586 A:middle
 The performance tests are
@@ -3500,14 +3223,6 @@ we're running several iterations
 of what is ideally
 significant work.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:57.696 --> 00:36:00.576 A:middle
-of what is ideally
-significant work.
-
 00:36:01.286 --> 00:36:02.516 A:middle
 Otherwise, it wouldn't
 need testing.
@@ -3517,7 +3232,7 @@ So you can set up one scheme
 that Xcode Server runs
 
 00:36:06.526 --> 00:36:08.896 A:middle
-that runs all of your tests
+that runs all of your tests,
 including your performance tests
 
 00:36:09.146 --> 00:36:10.516 A:middle
@@ -3592,14 +3307,6 @@ high visibility to what all
 of your bots were doing
 inside your office,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.186 --> 00:37:01.626 A:middle
-of your bots were doing
-inside your office,
-
 00:37:02.026 --> 00:37:04.096 A:middle
 and we called it Big
 Screen, and we have a new,
@@ -3615,7 +3322,7 @@ that I'd like to show you now.
 So this is the new Big Screen.
 
 00:37:16.276 --> 00:37:18.776 A:middle
-Along the left side you can
+Along the left side, you can
 see we have a list of bots.
 
 00:37:19.546 --> 00:37:21.456 A:middle
@@ -3668,22 +3375,16 @@ we even show the change
 in those numbers form
 the previous integration.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.926 --> 00:38:02.936 A:middle
 Along the bottom you can
 see the list of committers,
 
-00:38:03.666 --> 00:38:05.296 A:middle
-and you can see even --
+00:38:03.666 --> 00:38:06.166 A:middle
+and you can see even
+- if we have issues
 
-00:38:05.296 --> 00:38:07.226 A:middle
-if we have issues that
-we've attributed to them,
-
-00:38:07.566 --> 00:38:09.406 A:middle
+00:38:06.166 --> 00:38:09.406 A:middle
+that we've attributed to them,
 how many they might have.
 
 00:38:11.226 --> 00:38:13.006 A:middle
@@ -3754,14 +3455,6 @@ got great, great new features,
 like in-flight progress
 notification.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:55.366 --> 00:39:00.776 A:middle
-like in-flight progress
-notification.
-
 00:39:00.776 --> 00:39:02.436 A:middle
 So you can see exactly
 what your bot is doing
@@ -3792,7 +3485,7 @@ of your project.
 
 00:39:16.506 --> 00:39:20.786 A:middle
 We have a great new test
-result UI including support
+result UI, including support
 
 00:39:20.856 --> 00:39:21.946 A:middle
 for performance testing.
@@ -3818,15 +3511,14 @@ if you need it.
 
 00:39:36.136 --> 00:39:38.376 A:middle
 Come to the lab, and maybe
-you can try to out trigger us
+you can try to out-trigger us
 
-00:39:38.376 --> 00:39:39.836 A:middle
-and write something
-even more awesome
+00:39:38.376 --> 00:39:41.046 A:middle
+and write something even
+more awesome than our friend,
 
-00:39:39.836 --> 00:39:43.356 A:middle
-than our friend Jeeves,
-and so that's it.
+00:39:41.226 --> 00:39:43.356 A:middle
+Jeeves, and so that's it.
 
 00:39:43.486 --> 00:39:43.996 A:middle
 Thank you.
@@ -3836,4 +3528,3 @@ Have a great week.
 
 00:39:44.743 --> 00:39:46.743 A:middle
 [ Applause ]
-

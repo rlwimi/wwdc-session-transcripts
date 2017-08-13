@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.236 --> 00:00:12.116 A:middle
 Good morning everyone.
@@ -63,14 +62,6 @@ to find conversions
 00:00:52.076 --> 00:00:56.586 A:middle
 between various pixel formats,
 warp, shears, convolution,
-
-00:00:56.626 --> 00:01:03.116 A:middle
-etc. We've got digital signal
-processing, FFTs, DFTs, biquads,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:56.626 --> 00:01:03.116 A:middle
 etc. We've got digital signal
@@ -148,14 +139,6 @@ advantage of NEON.
 Also in some situations we're
 utilizing multiple cores.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.966 --> 00:02:01.586 A:middle
-Also in some situations we're
-utilizing multiple cores.
-
 00:02:02.116 --> 00:02:03.356 A:middle
 We're going to do
 this automatically.
@@ -168,7 +151,7 @@ to take advantage of all
 of the processing
 that's available for you.
 
-00:02:08.705 --> 00:02:11.806 A:middle
+00:02:08.706 --> 00:02:11.806 A:middle
 The other metric that we
 spent a lot of time looking
 
@@ -232,14 +215,6 @@ new features and functionalities
 00:02:57.026 --> 00:02:59.406 A:middle
 to make it easier to get
 to this high performance.
-
-00:02:59.516 --> 00:03:02.006 A:middle
-We've got some great
-new features in vImage
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.516 --> 00:03:02.006 A:middle
 We've got some great
@@ -324,14 +299,6 @@ a short video.
 You can perform alpha
 blending, dilatation, erosion.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:54.856 --> 00:04:00.856 A:middle
-You can perform alpha
-blending, dilatation, erosion.
-
 00:04:01.616 --> 00:04:05.336 A:middle
 You can create sobel
 filters to do edge detection.
@@ -347,7 +314,7 @@ convolves.
 00:04:13.206 --> 00:04:14.726 A:middle
 There's min and max filters.
 
-00:04:16.326 --> 00:04:18.125 A:middle
+00:04:16.326 --> 00:04:18.126 A:middle
 Various color transformations.
 
 00:04:18.546 --> 00:04:21.676 A:middle
@@ -398,14 +365,6 @@ for whatever reason,
 00:04:55.186 --> 00:04:58.996 A:middle
 it could be difficult to
 get it into the 8 bit ARGB
-
-00:04:59.306 --> 00:05:01.216 A:middle
-or whatever format
-that you saw in vImage
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.306 --> 00:05:01.216 A:middle
 or whatever format
@@ -495,14 +454,6 @@ return a CGImageRef.
 So some really great
 inoperability with CGImageRef.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.016 --> 00:06:01.766 A:middle
-So some really great
-inoperability with CGImageRef.
-
 00:06:02.096 --> 00:06:04.346 A:middle
 It's really easy to
 get your image data in
@@ -570,14 +521,6 @@ want with a single converter.
 00:06:54.176 --> 00:06:58.876 A:middle
 So, this allows you to convert
 between nearly any pixel format.
-
-00:06:59.156 --> 00:07:02.086 A:middle
-To the power user, this
-means you can get almost any
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.156 --> 00:07:02.086 A:middle
 To the power user, this
@@ -654,10 +597,6 @@ iOS 8.0 and OS X 10.10.
 And I'm going to start with
 the high level functionality
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.256 --> 00:08:01.876 A:middle
 from a CVPixelBufferRef.
 
@@ -706,7 +645,7 @@ describing the format,
 00:08:36.346 --> 00:08:37.586 A:middle
 and the CVPixelBuffer.
 
-00:08:38.155 --> 00:08:41.356 A:middle
+00:08:38.156 --> 00:08:41.356 A:middle
 There's some additional
 arguments for the power user
 
@@ -727,14 +666,6 @@ The round trip is just as easy.
 
 00:08:54.656 --> 00:08:55.976 A:middle
 So vImageBuffer back
-
-00:08:55.976 --> 00:09:00.726 A:middle
-to CVPixelBufferRef is vImage
-copied to CVPixelBuffer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:55.976 --> 00:09:00.726 A:middle
 to CVPixelBufferRef is vImage
@@ -810,14 +741,6 @@ and some,
 it's just a little bit
 tricky and complicated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.886 --> 00:10:03.306 A:middle
-it's just a little bit
-tricky and complicated
-
 00:10:03.646 --> 00:10:05.006 A:middle
 to get an RGB colorspace.
 
@@ -878,14 +801,6 @@ CoreMedia, and what I've got
 00:10:54.906 --> 00:10:58.876 A:middle
 on this graph is showing the
 speed and megapixels per second
-
-00:10:58.876 --> 00:11:04.986 A:middle
-on the Y axis to convert
-from VRGA 8 bit pixel format
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.876 --> 00:11:04.986 A:middle
 on the Y axis to convert
@@ -959,14 +874,6 @@ Great performance.
 Simple, easy to use,
 good interoperability
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.376 --> 00:12:00.346 A:middle
-Simple, easy to use,
-good interoperability
-
 00:12:00.346 --> 00:12:01.736 A:middle
 with core graphics
 and core video.
@@ -1029,14 +936,6 @@ a LAPACK uses short names,
 00:12:56.536 --> 00:12:58.336 A:middle
 so you're going to
 have to figure
-
-00:12:58.336 --> 00:13:01.556 A:middle
-out that sgesv means solve
-system of linear equations.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.336 --> 00:13:01.556 A:middle
 out that sgesv means solve
@@ -1118,14 +1017,6 @@ sub-framework.
 So it's new in both
 iOS 8.0 and OS 10.10.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.206 --> 00:14:02.886 A:middle
-So it's new in both
-iOS 8.0 and OS 10.10.
-
 00:14:03.096 --> 00:14:05.596 A:middle
 It is designed to be simple
 with good performance.
@@ -1186,13 +1077,6 @@ sub-framework,
 
 00:14:57.246 --> 00:14:59.266 A:middle
 and those are slice and splat.
-
-00:14:59.266 --> 00:15:00.526 A:middle
-And we'll see about those
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.266 --> 00:15:00.526 A:middle
 And we'll see about those
@@ -1272,14 +1156,6 @@ got all the APIs duplicated,
 00:15:53.176 --> 00:15:54.716 A:middle
 one for single and
 one for double.
-
-00:15:54.716 --> 00:16:00.816 A:middle
-We can collapse all that down
-to half the number of APIs.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:54.716 --> 00:16:00.816 A:middle
 We can collapse all that down
@@ -1366,19 +1242,15 @@ and number of elements.
 We're going to fill that
 as a row major matrix.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.286 --> 00:17:03.456 A:middle
 Then to get that matrix into
 the LinearAlgebra domain,
 
-00:17:03.456 --> 00:17:05.455 A:middle
+00:17:03.456 --> 00:17:05.456 A:middle
 we're going to just
 call LA matrix
 
-00:17:05.455 --> 00:17:07.185 A:middle
+00:17:05.456 --> 00:17:07.186 A:middle
 from float or double buffer.
 
 00:17:08.116 --> 00:17:09.876 A:middle
@@ -1388,7 +1260,7 @@ the dimensions
 00:17:09.876 --> 00:17:12.116 A:middle
 of the matrix, the row stride.
 
-00:17:13.715 --> 00:17:15.326 A:middle
+00:17:13.716 --> 00:17:15.326 A:middle
 And then hints which we'll see
 
 00:17:15.326 --> 00:17:17.896 A:middle
@@ -1399,10 +1271,10 @@ bit more details about those.
 And then attributes, which
 are attached to objects.
 
-00:17:22.876 --> 00:17:24.175 A:middle
+00:17:22.876 --> 00:17:24.176 A:middle
 These attributes allow you
 
-00:17:24.175 --> 00:17:26.746 A:middle
+00:17:24.176 --> 00:17:26.746 A:middle
 to do things enable
 additional debug logging.
 
@@ -1437,14 +1309,6 @@ for this, to allow for you
 00:17:51.446 --> 00:17:56.286 A:middle
 to give us details and
 insights about the buffer
-
-00:17:57.246 --> 00:18:00.376 A:middle
-so that we can use the right
-routines behind the scenes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.246 --> 00:18:00.376 A:middle
 so that we can use the right
@@ -1535,14 +1399,6 @@ to create additional objects.
 So in this case we
 create a transpose.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.926 --> 00:19:01.846 A:middle
-So in this case we
-create a transpose.
-
 00:19:02.236 --> 00:19:04.466 A:middle
 We add that to our
 evaluation graph.
@@ -1607,14 +1463,6 @@ or double-buffer,
 00:19:56.926 --> 00:19:59.146 A:middle
 or la-vector-to-float
 or double-buffer.
-
-00:19:59.766 --> 00:20:03.706 A:middle
-So again, creating these objects
-is going to be lightweight.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.766 --> 00:20:03.706 A:middle
 So again, creating these objects
@@ -1702,14 +1550,6 @@ performance benchmark here.
 What we see here is
 LinearAlgebra is getting most
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.286 --> 00:21:02.316 A:middle
-What we see here is
-LinearAlgebra is getting most
-
 00:21:02.316 --> 00:21:04.266 A:middle
 of the performance that
 the Accelerated Framework
@@ -1785,14 +1625,6 @@ checking the error status.
 00:21:54.436 --> 00:21:56.056 A:middle
 We don't recommend
 you doing it this way.
-
-00:21:57.926 --> 00:22:00.366 A:middle
-What we recommend you doing
-is checking the error once
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.926 --> 00:22:00.366 A:middle
 What we recommend you doing
@@ -1881,14 +1713,6 @@ to be no data in that buffer.
 This might be something
 like a dimension mismatch
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.776 --> 00:23:01.126 A:middle
-This might be something
-like a dimension mismatch
-
 00:23:01.126 --> 00:23:02.976 A:middle
 or something we just
 can't recover from.
@@ -1955,14 +1779,6 @@ non-singular matrix,
 00:23:54.796 --> 00:23:58.036 A:middle
 it's going to compute
 the solution to Ax = b.
-
-00:23:59.056 --> 00:24:01.416 A:middle
-If A is square and
-it's singular,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.056 --> 00:24:01.416 A:middle
 If A is square and
@@ -2043,14 +1859,6 @@ that you need to create a slice.
 That is offset, stride
 and dimension.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.806 --> 00:25:03.226 A:middle
-That is offset, stride
-and dimension.
-
 00:25:04.366 --> 00:25:05.946 A:middle
 And let's look at an example.
 
@@ -2121,10 +1929,6 @@ a simple example.
 00:25:57.026 --> 00:25:59.236 A:middle
 You want to sum two
 matrices together.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.006 --> 00:26:02.986 A:middle
 One of the ways you can do this
@@ -2211,13 +2015,6 @@ to the result as possible.
 00:26:59.036 --> 00:27:04.556 A:middle
 The next piece is a splat.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.036 --> 00:27:04.556 A:middle
-The next piece is a splat.
-
 00:27:05.276 --> 00:27:08.596 A:middle
 A splat is way to work
 with scalar values
@@ -2281,14 +2078,6 @@ Vector and Numerics Group.
 
 00:27:56.816 --> 00:27:57.996 A:middle
 I work with Geoff.
-
-00:27:58.146 --> 00:28:01.846 A:middle
-And I'm going to talk about
-our other new feature shortly,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.146 --> 00:28:01.846 A:middle
 And I'm going to talk about
@@ -2363,14 +2152,6 @@ shown you a shootout
 00:28:56.286 --> 00:28:59.176 A:middle
 between Accelerate
 running on iOS devices
-
-00:28:59.346 --> 00:29:03.196 A:middle
-and what we like
-to call Brand A.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.346 --> 00:29:03.196 A:middle
 and what we like
@@ -2451,10 +2232,6 @@ is still on the iPhone 5,
 00:29:56.576 --> 00:29:59.556 A:middle
 and you can see, it's not that
 interesting of a comparison.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.456 --> 00:30:02.716 A:middle
 So this year we thought
@@ -2545,14 +2322,6 @@ I don't know.
 Who thinks that the
 iPhone 5s is faster?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.536 --> 00:31:02.116 A:middle
-Who thinks that the
-iPhone 5s is faster?
-
 00:31:03.696 --> 00:31:05.506 A:middle
 Who thinks that the
 MacBook Air is faster?
@@ -2613,14 +2382,6 @@ used to talk about hardware,
 00:31:56.566 --> 00:31:59.056 A:middle
 and it stands for single
 instruction multiple data.
-
-00:31:59.616 --> 00:32:02.236 A:middle
-And that's not exactly what
-we're talking about here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.616 --> 00:32:02.236 A:middle
 And that's not exactly what
@@ -2694,10 +2455,6 @@ and geometry, and I'm going
 
 00:32:58.136 --> 00:32:58.986 A:middle
 to dive right into that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.146 --> 00:33:03.946 A:middle
 There are already a
@@ -2793,14 +2550,6 @@ concise functions
 that don't have a lot
 of extra parameters.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.796 --> 00:34:00.356 A:middle
-that don't have a lot
-of extra parameters.
-
 00:34:00.836 --> 00:34:02.166 A:middle
 If you want to do a dot product,
 
@@ -2812,55 +2561,55 @@ BLAS, it looks like this.
 You've got all these
 extra parameters.
 
-00:34:08.005 --> 00:34:09.166 A:middle
+00:34:08.006 --> 00:34:09.166 A:middle
 We don't think you
 should need to write this.
 
-00:34:10.616 --> 00:34:13.815 A:middle
+00:34:10.616 --> 00:34:13.816 A:middle
 If you're going to use it using
 GLK, which is a great library;
 
-00:34:13.926 --> 00:34:18.315 A:middle
+00:34:13.926 --> 00:34:18.316 A:middle
 I love GLK, but the
 compiler should know that x
 
-00:34:18.315 --> 00:34:20.036 A:middle
+00:34:18.316 --> 00:34:20.036 A:middle
 and y are three-dimensional
 vectors.
 
-00:34:20.036 --> 00:34:22.235 A:middle
+00:34:20.036 --> 00:34:22.236 A:middle
 You shouldn't need to tell it
 that in every function you call.
 
-00:34:23.146 --> 00:34:27.735 A:middle
+00:34:23.146 --> 00:34:27.736 A:middle
 With SIMD, you just write
 this, vector dot(x, y).
 
-00:34:28.786 --> 00:34:31.295 A:middle
+00:34:28.786 --> 00:34:31.296 A:middle
 Functions overloaded to support
 all the different vector types
 
-00:34:31.295 --> 00:34:31.786 A:middle
+00:34:31.296 --> 00:34:31.786 A:middle
 that we have.
 
 00:34:32.346 --> 00:34:33.146 A:middle
 It just works.
 
-00:34:33.146 --> 00:34:35.335 A:middle
+00:34:33.146 --> 00:34:35.336 A:middle
 It inserts the correct
 implementation into your code.
 
-00:34:35.565 --> 00:34:36.416 A:middle
+00:34:35.566 --> 00:34:36.416 A:middle
 You get great performance.
 
-00:34:36.446 --> 00:34:40.485 A:middle
+00:34:36.446 --> 00:34:40.486 A:middle
 If you're writing C++, then
 we have even shorter names
 
-00:34:40.485 --> 00:34:41.616 A:middle
+00:34:40.486 --> 00:34:41.616 A:middle
 under the SIMD namespace.
 
-00:34:42.295 --> 00:34:43.826 A:middle
+00:34:42.296 --> 00:34:43.826 A:middle
 And these look just like Metal.
 
 00:34:44.376 --> 00:34:49.696 A:middle
@@ -2871,21 +2620,13 @@ add the using namespace SIMD,
 and a lot of it will just
 work using SIMD headers.
 
-00:34:52.985 --> 00:34:56.476 A:middle
+00:34:52.986 --> 00:34:56.476 A:middle
 This is really convenient when
 you're writing your own code.
 
 00:34:56.666 --> 00:34:59.696 A:middle
 The last feature that
 I think is important is
-
-00:34:59.696 --> 00:35:01.456 A:middle
-that arithmetic should
-use operators.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.696 --> 00:35:01.456 A:middle
 that arithmetic should
@@ -2975,14 +2716,6 @@ library really pleasant.
 So first off, arithmetic on
 vectors pretty much just works.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.156 --> 00:36:03.506 A:middle
-So first off, arithmetic on
-vectors pretty much just works.
-
 00:36:04.086 --> 00:36:06.506 A:middle
 You can use all your
 favorite arithmetic operators
@@ -3063,13 +2796,6 @@ It makes your code, again,
 00:36:55.156 --> 00:36:58.516 A:middle
 really easy to write,
 really easy to read.
-
-00:36:58.516 --> 00:37:00.146 A:middle
-I think it's much nicer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.516 --> 00:37:00.146 A:middle
 I think it's much nicer.
@@ -3172,10 +2898,6 @@ generate great code for you.
 But used sparingly, this is
 really a powerful feature.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.786 --> 00:38:03.826 A:middle
 We have some other,
 that's about what you get
@@ -3275,14 +2997,6 @@ for them in the headers.
 And then there's the
 geometry functions as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:58.226 --> 00:39:00.966 A:middle
-And then there's the
-geometry functions as well.
-
 00:39:02.216 --> 00:39:06.176 A:middle
 Now in C++ and Metal, again we
 have shorter names available
@@ -3359,14 +3073,6 @@ with the fast variance.
 00:39:54.506 --> 00:39:56.916 A:middle
 Now even if you compile
 the ffast-math,
-
-00:39:57.046 --> 00:40:00.736 A:middle
-you can still call the precise
-ones individually when you need
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:57.046 --> 00:40:00.736 A:middle
 you can still call the precise
@@ -3459,14 +3165,6 @@ that Metal and open CL and DX
 and GLSL and all of these
 libraries have always used.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.776 --> 00:41:02.966 A:middle
-and GLSL and all of these
-libraries have always used.
-
 00:41:02.966 --> 00:41:05.356 A:middle
 So that's why we do it.
 
@@ -3552,14 +3250,6 @@ a few of them.
 
 00:41:57.406 --> 00:41:58.786 A:middle
 We also have vectors of doubles.
-
-00:41:58.986 --> 00:42:01.186 A:middle
-Vectors of signed and
-unsigned integers.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:58.986 --> 00:42:01.186 A:middle
 Vectors of signed and
@@ -3660,14 +3350,6 @@ Those just work on vectors.
 They work with vectors
 and scalars
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.366 --> 00:43:00.616 A:middle
-They work with vectors
-and scalars
-
 00:43:00.616 --> 00:43:03.316 A:middle
 so you can shift every
 element right by 3,
@@ -3755,14 +3437,6 @@ sense geometrically.
 So comparisons produce
 a vector of results.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:58.366 --> 00:44:01.206 A:middle
-So comparisons produce
-a vector of results.
-
 00:44:02.406 --> 00:44:06.776 A:middle
 Where each lane of the result
 vector is minus 1, that's all 1s
@@ -3835,14 +3509,6 @@ the comparison is true
 
 00:44:56.026 --> 00:44:57.776 A:middle
 in any lane of the vector.
-
-00:44:58.676 --> 00:45:02.206 A:middle
-Vector all is true if it's true
-in every lane of the vector.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:58.676 --> 00:45:02.206 A:middle
 Vector all is true if it's true
@@ -3929,14 +3595,6 @@ That's it.
 00:45:55.766 --> 00:45:57.176 A:middle
 Complete implementation
 right there.
-
-00:45:58.286 --> 00:46:01.236 A:middle
-Now, as I said, this isn't
-too hard to vectorize.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:58.286 --> 00:46:01.236 A:middle
 Now, as I said, this isn't
@@ -4031,14 +3689,6 @@ until the source has
 That's going to enable
 us to use lined goods
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:57.746 --> 00:47:00.036 A:middle
-That's going to enable
-us to use lined goods
-
 00:47:00.036 --> 00:47:02.586 A:middle
 from the source from
 that point on.
@@ -4123,14 +3773,6 @@ compare it to zero.
 If any lane is equal to zero,
 then we stop the copy, right.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:57.836 --> 00:48:04.026 A:middle
-If any lane is equal to zero,
-then we stop the copy, right.
-
 00:48:04.026 --> 00:48:08.486 A:middle
 So if not, any lane of the
 vector is zero, we're done.
@@ -4208,14 +3850,6 @@ the better off we're doing.
 
 00:48:56.936 --> 00:48:58.736 A:middle
 Higher is better on this graph.
-
-00:48:59.166 --> 00:49:00.796 A:middle
-We start with that
-scalar code we had.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:59.166 --> 00:49:00.796 A:middle
 We start with that
@@ -4315,14 +3949,6 @@ our message for today is,
 that Accelerate has always given
 you really fast vector code.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:58.416 --> 00:50:04.236 A:middle
-that Accelerate has always given
-you really fast vector code.
-
 00:50:05.016 --> 00:50:07.616 A:middle
 And what we're doing now is
 try to make it even simpler
@@ -4393,13 +4019,6 @@ if you need documentation.
 00:50:54.666 --> 00:50:59.726 A:middle
 VImage and vDSP, LinearAlgebra
 and SIMD all have lots and lots
-
-00:50:59.726 --> 00:51:01.056 A:middle
-of documentation in the headers.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:59.726 --> 00:51:01.056 A:middle
 of documentation in the headers.
@@ -4513,18 +4132,9 @@ certainly going to be interested
 in the Metal sessions
 that are tomorrow morning.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:59.646 --> 00:52:01.166 A:middle
-in the Metal sessions
-that are tomorrow morning.
-
 00:52:01.926 --> 00:52:03.016 A:middle
 Those are a great
 thing to check out.
 
 00:52:03.146 --> 00:52:04.136 A:middle
 Thanks a lot for coming by guys.
-

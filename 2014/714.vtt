@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:13.396 --> 00:00:15.386 A:middle
 &gt;&gt; Good morning,
@@ -24,7 +23,7 @@ called activity tracing.
 The goal of this is to hopefully
 improve your ability to fix bugs
 
-00:00:30.916 --> 00:00:32.625 A:middle
+00:00:30.916 --> 00:00:32.626 A:middle
 in a much quicker fashion.
 
 00:00:33.316 --> 00:00:37.216 A:middle
@@ -55,11 +54,7 @@ some considerations to take
 into account while adopting
 this new technology.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:00.216 --> 00:01:04.885 A:middle
+00:01:00.216 --> 00:01:04.886 A:middle
 So, let's go into
 some background.
 
@@ -139,14 +134,6 @@ trying to separate privilege
 and now you have two processes
 involved that may log separately
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.076 --> 00:02:02.266 A:middle
-and now you have two processes
-involved that may log separately
-
 00:02:02.266 --> 00:02:02.836 A:middle
 and you have no way
 
@@ -161,7 +148,7 @@ piece of the puzzle
 00:02:07.006 --> 00:02:08.746 A:middle
 that has complicated our lives.
 
-00:02:09.205 --> 00:02:12.056 A:middle
+00:02:09.206 --> 00:02:12.056 A:middle
 The reality is debug
 tools have not kept pace.
 
@@ -234,10 +221,6 @@ or multi-processes talking
 00:02:58.436 --> 00:02:59.916 A:middle
 to this service that
 are blocked,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.296 --> 00:03:02.266 A:middle
 but they also look
@@ -322,14 +305,6 @@ also have what I call a complex
 crash, where over time as an
 application is being used,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:56.946 --> 00:04:00.356 A:middle
-crash, where over time as an
-application is being used,
-
 00:04:00.356 --> 00:04:04.386 A:middle
 it may invoke multiple Daemons
 or XPCServices and ultimately,
@@ -353,11 +328,11 @@ in the background and all
 00:04:16.026 --> 00:04:17.226 A:middle
 that shows at the top
 
-00:04:17.226 --> 00:04:19.505 A:middle
+00:04:17.226 --> 00:04:19.506 A:middle
 of the screen is your
 query cannot be completed
 
-00:04:19.505 --> 00:04:20.026 A:middle
+00:04:19.506 --> 00:04:20.026 A:middle
 at this time.
 
 00:04:20.826 --> 00:04:21.586 A:middle
@@ -412,14 +387,6 @@ we really wanted to find a way
 
 00:04:54.316 --> 00:04:55.666 A:middle
 to provide you that insight.
-
-00:04:56.806 --> 00:05:01.276 A:middle
-In addition to that,
-sometimes we look at problems
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:56.806 --> 00:05:01.276 A:middle
 In addition to that,
@@ -516,14 +483,6 @@ activity trace mechanism,
 you get some power back and
 CPU back to your application
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:57.326 --> 00:06:01.436 A:middle
-you get some power back and
-CPU back to your application
-
 00:06:01.436 --> 00:06:03.676 A:middle
 and focus on the actual
 work, versus trying
@@ -594,14 +553,6 @@ every menu option is interesting
 00:06:57.046 --> 00:06:59.386 A:middle
 or meaningful, you get the
 opportunity to actually point
-
-00:06:59.386 --> 00:07:01.416 A:middle
-out the ones that are meaningful
-to you as a developer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.386 --> 00:07:01.416 A:middle
 out the ones that are meaningful
@@ -703,14 +654,6 @@ where you have explicit work,
 maybe you have an
 initialization phase,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.396 --> 00:08:01.116 A:middle
-maybe you have an
-initialization phase,
-
 00:08:01.436 --> 00:08:02.916 A:middle
 you're reindexing databases,
 
@@ -757,15 +700,15 @@ the system across GCD queues,
 NSOperationQueues,
 as well as processes.
 
-00:08:35.546 --> 00:08:40.135 A:middle
+00:08:35.546 --> 00:08:40.136 A:middle
 For example, take process A
 and process B, may have queues
 
-00:08:40.135 --> 00:08:43.525 A:middle
+00:08:40.136 --> 00:08:43.526 A:middle
 in flight and you can see here
 those-activity ID number 1
 
-00:08:43.525 --> 00:08:46.816 A:middle
+00:08:43.526 --> 00:08:46.816 A:middle
 and activity ID number
 2-you can see them flowing
 
@@ -783,14 +726,6 @@ to do, it's all transparent.
 00:08:54.546 --> 00:08:57.396 A:middle
 So, you look at activities over
 time as I've showed previously
-
-00:08:57.396 --> 00:09:00.586 A:middle
-in a previous chart,
-now you have a concept
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.396 --> 00:09:00.586 A:middle
 in a previous chart,
@@ -882,10 +817,6 @@ that information to the action
 00:09:58.526 --> 00:09:59.976 A:middle
 that you are trying to track.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.066 --> 00:10:03.276 A:middle
 We have a concept of detached
 activities because now
@@ -973,14 +904,6 @@ into your diagnostic reports.
 So, how do you initiate
 an activity?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.956 --> 00:11:01.476 A:middle
-So, how do you initiate
-an activity?
-
 00:11:01.556 --> 00:11:05.786 A:middle
 So, I'm going to try to make
 this a very easy API to use.
@@ -1046,14 +969,6 @@ and you can find the header,
 00:11:54.006 --> 00:11:56.876 A:middle
 let's talk about those
 automatic generated activities.
-
-00:11:57.826 --> 00:12:01.566 A:middle
-Take a process that has the
-search query about to initiate,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.826 --> 00:12:01.566 A:middle
 Take a process that has the
@@ -1132,14 +1047,6 @@ callback doing a checkCache OS
 00:12:53.186 --> 00:12:58.246 A:middle
 activity initiate, flag default
 and the block, very simple.
-
-00:12:59.536 --> 00:13:02.986 A:middle
-Similarly, the detached
-activity-you have a searchField
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.536 --> 00:13:02.986 A:middle
 Similarly, the detached
@@ -1237,14 +1144,6 @@ or meaningful to you.
 You actually want to hone in on
 those things that are occurring
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.186 --> 00:14:00.256 A:middle
-You actually want to hone in on
-those things that are occurring
-
 00:14:00.806 --> 00:14:03.436 A:middle
 like that composed
 mail, empty trash,
@@ -1326,14 +1225,6 @@ about breadcrumbs,
 they're a separate kind of
 ring buffer of their own.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.776 --> 00:15:00.956 A:middle
-they're a separate kind of
-ring buffer of their own.
-
 00:15:01.366 --> 00:15:04.806 A:middle
 We track the last
 50 events over time.
@@ -1402,14 +1293,6 @@ here is in string example
 00:15:54.766 --> 00:15:58.576 A:middle
 because many of its combined
 callbacks for the same routine,
-
-00:15:58.896 --> 00:16:00.406 A:middle
-but in this case,
-I have a search
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.896 --> 00:16:00.406 A:middle
 but in this case,
@@ -1505,10 +1388,6 @@ It's very lightweight,
 as you saw from the
 performance numbers.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.796 --> 00:17:03.106 A:middle
 What's very interesting
 about this is we understand
@@ -1521,11 +1400,11 @@ modes of operation.
 There's a development mode,
 where you're debugging
 
-00:17:07.286 --> 00:17:10.465 A:middle
+00:17:07.286 --> 00:17:10.466 A:middle
 and working on an application
 and there's the release mode,
 
-00:17:10.465 --> 00:17:13.616 A:middle
+00:17:10.466 --> 00:17:13.616 A:middle
 the part that's shipping
 on our shipping platform,
 
@@ -1537,11 +1416,11 @@ device or a desktop.
 So, we really wanted to
 take that into account
 
-00:17:18.506 --> 00:17:20.695 A:middle
+00:17:18.506 --> 00:17:20.696 A:middle
 when we developed this
 because it's a very different
 
-00:17:20.695 --> 00:17:21.816 A:middle
+00:17:20.696 --> 00:17:21.816 A:middle
 development cycle.
 
 00:17:22.316 --> 00:17:24.826 A:middle
@@ -1552,7 +1431,7 @@ on a production system,
 you have less information
 available,
 
-00:17:26.935 --> 00:17:28.996 A:middle
+00:17:26.936 --> 00:17:28.996 A:middle
 but when you're actually
 trying to live debug a system,
 
@@ -1598,14 +1477,6 @@ that was running at the moment
 
 00:17:58.336 --> 00:17:59.836 A:middle
 that this was created.
-
-00:17:59.836 --> 00:18:03.996 A:middle
-As you can see offside here, we
-actually have, the entire entry
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.836 --> 00:18:03.996 A:middle
 As you can see offside here, we
@@ -1681,14 +1552,6 @@ do and this is a safeguard,
 00:18:56.596 --> 00:18:58.756 A:middle
 but most importantly, it
 gives us the performance
-
-00:18:58.756 --> 00:19:00.936 A:middle
-that we cannot gain
-with arbitrary strings.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.756 --> 00:19:00.936 A:middle
 that we cannot gain
@@ -1787,14 +1650,6 @@ that on a production system.
 But we obviously want you to
 have that while you're trying
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.046 --> 00:20:01.506 A:middle
-But we obviously want you to
-have that while you're trying
-
 00:20:01.506 --> 00:20:02.976 A:middle
 to debug your application.
 
@@ -1875,13 +1730,6 @@ that I'm talking through.
 00:20:57.626 --> 00:20:59.716 A:middle
 What's great about this is
 the block is only called
-
-00:20:59.716 --> 00:21:00.656 A:middle
-when it's requested.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.716 --> 00:21:00.656 A:middle
 when it's requested.
@@ -1976,10 +1824,6 @@ the trace messages fit
 00:21:58.376 --> 00:21:59.236 A:middle
 into that activity.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.206 --> 00:22:01.876 A:middle
 As I mentioned earlier,
 there's a ring buffer.
@@ -2073,14 +1917,6 @@ You have the breadcrumb.
 You have how long it's been
 running and any failure
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.066 --> 00:23:02.236 A:middle
-You have how long it's been
-running and any failure
-
 00:23:02.236 --> 00:23:03.546 A:middle
 that we may have detected.
 
@@ -2157,14 +1993,6 @@ while diagnosticd actually comes
 
 00:23:55.716 --> 00:23:57.446 A:middle
 up when the process fails,
-
-00:23:57.726 --> 00:24:00.796 A:middle
-the buffers from the individual
-processes that are running,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.726 --> 00:24:00.796 A:middle
 the buffers from the individual
@@ -2259,14 +2087,6 @@ at that time to diagnosticd
 to evaluate and store, so you
 can retrieve this via tools
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.686 --> 00:25:01.876 A:middle
-to evaluate and store, so you
-can retrieve this via tools
-
 00:25:01.876 --> 00:25:03.596 A:middle
 or via any other
 mechanism we provide.
@@ -2346,14 +2166,6 @@ in this example,
 
 00:25:56.636 --> 00:25:58.806 A:middle
 we have an application main.
-
-00:25:58.836 --> 00:26:00.786 A:middle
-It's starting up some
-initialization phase,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.836 --> 00:26:00.786 A:middle
 It's starting up some
@@ -2442,14 +2254,6 @@ were connected to that.
 And that's additional data you
 didn't have in your application
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.006 --> 00:27:02.466 A:middle
-And that's additional data you
-didn't have in your application
-
 00:27:02.586 --> 00:27:03.606 A:middle
 at the time it crashed.
 
@@ -2522,14 +2326,6 @@ characters are not supported
 
 00:27:55.416 --> 00:27:56.116 A:middle
 because we don't want
-
-00:27:56.116 --> 00:28:00.556 A:middle
-to be accidentally outputting
-passwords with characters.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:56.116 --> 00:28:00.556 A:middle
 to be accidentally outputting
@@ -2618,14 +2414,6 @@ So, let's do a quick demo.
 So, I have an application
 running here, Query Directory.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.286 --> 00:29:05.816 A:middle
-So, I have an application
-running here, Query Directory.
-
 00:29:05.966 --> 00:29:08.186 A:middle
 I'm just going to
 search for something
@@ -2682,14 +2470,6 @@ before, the activity
 00:29:55.856 --> 00:29:57.976 A:middle
 and all the trace messages
 leading up to the event.
-
-00:29:58.836 --> 00:30:02.056 A:middle
-In this case, you can
-see query directory
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.836 --> 00:30:02.056 A:middle
 In this case, you can
@@ -2767,14 +2547,6 @@ messages it accumulated
 and down below it you have all
 that detail in the debugger.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.036 --> 00:31:01.176 A:middle
-and down below it you have all
-that detail in the debugger.
-
 00:31:01.276 --> 00:31:04.336 A:middle
 So, instead of switching
 between console and terminal,
@@ -2824,13 +2596,6 @@ can say thread info and,
 
 00:31:47.966 --> 00:31:48.826 A:middle
 of course, it didn't work.
-
-00:31:49.516 --> 00:32:05.616 A:middle
-[ Background Sounds ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:49.516 --> 00:32:05.616 A:middle
 [ Background Sounds ]
@@ -2893,14 +2658,6 @@ across the system or by process.
 00:32:56.086 --> 00:32:57.556 A:middle
 So, while you're
 debugging the application,
-
-00:32:57.556 --> 00:33:01.786 A:middle
-you can actually say ostraceutil
-watch fault application.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:57.556 --> 00:33:01.786 A:middle
 you can actually say ostraceutil
@@ -2979,10 +2736,6 @@ and debug your application.
 And in this case, you can
 see the case I've typed
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.036 --> 00:34:01.456 A:middle
 to crash the app
 every time is Z.
@@ -3005,22 +2758,22 @@ across the entire system.
 Inthis case,
 ostraceutilwatchfaults.
 
-00:34:16.505 --> 00:34:20.536 A:middle
+00:34:16.506 --> 00:34:20.536 A:middle
 And you can see the Query
 Directory triggered a fault
 
-00:34:20.996 --> 00:34:22.025 A:middle
+00:34:20.996 --> 00:34:22.026 A:middle
 because something bad happened.
 
-00:34:22.275 --> 00:34:27.585 A:middle
+00:34:22.276 --> 00:34:27.586 A:middle
 You get the Image uuid,
 the PID and the path.
 
-00:34:27.686 --> 00:34:30.085 A:middle
+00:34:27.686 --> 00:34:30.086 A:middle
 You'll see the breadcrumbs
 and the timestamps
 
-00:34:30.085 --> 00:34:30.916 A:middle
+00:34:30.086 --> 00:34:30.916 A:middle
 with those breadcrumbs.
 
 00:34:31.406 --> 00:34:37.636 A:middle
@@ -3034,32 +2787,24 @@ as the trace messages.
 So, for the first time without
 enabling any additional logging,
 
-00:34:42.815 --> 00:34:45.085 A:middle
+00:34:42.816 --> 00:34:45.086 A:middle
 you can see this data
 while you're working
 
-00:34:45.085 --> 00:34:45.786 A:middle
+00:34:45.086 --> 00:34:45.786 A:middle
 on your application.
 
-00:34:46.606 --> 00:34:48.985 A:middle
+00:34:46.606 --> 00:34:48.986 A:middle
 So, what are some things
 to take into consideration?
 
-00:34:50.966 --> 00:34:55.985 A:middle
+00:34:50.966 --> 00:34:55.986 A:middle
 Privacy-we're very
 concerned about privacy.
 
 00:34:57.486 --> 00:34:59.276 A:middle
 So, be very conscious
 about what you're tracing
-
-00:34:59.576 --> 00:35:01.426 A:middle
-when you're adding
-trace messages.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.576 --> 00:35:01.426 A:middle
 when you're adding
@@ -3145,14 +2890,6 @@ OS X Yosemite supports
 in Crash Reports, Spin
 Reports, Stackshots and lldb.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:56.696 --> 00:36:00.156 A:middle
-in Crash Reports, Spin
-Reports, Stackshots and lldb.
-
 00:36:00.826 --> 00:36:03.016 A:middle
 Please note that
 the lldb support
@@ -3219,10 +2956,6 @@ extremely fast and efficient,
 00:36:55.126 --> 00:36:59.296 A:middle
 integrated with GCD, XPC,
 NSOperationQueue and Foundation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.676 --> 00:37:02.996 A:middle
 And as I alluded to, it
@@ -3311,17 +3044,8 @@ are very important.
 I would suggest taking
 a look at them.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.526 --> 00:38:00.146 A:middle
-I would suggest taking
-a look at them.
-
 00:38:01.086 --> 00:38:01.536 A:middle
 Thank you.
 
 00:38:02.516 --> 00:38:10.860 A:middle
 [ Applause ]
-

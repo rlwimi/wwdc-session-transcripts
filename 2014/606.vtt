@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.076 --> 00:00:12.496 A:middle
 &gt;&gt; Hello. My name is Norman.
@@ -67,10 +66,6 @@ build rich user interactions.
 
 00:00:59.086 --> 00:00:59.836 A:middle
 So that's not all.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.566 --> 00:01:03.956 A:middle
 In Xcode 6's release we now
@@ -153,14 +148,6 @@ to talk about is shaders.
 SpriteKit does a fantastic job
 of extracting the lower-level,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.076 --> 00:02:02.916 A:middle
-SpriteKit does a fantastic job
-of extracting the lower-level,
-
 00:02:02.916 --> 00:02:06.416 A:middle
 platform-dependent graphics
 APIs away from our users.
@@ -233,14 +220,6 @@ the screen areas it's going
 
 00:02:56.746 --> 00:02:58.176 A:middle
 to provide an energy effect.
-
-00:02:58.686 --> 00:03:00.356 A:middle
-So all of these are
-done in shaders.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.686 --> 00:03:00.356 A:middle
 So all of these are
@@ -324,14 +303,6 @@ SKShaders object.
 It is essentially a
 container that holds the GLSL,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:56.956 --> 00:04:00.406 A:middle
-It is essentially a
-container that holds the GLSL,
-
 00:04:00.406 --> 00:04:01.866 A:middle
 the OpenGL ES fragment shader.
 
@@ -356,11 +327,11 @@ in SpriteKit.
 So SKSpriteNode supports
 custom shaders
 
-00:04:18.016 --> 00:04:21.435 A:middle
+00:04:18.016 --> 00:04:21.436 A:middle
 and SKShapeNode now supports
 custom shaders on both drawings,
 
-00:04:21.435 --> 00:04:22.616 A:middle
+00:04:21.436 --> 00:04:22.616 A:middle
 the stroking and filling.
 
 00:04:23.366 --> 00:04:24.666 A:middle
@@ -414,14 +385,6 @@ up a brand-new attribute
 
 00:04:57.716 --> 00:04:59.366 A:middle
 or uniforms and pass it in.
-
-00:04:59.546 --> 00:05:01.626 A:middle
-So, for example, here
-we're passing the u-texture
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.546 --> 00:05:01.626 A:middle
 So, for example, here
@@ -506,10 +469,6 @@ here, for example,
 a scene has three
 separate sprites.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.096 --> 00:06:02.416 A:middle
 You can assign a shader
 directly to the scene.
@@ -584,14 +543,6 @@ float, texture, back to 2,
 00:06:57.186 --> 00:06:59.636 A:middle
 And for the full list
 of the custom symbols
-
-00:06:59.636 --> 00:07:00.976 A:middle
-that we're passing
-into the shader,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.636 --> 00:07:00.976 A:middle
 that we're passing
@@ -676,14 +627,6 @@ uniforms for you to use.
 That gives you a lot
 of raw attributes
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.656 --> 00:08:00.856 A:middle
-That gives you a lot
-of raw attributes
-
 00:08:00.856 --> 00:08:03.246 A:middle
 of what we're doing
 at the OpenGL level.
@@ -735,7 +678,7 @@ uniforms will also cause another
 00:08:34.746 --> 00:08:35.746 A:middle
 shader recompilation.
 
-00:08:37.885 --> 00:08:40.106 A:middle
+00:08:37.886 --> 00:08:40.106 A:middle
 Also in terms of draw
 call performance we
 
@@ -757,14 +700,6 @@ initialize the shader
 00:08:53.476 --> 00:08:57.756 A:middle
 at load time and initialize the
 shader using a filename rather
-
-00:08:57.756 --> 00:09:01.786 A:middle
-than initialize shader using
-string because if the shaders --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.756 --> 00:09:01.786 A:middle
 than initialize shader using
@@ -858,14 +793,6 @@ So to create a light
 in SpriteKit we introduce a
 new type called SKLightNode.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.036 --> 00:10:00.966 A:middle
-in SpriteKit we introduce a
-new type called SKLightNode.
-
 00:10:01.966 --> 00:10:05.476 A:middle
 You can add it to the scene and
 position it to anywhere you want
@@ -947,10 +874,6 @@ shadowColor to be gray...
 and now the boxes start
 casting shadows...
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.056 --> 00:11:03.686 A:middle
 and lastly if we want
 to see a little bit more
@@ -1030,14 +953,6 @@ pixel RGB value to describe
 where the normal vector for the
 surface is pointing towards,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.176 --> 00:12:00.556 A:middle
-where the normal vector for the
-surface is pointing towards,
-
 00:12:00.826 --> 00:12:03.466 A:middle
 so the lighting calculation
 can be used upon
@@ -1104,14 +1019,6 @@ supply any NormalMap.
 00:12:52.496 --> 00:12:55.706 A:middle
 So, what we do is we take
 the source texture image
-
-00:12:56.016 --> 00:13:00.286 A:middle
-and perform image analyzation
-on every single pixel,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:56.016 --> 00:13:00.286 A:middle
 and perform image analyzation
@@ -1199,14 +1106,6 @@ an infinite number of looks.
 00:13:54.326 --> 00:13:59.356 A:middle
 For example, our cobblestone I
 just have two for loops running
-
-00:13:59.356 --> 00:14:01.636 A:middle
-on these parameters
-with 1 second delay.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.356 --> 00:14:01.636 A:middle
 on these parameters
@@ -1307,13 +1206,6 @@ lights in the scene
 00:14:59.836 --> 00:15:01.536 A:middle
 and it runs reasonably fast.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.836 --> 00:15:01.536 A:middle
-and it runs reasonably fast.
-
 00:15:01.776 --> 00:15:03.866 A:middle
 But if you have -- the number
 
@@ -1387,13 +1279,6 @@ gears game, I can't.
 00:15:55.456 --> 00:15:58.486 A:middle
 The best thing I can do
 is use bounding circles
-
-00:15:58.586 --> 00:16:00.096 A:middle
-and create the bounding circles
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.586 --> 00:16:00.096 A:middle
 and create the bounding circles
@@ -1491,14 +1376,6 @@ they can be transferring
 and interlocking;
 it's really fun.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.786 --> 00:17:00.016 A:middle
-and interlocking;
-it's really fun.
-
 00:17:01.116 --> 00:17:02.506 A:middle
 So, let's look at how we do it.
 
@@ -1577,14 +1454,6 @@ as opaque or not.
 So in summary, per-pixel physics
 body is very easy to create.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:56.116 --> 00:18:02.346 A:middle
-So in summary, per-pixel physics
-body is very easy to create.
-
 00:18:02.516 --> 00:18:03.856 A:middle
 They're very accurate.
 
@@ -1643,14 +1512,6 @@ API, the constraints
 00:18:54.776 --> 00:18:58.436 A:middle
 to help you really simplify
 the game update logic.
-
-00:18:59.526 --> 00:19:02.576 A:middle
-The constraints, the motivation
-of creating constraint for us is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.526 --> 00:19:02.576 A:middle
 The constraints, the motivation
@@ -1732,14 +1593,6 @@ kicking in the constraint.
 00:19:56.976 --> 00:19:59.636 A:middle
 So constraints are not
 limited to physics anymore,
-
-00:19:59.636 --> 00:20:01.386 A:middle
-so you don't have
-to worry about "Oh,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.636 --> 00:20:01.386 A:middle
 so you don't have
@@ -1829,14 +1682,6 @@ look at a quick example
 of how the orientToNode
 constraint works.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.706 --> 00:21:02.246 A:middle
-of how the orientToNode
-constraint works.
-
 00:21:02.616 --> 00:21:04.166 A:middle
 So we just call SKConstraint
 
@@ -1899,14 +1744,6 @@ limitation on the Y axis.
 00:21:53.056 --> 00:21:56.896 A:middle
 And if you combine these two
 together you are limiting the
-
-00:21:56.896 --> 00:22:00.806 A:middle
-movement of the current
-node to a 200 by 200 box;
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:56.896 --> 00:22:00.806 A:middle
 movement of the current
@@ -1980,14 +1817,6 @@ engineering degree or people
 00:22:54.066 --> 00:22:56.706 A:middle
 who haven't written
 an animation engine.
-
-00:22:57.116 --> 00:23:01.566 A:middle
-So inverse kinematics allow
-you to use kinematics equations
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.116 --> 00:23:01.566 A:middle
 So inverse kinematics allow
@@ -2073,10 +1902,6 @@ have the claw (which is attached
 
 00:23:57.136 --> 00:23:59.216 A:middle
 as a child to the lower arm).
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.766 --> 00:24:02.236 A:middle
 So now each of these joints --
@@ -2170,14 +1995,6 @@ realistic for my shoulder.
 Probably set it to
 0.5 - or, 0 and 0.5.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.766 --> 00:25:02.976 A:middle
-Probably set it to
-0.5 - or, 0 and 0.5.
-
 00:25:04.556 --> 00:25:07.616 A:middle
 So the constraint that we set is
 called SKReachConstraint object.
@@ -2258,14 +2075,6 @@ moves it actually obeys the
 constraint and tries
 not to overbend and,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.776 --> 00:26:02.346 A:middle
-constraint and tries
-not to overbend and,
-
 00:26:02.386 --> 00:26:04.446 A:middle
 but it really give you
 that realistic look
@@ -2334,14 +2143,6 @@ of I'm building a tennis game.
 00:26:57.356 --> 00:26:59.606 A:middle
 All I now need is
 two animations.
-
-00:26:59.606 --> 00:27:01.886 A:middle
-One is the back paddle
-and forward paddle,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.606 --> 00:27:01.886 A:middle
 One is the back paddle
@@ -2423,10 +2224,6 @@ cannon launching off cannonballs
 that interact with 2 different
 radial gravity fields.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:00.296 --> 00:28:04.016 A:middle
 As you can see, as the
 cannonballs get closer
@@ -2503,14 +2300,6 @@ move that cookie planet around
 00:28:56.456 --> 00:28:58.746 A:middle
 and then the field is
 going to follow it.
-
-00:28:58.746 --> 00:29:01.336 A:middle
-And if there are physics
-bodies that's located
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.746 --> 00:29:01.336 A:middle
 And if there are physics
@@ -2594,14 +2383,6 @@ you can create a rectangle,
 circle or even create
 a region from CGPath.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.616 --> 00:30:00.986 A:middle
-circle or even create
-a region from CGPath.
-
 00:30:01.396 --> 00:30:05.306 A:middle
 You can do a lot of complicated
 operations on them like invert,
@@ -2675,14 +2456,6 @@ Earth's gravity in one dimension
 00:30:53.776 --> 00:30:56.566 A:middle
 and you can change the direction
 at any time or if you go
-
-00:30:56.566 --> 00:31:00.186 A:middle
-up it will attract the object
-at the correct location.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:56.566 --> 00:31:00.186 A:middle
 up it will attract the object
@@ -2762,14 +2535,6 @@ have charges, positive charges
 and negative charges and here
 we have an electric field
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.736 --> 00:32:04.266 A:middle
-and negative charges and here
-we have an electric field
-
 00:32:04.266 --> 00:32:06.146 A:middle
 that carries positive charges.
 
@@ -2837,14 +2602,6 @@ simply have 4 magnetic fields
 00:32:54.426 --> 00:32:57.086 A:middle
 sitting right by each
 other with opposite charge.
-
-00:32:57.476 --> 00:33:02.156 A:middle
-And, what happens if I send
-particles through the field?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:57.476 --> 00:33:02.156 A:middle
 And, what happens if I send
@@ -2924,13 +2681,6 @@ the 3D object but we'll bring
 00:33:56.836 --> 00:34:00.556 A:middle
 into the 2D background.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:56.836 --> 00:34:00.556 A:middle
-into the 2D background.
-
 00:34:01.046 --> 00:34:03.846 A:middle
 So, the integration
 brings new possibilities
@@ -2952,14 +2702,14 @@ like any other SKNode.
 00:34:14.746 --> 00:34:15.866 A:middle
 You can run action on it.
 
-00:34:15.866 --> 00:34:16.775 A:middle
+00:34:15.866 --> 00:34:16.776 A:middle
 You can run scale.
 
 00:34:17.056 --> 00:34:20.596 A:middle
 You can make it follow paths or
 even make any 3D manipulations.
 
-00:34:22.735 --> 00:34:25.666 A:middle
+00:34:22.736 --> 00:34:25.666 A:middle
 It's deeply integrated
 of the two frameworks,
 
@@ -2987,36 +2737,28 @@ not rendering to texture
 and then passing texture around
 between the two frameworks.
 
-00:34:40.746 --> 00:34:43.045 A:middle
+00:34:40.746 --> 00:34:43.046 A:middle
 This is a very efficient
 solution.
 
-00:34:43.926 --> 00:34:45.585 A:middle
+00:34:43.926 --> 00:34:45.586 A:middle
 So, to bring 3D content
 
-00:34:45.585 --> 00:34:49.226 A:middle
+00:34:45.586 --> 00:34:49.226 A:middle
 into 2D-based games
 we created SK3DNode.
 
-00:34:49.516 --> 00:34:51.235 A:middle
+00:34:49.516 --> 00:34:51.236 A:middle
 It is the toll-free
 bridge allowing you
 
-00:34:51.235 --> 00:34:54.096 A:middle
+00:34:51.236 --> 00:34:54.096 A:middle
 to incorporate any 3D content
 into SpriteKit-based games.
 
 00:34:55.036 --> 00:34:59.536 A:middle
 So, once you have SK3DNode you
 can attach any of the scnScenes
-
-00:34:59.696 --> 00:35:03.876 A:middle
-to this SK3DNode in order for
-it to render in this SKScene.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.696 --> 00:35:03.876 A:middle
 to this SK3DNode in order for
@@ -3105,14 +2847,6 @@ with a default viewport.
 Load scnScene and set the scene
 and add it to the SKScene.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.516 --> 00:36:02.526 A:middle
-Load scnScene and set the scene
-and add it to the SKScene.
-
 00:36:02.526 --> 00:36:05.506 A:middle
 Now, the 3D alien object
 is going to appear.
@@ -3193,13 +2927,6 @@ having a third perspective
 00:36:59.196 --> 00:37:00.376 A:middle
 of what a game looks like.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.196 --> 00:37:00.376 A:middle
-of what a game looks like.
-
 00:37:01.346 --> 00:37:03.786 A:middle
 Lastly, I want to
 talk about tools here.
@@ -3274,14 +3001,6 @@ manually add a spaceship,
 00:37:55.186 --> 00:37:58.166 A:middle
 set a degree at 10-10 and
 launch the game, recompile it
-
-00:37:58.166 --> 00:38:01.106 A:middle
-and launch the game and
-"I'm about five pixels off.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:58.166 --> 00:38:01.106 A:middle
 and launch the game and
@@ -3374,14 +3093,6 @@ game that's not even written
 for data-oriented programming,
 you can use the same line
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.066 --> 00:39:01.536 A:middle
-for data-oriented programming,
-you can use the same line
-
 00:39:01.536 --> 00:39:02.906 A:middle
 of code to serialize it out.
 
@@ -3468,14 +3179,6 @@ and tuning your shader uniforms.
 So, I'm going to give
 you a quick demo.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.546 --> 00:40:01.436 A:middle
-So, I'm going to give
-you a quick demo.
-
 00:40:02.346 --> 00:40:05.006 A:middle
 So, from Monday's talk, the
 "State of the Union" demo,
@@ -3556,13 +3259,6 @@ objects that're relevant
 
 00:40:56.796 --> 00:40:59.016 A:middle
 for this editing experience.
-
-00:40:59.356 --> 00:41:00.596 A:middle
-And now let's drag a light in.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.356 --> 00:41:00.596 A:middle
 And now let's drag a light in.
@@ -3655,14 +3351,6 @@ And if I move that object
 around as you can see
 the light, real light.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:59.596 --> 00:42:02.646 A:middle
-around as you can see
-the light, real light.
-
 00:42:02.646 --> 00:42:03.386 A:middle
 [ Applause ]
 
@@ -3731,13 +3419,6 @@ in it, add it to scene,
 00:42:59.046 --> 00:43:00.646 A:middle
 position equals -- none of that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.046 --> 00:43:00.646 A:middle
-position equals -- none of that.
-
 00:43:01.116 --> 00:43:02.646 A:middle
 So, this is very cool.
 
@@ -3802,14 +3483,6 @@ Maybe I need to limit to say
 00:43:50.946 --> 00:43:54.616 A:middle
 for that joint and you
 can have the same effect.
-
-00:43:56.676 --> 00:44:00.146 A:middle
-As you can see it
-actually reaches back
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:56.676 --> 00:44:00.146 A:middle
 As you can see it
@@ -3900,10 +3573,6 @@ shader source side-by-side
 00:44:58.926 --> 00:44:59.996 A:middle
 and you're ready to edit.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:00.136 --> 00:45:03.456 A:middle
 You're ready to make changes and
 monitor your whole workspace.
@@ -3973,14 +3642,6 @@ effect that I'm having here.
 
 00:45:53.296 --> 00:45:55.806 A:middle
 So, if I save that, guess what?
-
-00:45:55.806 --> 00:46:00.306 A:middle
-You have real OpenGL annotation
-error right inside of Xcode.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:55.806 --> 00:46:00.306 A:middle
 You have real OpenGL annotation
@@ -4072,10 +3733,6 @@ new update clock
 00:46:58.266 --> 00:46:59.666 A:middle
 that we have done for this year.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:01.576 --> 00:47:04.286 A:middle
 As the frame starts we
 start with update function.
@@ -4151,14 +3808,6 @@ selector for user to react
 
 00:47:57.656 --> 00:47:59.186 A:middle
 on called didFinishUpdate.
-
-00:47:59.436 --> 00:48:02.696 A:middle
-This is absolutely the last
-stop before SpriteKit packages
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:59.436 --> 00:48:02.696 A:middle
 This is absolutely the last
@@ -4248,14 +3897,6 @@ from a sphere.
 So, it supports both
 the noise generated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.996 --> 00:49:01.776 A:middle
-So, it supports both
-the noise generated
-
 00:49:01.776 --> 00:49:04.866 A:middle
 in the grayscale color,
 grayscale or the color output.
@@ -4319,14 +3960,6 @@ send it directly to physics,
 00:49:52.446 --> 00:49:54.216 A:middle
 physics will create a
 physics body for you.
-
-00:49:56.456 --> 00:50:00.606 A:middle
-We've also made creating pin
-joints much, much easier.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:56.456 --> 00:50:00.606 A:middle
 We've also made creating pin
@@ -4411,13 +4044,6 @@ physics bodies.
 00:50:59.626 --> 00:51:00.666 A:middle
 All you need to do is just,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:59.626 --> 00:51:00.666 A:middle
-All you need to do is just,
-
 00:51:00.666 --> 00:51:03.226 A:middle
 in SKPhysicsBody we'll
 add a new initializer
@@ -4493,10 +4119,6 @@ full 32-bit pixel format
 and also the compressed
 16 format.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:00.116 --> 00:52:02.866 A:middle
 Now, one of the big
 changes: we now support
@@ -4566,14 +4188,6 @@ effects like inverse kinematics,
 00:52:53.876 --> 00:52:57.776 A:middle
 physics field, per-pixel
 physics and constraints.
-
-00:52:58.706 --> 00:53:01.506 A:middle
-All of these features can
-be done using one line,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:58.706 --> 00:53:01.506 A:middle
 All of these features can
@@ -4666,13 +4280,6 @@ to use these new features
 00:53:58.906 --> 00:54:00.936 A:middle
 and set up for scalability.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:58.906 --> 00:54:00.936 A:middle
-and set up for scalability.
-
 00:54:01.386 --> 00:54:04.136 A:middle
 And as I said before,
 we worked really closely
@@ -4706,4 +4313,3 @@ rest of the -- a good week.
 
 00:54:21.516 --> 00:54:24.300 A:middle
 [ Applause ]
-

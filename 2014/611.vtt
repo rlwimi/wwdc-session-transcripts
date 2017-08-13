@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.016 --> 00:00:13.736 A:middle
 [ Applause ]
@@ -71,20 +70,13 @@ talk on game controllers?
 00:00:59.996 --> 00:01:01.216 A:middle
 Good. Large majority.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.996 --> 00:01:01.216 A:middle
-Good. Large majority.
-
 00:01:01.246 --> 00:01:02.456 A:middle
 Great. Wonderful.
 
-00:01:02.456 --> 00:01:04.245 A:middle
+00:01:02.456 --> 00:01:04.246 A:middle
 So, this is going to be fun.
 
-00:01:04.245 --> 00:01:04.965 A:middle
+00:01:04.246 --> 00:01:04.966 A:middle
 Let's get started.
 
 00:01:06.206 --> 00:01:07.766 A:middle
@@ -151,14 +143,6 @@ game controller framework.
 This is the software
 side of things,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.386 --> 00:02:01.036 A:middle
-This is the software
-side of things,
-
 00:02:01.446 --> 00:02:03.706 A:middle
 what you as game
 developers will be using
@@ -167,7 +151,7 @@ developers will be using
 to integrate game
 controllers into your games.
 
-00:02:07.246 --> 00:02:10.645 A:middle
+00:02:07.246 --> 00:02:10.646 A:middle
 This is an iOS and OS X
 cross-platform framework.
 
@@ -230,10 +214,6 @@ And by form-fitting, we mean
 00:02:57.426 --> 00:02:59.766 A:middle
 that the controller
 encases the device.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:01.436 --> 00:03:05.246 A:middle
 Therefore, the touch screen is
@@ -303,14 +283,6 @@ standalone extended controller.
 And by standalone, we mean
 the controller does not encase
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.466 --> 00:04:03.496 A:middle
-And by standalone, we mean
-the controller does not encase
-
 00:04:03.546 --> 00:04:04.166 A:middle
 the device.
 
@@ -329,11 +301,11 @@ from the controller itself.
 And again, this has the exact
 same extended control layout
 
-00:04:17.146 --> 00:04:18.505 A:middle
+00:04:17.146 --> 00:04:18.506 A:middle
 as the previous extended
 controller.
 
-00:04:19.185 --> 00:04:22.506 A:middle
+00:04:19.186 --> 00:04:22.506 A:middle
 So that's an overview.
 
 00:04:23.366 --> 00:04:26.096 A:middle
@@ -389,13 +361,6 @@ talk about what's new.
 00:04:58.166 --> 00:04:59.576 A:middle
 What have we been
 working on this past year?
-
-00:04:59.576 --> 00:05:01.226 A:middle
-What are we introducing at iOS 8
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.576 --> 00:05:01.226 A:middle
 What are we introducing at iOS 8
@@ -469,14 +434,6 @@ It's a fantastic integration.
 
 00:05:56.946 --> 00:05:57.686 A:middle
 And I think it's going
-
-00:05:57.686 --> 00:06:02.226 A:middle
-to be really instructive
-for all of us.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:57.686 --> 00:06:02.226 A:middle
 to be really instructive
@@ -560,14 +517,6 @@ and removed from the system.
 So whenever you check
 this method,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.796 --> 00:07:01.286 A:middle
-So whenever you check
-this method,
-
 00:07:02.206 --> 00:07:03.856 A:middle
 it'll return you the
 latest information
@@ -645,10 +594,6 @@ whenever a controller connects
 or disconnects is to call
 our setupControllers method.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.346 --> 00:08:02.656 A:middle
 Lastly, we're going to setup --
 
@@ -698,14 +643,14 @@ are posted,
 00:08:32.296 --> 00:08:33.686 A:middle
 which in turn will cascade down
 
-00:08:33.686 --> 00:08:35.155 A:middle
+00:08:33.686 --> 00:08:35.156 A:middle
 and call our setupControllers
 method.
 
-00:08:35.655 --> 00:08:36.666 A:middle
+00:08:35.656 --> 00:08:36.666 A:middle
 So that's the game plan.
 
-00:08:36.666 --> 00:08:38.765 A:middle
+00:08:36.666 --> 00:08:38.766 A:middle
 Let's look at the code
 for how to do that.
 
@@ -732,13 +677,6 @@ framework exists in the version
 00:08:55.906 --> 00:08:58.056 A:middle
 of the operating system that
 your game is running on.
-
-00:08:58.936 --> 00:09:00.066 A:middle
-This is important for those
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.936 --> 00:09:00.066 A:middle
 This is important for those
@@ -812,14 +750,6 @@ of wireless controllers.
 00:09:52.826 --> 00:09:58.166 A:middle
 When the completion handler
 is called, the scanning
-
-00:09:58.166 --> 00:10:00.066 A:middle
-of wireless controllers
-has stopped.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.166 --> 00:10:00.066 A:middle
 of wireless controllers
@@ -900,14 +830,6 @@ scheme for your game.
 00:10:55.696 --> 00:10:57.936 A:middle
 And your game should
 react accordingly.
-
-00:10:58.436 --> 00:11:01.606 A:middle
-So, specifically, move to
-controller-based input.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.436 --> 00:11:01.606 A:middle
 So, specifically, move to
@@ -998,14 +920,6 @@ to reconnect or return
 to regular controls if
 that's an appropriate action.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.506 --> 00:12:01.846 A:middle
-to regular controls if
-that's an appropriate action.
-
 00:12:02.676 --> 00:12:06.686 A:middle
 Now, I'd like to focus
 in on the player's intent
@@ -1080,14 +994,6 @@ in your game, gate it on whether
 00:12:55.906 --> 00:12:57.686 A:middle
 or not a controller is
 currently connected.
-
-00:12:58.136 --> 00:13:01.366 A:middle
-If it is, that is sufficient
-intent that the player wishes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.136 --> 00:13:01.366 A:middle
 If it is, that is sufficient
@@ -1194,14 +1100,6 @@ The virtual buttons went away.
 And importantly, the player
 didn't have to take any action.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.346 --> 00:14:03.536 A:middle
-And importantly, the player
-didn't have to take any action.
-
 00:14:05.086 --> 00:14:06.366 A:middle
 No dialogs were presented.
 
@@ -1264,14 +1162,6 @@ your game from the App Store,
 00:14:56.126 --> 00:14:58.686 A:middle
 they're going to have the
 expectation -- correctly so --
-
-00:14:58.686 --> 00:15:00.916 A:middle
-that they're able to play
-it regardless of whether
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.686 --> 00:15:00.916 A:middle
 that they're able to play
@@ -1350,10 +1240,6 @@ target the extendedGamepad
 00:15:58.376 --> 00:15:59.186 A:middle
 profile as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.106 --> 00:16:02.116 A:middle
 So these are properties on
 the controller instance.
@@ -1425,14 +1311,6 @@ GCControllerButtonInput.
 Similarly, D-pads
 and thumbsticks,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.626 --> 00:17:02.316 A:middle
-Similarly, D-pads
-and thumbsticks,
-
 00:17:02.726 --> 00:17:05.606 A:middle
 while being physically,
 different share the same class,
@@ -1444,14 +1322,14 @@ called GCControllerDirectionPad.
 So let's talk about those
 classes, buttons and D-pads.
 
-00:17:14.016 --> 00:17:17.215 A:middle
+00:17:14.016 --> 00:17:17.216 A:middle
 GCControllerButtonInput
 represents all the buttons
 
-00:17:17.425 --> 00:17:18.586 A:middle
+00:17:17.426 --> 00:17:18.586 A:middle
 available on the controller.
 
-00:17:19.165 --> 00:17:20.915 A:middle
+00:17:19.166 --> 00:17:20.916 A:middle
 And these can be
 read in two ways.
 
@@ -1459,7 +1337,7 @@ read in two ways.
 One is with the pressed
 property.
 
-00:17:23.866 --> 00:17:27.175 A:middle
+00:17:23.866 --> 00:17:27.176 A:middle
 And this returns the
 classic, digital version
 
@@ -1496,14 +1374,6 @@ special convention in iOS games
 
 00:17:56.116 --> 00:17:57.176 A:middle
 and GameController games.
-
-00:17:58.206 --> 00:18:00.986 A:middle
-The A button is intended
-to be your primary action.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.206 --> 00:18:00.986 A:middle
 The A button is intended
@@ -1576,14 +1446,6 @@ Down, Left and Right.
 00:18:53.026 --> 00:18:58.776 A:middle
 And the second way we treat it
 is as two axes, xAxis and yAxis.
-
-00:18:59.946 --> 00:19:02.076 A:middle
-And you'll recall that
-I said each button
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.946 --> 00:19:02.076 A:middle
 And you'll recall that
@@ -1664,14 +1526,6 @@ to controller inputs.
 And one piece of advice I can
 offer is a principle which a lot
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:56.406 --> 00:20:00.646 A:middle
-And one piece of advice I can
-offer is a principle which a lot
-
 00:20:00.646 --> 00:20:02.106 A:middle
 of games use to great effect,
 
@@ -1739,13 +1593,6 @@ dissimilar action,
 00:20:57.036 --> 00:20:59.076 A:middle
 so it might have been a little
 bit more confusing for players.
-
-00:20:59.636 --> 00:21:01.656 A:middle
-And, the D-pad's ability
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.636 --> 00:21:01.656 A:middle
 And, the D-pad's ability
@@ -1831,14 +1678,6 @@ Now also in our weapons code,
 we're going to use
 the B button's analog
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.976 --> 00:22:02.656 A:middle
-we're going to use
-the B button's analog
-
 00:22:02.656 --> 00:22:06.056 A:middle
 and digital representations for
 this portion of the game play.
@@ -1905,14 +1744,6 @@ value of 0 is pressed.
 00:22:55.466 --> 00:22:58.516 A:middle
 Lastly, we're taking
 special action
-
-00:22:58.706 --> 00:23:01.246 A:middle
-if the controller that's
-controlling our game happens
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.706 --> 00:23:01.246 A:middle
 if the controller that's
@@ -1990,14 +1821,6 @@ of the type of controller.
 So that's one way to read
 controller inputs, is polling.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:56.246 --> 00:24:01.946 A:middle
-So that's one way to read
-controller inputs, is polling.
-
 00:24:02.166 --> 00:24:04.036 A:middle
 Doing this once every
 game frame, typically.
@@ -2068,10 +1891,6 @@ In our game, we want
 to be notified whenever
 the Y button changes state
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.076 --> 00:25:01.126 A:middle
 in the digital sense.
 
@@ -2137,14 +1956,6 @@ of buttons and D-pads.
 00:25:54.546 --> 00:25:56.366 A:middle
 D-pads, while thought
 of traditionally
-
-00:25:56.366 --> 00:26:00.286 A:middle
-as a digital-only
-input, are a great way
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:56.366 --> 00:26:00.286 A:middle
 as a digital-only
@@ -2223,14 +2034,6 @@ me to use a little nuance
 00:26:51.766 --> 00:26:54.616 A:middle
 when I'm playing the game, and
 I need to use a softer touch."
-
-00:26:55.176 --> 00:27:00.646 A:middle
-And that relates to how are
-you going to be a good teacher
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:55.176 --> 00:27:00.646 A:middle
 And that relates to how are
@@ -2324,14 +2127,6 @@ the level where I need to jump.
 And again, in a similar fashion,
 they kindly and gently suggest
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.856 --> 00:28:03.086 A:middle
-And again, in a similar fashion,
-they kindly and gently suggest
-
 00:28:03.126 --> 00:28:04.336 A:middle
 that I press the A button.
 
@@ -2414,14 +2209,6 @@ into the same iCloud account.
 Since this is a new
 feature, let me walk you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.966 --> 00:29:01.166 A:middle
-Since this is a new
-feature, let me walk you
-
 00:29:01.226 --> 00:29:02.876 A:middle
 through the flow
 of what happens.
@@ -2488,14 +2275,6 @@ the controller appears
 
 00:29:56.816 --> 00:29:58.606 A:middle
 as any other in the framework.
-
-00:29:59.076 --> 00:30:00.876 A:middle
-You can read the button
-presses off of it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.076 --> 00:30:00.876 A:middle
 You can read the button
@@ -2571,13 +2350,6 @@ gravity, user acceleration,
 00:30:58.526 --> 00:31:00.836 A:middle
 attitude and rotation rate.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.526 --> 00:31:00.836 A:middle
-attitude and rotation rate.
-
 00:31:02.006 --> 00:31:04.356 A:middle
 Now these are probably very
 familiar to those of you
@@ -2648,14 +2420,6 @@ the phone is at rest on a table,
 the acceleration
 will be 0, 0, 0.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.396 --> 00:32:01.806 A:middle
-the acceleration
-will be 0, 0, 0.
-
 00:32:02.406 --> 00:32:05.536 A:middle
 We also have attitude.
 
@@ -2714,14 +2478,6 @@ draw your attention
 00:32:52.456 --> 00:32:55.066 A:middle
 to the overall structure
 of this if-else statement.
-
-00:32:55.146 --> 00:33:00.466 A:middle
-In our example, our iPad
-was running the game.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:55.146 --> 00:33:00.466 A:middle
 In our example, our iPad
@@ -2797,14 +2553,6 @@ some sort of a filter to this,
 maybe a running average of
 the last x number of frames.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.486 --> 00:34:02.336 A:middle
-maybe a running average of
-the last x number of frames.
-
 00:34:02.676 --> 00:34:05.816 A:middle
 Also new for iOS 8 is
 Idle Timer behavior.
@@ -2821,15 +2569,15 @@ off to save battery power.
 And in iOS 8, this is
 handled automatically for you.
 
-00:34:14.815 --> 00:34:18.406 A:middle
+00:34:14.816 --> 00:34:18.406 A:middle
 Playing a game with the gamepad
 will keep your screen alive.
 
-00:34:19.565 --> 00:34:23.056 A:middle
+00:34:19.566 --> 00:34:23.056 A:middle
 In iOS 7, you're going to
 want to handle this yourself.
 
-00:34:23.545 --> 00:34:25.786 A:middle
+00:34:23.546 --> 00:34:25.786 A:middle
 And if you want to do
 that, this is what you use.
 
@@ -2860,7 +2608,7 @@ apps need to do this as well.
 Moving the phone does not
 keep the screen alive.
 
-00:34:48.255 --> 00:34:52.676 A:middle
+00:34:48.256 --> 00:34:52.676 A:middle
 And so regardless of which OS
 you're on, you have to do this
 
@@ -2870,14 +2618,6 @@ in your game.
 
 00:34:57.946 --> 00:34:58.606 A:middle
 All right.
-
-00:34:58.606 --> 00:35:01.886 A:middle
-Let me talk about a
-little bit more guidance.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.606 --> 00:35:01.886 A:middle
 Let me talk about a
@@ -2965,14 +2705,6 @@ If it's unset, as denoted
 by this handy flag called
 GCControllerPlayerIndexUnset,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.476 --> 00:36:02.596 A:middle
-by this handy flag called
-GCControllerPlayerIndexUnset,
-
 00:36:02.896 --> 00:36:05.006 A:middle
 then go ahead and set
 the playerIndex to 0.
@@ -3042,14 +2774,6 @@ to let only Player
 00:36:57.156 --> 00:36:59.956 A:middle
 Also, think about what
 a disconnection means
-
-00:36:59.956 --> 00:37:01.856 A:middle
-in the context of a
-multi-player game.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.956 --> 00:37:01.856 A:middle
 in the context of a
@@ -3135,14 +2859,6 @@ on the screen.
 Now another piece
 of design guidance
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.446 --> 00:38:01.206 A:middle
-Now another piece
-of design guidance
-
 00:38:01.206 --> 00:38:02.006 A:middle
 that I'd like to give you...
 
@@ -3216,14 +2932,6 @@ game controller integration,
 00:38:55.336 --> 00:38:57.956 A:middle
 the more likely they
 are to miss-assume
-
-00:38:58.146 --> 00:39:00.086 A:middle
-that this game doesn't even
-support game controllers
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.146 --> 00:39:00.086 A:middle
 that this game doesn't even
@@ -3313,14 +3021,6 @@ likely to enter game play
 and enjoy the experience
 with the controller.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.986 --> 00:40:01.686 A:middle
-and enjoy the experience
-with the controller.
-
 00:40:02.926 --> 00:40:07.956 A:middle
 Now, another reason, if that's
 not enough, to mechanize your UI
@@ -3393,14 +3093,6 @@ of those controllers.
 I talked about what's new,
 forwarding, motion forwarding
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:57.566 --> 00:41:01.456 A:middle
-I talked about what's new,
-forwarding, motion forwarding
-
 00:41:01.926 --> 00:41:03.146 A:middle
 and the idle timer behavior.
 
@@ -3467,4 +3159,3 @@ you're going to do with this.
 
 00:41:52.016 --> 00:41:54.000 A:middle
 [ Applause ]
-

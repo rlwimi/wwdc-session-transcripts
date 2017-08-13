@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.356 --> 00:00:13.336 A:middle
 &gt;&gt; Good morning!
@@ -47,14 +46,6 @@ encounter LLVM,
 
 00:00:53.966 --> 00:00:57.136 A:middle
 but it's much more than that.
-
-00:00:57.886 --> 00:01:03.266 A:middle
-LLVM is used in a wide
-variety of products and tools
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.886 --> 00:01:03.266 A:middle
 LLVM is used in a wide
@@ -110,22 +101,14 @@ of you to use this technology
 in your apps, so
 building for 64-bit
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.546 --> 00:02:03.396 A:middle
-in your apps, so
-building for 64-bit
-
 00:02:03.676 --> 00:02:05.546 A:middle
 in iOS is now the default.
 
-00:02:05.626 --> 00:02:09.515 A:middle
+00:02:05.626 --> 00:02:09.516 A:middle
 As of Xcode 5.1 carrying
 on into Xcode 6,
 
-00:02:10.235 --> 00:02:11.546 A:middle
+00:02:10.236 --> 00:02:11.546 A:middle
 when you rebuild your app,
 
 00:02:12.486 --> 00:02:14.146 A:middle
@@ -182,16 +165,8 @@ or a few files there,
 but the whole app.
 
 00:02:57.746 --> 00:03:00.586 A:middle
-So, if you're relying
-on third-party libraries
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:57.746 --> 00:03:00.586 A:middle
-So, if you're relying
-on third-party libraries
+So, if you're relying on
+third-party libraries,
 
 00:03:01.286 --> 00:03:05.416 A:middle
 and those libraries have
@@ -228,8 +203,8 @@ that we've tightened
 up in the specification
 
 00:03:31.806 --> 00:03:35.406 A:middle
-and what the possible
-impact of that tier app is.
+and what the possible impact
+of that to your app is.
 
 00:03:35.956 --> 00:03:42.556 A:middle
 To start with, in 64-bit iOS all
@@ -254,14 +229,6 @@ using a prototype is deprecated
 and has been for a
 very long time now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.306 --> 00:04:01.976 A:middle
-and has been for a
-very long time now.
-
 00:04:03.206 --> 00:04:06.546 A:middle
 So, we've taken advantage
 of this in ARM64
@@ -281,11 +248,11 @@ that the number of arguments
 to the function varies
 by call site.
 
-00:04:18.995 --> 00:04:21.805 A:middle
+00:04:18.996 --> 00:04:21.806 A:middle
 So, when you have older
 code that you're using
 
-00:04:21.805 --> 00:04:23.356 A:middle
+00:04:21.806 --> 00:04:23.356 A:middle
 that may not use prototypes,
 
 00:04:24.176 --> 00:04:27.496 A:middle
@@ -324,12 +291,8 @@ To help find this, we
 have a new Xcode setting
 
 00:04:55.536 --> 00:04:58.896 A:middle
-to enable strict checking
-of objc underscore msgSend.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+to enable strict
+checking of objc-msgSend.
 
 00:05:00.366 --> 00:05:01.706 A:middle
 This is a recommended setting
@@ -349,12 +312,9 @@ to adopt this setting.
 And what's tricky is
 that every indication
 
-00:05:12.926 --> 00:05:15.816 A:middle
-of objc underscore
-msgSend effectively has a
-
-00:05:15.816 --> 00:05:16.636 A:middle
-different type.
+00:05:12.926 --> 00:05:16.636 A:middle
+of objc-msgSend effectively
+has a different type.
 
 00:05:17.466 --> 00:05:22.196 A:middle
 It has the type of what the
@@ -408,14 +368,6 @@ the final receiving type
 of the method is so that it
 can generate the right code
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:57.646 --> 00:06:01.046 A:middle
-of the method is so that it
-can generate the right code
-
 00:06:01.296 --> 00:06:02.926 A:middle
 to get the final result correct.
 
@@ -432,8 +384,8 @@ and ARM64 is the
 Objective-C Boolean type.
 
 00:06:14.276 --> 00:06:17.776 A:middle
-If any of you were at <i>Stump
-the Experts </i>last night,
+If any of you were at Stump
+the Experts last night,
 
 00:06:17.776 --> 00:06:19.916 A:middle
 this topic actually
@@ -483,14 +435,6 @@ and 64-bit iOS may differ.
 00:06:56.046 --> 00:06:59.066 A:middle
 So, if you start seeing some
 odd behaviors with Booleans,
-
-00:06:59.366 --> 00:07:03.326 A:middle
-this is something
-to look out for.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.366 --> 00:07:03.326 A:middle
 this is something
@@ -555,20 +499,13 @@ casting an integer which came
 00:07:48.946 --> 00:07:50.106 A:middle
 from a pointer somewhere else.
 
-00:07:50.106 --> 00:07:51.816 A:middle
-We're casting that to a void.
+00:07:50.106 --> 00:07:52.156 A:middle
+We're casting that
+to a void (star).
 
-00:07:51.816 --> 00:07:55.186 A:middle
+00:07:52.156 --> 00:07:55.186 A:middle
 But now the compiler
 can help a little bit.
-
-00:07:55.186 --> 00:08:00.196 A:middle
-It can at least inform us
-that the problem is coming up
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:55.186 --> 00:08:00.196 A:middle
 It can at least inform us
@@ -597,12 +534,12 @@ to be a little bit more
 forceful about this.
 
 00:08:15.606 --> 00:08:19.116 A:middle
-If we dereference that pointer
+If we dereference that pointer,
 we're going to get a hard fault
 
 00:08:19.916 --> 00:08:22.936 A:middle
 because the page zero is
-mapped to always give a fault
+mapped to always give a fault,
 
 00:08:22.936 --> 00:08:26.236 A:middle
 so if we miss any of these
@@ -619,7 +556,7 @@ to the compiler,
 it's going to be a lot
 friendlier because it'll be nice
 
-00:08:32.106 --> 00:08:34.515 A:middle
+00:08:32.106 --> 00:08:34.516 A:middle
 and friendly and tell you the
 line number and the source file
 
@@ -631,7 +568,7 @@ The kernel's just going to
 tell you you did something bad.
 
 00:08:39.246 --> 00:08:43.666 A:middle
-To address this we use
+To address this, we use
 the C language typedefs
 
 00:08:44.456 --> 00:08:46.776 A:middle
@@ -651,14 +588,6 @@ or for indexing into an array
 00:08:55.746 --> 00:08:58.466 A:middle
 for comparing the differences
 between two pointers.
-
-00:08:59.446 --> 00:09:02.026 A:middle
-For example, if we would
-modify our previous code
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.446 --> 00:09:02.026 A:middle
 For example, if we would
@@ -734,14 +663,6 @@ can go badly.
 So again, on any of those
 data structures we want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.056 --> 00:10:01.086 A:middle
-So again, on any of those
-data structures we want
-
 00:10:01.086 --> 00:10:07.496 A:middle
 to use the C fixed type,
 fixed size types to make sure
@@ -804,14 +725,6 @@ comes on the WWDC app.
 00:10:53.566 --> 00:10:59.776 A:middle
 And, whenever we write new
 code, we've been using all
-
-00:10:59.776 --> 00:11:02.046 A:middle
-of these advancements
-in the language
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.776 --> 00:11:02.046 A:middle
 of these advancements
@@ -889,13 +802,6 @@ missed for opportunities
 00:11:59.496 --> 00:12:01.516 A:middle
 to use new Objective-C features.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.496 --> 00:12:01.516 A:middle
-to use new Objective-C features.
-
 00:12:02.396 --> 00:12:04.786 A:middle
 So, let's look and
 see what a few
@@ -932,7 +838,7 @@ at the WWDC app, itself.
 
 00:12:27.476 --> 00:12:32.406 A:middle
 In the previous versions of
-Xcode the modernizer would go
+Xcode, the modernizer would go
 
 00:12:32.466 --> 00:12:33.716 A:middle
 through and just look
@@ -970,14 +876,6 @@ strongly typed.
 00:12:54.616 --> 00:12:58.596 A:middle
 I'm going to try and find if we
 missed any read/write properties
-
-00:12:58.596 --> 00:13:01.726 A:middle
-where we convert explicit
-getter/setter methods.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.596 --> 00:13:01.726 A:middle
 where we convert explicit
@@ -1062,14 +960,6 @@ right now.
 So, I tell the modernizer
 to discard that change.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.416 --> 00:14:00.546 A:middle
-So, I tell the modernizer
-to discard that change.
-
 00:14:00.996 --> 00:14:03.396 A:middle
 It wants to make sure
 that I'm doing that.
@@ -1139,13 +1029,6 @@ for interoperability.
 00:14:55.136 --> 00:14:58.886 A:middle
 And, to tell you more about that
 I'd like to invite my friend
-
-00:14:58.886 --> 00:15:00.036 A:middle
-and coworker, Bob Wilson.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.886 --> 00:15:00.036 A:middle
 and coworker, Bob Wilson.
@@ -1224,14 +1107,6 @@ that is that the meaning
 of the header can change
 depending on the environment
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.346 --> 00:16:01.956 A:middle
-of the header can change
-depending on the environment
-
 00:16:02.236 --> 00:16:05.246 A:middle
 where it's imported, and let me
 show you that with an example.
@@ -1301,12 +1176,8 @@ only been available
 00:16:58.516 --> 00:16:59.776 A:middle
 for the system frameworks.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:00.486 --> 00:17:04.286 A:middle
-The new in Xcode 6, you
+00:17:01.106 --> 00:17:04.286 A:middle
+New in Xcode 6, you
 can now define modules
 
 00:17:04.476 --> 00:17:07.906 A:middle
@@ -1332,11 +1203,11 @@ there's another session
 on integrating SWF with
 Objective-C that I encourage you
 
-00:17:22.336 --> 00:17:24.425 A:middle
+00:17:22.336 --> 00:17:24.426 A:middle
 to watch the video to
 learn more about that.
 
-00:17:25.675 --> 00:17:27.556 A:middle
+00:17:25.676 --> 00:17:27.556 A:middle
 So if you want to do this, how?
 
 00:17:28.806 --> 00:17:29.986 A:middle
@@ -1379,10 +1250,6 @@ It really is very easy.
 00:17:57.796 --> 00:17:59.896 A:middle
 Now, if you have a more
 complicated framework
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.116 --> 00:18:03.516 A:middle
 where that single umbrella
@@ -1451,14 +1318,6 @@ it makes it clear in the source
 00:18:53.116 --> 00:18:56.326 A:middle
 that you really intend for
 this to be a modular import.
-
-00:18:57.646 --> 00:19:00.466 A:middle
-One exception to that is
-within the implementation
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:57.646 --> 00:19:00.466 A:middle
 One exception to that is
@@ -1545,14 +1404,6 @@ where I've defined a macro,
 DEBUG, as a flag to enable
 additional debugging APIs
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.336 --> 00:20:03.226 A:middle
-DEBUG, as a flag to enable
-additional debugging APIs
-
 00:20:03.896 --> 00:20:04.726 A:middle
 in my framework.
 
@@ -1623,14 +1474,6 @@ and look at performance,
 00:20:53.446 --> 00:20:55.566 A:middle
 which is the other theme
 of this presentation.
-
-00:20:56.846 --> 00:21:02.766 A:middle
-Profile Guided Optimization, or
-PGO, is a new feature in Xcode 6
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:56.846 --> 00:21:02.766 A:middle
 Profile Guided Optimization, or
@@ -1711,14 +1554,6 @@ of optimization.
 And, what I mean
 by a profile, here,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.216 --> 00:22:01.036 A:middle
-And, what I mean
-by a profile, here,
-
 00:22:01.226 --> 00:22:03.876 A:middle
 is simply a count how
 many times each statement
@@ -1743,8 +1578,8 @@ instrumented app
 that as it runs is going
 
 00:22:19.316 --> 00:22:22.276 A:middle
-to count how many times each
-statement will executes.
+to count how many times
+each statement executes.
 
 00:22:22.606 --> 00:22:24.146 A:middle
 And then, when your app finishes
@@ -1797,10 +1632,6 @@ the code we can try
 00:22:57.016 --> 00:22:59.696 A:middle
 to layout the common
 paths through your code
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.126 --> 00:23:02.246 A:middle
 so that they're contiguous,
@@ -1890,14 +1721,6 @@ be able to know
 that red objects
 are far more common.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.856 --> 00:24:02.796 A:middle
-that red objects
-are far more common.
-
 00:24:03.326 --> 00:24:05.906 A:middle
 And so, I'm highlighting
 in red here the hot code,
@@ -1966,10 +1789,6 @@ Position function is big
 00:24:57.046 --> 00:24:59.916 A:middle
 because of all that cold code
 for handling the blue objects
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.876 --> 00:25:02.646 A:middle
 and so it wouldn't
@@ -2043,10 +1862,6 @@ feel of the power of PGO
 and just how much it
 can help the optimizer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.056 --> 00:26:01.606 A:middle
 So, you may want to use it.
 
@@ -2062,7 +1877,7 @@ With PGO, if you do just
 a little bit of extra work
 
 00:26:11.856 --> 00:26:15.146 A:middle
-to gather the profile
+to gather the profile,
 you can do even better.
 
 00:26:15.826 --> 00:26:17.666 A:middle
@@ -2128,10 +1943,6 @@ speedups ranging
 00:26:56.736 --> 00:26:59.456 A:middle
 from about 4% all
 the way up to 18%.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.786 --> 00:27:02.806 A:middle
 So, not all apps will
@@ -2222,14 +2033,6 @@ will give you a warning.
 So, if you see warnings
 like this,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.966 --> 00:28:01.636 A:middle
-So, if you see warnings
-like this,
-
 00:28:01.636 --> 00:28:04.866 A:middle
 saying that your profile may
 be out of date, as you see more
@@ -2302,14 +2105,6 @@ on the other levels.
 00:28:54.356 --> 00:28:57.166 A:middle
 Now, you may be wondering, "If
 I've written a really hard game,
-
-00:28:57.936 --> 00:29:00.746 A:middle
-it may take a while to play
-the whole thing to completion."
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.936 --> 00:29:00.746 A:middle
 it may take a while to play
@@ -2394,10 +2189,6 @@ the compiler's going to end
 up optimizing more heavily
 for that first level.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.656 --> 00:30:03.416 A:middle
 Another benefit of using tests
 is it gives you a great way
@@ -2469,13 +2260,6 @@ has competing urges.
 00:30:57.136 --> 00:30:59.446 A:middle
 On the one hand, it
 wants to move closer
-
-00:30:59.446 --> 00:31:00.696 A:middle
-to the center of the flock.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.446 --> 00:31:00.696 A:middle
 to the center of the flock.
@@ -2552,14 +2336,6 @@ All right.
 And now, because I haven't run
 the test before I don't have a
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.086 --> 00:32:00.486 A:middle
-And now, because I haven't run
-the test before I don't have a
-
 00:32:00.536 --> 00:32:02.086 A:middle
 baseline, so let's go ahead
 
@@ -2627,14 +2403,6 @@ here, an error.
 00:32:55.436 --> 00:32:57.586 A:middle
 Let me just explain
 what's happened here is
-
-00:32:57.616 --> 00:33:00.016 A:middle
-that because we've
-run the app with a lot
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:57.616 --> 00:33:00.016 A:middle
 that because we've
@@ -2716,26 +2484,18 @@ out of your code.
 Continuing on this
 theme of performance,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.136 --> 00:34:01.186 A:middle
-Continuing on this
-theme of performance,
-
 00:34:01.266 --> 00:34:04.736 A:middle
 I'd like to turn the stage over
 to Nadav Rotem, my colleague,
 
 00:34:04.736 --> 00:34:08.936 A:middle
 to talk about advances
-in vectorization
+in vectorization.
 
 00:34:09.536 --> 00:34:09.966 A:middle
 &gt;&gt; Thank you, Bob.
 
-00:34:10.565 --> 00:34:10.735 A:middle
+00:34:10.566 --> 00:34:10.736 A:middle
 Hi.
 
 00:34:11.516 --> 00:34:16.476 A:middle
@@ -2748,19 +2508,19 @@ introduced a new optimization
 00:34:22.186 --> 00:34:23.856 A:middle
 called loop vectorization.
 
-00:34:24.156 --> 00:34:28.485 A:middle
+00:34:24.156 --> 00:34:28.486 A:middle
 And, I would like to remind
 you what loop vectorization is.
 
-00:34:29.085 --> 00:34:33.186 A:middle
+00:34:29.086 --> 00:34:33.186 A:middle
 So, modern processors
 have vector instructions.
 
-00:34:33.616 --> 00:34:37.025 A:middle
+00:34:33.616 --> 00:34:37.026 A:middle
 These instructions can process
 multiple scalars at once.
 
-00:34:37.505 --> 00:34:40.406 A:middle
+00:34:37.506 --> 00:34:40.406 A:middle
 And loop vectorization is
 the compiler optimization
 
@@ -2768,10 +2528,10 @@ the compiler optimization
 that accelerates loops using
 these vector instructions.
 
-00:34:44.866 --> 00:34:45.735 A:middle
+00:34:44.866 --> 00:34:45.736 A:middle
 And let's see how it's done.
 
-00:34:46.295 --> 00:34:48.266 A:middle
+00:34:46.296 --> 00:34:48.266 A:middle
 If you can see the code
 on the screen here,
 
@@ -2783,20 +2543,12 @@ a simple program
 that accumulates all
 the numbers in the array
 
-00:34:53.025 --> 00:34:54.436 A:middle
+00:34:53.026 --> 00:34:54.436 A:middle
 into one variable, into sum.
 
 00:34:54.496 --> 00:34:59.016 A:middle
 And, the natural way of
 executing this code is
-
-00:34:59.016 --> 00:35:02.366 A:middle
-to load one number at a time and
-save it into the variable sum.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.016 --> 00:35:02.366 A:middle
 to load one number at a time and
@@ -2883,14 +2635,6 @@ of ways, where first of all,
 we've improved the analysis
 of complicated loops.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.006 --> 00:36:01.126 A:middle
-we've improved the analysis
-of complicated loops.
-
 00:36:01.716 --> 00:36:03.976 A:middle
 This means that the
 LLVM will be able
@@ -2961,14 +2705,6 @@ that I want to talk to you
 00:36:51.576 --> 00:36:54.156 A:middle
 about is specialization
 of loop variables.
-
-00:36:56.896 --> 00:37:02.946 A:middle
-So, most variables in your
-code are only known at runtime.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:56.896 --> 00:37:02.946 A:middle
 So, most variables in your
@@ -3046,10 +2782,6 @@ Step is equal to one.
 00:37:56.586 --> 00:37:59.236 A:middle
 Well, in many cases
 Step is equal to one.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.236 --> 00:38:01.046 A:middle
 So, what do we do?
@@ -3129,10 +2861,6 @@ a new kind of vectorization.
 00:38:56.816 --> 00:38:59.916 A:middle
 This is -- this new vectorizer
 is not a loop vectorizer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:00.206 --> 00:39:03.156 A:middle
 It's called SLP Vectorizer,
@@ -3215,14 +2943,6 @@ better way of doing it,
 and this is what the
 SLP Vectorizer does.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.866 --> 00:40:01.956 A:middle
-and this is what the
-SLP Vectorizer does.
-
 00:40:02.486 --> 00:40:05.316 A:middle
 We can load x and y together
 because they're consecutive
@@ -3234,16 +2954,18 @@ them together again,
 00:40:09.026 --> 00:40:10.316 A:middle
 and save them back to memory.
 
-00:40:10.316 --> 00:40:19.046 A:middle
-And, this is SLP vectorization
+00:40:10.316 --> 00:40:13.366 A:middle
+And, this is SLP vectorization.
+
+00:40:15.996 --> 00:40:20.766 A:middle
 SLP vectorization is very
+beneficial for some kinds
 
-00:40:19.046 --> 00:40:21.376 A:middle
-beneficial for some
-kinds of application,
+00:40:20.766 --> 00:40:23.296 A:middle
+of applications, mainly
+numeric applications,
 
-00:40:21.786 --> 00:40:24.906 A:middle
-mainly numeric applications,
+00:40:23.296 --> 00:40:24.906 A:middle
 and we see great speedups.
 
 00:40:25.186 --> 00:40:27.386 A:middle
@@ -3271,7 +2993,7 @@ SLP vectorization.
 
 00:40:46.866 --> 00:40:49.676 A:middle
 Now in Xcode 5, when we
-introduced the Loop Vectorizer
+introduced the Loop Vectorizer,
 
 00:40:49.916 --> 00:40:52.646 A:middle
 we did not enable it by default
@@ -3288,14 +3010,6 @@ worked.
 00:40:56.596 --> 00:40:59.426 A:middle
 Well, in Xcode 6 you
 don't have to do anything
-
-00:40:59.426 --> 00:41:02.136 A:middle
-because both the
-new SLP Vectorizer
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.426 --> 00:41:02.136 A:middle
 because both the
@@ -3365,14 +3079,6 @@ Safari Web Browser.
 00:41:55.166 --> 00:41:57.646 A:middle
 And, WebKit needs to
 execute JavaScript code
-
-00:41:58.046 --> 00:42:00.326 A:middle
-because JavaScript is
-everywhere in every web page.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:58.046 --> 00:42:00.326 A:middle
 because JavaScript is
@@ -3452,13 +3158,6 @@ the quality of the code.
 00:42:57.186 --> 00:43:00.256 A:middle
 And this works really great,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:57.186 --> 00:43:00.256 A:middle
-And this works really great,
-
 00:43:01.136 --> 00:43:03.096 A:middle
 except that JavaScript
 is evolving.
@@ -3529,14 +3228,6 @@ code quality.
 And again, there's a
 tradeoff between compiled time
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.746 --> 00:44:03.106 A:middle
-And again, there's a
-tradeoff between compiled time
-
 00:44:03.386 --> 00:44:06.286 A:middle
 and the quality of the code,
 so WebKit really waits for you
@@ -3602,14 +3293,6 @@ with the interpreter,
 00:44:50.526 --> 00:44:56.636 A:middle
 so it knows that in the last
 1000 times n was an integer.
-
-00:44:57.006 --> 00:45:00.016 A:middle
-So now, we can compile this code
-assuming that n is an integer,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:57.006 --> 00:45:00.016 A:middle
 So now, we can compile this code
@@ -3707,14 +3390,6 @@ techniques that is used
 to migrate the state of the
 program from the JITed code
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:57.856 --> 00:46:01.856 A:middle
-to migrate the state of the
-program from the JITed code
-
 00:46:01.856 --> 00:46:03.886 A:middle
 in LLVM back to WebKit.
 
@@ -3776,14 +3451,6 @@ as a fourth tier compiler
 in Safari, both for X86
 and ARM64 on iOS and OS X,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:53.966 --> 00:47:00.006 A:middle
-in Safari, both for X86
-and ARM64 on iOS and OS X,
-
 00:47:00.006 --> 00:47:02.306 A:middle
 and we get excellent
 performance speedups.
@@ -3805,7 +3472,7 @@ If you have any more questions,
 
 00:47:12.326 --> 00:47:15.966 A:middle
 you can contact our Developer
-Tools Evangelist, Dave DeLong
+Tools Evangelist, Dave DeLong,
 
 00:47:16.156 --> 00:47:19.276 A:middle
 or you can go to the Apple
@@ -3828,4 +3495,3 @@ Bye-bye.
 
 00:47:33.016 --> 00:47:35.000 A:middle
 [ Applause ]
-

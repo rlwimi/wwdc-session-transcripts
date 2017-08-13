@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.231 --> 00:00:14.231 A:middle
 [ Applause ]
@@ -47,14 +46,6 @@ who's responsible
 00:00:51.996 --> 00:00:55.066 A:middle
 for animating your view
 controller's content on-screen.
-
-00:00:56.086 --> 00:01:00.156 A:middle
-However, if you wanted to build
-a totally custom view controller
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:56.086 --> 00:01:00.156 A:middle
 However, if you wanted to build
@@ -131,14 +122,6 @@ can use UIPresentationController
 
 00:01:55.916 --> 00:01:57.196 A:middle
 in your apps.
-
-00:01:57.936 --> 00:02:00.756 A:middle
-&gt;&gt; First, let's start with
-some presentation basics.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:57.936 --> 00:02:00.756 A:middle
 &gt;&gt; First, let's start with
@@ -231,14 +214,6 @@ your application.
 All UI view controller
 presentations
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:58.006 --> 00:03:00.396 A:middle
-All UI view controller
-presentations
-
 00:03:00.396 --> 00:03:03.716 A:middle
 in iOS 8 are backed by
 UIPresentationController.
@@ -319,14 +294,6 @@ objects are not coupled
 to animator objects or
 transitioning delegates.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.366 --> 00:04:01.926 A:middle
-to animator objects or
-transitioning delegates.
-
 00:04:02.336 --> 00:04:04.386 A:middle
 You can use the same
 Presentation Controller
@@ -346,7 +313,7 @@ to create a truly custom look.
 &gt;&gt; Prior to iOS 8, the animator
 object, as Peter mentioned,
 
-00:04:18.555 --> 00:04:20.636 A:middle
+00:04:18.556 --> 00:04:20.636 A:middle
 was kind of overburdened
 with some tasks
 
@@ -406,14 +373,6 @@ the chrome, as well.
 00:04:55.356 --> 00:04:59.466 A:middle
 That animator object also needed
 to know, the entire layout --
-
-00:04:59.496 --> 00:05:02.586 A:middle
-what the presentation
-was going to encompass.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.496 --> 00:05:02.586 A:middle
 what the presentation
@@ -510,14 +469,6 @@ talk yesterday,
 we're introducing a new
 UIPresentationController class
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.246 --> 00:06:02.246 A:middle
-we're introducing a new
-UIPresentationController class
-
 00:06:02.636 --> 00:06:05.356 A:middle
 to help manage popover
 presentations in your app.
@@ -589,14 +540,6 @@ and many of you do --
 00:06:54.566 --> 00:06:56.866 A:middle
 you actually had to
 have two code paths.
-
-00:06:57.556 --> 00:07:00.566 A:middle
-We check for it on an iPad
-and make a popover controller.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.556 --> 00:07:00.566 A:middle
 We check for it on an iPad
@@ -694,13 +637,6 @@ provides the opportunity
 00:07:59.196 --> 00:08:00.936 A:middle
 for your presentation to adapt.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.196 --> 00:08:00.936 A:middle
-for your presentation to adapt.
-
 00:08:01.366 --> 00:08:03.346 A:middle
 Jim, can we take a look
 at adaptive popovers?
@@ -747,7 +683,7 @@ you present as a popover,
 you will get an adaptation to
 an over-fullscreen presentation.
 
-00:08:33.535 --> 00:08:36.326 A:middle
+00:08:33.536 --> 00:08:36.326 A:middle
 So we'll change the
 width to 320,
 
@@ -759,7 +695,7 @@ to compact, and we'll apply it.
 And then, now you see
 that we actually have --
 
-00:08:43.275 --> 00:08:46.026 A:middle
+00:08:43.276 --> 00:08:46.026 A:middle
 the same table view has been
 re-presented, but now it's
 
@@ -781,13 +717,6 @@ re-presenting
 00:08:56.116 --> 00:08:59.686 A:middle
 as an over-fullscreen
 presentation, we are --
-
-00:08:59.806 --> 00:09:00.906 A:middle
-the code has never changed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.806 --> 00:09:00.906 A:middle
 the code has never changed.
@@ -864,13 +793,6 @@ of adaptivity, but for here,
 00:09:56.066 --> 00:09:57.826 A:middle
 we want to do a FullScreen
 adaptation.
-
-00:09:59.306 --> 00:10:00.476 A:middle
-The second method that we want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.306 --> 00:10:00.476 A:middle
 The second method that we want
@@ -970,14 +892,6 @@ alerts and action sheets.
 Prior to iOS 8, alerts and
 action sheets were exposed
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.666 --> 00:11:02.016 A:middle
-Prior to iOS 8, alerts and
-action sheets were exposed
-
 00:11:02.016 --> 00:11:05.816 A:middle
 to your application through
 plain UI view subclasses:
@@ -1050,14 +964,6 @@ technically still in portrait.
 00:11:54.626 --> 00:11:56.566 A:middle
 We then add the action
 sheet to that window
-
-00:11:56.566 --> 00:12:00.186 A:middle
-and mimic the transform
-hierarchy of the presenting view
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:56.566 --> 00:12:00.186 A:middle
 and mimic the transform
@@ -1142,14 +1048,6 @@ that Jim showed you earlier,
 action sheets will
 seamlessly adapt to popovers,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.836 --> 00:13:02.446 A:middle
-action sheets will
-seamlessly adapt to popovers,
-
 00:13:02.616 --> 00:13:04.456 A:middle
 using
 popoverPresentationController.
@@ -1217,14 +1115,6 @@ more of a suggestion
 00:13:56.626 --> 00:13:58.296 A:middle
 than the requirement
 that they are now.
-
-00:13:58.926 --> 00:14:00.646 A:middle
-There was far less
-translucency --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.926 --> 00:14:00.646 A:middle
 There was far less
@@ -1321,14 +1211,6 @@ intent when displaying.
 And this left it to
 have to actually guess,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.706 --> 00:15:01.686 A:middle
-And this left it to
-have to actually guess,
-
 00:15:01.686 --> 00:15:05.226 A:middle
 in some situations, and it
 didn't always get it right.
@@ -1418,14 +1300,6 @@ had its own container.
 So it kind of made sense
 to rebase this all on top
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.966 --> 00:16:01.586 A:middle
-So it kind of made sense
-to rebase this all on top
-
 00:16:01.586 --> 00:16:03.276 A:middle
 of UIPresentationController.
 
@@ -1510,39 +1384,31 @@ in how search is display
 in your applications and
 far fewer assumptions made
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.066 --> 00:17:01.896 A:middle
-in your applications and
-far fewer assumptions made
-
 00:17:01.896 --> 00:17:03.326 A:middle
 by the framework
 when you're doing so.
 
-00:17:04.165 --> 00:17:07.955 A:middle
+00:17:04.166 --> 00:17:07.956 A:middle
 So taking a look at how we
 used to do this before iOS 8,
 
-00:17:08.616 --> 00:17:10.945 A:middle
+00:17:08.616 --> 00:17:10.946 A:middle
 we would create a search bar,
 and we'd give that search bar
 
-00:17:10.945 --> 00:17:13.496 A:middle
+00:17:10.946 --> 00:17:13.496 A:middle
 to SearchDisplayController,
 but then we'd have
 
-00:17:13.496 --> 00:17:15.425 A:middle
+00:17:13.496 --> 00:17:15.426 A:middle
 to tell the SearchController
 who the data source
 
-00:17:15.425 --> 00:17:17.415 A:middle
+00:17:15.426 --> 00:17:17.416 A:middle
 and the delegate were
 for the table view
 
-00:17:17.415 --> 00:17:18.546 A:middle
+00:17:17.416 --> 00:17:18.546 A:middle
 that was going to
 show the results.
 
@@ -1550,7 +1416,7 @@ show the results.
 And then finally, we
 would make the search bar,
 
-00:17:22.026 --> 00:17:26.955 A:middle
+00:17:22.026 --> 00:17:26.956 A:middle
 the table header view of a table
 view that was already on-screen.
 
@@ -1605,13 +1471,6 @@ object in your application.
 00:17:55.856 --> 00:17:59.366 A:middle
 Next, this is the
 one common code lying
-
-00:17:59.366 --> 00:18:00.486 A:middle
-between the old world, is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.366 --> 00:18:00.486 A:middle
 between the old world, is
@@ -1705,14 +1564,6 @@ is trying really hard
 to play nicely with your
 layout, it needs to know exactly
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.806 --> 00:19:02.346 A:middle
-to play nicely with your
-layout, it needs to know exactly
-
 00:19:02.346 --> 00:19:04.076 A:middle
 where it is going
 to be displayed at.
@@ -1795,14 +1646,6 @@ for the SearchController.
 
 00:19:58.016 --> 00:19:59.396 A:middle
 If you were to omit this,
-
-00:19:59.806 --> 00:20:02.816 A:middle
-View Controller Presentation
-behavior says that we will walk
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.806 --> 00:20:02.816 A:middle
 View Controller Presentation
@@ -1907,10 +1750,6 @@ UIPresentationController
 provides an excellent
 abstraction between the content
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.156 --> 00:21:02.776 A:middle
 of your presentation and
 the chrome around it,
@@ -1993,13 +1832,6 @@ and editing application.
 00:21:59.216 --> 00:22:00.766 A:middle
 Here we have a collection view.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.216 --> 00:22:00.766 A:middle
-Here we have a collection view.
-
 00:22:00.936 --> 00:22:03.086 A:middle
 And when I tap a photo,
 
@@ -2075,14 +1907,6 @@ and text as a legend,
 so that you know what controller
 or object we're talking about.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.056 --> 00:23:02.216 A:middle
-so that you know what controller
-or object we're talking about.
-
 00:23:03.336 --> 00:23:04.456 A:middle
 In the root view controller,
 
@@ -2153,14 +1977,6 @@ have a root view controller
 00:23:55.736 --> 00:23:57.886 A:middle
 and our presented
 overlay view controller.
-
-00:23:58.946 --> 00:24:01.536 A:middle
-In iOS 7, we introduced
-the concept
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.946 --> 00:24:01.536 A:middle
 In iOS 7, we introduced
@@ -2246,14 +2062,6 @@ ModalPresentationStyle
 
 00:24:55.106 --> 00:24:56.256 A:middle
 to Custom.
-
-00:24:56.756 --> 00:25:00.106 A:middle
-This indicates to UIKit
-that we should consult your
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:56.756 --> 00:25:00.106 A:middle
 This indicates to UIKit
@@ -2349,10 +2157,6 @@ fully transparent
 at the beginning
 of the animation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.626 --> 00:26:02.776 A:middle
 We'll make sure we
 insert the dimmingView
@@ -2427,14 +2231,6 @@ transition will begin.
 00:26:54.966 --> 00:26:58.096 A:middle
 In this case, we'll use the
 same transitionCoordinator API
-
-00:26:58.806 --> 00:27:01.646 A:middle
-to animate fading the
-dimming view to a 0 alpha.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.806 --> 00:27:01.646 A:middle
 to animate fading the
@@ -2519,14 +2315,6 @@ Now, as you saw in the demo,
 that overlay side bar was a
 third the size of the display.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:57.676 --> 00:28:01.416 A:middle
-that overlay side bar was a
-third the size of the display.
-
 00:28:02.546 --> 00:28:03.646 A:middle
 To size it appropriately,
 
@@ -2600,14 +2388,6 @@ Perfect. The overlay is a third
 00:28:56.976 --> 00:28:58.646 A:middle
 of the display and
 right-aligned.
-
-00:28:58.646 --> 00:29:02.446 A:middle
-But what we also want is when
-we rotate into landscape,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.646 --> 00:29:02.446 A:middle
 But what we also want is when
@@ -2703,14 +2483,6 @@ And it's a collection of methods
 that describe how
 the view controller
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.746 --> 00:30:01.786 A:middle
-that describe how
-the view controller
-
 00:30:01.786 --> 00:30:04.136 A:middle
 and Presentation Controllers
 communicate changes
@@ -2798,10 +2570,6 @@ present a view controller.
 00:30:57.786 --> 00:30:59.336 A:middle
 It doesn't really matter
 what it actually is.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.146 --> 00:31:02.996 A:middle
 And as Peter has mentioned
@@ -2903,14 +2671,6 @@ presented on top of them --
 will have their Presentation
 Controller called next.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.346 --> 00:32:01.786 A:middle
-will have their Presentation
-Controller called next.
-
 00:32:02.696 --> 00:32:04.186 A:middle
 In this case, the root
 view controllers --
@@ -3005,14 +2765,6 @@ is performed for you.
 But if you implement these
 methods and don't call super,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:57.376 --> 00:33:00.386 A:middle
-But if you implement these
-methods and don't call super,
-
 00:33:00.856 --> 00:33:03.746 A:middle
 the object or the class that
 does not pass the message on --
@@ -3101,22 +2853,14 @@ Controller is the container
 controller of the presented
 controller, it gets the message,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.476 --> 00:34:03.206 A:middle
-controller of the presented
-controller, it gets the message,
-
 00:34:03.376 --> 00:34:06.616 A:middle
 PreferredContentSizeDid
 ChangeForChildContentContainer.
 
-00:34:07.786 --> 00:34:09.065 A:middle
+00:34:07.786 --> 00:34:09.066 A:middle
 Now, if one of the Child 1
 
-00:34:09.065 --> 00:34:12.126 A:middle
+00:34:09.066 --> 00:34:12.126 A:middle
 or Child 2 view controllers
 had requested more size,
 
@@ -3128,10 +2872,10 @@ would have gotten this message.
 So it's just messaging up
 to the container controller.
 
-00:34:17.926 --> 00:34:19.505 A:middle
+00:34:17.926 --> 00:34:19.506 A:middle
 At this point in time,
 
-00:34:19.505 --> 00:34:20.866 A:middle
+00:34:19.506 --> 00:34:20.866 A:middle
 the container has
 a decision to make.
 
@@ -3154,26 +2898,26 @@ you asked for 100 points,
 00:34:30.846 --> 00:34:31.856 A:middle
 and I can give you 50."
 
-00:34:32.835 --> 00:34:35.505 A:middle
+00:34:32.836 --> 00:34:35.506 A:middle
 If you were going to resize
 the view, it's important
 
-00:34:35.505 --> 00:34:37.525 A:middle
+00:34:35.506 --> 00:34:37.526 A:middle
 that you call back
 viewWillTransitionToSize:
 
-00:34:37.525 --> 00:34:39.545 A:middle
+00:34:37.526 --> 00:34:39.546 A:middle
 withTransitionCoordinator
 back on the view
 
-00:34:39.545 --> 00:34:40.386 A:middle
+00:34:39.546 --> 00:34:40.386 A:middle
 that made the request.
 
-00:34:41.295 --> 00:34:42.786 A:middle
+00:34:41.296 --> 00:34:42.786 A:middle
 And this -- it's kind
 of like a receipt
 
-00:34:42.786 --> 00:34:45.485 A:middle
+00:34:42.786 --> 00:34:45.486 A:middle
 for that view controller, to let
 it know that it requested size,
 
@@ -3189,21 +2933,13 @@ to forward that message
 on to any child containers
 it may have.
 
-00:34:54.815 --> 00:34:57.005 A:middle
+00:34:54.816 --> 00:34:57.006 A:middle
 And key, right -- and
 the key point here is
 
-00:34:57.005 --> 00:34:59.656 A:middle
+00:34:57.006 --> 00:34:59.656 A:middle
 that after you've sent this
 message, the container needs
-
-00:34:59.656 --> 00:35:03.246 A:middle
-to resize the child container,
-the child view controller.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.656 --> 00:35:03.246 A:middle
 to resize the child container,
@@ -3284,14 +3020,6 @@ to a view controller or a view
 00:35:55.296 --> 00:35:58.296 A:middle
 or a screen, and there
 are four properties:
-
-00:35:58.296 --> 00:36:01.076 A:middle
-a horizontalSizeClass,
-which describes width;
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.296 --> 00:36:01.076 A:middle
 a horizontalSizeClass,
@@ -3385,14 +3113,6 @@ more methods to this.
 UIPresentationController's
 containerViewWillLayoutSubviews
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.096 --> 00:37:02.026 A:middle
-UIPresentationController's
-containerViewWillLayoutSubviews
-
 00:37:02.516 --> 00:37:04.566 A:middle
 and UI View Controller's
 viewWillLayoutSubviews.
@@ -3479,14 +3199,6 @@ from the primary screen
 to that secondary screen could
 completely change how your UI
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.516 --> 00:38:02.696 A:middle
-to that secondary screen could
-completely change how your UI
-
 00:38:02.696 --> 00:38:03.456 A:middle
 needs to be laid out.
 
@@ -3558,14 +3270,6 @@ more or less size to deal with
 00:38:55.986 --> 00:38:58.436 A:middle
 and that you should
 actually add more content
-
-00:38:58.436 --> 00:39:01.166 A:middle
-or remove content depending
-on how the size changed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.436 --> 00:39:01.166 A:middle
 or remove content depending
@@ -3658,14 +3362,6 @@ subviews of your hierarchy.
 And that includes child
 content views, as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.836 --> 00:40:02.046 A:middle
-And that includes child
-content views, as well.
-
 00:40:02.366 --> 00:40:04.556 A:middle
 So when your Presentation
 Controller got that message
@@ -3739,14 +3435,6 @@ compact-width environment,
 what we'd really like to have is
 just a full-screen presentation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.676 --> 00:41:03.776 A:middle
-what we'd really like to have is
-just a full-screen presentation.
-
 00:41:08.396 --> 00:41:11.536 A:middle
 Here, we'll change
 the width to 320
@@ -3803,13 +3491,6 @@ back to regular, with the width
 00:41:52.856 --> 00:41:58.826 A:middle
 of 768 points, and boom:
 it transitions perfectly
-
-00:41:58.976 --> 00:42:00.096 A:middle
-and gets placed correctly.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:58.976 --> 00:42:00.096 A:middle
 and gets placed correctly.
@@ -3894,14 +3575,6 @@ while the unicorn
 and the flower appear alongside
 the view controller animating
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:58.926 --> 00:43:02.676 A:middle
-and the flower appear alongside
-the view controller animating
-
 00:43:02.676 --> 00:43:05.906 A:middle
 in, the leopard print
 animates by itself.
@@ -3963,14 +3636,6 @@ Presentation Controller.
 00:43:55.076 --> 00:43:57.586 A:middle
 First, we'll check a
 new internal method
-
-00:43:57.656 --> 00:44:00.516 A:middle
-that we've called
-presentationShouldBeAwesome.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:57.656 --> 00:44:00.516 A:middle
 that we've called
@@ -4060,14 +3725,6 @@ served by a presentation.
 with Presentation Controller
 representing the last piece
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:57.816 --> 00:45:01.196 A:middle
-with Presentation Controller
-representing the last piece
-
 00:45:01.196 --> 00:45:03.846 A:middle
 in the puzzle for totally
 custom presentations,
@@ -4149,4 +3806,3 @@ and lets have a great
 
 00:45:45.516 --> 00:45:48.500 A:middle
 [ Applause ]
-

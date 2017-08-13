@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:11.216 A:middle
 [ Silence ]
@@ -72,14 +71,6 @@ So we don't have to tell you
 00:00:55.006 --> 00:00:58.456 A:middle
 that your website is being
 viewed on a whole variety
-
-00:00:58.456 --> 00:01:00.406 A:middle
-of different devices
-and screen sizes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.456 --> 00:01:00.406 A:middle
 of different devices
@@ -158,14 +149,6 @@ to adapt and change
 and just simply always
 look good.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.696 --> 00:02:00.246 A:middle
-and just simply always
-look good.
-
 00:02:00.926 --> 00:02:03.676 A:middle
 And so today, Ted
 and I are going
@@ -174,7 +157,7 @@ and I are going
 to show you not only what a
 simple idea a responsive design
 
-00:02:07.846 --> 00:02:10.955 A:middle
+00:02:07.846 --> 00:02:10.956 A:middle
 is, but really how
 simple it is to implement.
 
@@ -235,10 +218,6 @@ in deep and make use
 00:02:58.336 --> 00:02:59.816 A:middle
 of those beautiful
 Retina screens.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:01.656 --> 00:03:03.526 A:middle
 So why are we talking
@@ -325,14 +304,6 @@ You know, we get it.
 You want your website to
 look great, and you want it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.816 --> 00:04:00.966 A:middle
-You want your website to
-look great, and you want it
-
 00:04:00.966 --> 00:04:03.566 A:middle
 to be clear and easy to read
 without your users having
@@ -403,10 +374,6 @@ great, right?
 00:04:56.856 --> 00:04:59.946 A:middle
 We designed it for this
 window size basically.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.786 --> 00:05:04.516 A:middle
 But if I shrink down
@@ -482,13 +449,6 @@ obvious to me is that masthead
 00:05:56.216 --> 00:05:59.826 A:middle
 up top becomes so tall
 on the phone that I have
-
-00:05:59.826 --> 00:06:01.026 A:middle
-to scroll to see any content.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.826 --> 00:06:01.026 A:middle
 to scroll to see any content.
@@ -569,14 +529,6 @@ into with our website
 and why those columns
 weren't looking good is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.606 --> 00:07:00.036 A:middle
-and why those columns
-weren't looking good is
-
 00:07:00.036 --> 00:07:05.416 A:middle
 because we defined a set number
 of columns that had to be there
@@ -641,14 +593,6 @@ two columns.
 And we've maintained
 that legible width,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.016 --> 00:08:00.436 A:middle
-And we've maintained
-that legible width,
-
 00:08:01.116 --> 00:08:03.856 A:middle
 whereas the column count had to
 shrink down like we saw before.
@@ -685,11 +629,11 @@ are really great
 because if your user
 resizes their text,
 
-00:08:29.626 --> 00:08:33.525 A:middle
+00:08:29.626 --> 00:08:33.526 A:middle
 the column's width will
 also resize to match that.
 
-00:08:34.285 --> 00:08:36.086 A:middle
+00:08:34.286 --> 00:08:36.086 A:middle
 So give you a simplified
 example.
 
@@ -716,14 +660,6 @@ when I make my text smaller,
 00:08:53.876 --> 00:08:56.846 A:middle
 I will maintain those five
 letters across the top.
-
-00:08:57.146 --> 00:09:00.546 A:middle
-And the same thing goes with the
-number of words on your column.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.146 --> 00:09:00.546 A:middle
 And the same thing goes with the
@@ -806,14 +742,6 @@ what the window width is
 so I can make adjustments
 as necessary.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.036 --> 00:10:00.326 A:middle
-so I can make adjustments
-as necessary.
-
 00:10:01.576 --> 00:10:06.106 A:middle
 So as Casey suggested, let's try
 setting our column width instead
@@ -876,14 +804,6 @@ where we go down to one column,
 00:10:54.826 --> 00:10:56.316 A:middle
 which, even at the
 narrowest window width,
-
-00:10:56.316 --> 00:11:00.266 A:middle
-is still a very legible
-amount of text.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:56.316 --> 00:11:00.266 A:middle
 is still a very legible
@@ -963,14 +883,6 @@ like an element to pop
 out of your columns
 and span across them,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.896 --> 00:12:01.986 A:middle
-out of your columns
-and span across them,
-
 00:12:01.986 --> 00:12:05.176 A:middle
 you can easily do this with
 the column-span property,
@@ -1041,14 +953,6 @@ margins around your paragraphs.
 As font size increases,
 you'd like those margins
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:57.106 --> 00:13:00.126 A:middle
-As font size increases,
-you'd like those margins
-
 00:13:00.126 --> 00:13:02.316 A:middle
 to also increase in
 proportion to that.
@@ -1113,13 +1017,6 @@ is approximately half an em.
 00:13:57.016 --> 00:13:59.946 A:middle
 It's really supposed to
 be basically the height
-
-00:13:59.946 --> 00:14:02.816 A:middle
-of a lowercase letter.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.946 --> 00:14:02.816 A:middle
 of a lowercase letter.
@@ -1199,14 +1096,6 @@ So here's a simple example.
 I've got a simple website
 with a header, "Hello,"
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.166 --> 00:15:02.606 A:middle
-I've got a simple website
-with a header, "Hello,"
-
 00:15:02.606 --> 00:15:05.006 A:middle
 and on the left I've
 sized it with ems
@@ -1276,10 +1165,6 @@ way bigger than I intended
 00:15:57.146 --> 00:15:58.976 A:middle
 when I first sized that
 header a few months ago.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.446 --> 00:16:02.906 A:middle
 Unlike that, in the
@@ -1368,27 +1253,19 @@ interfering with that.
 We have these really narrow
 lines of text next to it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.856 --> 00:17:01.806 A:middle
-We have these really narrow
-lines of text next to it.
-
 00:17:02.356 --> 00:17:02.836 A:middle
 &gt;&gt; Definitely.
 
 00:17:02.956 --> 00:17:04.276 A:middle
 &gt;&gt; So let's take a look at that.
 
-00:17:04.776 --> 00:17:07.185 A:middle
+00:17:04.776 --> 00:17:07.186 A:middle
 So to simplify, here's our moon.
 
 00:17:07.516 --> 00:17:09.256 A:middle
 We've floated it in our column.
 
-00:17:09.415 --> 00:17:11.316 A:middle
+00:17:09.416 --> 00:17:11.316 A:middle
 And those lines next
 to it, they're floating
 
@@ -1396,7 +1273,7 @@ to it, they're floating
 around the image element
 and they look really narrow.
 
-00:17:15.205 --> 00:17:19.996 A:middle
+00:17:15.206 --> 00:17:19.996 A:middle
 Well, I don't have a whole
 lot of time to fix this,
 
@@ -1404,14 +1281,14 @@ lot of time to fix this,
 so the easiest thing
 is, you know,
 
-00:17:21.996 --> 00:17:23.675 A:middle
+00:17:21.996 --> 00:17:23.676 A:middle
 we could just not float the moon
 
 00:17:23.736 --> 00:17:25.756 A:middle
 and that way there's no
 narrow lines next to it.
 
-00:17:25.935 --> 00:17:27.976 A:middle
+00:17:25.936 --> 00:17:27.976 A:middle
 It looks pretty good, right?
 
 00:17:27.976 --> 00:17:30.596 A:middle
@@ -1449,14 +1326,6 @@ It'll look really great.
 
 00:17:54.786 --> 00:17:57.506 A:middle
 So what's going on here?
-
-00:17:57.506 --> 00:18:00.586 A:middle
-CSS Shapes, it's a simple
-feature that allows you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.506 --> 00:18:00.586 A:middle
 CSS Shapes, it's a simple
@@ -1543,13 +1412,6 @@ around the edge of the moon.
 00:18:59.756 --> 00:19:02.066 A:middle
 It's that easy.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.756 --> 00:19:02.066 A:middle
-It's that easy.
-
 00:19:02.936 --> 00:19:04.056 A:middle
 &gt;&gt; Pretty cool, right?
 
@@ -1626,14 +1488,6 @@ tell the CSS Shapes module
 to use this circle to
 flow the text around.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.086 --> 00:20:01.266 A:middle
-to use this circle to
-flow the text around.
-
 00:20:01.396 --> 00:20:04.386 A:middle
 And I do that using
 the circle() function.
@@ -1701,14 +1555,6 @@ still, again,
 
 00:20:54.796 --> 00:20:58.946 A:middle
 with just one CSS property.
-
-00:20:59.026 --> 00:21:03.746 A:middle
-OK, cool. We see how easy
-it is to use CSS Shapes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.026 --> 00:21:03.746 A:middle
 OK, cool. We see how easy
@@ -1793,14 +1639,6 @@ you can write it down.
 We're going to talk about
 how to Retinafy your website
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.176 --> 00:22:00.596 A:middle
-We're going to talk about
-how to Retinafy your website
-
 00:22:00.656 --> 00:22:04.256 A:middle
 so that you have some
 brilliant, clear images
@@ -1864,14 +1702,6 @@ Retina resolution image,
 00:22:54.626 --> 00:22:57.676 A:middle
 and then WebKit will just
 magically pick the right one,
-
-00:22:58.216 --> 00:23:02.036 A:middle
-depending on what type of screen
-your website's being viewed on.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.216 --> 00:23:02.036 A:middle
 depending on what type of screen
@@ -1941,10 +1771,6 @@ my source attribute,
 which is just the
 location of the image.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.006 --> 00:24:03.816 A:middle
 So to make this standard
 image element
@@ -2013,14 +1839,6 @@ And you might think, "Well,
 00:24:52.426 --> 00:24:54.886 A:middle
 let's just ditch
 the source," right.
-
-00:24:55.686 --> 00:25:00.646 A:middle
-But browsers that do not
-understand srcset are not going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:55.686 --> 00:25:00.646 A:middle
 But browsers that do not
@@ -2101,14 +1919,6 @@ has an incredibly similar name
 and an incredibly
 similar function.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.396 --> 00:26:00.376 A:middle
-and an incredibly
-similar function.
-
 00:26:00.376 --> 00:26:02.496 A:middle
 So we're going to go over
 that real quick, too,
@@ -2171,14 +1981,6 @@ JPEG modified with 1x
 00:26:55.126 --> 00:26:58.026 A:middle
 and my super-galaxy
 JPEG with 2x.
-
-00:26:58.786 --> 00:27:01.806 A:middle
-And then WebKit from here
-will automatically select the
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.786 --> 00:27:01.806 A:middle
 And then WebKit from here
@@ -2259,10 +2061,6 @@ OK, so where are we now?
 
 00:27:58.266 --> 00:27:59.386 A:middle
 We've got our Retina image.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.856 --> 00:28:04.846 A:middle
 And we still have a bunch
@@ -2345,14 +2143,6 @@ up so much vertical space.
 This caption is really
 awkwardly overlapping my image.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:57.736 --> 00:29:02.866 A:middle
-This caption is really
-awkwardly overlapping my image.
-
 00:29:03.286 --> 00:29:04.716 A:middle
 In fact, it's blowing
 right out of it
@@ -2418,14 +2208,6 @@ to use the @media rule.
 
 00:29:56.316 --> 00:29:59.046 A:middle
 So here I have an @media rule.
-
-00:29:59.626 --> 00:30:03.496 A:middle
-This is the part of CSS where
-you can provide a media query,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.626 --> 00:30:03.496 A:middle
 This is the part of CSS where
@@ -2503,14 +2285,6 @@ where it goes to four lines
 where that bottom right corner
 is intruding into my galaxy
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.806 --> 00:31:02.876 A:middle
-where that bottom right corner
-is intruding into my galaxy
-
 00:31:02.876 --> 00:31:06.036 A:middle
 and really kind of
 ruining the mood.
@@ -2569,14 +2343,6 @@ And that's it.
 00:31:52.656 --> 00:31:57.856 A:middle
 So we'll save and let me come
 out a little bit and refresh.
-
-00:31:58.366 --> 00:32:01.496 A:middle
-And as you can see, just
-like before nothing's changed
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.366 --> 00:32:01.496 A:middle
 And as you can see, just
@@ -2655,14 +2421,6 @@ is floated over,
 so I'm disabling the float
 just like with my caption.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:57.416 --> 00:33:01.456 A:middle
-so I'm disabling the float
-just like with my caption.
-
 00:33:01.456 --> 00:33:03.126 A:middle
 I'm resetting the width
 
@@ -2719,23 +2477,15 @@ when that media query matches.
 So here, I'm fixing our
 caption like we saw earlier
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.316 --> 00:34:02.436 A:middle
-So here, I'm fixing our
-caption like we saw earlier
-
 00:34:02.816 --> 00:34:04.616 A:middle
 by using a max-width
 media query,
 
-00:34:05.036 --> 00:34:08.045 A:middle
+00:34:05.036 --> 00:34:08.046 A:middle
 and then I'm overriding the
 position and width properties.
 
-00:34:08.585 --> 00:34:11.235 A:middle
+00:34:08.586 --> 00:34:11.236 A:middle
 This is in general how
 you use an @media rule.
 
@@ -2743,18 +2493,18 @@ you use an @media rule.
 You have some rules somewhere
 else in your style sheet
 
-00:34:14.246 --> 00:34:15.255 A:middle
+00:34:14.246 --> 00:34:15.256 A:middle
 and then you say, OK, but
 
-00:34:15.255 --> 00:34:18.966 A:middle
+00:34:15.256 --> 00:34:18.966 A:middle
 and sometimes I need
 to override those.
 
-00:34:20.166 --> 00:34:22.565 A:middle
+00:34:20.166 --> 00:34:22.566 A:middle
 In all three cases, we used
 the max-width media query
 
-00:34:22.565 --> 00:34:25.366 A:middle
+00:34:22.566 --> 00:34:25.366 A:middle
 because we were adjusting
 for when things got narrower.
 
@@ -2770,11 +2520,11 @@ responsive design.
 There's a corresponding
 min-width media query
 
-00:34:34.525 --> 00:34:37.636 A:middle
+00:34:34.526 --> 00:34:37.636 A:middle
 where you can adjust things
 as the site gets wider.
 
-00:34:38.386 --> 00:34:43.545 A:middle
+00:34:38.386 --> 00:34:43.546 A:middle
 And also an exact-width
 media query.
 
@@ -2782,28 +2532,20 @@ media query.
 When you're adjusting your
 site to be Retina-ready,
 
-00:34:47.746 --> 00:34:50.985 A:middle
+00:34:47.746 --> 00:34:50.986 A:middle
 in addition to using
 the features
 
-00:34:50.985 --> 00:34:52.876 A:middle
+00:34:50.986 --> 00:34:52.876 A:middle
 that Casey showed you
 earlier, you might need
 
 00:34:52.876 --> 00:34:54.196 A:middle
 to make some layout adjustments.
 
-00:34:54.585 --> 00:34:56.786 A:middle
+00:34:54.586 --> 00:34:56.786 A:middle
 And you can test
 for a Retina device
-
-00:34:57.266 --> 00:35:00.796 A:middle
-by using the device-pixel-ratio
-media query, which,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.266 --> 00:35:00.796 A:middle
 by using the device-pixel-ratio
@@ -2869,14 +2611,6 @@ your site without having
 
 00:35:54.706 --> 00:35:56.586 A:middle
 to duplicate all your work.
-
-00:35:56.836 --> 00:36:00.506 A:middle
-We saw two earlier: The column
-width property allowed us
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:56.836 --> 00:36:00.506 A:middle
 We saw two earlier: The column
@@ -2957,14 +2691,6 @@ with some media queries.
 There's just one
 little bit I wanted
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.416 --> 00:37:01.206 A:middle
-There's just one
-little bit I wanted
-
 00:37:01.256 --> 00:37:06.256 A:middle
 to address before we
 can call it a day.
@@ -3021,14 +2747,6 @@ on a pre-Retina display.
 
 00:37:54.946 --> 00:37:56.366 A:middle
 But now, with the Retina device,
-
-00:37:56.946 --> 00:38:00.236 A:middle
-a 1 CSS pixel actually
-contains 4 device pixels.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:56.946 --> 00:38:00.236 A:middle
 a 1 CSS pixel actually
@@ -3092,14 +2810,6 @@ a lot of you have too.
 00:38:57.506 --> 00:38:59.966 A:middle
 And I've got to say, some of
 the solutions people have come
-
-00:38:59.966 --> 00:39:04.246 A:middle
-up with are amazing
-and horrifying.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:59.966 --> 00:39:04.246 A:middle
 up with are amazing
@@ -3173,14 +2883,6 @@ for our standard display.
 00:39:56.346 --> 00:39:58.736 A:middle
 And now, just like we saw
 before with our media queries,
-
-00:39:58.736 --> 00:40:00.976 A:middle
-we're going to check
-device-pixel-ratio to see,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:58.736 --> 00:40:00.976 A:middle
 we're going to check
@@ -3269,10 +2971,6 @@ of code did we do?
 &gt;&gt; I think we actually only
 changed about 20 lines of code.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.116 --> 00:41:01.696 A:middle
 &gt;&gt; That's pretty good, right?
 
@@ -3342,13 +3040,6 @@ those beautiful hairline borders
 00:41:55.596 --> 00:41:57.376 A:middle
 that really reach into
 the retina screen.
-
-00:41:59.036 --> 00:42:00.496 A:middle
-&gt;&gt; So for more information,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.036 --> 00:42:00.496 A:middle
 &gt;&gt; So for more information,
@@ -3431,14 +3122,6 @@ And please do check that out.
 I know some of you traveled
 from quite far to be here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.606 --> 00:43:02.576 A:middle
-I know some of you traveled
-from quite far to be here.
-
 00:43:02.576 --> 00:43:03.656 A:middle
 I hope you have a
 safe travel home.
@@ -3448,4 +3131,3 @@ safe travel home.
 
 00:43:04.846 --> 00:43:05.306 A:middle
 &gt;&gt; Thanks, everyone.
-

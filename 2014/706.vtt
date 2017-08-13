@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.456 --> 00:00:12.976 A:middle
 &gt;&gt; Hello and good afternoon.
@@ -9,7 +8,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:19.386 --> 00:00:22.256 A:middle
 Welcome to our session on
-What's New in Core Location.
+"What's New in Core Location".
 
 00:00:22.836 --> 00:00:24.696 A:middle
 My name is Stephen
@@ -18,13 +17,13 @@ Rhee and I work
 00:00:24.696 --> 00:00:25.936 A:middle
 on the Core Location framework.
 
-00:00:26.686 --> 00:00:32.806 A:middle
+00:00:26.686 --> 00:00:31.506 A:middle
 So Core Location is available
-on both iOS and OS X but today,
+on both iOS and OS X,
 
-00:00:32.966 --> 00:00:34.296 A:middle
-the new features that
-we're going to be talking
+00:00:32.206 --> 00:00:34.296 A:middle
+but today the new features
+that we're going to be talking
 
 00:00:34.296 --> 00:00:36.536 A:middle
 about today are specifically
@@ -35,7 +34,7 @@ Now some of you may be
 new to Core Location
 
 00:00:40.626 --> 00:00:41.966 A:middle
-or even iOS, in general.
+or even iOS in general.
 
 00:00:43.056 --> 00:00:44.336 A:middle
 This will not be a review
@@ -59,14 +58,6 @@ also available online.
 00:00:56.376 --> 00:00:59.056 A:middle
 Also, we'll be having a
 lab session this Thursday,
-
-00:00:59.396 --> 00:01:01.316 A:middle
-so I recommend you all
-come out and join us there
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.396 --> 00:01:01.316 A:middle
 so I recommend you all
@@ -98,25 +89,25 @@ with both iOS and Core Location.
 So what's new in Core
 Location and iOS 8?
 
-00:01:20.716 --> 00:01:27.826 A:middle
-Today we're going to be location
-authorization, visit monitoring,
+00:01:20.716 --> 00:01:24.936 A:middle
+Today we're going to be talking
+about location authorization,
 
-00:01:28.686 --> 00:01:32.376 A:middle
-and finally what's new is
-indoor positioning; however,
+00:01:25.456 --> 00:01:30.886 A:middle
+visit monitoring, and
+finally what's new is indoor
 
-00:01:32.436 --> 00:01:34.786 A:middle
-we won't have time to talk
-about that in this session
+00:01:30.886 --> 00:01:34.066 A:middle
+positioning; however, we won't
+have time to talk about that
 
-00:01:35.146 --> 00:01:37.176 A:middle
-but directly following
-this session here
+00:01:34.066 --> 00:01:37.176 A:middle
+in this session but directly
+following this session here
 
 00:01:37.176 --> 00:01:39.606 A:middle
-in Marina [phonetic],
-there'll be a dedicated session
+in Marina, there'll
+be a dedicated session
 
 00:01:39.606 --> 00:01:40.666 A:middle
 to indoor positioning,
@@ -145,24 +136,13 @@ get heading updates.
 In iOS 4, with the
 introduction of multitasking,
 
+00:02:02.206 --> 00:02:05.036 A:middle
+came a whole slew of new
+functionality for location,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.986 --> 00:02:01.806 A:middle
-In iOS 4, with the
-introduction of multitasking,
-
-00:02:02.206 --> 00:02:04.286 A:middle
-came a whole slew
-of new functionality
-
-00:02:04.286 --> 00:02:08.076 A:middle
-for location including
-continuous background location,
-
-00:02:08.386 --> 00:02:09.226 A:middle
-which allows your app
+00:02:05.566 --> 00:02:09.226 A:middle
+including continuous background
+location, which allows your app
 
 00:02:09.946 --> 00:02:12.856 A:middle
 to get continuous location
@@ -226,14 +206,6 @@ batched up and delivered
 
 00:02:55.216 --> 00:02:56.256 A:middle
 to your application
-
-00:02:56.746 --> 00:03:00.006 A:middle
-at a app-specified time
-and/or distance interval.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.746 --> 00:03:00.006 A:middle
 at a app-specified time
@@ -313,14 +285,6 @@ of their location.
 So what does location look
 like on the device today?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.476 --> 00:04:05.226 A:middle
-So what does location look
-like on the device today?
-
 00:04:05.226 --> 00:04:09.086 A:middle
 There's a visual
 indication of location
@@ -385,14 +349,6 @@ location.
 
 00:04:55.236 --> 00:04:58.306 A:middle
 And again on the home screen,
-
-00:04:58.586 --> 00:05:00.436 A:middle
-if there are still apps
-using region monitoring
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.586 --> 00:05:00.436 A:middle
 if there are still apps
@@ -471,14 +427,6 @@ a single request
 that is prompted
 implicitly on first usage
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.916 --> 00:06:01.666 A:middle
-that is prompted
-implicitly on first usage
-
 00:06:01.666 --> 00:06:02.816 A:middle
 of location by your app.
 
@@ -503,8 +451,8 @@ The text is also
 customizable by the app.
 
 00:06:19.146 --> 00:06:22.266 A:middle
-Here we see a camera would like
-to use your current location
+Here we see a "camera would like
+to use your current location"
 
 00:06:22.446 --> 00:06:24.776 A:middle
 with a description of
@@ -553,14 +501,6 @@ your app, disabling some
 00:06:56.006 --> 00:06:59.136 A:middle
 of the cool functionality that
 you've developed using location.
-
-00:06:59.726 --> 00:07:02.486 A:middle
-We want them to understand
-exactly how location is being
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.726 --> 00:07:02.486 A:middle
 We want them to understand
@@ -643,14 +583,6 @@ the background.
 But then we also introduced
 WhenInUse, which is only
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.716 --> 00:08:01.676 A:middle
-But then we also introduced
-WhenInUse, which is only
-
 00:08:01.676 --> 00:08:04.716 A:middle
 for continuous updates
 and it's only
@@ -678,12 +610,12 @@ Capabilities tab in Xcode
 for background modes,
 location updates
 
-00:08:22.916 --> 00:08:26.286 A:middle
+00:08:22.916 --> 00:08:25.816 A:middle
 or via your app's information
-property list via the UI
+property list via the
 
-00:08:26.286 --> 00:08:29.186 A:middle
-Background Mode key
+00:08:25.816 --> 00:08:29.186 A:middle
+UIBackgroundMode key
 specifying a value of location.
 
 00:08:30.096 --> 00:08:33.296 A:middle
@@ -694,17 +626,19 @@ in the foreground, otherwise
 or if your app is using
 significant location changes.
 
-00:08:36.716 --> 00:08:39.986 A:middle
-And this is available with
-WhenInUse location authorization
+00:08:36.716 --> 00:08:37.806 A:middle
+And this is available
 
-00:08:40.426 --> 00:08:44.035 A:middle
-because now in iOS 8,
-we'll provide an indication
+00:08:37.906 --> 00:08:40.676 A:middle
+with WhenInUse location
+authorization because,
 
-00:08:44.035 --> 00:08:46.966 A:middle
-in the status bar that
-your app is using location.
+00:08:40.676 --> 00:08:45.246 A:middle
+now in iOS 8, we'll provide an
+indication in the status bar
+
+00:08:45.246 --> 00:08:46.966 A:middle
+that your app is using location.
 
 00:08:48.436 --> 00:08:50.776 A:middle
 This is just like the
@@ -721,14 +655,6 @@ app is using location and,
 00:08:56.736 --> 00:08:58.496 A:middle
 if there are multiple,
 we'll indicate the number
-
-00:08:58.496 --> 00:09:01.926 A:middle
-of apps using location, and the
-user can tap on the status bar
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.496 --> 00:09:01.926 A:middle
 of apps using location, and the
@@ -762,8 +688,8 @@ to access location anytime
 from the background.
 
 00:09:24.486 --> 00:09:27.256 A:middle
-For example, when your app
-is running the background due
+For example, when your app is
+running in the background due
 
 00:09:27.256 --> 00:09:30.966 A:middle
 to Background App Refresh or
@@ -802,14 +728,6 @@ changes or region monitoring.
 00:09:54.776 --> 00:09:57.976 A:middle
 This latter point is the
 behavior as of iOS 7.1.
-
-00:09:59.176 --> 00:10:03.786 A:middle
-And now in iOS 8, disabling
-Background App Refresh will no
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.176 --> 00:10:03.786 A:middle
 And now in iOS 8, disabling
@@ -887,14 +805,6 @@ presented only once to the user
 for either request to location
 access for WhenInUse or Always.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:55.966 --> 00:11:00.896 A:middle
-for either request to location
-access for WhenInUse or Always.
-
 00:11:00.896 --> 00:11:04.276 A:middle
 And as we said, that
 text is customizable
@@ -944,13 +854,13 @@ user will be asked
 to confirm a few
 days later and only
 
-00:11:37.336 --> 00:11:39.706 A:middle
+00:11:37.336 --> 00:11:40.496 A:middle
 if their Always authorization
-was exercised,
+was exercised, that is,
 
-00:11:40.136 --> 00:11:43.436 A:middle
-that is the app did use location
-in the background perhaps due
+00:11:40.536 --> 00:11:43.436 A:middle
+the app did use location in
+the background perhaps due
 
 00:11:43.436 --> 00:11:45.956 A:middle
 to region monitoring or
@@ -961,7 +871,7 @@ Here we see an example of
 what that dialogue looks like,
 
 00:11:49.596 --> 00:11:51.906 A:middle
-where it says Weather Has
+where it says, "Weather Has
 Been Using Your Location
 
 00:11:51.906 --> 00:11:52.656 A:middle
@@ -969,19 +879,11 @@ In The Background.
 
 00:11:52.656 --> 00:11:54.956 A:middle
 Do You Want To Continue
-Allowing This?
+Allowing This?"
 
 00:11:55.536 --> 00:11:58.326 A:middle
 And again, we see that
 the text is customizable.
-
-00:11:58.326 --> 00:12:01.616 A:middle
-It's the same usage description
-provided in the original request
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.326 --> 00:12:01.616 A:middle
 It's the same usage description
@@ -1055,32 +957,23 @@ for an app that supports Always.
 Note that in this pane, we don't
 show the app description of why
 
-00:12:55.246 --> 00:12:57.866 A:middle
-that app would like
-to use the location
+00:12:55.246 --> 00:12:59.276 A:middle
+that app would like to use the
+location in the current seed;
 
-00:12:58.376 --> 00:13:01.476 A:middle
-in the current [inaudible];
+00:12:59.616 --> 00:13:02.466 A:middle
 however, you, as developers,
+should prepare for this
 
+00:13:02.986 --> 00:13:05.386 A:middle
+because we believe that this
+may present another great
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:13:05.386 --> 00:13:08.046 A:middle
+opportunity to inform
+the user why it is
 
-00:12:58.376 --> 00:13:01.476 A:middle
-in the current [inaudible];
-however, you, as developers,
-
-00:13:01.476 --> 00:13:03.736 A:middle
-should prepare for
-this because we believe
-
-00:13:03.736 --> 00:13:06.156 A:middle
-that this may present
-another great opportunity
-
-00:13:06.156 --> 00:13:09.426 A:middle
-to inform the user why it is
+00:13:08.086 --> 00:13:09.426 A:middle
 that your app uses location.
 
 00:13:12.236 --> 00:13:17.046 A:middle
@@ -1147,16 +1040,8 @@ on UIApplication providing
 the new constant in iOS 8,
 
 00:13:57.096 --> 00:14:00.136 A:middle
-UIApplicationOpenSettingsURL
-String.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.096 --> 00:14:00.136 A:middle
-UIApplicationOpenSettingsURL
-String.
+UIApplicationOpen
+SettingsURLString.
 
 00:14:01.176 --> 00:14:04.486 A:middle
 We'll see exactly how useful
@@ -1217,12 +1102,12 @@ This is now deprecated and
 replaced by two new keys,
 
 00:14:45.306 --> 00:14:47.526 A:middle
-NSLocationAlways
-UsageDescription
+NSLocationA
+lwaysUsageDescription
 
 00:14:47.896 --> 00:14:50.516 A:middle
-and NSLocationWhenInUse-
-UsageDescription.
+and NSLocationWhen
+InUseUsageDescription.
 
 00:14:51.056 --> 00:14:53.476 A:middle
 Note again that's
@@ -1237,10 +1122,6 @@ authorization type it is
 
 00:14:57.526 --> 00:14:59.156 A:middle
 that your application supports.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.116 --> 00:15:02.136 A:middle
 The value is the
@@ -1308,14 +1189,6 @@ via ChangeAuthorizationStatus
 00:15:53.116 --> 00:15:55.906 A:middle
 on the CLManager
 delegate; however,
-
-00:15:55.906 --> 00:16:00.026 A:middle
-requesting authorization
-has changed, which brings us
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:55.906 --> 00:16:00.026 A:middle
 requesting authorization
@@ -1396,19 +1269,11 @@ your app uses location.
 And third, you want
 to make the right call
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.606 --> 00:17:01.756 A:middle
-And third, you want
-to make the right call
-
-00:17:01.756 --> 00:17:06.955 A:middle
+00:17:01.756 --> 00:17:06.956 A:middle
 to request authorization and
 you want to do it when needed.
 
-00:17:07.806 --> 00:17:11.455 A:middle
+00:17:07.806 --> 00:17:11.456 A:middle
 For example, when your app first
 launches, don't make the request
 
@@ -1424,7 +1289,7 @@ location authorization
 and they may be inclined
 to just deny that.
 
-00:17:21.846 --> 00:17:24.465 A:middle
+00:17:21.846 --> 00:17:24.466 A:middle
 Instead, do it in response
 to explicit user action
 
@@ -1473,16 +1338,12 @@ In addition, it's going to use
 background location in order
 
 00:17:55.056 --> 00:17:57.556 A:middle
-that the user may home-out
+that the user may Home-out
 of your app and switch
 
 00:17:57.556 --> 00:17:59.976 A:middle
 to the music app and play
 their favorite tunes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:04.056 --> 00:18:07.906 A:middle
 So background location
@@ -1522,12 +1383,12 @@ Information Property List Editor
 00:18:34.776 --> 00:18:36.096 A:middle
 and add a new key
 
-00:18:36.096 --> 00:18:39.746 A:middle
-for NSLocationWhenInUseUsage
-Description providing the
+00:18:36.096 --> 00:18:39.676 A:middle
+for NSLocationWhen
+InUseUsageDescription providing
 
-00:18:39.746 --> 00:18:40.786 A:middle
-description to the user
+00:18:39.676 --> 00:18:40.786 A:middle
+the description to the user
 
 00:18:41.076 --> 00:18:43.716 A:middle
 that your location is
@@ -1553,17 +1414,9 @@ before making the call
 to startUpdatingLocation, all
 you need to do is make the call
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.646 --> 00:19:01.206 A:middle
-to startUpdatingLocation, all
-you need to do is make the call
-
 00:19:01.206 --> 00:19:03.226 A:middle
-to
-requestWhenInUseAuthorization.
+to requestWhen
+InUseAuthorization.
 
 00:19:03.756 --> 00:19:04.626 A:middle
 Pretty simple, right?
@@ -1624,10 +1477,10 @@ UsageDescription providing a
 
 00:19:42.186 --> 00:19:44.226 A:middle
 description to the user
-here in this example,
+here in this example.
 
 00:19:44.476 --> 00:19:47.946 A:middle
-here location is used to
+Here location is used to
 determine when you arrive home.
 
 00:19:48.956 --> 00:19:51.736 A:middle
@@ -1641,14 +1494,6 @@ and again, do it as needed.
 00:19:55.216 --> 00:19:58.656 A:middle
 In this case, right before
 the call to start monitoring
-
-00:19:58.656 --> 00:20:00.686 A:middle
-for region, you'll
-want to add the call
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.656 --> 00:20:00.686 A:middle
 for region, you'll
@@ -1698,15 +1543,15 @@ to determine exactly how it is
 that your app is using location.
 
 00:20:32.876 --> 00:20:35.086 A:middle
-Obviously for the general use
-case displaying the user's
+Obviously, for the general
+use case displaying the user's
 
 00:20:35.086 --> 00:20:37.116 A:middle
 location on the map,
-your using location,
+you're using location.
 
 00:20:37.616 --> 00:20:39.446 A:middle
-but for that cool
+But for that cool
 feature that tells them
 
 00:20:39.446 --> 00:20:41.676 A:middle
@@ -1737,16 +1582,8 @@ We'll first start
 by adding a key
 
 00:20:58.056 --> 00:21:01.596 A:middle
-for NSLocationWhenInUse
-UsageDescription specifying
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.056 --> 00:21:01.596 A:middle
-for NSLocationWhenInUse
-UsageDescription specifying
+for NSLocationWhen
+InUseUsageDescription specifying
 
 00:21:01.596 --> 00:21:04.876 A:middle
 that your current location
@@ -1760,8 +1597,8 @@ your app also supports Always
 authorization, you'll add a key
 
 00:21:11.836 --> 00:21:14.436 A:middle
-to NSLocationAlways
-UsageDescription,
+to NSLocation
+AlwaysUsageDescription,
 
 00:21:14.876 --> 00:21:17.166 A:middle
 again providing a
@@ -1823,14 +1660,6 @@ use case, still in response
 to user action, perhaps the
 user has now enabled the feature
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.796 --> 00:22:04.406 A:middle
-to user action, perhaps the
-user has now enabled the feature
-
 00:22:04.796 --> 00:22:07.926 A:middle
 that enables the automatic
 attraction info mode
@@ -1878,12 +1707,9 @@ pane using
 00:22:40.226 --> 00:22:42.506 A:middle
 that mentioned openUrl method
 
-00:22:42.776 --> 00:22:44.836 A:middle
-with the new
-UIApplicationOpenSettings
-
-00:22:44.836 --> 00:22:45.556 A:middle
-URLString.
+00:22:42.776 --> 00:22:45.556 A:middle
+with the new UIApplicationOpen
+SettingsURLString.
 
 00:22:46.016 --> 00:22:49.616 A:middle
 And then finally, right
@@ -1899,14 +1725,6 @@ requestAlwaysAuthorization.
 00:22:54.456 --> 00:22:59.796 A:middle
 So some additional
 details, what if you want
-
-00:22:59.796 --> 00:23:04.966 A:middle
-to support both iOS 7
-and iOS 8 with your app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.796 --> 00:23:04.966 A:middle
 to support both iOS 7
@@ -1983,14 +1801,6 @@ what about legacy app support,
 00:23:56.216 --> 00:23:57.626 A:middle
 what if you don't
 update your app
-
-00:23:58.036 --> 00:24:00.946 A:middle
-but your user upgrades
-his system to iOS 8,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.036 --> 00:24:00.946 A:middle
 but your user upgrades
@@ -2074,14 +1884,6 @@ if still supported.
 Otherwise, it will go
 from Always to WhenInUse.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.926 --> 00:25:03.296 A:middle
-Otherwise, it will go
-from Always to WhenInUse.
-
 00:25:03.476 --> 00:25:06.176 A:middle
 For example, if your app
 no longer supports Always
@@ -2154,14 +1956,6 @@ doesn't need to be launched,
 just a notification needs to
 be provided and now in iOS 8,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.496 --> 00:26:03.696 A:middle
-just a notification needs to
-be provided and now in iOS 8,
-
 00:26:04.026 --> 00:26:05.756 A:middle
 we've added region-based
 triggering
@@ -2202,13 +1996,13 @@ to respond to that notification
 and launch your app will
 your app actually be in use.
 
-00:26:34.626 --> 00:26:37.996 A:middle
-So usage of this API
-requires either authorization,
+00:26:34.626 --> 00:26:38.436 A:middle
+So usage of this API requires
+either authorization Always
 
-00:26:37.996 --> 00:26:41.886 A:middle
-Always or WhenInUse but only
-needs your app to be supported
+00:26:38.436 --> 00:26:41.886 A:middle
+or WhenInUse but only needs
+your app to be supported
 
 00:26:41.886 --> 00:26:43.366 A:middle
 for WhenInUse authorization.
@@ -2232,13 +2026,6 @@ string describing how it is your
 00:26:55.286 --> 00:26:58.966 A:middle
 app uses location and call the
 corresponding authorization
-
-00:26:58.966 --> 00:27:03.086 A:middle
-request API, as needed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.966 --> 00:27:03.086 A:middle
 request API, as needed.
@@ -2287,7 +2074,7 @@ when needed.
 
 00:27:40.506 --> 00:27:42.696 A:middle
 One last one I'd like to
-talk about, Web views.
+talk about, web views.
 
 00:27:43.636 --> 00:27:47.516 A:middle
 To allow web content that
@@ -2304,14 +2091,6 @@ either authorization
 00:27:54.076 --> 00:27:56.926 A:middle
 but again only needs the
 WhenInUse authorization.
-
-00:27:58.256 --> 00:28:01.376 A:middle
-Again, you'll specify in your
-app's information property list
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.256 --> 00:28:01.376 A:middle
 Again, you'll specify in your
@@ -2383,14 +2162,6 @@ Do it today.
 00:28:56.186 --> 00:28:59.526 A:middle
 And then if you have any
 questions, on Thursday,
-
-00:28:59.526 --> 00:29:02.276 A:middle
-you can come to us in our lab
-session here this week at WWDC
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.526 --> 00:29:02.276 A:middle
 you can come to us in our lab
@@ -2483,10 +2254,6 @@ they're not going to find
 00:29:59.226 --> 00:29:59.976 A:middle
 that list especially useful.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.186 --> 00:30:03.946 A:middle
 Finally, we want to make sure
 
@@ -2547,7 +2314,7 @@ the radios have to stay awake.
 
 00:30:42.256 --> 00:30:45.066 A:middle
 We have to periodically
-scan for WiFi networks,
+scan for Wi-Fi networks,
 
 00:30:45.606 --> 00:30:48.706 A:middle
 for cell towers or GPS.
@@ -2559,13 +2326,6 @@ expensive and that means
 00:30:53.826 --> 00:30:58.166 A:middle
 that the app is going to be
 consuming a lot of power.
-
-00:30:58.366 --> 00:31:00.006 A:middle
-In addition, the app is going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.366 --> 00:31:00.006 A:middle
 In addition, the app is going
@@ -2652,10 +2412,6 @@ user starts moving again,
 your app will have to resume
 those location updates.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:02.456 --> 00:32:05.776 A:middle
 And so we won't actually help
 
@@ -2694,8 +2450,8 @@ interesting as well.
 It allows Core Location
 to save power
 
-00:32:28.956 --> 00:32:30.786 A:middle
-by waking up your app list.
+00:32:28.956 --> 00:32:30.756 A:middle
+by waking up your app less.
 
 00:32:31.626 --> 00:32:33.046 A:middle
 App wake-ups cost power
@@ -2730,10 +2486,6 @@ aren't exactly what we want;
 00:32:56.706 --> 00:32:59.996 A:middle
 however, if we were
 writing a fitness app,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.616 --> 00:33:01.396 A:middle
 they would be great.
@@ -2808,12 +2560,13 @@ giving updates to your app.
 If we were writing a
 different app, for example one
 
-00:33:51.556 --> 00:33:54.966 A:middle
-that showed the user the path
-they took home maybe identifies
+00:33:51.556 --> 00:33:54.026 A:middle
+that showed the user
+the path they took home,
 
-00:33:55.006 --> 00:33:56.776 A:middle
-the freeways they drove on,
+00:33:54.026 --> 00:33:56.776 A:middle
+maybe identifies the
+freeways they drove on,
 
 00:33:57.176 --> 00:33:59.596 A:middle
 then significant location
@@ -2821,10 +2574,6 @@ changes would make a lot
 
 00:33:59.596 --> 00:33:59.936 A:middle
 of sense.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:00.786 --> 00:34:03.046 A:middle
 But we're working on a
@@ -2845,18 +2594,18 @@ Region monitoring is really cool
 because it's highly
 power efficient.
 
-00:34:13.525 --> 00:34:16.436 A:middle
+00:34:13.526 --> 00:34:16.436 A:middle
 Region monitoring can continue
 while the phone is asleep
 
-00:34:17.275 --> 00:34:19.485 A:middle
+00:34:17.276 --> 00:34:19.486 A:middle
 and your app only
 receives information
 
-00:34:19.485 --> 00:34:20.866 A:middle
+00:34:19.486 --> 00:34:20.866 A:middle
 that is directly relevant to it.
 
-00:34:21.775 --> 00:34:24.436 A:middle
+00:34:21.776 --> 00:34:24.436 A:middle
 Unfortunately, you
 have to specify
 
@@ -2864,14 +2613,14 @@ have to specify
 which locations are
 interesting to your app
 
-00:34:26.196 --> 00:34:30.005 A:middle
+00:34:26.196 --> 00:34:30.006 A:middle
 and that won't exactly work for
 our use case because we want
 
-00:34:30.005 --> 00:34:30.835 A:middle
+00:34:30.006 --> 00:34:30.836 A:middle
 to know about all
 
-00:34:30.835 --> 00:34:33.196 A:middle
+00:34:30.836 --> 00:34:33.196 A:middle
 of the interesting
 locations the user might go to
 
@@ -2882,7 +2631,7 @@ many interesting places
 00:34:35.716 --> 00:34:36.916 A:middle
 to monitor for them all.
 
-00:34:37.485 --> 00:34:41.386 A:middle
+00:34:37.486 --> 00:34:41.386 A:middle
 So, that's all that
 Core Location has today.
 
@@ -2890,14 +2639,14 @@ Core Location has today.
 Do we give up, I have to
 give up on my dream app?
 
-00:34:44.536 --> 00:34:46.255 A:middle
+00:34:44.536 --> 00:34:46.256 A:middle
 Not yet. There's another one.
 
-00:34:46.516 --> 00:34:49.315 A:middle
+00:34:46.516 --> 00:34:49.316 A:middle
 We're introducing
 today Visit Monitoring.
 
-00:34:50.235 --> 00:34:51.886 A:middle
+00:34:50.236 --> 00:34:51.886 A:middle
 What makes Visit
 Monitoring different
 
@@ -2912,14 +2661,6 @@ for destinations.
 00:34:57.186 --> 00:34:59.206 A:middle
 So instead of giving
 you information
-
-00:34:59.256 --> 00:35:02.286 A:middle
-about how the user
-got from A to B,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.256 --> 00:35:02.286 A:middle
 about how the user
@@ -2961,7 +2702,7 @@ the device is asleep,
 
 00:35:28.616 --> 00:35:30.676 A:middle
 it periodically performs
-WiFi scans.
+Wi-Fi scans.
 
 00:35:31.716 --> 00:35:34.646 A:middle
 If Visit Monitoring is active,
@@ -2994,14 +2735,6 @@ the visit detection algorithm
 00:35:54.746 --> 00:35:58.046 A:middle
 and so your app benefits from
 other apps' use of location.
-
-00:35:59.756 --> 00:36:04.186 A:middle
-Finally, it utilizes information
-from across the entire system.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.756 --> 00:36:04.186 A:middle
 Finally, it utilizes information
@@ -3076,13 +2809,6 @@ turned on Visit Monitoring
 00:36:56.576 --> 00:36:59.226 A:middle
 through your app and they
 decide they want to go get a cup
-
-00:36:59.226 --> 00:37:01.146 A:middle
-of coffee, so they start walking
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.226 --> 00:37:01.146 A:middle
 of coffee, so they start walking
@@ -3175,14 +2901,6 @@ wake your app again
 and we'll provide a departure
 notification, doing our best
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.536 --> 00:38:01.366 A:middle
-and we'll provide a departure
-notification, doing our best
-
 00:38:01.366 --> 00:38:04.326 A:middle
 to estimate the true time when
 the user left the location.
@@ -3199,19 +2917,19 @@ to the locationManager,
 specifically
 startMonitoringVisits
 
-00:38:14.666 --> 00:38:16.346 A:middle
+00:38:14.736 --> 00:38:16.346 A:middle
 and stopMonitoringVisits.
 
 00:38:16.836 --> 00:38:18.836 A:middle
 When we have information
 to deliver to your app,
 
-00:38:19.136 --> 00:38:20.806 A:middle
+00:38:19.136 --> 00:38:20.466 A:middle
 we'll do it through
-the new delegate method
+the new delegate
 
-00:38:21.146 --> 00:38:22.766 A:middle
-locationManager didVisit.
+00:38:20.466 --> 00:38:22.766 A:middle
+method locationManagerdidVisit.
 
 00:38:23.576 --> 00:38:25.916 A:middle
 Some of you may have
@@ -3262,14 +2980,6 @@ know about Visit Monitoring.
 The values of horizontal
 accuracy
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:58.176 --> 00:39:01.466 A:middle
-The values of horizontal
-accuracy
-
 00:39:01.466 --> 00:39:03.976 A:middle
 and coordinate may differ
 between an arrival event
@@ -3301,10 +3011,10 @@ should be no worse
 
 00:39:18.096 --> 00:39:21.246 A:middle
 than the horizontal accuracy
-on a WiFi-based position.
+on a Wi-Fi-based position.
 
 00:39:21.486 --> 00:39:24.456 A:middle
-So, if you find WiFi-based
+So, if you find Wi-Fi-based
 positions are suitable
 
 00:39:24.456 --> 00:39:27.866 A:middle
@@ -3353,10 +3063,6 @@ to your app in a single launch.
 
 00:39:57.086 --> 00:39:59.966 A:middle
 So, when you receive visits,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.196 --> 00:40:02.096 A:middle
 you should be prepared
@@ -3438,14 +3144,6 @@ Now, let's get back to that app.
 There should be four
 steps to implementing it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.996 --> 00:41:02.196 A:middle
-There should be four
-steps to implementing it.
-
 00:41:03.286 --> 00:41:05.966 A:middle
 First, we need to adopt
 the new authorization model
@@ -3521,15 +3219,7 @@ you have to remember
 to requestAlwaysAuthorization.
 
 00:41:56.956 --> 00:42:00.516 A:middle
-And the stop is even easier, you
-just call stopMonitoringVisits.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:56.956 --> 00:42:00.516 A:middle
-And the stop is even easier, you
+And the stop is even easier: you
 just call stopMonitoringVisits.
 
 00:42:01.956 --> 00:42:06.186 A:middle
@@ -3599,14 +3289,6 @@ from the Core Location team
 
 00:42:56.616 --> 00:42:57.576 A:middle
 about Visit Monitoring.
-
-00:42:58.516 --> 00:43:00.826 A:middle
-Visit Monitoring is
-not a replacement
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.516 --> 00:43:00.826 A:middle
 Visit Monitoring is
@@ -3685,14 +3367,6 @@ you might have,
 00:43:54.576 --> 00:43:56.186 A:middle
 any problems you might
 have encountered,
-
-00:43:56.346 --> 00:44:00.376 A:middle
-and we'll do our best to help
-you get your app up and running.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:56.346 --> 00:44:00.376 A:middle
 and we'll do our best to help
@@ -3785,14 +3459,6 @@ explain it to your users.
 And third, you want to make the
 call to request authorization.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.946 --> 00:45:03.336 A:middle
-And third, you want to make the
-call to request authorization.
-
 00:45:03.816 --> 00:45:07.026 A:middle
 And you should try this out
 today because come Thursday,
@@ -3843,15 +3509,15 @@ our great documentation online.
 
 00:45:43.306 --> 00:45:45.236 A:middle
 We have the Core Location
-framework reference,
+Framework Reference,
 
 00:45:45.766 --> 00:45:48.536 A:middle
 which is updated with everything
 that we've talked about today.
 
 00:45:49.566 --> 00:45:52.146 A:middle
-We also have a location
-and maps programming guide,
+We also have a Location
+and Maps Programming Guide,
 
 00:45:52.546 --> 00:45:54.276 A:middle
 which is always being
@@ -3864,10 +3530,6 @@ and, as always,
 00:45:57.296 --> 00:45:58.856 A:middle
 visit the Apple Developer
 Forums.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:01.176 --> 00:46:04.716 A:middle
 For related sessions, we have a
@@ -3894,8 +3556,8 @@ Also, as we mentioned,
 directly following this session,
 
 00:46:19.696 --> 00:46:21.586 A:middle
-taking Core Location
-Indoors for more
+"Taking Core Location
+Indoors" for more
 
 00:46:21.586 --> 00:46:23.256 A:middle
 on what's new in Core Location.
@@ -3905,8 +3567,8 @@ Also tomorrow, I
 highly recommend part 2
 
 00:46:27.016 --> 00:46:28.676 A:middle
-of Writing Energy-Efficient
-Code,
+of "Writing Energy-Efficient
+Code",
 
 00:46:29.206 --> 00:46:32.236 A:middle
 which will cover some good
@@ -3917,8 +3579,8 @@ in addition to other
 technology in your apps.
 
 00:46:35.686 --> 00:46:39.466 A:middle
-Also tomorrow, What's New In
-iOS Notifications for more
+Also tomorrow, "What's New In
+iOS Notifications" for more
 
 00:46:39.466 --> 00:46:41.836 A:middle
 on the region-based
@@ -3938,4 +3600,3 @@ authorization and privacy
 00:46:52.036 --> 00:46:55.776 A:middle
 and other privacy-related
 topics on both iOS and OS X.
-

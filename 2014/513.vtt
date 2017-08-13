@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:09.516 A:middle
 [ Silence ]
@@ -59,19 +58,11 @@ this will extend battery life.
 
 00:00:48.236 --> 00:00:53.456 A:middle
 Users will really appreciate it
-if their OS X, their portables
+if their OS X, their portables,
 
 00:00:53.736 --> 00:00:56.616 A:middle
 as well as their iOS devices
 have improved battery life.
-
-00:00:57.356 --> 00:01:00.486 A:middle
-And as an added bonus, people
-with portables will love it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.356 --> 00:01:00.486 A:middle
 And as an added bonus, people
@@ -125,7 +116,7 @@ want to display
 
 00:01:30.186 --> 00:01:33.026 A:middle
 that in your application, but
-you actually want to get access
+you want to actually get access
 
 00:01:33.026 --> 00:01:34.736 A:middle
 to those decoded
@@ -161,14 +152,6 @@ those but get direct access
 00:01:57.186 --> 00:01:58.726 A:middle
 to those compressed
 sample buffers
-
-00:01:59.066 --> 00:02:00.616 A:middle
-so that you can send
-them out over the network
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.066 --> 00:02:00.616 A:middle
 so that you can send
@@ -211,11 +194,12 @@ we're talking about video.
 00:02:28.116 --> 00:02:30.496 A:middle
 So at the top we have AVKit.
 
-00:02:30.496 --> 00:02:35.196 A:middle
-AVKit provides very easy-to-use
-high level view level interfaces
+00:02:30.496 --> 00:02:33.866 A:middle
+AVKit provides very
+easy-to-use high level - ah,
 
-00:02:35.196 --> 00:02:36.056 A:middle
+00:02:34.056 --> 00:02:36.056 A:middle
+view level interfaces
 for dealing with media.
 
 00:02:37.496 --> 00:02:39.316 A:middle
@@ -224,7 +208,7 @@ AVFoundation.
 
 00:02:39.686 --> 00:02:42.226 A:middle
 AVFoundation provides an
-easy-to-use objective C
+easy-to-use Objective-C
 
 00:02:42.226 --> 00:02:45.026 A:middle
 interface for a wide
@@ -242,20 +226,13 @@ there on OS X for a while,
 but now it's finally
 populated with headers on iOS.
 
-00:02:55.676 --> 00:02:57.996 A:middle
-This provides direct
-access to encoders
-
-00:02:57.996 --> 00:02:58.646 A:middle
-and decoders [applause].
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:02:55.676 --> 00:02:58.646 A:middle
+This provides direct access
+to encoders and decoders.
 
 00:03:01.306 --> 00:03:05.926 A:middle
-And below that we have
-Core Media Core Video.
+[applause] And below that we
+have Core Media and Core Video.
 
 00:03:06.246 --> 00:03:09.226 A:middle
 These frameworks provide
@@ -289,7 +266,7 @@ in your application or compress
 frames directly into a file.
 
 00:03:30.676 --> 00:03:34.156 A:middle
-And the Video Toolbox we'll
+And the Video Toolbox -- we'll
 be looking at these interfaces
 
 00:03:34.156 --> 00:03:37.216 A:middle
@@ -323,21 +300,13 @@ but that's really not true.
 00:03:57.366 --> 00:03:59.806 A:middle
 On iOS, AVKit, AVFoundation
 
-00:03:59.806 --> 00:04:02.666 A:middle
+00:03:59.806 --> 00:04:02.816 A:middle
 and Video Toolbox will
-all use hardware codec.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.806 --> 00:04:02.666 A:middle
-and Video Toolbox will
-all use hardware codec.
+all use hardware codecs.
 
 00:04:04.046 --> 00:04:07.236 A:middle
 On OS X, AVKit and AVFoundation
-will use hardware codec
+will use hardware codecs
 
 00:04:07.236 --> 00:04:09.596 A:middle
 when they're available on
@@ -346,15 +315,15 @@ the system and when you --
 00:04:09.756 --> 00:04:10.876 A:middle
 when it's appropriate.
 
-00:04:11.706 --> 00:04:14.146 A:middle
+00:04:11.706 --> 00:04:14.336 A:middle
 And Video Toolbox will
-use hardware codec
+use hardware codecs
 
-00:04:14.296 --> 00:04:17.976 A:middle
+00:04:14.336 --> 00:04:17.976 A:middle
 when it's available on system
 and when you request it.
 
-00:04:19.026 --> 00:04:19.375 A:middle
+00:04:19.026 --> 00:04:19.376 A:middle
 All right.
 
 00:04:20.646 --> 00:04:23.056 A:middle
@@ -411,13 +380,6 @@ CVPixelBufferPool.
 00:04:58.436 --> 00:05:00.306 A:middle
 The CVPixelBufferPool allows you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.436 --> 00:05:00.306 A:middle
-The CVPixelBufferPool allows you
-
 00:05:00.306 --> 00:05:03.136 A:middle
 to efficiently recycle
 CVPixelBuffer back ends.
@@ -454,14 +416,14 @@ into the pool and it's available
 
 00:05:25.016 --> 00:05:30.266 A:middle
 for reuse next time you allocate
-a PixelBuffer from that pool.
+a pixel buffer from that pool.
 
 00:05:31.266 --> 00:05:34.336 A:middle
 Next thing is
 pixelBufferAttributes.
 
 00:05:34.456 --> 00:05:36.636 A:middle
-This isn't actually a type
+This isn't actually a type,
 like the rest of the things
 
 00:05:36.636 --> 00:05:40.576 A:middle
@@ -490,8 +452,8 @@ either a CVPixelBuffer
 or a PixelBufferPool.
 
 00:05:52.646 --> 00:05:56.096 A:middle
-This includes the -- this
-can include several things.
+This includes the, you can --
+this can include several things.
 
 00:05:56.096 --> 00:05:57.206 A:middle
 This can include dimensions
@@ -499,14 +461,6 @@ This can include dimensions
 00:05:57.206 --> 00:05:58.906 A:middle
 that you're requesting,
 the width and height.
-
-00:05:59.436 --> 00:06:02.076 A:middle
-This can include a specific
-pixel format or a list
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.436 --> 00:06:02.076 A:middle
 This can include a specific
@@ -547,15 +501,15 @@ This is a rational
 representation of a time value.
 
 00:06:29.716 --> 00:06:33.656 A:middle
-It contains a 64 byte time
+It contains a 64-bit time
 value that's the numerator,
 
 00:06:34.216 --> 00:06:36.676 A:middle
-and a 32 byte time scale,
+and a 32-bit time scale,
 which is the denominator.
 
 00:06:37.326 --> 00:06:39.096 A:middle
-We use the sort of
+We use this sort of
 rational representation
 
 00:06:39.096 --> 00:06:41.966 A:middle
@@ -590,14 +544,6 @@ This contains the dimensions.
 This includes the pixel format
 and there's a set of extensions
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.786 --> 00:07:03.446 A:middle
-This includes the pixel format
-and there's a set of extensions
-
 00:07:03.446 --> 00:07:07.546 A:middle
 that go along with the
 CMVideoFormatDescription.
@@ -606,12 +552,12 @@ CMVideoFormatDescription.
 These extensions can
 include information to --
 
-00:07:11.866 --> 00:07:15.696 A:middle
+00:07:11.866 --> 00:07:15.416 A:middle
 information used for
-displaying that video data just
+displaying that video data,
 
-00:07:15.696 --> 00:07:16.896 A:middle
-as pixel aspect ratio,
+00:07:15.416 --> 00:07:16.896 A:middle
+such as pixel aspect ratio,
 
 00:07:17.356 --> 00:07:19.546 A:middle
 and it can include
@@ -638,7 +584,7 @@ CMBlockBuffer is the basic way
 that we wrap arbitrary blocks
 
 00:07:37.076 --> 00:07:38.096 A:middle
-of data in core media.
+of data in Core Media.
 
 00:07:39.096 --> 00:07:41.506 A:middle
 In general, when you
@@ -667,24 +613,16 @@ These wrap samples of data.
 In the case of video,
 
 00:07:58.446 --> 00:08:02.006 A:middle
-CMSampleBuffer's can wrap
+CMSampleBuffers can wrap
 either compressed video frames
 
+00:08:02.006 --> 00:08:06.046 A:middle
+or uncompressed video frames and
+CMSampleBuffers build on several
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.446 --> 00:08:02.006 A:middle
-CMSampleBuffer's can wrap
-either compressed video frames
-
-00:08:02.006 --> 00:08:05.536 A:middle
-or uncompressed video frames
-and CMSampleBuffer's build
-
-00:08:05.536 --> 00:08:07.366 A:middle
-on several of the types that
-we've talked about here.
+00:08:06.046 --> 00:08:07.366 A:middle
+of the types that we've
+talked about here.
 
 00:08:08.226 --> 00:08:09.796 A:middle
 They contain a CMTime.
@@ -720,7 +658,7 @@ image in the CMSampleBuffer,
 the uncompressed image
 may be in a CVPixelBuffer
 
-00:08:32.816 --> 00:08:34.385 A:middle
+00:08:32.816 --> 00:08:34.386 A:middle
 or it may be in a CMBlockBuffer.
 
 00:08:34.956 --> 00:08:37.056 A:middle
@@ -729,21 +667,25 @@ All right.
 00:08:37.056 --> 00:08:38.346 A:middle
 Next, we've got CMClock.
 
-00:08:39.576 --> 00:08:43.385 A:middle
-CMClock is the core media
-wrapper around a source of time
+00:08:39.576 --> 00:08:42.746 A:middle
+CMClock is the Core Media
+wrapper around a source
 
-00:08:43.936 --> 00:08:46.636 A:middle
-and like the clock on a
-wall, there's no clocks
+00:08:42.746 --> 00:08:45.936 A:middle
+of time and, like the
+clock on a wall --
 
-00:08:46.636 --> 00:08:48.426 A:middle
-on the wall here, but
+00:08:46.076 --> 00:08:47.366 A:middle
+there's no clocks on
+the wall here, but --
+
+00:08:47.506 --> 00:08:50.066 A:middle
 like a clock on the wall,
+time is always moving
 
-00:08:48.896 --> 00:08:52.226 A:middle
-time is always moving and it's
-always increasing on a CMClock.
+00:08:50.066 --> 00:08:52.226 A:middle
+and it's always increasing
+on a CMClock.
 
 00:08:53.506 --> 00:08:55.246 A:middle
 One of the common clocks
@@ -756,16 +698,8 @@ is the HostTimeClock.
 So CMClockgetHostTimeClock will
 return a clock which is based
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:58.026 --> 00:09:03.546 A:middle
-So CMClockgetHostTimeClock will
-return a clock which is based
-
 00:09:03.696 --> 00:09:06.016 A:middle
-on mach absolute time.
+on mach-absolute-time.
 
 00:09:08.096 --> 00:09:10.516 A:middle
 So CMClocks are hard to control.
@@ -790,30 +724,30 @@ create a CMClock based --
 
 00:09:25.826 --> 00:09:27.956 A:middle
 CMTimebase based on
-the host time clock,
+the hostTime clock,
 
 00:09:28.346 --> 00:09:31.196 A:middle
-we could then set the time to
-time zero on our time base.
+we could then set the time
+to time zero on our timebase.
 
 00:09:32.966 --> 00:09:37.606 A:middle
-Now, time zero on our time
-base maps to the current time
+Now, time zero on our timebase
+maps to the current time
 
 00:09:37.656 --> 00:09:42.006 A:middle
 on the CMClock, and you
 can control the rate
 
 00:09:42.096 --> 00:09:43.246 A:middle
-of your time base.
+of your timebase.
 
 00:09:43.346 --> 00:09:46.206 A:middle
 So if you were then to go and
-set your time base rate to one,
+set your timebase rate to one,
 
 00:09:46.376 --> 00:09:48.866 A:middle
 time will begin advancing on
-your time base at the same rate
+your timebase at the same rate
 
 00:09:48.916 --> 00:09:50.596 A:middle
 at which the clock is advancing.
@@ -829,10 +763,6 @@ based on other CMTimebases.
 00:09:58.836 --> 00:09:59.736 A:middle
 All right.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.576 --> 00:10:02.376 A:middle
 Let's hop into our
 first use case.
@@ -847,10 +777,10 @@ since its video data coming
 
 00:10:08.746 --> 00:10:10.986 A:middle
 over the network, we can
-safely assume it's a cat video,
+safely assume it's a cat video
 
 00:10:12.246 --> 00:10:16.916 A:middle
-and so we've got
+[applause] and so we've got
 AVSampleBufferDisplayLayer,
 
 00:10:16.916 --> 00:10:21.086 A:middle
@@ -873,12 +803,15 @@ it's new in iOS8.
 So let's take a look inside
 AVSampleBufferDisplayLayer.
 
-00:10:34.846 --> 00:10:39.256 A:middle
-As I mentioned, it takes a
-sequence of compressed frames
+00:10:34.846 --> 00:10:37.546 A:middle
+As I mentioned, it takes
+a -- a CM sample --
 
-00:10:39.256 --> 00:10:41.706 A:middle
-as input and these need
+00:10:37.546 --> 00:10:40.306 A:middle
+a sequence of compressed
+frames as input and these need
+
+00:10:40.306 --> 00:10:41.706 A:middle
 to be in CMSampleBuffers.
 
 00:10:42.796 --> 00:10:44.776 A:middle
@@ -891,22 +824,14 @@ frames into CVPixelBuffers
 
 00:10:49.006 --> 00:10:51.806 A:middle
 and it will have a sequence
-of CVPixelBuffers queued up
+of CVPixelBuffers queued up,
 
-00:10:51.876 --> 00:10:53.996 A:middle
-and ready to display
+00:10:51.936 --> 00:10:53.996 A:middle
+ready to display
 in your application
 
 00:10:53.996 --> 00:10:54.976 A:middle
 at the appropriate time.
-
-00:10:55.546 --> 00:11:00.966 A:middle
-But, I mentioned we were getting
-our data off of the network.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:55.546 --> 00:11:00.966 A:middle
 But, I mentioned we were getting
@@ -927,9 +852,12 @@ elementary stream.
 00:11:08.886 --> 00:11:10.686 A:middle
 And I mentioned that CMSample --
 
-00:11:10.796 --> 00:11:14.566 A:middle
-AVSampleBufferDisplayLayer wants
-CMSampleBuffers as its input.
+00:11:10.796 --> 00:11:13.926 A:middle
+uh, AVSampleBufferDisplayLayer
+wants CMSampleBuffers
+
+00:11:13.926 --> 00:11:14.566 A:middle
+as its input.
 
 00:11:15.836 --> 00:11:18.256 A:middle
 Well, there's a little bit of
@@ -937,7 +865,7 @@ work that has to happen here
 
 00:11:18.256 --> 00:11:20.036 A:middle
 to convert your elementary
-screen data
+stream data
 
 00:11:20.036 --> 00:11:21.276 A:middle
 into CMSampleBuffers.
@@ -957,7 +885,7 @@ of ways of packaging H.264 data.
 The first one I'm going to refer
 
 00:11:34.386 --> 00:11:35.996 A:middle
-to is Elementary
+to as Elementary
 Stream packaging.
 
 00:11:36.506 --> 00:11:38.986 A:middle
@@ -977,7 +905,7 @@ files and MP4 files.
 
 00:11:48.786 --> 00:11:52.516 A:middle
 And in our interfaces that deal
-with CMSampleBuffers, core media
+with CMSampleBuffers, Core Media
 
 00:11:52.516 --> 00:11:56.376 A:middle
 and AVFoundation exclusively
@@ -985,10 +913,6 @@ want the data packaged
 
 00:11:56.616 --> 00:11:58.656 A:middle
 in MPEG-4 packaging.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.006 --> 00:12:03.496 A:middle
 So let's look closer
@@ -1022,11 +946,11 @@ First off, they can
 contain sample data.
 
 00:12:25.846 --> 00:12:30.976 A:middle
-So you could have a single
+So you could have -- a single
 frame of video could be packaged
 
 00:12:30.976 --> 00:12:36.016 A:middle
-in one NAL Unit or a frame
+in one NAL Unit, or a frame
 of video could be spread
 
 00:12:36.016 --> 00:12:37.386 A:middle
@@ -1040,12 +964,12 @@ can contain is parameter sets.
 The parameter sets, the
 Sequence Parameter Set
 
-00:12:45.686 --> 00:12:49.416 A:middle
+00:12:45.686 --> 00:12:49.526 A:middle
 and Picture Parameter
-Set are chunks of data
+Set, are chunks of data
 
-00:12:49.416 --> 00:12:51.856 A:middle
-of which the decoder holds
+00:12:49.526 --> 00:12:51.856 A:middle
+which the decoder holds
 on to and these apply
 
 00:12:51.856 --> 00:12:55.916 A:middle
@@ -1054,14 +978,6 @@ to all subsequent frames; well,
 00:12:55.916 --> 00:12:57.316 A:middle
 until a new parameter
 set arrives.
-
-00:12:59.226 --> 00:13:01.536 A:middle
-So let's look at
-Elementary Stream packaging.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.226 --> 00:13:01.536 A:middle
 So let's look at
@@ -1148,14 +1064,6 @@ and NAL Units and you're going
 to have to package those in
 a CMVideoFormatDescription.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.276 --> 00:14:01.276 A:middle
-to have to package those in
-a CMVideoFormatDescription.
-
 00:14:02.086 --> 00:14:05.096 A:middle
 Well, we provide a handy
 utility that does this for you;
@@ -1164,8 +1072,11 @@ utility that does this for you;
 CMVideoFormatDescription
 CreatefromH264ParameterSets.
 
-00:14:08.516 --> 00:14:12.956 A:middle
+00:14:08.516 --> 00:14:12.516 A:middle
 [ Applause ]
+
+00:14:13.016 --> 00:14:13.083 A:middle
+[ Laughs ]
 
 00:14:13.456 --> 00:14:17.396 A:middle
 All right, so the next
@@ -1179,16 +1090,17 @@ an Elementary Stream
 and MPEG-4 packaging
 is in NAL Unit headers.
 
-00:14:24.086 --> 00:14:25.286 A:middle
+00:14:24.086 --> 00:14:25.916 A:middle
 So each NAL Unit
+in an the stream --
 
-00:14:25.286 --> 00:14:27.736 A:middle
-in an Elementary
-Stream will have a three
+00:14:25.916 --> 00:14:29.866 A:middle
+Elementary Stream will have a
+three or four bytes start code
 
-00:14:27.736 --> 00:14:33.166 A:middle
-or four bytes start code as the
-header and in MPEG-4 packaging,
+00:14:29.866 --> 00:14:33.166 A:middle
+as the header and
+in MPEG-4 packaging,
 
 00:14:33.256 --> 00:14:34.786 A:middle
 we have a length code.
@@ -1203,7 +1115,7 @@ off that start code
 
 00:14:41.026 --> 00:14:42.426 A:middle
 and replace it with
-a length code.
+the length code.
 
 00:14:42.766 --> 00:14:44.066 A:middle
 That's the length
@@ -1220,19 +1132,11 @@ building a CMSampleBuffer
 from your Elementary Stream.
 
 00:14:52.916 --> 00:14:55.096 A:middle
-First thing you're going to
-have to do is take your NAL Unit
+First thing you're going to have
+to do is take your NAL Unit,
 
 00:14:55.476 --> 00:15:00.496 A:middle
-or NAL Units and replace the
-start code with a length code.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:55.476 --> 00:15:00.496 A:middle
-or NAL Units and replace the
+or NAL Units, and replace the
 start code with a length code.
 
 00:15:02.436 --> 00:15:05.986 A:middle
@@ -1278,7 +1182,7 @@ and you have everything
 you need in order
 
 00:15:29.876 --> 00:15:33.696 A:middle
-to create CMSampleBuffer
+to create a CMSampleBuffer
 using CMSampleBufferCreate.
 
 00:15:34.536 --> 00:15:38.256 A:middle
@@ -1286,7 +1190,7 @@ All right, let's talk
 
 00:15:38.256 --> 00:15:40.336 A:middle
 about AVSampleBufferDisplayLayer
-in time.
+and Time.
 
 00:15:41.086 --> 00:15:41.936 A:middle
 So as we saw,
@@ -1312,38 +1216,34 @@ to display these frames?
 
 00:15:56.516 --> 00:15:59.286 A:middle
 By default, it will be driven
-off of the host time clock.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+off of the hostTime clock.
 
 00:16:00.466 --> 00:16:02.426 A:middle
 Well, that can be a
-little bit hard to manager.
+little bit hard to manage;
 
 00:16:02.426 --> 00:16:05.266 A:middle
-The host time clock isn't
+the hostTime clock isn't
 really under your control.
 
 00:16:06.126 --> 00:16:08.796 A:middle
 So we allow you to
-replace the host time clock
+replace the hostTime clock
 
 00:16:08.796 --> 00:16:10.936 A:middle
-with your own time base.
+with your own timebase.
 
 00:16:11.816 --> 00:16:14.826 A:middle
-To do this you set the time --
-you know in the example here,
+To do this you set the time -
+y'know, in the example here,
 
 00:16:15.026 --> 00:16:18.566 A:middle
-we're creating a time base
-based on the host time clock
+we're creating a timebase
+based on the hostTime clock
 
 00:16:18.986 --> 00:16:21.096 A:middle
 and we're setting that
-as the control time base
+as the control timebase
 
 00:16:21.096 --> 00:16:22.716 A:middle
 on our
@@ -1351,7 +1251,7 @@ AVSampleBufferDisplayLayer.
 
 00:16:24.056 --> 00:16:26.016 A:middle
 Here, we're setting the
-time base time to five,
+timebase time to five,
 
 00:16:26.056 --> 00:16:29.146 A:middle
 which would mean our frame
@@ -1362,15 +1262,15 @@ displayed in our layer,
 and then we go ahead
 
 00:16:31.916 --> 00:16:33.676 A:middle
-and set the time
-base rate to one,
+and set the timebase
+rate to one,
 
 00:16:34.046 --> 00:16:36.266 A:middle
-and now our time base begins
+and now our timebase begins
 moving at the same rate
 
 00:16:36.266 --> 00:16:38.936 A:middle
-as the host time clock,
+as the hostTime clock,
 
 00:16:39.476 --> 00:16:42.186 A:middle
 and subsequent frames
@@ -1408,14 +1308,6 @@ you're getting frames
 in at basically the same rate
 at which they're being displayed
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.966 --> 00:17:03.026 A:middle
-in at basically the same rate
-at which they're being displayed
-
 00:17:03.026 --> 00:17:05.556 A:middle
 in the
 AVSampleBufferDisplayLayer.
@@ -1424,29 +1316,29 @@ AVSampleBufferDisplayLayer.
 This would be the case
 for a live streaming app
 
-00:17:08.896 --> 00:17:12.195 A:middle
+00:17:08.896 --> 00:17:12.196 A:middle
 or live streaming
 app with low latency
 
-00:17:12.195 --> 00:17:14.066 A:middle
+00:17:12.196 --> 00:17:14.066 A:middle
 or video conferencing scenario.
 
-00:17:15.175 --> 00:17:17.626 A:middle
+00:17:15.176 --> 00:17:17.626 A:middle
 The next case is the
 unconstrained source.
 
-00:17:18.056 --> 00:17:22.215 A:middle
+00:17:18.056 --> 00:17:22.216 A:middle
 This is the case where you have
 a large set of CMSampleBuffers
 
-00:17:22.215 --> 00:17:23.576 A:middle
+00:17:22.216 --> 00:17:23.576 A:middle
 at your disposal ready to feed
 
-00:17:23.576 --> 00:17:26.415 A:middle
+00:17:23.576 --> 00:17:26.416 A:middle
 into the
 AVSampleBufferDisplayLayer
 
-00:17:26.756 --> 00:17:27.445 A:middle
+00:17:26.756 --> 00:17:27.446 A:middle
 at one time.
 
 00:17:28.756 --> 00:17:31.076 A:middle
@@ -1505,14 +1397,6 @@ all of those CMSampleBuffers
 into the
 AVSampleBufferDisplayLayer
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:59.056 --> 00:18:00.446 A:middle
-into the
-AVSampleBufferDisplayLayer
-
 00:18:00.446 --> 00:18:00.836 A:middle
 at once.
 
@@ -1522,15 +1406,15 @@ No one will be happy with that.
 00:18:03.706 --> 00:18:05.136 A:middle
 What you want to do,
 
-00:18:05.226 --> 00:18:10.416 A:middle
+00:18:05.226 --> 00:18:10.326 A:middle
 the AVSampleBufferDisplayLayer
-can tell you when its buffers,
+can tell you when it's buffers -
 
-00:18:10.996 --> 00:18:13.196 A:middle
-internal buffers are low
-and it needs more data
+00:18:10.376 --> 00:18:13.086 A:middle
+it's internal buffers are
+low and it needs more data
 
-00:18:13.776 --> 00:18:15.806 A:middle
+00:18:13.086 --> 00:18:15.806 A:middle
 and you can ask it when
 it has enough data.
 
@@ -1550,7 +1434,7 @@ and AVSampleBufferDisplayLayer
 will call your block every time
 
 00:18:31.216 --> 00:18:34.346 A:middle
-its internal queue's are
+its internal queues are
 low and it needs more data.
 
 00:18:36.576 --> 00:18:38.646 A:middle
@@ -1567,7 +1451,7 @@ column.
 
 00:18:46.296 --> 00:18:49.166 A:middle
 If it returns true, that means
-it wants for SampleBuffers,
+it wants more SampleBuffers,
 
 00:18:49.306 --> 00:18:51.126 A:middle
 so you keep on feeding
@@ -1583,10 +1467,6 @@ enough and you can stop.
 00:18:56.226 --> 00:18:58.656 A:middle
 So it's a pretty
 simple loop to write.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.276 --> 00:19:01.456 A:middle
 All right.
@@ -1607,17 +1487,13 @@ should be able
 to create an
 AVSampleBufferDisplayLayer.
 
-00:19:11.716 --> 00:19:14.396 A:middle
-You've learned how to
-convert your Elementary Stream
+00:19:11.716 --> 00:19:16.256 A:middle
+You've learned how to convert
+your Elementary Stream H.264
 
-00:19:14.616 --> 00:19:17.676 A:middle
-to H.264 data into
-CMSampleBuffers
-
-00:19:17.726 --> 00:19:20.376 A:middle
-that will happily
-be decompressed
+00:19:16.256 --> 00:19:20.376 A:middle
+data into CMSampleBuffers that
+will happily be decompressed
 
 00:19:20.376 --> 00:19:21.926 A:middle
 by your
@@ -1637,7 +1513,7 @@ AVSampleBufferDisplayLayer.
 
 00:19:31.786 --> 00:19:34.386 A:middle
 And finally, we talked about
-using a custom time base
+using a custom CMTimebase
 
 00:19:34.386 --> 00:19:35.966 A:middle
 with the
@@ -1654,17 +1530,13 @@ our second case.
 This is the case where you have
 a stream of H.264 data coming
 
-00:19:43.296 --> 00:19:44.946 A:middle
-in over the network,
-but you don't want
+00:19:43.296 --> 00:19:45.536 A:middle
+in over the network, but you
+don't want to just display it
 
-00:19:44.946 --> 00:19:46.296 A:middle
-to just display it
-in your application.
-
-00:19:46.296 --> 00:19:48.066 A:middle
-You want to actually
-decode those frames
+00:19:45.536 --> 00:19:48.066 A:middle
+in your application; you want
+to actually decode those frames
 
 00:19:48.066 --> 00:19:50.766 A:middle
 and get the decompressed
@@ -1679,14 +1551,6 @@ contains a lot
 
 00:19:57.886 --> 00:19:58.756 A:middle
 of the pieces we need.
-
-00:19:59.656 --> 00:20:01.886 A:middle
-But instead of accessing
-the video decoder
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.656 --> 00:20:01.886 A:middle
 But instead of accessing
@@ -1717,7 +1581,7 @@ to CVPixelBuffers
 and receive those
 
 00:20:20.796 --> 00:20:22.866 A:middle
-in the output callback
+in the OutputCallback
 that you implement.
 
 00:20:24.166 --> 00:20:26.766 A:middle
@@ -1739,12 +1603,13 @@ you'll be decompressing.
 This is a
 CMVideoFormatDescription.
 
-00:20:35.306 --> 00:20:39.426 A:middle
-If you're decompressing from an
-Elementary Stream you've created
+00:20:35.306 --> 00:20:38.956 A:middle
+If you're decompressing
+from an Elementary Stream,
 
-00:20:39.426 --> 00:20:40.576 A:middle
-this from your parameter sets,
+00:20:38.956 --> 00:20:40.576 A:middle
+you've created this from
+your parameter sets,
 
 00:20:41.006 --> 00:20:43.046 A:middle
 if you just have a
@@ -1752,14 +1617,14 @@ CMSampleBuffer that you want
 
 00:20:43.046 --> 00:20:46.026 A:middle
 to decompress you can pull it
-right off the CMSampleBuffer.
+straight off the CMSampleBuffer.
 
 00:20:47.916 --> 00:20:49.726 A:middle
 Next, you need to
 describe your requirements
 
 00:20:49.726 --> 00:20:51.306 A:middle
-for your output pixel buffers.
+for your output pixelBuffers.
 
 00:20:51.986 --> 00:20:55.086 A:middle
 You use a pixelBufferAttributes
@@ -1767,14 +1632,6 @@ dictionary for this.
 
 00:20:56.696 --> 00:20:57.706 A:middle
 And finally, you need
-
-00:20:57.706 --> 00:21:00.406 A:middle
-to implement a
-VTDecompressionOutputCallback.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:57.706 --> 00:21:00.406 A:middle
 to implement a
@@ -1788,7 +1645,7 @@ Let's talk about
 describing your requirements
 
 00:21:04.446 --> 00:21:06.286 A:middle
-for the Output PixelBuffers.
+for the output pixelBuffers.
 
 00:21:07.006 --> 00:21:08.906 A:middle
 Here, you need to create
@@ -1821,26 +1678,26 @@ ES compatible.
 
 00:21:24.416 --> 00:21:28.336 A:middle
 So we can go ahead and
-just create a CF dictionary
+just create a CFDictionary
 
 00:21:28.336 --> 00:21:32.016 A:middle
-or NS dictionary specifying
+or NSDictionary specifying
 the kCVPixelBufferOpen
 
 00:21:32.016 --> 00:21:37.976 A:middle
 GLESCompatibilityKey
 and set it to true.
 
-00:21:38.826 --> 00:21:40.826 A:middle
-So it can be very tempting
+00:21:38.826 --> 00:21:41.276 A:middle
+So it can be very tempting to,
 
-00:21:41.046 --> 00:21:42.926 A:middle
-to when you're creating
-these PixelBufferAttributes
+00:21:41.326 --> 00:21:42.926 A:middle
+when you're creating these
+PixelBufferAttributes
 
 00:21:42.926 --> 00:21:44.636 A:middle
-dictionaries to be
-very specific.
+dictionaries, to
+be very specific.
 
 00:21:45.226 --> 00:21:47.256 A:middle
 That way, there's no
@@ -1863,36 +1720,29 @@ GLESCompatibilityKey set
 00:21:56.446 --> 00:21:56.876 A:middle
 to true.
 
-00:21:58.126 --> 00:22:00.936 A:middle
+00:21:58.126 --> 00:21:59.636 A:middle
 Here, our decompression
-session, the decoder inside
+session --
 
+00:21:59.886 --> 00:22:02.176 A:middle
+the decoder inside of our
+decompression session is going
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.126 --> 00:22:00.936 A:middle
-Here, our decompression
-session, the decoder inside
-
-00:22:00.936 --> 00:22:03.256 A:middle
-of our decompression session is
-going to be decoding the frames
-
-00:22:03.256 --> 00:22:05.736 A:middle
-and outputting YUV
-CVPixelBuffers.
+00:22:02.176 --> 00:22:05.736 A:middle
+to be decoding the frames and
+outputting YUV CVPixelBuffers.
 
 00:22:06.966 --> 00:22:10.736 A:middle
 In the VTDecompressionSession
-will then ask is this --
+we'll then ask, is this --
 
 00:22:11.146 --> 00:22:14.006 A:middle
-well, it'll ask itself, is
+well, it'll ask itself, "is
 this PixelBuffer compatible
 
 00:22:14.006 --> 00:22:16.066 A:middle
-with those requested attributes.
+with those requested
+attributes?"
 
 00:22:16.696 --> 00:22:17.686 A:middle
 And the answer is yes.
@@ -1945,23 +1795,15 @@ So extra buffer copies are bad.
 They decrease efficiency
 and they can lead
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.296 --> 00:23:02.856 A:middle
-They decrease efficiency
-and they can lead
-
 00:23:02.986 --> 00:23:04.686 A:middle
 to decreased battery life.
 
 00:23:05.086 --> 00:23:08.456 A:middle
-So the moral story here is
-be it -- don't over specify.
+So the moral story here is --
+be, uh -- don't over specify.
 
 00:23:09.796 --> 00:23:12.776 A:middle
-All right, so let's talk
+All right, let's talk
 about your Output Callback.
 
 00:23:14.276 --> 00:23:15.956 A:middle
@@ -2027,14 +1869,6 @@ AVSampleBufferDisplayLayer,
 you need to provide these as
 CMSampleBuffers, and you need
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.526 --> 00:24:03.306 A:middle
-you need to provide these as
-CMSampleBuffers, and you need
-
 00:24:03.306 --> 00:24:05.196 A:middle
 to provide these
 frames in decode order.
@@ -2049,28 +1883,28 @@ DecodeFrame will
 00:24:11.256 --> 00:24:12.416 A:middle
 operate synchronously.
 
-00:24:12.736 --> 00:24:15.906 A:middle
-This means that your Output
-Callback will be called before
+00:24:12.736 --> 00:24:15.356 A:middle
+This means that your
+OutputCallback will be called
 
-00:24:15.906 --> 00:24:18.976 A:middle
-VTDecompression
+00:24:15.566 --> 00:24:18.976 A:middle
+before VTDecompression
 SessionDecodeFrame returns.
 
 00:24:20.526 --> 00:24:22.746 A:middle
-If you want a synchronous
+If you want asynchronous
 operation, you can pass
 
 00:24:22.746 --> 00:24:25.556 A:middle
 in the flag requesting
-EnableASynchronous
+EnableAsynchronous
 
 00:24:25.586 --> 00:24:26.346 A:middle
 Decompression.
 
 00:24:26.896 --> 00:24:32.256 A:middle
 All right, let's talk about
-Asynchronous Decompression then.
+asynchronous decompression then.
 
 00:24:32.256 --> 00:24:33.546 A:middle
 With ASynchronousDecompression,
@@ -2091,7 +1925,7 @@ But decoders often have limited
 pipelines for decoding frames.
 
 00:24:45.446 --> 00:24:48.566 A:middle
-So when the decoders
+So when the decoder's
 internal pipeline is full,
 
 00:24:48.566 --> 00:24:51.966 A:middle
@@ -2110,14 +1944,6 @@ back pressure.
 So what this means is that
 even though you're calling
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.896 --> 00:25:01.996 A:middle
-So what this means is that
-even though you're calling
-
 00:25:02.086 --> 00:25:04.186 A:middle
 VTDecompressionSession
 DecodeFrame
@@ -2130,13 +1956,16 @@ Decompression,
 we will be doing the
 decompression asynchronously
 
-00:25:09.396 --> 00:25:14.336 A:middle
-but the call can still block in
-some cases, so be aware of that.
+00:25:09.396 --> 00:25:11.866 A:middle
+but the call can still
+block (in some cases).
+
+00:25:12.406 --> 00:25:14.336 A:middle
+So be aware of that.
 
 00:25:14.336 --> 00:25:15.796 A:middle
 You're doing
-ASynchronousDecompression
+AsynchronousDecompression
 
 00:25:15.796 --> 00:25:19.546 A:middle
 but the call can block, so don't
@@ -2150,12 +1979,12 @@ in a situation where you want
 to ensure that all asynchronous
 frames have been cleared
 
-00:25:26.746 --> 00:25:31.416 A:middle
-out of the decoder, you can call
-VTDecompressionSession and wait
+00:25:26.746 --> 00:25:30.596 A:middle
+out of the decoder, you can
+call VTDecompressionSession
 
-00:25:31.416 --> 00:25:32.496 A:middle
-for asynchronous frames.
+00:25:30.596 --> 00:25:32.496 A:middle
+and WaitForAsynchronousFrames.
 
 00:25:32.996 --> 00:25:35.666 A:middle
 This call will not return until
@@ -2164,16 +1993,19 @@ all frames have been omitted
 00:25:35.666 --> 00:25:36.996 A:middle
 from the decompression session.
 
-00:25:39.876 --> 00:25:43.956 A:middle
-So sometimes, we'll be decode
-in a sequence of video frames.
+00:25:39.876 --> 00:25:42.796 A:middle
+So, sometimes, while
+decoding a sequence
 
-00:25:44.466 --> 00:25:46.956 A:middle
-There will be a change in
-the CMVideoFormatDescription,
+00:25:42.796 --> 00:25:45.426 A:middle
+of video frames there
+will be a change
+
+00:25:45.426 --> 00:25:46.956 A:middle
+in the CMVideoFormatDescription.
 
 00:25:47.156 --> 00:25:50.086 A:middle
-so let's look at the case
+So let's look at the case
 where we had a sequence
 
 00:25:50.086 --> 00:25:51.666 A:middle
@@ -2198,14 +2030,6 @@ with our first SPS and PPS.
 We can go ahead and create
 our VTDecompressionSession
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.946 --> 00:26:04.126 A:middle
-We can go ahead and create
-our VTDecompressionSession
-
 00:26:04.126 --> 00:26:07.856 A:middle
 with that format description and
 decode all the subsequent frames
@@ -2223,8 +2047,8 @@ Then, we need to create
 a new format description
 
 00:26:20.266 --> 00:26:24.496 A:middle
-with the new SPS and PPS
-and we have to make sure
+with that new -- the new SPS
+and PPS and we have to make sure
 
 00:26:24.496 --> 00:26:26.726 A:middle
 that the decompression
@@ -2253,14 +2077,14 @@ FormatDescription one
 to FormatDescription two.
 
 00:26:43.366 --> 00:26:46.116 A:middle
-If the answer is true, yes,
+If the answer is true (yes,
 
 00:26:46.116 --> 00:26:49.776 A:middle
 it can handle the new
-accepted FormatDescription.
+accepted FormatDescription)
 
 00:26:50.146 --> 00:26:52.226 A:middle
-That means you can
+that means you can
 pass subsequent samples
 
 00:26:52.226 --> 00:26:54.346 A:middle
@@ -2272,15 +2096,7 @@ into the Decompression Session
 and everything will work fine.
 
 00:26:58.186 --> 00:27:02.066 A:middle
-If it returns false that
-means the decompressor cannot
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.186 --> 00:27:02.066 A:middle
-If it returns false that
+If it returns false, that
 means the decompressor cannot
 
 00:27:02.066 --> 00:27:04.696 A:middle
@@ -2296,8 +2112,8 @@ to create a new
 VTDecompressionSession
 
 00:27:09.966 --> 00:27:13.566 A:middle
-and be sure and pass the
-new frames into that one.
+and be sure to -- and pass
+the new frames into that one.
 
 00:27:14.326 --> 00:27:17.266 A:middle
 And be sure to release that
@@ -2313,19 +2129,20 @@ All right.
 Quick summary of what we talked
 
 00:27:23.076 --> 00:27:24.746 A:middle
-about with the
+about with
 VTDecompressionSession.
 
 00:27:25.586 --> 00:27:30.166 A:middle
-We talked creating the
+We talked about creating the
 VTDecompressionSession and how
 
-00:27:30.166 --> 00:27:31.446 A:middle
-to make optimal decisions
+00:27:30.166 --> 00:27:32.846 A:middle
+to make optimal decisions when
+creating your PixelBuffer--
 
-00:27:31.446 --> 00:27:35.356 A:middle
-when creating the
-PixelBufferAttributes dictionary
+00:27:33.136 --> 00:27:35.356 A:middle
+ah, your PixelBufferAttributes
+dictionary
 
 00:27:36.326 --> 00:27:38.996 A:middle
 for specifying your
@@ -2344,7 +2161,7 @@ about handing changes in
 CMVideo FormatDescription.
 
 00:27:50.846 --> 00:27:53.886 A:middle
-So with that, let's
+So. With that, let's
 hop into case three.
 
 00:27:54.446 --> 00:27:59.686 A:middle
@@ -2355,24 +2172,16 @@ have a stream of CVPixelBuffers
 or frames coming in from a
 camera or another source,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.686 --> 00:28:02.566 A:middle
-or frames coming in from a
-camera or another source,
-
 00:28:03.296 --> 00:28:05.786 A:middle
 and you want to compress those
 directly into a movie file.
 
 00:28:07.136 --> 00:28:10.216 A:middle
-Well, for this, you may be
-familiar with this already.
+Well, for this -- you may be
+familiar with this already --
 
 00:28:10.326 --> 00:28:11.726 A:middle
-We have AVAssetWriter.
+we have AVAssetWriter.
 
 00:28:13.306 --> 00:28:16.626 A:middle
 AVAssetWriter has an encoder
@@ -2391,8 +2200,8 @@ so it can write these
 optimally into a movie file.
 
 00:28:25.896 --> 00:28:30.056 A:middle
-We're not actually going
-to talk more at this point
+We're not actually going to
+talk more, at this point,
 
 00:28:30.056 --> 00:28:34.326 A:middle
 about AVAssetWriter, but
@@ -2408,14 +2217,14 @@ on the AVAssetWriter,
 
 00:28:39.546 --> 00:28:45.506 A:middle
 you can go back to WWDC 2013
-and the talk Moving to AVKit
+and the talk "Moving to AVKit
 
 00:28:45.506 --> 00:28:48.086 A:middle
-and AVFoundation or 2011,
+and AVFoundation" or 2011,
 
 00:28:48.766 --> 00:28:50.736 A:middle
-Working with Media
-and AVFoundation.
+"Working with Media
+and AVFoundation."
 
 00:28:51.756 --> 00:28:53.856 A:middle
 All right.
@@ -2432,21 +2241,13 @@ have that stream of data coming
 in from your camera and
 you want to compress it,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.886 --> 00:29:03.156 A:middle
-in from your camera and
-you want to compress it,
-
 00:29:03.156 --> 00:29:04.906 A:middle
 but you don't want to
 write into a movie file.
 
 00:29:05.046 --> 00:29:07.656 A:middle
 You want direct access to
-those compresses SampleBuffers.
+those compressed SampleBuffers.
 
 00:29:08.896 --> 00:29:11.486 A:middle
 So we want to approach
@@ -2460,7 +2261,7 @@ rather
 than through the AVAssetWriter.
 
 00:29:17.316 --> 00:29:18.976 A:middle
-So just like AVAssetWriter,
+So just like the AVAssetWriter,
 
 00:29:18.976 --> 00:29:21.946 A:middle
 VTCompressionSession takes
@@ -2492,13 +2293,17 @@ the dimensions you want
 00:29:39.296 --> 00:29:40.516 A:middle
 for your compressed output.
 
-00:29:41.616 --> 00:29:44.816 A:middle
-You need to tell us what format
-you want to compress to such
+00:29:41.616 --> 00:29:44.556 A:middle
+You need to tell us what
+format you want to compress to,
 
-00:29:44.816 --> 00:29:51.826 A:middle
-as kCMVideoCodecTypeH.264 and
-you can optionally provide a set
+00:29:44.556 --> 00:29:47.616 A:middle
+such as kCMVideoCodec
+Type-H.264,
+
+00:29:48.726 --> 00:29:51.826 A:middle
+and you can optionally
+provide a set
 
 00:29:51.826 --> 00:29:54.316 A:middle
 of PixelBufferAttributes
@@ -2515,16 +2320,8 @@ to the VTCompressionSession.
 And finally, you need
 
 00:29:59.966 --> 00:30:02.346 A:middle
-to implement a
-VTCompressionOutput Callback.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.966 --> 00:30:02.346 A:middle
-to implement a
-VTCompressionOutput Callback.
+to implement a VTCompression
+OutputCallback.
 
 00:30:04.386 --> 00:30:07.336 A:middle
 So you've created a
@@ -2533,12 +2330,12 @@ VTCompressionSession.
 00:30:07.626 --> 00:30:09.356 A:middle
 Now you want to configure it.
 
-00:30:10.386 --> 00:30:12.476 A:middle
+00:30:10.386 --> 00:30:12.126 A:middle
 You configure a
-VTCompressionSession using
+VTCompressionSession
 
-00:30:12.476 --> 00:30:14.166 A:middle
-VTSession SetProperty.
+00:30:12.126 --> 00:30:14.166 A:middle
+using VTSessionSetProperty.
 
 00:30:14.666 --> 00:30:17.316 A:middle
 In fact, you can
@@ -2547,13 +2344,12 @@ have a whole sequence
 00:30:17.316 --> 00:30:19.516 A:middle
 of VTSessionSetProperty calls.
 
-00:30:19.596 --> 00:30:24.076 A:middle
-So I'm going to go through a
-few common properties here and
+00:30:19.596 --> 00:30:24.866 A:middle
+So I'm going to go through a few
+common properties here and, but,
 
-00:30:24.676 --> 00:30:26.226 A:middle
-but this is not an
-exhaustive list.
+00:30:24.866 --> 00:30:26.226 A:middle
+this is not an exhaustive list.
 
 00:30:26.876 --> 00:30:29.216 A:middle
 The first one I'm going to
@@ -2572,7 +2368,7 @@ in will not necessarily
 equal the decode order
 
 00:30:41.376 --> 00:30:42.576 A:middle
-in which they're admitted.
+in which they're emitted.
 
 00:30:43.446 --> 00:30:46.926 A:middle
 If you want to disable this
@@ -2582,26 +2378,20 @@ behavior, you can pass false
 to allow frame reordering.
 
 00:30:50.426 --> 00:30:51.936 A:middle
-Next one, average byte rate.
+Next one: AverageBitRate.
 
 00:30:52.386 --> 00:30:54.916 A:middle
 This is how you set a target
-byte rate for the compressor.
+bit rate for the compressor.
 
-00:30:56.186 --> 00:31:03.416 A:middle
-H.264EntropyMode; using this,
-you can specify CALV compression
+00:30:57.186 --> 00:31:00.806 A:middle
+H264EntropyMode -- using this,
 
+00:31:00.806 --> 00:31:04.266 A:middle
+you can specify CAVLC
+compression or kVTH compression
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:56.186 --> 00:31:03.416 A:middle
-H.264EntropyMode; using this,
-you can specify CALV compression
-
-00:31:03.416 --> 00:31:06.616 A:middle
-or KVTH compression
+00:31:04.266 --> 00:31:06.616 A:middle
 for your H.264 encoder.
 
 00:31:07.436 --> 00:31:10.306 A:middle
@@ -2612,24 +2402,24 @@ the RealTime property.
 The RealTime property allows
 you to tell the encoder
 
-00:31:13.396 --> 00:31:16.786 A:middle
-that this is a real time
-encoding operation such as
+00:31:13.396 --> 00:31:16.586 A:middle
+that this is a real-time
+encoding operation (such
 
-00:31:16.786 --> 00:31:22.166 A:middle
-in a live streaming case,
-conferencing case as opposed
+00:31:16.586 --> 00:31:22.166 A:middle
+as in a live streaming case,
+conferencing case) as opposed
 
 00:31:22.166 --> 00:31:26.636 A:middle
 to more of a background activity
-like a transcode operation.
+(like a transcode operation).
 
 00:31:27.426 --> 00:31:30.256 A:middle
 And the final one I'm going
 
 00:31:30.256 --> 00:31:32.276 A:middle
 to mention here is
-the ProfileLevelKey.
+the ProfileLevel key.
 
 00:31:32.756 --> 00:31:35.726 A:middle
 This allows you to specify
@@ -2658,28 +2448,20 @@ providing CVPixelBuffers
 00:31:57.006 --> 00:31:58.376 A:middle
 to your VTCompressionSession.
 
-00:31:59.406 --> 00:32:01.576 A:middle
-Use
-VTCompressionSessionEncodeFrame
+00:31:59.406 --> 00:32:02.196 A:middle
+Use VTCompressionSession
+EncodeFrame to do this,
 
+00:32:03.046 --> 00:32:09.346 A:middle
+and you'll need to provide
+CVPixelBuffers and, CV --
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.406 --> 00:32:01.576 A:middle
-Use
-VTCompressionSessionEncodeFrame
-
-00:32:01.576 --> 00:32:07.556 A:middle
-to do this, and you'll need
-to provide CVPixelBuffers
-
-00:32:08.106 --> 00:32:10.066 A:middle
-and as I've mentioned,
+00:32:09.346 --> 00:32:10.066 A:middle
+as I've mentioned,
 
 00:32:10.066 --> 00:32:14.076 A:middle
 CVPixelBuffers don't have a
-presentation timestamp built
+presentation time stamp built
 
 00:32:14.076 --> 00:32:16.286 A:middle
 into them, so as a
@@ -2687,33 +2469,34 @@ separate parameter,
 
 00:32:16.286 --> 00:32:18.096 A:middle
 you'll provide the
-presentation timestamp.
+presentation time stamp.
 
 00:32:19.626 --> 00:32:23.576 A:middle
 You need to feed the frames
 in in presentation order.
 
 00:32:25.996 --> 00:32:30.746 A:middle
-And it's one more note about
-the presentation order, they --
+And it's -- one more note about
+the presentation order: they --
 
 00:32:31.106 --> 00:32:33.496 A:middle
-the presentation timestamps
-must be increasing.
+the presentation time
+stamps must be increasing.
 
 00:32:33.926 --> 00:32:36.236 A:middle
 No duplicate presentation
-timestamps,
+time stamps,
 
 00:32:36.576 --> 00:32:38.066 A:middle
-no timestamps that go backwards.
+no time stamps that
+go backwards.
 
 00:32:39.736 --> 00:32:42.146 A:middle
-And so compression sessions,
+And so compression sessions --
 
 00:32:42.326 --> 00:32:45.866 A:middle
-compressions operations usually
-require a window or frames
+compression operations usually
+require a window of frames
 
 00:32:45.866 --> 00:32:49.046 A:middle
 that they'll operate on, so
@@ -2724,7 +2507,7 @@ So you may not receive
 a compressed frame
 
 00:32:52.916 --> 00:32:54.716 A:middle
-in your Output Callback
+in your output callback
 until a certain number
 
 00:32:54.716 --> 00:32:56.556 A:middle
@@ -2733,14 +2516,6 @@ pushed into the encoder.
 
 00:32:57.116 --> 00:32:59.476 A:middle
 All right.
-
-00:32:59.476 --> 00:33:01.946 A:middle
-And finally, if you've
-reached the end of the frames
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.476 --> 00:33:01.946 A:middle
 And finally, if you've
@@ -2770,10 +2545,10 @@ All right.
 
 00:33:15.706 --> 00:33:17.336 A:middle
 Let's talk about
-your Output Callback.
+your output callback.
 
 00:33:19.296 --> 00:33:20.426 A:middle
-So your Output Callback is
+So your OutputCallback is
 
 00:33:20.426 --> 00:33:23.276 A:middle
 where you'll receive your
@@ -2792,7 +2567,7 @@ that information here.
 
 00:33:31.466 --> 00:33:34.786 A:middle
 And final thing, frames will
-be omitted in decode order.
+be emitted in decode order.
 
 00:33:35.006 --> 00:33:37.436 A:middle
 So you provided frames to
@@ -2802,7 +2577,7 @@ the VTCompressionSession
 in presentation order
 
 00:33:38.856 --> 00:33:40.716 A:middle
-and they'll be omitted
+and they'll be emitted
 in decode order.
 
 00:33:41.456 --> 00:33:44.486 A:middle
@@ -2828,14 +2603,6 @@ out over the network,
 which means you may
 need to switch these
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.036 --> 00:34:01.576 A:middle
-which means you may
-need to switch these
-
 00:34:01.576 --> 00:34:03.416 A:middle
 over to Elementary
 Stream packaging.
@@ -2844,26 +2611,26 @@ Stream packaging.
 Well, once again,
 you're going to have
 
-00:34:05.866 --> 00:34:08.025 A:middle
+00:34:05.866 --> 00:34:08.026 A:middle
 to do a little bit of work.
 
 00:34:09.096 --> 00:34:12.196 A:middle
 So we talked about the
 parameter sets before.
 
-00:34:13.025 --> 00:34:16.626 A:middle
+00:34:13.026 --> 00:34:16.626 A:middle
 So the parameters sets will
-in your MPEG-4 package,
+-- in your MPEG-4 package,
 
-00:34:16.626 --> 00:34:20.315 A:middle
+00:34:16.626 --> 00:34:20.316 A:middle
 H.264 will be in the
 CMVideoFormatDescription.
 
-00:34:21.076 --> 00:34:22.335 A:middle
+00:34:21.076 --> 00:34:22.336 A:middle
 So the first thing
 you're going to have
 
-00:34:22.335 --> 00:34:25.866 A:middle
+00:34:22.336 --> 00:34:25.866 A:middle
 to do is extract those
 parameter sets and package them
 
@@ -2883,7 +2650,7 @@ GetH.264ParameterSetAtIndex.
 All right, and the next thing
 you need to do is the opposite
 
-00:34:44.686 --> 00:34:46.795 A:middle
+00:34:44.686 --> 00:34:46.796 A:middle
 of what we did with
 AVSampleBufferDisplayLayer.
 
@@ -2891,19 +2658,12 @@ AVSampleBufferDisplayLayer.
 Our NAL Units are all going
 to have length headers
 
-00:34:52.585 --> 00:34:53.636 A:middle
+00:34:52.586 --> 00:34:53.636 A:middle
 and you're going to need
 
-00:34:53.636 --> 00:34:56.835 A:middle
+00:34:53.636 --> 00:34:56.836 A:middle
 to convert those length
 headers into start codes.
-
-00:34:58.816 --> 00:35:00.966 A:middle
-So as you extract each NAL Unit
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.816 --> 00:35:00.966 A:middle
 So as you extract each NAL Unit
@@ -2982,20 +2742,12 @@ deal with two opposing forces;
 00:35:53.326 --> 00:35:54.936 A:middle
 quality versus bit rate.
 
-00:35:55.536 --> 00:35:58.256 A:middle
+00:35:55.536 --> 00:35:58.276 A:middle
 So quality is how pristine
 the image is, and we all know
 
-00:35:58.256 --> 00:36:01.076 A:middle
-and we've seen great quality
-video and we really don't
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.256 --> 00:36:01.076 A:middle
-and we've seen great quality
+00:35:58.276 --> 00:36:01.076 A:middle
+when we've seen great quality
 video and we really don't
 
 00:36:01.076 --> 00:36:02.596 A:middle
@@ -3052,7 +2804,7 @@ going to go down as well.
 
 00:36:37.086 --> 00:36:39.936 A:middle
 So we've all seen this as
-block encoder artifacts
+blocky encoder artifacts
 
 00:36:39.936 --> 00:36:41.846 A:middle
 or an output image that
@@ -3079,16 +2831,11 @@ we've added Multi-Pass Encoding
 to AVFoundation and
 Video Toolbox.
 
-00:36:53.706 --> 00:37:02.266 A:middle
-Yeah, so first off, what
-is Multi-Pass Encoding?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:36:53.166 --> 00:36:53.706 A:middle
+[ Applause ]
 
 00:36:53.706 --> 00:37:02.266 A:middle
-Yeah, so first off, what
+Yeah. So first off, what
 is Multi-Pass Encoding?
 
 00:37:02.716 --> 00:37:05.786 A:middle
@@ -3105,7 +2852,7 @@ you have frames coming in,
 
 00:37:11.456 --> 00:37:13.186 A:middle
 going into the encoder
-and being admitted.
+and being emitted.
 
 00:37:13.466 --> 00:37:14.926 A:middle
 In this case, we're
@@ -3123,16 +2870,16 @@ our output movie file.
 Simple enough.
 
 00:37:24.066 --> 00:37:25.616 A:middle
-Let's see how Multi-Pass
+Let's see how multi-pass
 differs.
 
 00:37:25.796 --> 00:37:27.746 A:middle
 So you have uncompressed
-frames coming in going
+frames coming in going,
 
 00:37:27.746 --> 00:37:29.826 A:middle
 into the compression
-session, being admitted
+session, being emitted
 
 00:37:29.826 --> 00:37:30.946 A:middle
 as compressed samples.
@@ -3143,49 +2890,45 @@ things up a little bit.
 
 00:37:33.206 --> 00:37:35.126 A:middle
 So we're going to have
-our frame database.
+our Frame Database.
 
 00:37:35.446 --> 00:37:37.076 A:middle
 This will store the
 compressed samples
 
-00:37:37.076 --> 00:37:39.766 A:middle
-and allow us random access in
-replacement, which is important
+00:37:37.076 --> 00:37:39.136 A:middle
+and allow us random
+access and replacement,
 
-00:37:39.766 --> 00:37:42.726 A:middle
-for Multi-Pass, and we're going
-to have our encoder database.
+00:37:39.136 --> 00:37:40.526 A:middle
+which is important
+for multi-pass.
+
+00:37:40.886 --> 00:37:42.726 A:middle
+And we're going to have
+our Encoder Database;
 
 00:37:43.226 --> 00:37:44.976 A:middle
-This will store frame analysis.
+this will store frame analysis.
 
 00:37:46.876 --> 00:37:49.066 A:middle
 So we're done appending
-for one pass
+for one pass,
 
 00:37:49.066 --> 00:37:52.036 A:middle
 and the encoder will decide I
-think I can actually do better
+think, "I can actually do better
 
 00:37:52.036 --> 00:37:54.266 A:middle
 in another pass, so I can tweak
 the parameters a little bit
 
 00:37:54.266 --> 00:37:55.156 A:middle
-to get better quality.
+to get better quality."
 
 00:37:57.536 --> 00:37:59.896 A:middle
 It will request some
 samples and you'll go through
-
-00:37:59.896 --> 00:38:01.736 A:middle
-and send those samples
-again to the encoder,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.896 --> 00:38:01.736 A:middle
 and send those samples
@@ -3196,7 +2939,7 @@ and then it may decide I'm
 done or I'm actually --
 
 00:38:06.596 --> 00:38:07.766 A:middle
-or I want more passes.
+or, I want more passes.
 
 00:38:07.766 --> 00:38:09.466 A:middle
 In this case, let's
@@ -3226,23 +2969,23 @@ to the output movie
 file and that's it.
 
 00:38:25.356 --> 00:38:28.576 A:middle
-We have a Multi-Pass encoded
+We have a multi-pass encoded
 video track on a movie file.
 
 00:38:29.986 --> 00:38:32.466 A:middle
 Cool. Let's go over
 some encoder features.
 
-00:38:33.556 --> 00:38:36.826 A:middle
-So my first point is I want to
-make a note of is David said
+00:38:33.556 --> 00:38:36.066 A:middle
+So my first point is -- I
+want to make a note of --
 
-00:38:36.826 --> 00:38:38.716 A:middle
-that Single-Pass is
-hardware accelerated
+00:38:36.066 --> 00:38:38.716 A:middle
+is David said that Single-Pass
+is hardware accelerated
 
 00:38:39.056 --> 00:38:41.166 A:middle
-and Multi-Pass is also
+and multi-pass is also
 hardware accelerated,
 
 00:38:41.366 --> 00:38:43.296 A:middle
@@ -3250,24 +2993,20 @@ so you're not losing any
 hardware acceleration there.
 
 00:38:46.536 --> 00:38:49.486 A:middle
-Second point is that Multi-Pass
+Second point is that multi-pass
 has knowledge of the future.
 
 00:38:50.046 --> 00:38:52.446 A:middle
-Now it's not some crazy time
-traveling video encoder.
+No, it's not some crazy,
+time-traveling video encoder.
 
 00:38:53.016 --> 00:38:55.226 A:middle
-Bonus points whoever filed
-that enhancement request.
+(Bonus points: whoever files
+that enhancement request!)
 
 00:38:55.766 --> 00:38:59.696 A:middle
-It allows or is able to
-see your entire content.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+It allows, or -- is able
+to see your entire content.
 
 00:39:00.216 --> 00:39:03.196 A:middle
 So in Single-Pass, as frames
@@ -3278,7 +3017,7 @@ to make assumptions about
 what might come next.
 
 00:39:05.786 --> 00:39:07.996 A:middle
-In Multi-Pass, it's already
+In multi-pass, it's already
 seen all your content
 
 00:39:07.996 --> 00:39:09.626 A:middle
@@ -3287,22 +3026,25 @@ better decisions there.
 
 00:39:11.996 --> 00:39:14.456 A:middle
 Third, it can change
-decision that it's made.
+decisions that it's made.
 
 00:39:14.716 --> 00:39:18.406 A:middle
 So in Single-Pass, as soon as
 the frame is emitted, that's it.
 
-00:39:18.406 --> 00:39:20.066 A:middle
-It can't -- it can
-no longer change.
+00:39:18.406 --> 00:39:21.096 A:middle
+It can't -- it can no
+longer change, uh --
 
-00:39:20.806 --> 00:39:23.986 A:middle
-It can no longer change its
-mind about what it's emitted.
+00:39:21.646 --> 00:39:23.146 A:middle
+Yeah, it can no longer
+change its mind
+
+00:39:23.146 --> 00:39:23.986 A:middle
+about what it's emitted.
 
 00:39:24.986 --> 00:39:27.966 A:middle
-In Multi-Pass, because the frame
+In multi-pass, because the frame
 database supports replacement,
 
 00:39:28.316 --> 00:39:30.686 A:middle
@@ -3324,8 +3066,8 @@ of like having a very awesome
 custom encoder for your content.
 
 00:39:41.916 --> 00:39:45.246 A:middle
-So that's how Multi-Pass
-works and some more features.
+So that's how multi-pass
+works and some new features.
 
 00:39:45.296 --> 00:39:46.736 A:middle
 Let's talk about new APIs.
@@ -3336,7 +3078,7 @@ talk about AVFoundation.
 
 00:39:50.636 --> 00:39:54.646 A:middle
 In AVFoundation, we have a new
-AVAssetExport Session property.
+AVAssetExportSession property.
 
 00:39:55.046 --> 00:39:57.366 A:middle
 We have new pass descriptions
@@ -3346,40 +3088,35 @@ for AVAssetWriterInput
 and we have reuse on
 AVAssetReaderOutput.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.596 --> 00:40:02.276 A:middle
 So first, let's go
 over an overview
 
 00:40:02.276 --> 00:40:03.586 A:middle
-of AVAssetExport Session.
+of AVAssetExportSession.
 
 00:40:04.766 --> 00:40:07.296 A:middle
-In AVAsset ExportSession,
-you're going from a source file,
+In AVAssetExportSession, you're
+going from a source file,
 
 00:40:07.836 --> 00:40:10.556 A:middle
-decoding them then
+decoding them, then
 performing some operation
 
-00:40:10.556 --> 00:40:12.856 A:middle
-on those uncompressed
-buffers, something like scaling
+00:40:10.556 --> 00:40:11.776 A:middle
+on those uncompressed buffers --
 
-00:40:12.856 --> 00:40:15.236 A:middle
+00:40:11.776 --> 00:40:13.986 A:middle
+something like scaling
 or color conversion,
-and you're encoding them
 
-00:40:15.236 --> 00:40:16.496 A:middle
-and writing them
-to a movie file.
+00:40:14.356 --> 00:40:16.496 A:middle
+and you're encoding them and
+writing them to a movie file.
 
 00:40:17.036 --> 00:40:19.476 A:middle
 So in this case, what does
-AVAsset ExportSession provide?
+AVAssetExportSession provide?
 
 00:40:20.376 --> 00:40:21.726 A:middle
 Well, it does all this for you.
@@ -3400,7 +3137,8 @@ multiple passes are taken care
 of for you automatically.
 
 00:40:33.236 --> 00:40:34.836 A:middle
-There's no work you have to do
+There's no work that
+you have to do
 
 00:40:34.836 --> 00:40:36.546 A:middle
 to send the samples
@@ -3411,26 +3149,26 @@ And also, it falls
 back to Single-Pass
 
 00:40:39.926 --> 00:40:41.206 A:middle
-if Multi-Pass isn't supported.
+if multi-pass isn't supported.
 
 00:40:41.586 --> 00:40:44.156 A:middle
 So if you choose a
 preset that uses a codec
 
 00:40:44.156 --> 00:40:46.256 A:middle
-where Multi-Pass isn't
+where multi-pass isn't
 supported, don't worry,
 
 00:40:46.296 --> 00:40:47.296 A:middle
 it'll use Single-Pass.
 
-00:40:48.566 --> 00:40:50.536 A:middle
+00:40:48.566 --> 00:40:50.846 A:middle
 And we have one new
-property, Set SDS
+property; set this to yes
 
-00:40:50.536 --> 00:40:53.196 A:middle
+00:40:50.846 --> 00:40:53.196 A:middle
 and you're automatically opted
-into Multi-Task, and that's it.
+into multi-pass, and that's it.
 
 00:40:53.666 --> 00:40:56.426 A:middle
 So for a large majority of
@@ -3438,14 +3176,10 @@ you, this is all you need.
 
 00:40:57.616 --> 00:40:59.466 A:middle
 Next, let's talk
-about AVSWriter.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+about AVAssetWriter.
 
 00:41:00.356 --> 00:41:03.136 A:middle
-So AVSWriter, you're coming
+So AVAssetWriter, you're coming
 from uncompressed samples.
 
 00:41:03.136 --> 00:41:05.126 A:middle
@@ -3457,11 +3191,11 @@ You might be coming from an
 OpenGL or OpenGL ES context.
 
 00:41:09.826 --> 00:41:11.766 A:middle
-In this case, what
-does AVSWriter provide?
+In this case, what does
+AVAssetWriter provide?
 
 00:41:13.106 --> 00:41:15.686 A:middle
-Well, it wraps this portion
+Well, it wraps this portion,
 going from the encoder
 
 00:41:15.846 --> 00:41:17.186 A:middle
@@ -3469,40 +3203,41 @@ to the output movie file.
 
 00:41:19.686 --> 00:41:23.406 A:middle
 Another use case, it's
-similar to AVSExportSession
+similar to AVAssetExportSession
 
 00:41:23.446 --> 00:41:25.276 A:middle
 where you're going from
 a source movie file
 
 00:41:25.346 --> 00:41:26.836 A:middle
-to a destination app movie file
+to a destination
+output movie file
 
 00:41:26.836 --> 00:41:28.636 A:middle
 and modifying the
 buffers in some way.
 
 00:41:29.536 --> 00:41:32.116 A:middle
-Well in this case, you're
-going to use an AVSReaderOutput
+Well in this case, you're going
+to use an AVAssetReaderOutput
 
 00:41:32.116 --> 00:41:33.486 A:middle
-and an AVSWriterInput.
+and an AVAssetWriterInput.
 
 00:41:33.486 --> 00:41:36.156 A:middle
 You're responsible for sending
 samples from one to the other.
 
 00:41:36.686 --> 00:41:42.356 A:middle
-Let's go over a new
-AVSWriterInput APIs.
+Let's go over our new
+AVAssetWriterInput APIs.
 
 00:41:42.486 --> 00:41:45.566 A:middle
 So like AVAssetExportSession,
-you need to enable Multi-Pass,
+you need to enable multi-pass,
 
 00:41:46.036 --> 00:41:48.226 A:middle
-so set SDS and you're
+so set this to yes and you're
 automatically opted in.
 
 00:41:48.806 --> 00:41:52.356 A:middle
@@ -3524,24 +3259,18 @@ the encoder analysis.
 The encoder needs to decide if I
 need to perform multiple passes
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.696 --> 00:42:01.756 A:middle
-The encoder needs to decide if I
-need to perform multiple passes
-
 00:42:02.296 --> 00:42:04.916 A:middle
 and if so, what time ranges.
 
-00:42:05.026 --> 00:42:07.936 A:middle
-So the encoder might say I want
-to see the entire sequence again
+00:42:05.026 --> 00:42:06.196 A:middle
+So the encoder might say,
 
-00:42:08.156 --> 00:42:10.086 A:middle
-or I want to see
-subsets of the sequence.
+00:42:06.196 --> 00:42:08.536 A:middle
+"I want to see the entire
+sequence again," or "I want
+
+00:42:08.536 --> 00:42:10.086 A:middle
+to see subsets of the sequence."
 
 00:42:11.126 --> 00:42:12.316 A:middle
 So how does the encoder talk
@@ -3550,21 +3279,20 @@ So how does the encoder talk
 about what time ranges it
 wants for the next pass?
 
-00:42:16.196 --> 00:42:18.576 A:middle
+00:42:16.196 --> 00:42:17.446 A:middle
 Well, that's through
-AVSWriterInput PassDescription.
+an AVAssetWriter
 
-00:42:19.016 --> 00:42:21.826 A:middle
-So in this case, we have
-time from zero to three,
+00:42:17.446 --> 00:42:18.576 A:middle
+InputPassDescription.
 
-00:42:22.006 --> 00:42:25.596 A:middle
-but not the sample at time
-three, and samples from five
+00:42:19.016 --> 00:42:22.846 A:middle
+So in this case, we have time
+from 0 to 3, but not the sample
 
-00:42:25.596 --> 00:42:27.606 A:middle
-to seven, but not the
-sample at time seven.
+00:42:22.846 --> 00:42:27.606 A:middle
+at time 3, and samples from 5 to
+7, but not the sample at time 7.
 
 00:42:28.376 --> 00:42:32.136 A:middle
 So a pass description is the
@@ -3586,8 +3314,8 @@ that the encoder has requested
 by calling sourceTimeRanges.
 
 00:42:47.616 --> 00:42:50.526 A:middle
-All right, let's talk
-about how AVSWriter uses
+All right, let's talk about
+how AVAssetWriterInput uses
 
 00:42:50.526 --> 00:42:51.496 A:middle
 pass descriptions.
@@ -3599,14 +3327,6 @@ analysis, the encoder needs
 00:42:55.626 --> 00:42:57.836 A:middle
 to reply with what
 decisions it's made.
-
-00:42:57.926 --> 00:43:01.396 A:middle
-So you provide a block on this
-method to allow the encoder
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:57.926 --> 00:43:01.396 A:middle
 So you provide a block on this
@@ -3645,8 +3365,8 @@ We have our block
 callback that your provide.
 
 00:43:23.036 --> 00:43:25.676 A:middle
-Inside that callback you call
-current pass description.
+Inside that callback you
+call currentPassDescription.
 
 00:43:25.676 --> 00:43:27.876 A:middle
 This asks the encoder
@@ -3656,20 +3376,23 @@ what time ranges it wants
 for the next pass.
 
 00:43:30.846 --> 00:43:33.626 A:middle
-If the pass is none nil,
-meaning the encoder wants data
+If the pass is non-nil
+(meaning the encoder wants data
 
 00:43:33.626 --> 00:43:36.566 A:middle
-for another pass, you
+for another pass) you
 reconfigure your source.
 
 00:43:36.656 --> 00:43:38.966 A:middle
 So this is where the
 source will send samples
 
-00:43:39.316 --> 00:43:43.686 A:middle
-to the AVSWriterInput, and then
-you prepare the AVSWriterInput
+00:43:39.316 --> 00:43:40.626 A:middle
+to the AVAssetWriterInput,
+
+00:43:41.286 --> 00:43:43.686 A:middle
+and then you prepare
+the AVAssetWriterInput
 
 00:43:43.736 --> 00:43:44.766 A:middle
 for the next pass.
@@ -3678,8 +3401,8 @@ for the next pass.
 You're already familiar
 
 00:43:45.516 --> 00:43:47.666 A:middle
-with requestMediaDataWhen
-ReadyOnQueue.
+with requestMediaData
+WhenReadyOnQueue.
 
 00:43:48.276 --> 00:43:53.036 A:middle
 If the pass is nil, that means
@@ -3696,24 +3419,16 @@ input as finished.
 All right, let's say you're
 going from a source media file.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:56.136 --> 00:44:00.686 A:middle
-All right, let's say you're
-going from a source media file.
-
 00:44:00.686 --> 00:44:01.996 A:middle
 That was in our second example.
 
 00:44:02.486 --> 00:44:05.036 A:middle
-So we have new APIs
-for AVSReaderOutput.
+So we have new APIs for
+AVAssetReaderOutput.
 
 00:44:05.696 --> 00:44:07.726 A:middle
 You can prepare your
-source for Multi-Pass
+source for multi-pass
 
 00:44:07.726 --> 00:44:10.246 A:middle
 by saying supportsRandomAccess
@@ -3725,7 +3440,7 @@ wants new time ranges,
 
 00:44:14.276 --> 00:44:16.296 A:middle
 you need to reconfigure
-your AVSReaderOutput
+your AVAssetReaderOutput
 
 00:44:16.376 --> 00:44:17.676 A:middle
 to deliver those time ranges.
@@ -3744,36 +3459,40 @@ passes have completed you
 00:44:25.226 --> 00:44:26.826 A:middle
 callMarkConfigurationAsFinal.
 
-00:44:27.256 --> 00:44:30.016 A:middle
-This allows the AVSReaderOutput
-to transition
+00:44:27.256 --> 00:44:29.326 A:middle
+This allows the
+AVAssetReaderOutput
 
-00:44:30.016 --> 00:44:34.006 A:middle
-to its completed state so it
-can start tearing itself down.
+00:44:29.326 --> 00:44:30.996 A:middle
+to transition to
+its completed state
+
+00:44:30.996 --> 00:44:34.006 A:middle
+so it can start tearing
+itself down.
 
 00:44:34.036 --> 00:44:36.026 A:middle
 Right. Now there's a couple
 short cuts you can use
 
 00:44:36.026 --> 00:44:38.696 A:middle
-if you're using AVSReader
-and AVSWriter
+if you're using AVAssetReader
+and AVAssetWriter
 
 00:44:38.696 --> 00:44:39.796 A:middle
 in combination together.
 
 00:44:41.256 --> 00:44:44.076 A:middle
-So you can enable
-AVSReaderOutput
+So you can enable an
+AVAssetReaderOutput
 
 00:44:44.076 --> 00:44:46.766 A:middle
-if the AVSWriterInput
-supports Multi-Pass.
+if the AVAssetWriterInput
+supports multi-pass.
 
 00:44:47.086 --> 00:44:49.086 A:middle
 So if the encoder
-supports Multi-Pass,
+supports multi-pass,
 
 00:44:49.696 --> 00:44:51.836 A:middle
 we need to support random
@@ -3784,15 +3503,7 @@ Then you can reconfigure your
 source to deliver samples
 
 00:44:56.776 --> 00:44:58.236 A:middle
-for the AVSWriterInput.
-
-00:44:58.496 --> 00:45:01.266 A:middle
-So with your readerOutput
-call resetForReadingTimeRanges
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+for the AVAssetWriterInput.
 
 00:44:58.496 --> 00:45:01.266 A:middle
 So with your readerOutput
@@ -3812,7 +3523,7 @@ for an arbitrary source,
 
 00:45:09.266 --> 00:45:11.706 A:middle
 we now want to deliver for
-our AVS at ReaderOuput.
+our AVAssetReaderOuput.
 
 00:45:11.706 --> 00:45:13.576 A:middle
 So we call
@@ -3820,19 +3531,19 @@ resetForReadingTimeRanges
 
 00:45:13.576 --> 00:45:16.206 A:middle
 with the pass description
-source time ranges.
+sourceTimeRanges.
 
 00:45:20.976 --> 00:45:24.416 A:middle
 Great. So that's the new API
-and AVFoundation for Multi-Pass.
+and AVFoundation for multi-pass.
 
 00:45:24.416 --> 00:45:26.196 A:middle
 Let's talk next about
 Video Toolbox.
 
 00:45:27.146 --> 00:45:30.336 A:middle
-So in Video Toolbox, our encoder
-frame analysis data base,
+So in Video Toolbox, our
+encoder frame analysis database,
 
 00:45:30.836 --> 00:45:33.746 A:middle
 we like to call this
@@ -3846,9 +3557,12 @@ to VTCompressionSession,
 which David introduced in
 his portion of the talk,
 
-00:45:39.776 --> 00:45:43.866 A:middle
-and decompressed database, or
-as we call it, the VTFrameSilo.
+00:45:39.776 --> 00:45:41.606 A:middle
+and decompressed frame database,
+
+00:45:42.046 --> 00:45:43.866 A:middle
+or as we call it,
+the VTFrameSilo.
 
 00:45:44.306 --> 00:45:46.576 A:middle
 So let's go over
@@ -3871,13 +3585,6 @@ have our VTFrameSilo
 
 00:45:55.996 --> 00:45:57.676 A:middle
 and our VTMultiPassStorage.
-
-00:45:59.766 --> 00:46:00.826 A:middle
-We're done with this pass.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:59.766 --> 00:46:00.826 A:middle
 We're done with this pass.
@@ -3955,14 +3662,6 @@ your VTMultiPassStorage.
 So you can do that by
 setting a property.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.546 --> 00:47:01.796 A:middle
-So you can do that by
-setting a property.
-
 00:47:02.246 --> 00:47:04.386 A:middle
 This will tell the
 encoder to use MultiPass
@@ -3971,12 +3670,12 @@ encoder to use MultiPass
 and use this VTMultiPassStorage
 for its frame analysis.
 
-00:47:08.506 --> 00:47:12.706 A:middle
+00:47:08.506 --> 00:47:13.316 A:middle
 Next, we've added a couple
-functions for MultiPass.
+functions for multi-pass.
 
 00:47:13.856 --> 00:47:18.506 A:middle
-So you call begin pass before
+So you call beginPass before
 you've appended any frames then
 
 00:47:18.506 --> 00:47:19.946 A:middle
@@ -3984,15 +3683,11 @@ after you're done
 appending frames
 
 00:47:19.946 --> 00:47:21.776 A:middle
-for that pass, you
-call end pass.
+for that pass, you call endPass.
 
-00:47:22.456 --> 00:47:24.386 A:middle
-End pass also asks the encoder
-
-00:47:24.386 --> 00:47:25.796 A:middle
-if another pass can
-be performed.
+00:47:22.456 --> 00:47:25.796 A:middle
+EndPass also asks the encoder if
+another pass can be performed.
 
 00:47:27.816 --> 00:47:30.156 A:middle
 So if another -- if the
@@ -4039,15 +3734,7 @@ be replaced
 
 00:47:59.796 --> 00:48:01.996 A:middle
 if they have the same
-presentation timestamp
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.796 --> 00:48:01.996 A:middle
-if they have the same
-presentation timestamp
+presentation time stamp
 
 00:48:01.996 --> 00:48:05.036 A:middle
 and how this data is stored
@@ -4084,13 +3771,13 @@ for a given time range.
 This allows you to get a
 sample in a block callback
 
-00:48:32.086 --> 00:48:34.496 A:middle
+00:48:32.086 --> 00:48:34.486 A:middle
 that you provide and add it
 to your output movie file.
 
-00:48:35.156 --> 00:48:38.166 A:middle
-Right, that's the new
-Video Toolbox APIs.
+00:48:34.486 --> 00:48:38.166 A:middle
+All right, that's the
+new Video Toolbox APIs.
 
 00:48:38.356 --> 00:48:40.456 A:middle
 So I want to close with
@@ -4098,7 +3785,7 @@ a couple considerations.
 
 00:48:41.756 --> 00:48:44.256 A:middle
 So we've talked about
-how MultiPass works
+how multi-pass works
 
 00:48:44.256 --> 00:48:47.546 A:middle
 and what APIs you can use in
@@ -4116,7 +3803,7 @@ So if you're performing
 real time encoding,
 
 00:48:55.396 --> 00:48:56.856 A:middle
-you should be using Single-Pass.
+you should be using single-pass.
 
 00:48:57.066 --> 00:48:59.256 A:middle
 Real time encoding has
@@ -4125,15 +3812,8 @@ very specific deadlines
 00:48:59.256 --> 00:49:01.046 A:middle
 of how much compression can take
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.256 --> 00:49:01.046 A:middle
-of how much compression can take
-
 00:49:01.456 --> 00:49:04.486 A:middle
-and Multi-Pass will perform
+and multi-pass will perform
 more passes over the time range,
 
 00:49:04.516 --> 00:49:06.176 A:middle
@@ -4146,15 +3826,14 @@ using the minimum amount
 
 00:49:11.416 --> 00:49:14.696 A:middle
 of power during encoding,
-use Single-Pass.
+use single-pass.
 
-00:49:15.076 --> 00:49:17.286 A:middle
+00:49:15.076 --> 00:49:17.636 A:middle
 Multiple passes will
-take more power
+take more power and,
 
-00:49:17.286 --> 00:49:19.406 A:middle
-and as will the encoder
-analysis.
+00:49:17.636 --> 00:49:19.406 A:middle
+as will the encoder analysis.
 
 00:49:20.756 --> 00:49:23.186 A:middle
 If you're concerned with
@@ -4166,7 +3845,7 @@ during the encode
 
 00:49:25.046 --> 00:49:28.466 A:middle
 or transcode operation,
-use Single-Pass.
+use single-pass.
 
 00:49:28.636 --> 00:49:30.046 A:middle
 The encoder analysis storage
@@ -4176,7 +3855,7 @@ and the frame database
 will use more storage
 
 00:49:32.126 --> 00:49:33.206 A:middle
-than the output medial file.
+than the output media file.
 
 00:49:34.856 --> 00:49:37.906 A:middle
 However, if you're concerned
@@ -4184,7 +3863,7 @@ about having the best quality
 
 00:49:37.906 --> 00:49:40.876 A:middle
 for your content,
-Multi-Pass is a great option.
+multi-pass is a great option.
 
 00:49:41.496 --> 00:49:45.386 A:middle
 If you want to be as close to
@@ -4195,10 +3874,10 @@ on the VTCompressionSession
 or AssetWriter
 
 00:49:47.566 --> 00:49:50.346 A:middle
-as possible, use Multi-Pass.
+as possible, use multi-pass.
 
 00:49:50.346 --> 00:49:54.176 A:middle
-Multi-Pass can see all of the
+Multi-pass can see all of the
 portions of your source media
 
 00:49:54.176 --> 00:49:56.496 A:middle
@@ -4208,21 +3887,17 @@ only where it needs to.
 00:49:56.596 --> 00:49:57.926 A:middle
 It's very smart in this sense.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:00.676 --> 00:50:04.046 A:middle
 If it's okay to take longer
-in your app, so if it's okay
+in your app (so if it's okay
 
 00:50:04.046 --> 00:50:06.426 A:middle
 for the encoder transfer
 operation to take longer
 
 00:50:06.426 --> 00:50:09.586 A:middle
-for better quality,
-Multi-Pass is a good option.
+for better quality)
+multi-pass is a good option.
 
 00:50:10.136 --> 00:50:13.176 A:middle
 But the biggest takeaway
@@ -4244,29 +3919,30 @@ Next, let's talk about content.
 
 00:50:27.376 --> 00:50:29.576 A:middle
 So if you, if your
-app has low quality
+app has low quality --
 
-00:50:29.576 --> 00:50:32.856 A:middle
-or low complexity content, think
-of this like a title sequence
+00:50:29.576 --> 00:50:31.756 A:middle
+or, low complexity
+content, think of this
 
-00:50:32.856 --> 00:50:34.416 A:middle
-or a static image sequence.
+00:50:31.756 --> 00:50:34.416 A:middle
+like a title sequence or
+a static image sequence.
 
 00:50:36.676 --> 00:50:38.786 A:middle
-Both Single-Pass and
-Multi-Pass are going
+Both single-pass and
+multi-pass are going
 
 00:50:38.786 --> 00:50:40.416 A:middle
 to both give you
 great quality here,
 
 00:50:40.706 --> 00:50:42.516 A:middle
-but Multi-Pass won't give
+but multi-pass won't give
 you much better quality
 
 00:50:42.516 --> 00:50:43.256 A:middle
-than Single-Pass.
+than single-pass.
 
 00:50:43.256 --> 00:50:44.766 A:middle
 These are both pretty
@@ -4285,31 +3961,26 @@ water, fire, explosions.
 
 00:50:53.656 --> 00:50:56.856 A:middle
 We all love to do
-this, but Single-Pass
+this, but single-pass
 
 00:50:57.086 --> 00:50:59.376 A:middle
-and Multi-Pass are
+and multi-pass are
 both going to do well,
 
 00:50:59.376 --> 00:51:01.916 A:middle
-but Multi-Pass probably won't
-do much better than Single-Pass.
+but multi-pass probably won't
+do much better than single-pass.
 
+00:51:01.916 --> 00:51:03.936 A:middle
+These are -- this kind
+of content is hard
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:59.376 --> 00:51:01.916 A:middle
-but Multi-Pass probably won't
-do much better than Single-Pass.
-
-00:51:01.916 --> 00:51:04.566 A:middle
-These are -- this kind of
-content is hard for encoders
+00:51:03.936 --> 00:51:04.986 A:middle
+for encoders to encode.
 
 00:51:08.406 --> 00:51:10.346 A:middle
-to encode -- or is
-Multi-Pass a better decision?
+Where is multi-pass
+a better decision?
 
 00:51:11.396 --> 00:51:13.666 A:middle
 Well, that's in varying
@@ -4319,12 +3990,12 @@ complexity, so think of this
 as a feature-length
 movie or a documentary
 
-00:51:16.036 --> 00:51:18.276 A:middle
+00:51:16.036 --> 00:51:18.286 A:middle
 in Final Cut Pro or
-an iMovie Trailer.
+an iMovie trailer.
 
-00:51:18.636 --> 00:51:21.816 A:middle
-Might have low complexity
+00:51:18.286 --> 00:51:21.816 A:middle
+They might have low complexity
 regions, a title sequence,
 
 00:51:21.816 --> 00:51:23.326 A:middle
@@ -4335,7 +4006,7 @@ Because there's a lot of
 different kinds of content,
 
 00:51:25.876 --> 00:51:28.056 A:middle
-Multi-Pass is able to
+multi-pass is able to
 analyze those sections
 
 00:51:28.056 --> 00:51:30.446 A:middle
@@ -4344,7 +4015,7 @@ best quality per bit.
 
 00:51:30.956 --> 00:51:34.146 A:middle
 But again, the message
-is with your content,
+is: with your content,
 
 00:51:34.786 --> 00:51:35.846 A:middle
 you need to experiment.
@@ -4354,7 +4025,7 @@ So you know your content
 and you should know
 
 00:51:38.106 --> 00:51:41.046 A:middle
-if Multi-Pass will give you a
+if multi-pass will give you a
 good benefit in these cases.
 
 00:51:41.586 --> 00:51:45.586 A:middle
@@ -4381,20 +4052,12 @@ you direct media access.
 If you fall into one of the use
 cases that David talked about,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:58.626 --> 00:52:01.456 A:middle
-If you fall into one of the use
-cases that David talked about,
-
 00:52:01.526 --> 00:52:04.926 A:middle
 this is a good way
 to use Video Toolbox.
 
 00:52:06.696 --> 00:52:09.596 A:middle
-Finally, Multi-Pass can
+Finally, multi-pass can
 provide substantial quality
 
 00:52:09.596 --> 00:52:11.976 A:middle
@@ -4441,4 +4104,3 @@ a good rest of your day.
 
 00:52:35.516 --> 00:52:42.300 A:middle
 [ Applause ]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:13.836 --> 00:00:15.356 A:middle
 &gt;&gt; Good morning,
@@ -68,13 +67,6 @@ the accessory ecosystem
 00:00:59.186 --> 00:01:00.826 A:middle
 in one word, it would be "huge."
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.186 --> 00:01:00.826 A:middle
-in one word, it would be "huge."
-
 00:01:01.916 --> 00:01:04.836 A:middle
 We couldn't even begin to go
 through all of the categories
@@ -139,14 +131,6 @@ Bluetooth features this year.
 
 00:01:56.766 --> 00:01:58.876 A:middle
 First up, Bluetooth Low Energy.
-
-00:01:59.776 --> 00:02:01.966 A:middle
-Now, this isn't the new
-interface to our device.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.776 --> 00:02:01.966 A:middle
 Now, this isn't the new
@@ -231,13 +215,6 @@ So, what does that mean?
 00:02:58.226 --> 00:02:59.746 A:middle
 Supposing you receive
 a notification
-
-00:02:59.746 --> 00:03:00.866 A:middle
-of an incoming phone call.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.746 --> 00:03:00.866 A:middle
 of an incoming phone call.
@@ -329,14 +306,6 @@ has a battery in it,
 you can use the headset battery
 level indicator to tell us
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.376 --> 00:04:02.976 A:middle
-you can use the headset battery
-level indicator to tell us
-
 00:04:02.976 --> 00:04:05.816 A:middle
 about the charge state of
 your battery, then we can use
@@ -356,11 +325,11 @@ to automotive vendors.
 It allows them to allow their
 drivers to interface with Siri
 
-00:04:18.796 --> 00:04:20.255 A:middle
+00:04:18.796 --> 00:04:20.256 A:middle
 in a safe manner
 while they're driving.
 
-00:04:22.005 --> 00:04:27.626 A:middle
+00:04:22.006 --> 00:04:27.626 A:middle
 Oh, and one other thing I forgot
 to mention, we also provide iAP1
 
@@ -402,10 +371,6 @@ over Wi, over Wi-Fi.
 00:04:55.636 --> 00:04:56.956 A:middle
 Again, we'll talk
 about that later.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.636 --> 00:05:03.446 A:middle
 Let's move on to wired options.
@@ -490,14 +455,6 @@ And there's one big thing
 that isn't listed
 here, and that's power.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.776 --> 00:06:01.956 A:middle
-that isn't listed
-here, and that's power.
-
 00:06:02.866 --> 00:06:04.896 A:middle
 The Lightning connector
 is capable
@@ -562,14 +519,6 @@ that they will work flawlessly
 
 00:06:56.236 --> 00:06:57.406 A:middle
 with our, with our platforms.
-
-00:06:58.376 --> 00:07:04.326 A:middle
-All of our currently shipping
-Macs also support Thunderbolt 2.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.376 --> 00:07:04.326 A:middle
 All of our currently shipping
@@ -653,13 +602,6 @@ functionality
 00:07:59.076 --> 00:08:04.526 A:middle
 that we offer over this jack.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.076 --> 00:08:04.526 A:middle
-that we offer over this jack.
-
 00:08:05.036 --> 00:08:05.696 A:middle
 So, now the fun bit.
 
@@ -704,7 +646,7 @@ the keynote yesterday,
 00:08:36.506 --> 00:08:38.086 A:middle
 this is a brand-new framework
 
-00:08:38.155 --> 00:08:40.395 A:middle
+00:08:38.156 --> 00:08:40.396 A:middle
 that we are introducing
 in iOS 8.
 
@@ -722,14 +664,6 @@ of weight, step count,
 00:08:54.306 --> 00:08:58.076 A:middle
 nutritional information,
 blood pressure, glucose.
-
-00:08:58.076 --> 00:09:00.886 A:middle
-In fact, there are
-over 60 types of data
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.076 --> 00:09:00.886 A:middle
 In fact, there are
@@ -800,14 +734,6 @@ right into the APIs.
 00:09:54.426 --> 00:09:57.846 A:middle
 HealthKit provides
 notifications about new data.
-
-00:09:58.106 --> 00:10:01.416 A:middle
-So, data can come from
-a number of sources.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.106 --> 00:10:01.416 A:middle
 So, data can come from
@@ -888,14 +814,6 @@ Low Energy is especially well
 suited for health and sports and
 fitness-related applications.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.176 --> 00:11:04.206 A:middle
-suited for health and sports and
-fitness-related applications.
-
 00:11:05.286 --> 00:11:07.106 A:middle
 In fact, if we looked
 around the room, it's,
@@ -964,10 +882,6 @@ keeping that secret
 00:11:58.396 --> 00:11:59.766 A:middle
 from my family for months now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.126 --> 00:12:01.596 A:middle
 They're always looking
 for clues,
@@ -1035,14 +949,6 @@ or, excuse me,
 00:12:55.896 --> 00:12:57.906 A:middle
 a number of Bluetooth
 Low Energy devices.
-
-00:12:57.906 --> 00:13:02.296 A:middle
-So, for HealthKit, we're going
-to be supporting these four
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.906 --> 00:13:02.296 A:middle
 So, for HealthKit, we're going
@@ -1126,14 +1032,6 @@ use Core Bluetooth now
 to manage the connections, the
 discovery, collecting the data,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:55.236 --> 00:14:00.266 A:middle
-to manage the connections, the
-discovery, collecting the data,
-
 00:14:00.266 --> 00:14:01.686 A:middle
 parsing the data, etcetera.
 
@@ -1204,14 +1102,6 @@ will also extract that data
 00:14:55.166 --> 00:14:58.686 A:middle
 and save that as a heart rate
 data point in the database
-
-00:14:58.726 --> 00:15:01.726 A:middle
-and then notify any clients
-interested in heart rate.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.726 --> 00:15:01.726 A:middle
 and then notify any clients
@@ -1298,14 +1188,6 @@ is a good example.
 So, if you're implementing
 battery service,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.776 --> 00:16:00.346 A:middle
-So, if you're implementing
-battery service,
-
 00:16:00.346 --> 00:16:04.216 A:middle
 then HealthKit can look at
 that and respond accordingly
@@ -1377,14 +1259,6 @@ So, we are very hopeful
 that custom accessory
 manufacturers will join
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.266 --> 00:17:02.466 A:middle
-that custom accessory
-manufacturers will join
-
 00:17:02.506 --> 00:17:03.486 A:middle
 into the HealthKit party.
 
@@ -1410,11 +1284,11 @@ to your, into HealthKit?
 Well, let's step through
 a quick example here.
 
-00:17:24.006 --> 00:17:26.165 A:middle
+00:17:24.006 --> 00:17:26.166 A:middle
 All right, this is
 HealthKit code.
 
-00:17:26.165 --> 00:17:27.576 A:middle
+00:17:26.166 --> 00:17:27.576 A:middle
 I think this is the
 first HealthKit code
 
@@ -1459,10 +1333,6 @@ Objective-C language.
 00:17:56.766 --> 00:17:59.736 A:middle
 And so we are, we're still
 going to work through that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.516 --> 00:18:01.526 A:middle
 All right.
@@ -1550,14 +1420,6 @@ or do some statistics, whatever.
 So, in this case, I'm just
 saying fetch new samples,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.276 --> 00:19:01.746 A:middle
-So, in this case, I'm just
-saying fetch new samples,
-
 00:19:02.166 --> 00:19:05.446 A:middle
 and that would go retrieve
 those samples from the database.
@@ -1638,14 +1500,6 @@ up in athletic gear
 because he is wearing a
 heart rate chest strap.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.106 --> 00:20:01.576 A:middle
-because he is wearing a
-heart rate chest strap.
-
 00:20:02.496 --> 00:20:06.666 A:middle
 So, we're going to
 go to our iOS device.
@@ -1716,14 +1570,6 @@ see we already have new data
 
 00:20:58.476 --> 00:20:59.046 A:middle
 coming in.
-
-00:20:59.836 --> 00:21:02.776 A:middle
-So we go to Show All
-Data, and there we go.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.836 --> 00:21:02.776 A:middle
 So we go to Show All
@@ -1805,14 +1651,6 @@ to do that, because,
 because Jorge's an
 engineer also.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.006 --> 00:22:00.846 A:middle
-because Jorge's an
-engineer also.
-
 00:22:01.076 --> 00:22:02.526 A:middle
 We don't want to go too far.
 
@@ -1880,14 +1718,6 @@ and we look at our data,
 00:22:52.146 --> 00:22:57.986 A:middle
 and we can see all these
 are in there now, 160.
-
-00:22:59.456 --> 00:23:01.806 A:middle
-So, we got a lot of
-heart rate there.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.456 --> 00:23:01.806 A:middle
 So, we got a lot of
@@ -1973,14 +1803,6 @@ a lot of HealthKit engineers
 on hand, and Jorge and I
 will also be around to help
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:57.906 --> 00:24:01.286 A:middle
-on hand, and Jorge and I
-will also be around to help
-
 00:24:01.326 --> 00:24:03.106 A:middle
 with HealthKit and
 or accessories.
@@ -2042,14 +1864,6 @@ to be talking,
 or this morning I'm going to be
 talking about the accessory side
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.566 --> 00:25:01.146 A:middle
-or this morning I'm going to be
-talking about the accessory side
-
 00:25:01.146 --> 00:25:06.096 A:middle
 of things a little bit and this
 afternoon, we have a session
@@ -2099,14 +1913,6 @@ able to get onto the same subnet
 00:25:52.596 --> 00:25:58.076 A:middle
 as an iOS device, then you are
 able to connect to HomeKit.
-
-00:25:59.876 --> 00:26:04.096 A:middle
-Bluetooth LE, of course,
-is direct point-to-point.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.876 --> 00:26:04.096 A:middle
 Bluetooth LE, of course,
@@ -2162,14 +1968,6 @@ said, to bring some rationality
 00:26:54.316 --> 00:26:57.216 A:middle
 to this, we need to start
 defining a common language
-
-00:26:57.436 --> 00:27:00.516 A:middle
-for us to use to
-communicate with all
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.436 --> 00:27:00.516 A:middle
 for us to use to
@@ -2240,14 +2038,6 @@ like to imagine, you know,
 
 00:27:55.616 --> 00:27:57.576 A:middle
 we can define every, everything
-
-00:27:57.576 --> 00:28:01.596 A:middle
-to make it all a nice common
-language, we know that you and,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.576 --> 00:28:01.596 A:middle
 to make it all a nice common
@@ -2325,14 +2115,6 @@ your accessory.
 And finally, on this part, all
 of the Apple-defined services
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:55.316 --> 00:29:00.396 A:middle
-And finally, on this part, all
-of the Apple-defined services
-
 00:29:00.396 --> 00:29:04.446 A:middle
 and characteristics are
 recognized natively by Siri,
@@ -2388,14 +2170,6 @@ notation JSON on the IP side.
 00:29:55.146 --> 00:29:58.446 A:middle
 This provides the serial,
 serialization, the description
-
-00:29:59.346 --> 00:30:01.336 A:middle
-of the services and
-characteristics
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.346 --> 00:30:01.336 A:middle
 of the services and
@@ -2461,14 +2235,6 @@ and that means that the values
 00:30:55.386 --> 00:30:58.136 A:middle
 that we're sending
 are encrypted.
-
-00:30:59.176 --> 00:31:02.126 A:middle
-On the IP side, we apply
-encryption on top of TCP.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.176 --> 00:31:02.126 A:middle
 On the IP side, we apply
@@ -2542,13 +2308,6 @@ that is metadata that applies
 00:31:59.996 --> 00:32:01.136 A:middle
 to the whole accessory.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.996 --> 00:32:01.136 A:middle
-to the whole accessory.
-
 00:32:02.246 --> 00:32:05.086 A:middle
 So, in this case, for example,
 we have a characteristic
@@ -2610,14 +2369,6 @@ user identify it.
 00:32:55.906 --> 00:32:58.016 A:middle
 This is particularly useful
 in the case where you imagine
-
-00:32:58.016 --> 00:33:00.866 A:middle
-that a user has, say, installed
-three light bulbs and they want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.016 --> 00:33:00.866 A:middle
 that a user has, say, installed
@@ -2707,14 +2458,6 @@ also have a light.
 So, now there's another
 service defined on the accessory
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:56.866 --> 00:34:00.056 A:middle
-So, now there's another
-service defined on the accessory
-
 00:34:00.366 --> 00:34:01.716 A:middle
 that represents the light bulb.
 
@@ -2733,7 +2476,7 @@ on or off, and also we can write
 to that characteristic to
 turn the light on or off.
 
-00:34:16.505 --> 00:34:18.216 A:middle
+00:34:16.506 --> 00:34:18.216 A:middle
 So, this is just an example.
 
 00:34:18.216 --> 00:34:20.446 A:middle
@@ -2744,18 +2487,18 @@ accessory I imagine would have
 quite a few more
 characteristics.
 
-00:34:23.005 --> 00:34:25.315 A:middle
+00:34:23.006 --> 00:34:25.316 A:middle
 Also, there could be
 custom characteristics.
 
-00:34:25.315 --> 00:34:26.656 A:middle
+00:34:25.316 --> 00:34:26.656 A:middle
 For example, I don't know,
 
 00:34:27.166 --> 00:34:30.076 A:middle
 a garage door opener
 motor might have a speed,
 
-00:34:30.505 --> 00:34:32.565 A:middle
+00:34:30.506 --> 00:34:32.566 A:middle
 how fast you want the
 garage door to open,
 
@@ -2767,7 +2510,7 @@ custom characteristic
 that says motor speed, and that
 would be included in service too
 
-00:34:39.476 --> 00:34:40.775 A:middle
+00:34:39.476 --> 00:34:40.776 A:middle
 up there for the
 garage door opener.
 
@@ -2789,14 +2532,6 @@ supports HomeKit Accessory
 00:34:54.696 --> 00:34:58.506 A:middle
 Protocol, you get remote
 access through HomeKit.
-
-00:34:59.516 --> 00:35:02.726 A:middle
-This is provided through
-iOS device connectivity,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.516 --> 00:35:02.726 A:middle
 This is provided through
@@ -2866,14 +2601,6 @@ some light bulbs, all right.
 
 00:35:55.976 --> 00:35:56.866 A:middle
 Simple example.
-
-00:35:57.436 --> 00:36:01.766 A:middle
-So, in this case, the hub is
-responsible for translating
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:57.436 --> 00:36:01.766 A:middle
 So, in this case, the hub is
@@ -2956,14 +2683,6 @@ on IP side, we use HTTP.
 The URL scheme is a restful
 API, so the URL indicates
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:56.906 --> 00:37:00.416 A:middle
-The URL scheme is a restful
-API, so the URL indicates
-
 00:37:00.416 --> 00:37:01.596 A:middle
 which services and
 characteristics
@@ -3027,14 +2746,6 @@ then use HomeKit APIs
 00:37:53.886 --> 00:37:56.106 A:middle
 to access your accessory
 functionality.
-
-00:37:59.226 --> 00:38:02.306 A:middle
-Accessories on LE
-are not identifiable
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.226 --> 00:38:02.306 A:middle
 Accessories on LE
@@ -3115,14 +2826,6 @@ back and forth
 between an accessory
 and iOS device.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.996 --> 00:39:02.686 A:middle
-between an accessory
-and iOS device.
-
 00:39:03.576 --> 00:39:07.556 A:middle
 The initial setup of the
 accessory is secured directly
@@ -3197,10 +2900,6 @@ any previous session
 00:39:58.896 --> 00:39:59.976 A:middle
 or any future session.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:01.066 --> 00:40:05.406 A:middle
 So, every communication session
 has a unique encryption key.
@@ -3262,10 +2961,6 @@ you need to go become familiar
 00:40:57.096 --> 00:40:59.506 A:middle
 with the MFi program
 if you are not already.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:00.556 --> 00:41:02.866 A:middle
 Through the MFi program,
@@ -3349,10 +3044,6 @@ going to wrap up.
 00:41:56.876 --> 00:41:59.806 A:middle
 I'm going to hand
 back to Robert,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:00.626 --> 00:42:02.346 A:middle
 who's going to tell you
@@ -3444,13 +3135,6 @@ if you're not comfortable
 00:42:59.316 --> 00:43:00.316 A:middle
 in actually doing the kind
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.316 --> 00:43:00.316 A:middle
-in actually doing the kind
-
 00:43:00.316 --> 00:43:02.816 A:middle
 of qualitative audio testing
 you'd need to do in order
@@ -3531,10 +3215,6 @@ to incorporate your feedback.
 
 00:43:57.916 --> 00:43:59.686 A:middle
 So, let's get right into that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:00.736 --> 00:44:04.736 A:middle
 For iAP2, we've made a bunch
@@ -3625,14 +3305,6 @@ for the Now Playing app.
 So, up to now, we've given you
 the name of the Now Playing app,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.626 --> 00:45:02.956 A:middle
-So, up to now, we've given you
-the name of the Now Playing app,
-
 00:45:02.956 --> 00:45:06.126 A:middle
 but that may have
 been localized based
@@ -3704,14 +3376,6 @@ enhancements
 
 00:45:55.766 --> 00:45:59.266 A:middle
 that aren't media related.
-
-00:45:59.266 --> 00:46:01.756 A:middle
-iAP2 accessories can now
-get the time on the device.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:59.266 --> 00:46:01.756 A:middle
 iAP2 accessories can now
@@ -3797,14 +3461,6 @@ down the, the bill size of that.
 So, if you're trying
 to fit the link layer
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.606 --> 00:47:01.076 A:middle
-So, if you're trying
-to fit the link layer
-
 00:47:01.076 --> 00:47:02.656 A:middle
 into a small micro-controller,
 
@@ -3881,13 +3537,6 @@ is exposed
 00:47:56.406 --> 00:47:58.346 A:middle
 through the external
 accessory framework.
-
-00:47:59.106 --> 00:48:00.166 A:middle
-Simply import the framework.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:59.106 --> 00:48:00.166 A:middle
 Simply import the framework.
@@ -3973,10 +3622,6 @@ a single accessory,
 and you're a pressure
 speaker dock,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:01.456 --> 00:49:04.596 A:middle
 your user can select the
 accessory, and at that stage,
@@ -4046,10 +3691,6 @@ you to do with that accessory.
 
 00:49:58.306 --> 00:49:59.806 A:middle
 So, that's it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:00.176 --> 00:50:01.656 A:middle
 That's our new features
@@ -4128,13 +3769,6 @@ some of the sessions
 00:50:59.876 --> 00:51:02.166 A:middle
 that are coming up later.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:59.876 --> 00:51:02.166 A:middle
-that are coming up later.
-
 00:51:02.376 --> 00:51:04.236 A:middle
 Later today, in fact
 right after this,
@@ -4172,4 +3806,3 @@ Thank you all for coming.
 00:51:20.686 --> 00:51:22.616 A:middle
 I'm looking forward to
 seeing you during the week.
-

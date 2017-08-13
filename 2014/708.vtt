@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.086 --> 00:00:12.316 A:middle
 &gt;&gt; Good afternoon everyone.
@@ -56,14 +55,6 @@ on how venues can get signed up
 00:00:55.606 --> 00:00:57.796 A:middle
 and how you guys
 can start looking
-
-00:00:57.796 --> 00:01:02.166 A:middle
-at the documentation
-and the APIs.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.796 --> 00:01:02.166 A:middle
 at the documentation
@@ -145,10 +136,6 @@ associated with a tower,
 you're not spending any more
 energy or power to get this fix
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.596 --> 00:02:01.646 A:middle
 and it's usually available.
 
@@ -215,14 +202,6 @@ great global coverage.
 00:02:52.616 --> 00:02:57.266 A:middle
 Now, the issue with
 GPS is urban canyons.
-
-00:02:58.026 --> 00:03:00.086 A:middle
-When you're in a city
-with tall buildings,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.026 --> 00:03:00.086 A:middle
 When you're in a city
@@ -302,14 +281,6 @@ experience is based on Wi-Fi.
 00:03:54.196 --> 00:03:58.206 A:middle
 So the existing technologies
 work great.
-
-00:03:58.206 --> 00:04:00.056 A:middle
-They'll let you navigate
-outdoors.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:58.206 --> 00:04:00.056 A:middle
 They'll let you navigate
@@ -395,13 +366,6 @@ want to build applications
 00:04:59.516 --> 00:05:00.726 A:middle
 for indoor venues, and for
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.516 --> 00:05:00.726 A:middle
-for indoor venues, and for
-
 00:05:00.966 --> 00:05:03.316 A:middle
 that we're announcing
 Indoor Positioning.
@@ -470,10 +434,6 @@ using RF parametric data that's
 
 00:05:58.686 --> 00:05:59.616 A:middle
 in your venue already.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:01.296 --> 00:06:03.246 A:middle
 We also use motion sensors.
@@ -550,14 +510,6 @@ Hopefully, you're not indoors.
 00:06:53.316 --> 00:06:57.316 A:middle
 So when we get a good fix
 and we're confident, hey,
-
-00:06:57.316 --> 00:07:01.876 A:middle
-you are indoors, we'll also
-turn down your GPS chip.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.316 --> 00:07:01.876 A:middle
 you are indoors, we'll also
@@ -642,14 +594,6 @@ the catalog
 and pick a particular thing that
 they're looking at and listen
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.436 --> 00:08:02.776 A:middle
-and pick a particular thing that
-they're looking at and listen
-
 00:08:02.776 --> 00:08:04.226 A:middle
 to commentary about it.
 
@@ -680,25 +624,25 @@ the impact this can have
 on the visually impaired
 community.
 
-00:08:31.966 --> 00:08:34.405 A:middle
+00:08:31.966 --> 00:08:34.406 A:middle
 They get great GPS
 services outdoors today
 
-00:08:34.405 --> 00:08:36.166 A:middle
+00:08:34.406 --> 00:08:36.166 A:middle
 and that helps them get around.
 
-00:08:37.116 --> 00:08:38.785 A:middle
+00:08:37.116 --> 00:08:38.786 A:middle
 Venues can also build
 this experience
 
-00:08:38.785 --> 00:08:42.986 A:middle
+00:08:38.786 --> 00:08:42.986 A:middle
 into their applications so that
 you can navigate indoors inside
 
-00:08:42.986 --> 00:08:43.405 A:middle
+00:08:42.986 --> 00:08:43.406 A:middle
 a mall.
 
-00:08:43.405 --> 00:08:46.836 A:middle
+00:08:43.406 --> 00:08:46.836 A:middle
 And not just for the
 visually impaired,
 
@@ -724,14 +668,6 @@ parse floor plans.
 00:08:57.376 --> 00:08:59.166 A:middle
 You just want to find
 your loved one's room,
-
-00:08:59.956 --> 00:09:02.816 A:middle
-and this is where indoor
-positioning and navigating
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.956 --> 00:09:02.816 A:middle
 and this is where indoor
@@ -820,10 +756,6 @@ exactly where you are.
 That's a pretty awesome
 experience.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.106 --> 00:10:04.926 A:middle
 Now, these use cases are pretty
 location centric, but I want you
@@ -906,14 +838,6 @@ We also want your users
 to be actively engaged
 in the application.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:57.886 --> 00:11:00.586 A:middle
-to be actively engaged
-in the application.
-
 00:11:01.246 --> 00:11:04.866 A:middle
 We use aggressive Wi-Fi
 scanning and motion sensors,
@@ -974,14 +898,6 @@ number to the Core Location API.
 
 00:11:56.176 --> 00:11:58.826 A:middle
 It looks something like this:
-
-00:11:58.826 --> 00:12:03.326 A:middle
-in the CLLocation object
-you'll see a "floor" property.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.826 --> 00:12:03.326 A:middle
 in the CLLocation object
@@ -1063,14 +979,6 @@ existing app that you have
 
 00:12:56.156 --> 00:12:57.396 A:middle
 that shows an indoor floor plan.
-
-00:12:58.696 --> 00:13:00.476 A:middle
-So a geographic coordinate
-system,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.696 --> 00:13:00.476 A:middle
 So a geographic coordinate
@@ -1164,14 +1072,6 @@ floor plan you're interested in,
 and for this talk we're
 going to cover the conversion
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.156 --> 00:14:01.556 A:middle
-and for this talk we're
-going to cover the conversion
-
 00:14:01.556 --> 00:14:06.156 A:middle
 from geographic to floor
 plan coordinate frames.
@@ -1245,14 +1145,6 @@ in meters, and it accounts
 00:14:55.866 --> 00:14:58.706 A:middle
 for your spherical distortions,
 and then we'll take a look
-
-00:14:58.706 --> 00:15:01.126 A:middle
-at MKMetersPerMapPointAtLatitude
-a little bit later.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.706 --> 00:15:01.126 A:middle
 at MKMetersPerMapPointAtLatitude
@@ -1332,14 +1224,6 @@ anchor points' geographical
 00:15:54.756 --> 00:15:57.496 A:middle
 coordinates into
 Mercator projection,
-
-00:15:57.496 --> 00:16:00.016 A:middle
-and then we use MapKit
-again to figure
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.496 --> 00:16:00.016 A:middle
 and then we use MapKit
@@ -1431,14 +1315,6 @@ somewhat different.
 They're rotated relative to
 the green, which is relative
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.126 --> 00:17:01.036 A:middle
-They're rotated relative to
-the green, which is relative
-
 00:17:01.036 --> 00:17:03.996 A:middle
 to the floor plan, and so
 what we're going to do is try
@@ -1447,15 +1323,15 @@ what we're going to do is try
 to calculate the angle
 between the green line
 
-00:17:08.076 --> 00:17:10.435 A:middle
+00:17:08.076 --> 00:17:10.436 A:middle
 and the yellow line using
 some existing angles
 
-00:17:10.435 --> 00:17:13.455 A:middle
+00:17:10.436 --> 00:17:13.456 A:middle
 that we know about,
 and so the way to do
 
-00:17:13.455 --> 00:17:16.766 A:middle
+00:17:13.456 --> 00:17:16.766 A:middle
 that is you simply
 subtract the two angles.
 
@@ -1512,14 +1388,6 @@ for the fact
 00:17:56.086 --> 00:17:57.816 A:middle
 that MapKit points are not
 the same thing as meters.
-
-00:17:57.816 --> 00:18:02.946 A:middle
-So we want to account for the
-fact that MapKit is a projection
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.816 --> 00:18:02.946 A:middle
 So we want to account for the
@@ -1612,14 +1480,6 @@ it to your user.
 Now that's really cool; you can
 build an application with that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.936 --> 00:19:00.646 A:middle
-Now that's really cool; you can
-build an application with that.
-
 00:19:01.896 --> 00:19:03.696 A:middle
 Where can you start
 building these applications?
@@ -1697,14 +1557,6 @@ only set of venues.
 There are very many, many more
 that are going to be coming
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:57.616 --> 00:20:00.666 A:middle
-There are very many, many more
-that are going to be coming
-
 00:20:00.666 --> 00:20:01.746 A:middle
 up in the upcoming months,
 
@@ -1776,14 +1628,6 @@ feature, we're bubbling
 00:20:52.346 --> 00:20:56.216 A:middle
 up that popular application
 onto your Lock screen.
-
-00:20:57.166 --> 00:21:00.516 A:middle
-So now when you open your
-phone and wake your device,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:57.166 --> 00:21:00.516 A:middle
 So now when you open your
@@ -1866,14 +1710,6 @@ So, indoor positioning
 and iBeacon technology
 really complement each other.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.116 --> 00:22:00.476 A:middle
-and iBeacon technology
-really complement each other.
-
 00:22:00.886 --> 00:22:03.936 A:middle
 They complete the indoor
 experience that we expect.
@@ -1932,14 +1768,6 @@ indoor positioning is really
 00:22:52.976 --> 00:22:57.286 A:middle
 about your position in the
 geographic space, where you're
-
-00:22:57.286 --> 00:23:00.346 A:middle
-on the floor plan, and it's
-about navigation and getting you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.286 --> 00:23:00.346 A:middle
 on the floor plan, and it's
@@ -2004,14 +1832,6 @@ a CLCircularRegion.
 00:23:53.226 --> 00:23:56.256 A:middle
 Now, this is a region with a
 point in the middle in lat/long
-
-00:23:56.806 --> 00:24:00.606 A:middle
-and a radius, and a
-CLCircularRegion is a great API
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:56.806 --> 00:24:00.606 A:middle
 and a radius, and a
@@ -2090,10 +1910,6 @@ we can really tune them
 and drop them exactly
 where we want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.116 --> 00:25:03.106 A:middle
 and with what power we want
 them to emit their signal
@@ -2167,14 +1983,6 @@ Let me launch it.
 And here you can create your
 indoor positioning experience.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.226 --> 00:26:00.786 A:middle
-And here you can create your
-indoor positioning experience.
-
 00:26:01.556 --> 00:26:03.646 A:middle
 So you can display your
 user's position on the map,
@@ -2234,14 +2042,6 @@ now is deploy beacons
 00:26:51.386 --> 00:26:53.746 A:middle
 at all the various exhibits
 where we have commentary
-
-00:26:54.706 --> 00:27:00.716 A:middle
-on our floor plan, and when a
-user is using your application
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:54.706 --> 00:27:00.716 A:middle
 on our floor plan, and when a
@@ -2322,14 +2122,6 @@ beacon is advertising,
 and then you can
 do a local lookup
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.206 --> 00:28:00.636 A:middle
-and then you can
-do a local lookup
-
 00:28:00.866 --> 00:28:03.226 A:middle
 and show relevant
 information for that.
@@ -2391,14 +2183,6 @@ using my location?"
 00:28:51.026 --> 00:28:56.106 A:middle
 So forming this trust
 between the user
-
-00:28:56.106 --> 00:29:00.726 A:middle
-and the app developers is what
-allows users to trust you,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:56.106 --> 00:29:00.726 A:middle
 and the app developers is what
@@ -2492,14 +2276,6 @@ on the same page as you.
 So let's talk about
 some next steps.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:56.916 --> 00:30:00.046 A:middle
-So let's talk about
-some next steps.
-
 00:30:00.236 --> 00:30:02.736 A:middle
 We have the Maps Connect
 website, and here,
@@ -2575,13 +2351,6 @@ Core Location APIs
 00:30:55.586 --> 00:30:58.686 A:middle
 and how there's very little you
 need to add to your application
-
-00:30:59.126 --> 00:31:00.326 A:middle
-to make them indoor enabled.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.126 --> 00:31:00.326 A:middle
 to make them indoor enabled.
@@ -2664,4 +2433,3 @@ Thank you very much.
 
 00:31:53.526 --> 00:31:55.000 A:middle
 [ Applause ]
-

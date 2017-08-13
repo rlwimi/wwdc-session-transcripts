@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.066 --> 00:00:13.726 A:middle
 &gt;&gt; Welcome to Core
@@ -63,14 +62,6 @@ to the code that we write.
 00:00:55.346 --> 00:00:59.056 A:middle
 All right, so common
 patterns in UI kit and beyond.
-
-00:00:59.546 --> 00:01:01.426 A:middle
-The great thing about
-these common patterns is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.546 --> 00:01:01.426 A:middle
 The great thing about
@@ -165,10 +156,6 @@ what it is.
 So if you've ever
 done this in X code,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.086 --> 00:02:02.636 A:middle
 you have seen target
 action in action.
@@ -247,14 +234,6 @@ of UI Control.
 But both of them apply
 this target action paradigm
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:57.436 --> 00:03:00.876 A:middle
-But both of them apply
-this target action paradigm
-
 00:03:01.176 --> 00:03:03.736 A:middle
 so that you don't really
 have to think about the fact
@@ -327,10 +306,6 @@ with the control objects.
 00:03:58.696 --> 00:03:59.866 A:middle
 So that's target action.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.346 --> 00:04:03.426 A:middle
 A way to specify a
 connection between two objects,
@@ -356,7 +331,7 @@ particular object is going
 00:04:19.356 --> 00:04:20.906 A:middle
 to be used to handle that event.
 
-00:04:22.065 --> 00:04:24.446 A:middle
+00:04:22.066 --> 00:04:24.446 A:middle
 Responder chain kicks off
 with some sort of initiator.
 
@@ -414,14 +389,6 @@ message, whatever that was
 
 00:04:58.546 --> 00:04:59.526 A:middle
 that was asked to be done.
-
-00:04:59.656 --> 00:05:02.966 A:middle
-Change the color of a text
-field, or copy the contents
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.656 --> 00:05:02.966 A:middle
 Change the color of a text
@@ -513,14 +480,6 @@ And that's the responder chain.
 It lets you build a group
 of objects that are going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.996 --> 00:06:01.496 A:middle
-It lets you build a group
-of objects that are going
-
 00:06:01.496 --> 00:06:03.476 A:middle
 to eventually find
 out who is responsible
@@ -591,14 +550,6 @@ that I tell that view to do.
 Move it back and
 then I rotate it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.796 --> 00:07:01.476 A:middle
-Move it back and
-then I rotate it.
-
 00:07:01.786 --> 00:07:05.216 A:middle
 All of the subviews in that
 Composite are treated together
@@ -664,14 +615,6 @@ running in the background.
 So that's Composite, allowing
 us to build a group of objects
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:56.106 --> 00:08:00.336 A:middle
-So that's Composite, allowing
-us to build a group of objects
-
 00:08:00.416 --> 00:08:04.346 A:middle
 into a tree that then we can
 treat as one single object.
@@ -708,18 +651,18 @@ to the application delegate
 00:08:34.856 --> 00:08:36.916 A:middle
 to customize the way it behaves.
 
-00:08:37.015 --> 00:08:38.006 A:middle
+00:08:37.016 --> 00:08:38.006 A:middle
 So there is a set of methods
 
 00:08:38.106 --> 00:08:40.746 A:middle
 that the application
 delegate protocol specifies,
 
-00:08:41.066 --> 00:08:43.035 A:middle
+00:08:41.066 --> 00:08:43.036 A:middle
 application is going to
 go into the background.
 
-00:08:43.135 --> 00:08:45.166 A:middle
+00:08:43.136 --> 00:08:45.166 A:middle
 Application is going to
 come into the foreground.
 
@@ -738,14 +681,6 @@ the way UI Application acts,
 00:08:56.206 --> 00:08:58.426 A:middle
 but you don't have
 to know anything
-
-00:08:58.426 --> 00:09:00.356 A:middle
-about the details
-of UI Application.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.426 --> 00:09:00.356 A:middle
 about the details
@@ -829,14 +764,6 @@ the way UI Application works
 without us having to force
 you to understand all
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.456 --> 00:10:02.346 A:middle
-without us having to force
-you to understand all
-
 00:10:02.346 --> 00:10:04.086 A:middle
 that detail about
 UI Application.
@@ -904,14 +831,6 @@ A common example from UIKit,
 00:10:53.146 --> 00:10:57.516 A:middle
 UITableView has a
 UITableViewDataSource.
-
-00:10:57.976 --> 00:11:01.406 A:middle
-That allows the table view to
-know how many sections it has.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.976 --> 00:11:01.406 A:middle
 That allows the table view to
@@ -1004,14 +923,6 @@ across all different things.
 So back to the definition
 here of data source.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.886 --> 00:12:01.636 A:middle
-So back to the definition
-here of data source.
-
 00:12:02.076 --> 00:12:05.026 A:middle
 Customize data retrieval
 without subclassing.
@@ -1089,14 +1000,6 @@ Or maybe more.
 The way I like to think about it
 is Model View Controller gives
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:57.636 --> 00:13:00.636 A:middle
-The way I like to think about it
-is Model View Controller gives
-
 00:13:00.636 --> 00:13:05.196 A:middle
 us a way to organize, to build
 an organizational structure
@@ -1167,14 +1070,6 @@ to make those kind of gestures,
 00:13:53.816 --> 00:13:56.976 A:middle
 and the controller is then
 what's responsible for shuffling
-
-00:13:56.976 --> 00:14:00.666 A:middle
-that back and forth, so it takes
-information from the model,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:56.976 --> 00:14:00.666 A:middle
 that back and forth, so it takes
@@ -1262,14 +1157,6 @@ an application
 
 00:14:55.286 --> 00:14:56.326 A:middle
 definition statement.
-
-00:14:56.836 --> 00:15:00.146 A:middle
-Many people who have unfocused
-applications aren't able
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:56.836 --> 00:15:00.146 A:middle
 Many people who have unfocused
@@ -1369,14 +1256,6 @@ now, it needs to be fast.
 So we'll call our application
 Qwinkle, and here's a few ideas
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.016 --> 00:16:03.086 A:middle
-So we'll call our application
-Qwinkle, and here's a few ideas
-
 00:16:03.116 --> 00:16:06.936 A:middle
 of things that this
 application needs to do,
@@ -1471,14 +1350,6 @@ of the application.
 We have a list of
 updates from our friends.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.756 --> 00:17:00.716 A:middle
-We have a list of
-updates from our friends.
-
 00:17:01.456 --> 00:17:05.306 A:middle
 They have avatars, and then
 we have this plus button
@@ -1490,15 +1361,15 @@ can add a new entry.
 00:17:08.286 --> 00:17:10.796 A:middle
 So the first thing to do is sort
 
-00:17:10.796 --> 00:17:13.205 A:middle
+00:17:10.796 --> 00:17:13.206 A:middle
 of spend some time
 conceptualizing what does our
 
-00:17:13.205 --> 00:17:16.006 A:middle
+00:17:13.206 --> 00:17:16.006 A:middle
 application look
 like through the lens
 
-00:17:16.066 --> 00:17:18.195 A:middle
+00:17:16.066 --> 00:17:18.196 A:middle
 of the Model View
 Controller design paradigm.
 
@@ -1549,14 +1420,6 @@ between these users.
 00:17:54.996 --> 00:17:56.796 A:middle
 All of these items,
 all the nouns
-
-00:17:56.796 --> 00:18:00.396 A:middle
-out of this list tell us
-what the model objects are,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.796 --> 00:18:00.396 A:middle
 out of this list tell us
@@ -1644,14 +1507,6 @@ Next up is the controller.
 Now, remember the controller's
 role in our application is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.716 --> 00:19:00.476 A:middle
-Now, remember the controller's
-role in our application is
-
 00:19:00.476 --> 00:19:02.926 A:middle
 to shuffle the data between
 the model and the view,
@@ -1732,14 +1587,6 @@ a new entry message.
 Our view controller is also
 responsible for dealing
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:57.856 --> 00:20:02.376 A:middle
-Our view controller is also
-responsible for dealing
-
 00:20:02.376 --> 00:20:03.606 A:middle
 with the networking stuff.
 
@@ -1805,14 +1652,6 @@ about was adding a new entry.
 00:20:55.566 --> 00:20:58.266 A:middle
 So when the user is
 adding a new entry,
-
-00:20:58.266 --> 00:21:01.406 A:middle
-we're going to have a new view
-controller, and a new view,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.266 --> 00:21:01.406 A:middle
 we're going to have a new view
@@ -1897,14 +1736,6 @@ entering this new entry
 00:21:57.556 --> 00:21:59.876 A:middle
 and they tap the done
 button, we need to package
-
-00:21:59.876 --> 00:22:01.876 A:middle
-up this information, push
-it out to the internet,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.876 --> 00:22:01.876 A:middle
 up this information, push
@@ -1999,14 +1830,6 @@ that we want to address is
 to be able to send
 private messages.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.876 --> 00:23:01.356 A:middle
-to be able to send
-private messages.
-
 00:23:02.176 --> 00:23:06.246 A:middle
 So now we have our
 initial view controller,
@@ -2083,14 +1906,6 @@ into a download service.
 00:23:57.376 --> 00:23:59.536 A:middle
 When we do that re-factoring,
 we'll start off
-
-00:23:59.536 --> 00:24:00.996 A:middle
-with our Public Timeline
-View Controller,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.536 --> 00:24:00.996 A:middle
 with our Public Timeline
@@ -2182,10 +1997,6 @@ So instead let's make
 that a weak relationship,
 and use delegation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.306 --> 00:25:03.386 A:middle
 So notice how we took the idea
 of delegation that we have
@@ -2270,14 +2081,6 @@ realized this is just too much
 for us to cover in the last 15
 minutes or so that we have left,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.506 --> 00:26:01.646 A:middle
-for us to cover in the last 15
-minutes or so that we have left,
-
 00:26:01.646 --> 00:26:05.266 A:middle
 so instead, what I've done is
 I've made a vastly simplified
@@ -2352,14 +2155,6 @@ download happen.
 So let's look at the way the
 code works over here, briefly.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:56.626 --> 00:27:00.916 A:middle
-So let's look at the way the
-code works over here, briefly.
-
 00:27:02.106 --> 00:27:04.076 A:middle
 So here's our view controller,
 
@@ -2428,14 +2223,6 @@ controller now no longer has
 this knowledge about the URL
 session and how it works.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.836 --> 00:28:03.326 A:middle
-this knowledge about the URL
-session and how it works.
-
 00:28:03.326 --> 00:28:05.516 A:middle
 We removed all those,
 and moved them
@@ -2486,14 +2273,6 @@ download service just going
 00:28:53.986 --> 00:28:56.056 A:middle
 rogue and downloading stuff
 whenever it feels like it.
-
-00:28:56.416 --> 00:29:00.056 A:middle
-The view controller, being in
-control of how things happen
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:56.416 --> 00:29:00.056 A:middle
 The view controller, being in
@@ -2565,14 +2344,6 @@ From our master view controller,
 we are still kicking
 off the download
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:55.736 --> 00:30:00.626 A:middle
-we are still kicking
-off the download
-
 00:30:01.076 --> 00:30:04.126 A:middle
 from our refresh
 control, and of course,
@@ -2633,14 +2404,6 @@ one is informing the controller
 that that happened,
 that it's finished.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.276 --> 00:31:00.826 A:middle
-that that happened,
-that it's finished.
-
 00:31:01.276 --> 00:31:05.196 A:middle
 And so it finishes just fine,
 but our refresh isn't able
@@ -2688,14 +2451,6 @@ implement that protocol.
 00:31:52.056 --> 00:31:56.236 A:middle
 &gt;&gt; So our download service
 has this method spelled
-
-00:31:56.236 --> 00:32:00.346 A:middle
-out in the delegate
-that says, hey,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:56.236 --> 00:32:00.346 A:middle
 out in the delegate
@@ -2769,14 +2524,6 @@ service, really important piece
 of the puzzle is when the URL
 session finishes downloading,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.466 --> 00:33:03.786 A:middle
-of the puzzle is when the URL
-session finishes downloading,
-
 00:33:04.006 --> 00:33:07.846 A:middle
 when the, you know, we
 kick off the download,
@@ -2838,14 +2585,6 @@ another service.
 Probably something like a
 JSON parser, and I would take
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.636 --> 00:34:02.066 A:middle
-Probably something like a
-JSON parser, and I would take
-
 00:34:02.066 --> 00:34:04.726 A:middle
 that JSON parser and say,
 hey, here's the stuff
@@ -2854,11 +2593,11 @@ hey, here's the stuff
 that just got downloaded,
 would you please take care
 
-00:34:07.546 --> 00:34:10.735 A:middle
+00:34:07.546 --> 00:34:10.736 A:middle
 of parsing it and turning
 it into real objects,
 
-00:34:11.315 --> 00:34:14.216 A:middle
+00:34:11.316 --> 00:34:14.216 A:middle
 create another delegate
 protocol for the JSON parser,
 
@@ -2873,7 +2612,7 @@ everything has finished parsing.
 And then that's when I
 would actually have all the
 
-00:34:21.146 --> 00:34:26.735 A:middle
+00:34:21.146 --> 00:34:26.736 A:middle
 information I need to change the
 way the user interface looks.
 
@@ -2892,28 +2631,20 @@ start thinking about how UIKit
 00:34:41.426 --> 00:34:43.056 A:middle
 and Foundation are implemented.
 
-00:34:43.706 --> 00:34:46.025 A:middle
+00:34:43.706 --> 00:34:46.026 A:middle
 So let's take a step
 back and take a look
 
-00:34:46.025 --> 00:34:47.166 A:middle
+00:34:46.026 --> 00:34:47.166 A:middle
 at our download service.
 
-00:34:48.525 --> 00:34:53.275 A:middle
+00:34:48.526 --> 00:34:53.276 A:middle
 So the download service
 specifies
 
-00:34:53.275 --> 00:34:55.596 A:middle
+00:34:53.276 --> 00:34:55.596 A:middle
 that it implements
 this set of protocols.
-
-00:34:56.996 --> 00:35:01.006 A:middle
-Every one of those protocols'
-names ends in delegate.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:56.996 --> 00:35:01.006 A:middle
 Every one of those protocols'
@@ -2997,10 +2728,6 @@ points that you have
 00:35:58.396 --> 00:35:59.696 A:middle
 for this reusable object.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:00.236 --> 00:36:02.506 A:middle
 If you implement this method,
 
@@ -3070,14 +2797,6 @@ so we can see it stopping.
 00:36:54.536 --> 00:36:58.816 A:middle
 So now we're back
 to the functionality
-
-00:36:58.816 --> 00:37:00.956 A:middle
-that we had before we
-started hacking and slashing
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.816 --> 00:37:00.956 A:middle
 that we had before we
@@ -3175,14 +2894,6 @@ back from the background.
 That's the stuff
 that you should focus
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.346 --> 00:38:00.216 A:middle
-That's the stuff
-that you should focus
-
 00:38:00.216 --> 00:38:01.806 A:middle
 on for your application
 delegate.
@@ -3245,14 +2956,6 @@ to this particular identifier.
 00:38:51.766 --> 00:38:55.886 A:middle
 And we're going to call
 that in the same place
-
-00:38:55.916 --> 00:39:00.366 A:middle
-where we were calling out to
-the UI Application delegate.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:55.916 --> 00:39:00.366 A:middle
 where we were calling out to
@@ -3342,14 +3045,6 @@ for many different things
 that do not include its
 set of responsibilities.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.946 --> 00:40:02.016 A:middle
-that do not include its
-set of responsibilities.
-
 00:40:04.306 --> 00:40:08.956 A:middle
 So in summary, there are
 lots of frameworks in iOS.
@@ -3429,14 +3124,6 @@ You can always do that.
 So just make stuff and you will
 learn so much from doing that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:56.606 --> 00:41:00.136 A:middle
-So just make stuff and you will
-learn so much from doing that.
-
 00:41:00.586 --> 00:41:02.916 A:middle
 All right, so for
 more information,
@@ -3495,4 +3182,3 @@ rest of your WWDC [applause].
 
 00:41:36.016 --> 00:41:38.000 A:middle
 [ Silence ]
-

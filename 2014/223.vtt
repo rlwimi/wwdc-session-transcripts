@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.266 --> 00:00:13.296 A:middle
 &gt;&gt; Good morning everybody.
@@ -73,14 +72,6 @@ Sort out you guys, yeah.
 So our plan today: We're going
 to design and prototype an app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.946 --> 00:01:05.706 A:middle
-So our plan today: We're going
-to design and prototype an app.
-
 00:01:06.376 --> 00:01:08.366 A:middle
 We're going to go through
 the steps we would go
@@ -145,14 +136,6 @@ So today, you're all very lucky.
 I'm going to unveil to all of
 you today a world-changing,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:54.716 --> 00:02:01.416 A:middle
-I'm going to unveil to all of
-you today a world-changing,
-
 00:02:02.526 --> 00:02:06.526 A:middle
 disruptive application, and I'd
 
@@ -160,7 +143,7 @@ disruptive application, and I'd
 like to show it to
 you right now.
 
-00:02:10.515 --> 00:02:26.656 A:middle
+00:02:10.516 --> 00:02:26.656 A:middle
 [ Music ]
 
 00:02:27.156 --> 00:02:28.986 A:middle
@@ -201,13 +184,6 @@ Thank you.
 
 00:02:58.026 --> 00:02:58.846 A:middle
 Thank you everyone.
-
-00:02:59.516 --> 00:03:03.676 A:middle
-[ Music &amp; Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.516 --> 00:03:03.676 A:middle
 [ Music &amp; Applause ]
@@ -264,14 +240,6 @@ disappointed by the result.
 00:03:56.396 --> 00:03:59.506 A:middle
 Maybe the experience isn't
 what you've hoped for.
-
-00:03:59.886 --> 00:04:02.126 A:middle
-Maybe it just doesn't
-resonate with your customers.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.886 --> 00:04:02.126 A:middle
 Maybe it just doesn't
@@ -347,14 +315,6 @@ interactivity.
 So there are two
 important reasons
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.926 --> 00:05:01.956 A:middle
-So there are two
-important reasons
-
 00:05:01.956 --> 00:05:04.866 A:middle
 to prototype I want everybody to
 keep in mind throughout today.
@@ -408,10 +368,6 @@ What does that mean?
 00:05:56.746 --> 00:05:59.536 A:middle
 Well, we want to ask ourselves
 three questions before we begin.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:01.006 --> 00:06:03.266 A:middle
 The first one is what
@@ -482,14 +438,6 @@ kind of freeform input
 
 00:06:57.326 --> 00:06:58.706 A:middle
 on how we can improve our app.
-
-00:06:59.576 --> 00:07:01.866 A:middle
-You'd be surprised what
-interesting things people have
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.576 --> 00:07:01.866 A:middle
 You'd be surprised what
@@ -575,14 +523,6 @@ learn, and we do this over
 and over again until
 the experience
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.596 --> 00:08:00.176 A:middle
-and over again until
-the experience
-
 00:08:00.176 --> 00:08:01.676 A:middle
 of our product is great.
 
@@ -637,23 +577,23 @@ and cheap and a lot
 of you probably already
 have it on your computer.
 
-00:08:31.856 --> 00:08:34.155 A:middle
+00:08:31.856 --> 00:08:34.156 A:middle
 But in practice, you can
 use anything that can chop
 
-00:08:34.155 --> 00:08:36.976 A:middle
+00:08:34.156 --> 00:08:36.976 A:middle
 up pictures and draw
 a few basic shapes.
 
-00:08:37.856 --> 00:08:40.765 A:middle
+00:08:37.856 --> 00:08:40.766 A:middle
 For animation, we're actually
 also going to prototype
 
-00:08:40.976 --> 00:08:43.275 A:middle
+00:08:40.976 --> 00:08:43.276 A:middle
 with Keynote, which is a
 surprisingly sophisticated
 
-00:08:43.275 --> 00:08:44.076 A:middle
+00:08:43.276 --> 00:08:44.076 A:middle
 animation tool.
 
 00:08:44.466 --> 00:08:46.626 A:middle
@@ -674,14 +614,6 @@ we're actually going to use
 00:08:54.936 --> 00:08:57.456 A:middle
 That's what we use frequently
 to prototype concepts.
-
-00:08:58.116 --> 00:09:00.556 A:middle
-And it's actually
-easier than you think
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.116 --> 00:09:00.556 A:middle
 And it's actually
@@ -761,14 +693,6 @@ Good morning.
 So, to figure out how finding
 toast in our app is going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.826 --> 00:10:01.826 A:middle
-So, to figure out how finding
-toast in our app is going
-
 00:10:01.826 --> 00:10:05.476 A:middle
 to work, we're going to
 begin by making pictures.
@@ -836,14 +760,6 @@ look more like this.
 00:10:53.346 --> 00:10:55.836 A:middle
 Whatever. I mean
 don't go showing this
-
-00:10:55.836 --> 00:11:00.086 A:middle
-to like board meetings or
-anything, but the point remains
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:55.836 --> 00:11:00.086 A:middle
 to like board meetings or
@@ -917,14 +833,6 @@ that we found all of this
 00:11:56.796 --> 00:11:59.466 A:middle
 out super quick on paper
 before devoting a lot
-
-00:11:59.466 --> 00:12:02.456 A:middle
-of time exploring
-just one concept.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.466 --> 00:12:02.456 A:middle
 of time exploring
@@ -1004,14 +912,6 @@ to use temporary icons.
 And lastly, where
 will we use it?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.516 --> 00:13:01.676 A:middle
-And lastly, where
-will we use it?
-
 00:13:02.106 --> 00:13:03.636 A:middle
 Well, we're going
 to put these screens
@@ -1081,13 +981,6 @@ prototypes because it has a ton
 00:13:55.416 --> 00:13:58.676 A:middle
 of really useful tools that
 make aligning photographs
-
-00:13:58.676 --> 00:14:00.216 A:middle
-and images really easy.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.676 --> 00:14:00.216 A:middle
 and images really easy.
@@ -1162,14 +1055,6 @@ to be the right color.
 So to do that in Keynote,
 you open up the Color Picker,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.496 --> 00:15:00.346 A:middle
-So to do that in Keynote,
-you open up the Color Picker,
-
 00:15:00.916 --> 00:15:04.396 A:middle
 and using that magnifying
 glass tool, sample the color
@@ -1237,14 +1122,6 @@ the plate and the toast.
 00:15:54.706 --> 00:15:57.846 A:middle
 And so, luckily for us,
 Keynote actually has a great set
-
-00:15:57.846 --> 00:16:01.006 A:middle
-of options to be able to
-mask an image to any shape.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.846 --> 00:16:01.006 A:middle
 of options to be able to
@@ -1332,13 +1209,6 @@ the line if we even decide
 00:16:59.976 --> 00:17:01.676 A:middle
 to go with this direction.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.976 --> 00:17:01.676 A:middle
-to go with this direction.
-
 00:17:02.416 --> 00:17:04.376 A:middle
 For now, we're going to
 do something super basic
@@ -1350,7 +1220,7 @@ one pixel border around all
 00:17:09.106 --> 00:17:11.226 A:middle
 of our images, and done.
 
-00:17:11.726 --> 00:17:13.925 A:middle
+00:17:11.726 --> 00:17:13.926 A:middle
 We're - it's already
 more visible.
 
@@ -1365,7 +1235,7 @@ my images of toast.
 00:17:19.236 --> 00:17:20.306 A:middle
 I want to label them.
 
-00:17:21.205 --> 00:17:23.266 A:middle
+00:17:21.206 --> 00:17:23.266 A:middle
 And so to help us out with that,
 we're actually going to take
 
@@ -1410,14 +1280,6 @@ to worry about it.
 00:17:53.476 --> 00:17:55.536 A:middle
 So, cool, this is actually
 really coming together.
-
-00:17:56.546 --> 00:18:00.976 A:middle
-We just can up the opacity
-of the background again
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.546 --> 00:18:00.976 A:middle
 We just can up the opacity
@@ -1493,14 +1355,6 @@ you use now doesn't matter.
 So, we're just going to go into
 Keynotes default color palette
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.516 --> 00:19:01.016 A:middle
-So, we're just going to go into
-Keynotes default color palette
-
 00:19:01.616 --> 00:19:04.056 A:middle
 and choose a color
 that makes sense.
@@ -1568,14 +1422,6 @@ going to add in a text box,
 type in the plus symbol, and
 now you've designed an icon
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:55.996 --> 00:20:00.356 A:middle
-type in the plus symbol, and
-now you've designed an icon
-
 00:20:00.356 --> 00:20:01.276 A:middle
 in five seconds.
 
@@ -1636,14 +1482,6 @@ and catch that early on.
 00:20:54.526 --> 00:20:58.786 A:middle
 So, now we've got
 one screen ready.
-
-00:20:59.196 --> 00:21:01.446 A:middle
-And that screen took us
-about 10 minutes to make.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.196 --> 00:21:01.446 A:middle
 And that screen took us
@@ -1716,14 +1554,6 @@ Or our gallery weather app idea,
 00:21:54.646 --> 00:21:57.086 A:middle
 which just like looks
 really cool.
-
-00:21:58.176 --> 00:22:00.726 A:middle
-And so, now I've
-got my four screens,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.176 --> 00:22:00.726 A:middle
 And so, now I've
@@ -1806,14 +1636,6 @@ onto your phone.
 So that might be Photo
 Stream, the new iCloud drive,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.886 --> 00:23:03.176 A:middle
-So that might be Photo
-Stream, the new iCloud drive,
-
 00:23:03.466 --> 00:23:05.866 A:middle
 or you can just email
 them to yourself.
@@ -1885,10 +1707,6 @@ information for you to have
 00:23:57.876 --> 00:23:59.826 A:middle
 in order to make
 iterations of your screen.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:00.316 --> 00:24:02.716 A:middle
 Second thing you want to ask,
@@ -1970,13 +1788,6 @@ back and learn from some
 00:24:58.176 --> 00:25:00.726 A:middle
 of the feedback we got.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.176 --> 00:25:00.726 A:middle
-of the feedback we got.
-
 00:25:00.926 --> 00:25:01.956 A:middle
 What's working so far?
 
@@ -2033,14 +1844,6 @@ want to make more real
 00:25:51.096 --> 00:25:56.216 A:middle
 in this prototype is the
 connection between a screen
-
-00:25:56.216 --> 00:26:00.116 A:middle
-that has top toast and a
-screen that has a map on it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:56.216 --> 00:26:00.116 A:middle
 that has top toast and a
@@ -2126,14 +1929,6 @@ to spend a lot of time trying
 to figure out how this app
 works and navigate through it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.086 --> 00:27:01.496 A:middle
-to figure out how this app
-works and navigate through it.
-
 00:27:01.496 --> 00:27:03.176 A:middle
 I'm just looking for
 those restaurants.
@@ -2203,14 +1998,6 @@ CSS animations or Processing.
 Either way, we think you
 might be able to use tools
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:55.506 --> 00:28:00.116 A:middle
-Either way, we think you
-might be able to use tools
-
 00:28:00.286 --> 00:28:03.316 A:middle
 such as Hype, iAd
 Producer or Keynote.
@@ -2272,14 +2059,6 @@ that looks like.
 00:28:54.276 --> 00:28:58.726 A:middle
 So, this slide in from bottom
 to top is perhaps like some
-
-00:28:58.726 --> 00:29:01.176 A:middle
-of the sheet animations
-that iOS has
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.726 --> 00:29:01.176 A:middle
 of the sheet animations
@@ -2361,10 +2140,6 @@ restaurants that are
 in the map are three
 restaurants from that list.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:00.226 --> 00:30:02.736 A:middle
 So that's something we want to
 communicate as we transition
@@ -2442,14 +2217,6 @@ for our purposes.
 What Magic Move does, is it
 tries to identify objects
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.756 --> 00:31:03.096 A:middle
-What Magic Move does, is it
-tries to identify objects
-
 00:31:03.096 --> 00:31:06.166 A:middle
 or shapes that are the
 same on the two slides
@@ -2510,14 +2277,6 @@ note here real quick,
 
 00:31:58.276 --> 00:31:59.816 A:middle
 if you have a shape selected,
-
-00:31:59.966 --> 00:32:02.486 A:middle
-the Animate palette will
-show you Build animations.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.966 --> 00:32:02.486 A:middle
 the Animate palette will
@@ -2595,14 +2354,6 @@ between these two screens.
 So to make it a little bit more
 realistic so that we can kind
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.366 --> 00:33:01.296 A:middle
-So to make it a little bit more
-realistic so that we can kind
-
 00:33:01.296 --> 00:33:04.396 A:middle
 of imagine how you would
 navigate between these screens,
@@ -2671,14 +2422,6 @@ midpoint, the second half
 of the animation is
 fading in new shapes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.956 --> 00:34:00.646 A:middle
-of the animation is
-fading in new shapes.
-
 00:34:01.596 --> 00:34:04.126 A:middle
 So we can get around
 that by making sure
@@ -2699,7 +2442,7 @@ duration of the animation.
 I'm going to copy that
 from the second slide,
 
-00:34:17.085 --> 00:34:18.766 A:middle
+00:34:17.086 --> 00:34:18.766 A:middle
 paste it on that first slide,
 
 00:34:19.366 --> 00:34:23.846 A:middle
@@ -2710,32 +2453,32 @@ the other shapes, and then,
 just for fun, I'm going to
 make it a little bit larger
 
-00:34:26.505 --> 00:34:28.176 A:middle
+00:34:26.506 --> 00:34:28.176 A:middle
 than it is on the second slide.
 
 00:34:28.746 --> 00:34:32.446 A:middle
 So, what the Magic Move
 animation will give us will be
 
-00:34:32.446 --> 00:34:34.235 A:middle
+00:34:32.446 --> 00:34:34.236 A:middle
 maybe a little bit of
 a perspective shift
 
-00:34:34.235 --> 00:34:37.025 A:middle
+00:34:34.236 --> 00:34:37.026 A:middle
 as the map is shrinking
 as it's fading in.
 
-00:34:38.266 --> 00:34:39.315 A:middle
+00:34:38.266 --> 00:34:39.316 A:middle
 Let's see what that looks like.
 
-00:34:39.815 --> 00:34:45.246 A:middle
+00:34:39.816 --> 00:34:45.246 A:middle
 It's pretty neat.
 
-00:34:46.775 --> 00:34:49.136 A:middle
+00:34:46.776 --> 00:34:49.136 A:middle
 But there are a couple
 of other things we can do
 
-00:34:49.136 --> 00:34:50.315 A:middle
+00:34:49.136 --> 00:34:50.316 A:middle
 to make this even better.
 
 00:34:50.876 --> 00:34:54.116 A:middle
@@ -2745,14 +2488,6 @@ writing any code, so we can try
 00:34:54.116 --> 00:34:59.076 A:middle
 out some- maybe over-the-top
 animations and take them
-
-00:34:59.076 --> 00:35:01.566 A:middle
-out later, pare it down
-to just what it needs.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.076 --> 00:35:01.566 A:middle
 out later, pare it down
@@ -2838,13 +2573,6 @@ at the same time
 00:35:58.826 --> 00:36:00.586 A:middle
 as the other one is fading out.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.826 --> 00:36:00.586 A:middle
-as the other one is fading out.
-
 00:36:01.816 --> 00:36:03.306 A:middle
 I also wanted to do something
 
@@ -2916,10 +2644,6 @@ from the list to the map.
 00:36:57.076 --> 00:36:59.996 A:middle
 But to get an animation from
 the map back to the list,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:01.416 --> 00:37:04.686 A:middle
 all I have to do is duplicate
@@ -2995,13 +2719,6 @@ to throw away code.
 00:37:59.326 --> 00:38:00.696 A:middle
 It's just moving shapes around.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.326 --> 00:38:00.696 A:middle
-It's just moving shapes around.
-
 00:38:01.286 --> 00:38:03.136 A:middle
 That's a really great way to try
 
@@ -3067,14 +2784,6 @@ that we zoom in on?
 00:38:53.366 --> 00:38:57.206 A:middle
 That's an angled image
 behind all the other shapes.
-
-00:38:58.716 --> 00:39:01.606 A:middle
-The other pieces of
-toast are similar images
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.716 --> 00:39:01.606 A:middle
 The other pieces of
@@ -3156,14 +2865,6 @@ open that same presentation
 in our hand on the device to
 get a sense for how it feels.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:57.366 --> 00:40:01.336 A:middle
-in our hand on the device to
-get a sense for how it feels.
-
 00:40:03.046 --> 00:40:09.296 A:middle
 We can hand it to someone
 and see what they try to do.
@@ -3212,14 +2913,6 @@ and what they expect to happen.
 00:40:41.136 --> 00:40:45.966 A:middle
 We can do a similar
 thing with the tab bar.
-
-00:40:57.946 --> 00:41:02.996 A:middle
-And after we show people and
-let them express what they think
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:57.946 --> 00:41:02.996 A:middle
 And after we show people and
@@ -3298,10 +2991,6 @@ they'd like to be able
 to see the map while they're
 looking at the ratings.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.476 --> 00:42:02.586 A:middle
 Perhaps they want to make
 their own calculations
@@ -3374,13 +3063,6 @@ the map and the list
 00:42:55.516 --> 00:43:01.146 A:middle
 on the screen at the same time.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:55.516 --> 00:43:01.146 A:middle
-on the screen at the same time.
-
 00:43:01.336 --> 00:43:06.536 A:middle
 A list, a map on one screen.
 
@@ -3449,10 +3131,6 @@ best toast should be more real.
 We want to be able to pan
 the map and scroll the list.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:00.536 --> 00:44:01.806 A:middle
 Now, what can we fake?
 
@@ -3517,10 +3195,6 @@ web background,
 00:44:56.946 --> 00:44:59.876 A:middle
 you could use HTML,
 CSS, a bit of jQuery.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:01.046 --> 00:45:04.056 A:middle
 If you're a game developer
@@ -3588,10 +3262,6 @@ engineering the real thing.
 00:45:54.966 --> 00:45:58.876 A:middle
 We generally use three steps to
 build an interactive prototype.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:00.126 --> 00:46:02.716 A:middle
 First step: Put the
@@ -3673,14 +3343,6 @@ is a class called Layer.
 And for those of you who
 know about coordination,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.566 --> 00:47:02.676 A:middle
-And for those of you who
-know about coordination,
-
 00:47:03.176 --> 00:47:06.116 A:middle
 it simply just inherits
 from UIImageView.
@@ -3745,14 +3407,6 @@ Let's get to our second step.
 
 00:47:56.866 --> 00:47:58.066 A:middle
 We want to break up the picture.
-
-00:47:59.206 --> 00:48:03.446 A:middle
-In our case, we break it up into
-a navigation bar into an image
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:59.206 --> 00:48:03.446 A:middle
 In our case, we break it up into
@@ -3830,10 +3484,6 @@ icons onto my toast map.
 Just kind of in an
 artisanal way.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:00.026 --> 00:49:02.946 A:middle
 No need to be precise or work
 with latitude, longitude values.
@@ -3897,14 +3547,6 @@ move when you touch them.
 00:49:51.906 --> 00:49:55.686 A:middle
 Now I want to talk to you
 about the drag image behavior.
-
-00:49:56.836 --> 00:50:02.976 A:middle
-What happens is, you hit the
-map, a touchdown event happens.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:56.836 --> 00:50:02.976 A:middle
 What happens is, you hit the
@@ -3980,10 +3622,6 @@ the current touch position
 00:50:58.246 --> 00:50:59.646 A:middle
 and the previous touch position.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:00.146 --> 00:51:03.116 A:middle
 And we calculate our delta
 
@@ -4056,14 +3694,6 @@ you add a little bit
 00:51:55.446 --> 00:51:57.546 A:middle
 of information, and
 then you post it.
-
-00:51:58.096 --> 00:52:00.826 A:middle
-First thing is I
-need a camera view.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:58.096 --> 00:52:00.826 A:middle
 First thing is I
@@ -4144,10 +3774,6 @@ image of a toast.
 And that's what we
 continue with.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:53:00.206 --> 00:53:06.086 A:middle
 You add a few information
 about your toast and post it.
@@ -4207,14 +3833,6 @@ to people.
 00:53:54.986 --> 00:53:58.386 A:middle
 And if it's an interactive
 prototype, it's really important
-
-00:53:58.386 --> 00:54:00.196 A:middle
-that you let people
-try it out with
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:58.386 --> 00:54:00.196 A:middle
 that you let people
@@ -4291,14 +3909,6 @@ or more for a slice of bread.
 00:54:57.316 --> 00:54:59.476 A:middle
 By this, I want to
 reintroduce Jeff
-
-00:54:59.606 --> 00:55:02.666 A:middle
-to summarize our
-session and conclude it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:59.606 --> 00:55:02.666 A:middle
 to summarize our
@@ -4386,14 +3996,6 @@ pictures, and we learned how
 to take screenshots, mask
 them and rearrange them
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:55:57.726 --> 00:56:00.186 A:middle
-to take screenshots, mask
-them and rearrange them
-
 00:56:00.376 --> 00:56:01.846 A:middle
 so we can make a lot
 of different options.
@@ -4475,14 +4077,6 @@ the right things.
 If you're a solo developer,
 I want you to draw, animate
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:56:58.156 --> 00:57:01.816 A:middle
-If you're a solo developer,
-I want you to draw, animate
-
 00:57:01.816 --> 00:57:04.186 A:middle
 and hack before you go
 and build something.
@@ -4536,4 +4130,3 @@ Thank you very much everybody.
 
 00:57:43.516 --> 00:57:49.010 A:middle
 [ Applause ]
-

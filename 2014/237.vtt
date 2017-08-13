@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.176 --> 00:00:11.626 A:middle
 &gt;&gt; Hello.
@@ -68,13 +67,6 @@ in 2012 with a talk called
 00:00:56.706 --> 00:00:59.246 A:middle
 "Basics + Habits,"
 where I talked
-
-00:00:59.246 --> 00:01:01.106 A:middle
-about some technical concerns,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.246 --> 00:01:01.106 A:middle
 about some technical concerns,
@@ -149,13 +141,6 @@ operational pattern sounds
 
 00:01:56.356 --> 00:01:58.716 A:middle
 like programming to me, right?
-
-00:01:59.616 --> 00:02:00.416 A:middle
-Definitely.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.616 --> 00:02:00.416 A:middle
 Definitely.
@@ -239,14 +224,6 @@ And I have an example here.
 Let's say you're in Las
 Vegas and you see somebody go
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:58.676 --> 00:03:01.606 A:middle
-Let's say you're in Las
-Vegas and you see somebody go
-
 00:03:01.606 --> 00:03:04.076 A:middle
 by who is carrying
 a big pile of chips
@@ -310,10 +287,6 @@ lessons, take all those lessons,
 put them together and really
 that is what informs my work.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.066 --> 00:04:02.036 A:middle
 And, again, of course, I'm
 always trying to do great work,
@@ -336,7 +309,7 @@ Number one, the story is
 and the lesson is know a
 good idea when you see it.
 
-00:04:20.065 --> 00:04:25.206 A:middle
+00:04:20.066 --> 00:04:25.206 A:middle
 So I joined Apple in June of
 2001, and if you think back
 
@@ -377,14 +350,6 @@ and render web content, right?
 00:04:55.236 --> 00:04:57.166 A:middle
 So we just had an
 app, but no framework.
-
-00:04:57.166 --> 00:05:00.566 A:middle
-So my job, along with someone
-else, a fellow named Don,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.166 --> 00:05:00.566 A:middle
 So my job, along with someone
@@ -465,10 +430,6 @@ about a week, I remember,
 to try to just get Mozilla
 to build on the Mac.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.196 --> 00:06:05.506 A:middle
 And I remember at one point one
 of the steps in this long recipe
@@ -543,10 +504,6 @@ No demo, just test results.
 So right about that time we
 got a new engineer on our team,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.116 --> 00:07:00.836 A:middle
 a fellow named Richard.
 
@@ -616,14 +573,6 @@ This was amazing.
 
 00:07:55.816 --> 00:07:58.336 A:middle
 It was absolutely amazing.
-
-00:07:58.336 --> 00:08:00.406 A:middle
-We were just standing
-there and like looking
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:58.336 --> 00:08:00.406 A:middle
 We were just standing
@@ -705,14 +654,6 @@ happens to you and you're made
 to look like an idiot,
 it doesn't matter.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:59.346 --> 00:09:01.556 A:middle
-to look like an idiot,
-it doesn't matter.
-
 00:09:01.556 --> 00:09:02.346 A:middle
 I didn't care.
 
@@ -786,14 +727,6 @@ that you can actually begin
 to use like you want to use the
 real thing that you're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:56.696 --> 00:10:00.996 A:middle
-to use like you want to use the
-real thing that you're going
-
 00:10:00.996 --> 00:10:02.596 A:middle
 to be making ultimately
 in the future.
@@ -856,14 +789,6 @@ and we downloaded all of KDE.
 00:10:55.126 --> 00:10:57.716 A:middle
 But the thing is we
 only wanted KHTML,
-
-00:10:57.716 --> 00:11:02.266 A:middle
-only the HTML rendering
-engine, and we also wanted KJS,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.716 --> 00:11:02.266 A:middle
 only the HTML rendering
@@ -936,14 +861,6 @@ very light stubs.
 00:11:52.456 --> 00:11:56.166 A:middle
 These were only stubs
 in header files, right?
-
-00:11:56.166 --> 00:12:00.256 A:middle
-So we only wanted to sort of
-define the problem in terms
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:56.166 --> 00:12:00.256 A:middle
 So we only wanted to sort of
@@ -1026,14 +943,6 @@ we returned empty strings,
 and obviously that's
 not really what a lot
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.966 --> 00:13:01.416 A:middle
-and obviously that's
-not really what a lot
-
 00:13:01.416 --> 00:13:02.506 A:middle
 of the code was expecting.
 
@@ -1105,14 +1014,6 @@ thing to draw on the screen.
 So I loaded a URL, in this
 case www.yahoo.com, and reams
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:53.236 --> 00:14:01.326 A:middle
-So I loaded a URL, in this
-case www.yahoo.com, and reams
-
 00:14:01.326 --> 00:14:03.556 A:middle
 and reams and reams
 of log messages go by,
@@ -1177,14 +1078,6 @@ experience is don't try
 
 00:14:54.906 --> 00:14:56.316 A:middle
 to solve every problem at once.
-
-00:14:56.386 --> 00:15:00.226 A:middle
-At this point we had
-almost no knowledge
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:56.386 --> 00:15:00.226 A:middle
 At this point we had
@@ -1278,14 +1171,6 @@ problem or try to operate
 on solving the whole
 problem at one time, right?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.236 --> 00:16:03.536 A:middle
-on solving the whole
-problem at one time, right?
-
 00:16:03.706 --> 00:16:07.506 A:middle
 So don't try to solve
 every problem at once,
@@ -1351,23 +1236,15 @@ Because if you think about it,
 before WebKit had editing
 the web content would show
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.056 --> 00:17:02.386 A:middle
-before WebKit had editing
-the web content would show
-
-00:17:02.386 --> 00:17:05.665 A:middle
+00:17:02.386 --> 00:17:05.666 A:middle
 up in your mail message as an
 attachment in our TF document
 
-00:17:05.665 --> 00:17:07.695 A:middle
+00:17:05.666 --> 00:17:07.696 A:middle
 with a big blinking
 insertion point after it,
 
-00:17:07.695 --> 00:17:09.586 A:middle
+00:17:07.696 --> 00:17:09.586 A:middle
 you could just kind of delete
 the whole thing with one --
 
@@ -1448,14 +1325,6 @@ Now why is this?
 Because, you know, unlike
 say an RTF document,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:58.456 --> 00:18:01.426 A:middle
-Because, you know, unlike
-say an RTF document,
-
 00:18:01.426 --> 00:18:04.656 A:middle
 which is just a series of
 characters and indexes into,
@@ -1518,14 +1387,6 @@ insertion point blink.
 00:18:55.206 --> 00:18:57.556 A:middle
 And so, as I just illustrated,
 I came up with this notion
-
-00:18:57.556 --> 00:19:00.116 A:middle
-of then equivalent
-DOM positions.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:57.556 --> 00:19:00.116 A:middle
 of then equivalent
@@ -1613,14 +1474,6 @@ this feedback process going
 00:19:54.276 --> 00:19:57.726 A:middle
 where bizarre things happened
 because a bug would then feed
-
-00:19:57.726 --> 00:20:00.716 A:middle
-into itself, right, and cause
-something that was very,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.726 --> 00:20:00.716 A:middle
 into itself, right, and cause
@@ -1717,14 +1570,6 @@ I was stuck.
 I was working on this,
 well, just for the sake
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.686 --> 00:21:03.326 A:middle
-I was working on this,
-well, just for the sake
-
 00:21:03.326 --> 00:21:05.566 A:middle
 of argument say six
 weeks, the magical number,
@@ -1808,14 +1653,6 @@ VisiblePosition and move
 by words, lines and
 documents, okay?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.886 --> 00:22:01.406 A:middle
-by words, lines and
-documents, okay?
-
 00:22:01.406 --> 00:22:02.826 A:middle
 So they gave me this design.
 
@@ -1883,14 +1720,6 @@ VisiblePositions, visible-units.
 I said, OK, I will do that, and
 it worked, it absolutely worked.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.476 --> 00:23:06.736 A:middle
-I said, OK, I will do that, and
-it worked, it absolutely worked.
-
 00:23:06.936 --> 00:23:09.336 A:middle
 I certainly went back and
 got some more of their help,
@@ -1942,14 +1771,6 @@ skills and experience at Apple,
 00:23:51.266 --> 00:23:54.126 A:middle
 but I soon transitioned
 to work on keyboards.
-
-00:23:57.076 --> 00:24:00.166 A:middle
-So now if you think about
-it, right, and this is kind
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.076 --> 00:24:00.166 A:middle
 So now if you think about
@@ -2039,14 +1860,6 @@ ideas for how we would do this.
 Now there are a lot of
 challenges, particularly
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.396 --> 00:25:02.666 A:middle
-Now there are a lot of
-challenges, particularly
-
 00:25:02.666 --> 00:25:04.756 A:middle
 at the beginning, when we
 were all new with dealing
@@ -2127,14 +1940,6 @@ something in the spirit of one
 of the experiments we
 tried, not an exact example,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:57.986 --> 00:26:01.496 A:middle
-of the experiments we
-tried, not an exact example,
-
 00:26:01.756 --> 00:26:03.926 A:middle
 but something very, very much
 in the spirit of what we tried,
@@ -2202,14 +2007,6 @@ because the keys are big.
 00:26:57.136 --> 00:26:59.696 A:middle
 You can even maybe think of like
 it's just like home keys, right?
-
-00:26:59.696 --> 00:27:01.806 A:middle
-You just kind of keep your
-five fingers right on top
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.696 --> 00:27:01.806 A:middle
 You just kind of keep your
@@ -2304,14 +2101,6 @@ idea in the world.
 But after each of these
 experiments and each
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.476 --> 00:28:01.576 A:middle
-But after each of these
-experiments and each
-
 00:28:01.576 --> 00:28:04.186 A:middle
 of the times that we thought
 through how to make a tutorial,
@@ -2382,14 +2171,6 @@ the key to that decision,
 key I guess is a funny
 word, but it's the keyboard.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.436 --> 00:29:03.336 A:middle
-key I guess is a funny
-word, but it's the keyboard.
-
 00:29:03.496 --> 00:29:07.866 A:middle
 But it's the real reason why we
 chose to go with QWERTY because,
@@ -2443,14 +2224,6 @@ meant and not what you did,
 00:29:54.766 --> 00:29:57.126 A:middle
 taking what you did and figured
 out what you meant from it.
-
-00:29:57.716 --> 00:30:04.446 A:middle
-And, of course, there's quite a
-bit of smart people have thought
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.716 --> 00:30:04.446 A:middle
 And, of course, there's quite a
@@ -2512,13 +2285,6 @@ I needed something simple
 
 00:30:53.866 --> 00:30:55.566 A:middle
 because math is hard, okay?
-
-00:30:56.516 --> 00:31:00.846 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:56.516 --> 00:31:00.846 A:middle
 [ Applause ]
@@ -2591,14 +2357,6 @@ are just those words that are -
 00:31:54.556 --> 00:31:57.196 A:middle
 they're letter combinations,
 but they're not words.
-
-00:31:57.646 --> 00:32:02.616 A:middle
-We have words that, the one
-column has words that are
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:57.646 --> 00:32:02.616 A:middle
 We have words that, the one
@@ -2697,14 +2455,6 @@ to get right.
 I'll tell you a secret, it's
 just like there was actually -
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.686 --> 00:33:01.816 A:middle
-I'll tell you a secret, it's
-just like there was actually -
-
 00:33:01.816 --> 00:33:04.406 A:middle
 I did have one little
 bit of multithreaded code
@@ -2787,14 +2537,6 @@ Word list on one side,
 and a little algorithm
 on the other side.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:56.656 --> 00:34:00.396 A:middle
-and a little algorithm
-on the other side.
-
 00:34:00.696 --> 00:34:03.746 A:middle
 And this was actually
 thought up by the same fellow
@@ -2821,11 +2563,11 @@ So what do you do?
 You have a list of words in a
 dictionary, you memory map it,
 
-00:34:17.406 --> 00:34:20.295 A:middle
+00:34:17.406 --> 00:34:20.296 A:middle
 you iterate the list once
 to find the line endings,
 
-00:34:20.525 --> 00:34:22.786 A:middle
+00:34:20.526 --> 00:34:22.786 A:middle
 you store those addresses
 in a pointer array,
 
@@ -2833,7 +2575,7 @@ in a pointer array,
 you can then binary search and
 you can find whether a word is
 
-00:34:25.876 --> 00:34:28.545 A:middle
+00:34:25.876 --> 00:34:28.546 A:middle
 in the dictionary
 really, really fast.
 
@@ -2860,11 +2602,11 @@ go and wrap an address,
 and you have a string, as long
 as you're at a line start.
 
-00:34:46.896 --> 00:34:49.005 A:middle
+00:34:46.896 --> 00:34:49.006 A:middle
 And so this turned out to
 be really, really fast.
 
-00:34:49.005 --> 00:34:51.766 A:middle
+00:34:49.006 --> 00:34:51.766 A:middle
 I could check dictionary
 membership in microseconds,
 
@@ -2875,14 +2617,6 @@ iPhone hardware.
 00:34:55.286 --> 00:34:57.696 A:middle
 So this was now really,
 really fast.
-
-00:34:57.696 --> 00:35:01.116 A:middle
-And so what this did was
-it made speculation really,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.696 --> 00:35:01.116 A:middle
 And so what this did was
@@ -2961,14 +2695,6 @@ scratch, which means of course
 00:35:57.646 --> 00:35:58.736 A:middle
 that it searched the
 whole dictionary,
-
-00:35:58.736 --> 00:36:01.986 A:middle
-70,000 plus words,
-on every keystroke.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.736 --> 00:36:01.986 A:middle
 70,000 plus words,
@@ -3058,14 +2784,6 @@ of the simplest thing
 which could possibly just
 give you what you need,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:57.986 --> 00:37:00.716 A:middle
-which could possibly just
-give you what you need,
-
 00:37:01.156 --> 00:37:02.136 A:middle
 go with that first.
 
@@ -3127,14 +2845,6 @@ keyboard.
 
 00:37:53.006 --> 00:37:56.476 A:middle
 And so here is a representation
-
-00:37:56.476 --> 00:38:00.346 A:middle
-of a full-sized desktop
-keyboard, and there is the size
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:56.476 --> 00:38:00.346 A:middle
 of a full-sized desktop
@@ -3229,14 +2939,6 @@ characters off at the side.
 And then I direct your
 attention to this here,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.646 --> 00:39:01.716 A:middle
-And then I direct your
-attention to this here,
-
 00:39:01.716 --> 00:39:05.666 A:middle
 so we would have a switch that
 would allow you to go very,
@@ -3295,14 +2997,6 @@ the iPad in front of him,
 00:39:54.596 --> 00:39:57.816 A:middle
 and fortunately the
 work explained itself,
-
-00:39:58.246 --> 00:40:00.826 A:middle
-so the description was
-as short as we're looking
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:58.246 --> 00:40:00.826 A:middle
 so the description was
@@ -3376,10 +3070,6 @@ a full-sized keyboard."
 And he said, "Okay,
 we'll go with that one."
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.516 --> 00:41:09.696 A:middle
 [ Laughter &amp; Applause ]
 
@@ -3450,14 +3140,6 @@ the best the first time.
 It needed his extra
 prodding, that little bit
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:59.946 --> 00:42:03.376 A:middle
-It needed his extra
-prodding, that little bit
-
 00:42:03.376 --> 00:42:05.886 A:middle
 of extra investigation, that
 little bit of extra poking
@@ -3511,14 +3193,6 @@ for iOS 7 was a whole new look.
 
 00:42:58.326 --> 00:42:59.846 A:middle
 And you ask the question, well,
-
-00:42:59.976 --> 00:43:01.836 A:middle
-how do you make all
-of these choices?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:59.976 --> 00:43:01.836 A:middle
 how do you make all
@@ -3599,10 +3273,6 @@ The designer will have feedback.
 00:43:58.346 --> 00:43:59.206 A:middle
 I'll take notes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:00.526 --> 00:44:03.536 A:middle
 I'll then go away to
 make those changes
@@ -3674,14 +3344,6 @@ when you change one
 00:44:53.276 --> 00:44:56.966 A:middle
 of those properties the parts of
 the system that are interested
-
-00:44:56.966 --> 00:45:00.626 A:middle
-in those values changing
-can know about it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:56.966 --> 00:45:00.626 A:middle
 in those values changing
@@ -3773,14 +3435,6 @@ This reduced iteration time
 because once you had the right
 settings surfaced in the app,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:56.816 --> 00:46:01.046 A:middle
-because once you had the right
-settings surfaced in the app,
-
 00:46:01.526 --> 00:46:03.476 A:middle
 you could sit with the
 designer, an engineer could sit
@@ -3855,14 +3509,6 @@ over and over and over again.
 And this was the way that we
 wound up with just a handful
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:58.556 --> 00:47:01.966 A:middle
-And this was the way that we
-wound up with just a handful
-
 00:47:01.966 --> 00:47:03.476 A:middle
 of blur styles for iOS 7
 
@@ -3922,10 +3568,6 @@ making this session.
 00:47:55.156 --> 00:47:59.486 A:middle
 And so this is not
 the original session.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:00.196 --> 00:48:02.826 A:middle
 I wrote an entirely
@@ -4022,14 +3664,6 @@ important, but there's kind
 of the one big detail which is
 I don't have a session anymore.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:57.916 --> 00:49:01.556 A:middle
-of the one big detail which is
-I don't have a session anymore.
-
 00:49:03.436 --> 00:49:06.286 A:middle
 Three weeks ago I had
 something that was rehearsed,
@@ -4078,14 +3712,6 @@ and made sure that I was okay
 00:49:51.516 --> 00:49:54.776 A:middle
 with this decision that was a
 very hard one to share with me.
-
-00:49:55.886 --> 00:50:00.706 A:middle
-And so the lesson from this is
-be kind to people, but be honest
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:55.886 --> 00:50:00.706 A:middle
 And so the lesson from this is
@@ -4164,14 +3790,6 @@ yourself from your work.
 Now and I always invest a
 tremendous amount of care
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:57.826 --> 00:51:03.576 A:middle
-Now and I always invest a
-tremendous amount of care
-
 00:51:03.576 --> 00:51:08.536 A:middle
 and emotion into my work, it's
 my nature, I can't help it.
@@ -4234,14 +3852,6 @@ is, well, obviously,
 
 00:51:58.646 --> 00:51:59.856 A:middle
 I needed to get back to work.
-
-00:51:59.856 --> 00:52:03.866 A:middle
-If I wanted to have a
-show, right, at all,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:59.856 --> 00:52:03.866 A:middle
 If I wanted to have a
@@ -4328,14 +3938,6 @@ to actually share it
 with the rest of
 the world, right?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:58.546 --> 00:53:00.606 A:middle
-with the rest of
-the world, right?
-
 00:53:01.706 --> 00:53:07.526 A:middle
 So still on this idea, this
 is a quotation that's actually
@@ -4410,14 +4012,6 @@ me more lessons.
 And so those are my
 stories, and there they are.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:58.956 --> 00:54:06.276 A:middle
-And so those are my
-stories, and there they are.
-
 00:54:07.376 --> 00:54:11.576 A:middle
 Again, and I think, I hope,
 
@@ -4476,4 +4070,3 @@ So thank you very much.
 
 00:54:59.516 --> 00:55:07.220 A:middle
 [ Applause ]
-

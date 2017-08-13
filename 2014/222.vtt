@@ -1,14 +1,13 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:13.436 --> 00:00:14.656 A:middle
-&gt;&gt; Okay. Hello everybody.
+&gt;&gt; OK. Hello everybody.
 
-00:00:14.786 --> 00:00:16.315 A:middle
+00:00:14.786 --> 00:00:16.316 A:middle
 My name is Dave Wilson.
 
-00:00:16.315 --> 00:00:18.986 A:middle
-I'm on the iAd team and
+00:00:16.316 --> 00:00:18.986 A:middle
+I'm on the iAd team, and
 I'm here to talk to you
 
 00:00:18.986 --> 00:00:21.556 A:middle
@@ -24,7 +23,7 @@ iAd is Apple's digital
 advertising platform.
 
 00:00:29.896 --> 00:00:31.466 A:middle
-This is what's used --
+This is what's used -
 you may have seen it
 
 00:00:31.466 --> 00:00:33.326 A:middle
@@ -48,7 +47,7 @@ this presentation.
 
 00:00:42.856 --> 00:00:44.946 A:middle
 We're going to be talking
-first about monetization;
+first about monetization:
 
 00:00:45.346 --> 00:00:48.126 A:middle
 how you can use iAd
@@ -59,23 +58,15 @@ to drive revenue for your apps.
 
 00:00:49.626 --> 00:00:52.936 A:middle
 And the second part is
-promotion; how you can use iAd
+promotion: how you can use iAd
 
 00:00:53.276 --> 00:00:55.296 A:middle
 to get more downloads of
 your app to get more users
 
 00:00:55.296 --> 00:00:58.546 A:middle
-of your app -- to get your app
+of your app - to get your app
 out in everyone else's hands.
-
-00:00:58.626 --> 00:01:01.986 A:middle
-So let's start off
-with monetization.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.626 --> 00:01:01.986 A:middle
 So let's start off
@@ -84,24 +75,24 @@ with monetization.
 00:01:01.986 --> 00:01:03.806 A:middle
 I'm going to start off
 
-00:01:04.075 --> 00:01:05.826 A:middle
+00:01:04.076 --> 00:01:05.826 A:middle
 with a few different pieces
 we're going to talk about here.
 
 00:01:06.496 --> 00:01:07.966 A:middle
 Talk about some developer
-benefits;
+benefits,
 
 00:01:07.966 --> 00:01:09.626 A:middle
 what iAd can do for you.
 
 00:01:09.626 --> 00:01:14.146 A:middle
-Talk about some core concepts;
+Talk about some core concepts,
 sort of an advertising 101.
 
 00:01:14.696 --> 00:01:17.186 A:middle
 We'll talk about improving
-performance; how you can sort
+performance, how you can sort
 
 00:01:17.186 --> 00:01:19.666 A:middle
 of best use iAd and
@@ -128,7 +119,7 @@ and making sure your integration
 is actually working before you
 
 00:01:31.076 --> 00:01:32.606 A:middle
-get out in the app store
+get out in the App Store
 and then just get bugs
 
 00:01:32.606 --> 00:01:37.366 A:middle
@@ -151,19 +142,11 @@ that you create.
 They're high production values.
 
 00:01:56.406 --> 00:01:57.966 A:middle
-There's rich media apps
+There's rich media apps,
 
 00:01:57.966 --> 00:01:59.776 A:middle
 and there's rich media
 ads involved here.
-
-00:01:59.776 --> 00:02:01.596 A:middle
-These are things
-that involve video.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.776 --> 00:02:01.596 A:middle
 These are things
@@ -206,7 +189,7 @@ These are award-winning ads.
 
 00:02:26.806 --> 00:02:30.946 A:middle
 These are not just fly by
-night, you know, one off apps --
+night, you know, one off apps -
 
 00:02:30.946 --> 00:02:33.376 A:middle
 or ads with link tags
@@ -224,7 +207,7 @@ that actually look good
 as part of your app.
 
 00:02:41.066 --> 00:02:44.536 A:middle
-Okay? In addition, Apple
+OK? In addition, Apple
 is providing this SDK.
 
 00:02:44.536 --> 00:02:49.686 A:middle
@@ -237,14 +220,6 @@ on the rest of Apple's system,
 
 00:02:54.336 --> 00:02:56.436 A:middle
 Apple invests in iAd as well.
-
-00:02:57.016 --> 00:03:00.556 A:middle
-That means that we take
-care of all of the power
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.016 --> 00:03:00.556 A:middle
 That means that we take
@@ -265,16 +240,16 @@ You don't need to worry
 about obeying the limit
 ad tracking switch.
 
-00:03:07.876 --> 00:03:08.866 A:middle
-You don't need to obey about --
+00:03:07.876 --> 00:03:10.026 A:middle
+You don't need to obey
+about - don't need to worry
 
-00:03:08.866 --> 00:03:11.716 A:middle
-don't need to worry about
-location permissions
+00:03:10.026 --> 00:03:13.346 A:middle
+about location permissions
+or making sure
 
-00:03:11.896 --> 00:03:15.506 A:middle
-or making sure that
-your users' privacy
+00:03:13.346 --> 00:03:15.506 A:middle
+that your users' privacy
 
 00:03:15.506 --> 00:03:17.596 A:middle
 and personal data is
@@ -321,7 +296,7 @@ to get banners in your app.
 
 00:03:44.896 --> 00:03:49.106 A:middle
 In addition, along with the
-rest of the code that other --
+rest of the code that other -
 
 00:03:49.186 --> 00:03:51.636 A:middle
 along with the rest of the
@@ -336,13 +311,6 @@ to you on the websites.
 
 00:03:56.256 --> 00:03:59.436 A:middle
 iAd has global reach.
-
-00:03:59.636 --> 00:04:00.786 A:middle
-We're in 14 countries now.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.636 --> 00:04:00.786 A:middle
 We're in 14 countries now.
@@ -376,25 +344,28 @@ able to get revenue
 00:04:14.256 --> 00:04:15.326 A:middle
 in those countries as well.
 
-00:04:18.555 --> 00:04:20.906 A:middle
+00:04:18.556 --> 00:04:20.906 A:middle
 Just like the actual
 app purchase
 
-00:04:20.906 --> 00:04:24.106 A:middle
-and then in-app purchases as
-well, you're going to get 70%
+00:04:20.906 --> 00:04:23.376 A:middle
+and then In-App Purchases
+as well, you're going
 
-00:04:24.106 --> 00:04:27.196 A:middle
-of the advertising revenue
+00:04:23.376 --> 00:04:25.226 A:middle
+to get 70 percent of
+the advertising revenue
+
+00:04:25.456 --> 00:04:27.196 A:middle
 from iAd inside your app.
 
-00:04:27.666 --> 00:04:30.996 A:middle
-Apple takes its 30% share and
-everything else goes to you
+00:04:27.666 --> 00:04:30.596 A:middle
+Apple takes its 30 percent
+share, and everything else goes
 
-00:04:31.236 --> 00:04:33.346 A:middle
-from whatever we take
-in from the advertisers
+00:04:30.596 --> 00:04:33.346 A:middle
+to you from whatever we
+take in from the advertisers
 
 00:04:33.586 --> 00:04:38.666 A:middle
 who are producing these
@@ -431,15 +402,7 @@ and that's really
 all you have to do.
 
 00:04:56.696 --> 00:05:02.476 A:middle
-Okay. So that's sort of
-what iAd can do for you.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:56.696 --> 00:05:02.476 A:middle
-Okay. So that's sort of
+OK. So that's sort of
 what iAd can do for you.
 
 00:05:02.476 --> 00:05:03.956 A:middle
@@ -466,8 +429,8 @@ progress of you getting revenue
 from iAd inside your app.
 
 00:05:20.516 --> 00:05:23.186 A:middle
-First of all, there's an
-ad request and you're going
+First of all, there's an ad
+request, and you're going
 
 00:05:23.186 --> 00:05:24.506 A:middle
 to see this come up again.
@@ -488,10 +451,10 @@ through the iAd framework.
 
 00:05:30.936 --> 00:05:34.206 A:middle
 It's going to go out to the
-iAd servers up in the cloud,
+iAd servers up in the cloud.
 
 00:05:34.726 --> 00:05:37.006 A:middle
-and hopefully, ads will
+And hopefully, ads will
 come back down to you,
 
 00:05:37.286 --> 00:05:40.836 A:middle
@@ -512,23 +475,15 @@ get ads there, unfortunately.
 
 00:05:51.106 --> 00:05:53.616 A:middle
 Once you've started
-getting ads from the --
+getting ads from the -
 
 00:05:53.616 --> 00:05:56.336 A:middle
 if you get an ad request, you
-want to look at your fill-rate.
+want to look at your fill rate.
 
-00:05:56.606 --> 00:06:00.526 A:middle
+00:05:56.606 --> 00:06:00.136 A:middle
 This is the ratio of ads
-delivered by the ad service
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:56.606 --> 00:06:00.526 A:middle
-This is the ratio of ads
-delivered by the ad service
+delivered by the ad server
 
 00:06:00.556 --> 00:06:03.056 A:middle
 to the number of requests that
@@ -546,20 +501,20 @@ what type of app you have,
 how well your app has
 done with iAd in the past.
 
-00:06:11.786 --> 00:06:13.356 A:middle
-And we'll get to that
-in a little bit --
+00:06:11.786 --> 00:06:14.646 A:middle
+And we'll get to that in a
+little bit - a little later,
 
-00:06:13.356 --> 00:06:16.556 A:middle
-a little later, as to how
-that can be really important
+00:06:14.986 --> 00:06:16.556 A:middle
+as to how that can
+be really important
 
 00:06:16.556 --> 00:06:18.106 A:middle
-in driving your fill-rate.
+in driving your fill rate.
 
 00:06:19.496 --> 00:06:22.496 A:middle
 Once you've gotten ads,
-you've gotten your fill-rate
+you've gotten your fill rate
 
 00:06:22.496 --> 00:06:23.906 A:middle
 and you've shown
@@ -574,22 +529,19 @@ This is the number of the ads
 
 00:06:28.026 --> 00:06:30.266 A:middle
 that your user has
-actually tapped on
+actually tapped on,
 
 00:06:30.266 --> 00:06:33.276 A:middle
 and this does not
 count accidental taps.
 
-00:06:33.276 --> 00:06:34.716 A:middle
-So if the tap -- if the
-user just taps on it
+00:06:33.276 --> 00:06:35.256 A:middle
+So if the tap - if the user just
+taps on it and then closes it
 
-00:06:34.716 --> 00:06:36.106 A:middle
-and then closes it because
-they didn't really mean,
-
-00:06:36.106 --> 00:06:37.256 A:middle
-that doesn't count.
+00:06:35.256 --> 00:06:37.256 A:middle
+because they didn't really
+mean it, that doesn't count.
 
 00:06:37.256 --> 00:06:40.606 A:middle
 This is the number of taps
@@ -625,14 +577,6 @@ Ad engagement.
 Obviously, you need
 to display the ad.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.506 --> 00:07:01.386 A:middle
-Obviously, you need
-to display the ad.
-
 00:07:01.386 --> 00:07:03.426 A:middle
 If you're not displaying
 the ad to the user,
@@ -643,7 +587,7 @@ many of them you request
 
 00:07:05.036 --> 00:07:08.406 A:middle
 from the server, you're not
-going to get paid for them
+going to get paid for them,
 
 00:07:08.696 --> 00:07:10.046 A:middle
 and you might as well
@@ -691,7 +635,7 @@ You want to make sure
 that ads are onscreen.
 
 00:07:37.866 --> 00:07:40.096 A:middle
-This is -- has two benefits.
+This is - has two benefits.
 
 00:07:40.096 --> 00:07:41.996 A:middle
 One, it's not distracting
@@ -717,7 +661,7 @@ They have time to
 see its message.
 
 00:07:52.336 --> 00:07:53.536 A:middle
-They have time to say, hey.
+They have time to say, "Hey.
 
 00:07:53.536 --> 00:07:55.826 A:middle
 You know, I'd actually like to
@@ -725,15 +669,7 @@ tap on this and engage with it
 
 00:07:55.826 --> 00:07:59.656 A:middle
 and see what's going
-on under the hood.
-
-00:07:59.656 --> 00:08:01.586 A:middle
-That leads into allow
-interaction.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+on under the hood."
 
 00:07:59.656 --> 00:08:01.586 A:middle
 That leads into allow
@@ -762,7 +698,7 @@ that is, say, a transparent view
 
 00:08:14.746 --> 00:08:17.256 A:middle
 that does not allow user
-interaction; the user can't tap
+interaction, the user can't tap
 
 00:08:17.256 --> 00:08:18.086 A:middle
 on the banner under the hood.
@@ -790,22 +726,22 @@ you're not going
 to get the revenue you're hoping
 for in this sort of situation
 
-00:08:30.576 --> 00:08:32.515 A:middle
+00:08:30.576 --> 00:08:32.516 A:middle
 because the ad wasn't
 really onscreen.
 
-00:08:34.746 --> 00:08:37.405 A:middle
-Okay. So there's some
+00:08:34.746 --> 00:08:37.406 A:middle
+OK. So there's some
 sort of core concepts.
 
-00:08:37.405 --> 00:08:39.035 A:middle
+00:08:37.406 --> 00:08:39.036 A:middle
 Talk a little bit
 about what you can do
 
-00:08:39.035 --> 00:08:40.746 A:middle
+00:08:39.036 --> 00:08:40.746 A:middle
 to improve the performance
 
-00:08:40.746 --> 00:08:43.645 A:middle
+00:08:40.746 --> 00:08:43.646 A:middle
 of iAd once you've actually
 integrated it inside your app.
 
@@ -825,19 +761,11 @@ it doesn't matter how
 many ads you show.
 
 00:08:53.506 --> 00:08:54.406 A:middle
-No one is using your app
+No one is using your app,
 
 00:08:54.406 --> 00:08:55.806 A:middle
 and you're not going
 to make any money.
-
-00:08:55.806 --> 00:09:00.096 A:middle
-So the number one thing you
-can do to drive revenue via ads
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:55.806 --> 00:09:00.096 A:middle
 So the number one thing you
@@ -859,17 +787,17 @@ can mention here.
 First of all, app
 engagement time.
 
-00:09:12.256 --> 00:09:13.686 A:middle
-If your -- if you
-have an app that's --
+00:09:12.256 --> 00:09:14.306 A:middle
+If your - if you have an
+app that's - you're trying
 
-00:09:13.796 --> 00:09:18.126 A:middle
-you're trying to drive
-revenue by showing ads,
+00:09:14.306 --> 00:09:19.366 A:middle
+to drive revenue by showing
+ads, you need to make sure
 
-00:09:18.636 --> 00:09:20.936 A:middle
-you need to make sure that your
-have sufficient engagement time
+00:09:19.366 --> 00:09:20.936 A:middle
+that your have sufficient
+engagement time
 
 00:09:20.936 --> 00:09:23.096 A:middle
 for your users to
@@ -931,14 +859,6 @@ for instance,
 and the user is tapping and
 swiping and slicing constantly,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.606 --> 00:10:01.866 A:middle
-and the user is tapping and
-swiping and slicing constantly,
-
 00:10:02.496 --> 00:10:04.746 A:middle
 maybe that's not a great place
 for a banner where they're going
@@ -952,19 +872,19 @@ the top of everything.
 
 00:10:08.996 --> 00:10:11.206 A:middle
 You're going to be annoying
-your users and you're going
+your users, and you're going
 
 00:10:11.206 --> 00:10:18.216 A:middle
 to be harming your app more than
 you're helping it with the ads.
 
 00:10:18.216 --> 00:10:21.556 A:middle
-Okay? Pulling back into app
-engagement time, user loyalty.
+OK? Pulling back into app
+engagement time: user loyalty.
 
 00:10:22.006 --> 00:10:24.246 A:middle
-You need to come -- you
-need your users to come back
+You need to come - you need
+your users to come back
 
 00:10:24.246 --> 00:10:26.446 A:middle
 to the app repeatedly.
@@ -975,14 +895,14 @@ more screen time,
 
 00:10:28.656 --> 00:10:30.766 A:middle
 that's how you get more ad
-time for those particular --
+time for those particular -
 
 00:10:31.056 --> 00:10:33.446 A:middle
 for showing ads to those users.
 
 00:10:34.046 --> 00:10:37.396 A:middle
 In addition, user loyalty
-is what drives ad --
+is what drives ad -
 
 00:10:37.396 --> 00:10:40.046 A:middle
 or app engagement and
@@ -1012,23 +932,15 @@ you're going to get looking
 at ads within your app.
 
 00:10:54.566 --> 00:10:57.606 A:middle
-Okay? I mentioned that
+OK? I mentioned that
 iAd is in 14 countries.
 
 00:10:57.806 --> 00:11:00.846 A:middle
 That means that your app should
 be in 14 countries if you want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:57.806 --> 00:11:00.846 A:middle
-That means that your app should
-be in 14 countries if you want
-
 00:11:01.016 --> 00:11:06.676 A:middle
-to get as most -- the most
+to get as most - the most
 revenue from iAd as you can.
 
 00:11:06.876 --> 00:11:09.336 A:middle
@@ -1036,7 +948,7 @@ Market your app to the
 countries where iAd actually is.
 
 00:11:09.836 --> 00:11:12.016 A:middle
-If you're -- if you've spent
+If you're - if you've spent
 the time to integrate iAd
 
 00:11:12.016 --> 00:11:14.556 A:middle
@@ -1057,7 +969,7 @@ localizing your app.
 
 00:11:24.836 --> 00:11:27.326 A:middle
 If the only thing you've done
-is write your app in English
+is write your app in English,
 
 00:11:27.626 --> 00:11:29.916 A:middle
 and you're trying to get it
@@ -1085,27 +997,19 @@ placement a little bit,
 
 00:11:43.596 --> 00:11:46.126 A:middle
 because this is a piece I'm
-going to keep coming back to,
+going to keep coming back to.
 
 00:11:46.126 --> 00:11:50.016 A:middle
-ad placement is extraordinarily
+Ad placement is extraordinarily
 important within your app.
 
 00:11:51.246 --> 00:11:54.046 A:middle
 You will recognize high-use
-areas inside your app
+areas inside your app,
 
 00:11:54.046 --> 00:11:57.356 A:middle
 and you want to make sure you
 put banners inside those areas.
-
-00:11:57.466 --> 00:12:00.056 A:middle
-Those are the places where
-users are going to be looking
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.466 --> 00:12:00.056 A:middle
 Those are the places where
@@ -1120,7 +1024,7 @@ They're going to
 have the opportunity
 
 00:12:02.736 --> 00:12:03.726 A:middle
-to see the app -- the ad.
+to see the app - the ad.
 
 00:12:03.726 --> 00:12:04.896 A:middle
 They're going to
@@ -1138,11 +1042,11 @@ avoid accidental taps.
 
 00:12:10.906 --> 00:12:15.016 A:middle
 Accidental taps are bad for your
-user and they're bad for you.
+user, and they're bad for you.
 
 00:12:15.536 --> 00:12:18.596 A:middle
 They're going to annoy
-your user and iAd doesn't
+your user, and iAd doesn't
 
 00:12:18.596 --> 00:12:19.856 A:middle
 like accidental taps either.
@@ -1153,10 +1057,10 @@ you are using the framework
 
 00:12:23.096 --> 00:12:24.966 A:middle
 in a way that does
-not encourage them.
+not encourage them
 
 00:12:24.966 --> 00:12:29.816 A:middle
-Because your app will ultimately
+because your app will ultimately
 end up being penalized for this.
 
 00:12:29.926 --> 00:12:31.346 A:middle
@@ -1164,7 +1068,7 @@ User context is really
 important.
 
 00:12:32.556 --> 00:12:35.506 A:middle
-You want to want advantage of
+You want to take advantage of
 different types of ads based
 
 00:12:35.506 --> 00:12:38.586 A:middle
@@ -1187,7 +1091,7 @@ They're looking at the menu.
 
 00:12:45.426 --> 00:12:47.526 A:middle
 Maybe they notice the app
--- or the ad at the bottom.
+- or the ad at the bottom.
 
 00:12:47.526 --> 00:12:48.886 A:middle
 Maybe they tap on it
@@ -1197,25 +1101,20 @@ and engage with it.
 At the same time, if they tap
 to go into the first level
 
-00:12:52.526 --> 00:12:55.816 A:middle
-of your game and you immediately
-pop a full-fledged ad
+00:12:52.526 --> 00:12:55.406 A:middle
+of your game, and you
+immediately pop a full-fledged
 
-00:12:55.816 --> 00:12:58.506 A:middle
-and interrupt their experience
-once they've done their first
+00:12:55.406 --> 00:12:58.136 A:middle
+ad and interrupt their
+experience once they've done
 
-00:12:58.506 --> 00:13:01.156 A:middle
-action inside the game, that's
-just going to annoy them.
+00:12:58.136 --> 00:12:59.496 A:middle
+their first action
+inside the game,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.506 --> 00:13:01.156 A:middle
-action inside the game, that's
-just going to annoy them.
+00:12:59.896 --> 00:13:01.156 A:middle
+that's just going to annoy them.
 
 00:13:01.156 --> 00:13:02.376 A:middle
 You're going to drive
@@ -1285,7 +1184,7 @@ Market your app accordingly.
 
 00:13:43.446 --> 00:13:47.106 A:middle
 Start of summer, back to
-school, holiday season;
+school, holiday season -
 
 00:13:47.406 --> 00:13:49.356 A:middle
 these are the times
@@ -1299,40 +1198,31 @@ going out to get new apps,
 and advertisers are going out to
 get eyeballs inside those apps.
 
-00:13:56.636 --> 00:13:58.036 A:middle
-So that's when you
-want to try and get --
+00:13:56.636 --> 00:13:59.656 A:middle
+So that's when you want to
+try and get - try and put all
 
-00:13:58.706 --> 00:14:05.226 A:middle
-try and put all of your money
-into pushing your app out there.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.706 --> 00:14:05.226 A:middle
-try and put all of your money
-into pushing your app out there.
+00:13:59.656 --> 00:14:05.226 A:middle
+of your money into
+pushing your app out there.
 
 00:14:05.426 --> 00:14:07.226 A:middle
-Okay. We've talked about ads.
+OK. We've talked about ads.
 
 00:14:07.226 --> 00:14:08.426 A:middle
 We've talked about impressions.
 
-00:14:08.476 --> 00:14:09.766 A:middle
-We've talked about
-tap-through's.
+00:14:08.476 --> 00:14:09.776 A:middle
+We've talked about tap-throughs.
 
 00:14:09.896 --> 00:14:11.186 A:middle
-We've talked about fill-rate.
+We've talked about fill rate.
 
 00:14:11.406 --> 00:14:13.526 A:middle
 This is a virtuous cycle.
 
 00:14:13.936 --> 00:14:15.326 A:middle
-Okay? You're going to
+OK? You're going to
 get ads to begin with.
 
 00:14:15.426 --> 00:14:17.606 A:middle
@@ -1340,22 +1230,19 @@ They're going to
 lead to impressions.
 
 00:14:17.606 --> 00:14:19.376 A:middle
-Impressions are going to
-lead to tap-through's.
+Impressions are going
+to lead to tap-throughs.
 
 00:14:19.866 --> 00:14:21.706 A:middle
-The more tap-through's you get,
+The more tap-throughs you get,
 the more ads you're going to get
 
-00:14:21.706 --> 00:14:24.366 A:middle
+00:14:21.706 --> 00:14:27.436 A:middle
 from the ad server, the more
-impressions you're going
+impressions you're going to get.
 
-00:14:26.776 --> 00:14:27.526 A:middle
-to get Okay.
-
-00:14:27.816 --> 00:14:29.126 A:middle
-So that's performance.
+00:14:27.436 --> 00:14:29.126 A:middle
+OK. So that's performance.
 
 00:14:29.416 --> 00:14:31.526 A:middle
 Now that we've done that, now we
@@ -1369,15 +1256,15 @@ integrating all of this stuff,
 sort of the meat of this talk.
 
 00:14:37.516 --> 00:14:39.016 A:middle
-There's 4 ad formats.
+There's four ad formats.
 
 00:14:39.526 --> 00:14:41.386 A:middle
 There's banner, there's
 interstitial,
 
 00:14:41.386 --> 00:14:44.216 A:middle
-there's medium rect,
-and a pre-roll video ad.
+there's medium rect, and
+there's a pre-roll video ad.
 
 00:14:44.266 --> 00:14:46.366 A:middle
 We'll talk about each
@@ -1405,15 +1292,8 @@ for many, many apps.
 00:14:59.526 --> 00:15:02.706 A:middle
 We'll start off with banner.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.526 --> 00:15:02.706 A:middle
-We'll start off with banner.
-
 00:15:04.356 --> 00:15:05.676 A:middle
-Okay? So what is a banner?
+OK? So what is a banner?
 
 00:15:06.076 --> 00:15:08.576 A:middle
 It's a slim device width view.
@@ -1459,8 +1339,8 @@ Once the user taps on it, it's
 going to go into some sort
 
 00:15:34.246 --> 00:15:38.276 A:middle
-of fullscreen ad
-experience and supported
+of full-screen ad
+experience - and supported
 
 00:15:38.276 --> 00:15:39.596 A:middle
 on both iPhone and iPad.
@@ -1478,7 +1358,7 @@ about the simplest
 thing that you could do.
 
 00:15:48.936 --> 00:15:49.996 A:middle
-There's three steps of this.
+There's three steps to this.
 
 00:15:49.996 --> 00:15:51.536 A:middle
 You're going to link
@@ -1491,14 +1371,6 @@ the iAd header,
 00:15:56.826 --> 00:15:58.116 A:middle
 which is the first
 line that popped there.
-
-00:15:58.116 --> 00:16:00.056 A:middle
-And you're going to configure
-your view controller,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.116 --> 00:16:00.056 A:middle
 And you're going to configure
@@ -1519,11 +1391,10 @@ If you've done that, you've
 got a banner inside your app.
 
 00:16:09.186 --> 00:16:12.046 A:middle
-Okay? So what does
-that look like?
+OK? So what does that look like?
 
 00:16:12.476 --> 00:16:13.526 A:middle
-Okay. Loading an ad.
+OK. Loading an ad.
 
 00:16:14.476 --> 00:16:15.316 A:middle
 You've got your view.
@@ -1545,7 +1416,7 @@ into original content view.
 
 00:16:25.186 --> 00:16:27.526 A:middle
 We're going to move your view
-over to original content view
+over to original content view,
 
 00:16:27.666 --> 00:16:29.746 A:middle
 and we're going to take a
@@ -1566,9 +1437,12 @@ on that view controller.
 We're then going to make a
 request up the ad server.
 
-00:16:39.366 --> 00:16:42.106 A:middle
-It's going to come and hopefully
-a banner is going to load.
+00:16:39.366 --> 00:16:40.816 A:middle
+It's going to come back
+
+00:16:40.816 --> 00:16:42.106 A:middle
+and hopefully a banner
+is going to load.
 
 00:16:42.706 --> 00:16:47.116 A:middle
 And at that time, we're going
@@ -1597,19 +1471,11 @@ for a while,
 hopefully the user is going
 to go ahead and tap on it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.376 --> 00:17:01.116 A:middle
-hopefully the user is going
-to go ahead and tap on it.
-
 00:17:01.646 --> 00:17:02.356 A:middle
 And at that point,
 
 00:17:02.706 --> 00:17:04.576 A:middle
-the fullscreen ad
+the full-screen ad
 experience is going to pop up.
 
 00:17:04.576 --> 00:17:08.616 A:middle
@@ -1627,25 +1493,25 @@ things in the background while
 00:17:15.036 --> 00:17:16.246 A:middle
 that banner is onscreen.
 
-00:17:16.705 --> 00:17:18.796 A:middle
+00:17:16.706 --> 00:17:18.796 A:middle
 When the user wants
 to engage with the ad,
 
 00:17:18.796 --> 00:17:20.376 A:middle
 you want to get out of the way.
 
-00:17:20.945 --> 00:17:22.116 A:middle
+00:17:20.946 --> 00:17:22.116 A:middle
 If you're playing music.
 
-00:17:22.296 --> 00:17:24.165 A:middle
+00:17:22.296 --> 00:17:24.166 A:middle
 If you're running
 a game simulation.
 
-00:17:24.165 --> 00:17:26.445 A:middle
+00:17:24.166 --> 00:17:26.446 A:middle
 If you're doing anything else
 that's potentially intensive
 
-00:17:26.665 --> 00:17:28.956 A:middle
+00:17:26.666 --> 00:17:28.956 A:middle
 or distracting, you're
 going to pause that activity
 
@@ -1664,7 +1530,7 @@ done interacting with the ad.
 They'll dismiss it.
 
 00:17:37.676 --> 00:17:38.826 A:middle
-You'll get -vidDidAppear:.
+You'll get a -viewDidAppear:.
 
 00:17:39.366 --> 00:17:40.706 A:middle
 Resume all that activity.
@@ -1675,7 +1541,7 @@ to start the music up again.
 
 00:17:43.286 --> 00:17:48.476 A:middle
 You want to start your
-game simulation, et cetera.
+game simulation, etcetera.
 
 00:17:48.476 --> 00:17:51.496 A:middle
 Eventually, say the user goes
@@ -1689,24 +1555,13 @@ have an ad available anymore.
 When that happens, the banner is
 going to be moved off of screen.
 
-00:17:59.106 --> 00:18:03.066 A:middle
-The original content view
-will resized and that --
+00:17:59.106 --> 00:18:03.706 A:middle
+The original content view will
+resized and that - and you can,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:59.106 --> 00:18:03.066 A:middle
-The original content view
-will resized and that --
-
-00:18:03.066 --> 00:18:04.166 A:middle
-and you can, you know,
-
-00:18:04.166 --> 00:18:05.756 A:middle
-wait until it hopefully
-reloads again.
+00:18:03.736 --> 00:18:05.756 A:middle
+you know, wait until it
+hopefully reloads again.
 
 00:18:06.936 --> 00:18:09.416 A:middle
 In addition to waiting for
@@ -1753,7 +1608,7 @@ onscreen whenever you actually
 need to.
 
 00:18:33.296 --> 00:18:34.606 A:middle
-Okay. So that's banners.
+OK. So that's banners.
 
 00:18:35.036 --> 00:18:37.326 A:middle
 Let's talk about interstitials
@@ -1761,7 +1616,7 @@ next, which is the sort
 
 00:18:37.326 --> 00:18:39.836 A:middle
 of second major type of
-banner -- type of ad here.
+banner - type of ad here.
 
 00:18:40.746 --> 00:18:41.956 A:middle
 Very different than banners.
@@ -1772,7 +1627,7 @@ being permanently onscreen,
 
 00:18:44.886 --> 00:18:46.866 A:middle
 they're immediate
-fullscreen display.
+full-screen display.
 
 00:18:47.536 --> 00:18:49.096 A:middle
 They immediately take
@@ -1785,19 +1640,13 @@ when you want to present them.
 The user is immediately
 able to interact with them.
 
-00:18:53.396 --> 00:18:58.256 A:middle
-Okay? They've been on iPad since
-iOS 4.3 and they were introduced
+00:18:53.396 --> 00:18:56.086 A:middle
+OK? They've been on
+iPad since iOS 4.3,
 
-00:18:58.256 --> 00:19:00.556 A:middle
-on the phone in iOS 7 last year.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.256 --> 00:19:00.556 A:middle
-on the phone in iOS 7 last year.
+00:18:56.146 --> 00:19:00.556 A:middle
+and they were introduced on
+the phone in iOS 7 last year.
 
 00:19:02.576 --> 00:19:05.836 A:middle
 There's two major ways to handle
@@ -1827,13 +1676,13 @@ PresentationPolicyAutomatic.
 What that does is tell
 the iAd framework, hey,
 
-00:19:21.526 --> 00:19:25.946 A:middle
-this is a great view controller
-to show ads on and whenever you,
+00:19:21.526 --> 00:19:24.586 A:middle
+this is a great view
+controller to show ads on,
 
-00:19:25.946 --> 00:19:28.026 A:middle
-as the iAd framework,
-think is a great time
+00:19:25.166 --> 00:19:28.026 A:middle
+and whenever you, as the iAd
+framework, think is a great time
 
 00:19:28.026 --> 00:19:29.916 A:middle
 to show ads, go ahead and do so.
@@ -1858,19 +1707,16 @@ ad if one is available.
 So to do that, just take
 your view controller,
 
-00:19:44.646 --> 00:19:45.706 A:middle
-push it onscreen, make it --
-
-00:19:45.706 --> 00:19:47.206 A:middle
-push it into your
-navigation stack,
+00:19:44.646 --> 00:19:47.206 A:middle
+push it onscreen, make it - push
+it into your navigation stack,
 
 00:19:47.206 --> 00:19:48.696 A:middle
 or however you want
 to put it onscreen.
 
 00:19:49.836 --> 00:19:52.776 A:middle
-That moves in and we're going
+That moves in, and we're going
 to pop an ad up over top of it.
 
 00:19:53.086 --> 00:19:54.496 A:middle
@@ -1887,26 +1733,19 @@ presentation,
 00:19:59.716 --> 00:20:01.236 A:middle
 there's manual presentation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.716 --> 00:20:01.236 A:middle
-there's manual presentation.
-
 00:20:01.236 --> 00:20:02.936 A:middle
 Just set the presentation policy
 
 00:20:02.936 --> 00:20:05.286 A:middle
 to ADInterstitial
-PresentationPolicyManual
+PresentationPolicyManual,
 
 00:20:05.786 --> 00:20:08.436 A:middle
 and instead of us automatically
 presenting it whenever the view
 
 00:20:08.436 --> 00:20:10.396 A:middle
-moves onscreen, you can call --
+moves onscreen, you can call -
 
 00:20:10.396 --> 00:20:12.976 A:middle
 request interstitial ad
@@ -1956,29 +1795,22 @@ To do that, you're going to want
 
 00:20:46.496 --> 00:20:51.776 A:middle
 to call UIViewController
-prepareIntersteritalAds inside
+prepareInterstitialAds inside
 
-00:20:52.336 --> 00:20:54.296 A:middle
+00:20:52.336 --> 00:20:54.236 A:middle
 something early in
 your app's life cycle.
 
-00:20:54.296 --> 00:20:55.776 A:middle
-Application did finish launching
+00:20:54.236 --> 00:20:56.666 A:middle
+ApplicationDidFinish
+LaunchingWithOptions is a good
 
-00:20:55.776 --> 00:20:57.606 A:middle
-with options is a
-good opportunity here.
+00:20:56.666 --> 00:20:57.606 A:middle
+opportunity here.
 
 00:20:57.606 --> 00:20:59.456 A:middle
 If you're doing a lot of
 other work at that point,
-
-00:20:59.456 --> 00:21:00.506 A:middle
-maybe defer it a little bit.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.456 --> 00:21:00.506 A:middle
 maybe defer it a little bit.
@@ -2008,7 +1840,7 @@ That will prevent you from
 missing ad opportunities.
 
 00:21:18.806 --> 00:21:21.456 A:middle
-Okay. So that's banners
+OK. So that's banners
 and interstitials.
 
 00:21:21.586 --> 00:21:24.346 A:middle
@@ -2031,7 +1863,7 @@ up my little app, is a very
 simple master detail app here.
 
 00:21:40.976 --> 00:21:43.396 A:middle
-Just some news articles.
+Just shows some news articles.
 
 00:21:43.396 --> 00:21:45.776 A:middle
 I can click on one of these
@@ -2039,7 +1871,7 @@ news articles and bring it up.
 
 00:21:45.776 --> 00:21:49.646 A:middle
 And what we'd like to do is
-take this app and ad some ads
+take this app and add some ads
 
 00:21:49.646 --> 00:21:51.106 A:middle
 to it, monetize it with iAd.
@@ -2054,15 +1886,7 @@ do here first?
 
 00:21:56.346 --> 00:22:00.316 A:middle
 The first thing we're going to
-do is ad a banner to the bottom
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:56.346 --> 00:22:00.316 A:middle
-The first thing we're going to
-do is ad a banner to the bottom
+do is add a banner to the bottom
 
 00:22:00.316 --> 00:22:03.136 A:middle
 of the MasterViewController,
@@ -2080,11 +1904,12 @@ the iAd header.
 Do that like this.
 
 00:22:10.866 --> 00:22:14.346 A:middle
-And then, inside, akakeFrom Nib,
-all we're going to do is call --
+And then, inside, awakeFromNib,
+all we're going to do is call -
 
 00:22:14.346 --> 00:22:18.026 A:middle
-set .canDisplayBannerAds to yes,
+set self.canDisplayBannerAds
+to yes,
 
 00:22:19.106 --> 00:22:20.516 A:middle
 and that's really
@@ -2103,7 +1928,7 @@ against the iAd framework.
 
 00:22:33.056 --> 00:22:36.036 A:middle
 Make sure the APIs are actually
-available to us so we go back
+available to us, so we go back
 
 00:22:36.116 --> 00:22:38.096 A:middle
 to MasterViewController here.
@@ -2131,14 +1956,6 @@ the MasterViewController.
 That means that when we go into
 an article, there's no ad there,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.586 --> 00:23:01.216 A:middle
-That means that when we go into
-an article, there's no ad there,
-
 00:23:01.216 --> 00:23:02.486 A:middle
 which is a little
 bit unfortunate.
@@ -2152,7 +1969,8 @@ of the other type of ad that
 we talked about, interstitials,
 
 00:23:08.686 --> 00:23:11.366 A:middle
-to present ad to the user prior
+to present an ad
+to the user prior
 
 00:23:11.366 --> 00:23:13.346 A:middle
 to them actually being
@@ -2195,11 +2013,11 @@ destination.interstitial
 
 00:23:41.626 --> 00:23:43.966 A:middle
 PresentationPolicy
-AD.interstitial
+ADinterstitial
 
 00:23:43.966 --> 00:23:46.596 A:middle
-PresentationPolicy
-Automatic so that we can say
+PresentationPolicyAutomatic
+so that we can say
 
 00:23:46.596 --> 00:23:48.046 A:middle
 that on this
@@ -2210,20 +2028,12 @@ the thing that's
 showing the article,
 
 00:23:49.656 --> 00:23:53.056 A:middle
-we want the iAD framework
-to manager presentation
+we want the iAd framework
+to manage presentation
 
 00:23:53.056 --> 00:23:56.066 A:middle
 of interstitial ads over
 top of this view controller.
-
-00:23:57.236 --> 00:24:00.596 A:middle
-Once we've done that, that's
-going to get interstitials shown
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.236 --> 00:24:00.596 A:middle
 Once we've done that, that's
@@ -2234,7 +2044,7 @@ over that view controller.
 
 00:24:01.476 --> 00:24:04.576 A:middle
 However, we want to make sure
-that the iAD framework knows
+that the iAd framework knows
 
 00:24:04.576 --> 00:24:05.236 A:middle
 to go out and look
@@ -2253,7 +2063,7 @@ going to go over here.
 
 00:24:11.266 --> 00:24:13.056 A:middle
 We're going to get to
-our AppDelegate here
+our AppDelegate here,
 
 00:24:13.056 --> 00:24:16.416 A:middle
 and we're just going to
@@ -2305,8 +2115,8 @@ the user is done interacting
 with this, they can go ahead
 
 00:24:49.716 --> 00:24:52.516 A:middle
-and close that and the article
-is behind and they can go ahead
+and close that, and the article
+is behind, and they can go ahead
 
 00:24:52.516 --> 00:24:54.206 A:middle
 and start reading their article.
@@ -2318,18 +2128,11 @@ it is to integrate banners
 00:24:58.786 --> 00:25:01.766 A:middle
 and interstitials to your app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.786 --> 00:25:01.766 A:middle
-and interstitials to your app.
-
 00:25:02.916 --> 00:25:04.116 A:middle
 So we'll go back to the slides.
 
 00:25:04.116 --> 00:25:08.906 A:middle
-Okay. So that's banners
+OK. So that's banners
 and interstitials,
 
 00:25:08.906 --> 00:25:12.716 A:middle
@@ -2351,11 +2154,9 @@ from the beginning of iAd.
 There are a couple of
 newer types that we've got.
 
-00:25:20.646 --> 00:25:22.166 A:middle
-The first new type, it's --
-
-00:25:22.686 --> 00:25:23.706 A:middle
-talking about banners
+00:25:20.646 --> 00:25:23.706 A:middle
+The first new type, it's
+- talking about banners
 
 00:25:24.126 --> 00:25:25.926 A:middle
 and interstitial a
@@ -2397,26 +2198,18 @@ use .originalContentView
 
 00:25:54.256 --> 00:25:56.306 A:middle
 when you actually use
-canDisplayBannerAds.
+.canDisplayBannerAds.
 
 00:25:56.646 --> 00:25:59.706 A:middle
 It's very important that once
-you set canDisplayBannerAds,
-
-00:25:59.706 --> 00:26:02.376 A:middle
-you realize that you have
-given over control of view
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+you set .canDisplayBannerAds,
 
 00:25:59.706 --> 00:26:02.376 A:middle
 you realize that you have
 given over control of view
 
 00:26:02.376 --> 00:26:03.946 A:middle
-to the iAd framework
+to the iAd framework,
 
 00:26:04.426 --> 00:26:07.676 A:middle
 and .originalContentView
@@ -2492,10 +2285,6 @@ in your use of these.
 This is particularly important
 for navigation controllers,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:00.106 --> 00:27:02.106 A:middle
 in particular deep
 navigation controllers.
@@ -2535,15 +2324,17 @@ possibility of the ad popping
 up onscreen for a second.
 
 00:27:25.956 --> 00:27:28.776 A:middle
-The user taps on something,
+The user taps on something;
 the ad goes back away.
 
-00:27:29.126 --> 00:27:31.656 A:middle
-They tapped to something
-else, maybe the ad comes back.
+00:27:29.126 --> 00:27:30.666 A:middle
+They tapped to something else.
 
-00:27:32.036 --> 00:27:33.516 A:middle
-That's distracting to your.
+00:27:30.666 --> 00:27:31.656 A:middle
+Maybe the ad comes back.
+
+00:27:32.036 --> 00:27:33.536 A:middle
+That's distracting to your user.
 
 00:27:33.806 --> 00:27:35.706 A:middle
 At the same time, it
@@ -2557,7 +2348,7 @@ enough for the user
 to actually engage with that ad.
 
 00:27:43.666 --> 00:27:46.586 A:middle
-Okay. So now, we're done talking
+OK. So now, we're done talking
 with banners and interstitials.
 
 00:27:46.796 --> 00:27:49.576 A:middle
@@ -2577,14 +2368,6 @@ Advertising Bureau medium
 00:27:58.056 --> 00:27:59.896 A:middle
 rectangle; it's a
 standard ad type.
-
-00:27:59.896 --> 00:28:02.146 A:middle
-It's positioned inline
-with your content.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.896 --> 00:28:02.146 A:middle
 It's positioned inline
@@ -2618,8 +2401,8 @@ So you put them onscreen,
 new ads will be loaded
 
 00:28:21.616 --> 00:28:23.456 A:middle
-out of the iAd framework,
-feels appropriate,
+out of the iAd framework
+- feels appropriate -
 
 00:28:23.456 --> 00:28:25.306 A:middle
 and will automatically
@@ -2630,7 +2413,7 @@ and putting ads in here for you.
 
 00:28:26.526 --> 00:28:31.876 A:middle
 And just like banners, there's
-a fullscreen ad experience once
+a full-screen ad experience once
 
 00:28:31.876 --> 00:28:33.846 A:middle
 the user taps on and
@@ -2645,8 +2428,8 @@ that in iOS 8, we're adding
 this to phone as well.
 
 00:28:47.006 --> 00:28:51.066 A:middle
-Okay. So what's the medium
-rectangle lifecycle look like?
+OK. So what's the medium
+rectangle life cycle look like?
 
 00:28:51.346 --> 00:28:56.466 A:middle
 Because these banners are not
@@ -2656,17 +2439,9 @@ managed by the iAd framework,
 you have to do a little bit
 more work to put these onscreen.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:56.466 --> 00:29:00.536 A:middle
-you have to do a little bit
-more work to put these onscreen.
-
 00:29:00.996 --> 00:29:04.316 A:middle
-Okay? You need to create
-the banner explicitly rather
+OK? You need to create the
+banner explicitly rather
 
 00:29:04.316 --> 00:29:06.176 A:middle
 than just setting a property
@@ -2678,7 +2453,7 @@ delegate, which is going
 
 00:29:09.036 --> 00:29:10.826 A:middle
 to allow us to tell you
-when certain things happen
+when certain things happen,
 
 00:29:10.826 --> 00:29:12.766 A:middle
 and we're going to get into the
@@ -2703,15 +2478,14 @@ when you receive the
 -bannerViewDidLoadAd:
 
 00:29:26.016 --> 00:29:27.836 A:middle
-property -- or delegate
-callback.
+property - or delegate callback.
 
 00:29:29.136 --> 00:29:30.556 A:middle
 You're going to pause activity
 
 00:29:30.556 --> 00:29:33.096 A:middle
-in -bannerViewAction ShouldBegin
-:willLeaveApplication:.
+in -bannerViewActionShould
+Begin:willLeaveApplication:.
 
 00:29:33.096 --> 00:29:36.746 A:middle
 This is analogous to getting
@@ -2739,7 +2513,7 @@ This is important.
 
 00:29:50.166 --> 00:29:53.446 A:middle
 This indicates that your banner
-no longer has an add loaded
+no longer has an ad loaded
 
 00:29:53.446 --> 00:29:55.586 A:middle
 and it should no longer be
@@ -2751,20 +2525,13 @@ So what does this look like?
 00:29:59.066 --> 00:30:00.606 A:middle
 First of all, creating a banner.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.066 --> 00:30:00.606 A:middle
-First of all, creating a banner.
-
 00:30:01.456 --> 00:30:03.276 A:middle
 You're going to import
 the iAd header at the top.
 
 00:30:03.406 --> 00:30:06.506 A:middle
 You're going to implement
-ADBanner ViewDelegate
+ADBannerViewDelegate
 
 00:30:06.506 --> 00:30:08.016 A:middle
 on whatever object you would
@@ -2779,10 +2546,10 @@ create the banner view.
 
 00:30:13.336 --> 00:30:15.456 A:middle
 You can do that with
-initWith AdType:
+initWithAdType:
 
 00:30:15.456 --> 00:30:18.826 A:middle
-ADAdType MediumRectangle,
+ADAdTypeMediumRectangle,
 and then you're going
 
 00:30:18.826 --> 00:30:19.576 A:middle
@@ -2830,13 +2597,13 @@ be a blank slide,
 and we're going to
 send you an error.
 
-00:30:40.586 --> 00:30:42.566 A:middle
+00:30:40.586 --> 00:30:42.186 A:middle
 Once you get a
-bannerViewDidLoadAd that's your
+-bannerViewDidLoadAd:,
 
-00:30:42.566 --> 00:30:45.656 A:middle
-cue that there is an ad
-available inside your medium
+00:30:42.186 --> 00:30:45.656 A:middle
+that's your cue that there is an
+ad available inside your medium
 
 00:30:45.656 --> 00:30:47.296 A:middle
 rect, and you should
@@ -2854,31 +2621,23 @@ Remember, too, that this is
 something that's supposed
 
 00:30:53.816 --> 00:30:55.936 A:middle
-to be positioned in-line
+to be positioned inline
 with your content.
 
-00:30:55.986 --> 00:30:58.566 A:middle
-When you move it onscreen, when
-you leave it onscreen make sure
+00:30:55.986 --> 00:30:58.006 A:middle
+When you move it onscreen,
+when you leave it onscreen,
 
-00:30:58.566 --> 00:31:00.666 A:middle
-that it's within the
-rest of your content.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.566 --> 00:31:00.666 A:middle
-that it's within the
-rest of your content.
+00:30:58.236 --> 00:31:00.666 A:middle
+make sure that it's within
+the rest of your content.
 
 00:31:00.666 --> 00:31:03.656 A:middle
 If you have an article and you
 put the medium rect onscreen
 
 00:31:03.656 --> 00:31:05.446 A:middle
-with the article text
+with the article, text
 should flow around it.
 
 00:31:05.446 --> 00:31:07.196 A:middle
@@ -2897,23 +2656,24 @@ You're going to move the
 banner back offscreen
 
 00:31:16.906 --> 00:31:19.036 A:middle
-in bannerView:did
-FailToReceive AdWithError.
+in bannerView:didFail
+ToReceiveAdWithError.
 
-00:31:19.156 --> 00:31:21.076 A:middle
+00:31:19.156 --> 00:31:20.866 A:middle
 Again, once you move
-it offscreen it's your
+it offscreen,
 
-00:31:21.076 --> 00:31:24.786 A:middle
-responsibility to reflow
-your content to fill the hole
+00:31:20.866 --> 00:31:23.266 A:middle
+it's your responsibility
+to reflow your content
 
-00:31:24.866 --> 00:31:28.856 A:middle
-that was just left by the ad.
+00:31:23.606 --> 00:31:28.856 A:middle
+to fill the hole that
+was just left by the ad.
 
 00:31:28.856 --> 00:31:30.376 A:middle
-At that time it's going
-to move offscreen.
+At that time, it's
+going to move offscreen.
 
 00:31:30.486 --> 00:31:31.646 A:middle
 You reflow up your content.
@@ -2923,27 +2683,27 @@ This is what banner loading and
 unloading is going to look like.
 
 00:31:35.956 --> 00:31:37.316 A:middle
-You're going -- there's
+You're going - there's
 two important delegate
 
 00:31:37.316 --> 00:31:37.956 A:middle
 callbacks here.
 
 00:31:38.156 --> 00:31:40.686 A:middle
-BannerView DidLoadAd in
+BannerViewDidLoadAd, in
 which case you're just going
 
 00:31:40.686 --> 00:31:43.936 A:middle
 to put the banner onscreen,
-re-handle all of your layout.
+rehandle all of your layout.
 
-00:31:44.226 --> 00:31:46.376 A:middle
-And bannerViewDidFail
-ToReceiveAd WithError you're
+00:31:44.226 --> 00:31:46.286 A:middle
+And bannerView
+didFailToReceiveAdWithError,
 
-00:31:46.696 --> 00:31:48.196 A:middle
-going to remove it
-from the super view.
+00:31:46.286 --> 00:31:48.196 A:middle
+you're going to remove
+it from the super view.
 
 00:31:48.256 --> 00:31:49.316 A:middle
 You're going to do the converse.
@@ -2964,20 +2724,12 @@ for medium rectangle.
 Again, this is great
 for reflowable content.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.786 --> 00:32:00.676 A:middle
-Again, this is great
-for reflowable content.
-
 00:32:00.676 --> 00:32:02.266 A:middle
 This is the sort of
 thing that you're going
 
 00:32:02.266 --> 00:32:05.776 A:middle
-to put inside a scroll view
+to put inside a scroll view,
 within the rest of your content
 
 00:32:06.126 --> 00:32:08.416 A:middle
@@ -2989,7 +2741,7 @@ may go on- and offscreen.
 
 00:32:10.186 --> 00:32:13.136 A:middle
 It's sort of static with
-the rest of your content,
+the rest of your content -
 
 00:32:13.626 --> 00:32:15.436 A:middle
 flows around it, fills a hole
@@ -2999,8 +2751,8 @@ with inside the space
 on the screen.
 
 00:32:19.796 --> 00:32:22.446 A:middle
-It's got a fullscreen ad
-on tap, remember that.
+It's got a full-screen
+ad on tap, remember that.
 
 00:32:23.166 --> 00:32:26.956 A:middle
 Pay attention to the delegate
@@ -3011,12 +2763,12 @@ didFinishAction so that you
 can pause and resume activity.
 
 00:32:31.966 --> 00:32:33.956 A:middle
-Pause it in bannerViewActions
-ShouldBegin.
+Pause it in
+bannerViewActionShouldBegin.
 
 00:32:35.416 --> 00:32:38.126 A:middle
 And resume activity in
-bannerView ActionDidFinish.
+bannerViewActionDidFinish.
 
 00:32:39.176 --> 00:32:40.476 A:middle
 So that's medium rectangle.
@@ -3033,8 +2785,8 @@ but still fairly
 simple to implement.
 
 00:32:48.146 --> 00:32:51.466 A:middle
-Okay, the fourth type of
-ad that we're going to talk
+OK, the fourth type of ad
+that we're going to talk
 
 00:32:51.466 --> 00:32:52.966 A:middle
 about here is the pre-roll.
@@ -3044,21 +2796,13 @@ What is a pre-roll?
 
 00:32:56.646 --> 00:33:00.326 A:middle
 The video pre-roll is a short
-video that plays between --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:56.646 --> 00:33:00.326 A:middle
-The video pre-roll is a short
-video that plays between --
+video that plays between -
 
 00:33:00.326 --> 00:33:02.646 A:middle
 before your own media content.
 
 00:33:03.116 --> 00:33:08.886 A:middle
-It's fullscreen ad on tap just
+It's full-screen ad on tap, just
 like the other banner types.
 
 00:33:08.886 --> 00:33:10.546 A:middle
@@ -3073,7 +2817,7 @@ And new in iOS 8
 we're also adding it
 
 00:33:18.056 --> 00:33:20.966 A:middle
-on AVPlayer ViewController,
+on AVPlayerViewController,
 new AV kit APIs
 
 00:33:20.966 --> 00:33:22.406 A:middle
@@ -3082,7 +2826,7 @@ here at WWDC.
 
 00:33:23.456 --> 00:33:27.206 A:middle
 This is available on both
-iPhone and iPad, and has been
+iPhone and iPad and has been
 
 00:33:27.206 --> 00:33:28.916 A:middle
 since the initial introduction.
@@ -3114,7 +2858,7 @@ that you actually have a
 video to play after it.
 
 00:33:44.866 --> 00:33:47.916 A:middle
-We don't want -- it's not
+We don't want - it's not
 supported for you to attempt
 
 00:33:47.916 --> 00:33:50.946 A:middle
@@ -3123,19 +2867,11 @@ random ad at a random time.
 
 00:33:51.246 --> 00:33:52.986 A:middle
 Make sure that you have
-content to follow it,
+content to follow it;
 
 00:33:52.986 --> 00:33:55.286 A:middle
 that's what the API
 is designed for.
-
-00:33:57.496 --> 00:34:00.626 A:middle
-So setting up and playback,
-also fairly straightforward.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:57.496 --> 00:34:00.626 A:middle
 So setting up and playback,
@@ -3149,8 +2885,7 @@ by linking the MediaPlayer
 and iAd frameworks.
 
 00:34:03.996 --> 00:34:05.856 A:middle
-You're going to Import
-Media and iAd headers.
+Import Media and iAd headers.
 
 00:34:05.856 --> 00:34:06.986 A:middle
 You're going to create a player.
@@ -3181,12 +2916,12 @@ if you've got your own content.
 This is just a few
 tiny additional lines.
 
-00:34:21.545 --> 00:34:22.846 A:middle
+00:34:21.546 --> 00:34:22.846 A:middle
 So what does that look like?
 
-00:34:23.065 --> 00:34:25.686 A:middle
-First Import MediaPlayer
-and Import iAd.
+00:34:23.066 --> 00:34:25.686 A:middle
+First import MediaPlayer
+and import iAd.
 
 00:34:26.146 --> 00:34:29.656 A:middle
 You're going to create your
@@ -3195,15 +2930,15 @@ MPMoviePlayerController.
 00:34:29.846 --> 00:34:30.076 A:middle
 You're going
 
-00:34:30.076 --> 00:34:31.985 A:middle
+00:34:30.076 --> 00:34:31.986 A:middle
 to initWithContentURL
 as you already would.
 
-00:34:31.985 --> 00:34:34.025 A:middle
+00:34:31.986 --> 00:34:34.026 A:middle
 You're going to add
 that MoviePlayer
 
-00:34:34.025 --> 00:34:36.396 A:middle
+00:34:34.026 --> 00:34:36.396 A:middle
 into your view hierarchy
 so that it's onscreen.
 
@@ -3211,15 +2946,15 @@ so that it's onscreen.
 Call layouts, you
 redo your layout
 
-00:34:38.746 --> 00:34:39.755 A:middle
+00:34:38.746 --> 00:34:39.756 A:middle
 for it once it's there as well.
 
-00:34:40.226 --> 00:34:43.146 A:middle
-And then you're going
-to call playPrerollAd
+00:34:40.226 --> 00:34:43.316 A:middle
+And then you're going to
+call playPrerollAdWith
 
-00:34:43.146 --> 00:34:44.306 A:middle
-WithCompletion Handler.
+00:34:43.316 --> 00:34:44.306 A:middle
+CompletionHandler.
 
 00:34:44.306 --> 00:34:45.576 A:middle
 You're going to call
@@ -3232,7 +2967,7 @@ of immediately calling Play.
 This tells iAd, "Hey, try
 to put a pre-roll video
 
-00:34:50.696 --> 00:34:51.735 A:middle
+00:34:50.696 --> 00:34:51.736 A:middle
 in there if you've got one.
 
 00:34:52.266 --> 00:34:53.376 A:middle
@@ -3247,14 +2982,6 @@ an error possibly
 
 00:34:57.036 --> 00:34:57.926 A:middle
 if something went wrong.
-
-00:34:58.616 --> 00:35:01.986 A:middle
-Inside the completion handler is
-your cue to start your content.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.616 --> 00:35:01.986 A:middle
 Inside the completion handler is
@@ -3279,23 +3006,22 @@ finishes playing and you want
 to begin your own content then.
 
 00:35:14.306 --> 00:35:15.886 A:middle
-For an AVKit it's
-almost identical.
+For AVKit it's almost identical.
 
 00:35:15.926 --> 00:35:18.236 A:middle
 You're going to create an
 AVPlayerViewController instead.
 
 00:35:18.236 --> 00:35:19.846 A:middle
-You're going to Import
+You're going to import
 the AVKit headers.
 
 00:35:20.356 --> 00:35:22.156 A:middle
 And you're going to call, again,
 
 00:35:22.156 --> 00:35:23.696 A:middle
-playPrerollAd
-WithCompletionHandler.
+playPrerollAdWith
+CompletionHandler.
 
 00:35:23.696 --> 00:35:25.056 A:middle
 It has identical semantics
@@ -3305,7 +3031,7 @@ to the MPMediaPlayerController
 ones.
 
 00:35:27.456 --> 00:35:30.266 A:middle
-Inside the completion handler
+Inside the completion handler,
 you're going to call player play
 
 00:35:30.266 --> 00:35:33.056 A:middle
@@ -3351,14 +3077,6 @@ something that requires it.
 To do that, just like
 interstitials you don't want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.506 --> 00:36:01.766 A:middle
-To do that, just like
-interstitials you don't want
-
 00:36:01.766 --> 00:36:04.006 A:middle
 to miss these early impressions,
 so you're going to want
@@ -3379,7 +3097,7 @@ application did finish launching
 
 00:36:11.626 --> 00:36:15.896 A:middle
 with options or some other early
-in your app's lifecycle period
+in your app's life cycle period,
 
 00:36:16.106 --> 00:36:18.216 A:middle
 so we haven't had an
@@ -3397,12 +3115,11 @@ it's almost identical,
 AVPlayerController
 preparePrerollAds instead.
 
-00:36:26.286 --> 00:36:30.656 A:middle
-Going with best practices
-for video then,
+00:36:26.286 --> 00:36:33.346 A:middle
+Going with best practices for
+video then: Don't play content
 
-00:36:31.166 --> 00:36:34.886 A:middle
-don't play content video
+00:36:33.656 --> 00:36:34.886 A:middle
 until the ad completes.
 
 00:36:35.886 --> 00:36:38.396 A:middle
@@ -3410,14 +3127,14 @@ If you've called playPrerollAd,
 
 00:36:38.626 --> 00:36:42.156 A:middle
 and then half a second later you
-call Play before we've called
+call play before we've called
 
 00:36:42.156 --> 00:36:45.296 A:middle
-your completion handler
+your completion handler,
 we're going to interrupt it.
 
 00:36:46.246 --> 00:36:49.646 A:middle
-You know notification handling
+You know, notification handling
 is a very common case for this.
 
 00:36:49.646 --> 00:36:52.246 A:middle
@@ -3443,36 +3160,30 @@ experience for your user.
 You'd like to try to
 avoid this when possible.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.376 --> 00:37:00.346 A:middle
-You'd like to try to
-avoid this when possible.
-
 00:37:00.636 --> 00:37:02.366 A:middle
 So make sure that you wait
 
 00:37:02.366 --> 00:37:04.466 A:middle
 until our completion handler
-is called to call Play.
+is called to call play.
 
-00:37:04.466 --> 00:37:07.616 A:middle
-For notifications this
-frequently means just recording
+00:37:04.466 --> 00:37:06.036 A:middle
+For notifications,
 
-00:37:07.616 --> 00:37:09.126 A:middle
-the fact that your
-content is ready.
+00:37:06.036 --> 00:37:07.876 A:middle
+this frequently means
+just recording the fact
 
-00:37:09.456 --> 00:37:12.896 A:middle
-If you're already calling Play
-in these notifications instead
+00:37:07.876 --> 00:37:09.126 A:middle
+that your content is ready.
 
-00:37:12.966 --> 00:37:16.626 A:middle
-of just calling play
-record that fact,
+00:37:09.456 --> 00:37:12.506 A:middle
+If you're already calling
+play in these notifications,
+
+00:37:12.506 --> 00:37:16.626 A:middle
+instead of just calling
+play, record that fact,
 
 00:37:16.626 --> 00:37:18.116 A:middle
 and inside the completion
@@ -3483,8 +3194,8 @@ for that fact, and
 then call play.
 
 00:37:20.856 --> 00:37:23.896 A:middle
-Similarly defer UI
-customization.
+Similarly, defer
+UI customization.
 
 00:37:23.896 --> 00:37:26.636 A:middle
 Many of you may be doing
@@ -3520,8 +3231,8 @@ provide a very poor experience
 for your users.
 
 00:37:45.546 --> 00:37:48.286 A:middle
-Okay, so now that we've
-got that let's go back
+OK, so now that we've
+got that, let's go back
 
 00:37:48.286 --> 00:37:49.356 A:middle
 to our demo machine here.
@@ -3531,15 +3242,7 @@ I've got a quick demo
 setting that up as well.
 
 00:37:53.916 --> 00:37:57.656 A:middle
-Let's close -- yep -- that.
-
-00:37:57.726 --> 00:38:03.446 A:middle
-I can pull up quick little
-demo of this as well.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+Let's close - yep - that.
 
 00:37:57.726 --> 00:38:03.446 A:middle
 I can pull up quick little
@@ -3561,15 +3264,15 @@ I can click on one of these
 and we've got a quick video.
 
 00:38:17.446 --> 00:38:20.116 A:middle
-Now what I'd like to do is now
+Now what I'd like to do is, now
 that I've got this video content
 
-00:38:20.116 --> 00:38:21.616 A:middle
+00:38:20.116 --> 00:38:21.506 A:middle
 that my user would
-like to engage with I'd
+like to engage with,
 
-00:38:21.616 --> 00:38:25.066 A:middle
-like to monetize this by
+00:38:21.506 --> 00:38:25.066 A:middle
+I'd like to monetize this by
 playing a pre-roll ad prior
 
 00:38:25.066 --> 00:38:27.476 A:middle
@@ -3583,28 +3286,28 @@ this and see what we have
 00:38:30.426 --> 00:38:31.436 A:middle
 to do to get that done.
 
-00:38:32.626 --> 00:38:35.456 A:middle
-We can start off here --
-the very first thing we need
+00:38:32.626 --> 00:38:36.356 A:middle
+We can start off here - the very
+first thing we need to do is,
 
-00:38:35.456 --> 00:38:38.236 A:middle
-to do is, as for interstitials,
-we want to make sure
+00:38:36.356 --> 00:38:38.936 A:middle
+as for interstitials, we want
+to make sure that we tell iAd,
 
-00:38:38.236 --> 00:38:39.016 A:middle
-that we tell iAd, "Hey,
+00:38:38.936 --> 00:38:41.276 A:middle
+"Hey, I'm going to be
+playing pre-roll ads,
 
-00:38:39.016 --> 00:38:42.566 A:middle
-I'm going to be playing pre-roll
-ads, go fetch them early."
+00:38:41.436 --> 00:38:42.566 A:middle
+go fetch them early."
 
 00:38:42.856 --> 00:38:44.806 A:middle
 We'll start off in
 our app delegate here,
 
 00:38:47.056 --> 00:38:53.496 A:middle
-and we will Import iAd, and
-we'll Import the MediaPlayer
+and we will import iAd, and
+we'll import the MediaPlayer
 
 00:38:53.496 --> 00:38:55.776 A:middle
 so we have the appropriate
@@ -3617,15 +3320,8 @@ call preparePrerollAds
 00:38:59.656 --> 00:39:00.986 A:middle
 on MPMoviePlayerController.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.656 --> 00:39:00.986 A:middle
-on MPMoviePlayerController.
-
 00:39:01.956 --> 00:39:04.286 A:middle
-Once we've done that we
+Once we've done that, we
 need to actually go ahead
 
 00:39:04.286 --> 00:39:06.256 A:middle
@@ -3633,17 +3329,18 @@ and call preparePrerollAds,
 
 00:39:06.256 --> 00:39:08.106 A:middle
 so we'll go to our
-View Controller here
+View Controller here,
 
 00:39:08.106 --> 00:39:11.226 A:middle
 which is doing the actual
 display, and we're going
 
-00:39:11.226 --> 00:39:14.666 A:middle
-to scroll down to at the
-bottom here collectionView
+00:39:11.226 --> 00:39:13.946 A:middle
+to scroll down to -
+at the bottom here,
 
-00:39:14.666 --> 00:39:16.736 A:middle
+00:39:13.946 --> 00:39:16.736 A:middle
+collectionView
 didSelectItemAtIndexPath.
 
 00:39:17.016 --> 00:39:19.296 A:middle
@@ -3651,7 +3348,7 @@ This is what happens when
 the user actually taps on it.
 
 00:39:19.596 --> 00:39:22.086 A:middle
-At the moment all
+At the moment, all
 we're doing is creating
 
 00:39:22.086 --> 00:39:25.236 A:middle
@@ -3660,7 +3357,7 @@ setting the content URL,
 
 00:39:25.236 --> 00:39:26.766 A:middle
 and then calling
-Present MoviePlayer
+presentMoviePlayer
 
 00:39:26.766 --> 00:39:28.216 A:middle
 to have it start
@@ -3675,8 +3372,8 @@ and instead we're
 going to go ahead
 
 00:39:32.636 --> 00:39:37.386 A:middle
-and call playPrerollAd
-WithCompletionHandler.
+and call playPrerollAdWith
+CompletionHandler.
 
 00:39:37.826 --> 00:39:39.816 A:middle
 And again, inside the
@@ -3684,7 +3381,7 @@ completion handler to that,
 
 00:39:39.966 --> 00:39:43.456 A:middle
 that's where we're going to call
-mpvController .moviePlayer play.
+mpvController.moviePlayer play.
 
 00:39:44.196 --> 00:39:48.766 A:middle
 Go back up to the top here, and
@@ -3704,14 +3401,6 @@ We can run again.
 No. This is what I
 knew I was going to do.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.566 --> 00:40:03.016 A:middle
-No. This is what I
-knew I was going to do.
-
 00:40:03.706 --> 00:40:05.076 A:middle
 Once again, we got
 to go in here,
@@ -3724,8 +3413,8 @@ framework is linked.
 Now we can run it.
 
 00:40:16.286 --> 00:40:20.256 A:middle
-Okay, and we got our ad up
--- our app up here again,
+OK, and we got our ad up
+- our app up here again,
 
 00:40:20.256 --> 00:40:22.156 A:middle
 same quick little videos.
@@ -3771,31 +3460,23 @@ content for that pre-roll
 to play in front of.
 
 00:40:54.546 --> 00:40:59.246 A:middle
-Okay, so those are the
-four different types of ads
+OK, so those are the four
+different types of ads
 
 00:40:59.246 --> 00:41:01.976 A:middle
 that we have for integration
 with iAd inside your app.
 
+00:41:02.486 --> 00:41:03.926 A:middle
+Once you've started using them,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.246 --> 00:41:01.976 A:middle
-that we have for integration
-with iAd inside your app.
-
-00:41:02.486 --> 00:41:04.716 A:middle
-Once you've started using
-them let's talk a little bit
-
-00:41:04.716 --> 00:41:05.356 A:middle
-about testing.
+00:41:03.926 --> 00:41:05.356 A:middle
+let's talk a little
+bit about testing.
 
 00:41:07.756 --> 00:41:10.166 A:middle
-First of all there are a
-couple of things we add --
+First of all, there are a
+couple of things we add -
 
 00:41:10.316 --> 00:41:13.226 A:middle
 we've added to the developer
@@ -3814,7 +3495,7 @@ This is inside the apps that you
 have when you're testing them
 
 00:41:25.216 --> 00:41:27.896 A:middle
-on the device you can adjust
+on the device - you can adjust
 how frequently you're going
 
 00:41:27.896 --> 00:41:28.566 A:middle
@@ -3854,16 +3535,8 @@ the fill rate this allows you
 to rapidly test error
 
 00:41:50.676 --> 00:41:53.786 A:middle
-and non-error conditions moving
+and nonerror conditions moving
 things on- and offscreen.
-
-00:41:57.676 --> 00:42:00.226 A:middle
-Most importantly there's
-a switch called Highlight
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:57.676 --> 00:42:00.226 A:middle
 Most importantly there's
@@ -3872,27 +3545,27 @@ a switch called Highlight
 00:42:00.226 --> 00:42:01.016 A:middle
 Clipped Banners.
 
-00:42:01.316 --> 00:42:04.996 A:middle
+00:42:01.316 --> 00:42:04.316 A:middle
 If you're using the
-.canDisplayBannerAds this isn't
+.canDisplayBannerAds,
 
-00:42:04.996 --> 00:42:06.216 A:middle
-going to affect banners
-very much,
+00:42:04.316 --> 00:42:06.216 A:middle
+this isn't going to
+affect banners very much,
 
 00:42:06.216 --> 00:42:08.366 A:middle
 but this is very
 important for medium rect.
 
 00:42:09.116 --> 00:42:12.486 A:middle
-It's very easy to accident
+It's very easy to accidently
 occlude part of the medium rect
 
 00:42:12.486 --> 00:42:14.376 A:middle
 with some other UI element.
 
 00:42:14.426 --> 00:42:17.356 A:middle
-If you do that that's a
+If you do that, that's a
 part of the medium rect
 
 00:42:17.356 --> 00:42:18.796 A:middle
@@ -3901,7 +3574,7 @@ by your user.
 
 00:42:19.056 --> 00:42:20.516 A:middle
 It's a part of the
-medium rect that you --
+medium rect that you -
 
 00:42:20.516 --> 00:42:23.156 A:middle
 that the user may not be able
@@ -3927,7 +3600,7 @@ for that matter, that will show
 when the user can actually tap
 
 00:42:37.006 --> 00:42:38.406 A:middle
-on all parts of this banner
+on all parts of this banner,
 
 00:42:38.636 --> 00:42:41.176 A:middle
 when it is officially
@@ -3946,7 +3619,7 @@ Remember this only affects your
 apps, your developer-mode apps
 
 00:42:52.456 --> 00:42:55.696 A:middle
-that you have run from xCode
+that you have run from Xcode
 and deployed onto your device.
 
 00:42:55.696 --> 00:42:57.926 A:middle
@@ -3957,20 +3630,12 @@ fill right to zero
 for all the other iAd-using
 apps on your device.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:57.926 --> 00:43:00.276 A:middle
-for all the other iAd-using
-apps on your device.
-
 00:43:00.276 --> 00:43:02.376 A:middle
 This only affects
 developer-mode apps.
 
 00:43:02.896 --> 00:43:06.656 A:middle
-Okay, so that's monetization.
+OK, so that's monetization.
 
 00:43:06.656 --> 00:43:09.006 A:middle
 That was sort of the first
@@ -3997,7 +3662,7 @@ to talk about here.
 
 00:43:24.856 --> 00:43:27.716 A:middle
 First I'm going to do a really
-quick intro to iA Workbench.
+quick intro to iAd Workbench.
 
 00:43:27.716 --> 00:43:29.126 A:middle
 There's another session
@@ -4037,7 +3702,7 @@ iAd's self-servicing
 advertising platform.
 
 00:43:50.346 --> 00:43:53.306 A:middle
-It's basically a Web
+It's basically a web
 app on the apple.com,
 
 00:43:53.306 --> 00:43:55.046 A:middle
@@ -4048,14 +3713,7 @@ This is how you can manage
 being an advertiser on iAd.
 
 00:43:59.776 --> 00:44:02.136 A:middle
-Okay, you can create mobile ads.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.776 --> 00:44:02.136 A:middle
-Okay, you can create mobile ads.
+OK? You can create mobile ads.
 
 00:44:02.446 --> 00:44:03.726 A:middle
 You can upload your own banners.
@@ -4068,7 +3726,7 @@ You can also use iProducer to
 create your own iAd assets.
 
 00:44:11.456 --> 00:44:14.526 A:middle
-Once you've done that you can
+Once you've done that, you can
 use this to reach the users
 
 00:44:14.526 --> 00:44:17.006 A:middle
@@ -4120,8 +3778,8 @@ So that's Workbench.
 Again, there's going
 
 00:44:44.656 --> 00:44:46.826 A:middle
-to be another session
-tomorrow go into more detail.
+to be another session tomorrow
+going into more detail.
 
 00:44:47.306 --> 00:44:50.106 A:middle
 Next important part to
@@ -4132,7 +3790,7 @@ that we've got for
 app attribution.
 
 00:44:52.686 --> 00:44:54.796 A:middle
-Okay, what is app attribution?
+OK, what is app attribution?
 
 00:44:55.646 --> 00:44:58.806 A:middle
 App attribution allows you to
@@ -4141,16 +3799,9 @@ track app downloads of your app
 00:44:58.866 --> 00:45:00.296 A:middle
 that originated from iAd.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.866 --> 00:45:00.296 A:middle
-that originated from iAd.
-
 00:45:00.296 --> 00:45:04.186 A:middle
-Okay, this is going to let
-you measure the effectiveness
+OK? This is going to let you
+measure the effectiveness
 
 00:45:04.186 --> 00:45:06.606 A:middle
 of your campaigns that you've
@@ -4161,8 +3812,8 @@ that you're running to
 actually promote your app.
 
 00:45:09.446 --> 00:45:16.106 A:middle
-Okay, the APIs were available
-in iOS 7 -- or iOS 7.1, rather.
+OK, the APIs were available
+in iOS 7 - or iOS 7.1, rather.
 
 00:45:16.586 --> 00:45:19.216 A:middle
 And we've enhanced them a
@@ -4180,7 +3831,7 @@ It's very simple.
 
 00:45:24.296 --> 00:45:26.676 A:middle
 Again, you're going
-to Include iAd/iAd.h
+to include iAd/iAd.h,
 
 00:45:26.676 --> 00:45:28.086 A:middle
 as everything starts
@@ -4195,7 +3846,7 @@ And on that you're going to
 call lookupAdConversionDetails.
 
 00:45:36.026 --> 00:45:40.366 A:middle
-Okay, inside that you can use
+OK? Inside that you can use
 the two dates that are provided
 
 00:45:40.366 --> 00:45:42.686 A:middle
@@ -4210,16 +3861,19 @@ installation
 of the app was due to iAd.
 
 00:45:46.826 --> 00:45:49.526 A:middle
-Okay, these dates are going
+OK? These dates are going
 to give you two things.
 
-00:45:49.896 --> 00:45:52.266 A:middle
-The first is the app
-purchase date on the date
+00:45:49.896 --> 00:45:51.936 A:middle
+The first is the
+app purchase date -
 
-00:45:52.266 --> 00:45:54.836 A:middle
-at which the user actually
-made the purchase of this app.
+00:45:51.936 --> 00:45:54.316 A:middle
+the date at which the user
+actually made the purchase
+
+00:45:54.316 --> 00:45:54.836 A:middle
+of this app.
 
 00:45:55.496 --> 00:45:57.916 A:middle
 And then the date
@@ -4229,20 +3883,12 @@ of the impression,
 the date that the user saw and
 interacted with the ad prior
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:57.916 --> 00:46:01.616 A:middle
-the date that the user saw and
-interacted with the ad prior
-
 00:46:01.616 --> 00:46:03.276 A:middle
 to them purchasing the app.
 
 00:46:03.776 --> 00:46:07.756 A:middle
-Okay, if both of these dates
-are there and true that's going
+OK? If both of these dates are
+there and true, that's going
 
 00:46:07.756 --> 00:46:09.046 A:middle
 to indicate to you that as far
@@ -4277,17 +3923,20 @@ has Limit Ad Tracking enabled.
 00:46:31.936 --> 00:46:33.246 A:middle
 So regardless of whether
 
-00:46:33.246 --> 00:46:37.026 A:middle
-or not this is an iAd-driven
-installation the user has Limit
+00:46:33.246 --> 00:46:35.806 A:middle
+or not this is an
+iAd-driven installation,
 
-00:46:37.026 --> 00:46:39.626 A:middle
-Ad Tracking enabled; they don't
-want their ad browsing data
+00:46:36.156 --> 00:46:37.916 A:middle
+the user has Limit
+Ad Tracking enabled;
 
-00:46:39.976 --> 00:46:42.816 A:middle
-to be tracked or
-shown to various apps.
+00:46:37.916 --> 00:46:40.616 A:middle
+they don't want their ad
+browsing data to be tracked
+
+00:46:40.616 --> 00:46:42.816 A:middle
+or shown to various apps.
 
 00:46:43.136 --> 00:46:43.836 A:middle
 These are going to be nil.
@@ -4304,8 +3953,8 @@ if you're trying to use this
 for any sort of analytics.
 
 00:46:49.976 --> 00:46:52.546 A:middle
-In addition you want
-to avoid lookups
+In addition, you
+want to avoid lookups
 
 00:46:52.546 --> 00:46:53.926 A:middle
 of this data on every launch.
@@ -4317,14 +3966,6 @@ tempting to add this
 00:46:56.046 --> 00:46:58.886 A:middle
 to appDidFinishLaunching,
 lookup your conversion details,
-
-00:46:58.886 --> 00:47:00.456 A:middle
-set some state flag,
-and do something
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:58.886 --> 00:47:00.456 A:middle
 set some state flag,
@@ -4350,7 +3991,7 @@ to and then cache
 the data afterward.
 
 00:47:11.196 --> 00:47:14.356 A:middle
-Okay, so that's app attribution.
+OK, so that's app attribution.
 
 00:47:14.356 --> 00:47:15.976 A:middle
 The next thing we can talk
@@ -4376,7 +4017,7 @@ various categories depending
 
 00:47:32.686 --> 00:47:35.676 A:middle
 on their activity within your
-app, or things that you know
+app or things that you know
 
 00:47:35.676 --> 00:47:37.766 A:middle
 about them from their
@@ -4408,14 +4049,6 @@ information to target new ads
 in iAd Workbench directly at
 specific subgroups of your users
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:56.696 --> 00:48:01.086 A:middle
-in iAd Workbench directly at
-specific subgroups of your users
-
 00:48:01.276 --> 00:48:06.476 A:middle
 to reach specific audiences
 within the users of your app.
@@ -4436,7 +4069,7 @@ That's important to know.
 
 00:48:13.466 --> 00:48:15.696 A:middle
 A specific group of
-your users is a --
+your users is a -
 
 00:48:15.806 --> 00:48:18.746 A:middle
 with a specific name
@@ -4470,14 +4103,14 @@ Come try it again.
 
 00:48:38.626 --> 00:48:40.946 A:middle
 Come back to this app,
-maybe re-download it."
+maybe redownload it."
 
 00:48:42.666 --> 00:48:45.316 A:middle
 If there's new features
 that affect specific subsets
 
 00:48:45.316 --> 00:48:49.056 A:middle
-of your app you can use this
+of your app, you can use this
 to reach those specific users.
 
 00:48:49.436 --> 00:48:51.656 A:middle
@@ -4490,14 +4123,6 @@ audience you're attempting
 
 00:48:53.786 --> 00:48:58.426 A:middle
 to target with those ads.
-
-00:48:58.426 --> 00:49:00.536 A:middle
-Similarly you can
-reengage dormant users.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:58.426 --> 00:49:00.536 A:middle
 Similarly you can
@@ -4516,17 +4141,17 @@ to try to pull those
 people back into your app
 
 00:49:07.416 --> 00:49:09.906 A:middle
-to reengage those uses who
+to reengage those users who
 may not have used your app
 
 00:49:09.906 --> 00:49:10.486 A:middle
 in some time.
 
-00:49:12.696 --> 00:49:15.336 A:middle
-If you're a retail app
-instead there's similar reasons
+00:49:12.696 --> 00:49:14.196 A:middle
+If you're a retail app instead,
 
-00:49:15.336 --> 00:49:16.106 A:middle
+00:49:14.196 --> 00:49:16.106 A:middle
+there's similar reasons
 to use this.
 
 00:49:16.726 --> 00:49:19.326 A:middle
@@ -4551,17 +4176,17 @@ purchase those things."
 
 00:49:29.346 --> 00:49:31.576 A:middle
 If you've got loyal
-customers maybe you want
+customers, maybe you want
 
 00:49:31.576 --> 00:49:32.536 A:middle
 to send them a special offer.
 
 00:49:32.536 --> 00:49:34.686 A:middle
 Maybe you want to send them a
-gift for being a loyal customer,
+gift for being a loyal customer.
 
 00:49:34.966 --> 00:49:36.666 A:middle
-you can do that with
+You can do that with
 an ad as well.
 
 00:49:36.666 --> 00:49:41.296 A:middle
@@ -4569,7 +4194,7 @@ You can retarget specific ads to
 specific segments of your users.
 
 00:49:41.956 --> 00:49:44.816 A:middle
-If they've -- you
+If they've - you
 can group customers
 
 00:49:44.816 --> 00:49:47.366 A:middle
@@ -4595,10 +4220,6 @@ with specific ads.
 00:49:58.256 --> 00:49:59.976 A:middle
 So how does this actually work?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:00.046 --> 00:50:02.506 A:middle
 First thing you're going
 to do is you're going to go
@@ -4621,7 +4242,7 @@ identifiers to use for that."
 
 00:50:12.816 --> 00:50:14.846 A:middle
 It's important to notice that
-you do not create segment --
+you do not create segment -
 
 00:50:14.846 --> 00:50:17.816 A:middle
 specific segment identifiers;
@@ -4636,7 +4257,7 @@ We manage the specific
 segment identifiers.
 
 00:50:23.556 --> 00:50:25.676 A:middle
-Once you've done that
+Once you've done that,
 you're going to go ahead
 
 00:50:25.676 --> 00:50:27.956 A:middle
@@ -4658,7 +4279,7 @@ so we can actually
 record that information.
 
 00:50:36.116 --> 00:50:38.596 A:middle
-Once that's done you go
+Once that's done, you go
 back to iAd Workbench,
 
 00:50:38.626 --> 00:50:41.376 A:middle
@@ -4670,7 +4291,7 @@ to retarget those customers
 with some specific ad message.
 
 00:50:46.046 --> 00:50:49.576 A:middle
-Okay, so how do you
+OK, so how do you
 actually do this?
 
 00:50:49.576 --> 00:50:51.216 A:middle
@@ -4678,22 +4299,14 @@ Actually very simple
 on the client side.
 
 00:50:51.646 --> 00:50:52.986 A:middle
-You're going to Include iAd.
+You're going to include iAd.
 
 00:50:54.206 --> 00:50:56.386 A:middle
 You're going to create
 an array of segments,
 
 00:50:56.386 --> 00:50:57.646 A:middle
-and these are segments --
-
-00:50:57.806 --> 00:51:00.486 A:middle
-the segment identifiers are
-what you've already gotten
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+and these are segments -
 
 00:50:57.806 --> 00:51:00.486 A:middle
 the segment identifiers are
@@ -4702,13 +4315,12 @@ what you've already gotten
 00:51:00.486 --> 00:51:01.386 A:middle
 from Workbench.
 
-00:51:01.386 --> 00:51:03.476 A:middle
-If you attempt to send
-random segment identifiers
+00:51:01.386 --> 00:51:03.966 A:middle
+If you attempt to send random
+segment identifiers up to iAd,
 
-00:51:03.476 --> 00:51:05.506 A:middle
-up to iAd we're just
-going to ignore them,
+00:51:04.276 --> 00:51:05.506 A:middle
+we're just going to ignore them,
 
 00:51:05.506 --> 00:51:07.026 A:middle
 so you want to make sure
@@ -4777,7 +4389,7 @@ replace the old set
 with the new set.
 
 00:51:50.456 --> 00:51:55.466 A:middle
-Okay, so that's basically iAd
+OK, so that's basically iAd
 for promotion, the new APIs
 
 00:51:55.466 --> 00:51:56.836 A:middle
@@ -4786,17 +4398,13 @@ that we've added in iOS 8.
 00:51:57.346 --> 00:51:58.526 A:middle
 So what did we learn?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:00.406 --> 00:52:02.696 A:middle
 First of all, there's some
 best practices for using iAd.
 
 00:52:02.996 --> 00:52:04.896 A:middle
 There are four different types
-of banners that we've talked --
+of banners that we've talked -
 
 00:52:04.896 --> 00:52:06.526 A:middle
 four different types of ads
@@ -4831,7 +4439,7 @@ you use the appropriate ad
 for the appropriate context.
 
 00:52:24.086 --> 00:52:27.406 A:middle
-As part of that consider the
+As part of that, consider the
 user when you're placing ads.
 
 00:52:27.976 --> 00:52:31.746 A:middle
@@ -4850,11 +4458,12 @@ start with great users as well.
 If you're going to
 alienate all of your users
 
-00:52:41.676 --> 00:52:46.216 A:middle
-by poor ad placement, by poor ad
-choice you're not actually going
+00:52:41.676 --> 00:52:44.696 A:middle
+by poor ad placement,
+by poor ad choice,
 
-00:52:46.216 --> 00:52:46.886 A:middle
+00:52:45.066 --> 00:52:46.886 A:middle
+you're not actually going
 to have a net win here.
 
 00:52:47.196 --> 00:52:50.216 A:middle
@@ -4873,21 +4482,13 @@ choosing to put there.
 In addition, there's
 a cycle here
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:56.916 --> 00:53:00.636 A:middle
-In addition, there's
-a cycle here
-
 00:53:00.636 --> 00:53:02.946 A:middle
 between monetization
 and promotion.
 
 00:53:03.216 --> 00:53:06.496 A:middle
-Okay, optimize your ad's
-performance to begin --
+OK? Optimize your ad's
+performance to begin -
 
 00:53:06.496 --> 00:53:08.856 A:middle
 your app's ad performance
@@ -4901,7 +4502,7 @@ But don't forget to take
 advantage of iAd Workbench
 
 00:53:12.856 --> 00:53:14.646 A:middle
-and re-promote your app.
+and repromote your app.
 
 00:53:14.646 --> 00:53:17.976 A:middle
 It's important to continue
@@ -4919,19 +4520,20 @@ You want to generate revenue;
 you want to spend some
 
 00:53:24.156 --> 00:53:26.876 A:middle
-of your revenue to re-advertise
+of your revenue to readvertise
 your app and acquire new users.
 
 00:53:27.346 --> 00:53:32.026 A:middle
-Okay, so those are some sort
+OK? So those are some sort
 of best practices for iAd.
 
-00:53:32.676 --> 00:53:36.296 A:middle
-For more information beyond this
-we've got Mark Malone is our iAd
+00:53:32.676 --> 00:53:34.746 A:middle
+For more information
+beyond this,
 
-00:53:36.296 --> 00:53:37.546 A:middle
-Technologies Evangelist.
+00:53:34.816 --> 00:53:37.546 A:middle
+we've got Mark Malone is our
+iAd Technologies Evangelist.
 
 00:53:37.546 --> 00:53:39.366 A:middle
 You can reach him at
@@ -4962,19 +4564,11 @@ hopefully help you out.
 
 00:53:54.526 --> 00:53:58.336 A:middle
 There are a couple related
-sessions here at WWCC.
+sessions here at WWDC.
 
 00:53:58.336 --> 00:54:00.596 A:middle
 Unfortunately you already
-missed The New iTunes Connect
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:58.336 --> 00:54:00.596 A:middle
-Unfortunately you already
-missed The New iTunes Connect
+missed "The New iTunes Connect,"
 
 00:54:00.596 --> 00:54:01.916 A:middle
 which talked a little
@@ -4988,10 +4582,10 @@ You can watch the video.
 
 00:54:04.656 --> 00:54:07.346 A:middle
 Tomorrow morning at 9:00 in
-Nob Hill there's What's New
+Nob Hill there's "What's New
 
 00:54:07.346 --> 00:54:08.886 A:middle
-in iAd Workbench
+in iAd Workbench,"
 which is going to go
 
 00:54:08.886 --> 00:54:11.546 A:middle
@@ -5014,4 +4608,3 @@ Thank you very much.
 
 00:54:17.566 --> 00:54:19.000 A:middle
 [ Applause ]
-

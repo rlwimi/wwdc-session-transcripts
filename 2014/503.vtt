@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.616 --> 00:00:14.186 A:middle
 &gt;&gt; Welcome to "Mastering
@@ -73,18 +72,11 @@ year an AVKit for OS X.
 00:00:59.436 --> 00:01:01.616 A:middle
 In the second part of this talk,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.436 --> 00:01:01.616 A:middle
-In the second part of this talk,
-
 00:01:01.616 --> 00:01:05.056 A:middle
 my colleague Shalini Sahoo
 will teach you best practices
 
-00:01:05.135 --> 00:01:07.546 A:middle
+00:01:05.136 --> 00:01:07.546 A:middle
 for using AVKit and
 AVFoundation in your iOS
 
@@ -147,14 +139,6 @@ of the Media Stack.
 
 00:01:56.776 --> 00:01:58.686 A:middle
 And I'm going to show you
-
-00:01:58.686 --> 00:02:00.386 A:middle
-in this talk what
-possibilities this opens
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.686 --> 00:02:00.386 A:middle
 in this talk what
@@ -226,13 +210,6 @@ and AVFoundation.
 00:02:55.106 --> 00:02:59.656 A:middle
 So some of you might be
 using MPMoviePlayerController
-
-00:02:59.656 --> 00:03:00.446 A:middle
-on your applications,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.656 --> 00:03:00.446 A:middle
 on your applications,
@@ -312,14 +289,6 @@ is to provide you view-
 level facilities for
 media operations on top
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.696 --> 00:04:02.506 A:middle
-level facilities for
-media operations on top
-
 00:04:02.506 --> 00:04:04.806 A:middle
 of AVFoundation and your iKit.
 
@@ -338,11 +307,11 @@ AVPlayerViewController
 which uses
 AVPlayerViewController,
 
-00:04:18.346 --> 00:04:21.555 A:middle
+00:04:18.346 --> 00:04:21.556 A:middle
 a state-of-the-art UV controller
 subclass provides you the same
 
-00:04:21.555 --> 00:04:23.276 A:middle
+00:04:21.556 --> 00:04:23.276 A:middle
 look and feel as our
 video applications
 
@@ -382,10 +351,6 @@ Press Next again.
 
 00:04:55.006 --> 00:04:59.936 A:middle
 Set the project on the desktop.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.056 --> 00:05:02.356 A:middle
 Now we select the
@@ -454,10 +419,6 @@ movie to our project.
 00:05:53.956 --> 00:05:57.386 A:middle
 And if we now build and run,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:04.316 --> 00:06:06.716 A:middle
 you can see we have a fully
 functional playback application.
@@ -525,10 +486,6 @@ demo, I'm now going
 to add AVPlayerViewController
 and show you how to hook it up.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.276 --> 00:07:02.656 A:middle
 So we start by modifying
 the main storyboard.
@@ -595,14 +552,6 @@ we add a new framework.
 So we type in AVKit, select Add
 and then press the Add button.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:54.466 --> 00:08:00.856 A:middle
-So we type in AVKit, select Add
-and then press the Add button.
-
 00:08:00.916 --> 00:08:05.046 A:middle
 And now we have to modify
 the DetailViewController
@@ -647,11 +596,11 @@ destinationViewController
 00:08:33.966 --> 00:08:34.436 A:middle
 of the segue.
 
-00:08:34.436 --> 00:08:38.035 A:middle
+00:08:34.436 --> 00:08:38.036 A:middle
 And then finally we create
 an AVPlayer the same way
 
-00:08:38.035 --> 00:08:39.936 A:middle
+00:08:38.036 --> 00:08:39.936 A:middle
 as we did before by
 using playerWithURL.
 
@@ -672,14 +621,6 @@ on the playerViewController.
 00:08:49.496 --> 00:08:58.616 A:middle
 We now build and run
 and select a movie.
-
-00:08:58.756 --> 00:09:01.266 A:middle
-You can see that the
-movie is loaded here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.756 --> 00:09:01.266 A:middle
 You can see that the
@@ -755,14 +696,6 @@ file on disk or a remote URL.
 00:09:55.676 --> 00:09:58.686 A:middle
 With an AVAsset you then
 create an AVPlayerItem.
-
-00:09:58.826 --> 00:10:02.796 A:middle
-Once you have an
-AVPlayerItem you can create an
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.826 --> 00:10:02.796 A:middle
 Once you have an
@@ -844,10 +777,6 @@ important AVPlayerViewController
 00:10:57.636 --> 00:10:59.246 A:middle
 features for your reference.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:00.276 --> 00:11:02.236 A:middle
 You might notice that
 it is mostly identical
@@ -920,10 +849,6 @@ option to hide them.
 AVPlayerViewController also
 has dynamic player controls.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.396 --> 00:12:02.946 A:middle
 So for continuous chapters,
 tapping this seek backward
@@ -986,14 +911,6 @@ controls on the iOS device.
 00:12:53.776 --> 00:12:58.686 A:middle
 So let's see how
 AVPlayerViewController stands
-
-00:12:58.686 --> 00:13:03.106 A:middle
-up against
-MPMoviePlayerController so far.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.686 --> 00:13:03.106 A:middle
 up against
@@ -1071,10 +988,6 @@ of AVPlayer items,
 each of which is
 backed by an AVAsset.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:00.176 --> 00:14:01.986 A:middle
 Everything I'm showing you today
 
@@ -1139,14 +1052,6 @@ and simple transitions
 00:14:52.716 --> 00:14:56.356 A:middle
 for video content, but you can
 even create your own custom
-
-00:14:56.356 --> 00:15:00.296 A:middle
-compositors to create all
-kinds of video effects.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:56.356 --> 00:15:00.296 A:middle
 compositors to create all
@@ -1226,14 +1131,6 @@ get so much more.
 Let me show you what you can
 easily do now with AVFoundation,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.776 --> 00:16:02.816 A:middle
-Let me show you what you can
-easily do now with AVFoundation,
-
 00:16:02.816 --> 00:16:04.936 A:middle
 AVKit in your own
 iOS applications.
@@ -1292,10 +1189,6 @@ for instance.
 Well, let's go back to the
 beginning and start playing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.286 --> 00:17:03.186 A:middle
 So as you can see, the video
 effect is applied in real time.
@@ -1304,29 +1197,29 @@ effect is applied in real time.
 And on the right, I even
 added a digital volume meter
 
-00:17:07.306 --> 00:17:08.965 A:middle
+00:17:07.306 --> 00:17:08.966 A:middle
 that shows the volume
 for the left
 
-00:17:08.965 --> 00:17:12.346 A:middle
+00:17:08.966 --> 00:17:12.346 A:middle
 and right audio channel
 during playback.
 
-00:17:13.435 --> 00:17:14.685 A:middle
+00:17:13.436 --> 00:17:14.686 A:middle
 In order to do all of this,
 
 00:17:14.836 --> 00:17:16.766 A:middle
 the application is using the
 AVFoundationComposition API
 
-00:17:16.766 --> 00:17:18.165 A:middle
+00:17:16.766 --> 00:17:18.166 A:middle
 that I mentioned before.
 
-00:17:22.396 --> 00:17:25.965 A:middle
+00:17:22.396 --> 00:17:25.966 A:middle
 AVKit continues to manage the
 user interface just as it does
 
-00:17:25.965 --> 00:17:27.276 A:middle
+00:17:25.966 --> 00:17:27.276 A:middle
 for basic media playback cases.
 
 00:17:32.266 --> 00:17:32.596 A:middle
@@ -1365,14 +1258,6 @@ the necessary steps
 
 00:17:54.876 --> 00:17:55.896 A:middle
 for the three common scenarios.
-
-00:17:59.816 --> 00:18:02.326 A:middle
-In the first scenario,
-we're using AVPlayerLayer
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.816 --> 00:18:02.326 A:middle
 In the first scenario,
@@ -1461,14 +1346,6 @@ you're dealing
 with a couple more
 properties and methods.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.176 --> 00:19:00.416 A:middle
-with a couple more
-properties and methods.
-
 00:19:00.956 --> 00:19:01.816 A:middle
 But don't worry,
 
@@ -1538,14 +1415,6 @@ when switching
 00:19:56.256 --> 00:19:58.266 A:middle
 over from
 MPMoviePlayerController,
-
-00:19:59.346 --> 00:20:01.856 A:middle
-please talk to us in the labs or
-ask us in the Developer Forums.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.346 --> 00:20:01.856 A:middle
 please talk to us in the labs or
@@ -1631,14 +1500,6 @@ With the introduction of AVKit
 for iOS we're also updating some
 user interfaces and behaviors
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.316 --> 00:21:01.736 A:middle
-for iOS we're also updating some
-user interfaces and behaviors
-
 00:21:02.156 --> 00:21:04.796 A:middle
 for AVPlayerView to match
 AVPlayerViewController.
@@ -1705,14 +1566,6 @@ Thank you.
 
 00:21:57.306 --> 00:21:57.756 A:middle
 Good morning.
-
-00:21:58.156 --> 00:22:01.146 A:middle
-I'm Shalini Sahoo, an engineer
-on the AVFoundation team,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.156 --> 00:22:01.146 A:middle
 I'm Shalini Sahoo, an engineer
@@ -1800,14 +1653,6 @@ of hangs or crashes.
 Media applications
 sometimes make use
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.376 --> 00:23:01.466 A:middle
-Media applications
-sometimes make use
-
 00:23:01.466 --> 00:23:03.646 A:middle
 of expensive resources
 like networks.
@@ -1885,14 +1730,6 @@ are modeled separately.
 For the first category,
 which is inspection,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.846 --> 00:24:01.656 A:middle
-For the first category,
-which is inspection,
-
 00:24:01.656 --> 00:24:03.696 A:middle
 AVAsset is an example.
 
@@ -1956,14 +1793,6 @@ drive the necessary machinery
 00:24:55.076 --> 00:24:57.426 A:middle
 so that your user can
 experience a smooth playback.
-
-00:24:57.426 --> 00:25:00.716 A:middle
-As time progresses,
-properties change.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.426 --> 00:25:00.716 A:middle
 As time progresses,
@@ -2039,14 +1868,6 @@ asset, you can ask AVFoundation
 00:25:53.006 --> 00:25:56.376 A:middle
 for the duration and we download
 just about the right amount
-
-00:25:56.376 --> 00:26:00.276 A:middle
-of data to be able to tell
-you what the duration is.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:56.376 --> 00:26:00.276 A:middle
 of data to be able to tell
@@ -2130,14 +1951,6 @@ and you won't see a spin.
 Whereas, on iOS,
 loading synchronously
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.736 --> 00:27:00.526 A:middle
-Whereas, on iOS,
-loading synchronously
-
 00:27:00.526 --> 00:27:03.196 A:middle
 from any thread would
 block your application
@@ -2214,13 +2027,6 @@ means more work.
 00:27:57.566 --> 00:27:59.656 A:middle
 If you intend to not use
 a particular property,
-
-00:27:59.826 --> 00:28:01.626 A:middle
-do not encode the wasted work.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.826 --> 00:28:01.626 A:middle
 do not encode the wasted work.
@@ -2307,10 +2113,6 @@ just playable in it
 and I provide a completion
 handler.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.536 --> 00:29:03.006 A:middle
 In my completion
 handler I first check
@@ -2384,14 +2186,6 @@ on loadValuesAsynchronously
 
 00:29:55.226 --> 00:29:56.996 A:middle
 for keys to return immediately,
-
-00:29:57.226 --> 00:30:00.586 A:middle
-that might not happen till the
-completion handler has executed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.226 --> 00:30:00.586 A:middle
 that might not happen till the
@@ -2481,14 +2275,6 @@ video frames on time.
 So all you have to do is use
 NSKeyValueObserving or KVO
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.736 --> 00:31:03.616 A:middle
-So all you have to do is use
-NSKeyValueObserving or KVO
-
 00:31:03.766 --> 00:31:05.306 A:middle
 to be notified of such changes
 
@@ -2563,14 +2349,6 @@ for playback to end.
 And the last example here
 is media services reset.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.166 --> 00:32:03.496 A:middle
-And the last example here
-is media services reset.
-
 00:32:03.496 --> 00:32:06.556 A:middle
 As I mentioned earlier,
 if your application
@@ -2638,14 +2416,6 @@ track's property on item asset,
 
 00:32:55.516 --> 00:32:57.166 A:middle
 particularly of type video.
-
-00:32:57.906 --> 00:33:00.676 A:middle
-And then I check to make
-sure that the video tracks -
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:57.906 --> 00:33:00.676 A:middle
 And then I check to make
@@ -2729,14 +2499,6 @@ have at least one audio track.
 To do that, you can look at
 the underlying AVAsset tracks
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.126 --> 00:34:00.156 A:middle
-To do that, you can look at
-the underlying AVAsset tracks
-
 00:34:00.726 --> 00:34:03.096 A:middle
 and make sure that there's
 at least one of them
@@ -2753,25 +2515,25 @@ sometimes you can have movie
 files which have non - or
 which have zero by zero
 
-00:34:13.266 --> 00:34:14.485 A:middle
+00:34:13.266 --> 00:34:14.486 A:middle
 for the presentation size
 
-00:34:14.755 --> 00:34:17.556 A:middle
+00:34:14.756 --> 00:34:17.556 A:middle
 but no audio tracks,
 like timecode tracks.
 
-00:34:18.275 --> 00:34:21.886 A:middle
+00:34:18.276 --> 00:34:21.886 A:middle
 The KVO recipe we just used,
 
 00:34:22.096 --> 00:34:24.106 A:middle
 we first create a player
 item with an asset.
 
-00:34:24.976 --> 00:34:27.565 A:middle
+00:34:24.976 --> 00:34:27.566 A:middle
 Then we register for key
 value observing a property
 
-00:34:27.565 --> 00:34:28.166 A:middle
+00:34:27.566 --> 00:34:28.166 A:middle
 of interest.
 
 00:34:28.786 --> 00:34:31.606 A:middle
@@ -2794,7 +2556,7 @@ work with these objects.
 But there are a few
 more things to remember
 
-00:34:44.235 --> 00:34:46.696 A:middle
+00:34:44.236 --> 00:34:46.696 A:middle
 when you're interacting with
 these objects in general.
 
@@ -2802,21 +2564,13 @@ these objects in general.
 First, do not assume the
 order in which events occur.
 
-00:34:51.235 --> 00:34:54.186 A:middle
+00:34:51.236 --> 00:34:54.186 A:middle
 As soon as you associate a
 player item with a player,
 
 00:34:54.186 --> 00:34:57.366 A:middle
 AVFoundation starts its
 underlying machinery
-
-00:34:57.366 --> 00:35:00.386 A:middle
-so that your user can
-experience a smooth playback.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.366 --> 00:35:00.386 A:middle
 so that your user can
@@ -2896,14 +2650,6 @@ the access to AVPlayer
 00:35:54.216 --> 00:35:55.926 A:middle
 and PlayerItem on
 the main queue.
-
-00:35:56.716 --> 00:36:01.826 A:middle
-It's safe to access and register
-and unregister for observers
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:56.716 --> 00:36:01.826 A:middle
 It's safe to access and register
@@ -2993,14 +2739,6 @@ associating it with the player.
 As I mentioned earlier, as
 soon as you create a player,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:57.166 --> 00:37:01.056 A:middle
-As I mentioned earlier, as
-soon as you create a player,
-
 00:37:01.056 --> 00:37:03.226 A:middle
 AVFoundation starts
 driving its machinery
@@ -3081,14 +2819,6 @@ item with the player.
 In summary, for AVPlayer
 and PlayerItem,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:57.946 --> 00:38:01.226 A:middle
-In summary, for AVPlayer
-and PlayerItem,
-
 00:38:01.226 --> 00:38:04.516 A:middle
 use NSKeyValueObserving
 to be notified of changes
@@ -3158,14 +2888,6 @@ list of player items.
 00:38:53.646 --> 00:38:56.576 A:middle
 If in your application you
 have an inspector window
-
-00:38:56.896 --> 00:39:00.196 A:middle
-for which you would like to
-access a set of keys on each
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:56.896 --> 00:39:00.196 A:middle
 for which you would like to
@@ -3255,10 +2977,6 @@ this instead
 of
 AVAsynchronousKeyValueLoading,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.156 --> 00:40:03.746 A:middle
 the best place to access
 your properties would be
@@ -3323,14 +3041,6 @@ AVPlayerViewController.
 00:40:52.306 --> 00:40:57.366 A:middle
 With AVPlayerViewController on
 iOS or AVPlayerView on OS X,
-
-00:40:57.476 --> 00:41:00.236 A:middle
-it's a good idea to
-animate your view
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:57.476 --> 00:41:00.236 A:middle
 it's a good idea to
@@ -3409,10 +3119,6 @@ on the player view controller.
 00:41:56.766 --> 00:41:59.196 A:middle
 Here is a screenshot of
 the demo we saw earlier.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:00.066 --> 00:42:01.236 A:middle
 The digital volume meter
@@ -3495,14 +3201,6 @@ over the player view.
 In Z-order, the player
 view is below and above
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.776 --> 00:43:02.296 A:middle
-In Z-order, the player
-view is below and above
-
 00:43:02.296 --> 00:43:05.986 A:middle
 that is content overlay view
 and the controls sit on top.
@@ -3563,14 +3261,6 @@ customize your player view
 00:43:54.396 --> 00:43:56.796 A:middle
 by custom drawings in
 content overlay view
-
-00:43:56.976 --> 00:44:00.376 A:middle
-and displaying chapter
-numbers during navigation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:56.976 --> 00:44:00.376 A:middle
 and displaying chapter
@@ -3649,13 +3339,6 @@ our programming guide
 00:44:59.326 --> 00:45:00.596 A:middle
 on our developer Website,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.326 --> 00:45:00.596 A:middle
-on our developer Website,
-
 00:45:00.596 --> 00:45:02.646 A:middle
 which covers both
 AVFoundation and AVKit.
@@ -3706,4 +3389,3 @@ Enjoy the rest of your week.
 
 00:45:37.516 --> 00:45:42.480 A:middle
 [ Applause ]
-

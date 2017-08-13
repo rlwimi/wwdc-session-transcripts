@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.516 A:middle
 [ Silence ]
@@ -64,14 +63,6 @@ off by yourself
 00:00:56.106 --> 00:00:58.606 A:middle
 and the project starts
 small, your well intentioned,
-
-00:00:59.156 --> 00:01:02.326 A:middle
-you're keeping everything
-orderly, you're adding features
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.156 --> 00:01:02.326 A:middle
 you're keeping everything
@@ -154,13 +145,6 @@ unit test can have bugs too.
 00:01:58.296 --> 00:02:01.026 A:middle
 What do we do?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.296 --> 00:02:01.026 A:middle
-What do we do?
-
 00:02:01.256 --> 00:02:04.086 A:middle
 People say: Software
 Architecture.
@@ -168,7 +152,7 @@ Architecture.
 00:02:04.086 --> 00:02:06.976 A:middle
 And you go, "All right, cool.
 
-00:02:08.036 --> 00:02:08.705 A:middle
+00:02:08.036 --> 00:02:08.706 A:middle
 Software Architecture.
 
 00:02:09.006 --> 00:02:09.826 A:middle
@@ -234,14 +218,6 @@ So we're going to try to help.
 00:02:56.436 --> 00:02:58.386 A:middle
 We can only scratched
 the surface today.
-
-00:02:59.066 --> 00:03:02.336 A:middle
-The idea is to take some
-time honored concepts
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.066 --> 00:03:02.336 A:middle
 The idea is to take some
@@ -327,14 +303,6 @@ talk about 3 broad approaches
 that you can use to consider the
 complexity of your application
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.586 --> 00:04:00.266 A:middle
-that you can use to consider the
-complexity of your application
-
 00:04:00.266 --> 00:04:01.906 A:middle
 and evaluate approaches
 to dealing with it.
@@ -358,7 +326,7 @@ in our application rather
 than just letting it
 grow ad hoc like a weed.
 
-00:04:16.505 --> 00:04:20.666 A:middle
+00:04:16.506 --> 00:04:20.666 A:middle
 And then when our objects start
 to become amorphous blobs,
 
@@ -407,14 +375,6 @@ is really just shuffling
 
 00:04:55.626 --> 00:04:57.766 A:middle
 information at events around.
-
-00:04:58.306 --> 00:05:02.706 A:middle
-You have delegate handlers,
-and target action callbacks,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.306 --> 00:05:02.706 A:middle
 You have delegate handlers,
@@ -501,14 +461,6 @@ somewhat concrete,
 we're going to turn
 to a demo application
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:57.626 --> 00:06:01.006 A:middle
-we're going to turn
-to a demo application
-
 00:06:01.526 --> 00:06:05.666 A:middle
 which is having its own
 problems with information flow.
@@ -570,14 +522,6 @@ making a journal entry.
 00:06:49.256 --> 00:06:54.646 A:middle
 We will add a photo, taken
 this one from apple.com
-
-00:06:55.246 --> 00:07:00.366 A:middle
-and there's this feature that
-lets me show and hide the photos
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:55.246 --> 00:07:00.366 A:middle
 and there's this feature that
@@ -658,14 +602,6 @@ we have a PhotoDrawerView?
 If we don't, make
 one, get it all laid
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.696 --> 00:08:02.516 A:middle
-If we don't, make
-one, get it all laid
-
 00:08:02.516 --> 00:08:04.406 A:middle
 out so it'll expand
 from zero height.
@@ -711,10 +647,10 @@ users interact
 with your UI while the
 animation is going on.
 
-00:08:32.696 --> 00:08:33.515 A:middle
+00:08:32.696 --> 00:08:33.516 A:middle
 You shouldn't do that.
 
-00:08:34.285 --> 00:08:37.385 A:middle
+00:08:34.286 --> 00:08:37.386 A:middle
 And, OK, so you could
 remove this option.
 
@@ -748,14 +684,6 @@ at this and you're saying that
 00:08:56.156 --> 00:08:59.426 A:middle
 "Well, I don't exactly
 see anything wrong.
-
-00:08:59.426 --> 00:09:01.586 A:middle
-So trying to work
-around this bug
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.426 --> 00:09:01.586 A:middle
 So trying to work
@@ -834,14 +762,6 @@ fundamental at play here.
 There's some mold growing in the
 corner and I'd like to return
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.666 --> 00:10:02.856 A:middle
-There's some mold growing in the
-corner and I'd like to return
-
 00:10:03.046 --> 00:10:09.976 A:middle
 to a diagrammatic approach
 to examine that mold.
@@ -914,14 +834,6 @@ does the drawer view exist.
 
 00:10:56.246 --> 00:10:57.636 A:middle
 Because the draw view isn't torn
-
-00:10:57.636 --> 00:11:00.046 A:middle
-down until the animation
-completes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.636 --> 00:11:00.046 A:middle
 down until the animation
@@ -1014,14 +926,6 @@ in the text view,
 you should only really be
 collapsing the PhotoDrawer
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.106 --> 00:12:01.396 A:middle
-you should only really be
-collapsing the PhotoDrawer
-
 00:12:02.496 --> 00:12:04.406 A:middle
 if it is actually expanded.
 
@@ -1097,14 +1001,6 @@ attention to the difference
 00:12:55.586 --> 00:12:59.646 A:middle
 between that root level
 truth, that one place
-
-00:12:59.646 --> 00:13:01.216 A:middle
-in your application
-that actually knows
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.646 --> 00:13:01.216 A:middle
 in your application
@@ -1188,14 +1084,6 @@ Twitter, we're going to have
 to put a URL for that photo
 in the body of the tweet.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.076 --> 00:14:00.176 A:middle
-to put a URL for that photo
-in the body of the tweet.
-
 00:14:00.176 --> 00:14:03.496 A:middle
 So that needs to be included
 in the character count.
@@ -1268,14 +1156,6 @@ method here
 
 00:14:55.366 --> 00:14:56.366 A:middle
 and it's very simple.
-
-00:14:56.366 --> 00:15:00.506 A:middle
-It just updates this character
-count label with the result
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:56.366 --> 00:15:00.506 A:middle
 It just updates this character
@@ -1364,14 +1244,6 @@ updateCharacterCount.
 Now it's only called in
 one place and it's called
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:56.926 --> 00:16:02.716 A:middle
-Now it's only called in
-one place and it's called
-
 00:16:02.716 --> 00:16:04.296 A:middle
 on "textViewDidChange".
 
@@ -1441,14 +1313,6 @@ about how your day is going.
 What if we added a
 video recording feature?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.996 --> 00:17:00.476 A:middle
-What if we added a
-video recording feature?
-
 00:17:00.476 --> 00:17:01.976 A:middle
 All of these things are
 going to have to remember
@@ -1457,11 +1321,11 @@ going to have to remember
 to update the character
 count, and, I hope anyway
 
-00:17:06.156 --> 00:17:08.695 A:middle
+00:17:06.156 --> 00:17:08.696 A:middle
 that you're starting to
 get that sort of taste
 
-00:17:08.695 --> 00:17:11.026 A:middle
+00:17:08.696 --> 00:17:11.026 A:middle
 versus ability smell again.
 
 00:17:11.326 --> 00:17:12.786 A:middle
@@ -1471,18 +1335,18 @@ Something seems amiss here,
 and it's not exactly
 clear what it is.
 
-00:17:18.925 --> 00:17:22.646 A:middle
+00:17:18.926 --> 00:17:22.646 A:middle
 So again, I propose that
 the solution is thinking
 
 00:17:22.646 --> 00:17:25.336 A:middle
 about the information flow
 
-00:17:25.336 --> 00:17:26.965 A:middle
+00:17:25.336 --> 00:17:26.966 A:middle
 of your application
 diagrammatically.
 
-00:17:28.185 --> 00:17:30.996 A:middle
+00:17:28.186 --> 00:17:30.996 A:middle
 Here again is a diagram
 
 00:17:30.996 --> 00:17:32.576 A:middle
@@ -1518,14 +1382,6 @@ that derived values have
 
 00:17:58.066 --> 00:17:59.186 A:middle
 to be treated differently.
-
-00:17:59.746 --> 00:18:05.186 A:middle
-Let's think about what these
-derived values are in comparison
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.746 --> 00:18:05.186 A:middle
 Let's think about what these
@@ -1594,14 +1450,6 @@ that a cache has as well.
 00:18:56.176 --> 00:18:58.986 A:middle
 For instance, when your
 original data changes,
-
-00:18:58.986 --> 00:19:00.786 A:middle
-you need to make sure
-to update the cash data
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.986 --> 00:19:00.786 A:middle
 you need to make sure
@@ -1679,14 +1527,6 @@ and we set the text view values.
 
 00:19:58.336 --> 00:19:59.216 A:middle
 It's very straight forward.
-
-00:19:59.216 --> 00:20:00.976 A:middle
-We haven't seen any bugs with
-that, at least not yet anyway.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.216 --> 00:20:00.976 A:middle
 We haven't seen any bugs with
@@ -1782,14 +1622,6 @@ to do this in Swift
 because we've got these
 fancy new property observers.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:57.326 --> 00:21:00.336 A:middle
-because we've got these
-fancy new property observers.
-
 00:21:01.576 --> 00:21:03.176 A:middle
 All we have to do is add
 
@@ -1872,14 +1704,6 @@ and it appears to get saved.
 So there must be some reverse
 relationship here, too.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.706 --> 00:22:01.506 A:middle
-So there must be some reverse
-relationship here, too.
-
 00:22:02.086 --> 00:22:05.296 A:middle
 How do we think about that
 schematically in the same way?
@@ -1955,14 +1779,6 @@ count issue on display again,
 if I were to start
 editing this entry--
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.766 --> 00:23:01.146 A:middle
-if I were to start
-editing this entry--
-
 00:23:01.146 --> 00:23:03.486 A:middle
 oh, you don't need this
 break point anymore.
@@ -2021,14 +1837,6 @@ thinking about the relationship
 00:23:51.236 --> 00:23:55.696 A:middle
 between this editing UIs model
 and the underlying model,
-
-00:23:55.866 --> 00:24:00.086 A:middle
-which it is editing, is actually
-the same as the relationship
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:55.866 --> 00:24:00.086 A:middle
 which it is editing, is actually
@@ -2103,14 +1911,6 @@ view would probably just update
 00:24:54.566 --> 00:24:57.496 A:middle
 immediately to that new
 value and if some other piece
-
-00:24:57.496 --> 00:25:01.496 A:middle
-of the program were wondering
-what is the body value
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.496 --> 00:25:01.496 A:middle
 of the program were wondering
@@ -2196,14 +1996,6 @@ structure of thinking to think
 about the "entry viewing
 controller", which presented
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.476 --> 00:26:03.476 A:middle
-about the "entry viewing
-controller", which presented
-
 00:26:03.476 --> 00:26:07.236 A:middle
 that editing controller, and
 the "entry editing controller".
@@ -2271,14 +2063,6 @@ that is how you can think
 
 00:26:56.396 --> 00:26:57.386 A:middle
 about this relationship.
-
-00:26:58.256 --> 00:27:01.706 A:middle
-Just as the model may
-validate the text views value
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.256 --> 00:27:01.706 A:middle
 Just as the model may
@@ -2372,14 +2156,6 @@ events in your application?
 And then once you start
 thinking about how they flow
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.586 --> 00:28:00.466 A:middle
-And then once you start
-thinking about how they flow
-
 00:28:00.466 --> 00:28:03.466 A:middle
 through your application,
 remember the difference
@@ -2460,14 +2236,6 @@ Good afternoon, everybody.
 In this next section, I'm going
 to show you how to identify
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.256 --> 00:29:03.946 A:middle
-In this next section, I'm going
-to show you how to identify
-
 00:29:04.826 --> 00:29:08.646 A:middle
 and tease apart responsibilities
 in your application.
@@ -2517,13 +2285,6 @@ implementing this view here.
 
 00:29:56.806 --> 00:29:57.576 A:middle
 Where would we start?
-
-00:29:58.256 --> 00:30:01.146 A:middle
-Well, we'll need to know
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.256 --> 00:30:01.146 A:middle
 Well, we'll need to know
@@ -2595,10 +2356,6 @@ complication here and that's
 00:30:56.996 --> 00:30:58.606 A:middle
 if our text fields are empty.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:01.316 --> 00:31:04.826 A:middle
 If our text field is empty
 when we're checking each field,
@@ -2662,14 +2419,6 @@ that, we have these 2 lines,
 00:31:57.126 --> 00:31:58.956 A:middle
 which are really
 the most important
-
-00:31:59.366 --> 00:32:02.326 A:middle
-for what the view controller
-does, which is to manage
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.366 --> 00:32:02.326 A:middle
 for what the view controller
@@ -2740,14 +2489,6 @@ in different places,
 it's likely that they'll
 diverge over time.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.266 --> 00:33:00.456 A:middle
-it's likely that they'll
-diverge over time.
-
 00:33:00.926 --> 00:33:04.476 A:middle
 A type of rule get added in
 one place but not the other
@@ -2810,14 +2551,6 @@ and outputs in this table.
 So, validation seems to be that
 if you give me an input value,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.616 --> 00:34:05.306 A:middle
-So, validation seems to be that
-if you give me an input value,
-
 00:34:06.626 --> 00:34:07.836 A:middle
 I can tell you if it's valid.
 
@@ -2825,11 +2558,11 @@ I can tell you if it's valid.
 And if it's not valid,
 I can tell you why.
 
-00:34:11.576 --> 00:34:15.235 A:middle
+00:34:11.576 --> 00:34:15.236 A:middle
 These pretty directly translate
 to fairly simple data types.
 
-00:34:16.585 --> 00:34:19.826 A:middle
+00:34:16.586 --> 00:34:19.826 A:middle
 And if we look at what that
 looks like here in Swift --
 
@@ -2844,11 +2577,11 @@ types right here
 00:34:26.666 --> 00:34:28.446 A:middle
 but we're missing our input.
 
-00:34:29.726 --> 00:34:32.315 A:middle
+00:34:29.726 --> 00:34:32.316 A:middle
 That's because we want to
 leave this actually open
 
-00:34:32.315 --> 00:34:33.966 A:middle
+00:34:32.316 --> 00:34:33.966 A:middle
 to interpretation in this case.
 
 00:34:34.656 --> 00:34:37.126 A:middle
@@ -2881,14 +2614,6 @@ validator's input.
 00:34:57.186 --> 00:34:59.126 A:middle
 This technique is
 called composition.
-
-00:34:59.496 --> 00:35:02.666 A:middle
-We're composing a larger
-validator out of smaller ones
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.496 --> 00:35:02.666 A:middle
 We're composing a larger
@@ -2959,14 +2684,6 @@ things like that.
 So, we'll create a
 SetPasswordValidator
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.186 --> 00:36:01.926 A:middle
-So, we'll create a
-SetPasswordValidator
-
 00:36:02.076 --> 00:36:04.136 A:middle
 that has two password
 validators.
@@ -3032,14 +2749,6 @@ validators have non-nil input.
 00:36:54.036 --> 00:36:57.876 A:middle
 And if any of those inputs are
 nil, it'll say it's not valid,
-
-00:36:58.136 --> 00:37:00.486 A:middle
-allowing us to easily
-disable sign-up button.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.136 --> 00:37:00.486 A:middle
 allowing us to easily
@@ -3119,14 +2828,6 @@ feel bad for using it.
 But nobody's really
 told you why.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.116 --> 00:38:01.176 A:middle
-But nobody's really
-told you why.
-
 00:38:02.416 --> 00:38:03.286 A:middle
 Why is it bad?
 
@@ -3185,14 +2886,6 @@ yes, exactly, if A changes it,
 
 00:38:56.626 --> 00:38:57.936 A:middle
 then B sees that change.
-
-00:38:58.506 --> 00:39:02.126 A:middle
-So, B depends on A
-behaving in a specific way.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.506 --> 00:39:02.126 A:middle
 So, B depends on A
@@ -3269,14 +2962,6 @@ your application grows bigger.
 And it also explains why adding
 abstraction often doesn't help.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.756 --> 00:40:02.636 A:middle
-And it also explains why adding
-abstraction often doesn't help.
-
 00:40:03.256 --> 00:40:05.936 A:middle
 As long as you're passing
 around the same mutable data,
@@ -3342,14 +3027,6 @@ to think about locally.
 00:40:55.936 --> 00:40:58.366 A:middle
 Think about building up
 a string or an array.
-
-00:40:59.726 --> 00:41:02.226 A:middle
-It's also wasteful to
-create intermediate copies
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.726 --> 00:41:02.226 A:middle
 It's also wasteful to
@@ -3425,14 +3102,6 @@ Struct, happy green box,
 and when we pass it from A to
 B, an implicit copy is made
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:57.916 --> 00:42:03.506 A:middle
-and when we pass it from A to
-B, an implicit copy is made
-
 00:42:03.726 --> 00:42:05.066 A:middle
 and that's what's passed to B.
 
@@ -3501,10 +3170,6 @@ If you have one type of motion,
 you only have to
 create one effect.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:00.876 --> 00:43:03.696 A:middle
 MotionEffects also have very
 low latency requirements.
@@ -3569,14 +3234,6 @@ UIInterpolatingMotionEffect.
 
 00:43:56.036 --> 00:43:58.056 A:middle
 It feels more like a function.
-
-00:43:59.066 --> 00:44:03.346 A:middle
-But immutability is actually a
-deep idea, and has deep power.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:59.066 --> 00:44:03.346 A:middle
 But immutability is actually a
@@ -3648,13 +3305,6 @@ upon all previous poses
 00:44:57.906 --> 00:45:01.726 A:middle
 as an implicit form of input.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:57.906 --> 00:45:01.726 A:middle
-as an implicit form of input.
-
 00:45:01.856 --> 00:45:05.236 A:middle
 Now our inputs are not just
 all-possible device poses
@@ -3720,14 +3370,6 @@ with immutability.
 00:45:54.206 --> 00:45:56.906 A:middle
 We've seen two different
 forms of immutability,
-
-00:45:57.526 --> 00:46:01.456 A:middle
-and how we can leverage
-those to build simpler,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:57.526 --> 00:46:01.456 A:middle
 and how we can leverage
@@ -3808,14 +3450,6 @@ simplify with immutability
 to increase our ability
 to abstractly reason
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.406 --> 00:47:01.916 A:middle
-to increase our ability
-to abstractly reason
-
 00:47:02.286 --> 00:47:03.426 A:middle
 about our application.
 
@@ -3886,4 +3520,3 @@ Have a great afternoon.
 
 00:47:53.516 --> 00:47:59.760 A:middle
 [ Applause ]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.496 --> 00:00:13.356 A:middle
 &gt;&gt; Good morning everyone.
@@ -71,14 +70,6 @@ to compile cross-platform.
 
 00:00:54.606 --> 00:00:59.226 A:middle
 Last fall iWork had a release
-
-00:00:59.226 --> 00:01:01.256 A:middle
-where we took our
-iOS applications
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.226 --> 00:01:01.256 A:middle
 where we took our
@@ -174,14 +165,6 @@ big suite of applications.
 We have well over a
 million lines of code
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.916 --> 00:02:00.676 A:middle
-We have well over a
-million lines of code
-
 00:02:01.416 --> 00:02:03.216 A:middle
 and over 10,000 unique classes.
 
@@ -260,14 +243,6 @@ who wanted to take this code
 
 00:02:57.236 --> 00:02:59.586 A:middle
 and bring it to our Mac platform
-
-00:02:59.586 --> 00:03:01.896 A:middle
-and have everything
-running from one location.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.586 --> 00:03:01.896 A:middle
 and have everything
@@ -364,14 +339,6 @@ to be the same everywhere.
 And most - and a
 very important part
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.756 --> 00:04:00.636 A:middle
-And most - and a
-very important part
-
 00:04:00.636 --> 00:04:02.386 A:middle
 of that is having our
 model code that talks
@@ -398,7 +365,7 @@ the actual content of the model.
 00:04:14.546 --> 00:04:15.656 A:middle
 But for now we're going to say
 
-00:04:15.656 --> 00:04:17.375 A:middle
+00:04:15.656 --> 00:04:17.376 A:middle
 that the model code,
 we're going to share.
 
@@ -464,14 +431,6 @@ using the cursor,
 00:04:55.076 --> 00:04:56.986 A:middle
 which is a very precise
 single pointer.
-
-00:04:57.466 --> 00:05:00.326 A:middle
-Whereas on iOS, you
-have Multi-Touch.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.466 --> 00:05:00.326 A:middle
 Whereas on iOS, you
@@ -558,14 +517,6 @@ bit in that view space.
 00:05:53.796 --> 00:05:56.806 A:middle
 Also, on iOS your user
 is looking directly
-
-00:05:56.806 --> 00:06:00.116 A:middle
-at your content, your
-application and nothing else.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:56.806 --> 00:06:00.116 A:middle
 at your content, your
@@ -659,13 +610,6 @@ made it compile time.
 00:06:58.956 --> 00:07:00.076 A:middle
 And so you write the same code.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.956 --> 00:07:00.076 A:middle
-And so you write the same code.
-
 00:07:00.076 --> 00:07:03.196 A:middle
 And it has a different super
 class on each platform.
@@ -748,14 +692,6 @@ hard to target your fix
 00:07:54.466 --> 00:07:56.896 A:middle
 to the platform that
 you're trying to fix.
-
-00:07:56.986 --> 00:08:00.936 A:middle
-So if you a particular issue
-or change you want to make only
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:56.986 --> 00:08:00.936 A:middle
 So if you a particular issue
@@ -845,14 +781,6 @@ unnatural for the platform
 00:08:55.266 --> 00:08:57.576 A:middle
 where it wasn't intentionally
 designed.
-
-00:08:57.986 --> 00:09:00.296 A:middle
-And you really want to have
-the best experience possible
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.986 --> 00:09:00.296 A:middle
 And you really want to have
@@ -954,13 +882,6 @@ so that we don't run
 00:09:59.926 --> 00:10:00.706 A:middle
 into these problems.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.926 --> 00:10:00.706 A:middle
-into these problems.
-
 00:10:02.506 --> 00:10:03.886 A:middle
 Next up is the controller code.
 
@@ -1046,14 +967,6 @@ because that's where a lot
 00:10:54.586 --> 00:10:57.696 A:middle
 of the core logic of
 our applications live.
-
-00:10:57.696 --> 00:11:00.226 A:middle
-So we're going to say that
-you share some controllers,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.696 --> 00:11:00.226 A:middle
 So we're going to say that
@@ -1155,14 +1068,6 @@ controller behavior rather
 than view controller behavior
 plus some other stuff.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.916 --> 00:12:02.636 A:middle
-than view controller behavior
-plus some other stuff.
-
 00:12:03.186 --> 00:12:05.706 A:middle
 And then we have a shared Canvas
 Controller whose job it is is
@@ -1245,13 +1150,6 @@ and the object will rotate.
 00:12:56.306 --> 00:12:58.706 A:middle
 And those are really different
 interaction paradigms.
-
-00:12:59.146 --> 00:13:00.096 A:middle
-It's really - you know, both
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.146 --> 00:13:00.096 A:middle
 It's really - you know, both
@@ -1349,14 +1247,6 @@ have platform-specific logic.
 But there's actually more
 ways for us to rotate
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.306 --> 00:14:00.096 A:middle
-But there's actually more
-ways for us to rotate
-
 00:14:00.306 --> 00:14:02.116 A:middle
 in our iWork applications.
 
@@ -1436,14 +1326,6 @@ different ways
 00:14:55.656 --> 00:14:59.336 A:middle
 to rotate an object, but most
 of our logic is still shared.
-
-00:14:59.766 --> 00:15:01.806 A:middle
-And we could also plug this
-in for things like testing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.766 --> 00:15:01.806 A:middle
 And we could also plug this
@@ -1540,10 +1422,6 @@ It's just not supported.
 00:15:57.836 --> 00:15:59.626 A:middle
 We recommend you try
 out AVFoundation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.396 --> 00:16:03.936 A:middle
 And an important thing to
@@ -1643,15 +1521,7 @@ in UIViews
 and NSViews are flipped relative
 to each other in the y-axis.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.776 --> 00:17:03.356 A:middle
-and NSViews are flipped relative
-to each other in the y-axis.
-
-00:17:03.866 --> 00:17:05.925 A:middle
+00:17:03.866 --> 00:17:05.926 A:middle
 The origin for UIViews
 is on the upper left.
 
@@ -1659,7 +1529,7 @@ is on the upper left.
 And for NSViews is
 on the lower left.
 
-00:17:08.705 --> 00:17:10.976 A:middle
+00:17:08.706 --> 00:17:10.976 A:middle
 And, you know, that makes
 our math more complicated.
 
@@ -1667,14 +1537,14 @@ our math more complicated.
 But, you can fix this by
 overriding isFlipped on NSView.
 
-00:17:15.675 --> 00:17:17.106 A:middle
+00:17:15.676 --> 00:17:17.106 A:middle
 And that makes our origins
 
 00:17:17.106 --> 00:17:18.596 A:middle
 in the same location
 in both places.
 
-00:17:18.596 --> 00:17:21.715 A:middle
+00:17:18.596 --> 00:17:21.716 A:middle
 And this is really helpful
 for us not to shim our views,
 
@@ -1682,7 +1552,7 @@ for us not to shim our views,
 but instead to have
 shared rendering code.
 
-00:17:23.925 --> 00:17:24.756 A:middle
+00:17:23.926 --> 00:17:24.756 A:middle
 It doesn't need to worry
 
 00:17:24.756 --> 00:17:27.016 A:middle
@@ -1736,14 +1606,6 @@ the same.
 
 00:17:56.436 --> 00:17:58.126 A:middle
 Now, because Core Animation
-
-00:17:58.126 --> 00:18:00.176 A:middle
-and Core Graphics are
-platform specific,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.126 --> 00:18:00.176 A:middle
 and Core Graphics are
@@ -1848,14 +1710,6 @@ and really helpful objects
 that do some really
 powerful things for us.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.496 --> 00:19:01.536 A:middle
-that do some really
-powerful things for us.
-
 00:19:01.586 --> 00:19:03.636 A:middle
 They help, you know, memory
 management and caching.
@@ -1939,14 +1793,6 @@ on how each of them work.
 
 00:19:58.216 --> 00:19:59.266 A:middle
 And this is really helpful
-
-00:19:59.266 --> 00:20:02.136 A:middle
-because we're not losing the
-power of NSImage and UIImage.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.266 --> 00:20:02.136 A:middle
 because we're not losing the
@@ -2044,14 +1890,6 @@ The colors were off.
 And since we really wanted
 our content to look the same,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:57.946 --> 00:21:00.436 A:middle
-And since we really wanted
-our content to look the same,
-
 00:21:00.436 --> 00:21:01.176 A:middle
 that was part of the point
 
@@ -2133,14 +1971,6 @@ to look a little bit different
 00:21:56.856 --> 00:21:58.486 A:middle
 when you open it
 on an iOS device.
-
-00:21:58.946 --> 00:22:00.006 A:middle
-And we didn't want
-that to happen.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.946 --> 00:22:00.006 A:middle
 And we didn't want
@@ -2242,14 +2072,6 @@ of all, between iOS
 00:22:58.146 --> 00:22:59.696 A:middle
 and OS X there are
 different chips
-
-00:22:59.766 --> 00:23:01.036 A:middle
-that are actually
-running in your hardware.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.766 --> 00:23:01.036 A:middle
 that are actually
@@ -2357,14 +2179,6 @@ my screen, I don't need
 to read the 300th
 slide from disk.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.546 --> 00:24:01.336 A:middle
-to read the 300th
-slide from disk.
-
 00:24:02.406 --> 00:24:04.676 A:middle
 So we're only going
 to read the parts
@@ -2455,14 +2269,6 @@ your applications
 
 00:24:57.166 --> 00:24:58.566 A:middle
 at exactly the same time.
-
-00:24:58.786 --> 00:25:00.216 A:middle
-They're going to be
-running different versions
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.786 --> 00:25:00.216 A:middle
 They're going to be
@@ -2567,14 +2373,6 @@ in it, that should open.
 Ideally, you know, if you're
 not using a new feature,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.436 --> 00:26:01.726 A:middle
-Ideally, you know, if you're
-not using a new feature,
-
 00:26:02.096 --> 00:26:03.636 A:middle
 you should still be able
 to open your document.
@@ -2668,14 +2466,6 @@ to make your life easier,
 try not to change the actual
 document model unless you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.136 --> 00:27:00.376 A:middle
-try not to change the actual
-document model unless you
-
 00:27:00.376 --> 00:27:02.176 A:middle
 absolutely have to.
 
@@ -2758,14 +2548,6 @@ design patterns
 00:27:54.746 --> 00:27:57.536 A:middle
 of Model View Controller
 and Wrappers.
-
-00:27:58.756 --> 00:28:00.946 A:middle
-And again, keep in mind
-that we're not saying
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.756 --> 00:28:00.946 A:middle
 And again, keep in mind
@@ -2860,13 +2642,6 @@ should your app ever evolve
 00:28:58.296 --> 00:29:00.056 A:middle
 in a direction similar to ours.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.296 --> 00:29:00.056 A:middle
-in a direction similar to ours.
-
 00:29:00.566 --> 00:29:04.656 A:middle
 And since the techniques I'll
 be sharing with you transcend
@@ -2934,14 +2709,6 @@ the project in the navigator
 
 00:29:57.716 --> 00:29:59.716 A:middle
 on the left hand side and click
-
-00:29:59.716 --> 00:30:01.186 A:middle
-on the Plus button
-on the bottom.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.716 --> 00:30:01.186 A:middle
 on the Plus button
@@ -3037,14 +2804,6 @@ important to us
 because we want all of our
 documents to look the same
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.756 --> 00:31:02.326 A:middle
-because we want all of our
-documents to look the same
-
 00:31:02.506 --> 00:31:05.226 A:middle
 across all of the
 devices that we support.
@@ -3127,14 +2886,6 @@ projects.
 Otherwise, we could just add
 the shared code to both the iOS
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.066 --> 00:32:01.276 A:middle
-Otherwise, we could just add
-the shared code to both the iOS
-
 00:32:01.376 --> 00:32:02.776 A:middle
 and Mac targets for our app.
 
@@ -3210,10 +2961,6 @@ application smaller.
 00:32:55.366 --> 00:32:59.986 A:middle
 A concrete example of a
 dynamic library is a framework.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:01.036 --> 00:33:02.636 A:middle
 Simply put, they're
@@ -3300,14 +3047,6 @@ break out the sledgehammer
 and create a new
 common group in XCode.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.366 --> 00:34:00.566 A:middle
-and create a new
-common group in XCode.
-
 00:34:01.906 --> 00:34:03.796 A:middle
 So let's talk about what
 sort of things we might want
@@ -3315,7 +3054,7 @@ sort of things we might want
 00:34:03.796 --> 00:34:04.916 A:middle
 to put in this common group.
 
-00:34:06.806 --> 00:34:09.545 A:middle
+00:34:06.806 --> 00:34:09.546 A:middle
 So we currently have a class in
 iOS that represents a document.
 
@@ -3323,36 +3062,36 @@ iOS that represents a document.
 And it's platform specific
 because it extends UIDocument.
 
-00:34:14.085 --> 00:34:16.136 A:middle
+00:34:14.086 --> 00:34:16.136 A:middle
 UIDocument does not
 exist in OS X.
 
-00:34:16.485 --> 00:34:18.416 A:middle
+00:34:16.486 --> 00:34:18.416 A:middle
 So we'll need to
 introduce a new Mac document
 
-00:34:18.636 --> 00:34:20.275 A:middle
+00:34:18.636 --> 00:34:20.276 A:middle
 that extends something
 else as a basis
 
-00:34:20.275 --> 00:34:21.545 A:middle
+00:34:20.276 --> 00:34:21.546 A:middle
 for our document functionality.
 
-00:34:22.306 --> 00:34:25.525 A:middle
+00:34:22.306 --> 00:34:25.526 A:middle
 Luckily for us, NSDocument does
 everything we need to read,
 
-00:34:25.806 --> 00:34:27.505 A:middle
+00:34:25.806 --> 00:34:27.506 A:middle
 update and save our documents.
 
-00:34:28.045 --> 00:34:32.746 A:middle
+00:34:28.046 --> 00:34:32.746 A:middle
 That said, we'd like all callers
 of our model to be as agnostic
 
-00:34:32.746 --> 00:34:33.985 A:middle
+00:34:32.746 --> 00:34:33.986 A:middle
 as the platform as possible.
 
-00:34:34.505 --> 00:34:36.286 A:middle
+00:34:34.506 --> 00:34:36.286 A:middle
 So we'll want to expose
 a common interface
 
@@ -3388,10 +3127,6 @@ for retrieving,
 00:34:57.726 --> 00:34:59.986 A:middle
 saving and updating
 objects in a document.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:01.156 --> 00:35:03.826 A:middle
 And then, we can create
@@ -3475,14 +3210,6 @@ first part that goes
 00:35:53.986 --> 00:35:57.446 A:middle
 after our import declaration
 and before the slash in classes
-
-00:35:57.476 --> 00:36:01.006 A:middle
-that import logic
-from this framework.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:57.476 --> 00:36:01.006 A:middle
 that import logic
@@ -3572,14 +3299,6 @@ Then we dismiss the popover.
 And now the Keynote Mac
 target knows how to look
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.456 --> 00:37:00.536 A:middle
-And now the Keynote Mac
-target knows how to look
-
 00:37:00.536 --> 00:37:02.316 A:middle
 for the shared Mac
 library headers.
@@ -3657,14 +3376,6 @@ the Keynote for Mac target,
 00:37:54.196 --> 00:37:56.736 A:middle
 XCode will make sure this
 library is built first.
-
-00:37:57.146 --> 00:38:01.166 A:middle
-Next, we need to link the app
-binary with the framework.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:57.146 --> 00:38:01.166 A:middle
 Next, we need to link the app
@@ -3749,14 +3460,6 @@ something like this.
 00:38:54.456 --> 00:38:57.276 A:middle
 We have XCode projects for
 pages, numbers and Keynote.
-
-00:38:57.756 --> 00:39:00.226 A:middle
-And each project has
-a Mac and iOS target.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:57.756 --> 00:39:00.226 A:middle
 And each project has
@@ -3849,13 +3552,6 @@ aspect of your build here.
 00:39:59.076 --> 00:40:01.026 A:middle
 Some common examples
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.076 --> 00:40:01.026 A:middle
-Some common examples
-
 00:40:01.026 --> 00:40:03.426 A:middle
 of properties you can set
 are header search paths,
@@ -3938,14 +3634,6 @@ common XCode Config file for iOS
 and Mac, and then have
 that extend a common one.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.246 --> 00:41:00.876 A:middle
-and Mac, and then have
-that extend a common one.
-
 00:41:01.716 --> 00:41:04.846 A:middle
 In a common file, you would
 place build settings that apply
@@ -4023,14 +3711,6 @@ Config file for the Mac.
 00:41:56.276 --> 00:41:57.836 A:middle
 But this Config file
 does not know
-
-00:41:57.836 --> 00:42:00.356 A:middle
-about the common configuration
-it is building on top of yet.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:57.836 --> 00:42:00.356 A:middle
 about the common configuration
@@ -4122,14 +3802,6 @@ as opposed to the current SDK.
 And we can also see that the
 Config file had an impact
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:58.196 --> 00:43:01.586 A:middle
-And we can also see that the
-Config file had an impact
-
 00:43:01.686 --> 00:43:04.426 A:middle
 on the supported platforms
 and valid architectures
@@ -4207,14 +3879,6 @@ to be incredibly helpful to us.
 00:43:54.026 --> 00:43:57.356 A:middle
 And we can only hope that you
 find the ideas we've shared
-
-00:43:57.356 --> 00:44:01.546 A:middle
-with you as useful to
-you as they were to us.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:57.356 --> 00:44:01.546 A:middle
 with you as useful to
@@ -4307,4 +3971,3 @@ Thank you very much.
 
 00:44:56.516 --> 00:44:59.130 A:middle
 [ Applause ]
-

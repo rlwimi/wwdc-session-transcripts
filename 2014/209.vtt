@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.176 --> 00:00:12.916 A:middle
 &gt;&gt; Good afternoon.
@@ -73,15 +72,7 @@ design principles that went
 into the choices that
 resulted in the current design
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.906 --> 00:01:02.716 A:middle
-into the choices that
-resulted in the current design
-
-00:01:02.716 --> 00:01:04.075 A:middle
+00:01:02.716 --> 00:01:04.076 A:middle
 that you see in OS X Yosemite.
 
 00:01:05.836 --> 00:01:06.836 A:middle
@@ -123,16 +114,16 @@ Then talk about some
 elements that you might bring
 
 00:01:31.606 --> 00:01:34.016 A:middle
-to your applications
+to your applications:
 fonts, colors or artwork
 
-00:01:34.016 --> 00:01:36.466 A:middle
-and how they should -- -- what
-their role is and how some
+00:01:34.016 --> 00:01:36.266 A:middle
+and how they should -- --
+what their role is and how --
 
-00:01:36.466 --> 00:01:37.866 A:middle
-of the things that we've
-done to make working
+00:01:36.266 --> 00:01:37.866 A:middle
+some of the things that
+we've done to make working
 
 00:01:37.866 --> 00:01:40.656 A:middle
 with them easier in Yosemite.
@@ -169,13 +160,6 @@ of this talk.
 00:01:59.726 --> 00:02:00.206 A:middle
 Mike?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.726 --> 00:02:00.206 A:middle
-Mike?
-
 00:02:00.636 --> 00:02:01.356 A:middle
 &gt;&gt; Thank you, Patrick.
 
@@ -189,10 +173,10 @@ Hi, everyone.
 So I'm Mike Stern.
 
 00:02:07.096 --> 00:02:09.506 A:middle
-I'm a User Experience
+I'm User Experience
 Evangelist with Apple,
 
-00:02:10.205 --> 00:02:13.096 A:middle
+00:02:10.206 --> 00:02:13.096 A:middle
 and I am not an engineer.
 
 00:02:13.566 --> 00:02:14.326 A:middle
@@ -245,14 +229,6 @@ menu bar, windows,
 the dock have been
 refined to be friendlier,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:54.316 --> 00:03:00.006 A:middle
-the dock have been
-refined to be friendlier,
-
 00:03:00.156 --> 00:03:02.306 A:middle
 easier to use, more
 approachable.
@@ -266,7 +242,7 @@ and power and support
 more sophisticated
 
 00:03:09.366 --> 00:03:11.166 A:middle
-and advanced work flows.
+and advanced workflows.
 
 00:03:11.496 --> 00:03:14.326 A:middle
 Now, Yosemite is
@@ -323,10 +299,6 @@ view or the metal rings.
 Those elements weren't
 really necessary
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.126 --> 00:04:03.486 A:middle
 to depict a daily desk calendar,
 and by removing those elements,
@@ -352,13 +324,13 @@ Grande as the system font
 and towards using
 Helvetica Neue.
 
-00:04:18.435 --> 00:04:21.495 A:middle
+00:04:18.436 --> 00:04:21.496 A:middle
 Helvetica Neue is
 a simpler typeface.
 
 00:04:21.666 --> 00:04:26.316 A:middle
 Lucida Grande is designed to
-evoke handwritten letter forms.
+evoke handwritten letterforms.
 
 00:04:26.876 --> 00:04:30.366 A:middle
 Helvetica Neue, on the other
@@ -366,7 +338,7 @@ hand, is designed to clearly
 
 00:04:30.366 --> 00:04:34.226 A:middle
 and simply depict the
-letter forms and numbers,
+letterforms and numbers,
 
 00:04:34.476 --> 00:04:35.926 A:middle
 without any ornamentation.
@@ -402,14 +374,6 @@ between the thin
 00:04:53.126 --> 00:04:55.196 A:middle
 and the thick parts
 of the letter.
-
-00:04:56.476 --> 00:05:01.416 A:middle
-The shoulder here, for the
-n has a smoother form to it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:56.476 --> 00:05:01.416 A:middle
 The shoulder here, for the
@@ -494,27 +458,17 @@ icons --
 you can see, they all
 have the same perspective,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.836 --> 00:06:01.756 A:middle
-you can see, they all
-have the same perspective,
-
 00:06:02.126 --> 00:06:04.526 A:middle
 same light source,
 same rendering.
 
-00:06:05.196 --> 00:06:06.826 A:middle
-And the graphical icons,
+00:06:05.196 --> 00:06:07.726 A:middle
+And the graphical
+icons, these round icons,
 
-00:06:06.826 --> 00:06:09.656 A:middle
-these round icons are
-also internally consistent
-
-00:06:09.656 --> 00:06:10.316 A:middle
-with each other.
+00:06:07.726 --> 00:06:10.316 A:middle
+are also internally
+consistent with each other.
 
 00:06:11.606 --> 00:06:12.746 A:middle
 The symbols at the center
@@ -535,7 +489,7 @@ And let's go back to type.
 
 00:06:22.976 --> 00:06:25.026 A:middle
 Again, Helvetica Neue
-is a new system font.
+is the new system font.
 
 00:06:25.616 --> 00:06:27.076 A:middle
 And one of the things
@@ -546,8 +500,8 @@ for us was an inconsistency
 that existed before.
 
 00:06:30.286 --> 00:06:33.246 A:middle
-Over time, some apps
-like Notes had started
+Over time, some apps,
+like Notes had started,
 
 00:06:33.246 --> 00:06:35.546 A:middle
 to use Helvetica Neue
@@ -555,18 +509,18 @@ as a content font.
 
 00:06:36.116 --> 00:06:41.136 A:middle
 And apps like iTunes,
-iPhoto, iMovies, Final Cut Pro
+iPhoto, iMovie, Final Cut Pro
 
 00:06:41.136 --> 00:06:43.356 A:middle
 and Logic were using
 Helvetica Neue
 
 00:06:43.356 --> 00:06:46.056 A:middle
-as a content font,
-as well as a UI font.
+as a content font as
+well as a UI font.
 
 00:06:47.086 --> 00:06:49.676 A:middle
-And this lead to a sort
+And this led to a sort
 of unfortunate mismatch
 
 00:06:49.676 --> 00:06:53.186 A:middle
@@ -579,14 +533,6 @@ Helvetica Neue,
 
 00:06:57.616 --> 00:06:59.086 A:middle
 now we have this consistency
-
-00:06:59.086 --> 00:07:01.576 A:middle
-across the entire
-Mac experience.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.086 --> 00:07:01.576 A:middle
 across the entire
@@ -608,14 +554,15 @@ of this redesign is about depth.
 
 00:07:13.906 --> 00:07:16.516 A:middle
 We believe that software
-interfaces should feel
+interfaces should feel,
 
-00:07:16.686 --> 00:07:19.556 A:middle
-physically -- to have physical
-dimensionality and that
+00:07:16.686 --> 00:07:19.346 A:middle
+physically -- to have
+physical dimensionality,
 
-00:07:19.556 --> 00:07:21.126 A:middle
-that should be really plausible.
+00:07:19.346 --> 00:07:21.126 A:middle
+and that that should
+be really plausible.
 
 00:07:22.566 --> 00:07:25.346 A:middle
 That dimensionality helps you
@@ -665,14 +612,6 @@ and other parts of the UI.
 Now, in iOS, of course,
 we use motion effects
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:56.986 --> 00:08:00.246 A:middle
-Now, in iOS, of course,
-we use motion effects
-
 00:08:00.246 --> 00:08:01.456 A:middle
 to show depth, as well.
 
@@ -684,7 +623,7 @@ device around in your hand,
 things have a sense of parallax.
 
 00:08:05.856 --> 00:08:08.756 A:middle
-And that's great, for
+And that's great for
 something that weighs as light
 
 00:08:08.756 --> 00:08:11.256 A:middle
@@ -696,7 +635,7 @@ about to encourage people
 to pick up their iMac
 
 00:08:13.246 --> 00:08:15.356 A:middle
-and start moving it around,
+and start moving it around
 to get the same effect.
 
 00:08:16.256 --> 00:08:19.736 A:middle
@@ -739,12 +678,8 @@ So now there's this
 unified toolbar
 
 00:08:51.106 --> 00:08:57.296 A:middle
-that does what a title bar
-and a toolbar had done before.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+that does what a titlebar and
+a toolbar had done before.
 
 00:09:00.436 --> 00:09:03.566 A:middle
 By unifying those elements,
@@ -834,13 +769,6 @@ developer's tour
 00:09:59.636 --> 00:10:02.876 A:middle
 of the new UI in OS X Yosemite.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.636 --> 00:10:02.876 A:middle
-of the new UI in OS X Yosemite.
-
 00:10:04.026 --> 00:10:08.416 A:middle
 Let's start off here by taking
 a look at Finder, and I'm going
@@ -868,9 +796,9 @@ is translucent now;
 and then we'll move over
 to Safari to take a look
 
-00:10:32.976 --> 00:10:36.656 A:middle
+00:10:32.976 --> 00:10:36.666 A:middle
 at what Mike just mentioned: the
-combined toolbar and title bar.
+combined toolbar and titlebar.
 
 00:10:39.086 --> 00:10:41.366 A:middle
 And then we'll take a
@@ -889,23 +817,15 @@ And after that, we will go over
 to Notification Center and look
 
 00:10:59.796 --> 00:11:03.686 A:middle
-at our new vibrant dark
-appearance that's used here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.796 --> 00:11:03.686 A:middle
-at our new vibrant dark
+at our new Vibrant Dark
 appearance that's used here.
 
 00:11:05.326 --> 00:11:06.876 A:middle
 And then the context menu,
 
 00:11:06.876 --> 00:11:11.546 A:middle
-which uses the vibrant light
-appearance, as do pop-overs.
+which uses the Vibrant Light
+appearance, as do popovers.
 
 00:11:12.216 --> 00:11:13.486 A:middle
 All right.
@@ -946,11 +866,11 @@ have is an NSScrollView
 00:11:37.336 --> 00:11:39.026 A:middle
 that is adjacent to the toolbar.
 
-00:11:39.616 --> 00:11:43.676 A:middle
+00:11:39.616 --> 00:11:43.106 A:middle
 And then it happens
-automatically for you.
+automatically for ya.
 
-00:11:43.786 --> 00:11:47.836 A:middle
+00:11:43.606 --> 00:11:47.836 A:middle
 But if you don't have
 that, you can still get it
 
@@ -961,17 +881,9 @@ mask NSFullSizeContentView
 00:11:51.846 --> 00:11:52.686 A:middle
 WindowMask.
 
-00:11:54.146 --> 00:11:56.926 A:middle
-Simply ore that in with your
-existing window style mask,
-
-00:11:57.566 --> 00:12:00.806 A:middle
-and you'll get the transparent,
-translucent toolbar style.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:11:52.966 --> 00:11:56.926 A:middle
+Simply [inaudible] that in with
+your existing window style mask,
 
 00:11:57.566 --> 00:12:00.806 A:middle
 and you'll get the transparent,
@@ -979,7 +891,7 @@ translucent toolbar style.
 
 00:12:02.056 --> 00:12:06.286 A:middle
 This can be useful for things
-such as toolbars or title bars
+such as toolbars or titlebars
 
 00:12:06.286 --> 00:12:10.056 A:middle
 that show and hide over content
@@ -994,8 +906,8 @@ Lots more details about this
 in tomorrow's advanced session,
 
 00:12:17.306 --> 00:12:20.796 A:middle
-Adopting Advanced Features of
-the New UI of OS X Yosemite.
+"Adopting Advanced Features of
+the New UI of OS X Yosemite."
 
 00:12:23.516 --> 00:12:24.186 A:middle
 All right.
@@ -1039,13 +951,6 @@ moved into the green button.
 00:12:58.896 --> 00:13:01.196 A:middle
 If you're sad about that,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.896 --> 00:13:01.196 A:middle
-If you're sad about that,
-
 00:13:01.366 --> 00:13:04.506 A:middle
 and you'd like the zoom behavior
 back, hold the Option key,
@@ -1065,8 +970,8 @@ reverts
 to the old zoom behavior.
 
 00:13:12.796 --> 00:13:19.126 A:middle
-And then, next, the new kind
-of separated segmented control.
+And then, next, the new kind of
+separated, segmented control.
 
 00:13:19.926 --> 00:13:23.946 A:middle
 These are useful for things like
@@ -1082,7 +987,7 @@ operation, such as zooming.
 
 00:13:29.306 --> 00:13:33.336 A:middle
 And this is easy to get by
-setting the segment style
+setting the segmentStyle
 
 00:13:33.706 --> 00:13:35.836 A:middle
 to NSSegmentStyleSeparated.
@@ -1111,14 +1016,6 @@ and inactive windows.
 When a window comes
 forward and becomes active,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:55.696 --> 00:14:00.276 A:middle
-When a window comes
-forward and becomes active,
-
 00:14:00.826 --> 00:14:02.146 A:middle
 the sidebar is translucent.
 
@@ -1133,8 +1030,8 @@ the sidebar is opaque.
 So it's nice to know that
 the translucency is only
 
-00:14:10.746 --> 00:14:11.846 A:middle
-in the active window.
+00:14:10.746 --> 00:14:11.886 A:middle
+in the active windows.
 
 00:14:12.546 --> 00:14:16.236 A:middle
 And let's take a closer
@@ -1197,14 +1094,6 @@ Look at the image.
 You see it completely
 change color.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.076 --> 00:15:00.076 A:middle
-You see it completely
-change color.
-
 00:15:00.836 --> 00:15:04.226 A:middle
 So you can take advantage of
 that by using template images.
@@ -1253,17 +1142,9 @@ it had translucent sidebars.
 Now, moving over to Safari to
 take a look at the new kind
 
-00:15:51.946 --> 00:15:53.836 A:middle
+00:15:51.946 --> 00:15:53.846 A:middle
 of toolbar that has
-a hidden title bar.
-
-00:15:56.236 --> 00:16:00.606 A:middle
-Hidden window titles are
-achieved using this new NSWindow
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+a hidden titlebar.
 
 00:15:56.236 --> 00:16:00.606 A:middle
 Hidden window titles are
@@ -1299,12 +1180,11 @@ into the combined
 URL and search field.
 
 00:16:21.246 --> 00:16:23.156 A:middle
-And so you could still
+And so you can still
 see the window title,
 
 00:16:23.186 --> 00:16:24.506 A:middle
-even though there's
-no title bar.
+even though there's no titlebar.
 
 00:16:25.136 --> 00:16:28.666 A:middle
 Also, as Andreas pointed out
@@ -1344,25 +1224,17 @@ Radio buttons have an animation,
 and one of the nice things
 
 00:16:58.096 --> 00:17:00.666 A:middle
-about them is, as you
-select a radio button,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.096 --> 00:17:00.666 A:middle
-about them is, as you
+about them is: as you
 select a radio button,
 
 00:17:01.506 --> 00:17:04.316 A:middle
 the other one deselects and
 animates out simultaneously.
 
-00:17:04.915 --> 00:17:06.965 A:middle
+00:17:04.916 --> 00:17:06.966 A:middle
 It's a nice little touch.
 
-00:17:11.185 --> 00:17:14.006 A:middle
+00:17:11.186 --> 00:17:14.006 A:middle
 Checkboxes, as well,
 are now animated.
 
@@ -1370,24 +1242,21 @@ are now animated.
 And this is a good time
 for me to point out that
 
-00:17:17.306 --> 00:17:18.536 A:middle
+00:17:17.306 --> 00:17:20.126 A:middle
 that first preference there --
+double-click a window's titlebar
 
-00:17:18.536 --> 00:17:20.945 A:middle
-double-click a window's
-title bar to minimize --
-
-00:17:21.646 --> 00:17:24.965 A:middle
-if you leave it unchecked,
-which is the default,
+00:17:20.126 --> 00:17:24.966 A:middle
+to minimize -- if you leave it
+unchecked, which is the default,
 
 00:17:25.356 --> 00:17:28.086 A:middle
 double-clicking a window's
-title bar will zoom.
+titlebar will zoom.
 
-00:17:28.086 --> 00:17:30.086 A:middle
+00:17:28.086 --> 00:17:30.096 A:middle
 So that's a little
-hidden feature for you.
+hidden feature for ya.
 
 00:17:30.746 --> 00:17:34.146 A:middle
 And last, popup buttons.
@@ -1397,8 +1266,8 @@ When you select a popup
 button and choose an item
 
 00:17:40.716 --> 00:17:42.786 A:middle
-from the menu, it
-will animate back
+from the menu, it'll
+animate back
 
 00:17:42.786 --> 00:17:44.906 A:middle
 into place in the popup button.
@@ -1408,7 +1277,7 @@ All right.
 
 00:17:49.146 --> 00:17:54.256 A:middle
 Moving on to Notification Center
-and the vibrant dark appearance.
+and the Vibrant Dark appearance.
 
 00:17:55.416 --> 00:17:58.346 A:middle
 Let's take a little bit of a
@@ -1416,10 +1285,6 @@ closer look as what happens
 
 00:17:58.346 --> 00:17:59.666 A:middle
 when the background changes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.466 --> 00:18:03.316 A:middle
 I want you to pay particular
@@ -1437,65 +1302,50 @@ as the background changes.
 It looks very close to
 standard transparency,
 
-00:18:12.916 --> 00:18:14.846 A:middle
-but we're actually using
-special blend modes
+00:18:12.916 --> 00:18:16.116 A:middle
+but we're actually using special
+blend modes to pull the color
 
-00:18:14.946 --> 00:18:17.056 A:middle
-to pull the color
-in, a little more
-
-00:18:17.056 --> 00:18:21.966 A:middle
-than just plain old
-transparency.
+00:18:16.116 --> 00:18:21.966 A:middle
+in a little more than just
+plain old transparency.
 
 00:18:22.266 --> 00:18:23.036 A:middle
 How did they get it?
 
 00:18:23.566 --> 00:18:27.706 A:middle
-They used this new NS View
+They used this new NSView
 subclass -- NSVisualEffectView,
 
 00:18:28.796 --> 00:18:31.776 A:middle
 as well as the new
-vibrant dark appearance,
+Vibrant Dark appearance,
 
 00:18:31.776 --> 00:18:33.176 A:middle
-which is an NS appearance.
+which is an NSAppearance.
 
 00:18:34.446 --> 00:18:37.276 A:middle
 So you can create an
 NSVisualEffectView,
 
-00:18:38.756 --> 00:18:41.126 A:middle
-get the
-NSApperanceNameVibrantDark
+00:18:38.756 --> 00:18:43.766 A:middle
+get the NSApperanceName
+VibrantDark appearance and set
 
-00:18:41.126 --> 00:18:44.996 A:middle
-appearance and set
-that on the effectView
-
-00:18:45.446 --> 00:18:46.746 A:middle
-in order to achieve this look.
+00:18:43.806 --> 00:18:46.746 A:middle
+that on the effectView in
+order to achieve this look.
 
 00:18:48.886 --> 00:18:53.906 A:middle
 Similarly, here's an example of
-the vibrant light appearance.
+the Vibrant Light appearance.
 
 00:18:55.176 --> 00:18:58.256 A:middle
 Same deal: NSVisualEffectView,
 
 00:18:58.746 --> 00:19:00.936 A:middle
 but this time using the
-vibrant light appearance,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.746 --> 00:19:00.936 A:middle
-but this time using the
-vibrant light appearance,
+VibrantLight appearance,
 
 00:19:01.476 --> 00:19:03.906 A:middle
 and you set that
@@ -1503,7 +1353,7 @@ on your effectView,
 
 00:19:03.906 --> 00:19:08.706 A:middle
 and you get this new
-vibrant light appearance.
+Vibrant Light appearance.
 
 00:19:08.706 --> 00:19:10.846 A:middle
 Lots more about
@@ -1566,28 +1416,20 @@ So what is it?
 00:19:50.576 --> 00:19:51.706 A:middle
 What is this vibrancy thing?
 
-00:19:51.776 --> 00:19:54.836 A:middle
-Well, I'm going to try
--- and bear with me here.
+00:19:51.776 --> 00:19:54.986 A:middle
+Well, I'm going to try --
+and bear with me here, but --
 
-00:19:54.836 --> 00:19:56.896 A:middle
-But I'm going to try to
-deconstruct it and break it down
+00:19:54.986 --> 00:19:57.196 A:middle
+I'm going to try to deconstruct
+it and break it down and sort
 
-00:19:56.896 --> 00:19:59.476 A:middle
-and sort of explain conceptually
-what it is and what it's trying
+00:19:57.196 --> 00:19:59.756 A:middle
+of explain conceptually what it
+is and what it's trying to do,
 
-00:19:59.476 --> 00:20:02.156 A:middle
-to do, what its goal is, to
-help give you a framework
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.476 --> 00:20:02.156 A:middle
-to do, what its goal is, to
+00:19:59.756 --> 00:20:02.156 A:middle
+what its goal is, to
 help give you a framework
 
 00:20:02.156 --> 00:20:03.866 A:middle
@@ -1619,12 +1461,12 @@ Cummings, I think -- I'm
 going to try to make the case
 
 00:20:21.406 --> 00:20:24.176 A:middle
-that with vibrancy, 2 plus
-2 can not only equal 4,
+that with vibrancy, two plus
+two can not only equal four,
 
 00:20:24.176 --> 00:20:26.366 A:middle
 but we can actually
-make it equal to 5.
+make it equal to five.
 
 00:20:26.966 --> 00:20:29.926 A:middle
 In fact, it's all
@@ -1689,14 +1531,6 @@ Well, so let's do that.
 We have this beautiful
 poppy background.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.776 --> 00:21:00.426 A:middle
-We have this beautiful
-poppy background.
-
 00:21:00.826 --> 00:21:02.756 A:middle
 And let's do -- and
 traditionally, let's --
@@ -1756,35 +1590,38 @@ bit on the table in terms
 00:21:38.376 --> 00:21:39.766 A:middle
 of the resulting esthetics.
 
-00:21:39.766 --> 00:21:40.596 A:middle
+00:21:39.766 --> 00:21:41.286 A:middle
 Because what happens
+with transparency is,
 
-00:21:40.596 --> 00:21:42.236 A:middle
-with transparency is all
-you're doing is you're taking
+00:21:41.286 --> 00:21:42.956 A:middle
+all you're doing is you're
+taking that foreground
 
-00:21:42.236 --> 00:21:43.266 A:middle
-that foreground in
-the background --
+00:21:42.956 --> 00:21:43.876 A:middle
+and the background --
 
-00:21:43.266 --> 00:21:46.086 A:middle
+00:21:43.916 --> 00:21:46.086 A:middle
 you're just taking a
 fractional midpoint
 
 00:21:46.086 --> 00:21:47.766 A:middle
 in between and combining those.
 
-00:21:47.946 --> 00:21:49.706 A:middle
+00:21:47.946 --> 00:21:49.686 A:middle
 And what it really ends
-up being like is like --
+up being like, is like --
 
-00:21:49.706 --> 00:21:52.446 A:middle
-as if you taking a foreground
-element and punching a screen,
+00:21:49.686 --> 00:21:51.106 A:middle
+is if you were taking
+that foreground element
 
-00:21:52.676 --> 00:21:54.486 A:middle
-like punching and
-building little holes in it
+00:21:51.106 --> 00:21:53.236 A:middle
+and punching a screen,
+like punching
+
+00:21:53.236 --> 00:21:54.486 A:middle
+and building little holes in it,
 
 00:21:54.486 --> 00:21:55.736 A:middle
 and letting the background
@@ -1793,14 +1630,6 @@ seep through.
 00:21:56.136 --> 00:21:58.456 A:middle
 With the end effect that the
 background that does show
-
-00:21:58.456 --> 00:22:00.376 A:middle
-through that foreground
-element ends up getting kind
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.456 --> 00:22:00.376 A:middle
 through that foreground
@@ -1861,7 +1690,7 @@ and combined them in
 an interesting way,
 
 00:22:31.256 --> 00:22:32.186 A:middle
-where we actually are trying
+where we actually were trying
 
 00:22:32.186 --> 00:22:34.616 A:middle
 to preserve the color
@@ -1877,7 +1706,7 @@ that color to preserve
 
 00:22:39.856 --> 00:22:41.526 A:middle
 in a general sort
-of intensity level?
+of intensity level.
 
 00:22:41.926 --> 00:22:44.656 A:middle
 So that's -- what
@@ -1901,14 +1730,6 @@ the foreground element.
 00:22:55.946 --> 00:22:57.976 A:middle
 It's still that same
 gray circle.
-
-00:22:58.026 --> 00:23:00.196 A:middle
-It's just that now I've
-combined it with the background
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.026 --> 00:23:00.196 A:middle
 It's just that now I've
@@ -2004,21 +1825,13 @@ illustration of the basic sort
 of foreground and
 background blending,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.356 --> 00:24:00.296 A:middle
-of foreground and
-background blending,
-
 00:24:00.296 --> 00:24:02.106 A:middle
 using sort of a more
 advanced blend.
 
 00:24:02.716 --> 00:24:04.586 A:middle
 But now, how do we build
-this up to what we see
+this up into what we see
 
 00:24:04.586 --> 00:24:08.786 A:middle
 in OS X Yosemite today, to get
@@ -2044,18 +1857,18 @@ that's transparent over the,
 
 00:24:21.296 --> 00:24:24.346 A:middle
 over the background, to give us
-a nice sort of light substrate,
+a nice sort of light substrate
 
 00:24:24.346 --> 00:24:25.356 A:middle
 onto which to draw our UI.
 
 00:24:25.356 --> 00:24:27.076 A:middle
-Because we don't want
+(Because we don't want
 to draw our UI directly
 
 00:24:27.076 --> 00:24:28.216 A:middle
 onto your desktop
-picture, of course.
+picture, of course.)
 
 00:24:28.626 --> 00:24:31.686 A:middle
 And then all we need to do
@@ -2066,7 +1879,7 @@ just blur it a little bit
 
 00:24:34.806 --> 00:24:37.706 A:middle
 and to keep the overall color
-tonality in the rough shape
+tonality and the rough shape
 
 00:24:37.856 --> 00:24:41.146 A:middle
 of your background
@@ -2103,14 +1916,6 @@ that same character.
 As I'm going across and as
 the background is changing,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.246 --> 00:25:01.096 A:middle
-As I'm going across and as
-the background is changing,
-
 00:25:01.656 --> 00:25:05.216 A:middle
 the overall composition
 really preserves its character
@@ -2140,7 +1945,7 @@ when you're doing --
 
 00:25:21.236 --> 00:25:23.676 A:middle
 when you combine using
-the right blend modes
+the right blend modes --
 
 00:25:24.386 --> 00:25:28.056 A:middle
 and solve some tricky
@@ -2164,7 +1969,7 @@ in menus and popovers.
 
 00:25:41.236 --> 00:25:43.226 A:middle
 Then there's the
-general light appearance,
+general Light appearance,
 
 00:25:43.226 --> 00:25:45.816 A:middle
 which is what you see in the
@@ -2172,25 +1977,17 @@ sidebars and source lists.
 
 00:25:46.306 --> 00:25:48.716 A:middle
 Then there's the
-translucent title bars.
+translucent titlebars.
 
 00:25:48.716 --> 00:25:50.046 A:middle
 That's another vibrant material.
 
 00:25:50.906 --> 00:25:54.086 A:middle
-And of course, the dark
+And of course, the Dark
 appearance, which you saw
 
 00:25:54.856 --> 00:25:55.956 A:middle
 in Notification Center.
-
-00:25:56.486 --> 00:26:00.916 A:middle
-There are a couple of key
-new vibrant system behaviors.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:56.486 --> 00:26:00.916 A:middle
 There are a couple of key
@@ -2215,9 +2012,9 @@ style that we're using.
 One of which of course
 is source lists.
 
-00:26:12.246 --> 00:26:14.336 A:middle
+00:26:12.246 --> 00:26:14.356 A:middle
 Then there's the
-translucent title bar.
+translucent titlebar.
 
 00:26:14.866 --> 00:26:19.416 A:middle
 Menus and popovers automatically
@@ -2262,20 +2059,13 @@ built up in the slides before,
 with that white and the
 blur and the translucency.
 
-00:26:50.596 --> 00:26:52.636 A:middle
+00:26:50.596 --> 00:26:52.076 A:middle
 This provides us the
-substrate onto the canvas
+substrate onto --
 
-00:26:52.636 --> 00:26:56.626 A:middle
-onto which we are going to draw.
-
-00:26:56.726 --> 00:27:00.156 A:middle
-And it's offered in light and
-dark basic material flavors.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:26:52.076 --> 00:26:56.626 A:middle
+the canvas onto which
+we are going to draw.
 
 00:26:56.726 --> 00:27:00.156 A:middle
 And it's offered in light and
@@ -2294,7 +2084,7 @@ about NSVisualEffectView
 
 00:27:09.196 --> 00:27:11.686 A:middle
 and what it does to your
-applications, it takes care
+applications, is it takes care
 
 00:27:11.686 --> 00:27:15.706 A:middle
 of all of the steps
@@ -2358,19 +2148,11 @@ So it's offered in two
 appearance variants:
 
 00:27:53.916 --> 00:27:55.466 A:middle
-NSAppearanceNameVibrantLight
+NSAppearanceName VibrantLight
 
 00:27:55.776 --> 00:27:57.786 A:middle
-and then
-NSAppearanceNameVibrantDark.
-
-00:27:59.756 --> 00:28:05.416 A:middle
-And what its role in life is,
-is to provide sort of a panoply
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+and then NSAppearanceName
+VibrantDark.
 
 00:27:59.756 --> 00:28:05.416 A:middle
 And what its role in life is,
@@ -2384,16 +2166,19 @@ template image treatments
 that are appropriate and
 suitable for vibrant rendering
 
-00:28:11.816 --> 00:28:14.396 A:middle
-when deployed in VisualEffect
-using vibrant surfaces.
+00:28:11.816 --> 00:28:12.396 A:middle
+when deployed
+
+00:28:12.396 --> 00:28:14.396 A:middle
+in VisualEffectViews
+on vibrant surfaces.
 
 00:28:15.056 --> 00:28:17.636 A:middle
 Now, this is important because,
 
 00:28:17.716 --> 00:28:21.236 A:middle
 as you saw in the earlier
-section of vibrancy,
+section on vibrancy,
 
 00:28:21.776 --> 00:28:23.406 A:middle
 selecting the foreground
@@ -2459,13 +2244,6 @@ template treatments --
 00:28:59.566 --> 00:29:00.836 A:middle
 pick them all up and do the --
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.566 --> 00:29:00.836 A:middle
-pick them all up and do the --
-
 00:29:00.836 --> 00:29:02.786 A:middle
 and pick up the right
 blend modes, especially,
@@ -2487,21 +2265,17 @@ Little bit exciting.
 00:29:19.186 --> 00:29:21.556 A:middle
 Demo one. Okay.
 
-00:29:22.206 --> 00:29:26.936 A:middle
-So -- so what we're
-going to do here is --
+00:29:22.206 --> 00:29:28.816 A:middle
+So -- so what we're going to do
+here is -- we have a very, very,
 
-00:29:26.936 --> 00:29:32.126 A:middle
-we have a very, very simple
-application that's basically
+00:29:28.816 --> 00:29:33.656 A:middle
+very simple application that's
+basically just an image editor
 
-00:29:32.126 --> 00:29:34.566 A:middle
-just an image editor,
-image editor
-
-00:29:34.566 --> 00:29:36.146 A:middle
-with some adjustment
-sliders here.
+00:29:33.656 --> 00:29:36.146 A:middle
+-- an image editor with some
+adjustment sliders here.
 
 00:29:36.146 --> 00:29:38.706 A:middle
 And what I'm going to try to
@@ -2541,14 +2315,6 @@ So let me go ahead and do that.
 So the first thing I'm
 going to do is I'm going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.966 --> 00:30:03.826 A:middle
-So the first thing I'm
-going to do is I'm going
-
 00:30:03.826 --> 00:30:07.286 A:middle
 to create a VisualEffectView,
 initialize it
@@ -2559,7 +2325,7 @@ frame, and then I'm going
 
 00:30:09.936 --> 00:30:14.286 A:middle
 to set its appearance to be
-the vibrant dark appearance.
+the VibrantDark appearance.
 
 00:30:14.566 --> 00:30:17.146 A:middle
 Now, the next -- and then the
@@ -2604,30 +2370,26 @@ is the appearance being put
 
 00:30:44.516 --> 00:30:48.446 A:middle
 on here, and you
-see, presto chango,
+see, presto change-o,
 
 00:30:48.516 --> 00:30:51.276 A:middle
 I have not only some nice,
 dark vibrant material,
 
-00:30:51.276 --> 00:30:54.316 A:middle
-but I also have, you
-know, alternate slider --
+00:30:51.276 --> 00:30:53.316 A:middle
+but I also have, you know,
 
-00:30:54.316 --> 00:30:57.026 A:middle
-alternate controls, that app can
-automatically select different
+00:30:53.316 --> 00:30:55.166 A:middle
+alternate slider --
+alternate controls.
 
-00:30:57.026 --> 00:30:59.536 A:middle
-artwork that's appropriate for
-vibrant rendering, specifically
+00:30:55.166 --> 00:30:57.636 A:middle
+That app can automatically
+select different artwork that's
 
-00:30:59.536 --> 00:31:00.646 A:middle
-for the dark material.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:30:57.636 --> 00:30:59.536 A:middle
+appropriate for vibrant
+rendering, specifically
 
 00:30:59.536 --> 00:31:00.646 A:middle
 for the dark material.
@@ -2668,11 +2430,11 @@ of the things that we have
 
 00:31:35.256 --> 00:31:39.566 A:middle
 in our system, please go to
-the in-depth talk tomorrow,
+the in-depth talk tomorrow:
 
 00:31:39.566 --> 00:31:42.876 A:middle
-Adopting Advanced Features of
-the New UI in OS X Yosemite.
+"Adopting Advanced Features of
+the New UI in OS X Yosemite."
 
 00:31:44.856 --> 00:31:50.866 A:middle
 Okay. So let's move on to
@@ -2692,10 +2454,6 @@ design choices
 
 00:31:57.606 --> 00:31:58.646 A:middle
 and provide material for.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:01.076 --> 00:32:03.916 A:middle
 So let's talk about fonts first.
@@ -2766,16 +2524,8 @@ it is not just plain old,
 your mother's Helvetica Neue.
 
 00:32:54.626 --> 00:32:58.036 A:middle
-It is especially optimized
+It is a specially optimized
 version of Helvetica Neue
-
-00:32:58.036 --> 00:33:00.736 A:middle
-that has been optimized
-for OS X.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.036 --> 00:33:00.736 A:middle
 that has been optimized
@@ -2809,7 +2559,7 @@ and try to do our best job
 
 00:33:20.596 --> 00:33:22.606 A:middle
 in rendering the
-individual letter forms,
+individual letterforms,
 
 00:33:22.906 --> 00:33:23.696 A:middle
 and leave it at that.
@@ -2826,19 +2576,16 @@ typography in applications
 that haven't been modified and
 may not even be aware of it.
 
-00:33:32.146 --> 00:33:33.706 A:middle
-So we have to think about things
+00:33:32.146 --> 00:33:34.136 A:middle
+So we have to think
+about things where, like,
 
-00:33:33.706 --> 00:33:35.146 A:middle
-where like the layout
-may change,
+00:33:34.136 --> 00:33:36.696 A:middle
+the layout may change, because
+ultimately these fonts have
 
-00:33:35.146 --> 00:33:37.006 A:middle
-because ultimately these
-fonts have different
-
-00:33:37.006 --> 00:33:38.066 A:middle
-size characteristics.
+00:33:36.696 --> 00:33:38.066 A:middle
+different size characteristics.
 
 00:33:38.906 --> 00:33:41.026 A:middle
 So the version of Helvetica Neue
@@ -2851,11 +2598,11 @@ specifically tuned to sort
 of balance this tradeoff, to try
 to strike a good balance there,
 
-00:33:45.706 --> 00:33:47.686 A:middle
+00:33:45.706 --> 00:33:47.716 A:middle
 to make sure that we still
-get the aesthetic [inaudible]
+get the aesthetic win
 
-00:33:47.686 --> 00:33:49.956 A:middle
+00:33:47.716 --> 00:33:49.956 A:middle
 that we're really looking for
 with this clean typography.
 
@@ -2871,14 +2618,6 @@ little more detail and explain.
 So here's -- here's an
 emulation of the Finder item --
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.796 --> 00:34:01.576 A:middle
-So here's -- here's an
-emulation of the Finder item --
-
 00:34:01.576 --> 00:34:05.036 A:middle
 app menu item that you
 might see on the menu bar.
@@ -2887,51 +2626,51 @@ might see on the menu bar.
 And this is it rendered
 in Lucida Grande.
 
-00:34:08.335 --> 00:34:12.005 A:middle
+00:34:08.336 --> 00:34:12.006 A:middle
 And you can see here,
 sort of approximations
 
-00:34:12.005 --> 00:34:14.025 A:middle
+00:34:12.006 --> 00:34:14.026 A:middle
 of the interglyph spacing, here.
 
-00:34:14.766 --> 00:34:17.065 A:middle
+00:34:14.766 --> 00:34:17.066 A:middle
 And now, as I switch
 this to Helvetica Neue,
 
-00:34:17.065 --> 00:34:19.815 A:middle
+00:34:17.066 --> 00:34:19.816 A:middle
 there are some interesting
 things going on here.
 
-00:34:19.946 --> 00:34:24.025 A:middle
+00:34:19.946 --> 00:34:24.026 A:middle
 Because you notice the overall
 thing is shorter, but actually,
 
-00:34:24.326 --> 00:34:27.755 A:middle
+00:34:24.326 --> 00:34:27.756 A:middle
 if you look carefully, some of
 the letters actually got bigger,
 
-00:34:27.755 --> 00:34:28.985 A:middle
+00:34:27.756 --> 00:34:28.986 A:middle
 and some of them got shorter.
 
 00:34:29.096 --> 00:34:31.136 A:middle
 So it's not a straightforward
 thing as saying, "Oh, yeah,
 
-00:34:31.136 --> 00:34:33.045 A:middle
+00:34:31.136 --> 00:34:33.046 A:middle
 Helvetica is -- everything
 is just going to get shrunk
 
-00:34:33.045 --> 00:34:33.846 A:middle
+00:34:33.046 --> 00:34:33.846 A:middle
 by a certain percentage."
 
-00:34:33.846 --> 00:34:35.565 A:middle
+00:34:33.846 --> 00:34:35.566 A:middle
 No, it's much more
 subtle than that.
 
-00:34:35.565 --> 00:34:36.485 A:middle
+00:34:35.566 --> 00:34:36.486 A:middle
 It can be content-dependent.
 
-00:34:36.485 --> 00:34:37.656 A:middle
+00:34:36.486 --> 00:34:37.656 A:middle
 Some things are getting winder.
 
 00:34:38.016 --> 00:34:39.216 A:middle
@@ -2941,18 +2680,20 @@ Some things are getting shorter.
 Some things are getting
 more consistent,
 
-00:34:40.646 --> 00:34:42.416 A:middle
+00:34:40.646 --> 00:34:41.636 A:middle
 where they were inconsistent
-in Lucida Grande
 
-00:34:42.416 --> 00:34:46.746 A:middle
-between the capital letter sizes
-and the lowercase letter sizes.
+00:34:41.636 --> 00:34:44.226 A:middle
+in Lucida Grande (between
+the capital letter sizes
+
+00:34:44.346 --> 00:34:46.746 A:middle
+and the lowercase letter sizes).
 
 00:34:47.156 --> 00:34:48.886 A:middle
 So it's a complicated equation.
 
-00:34:48.886 --> 00:34:50.335 A:middle
+00:34:48.886 --> 00:34:50.336 A:middle
 So that's why it was important
 
 00:34:50.636 --> 00:34:53.916 A:middle
@@ -2965,14 +2706,6 @@ compatibility problem
 
 00:34:57.916 --> 00:34:58.776 A:middle
 in a useful way.
-
-00:34:58.776 --> 00:35:00.456 A:middle
-Here, you can see the
-two on top of each other,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.776 --> 00:35:00.456 A:middle
 Here, you can see the
@@ -2995,8 +2728,8 @@ It's thinner in Lucida Grande
 and wider in Helvetica Neue.
 
 00:35:12.946 --> 00:35:15.556 A:middle
-But almost all the other letter
-forms, except maybe the D,
+But almost all the other
+letterforms, except maybe the D,
 
 00:35:15.856 --> 00:35:17.916 A:middle
 are actually considerably
@@ -3017,7 +2750,7 @@ Well, for unmodified
 applications, one technique
 
 00:35:34.086 --> 00:35:39.106 A:middle
-that we've applied to
+that we've applied is to
 apply layout compression
 
 00:35:39.146 --> 00:35:42.216 A:middle
@@ -3031,24 +2764,17 @@ given the existing balance.
 So for example, if you have a
 text field that was sized just
 
-00:35:46.026 --> 00:35:49.876 A:middle
-so that it just fit just
-perfectly on Mavericks,
+00:35:46.026 --> 00:35:50.516 A:middle
+so to just fit just perfectly
+on Mavericks, you know,
 
-00:35:50.276 --> 00:35:53.406 A:middle
-you know, there's a chance
-that that same text field,
+00:35:50.516 --> 00:35:53.406 A:middle
+there's a chance that
+that same text field,
 
 00:35:53.766 --> 00:35:59.626 A:middle
 if no measures were taken, would
 get clipped with the new font.
-
-00:35:59.836 --> 00:36:01.376 A:middle
-Because some string choice
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.836 --> 00:36:01.376 A:middle
 Because some string choice
@@ -3132,14 +2858,6 @@ is optimized accordingly.
 00:36:55.926 --> 00:36:59.616 A:middle
 And I also want to mention
 that this compression technique
-
-00:36:59.656 --> 00:37:02.316 A:middle
-that we apply is not a
-silver bullet by any means.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.656 --> 00:37:02.316 A:middle
 that we apply is not a
@@ -3234,39 +2952,34 @@ use the system font selectors.
 These are the ones
 that are in NSFont.
 
+00:38:01.396 --> 00:38:03.946 A:middle
+An example -- there's many
+more, but I'm just picking a few
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.666 --> 00:38:01.066 A:middle
-These are the ones
-that are in NSFont.
-
-00:38:01.396 --> 00:38:02.736 A:middle
-An example -- there's many more,
-
-00:38:02.736 --> 00:38:04.776 A:middle
-but I'm just picking a
-few to highlight here.
-
-00:38:04.776 --> 00:38:09.256 A:middle
+00:38:03.946 --> 00:38:06.996 A:middle
+to highlight here --
 NSFont systemFontOfSize,
+
+00:38:07.226 --> 00:38:10.076 A:middle
 NS boldSystemFontOfSize
+and a new one,
 
-00:38:09.566 --> 00:38:11.676 A:middle
-and a new one, actually,
-labelFontOfSize.
+00:38:10.076 --> 00:38:11.676 A:middle
+actually, labelFontOfSize.
 
-00:38:11.736 --> 00:38:14.146 A:middle
-Actually, that's not -- I don't
-think that's necessarily new.
+00:38:11.736 --> 00:38:12.856 A:middle
+Actually, that's not, uh,
+
+00:38:12.856 --> 00:38:14.146 A:middle
+I don't think that's
+necessarily new.
 
 00:38:14.146 --> 00:38:16.976 A:middle
-There's another label thing
-coming that's a little
+(There's another label
+thing coming that's a little
 
 00:38:16.976 --> 00:38:17.316 A:middle
-bit newer.
+bit newer.)
 
 00:38:18.106 --> 00:38:21.706 A:middle
 So all of these selectors
@@ -3287,19 +3000,20 @@ as appropriate for UI.
 Important takeaway here, and
 if you remember nothing else
 
-00:38:32.296 --> 00:38:35.486 A:middle
-about this font sections talk
-is please do not explicitly set
+00:38:32.296 --> 00:38:33.816 A:middle
+about this font sections
+talk is:
 
-00:38:35.486 --> 00:38:38.946 A:middle
+00:38:33.876 --> 00:38:37.136 A:middle
+please do not explicitly set
 your font, either in code
-or in IB, to Helvetica Neue,
 
-00:38:39.336 --> 00:38:40.516 A:middle
+00:38:37.136 --> 00:38:40.516 A:middle
+or in IB, to Helvetica Neue,
 you know, as a literal string.
 
 00:38:40.516 --> 00:38:43.406 A:middle
-Because that the actual
+Because that's the actual
 document content font.
 
 00:38:43.406 --> 00:38:44.886 A:middle
@@ -3325,14 +3039,6 @@ Okay. So colors.
 So colors are an often
 underappreciated element of UI,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.456 --> 00:39:03.086 A:middle
-So colors are an often
-underappreciated element of UI,
-
 00:39:03.086 --> 00:39:06.826 A:middle
 which is a shame, because if you
 actually look at most windows
@@ -3342,7 +3048,7 @@ on most applications, about
 90 percent of the pixels --
 
 00:39:09.586 --> 00:39:13.056 A:middle
-if that, you know, are
+if that, you know -- are
 actually composed of color fill.
 
 00:39:13.056 --> 00:39:14.726 A:middle
@@ -3400,23 +3106,15 @@ know, from a designer like,
 oh, RGB 128, 142, 136.
 
 00:39:54.826 --> 00:39:57.166 A:middle
-No. Think of them as a
-system, as in like --
+No. Think of them as
+a system, as in like,
 
 00:39:57.436 --> 00:39:58.816 A:middle
-what is the semantic color
+"what is the semantic color
 
 00:39:58.816 --> 00:40:00.506 A:middle
 that would be appropriate
-to use here?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.816 --> 00:40:00.506 A:middle
-that would be appropriate
-to use here?
+to use here?"
 
 00:40:00.896 --> 00:40:05.236 A:middle
 And this is where system colors
@@ -3470,12 +3168,12 @@ of an information hierarchy.
 And by that, I mean you might
 have some sort of primary sort
 
-00:40:46.206 --> 00:40:48.246 A:middle
+00:40:46.206 --> 00:40:47.966 A:middle
 of information elements
 or labels and then,
 
-00:40:48.246 --> 00:40:50.116 A:middle
-you have some secondary
+00:40:47.966 --> 00:40:50.116 A:middle
+you might have some secondary
 supporting information.
 
 00:40:50.116 --> 00:40:52.986 A:middle
@@ -3492,10 +3190,6 @@ color selectors specifically
 00:40:58.606 --> 00:40:59.556 A:middle
 to help with this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.136 --> 00:41:02.516 A:middle
 The two color selectors
 are labelColor
@@ -3511,13 +3205,13 @@ is they've been specifically
 designed to work well
 on almost any context
 
-00:41:10.256 --> 00:41:12.236 A:middle
-that you might put them
-on, whether it be menus,
+00:41:10.256 --> 00:41:12.506 A:middle
+that you might put them on,
+whether it be menus (which have
 
-00:41:12.236 --> 00:41:14.526 A:middle
-which have that light vibrant
-appearance; regular windows;
+00:41:12.506 --> 00:41:14.526 A:middle
+that light vibrant
+appearance), regular windows,
 
 00:41:15.216 --> 00:41:18.306 A:middle
 Notification Center
@@ -3569,15 +3263,8 @@ for any textual elements
 on your buttons and images.
 
 00:41:56.626 --> 00:41:57.716 A:middle
-I'll get to images in a second.
-
-00:41:57.966 --> 00:42:01.426 A:middle
-Because there really are such
-a wide range of interaction
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+(I'll get to images
+in a second.)
 
 00:41:57.966 --> 00:42:01.426 A:middle
 Because there really are such
@@ -3612,10 +3299,10 @@ example of what label color
 
 00:42:21.276 --> 00:42:24.436 A:middle
 and secondary label color
-look like across the light
+look like across the Light
 
 00:42:24.436 --> 00:42:26.556 A:middle
-and the dark vibrant
+and the Dark vibrant
 appearances.
 
 00:42:26.926 --> 00:42:28.166 A:middle
@@ -3637,7 +3324,7 @@ the secondary one is a
 little bit more so; that is,
 
 00:42:35.156 --> 00:42:37.006 A:middle
-it's letting a little bit more
+it's letting a little more
 of the background through.
 
 00:42:37.006 --> 00:42:38.176 A:middle
@@ -3661,14 +3348,6 @@ the regular aqua one.
 00:42:52.046 --> 00:42:56.956 A:middle
 Okay. So the last item here,
 in this section: artwork.
-
-00:42:57.996 --> 00:43:00.896 A:middle
-So artwork is one of the
-other important elements
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:57.996 --> 00:43:00.896 A:middle
 So artwork is one of the
@@ -3758,14 +3437,6 @@ blue when it's selected.
 And it can make all these
 design choices and style it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:57.546 --> 00:44:00.046 A:middle
-And it can make all these
-design choices and style it
-
 00:44:00.246 --> 00:44:02.336 A:middle
 in a way that's appropriate
 for a specific appearance
@@ -3778,7 +3449,7 @@ interaction state.
 Okay. App compatibility.
 
 00:44:15.106 --> 00:44:19.816 A:middle
-So OS X Yosemite does
+So Mac OS X Yosemite does
 bring some big changes
 
 00:44:19.816 --> 00:44:20.816 A:middle
@@ -3830,14 +3501,6 @@ as it can be on Yosemite
 and take advantage of as many
 of these new UI experiences
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.116 --> 00:45:03.466 A:middle
-and take advantage of as many
-of these new UI experiences
-
 00:45:03.466 --> 00:45:05.616 A:middle
 that we've provided the
 building blocks for, including
@@ -3884,11 +3547,11 @@ carefully designed to blend
 
 00:45:48.896 --> 00:45:50.486 A:middle
 in very well with the
-title bar material.
+titlebar material.
 
 00:45:50.486 --> 00:45:54.886 A:middle
 Well, here we go in Yosemite and
-change the title bar material,
+change the titlebar material,
 
 00:45:54.886 --> 00:45:56.466 A:middle
 and suddenly, everything
@@ -3902,14 +3565,6 @@ illustration of the challenges
 that an app can face
 if they have
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.956 --> 00:46:01.466 A:middle
-that an app can face
-if they have
-
 00:46:01.526 --> 00:46:06.506 A:middle
 to support both the old UI
 language as well as the new.
@@ -3918,16 +3573,17 @@ language as well as the new.
 Well, we all know this had a
 happy ending because this is
 
-00:46:09.546 --> 00:46:12.186 A:middle
-in fact what the Xcode that
-you're living with right now --
+00:46:09.546 --> 00:46:11.526 A:middle
+in fact what the Xcode
+that you're living
 
-00:46:12.186 --> 00:46:16.586 A:middle
-it looks like Yosemite, because
-Xcode actually did make an
+00:46:11.526 --> 00:46:14.206 A:middle
+with right now looks
+like Yosemite,
 
-00:46:16.586 --> 00:46:17.726 A:middle
-optimization to make sure
+00:46:14.496 --> 00:46:17.726 A:middle
+because Xcode actually did make
+an optimization to make sure
 
 00:46:17.726 --> 00:46:22.076 A:middle
 that it looked perfect
@@ -3978,15 +3634,7 @@ and will look reasonable.
 
 00:46:58.426 --> 00:47:01.486 A:middle
 Like for example, the entire
-title bar or all the control --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:58.426 --> 00:47:01.486 A:middle
-Like for example, the entire
-title bar or all the control --
+titlebar or all the control --
 
 00:47:01.596 --> 00:47:03.476 A:middle
 all the font selectors,
@@ -4004,13 +3652,13 @@ thing on each platform.
 Now, there are many cases where
 that may not be sufficient,
 
-00:47:11.216 --> 00:47:13.526 A:middle
-and when you actually do have
-to write different code; like,
+00:47:11.216 --> 00:47:13.396 A:middle
+and where you actually do
+have to write different code.
 
-00:47:13.526 --> 00:47:17.706 A:middle
-for example, the selective
-tab change in Xcode.
+00:47:13.396 --> 00:47:17.706 A:middle
+Like, for example, the
+selective tab change in Xcode.
 
 00:47:18.386 --> 00:47:22.406 A:middle
 Well, you can also use runtime
@@ -4072,14 +3720,6 @@ see if an important symbol --
 
 00:47:59.196 --> 00:47:59.826 A:middle
 like in this case,
-
-00:47:59.826 --> 00:48:02.436 A:middle
-NSAppearanceNameVibrantDark
--- is non-nil.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:59.826 --> 00:48:02.436 A:middle
 NSAppearanceNameVibrantDark
@@ -4170,14 +3810,6 @@ image resources or go
 into totally different code
 constructions across one version
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:56.916 --> 00:49:02.736 A:middle
-into totally different code
-constructions across one version
-
 00:49:02.736 --> 00:49:03.976 A:middle
 of the OS versus the other.
 
@@ -4203,19 +3835,20 @@ design everywhere.
 We really think that a majority
 of your customers are going
 
-00:49:29.436 --> 00:49:32.416 A:middle
-to a majority of your users,
-I should say are going to be
+00:49:29.436 --> 00:49:31.246 A:middle
+to -- a majority of your
+users, I should say --
 
-00:49:32.416 --> 00:49:34.316 A:middle
-on the Yosemite design,
+00:49:31.576 --> 00:49:34.316 A:middle
+are going to be on
+the Yosemite design,
 
 00:49:34.356 --> 00:49:37.416 A:middle
 in Yosemite in the
 very near future.
 
 00:49:37.796 --> 00:49:40.906 A:middle
-And it's going to be and if
+And it's going to be -- and if
 you do have to make a choice
 
 00:49:41.786 --> 00:49:45.606 A:middle
@@ -4228,41 +3861,33 @@ older platforms, I would also
 
 00:49:50.556 --> 00:49:52.726 A:middle
 like to encourage you
-to, when in doubt,
+to: when in doubt,
 
 00:49:52.726 --> 00:49:53.926 A:middle
 favor the new visual style.
 
 00:49:53.926 --> 00:49:56.266 A:middle
-What I mean by that and
+What I mean by that -- and
 actually, Xcode is an example
 
-00:49:56.266 --> 00:49:58.696 A:middle
-of this as a case study.
+00:49:56.266 --> 00:50:01.146 A:middle
+of this as a case study --
+It's okay to go and bring some
 
-00:49:59.386 --> 00:50:01.796 A:middle
-It's okay to go and bring
-some of the elements
+00:50:01.146 --> 00:50:03.566 A:middle
+of the elements that have
+been introduced in --
 
+00:50:03.866 --> 00:50:06.336 A:middle
+elements that have been
+introduced into Yosemite
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:50:06.336 --> 00:50:09.136 A:middle
+and bring them back into
+your Mavericks app UI
 
-00:49:59.386 --> 00:50:01.796 A:middle
-It's okay to go and bring
-some of the elements
-
-00:50:01.796 --> 00:50:04.556 A:middle
-that have been introduced
-in elements
-
-00:50:04.556 --> 00:50:07.216 A:middle
-that have been introduced into
-Yosemite and bring them back
-
-00:50:07.216 --> 00:50:09.896 A:middle
-into your Mavericks
-App UI design language.
+00:50:09.136 --> 00:50:09.896 A:middle
+design language.
 
 00:50:10.406 --> 00:50:13.166 A:middle
 So for example -- and I
@@ -4281,7 +3906,7 @@ shapes, button glyphs --
 
 00:50:20.256 --> 00:50:23.986 A:middle
 your icon, for example
-it is totally okay,
+-- it is totally okay,
 
 00:50:23.986 --> 00:50:26.426 A:middle
 and it actually works out
@@ -4291,12 +3916,12 @@ reasonably well to take some
 of these simpler, cleaner
 design styles that are featured
 
-00:50:30.396 --> 00:50:33.426 A:middle
+00:50:30.396 --> 00:50:34.666 A:middle
 in Yosemite and to have
 them show up on your buttons
 
-00:50:33.426 --> 00:50:37.496 A:middle
-or in your window title bar in
+00:50:34.666 --> 00:50:37.496 A:middle
+or in your window titlebar in
 your application on Mavericks.
 
 00:50:37.746 --> 00:50:39.196 A:middle
@@ -4332,13 +3957,6 @@ vibrancy and what role it plays
 00:50:59.726 --> 00:51:00.696 A:middle
 and what it does for you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:59.726 --> 00:51:00.696 A:middle
-and what it does for you.
-
 00:51:01.766 --> 00:51:04.216 A:middle
 And we talked about
 adapting your applications
@@ -4347,7 +3965,7 @@ adapting your applications
 to these new features.
 
 00:51:08.196 --> 00:51:11.566 A:middle
-Please put yet another plug
+Please -- put yet another plug
 in for the advanced session,
 
 00:51:11.906 --> 00:51:16.166 A:middle
@@ -4362,12 +3980,12 @@ some of the tips and tricks
 of getting these UIs
 together with alacrity.
 
-00:51:28.896 --> 00:51:31.676 A:middle
-So in summary, lots
-of excitement lots
+00:51:28.896 --> 00:51:31.436 A:middle
+So in summary: lots
+of excitement,
 
-00:51:31.676 --> 00:51:34.026 A:middle
-of exciting design
+00:51:31.436 --> 00:51:34.026 A:middle
+lots of exciting design
 changes coming to OS X.
 
 00:51:34.026 --> 00:51:37.356 A:middle
@@ -4375,7 +3993,7 @@ And if there's one message
 I'd like to leave with you,
 
 00:51:37.356 --> 00:51:39.536 A:middle
-is that the Cocoa
+it is that the Cocoa
 frameworks can help guide you
 
 00:51:39.536 --> 00:51:40.826 A:middle
@@ -4387,10 +4005,10 @@ yourselves of their services.
 
 00:51:44.366 --> 00:51:47.406 A:middle
 For more information, we
-have our excellent developer
+have our excellent Developer
 
 00:51:47.446 --> 00:51:48.716 A:middle
-evangelist right over here,
+Evangelist right over here
 
 00:51:48.716 --> 00:51:50.586 A:middle
 with the fancy sneakers,
@@ -4398,27 +4016,22 @@ Jake Behrens.
 
 00:51:51.496 --> 00:51:54.566 A:middle
 And I encourage you to email
-him, if you have any questions.
+him if you have any questions.
 
 00:51:54.606 --> 00:51:56.656 A:middle
 And there are many
 related sessions,
 
 00:51:57.146 --> 00:51:58.836 A:middle
-including the What's
-New in Cocoa,
+including the "What's
+New in Cocoa,"
 
-00:51:58.836 --> 00:52:02.566 A:middle
-which happened earlier today
-actually yeah, earlier today.
+00:51:58.836 --> 00:52:00.096 A:middle
+which happened earlier today --
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:58.836 --> 00:52:02.566 A:middle
-which happened earlier today
-actually yeah, earlier today.
+00:52:00.096 --> 00:52:02.566 A:middle
+uh, actually -- yeah,
+earlier today.
 
 00:52:02.796 --> 00:52:04.666 A:middle
 Today is Tuesday.
@@ -4429,14 +4042,14 @@ advanced talk tomorrow.
 
 00:52:06.676 --> 00:52:10.266 A:middle
 I also want to point out the
-Creating extensions for iOS
+"Creating Extensions for iOS
 
-00:52:10.266 --> 00:52:14.166 A:middle
-and OS X, which happened
-actually it's concluding it
+00:52:10.266 --> 00:52:13.986 A:middle
+and OS X," which happened
+actually, it's concluding --
 
-00:52:14.166 --> 00:52:15.436 A:middle
-happened just an hour ago.
+00:52:13.986 --> 00:52:15.436 A:middle
+it happened just an hour ago.
 
 00:52:15.736 --> 00:52:17.286 A:middle
 And the reason I mention
@@ -4448,11 +4061,11 @@ extensions, which is one
 
 00:52:19.266 --> 00:52:21.606 A:middle
 of the places where you use
-the dark vibrant appearance.
+the Dark Vibrant appearance.
 
 00:52:22.446 --> 00:52:27.346 A:middle
-And there are also some there
-are some Xcode sessions,
+And there are also some there--
+ah, are some Xcode sessions,
 
 00:52:27.346 --> 00:52:29.356 A:middle
 some Interface Builder sessions
@@ -4492,4 +4105,3 @@ to wrap up and thank you.
 
 00:52:55.516 --> 00:52:59.500 A:middle
 [ Applause ]
-

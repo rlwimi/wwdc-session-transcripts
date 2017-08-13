@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:21.806 --> 00:00:24.206 A:middle
 &gt;&gt; Good morning-ish.
@@ -43,19 +42,11 @@ interface should I use,
 and how can I use it with
 other services from the OS?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:57.176 --> 00:01:01.146 A:middle
-and how can I use it with
-other services from the OS?
-
-00:01:01.596 --> 00:01:04.525 A:middle
+00:01:01.596 --> 00:01:04.526 A:middle
 From this very high level then
 we'll dive into the details
 
-00:01:04.525 --> 00:01:07.386 A:middle
+00:01:04.526 --> 00:01:07.386 A:middle
 of the interface,
 we'll talk about usage,
 
@@ -126,13 +117,6 @@ to use this,
 00:01:58.956 --> 00:02:00.306 A:middle
 at least it'll spark some ideas
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.956 --> 00:02:00.306 A:middle
-at least it'll spark some ideas
-
 00:02:00.306 --> 00:02:03.336 A:middle
 on how you can perhaps develop
 the next great app with this.
@@ -140,7 +124,7 @@ the next great app with this.
 00:02:03.496 --> 00:02:05.726 A:middle
 So, with that, let's go on.
 
-00:02:06.166 --> 00:02:09.205 A:middle
+00:02:06.166 --> 00:02:09.206 A:middle
 The biggest thing that happened
 since the last time we talked,
 
@@ -191,14 +175,6 @@ of a FaceTime call.
 00:02:57.186 --> 00:02:58.636 A:middle
 So what can you do
 with motion activity?
-
-00:02:58.636 --> 00:03:02.746 A:middle
-I think that when you're talking
-about a mobile application,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.636 --> 00:03:02.746 A:middle
 I think that when you're talking
@@ -271,14 +247,6 @@ Time is a context.
 Activity is similarly very, very
 powerful as a context, right?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.446 --> 00:04:05.086 A:middle
-Activity is similarly very, very
-powerful as a context, right?
-
 00:04:05.366 --> 00:04:07.816 A:middle
 And that's what we're
 here to give you,
@@ -291,11 +259,11 @@ user's motion at any time
 so that you can frame
 the context.
 
-00:04:17.726 --> 00:04:21.755 A:middle
+00:04:17.726 --> 00:04:21.756 A:middle
 So not all activities are going
 to be detected in the same way,
 
-00:04:22.055 --> 00:04:23.916 A:middle
+00:04:22.056 --> 00:04:23.916 A:middle
 there are going to be
 differences, and I want you
 
@@ -346,14 +314,6 @@ or situational differences.
 00:04:54.976 --> 00:04:56.456 A:middle
 So, again, please
 bear this in mind.
-
-00:04:56.786 --> 00:05:00.126 A:middle
-And when I start talking about
-the performance in a little bit,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:56.786 --> 00:05:00.126 A:middle
 And when I start talking about
@@ -439,14 +399,6 @@ arm, or even in hand.
 00:05:52.586 --> 00:05:56.786 A:middle
 Now I do want to caution,
 though, that when a person -
-
-00:05:56.786 --> 00:06:00.046 A:middle
-it is possible that a
-person could hold a device
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:56.786 --> 00:06:00.046 A:middle
 it is possible that a
@@ -541,10 +493,6 @@ distracted or you may stop, say,
 to open a door, or
 somebody stops you to chat.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:07:00.306 --> 00:07:03.836 A:middle
 And so as you stop and as you
 start you're going to fall into
@@ -617,14 +565,6 @@ suited to use as a transition,
 and I'll talk a little bit
 later in the presentation,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.076 --> 00:08:01.876 A:middle
-and I'll talk a little bit
-later in the presentation,
-
 00:08:01.876 --> 00:08:03.946 A:middle
 it'll be more apparent
 what I mean by transition,
@@ -668,7 +608,7 @@ in the performance.
 00:08:28.686 --> 00:08:30.056 A:middle
 What's great about running is
 
-00:08:30.096 --> 00:08:34.275 A:middle
+00:08:30.096 --> 00:08:34.276 A:middle
 that not only is the
 signal very, very vivid,
 
@@ -683,7 +623,7 @@ that a person is running.
 You take a handful of
 steps, a handful of steps,
 
-00:08:42.236 --> 00:08:43.405 A:middle
+00:08:42.236 --> 00:08:43.406 A:middle
 and we're going to
 detect running.
 
@@ -706,14 +646,6 @@ multitask while they run,
 00:08:56.216 --> 00:08:58.206 A:middle
 as like they do while
 they're walking, right?
-
-00:08:58.206 --> 00:09:01.216 A:middle
-When they're running they're
-not going to log into Facebook
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.206 --> 00:09:01.216 A:middle
 When they're running they're
@@ -793,14 +725,6 @@ state much more quickly.
 So if the user were to, say, get
 in the car and put the device
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.796 --> 00:10:02.176 A:middle
-So if the user were to, say, get
-in the car and put the device
-
 00:10:02.636 --> 00:10:05.836 A:middle
 on the dash, in the cup holder,
 perhaps mounted, that's fine.
@@ -863,14 +787,6 @@ it becomes available.
 00:10:56.016 --> 00:10:58.166 A:middle
 Without really going into
 details what it really means is
-
-00:10:58.166 --> 00:11:03.376 A:middle
-that if you get in your
-car, you plug your device in
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.166 --> 00:11:03.376 A:middle
 that if you get in your
@@ -941,14 +857,6 @@ bit about the pedometer.
 For the pedometer you have two
 things, you have step counts
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.696 --> 00:12:02.116 A:middle
-For the pedometer you have two
-things, you have step counts
-
 00:12:02.796 --> 00:12:06.256 A:middle
 and you have the stride
 estimate, how long is your step.
@@ -1005,14 +913,6 @@ to provide something
 00:12:53.826 --> 00:12:57.436 A:middle
 that will really help users
 improve their quality of life,
-
-00:12:57.436 --> 00:13:01.456 A:middle
-just knowing that I want to
-target 7,500 to 9,000 steps or,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.436 --> 00:13:01.456 A:middle
 just knowing that I want to
@@ -1093,14 +993,6 @@ to present to the user, right?
 Now you can argue that you
 could do this with GPS,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.296 --> 00:14:02.236 A:middle
-Now you can argue that you
-could do this with GPS,
-
 00:14:03.606 --> 00:14:07.006 A:middle
 and while that's true,
 the attendant power cost
@@ -1165,14 +1057,6 @@ whether a device is,
 
 00:14:57.036 --> 00:14:58.406 A:middle
 here let's say, FitBit.
-
-00:14:58.836 --> 00:15:04.116 A:middle
-The device is here, it provides
-very, very good clean signature
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.836 --> 00:15:04.116 A:middle
 The device is here, it provides
@@ -1251,14 +1135,6 @@ you'll see that you'll walk
 out of there and will have
 counted, say, 1,000 steps,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.506 --> 00:16:01.586 A:middle
-out of there and will have
-counted, say, 1,000 steps,
-
 00:16:02.526 --> 00:16:06.296 A:middle
 but again that's a
 challenge of a pedometer
@@ -1323,14 +1199,6 @@ walk around the block,
 maybe walk around
 the block a few times
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.696 --> 00:17:00.266 A:middle
-maybe walk around
-the block a few times
-
 00:17:00.676 --> 00:17:01.966 A:middle
 and see how well we do.
 
@@ -1346,14 +1214,14 @@ about the different data models
 that we use or the
 different ways
 
-00:17:13.096 --> 00:17:14.195 A:middle
+00:17:13.096 --> 00:17:14.196 A:middle
 that we can get the data to you.
 
 00:17:14.556 --> 00:17:19.046 A:middle
 There's a notion of
 push versus pull.
 
-00:17:19.705 --> 00:17:24.116 A:middle
+00:17:19.706 --> 00:17:24.116 A:middle
 In the push interface, we give
 you events as they happen.
 
@@ -1402,14 +1270,6 @@ transition that has happened
 
 00:17:57.026 --> 00:17:58.636 A:middle
 between the start and end time.
-
-00:17:59.186 --> 00:18:02.456 A:middle
-For the pedometer we'll just
-give you the cumulative steps,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.186 --> 00:18:02.456 A:middle
 For the pedometer we'll just
@@ -1493,14 +1353,6 @@ batch processing that we do.
 And really as soon as we just
 look at data over that interval
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:56.326 --> 00:19:00.566 A:middle
-And really as soon as we just
-look at data over that interval
-
 00:19:00.566 --> 00:19:01.396 A:middle
 and you're running, we're going
 
@@ -1568,14 +1420,6 @@ this in an application.
 00:19:54.846 --> 00:19:58.506 A:middle
 So let's say running, let's come
 up with a running application.
-
-00:19:58.506 --> 00:20:00.986 A:middle
-I mentioned running as one
-of those great activities
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.506 --> 00:20:00.986 A:middle
 I mentioned running as one
@@ -1667,14 +1511,6 @@ let's say that it's going
 to start just playing some
 kind of preprogrammed,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.696 --> 00:21:03.116 A:middle
-to start just playing some
-kind of preprogrammed,
-
 00:21:03.836 --> 00:21:05.886 A:middle
 easy listening kind of playlist.
 
@@ -1739,14 +1575,6 @@ job, you're on pace
 
 00:21:54.726 --> 00:21:57.146 A:middle
 for your 15-minute mile."
-
-00:21:57.546 --> 00:22:00.496 A:middle
-So just stuff that gets
-me really pumped up.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.546 --> 00:22:00.496 A:middle
 So just stuff that gets
@@ -1825,14 +1653,6 @@ so that's pretty cool.
 So that's an example of
 a running application
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:57.656 --> 00:23:01.136 A:middle
-So that's an example of
-a running application
-
 00:23:01.136 --> 00:23:03.556 A:middle
 where you rely primarily
 on the push interface,
@@ -1902,14 +1722,6 @@ Location, and it gives me a list
 of places that I've
 visited throughout the day.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.926 --> 00:24:01.756 A:middle
-of places that I've
-visited throughout the day.
-
 00:24:02.476 --> 00:24:05.846 A:middle
 Typically I go from home,
 sometimes I go to the gym,
@@ -1968,14 +1780,6 @@ presentation of these results is
 00:24:56.486 --> 00:24:58.536 A:middle
 so much more powerful
 than to, say,
-
-00:24:58.536 --> 00:25:00.946 A:middle
-that I walked 5,000
-steps, right?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.536 --> 00:25:00.946 A:middle
 that I walked 5,000
@@ -2047,14 +1851,6 @@ just like location,
 00:25:53.666 --> 00:25:55.116 A:middle
 the user is going
 to need to opt in.
-
-00:25:55.726 --> 00:26:00.096 A:middle
-Now the very first time you
-launch your app we're going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:55.726 --> 00:26:00.096 A:middle
 Now the very first time you
@@ -2134,14 +1930,6 @@ you'll want to deal
 with the activity manager,
 so you'll get a reference
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:56.496 --> 00:27:00.576 A:middle
-with the activity manager,
-so you'll get a reference
-
 00:27:00.776 --> 00:27:03.106 A:middle
 to the CM activity
 manager object.
@@ -2211,14 +1999,6 @@ trigger an update, right?
 00:27:54.076 --> 00:27:57.226 A:middle
 For the push, for the
 pull interface, again,
-
-00:27:57.386 --> 00:28:00.466 A:middle
-you provide a start time and
-an end time in the query.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.386 --> 00:28:00.466 A:middle
 you provide a start time and
@@ -2304,14 +2084,6 @@ give you a confidence.
 The confidence is what you can
 use to trade off the difference
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.486 --> 00:29:04.646 A:middle
-The confidence is what you can
-use to trade off the difference
-
 00:29:04.646 --> 00:29:07.556 A:middle
 between accuracy - or trade
 off accuracy with latency.
@@ -2392,14 +2164,6 @@ stationary, right?
 Here I'm on the stage, I
 am location stationary,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.696 --> 00:30:02.626 A:middle
-Here I'm on the stage, I
-am location stationary,
-
 00:30:02.966 --> 00:30:06.326 A:middle
 but I am not motion stationary,
 so this thing is only going
@@ -2457,14 +2221,6 @@ this, but I've always wanted
 00:30:52.366 --> 00:30:59.086 A:middle
 to stand on stage and say that,
 and so, check, bucket list.
-
-00:30:59.606 --> 00:31:02.726 A:middle
-All right, again, so to make
-these points really salient,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.606 --> 00:31:02.726 A:middle
 All right, again, so to make
@@ -2543,10 +2299,6 @@ back to false,
 00:31:58.096 --> 00:31:59.506 A:middle
 automotive still stays true.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.626 --> 00:32:04.096 A:middle
 Immediately after the
 reboot, this is the case
@@ -2621,14 +2373,6 @@ e-mail, what if there is motion
 with a very strong
 pattern, but like say Zumba?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:57.786 --> 00:33:03.226 A:middle
-with a very strong
-pattern, but like say Zumba?
-
 00:33:03.946 --> 00:33:08.246 A:middle
 That one is tough
 because it's periodic,
@@ -2694,14 +2438,6 @@ and now I sat down,
 and so now walking is
 no longer true and all
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.796 --> 00:34:00.356 A:middle
-and so now walking is
-no longer true and all
-
 00:34:00.356 --> 00:34:01.136 A:middle
 of my flags are false.
 
@@ -2725,29 +2461,29 @@ now, so now stationary is true.
 And now I start driving,
 and so automotive is true
 
-00:34:18.866 --> 00:34:20.565 A:middle
+00:34:18.866 --> 00:34:20.566 A:middle
 and stationary is false, right?
 
 00:34:20.876 --> 00:34:21.706 A:middle
 I stop at a light.
 
-00:34:22.646 --> 00:34:26.525 A:middle
+00:34:22.646 --> 00:34:26.526 A:middle
 I'm still in automotive,
 stationary is true.
 
-00:34:26.926 --> 00:34:30.085 A:middle
+00:34:26.926 --> 00:34:30.086 A:middle
 Now you can imagine that you're
 going to cycle back and forth
 
-00:34:30.085 --> 00:34:33.266 A:middle
+00:34:30.086 --> 00:34:33.266 A:middle
 on this thing until you
 actually pick the device up
 
-00:34:33.266 --> 00:34:37.085 A:middle
+00:34:33.266 --> 00:34:37.086 A:middle
 and now it doesn't look like
 we're in automotive anymore,
 
-00:34:37.085 --> 00:34:38.636 A:middle
+00:34:37.086 --> 00:34:38.636 A:middle
 and then you'll go
 into that empty set.
 
@@ -2766,14 +2502,6 @@ automotive equals true.
 00:34:53.146 --> 00:34:57.416 A:middle
 You can think automotive equals
 true as a hard classification,
-
-00:34:58.646 --> 00:35:02.196 A:middle
-and you can think of those other
-two states essentially being an
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.646 --> 00:35:02.196 A:middle
 and you can think of those other
@@ -2842,14 +2570,6 @@ you provide a start call,
 00:35:54.926 --> 00:35:56.836 A:middle
 and then we'll start
 giving you updates.
-
-00:35:57.176 --> 00:36:00.206 A:middle
-Now the one thing that I
-didn't mention earlier is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:57.176 --> 00:36:00.206 A:middle
 Now the one thing that I
@@ -2946,13 +2666,6 @@ the same start time,
 00:36:59.396 --> 00:37:02.266 A:middle
 and that start time is the time
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.396 --> 00:37:02.266 A:middle
-and that start time is the time
-
 00:37:02.266 --> 00:37:05.896 A:middle
 when you call the
 start update method.
@@ -3011,14 +2724,6 @@ the same number of steps?
 00:37:56.116 --> 00:37:59.436 A:middle
 And the answer is yes, there
 might be slight differences due
-
-00:37:59.436 --> 00:38:02.786 A:middle
-to rounding issues or
-interpolation issues,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.436 --> 00:38:02.786 A:middle
 to rounding issues or
@@ -3096,14 +2801,6 @@ things that you can do
 with them can potentially
 be very, very powerful.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:58.636 --> 00:39:01.946 A:middle
-with them can potentially
-be very, very powerful.
-
 00:39:02.706 --> 00:39:10.426 A:middle
 The stride estimate, I think can
 basically facilitate a whole new
@@ -3160,14 +2857,6 @@ My name is Sunny.
 00:39:51.046 --> 00:39:56.466 A:middle
 I'm a Developer on
 the Core Motion Team.
-
-00:39:57.476 --> 00:40:02.536 A:middle
-So the topics I want to be
-covering today are mainly
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:57.476 --> 00:40:02.536 A:middle
 So the topics I want to be
@@ -3260,14 +2949,6 @@ Andy mentioned, we want to do -
 we want to check for
 proper availability
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.696 --> 00:41:01.176 A:middle
-we want to check for
-proper availability
-
 00:41:01.176 --> 00:41:04.816 A:middle
 of these APIs before
 we start using any
@@ -3328,13 +3009,6 @@ these classes is that a lot
 00:41:56.296 --> 00:41:58.926 A:middle
 of our APIs are largely
 callback-based,
-
-00:41:59.206 --> 00:42:00.776 A:middle
-so you want to keep in mind
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.206 --> 00:42:00.776 A:middle
 so you want to keep in mind
@@ -3421,14 +3095,6 @@ is check for authorization.
 This is - we handle
 most of the details
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:58.226 --> 00:43:01.326 A:middle
-This is - we handle
-most of the details
-
 00:43:01.376 --> 00:43:02.916 A:middle
 of authorization for you, right?
 
@@ -3495,14 +3161,6 @@ both equal to now.
 00:43:54.956 --> 00:43:58.396 A:middle
 Now on the callback we
 just want to make sure
-
-00:43:58.396 --> 00:44:00.476 A:middle
-that there's no errors, and
-if there is an error code
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:58.396 --> 00:44:00.476 A:middle
 that there's no errors, and
@@ -3579,10 +3237,6 @@ been collecting data all along.
 So the queries, for
 this data model,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:45:00.026 --> 00:45:02.866 A:middle
 this data model is
 responsible for collecting data
@@ -3650,14 +3304,6 @@ when this call back is invoked.
 00:45:54.936 --> 00:45:58.456 A:middle
 Now a word about the
 types of data segments
-
-00:45:58.456 --> 00:46:00.856 A:middle
-that are passed back
-after this query,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:58.456 --> 00:46:00.856 A:middle
 that are passed back
@@ -3740,14 +3386,6 @@ implementation details up to you
 as an exercise for you
 to check out later.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.136 --> 00:47:00.876 A:middle
-as an exercise for you
-to check out later.
-
 00:47:02.036 --> 00:47:04.756 A:middle
 Now that we've done that,
 we have activities ready,
@@ -3819,14 +3457,6 @@ dispatch your first domain.
 And let's go ahead and
 invoke the completion block
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:58.766 --> 00:48:03.316 A:middle
-And let's go ahead and
-invoke the completion block
-
 00:48:03.316 --> 00:48:05.416 A:middle
 that ultimately invokes the UI.
 
@@ -3891,13 +3521,6 @@ of today, not from right now.
 00:48:59.126 --> 00:49:00.736 A:middle
 You can now specify that date,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.126 --> 00:49:00.736 A:middle
-You can now specify that date,
-
 00:49:01.046 --> 00:49:03.206 A:middle
 that saves you an
 additional query and having
@@ -3958,14 +3581,6 @@ indications every time you get a
 
 00:49:55.596 --> 00:49:57.376 A:middle
 new motion activity.
-
-00:49:58.306 --> 00:50:01.796 A:middle
-And stopping motion updates is
-also as simple as calling stop.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:58.306 --> 00:50:01.796 A:middle
 And stopping motion updates is
@@ -4043,10 +3658,6 @@ my hand it says it's moving.
 If I set this device on
 the floor or on the table,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:00.016 --> 00:51:02.726 A:middle
 I'm sorry, it will now
 say it's not moving.
@@ -4117,14 +3728,6 @@ some breakfast, and you can kind
 00:51:54.266 --> 00:51:56.326 A:middle
 of unfurl all of that, and
 you can see when I make
-
-00:51:56.326 --> 00:52:00.356 A:middle
-that big long drive from
-aisle two to Moscone Center.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:56.326 --> 00:52:00.356 A:middle
 that big long drive from
@@ -4218,14 +3821,6 @@ queues from HealthKit,
 from Core Location, it can
 help you build a very powerful
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:58.346 --> 00:53:00.686 A:middle
-from Core Location, it can
-help you build a very powerful
-
 00:53:00.766 --> 00:53:02.576 A:middle
 picture of what the
 user has been doing
@@ -4274,4 +3869,3 @@ Thank you so much.
 
 00:53:29.516 --> 00:53:32.310 A:middle
 [ Applause ]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.246 --> 00:00:12.226 A:middle
 &gt;&gt; Good afternoon.
@@ -53,10 +52,6 @@ parts of software development -
 00:00:57.246 --> 00:00:59.616 A:middle
 I realize that as the
 documentation guy.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.336 --> 00:01:04.286 A:middle
 And it can often be treated as
@@ -120,19 +115,11 @@ apps, but as iOS developers,
 you probably don't
 even have to go here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.136 --> 00:02:01.286 A:middle
-you probably don't
-even have to go here.
-
 00:02:03.656 --> 00:02:06.476 A:middle
 Instead, Rachel is
 going to show you how
 
-00:02:06.476 --> 00:02:10.735 A:middle
+00:02:06.476 --> 00:02:10.736 A:middle
 to anticipate users' needs in a
 seamless onboarding experience
 
@@ -196,10 +183,6 @@ So today, we're going to talk
 00:02:56.566 --> 00:02:59.516 A:middle
 about onboarding and
 welcoming people.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.286 --> 00:03:01.946 A:middle
 Now, this term onboarding,
@@ -283,14 +266,6 @@ experience isn't really great.
 Now, when you step into a store,
 there's - like a physical store
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.806 --> 00:04:05.106 A:middle
-Now, when you step into a store,
-there's - like a physical store
-
 00:04:05.106 --> 00:04:07.456 A:middle
 in real life, there's a number
 of things that are going
@@ -357,14 +332,6 @@ executed UI is not one of them.
 So you want to make sure if
 your UI isn't intuitive and easy
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.556 --> 00:05:04.016 A:middle
-So you want to make sure if
-your UI isn't intuitive and easy
-
 00:05:04.016 --> 00:05:06.336 A:middle
 to use, spend time
 refining that UI,
@@ -424,14 +391,6 @@ information, then you're going
 00:05:53.536 --> 00:05:56.886 A:middle
 to need to let people
 know what's going on.
-
-00:05:57.276 --> 00:06:02.586 A:middle
-But before, if there's any way
-possible, you want to delay
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:57.276 --> 00:06:02.586 A:middle
 But before, if there's any way
@@ -503,14 +462,6 @@ to the concert with you.
 00:06:52.686 --> 00:06:55.596 A:middle
 Now, not only do they have a
 very short onboarding sequence,
-
-00:06:55.736 --> 00:07:00.046 A:middle
-but they will let you browse
-without registering at all.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:55.736 --> 00:07:00.046 A:middle
 but they will let you browse
@@ -592,14 +543,6 @@ asking them to register.
 So think about it this way,
 let's say a stranger walked
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:56.216 --> 00:08:00.596 A:middle
-So think about it this way,
-let's say a stranger walked
-
 00:08:00.596 --> 00:08:02.936 A:middle
 up to you in front of
 Moscone and said, "Hey,
@@ -643,10 +586,10 @@ because your description
 in the App Store,
 or word of mouth,
 
-00:08:33.405 --> 00:08:35.376 A:middle
+00:08:33.406 --> 00:08:35.376 A:middle
 or brand awareness isn't enough
 
-00:08:35.635 --> 00:08:38.076 A:middle
+00:08:35.636 --> 00:08:38.076 A:middle
 to make people feel
 comfortable giving you all
 
@@ -679,13 +622,6 @@ and signing in.
 00:08:56.656 --> 00:08:59.476 A:middle
 So that's why they've given
 you this brief explanation
-
-00:08:59.686 --> 00:09:00.996 A:middle
-of what the service is about
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.686 --> 00:09:00.996 A:middle
 of what the service is about
@@ -773,10 +709,6 @@ liked and who you didn't like.
 00:09:59.096 --> 00:09:59.936 A:middle
 Nobody wants that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:01.076 --> 00:10:04.756 A:middle
 So "Tinder" here is a very
 popular dating application
@@ -852,13 +784,6 @@ when you're telling them all
 
 00:10:55.806 --> 00:10:58.126 A:middle
 of these things, be succinct.
-
-00:10:58.476 --> 00:11:00.486 A:middle
-Be as succinct as possible.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.476 --> 00:11:00.486 A:middle
 Be as succinct as possible.
@@ -939,14 +864,6 @@ you need right now.
 Don't be tempted to ask
 for a lot of information
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.806 --> 00:12:02.636 A:middle
-Don't be tempted to ask
-for a lot of information
-
 00:12:02.636 --> 00:12:04.226 A:middle
 because you have
 this great feature
@@ -1020,14 +937,6 @@ experience is going to be
 00:12:54.916 --> 00:12:58.386 A:middle
 to just jump in and start
 using that app right away.
-
-00:12:59.006 --> 00:13:02.346 A:middle
-So you want to ask yourselves,
-"What do people need to know
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.006 --> 00:13:02.346 A:middle
 So you want to ask yourselves,
@@ -1115,10 +1024,6 @@ need to re-create
 00:13:57.746 --> 00:13:59.246 A:middle
 in your app or your game.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:14:00.076 --> 00:14:01.526 A:middle
 You want to do that equivalent
 
@@ -1188,10 +1093,6 @@ this thing out.
 00:14:57.716 --> 00:14:59.416 A:middle
 People want to get
 in and get going.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.316 --> 00:15:02.386 A:middle
 There is no need
@@ -1282,14 +1183,6 @@ That's an important one.
 And then you might even
 try a couple of tips
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.256 --> 00:16:01.326 A:middle
-And then you might even
-try a couple of tips
-
 00:16:01.326 --> 00:16:05.206 A:middle
 on strategy all before
 you start playing.
@@ -1363,14 +1256,6 @@ building up the complexity
 as you go, and they're
 reinforcing everything
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.146 --> 00:17:01.266 A:middle
-as you go, and they're
-reinforcing everything
-
 00:17:01.266 --> 00:17:05.156 A:middle
 with sound and animation
 and positive reassurance
@@ -1381,11 +1266,11 @@ as you're going through.
 00:17:06.146 --> 00:17:08.016 A:middle
 So it is completely interactive.
 
-00:17:08.016 --> 00:17:11.685 A:middle
+00:17:08.016 --> 00:17:11.686 A:middle
 So that's a great
 way to get started.
 
-00:17:11.685 --> 00:17:15.516 A:middle
+00:17:11.686 --> 00:17:15.516 A:middle
 And now, I know that this seems
 like a pretty simple example,
 
@@ -1393,7 +1278,7 @@ like a pretty simple example,
 but really, almost any kind
 of game benefits from this:
 
-00:17:18.576 --> 00:17:21.445 A:middle
+00:17:18.576 --> 00:17:21.446 A:middle
 builders, role-playing games,
 arcade games, all of it.
 
@@ -1444,13 +1329,6 @@ All right, one more choice.
 
 00:17:58.436 --> 00:17:59.596 A:middle
 Hooray. Success.
-
-00:17:59.596 --> 00:18:02.036 A:middle
-I mean, it was very easy.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.596 --> 00:18:02.036 A:middle
 I mean, it was very easy.
@@ -1525,14 +1403,6 @@ obstacles, more of them.
 
 00:18:56.726 --> 00:18:58.006 A:middle
 Trapdoors and things like that.
-
-00:18:59.296 --> 00:19:01.166 A:middle
-When you first start
-playing, all you have
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.296 --> 00:19:01.166 A:middle
 When you first start
@@ -1616,13 +1486,6 @@ functions,
 00:19:56.326 --> 00:19:58.936 A:middle
 before you even consider
 trying to teach people
-
-00:19:58.936 --> 00:20:00.766 A:middle
-about more advanced operations.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.936 --> 00:20:00.766 A:middle
 about more advanced operations.
@@ -1713,14 +1576,6 @@ breaking into a new market
 or that you're establishing
 some sort of new paradigm
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.256 --> 00:21:01.636 A:middle
-or that you're establishing
-some sort of new paradigm
-
 00:21:02.116 --> 00:21:04.396 A:middle
 that you might need to
 communicate just a little bit
@@ -1802,14 +1657,6 @@ once or if it's -
 especially if it's related to
 something unfamiliar, right?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.326 --> 00:22:01.606 A:middle
-especially if it's related to
-something unfamiliar, right?
-
 00:22:02.436 --> 00:22:04.726 A:middle
 OK, I'm going to give all of
 you guys some instructions.
@@ -1884,13 +1731,6 @@ register, I text you, "Hey,
 00:22:56.196 --> 00:22:58.316 A:middle
 here's the coffee that
 I want you to order" -
-
-00:22:59.296 --> 00:23:01.016 A:middle
-this would be so much easier.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.296 --> 00:23:01.016 A:middle
 this would be so much easier.
@@ -1981,14 +1821,6 @@ in this position,
 and that gets you holding
 the device in the best way.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.686 --> 00:24:01.726 A:middle
-and that gets you holding
-the device in the best way.
-
 00:24:03.346 --> 00:24:06.046 A:middle
 Now, once you press your
 thumbs in each circle,
@@ -2067,10 +1899,6 @@ going to release the drawbridge,
 and then you can
 continue on your way.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.126 --> 00:25:03.626 A:middle
 Then you'll learn about pushing
 down and what that does for you.
@@ -2142,13 +1970,6 @@ complexity builds up that way.
 00:25:57.846 --> 00:25:59.606 A:middle
 Now like I said, the
 same thing applies
-
-00:25:59.666 --> 00:26:01.236 A:middle
-to apps, it's not just games.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.666 --> 00:26:01.236 A:middle
 to apps, it's not just games.
@@ -2233,10 +2054,6 @@ more advanced refinement,
 00:26:58.336 --> 00:26:59.286 A:middle
 free typing in.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:00.316 --> 00:27:03.026 A:middle
 And because you're getting this
 information one step at a time,
@@ -2309,14 +2126,6 @@ a really super easy,
 can't-lose level
 on "Hitman GO" -
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.766 --> 00:28:01.106 A:middle
-can't-lose level
-on "Hitman GO" -
-
 00:28:02.516 --> 00:28:09.646 A:middle
 [ Game Sounds ]
 
@@ -2376,14 +2185,6 @@ over a touch interface.
 
 00:28:55.426 --> 00:28:56.536 A:middle
 It's a touch interface.
-
-00:28:56.756 --> 00:29:00.546 A:middle
-You tap. And my biggest pet
-peeve is when I see "Click here"
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:56.756 --> 00:29:00.546 A:middle
 You tap. And my biggest pet
@@ -2454,14 +2255,6 @@ the giant bouncing arrow.
 00:29:54.936 --> 00:29:58.506 A:middle
 Now at first, this does
 seem like an effective way
-
-00:29:58.506 --> 00:30:00.396 A:middle
-to get people through
-a tutorial level.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.506 --> 00:30:00.396 A:middle
 to get people through
@@ -2548,13 +2341,6 @@ just wind up looking
 00:30:59.106 --> 00:31:00.206 A:middle
 at your finger, right?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.106 --> 00:31:00.206 A:middle
-at your finger, right?
-
 00:31:01.516 --> 00:31:03.796 A:middle
 [ Applause ]
 
@@ -2627,10 +2413,6 @@ far fewer bouncing arrows
 
 00:31:58.466 --> 00:31:59.076 A:middle
 in the future.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.696 --> 00:32:03.706 A:middle
 Now, if you do need your
@@ -2712,14 +2494,6 @@ anything that's distinct
 and unique and unfamiliar
 to your audience.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.476 --> 00:33:00.986 A:middle
-and unique and unfamiliar
-to your audience.
-
 00:33:02.206 --> 00:33:06.616 A:middle
 Now, another thing to be wary
 of is forcing people to go
@@ -2789,14 +2563,6 @@ is short and clear.
 Avoid jargon and acronyms
 or insider language
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:56.316 --> 00:34:00.096 A:middle
-Avoid jargon and acronyms
-or insider language
-
 00:34:00.146 --> 00:34:01.186 A:middle
 that may not make sense
 
@@ -2808,7 +2574,7 @@ new to your app, OK?
 This is my favorite example,
 "JUKELY," and they're talking
 
-00:34:08.436 --> 00:34:09.775 A:middle
+00:34:08.436 --> 00:34:09.776 A:middle
 about their notifications.
 
 00:34:11.206 --> 00:34:14.426 A:middle
@@ -2818,37 +2584,37 @@ from a stalker.
 00:34:14.936 --> 00:34:15.886 A:middle
 I'm excited.
 
-00:34:16.755 --> 00:34:22.775 A:middle
+00:34:16.756 --> 00:34:22.776 A:middle
 I mean, this text is clear,
 it's friendly, it's entertaining
 
-00:34:22.775 --> 00:34:24.505 A:middle
+00:34:22.776 --> 00:34:24.506 A:middle
 as well as being educational.
 
-00:34:25.076 --> 00:34:27.835 A:middle
+00:34:25.076 --> 00:34:27.836 A:middle
 So here are some
 things you can think
 
-00:34:27.835 --> 00:34:29.426 A:middle
+00:34:27.836 --> 00:34:29.426 A:middle
 about when it comes
 to writing your text.
 
-00:34:30.295 --> 00:34:31.906 A:middle
+00:34:30.296 --> 00:34:31.906 A:middle
 Ask yourself these questions.
 
 00:34:32.906 --> 00:34:35.696 A:middle
 Could the text be shorter
 or could it be clearer?
 
-00:34:36.065 --> 00:34:39.396 A:middle
+00:34:36.066 --> 00:34:39.396 A:middle
 Will the text make sense
 to someone who's new
 
-00:34:39.396 --> 00:34:43.025 A:middle
+00:34:39.396 --> 00:34:43.026 A:middle
 to the application, because
 you look at your app all day
 
-00:34:43.025 --> 00:34:47.116 A:middle
+00:34:43.026 --> 00:34:47.116 A:middle
 and all night every day, so you
 really need fresh perspective,
 
@@ -2859,17 +2625,9 @@ unfamiliar with your app think?
 00:34:50.616 --> 00:34:53.866 A:middle
 Is the message too complicated?
 
-00:34:54.315 --> 00:34:58.596 A:middle
+00:34:54.316 --> 00:34:58.596 A:middle
 If it is, you can make it
 simpler, or maybe you need
-
-00:34:58.596 --> 00:35:00.276 A:middle
-to change your approach
-altogether.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.596 --> 00:35:00.276 A:middle
 to change your approach
@@ -2948,10 +2706,6 @@ important one:
 Always give people
 an option to skip.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:00.096 --> 00:36:04.146 A:middle
 Always. If you saw the lunchtime
 session yesterday, Natalia talks
@@ -3028,14 +2782,6 @@ wanted to give some -
 just a very brief
 onboarding explanation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.546 --> 00:37:00.876 A:middle
-just a very brief
-onboarding explanation.
-
 00:37:01.966 --> 00:37:05.236 A:middle
 The text invokes
 the joy of travel.
@@ -3105,10 +2851,6 @@ in the UI.
 So let me give you
 a few tips about how
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.006 --> 00:38:01.596 A:middle
 to make the invisible visible.
 
@@ -3172,14 +2914,6 @@ app uses horizontal movement
 00:38:55.646 --> 00:38:57.466 A:middle
 to show that the
 screens are swipable.
-
-00:38:58.156 --> 00:39:02.606 A:middle
-So that - and if you don't
-swipe it, it will auto-advance.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.156 --> 00:39:02.606 A:middle
 So that - and if you don't
@@ -3265,14 +2999,6 @@ headline has a horizontal
 animation and then that
 short message about swiping.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.346 --> 00:40:04.976 A:middle
-animation and then that
-short message about swiping.
-
 00:40:05.086 --> 00:40:08.096 A:middle
 So if the horizontal
 animation didn't do it for you,
@@ -3349,14 +3075,6 @@ of the other controls.
 So in addition to
 displaying temporary hints,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.836 --> 00:41:05.006 A:middle
-So in addition to
-displaying temporary hints,
-
 00:41:05.366 --> 00:41:08.746 A:middle
 you can also think about
 providing controls for people
@@ -3423,14 +3141,6 @@ you can get different sounds
 00:41:54.996 --> 00:41:59.616 A:middle
 out of the hi-hat based on where
 it is that you're tapping it,
-
-00:41:59.616 --> 00:42:02.256 A:middle
-or that a single tap will
-play the crash cymbal
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.616 --> 00:42:02.256 A:middle
 or that a single tap will
@@ -3506,13 +3216,6 @@ by doing.
 00:42:52.266 --> 00:42:57.356 A:middle
 So now, I would like to address
 a dirty word in iOS UI design.
-
-00:42:58.806 --> 00:43:00.726 A:middle
-Help. Help.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.806 --> 00:43:00.726 A:middle
 Help. Help.
@@ -3593,13 +3296,6 @@ a lecture from a mean teacher.
 00:43:59.376 --> 00:44:02.146 A:middle
 Or boring.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.376 --> 00:44:02.146 A:middle
-Or boring.
-
 00:44:02.426 --> 00:44:03.676 A:middle
 Nobody wants boring.
 
@@ -3668,14 +3364,6 @@ dead-end situation.
 00:44:54.876 --> 00:44:57.986 A:middle
 So in iMovie for iOS,
 there is a theater view
-
-00:44:57.986 --> 00:45:02.256 A:middle
-where your completed projects
-go so you can view them.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:57.986 --> 00:45:02.256 A:middle
 where your completed projects
@@ -3762,14 +3450,6 @@ but you can also search,
 and that Search text is very
 suggestive in terms of the type
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.816 --> 00:46:04.196 A:middle
-and that Search text is very
-suggestive in terms of the type
-
 00:46:04.196 --> 00:46:06.046 A:middle
 of things that you might
 want to put in there.
@@ -3833,13 +3513,6 @@ right in that moment.
 
 00:46:55.636 --> 00:46:58.126 A:middle
 Again, it didn't feel like help.
-
-00:46:59.246 --> 00:47:01.296 A:middle
-And with games, "Leo's Fortune."
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:59.246 --> 00:47:01.296 A:middle
 And with games, "Leo's Fortune."
@@ -3917,10 +3590,6 @@ try a number of times to get
 over this very basic obstacle
 and you don't make it,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:00.016 --> 00:48:02.046 A:middle
 they give you the option
 of onscreen controls.
@@ -3995,14 +3664,6 @@ enough to keep me engaged,
 
 00:48:57.556 --> 00:48:58.716 A:middle
 to keep me moving forward.
-
-00:48:59.276 --> 00:49:03.126 A:middle
-And instead of giving away the
-answers, they give you clues
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:59.276 --> 00:49:03.126 A:middle
 And instead of giving away the
@@ -4088,14 +3749,6 @@ be getting frustrated.
 So instead, the right way to
 get to that information is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:58.226 --> 00:50:03.116 A:middle
-So instead, the right way to
-get to that information is
-
 00:50:03.116 --> 00:50:06.006 A:middle
 by selecting a star and
 then tapping that "i" button
@@ -4163,14 +3816,6 @@ that they need to know it.
 00:50:55.516 --> 00:50:59.206 A:middle
 Think about the restaurant again
 that I talked about earlier.
-
-00:50:59.966 --> 00:51:02.106 A:middle
-You don't want to see the
-dessert menu before you've been
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:59.966 --> 00:51:02.106 A:middle
 You don't want to see the
@@ -4258,14 +3903,6 @@ where are my friends?
 Oh, I didn't have
 my phone number yet.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:57.916 --> 00:52:00.356 A:middle
-Oh, I didn't have
-my phone number yet.
-
 00:52:00.946 --> 00:52:04.376 A:middle
 Shoot. And what's the
 star mean, I wonder?
@@ -4348,14 +3985,6 @@ needs is just another way
 that you're going to
 be able to provide help
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:58.786 --> 00:53:00.416 A:middle
-that you're going to
-be able to provide help
-
 00:53:00.706 --> 00:53:02.376 A:middle
 without it feeling like help.
 
@@ -4430,14 +4059,6 @@ like a bonus prize.
 And that's why with Siri, we
 give you a lot of suggestions
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:59.416 --> 00:54:02.416 A:middle
-And that's why with Siri, we
-give you a lot of suggestions
-
 00:54:02.416 --> 00:54:03.956 A:middle
 of things that you can ask her.
 
@@ -4507,14 +4128,6 @@ going to be thinking
 00:54:52.456 --> 00:54:55.226 A:middle
 about how they can use it
 in their personal life, too.
-
-00:54:57.516 --> 00:55:01.096 A:middle
-Or with Pinterest, they've
-got a similar approach.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:57.516 --> 00:55:01.096 A:middle
 Or with Pinterest, they've
@@ -4604,14 +4217,6 @@ away from this talk today,
 in summary, only require
 people to register
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:55:59.546 --> 00:56:04.426 A:middle
-in summary, only require
-people to register
-
 00:56:04.426 --> 00:56:06.416 A:middle
 when it's absolutely necessary.
 
@@ -4688,14 +4293,6 @@ at the developer.apple.com.
 And if you didn't see either of
 these two sessions on Tuesday,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:56:57.806 --> 00:57:01.056 A:middle
-And if you didn't see either of
-these two sessions on Tuesday,
-
 00:57:01.056 --> 00:57:02.566 A:middle
 the videos are available.
 
@@ -4721,4 +4318,3 @@ Thanks so much.
 
 00:57:15.016 --> 00:57:20.736 A:middle
 [ Silence ]
-

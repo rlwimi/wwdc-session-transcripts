@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.086 --> 00:00:13.476 A:middle
 &gt;&gt; Good afternoon, everyone.
@@ -52,10 +51,6 @@ renders HTML, it loads
 00:00:55.856 --> 00:00:59.036 A:middle
 and displays images, it runs
 JavaScript, and so forth.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:01.706 --> 00:01:05.696 A:middle
 Another way to look at
@@ -115,19 +110,11 @@ be using a WebView.
 And how many of you
 are using a WebView?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.566 --> 00:02:01.546 A:middle
-And how many of you
-are using a WebView?
-
-00:02:02.946 --> 00:02:10.175 A:middle
+00:02:02.946 --> 00:02:10.176 A:middle
 Cool. Now, over the years,
 we've received a lot of requests
 
-00:02:10.175 --> 00:02:14.926 A:middle
+00:02:10.176 --> 00:02:14.926 A:middle
 from you especially on iOS for
 something a bit more powerful.
 
@@ -170,14 +157,6 @@ the web content itself.
 
 00:02:54.596 --> 00:02:58.276 A:middle
 So the modern WebKit API.
-
-00:02:58.816 --> 00:03:03.106 A:middle
-Class for class, this
-API is exactly the same
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.816 --> 00:03:03.106 A:middle
 Class for class, this
@@ -237,14 +216,6 @@ and now on iOS with iOS 8.
 In fact, one of the goals we
 had with this modern API was
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.366 --> 00:04:01.556 A:middle
-In fact, one of the goals we
-had with this modern API was
-
 00:04:01.716 --> 00:04:05.506 A:middle
 to take a lot of features that
 were previously only available
@@ -257,7 +228,7 @@ you access to them.
 For example, super smooth 60
 frames per second scrolling
 
-00:04:14.526 --> 00:04:17.305 A:middle
+00:04:14.526 --> 00:04:17.306 A:middle
 using hardware acceleration
 and Core Animation.
 
@@ -296,14 +267,6 @@ way for your app to talk
 
 00:04:52.516 --> 00:04:54.346 A:middle
 to web pages and vice versa.
-
-00:04:57.086 --> 00:05:00.886 A:middle
-Now, I mentioned that
-WebKit is multi-processed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.086 --> 00:05:00.886 A:middle
 Now, I mentioned that
@@ -372,14 +335,6 @@ separately in its own process,
 we can put individual web pages
 into a low power mode for things
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:56.006 --> 00:06:00.426 A:middle
-we can put individual web pages
-into a low power mode for things
-
 00:06:00.426 --> 00:06:03.386 A:middle
 like background tabs and
 fully-occluded Windows.
@@ -437,14 +392,6 @@ huge Wikipedia fans.
 00:06:54.776 --> 00:06:58.386 A:middle
 We love reading Wikipedia,
 we read it all the time,
-
-00:06:59.116 --> 00:07:02.686 A:middle
-and so we figured it would
-be a kind of cool idea
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.116 --> 00:07:02.686 A:middle
 and so we figured it would
@@ -516,14 +463,6 @@ an app with a single WebView.
 But for WKPedia, we really want
 to have support multiple windows
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.236 --> 00:08:04.436 A:middle
-But for WKPedia, we really want
-to have support multiple windows
-
 00:08:04.436 --> 00:08:08.336 A:middle
 so you can have more than
 one article showing at once.
@@ -550,7 +489,7 @@ And the way to do this is
 to create a single
 configuration object and then
 
-00:08:31.976 --> 00:08:37.265 A:middle
+00:08:31.976 --> 00:08:37.266 A:middle
 when you create your WKWebViews,
 you pass along the configuration
 
@@ -575,14 +514,6 @@ and then you create a WKWebView,
 00:08:52.726 --> 00:08:55.646 A:middle
 but you use an input
 frame configuration
-
-00:08:56.096 --> 00:09:02.356 A:middle
-and you give it a configuration,
-and that's all you have to do.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:56.096 --> 00:09:02.356 A:middle
 and you give it a configuration,
@@ -655,14 +586,6 @@ enable/disable state based
 on whether you can
 go back or forwards.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.616 --> 00:10:01.646 A:middle
-on whether you can
-go back or forwards.
-
 00:10:01.646 --> 00:10:05.666 A:middle
 So you don't have
 to worry about that.
@@ -713,14 +636,6 @@ the loading property.
 00:10:49.806 --> 00:10:53.426 A:middle
 Okay, so WKPedia is really
 starting to come along here,
-
-00:10:54.036 --> 00:11:02.596 A:middle
-but it's still not a
-dedicated Wikipedia browser.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:54.036 --> 00:11:02.596 A:middle
 but it's still not a
@@ -786,14 +701,6 @@ buttons,
 it could be JavaScript setting
 the window docile location
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:57.396 --> 00:12:00.186 A:middle
-it could be JavaScript setting
-the window docile location
-
 00:12:00.186 --> 00:12:04.106 A:middle
 property, or it can
 be a subframe loading,
@@ -846,13 +753,6 @@ action and response phases.
 00:12:54.456 --> 00:12:58.566 A:middle
 And to decide whether
 to continue the load
-
-00:12:58.566 --> 00:13:00.656 A:middle
-or whether to cancel it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.566 --> 00:13:00.656 A:middle
 or whether to cancel it.
@@ -924,14 +824,6 @@ started the load,
 like if it was a link being
 clicked or if it was a go back,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:56.966 --> 00:14:00.616 A:middle
-like if it was a link being
-clicked or if it was a go back,
-
 00:14:00.776 --> 00:14:04.316 A:middle
 go forward request,
 and so forth.
@@ -994,10 +886,6 @@ the block with 1 of 2 values.
 So for decide policy
 for navigation action,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.046 --> 00:15:04.986 A:middle
 you either pass WK navigation
 action policy cancel or allow.
@@ -1058,14 +946,6 @@ version of the app to show you,
 00:15:57.156 --> 00:15:59.216 A:middle
 and together we'll use
 all of the information
-
-00:15:59.216 --> 00:16:01.666 A:middle
-that Anders just gave us
-to build it up and turn it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.216 --> 00:16:01.666 A:middle
 that Anders just gave us
@@ -1140,13 +1020,6 @@ clearly want in our app for it
 00:16:59.186 --> 00:17:00.706 A:middle
 to feel like a web browser.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.186 --> 00:17:00.706 A:middle
-to feel like a web browser.
-
 00:17:01.156 --> 00:17:02.446 A:middle
 So let's add them.
 
@@ -1154,19 +1027,19 @@ So let's add them.
 I'll give you a quick
 tour of the code first.
 
-00:17:07.165 --> 00:17:10.056 A:middle
+00:17:07.166 --> 00:17:10.056 A:middle
 This is our main class, it's
 a browser window controller,
 
-00:17:10.056 --> 00:17:12.425 A:middle
+00:17:10.056 --> 00:17:12.426 A:middle
 and that's an
 NSWindowController.
 
-00:17:12.425 --> 00:17:14.626 A:middle
+00:17:12.426 --> 00:17:14.626 A:middle
 And if we look at the
 implementation file,
 
-00:17:14.955 --> 00:17:17.976 A:middle
+00:17:14.956 --> 00:17:17.976 A:middle
 you'll see this is where we have
 a property for the WKWebView.
 
@@ -1174,19 +1047,19 @@ a property for the WKWebView.
 And down here in
 window did load,
 
-00:17:21.096 --> 00:17:23.915 A:middle
+00:17:21.096 --> 00:17:23.916 A:middle
 this is where we allocate
 our WebView and it's
 
-00:17:23.915 --> 00:17:25.566 A:middle
+00:17:23.916 --> 00:17:25.566 A:middle
 where we load our
 initial request.
 
-00:17:26.046 --> 00:17:28.435 A:middle
+00:17:26.046 --> 00:17:28.436 A:middle
 Okay, but we want to
 add some toolbar items,
 
-00:17:28.435 --> 00:17:30.596 A:middle
+00:17:28.436 --> 00:17:30.596 A:middle
 so let's go into
 interface builder.
 
@@ -1208,14 +1081,6 @@ back and forward button,
 
 00:17:55.216 --> 00:17:56.716 A:middle
 so I will drag those in.
-
-00:17:57.236 --> 00:18:05.006 A:middle
-And if we go over to this panel
-here, let me highlight one
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.236 --> 00:18:05.006 A:middle
 And if we go over to this panel
@@ -1292,13 +1157,6 @@ that I showed you a minute ago.
 00:18:54.966 --> 00:18:57.326 A:middle
 And then we want to
 set the model key path
-
-00:18:57.586 --> 00:19:00.466 A:middle
-to WebView dot title.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:57.586 --> 00:19:00.466 A:middle
 to WebView dot title.
@@ -1384,13 +1242,6 @@ we went back, awesome.
 00:19:59.016 --> 00:20:00.456 A:middle
 Forward, great.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.016 --> 00:20:00.456 A:middle
-Forward, great.
-
 00:20:00.576 --> 00:20:02.596 A:middle
 Okay, so we've made a
 lot of improvements.
@@ -1465,14 +1316,6 @@ WebView dot loading is true.
 There's one other thing I
 want to do with this though,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.086 --> 00:21:01.466 A:middle
-There's one other thing I
-want to do with this though,
-
 00:21:01.626 --> 00:21:07.856 A:middle
 which is over here, I want to
 uncheck display when stopped.
@@ -1530,14 +1373,6 @@ result will be what's reflected
 
 00:21:55.566 --> 00:21:56.196 A:middle
 in the toolbar.
-
-00:21:57.936 --> 00:22:00.626 A:middle
-So let's save, build
-and run again.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.936 --> 00:22:00.626 A:middle
 So let's save, build
@@ -1619,14 +1454,6 @@ Let's go back to the code.
 Okay, so first, I want
 to add 1 line of code
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.256 --> 00:23:04.146 A:middle
-Okay, so first, I want
-to add 1 line of code
-
 00:23:04.146 --> 00:23:08.226 A:middle
 to window did load here, to
 set the navigation delegate.
@@ -1702,14 +1529,6 @@ decision handler block
 with the WK navigation
 action policy cancel value.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.836 --> 00:24:03.506 A:middle
-with the WK navigation
-action policy cancel value.
-
 00:24:03.906 --> 00:24:05.906 A:middle
 And while we were here I
 thought it would be cool just
@@ -1773,14 +1592,6 @@ so that's good.
 00:24:54.476 --> 00:24:58.806 A:middle
 Let's see, let's click on
 this link, and awesome,
-
-00:24:58.806 --> 00:25:01.036 A:middle
-we successfully handed
-that navigation off
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.806 --> 00:25:01.036 A:middle
 we successfully handed
@@ -1865,13 +1676,6 @@ add 2 lines of code.
 00:25:58.896 --> 00:26:00.746 A:middle
 Back up here in window did load.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.896 --> 00:26:00.746 A:middle
-Back up here in window did load.
-
 00:26:05.996 --> 00:26:09.696 A:middle
 Okay, so this first line of code
 allows back/forward navigation
@@ -1947,13 +1751,6 @@ Back to you, Anders.
 00:26:58.516 --> 00:27:01.046 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.516 --> 00:27:01.046 A:middle
-[ Applause ]
-
 00:27:01.546 --> 00:27:02.036 A:middle
 &gt;&gt; Thanks, Beth.
 
@@ -2021,14 +1818,6 @@ that bothers me a little.
 See, I like to read certain
 sections of an article,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.736 --> 00:28:04.086 A:middle
-See, I like to read certain
-sections of an article,
-
 00:28:04.506 --> 00:28:08.906 A:middle
 and that means that I have to
 go find the table of contents,
@@ -2090,10 +1879,6 @@ get the table of contents
 00:28:57.986 --> 00:28:59.826 A:middle
 in a native UI table view.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.666 --> 00:29:02.746 A:middle
 And when you're in
 landscape mode,
@@ -2152,14 +1937,6 @@ inject it into the web page,
 
 00:29:56.426 --> 00:29:57.956 A:middle
 and then have it do something.
-
-00:29:59.416 --> 00:30:02.406 A:middle
-This will happen automatically
-for every web page.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.416 --> 00:30:02.406 A:middle
 This will happen automatically
@@ -2226,14 +2003,6 @@ frames, so both the mainframe
 and the subframes, or just
 for the mainframe only.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:57.836 --> 00:31:02.236 A:middle
-and the subframes, or just
-for the mainframe only.
-
 00:31:04.806 --> 00:31:06.596 A:middle
 So how do you create
 a user script?
@@ -2286,14 +2055,6 @@ using the down API
 00:31:52.736 --> 00:31:54.456 A:middle
 to change the document
 structures.
-
-00:31:55.996 --> 00:32:00.746 A:middle
-Adding event listeners for
-onload events or click events
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:55.996 --> 00:32:00.746 A:middle
 Adding event listeners for
@@ -2362,14 +2123,6 @@ an object that conforms
 to the WK script
 message handler protocol.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.816 --> 00:33:02.166 A:middle
-to the WK script
-message handler protocol.
-
 00:33:04.276 --> 00:33:06.856 A:middle
 This protocol has 1 method
 that you have to implement
@@ -2431,14 +2184,6 @@ script message handler,
 and the body property of
 the WK script message object
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.956 --> 00:34:04.296 A:middle
-and the body property of
-the WK script message object
-
 00:34:04.296 --> 00:34:06.636 A:middle
 that is passed along here
 will have your message
@@ -2446,7 +2191,7 @@ will have your message
 00:34:06.636 --> 00:34:07.816 A:middle
 automatically converted.
 
-00:34:10.646 --> 00:34:13.755 A:middle
+00:34:10.646 --> 00:34:13.756 A:middle
 There are also some other
 properties in WK script message,
 
@@ -2458,11 +2203,11 @@ posted the message, and the name
 that was used to
 post the message.
 
-00:34:23.755 --> 00:34:26.866 A:middle
+00:34:23.756 --> 00:34:26.866 A:middle
 One interesting thing
 about script messages is
 
-00:34:27.065 --> 00:34:30.466 A:middle
+00:34:27.066 --> 00:34:30.466 A:middle
 that it's just not user scripts
 that can send script messages.
 
@@ -2470,11 +2215,11 @@ that can send script messages.
 Your web page can
 also send messages.
 
-00:34:35.275 --> 00:34:39.045 A:middle
+00:34:35.276 --> 00:34:39.046 A:middle
 This is really cool if you
 have a website and an app
 
-00:34:39.045 --> 00:34:40.856 A:middle
+00:34:39.046 --> 00:34:40.856 A:middle
 and you want the
 website to be able
 
@@ -2500,14 +2245,6 @@ right message validation
 00:34:56.196 --> 00:34:57.636 A:middle
 and then check that
 the object is
-
-00:34:57.636 --> 00:35:01.936 A:middle
-of the expected types
-and so forth.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.636 --> 00:35:01.936 A:middle
 of the expected types
@@ -2564,10 +2301,6 @@ running for the iPad simulator.
 00:35:48.346 --> 00:35:50.386 A:middle
 All right, so let me
 show you what we have.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:05.056 --> 00:36:08.156 A:middle
 All right, here's
@@ -2636,10 +2369,6 @@ file to my project.
 00:36:52.736 --> 00:36:55.916 A:middle
 So I have one here
 called hide dot js.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.436 --> 00:37:03.656 A:middle
 So this is a really
@@ -2724,14 +2453,6 @@ in my iPad version.
 You'll see this is where
 again we have a property
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.946 --> 00:38:02.316 A:middle
-You'll see this is where
-again we have a property
-
 00:38:02.316 --> 00:38:05.096 A:middle
 for our WKWebView should
 look awfully familiar.
@@ -2805,10 +2526,6 @@ script object with that string.
 
 00:38:57.906 --> 00:38:59.866 A:middle
 I'm giving it an injection time
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:00.116 --> 00:39:03.736 A:middle
 of WK script injection
@@ -2892,14 +2609,6 @@ the history section.
 Awesome. So now let's
 add a second user script
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:57.466 --> 00:40:01.146 A:middle
-Awesome. So now let's
-add a second user script
-
 00:40:01.436 --> 00:40:04.186 A:middle
 to get the data from that
 table of contents section,
@@ -2958,14 +2667,6 @@ my fetch dot js class.
 00:40:54.206 --> 00:40:56.996 A:middle
 So we're putting that
 JavaScript into an NS string,
-
-00:40:57.256 --> 00:41:00.776 A:middle
-then creating a WK user
-script with that string.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:57.256 --> 00:41:00.776 A:middle
 then creating a WK user
@@ -3055,14 +2756,6 @@ So I'll show that to you.
 So here in my UI table
 view code, I'm just going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:57.926 --> 00:42:03.496 A:middle
-So here in my UI table
-view code, I'm just going
-
 00:42:03.496 --> 00:42:06.976 A:middle
 to make sure that this
 message body this is the data
@@ -3142,10 +2835,6 @@ let's see if it works.
 00:42:55.696 --> 00:42:57.496 A:middle
 Let's build and run.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:43:05.346 --> 00:43:08.646 A:middle
 So here we are, WKPedia, every
 thing's hidden still, great.
@@ -3199,10 +2888,6 @@ table of contents, okay.
 
 00:43:54.096 --> 00:43:54.896 A:middle
 So.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:02.386 --> 00:44:05.396 A:middle
 Here, if I go over into
@@ -3267,10 +2952,6 @@ So let's go back into Xcode.
 00:44:47.846 --> 00:44:48.956 A:middle
 There she is, all right,
 let's build and run.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:04.196 --> 00:45:06.776 A:middle
 Yes, we have our
@@ -3341,14 +3022,6 @@ API on both platforms.
 You get the full
 JavaScript Nitro engine,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.996 --> 00:46:02.656 A:middle
-You get the full
-JavaScript Nitro engine,
-
 00:46:02.746 --> 00:46:04.736 A:middle
 including the fourth
 tier compiler.
@@ -3394,14 +3067,6 @@ that is using either UIWebView
 00:46:53.296 --> 00:46:56.706 A:middle
 or WebView, don't worry,
 those API's are still there.
-
-00:46:57.116 --> 00:47:00.976 A:middle
-But we are committed to this
-new API, the Modern WebKit API,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:57.116 --> 00:47:00.976 A:middle
 But we are committed to this
@@ -3474,10 +3139,6 @@ afternoon called Your App,
 00:47:57.566 --> 00:47:58.996 A:middle
 Your Website, and Safari.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:48:00.226 --> 00:48:03.346 A:middle
 On Thursday, there's a session
 about the web inspector.
@@ -3500,4 +3161,3 @@ much for coming.
 
 00:48:16.156 --> 00:48:16.856 A:middle
 Thanks
-

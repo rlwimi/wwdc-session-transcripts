@@ -1,11 +1,10 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.596 --> 00:00:15.086 A:middle
 &gt;&gt; Good morning and
 welcome to session 508.
 
-00:00:15.276 --> 00:00:16.155 A:middle
+00:00:15.276 --> 00:00:16.156 A:middle
 I'm Brad Ford.
 
 00:00:16.596 --> 00:00:18.886 A:middle
@@ -60,13 +59,6 @@ And seeing as we're so close
 00:00:56.946 --> 00:00:59.736 A:middle
 to lunchtime we thought we'd
 present you a little menu
-
-00:00:59.736 --> 00:01:00.326 A:middle
-of our own.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.736 --> 00:01:00.326 A:middle
 of our own.
@@ -137,14 +129,6 @@ capture classes.
 00:01:53.756 --> 00:01:58.256 A:middle
 If it looks similar to QuickTime
 Player 10, that's no mistake.
-
-00:01:58.256 --> 00:02:01.256 A:middle
-It's QuickTime Player 10
-actually uses an AVCaptureView
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.256 --> 00:02:01.256 A:middle
 It's QuickTime Player 10
@@ -225,14 +209,6 @@ outputs flow through the session
 
 00:02:56.756 --> 00:02:57.546 A:middle
 and are referred
-
-00:02:57.546 --> 00:03:00.006 A:middle
-to as AVCaptureConnections
-in our API set.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.546 --> 00:03:00.006 A:middle
 to as AVCaptureConnections
@@ -319,14 +295,6 @@ custom AVCaptureSession preset,
 a custom frame rate,
 anything that you'd like.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.786 --> 00:04:00.946 A:middle
-a custom frame rate,
-anything that you'd like.
-
 00:04:01.456 --> 00:04:04.286 A:middle
 AVCaptureView will
 still manage the inputs
@@ -397,14 +365,6 @@ devices are presented
 00:04:54.946 --> 00:04:58.376 A:middle
 as CoreMedia IO DAL
 plug-ins the same way
-
-00:04:58.376 --> 00:05:00.876 A:middle
-as any third party
-camera interface.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.376 --> 00:05:00.876 A:middle
 as any third party
@@ -489,14 +449,6 @@ it for Yosemite.
 Let's move on to our iOS
 8 Capture Enhancements.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:57.826 --> 00:06:00.726 A:middle
-Let's move on to our iOS
-8 Capture Enhancements.
-
 00:06:01.646 --> 00:06:05.026 A:middle
 First up, machine-readable
 codes aka barcodes.
@@ -573,14 +525,6 @@ it's a good thing for you
 as developers, because you
 get a more consistent behavior
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.226 --> 00:07:02.186 A:middle
-as developers, because you
-get a more consistent behavior
-
 00:07:02.426 --> 00:07:03.986 A:middle
 across all regions.
 
@@ -649,14 +593,6 @@ lot of enhancement requests.
 00:07:52.186 --> 00:07:58.446 A:middle
 No, like a lot of enhancement
 requests and it turns out a lot
-
-00:07:58.446 --> 00:08:01.526 A:middle
-of you want the same
-things and we listen.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:58.446 --> 00:08:01.526 A:middle
 of you want the same
@@ -740,14 +676,6 @@ to talk about at one session
 so we're going to do it again
 tomorrow, Thursday 11:30
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:58.336 --> 00:09:02.426 A:middle
-so we're going to do it again
-tomorrow, Thursday 11:30
-
 00:09:02.426 --> 00:09:05.826 A:middle
 where we'll just talk about the
 specifics of H.264 encoding.
@@ -816,14 +744,6 @@ power you must provide the
 00:09:57.026 --> 00:09:58.906 A:middle
 responsibility and
 the common sense.
-
-00:09:59.476 --> 00:10:01.716 A:middle
-The manual shifter sure
-makes for a fun drive,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.476 --> 00:10:01.716 A:middle
 The manual shifter sure
@@ -900,14 +820,6 @@ You as a developer might want
 00:10:56.336 --> 00:10:58.546 A:middle
 to develop your own
 focus stacking algorithm,
-
-00:10:58.546 --> 00:11:01.266 A:middle
-so you can pull different
-objects in and out of focus.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.546 --> 00:11:01.266 A:middle
 so you can pull different
@@ -1000,14 +912,6 @@ the nearest and farthest objects
 that can be judged
 to be in focus.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.456 --> 00:12:00.476 A:middle
-that can be judged
-to be in focus.
-
 00:12:01.036 --> 00:12:04.276 A:middle
 At the near end we have
 what's called macro
@@ -1083,14 +987,6 @@ and then parks it there.
 And continuous autofocus,
 which gives the camera freedom
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.636 --> 00:13:02.506 A:middle
-And continuous autofocus,
-which gives the camera freedom
-
 00:13:02.506 --> 00:13:05.296 A:middle
 to refocus anytime it
 thinks the scene has become
@@ -1156,14 +1052,6 @@ as oh, barcodes painted
 
 00:13:53.846 --> 00:13:54.716 A:middle
 on the sides of buildings.
-
-00:13:55.666 --> 00:14:00.356 A:middle
-And then finally we have smooth
-autofocus, which is a modifier
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:55.666 --> 00:14:00.356 A:middle
 And then finally we have smooth
@@ -1254,10 +1142,6 @@ updated based on the key values
 for the lens position
 property during the autofocus.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.446 --> 00:15:05.276 A:middle
 So, as you can see I'm trying
 to focus on this flower here.
@@ -1319,14 +1203,6 @@ That magic was all provided
 00:15:56.906 --> 00:15:59.776 A:middle
 for by this magical
 lensPosition property,
-
-00:15:59.776 --> 00:16:02.076 A:middle
-which was being key-value
-observed and that's how you saw
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.776 --> 00:16:02.076 A:middle
 which was being key-value
@@ -1407,14 +1283,6 @@ This is far superior
 to the adjusting focus
 key-value observation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.846 --> 00:17:00.936 A:middle
-to the adjusting focus
-key-value observation
-
 00:17:00.936 --> 00:17:02.286 A:middle
 because you know exactly
 
@@ -1429,11 +1297,11 @@ on the timeline or clock
 00:17:09.866 --> 00:17:11.246 A:middle
 of the AVCaptureDevice.
 
-00:17:11.626 --> 00:17:14.695 A:middle
+00:17:11.626 --> 00:17:14.696 A:middle
 That's important, because if
 you're going to synchronize it
 
-00:17:14.695 --> 00:17:17.136 A:middle
+00:17:14.696 --> 00:17:17.136 A:middle
 with things coming out of
 an output you will need
 
@@ -1449,7 +1317,7 @@ buffers are going to be
 on the AVCapture session's
 master clocks timeline.
 
-00:17:26.715 --> 00:17:30.066 A:middle
+00:17:26.716 --> 00:17:30.066 A:middle
 The way you would do it is
 by using CMSync services.
 
@@ -1490,14 +1358,6 @@ to exactly where it is right now
 00:17:57.346 --> 00:17:58.426 A:middle
 and then tell me
 when you're done.
-
-00:17:58.936 --> 00:18:00.846 A:middle
-So, it will lock it in
-the position where it is,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.936 --> 00:18:00.846 A:middle
 So, it will lock it in
@@ -1590,14 +1450,6 @@ So, a lens position of
 if you're pointing it straight
 out versus up versus down.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.326 --> 00:19:03.826 A:middle
-if you're pointing it straight
-out versus up versus down.
-
 00:19:04.436 --> 00:19:07.676 A:middle
 Also, the lens position distance
 may vary from device to device
@@ -1670,10 +1522,6 @@ can see larger pixels
 
 00:19:58.116 --> 00:19:59.266 A:middle
 and make a better decision
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.106 --> 00:20:03.326 A:middle
 or if you're using a video data
@@ -1752,10 +1600,6 @@ you have to draw a triangle.
 00:20:58.626 --> 00:20:59.716 A:middle
 That's the way we do things.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.276 --> 00:21:01.986 A:middle
 There are three components
 to exposure
@@ -1831,14 +1675,6 @@ so good when shooting things
 00:21:54.356 --> 00:21:56.416 A:middle
 that move around a lot
 like, say, my kids.
-
-00:21:57.596 --> 00:22:00.146 A:middle
-Shutter speed is
-measured in seconds.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.596 --> 00:22:00.146 A:middle
 Shutter speed is
@@ -1930,14 +1766,6 @@ iOS the only two things we have
 to play with are
 shutter speed and ISO.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.136 --> 00:23:01.356 A:middle
-to play with are
-shutter speed and ISO.
-
 00:23:01.966 --> 00:23:06.936 A:middle
 Now, what have we- what
 do we support currently
@@ -2009,14 +1837,6 @@ ISO and shutter speed.
 00:23:55.796 --> 00:23:58.696 A:middle
 Now, we refer to shutter
 speed as exposure duration
-
-00:23:58.986 --> 00:24:02.476 A:middle
-in the API set since our cameras
-don't have a physical shutter.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.986 --> 00:24:02.476 A:middle
 in the API set since our cameras
@@ -2099,14 +1919,6 @@ to the middle two sliders.
 There's Duration
 and there's ISO.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.926 --> 00:25:00.726 A:middle
-There's Duration
-and there's ISO.
-
 00:25:01.596 --> 00:25:04.986 A:middle
 And Duration, as Brad said, you
 can think of as shutter speed.
@@ -2181,14 +1993,6 @@ time, unless we're
 in some extreme lighting
 situation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.176 --> 00:26:00.726 A:middle
-in some extreme lighting
-situation
-
 00:26:00.726 --> 00:26:03.536 A:middle
 that we can't meet
 the target exposure.
@@ -2240,14 +2044,6 @@ the Duration or lower and sort
 00:26:53.056 --> 00:26:57.386 A:middle
 of get what wouldn't be
 considered a perfect exposure,
-
-00:26:57.386 --> 00:27:01.356 A:middle
-but may be perhaps a
-more artistic exposure
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.386 --> 00:27:01.356 A:middle
 but may be perhaps a
@@ -2331,14 +2127,6 @@ It's still active.
 So, it's still able to
 set ISO and Duration,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.996 --> 00:28:02.136 A:middle
-So, it's still able to
-set ISO and Duration,
-
 00:28:02.346 --> 00:28:04.416 A:middle
 but the difference is
 the metering stats engine
@@ -2416,14 +2204,6 @@ and exposure duration.
 00:28:54.396 --> 00:28:58.246 A:middle
 Those vary according to the
 device format so take note.
-
-00:28:58.636 --> 00:29:01.986 A:middle
-They're implemented in the
-AVCaptureDeviceFormat not
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.636 --> 00:29:01.986 A:middle
 They're implemented in the
@@ -2513,14 +2293,6 @@ directly using these APIs,
 but you can still use the target
 offset to know how you're doing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.646 --> 00:30:02.726 A:middle
-but you can still use the target
-offset to know how you're doing.
-
 00:30:03.226 --> 00:30:08.446 A:middle
 All right, now let's
 talk about a close cousin
@@ -2594,14 +2366,6 @@ the positive direction
 and it's half the
 brightness if you're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.566 --> 00:31:00.356 A:middle
-and it's half the
-brightness if you're going
-
 00:31:00.356 --> 00:31:01.316 A:middle
 in the negative direction.
 
@@ -2658,14 +2422,6 @@ right to increase it.
 00:31:53.316 --> 00:31:58.076 A:middle
 And that exposure target is
 locked in at a higher value now.
-
-00:31:58.076 --> 00:32:02.996 A:middle
-So, you'll see as I
-move the device around,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.076 --> 00:32:02.996 A:middle
 So, you'll see as I
@@ -2735,14 +2491,6 @@ That is exposure compensation.
 00:32:53.386 --> 00:32:58.156 A:middle
 &gt;&gt; Exposure compensation is
 supported in all exposure modes.
-
-00:32:59.116 --> 00:33:02.086 A:middle
-And by now you should be very
-familiar with this pattern.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.116 --> 00:33:02.086 A:middle
 And by now you should be very
@@ -2824,14 +2572,6 @@ as Matt just showed you,
 is the thing that hovers
 around zero usually if you're
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:56.926 --> 00:34:00.126 A:middle
-is the thing that hovers
-around zero usually if you're
-
 00:34:00.126 --> 00:34:02.816 A:middle
 in a well-mannered environment.
 
@@ -2839,28 +2579,28 @@ in a well-mannered environment.
 It's able to a good enough
 job to get the scene well-lit,
 
-00:34:05.856 --> 00:34:08.335 A:middle
+00:34:05.856 --> 00:34:08.336 A:middle
 and when it's well-lit,
 targetOffset is at zero.
 
-00:34:08.786 --> 00:34:12.255 A:middle
+00:34:08.786 --> 00:34:12.256 A:middle
 When you're at some extreme
 condition the targetOffset might
 
-00:34:12.255 --> 00:34:12.866 A:middle
+00:34:12.256 --> 00:34:12.866 A:middle
 move around.
 
-00:34:13.235 --> 00:34:16.746 A:middle
+00:34:13.236 --> 00:34:16.746 A:middle
 You can use it as a meter.
 
 00:34:17.396 --> 00:34:19.936 A:middle
 Now, let's talk about how
 exposure compensation works
 
-00:34:19.936 --> 00:34:21.485 A:middle
+00:34:19.936 --> 00:34:21.486 A:middle
 with our familiar diagram now.
 
-00:34:22.626 --> 00:34:24.565 A:middle
+00:34:22.626 --> 00:34:24.566 A:middle
 In Continuous Auto
 Exposure mode,
 
@@ -2872,22 +2612,22 @@ providing real-time information
 to the block and its
 setting ISO and Duration.
 
-00:34:32.966 --> 00:34:36.775 A:middle
+00:34:32.966 --> 00:34:36.776 A:middle
 Now, you can bias that
 decision of the AE block
 
-00:34:36.775 --> 00:34:38.446 A:middle
+00:34:36.776 --> 00:34:38.446 A:middle
 by setting a new target bias.
 
-00:34:39.106 --> 00:34:44.255 A:middle
+00:34:39.106 --> 00:34:44.256 A:middle
 The AE block uses those metered
 stats plus your bias to set ISO
 
-00:34:44.255 --> 00:34:47.085 A:middle
+00:34:44.256 --> 00:34:47.086 A:middle
 and Duration to a
 new Target Offset.
 
-00:34:47.085 --> 00:34:49.746 A:middle
+00:34:47.086 --> 00:34:49.746 A:middle
 Now, that offset is
 influenced by your bias.
 
@@ -2898,14 +2638,6 @@ one then the Target Offset will
 00:34:53.556 --> 00:34:59.236 A:middle
 hit zero when the plus one
 target has been reached.
-
-00:34:59.666 --> 00:35:01.696 A:middle
-Now, let's look at the
-Locked Exposure mode.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.666 --> 00:35:01.696 A:middle
 Now, let's look at the
@@ -2995,14 +2727,6 @@ All right, two down, one to go.
 Let's talk about
 Manual White Balance.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.076 --> 00:36:00.656 A:middle
-Let's talk about
-Manual White Balance.
-
 00:36:02.676 --> 00:36:05.846 A:middle
 White balance is all
 about making the color
@@ -3067,10 +2791,6 @@ colors visible to a human being
 00:36:55.146 --> 00:36:59.266 A:middle
 from pure blue, to bright
 green on top, to bright red.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.126 --> 00:37:04.566 A:middle
 And any point on the diagram
@@ -3147,13 +2867,6 @@ numbers on the blue side,
 00:37:55.646 --> 00:37:58.286 A:middle
 that's hotter and lower
 numbers on the red side
-
-00:37:58.776 --> 00:38:00.666 A:middle
-in degrees Kelvin again.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:58.776 --> 00:38:00.666 A:middle
 in degrees Kelvin again.
@@ -3243,13 +2956,6 @@ you can do a manual temperature
 00:38:59.646 --> 00:39:00.226 A:middle
 and tint UI.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.646 --> 00:39:00.226 A:middle
-and tint UI.
-
 00:39:01.056 --> 00:39:02.666 A:middle
 You could come up
 with some presets
@@ -3331,10 +3037,6 @@ tries to adjust
 for the lighting
 source conditions.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.586 --> 00:40:04.126 A:middle
 And we let you know when the
 white balance is being adjusted.
@@ -3396,14 +3098,6 @@ Take it away guys.
 
 00:40:52.516 --> 00:40:57.516 A:middle
 [ Applause ]
-
-00:40:58.016 --> 00:41:02.726 A:middle
-&gt;&gt; Okay, let's put exposure back
-into Auto mode now and switch
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:58.016 --> 00:41:02.726 A:middle
 &gt;&gt; Okay, let's put exposure back
@@ -3476,14 +3170,6 @@ the flowers here.
 So, in manual mode, you can
 really see that we can go
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.676 --> 00:42:03.306 A:middle
-So, in manual mode, you can
-really see that we can go
-
 00:42:03.306 --> 00:42:08.316 A:middle
 between a yellowish cast, a
 bluish cast and, with tint,
@@ -3539,13 +3225,6 @@ button we are going
 00:42:54.456 --> 00:42:59.746 A:middle
 to tell it-we are telling
 the API essentially, "Okay,
-
-00:42:59.746 --> 00:43:00.936 A:middle
-we are looking at a gray card.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:59.746 --> 00:43:00.936 A:middle
 we are looking at a gray card.
@@ -3614,14 +3293,6 @@ green and blue individually.
 00:43:54.046 --> 00:43:57.346 A:middle
 They need to be set as a team
 so therefore we need a struct
-
-00:43:57.566 --> 00:44:00.006 A:middle
-for red gain, green
-gain and blue gain.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:57.566 --> 00:44:00.006 A:middle
 for red gain, green
@@ -3706,14 +3377,6 @@ chromaticity values.
 There is also a current special
 parameter that you can set
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.636 --> 00:45:03.216 A:middle
-There is also a current special
-parameter that you can set
-
 00:45:03.216 --> 00:45:05.476 A:middle
 if you just want to lock
 where it is right now.
@@ -3787,14 +3450,6 @@ have RGB gains from the device
 and you want to turn
 those into X,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.346 --> 00:46:01.496 A:middle
-and you want to turn
-those into X,
-
 00:46:01.496 --> 00:46:03.856 A:middle
 Y chromaticity values,
 you call this.
@@ -3860,14 +3515,6 @@ legal value that you can use
 00:46:55.416 --> 00:46:58.386 A:middle
 when setting the white balance
 gains on the AVCaptureDevice.
-
-00:46:58.706 --> 00:47:02.826 A:middle
-So, when using these conversion
-utilities you must do your own
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:58.706 --> 00:47:02.826 A:middle
 So, when using these conversion
@@ -3954,14 +3601,6 @@ of it as a parallel universe
 of AWB values that are
 computed all the time
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:58.056 --> 00:48:01.346 A:middle
-of AWB values that are
-computed all the time
-
 00:48:01.726 --> 00:48:04.516 A:middle
 as if you had a gray card
 in front of the camera.
@@ -4020,13 +3659,6 @@ with those gray world gains.
 00:48:54.566 --> 00:48:57.476 A:middle
 Now, you know you have a neutral
 white and you've taken all
-
-00:48:57.476 --> 00:49:00.186 A:middle
-of the guesswork out of AWB.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:57.476 --> 00:49:00.186 A:middle
 of the guesswork out of AWB.
@@ -4110,14 +3742,6 @@ on the manual controls
 that we've spent the
 bulk of the talk on.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:59.796 --> 00:50:00.976 A:middle
-that we've spent the
-bulk of the talk on.
-
 00:50:03.826 --> 00:50:06.726 A:middle
 All of the AVCaptureDevice
 manual controls happen
@@ -4185,14 +3809,6 @@ two different flavors.
 00:50:54.806 --> 00:50:57.736 A:middle
 The first is an auto
 exposure bracket
-
-00:50:57.926 --> 00:51:01.886 A:middle
-where you are differing the
-bias from image to image,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:57.926 --> 00:51:01.886 A:middle
 where you are differing the
@@ -4272,13 +3888,6 @@ Come on up.
 00:51:59.066 --> 00:52:00.986 A:middle
 My name is John Papandriopoulos.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:59.066 --> 00:52:00.986 A:middle
-My name is John Papandriopoulos.
-
 00:52:01.096 --> 00:52:02.796 A:middle
 I'm great, it's great
 to be here.
@@ -4342,14 +3951,6 @@ in this case a well-lit frame
 00:52:51.276 --> 00:52:54.946 A:middle
 and then an underexposed
 frame following that.
-
-00:52:55.576 --> 00:53:00.216 A:middle
-So, now I'm going to go into the
-fully manual bracketed capture
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:55.576 --> 00:53:00.216 A:middle
 So, now I'm going to go into the
@@ -4431,13 +4032,6 @@ to see what you do with it.
 00:53:57.516 --> 00:54:03.906 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:57.516 --> 00:54:03.906 A:middle
-[ Applause ]
-
 00:54:04.406 --> 00:54:06.976 A:middle
 &gt;&gt; Thanks John for
 slicing and dicing me.
@@ -4494,14 +4088,6 @@ AsynchronouslyFromConnection.
 00:54:53.816 --> 00:54:56.736 A:middle
 The only difference is that
 it has a second parameter,
-
-00:54:56.736 --> 00:55:00.496 A:middle
-an additional parameter, which
-is the settings array and that's
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:56.736 --> 00:55:00.496 A:middle
 an additional parameter, which
@@ -4583,14 +4169,6 @@ or all manual exposure bracket.
 Also, there is a limit to the
 number of images you can take
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:55:59.936 --> 00:56:03.296 A:middle
-Also, there is a limit to the
-number of images you can take
-
 00:56:03.296 --> 00:56:06.276 A:middle
 in a bracket and you
 must not request more
@@ -4663,14 +4241,6 @@ for one bracketed capture
 00:56:56.816 --> 00:56:59.266 A:middle
 and then hold onto those buffers
 and then ask for a second one,
-
-00:56:59.406 --> 00:57:00.876 A:middle
-because the second
-one is going to fail.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:56:59.406 --> 00:57:00.876 A:middle
 because the second
@@ -4756,14 +4326,6 @@ it jpeg, 420f, VGRA.
 Also note that because you
 might be doing long durations,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:57:58.066 --> 00:58:01.196 A:middle
-Also note that because you
-might be doing long durations,
-
 00:58:01.196 --> 00:58:04.566 A:middle
 it might need to expose for a
 long time, that it is typical
@@ -4832,14 +4394,6 @@ for the demos, AVCamManual
 and BracketStripes
 are available now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:58:57.666 --> 00:59:00.736 A:middle
-and BracketStripes
-are available now.
-
 00:59:01.046 --> 00:59:01.776 A:middle
 So, if you go and look
 
@@ -4879,4 +4433,3 @@ Thank you and have a great show.
 
 00:59:25.016 --> 00:59:27.000 A:middle
 [ Applause ]
-

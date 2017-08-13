@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:12.456 A:middle
 [ Music ]
@@ -56,14 +55,6 @@ compute APIs that you'll use
 
 00:00:54.456 --> 00:00:57.206 A:middle
 to program on this computer.
-
-00:00:57.946 --> 00:01:01.006 A:middle
-And then, at the end of the
-talk, we're going to take a look
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.946 --> 00:01:01.006 A:middle
 And then, at the end of the
@@ -133,14 +124,6 @@ form factor
 00:01:54.666 --> 00:01:58.316 A:middle
 than the tower, the
 tower system.
-
-00:01:58.726 --> 00:02:02.266 A:middle
-If we take a look at this
-computer in some detail,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.726 --> 00:02:02.266 A:middle
 If we take a look at this
@@ -222,14 +205,6 @@ to distinguish the two devices.
 In this configuration, one of
 the GPUs is directly connected
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.456 --> 00:03:03.526 A:middle
-In this configuration, one of
-the GPUs is directly connected
-
 00:03:03.526 --> 00:03:06.236 A:middle
 to the display hardware,
 and the other GPU isn't.
@@ -292,14 +267,6 @@ capable package
 00:03:51.366 --> 00:03:54.706 A:middle
 for graphics and
 for GPU compute.
-
-00:03:55.536 --> 00:04:01.666 A:middle
-So now I'd like to explain some
-of the APIs that you can use
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:55.536 --> 00:04:01.666 A:middle
 So now I'd like to explain some
@@ -374,14 +341,6 @@ that you've implemented
 and this might be a
 graphics application
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:57.956 --> 00:05:00.076 A:middle
-and this might be a
-graphics application
-
 00:05:00.076 --> 00:05:02.166 A:middle
 that does some type
 of 3D rendering.
@@ -447,14 +406,6 @@ that you may be familiar
 00:05:54.016 --> 00:05:56.766 A:middle
 with in the Mac from
 other systems.
-
-00:05:57.026 --> 00:06:01.606 A:middle
-It's a lower level API that you
-can use to configure the GPU
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:57.026 --> 00:06:01.606 A:middle
 It's a lower level API that you
@@ -532,14 +483,6 @@ and OpenGL in some detail.
 And most of the programming that
 we'll see in a little while,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.146 --> 00:07:01.056 A:middle
-And most of the programming that
-we'll see in a little while,
-
 00:07:01.186 --> 00:07:04.316 A:middle
 is going to focus on
 this level of the stack.
@@ -607,14 +550,6 @@ extension that allows you
 to set the priority of
 the OpenCL command queues
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.626 --> 00:08:03.536 A:middle
-to set the priority of
-the OpenCL command queues
-
 00:08:03.536 --> 00:08:07.236 A:middle
 that are used when you
 enqueue work onto the GPU.
@@ -677,13 +612,6 @@ challenges that we'll talk
 00:08:59.896 --> 00:09:00.906 A:middle
 about in a little while.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:59.896 --> 00:09:00.906 A:middle
-about in a little while.
-
 00:09:01.626 --> 00:09:10.126 A:middle
 Okay, so when you have this
 computer and the GPUs that are
@@ -742,14 +670,6 @@ to move some of that work
 00:09:55.946 --> 00:09:58.326 A:middle
 from the CPU off
 to a GPU in OpenCL,
-
-00:09:58.656 --> 00:10:00.446 A:middle
-we would perform
-the same operation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.656 --> 00:10:00.446 A:middle
 we would perform
@@ -825,14 +745,6 @@ that you can do to make sure
 00:10:54.026 --> 00:10:57.466 A:middle
 that it's using one
 GPU or the other.
-
-00:10:57.946 --> 00:11:01.576 A:middle
-And also a couple things
-that you can do to make sure
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.946 --> 00:11:01.576 A:middle
 And also a couple things
@@ -915,14 +827,6 @@ in a particular way.
 And I'll show you
 how to do that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.986 --> 00:12:00.176 A:middle
-And I'll show you
-how to do that.
-
 00:12:00.296 --> 00:12:03.356 A:middle
 The way that you select
 the GPU and send work
@@ -979,14 +883,6 @@ CGL is this API that we use.
 
 00:12:56.926 --> 00:12:59.306 A:middle
 It's a Mac platform API.
-
-00:12:59.876 --> 00:13:03.056 A:middle
-And we use it to set
-up our OpenGL context
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.876 --> 00:13:03.056 A:middle
 And we use it to set
@@ -1060,14 +956,6 @@ of a piece of hardware.
 And in OpenGL, there
 are a certain number
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.286 --> 00:14:01.656 A:middle
-And in OpenGL, there
-are a certain number
-
 00:14:01.656 --> 00:14:03.046 A:middle
 of renderers in the system.
 
@@ -1128,14 +1016,6 @@ different renderers
 00:14:56.826 --> 00:14:58.476 A:middle
 and these different
 render IDs in the system.
-
-00:14:58.786 --> 00:15:03.076 A:middle
-And in OpenGL, you do that
-by putting together a list
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.786 --> 00:15:03.076 A:middle
 And in OpenGL, you do that
@@ -1216,14 +1096,6 @@ know, both GPUs are powered up
 and both can perform rendering
 and compute operations,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.896 --> 00:16:03.316 A:middle
-and both can perform rendering
-and compute operations,
-
 00:16:03.366 --> 00:16:05.936 A:middle
 but the terminology is that
 the one that's connected
@@ -1297,19 +1169,11 @@ state in the OpenGL API
 and that state is associated
 with this context object.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.006 --> 00:17:00.196 A:middle
-and that state is associated
-with this context object.
-
 00:17:00.946 --> 00:17:06.836 A:middle
 Now, once we have a context,
 we need a way for that context
 
-00:17:06.925 --> 00:17:09.476 A:middle
+00:17:06.926 --> 00:17:09.476 A:middle
 to refer back to the renderers.
 
 00:17:09.536 --> 00:17:11.086 A:middle
@@ -1331,11 +1195,11 @@ are in the system.
 And so here we have a
 context with three renderers,
 
-00:17:23.986 --> 00:17:27.705 A:middle
+00:17:23.986 --> 00:17:27.706 A:middle
 and we have virtual screen
 numbers, zero through two.
 
-00:17:28.415 --> 00:17:31.776 A:middle
+00:17:28.416 --> 00:17:31.776 A:middle
 Now, the last piece of
 terminology I want to go
 
@@ -1374,14 +1238,6 @@ slightly different state,
 00:17:55.786 --> 00:17:59.346 A:middle
 you can create another
 context that has the same set
-
-00:17:59.346 --> 00:18:03.676 A:middle
-of renderers in it
-and can share objects,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.346 --> 00:18:03.676 A:middle
 of renderers in it
@@ -1444,13 +1300,6 @@ a lot like that GL context,
 00:18:56.006 --> 00:18:59.256 A:middle
 and then a command queue, which
 as it turns out is a little bit
-
-00:18:59.256 --> 00:19:00.316 A:middle
-like the virtual screen.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.256 --> 00:19:00.316 A:middle
 like the virtual screen.
@@ -1531,14 +1380,6 @@ an NSOpenGLView in Cocoa.
 Now, I'm going to create
 an NSOpenGLView and I'd
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.106 --> 00:20:02.216 A:middle
-Now, I'm going to create
-an NSOpenGLView and I'd
-
 00:20:02.216 --> 00:20:03.746 A:middle
 like to use the Core profile.
 
@@ -1603,14 +1444,6 @@ context using this pixel format
 00:20:54.856 --> 00:20:59.336 A:middle
 attribute list by passing it up
 to the super class, when I go
-
-00:20:59.336 --> 00:21:03.086 A:middle
-and do that, I'll get a context
-object initialize that has all
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.336 --> 00:21:03.086 A:middle
 and do that, I'll get a context
@@ -1693,14 +1526,6 @@ in a slightly different way.
 So here what I'm doing,
 is I've created already
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.916 --> 00:22:03.136 A:middle
-So here what I'm doing,
-is I've created already
-
 00:22:03.336 --> 00:22:09.276 A:middle
 in my previous slide, I
 set up my NSOpenGLView.
@@ -1761,14 +1586,6 @@ GPUs in the Mac Pro.
 00:22:57.336 --> 00:22:58.756 A:middle
 And that's really
 the important part.
-
-00:22:58.756 --> 00:23:02.856 A:middle
-It's very important that
-I always create a context
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.756 --> 00:23:02.856 A:middle
 It's very important that
@@ -1842,14 +1659,6 @@ API and the OpenGL API,
 00:23:56.866 --> 00:23:58.896 A:middle
 it turns out there are a
 number of different queries
-
-00:23:58.896 --> 00:24:01.946 A:middle
-that I can make, but
-since the two devices
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.896 --> 00:24:01.946 A:middle
 that I can make, but
@@ -1940,14 +1749,6 @@ the offline GPU.
 So the first thing that I do
 is I iterate the renderers
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.076 --> 00:25:04.096 A:middle
-So the first thing that I do
-is I iterate the renderers
-
 00:25:04.096 --> 00:25:04.726 A:middle
 in the system.
 
@@ -2013,14 +1814,6 @@ does it support OpenCL?
 00:25:51.926 --> 00:25:57.546 A:middle
 And now, in the Mac, the OpenCL
 API actually does have a CPU
-
-00:25:57.546 --> 00:26:00.816 A:middle
-device, but it's presented
-to the system differently
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.546 --> 00:26:00.816 A:middle
 device, but it's presented
@@ -2099,14 +1892,6 @@ in a little while.
 So now I have a renderer ID
 but in order to actually select
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.706 --> 00:27:05.096 A:middle
-So now I have a renderer ID
-but in order to actually select
-
 00:27:05.506 --> 00:27:08.446 A:middle
 or send work to a
 GPU in the system,
@@ -2164,14 +1949,6 @@ with each virtual screen.
 00:27:56.526 --> 00:27:58.946 A:middle
 So I've iterated over
 all the virtual screens,
-
-00:27:59.306 --> 00:28:02.176 A:middle
-gotten their render IDs
-and then matched those
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.306 --> 00:28:02.176 A:middle
 gotten their render IDs
@@ -2257,14 +2034,6 @@ you do it in OpenGL.
 Let's take a look at how
 to do the same operation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.076 --> 00:29:01.886 A:middle
-Let's take a look at how
-to do the same operation
-
 00:29:01.886 --> 00:29:05.206 A:middle
 of the same set of
 operations in OpenCL.
@@ -2322,14 +2091,6 @@ ID to create a command queue
 00:29:52.816 --> 00:29:56.726 A:middle
 and dispatch work
 directly to that GPU.
-
-00:29:56.726 --> 00:30:00.236 A:middle
-And so instead of having to
-do a query for virtual screens
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:56.726 --> 00:30:00.236 A:middle
 And so instead of having to
@@ -2401,14 +2162,6 @@ screen number and,
 00:30:56.816 --> 00:30:59.496 A:middle
 like I said a couple slides
 ago, it's really important
-
-00:30:59.496 --> 00:31:01.836 A:middle
-and I can't emphasize
-this enough, to make sure
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.496 --> 00:31:01.836 A:middle
 and I can't emphasize
@@ -2486,14 +2239,6 @@ created based on the device ID
 that I looked up using the
 process that we just described.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.506 --> 00:32:01.736 A:middle
-that I looked up using the
-process that we just described.
-
 00:32:02.136 --> 00:32:05.816 A:middle
 And I can queue work
 to that GPU.
@@ -2549,14 +2294,6 @@ were working on something
 00:32:54.486 --> 00:32:57.806 A:middle
 that wasn't related to
 rendering or to display.
-
-00:32:58.706 --> 00:33:01.956 A:middle
-And either of those
-things are possible.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.706 --> 00:33:01.956 A:middle
 And either of those
@@ -2640,14 +2377,6 @@ on the secondary GPU.
 So we'd call SetVirtualScreen
 and we'd pass
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.146 --> 00:34:02.376 A:middle
-So we'd call SetVirtualScreen
-and we'd pass
-
 00:34:02.376 --> 00:34:04.156 A:middle
 in the secondary virtual screen.
 
@@ -2659,11 +2388,11 @@ objects, maybe some textures
 that we're going to work
 with, and do some drawing.
 
-00:34:12.005 --> 00:34:15.126 A:middle
+00:34:12.006 --> 00:34:15.126 A:middle
 And then we would call
 glFlushRenderAPPLE()
 
-00:34:15.295 --> 00:34:18.126 A:middle
+00:34:15.296 --> 00:34:18.126 A:middle
 and that's going to -
 that's going to cause all
 
@@ -2671,11 +2400,11 @@ that's going to cause all
 of that GL work to be submitted
 to the device, and it's going
 
-00:34:21.376 --> 00:34:23.545 A:middle
+00:34:21.376 --> 00:34:23.546 A:middle
 to push all of that
 work off to the GPU
 
-00:34:23.545 --> 00:34:27.406 A:middle
+00:34:23.546 --> 00:34:27.406 A:middle
 and the GPU will
 start working on it.
 
@@ -2687,11 +2416,11 @@ future, we're going to want
 to use the results
 that we had computed.
 
-00:34:32.646 --> 00:34:35.065 A:middle
+00:34:32.646 --> 00:34:35.066 A:middle
 Maybe we are rendering
 into an FBL or something.
 
-00:34:35.485 --> 00:34:38.446 A:middle
+00:34:35.486 --> 00:34:38.446 A:middle
 We want to use those
 results on the primary GPU.
 
@@ -2703,7 +2432,7 @@ call CGLSetVirtualScreen,
 pass in the primary GPU's
 virtual screen number,
 
-00:34:46.485 --> 00:34:51.025 A:middle
+00:34:46.486 --> 00:34:51.026 A:middle
 and then start working with
 the data on the primary GPU.
 
@@ -2714,14 +2443,6 @@ is a single OpenGL context.
 00:34:55.606 --> 00:34:57.646 A:middle
 And because there was a
 single OpenGL context,
-
-00:34:57.926 --> 00:35:01.576 A:middle
-it wasn't necessary for
-me to change the state
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.926 --> 00:35:01.576 A:middle
 it wasn't necessary for
@@ -2796,10 +2517,6 @@ of that work onto the device.
 Now, if the runtime was going
 to issue any more commands,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:00.206 --> 00:36:03.106 A:middle
 like for example, if the
 runtime decided that it had
@@ -2861,14 +2578,6 @@ sure that that data movement is
 00:36:53.166 --> 00:36:58.496 A:middle
 in the right order or it
 takes place after the commands
-
-00:36:58.496 --> 00:37:01.636 A:middle
-that I used to create the data
-by calling glFlushRenderAPPLE().
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.496 --> 00:37:01.636 A:middle
 that I used to create the data
@@ -2938,14 +2647,6 @@ type of behavior as we saw
 in the GL case where I made sure
 that that page-off would arrive
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:56.816 --> 00:38:02.296 A:middle
-in the GL case where I made sure
-that that page-off would arrive
-
 00:38:02.296 --> 00:38:07.056 A:middle
 at the GPU, after it had already
 started working on the producer
@@ -3001,14 +2702,6 @@ that's producing the texture
 00:38:53.966 --> 00:38:57.596 A:middle
 or maybe it's producing some
 geometry, after you enqueue
-
-00:38:57.596 --> 00:39:00.826 A:middle
-that work, you always have to
-make sure that you flush it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:57.596 --> 00:39:00.826 A:middle
 that work, you always have to
@@ -3078,10 +2771,6 @@ two GPUs for you as you work
 00:39:58.616 --> 00:39:59.976 A:middle
 on the data in those
 two different places.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.116 --> 00:40:02.906 A:middle
 And the reason that the
@@ -3161,14 +2850,6 @@ will be very easy
 when you move your
 application onto the Mac Pro
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.706 --> 00:41:01.476 A:middle
-when you move your
-application onto the Mac Pro
-
 00:41:01.626 --> 00:41:05.916 A:middle
 to start using two GPUs
 because the application
@@ -3224,14 +2905,6 @@ with is an example of an offline
 00:41:54.286 --> 00:41:59.056 A:middle
 or an offload task where you
 have some kind of operation
-
-00:41:59.486 --> 00:42:04.016 A:middle
-that isn't related to
-display, and you're going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.486 --> 00:42:04.016 A:middle
 that isn't related to
@@ -3304,14 +2977,6 @@ that image off to disk.
 And that operation is
 a discrete operation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.516 --> 00:43:03.196 A:middle
-And that operation is
-a discrete operation.
-
 00:43:03.196 --> 00:43:04.586 A:middle
 It takes a long time.
 
@@ -3375,14 +3040,6 @@ is, it has a lot of -
 00:43:56.326 --> 00:43:57.966 A:middle
 we might have a lot
 of sort of short
-
-00:43:58.216 --> 00:44:01.836 A:middle
-or inexpensive OpenGL
-operations being performed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:58.216 --> 00:44:01.836 A:middle
 or inexpensive OpenGL
@@ -3463,13 +3120,6 @@ It's very straightforward.
 00:44:59.196 --> 00:45:00.716 A:middle
 I have an application here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.196 --> 00:45:00.716 A:middle
-I have an application here.
-
 00:45:01.036 --> 00:45:03.326 A:middle
 The user went into my -
 or the user is going to go
@@ -3545,13 +3195,6 @@ work, the rendering work,
 00:45:59.146 --> 00:46:00.356 A:middle
 between the two devices,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.146 --> 00:46:00.356 A:middle
-between the two devices,
-
 00:46:00.906 --> 00:46:03.886 A:middle
 the window server actually
 will take care of copying data
@@ -3618,14 +3261,6 @@ and also call flushBuffer.
 00:46:52.396 --> 00:46:56.386 A:middle
 In this example, I might
 have two separate parts
-
-00:46:56.386 --> 00:47:00.046 A:middle
-of my application and I'm going
-to render one part on one GPU
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:56.386 --> 00:47:00.046 A:middle
 of my application and I'm going
@@ -3704,14 +3339,6 @@ gotten involved for display
 and it's going to end up
 executing that page-off
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.206 --> 00:48:03.406 A:middle
-and it's going to end up
-executing that page-off
-
 00:48:03.406 --> 00:48:06.006 A:middle
 and then the secondary GPU
 is free to continue working
@@ -3770,14 +3397,6 @@ a task that isn't related
 00:48:51.236 --> 00:48:53.556 A:middle
 to display and moving
 it to the secondary GPU
-
-00:48:53.556 --> 00:49:00.146 A:middle
-or maybe we can parallelize the
-work between the two devices
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:53.556 --> 00:49:00.146 A:middle
 or maybe we can parallelize the
@@ -3863,14 +3482,6 @@ switching feature.
 Also, the tower Mac Pro
 configuration is still available
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:59.596 --> 00:50:06.456 A:middle
-Also, the tower Mac Pro
-configuration is still available
-
 00:50:06.516 --> 00:50:07.956 A:middle
 or is still out there.
 
@@ -3935,14 +3546,6 @@ if you have an offline device.
 00:50:54.046 --> 00:50:58.176 A:middle
 So if you're on a Mac Pro,
 you should have a single -
-
-00:50:58.566 --> 00:51:00.396 A:middle
-basically you should have
-one device that's online
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:58.566 --> 00:51:00.396 A:middle
 basically you should have
@@ -4017,10 +3620,6 @@ to be concerned
 about automatic graphics
 switching.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:52:00.776 --> 00:52:04.486 A:middle
 Okay, so let me show you
 a multi-GPU example now.
@@ -4087,14 +3686,6 @@ fluid animation but it turns
 00:52:56.836 --> 00:52:59.566 A:middle
 out we can do much
 better if we go over here
-
-00:52:59.566 --> 00:53:02.616 A:middle
-and reconfigure the
-demo to use two GPUs.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:59.566 --> 00:53:02.616 A:middle
 and reconfigure the
@@ -4171,10 +3762,6 @@ Let's see if I can restart here.
 00:53:57.606 --> 00:53:59.906 A:middle
 This is a simple example.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:54:00.896 --> 00:54:03.726 A:middle
 And without a huge
 amount of effort,
@@ -4233,14 +3820,6 @@ of the terminology and the way
 that the system behaves will
 help you port applications
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:54:59.146 --> 00:55:01.686 A:middle
-that the system behaves will
-help you port applications
-
 00:55:02.116 --> 00:55:03.546 A:middle
 to this configuration.
 
@@ -4265,4 +3844,3 @@ how we can help you.
 
 00:55:20.016 --> 00:55:30.186 A:middle
 [ Silence ]
-

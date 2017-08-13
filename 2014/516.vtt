@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.856 --> 00:00:14.416 A:middle
 &gt;&gt; Good morning, everyone,
@@ -18,7 +17,7 @@ be talking to you about
 and Usability
 
 00:00:21.686 --> 00:00:23.246 A:middle
-of Complex Web Applications."
+of Complex Web Applications".
 
 00:00:23.806 --> 00:00:27.146 A:middle
 So my teammates and
@@ -71,19 +70,11 @@ be really great to highlight
 for you some of these specific
 accessibility challenges,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.056 --> 00:01:01.576 A:middle
-for you some of these specific
-accessibility challenges,
-
 00:01:01.576 --> 00:01:04.846 A:middle
 as well as provide practical
 solutions for these challenges
 
-00:01:05.135 --> 00:01:06.676 A:middle
+00:01:05.136 --> 00:01:06.676 A:middle
 and give you tips on
 how you may be able
 
@@ -165,14 +156,6 @@ full of data and links.
 00:01:55.556 --> 00:01:57.436 A:middle
 And it was revolutionary
 in its time.
-
-00:01:58.016 --> 00:02:01.116 A:middle
-And while it was revolutionary,
-it was also very simple.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.016 --> 00:02:01.116 A:middle
 And while it was revolutionary,
@@ -265,14 +248,6 @@ It's absolutely incredible.
 And accessibility
 is a broad field
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.266 --> 00:03:02.946 A:middle
-And accessibility
-is a broad field
-
 00:03:02.946 --> 00:03:04.806 A:middle
 that means different
 things to different people.
@@ -347,14 +322,6 @@ and it's crucial for someone
 who needs a wheelchair for
 mobility, but it is just
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.246 --> 00:04:02.036 A:middle
-who needs a wheelchair for
-mobility, but it is just
-
 00:04:02.036 --> 00:04:04.376 A:middle
 as useful for someone
 who is pushing a stroller
@@ -377,13 +344,13 @@ is closed captioning.
 Here, we have a baseball game
 and the announcer is talking
 
-00:04:16.036 --> 00:04:18.356 A:middle
-about this guy's swing -- which
-looks beautiful by the way --
+00:04:16.036 --> 00:04:17.916 A:middle
+about this guy's
+swing-which looks beautiful
 
-00:04:19.206 --> 00:04:20.726 A:middle
-and we're using closed
-captioning
+00:04:17.916 --> 00:04:20.726 A:middle
+by the way-and we're
+using closed captioning
 
 00:04:20.726 --> 00:04:22.446 A:middle
 to provide a text-based
@@ -395,7 +362,7 @@ in this movie.
 
 00:04:24.706 --> 00:04:27.396 A:middle
 This is absolutely vital for
-someone who is hearing impaired
+someone who is hearing-impaired
 
 00:04:27.396 --> 00:04:30.516 A:middle
 or deaf, but it is just
@@ -440,14 +407,6 @@ the top of the page.
 This is the Zoom popup
 button, and you know this
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:57.916 --> 00:05:00.616 A:middle
-This is the Zoom popup
-button, and you know this
-
 00:05:00.656 --> 00:05:02.786 A:middle
 because of the blue outline
 that appeared over the button.
@@ -484,20 +443,18 @@ Then we can navigate the menu
 with the Arrow keys and go
 
 00:05:22.156 --> 00:05:24.216 A:middle
-down to the 75 percent
-Zoom level.
+down to the 75% Zoom level.
 
-00:05:24.586 --> 00:05:28.806 A:middle
-And when we get to the
-75 percent Zoom level,
+00:05:24.586 --> 00:05:29.766 A:middle
+And when we get to the 75% Zoom
+level, a keyboard user expects
 
-00:05:28.806 --> 00:05:30.896 A:middle
-a keyboard user expects to be
-able to press the Space bar
+00:05:29.766 --> 00:05:31.536 A:middle
+to be able to press the
+Space bar to activate
 
-00:05:30.896 --> 00:05:32.656 A:middle
-to activate and select
-that menu item.
+00:05:31.536 --> 00:05:32.656 A:middle
+and select that menu item.
 
 00:05:33.016 --> 00:05:35.456 A:middle
 And so when they do that, you'll
@@ -538,14 +495,6 @@ element popping up onscreen.
 00:05:55.226 --> 00:05:58.386 A:middle
 And being able to interact with
 the user interface of Pages
-
-00:05:58.386 --> 00:06:01.606 A:middle
-for iCloud in this way is
-absolutely crucial for someone
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.386 --> 00:06:01.606 A:middle
 for iCloud in this way is
@@ -639,14 +588,6 @@ specifically on users
 with visual impairments
 that may or may not be able
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.806 --> 00:07:01.126 A:middle
-with visual impairments
-that may or may not be able
-
 00:07:01.126 --> 00:07:03.436 A:middle
 to use our applications
 without some sort
@@ -724,10 +665,6 @@ sold you on the idea
 of making your application
 accessible,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.126 --> 00:08:03.136 A:middle
 let's talk about some of the
 web standards that are out there
@@ -759,7 +696,7 @@ which are: perceivable,
 operable,
 
 00:08:23.516 --> 00:08:25.916 A:middle
-understandable, and robust.
+understandable and robust.
 
 00:08:26.326 --> 00:08:28.016 A:middle
 And we're going to go
@@ -770,7 +707,7 @@ in more detail starting
 with perceivable.
 
 00:08:31.166 --> 00:08:34.326 A:middle
-Perceivable basically means,
+"Perceivable" basically means,
 "Do I know it is there?"
 
 00:08:35.166 --> 00:08:38.126 A:middle
@@ -807,14 +744,6 @@ applications because we
 like to use buttons
 with beautiful icons.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:57.536 --> 00:09:00.006 A:middle
-like to use buttons
-with beautiful icons.
-
 00:09:00.226 --> 00:09:02.426 A:middle
 And we oftentimes
 forget to add the labels
@@ -824,7 +753,8 @@ for these buttons
 into the markup.
 
 00:09:05.546 --> 00:09:08.716 A:middle
-Operable means, "Can I use it?"
+"Operable" means,
+"Can I use it?"
 
 00:09:10.056 --> 00:09:12.376 A:middle
 This goes back to our full
@@ -866,7 +796,7 @@ back and use
 in your own web applications.
 
 00:09:35.616 --> 00:09:37.996 A:middle
-Understandable should
+"Understandable" should
 be fairly obvious:
 
 00:09:38.986 --> 00:09:41.856 A:middle
@@ -877,13 +807,13 @@ content make sense?
 Does it perform in
 predictable ways?
 
-00:09:44.216 --> 00:09:46.716 A:middle
-An example of this
-would be a segmented
+00:09:44.216 --> 00:09:47.606 A:middle
+An example of this would be
+a segmented or pill control,
 
-00:09:46.716 --> 00:09:49.186 A:middle
-or [inaudible] control, such
-as the one found in the Keynote
+00:09:47.606 --> 00:09:49.186 A:middle
+such as the one found
+in the Keynote
 
 00:09:49.186 --> 00:09:50.386 A:middle
 for iCloud Theme Chooser.
@@ -895,14 +825,6 @@ perceivable and operable
 00:09:55.786 --> 00:09:59.086 A:middle
 to a screen reader user, but
 unless it's marked up correctly,
-
-00:09:59.326 --> 00:10:01.156 A:middle
-the user, when they
-land on this control,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.326 --> 00:10:01.156 A:middle
 the user, when they
@@ -944,23 +866,26 @@ user hears something
 00:10:27.516 --> 00:10:28.556 A:middle
 like this instead.
 
-00:10:30.026 --> 00:10:34.486 A:middle
-&gt;&gt; Standard, selected tab, one
-of two, wide tab two of two.
+00:10:30.026 --> 00:10:32.286 A:middle
+&gt;&gt; Standard, selected
+tab, one of two.
 
-00:10:34.856 --> 00:10:39.066 A:middle
-&gt;&gt; So, again, voiceover said,
-"Standard, selected tab,
+00:10:32.896 --> 00:10:34.486 A:middle
+Wide, tab two of two.
 
-00:10:39.286 --> 00:10:42.166 A:middle
-one of two, wide
-tab two of two,"
+00:10:34.856 --> 00:10:38.096 A:middle
+&gt;&gt; So, again, voiceover
+said, "Standard,
 
-00:10:42.466 --> 00:10:44.866 A:middle
-which tells the user everything
+00:10:38.096 --> 00:10:39.976 A:middle
+selected tab, one of two.
+
+00:10:40.376 --> 00:10:43.776 A:middle
+Wide, tab two of two," which
+tells the user everything
+
+00:10:43.776 --> 00:10:45.966 A:middle
 that the sighted user sees
-
-00:10:44.866 --> 00:10:45.966 A:middle
 when they look at this control
 
 00:10:46.146 --> 00:10:48.486 A:middle
@@ -968,8 +893,8 @@ and is a much better
 experience for a voiceover user.
 
 00:10:50.596 --> 00:10:52.796 A:middle
-Now, robust is a bit
-more complicated,
+Now, "robust" is a
+bit more complicated,
 
 00:10:52.796 --> 00:10:55.076 A:middle
 and we can really divide it
@@ -982,10 +907,6 @@ is simply making sure
 00:10:58.036 --> 00:10:59.896 A:middle
 that your markup is
 semantic and correct,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.366 --> 00:11:03.496 A:middle
 such that it is displayed
@@ -1070,14 +991,6 @@ with having accessible content.
 They are meant to
 complement each other
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.656 --> 00:12:01.276 A:middle
-They are meant to
-complement each other
-
 00:12:01.346 --> 00:12:04.326 A:middle
 and give your users options
 should they encounter issues.
@@ -1112,17 +1025,17 @@ applications' accessibility.
 Here are two screenshots
 of the very same web page.
 
-00:12:32.746 --> 00:12:36.146 A:middle
+00:12:32.746 --> 00:12:35.686 A:middle
 The screenshot on the left was
-implemented using only div tags
+implemented using only &lt;div&gt;
 
-00:12:36.146 --> 00:12:37.706 A:middle
-for the headings that
+00:12:35.686 --> 00:12:37.706 A:middle
+tags for the headings that
 you see on the screen.
 
 00:12:38.796 --> 00:12:41.626 A:middle
 The screenshot on the right was
-implemented using semantic h1
+implemented using semantic &lt;h1&gt;
 
 00:12:41.626 --> 00:12:44.186 A:middle
 tags for the headings that
@@ -1151,14 +1064,6 @@ assistive technology,
 these two pages are going
 to appear and they're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.116 --> 00:13:00.266 A:middle
-these two pages are going
-to appear and they're going
-
 00:13:00.266 --> 00:13:02.016 A:middle
 to perform in completely
 different ways.
@@ -1175,7 +1080,7 @@ As I said, the image on the left
 was implemented using only a
 
 00:13:11.086 --> 00:13:11.766 A:middle
-div tag.
+&lt;div&gt; tag.
 
 00:13:11.766 --> 00:13:14.226 A:middle
 And, in fact, the style
@@ -1234,7 +1139,7 @@ best experience for the user.
 
 00:13:46.476 --> 00:13:49.606 A:middle
 Instead, if we were to
-use a semantic h1 tag,
+use a semantic &lt;h1&gt; tag,
 
 00:13:50.206 --> 00:13:53.206 A:middle
 the user using a screen reader
@@ -1246,14 +1151,6 @@ all about widgets.
 
 00:13:57.416 --> 00:13:58.216 A:middle
 &gt;&gt; So the voiceover said,
-
-00:13:58.216 --> 00:14:00.656 A:middle
-"Heading level 1,
-all about widgets."
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.216 --> 00:14:00.656 A:middle
 "Heading level 1,
@@ -1284,7 +1181,7 @@ heading by heading.
 
 00:14:14.946 --> 00:14:18.106 A:middle
 And so using a semantic
-h1 tag allows them
+&lt;h1&gt; tag allows them
 
 00:14:18.106 --> 00:14:21.416 A:middle
 to quickly find their content,
@@ -1344,32 +1241,21 @@ Now, let's say you wanted
 to make this control
 work with the mouse.
 
-00:14:58.856 --> 00:15:01.756 A:middle
+00:14:58.856 --> 00:15:02.056 A:middle
 So you would have to handle
 several mouse events in order
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.856 --> 00:15:01.756 A:middle
-So you would have to handle
-several mouse events in order
-
-00:15:01.756 --> 00:15:05.406 A:middle
+00:15:02.396 --> 00:15:05.406 A:middle
 to make that happen:
-mouse down to be able
+mousedown to be able
 
-00:15:05.406 --> 00:15:06.466 A:middle
+00:15:05.406 --> 00:15:08.316 A:middle
 to start tracking the mouse,
+mousemove to update the control,
 
-00:15:06.786 --> 00:15:08.956 A:middle
-mouse move to update the
-control, and mouse end
-
-00:15:09.256 --> 00:15:11.476 A:middle
-to finally commit that
-value back to the model.
+00:15:08.316 --> 00:15:11.476 A:middle
+and mouseend to finally commit
+that value back to the model.
 
 00:15:11.856 --> 00:15:14.276 A:middle
 Now let's say you wanted to make
@@ -1388,7 +1274,7 @@ that a touch can be cancelled
 if you drag it off of the screen
 
 00:15:23.606 --> 00:15:24.736 A:middle
-or up to the browser chrome.
+or up to the browser, Chrome.
 
 00:15:24.736 --> 00:15:25.866 A:middle
 And so you have to
@@ -1448,16 +1334,8 @@ that visual style when
 focus goes elsewhere.
 
 00:15:56.796 --> 00:15:59.786 A:middle
-And then we have to handle key
-down so that we can respond
-
-00:15:59.786 --> 00:16:03.366 A:middle
-to Arrow keys, Home,
-and Page Up, Page Down,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+And then we have to handle
+keydown so that we can respond
 
 00:15:59.786 --> 00:16:03.366 A:middle
 to Arrow keys, Home,
@@ -1532,7 +1410,7 @@ but they're still
 not quite there.
 
 00:16:49.236 --> 00:16:53.466 A:middle
-And so if you couple that fact
+And so, if you couple that fact
 with a really great designer
 
 00:16:53.466 --> 00:16:55.806 A:middle
@@ -1541,15 +1419,7 @@ really beautiful visual spec
 
 00:16:55.966 --> 00:16:58.766 A:middle
 for a slider, you're probably
-going to have to role your own.
-
-00:16:59.266 --> 00:17:01.616 A:middle
-And so let's go back to our
-custom slider control and talk
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+going to have to roll your own.
 
 00:16:59.266 --> 00:17:01.616 A:middle
 And so let's go back to our
@@ -1567,14 +1437,14 @@ that we used,
 and we implemented
 these JavaScript events.
 
-00:17:09.396 --> 00:17:11.945 A:middle
+00:17:09.396 --> 00:17:11.946 A:middle
 But you may be surprised to know
 
-00:17:11.945 --> 00:17:14.205 A:middle
+00:17:11.946 --> 00:17:14.206 A:middle
 that this control is absolutely
 inaccessible for someone
 
-00:17:14.205 --> 00:17:16.286 A:middle
+00:17:14.206 --> 00:17:16.286 A:middle
 who is using a screen
 reader or a braille device.
 
@@ -1590,7 +1460,7 @@ much less its current state
 with a minimum and maximum value
 as well as a current value.
 
-00:17:27.205 --> 00:17:30.486 A:middle
+00:17:27.206 --> 00:17:30.486 A:middle
 And what's worse is that HTML
 doesn't really give us any
 
@@ -1629,16 +1499,8 @@ So going back to our custom
 slider, ARIA allows us
 
 00:17:58.946 --> 00:18:01.776 A:middle
-to give this div tag
-a role of slider.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:58.946 --> 00:18:01.776 A:middle
-to give this div tag
-a role of slider.
+to give this &lt;div&gt;
+tag a role of slider.
 
 00:18:02.826 --> 00:18:04.916 A:middle
 Now, it's worth mentioning
@@ -1672,20 +1534,20 @@ as well as its current state.
 So in the case of a slider,
 we need to tell the user
 
-00:18:25.216 --> 00:18:28.796 A:middle
-about the minimum value and the
-maximum value using ARIA Value
+00:18:25.216 --> 00:18:28.176 A:middle
+about the minimum value
+and the maximum value using
 
-00:18:28.796 --> 00:18:30.966 A:middle
-Min and ARIA Value
-Max, respectively.
+00:18:28.176 --> 00:18:30.966 A:middle
+aria-valuemin and
+aria-valuemax, respectively.
 
 00:18:31.756 --> 00:18:34.246 A:middle
 We also need to tell the user
 what the current value is,
 
-00:18:34.426 --> 00:18:36.136 A:middle
-so we'll add ARIA Value Now.
+00:18:34.426 --> 00:18:35.816 A:middle
+so we'll add aria-valuenow.
 
 00:18:37.626 --> 00:18:40.766 A:middle
 It's worth mentioning that
@@ -1695,17 +1557,17 @@ while we had to handle all
 of the JavaScript events
 manually, we also have
 
-00:18:43.006 --> 00:18:45.786 A:middle
-to handle updating
-ARIA Value Now
-
-00:18:45.786 --> 00:18:48.216 A:middle
+00:18:43.006 --> 00:18:47.196 A:middle
+to handle updating aria-valuenow
 when the slider's value changes,
-so that's yet another thing
 
-00:18:48.216 --> 00:18:51.126 A:middle
-that you have to keep track of
-if you're using custom controls.
+00:18:47.196 --> 00:18:49.116 A:middle
+so that's yet another thing
+that you have to keep track
+
+00:18:49.116 --> 00:18:51.126 A:middle
+of if you're using
+custom controls.
 
 00:18:51.736 --> 00:18:55.546 A:middle
 But ARIA has now allowed us to
@@ -1714,10 +1576,6 @@ give the semantic equivalent
 00:18:55.846 --> 00:18:58.766 A:middle
 of a slider using just a
 little bit more markup.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:01.136 --> 00:19:04.576 A:middle
 Now, ARIA is not just for
@@ -1739,20 +1597,23 @@ headings example,
 let's say that it was too
 risky for you to be able
 
-00:19:13.166 --> 00:19:16.996 A:middle
-to change your code to spit out
-an h1 tag instead of a div tag.
+00:19:13.166 --> 00:19:14.906 A:middle
+to change your code to spit
+
+00:19:14.906 --> 00:19:16.996 A:middle
+out an &lt;h1&gt; tag instead
+of a &lt;div&gt; tag.
 
 00:19:17.366 --> 00:19:21.396 A:middle
 In that case, we could apply
 an ARIA role of Heading as well
 
 00:19:21.396 --> 00:19:23.256 A:middle
-as ARIA Level 1 to be able
+as aria-level="1" to be able
 
 00:19:23.256 --> 00:19:26.896 A:middle
 to give this tag the semantic
-equivalent of h1 as far
+equivalent of &lt;h1&gt; as far
 
 00:19:26.896 --> 00:19:28.436 A:middle
 as assistive technology
@@ -1763,30 +1624,33 @@ Now, obviously for other
 reasons, it would be better
 
 00:19:30.856 --> 00:19:31.616 A:middle
-for us to use an h1 tag,
+for us to use an &lt;h1&gt; tag,
 
 00:19:31.616 --> 00:19:34.656 A:middle
 but this gives you an option
 should that not be possible.
 
-00:19:35.726 --> 00:19:38.746 A:middle
+00:19:35.726 --> 00:19:38.136 A:middle
 Conversely, let's say that
-you were using an h1 tag
+you were using an &lt;h1.
 
-00:19:39.236 --> 00:19:42.116 A:middle
-and for whatever reason this is
-not a heading; it was just used
+00:19:38.136 --> 00:19:41.526 A:middle
+tag and for whatever reason
+this is not a heading;
 
-00:19:42.116 --> 00:19:44.726 A:middle
-for styling or whatever
-else you might use it for.
+00:19:41.526 --> 00:19:42.786 A:middle
+it was just used for styling
+
+00:19:42.786 --> 00:19:44.726 A:middle
+or whatever else you
+might use it for.
 
 00:19:45.386 --> 00:19:47.806 A:middle
 ARIA has this idea
 of implicit roles.
 
 00:19:48.076 --> 00:19:51.306 A:middle
-And so an h1 tag would
+And so an &lt;h1&gt; tag would
 automatically get a role
 
 00:19:51.306 --> 00:19:53.976 A:middle
@@ -1796,33 +1660,28 @@ of 1, so you wouldn't need
 00:19:53.976 --> 00:19:55.496 A:middle
 to specify it in that case.
 
-00:19:55.996 --> 00:19:58.746 A:middle
-But if you were using an h1 tag
-where you didn't want to convey
+00:19:55.996 --> 00:19:58.316 A:middle
+But if you were using an &lt;h1&gt;
+tag where you didn't want
 
-00:19:58.746 --> 00:20:02.126 A:middle
-that semantic meaning, you could
-give it a role of Presentation,
+00:19:58.316 --> 00:20:01.256 A:middle
+to convey that semantic meaning,
+you could give it a role
 
+00:20:01.256 --> 00:20:04.666 A:middle
+of "presentation", which
+would basically strip all
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:20:04.666 --> 00:20:06.846 A:middle
+of the semantic information
+away from this tag
 
-00:19:58.746 --> 00:20:02.126 A:middle
-that semantic meaning, you could
-give it a role of Presentation,
+00:20:07.406 --> 00:20:09.656 A:middle
+from assistive technology
+and give it the equivalent
 
-00:20:02.646 --> 00:20:05.996 A:middle
-which would basically strip all
-of the semantic information away
-
-00:20:05.996 --> 00:20:08.826 A:middle
-from this tag from
-assistive technology
-
-00:20:08.826 --> 00:20:11.106 A:middle
-and give it the equivalent of
-being just a plain div tag.
+00:20:09.656 --> 00:20:11.106 A:middle
+of being just a plain &lt;div&gt; tag.
 
 00:20:11.886 --> 00:20:15.466 A:middle
 So that can be useful in time.
@@ -1881,16 +1740,8 @@ to it with the keyboard
 or manually using JavaScript.
 
 00:20:52.736 --> 00:20:59.836 A:middle
-And a tabindex of 0 means
+And a tabindex of "0" means
 that an element is focusable
-
-00:20:59.936 --> 00:21:02.936 A:middle
-with JavaScript and it is
-in the default tab order.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.936 --> 00:21:02.936 A:middle
 with JavaScript and it is
@@ -1904,7 +1755,7 @@ get to it simply by tabbing
 to it with the keyboard.
 
 00:21:07.296 --> 00:21:10.416 A:middle
-A tabindex of negative 1 means
+A tabindex of "-1" means
 that an element is focusable
 
 00:21:10.516 --> 00:21:13.436 A:middle
@@ -1977,14 +1828,6 @@ setup in web applications
 where you have some focusable
 content at the top of the page,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:57.526 --> 00:22:00.456 A:middle
-where you have some focusable
-content at the top of the page,
-
 00:22:00.716 --> 00:22:02.156 A:middle
 then you have a list of items,
 
@@ -2030,7 +1873,7 @@ And this is because none of
 the menu items have a tabindex
 
 00:22:29.806 --> 00:22:31.206 A:middle
-and they're just plain divs.
+and they're just plain &lt;divs&gt;.
 
 00:22:32.986 --> 00:22:34.216 A:middle
 Now, let's say you wanted
@@ -2040,8 +1883,8 @@ to make these menu items
 accessible with the keyboard.
 
 00:22:37.956 --> 00:22:40.046 A:middle
-You could simply
-add a tabindex of 0
+You could simply add
+a tabindex of "0"
 
 00:22:40.046 --> 00:22:41.556 A:middle
 to each one of these menu items.
@@ -2069,20 +1912,12 @@ So a better experience would be
 to only expose the currently
 selected item in the tab order.
 
-00:22:57.786 --> 00:23:00.946 A:middle
+00:22:57.786 --> 00:23:00.966 A:middle
 And we do that by giving
 every other element a tabindex
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:57.786 --> 00:23:00.946 A:middle
-And we do that by giving
-every other element a tabindex
-
-00:23:00.946 --> 00:23:01.696 A:middle
-of negative 1.
+00:23:01.016 --> 00:23:01.696 A:middle
+of "-1".
 
 00:23:02.486 --> 00:23:04.286 A:middle
 So now the behavior
@@ -2094,14 +1929,14 @@ key, focus is going to go
 
 00:23:06.946 --> 00:23:09.756 A:middle
 to the first element in the
-DOM that has a tabindex of 0,
+DOM that has a tabindex of "0",
 
 00:23:10.746 --> 00:23:12.656 A:middle
 then it's going to go to
 the next element in the DOM
 
 00:23:12.656 --> 00:23:13.926 A:middle
-that has a tabindex of 0.
+that has a tabindex of "0".
 
 00:23:14.166 --> 00:23:18.496 A:middle
 In this case, it's going to be
@@ -2113,7 +1948,7 @@ this list using the Arrow keys,
 
 00:23:22.756 --> 00:23:25.226 A:middle
 you can see that we
-are moving tabindex 0
+are moving tabindex "0"
 
 00:23:25.226 --> 00:23:28.176 A:middle
 to the currently selected
@@ -2139,12 +1974,12 @@ to leave the list and skip
 over all of the elements
 
 00:23:40.976 --> 00:23:43.996 A:middle
-with a tabindex of negative
-1 and go to the next element
+with a tabindex of "-1"
+and go to the next element
 
 00:23:43.996 --> 00:23:45.996 A:middle
 that has a tabindex of
-0, which is the link
+"0", which is the link
 
 00:23:45.996 --> 00:23:47.046 A:middle
 at the bottom of the page.
@@ -2163,14 +1998,6 @@ link at the bottom,
 00:23:55.386 --> 00:23:58.806 A:middle
 they would go directly back to
 the currently selected menu item
-
-00:23:58.806 --> 00:24:01.256 A:middle
-in the list, which is a
-really great experience
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.806 --> 00:24:01.256 A:middle
 in the list, which is a
@@ -2254,14 +2081,6 @@ you can see that we can zoom.
 This is very similar to the
 Pages for iCloud user interface
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.956 --> 00:25:00.816 A:middle
-This is very similar to the
-Pages for iCloud user interface
-
 00:25:00.816 --> 00:25:01.796 A:middle
 that we looked at earlier.
 
@@ -2321,7 +2140,7 @@ the Tab key repeatedly
 
 00:25:41.446 --> 00:25:45.586 A:middle
 and you just see that the Safari
-Address bar is getting focused.
+address bar is getting focused.
 
 00:25:45.586 --> 00:25:47.366 A:middle
 Nothing on the page
@@ -2344,17 +2163,10 @@ you can see that the buttons
 I have here are just made
 
 00:25:58.596 --> 00:26:01.216 A:middle
-with standard div tags.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.596 --> 00:26:01.216 A:middle
-with standard div tags.
+with standard &lt;div&gt; tags.
 
 00:26:01.396 --> 00:26:03.776 A:middle
-And standard div tags don't
+And standard &lt;div&gt; tags don't
 have an implicit tabindex
 
 00:26:03.776 --> 00:26:04.936 A:middle
@@ -2366,7 +2178,7 @@ working with the keyboard,
 
 00:26:09.436 --> 00:26:12.146 A:middle
 we need to just add a tabindex
-of 0 to each one of those.
+of "0" to each one of those.
 
 00:26:12.646 --> 00:26:14.916 A:middle
 So let me go ahead and just
@@ -2377,11 +2189,11 @@ So you can see that the Zoom
 popup button now has a tabindex
 
 00:26:19.336 --> 00:26:19.846 A:middle
-of 0.
+of "0".
 
 00:26:20.286 --> 00:26:23.216 A:middle
-And the Save button next
-to it has a tabindex of 0.
+And the Save button next to
+it has a tabindex of "0".
 
 00:26:23.816 --> 00:26:26.366 A:middle
 And so now if we save and we
@@ -2438,14 +2250,6 @@ a keyboard user will never know
 that they have focus, and
 therefore they'll never know
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.756 --> 00:27:00.826 A:middle
-that they have focus, and
-therefore they'll never know
-
 00:27:00.826 --> 00:27:02.176 A:middle
 that they'll be able
 to interact with them.
@@ -2487,8 +2291,8 @@ so that gets rid of the blue
 outline that they hated.
 
 00:27:35.986 --> 00:27:39.906 A:middle
-And then I'm adding border
-color to the button itself,
+And then I'm adding border-color
+to the button itself,
 
 00:27:40.046 --> 00:27:41.366 A:middle
 which makes it look
@@ -2527,14 +2331,6 @@ actually activate these controls
 
 00:27:58.856 --> 00:27:59.496 A:middle
 with the keyboard.
-
-00:27:59.836 --> 00:28:01.846 A:middle
-So if I press the Space
-bar, I would expect
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.836 --> 00:28:01.846 A:middle
 So if I press the Space
@@ -2625,14 +2421,6 @@ All right.
 So if we save and go back to
 the menu, we hit the Tab key
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.996 --> 00:29:04.996 A:middle
-So if we save and go back to
-the menu, we hit the Tab key
-
 00:29:04.996 --> 00:29:07.176 A:middle
 and now we want to hit the
 Space bar to activate the menu.
@@ -2675,12 +2463,12 @@ and add some additional
 keyboard handlers to the menu
 
 00:29:31.166 --> 00:29:32.946 A:middle
-for focusing the next
-and previous item.
+for focusing the Next
+and Previous item.
 
 00:29:33.336 --> 00:29:35.566 A:middle
 So as you can see here,
-we're handling a key down
+we're handling a keydown
 
 00:29:36.336 --> 00:29:39.336 A:middle
 and we're checking the key code
@@ -2691,15 +2479,15 @@ And when we get a Down Arrow or
 an Up Arrow, we're simply going
 
 00:29:42.576 --> 00:29:44.156 A:middle
-to focus the next or
-the previous item.
+to focus the Next or
+the Previous item.
 
 00:29:44.796 --> 00:29:47.126 A:middle
 And so let's jump over to that
 code and see what that does.
 
 00:29:48.256 --> 00:29:52.256 A:middle
-So Focus Next Item just gets
+So focusNextItem just gets
 the currently focused item.
 
 00:29:52.256 --> 00:29:54.286 A:middle
@@ -2714,17 +2502,9 @@ next item to focus in the list.
 And so if we look
 at that method,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.706 --> 00:30:00.946 A:middle
-And so if we look
-at that method,
-
 00:30:01.476 --> 00:30:03.816 A:middle
-you can see that we're setting
-the tabindex of negative 1
+you can see that we're
+setting the tabindex of "-1"
 
 00:30:03.816 --> 00:30:06.666 A:middle
 and then we're just calling
@@ -2739,7 +2519,7 @@ calling focus on an element
 that is not focusable, i.e., a,
 
 00:30:14.416 --> 00:30:17.956 A:middle
-you know, normal div tag,
+you know, normal &lt;div&gt; tag,
 
 00:30:18.016 --> 00:30:19.656 A:middle
 which doesn't get an
@@ -2758,8 +2538,7 @@ for this element
 before we call focus.
 
 00:30:26.216 --> 00:30:27.746 A:middle
-So we're setting
-it to negative 1.
+So we're setting it to "-1".
 
 00:30:27.746 --> 00:30:30.626 A:middle
 And you might be asking,
@@ -2792,8 +2571,8 @@ to jump away from the menu to
 the next button in the toolbar.
 
 00:30:47.356 --> 00:30:49.696 A:middle
-And so that's why we're using
-negative 1 here, to keep them
+And so that's why we're
+using "-1" here, to keep them
 
 00:30:49.696 --> 00:30:52.666 A:middle
 out of the tab order and let
@@ -2808,14 +2587,6 @@ jump back to the menu
 
 00:30:56.636 --> 00:30:58.716 A:middle
 and then we hit the Space bar.
-
-00:30:59.166 --> 00:31:01.486 A:middle
-So now you can see that the
-currently selected item is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.166 --> 00:31:01.486 A:middle
 So now you can see that the
@@ -2863,11 +2634,11 @@ key, the menu goes away
 and focus is returned to
 the next item in the menu.
 
-00:31:27.366 --> 00:31:29.336 A:middle
+00:31:27.366 --> 00:31:29.056 A:middle
 That's why we set
-tabindex to negative 1.
+tabindex to "-1".
 
-00:31:29.456 --> 00:31:30.156 A:middle
+00:31:29.056 --> 00:31:30.156 A:middle
 All right.
 
 00:31:30.156 --> 00:31:31.316 A:middle
@@ -2883,7 +2654,7 @@ to do is go back
 
 00:31:38.136 --> 00:31:41.246 A:middle
 up to our switch statement
-here that handles our key down,
+here that handles our keydown,
 
 00:31:41.476 --> 00:31:43.146 A:middle
 and we're going to add
@@ -2903,14 +2674,6 @@ not handle the Escape key;
 
 00:31:55.896 --> 00:31:57.096 A:middle
 we're going to do that next.
-
-00:31:57.526 --> 00:32:01.286 A:middle
-So we've added Space bar
-and Return, 32 and 13,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:57.526 --> 00:32:01.286 A:middle
 So we've added Space bar
@@ -2939,12 +2702,11 @@ with the mouse.
 So we can go back to our
 menu and refresh the page.
 
-00:32:17.336 --> 00:32:19.396 A:middle
-And then as we go to
-say 75 percent zoom,
+00:32:17.336 --> 00:32:20.236 A:middle
+And then as we go to say 75%
+zoom, you can hit the Space bar
 
-00:32:19.396 --> 00:32:21.176 A:middle
-you can hit the Space bar
+00:32:20.236 --> 00:32:21.176 A:middle
 and see that that works.
 
 00:32:21.426 --> 00:32:23.496 A:middle
@@ -3004,28 +2766,17 @@ to be very simple.
 We're just going
 to add that code.
 
+00:33:00.616 --> 00:33:02.936 A:middle
+And then we're going
+to go in and,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:33:03.716 --> 00:33:06.596 A:middle
+when the Escape key is pressed,
+we're going to focus the button
 
-00:32:57.786 --> 00:33:00.616 A:middle
-We're just going
-to add that code.
-
-00:33:00.616 --> 00:33:02.456 A:middle
-And then we're going to go in
-
-00:33:02.456 --> 00:33:04.986 A:middle
-and when the Escape
-key is pressed,
-
-00:33:05.316 --> 00:33:07.446 A:middle
-we're going to focus the
-button that opened the menu
-
-00:33:07.446 --> 00:33:09.016 A:middle
-and then we're going
-to close the menu.
+00:33:06.636 --> 00:33:09.016 A:middle
+that opened the menu and then
+we're going to close the menu.
 
 00:33:09.836 --> 00:33:14.236 A:middle
 Similarly, when Enter
@@ -3049,17 +2800,13 @@ So very simple stuff,
 but it really improves the
 usability for this code.
 
-00:33:25.226 --> 00:33:28.956 A:middle
-So going back to Safari,
-we go to the menu,
+00:33:25.226 --> 00:33:30.066 A:middle
+So going back to Safari, we
+go to the menu, we select 50%
 
-00:33:28.956 --> 00:33:31.326 A:middle
-we select 50 percent
-and you can see
-
-00:33:31.326 --> 00:33:33.226 A:middle
-that the Zoom popup
-button is selected now
+00:33:30.746 --> 00:33:33.226 A:middle
+and you can see that the Zoom
+popup button is selected now
 
 00:33:33.226 --> 00:33:34.046 A:middle
 when the menu goes away.
@@ -3100,10 +2847,6 @@ is able to interact
 00:33:58.526 --> 00:33:59.696 A:middle
 with these elements correctly.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.146 --> 00:34:02.346 A:middle
 So the way I'm going to do
 that is I'm going to turn
@@ -3122,15 +2865,15 @@ on voiceover
 00:34:07.836 --> 00:34:09.686 A:middle
 on your Mac with Command-F5.
 
-00:34:10.076 --> 00:34:14.545 A:middle
+00:34:10.076 --> 00:34:14.546 A:middle
 &gt;&gt; Voiceover on, Safari editor
 window, editor HTML content.
 
-00:34:15.216 --> 00:34:18.295 A:middle
+00:34:15.216 --> 00:34:18.296 A:middle
 &gt;&gt; OK, so voiceover came
 on and told us that we are
 
-00:34:18.295 --> 00:34:20.056 A:middle
+00:34:18.296 --> 00:34:20.056 A:middle
 on the editor HTML content.
 
 00:34:20.376 --> 00:34:22.956 A:middle
@@ -3140,7 +2883,7 @@ through this page and kind
 00:34:22.956 --> 00:34:23.856 A:middle
 of see what's going on.
 
-00:34:23.856 --> 00:34:28.005 A:middle
+00:34:23.856 --> 00:34:28.006 A:middle
 I'm going to quickly jump
 over to the Zoom button.
 
@@ -3151,30 +2894,30 @@ over to the Zoom button.
 tool interact 5-0
 percent clickable.
 
-00:34:33.085 --> 00:34:35.616 A:middle
+00:34:33.086 --> 00:34:35.616 A:middle
 &gt;&gt; OK, so we got to the Zoom
 button and voiceover said,
 
 00:34:35.706 --> 00:34:37.266 A:middle
 "5-0 percent clickable."
 
-00:34:37.856 --> 00:34:39.985 A:middle
+00:34:37.856 --> 00:34:39.986 A:middle
 Now, that does tell
 us what the content is
 
-00:34:39.985 --> 00:34:41.956 A:middle
+00:34:39.986 --> 00:34:41.956 A:middle
 of that particular
-div, and it tells us
+&lt;div&gt;, and it tells us
 
 00:34:41.956 --> 00:34:43.386 A:middle
 that they can do
 something with it,
 
-00:34:43.716 --> 00:34:46.045 A:middle
+00:34:43.716 --> 00:34:46.046 A:middle
 but it doesn't really
 give them any information
 
-00:34:46.045 --> 00:34:48.646 A:middle
+00:34:46.046 --> 00:34:48.646 A:middle
 about what this button is
 or really what it does.
 
@@ -3197,20 +2940,12 @@ this button
 that they're going
 to get a menu.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:34:59.156 --> 00:35:00.126 A:middle
-that they're going
-to get a menu.
-
 00:35:00.856 --> 00:35:02.316 A:middle
 And so let's turn off voiceover
 
 00:35:02.316 --> 00:35:05.116 A:middle
 and let's go add some ARIA
-attributes to this div tag
+attributes to this &lt;div&gt; tag
 
 00:35:05.476 --> 00:35:07.256 A:middle
 to convey this information
@@ -3247,7 +2982,7 @@ role of button.
 
 00:35:25.556 --> 00:35:30.056 A:middle
 And then we've also added the
-ARIA property haspopup=true.
+ARIA property haspopup="true".
 
 00:35:30.746 --> 00:35:32.016 A:middle
 And what that tells the user is
@@ -3280,7 +3015,7 @@ all we need to do
 
 00:35:44.076 --> 00:35:47.486 A:middle
 because the label is pure
-text inside of the div tag.
+text inside of the &lt;div&gt; tag.
 
 00:35:47.486 --> 00:35:49.386 A:middle
 And so voiceover is going
@@ -3294,14 +3029,7 @@ So if we jump over to
 Safari and refresh the page
 
 00:35:56.246 --> 00:35:57.156 A:middle
-and we turn on voiceover --
-
-00:35:59.866 --> 00:36:00.896 A:middle
-&gt;&gt; Voiceover on.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+and we turn on voiceover:
 
 00:35:59.866 --> 00:36:00.896 A:middle
 &gt;&gt; Voiceover on.
@@ -3317,16 +3045,13 @@ popup button.
 00:36:07.496 --> 00:36:08.866 A:middle
 And that's a lot better,
 
-00:36:08.866 --> 00:36:10.776 A:middle
-but we're still not
-getting the actual --
+00:36:08.866 --> 00:36:12.586 A:middle
+but we're still not getting the
+actual-we're still not telling
 
-00:36:11.256 --> 00:36:12.706 A:middle
-we're still not telling them
-
-00:36:12.706 --> 00:36:14.236 A:middle
-that this is a Zoom
-popup button.
+00:36:12.586 --> 00:36:14.236 A:middle
+them that this is a
+Zoom popup button.
 
 00:36:14.506 --> 00:36:16.606 A:middle
 So we're going to go add
@@ -3360,10 +3085,10 @@ actually handles selection.
 
 00:36:35.406 --> 00:36:38.016 A:middle
 And so we've added this
-method called sync value,
+method called syncValue,
 
 00:36:38.396 --> 00:36:42.216 A:middle
-which basically what it does
+which basically, what it does
 is when the selection changes
 
 00:36:42.216 --> 00:36:45.346 A:middle
@@ -3389,14 +3114,8 @@ And what we're doing is we're
 just prepending the value along
 
 00:36:57.956 --> 00:37:00.226 A:middle
-with a localized string of Zoom.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:57.956 --> 00:37:00.226 A:middle
-with a localized string of Zoom.
+with a localized
+string of "Zoom".
 
 00:37:00.226 --> 00:37:03.086 A:middle
 And that allows us to tell
@@ -3422,7 +3141,7 @@ to know about this control.
 
 00:37:14.576 --> 00:37:16.016 A:middle
 Now, if we activate
-this control --
+this control:
 
 00:37:16.536 --> 00:37:17.786 A:middle
 &gt;&gt; You are currently
@@ -3457,13 +3176,13 @@ accessible for voiceover.
 &gt;&gt; So if we flip back
 over to the markup,
 
-00:37:36.676 --> 00:37:40.176 A:middle
+00:37:36.676 --> 00:37:39.686 A:middle
 you can see that the menu is
-implemented using only div tags,
+implemented using only &lt;div&gt;
 
-00:37:40.426 --> 00:37:42.496 A:middle
-which is typically how
-you would use a menu.
+00:37:39.686 --> 00:37:42.496 A:middle
+tags, which is typically
+how you would use a menu.
 
 00:37:42.966 --> 00:37:46.166 A:middle
 And so all we want to do is add
@@ -3476,20 +3195,15 @@ to get it usable with voiceover.
 So we add it to the menu, a
 role of menu, and then for each
 
-00:37:53.326 --> 00:37:56.606 A:middle
-of the items we add role of menu
-item radio, which tells the user
+00:37:53.326 --> 00:37:55.676 A:middle
+of the items we add
+role of "menuitemradio",
 
-00:37:56.606 --> 00:38:00.436 A:middle
-that they can only select one
-of these menu items at a time.
+00:37:55.796 --> 00:37:57.856 A:middle
+which tells the user that
+they can only select one
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:56.606 --> 00:38:00.436 A:middle
-that they can only select one
+00:37:57.856 --> 00:38:00.436 A:middle
 of these menu items at a time.
 
 00:38:00.536 --> 00:38:02.456 A:middle
@@ -3509,8 +3223,8 @@ but for this purpose we're only
 going to use menu item radio.
 
 00:38:08.726 --> 00:38:11.866 A:middle
-And then we're going
-to add ARIAchecked=true
+And then we're going to
+add ARIAchecked="true"
 
 00:38:11.906 --> 00:38:13.446 A:middle
 for the currently
@@ -3593,20 +3307,9 @@ state was updated.
 &gt;&gt; One checkmark
 7-5 percent check.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.076 --> 00:39:01.216 A:middle
-&gt;&gt; One checkmark
-7-5 percent check.
-
-00:39:01.596 --> 00:39:03.096 A:middle
-5-0 percent, 5-0 --
-
-00:39:03.296 --> 00:39:05.936 A:middle
-one checkmark 7-5
-percent check, check.
+00:39:01.596 --> 00:39:05.936 A:middle
+5-0 percent, 5-0-one checkmark
+7-5 percent check, check.
 
 00:39:06.186 --> 00:39:08.636 A:middle
 &gt;&gt; Great. So this menu is
@@ -3643,7 +3346,7 @@ And we were able to make it
 fully accessible using a screen
 
 00:39:27.476 --> 00:39:29.266 A:middle
-reader, in this case
+reader, in this case,
 voiceover on the Mac.
 
 00:39:30.866 --> 00:39:34.006 A:middle
@@ -3659,7 +3362,7 @@ You should strive to make your
 content perceivable, operable,
 
 00:39:41.186 --> 00:39:43.096 A:middle
-understandable, and Robust.
+understandable, and robust.
 
 00:39:45.636 --> 00:39:47.206 A:middle
 Using standard controls
@@ -3675,14 +3378,6 @@ ARIA to fill the gaps
 00:39:54.796 --> 00:39:57.146 A:middle
 where HTML doesn't
 provide you enough control.
-
-00:39:57.146 --> 00:40:00.936 A:middle
-And then finally, test your
-applications with the keyboard.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:57.146 --> 00:40:00.936 A:middle
 And then finally, test your
@@ -3751,8 +3446,8 @@ And I've also included the link
 to the talk that I promised you
 
 00:40:38.346 --> 00:40:40.136 A:middle
-about "Using Accessibility
-in Automation."
+about using accessibility
+in automation.
 
 00:40:40.596 --> 00:40:42.416 A:middle
 And of course you can
@@ -3771,7 +3466,7 @@ I would highly recommend
 you check out the videos
 
 00:40:50.806 --> 00:40:52.966 A:middle
-of accessibility on OS X iOS.
+of accessibility on OS X, iOS.
 
 00:40:52.966 --> 00:40:55.446 A:middle
 And then more information
@@ -3785,18 +3480,9 @@ found in the talk on Thursday.
 Thank you, guys, so
 much for listening.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.626 --> 00:41:00.936 A:middle
-Thank you, guys, so
-much for listening.
-
 00:41:00.936 --> 00:41:03.916 A:middle
 I hope you have a wonderful
 day and safe travels back home.
 
 00:41:03.916 --> 00:41:04.856 A:middle
 Thank you.
-

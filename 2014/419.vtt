@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.906 A:middle
 [ Silence ]
@@ -86,13 +85,6 @@ half of my part I will talk
 00:00:57.096 --> 00:00:59.186 A:middle
 about the UIBlurEffect
 and UIVibrancyEffect
-
-00:00:59.186 --> 00:01:00.196 A:middle
-that are a part of UIKit.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.186 --> 00:01:00.196 A:middle
 that are a part of UIKit.
@@ -185,23 +177,15 @@ lines is 16.67ms.
 So, the first thing that
 happens in the application,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.366 --> 00:02:01.636 A:middle
-So, the first thing that
-happens in the application,
-
 00:02:01.786 --> 00:02:04.526 A:middle
 you receive an event
 probably because of a touch,
 
-00:02:04.666 --> 00:02:08.175 A:middle
+00:02:04.666 --> 00:02:08.176 A:middle
 and therefore, the usual case,
 I mean to handling this case is
 
-00:02:08.175 --> 00:02:09.856 A:middle
+00:02:08.176 --> 00:02:09.856 A:middle
 that we want to update
 a view hierarchy.
 
@@ -270,14 +254,6 @@ swap in the frame buffer
 00:02:56.156 --> 00:02:57.586 A:middle
 and show the view
 hierarchy to the user.
-
-00:02:58.516 --> 00:03:00.986 A:middle
-As you can these various steps
-span over multiple frames.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.516 --> 00:03:00.986 A:middle
 As you can these various steps
@@ -380,13 +356,6 @@ at those four phases.
 00:03:59.336 --> 00:04:00.976 A:middle
 First the layout phase.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.336 --> 00:04:00.976 A:middle
-First the layout phase.
-
 00:04:01.726 --> 00:04:03.646 A:middle
 In the Layout phase the
 layoutSubviews overrides
@@ -478,14 +447,6 @@ the Prepare phase.
 00:04:55.906 --> 00:04:58.146 A:middle
 This is where image decoding
 and image conversion happens.
-
-00:04:58.936 --> 00:05:00.476 A:middle
-Image decoding should
-be straightforward.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.936 --> 00:05:00.476 A:middle
 Image decoding should
@@ -588,10 +549,6 @@ the animate restoration
 00:05:58.706 --> 00:05:59.616 A:middle
 animations method.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.746 --> 00:06:03.006 A:middle
 Then the second stage
 is where we prepare
@@ -682,14 +639,6 @@ they use render passes.
 00:06:56.196 --> 00:06:58.076 A:middle
 And then I'm doing
 a first example
-
-00:06:58.076 --> 00:07:00.506 A:middle
-by showing you how masking
-works with render passes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.076 --> 00:07:00.506 A:middle
 by showing you how masking
@@ -787,14 +736,6 @@ on what pixels are visible
 and then decide what
 pixel shade to run.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.006 --> 00:08:01.236 A:middle
-and then decide what
-pixel shade to run.
-
 00:08:01.236 --> 00:08:04.626 A:middle
 So we run each pixel
 shade only once per pixel.
@@ -843,11 +784,11 @@ with OpenGL command
 but it is then submitted
 to a GPU.
 
-00:08:36.006 --> 00:08:38.525 A:middle
+00:08:36.006 --> 00:08:38.526 A:middle
 And the GPU will receive
 this command buffer
 
-00:08:38.525 --> 00:08:39.956 A:middle
+00:08:38.526 --> 00:08:39.956 A:middle
 and then start doing its work.
 
 00:08:40.456 --> 00:08:43.806 A:middle
@@ -878,14 +819,6 @@ geometry for our tile buckets.
 00:08:55.566 --> 00:08:58.406 A:middle
 And this part of the stage
 is called the tiler stage.
-
-00:08:58.446 --> 00:09:00.476 A:middle
-You will be able to find
-this in the instruments,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.446 --> 00:09:00.476 A:middle
 You will be able to find
@@ -985,14 +918,6 @@ and we can stop processing.
 So the first thing happens
 in the first pass is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.836 --> 00:10:01.436 A:middle
-So the first thing happens
-in the first pass is
-
 00:10:01.436 --> 00:10:03.886 A:middle
 that we render the
 layer mask to a texture.
@@ -1071,14 +996,6 @@ style as an example
 
 00:10:57.116 --> 00:10:58.116 A:middle
 for the rendering passes.
-
-00:10:58.116 --> 00:11:00.096 A:middle
-The dark style is actually
-using the lowest amount
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.116 --> 00:11:00.096 A:middle
 The dark style is actually
@@ -1177,10 +1094,6 @@ and tint it.
 In this case we end up
 then with our dark blur.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.666 --> 00:12:03.616 A:middle
 So that looks fine, but let's
 take a look how this looks
@@ -1262,10 +1175,6 @@ just a simple image
 00:12:56.846 --> 00:12:59.646 A:middle
 so it might take longer
 if we involve the UI.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:01.156 --> 00:13:03.436 A:middle
 Then in the second
@@ -1352,13 +1261,6 @@ how the blur performs
 00:13:59.336 --> 00:14:00.306 A:middle
 on the various devices.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.336 --> 00:14:00.306 A:middle
-on the various devices.
-
 00:14:00.306 --> 00:14:04.586 A:middle
 So again this is the fullscreen
 blur that I used before
@@ -1434,13 +1336,6 @@ tinting on the iPad 2
 00:14:56.306 --> 00:14:58.766 A:middle
 and iPad 3rd generation,
 we just apply the tint
-
-00:14:58.766 --> 00:15:00.076 A:middle
-and we skip the blur steps.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.766 --> 00:15:00.076 A:middle
 and we skip the blur steps.
@@ -1538,14 +1433,6 @@ to render the camera icon
 from our masking example
 from before on top.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.646 --> 00:16:01.016 A:middle
-from our masking example
-from before on top.
-
 00:16:01.896 --> 00:16:03.526 A:middle
 And this could look like this
 
@@ -1632,14 +1519,6 @@ for the VibrancyEffect.
 So, in pass six I'm adding
 in here some content,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.806 --> 00:17:00.346 A:middle
-So, in pass six I'm adding
-in here some content,
-
 00:17:00.346 --> 00:17:01.306 A:middle
 you saw a camera icon.
 
@@ -1655,31 +1534,31 @@ what view hierarchy looks like.
 And then the last pass
 we apply the filter.
 
-00:17:12.006 --> 00:17:14.425 A:middle
+00:17:12.006 --> 00:17:14.426 A:middle
 And as you can see the filter
 cost is actually very expensive.
 
-00:17:14.516 --> 00:17:16.665 A:middle
+00:17:14.516 --> 00:17:16.666 A:middle
 It's actually the most
 expensive pass we have here.
 
-00:17:17.606 --> 00:17:19.695 A:middle
+00:17:17.606 --> 00:17:19.696 A:middle
 One thing to keep
 in mind here is
 
-00:17:19.695 --> 00:17:22.226 A:middle
+00:17:19.696 --> 00:17:22.226 A:middle
 that I apply the VibrancyEffect
 to a fullscreen area.
 
-00:17:22.965 --> 00:17:25.526 A:middle
+00:17:22.966 --> 00:17:25.526 A:middle
 The recommendation is to
 not apply the VibrancyEffect
 
-00:17:25.526 --> 00:17:27.455 A:middle
+00:17:25.526 --> 00:17:27.456 A:middle
 to a fullscreen area,
 instead to only apply it
 
-00:17:27.455 --> 00:17:30.656 A:middle
+00:17:27.456 --> 00:17:30.656 A:middle
 to small content areas to avoid
 this huge performance penalty.
 
@@ -1713,14 +1592,6 @@ and iPad Air.
 00:17:52.356 --> 00:17:56.666 A:middle
 There is the base cost
 from before, 4.59ms.
-
-00:17:56.666 --> 00:18:01.206 A:middle
-For the iPad 3rd generation we
-don't blur and different times
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.666 --> 00:18:01.206 A:middle
 For the iPad 3rd generation we
@@ -1801,14 +1672,6 @@ very costly on all devices.
 00:18:54.696 --> 00:18:58.716 A:middle
 So with the blurs UI can easily
 be GPU bound, keep the bounds
-
-00:18:58.716 --> 00:19:01.246 A:middle
-of the view as small as
-possible and make sure
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.716 --> 00:19:01.246 A:middle
 of the view as small as
@@ -1904,14 +1767,6 @@ So typically use cases are
 to avoid redrawing expensive
 effects for static content
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.196 --> 00:20:01.286 A:middle
-to avoid redrawing expensive
-effects for static content
-
 00:20:01.286 --> 00:20:02.906 A:middle
 so you could rasterize,
 for example, a blur.
@@ -1999,10 +1854,6 @@ in the iOS performance team
 00:20:56.926 --> 00:20:59.136 A:middle
 and the first thing I want
 to talk about are Tools.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.996 --> 00:21:02.746 A:middle
 So before I get into
@@ -2104,14 +1955,6 @@ and how we're rendering it.
 We want the GPU to do as
 much of this as makes sense.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.636 --> 00:22:02.276 A:middle
-We want the GPU to do as
-much of this as makes sense.
-
 00:22:02.276 --> 00:22:06.256 A:middle
 Next thing I want to know
 is do we have too many
@@ -2186,14 +2029,6 @@ anything on-the-fly like that.
 00:22:53.936 --> 00:22:58.496 A:middle
 Next up I want to know are there
 any expensive views or effects?
-
-00:22:58.886 --> 00:23:00.796 A:middle
-Blur and Vibrancy are
-awesome but we want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.886 --> 00:23:00.796 A:middle
 Blur and Vibrancy are
@@ -2293,14 +2128,6 @@ launch instruments
 and select the Core
 Animation template
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.966 --> 00:24:01.696 A:middle
-and select the Core
-Animation template
-
 00:24:03.496 --> 00:24:04.816 A:middle
 that will give you a document
 
@@ -2385,14 +2212,6 @@ Animation Instrument.
 So if you select the Core
 Animation Instrument you can see
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.026 --> 00:25:02.376 A:middle
-So if you select the Core
-Animation Instrument you can see
-
 00:25:02.376 --> 00:25:04.336 A:middle
 the color debug options
 over here on the right.
@@ -2466,14 +2285,6 @@ This shows you how you're using
 00:25:54.056 --> 00:25:58.466 A:middle
 or abusing the should
 rasterize property on CALayer.
-
-00:25:58.466 --> 00:26:02.596 A:middle
-So what this will do is it
-will tint cache hit screen
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.466 --> 00:26:02.596 A:middle
 So what this will do is it
@@ -2567,13 +2378,6 @@ you know this is just a simple
 00:26:59.576 --> 00:27:02.156 A:middle
 photo browsing app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.576 --> 00:27:02.156 A:middle
-photo browsing app.
-
 00:27:02.256 --> 00:27:04.426 A:middle
 We're just getting images
 from an online source.
@@ -2657,14 +2461,6 @@ color format and the size
 00:27:55.916 --> 00:27:57.846 A:middle
 that you want because
 the last thing you want
-
-00:27:57.846 --> 00:28:00.386 A:middle
-to be doing is you know
-doing conversions in scaling
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.846 --> 00:28:00.386 A:middle
 to be doing is you know
@@ -2760,14 +2556,6 @@ for the GPU to have to do.
 So in this case if
 you see something show
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.166 --> 00:29:00.756 A:middle
-So in this case if
-you see something show
-
 00:29:00.756 --> 00:29:03.876 A:middle
 up in blue that's a good thing.
 
@@ -2852,14 +2640,6 @@ many offscreen passes?
 
 00:29:58.106 --> 00:29:59.266 A:middle
 How much blending is going on?
-
-00:29:59.556 --> 00:30:02.246 A:middle
-And do you have any strange
-image formats or sizes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.556 --> 00:30:02.246 A:middle
 And do you have any strange
@@ -2950,14 +2730,6 @@ and a time profiler instrument.
 So if you select the OpenGL ES
 driver instrument you can choose
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.576 --> 00:31:03.196 A:middle
-So if you select the OpenGL ES
-driver instrument you can choose
-
 00:31:03.196 --> 00:31:06.606 A:middle
 from which statistics you
 want to actually collect.
@@ -3026,14 +2798,6 @@ for this case.
 00:31:56.536 --> 00:31:59.656 A:middle
 And likewise since we have the
 time profiler instrument here
-
-00:31:59.656 --> 00:32:01.036 A:middle
-you can see what
-the CPU is doing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.656 --> 00:32:01.036 A:middle
 you can see what
@@ -3119,14 +2883,6 @@ around in your view hierarchy
 00:32:54.996 --> 00:32:57.746 A:middle
 and see what exact
 views are in your UI.
-
-00:32:58.346 --> 00:33:00.796 A:middle
-So this is always good because
-you can inspect to see as I said
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.346 --> 00:33:00.796 A:middle
 So this is always good because
@@ -3220,10 +2976,6 @@ and measure performance
 00:33:58.716 --> 00:33:59.846 A:middle
 across different devices.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.236 --> 00:34:02.246 A:middle
 And then we'll figure
 out how we can work
@@ -3240,7 +2992,7 @@ visual appearance,
 but you know get the
 performance gain that we want.
 
-00:34:10.116 --> 00:34:12.545 A:middle
+00:34:10.116 --> 00:34:12.546 A:middle
 So first up, let's talk about
 a fictitious photo application.
 
@@ -3260,7 +3012,7 @@ small shadow behind each image.
 So, if we take this and
 we measure the performance
 
-00:34:26.146 --> 00:34:29.815 A:middle
+00:34:26.146 --> 00:34:29.816 A:middle
 on an iPhone 5s using the
 OpenGL ES driver instrument.
 
@@ -3268,28 +3020,28 @@ OpenGL ES driver instrument.
 You know we can see that
 we're hitting 60 fps.
 
-00:34:32.966 --> 00:34:35.255 A:middle
+00:34:32.966 --> 00:34:35.256 A:middle
 So, that's good; 60
 fps is our target.
 
-00:34:35.295 --> 00:34:37.565 A:middle
+00:34:35.296 --> 00:34:37.566 A:middle
 So, awesome, ship it.
 
 00:34:38.206 --> 00:34:39.676 A:middle
 Not just yet.
 
-00:34:39.906 --> 00:34:42.815 A:middle
+00:34:39.906 --> 00:34:42.816 A:middle
 We you know actually love all
 of our customers and we want
 
-00:34:42.815 --> 00:34:45.176 A:middle
+00:34:42.816 --> 00:34:45.176 A:middle
 to make sure everybody has a
 good user experience regardless
 
 00:34:45.176 --> 00:34:46.126 A:middle
 of what device they're on.
 
-00:34:46.436 --> 00:34:49.065 A:middle
+00:34:46.436 --> 00:34:49.066 A:middle
 So, let's take a look at
 some of the other devices
 
@@ -3301,17 +3053,9 @@ how the performance stacks up.
 So, first off let's
 look at the iPod touch.
 
-00:34:55.795 --> 00:34:59.026 A:middle
+00:34:55.796 --> 00:34:59.026 A:middle
 So I'm curious what scrolling
 feels like on an iPod touch.
-
-00:34:59.116 --> 00:35:01.626 A:middle
-So, you know again we'll
-take our iPod touch
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.116 --> 00:35:01.626 A:middle
 So, you know again we'll
@@ -3398,14 +3142,6 @@ figure out something else.
 00:35:55.936 --> 00:35:59.046 A:middle
 So if we use the Core Animation
 instrument you know remembering
-
-00:35:59.046 --> 00:36:00.456 A:middle
-that offscreen passes
-are expensive,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.046 --> 00:36:00.456 A:middle
 that offscreen passes
@@ -3511,13 +3247,6 @@ property you know we're only
 00:36:59.206 --> 00:37:00.346 A:middle
 scrolling image thumbnail,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.206 --> 00:37:00.346 A:middle
-scrolling image thumbnail,
-
 00:37:00.346 --> 00:37:02.496 A:middle
 so just basically
 Rects of various sizes.
@@ -3605,14 +3334,6 @@ to you know the mid 70s before.
 So this is great, you know less
 GPU work means we are hitting
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.406 --> 00:38:03.006 A:middle
-So this is great, you know less
-GPU work means we are hitting
-
 00:38:03.006 --> 00:38:05.846 A:middle
 our performance targets and it
 also means better battery life.
@@ -3684,14 +3405,6 @@ can't handle the amount
 00:38:56.396 --> 00:38:59.216 A:middle
 of offscreen passes
 that newer devices can.
-
-00:38:59.216 --> 00:39:01.146 A:middle
-And when we make this
-change and take advantage
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:59.216 --> 00:39:01.146 A:middle
 And when we make this
@@ -3792,10 +3505,6 @@ with a view hierarchy you build
 00:39:57.896 --> 00:39:58.796 A:middle
 up in a table view cell.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.226 --> 00:40:02.396 A:middle
 So, next case study
 I want to look
@@ -3895,13 +3604,6 @@ is really high here.
 00:40:59.776 --> 00:41:01.616 A:middle
 That's rather interesting again
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.776 --> 00:41:01.616 A:middle
-That's rather interesting again
-
 00:41:01.616 --> 00:41:02.986 A:middle
 because we're just
 rendering a couple
@@ -3997,14 +3699,6 @@ then you'd just be rendering
 images and you wouldn't be
 trying to do all of this masking
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.916 --> 00:42:01.916 A:middle
-images and you wouldn't be
-trying to do all of this masking
-
 00:42:02.146 --> 00:42:04.746 A:middle
 and having all these
 offscreen passes on-the-fly.
@@ -4094,14 +3788,6 @@ the device utilization is.
 So again, we're 30 percent
 versus mid to upper 80s.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.886 --> 00:43:03.276 A:middle
-So again, we're 30 percent
-versus mid to upper 80s.
-
 00:43:03.756 --> 00:43:05.606 A:middle
 One quick word on this,
 
@@ -4179,14 +3865,6 @@ Offscreen passes are expensive,
 00:43:55.466 --> 00:43:58.616 A:middle
 so again you can use
 Core Animation to find
-
-00:43:58.656 --> 00:44:00.896 A:middle
-where you have any
-unexpected offscreen passes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:58.656 --> 00:44:00.896 A:middle
 where you have any
@@ -4278,14 +3956,6 @@ concepts and then talked
 about some new UIKit features
 for Blur and Vibrancy effects.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.086 --> 00:45:03.216 A:middle
-about some new UIKit features
-for Blur and Vibrancy effects.
-
 00:45:03.826 --> 00:45:05.566 A:middle
 And then I went over
 profiling tools
@@ -4339,4 +4009,3 @@ a wonderful WWDC.
 
 00:45:36.726 --> 00:45:37.000 A:middle
 [ Applause ]
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.516 --> 00:00:19.546 A:middle
 [ Applause ]
@@ -56,15 +55,7 @@ opportunity to get a taste
 of those technologies, and
 I'll be pointing throughout the
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.196 --> 00:01:02.126 A:middle
-of those technologies, and
-I'll be pointing throughout the
-
-00:01:02.126 --> 00:01:04.275 A:middle
+00:01:02.126 --> 00:01:04.276 A:middle
 session and, again at
 the end of the session,
 
@@ -127,14 +118,6 @@ that encourages code reuse,
 generic code that adapts from
 context to context and is able
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.596 --> 00:02:04.836 A:middle
-generic code that adapts from
-context to context and is able
-
 00:02:04.836 --> 00:02:08.966 A:middle
 to go from devices like
 iPhone and iPad seamlessly.
@@ -188,14 +171,6 @@ We'll show you how to do that.
 00:02:53.126 --> 00:02:56.716 A:middle
 Similarly we've taken the
 philosophy of adaptivity
-
-00:02:56.716 --> 00:03:00.366 A:middle
-to view controller presentations
-and we'll show you how
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.716 --> 00:03:00.366 A:middle
 to view controller presentations
@@ -263,14 +238,6 @@ how you can do that.
 00:03:53.296 --> 00:03:56.376 A:middle
 We recognize that one
 of the common places
-
-00:03:56.376 --> 00:04:00.116 A:middle
-that users interact with
-text is actually in lists
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:56.376 --> 00:04:00.116 A:middle
 that users interact with
@@ -352,14 +319,6 @@ So to begin, we'll talk
 about this design
 philosophy of Adaptive Layout.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.586 --> 00:05:01.696 A:middle
-about this design
-philosophy of Adaptive Layout.
-
 00:05:01.696 --> 00:05:07.226 A:middle
 So, I said it before
 but I'll say it again,
@@ -434,14 +393,6 @@ columns in that grid.
 Similarly, they give us the
 spec and say, if that iPad is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.756 --> 00:06:02.776 A:middle
-Similarly, they give us the
-spec and say, if that iPad is
-
 00:06:02.776 --> 00:06:06.716 A:middle
 in landscape, show us similar,
 show similar thumbnails
@@ -499,14 +450,6 @@ go to landscape,
 00:06:53.046 --> 00:06:56.586 A:middle
 we now have 1024 points
 in the width dimension,
-
-00:06:56.956 --> 00:07:00.846 A:middle
-and based on the thumbnail
-size that we wanted to achieve,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:56.956 --> 00:07:00.846 A:middle
 and based on the thumbnail
@@ -579,10 +522,6 @@ the iPhone is different.
 And so, we compact the layout
 when we are in a compacted size,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.416 --> 00:08:04.426 A:middle
 and so we can actually
 think about that decision,
@@ -625,7 +564,7 @@ semantic-based sizing idea
 as a new thing that
 we call Size Classes.
 
-00:08:37.765 --> 00:08:41.556 A:middle
+00:08:37.766 --> 00:08:41.556 A:middle
 Size classes are a
 very simple enumeration
 
@@ -644,14 +583,6 @@ and vertical size classes,
 00:08:54.116 --> 00:08:58.716 A:middle
 and either one of these axis can
 be either compact or regular.
-
-00:08:58.816 --> 00:09:01.966 A:middle
-And that simple choice
-can allow us to choose
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.816 --> 00:09:01.966 A:middle
 And that simple choice
@@ -725,14 +656,6 @@ orientation.
 00:09:53.786 --> 00:09:58.256 A:middle
 On the iPhone, the width becomes
 compacted and using that bit
-
-00:09:58.256 --> 00:10:00.816 A:middle
-of information, the Photos
-app can choose to shrink
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.256 --> 00:10:00.816 A:middle
 of information, the Photos
@@ -813,14 +736,6 @@ You can make the determination
 of what is the right
 thing to do for you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.526 --> 00:11:01.656 A:middle
-of what is the right
-thing to do for you.
-
 00:11:01.916 --> 00:11:04.746 A:middle
 So as a simple example, we can
 think of what we did with Photos
@@ -884,14 +799,6 @@ to you on the screen.
 00:11:56.546 --> 00:11:59.626 A:middle
 If this is your first time
 seeing Swift, congratulations.
-
-00:11:59.696 --> 00:12:04.466 A:middle
-Here is your intro, and you
-can see just how easy it is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.696 --> 00:12:04.466 A:middle
 Here is your intro, and you
@@ -973,14 +880,6 @@ in this UI that isn't covered
 by layout guides and that is
 the whitespace that is inset
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.576 --> 00:13:02.796 A:middle
-by layout guides and that is
-the whitespace that is inset
-
 00:13:02.796 --> 00:13:04.576 A:middle
 in the content from the
 edges of the screen.
@@ -1054,14 +953,6 @@ design to build things
 that you can use out of
 the box that are adaptive
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.656 --> 00:14:02.976 A:middle
-that you can use out of
-the box that are adaptive
-
 00:14:03.166 --> 00:14:05.136 A:middle
 without you having
 to do any work.
@@ -1122,10 +1013,6 @@ of when the device rotates,
 00:14:54.806 --> 00:14:59.656 A:middle
 that view rotates with it
 and this is a rotating view.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.816 --> 00:15:05.156 A:middle
 That perspective actually
@@ -1201,14 +1088,6 @@ a rotation.
 And part of the advantage
 of thinking
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.556 --> 00:16:00.446 A:middle
-And part of the advantage
-of thinking
-
 00:16:00.446 --> 00:16:04.586 A:middle
 about rotations this way
 is merely as size change is
@@ -1277,14 +1156,6 @@ We'll transition to size.
 And since that takes a
 transition coordinator,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.866 --> 00:17:00.036 A:middle
-And since that takes a
-transition coordinator,
-
 00:17:00.386 --> 00:17:02.566 A:middle
 if there's interesting things
 you want to do-if you want
@@ -1305,14 +1176,14 @@ use that transition coordinator
 to do an animation, and
 you just send in a block
 
-00:17:15.665 --> 00:17:17.766 A:middle
+00:17:15.666 --> 00:17:17.766 A:middle
 with that transition coordinator
 
-00:17:17.945 --> 00:17:20.465 A:middle
+00:17:17.946 --> 00:17:20.466 A:middle
 and those changes
 will be animated along
 
-00:17:20.465 --> 00:17:23.066 A:middle
+00:17:20.466 --> 00:17:23.066 A:middle
 with the size change,
 which may be a rotation
 
@@ -1362,10 +1233,6 @@ pattern
 00:17:57.406 --> 00:17:59.676 A:middle
 and you do this using a
 split view controller,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.446 --> 00:18:02.986 A:middle
 and then you embed a
@@ -1446,10 +1313,6 @@ a navigation controller
 00:18:58.406 --> 00:18:59.986 A:middle
 as its master view controller.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.516 --> 00:19:04.266 A:middle
 Then when you want to, you
 know, push another view
@@ -1525,14 +1388,6 @@ is really a workhorse
 
 00:19:54.886 --> 00:19:56.626 A:middle
 to be used in iOS 8.
-
-00:19:57.166 --> 00:20:00.316 A:middle
-The key to it is that it's
-now available on all devices,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.166 --> 00:20:00.316 A:middle
 The key to it is that it's
@@ -1616,14 +1471,6 @@ presentation on iPhone
 and get something more
 appropriate like a form sheet
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:57.906 --> 00:21:00.606 A:middle
-and get something more
-appropriate like a form sheet
-
 00:21:00.606 --> 00:21:05.766 A:middle
 on iPad or even a popover,
 and do this without code
@@ -1688,14 +1535,6 @@ controller horizontalSizeClass
 
 00:21:57.796 --> 00:21:59.736 A:middle
 is regular, it would just appear
-
-00:21:59.736 --> 00:22:02.356 A:middle
-as you expect a popover
-to appear.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.736 --> 00:22:02.356 A:middle
 as you expect a popover
@@ -1770,14 +1609,6 @@ also able to be fully customized
 in the way that its UI
 appears and how it's presented
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.686 --> 00:23:02.176 A:middle
-in the way that its UI
-appears and how it's presented
-
 00:23:02.386 --> 00:23:05.156 A:middle
 so that you can adapt
 the search controller
@@ -1845,14 +1676,6 @@ sheet appearance.
 00:23:56.746 --> 00:23:58.116 A:middle
 You can get an alert
 appearance also
-
-00:23:58.116 --> 00:24:00.856 A:middle
-but in the action sheet style,
-you get something that looks
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.116 --> 00:24:00.856 A:middle
 but in the action sheet style,
@@ -1944,14 +1767,6 @@ and that's Testing.
 So we're giving you another
 great tool that we're excited
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.416 --> 00:25:01.896 A:middle
-So we're giving you another
-great tool that we're excited
-
 00:25:01.896 --> 00:25:06.106 A:middle
 about in the iOS simulator
 and that is the ability
@@ -2010,14 +1825,6 @@ things the way that we intend
 00:25:56.316 --> 00:25:58.976 A:middle
 and then test that our
 intentions are doing what we
-
-00:25:59.036 --> 00:26:00.366 A:middle
-thought that they
-were going to do.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.036 --> 00:26:00.366 A:middle
 thought that they
@@ -2106,14 +1913,6 @@ couple of different effects
 that you can use with the visual
 effect view to get the effect
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:56.576 --> 00:27:00.656 A:middle
-that you can use with the visual
-effect view to get the effect
-
 00:27:00.656 --> 00:27:03.686 A:middle
 that you want, and the first
 one is the UIBlurEffect.
@@ -2182,14 +1981,6 @@ encapsulate the 1X, the 2X,
 00:27:55.776 --> 00:27:59.546 A:middle
 the iPhone, the iPad
 representations of your image
-
-00:27:59.546 --> 00:28:02.276 A:middle
-in the home matrix thereof,
-and it comes with some API
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.546 --> 00:28:02.276 A:middle
 in the home matrix thereof,
@@ -2270,14 +2061,6 @@ search bars [inaudible] shrink.
 Well, we've extended that
 concept throughout the iOS 8 SDK
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:56.736 --> 00:29:01.256 A:middle
-Well, we've extended that
-concept throughout the iOS 8 SDK
-
 00:29:01.256 --> 00:29:05.066 A:middle
 and given you access to that
 sort of behavior in your app.
@@ -2346,14 +2129,6 @@ that we realize is
 00:29:54.306 --> 00:29:57.636 A:middle
 that table views are
 a very common place
-
-00:29:57.636 --> 00:30:00.036 A:middle
-where text is displayed and
-something that we would want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.636 --> 00:30:00.036 A:middle
 where text is displayed and
@@ -2428,13 +2203,6 @@ them and the constraints
 
 00:30:56.846 --> 00:30:57.706 A:middle
 that you place on them.
-
-00:30:58.456 --> 00:31:00.106 A:middle
-You can do something like this
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.456 --> 00:31:00.106 A:middle
 You can do something like this
@@ -2534,14 +2302,6 @@ in table and collection views.
 So moving on to my favorite
 feature of iOS 8 SDK.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.246 --> 00:32:03.806 A:middle
-So moving on to my favorite
-feature of iOS 8 SDK.
-
 00:32:03.806 --> 00:32:05.846 A:middle
 It was actually kind of
 hard to wait until this part
@@ -2620,14 +2380,6 @@ videos, text, and other content
 without having to do a
 do-si-do over to your app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.286 --> 00:33:01.646 A:middle
-without having to do a
-do-si-do over to your app.
-
 00:33:02.206 --> 00:33:03.886 A:middle
 This will be a better
 experience for the user,
@@ -2701,33 +2453,25 @@ solution as seamlessly
 as if those documents
 were on iCloud drive,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.606 --> 00:34:01.976 A:middle
-as if those documents
-were on iCloud drive,
-
 00:34:02.356 --> 00:34:06.116 A:middle
 just by your extension providing
 them to apps within the system.
 
-00:34:06.726 --> 00:34:08.795 A:middle
+00:34:06.726 --> 00:34:08.796 A:middle
 Additionally, iOS
 8 makes it possible
 
-00:34:08.795 --> 00:34:10.226 A:middle
+00:34:08.796 --> 00:34:10.226 A:middle
 to write custom keyboards
 
 00:34:10.226 --> 00:34:11.906 A:middle
 that will be shared
 throughout the system.
 
-00:34:12.516 --> 00:34:14.545 A:middle
+00:34:12.516 --> 00:34:14.546 A:middle
 [ Applause ]
 
-00:34:15.045 --> 00:34:15.976 A:middle
+00:34:15.046 --> 00:34:15.976 A:middle
 The front row likes that.
 
 00:34:16.126 --> 00:34:17.866 A:middle
@@ -2742,18 +2486,18 @@ and tomorrow that will explain
 to you everything
 you need to know
 
-00:34:22.146 --> 00:34:26.065 A:middle
+00:34:22.146 --> 00:34:26.066 A:middle
 about building upon this just
 absolutely tremendous technology
 
-00:34:26.065 --> 00:34:28.916 A:middle
+00:34:26.066 --> 00:34:28.916 A:middle
 that is just going
 to-iOS 8 is the sign post.
 
 00:34:28.916 --> 00:34:30.036 A:middle
 It's different from here on out.
 
-00:34:31.505 --> 00:34:33.466 A:middle
+00:34:31.506 --> 00:34:33.466 A:middle
 So some updates to
 notifications.
 
@@ -2761,10 +2505,10 @@ notifications.
 Notifications have changed a
 bit in particular in the way
 
-00:34:37.846 --> 00:34:40.815 A:middle
+00:34:37.846 --> 00:34:40.816 A:middle
 that we model how users approve
 
-00:34:40.815 --> 00:34:42.266 A:middle
+00:34:40.816 --> 00:34:42.266 A:middle
 of notifications
 that appear onscreen.
 
@@ -2783,14 +2527,6 @@ approve local notifications.
 00:34:55.176 --> 00:34:56.496 A:middle
 You could show a
 local notification
-
-00:34:56.806 --> 00:35:00.096 A:middle
-without the user
-giving approval to that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:56.806 --> 00:35:00.096 A:middle
 without the user
@@ -2879,13 +2615,6 @@ about.
 00:35:56.516 --> 00:36:01.616 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:56.516 --> 00:36:01.616 A:middle
-[ Applause ]
-
 00:36:02.116 --> 00:36:05.396 A:middle
 Finally, we've increased
 the payload push size
@@ -2957,14 +2686,6 @@ and hierarchy machinery
 
 00:36:57.076 --> 00:36:58.246 A:middle
 that we talked about earlier.
-
-00:36:59.116 --> 00:37:02.876 A:middle
-This document picker has access
-to documents in the local scope,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.116 --> 00:37:02.876 A:middle
 This document picker has access
@@ -3055,14 +2776,6 @@ of the return types
 for initializers have changed
 from id to instancetype.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.646 --> 00:38:02.546 A:middle
-for initializers have changed
-from id to instancetype.
-
 00:38:04.516 --> 00:38:06.586 A:middle
 [ Applause ]
 
@@ -3119,14 +2832,6 @@ phone, go to their computer,
 00:38:55.076 --> 00:38:57.936 A:middle
 finish that email, and it's
 all seamless experience.
-
-00:38:58.546 --> 00:39:02.106 A:middle
-Well, with handoff, we're
-giving you the opportunity
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.546 --> 00:39:02.106 A:middle
 Well, with handoff, we're
@@ -3192,14 +2897,6 @@ you can see what other sessions
 
 00:39:57.556 --> 00:39:58.696 A:middle
 that you'd like to attend
-
-00:39:58.736 --> 00:40:00.866 A:middle
-because these frameworks
-allow you to build apps
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:58.736 --> 00:40:00.866 A:middle
 because these frameworks
@@ -3285,14 +2982,6 @@ brings custom Core Image
 filters, and so you'll be able
 to use these on your photos
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:57.586 --> 00:41:01.026 A:middle
-filters, and so you'll be able
-to use these on your photos
-
 00:41:01.256 --> 00:41:02.976 A:middle
 as well as videos in iOS 8.
 
@@ -3366,14 +3055,6 @@ your apps on top of it.
 00:41:54.976 --> 00:41:56.866 A:middle
 Another new framework
 is HealthKit.
-
-00:41:57.226 --> 00:42:00.466 A:middle
-HealthKit brings all of
-the biometric information
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:57.226 --> 00:42:00.466 A:middle
 HealthKit brings all of
@@ -3454,14 +3135,6 @@ having watched the keynote,
 
 00:42:57.616 --> 00:42:58.656 A:middle
 this means that you get
-
-00:42:58.656 --> 00:43:01.356 A:middle
-to use Touch ID right
-inside your application.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.656 --> 00:43:01.356 A:middle
 to use Touch ID right
@@ -3552,14 +3225,6 @@ Isn't it great to build apps
 that you just have
 never built before?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.226 --> 00:44:00.936 A:middle
-that you just have
-never built before?
-
 00:44:01.426 --> 00:44:03.376 A:middle
 I'm excited.
 
@@ -3636,14 +3301,6 @@ because, really, iOS 8 is a mark
 in the sand for how we think
 about building apps in addition
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:56.226 --> 00:45:00.116 A:middle
-in the sand for how we think
-about building apps in addition
-
 00:45:00.336 --> 00:45:01.726 A:middle
 to all of its new API.
 
@@ -3710,13 +3367,6 @@ more things in more places
 00:45:56.196 --> 00:45:59.336 A:middle
 than ever before, and your
 app can be more useful
-
-00:45:59.336 --> 00:46:00.576 A:middle
-for them than it's ever done.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:59.336 --> 00:46:00.576 A:middle
 for them than it's ever done.
@@ -3803,14 +3453,6 @@ packed with labs all week,
 more than I could ever
 even bother to call out,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:58.736 --> 00:47:02.456 A:middle
-more than I could ever
-even bother to call out,
-
 00:47:02.456 --> 00:47:05.656 A:middle
 but Cocoa Touch Labs are-the
 next three days you'll be able
@@ -3839,4 +3481,3 @@ Thanks for coming.
 
 00:47:20.516 --> 00:47:24.500 A:middle
 [ Applause ]
-

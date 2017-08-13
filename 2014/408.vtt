@@ -1,15 +1,14 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.206 --> 00:00:13.596 A:middle
 &gt;&gt; Hi. Welcome to
 Swift Playgrounds.
 
-00:00:13.926 --> 00:00:16.315 A:middle
+00:00:13.926 --> 00:00:16.316 A:middle
 I'm Rick Ballard and with
 me today is my colleague
 
-00:00:16.315 --> 00:00:17.086 A:middle
+00:00:16.316 --> 00:00:17.086 A:middle
 Connor Wakamo.
 
 00:00:17.356 --> 00:00:18.956 A:middle
@@ -77,14 +76,6 @@ XCPlayground framework
 00:00:56.196 --> 00:00:58.516 A:middle
 which includes some
 really powerful utilities
-
-00:00:58.516 --> 00:01:00.276 A:middle
-that you can use to
-enhance your Playgrounds.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.516 --> 00:01:00.276 A:middle
 that you can use to
@@ -177,14 +168,6 @@ want to make available.
 Finally, your Playground
 can contain a timeline full
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.146 --> 00:02:01.006 A:middle
-Finally, your Playground
-can contain a timeline full
-
 00:02:01.006 --> 00:02:03.716 A:middle
 of timeline items that
 provide useful visualization
@@ -193,7 +176,7 @@ provide useful visualization
 of your results beyond what
 you see in the sidebar.
 
-00:02:08.015 --> 00:02:09.756 A:middle
+00:02:08.016 --> 00:02:09.756 A:middle
 When you first open
 a Playground,
 
@@ -268,14 +251,6 @@ other useful things you,
 
 00:02:58.296 --> 00:02:59.296 A:middle
 I want to call out here.
-
-00:02:59.636 --> 00:03:02.046 A:middle
-In the lower right hand
-corner, there's a time-stepper.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.636 --> 00:03:02.046 A:middle
 In the lower right hand
@@ -363,14 +338,6 @@ a special interactive Playground
 
 00:03:58.496 --> 00:03:59.696 A:middle
 called the Swift Tour.
-
-00:03:59.846 --> 00:04:02.436 A:middle
-This allows you to
-see documentation
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.846 --> 00:04:02.436 A:middle
 This allows you to
@@ -473,14 +440,6 @@ change your code,
 you can immediately see how
 that affects the visual result.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.496 --> 00:05:02.216 A:middle
-you can immediately see how
-that affects the visual result.
-
 00:05:03.266 --> 00:05:06.726 A:middle
 Finally, processing code like
 value transformers or a sequence
@@ -571,10 +530,6 @@ up a Playground and try
 
 00:05:58.236 --> 00:05:59.616 A:middle
 out the API you want to try.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:00.736 --> 00:06:03.126 A:middle
 In fact, we'd recommend you
@@ -681,14 +636,6 @@ So I'll just click on that.
 We'll create a Playground
 and I'll just give it a name
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.226 --> 00:07:00.106 A:middle
-We'll create a Playground
-and I'll just give it a name
-
 00:07:00.106 --> 00:07:00.976 A:middle
 and a place to save it.
 
@@ -785,14 +732,6 @@ want to see the value there.
 And we have support
 for that as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.706 --> 00:08:01.066 A:middle
-And we have support
-for that as well.
-
 00:08:02.036 --> 00:08:04.596 A:middle
 So OK, I'll just hover over
 this result, and you'll see
@@ -839,7 +778,7 @@ the graph for i times i.
 And we've seen this, you know,
 this nice little curve here.
 
-00:08:28.916 --> 00:08:33.525 A:middle
+00:08:28.916 --> 00:08:33.526 A:middle
 So OK, so that's kind of the
 basics of using the timeline
 
@@ -880,14 +819,6 @@ which make up that color.
 00:08:56.536 --> 00:08:58.826 A:middle
 So I can, you know,
 take this color
-
-00:08:58.826 --> 00:09:00.466 A:middle
-and let's create another
-attributed string using it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.826 --> 00:09:00.466 A:middle
 and let's create another
@@ -989,14 +920,6 @@ on that we'll show a Quick Look
 of that value to show you
 the full representation of it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.376 --> 00:10:02.786 A:middle
-of that value to show you
-the full representation of it
-
 00:10:02.786 --> 00:10:04.616 A:middle
 as it was created in
 the Playground source.
@@ -1078,14 +1001,6 @@ we're now seeing that this line
 
 00:10:57.646 --> 00:10:59.186 A:middle
 of code executed 4 times.
-
-00:10:59.696 --> 00:11:01.336 A:middle
-And so, basically
-we can see that,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.696 --> 00:11:01.336 A:middle
 And so, basically
@@ -1181,14 +1096,6 @@ by 512 for the size.
 Now I'm going to go ahead
 and put this ImageView
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.096 --> 00:12:01.546 A:middle
-Now I'm going to go ahead
-and put this ImageView
-
 00:12:01.546 --> 00:12:02.536 A:middle
 on its own line as well.
 
@@ -1274,14 +1181,6 @@ We're seeing what we expect.
 
 00:12:58.756 --> 00:12:59.546 A:middle
 And it's OK.
-
-00:12:59.626 --> 00:13:01.866 A:middle
-That's how you can work
-with system resources.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.626 --> 00:13:01.866 A:middle
 That's how you can work
@@ -1382,14 +1281,6 @@ themselves, I just use,
 you know, NSBundle API, you
 know, the resources show
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.976 --> 00:14:02.446 A:middle
-you know, NSBundle API, you
-know, the resources show
-
 00:14:02.446 --> 00:14:03.946 A:middle
 up as resources for
 the main bundle.
@@ -1480,14 +1371,6 @@ when we first create it.
 
 00:14:57.966 --> 00:14:58.626 A:middle
 And it's empty.
-
-00:14:59.376 --> 00:15:01.836 A:middle
-Then I added the
-user icon to there.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.376 --> 00:15:01.836 A:middle
 Then I added the
@@ -1596,14 +1479,6 @@ representation of the sidebar,
 just kind of the
 plain text of it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.196 --> 00:16:00.416 A:middle
-just kind of the
-plain text of it.
-
 00:16:00.926 --> 00:16:02.356 A:middle
 But if I click on the
 Quick Look button,
@@ -1696,10 +1571,6 @@ structured view of it, again,
 like you would see in the
 variables view in the debugger.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.276 --> 00:17:02.686 A:middle
 So here I have an
 object of a class
@@ -1716,7 +1587,7 @@ couple of properties,
 a foo property and
 a bar property.
 
-00:17:08.435 --> 00:17:10.106 A:middle
+00:17:08.436 --> 00:17:10.106 A:middle
 And you're seeing the
 values of those at that line
 
@@ -1734,11 +1605,11 @@ resources with Playgrounds.
 And this is actually
 fairly easy.
 
-00:17:17.945 --> 00:17:20.606 A:middle
+00:17:17.946 --> 00:17:20.606 A:middle
 So you just go ahead and
 show the file inspector.
 
-00:17:21.665 --> 00:17:24.236 A:middle
+00:17:21.666 --> 00:17:24.236 A:middle
 You select a location
 for Playground resources.
 
@@ -1746,7 +1617,7 @@ for Playground resources.
 And for this we have
 three options.
 
-00:17:26.165 --> 00:17:29.266 A:middle
+00:17:26.166 --> 00:17:29.266 A:middle
 We've got an Absolute Path
 option which basically says,
 
@@ -1799,13 +1670,6 @@ Inside Playground option.
 00:17:57.696 --> 00:17:58.956 A:middle
 And this is great
 if you're sharing
-
-00:17:58.956 --> 00:18:00.436 A:middle
-in ways other than via SCM.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.956 --> 00:18:00.436 A:middle
 in ways other than via SCM.
@@ -1904,14 +1768,6 @@ right project template then find
 the right file in that project
 to edit which may be easy
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.676 --> 00:19:01.706 A:middle
-the right file in that project
-to edit which may be easy
-
 00:19:01.706 --> 00:19:03.646 A:middle
 or maybe not depending on
 which template you chose.
@@ -2005,10 +1861,6 @@ create an iOS-based Playground.
 So I'll say, File, New File,
 and I'll say, iOS Playground.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.306 --> 00:20:02.356 A:middle
 And I want to actually test
 
@@ -2094,14 +1946,6 @@ implemented any methods yet.
 So, I'm actually going to
 jump to the declaration
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.196 --> 00:21:01.106 A:middle
-So, I'm actually going to
-jump to the declaration
-
 00:21:01.106 --> 00:21:04.216 A:middle
 of UITableViewDataSource by
 command-option-clicking on it.
@@ -2171,14 +2015,6 @@ reuseIdentifier,
 00:21:56.836 --> 00:21:59.256 A:middle
 we aren't actually going
 to be reusing these cells
-
-00:21:59.256 --> 00:22:01.416 A:middle
-so we can just pass
-nil for this parameter.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.256 --> 00:22:01.416 A:middle
 so we can just pass
@@ -2268,14 +2104,6 @@ any results in the sidebar.
 That's because we haven't
 actually instantiated our
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.406 --> 00:23:01.806 A:middle
-That's because we haven't
-actually instantiated our
-
 00:23:01.936 --> 00:23:02.466 A:middle
 data source.
 
@@ -2360,14 +2188,6 @@ with the text that we want.
 So, OK. So that, you know,
 gets us up and running.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.676 --> 00:24:01.556 A:middle
-So, OK. So that, you know,
-gets us up and running.
-
 00:24:01.556 --> 00:24:04.456 A:middle
 But actually I want
 to see the styles
@@ -2445,14 +2265,6 @@ as you can see here.
 00:24:55.716 --> 00:24:58.376 A:middle
 We need to explicitly handle
 the fact that this could be nil.
-
-00:24:58.446 --> 00:25:02.136 A:middle
-You know, the UITableViewCell
-initializer doesn't expect that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.446 --> 00:25:02.136 A:middle
 You know, the UITableViewCell
@@ -2551,14 +2363,6 @@ other separable pieces of code
 00:25:55.586 --> 00:25:57.386 A:middle
 in a Playground is
 a great way to go.
-
-00:25:57.596 --> 00:26:00.136 A:middle
-And so to show you that, I'm
-going to dive right into a demo.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.596 --> 00:26:00.136 A:middle
 And so to show you that, I'm
@@ -2665,14 +2469,6 @@ to declare an array of data.
 I'm going to use var
 because this needs
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.506 --> 00:27:00.506 A:middle
-I'm going to use var
-because this needs
-
 00:27:00.506 --> 00:27:03.126 A:middle
 to be a mutable array, so I
 can add to it and sort it.
@@ -2757,14 +2553,6 @@ data and use it every time.
 00:27:55.516 --> 00:27:57.806 A:middle
 To do that, I'm going to
 click over the result sidebar
-
-00:27:57.956 --> 00:28:02.836 A:middle
-and use command-A to select
-this data, command-C to copy it,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.956 --> 00:28:02.836 A:middle
 and use command-A to select
@@ -2857,14 +2645,6 @@ exchange in the array.
 So, the simplest way to exchange
 these objects is to assign one
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.936 --> 00:29:02.066 A:middle
-So, the simplest way to exchange
-these objects is to assign one
-
 00:29:02.066 --> 00:29:04.636 A:middle
 to a temporary variable,
 assign the second to the first,
@@ -2942,14 +2722,6 @@ function swapLeft.
 Again, it's a generic
 but this time we need
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.296 --> 00:30:00.936 A:middle
-Again, it's a generic
-but this time we need
-
 00:30:00.936 --> 00:30:01.956 A:middle
 to actually do a comparison.
 
@@ -3014,14 +2786,6 @@ than data of i minus 1,
 
 00:30:51.796 --> 00:30:56.616 A:middle
 exchange data i and i minus 1.
-
-00:30:57.266 --> 00:31:00.056 A:middle
-OK. If it's not less
-than data of i minus 1,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.266 --> 00:31:00.056 A:middle
 OK. If it's not less
@@ -3100,14 +2864,6 @@ say for i in 1 (we're starting
 00:31:49.426 --> 00:31:52.016 A:middle
 at 1 because there's nothing
 to the left of 0 to sort to)
-
-00:31:52.826 --> 00:32:01.476 A:middle
-to data.count, swapLeft,
-data and i.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:52.826 --> 00:32:01.476 A:middle
 to data.count, swapLeft,
@@ -3194,14 +2950,6 @@ my data at the beginning and,
 
 00:32:54.216 --> 00:32:55.736 A:middle
 boy, that does look random.
-
-00:32:56.456 --> 00:33:00.506 A:middle
-OK. So, now I want
-to try to print
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:56.456 --> 00:33:00.506 A:middle
 OK. So, now I want
@@ -3295,14 +3043,6 @@ XCPCaptureValue.
 It's a function that takes an
 identifier, which is a string,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:56.976 --> 00:34:00.006 A:middle
-It's a function that takes an
-identifier, which is a string,
-
 00:34:00.416 --> 00:34:02.156 A:middle
 and your value, which
 is of any type.
@@ -3319,7 +3059,7 @@ item for you.
 So, the identifier that you pass
 it identifies what timeline item
 
-00:34:12.996 --> 00:34:14.545 A:middle
+00:34:12.996 --> 00:34:14.546 A:middle
 you want that value to go to.
 
 00:34:15.056 --> 00:34:17.186 A:middle
@@ -3329,18 +3069,18 @@ on different lines
 00:34:17.186 --> 00:34:18.786 A:middle
 but pass the same identifier,
 
-00:34:19.106 --> 00:34:20.735 A:middle
+00:34:19.106 --> 00:34:20.736 A:middle
 the values from those
 different lines will go
 
-00:34:20.735 --> 00:34:22.076 A:middle
+00:34:20.736 --> 00:34:22.076 A:middle
 to the same timeline item.
 
-00:34:22.676 --> 00:34:25.775 A:middle
+00:34:22.676 --> 00:34:25.776 A:middle
 Conversely, and what we want
 here, if you have one line
 
-00:34:25.775 --> 00:34:28.786 A:middle
+00:34:25.776 --> 00:34:28.786 A:middle
 that calls XCPCaptureValue
 but it's called multiple times
 
@@ -3355,18 +3095,18 @@ different identifiers,
 that one line can generate
 multiple different timeline
 
-00:34:34.396 --> 00:34:36.045 A:middle
+00:34:34.396 --> 00:34:36.046 A:middle
 items (or grabs, in our case).
 
-00:34:36.735 --> 00:34:40.005 A:middle
+00:34:36.736 --> 00:34:40.006 A:middle
 That identifier is also shown
 as the name of the timeline item
 
-00:34:40.005 --> 00:34:42.156 A:middle
+00:34:40.006 --> 00:34:42.156 A:middle
 so you can easily see
 what data is what.
 
-00:34:43.005 --> 00:34:45.436 A:middle
+00:34:43.006 --> 00:34:45.436 A:middle
 The value pass can be
 anything, because it's a generic
 
@@ -3374,7 +3114,7 @@ anything, because it's a generic
 but it helps if it's a type
 of value that we know how
 
-00:34:48.126 --> 00:34:49.255 A:middle
+00:34:48.126 --> 00:34:49.256 A:middle
 to Quick Look appropriately.
 
 00:34:50.076 --> 00:34:51.716 A:middle
@@ -3388,13 +3128,6 @@ need to import XCPlayground
 00:34:54.606 --> 00:34:59.946 A:middle
 to make this API available
 and I'm going to go ahead
-
-00:34:59.946 --> 00:35:01.186 A:middle
-and define a new function.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.946 --> 00:35:01.186 A:middle
 and define a new function.
@@ -3470,14 +3203,6 @@ I'll pass data as it is
 00:35:55.106 --> 00:35:56.496 A:middle
 after this iteration
 of swapLeft.
-
-00:35:56.946 --> 00:36:00.736 A:middle
-And for our identifier, let's
-label it after the iteration,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:56.946 --> 00:36:00.736 A:middle
 And for our identifier, let's
@@ -3568,10 +3293,6 @@ greater than or equal
 
 00:36:57.416 --> 00:36:58.766 A:middle
 to the value of its children.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:00.286 --> 00:37:02.526 A:middle
 Heaps are often used to
@@ -3671,14 +3392,6 @@ hard to tell looking
 at this array whether
 that's a correct heap.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.206 --> 00:38:01.456 A:middle
-at this array whether
-that's a correct heap.
-
 00:38:01.456 --> 00:38:03.726 A:middle
 This array represents
 a tree and, you know,
@@ -3754,14 +3467,6 @@ colors, strings (both plain
 00:38:53.726 --> 00:38:57.516 A:middle
 and attributed),
 images, and Bézier paths.
-
-00:38:57.516 --> 00:39:00.256 A:middle
-So, for your Custom Quick Looks
-you can use any of these types.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:57.516 --> 00:39:00.256 A:middle
 So, for your Custom Quick Looks
@@ -3844,10 +3549,6 @@ for example, 78 is less than 89.
 
 00:39:59.096 --> 00:39:59.976 A:middle
 So this is not a correct heap.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.766 --> 00:40:03.776 A:middle
 But if I Quick Look it
@@ -3946,14 +3647,6 @@ about it.
 And so, I'm going to try
 to add animation to this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.906 --> 00:41:02.336 A:middle
-And so, I'm going to try
-to add animation to this.
-
 00:41:02.476 --> 00:41:04.026 A:middle
 And what better way
 to do it than when
@@ -4034,14 +3727,6 @@ that in the timeline.
 
 00:41:58.306 --> 00:41:59.566 A:middle
 So, OK. So you'll see now
-
-00:41:59.566 --> 00:42:01.246 A:middle
-that we've just got
-ourselves an empty view here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.566 --> 00:42:01.246 A:middle
 that we've just got
@@ -4132,14 +3817,6 @@ play- ...for the seesaw.
 00:42:57.266 --> 00:42:59.406 A:middle
 So let's set up the
 layer itself as well.
-
-00:42:59.916 --> 00:43:02.656 A:middle
-And there, we just
-make that change
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:59.916 --> 00:43:02.656 A:middle
 And there, we just
@@ -4236,14 +3913,6 @@ or not it should be animating.
 It starts out as false
 but we have this code here
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:58.896 --> 00:44:01.356 A:middle
-It starts out as false
-but we have this code here
-
 00:44:01.356 --> 00:44:03.946 A:middle
 which executes whenever
 this is set to say, "Well,
@@ -4330,14 +3999,6 @@ animate to the opposite angle
 
 00:44:54.886 --> 00:44:57.336 A:middle
 of what we currently are at.
-
-00:44:57.336 --> 00:45:00.026 A:middle
-So, OK. Let's go ahead and tell
-this view to start animating.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:57.336 --> 00:45:00.026 A:middle
 So, OK. Let's go ahead and tell
@@ -4443,14 +4104,6 @@ it to our own view hierarchy
 and it would generally not
 produce the results you're
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.246 --> 00:46:01.086 A:middle
-and it would generally not
-produce the results you're
-
 00:46:01.086 --> 00:46:01.596 A:middle
 looking for.
 
@@ -4545,14 +4198,6 @@ get a few times around.
 After we edit that,
 we'll rerun it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:58.206 --> 00:47:00.886 A:middle
-After we edit that,
-we'll rerun it.
-
 00:47:01.506 --> 00:47:03.366 A:middle
 And so that's great, you
 know, we see it running there.
@@ -4635,10 +4280,6 @@ back into place and kind
 00:47:56.476 --> 00:47:59.166 A:middle
 of show you the best view of
 the data that it collected.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:00.196 --> 00:48:02.606 A:middle
 It's OK. You probably
@@ -4759,14 +4400,6 @@ to extend execution.
 By default, execution terminates
 once all top-level code
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.626 --> 00:49:02.086 A:middle
-By default, execution terminates
-once all top-level code
-
 00:49:02.086 --> 00:49:02.836 A:middle
 has executed.
 
@@ -4869,10 +4502,6 @@ a quick demo of what it's
 like to use asynchronous
 code in Playgrounds.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:00.076 --> 00:50:02.826 A:middle
 So here I am back here
 and I have a Playground
@@ -4961,14 +4590,6 @@ just stops executing.
 00:50:54.106 --> 00:50:57.226 A:middle
 Let's go ahead and say
 import XCPlayground.
-
-00:50:58.226 --> 00:51:00.716 A:middle
-And then we can say
-XCPSetExecution
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:58.226 --> 00:51:00.716 A:middle
 And then we can say
@@ -5084,14 +4705,6 @@ will be dependent on the number
 of lines of code executed,
 not the actual performance
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:59.806 --> 00:52:02.506 A:middle
-of lines of code executed,
-not the actual performance
-
 00:52:02.506 --> 00:52:04.036 A:middle
 of whatever it is
 you are developing.
@@ -5185,14 +4798,6 @@ Playground source itself.
 You can get around some of these
 limitations by using the REPL.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:59.516 --> 00:53:02.826 A:middle
-You can get around some of these
-limitations by using the REPL.
-
 00:53:03.456 --> 00:53:05.766 A:middle
 The REPL is the command
 line interface to Swift
@@ -5279,14 +4884,6 @@ to LLDB and the Swift REPL talk.
 00:53:55.426 --> 00:53:58.166 A:middle
 And we'll go into much more
 detail about how the REPL works.
-
-00:53:58.736 --> 00:54:02.786 A:middle
-In summary, we think Playgrounds
-are a great way to play
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:58.736 --> 00:54:02.786 A:middle
 In summary, we think Playgrounds
@@ -5387,14 +4984,6 @@ on the Apple Developer Forums.
 We have several related
 sessions about Swift this week.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:54:57.526 --> 00:55:01.146 A:middle
-We have several related
-sessions about Swift this week.
-
 00:55:01.146 --> 00:55:04.846 A:middle
 So there was an Introduction
 to Swift session yesterday,
@@ -5452,4 +5041,3 @@ Thank you all for coming
 00:55:31.236 --> 00:55:33.266 A:middle
 and I hope you have a
 great week here at WWDC.
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:13.176 --> 00:00:16.716 A:middle
 &gt;&gt; Ladies and gentlemen,
@@ -51,19 +50,11 @@ number of new APIs.
 We're giving you access to
 more low-level technologies,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.806 --> 00:01:01.316 A:middle
-We're giving you access to
-more low-level technologies,
-
 00:01:01.896 --> 00:01:04.906 A:middle
 and as always, we're moving
 all parts of the ecosystem,
 
-00:01:05.355 --> 00:01:08.336 A:middle
+00:01:05.356 --> 00:01:08.336 A:middle
 hardware, software, services,
 
 00:01:08.726 --> 00:01:11.396 A:middle
@@ -130,14 +121,6 @@ every single month.
 00:01:56.656 --> 00:01:57.986 A:middle
 So, let's take a look
 at what we're doing
-
-00:01:57.986 --> 00:02:01.416 A:middle
-with our iOS App Store to make
-you guys even more successful.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:57.986 --> 00:02:01.416 A:middle
 with our iOS App Store to make
@@ -221,14 +204,6 @@ most importantly,
 we are adding variable
 analytics.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.326 --> 00:03:01.236 A:middle
-we are adding variable
-analytics.
-
 00:03:02.516 --> 00:03:07.746 A:middle
 [ Applause ]
 
@@ -285,13 +260,6 @@ to do exactly that.
 00:03:53.156 --> 00:03:56.016 A:middle
 Users become beta testers by
 downloading the TestFlight app.
-
-00:03:57.516 --> 00:04:03.196 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:57.516 --> 00:04:03.196 A:middle
 [ Applause ]
@@ -356,13 +324,6 @@ app review, and again,
 00:04:53.036 --> 00:04:54.566 A:middle
 without any kind of
 special profiles.
-
-00:04:55.516 --> 00:05:00.466 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:55.516 --> 00:05:00.466 A:middle
 [ Applause ]
@@ -438,14 +399,6 @@ designed by Apple specifically
 
 00:05:57.156 --> 00:05:58.586 A:middle
 for Cocoa and Cocoa Touch.
-
-00:05:59.286 --> 00:06:03.036 A:middle
-It works beautifully with our
-system APIs, and it's designed
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.286 --> 00:06:03.036 A:middle
 It works beautifully with our
@@ -534,14 +487,6 @@ code you might write.
 You can really see that
 Swift is a lot more compact.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.286 --> 00:07:00.446 A:middle
-You can really see that
-Swift is a lot more compact.
-
 00:07:00.786 --> 00:07:04.306 A:middle
 It even has dedicated syntax
 for a common operation
@@ -619,10 +564,6 @@ to simply write some code.
 So, I'm going to ask Ted
 Kremenek to come up on stage
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.136 --> 00:08:01.866 A:middle
 and give you a demo
 of the basics
@@ -671,7 +612,7 @@ on the fly, and executes.
 We'll start it off with
 a simple, "hello world."
 
-00:08:35.426 --> 00:08:38.135 A:middle
+00:08:35.426 --> 00:08:38.136 A:middle
 This one line of code
 is all you would need
 
@@ -679,7 +620,7 @@ is all you would need
 to write your first
 working Swift program.
 
-00:08:41.885 --> 00:08:44.086 A:middle
+00:08:41.886 --> 00:08:44.086 A:middle
 Whereas we would naturally
 want to move on now
 
@@ -701,10 +642,6 @@ compiler has powerful type
 00:08:56.246 --> 00:08:59.716 A:middle
 inference that infers that
 X has the, has the type int
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.086 --> 00:09:02.696 A:middle
 because I initialized
@@ -789,14 +726,6 @@ accesses are balance checked.
 This is part of Swift's
 safe by default design.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.106 --> 00:10:02.406 A:middle
-This is part of Swift's
-safe by default design.
-
 00:10:03.146 --> 00:10:04.636 A:middle
 In a normal-running program,
 
@@ -875,10 +804,6 @@ of the printed out string.
 00:10:57.426 --> 00:10:59.846 A:middle
 It's very really nice for doing
 lightweight string formatting.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:01.836 --> 00:11:04.246 A:middle
 Swift also has
@@ -971,14 +896,6 @@ and returns them.
 Call syntax looks just
 as you would expect.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.046 --> 00:12:01.236 A:middle
-Call syntax looks just
-as you would expect.
-
 00:12:02.366 --> 00:12:03.556 A:middle
 This is a very simple example.
 
@@ -1050,13 +967,6 @@ variables, sum and average,
 00:12:56.026 --> 00:12:58.946 A:middle
 to decompose the value of the
 return value all in one go.
-
-00:12:59.516 --> 00:13:06.886 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.516 --> 00:13:06.886 A:middle
 [ Applause ]
@@ -1133,14 +1043,6 @@ declaring a protocol scalable
 that models the idea that a
 graphical entity is scalable.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.566 --> 00:14:02.636 A:middle
-that models the idea that a
-graphical entity is scalable.
-
 00:14:02.746 --> 00:14:04.566 A:middle
 I should be able to, you
 know, scale it up in size,
@@ -1205,14 +1107,6 @@ our old friend, CGRect.
 00:14:56.046 --> 00:14:58.166 A:middle
 Now, many of you who have used
 this API are probably used
-
-00:14:58.166 --> 00:15:01.156 A:middle
-to creating instances of
-CGRect using CGRectMake.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.166 --> 00:15:01.156 A:middle
 to creating instances of
@@ -1283,14 +1177,6 @@ laws of geometry have held up.
 00:15:53.016 --> 00:15:56.446 A:middle
 A 10 by 10 rectangle
 indeed has an area of 100.
-
-00:15:59.006 --> 00:16:01.816 A:middle
-Now, once you have properties
-and methods on structs,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.006 --> 00:16:01.816 A:middle
 Now, once you have properties
@@ -1374,26 +1260,18 @@ looks almost identical
 to a regular function except
 it has this additional bit of,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.256 --> 00:17:00.886 A:middle
-to a regular function except
-it has this additional bit of,
-
 00:17:00.886 --> 00:17:02.806 A:middle
 of type information
 where I'm supposed
 
-00:17:02.806 --> 00:17:04.955 A:middle
+00:17:02.806 --> 00:17:04.956 A:middle
 to find a placeholder type T.
 
-00:17:05.715 --> 00:17:07.876 A:middle
+00:17:05.716 --> 00:17:07.876 A:middle
 And all that matters
 is that T conforms
 
-00:17:08.006 --> 00:17:09.955 A:middle
+00:17:08.006 --> 00:17:09.956 A:middle
 to the scalable protocol,
 whatever it happens to be.
 
@@ -1401,19 +1279,19 @@ whatever it happens to be.
 The rest of the function looks
 pretty much as you expect.
 
-00:17:13.955 --> 00:17:17.175 A:middle
+00:17:13.956 --> 00:17:17.176 A:middle
 It's going to take an array of
 T, which, whatever T happens
 
-00:17:17.175 --> 00:17:20.816 A:middle
+00:17:17.176 --> 00:17:20.816 A:middle
 to be when I call this function,
 it takes the scaling factor
 
-00:17:21.586 --> 00:17:23.935 A:middle
+00:17:21.586 --> 00:17:23.936 A:middle
 and returns in a
 new array of Ts.
 
-00:17:25.695 --> 00:17:27.496 A:middle
+00:17:25.696 --> 00:17:27.496 A:middle
 Now, all I want to do is I
 want to create a new array
 
@@ -1462,14 +1340,6 @@ really selective trailing
 00:17:57.376 --> 00:17:59.506 A:middle
 clojure syntax where
 you can omit the,
-
-00:17:59.556 --> 00:18:01.286 A:middle
-the parentheses around
-the clojure.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.556 --> 00:18:01.286 A:middle
 the parentheses around
@@ -1543,14 +1413,6 @@ REPL, in, it is really easy
 to write natural
 and expressive code
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.756 --> 00:19:02.626 A:middle
-to write natural
-and expressive code
-
 00:19:02.626 --> 00:19:05.646 A:middle
 in Swift while readily
 tapping into some
@@ -1617,14 +1479,6 @@ with somebody else's.
 
 00:19:52.516 --> 00:19:57.826 A:middle
 [ Applause ]
-
-00:19:58.326 --> 00:20:02.316 A:middle
-Now, a really great
-feature we did touch
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.326 --> 00:20:02.316 A:middle
 Now, a really great
@@ -1702,14 +1556,6 @@ feature of Swift is
 that it's fundamentally a
 thin language under the hood
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.036 --> 00:21:02.766 A:middle
-that it's fundamentally a
-thin language under the hood
-
 00:21:03.976 --> 00:21:07.146 A:middle
 with much the functionality
 not baked into the compiler
@@ -1775,13 +1621,6 @@ think about and craft your code.
 00:21:56.306 --> 00:21:59.966 A:middle
 But beyond that, we designed
 the language with the intention
-
-00:21:59.966 --> 00:22:00.836 A:middle
-that it would be the basis
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.966 --> 00:22:00.836 A:middle
 that it would be the basis
@@ -1854,13 +1693,6 @@ something a little more topical.
 00:22:59.786 --> 00:23:02.376 A:middle
 How about that?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.786 --> 00:23:02.376 A:middle
-How about that?
-
 00:23:02.376 --> 00:23:09.076 A:middle
 Now I'm going to add, how
 about a date constant?
@@ -1928,14 +1760,6 @@ for coming across in plain text,
 like this attributed
 string or images.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.886 --> 00:24:03.216 A:middle
-like this attributed
-string or images.
-
 00:24:03.846 --> 00:24:06.896 A:middle
 So, just like my
 attributed string,
@@ -1989,14 +1813,6 @@ visualizing in the timeline.
 00:24:55.686 --> 00:24:58.676 A:middle
 I can simply add each of
 the steps to the timeline
-
-00:24:58.996 --> 00:25:03.136 A:middle
-and get a great sense of
-how my path is constructed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.996 --> 00:25:03.136 A:middle
 and get a great sense of
@@ -2064,13 +1880,6 @@ a little bit more API.
 00:25:59.536 --> 00:26:00.456 A:middle
 See how simple this is?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.536 --> 00:26:00.456 A:middle
-See how simple this is?
-
 00:26:01.376 --> 00:26:02.556 A:middle
 Especially when you
 don't have to type.
@@ -2125,13 +1934,6 @@ How about that?
 
 00:26:57.586 --> 00:26:58.946 A:middle
 So, well, hmm.
-
-00:26:59.226 --> 00:27:00.976 A:middle
-I, OK, so I've added my date,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.226 --> 00:27:00.976 A:middle
 I, OK, so I've added my date,
@@ -2203,10 +2005,6 @@ what you see in the header
 to what you implement
 in your code.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:00.236 --> 00:28:02.276 A:middle
 Now, I have to come clean.
 
@@ -2254,14 +2052,6 @@ Documentation Playgrounds.
 00:28:55.496 --> 00:28:58.816 A:middle
 Documentation Playgrounds
 combine the best of both worlds.
-
-00:28:59.176 --> 00:29:02.066 A:middle
-Because it's a playground,
-I can play.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.176 --> 00:29:02.066 A:middle
 Because it's a playground,
@@ -2340,13 +2130,6 @@ date, and it's a simple matter
 00:29:59.856 --> 00:30:01.826 A:middle
 of doing that in my Playground.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.856 --> 00:30:01.826 A:middle
-of doing that in my Playground.
-
 00:30:02.516 --> 00:30:05.996 A:middle
 I'm going to do that by
 replacing a bunch of this code
@@ -2400,14 +2183,6 @@ really easy for you.
 
 00:30:56.686 --> 00:30:58.416 A:middle
 Swift uses the same object model
-
-00:30:58.576 --> 00:31:01.066 A:middle
-and the same memory management
-approach as Objective-C.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.576 --> 00:31:01.066 A:middle
 and the same memory management
@@ -2484,14 +2259,6 @@ have to disappoint you,
 00:31:53.856 --> 00:31:57.476 A:middle
 but we've already done that
 because, because this afternoon,
-
-00:31:57.596 --> 00:32:00.946 A:middle
-we're updating the WWDC app,
-the app that you guys are using
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:57.596 --> 00:32:00.946 A:middle
 we're updating the WWDC app,
@@ -2574,13 +2341,6 @@ and OS X Mavericks and later.
 00:32:49.536 --> 00:32:52.226 A:middle
 So, Swift apps are not
 limited to iOS 8 and Yosemite.
-
-00:32:53.516 --> 00:33:00.186 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:53.516 --> 00:33:00.186 A:middle
 [ Applause ]
@@ -2668,10 +2428,6 @@ advantage of Game Center
 00:33:58.376 --> 00:33:59.636 A:middle
 to differentiate your game,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.046 --> 00:34:02.806 A:middle
 and we have great
 engagement with Game Center.
@@ -2704,15 +2460,15 @@ APIs for iOS and OS X.
 One year later, Game Controllers
 are doing really well.
 
-00:34:26.946 --> 00:34:30.005 A:middle
+00:34:26.946 --> 00:34:30.006 A:middle
 Thousands of games taking
 advantage of Game Controllers
 
-00:34:30.005 --> 00:34:32.886 A:middle
+00:34:30.006 --> 00:34:32.886 A:middle
 for both the best of
 touch and button inputs.
 
-00:34:34.275 --> 00:34:38.146 A:middle
+00:34:34.276 --> 00:34:38.146 A:middle
 We have Game Controller demo
 stations at Apple Stores
 
@@ -2724,7 +2480,7 @@ here in San Francisco,
 and we're introducing
 controller forwarding.
 
-00:34:44.485 --> 00:34:46.886 A:middle
+00:34:44.486 --> 00:34:46.886 A:middle
 So, what is controller
 forwarding?
 
@@ -2742,10 +2498,6 @@ iPads and Macs.
 
 00:34:57.486 --> 00:34:58.306 A:middle
 It's pretty cool.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:03.106 --> 00:35:03.996 A:middle
 So that's Game Controllers.
@@ -2806,14 +2558,6 @@ to produce 3D games, and,
 
 00:35:54.176 --> 00:35:55.606 A:middle
 of course, it's now on iOS.
-
-00:35:57.046 --> 00:36:01.026 A:middle
-New for this year in
-SceneKit, you, sorry.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:57.046 --> 00:36:01.026 A:middle
 New for this year in
@@ -2882,14 +2626,6 @@ system for collisions.
 00:36:55.956 --> 00:36:57.656 A:middle
 Last year, you may have
 gotten something like this.
-
-00:36:58.876 --> 00:37:01.466 A:middle
-So, that's OK, but
-it's not great.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.876 --> 00:37:01.466 A:middle
 So, that's OK, but
@@ -2965,14 +2701,6 @@ everything you need
 
 00:37:56.136 --> 00:37:57.066 A:middle
 for dynamic lighting.
-
-00:37:58.166 --> 00:38:01.286 A:middle
-One AB, here's a basic scene kit
-scene and one API call can turn
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:58.166 --> 00:38:01.286 A:middle
 One AB, here's a basic scene kit
@@ -3066,14 +2794,6 @@ You can design your game in 2D.
 You can set up your complex
 interactions all in 2D,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:58.266 --> 00:39:00.896 A:middle
-You can set up your complex
-interactions all in 2D,
-
 00:39:01.006 --> 00:39:02.496 A:middle
 then you could add
 your 3D assets
@@ -3152,14 +2872,6 @@ SceneKit and SpriteKit.
 
 00:39:57.686 --> 00:39:59.036 A:middle
 So, what are you seeing here?
-
-00:39:59.616 --> 00:40:02.116 A:middle
-So, the paintballs are
-being shot into the scene
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:59.616 --> 00:40:02.116 A:middle
 So, the paintballs are
@@ -3246,14 +2958,6 @@ Now, I'd like to take a minute
 to have Jacques show you how
 easy it is to enable some
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.066 --> 00:41:02.956 A:middle
-to have Jacques show you how
-easy it is to enable some
-
 00:41:02.956 --> 00:41:04.636 A:middle
 of these features
 using our Xcode tools.
@@ -3326,14 +3030,6 @@ are the physics body outlines,
 
 00:41:58.526 --> 00:41:59.716 A:middle
 so this is not falling over.
-
-00:41:59.716 --> 00:42:03.796 A:middle
-I'm going to correct that by
-turning on per-pixel physics,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:59.716 --> 00:42:03.796 A:middle
 I'm going to correct that by
@@ -3412,14 +3108,6 @@ Now I'm going to simulate this.
 00:42:54.656 --> 00:42:57.236 A:middle
 Well, you notice they all
 drag towards the center
-
-00:42:57.236 --> 00:43:00.326 A:middle
-of the spring there, and you
-notice also as they collided,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:57.236 --> 00:43:00.326 A:middle
 of the spring there, and you
@@ -3510,14 +3198,6 @@ Back to Jeff.
 So, that was some of our
 high-level, high-performance,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:58.366 --> 00:44:01.186 A:middle
-So, that was some of our
-high-level, high-performance,
-
 00:44:01.186 --> 00:44:03.516 A:middle
 super-efficient 2D
 and 3D games API.
@@ -3599,14 +3279,6 @@ application piece.
 The second part is that system
 framework, that GPU API.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:57.446 --> 00:45:00.736 A:middle
-The second part is that system
-framework, that GPU API.
-
 00:45:01.316 --> 00:45:03.126 A:middle
 Well, Metal is super-efficient
 
@@ -3679,10 +3351,6 @@ engine on top of Metal.
 00:45:58.996 --> 00:45:59.336 A:middle
 Johan.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:00.516 --> 00:46:06.506 A:middle
 [ Applause ]
 
@@ -3735,13 +3403,6 @@ Let's have a look.
 
 00:46:49.116 --> 00:46:50.376 A:middle
 Yeah, will load in a little bit.
-
-00:46:55.516 --> 00:47:00.566 A:middle
-[ Music ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:55.516 --> 00:47:00.566 A:middle
 [ Music ]
@@ -3810,14 +3471,6 @@ that well for the plants here.
 
 00:47:46.026 --> 00:47:47.886 A:middle
 Let's see what they do.
-
-00:47:48.516 --> 00:48:09.516 A:middle
-[ Sound from computer
-game demo ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:48.516 --> 00:48:09.516 A:middle
 [ Sound from computer
@@ -3902,14 +3555,6 @@ character is interacting.
 And there's a lot of components
 coming together to be able
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.856 --> 00:49:02.216 A:middle
-And there's a lot of components
-coming together to be able
-
 00:49:02.216 --> 00:49:03.416 A:middle
 to create these type
 of environments here.
@@ -3986,14 +3631,6 @@ that we can do that.
 
 00:49:57.426 --> 00:49:58.626 A:middle
 And together with that,
-
-00:49:58.626 --> 00:50:00.356 A:middle
-we're doing around 20
-different rendering passes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:58.626 --> 00:50:00.356 A:middle
 we're doing around 20
@@ -4092,10 +3729,6 @@ power of the GPU
 00:50:58.356 --> 00:50:59.776 A:middle
 that Metal allows you to unlock.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:04.476 --> 00:51:07.286 A:middle
 So, it has never been easier
 to take an amazing idea
@@ -4164,14 +3797,6 @@ to your apps.
 00:51:55.546 --> 00:51:57.026 A:middle
 So that the user
 doesn't get flooded
-
-00:51:57.026 --> 00:52:00.236 A:middle
-with unexpected new behaviors,
-they stay in full control
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:57.026 --> 00:52:00.236 A:middle
 with unexpected new behaviors,
@@ -4247,14 +3872,6 @@ on iOS.
 
 00:52:52.516 --> 00:52:57.336 A:middle
 [ Applause ]
-
-00:52:57.836 --> 00:53:00.166 A:middle
-So you're not limited
-anymore to static libraries.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:57.836 --> 00:53:00.166 A:middle
 So you're not limited
@@ -4341,14 +3958,6 @@ it to your wishes,
 perhaps with the
 three-space indentation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:58.886 --> 00:54:00.766 A:middle
-perhaps with the
-three-space indentation.
-
 00:54:03.596 --> 00:54:06.496 A:middle
 And Photo Editing extensions are
 actions that manipulate images,
@@ -4423,14 +4032,6 @@ to jump out into full app.
 00:54:55.606 --> 00:54:58.986 A:middle
 Document Providers extend the
 newly designed iCloud Document
-
-00:54:58.986 --> 00:55:02.396 A:middle
-Picker and allow you to access
-additional storage mechanisms.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:58.986 --> 00:55:02.396 A:middle
 Picker and allow you to access
@@ -4519,14 +4120,6 @@ very popular with our users.
 Next, we're going to talk
 about new APIs in iOS 8,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:55:59.746 --> 00:56:02.566 A:middle
-Next, we're going to talk
-about new APIs in iOS 8,
-
 00:56:02.926 --> 00:56:04.796 A:middle
 and for that I'm going
 to hand over to Toby.
@@ -4595,10 +4188,6 @@ applications.
 00:56:56.086 --> 00:56:59.306 A:middle
 Underlying each of these
 is a very rich set of API.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:57:01.066 --> 00:57:03.446 A:middle
 We've introduced a new
@@ -4678,14 +4267,6 @@ or color temperature
 and various exposure settings,
 like the shutter speed and ISO.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:57:59.486 --> 00:58:03.026 A:middle
-and various exposure settings,
-like the shutter speed and ISO.
-
 00:58:03.026 --> 00:58:07.136 A:middle
 And these are all the same APIs
 that our applications are using.
@@ -4758,13 +4339,6 @@ That's stored away securely
 00:58:55.926 --> 00:58:58.606 A:middle
 so that not even our own
 applications can get access
-
-00:58:59.726 --> 00:59:00.666 A:middle
-to that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:58:59.726 --> 00:59:00.666 A:middle
 to that.
@@ -4847,14 +4421,6 @@ HealthKit provides a platform
 where your applications
 can store
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:59:58.836 --> 01:00:00.746 A:middle
-where your applications
-can store
-
 01:00:00.746 --> 01:00:02.976 A:middle
 and share health-related
 information.
@@ -4923,13 +4489,6 @@ let you provide the user
 01:00:54.306 --> 01:00:58.296 A:middle
 with custom actions right there
 in the notification banner.
-
-01:00:59.046 --> 01:01:00.266 A:middle
-And as you heard this morning,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:00:59.046 --> 01:01:00.266 A:middle
 And as you heard this morning,
@@ -5006,10 +4565,6 @@ the user right here
 01:01:57.296 --> 01:01:58.876 A:middle
 from within your application.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 01:02:00.516 --> 01:02:07.006 A:middle
 [ Applause ]
 
@@ -5084,14 +4639,6 @@ to have to contend with.
 And that's getting
 to be rather a lot.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:02:59.356 --> 01:03:01.346 A:middle
-And that's getting
-to be rather a lot.
-
 01:03:01.346 --> 01:03:04.626 A:middle
 And so we've been working to try
 and rationalize things for you.
@@ -5156,14 +4703,6 @@ iPhone and the iPad.
 01:03:55.616 --> 01:03:57.586 A:middle
 On the phone, well
 it looks and behaves
-
-01:03:57.586 --> 01:04:01.256 A:middle
-like a single-column navigation
-browser, and on the iPad,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:03:57.586 --> 01:04:01.256 A:middle
 like a single-column navigation
@@ -5243,14 +4782,6 @@ that we're calling adaptive UI,
 and this is what makes
 it possible for you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:04:58.306 --> 01:05:00.176 A:middle
-and this is what makes
-it possible for you
-
 01:05:00.176 --> 01:05:02.926 A:middle
 to use a single storyboard
 on iPhone 4,
@@ -5319,14 +4850,6 @@ Why is that?
 Well, because size
 classes are, they're, wow!
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:05:57.706 --> 01:06:05.056 A:middle
-Well, because size
-classes are, they're, wow!
-
 01:06:05.846 --> 01:06:09.186 A:middle
 Since size classes
 aren't, they're not real,
@@ -5378,13 +4901,6 @@ and orientations
 01:06:54.356 --> 01:06:59.366 A:middle
 so I can see how my interface is
 working in as many devices and,
-
-01:06:59.476 --> 01:07:00.736 A:middle
-and layouts as I want.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:06:59.476 --> 01:07:00.736 A:middle
 and layouts as I want.
@@ -5452,14 +4968,6 @@ everywhere.
 For instance, if I want to
 move this shiny little graphic
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:07:58.736 --> 01:08:01.606 A:middle
-For instance, if I want to
-move this shiny little graphic
-
 01:08:01.606 --> 01:08:05.296 A:middle
 up into the corner,
 that will get reflected
@@ -5475,7 +4983,7 @@ class does not fit all,
 I can also tell Interface
 Builder to edit
 
-01:08:16.935 --> 01:08:18.276 A:middle
+01:08:16.936 --> 01:08:18.276 A:middle
 in different size classes.
 
 01:08:19.736 --> 01:08:22.466 A:middle
@@ -5489,18 +4997,18 @@ that maps to an iPhone
 01:08:27.046 --> 01:08:28.296 A:middle
 in landscape orientation.
 
-01:08:29.395 --> 01:08:31.696 A:middle
+01:08:29.396 --> 01:08:31.696 A:middle
 And now, when I make an edit,
 
 01:08:31.696 --> 01:08:34.366 A:middle
 for instance moving
 all these objects up,
 
-01:08:35.636 --> 01:08:39.265 A:middle
+01:08:35.636 --> 01:08:39.266 A:middle
 that will only be reflected
 in a landscape orientation.
 
-01:08:39.906 --> 01:08:48.725 A:middle
+01:08:39.906 --> 01:08:48.726 A:middle
 Now, if I add an iPad to the
 mix, we can see yet another take
 
@@ -5512,17 +5020,9 @@ these same elements.
 And once again, these
 are all the same elements
 
-01:08:55.326 --> 01:08:58.765 A:middle
+01:08:55.326 --> 01:08:58.766 A:middle
 with the same logic, styles,
 connections still attached.
-
-01:08:59.326 --> 01:09:01.636 A:middle
-They're just positioned
-and sized differently
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:08:59.326 --> 01:09:01.636 A:middle
 They're just positioned
@@ -5543,28 +5043,28 @@ here, that will get reflected
 01:09:13.826 --> 01:09:16.506 A:middle
 in all of the size classes.
 
-01:09:19.076 --> 01:09:22.305 A:middle
+01:09:19.076 --> 01:09:22.306 A:middle
 That's a quick take at
 size classes in iOS 8
 
-01:09:22.645 --> 01:09:25.345 A:middle
+01:09:22.646 --> 01:09:25.346 A:middle
 and one storyboard
 to rule them all.
 
 01:09:26.666 --> 01:09:27.426 A:middle
 Back to you, Toby.
 
-01:09:28.515 --> 01:09:34.496 A:middle
+01:09:28.516 --> 01:09:34.496 A:middle
 [ Applause ]
 
 01:09:34.996 --> 01:09:35.316 A:middle
 &gt;&gt; Thanks, Max.
 
-01:09:36.055 --> 01:09:38.356 A:middle
+01:09:36.056 --> 01:09:38.356 A:middle
 Well, so that's just a taste of
 some of the things that we have
 
-01:09:38.475 --> 01:09:41.886 A:middle
+01:09:38.476 --> 01:09:41.886 A:middle
 for you in iOS 8, and we can't
 wait for you to get your hands
 
@@ -5589,10 +5089,6 @@ users, and we're continuing
 01:09:56.746 --> 01:09:59.886 A:middle
 to improve and add new
 features to it all the time.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:10:01.466 --> 01:10:03.596 A:middle
 First, let's talk
@@ -5658,14 +5154,6 @@ can't access the files
 01:10:51.906 --> 01:10:56.366 A:middle
 in iCloud Drive directly without
 some form of user intervention.
-
-01:10:58.286 --> 01:11:01.486 A:middle
-Well, that's done in this
-new UIDocumentPicker class,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:10:58.286 --> 01:11:01.486 A:middle
 Well, that's done in this
@@ -5750,10 +5238,6 @@ write client server applications
 without having to
 write the server part.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 01:12:00.906 --> 01:12:02.386 A:middle
 Let's say you've got a hot idea
 
@@ -5819,14 +5303,6 @@ to be able to all of this?"
 01:12:55.966 --> 01:12:58.306 A:middle
 Well, a database seems
 like a good place to start.
-
-01:12:58.876 --> 01:13:01.786 A:middle
-We've got records and
-relationships, queries,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:12:58.876 --> 01:13:01.786 A:middle
 We've got records and
@@ -5909,13 +5385,6 @@ that's pretty huge for you.
 01:13:57.516 --> 01:14:03.196 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:13:57.516 --> 01:14:03.196 A:middle
-[ Applause ]
-
 01:14:03.696 --> 01:14:06.796 A:middle
 As Craig told you this
 morning, it's basically free
@@ -5985,14 +5454,6 @@ of application for you.
 01:14:55.066 --> 01:14:58.256 A:middle
 And that's what we
 have for iCloud.
-
-01:14:59.186 --> 01:15:01.116 A:middle
-Now, I'd like to turn
-it over to Andreas
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:14:59.186 --> 01:15:01.116 A:middle
 Now, I'd like to turn
@@ -6071,14 +5532,6 @@ style of window chrome.
 Many of our apps now
 use a combined toolbar
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:15:59.396 --> 01:16:02.046 A:middle
-Many of our apps now
-use a combined toolbar
-
 01:16:02.196 --> 01:16:04.286 A:middle
 in which we merge the
 title bar and the toolbar
@@ -6152,14 +5605,6 @@ to the edges of the window.
 01:16:55.366 --> 01:16:57.916 A:middle
 Now, one thing that is
 interesting about our new UI is
-
-01:16:57.916 --> 01:17:00.796 A:middle
-that it uses a number of
-new transparent materials.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:16:57.916 --> 01:17:00.796 A:middle
 that it uses a number of
@@ -6246,14 +5691,6 @@ the system font in our UI.
 We changed it from Lucida
 Grande to Helvetica Neue,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:17:58.616 --> 01:18:01.646 A:middle
-We changed it from Lucida
-Grande to Helvetica Neue,
-
 01:18:02.816 --> 01:18:03.926 A:middle
 and that's how you
 pronounce that.
@@ -6318,14 +5755,6 @@ throughout the system.
 01:18:55.406 --> 01:18:57.606 A:middle
 We've tried to remove
 unnecessary variations,
-
-01:18:57.676 --> 01:19:00.596 A:middle
-and we've standardized on three
-basic shapes of app icons:
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:18:57.676 --> 01:19:00.596 A:middle
 and we've standardized on three
@@ -6412,10 +5841,6 @@ adopt the new technology,
 which we believe will be even
 more popular with our users.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 01:20:01.786 --> 01:20:03.186 A:middle
 I'd also like to take
 a moment and talk
@@ -6499,13 +5924,6 @@ over to Matthew [inaudible].
 01:20:56.516 --> 01:21:02.746 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:20:56.516 --> 01:21:02.746 A:middle
-[ Applause ]
-
 01:21:03.246 --> 01:21:03.786 A:middle
 &gt;&gt; Thank you, Andreas.
 
@@ -6564,14 +5982,6 @@ bringing this
 
 01:21:54.846 --> 01:21:57.786 A:middle
 to another area, Launch Images.
-
-01:21:58.876 --> 01:22:01.896 A:middle
-With iOS 8, you can now provide
-an Interface Builder document
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:21:58.876 --> 01:22:01.896 A:middle
 With iOS 8, you can now provide
@@ -6646,14 +6056,6 @@ as popovers and sheets,
 can now be designed wholly in
 the Interface Builder canvas,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:22:59.316 --> 01:23:01.946 A:middle
-can now be designed wholly in
-the Interface Builder canvas,
-
 01:23:02.506 --> 01:23:04.666 A:middle
 and containment relationships
 such as tabs
@@ -6711,14 +6113,6 @@ connections and class names.
 01:23:53.816 --> 01:23:56.946 A:middle
 So, investigation and making
 mass change is really simple.
-
-01:23:58.776 --> 01:24:01.246 A:middle
-And for iOS, we are
-bringing custom fonts
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:23:58.776 --> 01:24:01.246 A:middle
 And for iOS, we are
@@ -6804,14 +6198,6 @@ your development regions.
 You can work solely in your
 source and interface documents.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:24:58.446 --> 01:25:01.586 A:middle
-You can work solely in your
-source and interface documents.
-
 01:25:02.516 --> 01:25:07.986 A:middle
 [ Applause ]
 
@@ -6886,10 +6272,6 @@ are now rendered live
 01:25:58.086 --> 01:25:59.586 A:middle
 on the Interface Builder canvas.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 01:26:00.516 --> 01:26:08.126 A:middle
 [ Applause ]
 
@@ -6952,14 +6334,6 @@ across my applications.
 01:26:56.606 --> 01:26:58.636 A:middle
 Now, in this case, we see our
 custom control is currently
-
-01:26:58.636 --> 01:27:00.636 A:middle
-rendering as just the big
-white box here on the left.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:26:58.636 --> 01:27:00.636 A:middle
 rendering as just the big
@@ -7050,14 +6424,6 @@ and select my control,
 at the top of the
 inspector are now controls
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:27:59.516 --> 01:28:02.196 A:middle
-at the top of the
-inspector are now controls
-
 01:28:02.196 --> 01:28:04.116 A:middle
 for my items, for my properties.
 
@@ -7138,10 +6504,6 @@ it gives you all the ability
 to surface your controls
 in the way you want.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 01:29:02.586 --> 01:29:04.766 A:middle
 Now, I've been working with
 my, thank you [applause].
@@ -7221,14 +6583,6 @@ here, and now we'll notice
 01:29:54.036 --> 01:29:56.876 A:middle
 that our interface is doing
 somewhat of the right thing.
-
-01:29:57.236 --> 01:30:00.646 A:middle
-I've been using autolayout
-to lay out my controls,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:29:57.236 --> 01:30:00.646 A:middle
 I've been using autolayout
@@ -7325,14 +6679,6 @@ your application and viewing
 by queues, you will have not
 only the executing blocks
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:30:58.616 --> 01:31:01.876 A:middle
-by queues, you will have not
-only the executing blocks
-
 01:31:02.106 --> 01:31:04.426 A:middle
 but all of the pending
 blocks available as well.
@@ -7415,14 +6761,6 @@ we're adding two new gauges
 in the form of network
 I/O and disk I/O.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:31:59.996 --> 01:32:02.366 A:middle
-in the form of network
-I/O and disk I/O.
-
 01:32:03.386 --> 01:32:05.156 A:middle
 These gauges give
 you insight into some
@@ -7486,14 +6824,6 @@ with iCloud is a breeze.
 
 01:32:54.516 --> 01:32:58.676 A:middle
 [ Applause ]
-
-01:32:59.176 --> 01:33:01.576 A:middle
-Testing is a very
-important and key area to us,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:32:59.176 --> 01:33:01.576 A:middle
 Testing is a very
@@ -7576,14 +6906,6 @@ treated specially.
 
 01:33:57.496 --> 01:33:58.776 A:middle
 When the test executes,
-
-01:33:58.976 --> 01:34:01.396 A:middle
-we evaluate this
-block multiple times
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:33:58.976 --> 01:34:01.396 A:middle
 we evaluate this
@@ -7677,14 +6999,6 @@ analyze your tests,
 and we have by far the
 coolest profiling tools
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:34:59.726 --> 01:35:02.276 A:middle
-and we have by far the
-coolest profiling tools
-
 01:35:02.276 --> 01:35:04.026 A:middle
 on the planet, Instruments.
 
@@ -7761,10 +7075,6 @@ Profile Guided Optimization,
 
 01:35:58.256 --> 01:35:59.526 A:middle
 or PGO for short.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:36:00.726 --> 01:36:03.026 A:middle
 With PGO, your performance
@@ -7847,14 +7157,6 @@ for any issue that comes up.
 We also have more
 scheduling options and support
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:36:59.686 --> 01:37:02.456 A:middle
-We also have more
-scheduling options and support
-
 01:37:02.456 --> 01:37:06.026 A:middle
 for custom triggers, which you
 can run your own scripts before
@@ -7915,14 +7217,6 @@ the debugging experience,
 01:37:52.326 --> 01:37:54.926 A:middle
 and we're calling this
 feature View Debugging.
-
-01:37:56.396 --> 01:38:00.066 A:middle
-With View Debugging, you have
-a live, interactive way to dive
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:37:56.396 --> 01:38:00.066 A:middle
 With View Debugging, you have
@@ -8000,13 +7294,6 @@ hierarchy of my interface.
 01:38:54.386 --> 01:38:57.066 A:middle
 Let's change perspective a
 little bit to see if that helps.
-
-01:38:59.516 --> 01:39:06.896 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:38:59.516 --> 01:39:06.896 A:middle
 [ Applause ]
@@ -8089,14 +7376,6 @@ too many things on screen.
 We've given you the
 ability to adjust the range
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:39:59.906 --> 01:40:01.966 A:middle
-We've given you the
-ability to adjust the range
-
 01:40:01.966 --> 01:40:04.986 A:middle
 of interesting views by
 peeling items off from the front
@@ -8166,14 +7445,6 @@ Debugger for Xcode.
 
 01:40:54.516 --> 01:40:58.686 A:middle
 [ Applause ]
-
-01:40:59.186 --> 01:41:01.786 A:middle
-So, Xcode 6 is packed
-with features
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 01:40:59.186 --> 01:41:01.786 A:middle
 So, Xcode 6 is packed
@@ -8250,14 +7521,6 @@ later this year,
 we will make developer previews
 available for download today
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-01:41:58.256 --> 01:42:01.706 A:middle
-we will make developer previews
-available for download today
-
 01:42:01.846 --> 01:42:03.686 A:middle
 on the WWDC Attendee Portal.
 
@@ -8299,4 +7562,3 @@ see you around later this week.
 
 01:42:31.516 --> 01:42:34.500 A:middle
 [ Applause ]
-

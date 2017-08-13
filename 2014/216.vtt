@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:11.706 A:middle
 [ Silence ]
@@ -63,14 +62,6 @@ screen sizes,
 00:00:54.696 --> 00:00:58.686 A:middle
 and it can seem intimidating
 to design apps for.
-
-00:00:58.856 --> 00:01:01.846 A:middle
-Well, in iOS 8 we want
-to make it simple for you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.856 --> 00:01:01.846 A:middle
 Well, in iOS 8 we want
@@ -142,23 +133,15 @@ that we call size classes.
 So, let me show you a little
 bit about what me mean
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.546 --> 00:02:01.826 A:middle
-So, let me show you a little
-bit about what me mean
-
 00:02:02.126 --> 00:02:06.806 A:middle
 by these differences that are
 represented by size class.
 
-00:02:06.806 --> 00:02:09.795 A:middle
+00:02:06.806 --> 00:02:09.796 A:middle
 If you think about a typical
 iPad application and the screens
 
-00:02:09.795 --> 00:02:11.876 A:middle
+00:02:09.796 --> 00:02:11.876 A:middle
 that it shows, you'll
 see features
 
@@ -225,13 +208,6 @@ of a Popover.
 00:02:59.146 --> 00:03:00.546 A:middle
 And both of these are on iPad.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.146 --> 00:03:00.546 A:middle
-And both of these are on iPad.
-
 00:03:02.116 --> 00:03:05.286 A:middle
 So, we call this difference
 "regular" and "compact",
@@ -292,14 +268,6 @@ so does a size class.
 00:03:53.766 --> 00:03:56.856 A:middle
 So if you put these two
 concepts together, you get a two
-
-00:03:56.856 --> 00:04:01.136 A:middle
-by two grid that defines any
-of the possibilities of regular
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:56.856 --> 00:04:01.136 A:middle
 by two grid that defines any
@@ -391,14 +359,6 @@ on the WWDC website.
 Just go to the Sample
 Code section and search
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.196 --> 00:05:01.546 A:middle
-Just go to the Sample
-Code section and search
-
 00:05:01.546 --> 00:05:04.626 A:middle
 for Adaptive Photos, the
 name of our sample app.
@@ -465,14 +425,6 @@ disappears entirely.
 This all happens automatically,
 but in our application,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:56.816 --> 00:06:00.396 A:middle
-This all happens automatically,
-but in our application,
-
 00:06:00.396 --> 00:06:01.956 A:middle
 we've done a few
 more customizations.
@@ -528,14 +480,6 @@ our application we're using the
 00:06:51.826 --> 00:06:54.956 A:middle
 vertical size class instead
 of the interface orientation,
-
-00:06:55.476 --> 00:07:01.286 A:middle
-so we get the right behavior
-on both iPhone and iPad.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:55.476 --> 00:07:01.286 A:middle
 so we get the right behavior
@@ -604,14 +548,6 @@ you actually get one
 of these size classes
 in your application?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.166 --> 00:08:00.836 A:middle
-of these size classes
-in your application?
-
 00:08:01.816 --> 00:08:04.546 A:middle
 Well, to do that, you use a
 new system we call Traits.
@@ -646,10 +582,10 @@ and also the displayScale.
 Now, all of these traits are
 wrapped up inside a container
 
-00:08:30.686 --> 00:08:33.135 A:middle
+00:08:30.686 --> 00:08:33.136 A:middle
 that we call a Trait Collection.
 
-00:08:34.155 --> 00:08:36.035 A:middle
+00:08:34.156 --> 00:08:36.036 A:middle
 This includes the
 Trait Properties
 
@@ -678,14 +614,6 @@ Trait Collection,
 00:08:54.266 --> 00:08:57.036 A:middle
 and these include
 Screens, Windows,
-
-00:08:57.906 --> 00:09:00.046 A:middle
-View Controllers,
-and also Views.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.906 --> 00:09:00.046 A:middle
 View Controllers,
@@ -771,10 +699,6 @@ screen which makes
 00:09:58.436 --> 00:09:59.866 A:middle
 up the root Trait Environment.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.086 --> 00:10:04.606 A:middle
 Now, in addition to getting
 the current trait collection
@@ -851,13 +775,6 @@ trait collection that's missing
 00:10:55.966 --> 00:10:58.716 A:middle
 some of its values, and
 we call these missing
-
-00:10:58.716 --> 00:11:00.486 A:middle
-values Unspecified.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.716 --> 00:11:00.486 A:middle
 values Unspecified.
@@ -954,14 +871,6 @@ to match exactly.
 So here, the second trait
 collection only has specified a
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.006 --> 00:12:02.476 A:middle
-So here, the second trait
-collection only has specified a
-
 00:12:02.476 --> 00:12:06.096 A:middle
 horizontal size class and those
 horizontal size classes are
@@ -1035,14 +944,6 @@ properties of your views,
 and we've extended it in iOS 8
 to support trait collections.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:57.556 --> 00:13:01.696 A:middle
-and we've extended it in iOS 8
-to support trait collections.
-
 00:13:02.666 --> 00:13:05.756 A:middle
 We now have a new method,
 appearanceForTraitCollection,
@@ -1111,14 +1012,6 @@ and 2X version of your UIImages,
 00:13:54.126 --> 00:13:56.586 A:middle
 and you'd generally put
 these in your image catalog.
-
-00:13:57.636 --> 00:14:00.456 A:middle
-However, in iOS 8, we've
-extended this to allow you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.636 --> 00:14:00.456 A:middle
 However, in iOS 8, we've
@@ -1203,14 +1096,6 @@ for different trait collections,
 00:14:56.426 --> 00:14:58.226 A:middle
 and automatically get
 the right behavior
-
-00:14:58.546 --> 00:15:00.596 A:middle
-in wherever your
-application adapts to.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.546 --> 00:15:00.596 A:middle
 in wherever your
@@ -1302,14 +1187,6 @@ in the final trait collection.
 However, if there are multiple
 versions, multiple values
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.676 --> 00:16:01.966 A:middle
-However, if there are multiple
-versions, multiple values
-
 00:16:01.966 --> 00:16:03.566 A:middle
 for the trait that are
 being added together,
@@ -1371,14 +1248,6 @@ at the code for that right here.
 All that we're doing in this
 view is creating image views
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.516 --> 00:17:01.706 A:middle
-All that we're doing in this
-view is creating image views
-
 00:17:02.726 --> 00:17:04.876 A:middle
 and setting images on
 them that we're pulling
@@ -1386,26 +1255,26 @@ them that we're pulling
 00:17:04.876 --> 00:17:06.116 A:middle
 out of our asset catalog.
 
-00:17:07.205 --> 00:17:09.246 A:middle
+00:17:07.206 --> 00:17:09.246 A:middle
 There's actually no code
 in here at all that deals
 
-00:17:09.246 --> 00:17:10.695 A:middle
+00:17:09.246 --> 00:17:10.696 A:middle
 with traits or size classes.
 
-00:17:11.506 --> 00:17:17.935 A:middle
+00:17:11.506 --> 00:17:17.936 A:middle
 Instead, we just have assets
 that define a regular version
 
-00:17:17.935 --> 00:17:20.816 A:middle
+00:17:17.936 --> 00:17:20.816 A:middle
 of the image, and a vertically
 compact version of the image,
 
-00:17:21.346 --> 00:17:23.935 A:middle
+00:17:21.346 --> 00:17:23.936 A:middle
 and our Image View
 automatically updates
 
-00:17:24.415 --> 00:17:25.996 A:middle
+00:17:24.416 --> 00:17:25.996 A:middle
 to give us this resizing
 behavior
 
@@ -1437,14 +1306,6 @@ to the asset catalog.
 
 00:17:48.516 --> 00:17:56.356 A:middle
 [ Applause ]
-
-00:17:56.856 --> 00:18:00.086 A:middle
-All right, next let's take
-a look at our Overlay view.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.856 --> 00:18:00.086 A:middle
 All right, next let's take
@@ -1523,14 +1384,6 @@ about the current user,
 as well as the last
 image that I've sent.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.506 --> 00:19:00.046 A:middle
-as well as the last
-image that I've sent.
-
 00:19:01.026 --> 00:19:03.196 A:middle
 However, when I rotate
 this to landscape,
@@ -1598,10 +1451,6 @@ automatically perform,
 00:19:57.636 --> 00:19:59.336 A:middle
 be more adaptive in
 your applications.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.666 --> 00:20:01.916 A:middle
 One of the View Controller
@@ -1681,10 +1530,6 @@ from its parents
 00:20:56.536 --> 00:20:59.706 A:middle
 and this gives it a regular
 horizontal size class.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.876 --> 00:21:02.146 A:middle
 When the split View
@@ -1775,14 +1620,6 @@ the inherited trait collection,
 our Split View Controller will
 now have a regular horizontal
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.846 --> 00:22:01.726 A:middle
-our Split View Controller will
-now have a regular horizontal
-
 00:22:01.756 --> 00:22:04.456 A:middle
 size class in addition
 to what else it inherits
@@ -1851,14 +1688,6 @@ and in iOS 8,
 00:22:56.586 --> 00:22:59.346 A:middle
 when Trait Collections change
 as part of this collection,
-
-00:22:59.706 --> 00:23:01.946 A:middle
-we've given you some
-callbacks that you can tie
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.706 --> 00:23:01.946 A:middle
 we've given you some
@@ -1952,14 +1781,6 @@ rotation in this case.
 There's also a way to add
 your own completion blocks
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.676 --> 00:24:01.126 A:middle
-There's also a way to add
-your own completion blocks
-
 00:24:01.266 --> 00:24:03.696 A:middle
 that will get run inside
 of the cleanup stage.
@@ -2042,10 +1863,6 @@ View Controller collapses
 from a two-column to
 a one-column view.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:04.216 --> 00:25:05.636 A:middle
 As part of this change,
 
@@ -2120,14 +1937,6 @@ primary View Controller,
 00:25:55.356 --> 00:25:57.976 A:middle
 and in general, Split
 View Controller will try
-
-00:25:57.976 --> 00:26:00.116 A:middle
-to automatically do the
-right thing here as well.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.976 --> 00:26:00.116 A:middle
 to automatically do the
@@ -2219,14 +2028,6 @@ level List View Controller
 when we get collapsed,
 and it's possible to do
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.086 --> 00:27:00.706 A:middle
-when we get collapsed,
-and it's possible to do
-
 00:27:00.706 --> 00:27:03.056 A:middle
 that with another
 splitViewController method,
@@ -2296,14 +2097,6 @@ View Controller and recreate it
 00:27:53.976 --> 00:27:58.176 A:middle
 from the primary View
 Controller that was collapsed,
-
-00:27:58.226 --> 00:28:00.666 A:middle
-and a Split View Controller will
-automatically do the right thing
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.226 --> 00:28:00.666 A:middle
 and a Split View Controller will
@@ -2395,14 +2188,6 @@ ForSplitViewController.
 These get called by the
 Split View Controller as part
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.286 --> 00:29:01.776 A:middle
-These get called by the
-Split View Controller as part
-
 00:29:01.776 --> 00:29:05.306 A:middle
 of its default implementation of
 the collapsing and uncollapsing
@@ -2487,10 +2272,6 @@ we want to try to move away
 00:29:58.166 --> 00:29:59.566 A:middle
 from this pattern in iOS 8.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:01.516 --> 00:30:05.866 A:middle
 [ Applause ]
 
@@ -2566,14 +2347,6 @@ and do something different.
 00:30:55.526 --> 00:30:57.916 A:middle
 For example, when you're inside
 of a Split View Controller
-
-00:30:57.916 --> 00:31:01.856 A:middle
-and you call this method it
-will instead show the new View
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.916 --> 00:31:01.856 A:middle
 and you call this method it
@@ -2659,14 +2432,6 @@ Primary View Controller.
 00:31:58.056 --> 00:31:59.896 A:middle
 Let's look at a more
 concrete example,
-
-00:31:59.896 --> 00:32:02.046 A:middle
-where we have
-UINavigationController
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.896 --> 00:32:02.046 A:middle
 where we have
@@ -2761,13 +2526,6 @@ of your custom View Controllers.
 00:32:59.516 --> 00:33:03.516 A:middle
 [ Silence ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.516 --> 00:33:03.516 A:middle
-[ Silence ]
-
 00:33:04.016 --> 00:33:08.000 A:middle
 [ Applause ]
 
@@ -2852,13 +2610,6 @@ ShowViewController
 00:33:58.866 --> 00:34:00.136 A:middle
 and ShowDetailViewController,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.866 --> 00:34:00.136 A:middle
-and ShowDetailViewController,
-
 00:34:00.736 --> 00:34:03.126 A:middle
 and we'll see some
 specific examples of this
@@ -2874,18 +2625,18 @@ like to mention is View
 00:34:10.056 --> 00:34:11.136 A:middle
 Controller presentation.
 
-00:34:11.835 --> 00:34:14.186 A:middle
+00:34:11.836 --> 00:34:14.186 A:middle
 In iOS 8 we've made
 this adaptive as well.
 
-00:34:14.815 --> 00:34:16.136 A:middle
+00:34:14.816 --> 00:34:16.136 A:middle
 So if you show a Popover,
 
-00:34:16.136 --> 00:34:19.065 A:middle
+00:34:16.136 --> 00:34:19.066 A:middle
 a View Controller presentation
 will now automatically adapt
 
-00:34:19.065 --> 00:34:21.456 A:middle
+00:34:19.066 --> 00:34:21.456 A:middle
 that to a fullscreen
 presentation when you're
 
@@ -2901,7 +2652,7 @@ to talk about that today,
 but I highly encourage
 you to go to the
 
-00:34:28.846 --> 00:34:31.065 A:middle
+00:34:28.846 --> 00:34:31.066 A:middle
 "A Look Inside Presentation
 Controllers" talk,
 
@@ -2912,11 +2663,11 @@ which is tomorrow at 11:30.
 It will show you all about how
 Presentation Controllers work
 
-00:34:36.005 --> 00:34:38.815 A:middle
+00:34:36.006 --> 00:34:38.816 A:middle
 and also how you can use them
 with traits and adaptivity.
 
-00:34:39.735 --> 00:34:42.596 A:middle
+00:34:39.736 --> 00:34:42.596 A:middle
 All right, let's look
 at a demo of how all
 
@@ -2924,7 +2675,7 @@ at a demo of how all
 of those View Controller
 features work
 
-00:34:45.016 --> 00:34:45.775 A:middle
+00:34:45.016 --> 00:34:45.776 A:middle
 in our application.
 
 00:34:46.176 --> 00:34:50.966 A:middle
@@ -2935,16 +2686,8 @@ that profile view again
 and let me show you what
 its transition looks
 
-00:34:54.666 --> 00:34:55.585 A:middle
+00:34:54.666 --> 00:34:55.586 A:middle
 like in slow motion.
-
-00:34:57.036 --> 00:35:00.416 A:middle
-Notice that our labels and image
-view are moving right along
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.036 --> 00:35:00.416 A:middle
 Notice that our labels and image
@@ -3021,14 +2764,6 @@ Collection, which is -
 has a horizontal size
 class of regular.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.486 --> 00:36:00.456 A:middle
-has a horizontal size
-class of regular.
-
 00:36:01.346 --> 00:36:03.646 A:middle
 This is one of those partially
 specified Trait Collections
@@ -3082,14 +2817,6 @@ Controller delegate method.
 00:36:55.276 --> 00:36:57.986 A:middle
 First, we have the
 collapseSecondaryViewController:
-
-00:36:58.126 --> 00:37:02.086 A:middle
-ontoPrimaryViewController method
-and here we want to use this
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.126 --> 00:37:02.086 A:middle
 ontoPrimaryViewController method
@@ -3170,14 +2897,6 @@ to see exactly how this works.
 Finally, we return "no"
 here when there was a photo
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:57.996 --> 00:38:01.076 A:middle
-Finally, we return "no"
-here when there was a photo
-
 00:38:01.126 --> 00:38:02.916 A:middle
 and this tells the
 Split View Controller
@@ -3250,14 +2969,6 @@ and that's how we re-show
 00:38:53.756 --> 00:38:55.906 A:middle
 that No Conversation view
 when we're expanding.
-
-00:38:55.906 --> 00:39:03.446 A:middle
-Now let's take a look at
-how our application moves
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:55.906 --> 00:39:03.446 A:middle
 Now let's take a look at
@@ -3343,14 +3054,6 @@ if there is more than one.
 Here we check if for any
 given row we should show
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.556 --> 00:40:01.766 A:middle
-Here we check if for any
-given row we should show
-
 00:40:01.766 --> 00:40:02.736 A:middle
 that Conversation View
 
@@ -3418,14 +3121,6 @@ disclosure indicator.
 00:40:55.616 --> 00:40:59.866 A:middle
 So in a single-column,
 collapsed view we push on all
-
-00:40:59.866 --> 00:41:04.026 A:middle
-of these rows, but in the
-expanded view we only push
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.866 --> 00:41:04.026 A:middle
 of these rows, but in the
@@ -3507,10 +3202,6 @@ it will push or not
 and if we don't have a
 target we'll return no.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.686 --> 00:42:03.166 A:middle
 Then, you just need to
 override those methods
@@ -3589,14 +3280,6 @@ Here, when we're laying out one
 00:42:53.996 --> 00:42:57.086 A:middle
 of our cells we'll call will
 showing detail View Controller
-
-00:42:57.136 --> 00:43:00.066 A:middle
-push and that's because the
-method that we would call
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:57.136 --> 00:43:00.066 A:middle
 push and that's because the
@@ -3685,14 +3368,6 @@ showDetailViewController changes
 and this is when a Split View
 Controller expands or collapses
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.466 --> 00:44:03.976 A:middle
-and this is when a Split View
-Controller expands or collapses
-
 00:44:05.036 --> 00:44:09.246 A:middle
 so we use this notification
 to go through all of our cells
@@ -3768,14 +3443,6 @@ work with these concepts.
 In Xcode 6, you can
 customize your layout
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.366 --> 00:45:04.146 A:middle
-In Xcode 6, you can
-customize your layout
-
 00:45:04.146 --> 00:45:06.866 A:middle
 for multiple Size Classes
 using a single Interface
@@ -3839,14 +3506,6 @@ running in the stimulator.
 00:45:57.216 --> 00:45:59.406 A:middle
 This is the main menu
 for my adventure game.
-
-00:45:59.856 --> 00:46:02.116 A:middle
-On the left I have a few
-buttons that control the content
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:59.856 --> 00:46:02.116 A:middle
 On the left I have a few
@@ -3935,14 +3594,6 @@ enable Size Classes.
 I'm going to head over
 to the File Inspector
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.176 --> 00:47:01.106 A:middle
-I'm going to head over
-to the File Inspector
-
 00:47:01.386 --> 00:47:03.076 A:middle
 and check the U Size
 Classes box.
@@ -4019,10 +3670,6 @@ unless you override your layout
 
 00:47:57.816 --> 00:47:59.186 A:middle
 for a specific size class.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:00.016 --> 00:48:03.366 A:middle
 In my case, I've already
@@ -4110,14 +3757,6 @@ where I have a square
 for compact width
 and regular height.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:58.086 --> 00:49:00.766 A:middle
-for compact width
-and regular height.
-
 00:49:03.696 --> 00:49:07.206 A:middle
 When I choose that square, my
 View Controller grows narrow
@@ -4194,14 +3833,6 @@ going to choose any and compact.
 00:49:56.496 --> 00:49:58.866 A:middle
 That gives me a couple
 of new slots here.
-
-00:49:59.456 --> 00:50:01.626 A:middle
-The images that I put into
-these slots are going to be used
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:59.456 --> 00:50:01.626 A:middle
 The images that I put into
@@ -4285,14 +3916,6 @@ centering it in its container
 00:50:55.416 --> 00:50:57.636 A:middle
 and it has a few more
 constraints pinning the buttons
-
-00:50:57.696 --> 00:51:01.146 A:middle
-to it, but most importantly it
-has this width constraint here
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:57.696 --> 00:51:01.146 A:middle
 to it, but most importantly it
@@ -4385,14 +4008,6 @@ to do is remove this view
 since I no longer need it
 there to hold the buttons next
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:59.736 --> 00:52:03.336 A:middle
-since I no longer need it
-there to hold the buttons next
-
 00:52:03.406 --> 00:52:04.396 A:middle
 to each other horizontally.
 
@@ -4472,14 +4087,6 @@ than sitting side-by-side.
 Okay, then I'll select the
 buttons and that label there
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:59.516 --> 00:53:05.106 A:middle
-Okay, then I'll select the
-buttons and that label there
-
 00:53:05.106 --> 00:53:07.376 A:middle
 and I'm going to go back to this
 menu and this time I'm going
@@ -4551,14 +4158,6 @@ this button here at the bottom
 of the preview to
 rotate it, or if I want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:53:59.576 --> 00:54:02.376 A:middle
-of the preview to
-rotate it, or if I want
-
 00:54:02.376 --> 00:54:05.196 A:middle
 to see both orientations at
 the same time I can use the
@@ -4621,13 +4220,6 @@ stacked vertically just
 00:54:53.586 --> 00:54:56.976 A:middle
 like we expected, and
 when I rotate they move
-
-00:54:56.976 --> 00:55:03.856 A:middle
-to sit side-by-side.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:56.976 --> 00:55:03.856 A:middle
 to sit side-by-side.
@@ -4701,13 +4293,6 @@ modify your UI
 00:55:58.766 --> 00:56:01.926 A:middle
 in response to changes in size.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:55:58.766 --> 00:56:01.926 A:middle
-in response to changes in size.
-
 00:56:02.126 --> 00:56:04.686 A:middle
 He also introduced a
 new API that allows you
@@ -4770,4 +4355,3 @@ Developing Adaptive UIs
 
 00:56:37.016 --> 00:56:41.886 A:middle
 [ Applause ]
-

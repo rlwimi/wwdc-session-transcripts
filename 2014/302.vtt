@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.236 --> 00:00:12.676 A:middle
 &gt;&gt; Good morning.
@@ -57,14 +56,6 @@ makes your app magical.
 00:00:52.416 --> 00:00:57.636 A:middle
 App bundles - you can bundle
 up to 10 apps together
-
-00:00:58.956 --> 00:01:00.856 A:middle
-with an easy set-up
-flow in iTunes Connect.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.956 --> 00:01:00.856 A:middle
 with an easy set-up
@@ -148,14 +139,6 @@ as much space as we can
 for all these apps, fit
 more apps onto the page,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.946 --> 00:02:04.486 A:middle
-for all these apps, fit
-more apps onto the page,
-
 00:02:04.676 --> 00:02:07.996 A:middle
 at the same time giving each app
 a little more space to breathe,
@@ -225,13 +208,6 @@ have 24 different statuses,
 
 00:02:57.836 --> 00:02:59.226 A:middle
 23 are ready for sale.
-
-00:02:59.306 --> 00:03:00.636 A:middle
-I have one prepared for upload.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.306 --> 00:03:00.636 A:middle
 I have one prepared for upload.
@@ -313,14 +289,6 @@ for sale version of My App.
 I can see the screenshots
 right there in front of me
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.416 --> 00:04:01.276 A:middle
-I can see the screenshots
-right there in front of me
-
 00:04:01.276 --> 00:04:02.936 A:middle
 and other metadata as it goes.
 
@@ -391,14 +359,6 @@ there with the 1.0.2.
 
 00:04:55.386 --> 00:04:58.796 A:middle
 It's copied over the screenshots
-
-00:04:58.796 --> 00:05:00.576 A:middle
-from the previous
-version, like normal.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.796 --> 00:05:00.576 A:middle
 from the previous
@@ -480,10 +440,6 @@ So we're going to go ahead
 and upload this app
 preview here as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.056 --> 00:06:05.286 A:middle
 Now we could do screenshot
 1, then upload screenshot 2,
@@ -562,14 +518,6 @@ Anytime we find a frame that we
 like we click set poster
 frame, we're off to go.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.456 --> 00:07:00.756 A:middle
-like we click set poster
-frame, we're off to go.
-
 00:07:00.756 --> 00:07:03.746 A:middle
 I know in my case, the frame
 that I would like to use is
@@ -629,13 +577,6 @@ see what one looks like.
 00:07:47.516 --> 00:08:13.516 A:middle
 [ Music ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:47.516 --> 00:08:13.516 A:middle
-[ Music ]
-
 00:08:14.016 --> 00:08:19.000 A:middle
 [ Applause ]
 
@@ -688,13 +629,6 @@ and ProRes content.
 
 00:08:55.196 --> 00:08:56.056 A:middle
 And that's app previews.
-
-00:08:57.516 --> 00:09:02.526 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.516 --> 00:09:02.526 A:middle
 [ Applause ]
@@ -782,13 +716,6 @@ to get all of your apps.
 00:09:59.516 --> 00:10:02.646 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.516 --> 00:10:02.646 A:middle
-[ Applause ]
-
 00:10:03.146 --> 00:10:06.576 A:middle
 So that was step one, selecting
 what apps go in my bundle.
@@ -871,14 +798,6 @@ that you see
 on the App Store will
 come from that app.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.716 --> 00:11:02.046 A:middle
-on the App Store will
-come from that app.
-
 00:11:02.306 --> 00:11:04.996 A:middle
 The categories of
 your bundle will match
@@ -949,10 +868,6 @@ we do this in iTunes Connect.
 We come back to the
 My Apps page.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:00.446 --> 00:12:03.996 A:middle
 We click New App Bundle.
 
@@ -1013,13 +928,6 @@ price tier, less, one tier less
 00:12:56.466 --> 00:12:58.816 A:middle
 than the sum of all the apps in
 the bundle - it is a discount -
-
-00:12:59.336 --> 00:13:01.346 A:middle
-as well as give it a SKU.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.336 --> 00:13:01.346 A:middle
 as well as give it a SKU.
@@ -1118,14 +1026,6 @@ get discounted price
 to purchase the rest
 of your bundle
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.706 --> 00:14:00.796 A:middle
-to purchase the rest
-of your bundle
-
 00:14:00.986 --> 00:14:01.896 A:middle
 and get the whole package.
 
@@ -1208,14 +1108,6 @@ all here write bug-free code.
 
 00:14:56.466 --> 00:14:57.436 A:middle
 Worked on my device.
-
-00:14:59.506 --> 00:15:01.356 A:middle
-We test, and we test,
-and we test some more.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.506 --> 00:15:01.356 A:middle
 We test, and we test,
@@ -1313,14 +1205,6 @@ is really important.
 So first, our App
 Store presence.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.266 --> 00:16:01.366 A:middle
-So first, our App
-Store presence.
-
 00:16:01.656 --> 00:16:04.356 A:middle
 We can see on this chart now I
 have that orange dot and I see
@@ -1397,14 +1281,6 @@ to attract more customers.
 Your app needs to stay fresh and
 unique, and to do that you go
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.156 --> 00:17:00.046 A:middle
-Your app needs to stay fresh and
-unique, and to do that you go
-
 00:17:00.046 --> 00:17:02.306 A:middle
 through this constant
 release and build cycle.
@@ -1423,14 +1299,14 @@ in the same vocabulary,
 but advertising's a
 little bit different.
 
-00:17:12.175 --> 00:17:15.406 A:middle
+00:17:12.176 --> 00:17:15.406 A:middle
 As a developer you may choose
 to pay for advertising,
 
-00:17:15.406 --> 00:17:16.415 A:middle
+00:17:15.406 --> 00:17:16.416 A:middle
 and that's a big decision.
 
-00:17:16.695 --> 00:17:19.846 A:middle
+00:17:16.696 --> 00:17:19.846 A:middle
 You want to know if it was worth
 the advertising investment,
 
@@ -1438,11 +1314,11 @@ the advertising investment,
 if you got a nice
 return on that.
 
-00:17:21.935 --> 00:17:24.846 A:middle
+00:17:21.936 --> 00:17:24.846 A:middle
 App Analytics is there to help
 you inform those decisions.
 
-00:17:25.165 --> 00:17:32.156 A:middle
+00:17:25.166 --> 00:17:32.156 A:middle
 All of these dots, all these
 lines, you want to monitor,
 
@@ -1476,14 +1352,6 @@ your In-App Purchases?
 00:17:55.766 --> 00:17:58.916 A:middle
 App Analytics helps you make
 good advertising decisions.
-
-00:17:59.376 --> 00:18:02.436 A:middle
-And this is one I'm
-really excited about.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.376 --> 00:18:02.436 A:middle
 And this is one I'm
@@ -1563,14 +1431,6 @@ is important.
 00:18:54.946 --> 00:18:59.466 A:middle
 So with that, how do we
 look at this at Apple?
-
-00:18:59.466 --> 00:19:01.626 A:middle
-How are we looking at App
-Analytics as a product
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.466 --> 00:19:01.626 A:middle
 How are we looking at App
@@ -1665,14 +1525,6 @@ in Sales and Trends
 if you're familiar with iTunes
 Connect, but this is different.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.986 --> 00:20:01.866 A:middle
-if you're familiar with iTunes
-Connect, but this is different.
-
 00:20:02.166 --> 00:20:03.166 A:middle
 We're tying this data
 
@@ -1750,14 +1602,6 @@ has In-App Purchases,
 
 00:20:57.976 --> 00:20:58.926 A:middle
 we track that as well.
-
-00:20:58.926 --> 00:21:02.476 A:middle
-For the first time you can see
-the entire customer lifecycle
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.926 --> 00:21:02.476 A:middle
 For the first time you can see
@@ -1848,14 +1692,6 @@ of the Apple platforms.
 We can also answer that App
 Store presence question,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:57.826 --> 00:22:02.616 A:middle
-We can also answer that App
-Store presence question,
-
 00:22:03.046 --> 00:22:04.736 A:middle
 "Should I be localizing
 for Germany?"
@@ -1939,14 +1775,6 @@ Analytics is our App List.
 00:22:55.856 --> 00:22:58.036 A:middle
 This is the older view of
 your entire mobile business.
-
-00:22:58.416 --> 00:23:00.586 A:middle
-Here, I can see my "Trip
-Guider" app at the top.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.416 --> 00:23:00.586 A:middle
 Here, I can see my "Trip
@@ -2044,14 +1872,6 @@ those measures again.
 Here, I have those
 lifecycle metrics.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.746 --> 00:24:01.946 A:middle
-Here, I have those
-lifecycle metrics.
-
 00:24:01.946 --> 00:24:04.186 A:middle
 I have my Sales, my Store Data.
 
@@ -2129,14 +1949,6 @@ for different scenarios,
 00:24:54.866 --> 00:24:59.326 A:middle
 and looking at App Store Views,
 here - Area looks the best.
-
-00:24:59.526 --> 00:25:01.246 A:middle
-We'll choose the
-sensible default based
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.526 --> 00:25:01.246 A:middle
 We'll choose the
@@ -2224,14 +2036,6 @@ We also had intuition
 that changing our In-App
 Purchases would help give more
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:57.786 --> 00:26:01.266 A:middle
-that changing our In-App
-Purchases would help give more
-
 00:26:01.266 --> 00:26:03.526 A:middle
 customers more content,
 and that would result
@@ -2306,14 +2110,6 @@ you have no idea right now how
 00:26:56.056 --> 00:26:57.686 A:middle
 people are getting to
 your App Store page.
-
-00:26:58.096 --> 00:27:00.296 A:middle
-We're excited that Sources
-solves that problem.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.096 --> 00:27:00.296 A:middle
 We're excited that Sources
@@ -2408,14 +2204,6 @@ application, this is automatic.
 You do not have to go to iAd
 and set up campaign names
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.956 --> 00:28:03.086 A:middle
-You do not have to go to iAd
-and set up campaign names
-
 00:28:03.376 --> 00:28:05.006 A:middle
 for the purposes
 of App Analytics.
@@ -2499,13 +2287,6 @@ views, my units, my sales,
 00:28:56.756 --> 00:28:58.776 A:middle
 and my sessions,
 that same lifecycle.
-
-00:28:59.886 --> 00:29:00.516 A:middle
-This is great.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.886 --> 00:29:00.516 A:middle
 This is great.
@@ -2607,14 +2388,6 @@ how are people doing in the app?
 Are they converting
 on Internet purchases?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.956 --> 00:30:01.926 A:middle
-Are they converting
-on Internet purchases?
-
 00:30:02.016 --> 00:30:02.906 A:middle
 Where are they coming from?
 
@@ -2698,10 +2471,6 @@ can see my purchase date
 00:30:57.216 --> 00:30:58.976 A:middle
 on the left, May 23.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.116 --> 00:31:01.866 A:middle
 I can see my days
 later on the right.
@@ -2773,13 +2542,6 @@ So, we're providing -
 00:31:55.456 --> 00:31:59.086 A:middle
 - metrics, sources,
 retention, your app list.
-
-00:31:59.526 --> 00:32:00.326 A:middle
-What do you need to do?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.526 --> 00:32:00.326 A:middle
 What do you need to do?
@@ -2861,14 +2623,6 @@ you guys, and we're excited
 00:32:56.236 --> 00:32:58.556 A:middle
 to bring it to you with
 privacy at the forefront.
-
-00:32:59.336 --> 00:33:02.176 A:middle
-We're not in this
-business to sell your data;
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.336 --> 00:33:02.176 A:middle
 We're not in this
@@ -2960,13 +2714,6 @@ bring up Daniel to talk
 00:33:58.986 --> 00:34:00.646 A:middle
 about TestFlight Beta Testing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.986 --> 00:34:00.646 A:middle
-about TestFlight Beta Testing.
-
 00:34:01.316 --> 00:34:03.316 A:middle
 [ Applause ]
 
@@ -2988,7 +2735,7 @@ Tim's keynote on Monday
 that we're announcing
 TestFlight Beta Testing.
 
-00:34:16.755 --> 00:34:19.346 A:middle
+00:34:16.756 --> 00:34:19.346 A:middle
 Well we're very excited to
 have this opportunity today
 
@@ -3010,7 +2757,7 @@ used TestFlight or not,
 00:34:33.996 --> 00:34:35.456 A:middle
 I'm sure we can all agree
 
-00:34:36.226 --> 00:34:39.485 A:middle
+00:34:36.226 --> 00:34:39.486 A:middle
 that great beta testing
 tools go a long way.
 
@@ -3026,16 +2773,8 @@ details, let's talk a little bit
 about the history of
 beta distribution.
 
-00:34:54.416 --> 00:34:56.775 A:middle
+00:34:54.416 --> 00:34:56.776 A:middle
 In the beginning,
-
-00:34:57.136 --> 00:35:02.486 A:middle
-beta distribution
-looked a lot like this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.136 --> 00:35:02.486 A:middle
 beta distribution
@@ -3113,13 +2852,6 @@ Well we went from this, to this.
 00:35:54.916 --> 00:36:00.026 A:middle
 We think we can do better.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:54.916 --> 00:36:00.026 A:middle
-We think we can do better.
-
 00:36:00.596 --> 00:36:02.846 A:middle
 With the new TestFlight
 Beta Testing platform,
@@ -3156,13 +2888,6 @@ to worry about these.
 00:36:57.366 --> 00:36:59.986 A:middle
 All you need to get a tester
 started is an email address.
-
-00:36:59.986 --> 00:37:02.086 A:middle
-So let's talk a little bit
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.986 --> 00:37:02.086 A:middle
 So let's talk a little bit
@@ -3227,14 +2952,6 @@ these features, we discovered
 that building great apps
 requires a flexible process,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:57.896 --> 00:38:01.416 A:middle
-that building great apps
-requires a flexible process,
-
 00:38:02.226 --> 00:38:05.066 A:middle
 everything from iterating
 with your development team
@@ -3291,13 +3008,6 @@ to test, and you can continue
 00:38:53.496 --> 00:38:55.606 A:middle
 to manage your testers
 in iTunes Connect.
-
-00:38:58.476 --> 00:39:00.496 A:middle
-Finally, Sandbox Accounts.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.476 --> 00:39:00.496 A:middle
 Finally, Sandbox Accounts.
@@ -3372,14 +3082,6 @@ enter things like a description,
 and we also tell the
 tester what we like them
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.786 --> 00:40:03.086 A:middle
-and we also tell the
-tester what we like them
-
 00:40:03.086 --> 00:40:08.146 A:middle
 to test specifically
 on this build.
@@ -3426,14 +3128,6 @@ click the Submit button next
 
 00:40:52.166 --> 00:40:57.386 A:middle
 to the build, and after review,
-
-00:40:58.036 --> 00:41:00.306 A:middle
-this is now also available
-to our beta testers.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:58.036 --> 00:41:00.306 A:middle
 this is now also available
@@ -3507,14 +3201,6 @@ hit Submit
 and those testers
 are ready to go.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.686 --> 00:42:02.036 A:middle
-and those testers
-are ready to go.
-
 00:42:02.256 --> 00:42:03.536 A:middle
 So that's iTunes Connect side.
 
@@ -3577,14 +3263,6 @@ telling us what they like us
 00:42:52.976 --> 00:42:56.976 A:middle
 to test specifically
 on the latest build.
-
-00:42:57.776 --> 00:43:00.216 A:middle
-Now if we tap the TestFlight
-link in the top corner,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:57.776 --> 00:43:00.216 A:middle
 Now if we tap the TestFlight
@@ -3659,10 +3337,6 @@ app, and we're on our way.
 And that's TestFlight,
 the iOS App.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:01.516 --> 00:44:05.856 A:middle
 So in summary, we can have
 up to 1,000 testers for each
@@ -3717,10 +3391,6 @@ give to developers
 00:44:57.576 --> 00:44:59.846 A:middle
 at a developers' conference,
 what would they be?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:00.646 --> 00:45:02.286 A:middle
 App Review does a great job.
@@ -3801,14 +3471,6 @@ it to App Review.
 If your app gets
 metadata rejected,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.996 --> 00:46:01.636 A:middle
-If your app gets
-metadata rejected,
-
 00:46:02.786 --> 00:46:05.026 A:middle
 and you submit it again
 without making a change
@@ -3871,14 +3533,6 @@ in iTunes Connect.
 
 00:46:56.826 --> 00:46:58.386 A:middle
 If you serve ads using IDFA,
-
-00:46:58.386 --> 00:47:01.686 A:middle
-make sure you answer those
-questions the right way.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:58.386 --> 00:47:01.686 A:middle
 make sure you answer those
@@ -3960,14 +3614,6 @@ iTunes Connect for iOS.
 At the palm of your hand you can
 release the latest version live
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.656 --> 00:48:02.376 A:middle
-At the palm of your hand you can
-release the latest version live
-
 00:48:02.376 --> 00:48:03.006 A:middle
 into the App Store.
 
@@ -4027,13 +3673,6 @@ released later this fall.
 00:48:57.396 --> 00:48:59.526 A:middle
 For more information,
 you can write to write
-
-00:48:59.526 --> 00:49:01.066 A:middle
-to evangelism@apple.com.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:59.526 --> 00:49:01.066 A:middle
 to evangelism@apple.com.
@@ -4134,14 +3773,6 @@ all we have today,
 I hope you have a great day
 and rest of the conference.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:59.766 --> 00:50:00.856 A:middle
-I hope you have a great day
-and rest of the conference.
-
 00:50:00.856 --> 00:50:00.923 A:middle
 Bye.
 
@@ -4150,4 +3781,3 @@ Bye.
 
 00:50:04.473 --> 00:50:06.930 A:middle
 .
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:10.616 A:middle
 [ Pause ]
@@ -66,14 +65,6 @@ stories rather
 
 00:00:57.356 --> 00:00:58.566 A:middle
 than being the story itself.
-
-00:00:59.176 --> 00:01:01.886 A:middle
-A modern example, such as New
-York Times' snowfall article,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.176 --> 00:01:01.886 A:middle
 A modern example, such as New
@@ -155,14 +146,6 @@ supported the H.264 codec
 00:01:55.926 --> 00:01:58.166 A:middle
 and it delivered even
 higher quality video,
-
-00:01:58.476 --> 00:02:01.046 A:middle
-but it was still a
-plug-in, one which users had
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.476 --> 00:02:01.046 A:middle
 but it was still a
@@ -250,14 +233,6 @@ users of Safari would interact
 with a video was by clicking
 on a YouTube.com link,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.996 --> 00:03:02.546 A:middle
-with a video was by clicking
-on a YouTube.com link,
-
 00:03:02.546 --> 00:03:04.156 A:middle
 which would open
 up the YouTube app,
@@ -327,14 +302,6 @@ controls into full screen
 
 00:03:54.606 --> 00:03:56.306 A:middle
 with the full screen API.
-
-00:03:57.766 --> 00:04:00.676 A:middle
-So what will you
-learn at WWDC 2014?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:57.766 --> 00:04:00.676 A:middle
 So what will you
@@ -418,14 +385,6 @@ you've updated your iPad sites
 recently, but please update
 your desktop site as well.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:59.746 --> 00:05:02.836 A:middle
-recently, but please update
-your desktop site as well.
-
 00:05:03.346 --> 00:05:05.096 A:middle
 Plug-ins have a time
 and a place,
@@ -502,14 +461,6 @@ enough media data
 to determine the media's width,
 height, duration et cetera.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:57.786 --> 00:06:02.336 A:middle
-to determine the media's width,
-height, duration et cetera.
-
 00:06:03.336 --> 00:06:06.886 A:middle
 And a value of "auto" means
 begin loading media data
@@ -571,14 +522,6 @@ behavior, either in the browser
 00:06:51.986 --> 00:06:58.016 A:middle
 or on their server, but even
 loading just metadata can load
-
-00:06:58.016 --> 00:07:00.196 A:middle
-up for sites with a lot
-of &lt;video&gt; elements.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.016 --> 00:07:00.196 A:middle
 up for sites with a lot
@@ -653,13 +596,6 @@ So in iOS 7, when the
 00:07:59.946 --> 00:08:00.906 A:middle
 nothing would happen.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.946 --> 00:08:00.906 A:middle
-nothing would happen.
-
 00:08:01.166 --> 00:08:03.686 A:middle
 And when they hit "play",
 loading would progress,
@@ -725,14 +661,6 @@ In previous versions of iOS, the
 00:08:51.306 --> 00:08:55.006 A:middle
 as a UI view, which was
 placed on top of web content.
-
-00:08:56.986 --> 00:09:00.736 A:middle
-New in iOS 8, we have integrated
-in the &lt;video&gt; element directly
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:56.986 --> 00:09:00.736 A:middle
 New in iOS 8, we have integrated
@@ -831,14 +759,6 @@ optimal viewing experience
 across a wide variety of devices
 by tailoring a page to respond
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.836 --> 00:10:02.396 A:middle
-across a wide variety of devices
-by tailoring a page to respond
-
 00:10:02.396 --> 00:10:04.256 A:middle
 to different characteristics
 of the device
@@ -912,14 +832,6 @@ device on wireless
 or on cellular might need a
 small, lower bit rate version.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.456 --> 00:11:03.576 A:middle
-or on cellular might need a
-small, lower bit rate version.
-
 00:11:03.576 --> 00:11:06.206 A:middle
 But that same device,
 plugged in and on Wi-Fi,
@@ -985,14 +897,6 @@ seamlessly switch streams
 00:11:54.596 --> 00:11:57.026 A:middle
 when conditions of the
 network or the device change.
-
-00:11:58.546 --> 00:12:01.626 A:middle
-To show you how easy it is
-to create an HLS playlist
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.546 --> 00:12:01.626 A:middle
 To show you how easy it is
@@ -1073,13 +977,6 @@ was put together a website
 00:12:59.416 --> 00:13:02.616 A:middle
 that would show this content.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.416 --> 00:13:02.616 A:middle
-that would show this content.
-
 00:13:02.616 --> 00:13:06.146 A:middle
 Let me return to this.
 
@@ -1148,14 +1045,6 @@ video, we can kind of see why
 00:13:53.196 --> 00:13:57.766 A:middle
 that is, it's about 150
 megabytes for eight seconds
-
-00:13:57.806 --> 00:14:02.036 A:middle
-of video, and that's not
-going to make many people want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.806 --> 00:14:02.036 A:middle
 of video, and that's not
@@ -1244,14 +1133,6 @@ I would have to go to each
 of these presets individually
 and output a 1080p version
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.186 --> 00:15:02.556 A:middle
-of these presets individually
-and output a 1080p version
-
 00:15:03.266 --> 00:15:07.736 A:middle
 and output an iPhone 3GS
 version, and so forth.
@@ -1323,14 +1204,6 @@ to my webpage.
 So if I go back to
 my web page example,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.616 --> 00:16:03.386 A:middle
-So if I go back to
-my web page example,
-
 00:16:04.556 --> 00:16:08.816 A:middle
 instead of just having
 this one &lt;video&gt; element
@@ -1387,23 +1260,15 @@ iPad Air and, while I'm at it,
 I probably want to have
 something for iPhones 5 and 5S
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.876 --> 00:17:01.226 A:middle
-I probably want to have
-something for iPhones 5 and 5S
-
-00:17:01.926 --> 00:17:04.165 A:middle
+00:17:01.926 --> 00:17:04.166 A:middle
 and maybe something for
 a bunch of older stuff.
 
-00:17:04.606 --> 00:17:10.705 A:middle
+00:17:04.606 --> 00:17:10.706 A:middle
 And pretty soon we have a pretty
 large set of sources for us
 
-00:17:10.705 --> 00:17:12.935 A:middle
+00:17:10.706 --> 00:17:12.936 A:middle
 to serve from this web server.
 
 00:17:13.316 --> 00:17:21.356 A:middle
@@ -1464,14 +1329,6 @@ Well, it turns
 00:17:55.816 --> 00:17:58.456 A:middle
 out my brother-in-law was
 camping the weekend I posted
-
-00:17:58.456 --> 00:18:02.266 A:middle
-this and had really spotty
-internet connectivity.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.456 --> 00:18:02.266 A:middle
 this and had really spotty
@@ -1558,14 +1415,6 @@ I've already done the hard work
 of creating the different
 encodings
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.516 --> 00:19:00.646 A:middle
-of creating the different
-encodings
-
 00:19:00.646 --> 00:19:03.076 A:middle
 for the different device
 types, so now all I need
@@ -1621,14 +1470,6 @@ probably not a great idea.
 00:19:56.726 --> 00:19:58.896 A:middle
 How about if you come by
 our lab later this week,
-
-00:19:58.896 --> 00:20:00.666 A:middle
-and we'll be happy to
-give you a copy of this?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.896 --> 00:20:00.666 A:middle
 and we'll be happy to
@@ -1707,14 +1548,6 @@ I mean, to my website.
 What I need to do is get rid of
 all of this stuff, all of it,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.616 --> 00:21:08.906 A:middle
-What I need to do is get rid of
-all of this stuff, all of it,
-
 00:21:08.906 --> 00:21:11.656 A:middle
 and replace it with one line,
 
@@ -1760,14 +1593,6 @@ network conditions.
 00:21:52.996 --> 00:21:56.136 A:middle
 So if I were to start playing
 this eight-second video
-
-00:21:56.536 --> 00:22:01.076 A:middle
-and leave the room, in theory,
-it would-the speed would drop,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:56.536 --> 00:22:01.076 A:middle
 and leave the room, in theory,
@@ -1848,14 +1673,6 @@ the Variant Playlist Creator
 and Media File Segmenter
 Tools as part
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.166 --> 00:23:00.086 A:middle
-and Media File Segmenter
-Tools as part
-
 00:23:00.086 --> 00:23:02.516 A:middle
 of the HTTP Live
 Streaming toolset
@@ -1930,14 +1747,6 @@ that you use it.
 00:23:53.606 --> 00:23:55.836 A:middle
 And let's talk a little
 bit about why that is.
-
-00:23:57.276 --> 00:24:01.836 A:middle
-With great power comes great
-responsibility-except I remember
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.276 --> 00:24:01.836 A:middle
 With great power comes great
@@ -2025,13 +1834,6 @@ your users are dropping frames
 00:24:59.246 --> 00:25:01.616 A:middle
 if their hardware can't keep
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.246 --> 00:25:01.616 A:middle
-if their hardware can't keep
-
 00:25:01.616 --> 00:25:04.076 A:middle
 up with the media
 that you are serving.
@@ -2103,10 +1905,6 @@ and yet writing a player
 for HLS requires a
 single line of HTML.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.606 --> 00:26:03.416 A:middle
 And what's more MSE is
 only available on OS X.
@@ -2172,14 +1970,6 @@ at adding support for HLS
 
 00:26:52.156 --> 00:26:53.536 A:middle
 through MSE implementation.
-
-00:26:57.276 --> 00:27:01.446 A:middle
-So, as you can see, the
-web hasn't really settled
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.276 --> 00:27:01.446 A:middle
 So, as you can see, the
@@ -2257,14 +2047,6 @@ you how to minimize the amount
 of power you use when
 playing back video in Safari.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:57.796 --> 00:28:01.156 A:middle
-of power you use when
-playing back video in Safari.
-
 00:28:02.726 --> 00:28:06.556 A:middle
 So, first, we're going to talk
 about using fullscreen mode
@@ -2332,13 +2114,6 @@ mode, but to explain how
 00:28:57.156 --> 00:28:58.726 A:middle
 that works we're
 first going to have
-
-00:28:58.726 --> 00:29:00.226 A:middle
-to talk about pixel formats.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.726 --> 00:29:00.226 A:middle
 to talk about pixel formats.
@@ -2412,14 +2187,6 @@ is much better at distinguishing
 between values of green and
 values of light and dark
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.896 --> 00:30:02.866 A:middle
-between values of green and
-values of light and dark
-
 00:30:03.946 --> 00:30:05.926 A:middle
 than it is between
 values of red and blue.
@@ -2483,10 +2250,6 @@ top to bottom, in order
 00:30:56.716 --> 00:30:59.516 A:middle
 to present the actual webpage
 your viewers are going to see.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:00.316 --> 00:31:02.216 A:middle
 So typically it works like this,
@@ -2559,14 +2322,6 @@ video into fullscreen mode.
 
 00:31:56.206 --> 00:31:57.636 A:middle
 Black is the new black.
-
-00:31:58.506 --> 00:32:01.256 A:middle
-You should only have a black
-background visible behind
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.506 --> 00:32:01.256 A:middle
 You should only have a black
@@ -2652,14 +2407,6 @@ fullscreen mode.
 To hide everything that's
 not in fullscreen we're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.546 --> 00:33:01.986 A:middle
-To hide everything that's
-not in fullscreen we're going
-
 00:33:01.986 --> 00:33:03.826 A:middle
 to give you a little
 snippet of CSS to use.
@@ -2729,14 +2476,6 @@ will conditionally block the
 display from sleeping
 using a sleep assertion,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.746 --> 00:34:00.106 A:middle
-display from sleeping
-using a sleep assertion,
-
 00:34:00.296 --> 00:34:02.666 A:middle
 and it does this to avoid
 the annoying behavior
@@ -2749,7 +2488,7 @@ halfway through an episode
 of "Orange Is the New
 Black" or whatever.
 
-00:34:10.045 --> 00:34:13.136 A:middle
+00:34:10.046 --> 00:34:13.136 A:middle
 Safari will only block
 this sleep from happening
 
@@ -2761,7 +2500,7 @@ though.
 So, the video must have an
 audio track and a video track.
 
-00:34:21.815 --> 00:34:25.706 A:middle
+00:34:21.816 --> 00:34:25.706 A:middle
 It has to be playing and
 it must not be looping.
 
@@ -2773,11 +2512,11 @@ are not met,
 we won't keep the
 system from sleeping.
 
-00:34:30.295 --> 00:34:34.956 A:middle
+00:34:30.296 --> 00:34:34.956 A:middle
 However, this has kind of
 a dramatic failure mode.
 
-00:34:35.666 --> 00:34:37.525 A:middle
+00:34:35.666 --> 00:34:37.526 A:middle
 So there was a website
 we came across.
 
@@ -2803,17 +2542,9 @@ CSS transition at the end
 of the video, they
 didn't use looping.
 
-00:34:52.585 --> 00:34:57.646 A:middle
+00:34:52.586 --> 00:34:57.646 A:middle
 They had two &lt;video&gt; elements
 that they faded between and,
-
-00:34:57.846 --> 00:35:00.416 A:middle
-even though their video wasn't
-entirely silent, it was silent
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.846 --> 00:35:00.416 A:middle
 even though their video wasn't
@@ -2895,14 +2626,6 @@ and on the current space.
 00:35:53.836 --> 00:35:57.606 A:middle
 If the &lt;video&gt; element
 is in a background tab
-
-00:35:57.606 --> 00:36:00.706 A:middle
-or the window is hidden, it
-will let the system sleep again.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:57.606 --> 00:36:00.706 A:middle
 or the window is hidden, it
@@ -2990,14 +2713,6 @@ available to native apps
 in API form on iOS and OS X for
 some time, but new in Safari
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.916 --> 00:37:03.336 A:middle
-in API form on iOS and OS X for
-some time, but new in Safari
-
 00:37:03.336 --> 00:37:07.236 A:middle
 on iOS and OS X, it's easy to
 use from JavaScript as well.
@@ -3059,14 +2774,6 @@ is experimental,
 
 00:37:55.556 --> 00:37:56.816 A:middle
 it has a WebKit prefix.
-
-00:37:57.016 --> 00:38:00.286 A:middle
-So this is not in
-the HTML5 spec yet.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:57.016 --> 00:38:00.286 A:middle
 So this is not in
@@ -3155,14 +2862,6 @@ have a locale so you can choose
 between a variety of available
 cues for the current time based
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.376 --> 00:39:03.716 A:middle
-between a variety of available
-cues for the current time based
-
 00:39:03.716 --> 00:39:05.456 A:middle
 on the user's current
 system locale.
@@ -3231,14 +2930,6 @@ of a really nice day in Utah,
 and we thought it would be
 really neat to take advantage
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.336 --> 00:40:04.126 A:middle
-and we thought it would be
-really neat to take advantage
-
 00:40:04.126 --> 00:40:07.106 A:middle
 of some of the metadata that
 can be encoded in these videos.
@@ -3298,13 +2989,6 @@ or an encoded JSON object.
 00:40:52.896 --> 00:40:55.916 A:middle
 And I wanted to get a feel
 for what that looked like,
-
-00:40:55.916 --> 00:41:00.986 A:middle
-so I put together a page
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:55.916 --> 00:41:00.986 A:middle
 so I put together a page
@@ -3374,14 +3058,6 @@ added an onloadstart handler
 so that, when the stream starts
 playing, we can do something.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.746 --> 00:42:02.346 A:middle
-so that, when the stream starts
-playing, we can do something.
-
 00:42:02.826 --> 00:42:09.226 A:middle
 And what we do is, we need
 to register an event listener
@@ -3443,14 +3119,6 @@ and we don't want WebKit
 00:42:56.216 --> 00:42:59.056 A:middle
 to necessarily do anything
 with it, but we do want
-
-00:42:59.056 --> 00:43:02.216 A:middle
-to receive events when
-these cues are encountered
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:59.056 --> 00:43:02.216 A:middle
 to receive events when
@@ -3530,13 +3198,6 @@ so I thought,
 00:43:59.996 --> 00:44:01.546 A:middle
 "What else could we do this?"
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.996 --> 00:44:01.546 A:middle
-"What else could we do this?"
-
 00:44:01.546 --> 00:44:02.666 A:middle
 Well, we have a speed.
 
@@ -3596,13 +3257,6 @@ go ahead and add a &lt;div&gt;
 
 00:44:53.926 --> 00:44:57.806 A:middle
 to hold the HUD for that.
-
-00:44:59.876 --> 00:45:05.196 A:middle
-We'll call this "AWEsome-er".
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:59.876 --> 00:45:05.196 A:middle
 We'll call this "AWEsome-er".
@@ -3673,14 +3327,6 @@ what position and maybe call
 out any tracks or other
 information like that."
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:58.466 --> 00:46:00.676 A:middle
-out any tracks or other
-information like that."
-
 00:46:00.676 --> 00:46:03.416 A:middle
 So what we need to
 do is, in addition,
@@ -3745,14 +3391,6 @@ I'm just going to add a &lt;div&gt;
 00:46:49.516 --> 00:46:52.556 A:middle
 to the page that is styled
 with the "trick" style.
-
-00:46:53.136 --> 00:47:00.236 A:middle
-With a little bit of CSS
-animation, we should be done.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:53.136 --> 00:47:00.236 A:middle
 With a little bit of CSS
@@ -3840,14 +3478,6 @@ then we wouldn't be able
 to modify this, change
 colors and whatever else.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:58.436 --> 00:48:00.816 A:middle
-to modify this, change
-colors and whatever else.
-
 00:48:01.546 --> 00:48:03.506 A:middle
 And this is the good part here.
 
@@ -3920,14 +3550,6 @@ backwards cinematography there.
 00:48:53.756 --> 00:48:55.536 A:middle
 So let's sum up what you
 guys have heard today.
-
-00:48:56.206 --> 00:49:03.316 A:middle
-Video in Safari on iOS and OS
-X are now closer in behavior
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:56.206 --> 00:49:03.316 A:middle
 Video in Safari on iOS and OS
@@ -4011,13 +3633,5 @@ responsive web design.
 00:49:59.576 --> 00:50:00.726 A:middle
 And that's it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:59.576 --> 00:50:00.726 A:middle
-And that's it.
-
 00:50:00.726 --> 00:50:04.226 A:middle
 Have a great WWDC.
-

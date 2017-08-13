@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:11.796 A:middle
 [ Silence ]
@@ -70,19 +69,15 @@ features that allow you
 to catch performance
 regressions.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:01:02.646 --> 00:01:06.876 A:middle
 So why should we test?
 
-00:01:07.096 --> 00:01:10.336 A:middle
-Obviously, every time moment
-we spend developing is an
+00:01:07.096 --> 00:01:10.886 A:middle
+Obviously, every moment we spend
+developing is an investment
 
-00:01:10.336 --> 00:01:11.596 A:middle
-investment of a resource.
+00:01:10.886 --> 00:01:11.596 A:middle
+of a resource.
 
 00:01:11.596 --> 00:01:14.216 A:middle
 Our resource is time
@@ -153,10 +148,6 @@ be a great way
 00:01:57.876 --> 00:01:59.546 A:middle
 to catch performance
 regressions.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:00.176 --> 00:02:04.036 A:middle
 The other sort of less talked
@@ -242,10 +233,6 @@ thing to do is make sure
 00:02:57.856 --> 00:02:59.456 A:middle
 that those tests pass.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:00.706 --> 00:03:02.986 A:middle
 Alternatively, you may
 start with a new project.
@@ -321,20 +308,13 @@ necessary steps to fix the bug
 00:03:50.706 --> 00:03:52.476 A:middle
 and return to a green state.
 
-00:03:52.766 --> 00:03:53.476 A:middle
-And what you really like,
+00:03:52.766 --> 00:03:53.686 A:middle
+And what you really
+want to think,
 
-00:03:53.476 --> 00:03:56.816 A:middle
-I think is a green state
-represents known quality.
-
-00:03:57.276 --> 00:04:00.476 A:middle
-And having tests and having
-continuous integration ensures
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:03:53.686 --> 00:03:56.816 A:middle
+s a green state represents
+known quality.
 
 00:03:57.276 --> 00:04:00.476 A:middle
 And having tests and having
@@ -408,14 +388,6 @@ conveys the purpose of the test.
 
 00:04:56.756 --> 00:04:58.016 A:middle
 Inside these test methods,
-
-00:04:58.016 --> 00:05:01.996 A:middle
-you can use assertion APIs we
-provide to report failures.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.016 --> 00:05:01.996 A:middle
 you can use assertion APIs we
@@ -497,10 +469,6 @@ and a test class already there
 to start me off, get me right
 in test from the beginning.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.386 --> 00:06:03.716 A:middle
 You can also add test
 targets to existing projects.
@@ -510,7 +478,7 @@ And this may be something
 you want to do to a project
 
 00:06:07.216 --> 00:06:09.976 A:middle
-that hasn't a test or it
+that has no test or it
 also be a step you take
 
 00:06:09.976 --> 00:06:13.796 A:middle
@@ -552,16 +520,17 @@ these into your apps.
 So your test can be written
 against your application
 
-00:06:44.386 --> 00:06:47.676 A:middle
-and it can access all the code
-in your application which means
+00:06:44.386 --> 00:06:46.786 A:middle
+and it can access all the
+code in your application,
 
-00:06:47.676 --> 00:06:49.216 A:middle
-when we run the test, we run it
+00:06:47.146 --> 00:06:48.736 A:middle
+which means when
+we run the test,
 
-00:06:49.216 --> 00:06:51.106 A:middle
-in the context of
-your application.
+00:06:48.736 --> 00:06:51.106 A:middle
+we run it in the context
+of your application.
 
 00:06:52.656 --> 00:06:54.686 A:middle
 Alternatively, you can run them
@@ -569,14 +538,6 @@ Alternatively, you can run them
 00:06:54.686 --> 00:06:59.126 A:middle
 in a hosting process
 that's provided by Xcode.
-
-00:06:59.656 --> 00:07:02.036 A:middle
-Resources for tests,
-as I mentioned before,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.656 --> 00:07:02.036 A:middle
 Resources for tests,
@@ -634,7 +595,7 @@ with that scheme.
 
 00:07:41.616 --> 00:07:45.786 A:middle
 You also have buttons and the
-Source Editor's got it next
+Source Editor's [Inaudible] next
 
 00:07:45.786 --> 00:07:49.656 A:middle
 to the test method that lets you
@@ -647,14 +608,6 @@ in that class.
 00:07:52.336 --> 00:07:55.366 A:middle
 So you have a similar set of
 buttons in the Test Navigator.
-
-00:07:55.996 --> 00:08:00.116 A:middle
-And you can also run tests using
-xcodebuild so if you have a set
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:55.996 --> 00:08:00.116 A:middle
 And you can also run tests using
@@ -692,7 +645,7 @@ to run on multiple devices,
 you can pass these all
 
 00:08:23.806 --> 00:08:29.636 A:middle
-with distinct -destination flags
+with distinct destination flags
 and xcodebuild will run them.
 
 00:08:30.046 --> 00:08:32.326 A:middle
@@ -710,7 +663,7 @@ results of the tests.
 00:08:36.076 --> 00:08:37.726 A:middle
 The first is at Test Navigator.
 
-00:08:37.785 --> 00:08:42.916 A:middle
+00:08:37.786 --> 00:08:42.916 A:middle
 We will see a green checkmark
 or red icon indicating failure.
 
@@ -721,25 +674,16 @@ Also in the Issue Navigator.
 If you hit a test failure,
 you'll see not only the failure
 
-00:08:49.486 --> 00:08:52.016 A:middle
-but the reason it failed and
-so if you've used our search
+00:08:49.486 --> 00:08:50.986 A:middle
+but the reason it failed and so
 
-00:08:52.016 --> 00:08:55.366 A:middle
-in macros, this is where you'll
-see that error string that says,
+00:08:50.986 --> 00:08:53.346 A:middle
+if you've used our insertion
+macros, this is where you'll see
 
-00:08:55.366 --> 00:08:57.896 A:middle
-you know, 50 was
-not equal to zero
-
-00:08:57.896 --> 00:09:00.256 A:middle
-or whatever the assertion
-you were testing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:08:53.346 --> 00:08:57.896 A:middle
+that error string that says, you
+know, 50 was not equal to zero
 
 00:08:57.896 --> 00:09:00.256 A:middle
 or whatever the assertion
@@ -813,13 +757,9 @@ certain number of objects
 or if it encounters
 any kind of error.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:02.166 --> 00:10:06.026 A:middle
 So we have this property
-here, parsedEarthquakes
+here, parsedEarthquakes,
 
 00:10:06.026 --> 00:10:08.906 A:middle
 and that's something you can
@@ -868,14 +808,6 @@ to go to the file menu
 
 00:10:58.206 --> 00:10:59.776 A:middle
 and will select a new target.
-
-00:10:59.776 --> 00:11:04.706 A:middle
-I'm going to select under
-other CoCotest testing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.776 --> 00:11:04.706 A:middle
 I'm going to select under
@@ -942,14 +874,6 @@ the header
 
 00:11:54.536 --> 00:11:56.336 A:middle
 so that I can access the APIs.
-
-00:11:56.336 --> 00:12:01.056 A:middle
-The next thing to do is I'm
-going to add a test method.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:56.336 --> 00:12:01.056 A:middle
 The next thing to do is I'm
@@ -1027,19 +951,12 @@ resource to the bundle,
 00:12:53.846 --> 00:12:55.646 A:middle
 I need to add the file.
 
-00:12:55.646 --> 00:12:59.196 A:middle
-Well, I've had this
-file here that is,
+00:12:55.646 --> 00:13:03.876 A:middle
+Well, I've had this file
+here that is, let's see,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:04.116 --> 00:13:10.676 A:middle
-let's see, I'm going
-to copy this file
-
-00:13:10.806 --> 00:13:13.096 A:middle
+00:13:04.556 --> 00:13:13.096 A:middle
+I'm going to copy this file
 into my project as a resource.
 
 00:13:13.626 --> 00:13:15.716 A:middle
@@ -1058,7 +975,7 @@ when I write my tests.
 
 00:13:24.776 --> 00:13:26.576 A:middle
 There's nothing wrong
-with testing the network
+with testing the network,
 
 00:13:26.576 --> 00:13:29.986 A:middle
 but in general if you keep your
@@ -1089,20 +1006,12 @@ So to get the URL, I'm
 going to go into the bundle
 
 00:13:48.466 --> 00:13:52.976 A:middle
-and get a resource URL
+and get a resource URL,
 and then the next thing
 
 00:13:52.976 --> 00:13:56.746 A:middle
 that I do is just load
 that as an NSData.
-
-00:13:57.416 --> 00:14:00.256 A:middle
-The next step is to
-create the parse operation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.416 --> 00:14:00.256 A:middle
 The next step is to
@@ -1180,25 +1089,17 @@ see here's this message,
 parse operation zero failed,
 55 is not equal to zero.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:55.646 --> 00:15:01.286 A:middle
-parse operation zero failed,
-55 is not equal to zero.
-
 00:15:01.286 --> 00:15:05.866 A:middle
 Okay, so there are 55
 earthquakes in there.
 
-00:15:07.016 --> 00:15:08.966 A:middle
+00:15:07.016 --> 00:15:08.166 A:middle
 So let's run this again.
 
-00:15:10.406 --> 00:15:12.736 A:middle
+00:15:08.166 --> 00:15:12.726 A:middle
 And now we've passed our test.
 
-00:15:12.736 --> 00:15:15.866 A:middle
+00:15:12.726 --> 00:15:15.866 A:middle
 And again you see that
 same pass indicator there
 
@@ -1253,14 +1154,6 @@ with the compatibility story.
 00:15:56.956 --> 00:15:59.856 A:middle
 And I'll get into more detail
 but this basically means
-
-00:15:59.856 --> 00:16:03.656 A:middle
-which versions of our OS
-you can target using XCTest.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.856 --> 00:16:03.656 A:middle
 which versions of our OS
@@ -1338,14 +1231,6 @@ target older versions of iOS.
 So anywhere that Xcode supports,
 XCTest will also support.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.656 --> 00:17:00.846 A:middle
-So anywhere that Xcode supports,
-XCTest will also support.
-
 00:17:00.846 --> 00:17:03.376 A:middle
 And this means iOS 6 and later.
 
@@ -1364,8 +1249,9 @@ that XCTest was derived from.
 In Xcode 5.1, we
 deprecated OCUnit.
 
-00:17:21.086 --> 00:17:23.116 A:middle
-We're not adding new features
+00:17:21.086 --> 00:17:23.246 A:middle
+We're not adding
+new features to it
 
 00:17:23.316 --> 00:17:28.606 A:middle
 and we really think the time
@@ -1404,14 +1290,6 @@ Convert to XCTest.
 00:17:54.976 --> 00:17:58.106 A:middle
 And it will update the
 project settings and also all
-
-00:17:58.106 --> 00:18:00.506 A:middle
-of your test classes
-will get updated.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.106 --> 00:18:00.506 A:middle
 of your test classes
@@ -1481,24 +1359,16 @@ different queues.
 00:18:49.236 --> 00:18:50.616 A:middle
 They have Delegate callbacks
 
-00:18:50.616 --> 00:18:52.636 A:middle
+00:18:50.616 --> 00:18:52.646 A:middle
 that may be deferred
-by the [inaudible].
+by the run loop.
 
 00:18:52.986 --> 00:18:54.956 A:middle
-They may make network requests
+They may make network requests,
 
 00:18:54.956 --> 00:18:57.706 A:middle
 which we absolutely know should
 be handled asynchronously.
-
-00:18:58.396 --> 00:19:00.506 A:middle
-Or they're doing
-background processing
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.396 --> 00:19:00.506 A:middle
 Or they're doing
@@ -1527,8 +1397,8 @@ that manages asynchronous
 activities.
 
 00:19:19.956 --> 00:19:23.476 A:middle
-And we do this what we
-call expectation objects
+And we do this through what
+we call expectation objects,
 
 00:19:23.476 --> 00:19:27.056 A:middle
 and these describe events
@@ -1569,20 +1439,12 @@ events at the same time.
 00:19:53.756 --> 00:19:55.286 A:middle
 So let's look at a code example.
 
-00:19:56.266 --> 00:20:00.956 A:middle
+00:19:56.266 --> 00:20:01.086 A:middle
 UIDocument, as you may know, has
-a open with completion handler.
+an open with completion handler
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:56.266 --> 00:20:00.956 A:middle
-UIDocument, as you may know, has
-a open with completion handler.
-
-00:20:01.076 --> 00:20:03.666 A:middle
-There's an asynchronous
+00:20:01.086 --> 00:20:03.666 A:middle
+that is an asynchronous
 opening and that's great
 
 00:20:03.666 --> 00:20:06.466 A:middle
@@ -1662,15 +1524,7 @@ side but just to be safe here.
 
 00:20:54.736 --> 00:20:57.046 A:middle
 So what we have now
-is asynchronous flow.
-
-00:20:57.046 --> 00:21:00.616 A:middle
-We have create expectation,
-set up the document,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+is a synchronous flow.
 
 00:20:57.046 --> 00:21:00.616 A:middle
 We have create expectation,
@@ -1735,10 +1589,6 @@ going to just rename this to,
 let's say,
 ParsingInTheBackground
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.356 --> 00:22:06.926 A:middle
 because that's closer to our
 actual real-world usage anyway.
@@ -1800,22 +1650,14 @@ because that running is
 happening in the background
 
 00:22:52.136 --> 00:22:54.046 A:middle
-and our tests are
-just continuing on,
+and our test is just
+continuing on,
 
 00:22:54.046 --> 00:22:55.386 A:middle
 it's not stopping or waiting.
 
 00:22:55.636 --> 00:22:56.776 A:middle
 It's just ready to go.
-
-00:22:57.256 --> 00:23:00.606 A:middle
-If we run this test now,
-what we're going to see is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.256 --> 00:23:00.606 A:middle
 If we run this test now,
@@ -1900,10 +1742,6 @@ callbacks, we have DidParse,
 00:23:57.586 --> 00:23:59.886 A:middle
 DidFinish, DidFailWithError.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:00.146 --> 00:24:02.646 A:middle
 Well, DidFinish looks
 like exactly what I want.
@@ -1973,13 +1811,6 @@ you to see what failure looks
 00:24:58.586 --> 00:25:00.676 A:middle
 like when we hit a timeout.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.586 --> 00:25:00.676 A:middle
-like when we hit a timeout.
-
 00:25:00.926 --> 00:25:04.836 A:middle
 And asynchronous wait failed.
 
@@ -2043,14 +1874,6 @@ we fulfill it.
 
 00:25:55.716 --> 00:25:57.256 A:middle
 That causes wait to return.
-
-00:25:57.636 --> 00:26:01.046 A:middle
-So this allows us to handle
-an asynchronous activity
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.636 --> 00:26:01.046 A:middle
 So this allows us to handle
@@ -2130,24 +1953,15 @@ new APIs that we've added
 to help you measure performance
 and detect regressions.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.516 --> 00:27:02.386 A:middle
-to help you measure performance
-and detect regressions.
-
 00:27:03.116 --> 00:27:05.826 A:middle
 We'll also see how
 the measurements
 
 00:27:05.826 --> 00:27:08.346 A:middle
-that these APIs make
-to our surface
+that these APIs make are surface
 
 00:27:08.346 --> 00:27:12.796 A:middle
-and Xcode UI including
+and Xcode's UI including
 those test failures due
 
 00:27:12.796 --> 00:27:13.766 A:middle
@@ -2207,10 +2021,6 @@ using it
 
 00:27:58.356 --> 00:27:59.546 A:middle
 and then closing the fileHandle.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:04.296 --> 00:28:06.816 A:middle
 Now that I've got this test,
@@ -2280,10 +2090,6 @@ that used the measureBlock API.
 I'm just going to
 run my test now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:04.416 --> 00:29:07.766 A:middle
 So I don't know if you can see
 this, but Xcode is telling me
@@ -2337,9 +2143,12 @@ tests in my project.
 And actually, this one's
 doing a little bit --
 
-00:29:45.346 --> 00:29:48.716 A:middle
-this one's doing bad but the
-other one's doing a lot better.
+00:29:45.346 --> 00:29:48.056 A:middle
+this one's doing bad but
+the other one's doing a
+
+00:29:48.056 --> 00:29:48.716 A:middle
+little better.
 
 00:29:50.196 --> 00:29:52.556 A:middle
 So it looks like I'm just
@@ -2351,15 +2160,7 @@ right-clicking on this button
 
 00:29:55.176 --> 00:29:56.936 A:middle
 in the Source Editor
-and selecting Profile
-
-00:29:58.116 --> 00:30:03.446 A:middle
-or I can also do that from the
-Test Navigator by right-clicking
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+and selecting Profile,
 
 00:29:58.116 --> 00:30:03.446 A:middle
 or I can also do that from the
@@ -2409,8 +2210,8 @@ which is calling some
 really expensive function.
 
 00:30:46.716 --> 00:30:48.256 A:middle
-Well, it's finding
-out what I want.
+Well, that's probably
+not what I want.
 
 00:30:48.836 --> 00:30:51.346 A:middle
 So let's look into that.
@@ -2426,13 +2227,6 @@ Xcode and zoom out.
 00:30:59.536 --> 00:31:00.196 A:middle
 Yeah, yeah.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.536 --> 00:31:00.196 A:middle
-Yeah, yeah.
-
 00:31:00.196 --> 00:31:01.056 A:middle
 It is expensive.
 
@@ -2444,8 +2238,8 @@ get rid of this.
 I'm just going to delete
 that and run my test again.
 
-00:31:11.676 --> 00:31:13.556 A:middle
-And it [inaudible], great.
+00:31:07.786 --> 00:31:13.556 A:middle
+And it passed, great.
 
 00:31:15.166 --> 00:31:17.686 A:middle
 So what you've just seen is you
@@ -2489,14 +2283,14 @@ to compare against.
 
 00:31:42.386 --> 00:31:43.536 A:middle
 And the Baselines
-lets us do that.
+let us do that.
 
 00:31:44.116 --> 00:31:47.336 A:middle
 And the Standard Deviation,
 
 00:31:49.366 --> 00:31:51.336 A:middle
 XCTest should only report
-performance regression
+a performance regression
 
 00:31:51.336 --> 00:31:52.726 A:middle
 when something's
@@ -2509,14 +2303,6 @@ to determine the spread
 00:31:57.096 --> 00:31:59.266 A:middle
 of the measurements, to tell
 us how reliable they are.
-
-00:31:59.976 --> 00:32:03.056 A:middle
-And finally, measuring
-precisely.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.976 --> 00:32:03.056 A:middle
 And finally, measuring
@@ -2570,7 +2356,7 @@ This is to eliminate a
 source of false positives.
 
 00:32:36.916 --> 00:32:41.496 A:middle
-The Baselines are stored in the
+The Baselines are stored in
 source where you commit them
 
 00:32:41.496 --> 00:32:43.946 A:middle
@@ -2591,14 +2377,6 @@ to be using the same Baselines
 00:32:52.576 --> 00:32:57.166 A:middle
 that when Will runs the same
 test on his iPhone 5S are used.
-
-00:32:58.626 --> 00:33:01.676 A:middle
-But at the same time, if
-I were to run these tests
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.626 --> 00:33:01.676 A:middle
 But at the same time, if
@@ -2656,7 +2434,7 @@ or from the new Test Report.
 
 00:33:41.406 --> 00:33:43.516 A:middle
 From here I can see the
-current average from the test
+current average from the test,
 
 00:33:43.926 --> 00:33:46.106 A:middle
 and I can also see how the
@@ -2681,22 +2459,14 @@ I can click Set Baseline
 and Xcode will use, will
 copy the current average
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.176 --> 00:34:01.636 A:middle
-and Xcode will use, will
-copy the current average
-
 00:34:01.796 --> 00:34:02.456 A:middle
 to the Baseline.
 
-00:34:02.936 --> 00:34:13.755 A:middle
+00:34:02.936 --> 00:34:13.756 A:middle
 And if I need to set this
 again, I can click Edit
 
-00:34:14.505 --> 00:34:18.286 A:middle
+00:34:14.506 --> 00:34:18.286 A:middle
 and either accept the new
 current average or type
 
@@ -2712,7 +2482,7 @@ Standard Deviation from here.
 In order to set the Baseline,
 the next time I run my test,
 
-00:34:29.235 --> 00:34:31.866 A:middle
+00:34:29.236 --> 00:34:31.866 A:middle
 I'll see a different annotation
 with this gray diamond
 
@@ -2727,7 +2497,7 @@ this test is doing 4% worse
 than the Baseline that
 it's compared against.
 
-00:34:38.676 --> 00:34:44.985 A:middle
+00:34:38.676 --> 00:34:44.986 A:middle
 If the test were to do a lot
 worse, the test would fail
 
@@ -2742,27 +2512,16 @@ it's 68% worse in this case.
 And I can also see these results
 from that new Test Report.
 
-00:34:57.446 --> 00:34:59.546 A:middle
-Also from the Test Report,
-I can get the performances
+00:34:57.446 --> 00:35:00.746 A:middle
+Also from the Test Report, I can
+get the performance result pop
 
-00:34:59.966 --> 00:35:02.756 A:middle
-that will pop over by
-clicking under the time call
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:34:59.966 --> 00:35:02.756 A:middle
-that will pop over by
-clicking under the time call
-
-00:35:02.866 --> 00:35:03.646 A:middle
-on those measurements.
+00:35:00.746 --> 00:35:03.646 A:middle
+over by clicking under the time
+call on those measurements.
 
 00:35:06.356 --> 00:35:10.316 A:middle
-If you want to get the
+If you want to get at the
 raw values that Xcode gets
 
 00:35:10.316 --> 00:35:11.576 A:middle
@@ -2793,7 +2552,7 @@ with a 1-second average.
 
 00:35:33.556 --> 00:35:38.806 A:middle
 I'll set the Baseline for my
-test which fixes that in place.
+test, which fixes that in place.
 
 00:35:39.506 --> 00:35:42.856 A:middle
 Now the next time I run my
@@ -2808,7 +2567,7 @@ and the test would fail because
 that 1.5 seconds is well outside
 
 00:35:50.786 --> 00:35:52.666 A:middle
-the balance of the
+the bounds of the
 allowed 10% regression.
 
 00:35:54.116 --> 00:35:55.816 A:middle
@@ -2818,14 +2577,6 @@ to fail the test
 00:35:56.386 --> 00:35:59.686 A:middle
 if the new average has increased
 from the Baseline by more
-
-00:35:59.686 --> 00:36:02.106 A:middle
-than 10% but it's going
-to ignore regressions less
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.686 --> 00:36:02.106 A:middle
 than 10% but it's going
@@ -2871,10 +2622,10 @@ but something's gotten worse.
 There is something that if I
 were to get a dataset like this,
 
-00:36:35.166 --> 00:36:36.196 A:middle
-I want it investigated.
+00:36:35.166 --> 00:36:36.986 A:middle
+I would want to investigate it.
 
-00:36:36.926 --> 00:36:40.996 A:middle
+00:36:37.716 --> 00:36:40.996 A:middle
 So the average just doesn't
 tell the whole story.
 
@@ -2901,14 +2652,6 @@ for these numbers tightly
 00:36:55.576 --> 00:36:58.476 A:middle
 at 6% while the Standard
 Deviation
-
-00:36:59.026 --> 00:37:02.266 A:middle
-for the much more
-spread-out dataset is 40%.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.026 --> 00:37:02.266 A:middle
 for the much more
@@ -2945,13 +2688,16 @@ avoid false positives.
 So what causes excessive
 Standard Deviation?
 
-00:37:33.466 --> 00:37:37.126 A:middle
-Well, one thing is if the
-body you're measuring is doing
+00:37:33.466 --> 00:37:36.126 A:middle
+Well, one thing is if the block
 
-00:37:37.126 --> 00:37:41.556 A:middle
-network I/O or file I/O, that
-tends to vary pretty wildly.
+00:37:36.126 --> 00:37:38.446 A:middle
+that you're measuring is
+doing network I/O or file I/O,
+
+00:37:38.666 --> 00:37:41.556 A:middle
+that tends to vary
+pretty wildly.
 
 00:37:42.256 --> 00:37:48.796 A:middle
 Another thing that can cause
@@ -2968,14 +2714,6 @@ that's being measured does some
 00:37:55.626 --> 00:37:58.946 A:middle
 -- sets up some expensive global
 state the first time through
-
-00:37:58.946 --> 00:38:02.586 A:middle
-and then never again or the
-block might just be affected
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:58.946 --> 00:38:02.586 A:middle
 and then never again or the
@@ -3044,14 +2782,6 @@ And otherwise, it'll pass.
 00:38:54.376 --> 00:38:56.786 A:middle
 So how can we minimize
 Standard Deviation?
-
-00:38:56.786 --> 00:39:00.156 A:middle
-Well, one way is to only measure
-the code that's important
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:56.786 --> 00:39:00.156 A:middle
 Well, one way is to only measure
@@ -3133,21 +2863,13 @@ We'll also need two more APIs,
 startMeasuring and
 stopMeasuring.
 
-00:39:56.676 --> 00:39:58.206 A:middle
-You can use these to
-isolate what the part
+00:39:56.676 --> 00:39:58.156 A:middle
+You can use these
+to isolate what part
 
-00:39:58.206 --> 00:39:58.976 A:middle
+00:39:58.196 --> 00:39:58.976 A:middle
 of the block you
 want to measure.
-
-00:39:59.226 --> 00:40:02.826 A:middle
-You can call these once
-per block invocation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:59.226 --> 00:40:02.826 A:middle
 You can call these once
@@ -3168,12 +2890,12 @@ work with our previous example.
 00:40:15.736 --> 00:40:18.376 A:middle
 First, we'd change the method
 
-00:40:18.376 --> 00:40:22.456 A:middle
+00:40:18.376 --> 00:40:21.396 A:middle
 to call it measureMetrics
-passing time as a metric and NO
+passing time as the metric
 
-00:40:22.456 --> 00:40:23.656 A:middle
-for automatically
+00:40:21.956 --> 00:40:23.656 A:middle
+and NO for automatically
 startMeasuring.
 
 00:40:25.176 --> 00:40:27.926 A:middle
@@ -3219,12 +2941,8 @@ loading this file from the web
 and parsing it with
 NSJSONSerialization.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.866 --> 00:41:02.366 A:middle
-I think I'll actually
+I think I'd actually
 like to turn this
 
 00:41:02.366 --> 00:41:05.666 A:middle
@@ -3290,14 +3008,6 @@ for automaticallyStartMeasuring.
 Then all I need to do is call
 startMeasuring right before
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:57.366 --> 00:42:02.296 A:middle
-Then all I need to do is call
-startMeasuring right before
-
 00:42:02.396 --> 00:42:09.716 A:middle
 NSJSONSerialization
 and I can run my test.
@@ -3339,24 +3049,20 @@ So we actually get
 some values here.
 
 00:42:48.046 --> 00:42:49.276 A:middle
-And it's not going to
+And this is going to
 take a little bit longer
 
-00:42:49.276 --> 00:42:52.146 A:middle
+00:42:49.276 --> 00:42:52.016 A:middle
 because what it's actually
-doing is it's going to --
+doing is it's going
 
-00:42:52.146 --> 00:42:56.536 A:middle
-you're calling this block
+00:42:52.016 --> 00:42:56.536 A:middle
+to be calling this block
 10 times, loading the file
 
 00:42:56.536 --> 00:42:59.986 A:middle
 from the web each time
 and then parsing it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:01.956 --> 00:43:05.336 A:middle
 So now the test is taking,
@@ -3364,7 +3070,7 @@ it looks like 1.21 seconds
 
 00:43:05.336 --> 00:43:09.996 A:middle
 and it's got a very low Standard
-Deviation which is pretty good.
+Deviation, which is pretty good.
 
 00:43:10.506 --> 00:43:14.016 A:middle
 So I'm going to click to
@@ -3396,8 +3102,8 @@ when the test initially starts.
 I'll click through
 on my test again.
 
-00:43:35.196 --> 00:43:38.206 A:middle
-And still got a result
+00:43:35.186 --> 00:43:38.206 A:middle
+And it still got a result
 around the same ballpark
 
 00:43:38.206 --> 00:43:40.096 A:middle
@@ -3425,14 +3131,6 @@ I'll run it again.
 00:43:55.676 --> 00:43:58.796 A:middle
 And I should get similar results
 and yeah, it looks like I do.
-
-00:43:59.586 --> 00:44:02.276 A:middle
-So the last thing I'd
-like to do with this is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:59.586 --> 00:44:02.276 A:middle
 So the last thing I'd
@@ -3483,11 +3181,11 @@ it takes to run this
 
 00:44:34.386 --> 00:44:37.936 A:middle
 and if something were
-to change, I find out.
+to change, I'd find out.
 
 00:44:39.036 --> 00:44:44.416 A:middle
 The last thing I want to do is
-I want to connect my changes.
+I want to commit my changes.
 
 00:44:44.416 --> 00:44:46.886 A:middle
 So here we can see the
@@ -3513,19 +3211,11 @@ can tell from this,
 but this is actually a file
 that's stored inside the project
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.256 --> 00:45:00.446 A:middle
-but this is actually a file
-that's stored inside the project
-
 00:45:00.446 --> 00:45:00.976 A:middle
 bundle itself.
 
 00:45:08.296 --> 00:45:09.346 A:middle
-So I'll connect that.
+So I'll commit that.
 
 00:45:09.806 --> 00:45:13.936 A:middle
 And now it's saved there
@@ -3546,7 +3236,7 @@ new measureBlock APIs
 
 00:45:26.946 --> 00:45:28.996 A:middle
 to measure performance
-in detect regressions.
+and to detect regressions.
 
 00:45:29.726 --> 00:45:32.526 A:middle
 You can tell Xcode
@@ -3590,14 +3280,6 @@ through everything we've talked
 about today, we started off
 with thinking about, you know,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.486 --> 00:46:02.776 A:middle
-about today, we started off
-with thinking about, you know,
-
 00:46:02.906 --> 00:46:04.336 A:middle
 why should we test
 in the first place?
@@ -3635,7 +3317,7 @@ inside your test.
 
 00:46:29.926 --> 00:46:33.066 A:middle
 And then we talked about the
-new asynchronous testing API
+new asynchronous testing API,
 
 00:46:33.496 --> 00:46:37.296 A:middle
 which allows you to get a
@@ -3666,14 +3348,6 @@ to be executing critical paths
 00:46:54.786 --> 00:46:58.006 A:middle
 in your project and then
 to easily be able to hop
-
-00:46:58.006 --> 00:47:01.496 A:middle
-in Instruments and
-analyze time profiles
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:58.006 --> 00:47:01.496 A:middle
 in Instruments and
@@ -3735,4 +3409,3 @@ Thanks a lot, folks.
 
 00:47:39.516 --> 00:47:47.130 A:middle
 [ Applause ]
-

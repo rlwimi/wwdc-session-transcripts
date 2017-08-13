@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.516 --> 00:00:14.546 A:middle
 [ Applause ]
@@ -11,7 +10,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 Welcome.
 
 00:00:16.186 --> 00:00:17.566 A:middle
-Welcome to Intermediate Swift.
+Welcome to "Intermediate Swift."
 
 00:00:18.656 --> 00:00:20.666 A:middle
 My name is Brian Lanier.
@@ -22,7 +21,7 @@ Developer Publications.
 
 00:00:22.866 --> 00:00:25.596 A:middle
 Later I'll be joined on stage
-by my colleague, Joe Groff,
+by my colleague Joe Groff,
 
 00:00:25.966 --> 00:00:27.836 A:middle
 who is an engineer on
@@ -68,26 +67,18 @@ So, in particular, we're
 going to look at some features
 
 00:00:56.306 --> 00:00:59.066 A:middle
-in some more detail
+in some more detail,
 including optionals
 
 00:00:59.246 --> 00:01:02.206 A:middle
 and how you can use them
 to make your code safer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.246 --> 00:01:02.206 A:middle
-and how you can use them
-to make your code safer.
-
-00:01:02.826 --> 00:01:05.245 A:middle
+00:01:02.826 --> 00:01:05.246 A:middle
 We're going to talk to you
 about memory management in Swift
 
-00:01:05.245 --> 00:01:06.856 A:middle
+00:01:05.246 --> 00:01:06.856 A:middle
 and how it's largely automatic.
 
 00:01:07.966 --> 00:01:09.916 A:middle
@@ -108,10 +99,10 @@ by looking at one
 
 00:01:19.406 --> 00:01:22.666 A:middle
 of Swift's most powerful
-features, optionals,
+features, optionals.
 
 00:01:24.096 --> 00:01:25.566 A:middle
-but first I want to take a look
+But first I want to take a look
 
 00:01:25.566 --> 00:01:27.986 A:middle
 at why we might need
@@ -127,7 +118,7 @@ for the user's age.
 
 00:01:35.356 --> 00:01:38.406 A:middle
 The response comes in as
-a string but say we need
+a string, but say we need
 
 00:01:38.406 --> 00:01:39.546 A:middle
 to convert that string
@@ -137,15 +128,15 @@ to an integer using
 this toInt method here.
 
 00:01:44.096 --> 00:01:47.126 A:middle
-Now when the enter
-users a string
+Now when the user
+enters a string
 
 00:01:47.126 --> 00:01:48.416 A:middle
 that represents a valid integer,
 
 00:01:48.806 --> 00:01:53.066 A:middle
 the toInt method returns the
-correct result but, however,
+correct result, but, however,
 
 00:01:53.066 --> 00:01:56.726 A:middle
 because you're not in control
@@ -153,14 +144,6 @@ of the user's response you have
 
 00:01:57.276 --> 00:01:59.696 A:middle
 to deal with cases or situations
-
-00:01:59.696 --> 00:02:02.376 A:middle
-where there's not an
-obvious value to return.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.696 --> 00:02:02.376 A:middle
 where there's not an
@@ -211,15 +194,15 @@ It's a common source of bugs
 and problems in your code.
 
 00:02:41.826 --> 00:02:42.826 A:middle
-For one you have to know
+For one, you have to know
 
 00:02:42.826 --> 00:02:45.396 A:middle
 which of these possible
 sentinels was chosen
 
 00:02:45.396 --> 00:02:48.766 A:middle
-by the author of the API and
-then you have to remember
+by the author of the API,
+and then you have to remember
 
 00:02:48.766 --> 00:02:51.036 A:middle
 which one to check against it.
@@ -236,14 +219,6 @@ we model this?
 Well, in Swift, we
 model problems
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:57.256 --> 00:03:00.006 A:middle
-Well, in Swift, we
-model problems
-
 00:03:00.006 --> 00:03:02.606 A:middle
 like these using
 the optional type.
@@ -255,25 +230,25 @@ possibly missing values
 00:03:07.736 --> 00:03:09.506 A:middle
 of any type whatsoever.
 
-00:03:10.816 --> 00:03:17.366 A:middle
-The optional type has 2 discrete
-states; a default, nil state,
+00:03:10.816 --> 00:03:15.896 A:middle
+The optional type has two
+discrete states: a default,
 
-00:03:18.176 --> 00:03:23.296 A:middle
-which represents literally the
-absence of any value whatsoever
+00:03:16.536 --> 00:03:21.776 A:middle
+nil state, which represents
+literally the absence
 
-00:03:23.786 --> 00:03:25.376 A:middle
-and optionals are
-defaulted to nil.
+00:03:21.776 --> 00:03:25.376 A:middle
+of any value whatsoever, and
+optionals are defaulted to nil.
 
 00:03:25.836 --> 00:03:27.796 A:middle
 You've probably seen a couple
 of examples and options.
 
 00:03:27.796 --> 00:03:30.646 A:middle
-If you've seen the introduction
-to Swift Talk, you write them
+If you've seen the "Introduction
+to Swift" talk, you write them
 
 00:03:30.646 --> 00:03:33.496 A:middle
 by writing the base height
@@ -284,11 +259,11 @@ to indicate their optionality.
 
 00:03:36.116 --> 00:03:41.226 A:middle
 Now, in Swift, nil is not
-like Swift in Objective-C
+like Swift in Objective-C,
 
 00:03:41.516 --> 00:03:44.196 A:middle
 where in Objective-C Swift is
-an object pointer to nothing
+an object pointer to nothing,
 
 00:03:44.456 --> 00:03:46.356 A:middle
 and it only works for
@@ -314,14 +289,6 @@ option includes a presence
 of a value that's been
 wrapped up in the optional.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.706 --> 00:04:01.226 A:middle
-of a value that's been
-wrapped up in the optional.
-
 00:04:01.226 --> 00:04:04.056 A:middle
 Think of optionals as this
 wrapper container that wraps
@@ -332,7 +299,7 @@ are values present.
 
 00:04:06.776 --> 00:04:09.316 A:middle
 So here we're setting the
-value of optional number to 6
+value of optionalNumber to 6,
 
 00:04:09.316 --> 00:04:12.346 A:middle
 and the value is wrapped
@@ -345,13 +312,13 @@ this value and access it
 00:04:15.886 --> 00:04:16.766 A:middle
 in just a little while.
 
-00:04:18.495 --> 00:04:24.706 A:middle
+00:04:18.496 --> 00:04:24.706 A:middle
 So, now that we have a single
 sentinel value that works
 
 00:04:24.706 --> 00:04:26.826 A:middle
 with any type at
-all even integers,
+all, even integers,
 
 00:04:27.506 --> 00:04:29.566 A:middle
 it's clear what this
@@ -363,25 +330,25 @@ have a value that's not valid,
 
 00:04:33.536 --> 00:04:35.166 A:middle
 we should just return an
-optional and, in fact,
+optional, and in fact,
 
 00:04:35.696 --> 00:04:37.916 A:middle
 the toInt method is defined
 in the standard library
 
 00:04:37.986 --> 00:04:41.196 A:middle
-under string type and it does
-just that it returns nil.
+under string type, and it does
+just that, it returns nil.
 
 00:04:42.066 --> 00:04:44.596 A:middle
 Now because we have optionals,
 
 00:04:45.066 --> 00:04:47.276 A:middle
-we also have non-optional
+we also have nonoptional
 types as well.
 
 00:04:47.276 --> 00:04:49.166 A:middle
-So what are non-optional types?
+So what are nonoptional types?
 
 00:04:49.306 --> 00:04:51.846 A:middle
 Well, they're just ordinary
@@ -393,15 +360,7 @@ your custom objects.
 
 00:04:55.396 --> 00:05:00.016 A:middle
 And the great thing about
-non-optional types is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:55.396 --> 00:05:00.016 A:middle
-And the great thing about
-non-optional types is
+nonoptional types is
 
 00:05:00.016 --> 00:05:01.706 A:middle
 that they can't be nil.
@@ -417,12 +376,12 @@ code safe and predictable.
 When you declare a value
 
 00:05:08.306 --> 00:05:11.796 A:middle
-of a non-optional
+of a nonoptional
 type, it can't be nil.
 
 00:05:11.796 --> 00:05:13.776 A:middle
 You can be sure that it's
-there when you need it
+there when you need it,
 
 00:05:14.416 --> 00:05:15.506 A:middle
 and you can't be surprised
@@ -439,7 +398,7 @@ So, now that we know
 what optional types are
 
 00:05:22.996 --> 00:05:25.056 A:middle
-and what they represent
+and what they represent,
 let's see how we can use them
 
 00:05:25.056 --> 00:05:27.856 A:middle
@@ -453,23 +412,23 @@ that returns an optional type.
 So here we're going to write a
 function that looks for a string
 
-00:05:34.286 --> 00:05:35.496 A:middle
-in an array of strings and if
+00:05:34.286 --> 00:05:35.216 A:middle
+in an array of strings,
 
-00:05:35.496 --> 00:05:38.196 A:middle
-that string has found the array
-it simply returns the index,
+00:05:35.216 --> 00:05:37.636 A:middle
+and if that string has found
+the array it simply returns the
 
-00:05:39.176 --> 00:05:41.416 A:middle
-but as you might guess,
-this is a case in which
+00:05:37.636 --> 00:05:41.416 A:middle
+index, but as you might
+guess, this is a case in which
 
 00:05:42.436 --> 00:05:45.216 A:middle
 if the string isn't found we
 need some value to indicate
 
 00:05:45.216 --> 00:05:48.156 A:middle
-that failure and because
+that failure, and because
 we have nil and optionals
 
 00:05:48.156 --> 00:05:51.346 A:middle
@@ -485,27 +444,19 @@ So, let's implement
 the function.
 
 00:05:56.956 --> 00:05:58.856 A:middle
-The first thing we need
-to is enumerate the array
-
-00:05:58.856 --> 00:06:00.626 A:middle
-and here we're using
-the enumerate method
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+The first thing we need to
+do is enumerate the array,
 
 00:05:58.856 --> 00:06:00.626 A:middle
 and here we're using
 the enumerate method
 
 00:06:00.626 --> 00:06:03.136 A:middle
-to find the standard library
+to find the standard library,
 which actually enumerates
 
 00:06:03.136 --> 00:06:07.586 A:middle
-to an array and returns as
+to an array and returns as a
 tuple, the index and the value
 
 00:06:07.586 --> 00:06:09.546 A:middle
@@ -515,23 +466,24 @@ of each value in the array.
 We can use that in the 4N
 statement here and check to see
 
-00:06:14.086 --> 00:06:16.626 A:middle
+00:06:14.086 --> 00:06:16.216 A:middle
 if the string that we're looking
-for matches the value and if
+for matches the value and,
 
-00:06:16.626 --> 00:06:18.246 A:middle
-so simply return the integer.
+00:06:16.376 --> 00:06:18.246 A:middle
+if so, simply return
+the integer.
 
 00:06:18.696 --> 00:06:21.746 A:middle
 Now, we're returning an integer
-here but then it gets wrapped
+here, but then it gets wrapped
 
 00:06:21.746 --> 00:06:24.226 A:middle
 up as we said in the
-optional return type
+optional return type.
 
 00:06:24.486 --> 00:06:27.756 A:middle
-and because we have nil at our
+And because we have nil at our
 disposal, we know exactly what
 
 00:06:27.756 --> 00:06:30.786 A:middle
@@ -557,42 +509,35 @@ Here you can clearly see that
 the string that we're looking
 
 00:06:47.326 --> 00:06:50.306 A:middle
-for is in the array so we
+for is in the array, so we
 have a valid result to return.
 
 00:06:51.176 --> 00:06:52.316 A:middle
-Then we can check though.
+Then we can check, though.
 
 00:06:52.406 --> 00:06:55.166 A:middle
-We always want to make
-sure the value is present
+We always want to check to
+make sure the value is present,
 
 00:06:55.166 --> 00:06:58.346 A:middle
 so we can simply ask if the
-index value isn't nil here
+index value isn't nil here -
 
 00:06:59.076 --> 00:07:01.846 A:middle
 and notice that I don't, I'm not
-checking explicitly against nil
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.076 --> 00:07:01.846 A:middle
-and notice that I don't, I'm not
-checking explicitly against nil
+checking explicitly against nil,
 
 00:07:02.236 --> 00:07:05.146 A:middle
 and that's because optionals
 can be used in Boolean context.
 
-00:07:05.636 --> 00:07:08.126 A:middle
-That means that you can check
-them directly very naturally
+00:07:05.636 --> 00:07:07.166 A:middle
+That means that you can
+check them directly,
 
-00:07:08.126 --> 00:07:08.896 A:middle
-like I've done here.
+00:07:07.246 --> 00:07:08.896 A:middle
+very naturally, like
+I've done here.
 
 00:07:09.846 --> 00:07:13.346 A:middle
 So if the value is present,
@@ -608,7 +553,7 @@ this we have a problem
 
 00:07:20.056 --> 00:07:23.936 A:middle
 because the array is expecting
-a non-optional integer,
+a nonoptional integer,
 
 00:07:23.936 --> 00:07:27.206 A:middle
 but we've said that the function
@@ -617,13 +562,13 @@ returns an optional integer.
 00:07:27.826 --> 00:07:29.176 A:middle
 So the types don't match here
 
-00:07:29.176 --> 00:07:30.406 A:middle
-and the compiler
-will let us know
+00:07:29.176 --> 00:07:31.016 A:middle
+and the compiler will
+let us know that first,
 
-00:07:30.406 --> 00:07:33.476 A:middle
-that first before we use it we
-need to unwrap the optionals.
+00:07:31.296 --> 00:07:33.476 A:middle
+before we use it, we need
+to unwrap the optionals.
 
 00:07:34.146 --> 00:07:35.846 A:middle
 One way we can unwrap optionals,
@@ -646,25 +591,19 @@ that you wish to unwrap.
 And here because our search
 returned a valid response,
 
-00:07:51.066 --> 00:07:53.536 A:middle
-we can simply print out
-the result, but you have
+00:07:51.066 --> 00:07:52.416 A:middle
+we can simply print
+out the result.
 
-00:07:53.536 --> 00:07:55.326 A:middle
-to be careful as I
-said we should check
+00:07:53.156 --> 00:07:54.246 A:middle
+But you have to be careful.
+
+00:07:54.246 --> 00:07:55.326 A:middle
+As I said we should check
 
 00:07:55.436 --> 00:07:57.756 A:middle
 to make sure the value is nil
 first before we unwrap it.
-
-00:07:58.206 --> 00:08:00.576 A:middle
-So if we try to use the forced
-unwrapping operator here
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:58.206 --> 00:08:00.576 A:middle
 So if we try to use the forced
@@ -679,8 +618,8 @@ assertion, a runtime
 error because we need
 
 00:08:06.606 --> 00:08:08.866 A:middle
-to make sure the value
-is there and we're trying
+to make sure the value is
+there, and we're trying
 
 00:08:08.866 --> 00:08:11.486 A:middle
 to force it when it's not.
@@ -700,61 +639,54 @@ we call optional binding.
 00:08:21.126 --> 00:08:22.426 A:middle
 Optional binding uses this
 
-00:08:22.426 --> 00:08:24.896 A:middle
-if let syntax you
-may have seen earlier
+00:08:22.426 --> 00:08:25.036 A:middle
+if let syntax you may
+have seen earlier in the
 
-00:08:24.896 --> 00:08:26.086 A:middle
-in the Introduction
-to Swift Talk.
+00:08:25.036 --> 00:08:26.086 A:middle
+"Introduction to Swift" talk.
 
 00:08:27.476 --> 00:08:29.366 A:middle
 So, the if let statement,
 how does it work?
 
-00:08:29.536 --> 00:08:33.096 A:middle
-Well, first as I said
-it tests so it tests
+00:08:29.536 --> 00:08:31.986 A:middle
+Well, first as I said, it tests,
 
-00:08:33.096 --> 00:08:36.616 A:middle
-to see the optional type here
-to see if it's actually present
+00:08:32.236 --> 00:08:35.456 A:middle
+so it tests to see the
+optional type here to see
 
-00:08:36.616 --> 00:08:40.696 A:middle
-or if its value is nil, and
-if it's not nil, it assigns,
+00:08:35.456 --> 00:08:37.686 A:middle
+if it's actually present
+or if its value is nil,
 
-00:08:40.696 --> 00:08:43.265 A:middle
-unwraps and assigns
-a non-optional type
+00:08:38.246 --> 00:08:41.476 A:middle
+and if it's not nil,
+it assigns, unwraps
 
-00:08:43.936 --> 00:08:47.006 A:middle
-to the index value here,
-this temporary constant,
+00:08:41.536 --> 00:08:45.336 A:middle
+and assigns a nonoptional
+type to the index value here,
+
+00:08:45.556 --> 00:08:47.006 A:middle
+this temporary constant.
 
 00:08:47.226 --> 00:08:49.486 A:middle
-and you can use a temporary
+And you can use a temporary
 constant because it's unwrapped
 
 00:08:50.396 --> 00:08:53.466 A:middle
 as the index, as a
-subscript to this array
+subscript to this array,
 
 00:08:54.426 --> 00:08:55.746 A:middle
 and everything should
-work just fine,
+work just fine.
 
 00:08:56.926 --> 00:08:58.666 A:middle
-but we can actually
+But we can actually
 combine these together.
-
-00:08:58.666 --> 00:09:01.416 A:middle
-There's no need to actually
-include a temporary variable.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.666 --> 00:09:01.416 A:middle
 There's no need to actually
@@ -768,16 +700,20 @@ result of the function directly
 in line and then assign
 that after it's unwrapped
 
-00:09:08.796 --> 00:09:12.126 A:middle
-to the index here, which now
-index is a non-optional Int,
+00:09:08.796 --> 00:09:10.496 A:middle
+to the index here,
+which now index is
 
-00:09:12.226 --> 00:09:14.966 A:middle
+00:09:10.496 --> 00:09:14.966 A:middle
+of type nonoptional Int,
 just regular old Int.
 
-00:09:15.866 --> 00:09:19.286 A:middle
-But that's what optional bind
-looks like in a simple case.
+00:09:15.866 --> 00:09:18.116 A:middle
+But that's what optional
+bind looks
+
+00:09:18.116 --> 00:09:19.286 A:middle
+like in a very simple case.
 
 00:09:19.286 --> 00:09:20.406 A:middle
 Let's look at how it might look
@@ -791,8 +727,8 @@ So, to do that, let's set
 up a couple of classes.
 
 00:09:26.296 --> 00:09:29.136 A:middle
-Say we have a person class
-that has an optional residence
+Say we have a person class,
+which has an optional residence,
 
 00:09:30.266 --> 00:09:32.106 A:middle
 and a residence which
@@ -803,27 +739,26 @@ Finally, we have
 an address class
 
 00:09:34.636 --> 00:09:37.466 A:middle
-that has 3 optional
-properties; the building number,
+that has three optional
+properties: the building number,
 
-00:09:37.466 --> 00:09:39.696 A:middle
+00:09:37.466 --> 00:09:39.466 A:middle
 a street name and
-apartment number all
+apartment number,
 
-00:09:39.696 --> 00:09:40.446 A:middle
-of which are optional.
+00:09:39.466 --> 00:09:40.446 A:middle
+all of which are optional.
 
 00:09:41.376 --> 00:09:43.386 A:middle
 Let's do a little
 bit more bookkeeping.
 
-00:09:43.386 --> 00:09:45.646 A:middle
-Let's go ahead and create
-a person instance, Paul,
+00:09:43.386 --> 00:09:45.916 A:middle
+Let's go ahead and create a
+person instance, Paul, here,
 
-00:09:45.646 --> 00:09:48.806 A:middle
-here and let's give
-Paul a residence
+00:09:46.396 --> 00:09:48.806 A:middle
+and let's give Paul a residence,
 
 00:09:49.716 --> 00:09:52.946 A:middle
 and let's also give
@@ -834,19 +769,11 @@ so he can receive his mail.
 
 00:09:54.426 --> 00:09:58.436 A:middle
 Now because Paul doesn't live
-in an apartment we're not going
+in an apartment, we're not going
 
 00:09:58.436 --> 00:10:00.006 A:middle
 to set the apartment
-number but we're going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.436 --> 00:10:00.006 A:middle
-to set the apartment
-number but we're going
+number, but we're going
 
 00:10:00.006 --> 00:10:02.586 A:middle
 to set the building
@@ -861,7 +788,7 @@ Now let's say that we wanted
 to get at the address number
 
 00:10:09.796 --> 00:10:12.076 A:middle
-as an integer not as a string.
+as an integer, not as a string.
 
 00:10:12.076 --> 00:10:16.336 A:middle
 Well we could use if let binding
@@ -882,25 +809,28 @@ if Paul has a residence.
 If so, unwrap it,
 assign it to home.
 
-00:10:24.286 --> 00:10:28.286 A:middle
-We can do the same with the
-address and finally we can drill
+00:10:24.286 --> 00:10:25.626 A:middle
+We can do the same
+with the address,
 
-00:10:28.286 --> 00:10:31.386 A:middle
-down and use the toInt
-method to convert that string
+00:10:26.336 --> 00:10:30.346 A:middle
+and finally we can drill down
+and finally use the toInt method
 
-00:10:31.716 --> 00:10:36.386 A:middle
-into a number and assign
-it to the address variable,
+00:10:30.346 --> 00:10:33.046 A:middle
+to convert that string
+into a number and assign it
+
+00:10:33.116 --> 00:10:36.386 A:middle
+to the address variable.
 
 00:10:37.556 --> 00:10:39.826 A:middle
-but this is really
-cumbersome as you can tell.
+But this is really
+cumbersome, as you can tell.
 
 00:10:40.106 --> 00:10:43.606 A:middle
 This does not lead to pretty
-code and it's kind of hard
+code, and it's kind of hard
 
 00:10:43.606 --> 00:10:46.826 A:middle
 to follow all of the nested if
@@ -923,15 +853,7 @@ perform operations.
 
 00:10:57.766 --> 00:11:01.086 A:middle
 It's like messaging nil in
-Objective-C but in such a way
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:57.766 --> 00:11:01.086 A:middle
-It's like messaging nil in
-Objective-C but in such a way
+Objective-C, but in such a way
 
 00:11:01.086 --> 00:11:03.036 A:middle
 that it works with
@@ -943,32 +865,33 @@ a clean and succinct syntax
 
 00:11:07.996 --> 00:11:09.456 A:middle
 for doing these kinds
-of operations
+of operations.
 
 00:11:09.886 --> 00:11:12.316 A:middle
-so what we're doing here is
-we're evaluating each point
+So what we're doing here is
+we're just evaluating each point
 
 00:11:12.316 --> 00:11:15.726 A:middle
 using the question mark operator
 or the chaining operator to see
 
-00:11:15.726 --> 00:11:19.106 A:middle
-if the thing to its left which
-is an optional type if it's nil
+00:11:15.726 --> 00:11:18.386 A:middle
+if the thing to its left,
+which is of an optional type,
 
-00:11:19.356 --> 00:11:22.216 A:middle
-or if it's present before we
-proceed to the next expression.
+00:11:18.466 --> 00:11:20.866 A:middle
+if it's nil or if it's
+present before we proceed
 
-00:11:22.886 --> 00:11:23.876 A:middle
-So to see how this works
+00:11:20.866 --> 00:11:22.216 A:middle
+to the next expression.
 
-00:11:23.876 --> 00:11:26.586 A:middle
-in a little bit more detail
+00:11:22.886 --> 00:11:25.046 A:middle
+So to see how this works in
+a little bit more detail,
+
+00:11:25.546 --> 00:11:27.646 A:middle
 let's look at this example
-
-00:11:26.586 --> 00:11:27.646 A:middle
 and see how it's evaluated.
 
 00:11:27.796 --> 00:11:29.186 A:middle
@@ -980,8 +903,8 @@ of an optional chaining
 expression
 
 00:11:32.016 --> 00:11:34.946 A:middle
-like 2 parallel railroad
-tracks that end
+like two parallel
+railroad tracks that end
 
 00:11:34.946 --> 00:11:36.916 A:middle
 in two different
@@ -992,8 +915,8 @@ The first station being the
 optional value that's wrapped
 
 00:11:40.576 --> 00:11:43.876 A:middle
-up here so in this case an Int
-that's wrapped in an optional
+up here, so in this case an Int
+that's wrapped in an optional,
 
 00:11:44.416 --> 00:11:46.156 A:middle
 or simply nil when
@@ -1007,11 +930,11 @@ looks like as we go
 through the expression.
 
 00:11:50.136 --> 00:11:51.966 A:middle
-Well, Paul is non-optional
+Well, Paul is nonoptional,
 so that's obvious.
 
 00:11:51.966 --> 00:11:53.356 A:middle
-We've set him, he's
+We've set him; he's
 a valid instance.
 
 00:11:54.116 --> 00:11:55.786 A:middle
@@ -1019,46 +942,39 @@ We can go to the
 first optional here
 
 00:11:55.966 --> 00:11:57.836 A:middle
-in the chain expression
+in the chain expression,
 residence.
 
 00:11:57.836 --> 00:11:59.686 A:middle
 Well, we know that we've
-set it as a residence
+set it as a residence,
 
-00:11:59.946 --> 00:12:03.226 A:middle
+00:11:59.946 --> 00:12:02.866 A:middle
 but if it were nil, we would
-actually just take the nil track
+actually just take the nil
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.946 --> 00:12:03.226 A:middle
-but if it were nil, we would
-actually just take the nil track
-
-00:12:03.646 --> 00:12:05.936 A:middle
-and the entire expression
-would return nil.
+00:12:02.866 --> 00:12:05.936 A:middle
+track, and the entire
+expression would return nil.
 
 00:12:05.936 --> 00:12:08.636 A:middle
-It's still an optional type
-but it simply returns nil
+It's still of an optional type,
+but it simply returns nil,
 
-00:12:08.636 --> 00:12:12.996 A:middle
-and the rest of the expression
-is ignored, but of course,
+00:12:08.636 --> 00:12:10.426 A:middle
+and the rest of the
+expression is ignored.
 
-00:12:12.996 --> 00:12:13.976 A:middle
-we did set a residence
+00:12:11.026 --> 00:12:13.976 A:middle
+But of course, we
+did set a residence.
 
 00:12:13.976 --> 00:12:16.206 A:middle
-and we can do the same
-here along the path
+And we can do the same
+here along the path.
 
 00:12:16.926 --> 00:12:20.576 A:middle
-and we can check every single
+And we can check every single
 optional in a chained expression
 
 00:12:20.576 --> 00:12:21.866 A:middle
@@ -1067,11 +983,11 @@ not it's valid.
 
 00:12:22.486 --> 00:12:24.466 A:middle
 In this case, we've
-set an address
+set an address,
 
 00:12:24.466 --> 00:12:28.606 A:middle
 and we've set a building
-number and finally we come
+number, and finally we come
 
 00:12:28.606 --> 00:12:32.586 A:middle
 to the last method call
@@ -1085,7 +1001,7 @@ Now the toInt method
 
 00:12:34.916 --> 00:12:37.116 A:middle
 as you recall returns
-an optional type itself
+an optional type itself,
 
 00:12:37.486 --> 00:12:39.656 A:middle
 so there's actually one more
@@ -1093,42 +1009,34 @@ path we need to consider.
 
 00:12:39.906 --> 00:12:42.496 A:middle
 It could, in fact, return nil
-if it can't convert the value,
+if it can't convert the value.
 
 00:12:43.926 --> 00:12:47.826 A:middle
-but we've set it, of course, to
+But we've set it, of course, to
 a valid string representation
 
-00:12:47.826 --> 00:12:50.406 A:middle
-of an integer and so
-toInt method has a result
+00:12:47.826 --> 00:12:50.856 A:middle
+of an integer, and so toInt
+method has a result to return,
 
-00:12:50.406 --> 00:12:54.786 A:middle
-to return 243 and the entire
-expression is completely
+00:12:50.856 --> 00:12:55.406 A:middle
+243, and the entire expression
+is completely evaluated.
 
-00:12:54.786 --> 00:12:57.676 A:middle
-evaluated it's wrapped
-back up in an optional
-
-00:12:58.096 --> 00:13:00.526 A:middle
-so that the address
-number is now an optional
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:12:55.406 --> 00:12:57.676 A:middle
+It's wrapped back
+up in an optional
 
 00:12:58.096 --> 00:13:00.526 A:middle
 so that the address
 number is now an optional
 
 00:13:00.796 --> 00:13:02.996 A:middle
-with an underlying value of 243,
+with an underlying value of 243.
 
 00:13:03.756 --> 00:13:06.276 A:middle
-but because it's an optional
-value if I need to use it
+But because it's an optional
+value, if I need to use it
 
 00:13:07.246 --> 00:13:09.986 A:middle
 as a real integer, I
@@ -1140,7 +1048,7 @@ these operations together,
 
 00:13:12.856 --> 00:13:17.206 A:middle
 optional chaining, and if let
-syntax are optional binding,
+syntax or optional binding,
 
 00:13:17.576 --> 00:13:20.226 A:middle
 to test and unwrap it
@@ -1148,10 +1056,10 @@ at the same time again.
 
 00:13:20.566 --> 00:13:23.116 A:middle
 So here we can take the entire
-optional chained expression
+optional chained expression,
 
-00:13:23.386 --> 00:13:27.766 A:middle
-and evaluate it, see if it isn't
+00:13:23.416 --> 00:13:27.766 A:middle
+evaluate it, see if it isn't
 nil, unwrap it and assign it
 
 00:13:27.766 --> 00:13:28.596 A:middle
@@ -1159,7 +1067,7 @@ to the address variable.
 
 00:13:28.876 --> 00:13:30.996 A:middle
 We can use it like an
-ordinary non-optional type.
+ordinary nonoptional type.
 
 00:13:31.446 --> 00:13:32.846 A:middle
 For example, to add
@@ -1174,15 +1082,17 @@ So that's how optionals work.
 00:13:40.046 --> 00:13:40.766 A:middle
 It's pretty cool.
 
-00:13:41.166 --> 00:13:42.476 A:middle
-So that's how optionals works.
+00:13:41.166 --> 00:13:42.406 A:middle
+So that's how optionals work.
 
-00:13:42.476 --> 00:13:43.816 A:middle
+00:13:42.566 --> 00:13:43.816 A:middle
 It's how optional
 chaining works,
 
-00:13:43.816 --> 00:13:46.316 A:middle
-how optional binding works,
+00:13:43.816 --> 00:13:44.856 A:middle
+how optional binding works.
+
+00:13:45.106 --> 00:13:46.316 A:middle
 I want to take a step back
 
 00:13:46.806 --> 00:13:48.866 A:middle
@@ -1191,7 +1101,7 @@ look like under the hood.
 
 00:13:49.376 --> 00:13:51.366 A:middle
 I don't want to spend a lot
-of time here but I do want
+of time here, but I do want
 
 00:13:51.366 --> 00:13:52.946 A:middle
 to show you how powerful
@@ -1208,14 +1118,6 @@ something so fundamental
 to the language like optionals
 in the language itself.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.566 --> 00:14:01.046 A:middle
-to the language like optionals
-in the language itself.
-
 00:14:01.626 --> 00:14:04.636 A:middle
 So optionals are really
 just a simple enumeration,
@@ -1225,38 +1127,40 @@ a generic enumeration
 at that, of any type.
 
 00:14:07.876 --> 00:14:10.596 A:middle
-You can see the sum type
+You can see the Some type
 here represents the case
 
 00:14:10.596 --> 00:14:13.686 A:middle
-in which I said there is a
+in which I said that there is a
 value present that's wrapped up.
 
 00:14:13.906 --> 00:14:15.516 A:middle
 You can see that
-wrapping here going on
+wrapping here going on.
 
-00:14:15.896 --> 00:14:19.376 A:middle
-and the None case just simply is
-a default value which we've said
+00:14:15.896 --> 00:14:18.446 A:middle
+And the None case just
+simply is a default value,
 
-00:14:19.376 --> 00:14:20.796 A:middle
-that you can indicate using nil.
+00:14:18.806 --> 00:14:20.796 A:middle
+which we've said that you
+can indicate using nil.
 
 00:14:22.126 --> 00:14:24.466 A:middle
 We haven't talked too much about
-generics and we're not going
+generics, and we're not going
 
 00:14:24.466 --> 00:14:27.176 A:middle
 to go into generics in much
 detail here, but I encourage you
 
-00:14:27.176 --> 00:14:29.756 A:middle
-to watch the Advanced Swift talk
-where you can see the full power
+00:14:27.176 --> 00:14:28.376 A:middle
+to watch the "Advanced
+Swift" talk,
 
-00:14:29.756 --> 00:14:32.476 A:middle
-of generics in action.
+00:14:28.616 --> 00:14:32.476 A:middle
+where you can see the full
+power of generics in action.
 
 00:14:32.656 --> 00:14:33.636 A:middle
 So that's optionals.
@@ -1269,7 +1173,7 @@ work safely in your code
 with possibly missing values.
 
 00:14:39.706 --> 00:14:40.896 A:middle
-Missing values are nil
+Missing values are nil,
 
 00:14:40.896 --> 00:14:43.766 A:middle
 and present values are
@@ -1277,31 +1181,27 @@ wrapped up in the optionals.
 
 00:14:44.256 --> 00:14:46.576 A:middle
 You can then unwrap the
-optionals in two ways;
+optionals in two ways:
 
-00:14:46.576 --> 00:14:49.196 A:middle
+00:14:46.576 --> 00:14:48.446 A:middle
 either with a forced-unwrapping
-operator but only do
+operator,
 
-00:14:49.196 --> 00:14:51.466 A:middle
-that if you're sure there's a
-value there and it's not nil,
+00:14:48.716 --> 00:14:50.776 A:middle
+but only do that if you're
+sure there's a value there
 
-00:14:52.186 --> 00:14:55.376 A:middle
-and you can also use if let
-syntax or optional binding
+00:14:50.776 --> 00:14:54.536 A:middle
+and it's not nil; and you
+can also use if let syntax
 
-00:14:55.376 --> 00:14:58.276 A:middle
-to unwrap and test at the
-same time in a very safe way.
+00:14:54.536 --> 00:14:56.396 A:middle
+or optional binding
+to unwrap and test
 
-00:14:59.026 --> 00:15:02.226 A:middle
-And finally, you can use
-optional chaining to work
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:14:56.396 --> 00:14:58.276 A:middle
+at the same time
+in a very safe way.
 
 00:14:59.026 --> 00:15:02.226 A:middle
 And finally, you can use
@@ -1313,7 +1213,7 @@ and eloquent way
 
 00:15:04.196 --> 00:15:06.616 A:middle
 with multiple optional
-expressions chained together
+expressions chained together,
 
 00:15:06.616 --> 00:15:08.336 A:middle
 and that's optionals.
@@ -1329,12 +1229,14 @@ in Swift.
 00:15:13.516 --> 00:15:15.546 A:middle
 [ Applause ]
 
-00:15:16.046 --> 00:15:18.246 A:middle
-&gt;&gt; My name is Joe Groff, I
-work on the Swift compiler,
+00:15:16.046 --> 00:15:16.886 A:middle
+&gt;&gt; My name is Joe Groff.
+
+00:15:16.936 --> 00:15:18.246 A:middle
+I work on the Swift Compiler.
 
 00:15:18.356 --> 00:15:21.666 A:middle
-and I'm really excited because
+And I'm really excited because
 managing memory is my favorite
 
 00:15:21.666 --> 00:15:24.116 A:middle
@@ -1343,31 +1245,33 @@ thing to do when I program.
 00:15:24.976 --> 00:15:26.266 A:middle
 No, it's not.
 
-00:15:26.956 --> 00:15:29.226 A:middle
-Thankfully Swift is built
+00:15:26.956 --> 00:15:30.586 A:middle
+Thankfully Swift is built on
+automatic reference counting,
 
-00:15:29.226 --> 00:15:32.076 A:middle
-on automatic reference
-counting the same model we used
-
-00:15:32.076 --> 00:15:33.586 A:middle
+00:15:30.586 --> 00:15:33.586 A:middle
+the same model we used
 in Objective-C or ARC.
 
-00:15:35.216 --> 00:15:39.496 A:middle
-We don't make you use pointer
-syntax, we don't make you spell
+00:15:35.216 --> 00:15:38.786 A:middle
+We don't make you
+use pointer syntax;
 
-00:15:39.496 --> 00:15:42.426 A:middle
-out Alec, but still we need
-a clear class like this
+00:15:38.786 --> 00:15:40.076 A:middle
+we don't make you
+spell out Alec.
+
+00:15:40.116 --> 00:15:42.426 A:middle
+But still we need a
+clear class like this
 
 00:15:42.716 --> 00:15:47.166 A:middle
-and a constructed class you get
-a memory allocation implicitly
+and a constructed class, you get
+a memory allocation implicitly,
 
 00:15:47.316 --> 00:15:50.926 A:middle
 and a reference to that is what
-gets stored in a local variable
+gets stored in a local variable,
 
 00:15:50.926 --> 00:15:54.006 A:middle
 and it's these references
@@ -1375,15 +1279,7 @@ that keep that memory alive.
 
 00:15:55.426 --> 00:15:57.986 A:middle
 Now we can juggle a couple
-of these bowling pins here
-
-00:15:57.986 --> 00:16:01.306 A:middle
-and when the last reference
-to a class goes away,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+of these bowling pins here,
 
 00:15:57.986 --> 00:16:01.306 A:middle
 and when the last reference
@@ -1395,7 +1291,7 @@ automatically gets deallocated.
 
 00:16:06.386 --> 00:16:08.006 A:middle
 ARC is a horrible
-juggler but it's great
+juggler, but it's great
 
 00:16:08.006 --> 00:16:09.606 A:middle
 at reclaiming unused memory.
@@ -1404,24 +1300,31 @@ at reclaiming unused memory.
 When a reference
 goes out of scope,
 
-00:16:13.636 --> 00:16:15.706 A:middle
-it's automatically
-released but as long
+00:16:13.636 --> 00:16:14.946 A:middle
+it's automatically released.
 
-00:16:15.706 --> 00:16:18.206 A:middle
-as you have some reference to
-the object, it's kept alive
+00:16:15.386 --> 00:16:17.286 A:middle
+But as long as you have some
+reference to the object,
 
-00:16:19.296 --> 00:16:22.386 A:middle
-and only when the final
-reference is released is the
+00:16:17.286 --> 00:16:19.836 A:middle
+it's kept alive, and only
+
+00:16:19.836 --> 00:16:22.386 A:middle
+when the final reference
+is released is the
 
 00:16:22.386 --> 00:16:23.576 A:middle
 object deallocated.
 
-00:16:23.946 --> 00:16:27.586 A:middle
-It's safe, it's predictable,
-it just works.
+00:16:23.946 --> 00:16:24.456 A:middle
+It's safe.
+
+00:16:24.456 --> 00:16:25.756 A:middle
+It's predictable.
+
+00:16:26.236 --> 00:16:27.586 A:middle
+It just works.
 
 00:16:28.616 --> 00:16:31.036 A:middle
 Except for those cycles.
@@ -1435,7 +1338,7 @@ For instance, apartments
 literally aren't owned
 
 00:16:39.766 --> 00:16:42.206 A:middle
-by their tenants but
+by their tenants, but
 they also will have
 
 00:16:42.206 --> 00:16:43.666 A:middle
@@ -1465,24 +1368,16 @@ really an owning relationship.
 And there's a problem if
 we try to model it as such.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.696 --> 00:17:04.036 A:middle
-And there's a problem if
-we try to model it as such.
-
-00:17:04.566 --> 00:17:08.715 A:middle
+00:17:04.566 --> 00:17:08.716 A:middle
 Let's set up a dictionary
 of our renters
 
-00:17:08.715 --> 00:17:10.576 A:middle
-and our apartments
+00:17:08.716 --> 00:17:10.576 A:middle
+and our apartments -
 say we're a landlord.
 
-00:17:11.516 --> 00:17:14.675 A:middle
-Let's move one of tenants,
+00:17:11.516 --> 00:17:14.676 A:middle
+Let's move one of our tenants,
 Elsvette, into her apartment.
 
 00:17:15.486 --> 00:17:16.536 A:middle
@@ -1494,22 +1389,22 @@ out, she's trapped.
 
 00:17:21.336 --> 00:17:24.376 A:middle
 The reference to the apartment
-keeps her object alive
+keeps her object alive,
 
-00:17:24.376 --> 00:17:27.945 A:middle
-and even worse if we try to sell
-off the property we're stuck
+00:17:24.376 --> 00:17:26.216 A:middle
+and even worse, if we try
 
-00:17:27.945 --> 00:17:28.626 A:middle
-with the deed.
+00:17:26.216 --> 00:17:28.626 A:middle
+to sell off the property
+we're stuck with the deed.
 
 00:17:29.546 --> 00:17:33.476 A:middle
 Both objects keep each other
 alive in a reference cycle.
 
 00:17:35.296 --> 00:17:38.556 A:middle
-So like Objective-C,
-we have weak references
+So like Objective-C, we
+have weak references,
 
 00:17:38.966 --> 00:17:42.026 A:middle
 and these tell Swift that
@@ -1525,15 +1420,11 @@ example again, a weak reference
 
 00:17:49.736 --> 00:17:54.366 A:middle
 between these two
-objects Elsvette can move
+objects, Elsvette can move
 
 00:17:54.366 --> 00:17:59.566 A:middle
 out of her apartment and make a
 clean break with her landlord.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.146 --> 00:18:03.266 A:middle
 And the reference
@@ -1548,7 +1439,7 @@ Now of course, when we sell off
 the property, both objects end
 
 00:18:11.116 --> 00:18:12.786 A:middle
-up deallocated and
+up deallocated, and
 there's no leak.
 
 00:18:13.226 --> 00:18:19.296 A:middle
@@ -1561,26 +1452,23 @@ optional operations
 
 00:18:20.946 --> 00:18:23.036 A:middle
 that Brian just showed
-you to work with them
+you to work with them.
 
 00:18:23.036 --> 00:18:26.426 A:middle
-and when you take an
+And when you take an
 optional weak value
 
-00:18:26.516 --> 00:18:29.466 A:middle
+00:18:26.516 --> 00:18:30.076 A:middle
 and you bind the
-non-optional part
+nonoptional part out of it,
 
-00:18:29.466 --> 00:18:33.496 A:middle
-out of it you get a
-strong non-optional value
+00:18:30.206 --> 00:18:34.536 A:middle
+you get a strong nonoptional
+value, and you can safely work
 
-00:18:33.496 --> 00:18:35.186 A:middle
-and you can safely
-work with that just
-
-00:18:35.186 --> 00:18:36.426 A:middle
-like any other reference.
+00:18:34.536 --> 00:18:36.426 A:middle
+with that just like
+any other reference.
 
 00:18:37.516 --> 00:18:39.556 A:middle
 If you're applying a
@@ -1605,27 +1493,20 @@ of are that the test
 and unwrap pattern does not
 work very well with weak.
 
-00:18:54.386 --> 00:18:56.716 A:middle
-You could go to cash your
-tenant's rent check and find
+00:18:54.386 --> 00:18:56.086 A:middle
+You could go to cash
+your tenant's rent check,
 
-00:18:56.716 --> 00:18:59.636 A:middle
-out it bounced and evict
-them before you have a chance
+00:18:56.086 --> 00:18:57.306 A:middle
+and find out that it bounced,
 
-00:18:59.636 --> 00:19:00.956 A:middle
-to even greet them and end
+00:18:57.816 --> 00:19:00.226 A:middle
+and evict them before you have
+a chance to even greet them,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.636 --> 00:19:00.956 A:middle
-to even greet them and end
-
-00:19:00.956 --> 00:19:05.596 A:middle
-up with a runtime error
-you didn't expect.
+00:19:00.226 --> 00:19:05.596 A:middle
+and end up with a runtime
+error you didn't expect.
 
 00:19:05.716 --> 00:19:08.886 A:middle
 Chaining also doesn't preserve
@@ -1635,34 +1516,36 @@ a strong reference if you use it
 to try to apply multiple
 methods to the same object.
 
-00:19:12.296 --> 00:19:17.656 A:middle
-Here cashRentCheck could again
-cause the tenant to get released
+00:19:12.296 --> 00:19:16.186 A:middle
+Here cashRentCheck could
+again cause the tenant
 
-00:19:17.656 --> 00:19:22.026 A:middle
-and then we'd end up getting a
-nil object and then, in fact,
+00:19:16.186 --> 00:19:20.146 A:middle
+to get released, and then we'd
+end up greeting a nil object,
 
-00:19:22.096 --> 00:19:23.576 A:middle
-not calling greet at all.
+00:19:20.656 --> 00:19:23.576 A:middle
+and then, in fact, not
+calling greet at all.
 
 00:19:27.456 --> 00:19:29.746 A:middle
-Weak references are
-great for breaking cycles
+Weak references are great
+for breaking cycles,
 
 00:19:29.846 --> 00:19:31.696 A:middle
 but they aren't always ideal.
 
 00:19:32.266 --> 00:19:35.476 A:middle
 Let's say we're a
-modern landlord
+modern landlord,
 
 00:19:35.476 --> 00:19:37.546 A:middle
 and we accept credit card
 payments from our tenants.
 
 00:19:37.836 --> 00:19:40.136 A:middle
-A dream I know but bear with me.
+A dream, I know,
+but bear with me.
 
 00:19:40.866 --> 00:19:44.376 A:middle
 Now a credit card
@@ -1690,16 +1573,12 @@ if it isn't owned by a person.
 It shouldn't be an
 optional property.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:01.616 --> 00:20:04.686 A:middle
-There's obviously a cycle here
+There's obviously a cycle here,
 and we could break that cycle
 
 00:20:04.686 --> 00:20:07.096 A:middle
-with weak references
+with weak references,
 but that forces us
 
 00:20:07.096 --> 00:20:09.866 A:middle
@@ -1707,7 +1586,7 @@ into some unfortunate
 loosening of the model here.
 
 00:20:10.776 --> 00:20:13.196 A:middle
-First of all weak
+First of all, weak
 references have to be optional
 
 00:20:14.056 --> 00:20:17.136 A:middle
@@ -1715,15 +1594,15 @@ because they have to
 be resettable to nil.
 
 00:20:17.356 --> 00:20:19.706 A:middle
-Second of all they
+Second of all, they
 have to be mutable
 
 00:20:20.026 --> 00:20:23.406 A:middle
 because they could be
-reset to nil at any time
+reset to nil at any time.
 
 00:20:24.086 --> 00:20:26.866 A:middle
-and we don't really want this.
+And we don't really want this.
 
 00:20:27.636 --> 00:20:30.376 A:middle
 We could end up accidently
@@ -1739,13 +1618,12 @@ to deal with memory leaks.
 00:20:37.086 --> 00:20:38.366 A:middle
 That would suck.
 
-00:20:39.196 --> 00:20:40.676 A:middle
-So, instead, we have
-another kind
+00:20:39.196 --> 00:20:41.316 A:middle
+So, instead, we have another
+kind of weak reference,
 
-00:20:40.676 --> 00:20:42.366 A:middle
-of weak reference the
-unowned reference.
+00:20:41.316 --> 00:20:42.366 A:middle
+the unowned reference.
 
 00:20:42.846 --> 00:20:45.246 A:middle
 What this tells Swift is
@@ -1763,33 +1641,23 @@ owner, my card holder.
 
 00:20:58.776 --> 00:21:00.756 A:middle
 So we can go back to
-our renter's table,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.776 --> 00:21:00.756 A:middle
-So we can go back to
-our renter's table,
+our renter's table.
 
 00:21:01.216 --> 00:21:03.686 A:middle
-we can save our tenant's
-credit card information
+We can save our tenant's
+credit card information,
 
 00:21:03.686 --> 00:21:07.286 A:middle
 and you can see here that the
 credit card is uniquely owned
 
-00:21:07.556 --> 00:21:11.076 A:middle
-by the person record so that
+00:21:07.556 --> 00:21:13.536 A:middle
+by the person record, so that
+when her record is deallocated,
 
-00:21:11.076 --> 00:21:14.876 A:middle
-when her record is reallocated
-the entire object graph
-
-00:21:14.876 --> 00:21:15.806 A:middle
-gets allocated.
+00:21:13.626 --> 00:21:15.806 A:middle
+the entire object
+graph gets deallocated.
 
 00:21:16.116 --> 00:21:21.046 A:middle
 There's no need to observe
@@ -1815,7 +1683,7 @@ like strong references.
 
 00:21:32.636 --> 00:21:34.636 A:middle
 You can assign them
-into a local variable
+into a local variable,
 
 00:21:35.066 --> 00:21:36.876 A:middle
 or you can call methods
@@ -1823,10 +1691,10 @@ on them directly.
 
 00:21:37.686 --> 00:21:39.996 A:middle
 It's a bit like unsafe,
-unretained in C
+unretained in C,
 
 00:21:40.106 --> 00:21:42.476 A:middle
-or Objective-C but
+or Objective-C, but
 it's still safe.
 
 00:21:42.476 --> 00:21:45.616 A:middle
@@ -1841,24 +1709,17 @@ an unowned reference.
 So let's look at three kinds
 of references in Swift.
 
-00:21:53.386 --> 00:21:55.646 A:middle
-Strong references are
-the default and that's
+00:21:53.386 --> 00:21:54.976 A:middle
+Strong references
+are the default,
 
-00:21:55.646 --> 00:21:57.356 A:middle
-because they're what you
-should use most of the time.
+00:21:54.976 --> 00:21:57.356 A:middle
+and that's because they're what
+you should use most of the time.
 
 00:21:57.496 --> 00:21:59.416 A:middle
 Most of the time you
 have an ownership stake
-
-00:21:59.416 --> 00:22:03.686 A:middle
-in an object you want to use.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.416 --> 00:22:03.686 A:middle
 in an object you want to use.
@@ -1888,7 +1749,7 @@ ends up deallocated due
 
 00:22:18.296 --> 00:22:21.796 A:middle
 to maybe low memory, the rest
-of your program marches on
+of your program marches on,
 
 00:22:22.026 --> 00:22:23.666 A:middle
 and optionals are a
@@ -1912,7 +1773,7 @@ graph goes away,
 
 00:22:36.166 --> 00:22:37.996 A:middle
 the entire object
-graph goes away
+graph goes away,
 
 00:22:37.996 --> 00:22:39.976 A:middle
 and there's no need
@@ -1931,36 +1792,31 @@ and it lets you think
 about the relationships
 
 00:22:50.126 --> 00:22:53.096 A:middle
-between your objects rather
+between your objects, rather
 than the raw mechanics
 
 00:22:53.096 --> 00:22:55.086 A:middle
-of memory management
+of memory management,
 making strong,
 
 00:22:55.086 --> 00:22:58.846 A:middle
-weak and unknown references
-to model those relationships
+weak and unowned references
+to model those relationships,
 
 00:22:59.426 --> 00:23:02.076 A:middle
 and provides a nice, safe
 foundation for Swift.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.426 --> 00:23:02.076 A:middle
-and provides a nice, safe
-foundation for Swift.
-
-00:23:02.076 --> 00:23:05.406 A:middle
+00:23:02.076 --> 00:23:05.186 A:middle
 To talk a little bit more
-about that foundation I'm going
+about that foundation,
 
-00:23:05.406 --> 00:23:08.046 A:middle
-to bring it back to Brian to
-talk about initialization.
+00:23:05.186 --> 00:23:06.566 A:middle
+I'm going to bring
+it back to Brian
+
+00:23:06.796 --> 00:23:08.046 A:middle
+to talk about initialization.
 
 00:23:09.516 --> 00:23:11.556 A:middle
 [ Applause ]
@@ -1973,25 +1829,25 @@ thank you, Joe.
 So I want to talk to you
 about initialization in Swift.
 
-00:23:17.426 --> 00:23:22.776 A:middle
-Initialization in Swift follows
-one very simple rule and that's
+00:23:17.426 --> 00:23:21.446 A:middle
+Initialization in Swift
+follows one very simple rule,
 
-00:23:22.806 --> 00:23:25.726 A:middle
-that every value must be
-initialized before it's used.
+00:23:21.486 --> 00:23:25.726 A:middle
+and that's that every value must
+be initialized before it's used.
 
 00:23:27.066 --> 00:23:29.996 A:middle
 This one simple rule is
-enforced by the compiler
+enforced by the compiler,
 
 00:23:29.996 --> 00:23:32.956 A:middle
 and it ensures memory
 safety in your code.
 
 00:23:34.356 --> 00:23:37.666 A:middle
-It ensures that you never
-read from uninitialized memory
+It ensures that you never read
+from uninitialized memory,
 
 00:23:38.066 --> 00:23:38.626 A:middle
 and it, therefore,
@@ -2022,15 +1878,7 @@ for everything.
 
 00:23:59.056 --> 00:24:02.296 A:middle
 The only exception to this is
-optionals where we saw earlier
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.056 --> 00:24:02.296 A:middle
-The only exception to this is
-optionals where we saw earlier
+optionals, where we saw earlier
 
 00:24:02.296 --> 00:24:05.296 A:middle
 that optionals have a very
@@ -2102,27 +1950,22 @@ clause to do just that.
 
 00:24:56.676 --> 00:24:59.206 A:middle
 Now when we read for message
-to print it out we can be sure
+to print it out, we can be sure
 
-00:24:59.206 --> 00:25:02.396 A:middle
+00:24:59.206 --> 00:25:00.686 A:middle
 that it has an explicit value
-for every single condition
 
+00:25:00.976 --> 00:25:03.126 A:middle
+for every single
+condition in our code.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:25:03.126 --> 00:25:07.726 A:middle
+But now as I'm sure you're all
+aware, it's quite easy to forget
 
-00:24:59.206 --> 00:25:02.396 A:middle
-that it has an explicit value
-for every single condition
-
-00:25:02.616 --> 00:25:07.346 A:middle
-in our code, but now as I'm sure
-you're all aware it's quite easy
-
-00:25:07.346 --> 00:25:09.896 A:middle
-to forget to check all of
-the conditions in your code.
+00:25:07.726 --> 00:25:09.896 A:middle
+to check all of the
+conditions in your code.
 
 00:25:10.546 --> 00:25:15.206 A:middle
 So rather than surprising you
@@ -2163,7 +2006,7 @@ own classes like, classes
 or structures, your own types.
 
 00:25:41.916 --> 00:25:45.786 A:middle
-So, inside of the structure are
+So, inside of the structure our
 class declaration initializers
 
 00:25:45.786 --> 00:25:47.116 A:middle
@@ -2183,26 +2026,18 @@ initializers in some
 
 00:25:56.876 --> 00:25:59.406 A:middle
 of Joe's examples and memory
-management just a while ago
+management just a while ago,
 
-00:25:59.406 --> 00:26:02.106 A:middle
+00:25:59.406 --> 00:26:01.306 A:middle
 and they're declared
-using the key word in it
+using the key word init,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.406 --> 00:26:02.106 A:middle
-and they're declared
-using the key word in it
-
-00:26:03.166 --> 00:26:05.896 A:middle
+00:26:02.006 --> 00:26:05.896 A:middle
 and they're invoked
-at object creation
+at object creation,
 
 00:26:06.096 --> 00:26:11.736 A:middle
-or instance creation here
+or instance creation here,
 using this initializer syntax.
 
 00:26:11.736 --> 00:26:14.466 A:middle
@@ -2210,8 +2045,8 @@ Now initializers can have any
 number of labeled arguments
 
 00:26:14.466 --> 00:26:18.756 A:middle
-or parameters and when
-they do you need to call,
+or parameters, and when
+they do, you need to call,
 
 00:26:18.756 --> 00:26:21.236 A:middle
 you need to call it using
@@ -2234,42 +2069,38 @@ Let's define a simple
 color structure
 
 00:26:33.156 --> 00:26:35.986 A:middle
-that has three properties,
-red, green and blue
+that has three properties
+- red, green and blue
 
-00:26:35.986 --> 00:26:38.806 A:middle
-to represent the color
-components and we'll deal
+00:26:35.986 --> 00:26:37.596 A:middle
+to represent the
+color components -
 
-00:26:38.806 --> 00:26:42.626 A:middle
-with alpha later, now let's say
-that we want to create colors
+00:26:37.906 --> 00:26:39.666 A:middle
+and we'll deal with alpha later.
+
+00:26:40.436 --> 00:26:42.626 A:middle
+Now let's say that we
+want to create colors
 
 00:26:42.626 --> 00:26:43.736 A:middle
 in different shades of gray.
 
-00:26:44.696 --> 00:26:47.936 A:middle
-Well to do so we can define a
-single initializer here a very
+00:26:44.696 --> 00:26:47.716 A:middle
+Well to do so we can define
+a single initializer here,
 
-00:26:47.936 --> 00:26:50.016 A:middle
-simple one that simply has,
+00:26:47.716 --> 00:26:50.016 A:middle
+a very simple one,
+that simply has,
 
 00:26:50.486 --> 00:26:55.336 A:middle
-takes a single gray scale
+takes a single grayScale
 double value and sets all
 
 00:26:55.336 --> 00:26:58.576 A:middle
 of the stored properties of the
 structure to that same value.
-
-00:26:58.776 --> 00:27:01.846 A:middle
-Now, if we had forgotten to set
-the red property, for example,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.776 --> 00:27:01.846 A:middle
 Now, if we had forgotten to set
@@ -2349,14 +2180,6 @@ you don't define any
 of your own initializers,
 Swift provides you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:57.726 --> 00:28:00.526 A:middle
-of your own initializers,
-Swift provides you
-
 00:28:00.526 --> 00:28:03.656 A:middle
 with a memberwise
 initializer automatically.
@@ -2377,7 +2200,7 @@ You can also provide default
 values in line directly
 
 00:28:17.156 --> 00:28:19.526 A:middle
-for your stored properties
+for your stored properties,
 and when you've set all
 
 00:28:19.526 --> 00:28:21.986 A:middle
@@ -2435,14 +2258,6 @@ Now, in practice, classes
 and often subclass
 inherit from other classes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.056 --> 00:29:01.336 A:middle
-and often subclass
-inherit from other classes.
-
 00:29:01.636 --> 00:29:04.316 A:middle
 So we need to deal with
 how initialization works
@@ -2452,7 +2267,7 @@ with subclasses as well.
 
 00:29:07.036 --> 00:29:09.506 A:middle
 So let's define a
-subclass called RaceCar
+subclass called RaceCar,
 
 00:29:09.546 --> 00:29:12.516 A:middle
 and it has one extra property
@@ -2463,23 +2278,24 @@ When the RaceCar's
 initializer is called,
 
 00:29:16.206 --> 00:29:18.146 A:middle
-it first sets its own properties
+it first sets its
+own properties,
 
 00:29:19.046 --> 00:29:21.606 A:middle
 and then it called the
-super class initializer.
+SuperClass initializer.
 
 00:29:22.206 --> 00:29:26.326 A:middle
-And the super class
+And the SuperClass
 initializer, of course,
 
 00:29:26.326 --> 00:29:28.946 A:middle
 sets its own properties to
-an appropriate value as well
+an appropriate value as well.
 
 00:29:29.866 --> 00:29:32.686 A:middle
-and only after the super class
-and all the super classes
+And only after the SuperClass
+and all the SuperClasses
 
 00:29:32.686 --> 00:29:35.746 A:middle
 in the class hierarchy
@@ -2501,12 +2317,12 @@ you probably noticed that
 this is opposite or different
 
 00:29:47.346 --> 00:29:50.156 A:middle
-than what you've noticed than
-what you do in Objective-C
+than what you've noticed, than
+what you do in Objective-C,
 
 00:29:50.376 --> 00:29:53.746 A:middle
 where you always call
-your super class first
+your SuperClass first
 
 00:29:53.746 --> 00:29:55.366 A:middle
 and then you set
@@ -2516,17 +2332,9 @@ your own properties.
 So in Swift if we
 were to do this,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.806 --> 00:30:00.776 A:middle
-So in Swift if we
-were to do this,
-
 00:30:00.776 --> 00:30:02.936 A:middle
-if we were to call our super
-class initializer first
+if we were to call our
+SuperClass initializer first
 
 00:30:03.206 --> 00:30:04.586 A:middle
 and then set our own properties,
@@ -2537,15 +2345,15 @@ get a compiler error
 
 00:30:07.346 --> 00:30:10.236 A:middle
 because it's not always
-safe to do so in this order
+safe to do so in this order.
 
 00:30:11.086 --> 00:30:13.846 A:middle
-and the reason Swift's
+And the reason Swift's
 initialization follows this
 
 00:30:13.846 --> 00:30:18.236 A:middle
 order is that it ensures memory
-safety so that you don't try
+safety, so that you don't try
 
 00:30:18.356 --> 00:30:20.556 A:middle
 to access memory before it's
@@ -2555,13 +2363,16 @@ been completely initialized.
 Now it may not be obvious where
 you might run into problems
 
-00:30:24.096 --> 00:30:26.756 A:middle
-by doing things in this order so
-let's take a look at an example
+00:30:24.096 --> 00:30:26.256 A:middle
+by doing things in this
+order, so let's take a look
 
-00:30:26.756 --> 00:30:29.846 A:middle
-where calling your super class
-initializer first is unsafe.
+00:30:26.256 --> 00:30:29.176 A:middle
+at an example where calling your
+SuperClass initializer first
+
+00:30:29.176 --> 00:30:29.846 A:middle
+is unsafe.
 
 00:30:31.446 --> 00:30:33.886 A:middle
 Let's say, for example, that
@@ -2569,7 +2380,7 @@ we want to define a function
 
 00:30:33.976 --> 00:30:37.146 A:middle
 or method on our car class
-that fills up the gas tank
+that fills up the gas tank,
 
 00:30:37.146 --> 00:30:39.766 A:middle
 and we want to call that
@@ -2579,12 +2390,15 @@ function inside the initializer
 so that every time we
 get a new car it comes
 
-00:30:41.836 --> 00:30:45.296 A:middle
-with a full gas tank and because
-race cars use a different kind
+00:30:41.836 --> 00:30:42.736 A:middle
+with a full gas tank.
 
-00:30:45.296 --> 00:30:46.566 A:middle
-of gas than regular cars,
+00:30:43.516 --> 00:30:45.696 A:middle
+And because race cars use
+a different kind of gas
+
+00:30:45.726 --> 00:30:46.566 A:middle
+than regular cars,
 
 00:30:46.946 --> 00:30:49.256 A:middle
 we've overridden this
@@ -2592,50 +2406,42 @@ method in our subclass.
 
 00:30:50.396 --> 00:30:52.886 A:middle
 So, when we create
-a new race car
+a new race car,
 
 00:30:53.536 --> 00:30:55.066 A:middle
 and its initializer is called,
 
 00:30:55.806 --> 00:30:57.896 A:middle
-it's first called
-super class initializer
+it first called its
+SuperClass initializer,
 
 00:30:58.756 --> 00:31:00.756 A:middle
 which then sets its
-paint color properties
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.756 --> 00:31:00.756 A:middle
-which then sets its
-paint color properties
+paint color properties,
 
 00:31:01.306 --> 00:31:03.476 A:middle
 and finally calls its
-fillGasTank method,
+fillGasTank method.
 
-00:31:04.356 --> 00:31:07.306 A:middle
-but because we've overridden
-our subclass it gets dynamically
+00:31:04.356 --> 00:31:06.406 A:middle
+But because we've
+overridden it in our subclass,
 
-00:31:07.306 --> 00:31:11.806 A:middle
-dispatched to the subclass's
-version of that same method
+00:31:06.406 --> 00:31:10.146 A:middle
+it gets dynamically dispatched
+to the subclass's version
 
-00:31:12.516 --> 00:31:13.876 A:middle
-and that's where
-we have a problem.
+00:31:10.636 --> 00:31:13.876 A:middle
+of that same method, and
+that's where we have a problem.
 
 00:31:15.366 --> 00:31:17.306 A:middle
 And our problem is that
 we haven't got a chance
 
 00:31:17.306 --> 00:31:20.356 A:middle
-in our own initializer
-to set our own properties
+in our own initializer to
+set our own properties,
 
 00:31:20.586 --> 00:31:22.886 A:middle
 and so we're trying to
@@ -2645,17 +2451,20 @@ call a method on self.
 We're trying to access this
 object or this instance
 
-00:31:25.746 --> 00:31:28.486 A:middle
-that hasn't been fully
-initialized and that's not safe.
+00:31:25.746 --> 00:31:27.336 A:middle
+that hasn't been
+fully initialized,
+
+00:31:27.646 --> 00:31:28.486 A:middle
+and that's not safe.
 
 00:31:29.926 --> 00:31:34.286 A:middle
 So in Swift, we always make sure
 we set our own properties before
 
 00:31:34.286 --> 00:31:36.446 A:middle
-we call our super
-class's initializer
+we call our SuperClass's
+initializer
 
 00:31:36.946 --> 00:31:38.156 A:middle
 to have a chance to do the same.
@@ -2674,31 +2483,27 @@ you can in Objective-C.
 
 00:31:48.036 --> 00:31:52.356 A:middle
 In fact, you can have designated
-initializers what we've seen
+initializers - what we've seen
 
-00:31:52.356 --> 00:31:55.846 A:middle
-so far designated initializers
+00:31:52.356 --> 00:31:54.666 A:middle
+so far - designated
+initializers,
+
+00:31:54.986 --> 00:31:57.026 A:middle
 which you may be familiar
+with coming from Objective-C,
 
-00:31:55.846 --> 00:31:58.986 A:middle
-with coming from Objective-C
+00:31:57.606 --> 00:32:00.156 A:middle
 have the sole responsibility
+of creating an object
 
-00:31:58.986 --> 00:32:01.436 A:middle
-of creating an object and
-setting all of its properties
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.986 --> 00:32:01.436 A:middle
-of creating an object and
-setting all of its properties
+00:32:00.156 --> 00:32:01.436 A:middle
+and setting all of
+its properties.
 
 00:32:01.926 --> 00:32:04.926 A:middle
-and it has a job of calling
-the super class's initializer
+And it has a job of calling
+the SuperClass's initializer
 
 00:32:05.196 --> 00:32:06.386 A:middle
 and delegating up.
@@ -2707,15 +2512,16 @@ and delegating up.
 Like you can think of
 them as funnel points
 
-00:32:08.176 --> 00:32:10.946 A:middle
+00:32:08.176 --> 00:32:10.426 A:middle
 that funnel the initialization
-process all the way to the class
+process all the way
 
-00:32:11.496 --> 00:32:12.906 A:middle
-to the base class and hierarchy,
+00:32:10.426 --> 00:32:12.906 A:middle
+to the class, to the
+BaseClass and hierarchy.
 
 00:32:13.116 --> 00:32:15.456 A:middle
-but you can also have
+But you can also have
 convenience initializers.
 
 00:32:15.776 --> 00:32:18.966 A:middle
@@ -2727,8 +2533,8 @@ that provide an alternative
 implementation initialization
 
 00:32:24.316 --> 00:32:28.676 A:middle
-interface that allows you
-to say pass default values
+interface that allows you to
+say, pass certain default values
 
 00:32:28.916 --> 00:32:30.556 A:middle
 and make it easier for
@@ -2750,10 +2556,10 @@ initializers in the same class
 
 00:32:40.956 --> 00:32:42.656 A:middle
 or other convenience
-initializers
+initializers,
 
 00:32:43.046 --> 00:32:45.086 A:middle
-but ultimately these
+but ultimately those
 convenience initializers need
 
 00:32:45.086 --> 00:32:47.716 A:middle
@@ -2761,7 +2567,7 @@ to call a designated to
 actually do the heavy lifting
 
 00:32:47.716 --> 00:32:48.786 A:middle
-of setting the properties.
+of setting up properties.
 
 00:32:49.816 --> 00:32:52.176 A:middle
 So let's see how you might
@@ -2770,32 +2576,24 @@ write a convenience initializer
 00:32:52.406 --> 00:32:53.176 A:middle
 in your own code.
 
-00:32:53.726 --> 00:32:55.776 A:middle
-Say we have RaceCar
-again and we want
+00:32:53.726 --> 00:32:55.006 A:middle
+Say we have RaceCar again,
 
-00:32:55.776 --> 00:32:57.206 A:middle
-to create a convenience
-initializer
+00:32:55.086 --> 00:32:57.206 A:middle
+and we want to create a
+convenience initializer
 
 00:32:57.206 --> 00:32:59.376 A:middle
 that lets it just
-pass in a color
+pass in a color,
 
-00:32:59.376 --> 00:33:03.006 A:middle
+00:32:59.376 --> 00:33:01.876 A:middle
 and it sets the turbo
-property to true and it does
+property to true,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.376 --> 00:33:03.006 A:middle
-and it sets the turbo
-property to true and it does
-
-00:33:03.006 --> 00:33:04.446 A:middle
-so by delegating this task
+00:33:01.876 --> 00:33:04.446 A:middle
+and it does so by
+delegating this task
 
 00:33:05.116 --> 00:33:07.356 A:middle
 to the designated
@@ -2815,14 +2613,14 @@ Swift compiler know
 
 00:33:14.746 --> 00:33:16.676 A:middle
 by including the
-convenience key word
+convenience keyword
 
 00:33:16.946 --> 00:33:18.116 A:middle
 in front of the declaration.
 
 00:33:19.236 --> 00:33:22.146 A:middle
 We can even provide more than
-one convenience initializer
+one convenience initializer,
 
 00:33:22.706 --> 00:33:25.826 A:middle
 so we can even provide a
@@ -2832,32 +2630,37 @@ convenience initializer
 that lets us create a RaceCar
 providing no parameters at all
 
-00:33:28.866 --> 00:33:32.976 A:middle
-and then delegates this task
-here providing a default gray
+00:33:28.866 --> 00:33:30.096 A:middle
+and then delegates this task,
 
-00:33:32.976 --> 00:33:36.556 A:middle
-value and it calls the other
+00:33:31.156 --> 00:33:33.396 A:middle
+here providing a
+default gray value,
+
+00:33:33.396 --> 00:33:36.556 A:middle
+and it calls the other
 convenience initializer we've
 
-00:33:36.556 --> 00:33:38.766 A:middle
-just declared and that
-in turn, of course,
+00:33:36.556 --> 00:33:37.176 A:middle
+just declared.
+
+00:33:37.176 --> 00:33:38.766 A:middle
+And that in turn, of course,
 
 00:33:39.066 --> 00:33:40.796 A:middle
 has to call the designated
 initializer
 
-00:33:40.796 --> 00:33:43.806 A:middle
-to actually set the values and
-because we have a super class
+00:33:40.796 --> 00:33:42.086 A:middle
+to actually set the values.
 
-00:33:43.806 --> 00:33:45.776 A:middle
-to deal with here,
+00:33:42.536 --> 00:33:44.496 A:middle
+And because we have a
+SuperClass to deal with here,
+
+00:33:44.866 --> 00:33:46.556 A:middle
 that initializer needs
-
-00:33:45.776 --> 00:33:46.556 A:middle
-to call its super class.
+to call it SuperClass.
 
 00:33:47.866 --> 00:33:50.406 A:middle
 And how are initializers
@@ -2873,15 +2676,7 @@ isn't always safe.
 
 00:33:57.526 --> 00:34:00.966 A:middle
 However, when your class
-provides no initializers at all
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.526 --> 00:34:00.966 A:middle
-However, when your class
-provides no initializers at all
+provides no initializers at all,
 
 00:34:01.476 --> 00:34:04.386 A:middle
 and you set default values for
@@ -2889,17 +2684,17 @@ all of its stored properties
 
 00:34:04.386 --> 00:34:06.336 A:middle
 as we've done here with
-the FormulaOne RaceCar
+the FormulaOne RaceCar,
 
 00:34:06.336 --> 00:34:08.266 A:middle
 where we've set a
 single stored property
 
-00:34:08.266 --> 00:34:11.045 A:middle
+00:34:08.266 --> 00:34:11.046 A:middle
 to a minimum regulation
-weight and since we know
+weight, and since we know
 
-00:34:11.045 --> 00:34:12.476 A:middle
+00:34:11.046 --> 00:34:12.476 A:middle
 that weight we can
 set it directly.
 
@@ -2907,30 +2702,30 @@ set it directly.
 Now when we do this, we actually
 inherit automatically all
 
-00:34:16.606 --> 00:34:18.025 A:middle
+00:34:16.606 --> 00:34:18.026 A:middle
 of the initializers
-of the super class
+of the SuperClass.
 
-00:34:18.025 --> 00:34:19.996 A:middle
-that includes designated
+00:34:18.026 --> 00:34:19.996 A:middle
+That includes designated
 initializers
 
 00:34:20.266 --> 00:34:22.136 A:middle
 and the convenience initializers
 that we've declared.
 
-00:34:22.896 --> 00:34:24.815 A:middle
+00:34:22.896 --> 00:34:24.816 A:middle
 Now, if we did this in
 this particular case,
 
-00:34:24.815 --> 00:34:26.835 A:middle
+00:34:24.816 --> 00:34:26.836 A:middle
 we'd have a problem because one
 
-00:34:26.835 --> 00:34:29.735 A:middle
+00:34:26.836 --> 00:34:29.736 A:middle
 of the convenience initializers
 we've inherited sets the wrong
 
-00:34:29.735 --> 00:34:30.656 A:middle
+00:34:29.736 --> 00:34:30.656 A:middle
 value for turbo.
 
 00:34:31.226 --> 00:34:34.056 A:middle
@@ -2938,7 +2733,7 @@ Formula One race cars aren't
 allowed to have a turbo
 
 00:34:34.226 --> 00:34:36.266 A:middle
-by regulation and so this
+by regulation, and so this
 wouldn't be appropriate
 
 00:34:36.266 --> 00:34:36.896 A:middle
@@ -2946,54 +2741,55 @@ in this case.
 
 00:34:37.516 --> 00:34:39.826 A:middle
 So instead we'll define
-our own initializer here
+our own initializer here,
 
 00:34:39.906 --> 00:34:41.916 A:middle
 and now it's a designated
 initializer
 
-00:34:41.916 --> 00:34:44.966 A:middle
-because it calls super and
-passes that turbo value of false
+00:34:41.916 --> 00:34:43.436 A:middle
+because it calls
+super and passes
 
-00:34:46.206 --> 00:34:47.886 A:middle
-and because we've done
-this we've provided our own
+00:34:43.436 --> 00:34:44.966 A:middle
+that turbo value of false.
 
-00:34:47.886 --> 00:34:51.436 A:middle
-initializer, we actually don't
-inherit those other convenience
+00:34:46.206 --> 00:34:47.096 A:middle
+And because we've done this,
 
-00:34:51.436 --> 00:34:53.666 A:middle
-initializers or the other
-designated initializer.
+00:34:47.096 --> 00:34:48.576 A:middle
+we've provided our
+own initializer,
+
+00:34:49.016 --> 00:34:52.076 A:middle
+we actually don't inherit those
+other convenience initializers
+
+00:34:52.196 --> 00:34:53.666 A:middle
+or the other designated
+initializer.
 
 00:34:54.786 --> 00:34:58.846 A:middle
 So that's how you would use
-initializers to set properties
+initializers to set properties,
 
 00:34:58.846 --> 00:35:01.396 A:middle
 and how you can set
-properties in line directly,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:34:58.846 --> 00:35:01.396 A:middle
-and how you can set
-properties in line directly,
+properties in line directly.
 
 00:35:02.196 --> 00:35:04.336 A:middle
-but I haven't told you about a
-pattern and you may be familiar
+But I haven't told you about a
+pattern, and you may be familiar
 
-00:35:04.336 --> 00:35:07.886 A:middle
-with from Objective-C sometimes
-called lazy instantiation
+00:35:04.336 --> 00:35:05.286 A:middle
+with it from Objective-C,
+
+00:35:05.946 --> 00:35:07.886 A:middle
+sometimes called
+lazy instantiation
 
 00:35:07.886 --> 00:35:12.056 A:middle
-or lazy initialization where
+or lazy initialization, where
 you want to delay the evaluation
 
 00:35:12.296 --> 00:35:16.156 A:middle
@@ -3005,32 +2801,34 @@ maybe doing so is
 computationally expensive.
 
 00:35:19.706 --> 00:35:23.616 A:middle
-So we have the same concept
-in Swift using lazy properties
+So we have the same concept in
+Swift using lazy properties.
 
 00:35:24.296 --> 00:35:27.336 A:middle
-and let's take a
+And let's take a
 look at an example
 
 00:35:27.336 --> 00:35:29.466 A:middle
 of where you might use one,
 where it might be appropriate.
 
-00:35:29.466 --> 00:35:32.276 A:middle
-Say we have a game class and
-the game can either be a single
+00:35:29.466 --> 00:35:30.506 A:middle
+Say we have a game class,
 
-00:35:32.276 --> 00:35:33.896 A:middle
-player game or a
-multi-player game.
+00:35:31.016 --> 00:35:32.806 A:middle
+and the game can either
+be a single player game
+
+00:35:32.806 --> 00:35:33.896 A:middle
+or a multiplayer game.
 
 00:35:34.606 --> 00:35:38.636 A:middle
-Now, the multiplayerManager
+Now, the multiplayerManager,
 let's just suppose
 
 00:35:38.966 --> 00:35:41.326 A:middle
 that it does a bunch of
-expensive computation
+expensive computation,
 
 00:35:41.646 --> 00:35:43.206 A:middle
 and so we don't want
@@ -3055,40 +2853,34 @@ until it's appropriate.
 So we can do this in Swift by
 including the @lazy attribute
 
-00:35:59.356 --> 00:36:00.786 A:middle
-in front of the declaration here
+00:35:59.356 --> 00:36:02.466 A:middle
+in front of the declaration
+here, and when we do this,
 
+00:36:02.466 --> 00:36:06.156 A:middle
+it will only be evaluated the
+time it's accessed and only
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.356 --> 00:36:00.786 A:middle
-in front of the declaration here
-
-00:36:01.376 --> 00:36:05.086 A:middle
-and when we do this it will
-only be evaluated the time it's
-
-00:36:05.086 --> 00:36:08.086 A:middle
-accessed and only when it's
-accessed and only that one time.
+00:36:06.156 --> 00:36:08.086 A:middle
+when it's accessed and
+only that one time.
 
 00:36:08.636 --> 00:36:10.226 A:middle
 Now just as we have
 initialization
 
 00:36:10.226 --> 00:36:10.966 A:middle
-in Swift, we also have --
+in Swift, we also have -
 
 00:36:11.516 --> 00:36:16.716 A:middle
 [ Applause ]
 
-00:36:17.216 --> 00:36:18.476 A:middle
+00:36:17.216 --> 00:36:18.776 A:middle
 Just as we have initialization
+in Swift,
 
-00:36:18.476 --> 00:36:20.116 A:middle
-in Swift we have
-deinitialization.
+00:36:18.776 --> 00:36:20.116 A:middle
+we have deinitialization.
 
 00:36:20.116 --> 00:36:22.426 A:middle
 Deinitialization is responsible
@@ -3099,12 +2891,12 @@ Now as Joe has already
 told you, memory management
 
 00:36:25.916 --> 00:36:28.846 A:middle
-in Swift is automatic so most
+in Swift is automatic, so most
 of the time you don't even need
 
 00:36:28.906 --> 00:36:31.196 A:middle
 to think about the
-initialization it just works,
+initialization - it just works,
 
 00:36:31.196 --> 00:36:32.226 A:middle
 it just happens for you.
@@ -3126,11 +2918,11 @@ we want to have a chance to
 close that file and clean
 
 00:36:45.236 --> 00:36:46.836 A:middle
-up those non-memory resources.
+up those nonmemory resources.
 
 00:36:47.296 --> 00:36:50.566 A:middle
 So for that we use
-a deinitializer
+a deinitializer,
 
 00:36:50.926 --> 00:36:53.756 A:middle
 and deinitializers are just
@@ -3144,31 +2936,26 @@ So, for example, here we have
 a class that when we open
 
 00:36:56.876 --> 00:36:59.706 A:middle
-up a file if this class gets
+up a file, if this class gets
 deallocated before we have a
 
-00:36:59.706 --> 00:37:03.816 A:middle
-chance to close the file,
-that's not good so think of this
+00:36:59.706 --> 00:37:02.636 A:middle
+chance to close the
+file, that's not good.
 
+00:37:02.636 --> 00:37:06.176 A:middle
+So think of this as the last
+resort, the last chance you have
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:37:06.176 --> 00:37:08.886 A:middle
+to clean up nonmemory
+resources before your object
 
-00:36:59.706 --> 00:37:03.816 A:middle
-chance to close the file,
-that's not good so think of this
-
-00:37:03.816 --> 00:37:06.496 A:middle
-as the last resort, the last
-chance you have to clean
-
-00:37:06.496 --> 00:37:10.176 A:middle
-up non-memory resources before
-your object is deallocated.
+00:37:09.226 --> 00:37:10.176 A:middle
+is deallocated.
 
 00:37:11.106 --> 00:37:13.016 A:middle
-Again most of the time you
+Again, most of the time you
 probably won't need them.
 
 00:37:13.656 --> 00:37:15.076 A:middle
@@ -3180,22 +2967,22 @@ It's safe.
 
 00:37:16.696 --> 00:37:19.386 A:middle
 You initialize all of your
-values before you use them
+values before you use them,
 
-00:37:19.386 --> 00:37:22.216 A:middle
-and set your stored
-property values first
+00:37:20.186 --> 00:37:22.216 A:middle
+set your stored property
+values first
 
-00:37:22.806 --> 00:37:25.086 A:middle
-and then call your super
-class initializer always
+00:37:22.806 --> 00:37:24.746 A:middle
+and then call your
+SuperClass initializer,
 
-00:37:25.086 --> 00:37:25.626 A:middle
-in that order.
+00:37:24.806 --> 00:37:25.626 A:middle
+always in that order.
 
 00:37:26.416 --> 00:37:28.536 A:middle
 Designated initializers
-only delegate up
+only delegate up,
 
 00:37:28.976 --> 00:37:31.896 A:middle
 and convenience initializers
@@ -3223,19 +3010,11 @@ about closures in Swift.
 
 00:37:51.326 --> 00:37:54.366 A:middle
 &gt;&gt; Now, there are a lot
-of ways to sort an array
+of ways to sort an array,
 
 00:37:54.366 --> 00:37:57.686 A:middle
 and we could keep our standard
 library writers busy writing a
-
-00:37:57.686 --> 00:38:01.356 A:middle
-million different sort methods
-on array, but we'd rather not.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:57.686 --> 00:38:01.356 A:middle
 million different sort methods
@@ -3265,21 +3044,21 @@ it takes two arguments
 
 00:38:18.696 --> 00:38:20.666 A:middle
 of the element type of the
-array, in this case String,
+array, in this case String.
 
 00:38:20.666 --> 00:38:23.396 A:middle
-and in terms of Boolean telling
+And in terms of Boolean, telling
 us whether the elements are
 
 00:38:23.396 --> 00:38:24.546 A:middle
 sorted in the right order.
 
 00:38:25.606 --> 00:38:26.886 A:middle
-Default with the in key word,
+Default with the in keyword -
 
 00:38:26.886 --> 00:38:30.466 A:middle
 you're binding these arguments
-inside the body of the closure
+inside the body of the closure -
 
 00:38:30.926 --> 00:38:34.786 A:middle
 and then you follow it with
@@ -3293,11 +3072,11 @@ method that can sort an array
 in a number of different ways.
 
 00:38:42.366 --> 00:38:45.976 A:middle
-We can sort A to Z ascending
+We can sort A to Z ascending,
 using the lesson operator.
 
 00:38:46.736 --> 00:38:49.776 A:middle
-We can sort descending using
+We can sort descending, using
 the greater than operator.
 
 00:38:50.336 --> 00:38:54.916 A:middle
@@ -3311,23 +3090,15 @@ characters in each string.
 00:38:57.566 --> 00:39:00.656 A:middle
 Now this is a great interface.
 
+00:39:01.076 --> 00:39:02.636 A:middle
+It's also a lot of typing.
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:57.566 --> 00:39:00.656 A:middle
-Now this is a great interface.
-
-00:39:01.076 --> 00:39:04.866 A:middle
-It's also a lot of
-typing and closures
-
-00:39:04.866 --> 00:39:07.286 A:middle
-in this form are a little
-awkward to work with
+00:39:03.986 --> 00:39:07.286 A:middle
+And closures in this form are
+a little awkward to work with.
 
 00:39:07.796 --> 00:39:11.776 A:middle
-and the actual interesting
+And the actual interesting
 part gets lost
 
 00:39:11.776 --> 00:39:13.486 A:middle
@@ -3355,7 +3126,7 @@ and returns a Bool.
 
 00:39:28.056 --> 00:39:32.336 A:middle
 Let's look at the
-call side again
+call side again,
 
 00:39:32.336 --> 00:39:36.026 A:middle
 and that's really offensive,
@@ -3379,7 +3150,7 @@ from the signature
 of the function.
 
 00:39:49.966 --> 00:39:53.746 A:middle
-That's a great improvement
+That's a great improvement,
 but we don't stop there.
 
 00:39:54.176 --> 00:39:56.496 A:middle
@@ -3389,14 +3160,6 @@ a single return statement
 00:39:56.496 --> 00:39:59.336 A:middle
 like this, we don't
 need to specify return.
-
-00:39:59.746 --> 00:40:03.766 A:middle
-A single expression closure
-implicitly returns its results.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:59.746 --> 00:40:03.766 A:middle
 A single expression closure
@@ -3417,15 +3180,15 @@ to look a little heavy.
 
 00:40:14.466 --> 00:40:15.656 A:middle
 Let's get rid of
-that too [laughter].
+that, too [laughter].
 
 00:40:17.306 --> 00:40:21.836 A:middle
 There are implicit argument
-names, $0, $1, $ a million,
+names - $0, $1, $ a million.
 
 00:40:22.136 --> 00:40:24.416 A:middle
-they may need a little taste
-in some cases but they're there
+They may need a little taste in
+some cases, but they're there
 
 00:40:24.416 --> 00:40:26.846 A:middle
 if you need them and they
@@ -3442,12 +3205,15 @@ trailing closure syntax.
 When you have a single
 argument like this,
 
-00:40:35.216 --> 00:40:37.966 A:middle
-you can move it outside and when
-it's the only argument you can
+00:40:35.216 --> 00:40:36.326 A:middle
+you can move it outside,
 
-00:40:37.966 --> 00:40:39.356 A:middle
-drop the parens all together.
+00:40:36.376 --> 00:40:38.266 A:middle
+and when it's the only
+argument you can drop the
+
+00:40:38.266 --> 00:40:39.356 A:middle
+parens altogether.
 
 00:40:40.426 --> 00:40:42.136 A:middle
 And this makes functional
@@ -3455,13 +3221,14 @@ programming
 
 00:40:42.136 --> 00:40:44.526 A:middle
 in Swift really expressive
-and fun to do
+and fun to do,
 
-00:40:44.526 --> 00:40:49.336 A:middle
-and we've added methods to the
-array class, to the array struct
+00:40:44.526 --> 00:40:48.356 A:middle
+and we've added methods
+to the array class,
 
-00:40:49.376 --> 00:40:51.366 A:middle
+00:40:48.576 --> 00:40:51.366 A:middle
+to the array struct,
 to make this possible.
 
 00:40:52.116 --> 00:40:53.836 A:middle
@@ -3476,32 +3243,24 @@ got from the dictionary service.
 Now we can pick out words
 that share some common traits,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:57.086 --> 00:41:03.006 A:middle
-Now we can pick out words
-that share some common traits,
-
 00:41:03.006 --> 00:41:04.806 A:middle
 say the ones that end
-in G-R-Y and it turns
+in G-R-Y, and it turns
 
 00:41:04.806 --> 00:41:07.496 A:middle
-out there's only two and we
-can use the filter method
+out there's only two, and
+we can use the filter method
 
 00:41:07.956 --> 00:41:12.476 A:middle
 which selects out, which applies
 a closure to each element
 
-00:41:12.476 --> 00:41:16.956 A:middle
-of the array and for the one it
-returns true returns a new array
+00:41:12.476 --> 00:41:14.266 A:middle
+of the array and for the one
 
-00:41:16.956 --> 00:41:17.936 A:middle
-containing those.
+00:41:14.266 --> 00:41:17.936 A:middle
+that it returns true returns
+a new array containing those.
 
 00:41:18.336 --> 00:41:23.326 A:middle
 We can then transform
@@ -3537,35 +3296,31 @@ closure syntax we can just chain
 
 00:41:45.686 --> 00:41:48.216 A:middle
 method invocations
-using dot like this.
+using dot, like this.
 
-00:41:49.196 --> 00:41:53.236 A:middle
-Because it's a single expression
-we can even include it in a
+00:41:49.196 --> 00:41:50.796 A:middle
+And because it's a
+single expression,
 
-00:41:53.236 --> 00:41:58.276 A:middle
-yet larger expression and
-include a lot of complex logic
+00:41:52.286 --> 00:41:54.636 A:middle
+we can even include it in
+a yet larger expression
 
-00:41:58.276 --> 00:42:00.296 A:middle
-into a very small
-amount of code.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:41:55.706 --> 00:41:58.276 A:middle
+and include a lot
+of complex logic
 
 00:41:58.276 --> 00:42:00.296 A:middle
 into a very small
 amount of code.
 
-00:42:00.976 --> 00:42:06.376 A:middle
+00:42:00.976 --> 00:42:04.666 A:middle
 It's an extremely expressive
-way to build up your logic even
+way to build up your logic,
 
-00:42:06.446 --> 00:42:08.806 A:middle
-for a code that doesn't
-involve Hulk.
+00:42:05.736 --> 00:42:08.806 A:middle
+even for a code that
+doesn't involve Hulk.
 
 00:42:09.516 --> 00:42:15.916 A:middle
 [ Applause ]
@@ -3579,19 +3334,22 @@ We could sum up all the elements
 in array using a for loop
 
 00:42:23.516 --> 00:42:27.406 A:middle
-or reduce but we can
+or reduce, but we can
 actually abuse math to do it.
 
 00:42:27.676 --> 00:42:30.196 A:middle
-Inside of closure we can
+Inside of closure, we can
 refer to local variables
 
 00:42:30.196 --> 00:42:31.466 A:middle
 and we can even mutate them.
 
-00:42:31.466 --> 00:42:35.636 A:middle
-There's never need to mark
-them under block or in any way.
+00:42:31.466 --> 00:42:32.746 A:middle
+There's never a need
+to mark them
+
+00:42:32.746 --> 00:42:35.636 A:middle
+under under block or in any way.
 
 00:42:35.636 --> 00:42:36.526 A:middle
 It just works.
@@ -3600,13 +3358,13 @@ It just works.
 And then we can return
 that result.
 
-00:42:43.796 --> 00:42:47.226 A:middle
+00:42:43.796 --> 00:42:46.616 A:middle
 Closures are really just
-literal functions in Swift just
+literal functions in Swift.
 
-00:42:47.226 --> 00:42:48.996 A:middle
-like you can pass
-a literal integer
+00:42:47.076 --> 00:42:48.996 A:middle
+Just like you can
+pass a literal integer
 
 00:42:48.996 --> 00:42:51.746 A:middle
 or a named integer constant
@@ -3624,14 +3382,6 @@ as a closure value.
 We don't have to wrap up print
 line in a closure like this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:57.336 --> 00:43:00.296 A:middle
-We don't have to wrap up print
-line in a closure like this.
-
 00:43:01.196 --> 00:43:02.426 A:middle
 We can just pass print line.
 
@@ -3639,20 +3389,23 @@ We can just pass print line.
 There's only one kind of
 function type in Swift.
 
-00:43:05.056 --> 00:43:09.136 A:middle
-We can even do this with
-bound methods instead
+00:43:05.056 --> 00:43:08.246 A:middle
+We can even do this
+with bound methods.
 
-00:43:09.136 --> 00:43:12.516 A:middle
-of packing an index set
-like this wrapping a call
+00:43:08.826 --> 00:43:12.516 A:middle
+Instead of packing an index
+set like this, wrapping a call
 
-00:43:12.516 --> 00:43:16.126 A:middle
-to the method in a closure we
-can just pass the bound method
+00:43:12.516 --> 00:43:13.876 A:middle
+to the method in a closure,
 
-00:43:16.126 --> 00:43:17.626 A:middle
-directly as a function value.
+00:43:14.776 --> 00:43:16.606 A:middle
+we can just pass the
+bound method directly
+
+00:43:16.606 --> 00:43:17.626 A:middle
+as a function value.
 
 00:43:20.836 --> 00:43:23.206 A:middle
 Closures in Swift
@@ -3685,12 +3438,12 @@ of its local state alive.
 There's never a need to
 explicitly copy a closure
 
-00:43:47.806 --> 00:43:50.586 A:middle
+00:43:47.806 --> 00:43:50.636 A:middle
 or to worry about dangling
-references to its environment
+references to its environments.
 
 00:43:51.106 --> 00:43:53.976 A:middle
-and just like closures
+And just like closures
 of functions,
 
 00:43:54.036 --> 00:43:55.356 A:middle
@@ -3704,17 +3457,9 @@ other functions and refer
 to the local state of
 the outer function.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:58.616 --> 00:44:00.576 A:middle
-to the local state of
-the outer function.
-
 00:44:01.116 --> 00:44:03.306 A:middle
 If we look at these in the
-debugger or instruments,
+debugger or in instruments,
 
 00:44:03.306 --> 00:44:04.756 A:middle
 they show up with their names.
@@ -3725,21 +3470,24 @@ to this in a global variable,
 
 00:44:11.596 --> 00:44:13.586 A:middle
 even when the local
-function goes out of scope
+function goes out of scope,
 
-00:44:14.206 --> 00:44:16.466 A:middle
+00:44:14.206 --> 00:44:16.256 A:middle
 that reference keeps the
-local function alive just
+local function alive,
 
-00:44:16.466 --> 00:44:17.196 A:middle
-like the closure.
+00:44:16.296 --> 00:44:17.196 A:middle
+just like the closure.
 
-00:44:17.806 --> 00:44:23.326 A:middle
-Now because closures are ARC
-objects they have the same
+00:44:17.806 --> 00:44:22.326 A:middle
+Now because closures
+are ARC objects,
 
-00:44:23.326 --> 00:44:26.836 A:middle
-ownership and reference cycle
+00:44:22.326 --> 00:44:24.196 A:middle
+they have the same ownership
+
+00:44:24.196 --> 00:44:26.836 A:middle
+and reference cycle
 problems as classes can have.
 
 00:44:27.426 --> 00:44:29.956 A:middle
@@ -3756,19 +3504,19 @@ have a problem.
 
 00:44:38.406 --> 00:44:41.306 A:middle
 When we go to set up
-these objects, of course,
+these objects - of course,
 
 00:44:41.476 --> 00:44:43.606 A:middle
 what we're really doing
-is we're capturing self
+is we're capturing self,
 
-00:44:43.606 --> 00:44:46.106 A:middle
-and we're capturing it as
-a strong reference and then
+00:44:43.606 --> 00:44:45.386 A:middle
+and we're capturing it
+as a strong reference.
 
-00:44:46.106 --> 00:44:48.826 A:middle
-when we store reference to
-the closure inside the class,
+00:44:45.826 --> 00:44:48.826 A:middle
+And then when we store reference
+to the closure inside the class,
 
 00:44:49.546 --> 00:44:53.706 A:middle
 we end up with the reference
@@ -3777,14 +3525,6 @@ cycle and a memory leak.
 00:44:54.666 --> 00:44:59.156 A:middle
 The compiler actually won't let
 you implicitly reference self
-
-00:44:59.156 --> 00:45:01.136 A:middle
-inside of closure
-because of this problem.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:59.156 --> 00:45:01.136 A:middle
 inside of closure
@@ -3809,7 +3549,7 @@ unowned ownership instead,
 but this is problematic.
 
 00:45:18.976 --> 00:45:21.536 A:middle
-Even if we did this if
+Even if we did this, if
 someone cut and pasted code
 
 00:45:21.536 --> 00:45:23.426 A:middle
@@ -3838,8 +3578,8 @@ And now when we set
 up the object graph,
 
 00:45:39.136 --> 00:45:41.326 A:middle
-there's no longer a cycle
-and there's no leak.
+there's no longer a
+cycle, and there's no leak.
 
 00:45:41.946 --> 00:45:44.716 A:middle
 So that's closures in Swift.
@@ -3850,7 +3590,7 @@ expressive syntax
 
 00:45:48.966 --> 00:45:51.456 A:middle
 and a much simplified memory
-model from Objective-C
+model from Objective-C,
 
 00:45:51.456 --> 00:45:53.406 A:middle
 and they make functional
@@ -3867,24 +3607,17 @@ another powerful feature
 00:45:59.326 --> 00:46:01.116 A:middle
 of Swift, pattern matching.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.326 --> 00:46:01.116 A:middle
-of Swift, pattern matching.
-
 00:46:01.716 --> 00:46:08.136 A:middle
 You may have seen in the intro
 talk that Switch not only works
 
 00:46:08.136 --> 00:46:11.496 A:middle
-with integers it also works
+with integers, it also works
 with strings or, indeed,
 
 00:46:11.496 --> 00:46:15.826 A:middle
-values of any type and also
-works with ranges of values
+values of any type, and also
+works with ranges of values,
 
 00:46:15.896 --> 00:46:18.006 A:middle
 but that's just the
@@ -3896,11 +3629,11 @@ that enumerations
 
 00:46:21.326 --> 00:46:24.606 A:middle
 in Swift can carry associated
-data and we can tell not only
+data, and we can tell not only
 
 00:46:24.606 --> 00:46:27.076 A:middle
-that a train is delayed
-we can say by how much
+that a train is delayed,
+we can say by how much,
 
 00:46:27.296 --> 00:46:29.366 A:middle
 with an integer value
@@ -3931,7 +3664,7 @@ scoped to that case.
 
 00:46:49.406 --> 00:46:52.476 A:middle
 Cases are electrical
-scopes by default in Swift
+scopes by default in Swift,
 
 00:46:52.476 --> 00:46:54.316 A:middle
 and we can't access
@@ -3949,14 +3682,6 @@ may have in C.
 Now this is a simple
 case of a pattern.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.566 --> 00:47:03.326 A:middle
-Now this is a simple
-case of a pattern.
-
 00:47:04.126 --> 00:47:08.906 A:middle
 This outer construct
 Delayed only matches values
@@ -3965,13 +3690,16 @@ Delayed only matches values
 of the delayed state
 inside the enum.
 
-00:47:12.966 --> 00:47:16.196 A:middle
-If it is at the delayed state,
-it unwraps the associated data
+00:47:12.966 --> 00:47:14.636 A:middle
+And if it is at the
+delayed state,
 
-00:47:16.196 --> 00:47:17.996 A:middle
-and passes it down
-to a sub pattern.
+00:47:14.636 --> 00:47:16.856 A:middle
+it unwraps the associated
+data and passes it
+
+00:47:16.856 --> 00:47:17.996 A:middle
+down to a sub pattern.
 
 00:47:18.196 --> 00:47:21.106 A:middle
 In this case, the let pattern
@@ -3992,23 +3720,23 @@ top level of a switch
 with an int we can do
 to its associated value.
 
-00:47:32.806 --> 00:47:35.456 A:middle
-So we can match it against a
-specific value say we're delayed
+00:47:32.806 --> 00:47:34.726 A:middle
+So we can match it
+against a specific value,
 
-00:47:35.456 --> 00:47:36.256 A:middle
-by 1 minute.
+00:47:34.726 --> 00:47:36.256 A:middle
+say we're delayed by one minute.
 
-00:47:36.856 --> 00:47:37.946 A:middle
+00:47:36.856 --> 00:47:39.076 A:middle
 We can match it against a range
-
-00:47:37.946 --> 00:47:40.166 A:middle
 of values say we're delayed
-from 2 to 10 minutes.
+
+00:47:39.076 --> 00:47:40.166 A:middle
+from two to 10 minutes.
 
 00:47:41.046 --> 00:47:42.876 A:middle
-We can also ignore the
-value all together,
+We can also ignore
+the value altogether,
 
 00:47:42.876 --> 00:47:45.796 A:middle
 match any Delay using
@@ -4027,20 +3755,13 @@ associated data of other enums.
 00:47:58.796 --> 00:48:02.296 A:middle
 We can track not only the status
 
+00:48:02.296 --> 00:48:04.616 A:middle
+of our train while
+we're traveling,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:58.796 --> 00:48:02.296 A:middle
-We can track not only the status
-
-00:48:02.296 --> 00:48:05.246 A:middle
-of our train while we're
-traveling we can track the
-
-00:48:05.246 --> 00:48:07.526 A:middle
-entire state of our
-vacation and when we do so,
+00:48:04.616 --> 00:48:07.526 A:middle
+we can track the entire state of
+our vacation, and when we do so,
 
 00:48:07.526 --> 00:48:08.706 A:middle
 we can tell our friends
@@ -4072,20 +3793,20 @@ any more than that,
 00:48:24.756 --> 00:48:26.826 A:middle
 we might get a little upset.
 
-00:48:30.296 --> 00:48:31.816 A:middle
-Pattern matching
-doesn't just work
+00:48:30.296 --> 00:48:32.686 A:middle
+Pattern matching doesn't
+just work with enumerations.
 
-00:48:31.816 --> 00:48:33.206 A:middle
-with enumerations it also works
+00:48:32.686 --> 00:48:35.656 A:middle
+It also works with the
+dynamic types of classes.
 
-00:48:33.206 --> 00:48:35.656 A:middle
-with the dynamic
-types of classes.
+00:48:36.166 --> 00:48:38.856 A:middle
+Let's say we're going
+to tune up a car,
 
-00:48:36.166 --> 00:48:40.106 A:middle
-Let's say we're going to tune up
-a car and it's an arbitrary car.
+00:48:38.856 --> 00:48:40.106 A:middle
+and it's an arbitrary car.
 
 00:48:40.766 --> 00:48:44.046 A:middle
 If someone brings a Formula
@@ -4103,37 +3824,32 @@ it to a specialist.
 We can do this using
 the as pattern.
 
-00:48:53.276 --> 00:48:56.136 A:middle
-This will both check that
-the value is of a type and if
+00:48:53.276 --> 00:48:56.416 A:middle
+This will both check that the
+value is of a type, and if so,
 
-00:48:56.136 --> 00:48:59.516 A:middle
-so cast it and pass it
+00:48:56.416 --> 00:48:59.516 A:middle
+cast it and pass it
 into the sub pattern,
 
-00:48:59.516 --> 00:49:02.906 A:middle
-which we can then use to bind a
-variable and then we can pass it
+00:48:59.516 --> 00:49:01.406 A:middle
+which we can then use
+to bind a variable.
 
+00:49:01.936 --> 00:49:04.996 A:middle
+And then we can pass it on to
+a pit crew, who will then tune
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:49:04.996 --> 00:49:06.416 A:middle
+up that Formula One car.
 
-00:48:59.516 --> 00:49:02.906 A:middle
-which we can then use to bind a
-variable and then we can pass it
+00:49:07.516 --> 00:49:10.866 A:middle
+For a more mundane car,
+we can pattern match it,
 
-00:49:02.906 --> 00:49:06.416 A:middle
-on to a pit crew who will then
-tune up that Formula One car.
-
-00:49:07.516 --> 00:49:11.396 A:middle
-For a more mundane car, we
-can pattern match it and then
-
-00:49:11.396 --> 00:49:14.406 A:middle
-if it has a turbo tune up
-the turbo before following
+00:49:10.866 --> 00:49:14.406 A:middle
+and then if it has a turbo, tune
+up the turbo before following
 
 00:49:14.456 --> 00:49:17.996 A:middle
 through using the fall through
@@ -4141,7 +3857,7 @@ statement into the default case
 
 00:49:18.196 --> 00:49:22.986 A:middle
 that does the normal
-tune up for a car.
+tune-up for a car.
 
 00:49:23.186 --> 00:49:26.096 A:middle
 We can also pattern match
@@ -4159,7 +3875,7 @@ from a function or for
 combining related values
 
 00:49:33.846 --> 00:49:39.236 A:middle
-like the components of a color
+like the components of a color,
 and when we do so, each element
 
 00:49:39.236 --> 00:49:41.566 A:middle
@@ -4180,10 +3896,6 @@ all in a single pattern.
 
 00:49:55.516 --> 00:49:59.726 A:middle
 [ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:00.226 --> 00:50:02.366 A:middle
 We can also match
@@ -4215,12 +3927,13 @@ a little more real.
 Let's validate a property list,
 a dictionary of arbitrary values
 
-00:50:21.186 --> 00:50:24.976 A:middle
-of unknown type and
-given a valid one we want
+00:50:21.186 --> 00:50:24.506 A:middle
+of unknown type, and
+given a valid one.
 
-00:50:24.976 --> 00:50:27.386 A:middle
-to return a well-typed struct.
+00:50:24.506 --> 00:50:27.386 A:middle
+we want to return a
+well-typed struct.
 
 00:50:30.756 --> 00:50:35.236 A:middle
 Given a property list with
@@ -4239,7 +3952,7 @@ record like this.
 
 00:50:42.266 --> 00:50:44.756 A:middle
 However, if one of the
-fields is of the wrong type
+fields is of the wrong type,
 
 00:50:44.756 --> 00:50:50.256 A:middle
 or if the postal abbreviation is
@@ -4251,19 +3964,11 @@ this with pattern matching.
 
 00:50:53.436 --> 00:50:59.466 A:middle
 We'll start with a single
-key of the property list
+key of the property list.
 
 00:50:59.806 --> 00:51:05.466 A:middle
-and you may remember that
-optional is just an enumeration
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:59.806 --> 00:51:05.466 A:middle
-and you may remember that
-optional is just an enumeration
+And you may remember that
+optional is just an enumeration,
 
 00:51:05.466 --> 00:51:07.246 A:middle
 so we can use an
@@ -4278,7 +3983,7 @@ and unwrap the value
 for ones that do.
 
 00:51:14.726 --> 00:51:17.906 A:middle
-Inside that pattern we
+Inside that pattern, we
 can use a type pattern
 
 00:51:17.906 --> 00:51:20.916 A:middle
@@ -4305,7 +4010,7 @@ Now we can repeat this for
 each element that we care
 
 00:51:38.726 --> 00:51:41.736 A:middle
-about inside the dictionary
+about inside the dictionary,
 but there's a better way.
 
 00:51:42.226 --> 00:51:43.816 A:middle
@@ -4329,15 +4034,7 @@ the population is a number
 
 00:51:56.566 --> 00:52:00.196 A:middle
 and the abbreviation is a string
-all simultaneously and with the
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:56.566 --> 00:52:00.196 A:middle
-and the abbreviation is a string
-all simultaneously and with the
+all simultaneously, and with the
 
 00:52:00.196 --> 00:52:02.216 A:middle
 where clause even
@@ -4345,15 +4042,18 @@ check the abbreviations
 
 00:52:02.216 --> 00:52:06.596 A:middle
 of the appropriate
-length and we're done.
+length, and we're done.
 
-00:52:06.816 --> 00:52:09.886 A:middle
-With a single default clause
-we handle all invalid property
+00:52:06.816 --> 00:52:08.126 A:middle
+With a single default clause,
 
-00:52:09.886 --> 00:52:12.496 A:middle
-lists and it all fits
-nicely on a single slide.
+00:52:08.126 --> 00:52:10.356 A:middle
+we handle all invalid
+property lists,
+
+00:52:10.606 --> 00:52:12.496 A:middle
+and it all fits nicely
+on a single slide.
 
 00:52:13.746 --> 00:52:14.926 A:middle
 That's the power of
@@ -4379,7 +4079,7 @@ surface of what Swift can do.
 
 00:52:33.146 --> 00:52:36.746 A:middle
 We've looked at how optionals
-allow you to write safe code,
+allow you to write safe code;
 
 00:52:37.196 --> 00:52:39.956 A:middle
 we looked at the
@@ -4409,22 +4109,14 @@ and read by now.
 
 00:52:53.026 --> 00:52:56.036 A:middle
 There's also some additional
-material on the developer's site
+material on the developers site
 
 00:52:56.036 --> 00:52:57.386 A:middle
 about Interop with Cocoa.
 
 00:52:58.166 --> 00:53:01.746 A:middle
 If you're following along from
-home, talk to Dave he's great
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:58.166 --> 00:53:01.746 A:middle
-If you're following along from
-home, talk to Dave he's great
+home, talk to Dave, he's great,
 
 00:53:02.016 --> 00:53:02.996 A:middle
 and there's our forums.
@@ -4442,4 +4134,3 @@ in Presidio.
 
 00:53:10.816 --> 00:53:11.476 A:middle
 Thank you.
-

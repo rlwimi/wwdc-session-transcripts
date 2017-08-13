@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:11.336 A:middle
 [ Silence ]
@@ -10,10 +9,10 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 00:00:12.396 --> 00:00:13.636 A:middle
 Good afternoon everyone.
 
-00:00:14.606 --> 00:00:16.175 A:middle
+00:00:14.606 --> 00:00:16.176 A:middle
 Thank you for coming here
 
-00:00:16.175 --> 00:00:19.446 A:middle
+00:00:16.176 --> 00:00:19.446 A:middle
 to Adopting Handoff
 on iOS and OS X.
 
@@ -63,14 +62,6 @@ is that we want it to be easy
 00:00:55.136 --> 00:00:59.326 A:middle
 for the user, for all of you to
 take what they're doing and move
-
-00:00:59.326 --> 00:01:02.906 A:middle
-that between whatever Apple
-device they happen to be using.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.326 --> 00:01:02.906 A:middle
 that between whatever Apple
@@ -157,14 +148,6 @@ of your devices.
 Maybe you're browsing
 on a website,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.296 --> 00:02:01.166 A:middle
-Maybe you're browsing
-on a website,
-
 00:02:01.926 --> 00:02:04.436 A:middle
 and what you really
 want to be able to do is
@@ -244,14 +227,6 @@ is that this is entirely
 about the proximity of your
 devices to your other devices.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:58.226 --> 00:03:02.586 A:middle
-about the proximity of your
-devices to your other devices.
-
 00:03:03.366 --> 00:03:07.446 A:middle
 So we use BTLE to
 actually let devices
@@ -320,14 +295,6 @@ places on both platforms.
 00:03:53.816 --> 00:03:57.916 A:middle
 First, what you'll find is that
 on iOS in the lower left corner
-
-00:03:57.916 --> 00:04:01.076 A:middle
-of the Lock screen, if
-you're using your Mac
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:57.916 --> 00:04:01.076 A:middle
 of the Lock screen, if
@@ -416,14 +383,6 @@ through your apps that are there
 and choose to pull
 over the activity
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.646 --> 00:05:00.046 A:middle
-and choose to pull
-over the activity
-
 00:05:00.046 --> 00:05:01.046 A:middle
 that you want to
 be working with.
@@ -500,14 +459,6 @@ not only provide a nice grouping
 00:05:55.436 --> 00:05:58.926 A:middle
 of these discrete tasks not
 only just to make things simpler
-
-00:05:58.926 --> 00:06:01.746 A:middle
-for you, but also because,
-as we'll talk about later,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.926 --> 00:06:01.746 A:middle
 for you, but also because,
@@ -594,13 +545,6 @@ I'm very happy to tell you
 00:06:59.956 --> 00:07:01.576 A:middle
 that it is only one class.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.956 --> 00:07:01.576 A:middle
-that it is only one class.
-
 00:07:01.576 --> 00:07:04.276 A:middle
 It has only a few
 methods and it's the same
@@ -675,10 +619,6 @@ corresponds to that app.
 Now again, when you make
 one of these activities,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.516 --> 00:08:01.926 A:middle
 this broadcasting goes out.
 
@@ -725,14 +665,14 @@ We handle all that for you.
 00:08:33.106 --> 00:08:35.326 A:middle
 The activity gets packaged up.
 
-00:08:35.326 --> 00:08:38.785 A:middle
+00:08:35.326 --> 00:08:38.786 A:middle
 We send it across to the device
 where it's being resumed.
 
 00:08:39.586 --> 00:08:41.166 A:middle
 The system gets it.
 
-00:08:41.166 --> 00:08:43.645 A:middle
+00:08:41.166 --> 00:08:43.646 A:middle
 Your app gets launched,
 and that's it.
 
@@ -753,13 +693,6 @@ basic activities.
 00:08:54.426 --> 00:08:58.906 A:middle
 The first is the ability to
 actually create live streams
-
-00:08:59.116 --> 00:09:00.876 A:middle
-between two different instances
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.116 --> 00:09:00.876 A:middle
 between two different instances
@@ -841,10 +774,6 @@ as support for Handoff and what
 that looks like, how
 you adopt things.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.066 --> 00:10:03.526 A:middle
 We'll talk about working with
 NSUserActivity directly just
@@ -905,14 +834,6 @@ is doing in your app.
 00:10:54.516 --> 00:10:57.076 A:middle
 And the third is using that
 information that you put
-
-00:10:57.076 --> 00:11:02.806 A:middle
-in to resume what the user
-is doing on another device.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.076 --> 00:11:02.806 A:middle
 in to resume what the user
@@ -995,14 +916,6 @@ or actions that are part
 of the user activity,
 so they're fairly broad
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.156 --> 00:12:01.046 A:middle
-of the user activity,
-so they're fairly broad
-
 00:12:01.046 --> 00:12:02.696 A:middle
 and they're continuous.
 
@@ -1060,14 +973,6 @@ of like this.
 00:12:54.426 --> 00:12:58.136 A:middle
 So the first step is to create
 an NSuserActivity instance
-
-00:12:58.646 --> 00:13:00.766 A:middle
-and you do that with
-[Inaudible] ActivityType.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.646 --> 00:13:00.766 A:middle
 and you do that with
@@ -1134,14 +1039,6 @@ and it's perfectly okay
 00:13:53.776 --> 00:13:57.266 A:middle
 to have the same activity type
 for multiple document types.
-
-00:13:58.276 --> 00:14:03.096 A:middle
-And when that is
-in your INFOP list,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.276 --> 00:14:03.096 A:middle
 And when that is
@@ -1216,14 +1113,6 @@ For documents and responders,
 when they have a UserActivity
 property set on their document
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.296 --> 00:15:04.646 A:middle
-when they have a UserActivity
-property set on their document
-
 00:15:04.646 --> 00:15:07.846 A:middle
 or responder, AppKit and
 UIKit will manage it for you.
@@ -1278,14 +1167,6 @@ it at some key points,
 
 00:15:55.846 --> 00:15:59.016 A:middle
 so you probably don't have to.
-
-00:15:59.606 --> 00:16:02.366 A:middle
-On iOS, this means that
-when your app is launched,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.606 --> 00:16:02.366 A:middle
 On iOS, this means that
@@ -1360,14 +1241,6 @@ a View Controller that will.
 All you need to do is set the
 View Controller's User Activity
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.406 --> 00:17:00.206 A:middle
-All you need to do is set the
-View Controller's User Activity
-
 00:17:00.206 --> 00:17:03.096 A:middle
 to that document's User
 Activity and whenever
@@ -1376,11 +1249,11 @@ Activity and whenever
 that View Controller is
 found according to the rules
 
-00:17:06.576 --> 00:17:09.175 A:middle
+00:17:06.576 --> 00:17:09.176 A:middle
 in the previous slide,
 it will become current.
 
-00:17:09.175 --> 00:17:13.726 A:middle
+00:17:09.176 --> 00:17:13.726 A:middle
 On OS X, it's a little
 bit different.
 
@@ -1388,15 +1261,15 @@ bit different.
 AppKit looks for a
 userActivity in two places.
 
-00:17:19.935 --> 00:17:23.316 A:middle
+00:17:19.936 --> 00:17:23.316 A:middle
 The first is the main
 windows responder chain.
 
-00:17:23.736 --> 00:17:26.425 A:middle
+00:17:23.736 --> 00:17:26.426 A:middle
 We go -- we start at the
 first responder and go
 
-00:17:26.425 --> 00:17:28.686 A:middle
+00:17:26.426 --> 00:17:28.686 A:middle
 through the next
 responders looking for one
 
@@ -1439,13 +1312,6 @@ to become current on.
 
 00:17:57.726 --> 00:17:59.456 A:middle
 So we manage it for you.
-
-00:17:59.566 --> 00:18:00.906 A:middle
-We call becomeCurrent.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.566 --> 00:18:00.906 A:middle
 We call becomeCurrent.
@@ -1519,14 +1385,6 @@ into the UserActivity to let --
 so that you can restore the
 state when it gets continued.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.626 --> 00:19:03.746 A:middle
-so that you can restore the
-state when it gets continued.
-
 00:19:04.966 --> 00:19:10.166 A:middle
 So NSUserActivity has a userInfo
 dictionary for this purpose.
@@ -1583,10 +1441,6 @@ about clearing out old data
 
 00:19:59.426 --> 00:19:59.976 A:middle
 or anything like that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.056 --> 00:20:04.546 A:middle
 So it's looks something
@@ -1664,13 +1518,6 @@ as your data changes
 00:20:58.626 --> 00:21:01.026 A:middle
 and we'll call you back later
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.626 --> 00:21:01.026 A:middle
-and we'll call you back later
-
 00:21:01.096 --> 00:21:02.486 A:middle
 with the
 UpdateUserActivityState.
@@ -1729,10 +1576,6 @@ just put what you need
 00:21:57.066 --> 00:21:59.416 A:middle
 to get the user back
 to where they are.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.316 --> 00:22:03.186 A:middle
 The transfer times for these
@@ -1805,14 +1648,6 @@ you are continuing on.
 Also, NS and UIDocument will
 add their file URL automatically
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:57.496 --> 00:23:02.476 A:middle
-Also, NS and UIDocument will
-add their file URL automatically
-
 00:23:02.576 --> 00:23:05.596 A:middle
 in their UpdateUserActivityState
 implementations
@@ -1873,14 +1708,6 @@ called on them.
 00:23:52.066 --> 00:23:55.656 A:middle
 So this is actually a
 really good debugging point.
-
-00:23:55.656 --> 00:24:01.256 A:middle
-If you want to know what's
-exactly is in your userInfo,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:55.656 --> 00:24:01.256 A:middle
 If you want to know what's
@@ -1951,14 +1778,6 @@ ContinueUserActivityWithType
 and note that there is
 no NSUserActivity here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:56.096 --> 00:25:01.436 A:middle
-and note that there is
-no NSUserActivity here.
-
 00:25:01.946 --> 00:25:03.956 A:middle
 All you have is the
 activity type,
@@ -2024,14 +1843,6 @@ to implement this if you can.
 Here's an example of what
 that might look like.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:56.396 --> 00:26:00.786 A:middle
-Here's an example of what
-that might look like.
-
 00:26:01.836 --> 00:26:04.776 A:middle
 So as you can see, we're
 checking the activity type
@@ -2087,14 +1898,6 @@ handled this user activity.
 00:26:53.276 --> 00:26:55.686 A:middle
 Return no or leave
 it unimplemented
-
-00:26:55.686 --> 00:27:02.076 A:middle
-and we can continue some
-user activities for you.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:55.686 --> 00:27:02.076 A:middle
 and we can continue some
@@ -2160,14 +1963,6 @@ you can use the information
 
 00:27:55.026 --> 00:27:57.046 A:middle
 in the user info to kind
-
-00:27:57.046 --> 00:28:00.336 A:middle
-of reconstruct whatever
-it is the user was doing
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.046 --> 00:28:00.336 A:middle
 of reconstruct whatever
@@ -2246,14 +2041,6 @@ WillContinueActivity,
 you will get exactly one of
 either ContinueUserActivity
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.316 --> 00:29:02.356 A:middle
-you will get exactly one of
-either ContinueUserActivity
-
 00:29:02.356 --> 00:29:06.916 A:middle
 or DidFailToContinueuserActivity
 so you can rely on that.
@@ -2307,14 +2094,6 @@ UI document subclass.
 00:29:55.366 --> 00:29:57.986 A:middle
 And then you can pass it
 to the restorationHandler
-
-00:29:57.986 --> 00:30:00.466 A:middle
-and that UI document will get
-its RestoreUserActivityState
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.986 --> 00:30:00.466 A:middle
 and that UI document will get
@@ -2390,14 +2169,6 @@ that it's being continued.
 Maybe you've animated in a
 ViewController or something
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.096 --> 00:31:02.256 A:middle
-Maybe you've animated in a
-ViewController or something
-
 00:31:02.256 --> 00:31:05.556 A:middle
 so that by the time we
 actually get the activity,
@@ -2455,14 +2226,6 @@ on them.
 00:31:55.336 --> 00:31:58.186 A:middle
 And then the user's right
 where they left off.
-
-00:31:58.656 --> 00:32:03.086 A:middle
-You've created UserActivity on
-one device, put your information
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.656 --> 00:32:03.086 A:middle
 You've created UserActivity on
@@ -2538,14 +2301,6 @@ little outside the norm,
 it's useful to understand at
 the base of things what's there
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.496 --> 00:33:03.106 A:middle
-it's useful to understand at
-the base of things what's there
-
 00:33:03.436 --> 00:33:05.906 A:middle
 and what you can do with things.
 
@@ -2615,14 +2370,6 @@ and those extensions bind them
 to particular documents
 when they're double clicked
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.236 --> 00:34:00.076 A:middle
-to particular documents
-when they're double clicked
-
 00:34:00.076 --> 00:34:02.186 A:middle
 on or otherwise opened.
 
@@ -2645,11 +2392,11 @@ and we recommend that you start
 with the base of
 your developer ID
 
-00:34:17.025 --> 00:34:21.815 A:middle
+00:34:17.026 --> 00:34:21.816 A:middle
 or your company's reversed DNS
 name, and then add some suffix
 
-00:34:21.815 --> 00:34:23.626 A:middle
+00:34:21.816 --> 00:34:23.626 A:middle
 to the end of that
 to make it unique,
 
@@ -2665,19 +2412,19 @@ you put them in your code
 at the point you'll be
 creating each of those types
 
-00:34:32.166 --> 00:34:35.255 A:middle
+00:34:32.166 --> 00:34:35.256 A:middle
 of activities, and you would
 put them in your Info P lists
 
-00:34:35.366 --> 00:34:38.255 A:middle
+00:34:35.366 --> 00:34:38.256 A:middle
 so that we know that
 your application would
 
-00:34:38.255 --> 00:34:39.966 A:middle
+00:34:38.256 --> 00:34:39.966 A:middle
 like to handle these
 types of activities.
 
-00:34:39.966 --> 00:34:43.585 A:middle
+00:34:39.966 --> 00:34:43.586 A:middle
 In your Info P lists, they
 go in one of two places.
 
@@ -2689,17 +2436,9 @@ CFBundleDocument Types array
 as the NSUbiquitousDocument
 userActivity type,
 
-00:34:53.255 --> 00:34:57.246 A:middle
+00:34:53.256 --> 00:34:57.246 A:middle
 or they go as a string in the
 NSUserActivityTypes at the top
-
-00:34:57.246 --> 00:35:01.936 A:middle
-of your applications'
-Info P list.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.246 --> 00:35:01.936 A:middle
 of your applications'
@@ -2767,14 +2506,6 @@ a developer certificate.
 00:35:53.686 --> 00:35:57.716 A:middle
 Now applications don't
 have to claim all
-
-00:35:57.716 --> 00:36:01.476 A:middle
-of the activity types they
-create, and the corollary,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:57.716 --> 00:36:01.476 A:middle
 of the activity types they
@@ -2858,10 +2589,6 @@ third application
 where they can see
 their cute cat pictures
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:00.356 --> 00:37:02.376 A:middle
 with the cute cat captions
 on the bottom of them.
@@ -2936,14 +2663,6 @@ creates an activity is going
 00:37:57.156 --> 00:37:59.336 A:middle
 to show up in there and the
 machine that receives it,
-
-00:37:59.626 --> 00:38:05.316 A:middle
-with minimal translation only of
-URL's to point objects that are
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.626 --> 00:38:05.316 A:middle
 with minimal translation only of
@@ -3025,14 +2744,6 @@ just de-allocate.
 There are a few Delegate
 calls as well
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.876 --> 00:39:02.256 A:middle
-There are a few Delegate
-calls as well
-
 00:39:02.256 --> 00:39:04.126 A:middle
 that you can take advantage of.
 
@@ -3097,14 +2808,6 @@ asked you to fill it in.
 
 00:39:55.926 --> 00:39:57.336 A:middle
 And at some time in the future,
-
-00:39:57.336 --> 00:40:01.506 A:middle
-we will call you via this
-userActivityWillSave,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:57.336 --> 00:40:01.506 A:middle
 we will call you via this
@@ -3188,10 +2891,6 @@ back up in a few seconds
 00:40:58.866 --> 00:40:59.966 A:middle
 and keep using it there.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:41:00.786 --> 00:41:03.476 A:middle
 But if you have an activity
 that's transactional in nature,
@@ -3253,14 +2952,6 @@ if you have the kind
 
 00:41:54.916 --> 00:41:57.876 A:middle
 of application where you're kind
-
-00:41:57.876 --> 00:42:00.126 A:middle
-of really backing data
-that's provided elsewhere.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:57.876 --> 00:42:00.126 A:middle
 of really backing data
@@ -3336,14 +3027,6 @@ Safari, and if the user clicks
 on Safari, they would
 get brought to a URL
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:57.846 --> 00:43:01.876 A:middle
-on Safari, they would
-get brought to a URL
-
 00:43:01.876 --> 00:43:06.566 A:middle
 that you provided back
 on the originating device
@@ -3398,14 +3081,6 @@ to what they need.
 00:43:46.996 --> 00:43:54.016 A:middle
 Similarly, we can do the same
 type of thing to allow a user
-
-00:43:54.016 --> 00:44:00.136 A:middle
-in a browser to continue into
-a native application on iOS.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:54.016 --> 00:44:00.136 A:middle
 in a browser to continue into
@@ -3478,14 +3153,6 @@ you add these domain names
 to the com.apple
 .developer.associated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.346 --> 00:45:01.536 A:middle
-to the com.apple
-.developer.associated
-
 00:45:01.536 --> 00:45:04.486 A:middle
 domainsentitlement
 on your application,
@@ -3550,14 +3217,6 @@ code running on the other side.
 00:45:55.366 --> 00:45:59.396 A:middle
 It's running in a web browser,
 but you do have the webpage URL
-
-00:45:59.396 --> 00:46:02.156 A:middle
-that the user was at in
-that browser and from
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:59.396 --> 00:46:02.156 A:middle
 that the user was at in
@@ -3640,14 +3299,6 @@ corner, and the user swipes up
 and we bring up your
 application.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.946 --> 00:47:01.766 A:middle
-and we bring up your
-application.
-
 00:47:02.896 --> 00:47:06.476 A:middle
 And then we set up
 a set of NS streams
@@ -3712,14 +3363,6 @@ WithCompletionHandler
 00:47:55.146 --> 00:47:59.896 A:middle
 and that gets past a block
 and we, when you call that,
-
-00:47:59.896 --> 00:48:03.436 A:middle
-will reach back, try to set
-up these pair of streams
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:59.896 --> 00:48:03.436 A:middle
 will reach back, try to set
@@ -3791,14 +3434,6 @@ about the AppKit and UIKit.
 
 00:48:56.576 --> 00:48:57.846 A:middle
 It's very extensive.
-
-00:48:57.846 --> 00:49:00.276 A:middle
-It does almost everything
-you need.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:57.846 --> 00:49:00.276 A:middle
 It does almost everything
@@ -3889,14 +3524,6 @@ guide that's out and available
 on developer.apple.com, The
 Handoff Programming Guide,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:58.736 --> 00:50:01.476 A:middle
-on developer.apple.com, The
-Handoff Programming Guide,
-
 00:50:02.016 --> 00:50:04.606 A:middle
 which we hope answers
 any questions
@@ -3973,4 +3600,3 @@ Hope you have a good afternoon.
 
 00:50:55.516 --> 00:51:03.270 A:middle
 [ Applause ]
-

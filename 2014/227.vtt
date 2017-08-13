@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:00.506 --> 00:00:12.496 A:middle
 [ Pause ]
@@ -69,14 +68,6 @@ about a few more, as well.
 00:00:54.926 --> 00:00:58.876 A:middle
 Now it's great to have an
 example of a modern Cocoa app,
-
-00:00:58.876 --> 00:01:00.976 A:middle
-so I'd like to introduce
-to you Lister.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.876 --> 00:01:00.976 A:middle
 so I'd like to introduce
@@ -158,19 +149,11 @@ open at a time,
 and to edit the list Lister
 has this popover you see,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:56.936 --> 00:02:00.946 A:middle
-and to edit the list Lister
-has this popover you see,
-
 00:02:00.946 --> 00:02:04.146 A:middle
 I can click on the plus
 button, type the item
 
-00:02:04.246 --> 00:02:08.045 A:middle
+00:02:04.246 --> 00:02:08.046 A:middle
 that I'm interested in adding,
 and it's inserted into the list.
 
@@ -237,14 +220,6 @@ of course,
 gave your app a great name, and
 when you Build and Run you end
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:56.756 --> 00:03:00.376 A:middle
-gave your app a great name, and
-when you Build and Run you end
-
 00:03:00.376 --> 00:03:02.596 A:middle
 up with this fantastic
 empty window.
@@ -278,10 +253,10 @@ some more interesting features.
 
 00:03:21.216 --> 00:03:26.666 A:middle
 And, finally, we are going to
-talk about where to go next,
+talk about where to go next.
 
 00:03:27.976 --> 00:03:30.346 A:middle
-so first up, getting started.
+So first up, getting started.
 
 00:03:30.846 --> 00:03:34.306 A:middle
 Now before we go any
@@ -325,13 +300,6 @@ views and models.
 00:03:56.006 --> 00:03:59.146 A:middle
 Now there's no better
 example of MVC in action
-
-00:03:59.146 --> 00:04:01.356 A:middle
-in Cocoa than Storyboards.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.146 --> 00:04:01.356 A:middle
 in Cocoa than Storyboards.
@@ -424,13 +392,6 @@ behaves and edit things
 00:04:58.876 --> 00:05:00.116 A:middle
 in coordination with each other.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.876 --> 00:05:00.116 A:middle
-in coordination with each other.
-
 00:05:00.746 --> 00:05:03.836 A:middle
 Now it's important to
 understand when you're working
@@ -439,17 +400,16 @@ understand when you're working
 with Storyboards that
 the thing you're looking
 
-00:05:05.706 --> 00:05:07.856 A:middle
-at there is not a
-façade or just a frontend
+00:05:05.706 --> 00:05:08.986 A:middle
+at there is not a façade or just
+a front end to generated code,
 
-00:05:07.996 --> 00:05:11.536 A:middle
-to generated code, those
-are real live controller
+00:05:09.346 --> 00:05:12.566 A:middle
+those are real live
+controller and view objects
 
-00:05:11.536 --> 00:05:13.566 A:middle
-and view objects that
-are in that file.
+00:05:12.566 --> 00:05:13.566 A:middle
+that are in that file.
 
 00:05:14.046 --> 00:05:15.586 A:middle
 However, Xcode makes
@@ -516,16 +476,8 @@ or Storyboards that
 are only loaded
 
 00:05:57.106 --> 00:05:59.346 A:middle
-with the user chooses certain
+when the user chooses certain
 actions, like preferences.
-
-00:05:59.906 --> 00:06:03.896 A:middle
-Now Storyboards is a very
-large topic, of course,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.906 --> 00:06:03.896 A:middle
 Now Storyboards is a very
@@ -606,14 +558,6 @@ and gave me a bunch of rules.
 00:06:56.976 --> 00:06:58.946 A:middle
 She said this start
 route, or excuse me,
-
-00:06:58.946 --> 00:07:01.986 A:middle
-the start route button must
-remain a fixed width unless
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.946 --> 00:07:01.986 A:middle
 the start route button must
@@ -701,14 +645,6 @@ the window resizes.
 So Auto Layout provides
 flexibility as design changes,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.246 --> 00:08:03.926 A:middle
-So Auto Layout provides
-flexibility as design changes,
-
 00:08:04.266 --> 00:08:07.226 A:middle
 and by design I mean not just
 the design of your application,
@@ -757,18 +693,18 @@ for working with Auto Layout.
 00:08:33.476 --> 00:08:34.616 A:middle
 You can add new constraints,
 
-00:08:34.616 --> 00:08:36.905 A:middle
+00:08:34.616 --> 00:08:36.906 A:middle
 it'll help you understand
 how constraints interact
 
-00:08:36.905 --> 00:08:37.456 A:middle
+00:08:36.906 --> 00:08:37.456 A:middle
 with each other.
 
 00:08:38.006 --> 00:08:40.056 A:middle
 You can preview the results
 in the Assistant Editor,
 
-00:08:40.546 --> 00:08:43.765 A:middle
+00:08:40.546 --> 00:08:43.766 A:middle
 and also Xcode provides a
 fantastic way to debug issues.
 
@@ -794,13 +730,6 @@ of Auto Layout in Xcode 5.
 00:08:57.076 --> 00:08:59.456 A:middle
 It's from last year, but
 I definitely recommend
-
-00:08:59.456 --> 00:09:00.706 A:middle
-that you go check that talk out.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.456 --> 00:09:00.706 A:middle
 that you go check that talk out.
@@ -888,14 +817,6 @@ usually that library
 or container is hidden
 from the user.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.716 --> 00:10:00.306 A:middle
-or container is hidden
-from the user.
-
 00:10:00.796 --> 00:10:04.556 A:middle
 For example, with Photos app
 the library will contain all
@@ -978,14 +899,6 @@ itself, is not a database.
 00:10:56.806 --> 00:10:58.526 A:middle
 Core Data provides
 many features, though,
-
-00:10:58.686 --> 00:11:02.126 A:middle
-including efficient performance,
-support for chains tracking
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.686 --> 00:11:02.126 A:middle
 including efficient performance,
@@ -1080,13 +993,6 @@ provides support
 00:11:58.876 --> 00:12:00.476 A:middle
 for what we call file wrappers.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.876 --> 00:12:00.476 A:middle
-for what we call file wrappers.
-
 00:12:00.836 --> 00:12:03.396 A:middle
 A file wrapper allows you
 to store large attachments,
@@ -1164,14 +1070,6 @@ that in a few minutes.
 Also, support for iCloud,
 support for asynchronous reading
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.756 --> 00:13:01.636 A:middle
-Also, support for iCloud,
-support for asynchronous reading
-
 00:13:01.636 --> 00:13:04.906 A:middle
 and writing, and support
 for undo, among many others.
@@ -1190,21 +1088,24 @@ to your app's needs.
 00:13:13.116 --> 00:13:14.226 A:middle
 That means that you can choose
 
-00:13:14.226 --> 00:13:18.686 A:middle
-where in the document stack you
-choose to interact with the code
+00:13:14.226 --> 00:13:17.696 A:middle
+where in the document stack
+you choose to interact
 
-00:13:18.686 --> 00:13:22.096 A:middle
-with the framework and picking
-a higher level lets you get more
+00:13:17.966 --> 00:13:19.376 A:middle
+with the code, with
+the framework
 
-00:13:22.096 --> 00:13:25.446 A:middle
-features for free, picking a
-lower level lets it be more
+00:13:19.906 --> 00:13:22.886 A:middle
+and picking a higher level lets
+you get more features for free,
 
-00:13:25.446 --> 00:13:26.996 A:middle
-customizable to your
-app's needs.
+00:13:23.426 --> 00:13:26.146 A:middle
+picking a lower level lets
+it be more customizable
+
+00:13:26.146 --> 00:13:26.996 A:middle
+to your app's needs.
 
 00:13:27.746 --> 00:13:28.726 A:middle
 So, again, that's up to you,
@@ -1218,7 +1119,7 @@ Now with the document
 architecture you start
 
 00:13:35.086 --> 00:13:38.566 A:middle
-by subclassing in this document,
+by subclassing in NS document,
 and the job of that subclass is
 
 00:13:38.566 --> 00:13:41.506 A:middle
@@ -1240,7 +1141,7 @@ and we're going to
 write it in Swift.
 
 00:13:52.236 --> 00:13:54.576 A:middle
-So here I have subclass
+So here I have subclassed
 NSDocument,
 
 00:13:54.786 --> 00:13:56.496 A:middle
@@ -1250,14 +1151,6 @@ list document.
 00:13:57.176 --> 00:13:58.896 A:middle
 Now we need a place to
 store that model data,
-
-00:13:59.036 --> 00:14:00.916 A:middle
-so here's a property I've
-introduced called list,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.036 --> 00:14:00.916 A:middle
 so here's a property I've
@@ -1347,10 +1240,6 @@ documents can provide support
 00:14:56.916 --> 00:14:59.816 A:middle
 for many kinds of documents, and
 it's identified by that string,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.206 --> 00:15:02.326 A:middle
 and a second is an
@@ -1442,14 +1331,6 @@ out the Lister sample code,
 so there's a little
 bit of an incentive.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.126 --> 00:16:01.506 A:middle
-so there's a little
-bit of an incentive.
-
 00:16:01.506 --> 00:16:03.586 A:middle
 Now we also have to be
 able to create the document
@@ -1533,14 +1414,6 @@ and then we return false.
 Now, the NSDocument architecture
 has a lot more interesting
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.026 --> 00:17:01.126 A:middle
-Now, the NSDocument architecture
-has a lot more interesting
-
 00:17:01.126 --> 00:17:03.156 A:middle
 features that I want you
 to learn about and to do
@@ -1553,7 +1426,7 @@ this session from WWDC 2011,
 Auto Save and Versions
 in Mac OS X Lion.
 
-00:17:09.455 --> 00:17:12.336 A:middle
+00:17:09.456 --> 00:17:12.336 A:middle
 That may seem like a long time
 ago, but again we keep building
 
@@ -1631,14 +1504,6 @@ and again in another example
 
 00:17:57.376 --> 00:17:58.196 A:middle
 of the composability
-
-00:17:58.196 --> 00:18:00.786 A:middle
-of the Cocoa classes we
-provide great support
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.196 --> 00:18:00.786 A:middle
 of the Cocoa classes we
@@ -1727,13 +1592,6 @@ Alex?
 00:18:59.796 --> 00:19:00.266 A:middle
 &gt;&gt; Good morning.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.796 --> 00:19:00.266 A:middle
-&gt;&gt; Good morning.
-
 00:19:01.356 --> 00:19:04.526 A:middle
 Developing Cocoa apps is easier
 than ever with our modern tools
@@ -1816,14 +1674,6 @@ You can also see the list here.
 We also give the
 user the ability
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.906 --> 00:20:01.606 A:middle
-We also give the
-user the ability
-
 00:20:01.606 --> 00:20:04.036 A:middle
 to select a color for the list.
 
@@ -1896,14 +1746,6 @@ thing for the other views
 on the right, but I'm going to
 take a short cut, so I'm going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.516 --> 00:21:01.026 A:middle
-on the right, but I'm going to
-take a short cut, so I'm going
-
 00:21:01.026 --> 00:21:05.976 A:middle
 to click all of these buttons,
 and then I'm going to go
@@ -1970,14 +1812,6 @@ button and then control drag
 00:21:55.716 --> 00:21:57.506 A:middle
 from the button to
 its super view,
-
-00:21:57.846 --> 00:22:00.356 A:middle
-which you could see is the
-color palette view here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.846 --> 00:22:00.356 A:middle
 which you could see is the
@@ -2055,14 +1889,6 @@ to set up three constraints.
 The first constraint is the top
 space between, in its container,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.206 --> 00:23:04.316 A:middle
-The first constraint is the top
-space between, in its container,
-
 00:23:04.796 --> 00:23:07.296 A:middle
 the bottom space and
 the leading space.
@@ -2129,14 +1955,6 @@ things going on here.
 The first is that
 the window is taking
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.956 --> 00:24:01.096 A:middle
-The first is that
-the window is taking
-
 00:24:01.096 --> 00:24:03.936 A:middle
 on the minimum window size
 based on the constraints
@@ -2146,14 +1964,14 @@ that we've set in the view.
 
 00:24:06.176 --> 00:24:08.446 A:middle
 Because we've set each
-button to be a fixed width
+button to be a fixed width,
 
 00:24:08.446 --> 00:24:11.076 A:middle
 and we've set each
 distance between the button
 
 00:24:11.076 --> 00:24:15.996 A:middle
-to be a fixed width the minimum
+to be a fixed width, the minimum
 size of the window is the sum
 
 00:24:15.996 --> 00:24:16.976 A:middle
@@ -2205,14 +2023,6 @@ constraint is right here
 
 00:24:56.156 --> 00:24:57.116 A:middle
 in the document editor.
-
-00:24:58.006 --> 00:25:01.646 A:middle
-Well, we don't want the width
-to be fixed for the color
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.006 --> 00:25:01.646 A:middle
 Well, we don't want the width
@@ -2276,10 +2086,6 @@ the size of the window based
 00:25:57.946 --> 00:25:59.756 A:middle
 on the constraints that
 are set within the view,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.266 --> 00:26:03.726 A:middle
 so it's that easy to
@@ -2357,14 +2163,6 @@ width and height.
 And I know I want it to be 275
 points wide by 75 points tall.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:55.486 --> 00:27:01.516 A:middle
-And I know I want it to be 275
-points wide by 75 points tall.
-
 00:27:02.436 --> 00:27:05.116 A:middle
 Now we need to have some
 content in this view,
@@ -2410,14 +2208,6 @@ placeholder to the text field,
 
 00:27:52.076 --> 00:27:55.936 A:middle
 which is pizza for Joe.
-
-00:27:55.936 --> 00:28:00.836 A:middle
-All right, so I've already
-implemented a subclass
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:55.936 --> 00:28:00.836 A:middle
 All right, so I've already
@@ -2492,21 +2282,12 @@ that's the action that I want.
 So now that we've hooked up this
 view controller and the content
 
+00:29:00.056 --> 00:29:01.126 A:middle
+within this view controller,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:52.466 --> 00:29:00.056 A:middle
-So now that we've hooked up this
-view controller and the content
-
-00:29:00.056 --> 00:29:02.236 A:middle
-within this view
-controller we want
-
-00:29:02.236 --> 00:29:03.936 A:middle
-to actually present
-this view controller
+00:29:01.396 --> 00:29:03.936 A:middle
+we want to actually
+present this view controller
 
 00:29:03.936 --> 00:29:06.766 A:middle
 when we click the plus button,
@@ -2577,14 +2358,6 @@ type of list I want,
 I'm going to have a
 party later and I want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.976 --> 00:30:00.936 A:middle
-I'm going to have a
-party later and I want
-
 00:30:00.936 --> 00:30:01.846 A:middle
 to invite some people.
 
@@ -2649,14 +2422,6 @@ familiar that's because,
 00:30:54.196 --> 00:30:56.686 A:middle
 of course, it is built
 on top of Auto Layout.
-
-00:30:57.346 --> 00:31:00.956 A:middle
-Auto Localization lets you share
-the same UI design of your app,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:57.346 --> 00:31:00.956 A:middle
 Auto Localization lets you share
@@ -2739,17 +2504,12 @@ that we were provided earlier.
 But with Auto Localization
 all we need
 
-00:31:51.706 --> 00:31:55.556 A:middle
-to do is provide the new strings
+00:31:51.706 --> 00:31:53.186 A:middle
+to do is provide
+the new strings,
+
+00:31:53.706 --> 00:31:55.556 A:middle
 and Auto Localization takes care
-
-00:31:55.556 --> 00:32:00.156 A:middle
-of resizing the controls
-as you would expect.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:55.556 --> 00:32:00.156 A:middle
 of resizing the controls
@@ -2840,14 +2600,6 @@ there you'll find contents
 and resources, and there a
 set of directors called lprojs
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.286 --> 00:33:01.956 A:middle
-and resources, and there a
-set of directors called lprojs
-
 00:33:01.956 --> 00:33:03.296 A:middle
 or localized project content.
 
@@ -2930,23 +2682,15 @@ interface, and the identifier
 and the title is what we're
 specifically referring to,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.846 --> 00:34:02.806 A:middle
-and the title is what we're
-specifically referring to,
-
 00:34:03.256 --> 00:34:06.426 A:middle
 and then we provide the
 localized string and then repeat
 
-00:34:06.426 --> 00:34:08.795 A:middle
+00:34:06.426 --> 00:34:08.796 A:middle
 that for the other strings
 that are in your application.
 
-00:34:09.266 --> 00:34:14.505 A:middle
+00:34:09.266 --> 00:34:14.506 A:middle
 Let's move on to a new
 topic, and that is Handoff.
 
@@ -2961,11 +2705,11 @@ start working on one device
 00:34:20.146 --> 00:34:21.696 A:middle
 and continue it on another.
 
-00:34:21.786 --> 00:34:24.235 A:middle
+00:34:21.786 --> 00:34:24.236 A:middle
 And the reason I'm talking
 about it today is, again,
 
-00:34:24.235 --> 00:34:26.636 A:middle
+00:34:24.236 --> 00:34:26.636 A:middle
 because it's another great
 example of how building on top
 
@@ -3005,7 +2749,7 @@ file called InfoPlist.
 If you're not familiar with
 it, the InfoPlist is a file
 
-00:34:50.826 --> 00:34:52.755 A:middle
+00:34:50.826 --> 00:34:52.756 A:middle
 in the contents of
 your application
 
@@ -3020,14 +2764,6 @@ your app's name
 00:34:57.406 --> 00:34:58.696 A:middle
 and its version number
 and so forth.
-
-00:34:59.056 --> 00:35:01.536 A:middle
-It also contains an
-array of document types.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.056 --> 00:35:01.536 A:middle
 It also contains an
@@ -3112,14 +2848,6 @@ example, maybe the location
 00:35:57.006 --> 00:35:58.636 A:middle
 that the user was looking
 at in that document,
-
-00:35:58.816 --> 00:36:00.476 A:middle
-although if you do that
-you should be aware
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.816 --> 00:36:00.476 A:middle
 although if you do that
@@ -3219,14 +2947,6 @@ talking about it today is
 that by adopting these
 features then you're prepared
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.426 --> 00:37:00.856 A:middle
-that by adopting these
-features then you're prepared
-
 00:37:00.856 --> 00:37:04.416 A:middle
 for new features that come along
 like integration in Yosemite,
@@ -3307,14 +3027,6 @@ that we want to share.
 00:37:56.506 --> 00:37:59.506 A:middle
 So let's look at some more
 code, this time in Objective-C.
-
-00:37:59.856 --> 00:38:02.516 A:middle
-You can see here I've got an IB
-action, so this is what happens
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.856 --> 00:38:02.516 A:middle
 You can see here I've got an IB
@@ -3409,14 +3121,6 @@ underneath the button.
 Now there's a lot more
 to learn about Sharing,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:57.206 --> 00:39:01.896 A:middle
-Now there's a lot more
-to learn about Sharing,
-
 00:39:02.286 --> 00:39:03.906 A:middle
 including new features
 in Yosemite,
@@ -3504,13 +3208,6 @@ Sharing in the Lister sample.
 00:39:58.876 --> 00:40:03.236 A:middle
 &gt;&gt; Thanks, Tony.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.876 --> 00:40:03.236 A:middle
-&gt;&gt; Thanks, Tony.
-
 00:40:03.536 --> 00:40:05.766 A:middle
 Now that we've implemented
 a few features of Lister,
@@ -3571,14 +3268,6 @@ this button to make sure
 
 00:40:52.786 --> 00:40:53.946 A:middle
 that it's the size that we want.
-
-00:40:54.626 --> 00:41:00.096 A:middle
-So the first thing that I want
-to do is provide an image name
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:54.626 --> 00:41:00.096 A:middle
 So the first thing that I want
@@ -3657,14 +3346,6 @@ to the utility area
 and just change the width
 again to be 28 points
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:59.966 --> 00:42:02.876 A:middle
-and just change the width
-again to be 28 points
-
 00:42:02.876 --> 00:42:04.526 A:middle
 and the height to be 28 points.
 
@@ -3731,14 +3412,6 @@ to Craig all I would have
 00:42:53.466 --> 00:42:58.286 A:middle
 to do is click the share
 action and I get this nice list
-
-00:42:58.286 --> 00:43:00.216 A:middle
-of the different
-actions that I can do.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.286 --> 00:43:00.216 A:middle
 of the different
@@ -3811,10 +3484,6 @@ but you're going to want
 00:43:57.306 --> 00:43:59.796 A:middle
 to add further support for
 it in your model objects.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:00.356 --> 00:44:02.606 A:middle
 We also have Drag &amp; Drop
@@ -3895,14 +3564,6 @@ than their fair share of energy.
 00:44:55.746 --> 00:44:57.786 A:middle
 There's two ways, the first
 is in the battery menu,
-
-00:44:57.986 --> 00:45:00.026 A:middle
-on a laptop if you click
-on that you'll see a list
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:57.986 --> 00:45:00.026 A:middle
 on a laptop if you click
@@ -3998,10 +3659,6 @@ overhead of doing that work.
 And when you do work, which
 is okay from time to time,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:00.236 --> 00:46:02.916 A:middle
 if the user has requested it,
 then it's important to do it
@@ -4073,14 +3730,6 @@ allow the user to cancel it,
 00:46:52.596 --> 00:46:55.316 A:middle
 we have support for that via
 a class called NSProgress.
-
-00:46:55.916 --> 00:47:00.086 A:middle
-New in Yosemite is
-NSGestureRecognizer
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:55.916 --> 00:47:00.086 A:middle
 New in Yosemite is
@@ -4167,14 +3816,6 @@ our Frameworks Evangelist, Jake,
 or check out the great
 Developer documentation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.876 --> 00:48:03.126 A:middle
-or check out the great
-Developer documentation.
-
 00:48:03.426 --> 00:48:05.446 A:middle
 And here, as I promised,
 are the four links
@@ -4212,4 +3853,3 @@ to seeing what you can do.
 
 00:48:25.516 --> 00:48:31.500 A:middle
 [ Applause ]
-

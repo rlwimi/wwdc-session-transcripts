@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.216 --> 00:00:12.616 A:middle
 &gt;&gt; Okay, good morning,
@@ -78,14 +77,6 @@ while sitting right there
 00:00:58.026 --> 00:00:59.406 A:middle
 because it's going
 to be that easy.
-
-00:00:59.406 --> 00:01:02.236 A:middle
-But if you don't get it done,
-we have a lab that follows this,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.406 --> 00:01:02.236 A:middle
 But if you don't get it done,
@@ -177,10 +168,6 @@ known to deliver
 00:01:58.186 --> 00:01:59.966 A:middle
 for the last couple decades.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.326 --> 00:02:02.336 A:middle
 It is as good or in
 some cases better
@@ -254,14 +241,6 @@ that doesn't have AirPrint.
 00:02:54.546 --> 00:02:57.066 A:middle
 Last year, all the
 enterprise vendors came on.
-
-00:02:57.336 --> 00:03:02.036 A:middle
-Kyocera, Sharp, Toshiba all
-have AirPrint throughout their
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.336 --> 00:03:02.036 A:middle
 Kyocera, Sharp, Toshiba all
@@ -355,13 +334,6 @@ super, super easy.
 00:03:58.716 --> 00:04:00.536 A:middle
 The user interface is easy.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.716 --> 00:04:00.536 A:middle
-The user interface is easy.
-
 00:04:00.536 --> 00:04:02.576 A:middle
 The user interaction is easy.
 
@@ -443,14 +415,6 @@ mom's going to get at home.
 This is the AstroMed
 ToughWriter 5.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:57.946 --> 00:05:00.036 A:middle
-This is the AstroMed
-ToughWriter 5.
-
 00:05:00.036 --> 00:05:05.426 A:middle
 The reason I like this is
 because its native spot is
@@ -526,14 +490,6 @@ new APIs in iOS 8.
 These are to support specialty
 printers and applications.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:56.916 --> 00:06:01.946 A:middle
-These are to support specialty
-printers and applications.
-
 00:06:03.506 --> 00:06:06.696 A:middle
 If you look at what we
 did in AirPrint so far,
@@ -598,13 +554,6 @@ having to get involved.
 00:06:53.976 --> 00:06:58.796 A:middle
 So we'll have a bunch to
 talk about that in a minute.
-
-00:06:58.986 --> 00:07:00.906 A:middle
-So let's talk about some hints.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.986 --> 00:07:00.906 A:middle
 So let's talk about some hints.
@@ -685,14 +634,6 @@ read the words.
 
 00:07:55.736 --> 00:07:57.366 A:middle
 Consider what paper is.
-
-00:07:57.916 --> 00:08:00.916 A:middle
-It's going to be reflective,
-light's going to come off of it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:57.916 --> 00:08:00.916 A:middle
 It's going to be reflective,
@@ -787,14 +728,6 @@ introspect these opaque objects,
 we may change something,
 in fact we probably will,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:59.556 --> 00:09:01.746 A:middle
-we may change something,
-in fact we probably will,
-
 00:09:01.746 --> 00:09:03.466 A:middle
 and I don't want to break
 your app in the future.
@@ -873,13 +806,6 @@ my engineers, Todd Ritland,
 00:09:53.996 --> 00:09:58.686 A:middle
 and he is going to take you
 through everything you need
-
-00:09:58.746 --> 00:10:00.846 A:middle
-to know to make your app print.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.746 --> 00:10:00.846 A:middle
 to know to make your app print.
@@ -963,10 +889,6 @@ and added, and really try
 00:10:58.066 --> 00:10:59.716 A:middle
 to keep feature creep down.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.996 --> 00:11:04.036 A:middle
 So providing good
 content for printing,
@@ -1046,14 +968,6 @@ what paper is loaded.
 00:11:57.066 --> 00:11:59.356 A:middle
 And so the printing system
 was designed to be dynamic,
-
-00:11:59.696 --> 00:12:01.476 A:middle
-it sends that all the
-way up to your app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.696 --> 00:12:01.476 A:middle
 it sends that all the
@@ -1141,14 +1055,6 @@ lets you look
 00:12:56.636 --> 00:12:58.716 A:middle
 at different definitions
 of math terms.
-
-00:12:58.746 --> 00:13:00.736 A:middle
-In this case, we're looking
-at the laws of arithmetic.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.746 --> 00:13:00.736 A:middle
 In this case, we're looking
@@ -1245,14 +1151,6 @@ attributes for the job,
 like job name and
 the type of job.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.876 --> 00:14:01.566 A:middle
-like job name and
-the type of job.
-
 00:14:02.566 --> 00:14:04.316 A:middle
 Then you'll provide the
 content for printing,
@@ -1327,10 +1225,6 @@ lets you take full control
 
 00:14:57.636 --> 00:14:58.136 A:middle
 over drawing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.496 --> 00:15:03.236 A:middle
 Then for showing UI
@@ -1423,14 +1317,6 @@ to make appropriate choices
 for paper size, the
 print quality mode,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.676 --> 00:16:02.316 A:middle
-for paper size, the
-print quality mode,
-
 00:16:02.756 --> 00:16:05.246 A:middle
 and we also make UI
 decisions about what to show
@@ -1514,22 +1400,14 @@ go into a black-only mode.
 And like the previous
 example, duplex allowed
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.336 --> 00:17:03.246 A:middle
-And like the previous
-example, duplex allowed
-
 00:17:03.246 --> 00:17:05.796 A:middle
 and page range controls
 will be allowed in the UI.
 
-00:17:06.906 --> 00:17:08.415 A:middle
+00:17:06.906 --> 00:17:08.416 A:middle
 The next one is photo.
 
-00:17:08.415 --> 00:17:10.496 A:middle
+00:17:08.416 --> 00:17:10.496 A:middle
 Like Howard mentioned, you can
 tell us you're printing a photo.
 
@@ -1541,7 +1419,7 @@ we'll tell the printer,
 this is a photo, print
 it at highest quality.
 
-00:17:16.455 --> 00:17:19.136 A:middle
+00:17:16.456 --> 00:17:19.136 A:middle
 We'll choose a photo paper
 size based on the region.
 
@@ -1549,11 +1427,11 @@ size based on the region.
 If the printer allows
 borderless printing,
 
-00:17:22.136 --> 00:17:23.445 A:middle
+00:17:22.136 --> 00:17:23.446 A:middle
 we'll choose borderless
 printing.
 
-00:17:24.705 --> 00:17:26.856 A:middle
+00:17:24.706 --> 00:17:26.856 A:middle
 And because duplex and
 page range don't make sense
 
@@ -1599,10 +1477,6 @@ grayscale way.
 
 00:17:56.676 --> 00:17:59.636 A:middle
 Okay, so that's UIPrintInfo.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.546 --> 00:18:02.356 A:middle
 Next we'll talk about
@@ -1683,14 +1557,6 @@ items, like if you have a bunch
 of photos you wanted to print,
 you could provide an array.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.396 --> 00:19:00.476 A:middle
-of photos you wanted to print,
-you could provide an array.
-
 00:19:00.976 --> 00:19:03.866 A:middle
 It could be, like I
 said, PDFs, JPEGs,
@@ -1759,14 +1625,6 @@ password-protected
 00:19:53.746 --> 00:19:55.356 A:middle
 or if it was malformed
 in some way.
-
-00:19:57.426 --> 00:20:00.726 A:middle
-Next we grab the
-UIPrintInteractionControllers.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.426 --> 00:20:00.726 A:middle
 Next we grab the
@@ -1846,10 +1704,6 @@ call presentAnimated:YES
 00:20:57.456 --> 00:20:59.456 A:middle
 completionHandler with
 no completion handler.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.196 --> 00:21:03.326 A:middle
 And at this point iOS
@@ -1932,14 +1786,6 @@ UISimpleTextFormatter
 and it knows how to take
 that string and to lay it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.016 --> 00:22:01.966 A:middle
-and it knows how to take
-that string and to lay it
-
 00:22:01.966 --> 00:22:03.776 A:middle
 out onto a page into
 this rectangle.
@@ -2011,13 +1857,6 @@ like we shared before,
 00:22:56.626 --> 00:22:58.326 A:middle
 by default it uses
 the printableRect,
-
-00:22:59.006 --> 00:23:00.046 A:middle
-which is the imageable area.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.006 --> 00:23:00.046 A:middle
 which is the imageable area.
@@ -2101,14 +1940,6 @@ layout design in HTML,
 this is really all you'd need
 to do is this method here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:57.726 --> 00:24:00.686 A:middle
-this is really all you'd need
-to do is this method here.
-
 00:24:01.336 --> 00:24:04.456 A:middle
 And so the method takes the
 HTML text as a parameter.
@@ -2171,14 +2002,6 @@ get the content
 
 00:24:55.206 --> 00:24:56.096 A:middle
 in the view onto the page.
-
-00:24:56.096 --> 00:25:01.476 A:middle
-iOS wasn't really designed to
-be view-based printing though,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:56.096 --> 00:25:01.476 A:middle
 iOS wasn't really designed to
@@ -2272,10 +2095,6 @@ use the formatters,
 like we just went
 over, in renderer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:02.916 --> 00:26:05.526 A:middle
 So renders, what is a renderer?
 
@@ -2348,13 +2167,6 @@ UIPrintPageRenderer.
 00:26:56.656 --> 00:26:59.746 A:middle
 And like I said, at a minimum
 you'll override number of pages,
-
-00:26:59.996 --> 00:27:01.846 A:middle
-and drawContentForPageAtIndex.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.996 --> 00:27:01.846 A:middle
 and drawContentForPageAtIndex.
@@ -2442,14 +2254,6 @@ that text to go.
 And our Gettysburg
 Address again.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.726 --> 00:28:00.886 A:middle
-And our Gettysburg
-Address again.
-
 00:28:00.886 --> 00:28:03.376 A:middle
 The UISimpleTextFormatter
 just formats it in the middle.
@@ -2531,10 +2335,6 @@ out the whole web page.
 So that's what this
 example's showing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:01.176 --> 00:29:04.656 A:middle
 Now we'll just initialize
 our UIActivityViewController
@@ -2607,14 +2407,6 @@ like a NAV controller.
 00:29:56.286 --> 00:29:58.316 A:middle
 You'll set your class
 as a delegate
-
-00:29:58.376 --> 00:30:00.326 A:middle
-for the shared UI
-printInteractionController.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.376 --> 00:30:00.326 A:middle
 for the shared UI
@@ -2718,14 +2510,6 @@ user selects a printer.
 We've communicated
 with the printer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.976 --> 00:31:01.416 A:middle
-We've communicated
-with the printer.
-
 00:31:01.586 --> 00:31:03.346 A:middle
 We figured out the
 papers that are available.
@@ -2792,10 +2576,6 @@ we've made it easy for you.
 So we just recommend
 that you just call this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.746 --> 00:32:03.246 A:middle
 Next up is roll paper.
 
@@ -2854,14 +2634,6 @@ that we're very happy
 00:32:51.766 --> 00:32:53.796 A:middle
 to announce is printing
 without showing UI.
-
-00:32:56.076 --> 00:33:00.046 A:middle
-Now this opens up the
-opportunity for new types
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:56.076 --> 00:33:00.046 A:middle
 Now this opens up the
@@ -2955,14 +2727,6 @@ a new print method
 on UIPrintInteractionController
 that you'll be calling.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.966 --> 00:34:02.496 A:middle
-on UIPrintInteractionController
-that you'll be calling.
-
 00:34:02.766 --> 00:34:05.346 A:middle
 So it's kind of separated
 into two things, initial setup
@@ -2975,7 +2739,7 @@ actually print.
 So the basic steps for
 printing without a UI,
 
-00:34:11.255 --> 00:34:13.716 A:middle
+00:34:11.256 --> 00:34:13.716 A:middle
 first your app will include a
 setting for setting the printer,
 
@@ -2983,7 +2747,7 @@ setting for setting the printer,
 this is in the app
 setting somewhere
 
-00:34:15.826 --> 00:34:17.315 A:middle
+00:34:15.826 --> 00:34:17.316 A:middle
 or in a settings
 button somewhere.
 
@@ -2994,14 +2758,14 @@ get the printer selector,
 00:34:20.226 --> 00:34:21.686 A:middle
 this new class.
 
-00:34:22.496 --> 00:34:23.335 A:middle
+00:34:22.496 --> 00:34:23.336 A:middle
 You'll present that UI.
 
-00:34:24.896 --> 00:34:27.065 A:middle
+00:34:24.896 --> 00:34:27.066 A:middle
 Then you'll save the
 printer chosen by the user.
 
-00:34:27.065 --> 00:34:28.906 A:middle
+00:34:27.066 --> 00:34:28.906 A:middle
 So the user will be
 choosing a printer.
 
@@ -3013,11 +2777,11 @@ to save that.
 Then whenever appropriate,
 when your app decides to print,
 
-00:34:35.806 --> 00:34:37.485 A:middle
+00:34:35.806 --> 00:34:37.486 A:middle
 the app will then get
 the print controller,
 
-00:34:37.485 --> 00:34:38.936 A:middle
+00:34:37.486 --> 00:34:38.936 A:middle
 the
 UIPrintInteractionController.
 
@@ -3025,35 +2789,27 @@ UIPrintInteractionController.
 It'll set up the attributes for
 the job and provide content,
 
-00:34:42.156 --> 00:34:43.275 A:middle
+00:34:42.156 --> 00:34:43.276 A:middle
 just like we did before.
 
-00:34:43.456 --> 00:34:47.045 A:middle
+00:34:43.456 --> 00:34:47.046 A:middle
 Then they'll send the job with
 this new print controller method
 
-00:34:47.045 --> 00:34:48.505 A:middle
+00:34:47.046 --> 00:34:48.506 A:middle
 that just sends without
 showing UI.
 
-00:34:48.505 --> 00:34:52.505 A:middle
+00:34:48.506 --> 00:34:52.506 A:middle
 At this point, like before, iOS
 communicates with the printer,
 
-00:34:52.505 --> 00:34:54.286 A:middle
+00:34:52.506 --> 00:34:54.286 A:middle
 the Daemon takes over,
 your app doesn't have
 
 00:34:54.286 --> 00:34:55.766 A:middle
 to deal with any of that.
-
-00:34:57.356 --> 00:35:00.786 A:middle
-So here's the classes we'll be
-using for background printing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.356 --> 00:35:00.786 A:middle
 So here's the classes we'll be
@@ -3156,13 +2912,6 @@ that you've saved.
 00:35:59.806 --> 00:36:00.106 A:middle
 Also,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.806 --> 00:36:00.106 A:middle
-Also,
-
 00:36:00.106 --> 00:36:02.346 A:middle
 this UIPrinterPickerController
 allows you to filter
@@ -3256,10 +3005,6 @@ have instantiated it
 00:36:58.236 --> 00:36:59.406 A:middle
 with the saved URL.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:37:00.316 --> 00:37:03.666 A:middle
 Okay, so that's
 UIPrinterPickerController.
@@ -3341,14 +3086,6 @@ display in your UI as well.
 And then some various
 things about the printer,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:57.086 --> 00:38:00.186 A:middle
-And then some various
-things about the printer,
-
 00:38:00.186 --> 00:38:02.396 A:middle
 like supportedJobTypes,
 which is a bit field.
@@ -3414,14 +3151,6 @@ printer location label
 
 00:38:56.536 --> 00:38:57.706 A:middle
 to be the display location.
-
-00:38:57.706 --> 00:39:00.776 A:middle
-So the printer name and
-location aren't available
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:57.706 --> 00:39:00.776 A:middle
 So the printer name and
@@ -3506,14 +3235,6 @@ whether it should be shown.
 00:39:54.216 --> 00:39:56.966 A:middle
 So this is called for every
 printer as it gets discovered,
-
-00:39:57.666 --> 00:40:00.146 A:middle
-and you can choose whether
-it gets shown in UI or not.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:57.666 --> 00:40:00.146 A:middle
 and you can choose whether
@@ -3608,13 +3329,6 @@ preconfigure an app to print
 00:40:58.986 --> 00:41:00.066 A:middle
 to more than one printer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.986 --> 00:41:00.066 A:middle
-to more than one printer.
-
 00:41:00.606 --> 00:41:02.866 A:middle
 This is a great feature that
 can be used when setting
@@ -3693,14 +3407,6 @@ way of getting around this.
 00:41:51.416 --> 00:41:56.346 A:middle
 After finalizing a sale in
 this demo app, it takes 1, 2,
-
-00:41:56.986 --> 00:42:01.076 A:middle
-3 steps to print out a receipt
-each time the clerk goes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:56.986 --> 00:42:01.076 A:middle
 3 steps to print out a receipt
@@ -3793,14 +3499,6 @@ like to save to.
 So in order to do this,
 I'm first going to want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:58.666 --> 00:43:01.216 A:middle
-So in order to do this,
-I'm first going to want
-
 00:43:01.216 --> 00:43:05.096 A:middle
 to create a place to
 save the UIPrinter object
@@ -3874,13 +3572,6 @@ to maybe a printer
 00:43:59.296 --> 00:44:01.516 A:middle
 that we've already set up.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.296 --> 00:44:01.516 A:middle
-that we've already set up.
-
 00:44:01.936 --> 00:44:06.196 A:middle
 Next I'm going to use the
 UIPrinterPickerController method
@@ -3941,14 +3632,6 @@ exactly the same as the methods
 
 00:44:55.076 --> 00:44:56.556 A:middle
 on UIPrinterPickerController.
-
-00:44:57.156 --> 00:45:00.146 A:middle
-So what we can actually do now,
-and this is what's kind of neat
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:57.156 --> 00:45:00.146 A:middle
 So what we can actually do now,
@@ -4038,14 +3721,6 @@ maybe we're in a coffee shop.
 So let's get, you know, the
 San Francisco coffee and,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.766 --> 00:46:04.306 A:middle
-So let's get, you know, the
-San Francisco coffee and,
-
 00:46:05.326 --> 00:46:06.596 A:middle
 you know, maybe a bagel.
 
@@ -4118,13 +3793,6 @@ learned is adding printing
 00:46:56.306 --> 00:46:58.566 A:middle
 to your application
 regardless of style
-
-00:46:58.566 --> 00:47:00.686 A:middle
-of application is really easy.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:58.566 --> 00:47:00.686 A:middle
 of application is really easy.
@@ -4207,14 +3875,6 @@ So more information,
 our technology evangelist
 is Paul Danbold.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.036 --> 00:48:01.956 A:middle
-our technology evangelist
-is Paul Danbold.
-
 00:48:02.356 --> 00:48:05.546 A:middle
 For those who don't know the
 name, Paul has been in printing
@@ -4292,14 +3952,6 @@ pretty experienced application
 writers already, but if you
 still got a few details,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.396 --> 00:49:02.156 A:middle
-writers already, but if you
-still got a few details,
-
 00:49:02.156 --> 00:49:05.066 A:middle
 I do strongly encourage you
 to go back and watch the video
@@ -4316,4 +3968,3 @@ Thank you very much.
 
 00:49:13.516 --> 00:49:21.470 A:middle
 [ Applause ]
-

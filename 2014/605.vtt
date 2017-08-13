@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:13.216 --> 00:00:15.566 A:middle
 &gt;&gt; Hello. Welcome to
@@ -27,24 +26,24 @@ we have about Metal today.
 In the first session, Jeremy
 introduced Metal to us.
 
-00:00:29.256 --> 00:00:32.625 A:middle
+00:00:29.256 --> 00:00:32.626 A:middle
 He talked about the motivation
 behind Metal, the structures
 
-00:00:32.625 --> 00:00:35.866 A:middle
+00:00:32.626 --> 00:00:35.866 A:middle
 that we build the Metal on,
 and concluded it with a demo
 
 00:00:36.056 --> 00:00:39.316 A:middle
-from a Crytek on collectibles
+from Crytek on collectibles
 with thousands of draw calls.
 
 00:00:39.906 --> 00:00:42.066 A:middle
-We followed-up with the
+We followed up with the
 second session where we talked
 
 00:00:42.066 --> 00:00:44.056 A:middle
-about Fundamentals of Metal.
+about fundamentals of Metal.
 
 00:00:44.786 --> 00:00:47.846 A:middle
 We talked about creating your
@@ -61,14 +60,6 @@ the shading language.
 00:00:55.116 --> 00:00:57.606 A:middle
 In this session, we're going
 to do a more deeper dive
-
-00:00:57.906 --> 00:01:00.976 A:middle
-into creating a full blown
-graphics application with Metal.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.906 --> 00:01:00.976 A:middle
 into creating a full blown
@@ -129,7 +120,7 @@ to do that using Metal.
 
 00:01:40.146 --> 00:01:43.326 A:middle
 We will talk about multiple
-framebuffer configurations,
+frame buffer configurations,
 
 00:01:43.826 --> 00:01:48.116 A:middle
 rendering to off-screen and
@@ -154,27 +145,19 @@ with a shadow map example
 to basically walk through
 these code examples.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.096 --> 00:02:01.046 A:middle
-to basically walk through
-these code examples.
-
 00:02:01.096 --> 00:02:04.546 A:middle
-This is a 2 pass
+This is a two-pass
 application that we built
 
 00:02:04.686 --> 00:02:06.386 A:middle
 for this particular
 presentation.
 
-00:02:06.886 --> 00:02:08.985 A:middle
+00:02:06.886 --> 00:02:08.986 A:middle
 In the first pass, we
 have a shadow map pass
 
-00:02:08.985 --> 00:02:11.476 A:middle
+00:02:08.986 --> 00:02:11.476 A:middle
 where we rendered the
 scene from the perspective
 
@@ -202,15 +185,15 @@ to find out which
 pixels are affected.
 
 00:02:26.786 --> 00:02:28.936 A:middle
-And finally using the
-framebuffer fetch,
+And finally, using
+the framebuffer fetch,
 
 00:02:29.616 --> 00:02:31.876 A:middle
 create light accumulation
 information and then merge
 
 00:02:31.876 --> 00:02:34.136 A:middle
-with the [inaudible] textures
+with the albedo textures
 to generate a final image.
 
 00:02:34.946 --> 00:02:37.616 A:middle
@@ -241,28 +224,27 @@ download it and take a look
 at it later if you
 would like to.
 
-00:02:53.776 --> 00:02:56.846 A:middle
-The way the example is
-structured that it has 2 passes.
+00:02:53.776 --> 00:02:55.666 A:middle
+The way the example
+is structured is
+
+00:02:55.666 --> 00:02:56.846 A:middle
+that it has two passes.
 
 00:02:57.266 --> 00:02:59.786 A:middle
 Both of them are
 RenderCommandEncoder passes.
 
+00:03:00.226 --> 00:03:02.856 A:middle
+The first one is for shadow
+map and the second one is
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:00.226 --> 00:03:01.636 A:middle
-The first 1 is for shadow map
-
-00:03:01.636 --> 00:03:04.066 A:middle
-and the second 1 is afforded
-the deferred lighting pass.
+00:03:02.856 --> 00:03:04.066 A:middle
+for the deferred lighting pass.
 
 00:03:04.636 --> 00:03:06.576 A:middle
-They're all encoded into
-a single command buffer
+They're all encoded
+into a single buffer
 
 00:03:06.576 --> 00:03:09.446 A:middle
 which is...and the
@@ -275,19 +257,17 @@ into a command queue.
 So this is kind of what most
 applications will look like;
 
-00:03:14.016 --> 00:03:15.756 A:middle
-multiple render to
-texture passes going
-
-00:03:15.756 --> 00:03:16.666 A:middle
-into a command encoder
+00:03:14.016 --> 00:03:16.666 A:middle
+multiple render texture passes
+going into a command encoder
 
 00:03:16.666 --> 00:03:19.006 A:middle
 on a frame boundary that's
 sent to the command queue.
 
-00:03:19.946 --> 00:03:22.096 A:middle
-I did a demo of the application.
+00:03:19.926 --> 00:03:22.096 A:middle
+I'll give a demo
+of the application.
 
 00:03:23.516 --> 00:03:27.576 A:middle
 [ Pause ]
@@ -312,8 +292,8 @@ And this is how our
 G-buffer is laid out.
 
 00:03:42.566 --> 00:03:44.506 A:middle
-On the top left we
-normally have RB to texture,
+On the top left we normally
+have albedo texture,
 
 00:03:44.506 --> 00:03:47.336 A:middle
 but we're showing basically the
@@ -334,16 +314,8 @@ buffer, and a depth buffer,
 and a light accumulation buffer,
 
 00:03:54.716 --> 00:03:58.346 A:middle
-4 color buffers basically
+four-color buffers basically
 attached to a framebuffer
-
-00:03:58.706 --> 00:04:00.356 A:middle
-and depth and stencil
-buffers as well.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:58.706 --> 00:04:00.356 A:middle
 and depth and stencil
@@ -361,7 +333,7 @@ And these are the visualization
 
 00:04:06.396 --> 00:04:08.926 A:middle
 of the lights basically
-using light voluminous.
+using light volumes.
 
 00:04:09.116 --> 00:04:10.566 A:middle
 They're mapped onto the screen.
@@ -370,7 +342,7 @@ They're mapped onto the screen.
 And finally this is the final
 image that goes to the display.
 
-00:04:15.176 --> 00:04:17.745 A:middle
+00:04:15.176 --> 00:04:17.746 A:middle
 It looks a lot better on the
 device than on the presentation.
 
@@ -379,7 +351,7 @@ Ok, let's go back
 to our presentation.
 
 00:04:24.816 --> 00:04:29.306 A:middle
-Ok, so how do we setup
+Ok, so how do we set up
 an application like this
 
 00:04:29.306 --> 00:04:31.516 A:middle
@@ -410,7 +382,7 @@ things that are done once
 
 00:04:48.366 --> 00:04:50.296 A:middle
 and there are things that
-are done at low level times
+are done at low-level times
 
 00:04:50.296 --> 00:04:53.576 A:middle
 or streaming time, and there
@@ -426,14 +398,6 @@ that are render to textures.
 00:04:56.606 --> 00:04:58.996 A:middle
 So we're going to look at
 each category and figure
-
-00:04:58.996 --> 00:05:01.556 A:middle
-out what is done in these
-categories and figure out how
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.996 --> 00:05:01.556 A:middle
 out what is done in these
@@ -477,7 +441,7 @@ There are things
 we do as needed.
 
 00:05:25.086 --> 00:05:27.096 A:middle
-For example; we know
+For example, we know
 up front in all
 
 00:05:27.196 --> 00:05:29.286 A:middle
@@ -500,7 +464,7 @@ or an outdoor environment and
 they might change if there's
 
 00:05:38.576 --> 00:05:41.146 A:middle
-like [inaudible] included
+like wetnesses included
 or something like that
 
 00:05:41.146 --> 00:05:42.776 A:middle
@@ -535,25 +499,16 @@ textures are going to look
 00:05:56.456 --> 00:05:58.216 A:middle
 like up front at once.
 
-00:05:58.786 --> 00:06:02.446 A:middle
-And at level load time we can
-download our assets including
+00:05:58.786 --> 00:06:00.476 A:middle
+And at level load time,
 
+00:06:00.476 --> 00:06:03.996 A:middle
+we can download our assets
+including our meshes, textures
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.786 --> 00:06:02.446 A:middle
-And at level load time we can
-download our assets including
-
-00:06:02.446 --> 00:06:06.346 A:middle
-our meshes, textures and
-then basically our shaders
-
-00:06:06.346 --> 00:06:07.616 A:middle
-and associated with
-those shaders
+00:06:04.416 --> 00:06:07.616 A:middle
+and then basically our shaders
+and associate with those shaders
 
 00:06:07.616 --> 00:06:10.016 A:middle
 to create pipeline objects,
@@ -629,14 +584,6 @@ every render to texture pass
 such as encoding the command
 so that GPU can understand.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.126 --> 00:07:00.576 A:middle
-such as encoding the command
-so that GPU can understand.
-
 00:07:00.926 --> 00:07:02.576 A:middle
 Setting up the states
 and resources,
@@ -645,7 +592,7 @@ and resources,
 and initiating draw calls.
 
 00:07:03.916 --> 00:07:06.236 A:middle
-And then finally
+And then finally,
 finishing the encoding
 
 00:07:06.236 --> 00:07:07.576 A:middle
@@ -700,7 +647,7 @@ like to establish that all
 of the descriptor...that all
 
 00:07:44.236 --> 00:07:47.076 A:middle
-of the descriptor are
+of the descriptors are
 defining how an object is going
 
 00:07:47.076 --> 00:07:47.716 A:middle
@@ -728,14 +675,6 @@ to the blueprint.
 You cannot change the blueprint
 and see in fact a change
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.946 --> 00:08:00.706 A:middle
-You cannot change the blueprint
-and see in fact a change
-
 00:08:00.996 --> 00:08:02.126 A:middle
 on an already built house.
 
@@ -749,7 +688,7 @@ from that descriptor.
 
 00:08:06.756 --> 00:08:10.136 A:middle
 Descriptors are there to define
-what objects are going to be
+what objects are going to be,
 
 00:08:10.136 --> 00:08:12.136 A:middle
 but once they're created,
@@ -786,20 +725,17 @@ that you can set
 on the render encoders
 are actually built
 
-00:08:36.306 --> 00:08:39.866 A:middle
-into the state objects and the
-resources and they are immutable
+00:08:36.306 --> 00:08:38.986 A:middle
+into the state objects
+and the resources
 
-00:08:40.076 --> 00:08:42.015 A:middle
-which gives us the
-opportunity acutely
+00:08:38.986 --> 00:08:42.016 A:middle
+and they are immutable, which
+gives us the opportunity acutely
 
-00:08:42.346 --> 00:08:44.155 A:middle
+00:08:42.346 --> 00:08:45.486 A:middle
 to avoid the state
-revelation [assumed spelling]
-
-00:08:44.536 --> 00:08:45.486 A:middle
-at the draw time.
+validation at the draw time.
 
 00:08:46.016 --> 00:08:49.116 A:middle
 So a descriptor built an
@@ -811,7 +747,7 @@ after that point.
 
 00:08:51.796 --> 00:08:54.356 A:middle
 That basically makes the
-Metal a lower head API
+Metal a lower overhead API
 
 00:08:54.416 --> 00:08:57.686 A:middle
 by avoiding all the state
@@ -821,10 +757,6 @@ tracking, all the state changes,
 and reflecting them
 at the draw time.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:09:00.046 --> 00:09:00.976 A:middle
 Ok, let's go back
 
@@ -833,7 +765,7 @@ to our framebuffer
 configuration,
 
 00:09:04.496 --> 00:09:05.316 A:middle
-how we setup that.
+how we set up that.
 
 00:09:06.806 --> 00:09:09.366 A:middle
 Ok, so for
@@ -841,7 +773,7 @@ RenderCommandEncoders,
 
 00:09:09.366 --> 00:09:12.006 A:middle
 we need to know about the
-nature of the framebuffer
+nature of the framebuffer,
 
 00:09:12.256 --> 00:09:14.366 A:middle
 like how many color
@@ -860,7 +792,7 @@ And those are defined through
 a RenderPassDescriptor.
 
 00:09:22.156 --> 00:09:25.396 A:middle
-We are allowed up to 4 color
+We are allowed up to four color
 attachments that are allowed
 
 00:09:25.396 --> 00:09:27.676 A:middle
@@ -879,14 +811,14 @@ to in other descriptor
 that's embedded
 
 00:09:34.136 --> 00:09:35.526 A:middle
-into the RenderPassDescriptor
+into the RenderPassDescriptor,
 
 00:09:35.526 --> 00:09:38.656 A:middle
 which is
 RenderPassAttachmentDescriptor.
 
 00:09:38.936 --> 00:09:42.526 A:middle
-In this descriptor we basically
+In this descriptor, we basically
 define what kind of load
 
 00:09:42.526 --> 00:09:45.956 A:middle
@@ -915,10 +847,6 @@ basically has all
 00:09:59.636 --> 00:09:59.976 A:middle
 the information
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.136 --> 00:10:00.716 A:middle
 necessary
 
@@ -928,7 +856,7 @@ to get going.
 
 00:10:03.036 --> 00:10:06.316 A:middle
 And we're going to look at
-the 2 passes that we have;
+the two passes that we have;
 
 00:10:06.746 --> 00:10:10.266 A:middle
 the shadow pass and the deferred
@@ -967,8 +895,8 @@ and what we have in here is
 basically a 1k by 1k texture
 
 00:10:36.016 --> 00:10:40.826 A:middle
-with no mitmapping,
-a depth 432 texture.
+with no mipmapping, a
+depth for 32 texture.
 
 00:10:41.436 --> 00:10:46.286 A:middle
 It is created on the device as
@@ -985,14 +913,6 @@ the device, they are visible
 00:10:54.936 --> 00:10:58.796 A:middle
 by the GPU, and also you can
 independently modify them,
-
-00:10:59.426 --> 00:11:02.596 A:middle
-not the objects themselves,
-but like the texture data
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.426 --> 00:11:02.596 A:middle
 not the objects themselves,
@@ -1041,7 +961,7 @@ And then define the properties
 such as the clear value,
 
 00:11:35.696 --> 00:11:36.976 A:middle
-load, and store actions.
+load and store actions.
 
 00:11:37.286 --> 00:11:39.586 A:middle
 We talked extensively about
@@ -1078,14 +998,6 @@ second render command encoding.
 That information will
 be available up front.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.506 --> 00:12:00.256 A:middle
-That information will
-be available up front.
-
 00:12:00.516 --> 00:12:02.326 A:middle
 Those textures are created
 up front so we don't have
@@ -1095,8 +1007,8 @@ to pay the penalty of doing
 those at the draw time.
 
 00:12:05.976 --> 00:12:09.936 A:middle
-In this example we
-have 4 color buffers,
+In this example, we
+have four color buffers,
 
 00:12:09.936 --> 00:12:11.226 A:middle
 one of them is actually
@@ -1133,8 +1045,8 @@ that texture from
 the Metal layer.
 
 00:12:29.776 --> 00:12:32.066 A:middle
-The other 3 color textures
-though and the depth
+The other three color
+textures though and the depth
 
 00:12:32.066 --> 00:12:34.656 A:middle
 and stencil texture are
@@ -1161,7 +1073,7 @@ is going to look like.
 
 00:12:47.206 --> 00:12:49.296 A:middle
 In this example I'm
-going to create only 2
+going to create only two
 
 00:12:49.296 --> 00:12:51.456 A:middle
 of the color textures
@@ -1177,14 +1089,6 @@ something that has a width
 00:12:56.686 --> 00:12:59.196 A:middle
 and height of the
 displayable surface
-
-00:12:59.696 --> 00:13:02.166 A:middle
-and there is no mapping
-required.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.696 --> 00:13:02.166 A:middle
 and there is no mapping
@@ -1222,7 +1126,7 @@ to change the pixel format and
 everything like width, height,
 
 00:13:22.096 --> 00:13:24.166 A:middle
-the mitmapping properties were
+the mipmapping properties were
 the same so we didn't have
 
 00:13:24.166 --> 00:13:27.396 A:middle
@@ -1231,7 +1135,7 @@ the second texture with that.
 
 00:13:27.396 --> 00:13:30.746 A:middle
 So you can see that we basically
-have 1 descriptor creating 2
+have one descriptor creating two
 
 00:13:30.746 --> 00:13:31.616 A:middle
 different textures.
@@ -1261,7 +1165,7 @@ We first create it.
 
 00:13:47.306 --> 00:13:49.436 A:middle
 What is interesting in
-here as I explained before;
+here as I explained before:
 
 00:13:49.826 --> 00:13:53.366 A:middle
 the first color attachment we
@@ -1273,14 +1177,6 @@ up front ready for it.
 00:13:54.666 --> 00:13:57.466 A:middle
 We'll have it when we actually
 start setting up our frame.
-
-00:13:58.136 --> 00:14:02.146 A:middle
-So it's set to "no" initially
-and eventually we'll get it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.136 --> 00:14:02.146 A:middle
 So it's set to "no" initially
@@ -1332,7 +1228,7 @@ out the difference
 
 00:14:35.266 --> 00:14:37.226 A:middle
 between the store
-actions between these 2;
+actions between these two;
 
 00:14:37.626 --> 00:14:40.576 A:middle
 for the first buffer
@@ -1342,12 +1238,12 @@ attachment, we'd like it to end
 up on the screen so we'd like
 it to be stored into the memory.
 
-00:14:44.426 --> 00:14:46.716 A:middle
+00:14:44.426 --> 00:14:46.486 A:middle
 But the second, third, and
-fourth, color attachments depth
+fourth, color attachments,
 
-00:14:46.716 --> 00:14:49.236 A:middle
-and stencil buffers,
+00:14:46.536 --> 00:14:49.236 A:middle
+depth and stencil buffers,
 they can be discarded;
 
 00:14:49.236 --> 00:14:51.266 A:middle
@@ -1365,14 +1261,6 @@ them into memory; we don't want
 00:14:56.476 --> 00:14:58.556 A:middle
 to lose memory bandwidth
 and GP cycles
-
-00:14:58.556 --> 00:15:01.446 A:middle
-for that expensive operation
-so we set them as "don't care"
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.556 --> 00:15:01.446 A:middle
 for that expensive operation
@@ -1441,12 +1329,12 @@ to upload data into
 your texture.
 
 00:15:42.536 --> 00:15:45.076 A:middle
-This is one of them;
+This is one of them:
 basically a CPU copy.
 
 00:15:45.706 --> 00:15:47.616 A:middle
 And you can also use
-booth command encoder
+boot command encoder
 
 00:15:47.616 --> 00:15:50.936 A:middle
 to upload data inline through
@@ -1466,33 +1354,25 @@ or a uniform buffer.
 Buffers are buffers;
 they are raw data.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.126 --> 00:16:00.766 A:middle
-Buffers are buffers;
-they are raw data.
-
 00:16:01.106 --> 00:16:02.906 A:middle
 You can create them
 for anything you want
 
 00:16:02.906 --> 00:16:05.896 A:middle
 and then reach them...you
-know access them through a GPU
+know, access them through a GPU
 
 00:16:06.446 --> 00:16:10.386 A:middle
 in your shaders when you
 specify them as inputs.
 
-00:16:10.846 --> 00:16:14.216 A:middle
+00:16:10.846 --> 00:16:14.556 A:middle
 All we're doing here is creating
-one with the information
+one with the information about,
 
-00:16:14.216 --> 00:16:16.556 A:middle
-about you now the
-size and the options.
+00:16:14.946 --> 00:16:16.556 A:middle
+you know, the size
+and the options.
 
 00:16:17.606 --> 00:16:22.066 A:middle
 And as I said before, you can
@@ -1526,12 +1406,12 @@ always available to you.
 You have the freedom to modify
 however you want whenever you
 
-00:16:41.676 --> 00:16:45.486 A:middle
+00:16:41.676 --> 00:16:45.536 A:middle
 want and as long as you
-basically pay attention to GP
+basically pay attention to GPU
 
-00:16:45.486 --> 00:16:48.336 A:middle
-and CP synchronization
+00:16:45.536 --> 00:16:48.336 A:middle
+and CPU synchronization
 issues, it will work correctly.
 
 00:16:48.896 --> 00:16:53.386 A:middle
@@ -1549,26 +1429,18 @@ that it is an interesting one
 that it has an embedded
 descriptor, internal descriptor.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.446 --> 00:17:01.896 A:middle
-that it has an embedded
-descriptor, internal descriptor.
-
 00:17:01.896 --> 00:17:04.146 A:middle
 Basically that stencil
 descriptor has a stencil
 
-00:17:04.146 --> 00:17:05.425 A:middle
+00:17:04.146 --> 00:17:05.426 A:middle
 descriptor defined within it.
 
-00:17:05.896 --> 00:17:10.715 A:middle
+00:17:05.896 --> 00:17:10.716 A:middle
 But you can create all of your
 depth stencil states up front
 
-00:17:10.715 --> 00:17:12.935 A:middle
+00:17:10.716 --> 00:17:12.936 A:middle
 because just like you know
 your render to texture state,
 
@@ -1576,7 +1448,7 @@ your render to texture state,
 you actually know how
 your objects are going
 
-00:17:15.276 --> 00:17:17.185 A:middle
+00:17:15.276 --> 00:17:17.186 A:middle
 to be rendered into
 those textures.
 
@@ -1584,15 +1456,15 @@ those textures.
 You know that, for example
 in the shadow map pass,
 
-00:17:21.476 --> 00:17:23.915 A:middle
+00:17:21.476 --> 00:17:23.916 A:middle
 you don't really need to
 write into stencil buffer,
 
-00:17:23.915 --> 00:17:26.836 A:middle
+00:17:23.916 --> 00:17:26.836 A:middle
 so you can basically say
 that information here
 
-00:17:26.836 --> 00:17:27.685 A:middle
+00:17:26.836 --> 00:17:27.686 A:middle
 or you don't use that.
 
 00:17:28.016 --> 00:17:30.176 A:middle
@@ -1612,7 +1484,7 @@ for example, you might choose
 to not update the depth buffer
 
 00:17:37.576 --> 00:17:40.436 A:middle
-and then you can actually...if
+and then you can actually, if
 you know all the sates up front,
 
 00:17:40.436 --> 00:17:41.356 A:middle
@@ -1632,18 +1504,10 @@ pipeline state objects
 
 00:17:48.786 --> 00:17:52.496 A:middle
 but before we go there, I'd
-like to revisit the...kind
+like to revisit the kind
 
 00:17:53.226 --> 00:17:57.936 A:middle
-of the open GL view of the GPU.
-
-00:17:58.526 --> 00:18:01.676 A:middle
-And then go and basically talk
-about what's the motivation
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+of the OpenGL view of the GPU.
 
 00:17:58.526 --> 00:18:01.676 A:middle
 And then go and basically talk
@@ -1653,13 +1517,13 @@ about what's the motivation
 of RenderPipelineState objects
 and what is included in them.
 
-00:18:05.296 --> 00:18:08.716 A:middle
-So this is kind of how it looks
-to basically in general open GL,
+00:18:05.296 --> 00:18:08.356 A:middle
+So this is kind of how it
+looks to basically, in general,
 
-00:18:08.716 --> 00:18:11.036 A:middle
-but there's actually a
-separate vertex shader state
+00:18:08.356 --> 00:18:11.036 A:middle
+OpenGL, but there's actually
+a separate vertex shader state
 
 00:18:11.416 --> 00:18:14.106 A:middle
 and a fragment shader state
@@ -1670,11 +1534,11 @@ that are all that looks
 
 00:18:15.166 --> 00:18:17.316 A:middle
 like fixed function
-hardware controlled
+hardware-controlled
 
 00:18:17.316 --> 00:18:20.156 A:middle
 through basically
-state changing APIs.
+state-changing APIs.
 
 00:18:20.666 --> 00:18:23.126 A:middle
 Unfortunately the modern
@@ -1706,7 +1570,7 @@ there has to be some
 code running somewhere;
 
 00:18:36.106 --> 00:18:39.596 A:middle
-either a deimaging code or
+either a de-imaging code or
 a vertex fetch shader code
 
 00:18:39.866 --> 00:18:41.056 A:middle
@@ -1716,33 +1580,28 @@ that needs to bridge that gap
 between these 2 layout
 differences.
 
-00:18:43.706 --> 00:18:47.896 A:middle
-Or in some GPUs we have tile
-based deferred render so most
+00:18:43.706 --> 00:18:47.436 A:middle
+Or in some GPUs we have
+tile-based deferred render
 
-00:18:47.896 --> 00:18:50.506 A:middle
-of the frame buffer actually is
-on the GPU while you're working
+00:18:47.436 --> 00:18:49.046 A:middle
+so most of the frame
+buffer actually is
 
-00:18:50.506 --> 00:18:53.176 A:middle
-on it so the blending or write
-mask is basically a read,
+00:18:49.046 --> 00:18:51.716 A:middle
+on the GPU while you're
+working on it, so the blending
 
-00:18:53.176 --> 00:18:56.476 A:middle
-modify, write operation
-I the tile and we do
+00:18:51.716 --> 00:18:53.666 A:middle
+or write mask is
+basically a read, modify,
 
-00:18:56.476 --> 00:18:58.686 A:middle
-that by creating actually
-a shader code running
+00:18:53.666 --> 00:18:55.496 A:middle
+write operation on the tile.
 
-00:18:58.686 --> 00:19:01.036 A:middle
-on the shader core;
-it's not really a state.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:18:55.976 --> 00:18:58.686 A:middle
+And we do that by creating
+actually a shader code running
 
 00:18:58.686 --> 00:19:01.036 A:middle
 on the shader core;
@@ -1791,8 +1650,8 @@ So recognizing the differences
 between how the API looks
 
 00:19:29.666 --> 00:19:32.466 A:middle
-on a PGL and how
-actually a GP behaves,
+on OpenGL and how
+actually a GPU behaves,
 
 00:19:32.466 --> 00:19:35.596 A:middle
 we decided to basically
@@ -1827,27 +1686,23 @@ Aaftab gave a good example of
 it in his talk about language.
 
 00:19:55.436 --> 00:19:59.056 A:middle
-Obviously we have the
+Obviously, we have the
 shaders included in it.
 
 00:19:59.236 --> 00:19:59.776 A:middle
 We have
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.316 --> 00:20:03.836 A:middle
 framebuffer configurations like
 number of the rendered targets,
 
-00:20:03.836 --> 00:20:06.036 A:middle
-the pixel format,
-sample count, write mask,
+00:20:03.836 --> 00:20:07.286 A:middle
+the pixel format, sample count,
+write mask, blend information,
 
-00:20:06.036 --> 00:20:11.276 A:middle
-blend information actually,
-and depth and stencil state.
+00:20:07.716 --> 00:20:11.276 A:middle
+actually, and depth
+and stencil state.
 
 00:20:12.246 --> 00:20:15.396 A:middle
 Now we didn't go all the
@@ -1876,7 +1731,7 @@ So basically anything that
 is...that can easily be updated
 
 00:20:29.736 --> 00:20:32.326 A:middle
-or that's really truly fix
+or that's really truly fixed
 function hardware is not
 
 00:20:32.326 --> 00:20:36.726 A:middle
@@ -1924,16 +1779,8 @@ states like the cull mode,
 facing orientation, or
 information like viewport
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.436 --> 00:21:03.136 A:middle
-facing orientation, or
-information like viewport
-
 00:21:03.136 --> 00:21:05.806 A:middle
-and scissor information; depth
+and scissor information, depth
 bias and clamp and slope.
 
 00:21:06.346 --> 00:21:07.476 A:middle
@@ -1962,10 +1809,10 @@ basically you pay the cost
 up front.
 
 00:21:18.446 --> 00:21:19.706 A:middle
-There are no hidden codes
+There are no hidden codes,
 
 00:21:19.706 --> 00:21:21.866 A:middle
-that are not deferred
+there are no deferred
 state validation,
 
 00:21:21.866 --> 00:21:23.826 A:middle
@@ -1998,11 +1845,11 @@ And in our example, for example
 under rendering the mesh,
 
 00:21:40.576 --> 00:21:43.346 A:middle
-the mesh for the [inaudible],
-we're going to render it twice;
+the mesh for the temple, we're
+going to render it twice;
 
 00:21:43.346 --> 00:21:45.346 A:middle
-1 we're creating the depth
+one we're creating the depth
 buffer for the shadowMap
 
 00:21:45.686 --> 00:21:47.506 A:middle
@@ -2014,7 +1861,7 @@ accumulation...deferred
 lighting pass.
 
 00:21:49.506 --> 00:21:51.576 A:middle
-So we're going to create 2 of
+So we're going to create two of
 them; I'm going to give examples
 
 00:21:51.576 --> 00:21:53.156 A:middle
@@ -2031,16 +1878,8 @@ As we talked before,
 you hopefully basically
 compiled your shaders on Xcode
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:57.676 --> 00:22:00.676 A:middle
-you hopefully basically
-compiled your shaders on Xcode
-
 00:22:00.676 --> 00:22:02.656 A:middle
-on the [inaudible] or in
+on the host-side or in
 a library so we can go
 
 00:22:02.656 --> 00:22:05.106 A:middle
@@ -2056,8 +1895,8 @@ basically we're setting
 the vertex function,
 
 00:22:12.066 --> 00:22:14.176 A:middle
-we're setting depth
-write enabled to "true"
+we're setting depthWriteEnabled
+to "true"
 
 00:22:14.176 --> 00:22:16.036 A:middle
 because you actually want
@@ -2125,33 +1964,22 @@ for all attachments.
 
 00:22:56.426 --> 00:23:01.876 A:middle
 So we have now basically defined
-our render pass descriptors;
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:56.426 --> 00:23:01.876 A:middle
-So we have now basically defined
-our render pass descriptors;
+our render pass descriptors.
 
 00:23:02.276 --> 00:23:05.866 A:middle
-we created our buffers
+We created our buffers
 for meshes, for uniforms;
 
 00:23:06.146 --> 00:23:09.096 A:middle
 we created our textures
 and uploaded them;
 
-00:23:09.346 --> 00:23:11.636 A:middle
-we created our render
-pipeline state objects;
+00:23:09.346 --> 00:23:12.666 A:middle
+we created our render pipeline
+state objects.Well I think we
 
-00:23:12.056 --> 00:23:13.996 A:middle
-well I think we can now
-get into the business
-
-00:23:13.996 --> 00:23:15.286 A:middle
+00:23:12.666 --> 00:23:15.286 A:middle
+can now get into the business
 of drawing things on the screen.
 
 00:23:16.216 --> 00:23:19.166 A:middle
@@ -2160,26 +1988,27 @@ did a great job
 
 00:23:19.166 --> 00:23:22.436 A:middle
 in explaining how the command
-buffers are formed and used
+buffers are formed and used,
 
 00:23:22.436 --> 00:23:27.626 A:middle
-so I'm going you know visit it
-for just a bit to remind you.
+so I'm going to, you know, visit
+it for just a bit to remind you.
 
 00:23:27.836 --> 00:23:31.286 A:middle
 So we have a single command
 queue that is our channel
 
-00:23:31.286 --> 00:23:34.736 A:middle
-to the GPU and we get a command
-buffer from the command queue
+00:23:31.286 --> 00:23:33.666 A:middle
+to the GPU and we
+get a commandBuffer
 
-00:23:35.256 --> 00:23:38.096 A:middle
-and that's how we do it;
-ask the command queue
+00:23:33.666 --> 00:23:36.736 A:middle
+from the commandQueue
+and that's how we do it:
 
-00:23:38.096 --> 00:23:39.216 A:middle
-to give us a new command buffer.
+00:23:36.836 --> 00:23:39.216 A:middle
+ask the commandQueue to give
+us a new command buffer.
 
 00:23:39.286 --> 00:23:42.976 A:middle
 And then once we basically go
@@ -2194,8 +2023,8 @@ to the GPU so that's how we do
 it, by issuing a commit call.
 
 00:23:49.286 --> 00:23:52.706 A:middle
-And then finally, command
-buffers are not reused.
+And then finally,
+commandBuffers are not reused.
 
 00:23:52.916 --> 00:23:55.856 A:middle
 Once they're used, we get rid
@@ -2208,16 +2037,12 @@ a new one so we set it to "new"
 00:23:58.446 --> 00:23:59.496 A:middle
 and that takes care of it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:00.476 --> 00:24:02.326 A:middle
 One thing I like to point
 out just as Richard did
 
 00:24:02.326 --> 00:24:05.266 A:middle
-in the previous session; if
+in the previous session: if
 you like to get the results
 
 00:24:05.266 --> 00:24:07.946 A:middle
@@ -2248,18 +2073,18 @@ and it will show your
 image on the display.
 
 00:24:24.176 --> 00:24:29.196 A:middle
-Ok, now is an exciting part;
+Ok, now is an exciting part:
 creating the command encoders
 
 00:24:29.506 --> 00:24:31.786 A:middle
 and actually encoding stuff.
 
-00:24:32.146 --> 00:24:35.756 A:middle
-Well it is exciting, but there's
-actually not much left to do
+00:24:32.146 --> 00:24:35.396 A:middle
+Well, it is exciting, but
+there's actually not much left
 
-00:24:35.806 --> 00:24:37.836 A:middle
-at this point because you
+00:24:35.396 --> 00:24:37.836 A:middle
+to do at this point because you
 have done everything up front.
 
 00:24:38.536 --> 00:24:40.216 A:middle
@@ -2267,25 +2092,25 @@ So all we're going to
 do is create an encoder
 
 00:24:40.216 --> 00:24:41.406 A:middle
-from the command
-buffer this time.
+from the commandBuffer
+this time.
 
 00:24:41.716 --> 00:24:43.316 A:middle
 There can only be one
 command encoder active
 
 00:24:43.316 --> 00:24:44.636 A:middle
-at any time on a command buffer.
+at any time on a commandBuffer.
 
 00:24:45.036 --> 00:24:46.246 A:middle
-There's one exception to this;
+There's one exception to this:
 
 00:24:46.246 --> 00:24:48.766 A:middle
 this is a parallel
 RenderCommandEncoder.
 
 00:24:48.886 --> 00:24:51.566 A:middle
-I'd like to take a look
+I'd like you to take a look
 at the programming guide
 
 00:24:51.566 --> 00:24:52.656 A:middle
@@ -2302,13 +2127,6 @@ paralyze operations
 00:24:57.636 --> 00:24:59.576 A:middle
 on multiple CPUs; that's
 the only time you're going
-
-00:24:59.576 --> 00:25:00.026 A:middle
-to use it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.576 --> 00:25:00.026 A:middle
 to use it.
@@ -2359,12 +2177,9 @@ for creating this encoder.
 And then what we do
 is just set the sates;
 
-00:25:33.746 --> 00:25:34.846 A:middle
-they're all [inaudible] before
-
-00:25:34.846 --> 00:25:36.256 A:middle
-so we don't have
-to validate them.
+00:25:33.746 --> 00:25:36.256 A:middle
+they're all baked before so we
+don't have to validate them.
 
 00:25:37.016 --> 00:25:41.736 A:middle
 And we set the buffers as inputs
@@ -2390,19 +2205,11 @@ But the driver will be able to
 just go ahead and fetch them
 
 00:25:54.796 --> 00:25:57.476 A:middle
-from a [inaudible] place instead
+from a pre-baked place instead
 of creating them on the fly
 
 00:25:57.476 --> 00:25:58.766 A:middle
-or validating them on the fly
-
-00:25:59.136 --> 00:26:01.996 A:middle
-which makes Metal significantly
-faster than the alternative app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+or validating them on the fly,
 
 00:25:59.136 --> 00:26:01.996 A:middle
 which makes Metal significantly
@@ -2419,16 +2226,16 @@ by calling end encoding.
 And at this point, the
 commands are just created
 
-00:26:11.726 --> 00:26:14.106 A:middle
-in the command buffer, but
-they're not really submitted
+00:26:11.726 --> 00:26:12.576 A:middle
+in the command buffer,
 
-00:26:14.106 --> 00:26:16.956 A:middle
-to the GPU; they cannot
-be executed on the GPU
+00:26:12.926 --> 00:26:14.986 A:middle
+but they're not really
+submitted to the GPU.
 
-00:26:16.956 --> 00:26:18.776 A:middle
-yet because that's only done
+00:26:15.266 --> 00:26:18.776 A:middle
+They cannot be executed on the
+GPU yet because that's only done
 
 00:26:18.856 --> 00:26:20.346 A:middle
 when you submit your
@@ -2493,14 +2300,6 @@ basically update this part
 of the descriptor and
 are going to use that one
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.946 --> 00:27:02.236 A:middle
-of the descriptor and
-are going to use that one
-
 00:27:02.236 --> 00:27:04.586 A:middle
 to create our
 RenderCommandEncoder
@@ -2517,26 +2316,25 @@ up finishing our draw calls
 
 00:27:14.476 --> 00:27:16.486 A:middle
 and closing our encoder
-by end encoding.
+by "End encoding".
 
 00:27:16.826 --> 00:27:19.366 A:middle
 And at this point for this
 particular application
 
-00:27:19.756 --> 00:27:22.726 A:middle
-since you have only 2 passes,
-we just call the command buffer
+00:27:19.756 --> 00:27:21.176 A:middle
+since you have only two passes,
 
-00:27:22.726 --> 00:27:25.086 A:middle
-to commit and it
-will go to the GPU
+00:27:21.486 --> 00:27:24.026 A:middle
+we just call the command
+buffer commit and it will go
 
-00:27:25.086 --> 00:27:27.516 A:middle
-and the GPU will start executing
-the commands we encoded
+00:27:24.026 --> 00:27:27.126 A:middle
+to the GPU, and the GPU will
+start executing the commands we
 
-00:27:27.516 --> 00:27:27.836 A:middle
-just now.
+00:27:27.126 --> 00:27:27.836 A:middle
+encoded just now.
 
 00:27:29.286 --> 00:27:31.266 A:middle
 Ok, so that's all I
@@ -2552,7 +2350,7 @@ to go into a really,
 
 00:27:36.866 --> 00:27:40.186 A:middle
 really interesting and new
-feature that we have on iOS;
+feature that we have on iOS:
 
 00:27:40.526 --> 00:27:42.676 A:middle
 data-parallel computing
@@ -2585,14 +2383,6 @@ computing so I want to focus
 on the key points I
 wanted to get across.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.176 --> 00:28:01.466 A:middle
-on the key points I
-wanted to get across.
-
 00:28:01.466 --> 00:28:05.746 A:middle
 So we'll first talk about...and
 give a very high level overview
@@ -2614,7 +2404,7 @@ And we'll actually
 take an example,
 
 00:28:18.826 --> 00:28:21.536 A:middle
-a post processing example,
+a post-processing example,
 and show how you do that.
 
 00:28:22.106 --> 00:28:23.356 A:middle
@@ -2640,24 +2430,25 @@ of an image.
 And these computations are
 independent to each other.
 
-00:28:41.856 --> 00:28:44.726 A:middle
-So that means if I have you know
-multiple threads of execution,
+00:28:41.856 --> 00:28:44.036 A:middle
+So that means if I have,
+you know, multiple threads
 
-00:28:44.726 --> 00:28:48.176 A:middle
-I can run them all in
-parallel so that's what I mean
+00:28:44.036 --> 00:28:46.676 A:middle
+of execution, I can run
+them all in parallel
 
-00:28:48.176 --> 00:28:49.096 A:middle
-by data-parallel computing.
+00:28:46.796 --> 00:28:49.096 A:middle
+so that's what I mean by
+data-parallel computing.
 
-00:28:49.096 --> 00:28:51.746 A:middle
-So this is actually a very
-simple form a data-parallel
+00:28:49.096 --> 00:28:51.166 A:middle
+So this is actually
+a very simple form
 
-00:28:51.746 --> 00:28:54.436 A:middle
-computing and I'll
-talk a little bit more
+00:28:51.166 --> 00:28:54.436 A:middle
+of data-parallel computing and
+I'll talk a little bit more
 
 00:28:54.436 --> 00:28:58.436 A:middle
 about additional things
@@ -2665,14 +2456,6 @@ you can do in Metal
 
 00:28:58.436 --> 00:28:59.496 A:middle
 with data-parallel computing.
-
-00:28:59.496 --> 00:29:04.026 A:middle
-So a classic example of this
-data-parallel computing is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.496 --> 00:29:04.026 A:middle
 So a classic example of this
@@ -2690,10 +2473,10 @@ For each pixel you're
 looking at a nearby region
 
 00:29:11.356 --> 00:29:12.366 A:middle
-and you know applying a filter.
+and you are applying a filter.
 
 00:29:12.586 --> 00:29:14.366 A:middle
-Well I could execute
+Well, I could execute
 these in parallel.
 
 00:29:14.366 --> 00:29:16.536 A:middle
@@ -2732,9 +2515,12 @@ actually contain multiple
 work-items because now a thread
 actually may execute multiple
 
-00:29:41.496 --> 00:29:44.146 A:middle
-such things in SIMD fashion and
-then you have multiple threads.
+00:29:41.496 --> 00:29:42.896 A:middle
+such things in a SIMD fashion
+
+00:29:42.896 --> 00:29:44.146 A:middle
+and then you have
+multiple threads.
 
 00:29:44.586 --> 00:29:46.006 A:middle
 So the work-item is the thing
@@ -2758,10 +2544,6 @@ fragment shaders do, right?
 00:29:57.856 --> 00:29:59.976 A:middle
 You execute the shader
 in parallel
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.046 --> 00:30:02.886 A:middle
 or multiple fragments; they
@@ -2799,7 +2581,7 @@ you don't specify a vertex
 shader and a fragment shader
 
 00:30:25.236 --> 00:30:26.256 A:middle
-and sate and things like that.
+and state and things like that.
 
 00:30:26.256 --> 00:30:27.846 A:middle
 You just say, "Here
@@ -2814,11 +2596,11 @@ over there."
 
 00:30:31.826 --> 00:30:35.166 A:middle
 But there's more to it than that
-because in data-parallelism,
+because, in data-parallelism,
 
 00:30:35.426 --> 00:30:38.926 A:middle
 you can actually tell
-the number of algorithms
+a number of algorithms
 
 00:30:38.926 --> 00:30:41.636 A:middle
 where you actually
@@ -2849,15 +2631,7 @@ you keep looking
 
 00:30:57.506 --> 00:31:00.316 A:middle
 over until you finally have
-you know 2 partial sums
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:57.506 --> 00:31:00.316 A:middle
-over until you finally have
-you know 2 partial sums
+you know two partial sums
 
 00:31:00.316 --> 00:31:01.446 A:middle
 and then you get the final sum.
@@ -2901,13 +2675,15 @@ Remember we talked in the
 previous session about global
 
 00:31:28.026 --> 00:31:30.536 A:middle
-and constant and so for kernels,
+and constant and
+so, for kernels,
 
-00:31:30.706 --> 00:31:34.226 A:middle
-you get an additional high
-bandwidth low latency memory we
+00:31:30.706 --> 00:31:32.666 A:middle
+you get an additional
+high-bandwidth,
 
-00:31:34.226 --> 00:31:34.946 A:middle
+00:31:33.106 --> 00:31:34.946 A:middle
+low-latency memory we
 call "local memory."
 
 00:31:34.946 --> 00:31:36.796 A:middle
@@ -2929,12 +2705,12 @@ work-items want to communicate,
 they need to make sure they
 arrive at a place together
 
-00:31:45.616 --> 00:31:48.996 A:middle
-so they can exchange data
-so you get all of that
+00:31:45.616 --> 00:31:46.766 A:middle
+so they can exchange data.
 
-00:31:49.406 --> 00:31:50.706 A:middle
-with data-parallelism in Metal.
+00:31:47.196 --> 00:31:50.706 A:middle
+So you get all of that with
+data-parallelism in Metal.
 
 00:31:50.856 --> 00:31:51.806 A:middle
 So let's...
@@ -2951,25 +2727,17 @@ my problem?
 So the thing is we called it a
 computation domain so depending
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.326 --> 00:32:01.736 A:middle
-So the thing is we called it a
-computation domain so depending
-
 00:32:01.736 --> 00:32:05.506 A:middle
 on what thing you're going to
 execute this function over,
 
 00:32:05.506 --> 00:32:07.686 A:middle
 if it's an array, your
-problem is 1-dimensional.
+problem is one-dimensional.
 
 00:32:08.156 --> 00:32:10.366 A:middle
 If it's an image, your
-problem is 2-dimensional.
+problem is two-dimensional.
 
 00:32:11.036 --> 00:32:13.386 A:middle
 So I've specified
@@ -2980,7 +2748,7 @@ but what else do
 I need to specify?
 
 00:32:15.096 --> 00:32:17.586 A:middle
-Well now I need to tell
+Well, now I need to tell
 you how many work items are
 
 00:32:17.586 --> 00:32:20.456 A:middle
@@ -3011,7 +2779,7 @@ So if you're doing
 an image processing,
 
 00:32:32.326 --> 00:32:34.456 A:middle
-a post processing effect,
+a post-processing effect,
 you know you're going
 
 00:32:34.456 --> 00:32:35.666 A:middle
@@ -3038,23 +2806,20 @@ it's going to depend
 00:32:48.196 --> 00:32:49.696 A:middle
 on the algorithm you're using.
 
-00:32:49.696 --> 00:32:52.966 A:middle
+00:32:49.696 --> 00:32:52.386 A:middle
 It's going to depend on how many
-loads to operations you're doing
+load store operations you're
 
-00:32:52.966 --> 00:32:57.206 A:middle
-and how much computations; a
-ratio of memory to computations
+00:32:52.386 --> 00:32:56.146 A:middle
+doing and how much
+computations: a ratio of memory
 
-00:32:57.386 --> 00:32:58.816 A:middle
-and so play with that.
+00:32:56.146 --> 00:32:58.816 A:middle
+to computations and
+so play with that.
 
 00:32:58.816 --> 00:32:59.706 A:middle
 Choose the right dimensions.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.286 --> 00:33:02.376 A:middle
 You have the flexibility
@@ -3066,7 +2831,7 @@ take an example.
 
 00:33:04.966 --> 00:33:08.356 A:middle
 We'll look at how to take
-pseudo-code C, C Plus Plus code,
+pseudo-code C, C++ code,
 
 00:33:08.356 --> 00:33:09.486 A:middle
 and make it into shaders.
@@ -3085,7 +2850,7 @@ input, squares the result
 
 00:33:16.836 --> 00:33:19.006 A:middle
 for each element,
-and writs it out.
+and writes it out.
 
 00:33:19.306 --> 00:33:21.296 A:middle
 And remember ah,
@@ -3108,7 +2873,7 @@ to execute this function
 
 00:33:32.036 --> 00:33:35.376 A:middle
 for each index in
-parallel but first,
+parallel, but first,
 
 00:33:35.666 --> 00:33:38.366 A:middle
 I need to tell the compiler that
@@ -3152,14 +2917,6 @@ this ID to I'm going to use
 to index is unique for each
 instance and so in this case,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.526 --> 00:34:03.226 A:middle
-to index is unique for each
-instance and so in this case,
-
 00:34:03.226 --> 00:34:05.326 A:middle
 I call that a "global ID," ok?
 
@@ -3170,35 +2927,35 @@ ID and compute.
 00:34:08.186 --> 00:34:09.696 A:middle
 You have global IDs, ok?
 
-00:34:09.835 --> 00:34:12.585 A:middle
-So pretty simple;
+00:34:09.836 --> 00:34:12.586 A:middle
+So pretty simple,
 pretty straightforward.
 
 00:34:12.786 --> 00:34:14.446 A:middle
-Well let's say if
+Well, let's say if
 I'm using textures,
 
 00:34:14.446 --> 00:34:15.926 A:middle
-how would I write a kernel.
+how would I write a kernel?
 
 00:34:16.016 --> 00:34:20.306 A:middle
 So let's say I'm trying to just
 mirror an image horizontally,
 
-00:34:20.505 --> 00:34:24.906 A:middle
+00:34:20.506 --> 00:34:24.906 A:middle
 so this was my image and I
 want to...remember what I said,
 
-00:34:25.255 --> 00:34:26.206 A:middle
+00:34:25.256 --> 00:34:26.206 A:middle
 "Use the right dimensions?"
 
-00:34:26.505 --> 00:34:28.156 A:middle
+00:34:26.506 --> 00:34:28.156 A:middle
 So since I'm operating
 on an image,
 
-00:34:28.246 --> 00:34:31.025 A:middle
-I really want my global ID
-to be 2-dimensional in nature
+00:34:28.246 --> 00:34:31.026 A:middle
+I really want my global ID to
+be two-dimensional in nature
 
 00:34:31.326 --> 00:34:32.476 A:middle
 and that's what I'm doing here.
@@ -3207,7 +2964,7 @@ and that's what I'm doing here.
 And I want to read
 from my input texture
 
-00:34:36.045 --> 00:34:37.446 A:middle
+00:34:36.046 --> 00:34:37.446 A:middle
 after I have mirrored
 the coordinate
 
@@ -3215,18 +2972,18 @@ the coordinate
 and then I want to write it out.
 
 00:34:39.366 --> 00:34:42.196 A:middle
-So you're going to find
-in writing kernels,
+So you're going to
+find writing kernels,
 
 00:34:43.016 --> 00:34:45.686 A:middle
 just like writing
 shaders, it's really easy.
 
-00:34:45.985 --> 00:34:48.835 A:middle
-Its C Plus Plus code; it's
+00:34:45.986 --> 00:34:48.836 A:middle
+Its C++ code; it's
 standard with information
 
-00:34:48.835 --> 00:34:51.636 A:middle
+00:34:48.836 --> 00:34:51.636 A:middle
 so that a compiler knows
 what you are trying to do.
 
@@ -3242,20 +2999,12 @@ to say position, front-facing,
 and things like that
 for graphics?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:34:59.606 --> 00:35:00.866 A:middle
-and things like that
-for graphics?
-
 00:35:01.336 --> 00:35:03.706 A:middle
-Well we have something
+Well, we have something
 similar for kernels too.
 
 00:35:04.576 --> 00:35:07.636 A:middle
-Well global ID; you guys
+Well, global ID; you guys
 already know it is now, right?
 
 00:35:08.336 --> 00:35:12.186 A:middle
@@ -3264,7 +3013,7 @@ actually using...I'm operating
 
 00:35:12.186 --> 00:35:15.016 A:middle
 on a texture so my global
-ID is 2-dimensional.
+ID is two-dimensional.
 
 00:35:15.236 --> 00:35:17.936 A:middle
 So it can be a ushort2 or uint2
@@ -3286,11 +3035,11 @@ So when I access my texture,
 
 00:35:29.266 --> 00:35:31.226 A:middle
 I'm going to use my
-2-dimensional global ID,
+two-dimensional global ID,
 
 00:35:31.226 --> 00:35:34.416 A:middle
 but if I access a buffer, I need
-to create a 1-dimensional ID.
+to create a one-dimensional ID.
 
 00:35:34.536 --> 00:35:38.006 A:middle
 So we're trying to help you
@@ -3298,10 +3047,10 @@ not have to write all that code
 
 00:35:38.006 --> 00:35:40.156 A:middle
 because there may be bugs;
-we fixed that for you
+we fixed that for you.
 
 00:35:40.276 --> 00:35:41.556 A:middle
-so that's the global linear ID.
+So that's the global linear ID.
 
 00:35:42.006 --> 00:35:44.696 A:middle
 So now remember we said,
@@ -3323,21 +3072,13 @@ call this the "local id."
 
 00:35:54.186 --> 00:35:56.436 A:middle
 And just like you can have
-a 2-dimensional local ID,
+a two-dimensional local ID,
 
 00:35:57.016 --> 00:35:58.156 A:middle
-there's also a 1-dimensional;
+there's also a one-dimensional.
 
 00:35:59.096 --> 00:36:00.326 A:middle
-we call that that the
-"local linear ID."
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.096 --> 00:36:00.326 A:middle
-we call that that the
+We call that that the
 "local linear ID."
 
 00:36:00.326 --> 00:36:03.166 A:middle
@@ -3359,7 +3100,7 @@ the "work-group ID."
 And so why do I care about this?
 
 00:36:12.476 --> 00:36:17.006 A:middle
-Well remember you specify
+Well, remember you specify
 the number of work-items
 
 00:36:17.586 --> 00:36:19.166 A:middle
@@ -3367,7 +3108,7 @@ in the work-group and
 number of work-groups?
 
 00:36:19.596 --> 00:36:22.486 A:middle
-So let's take...for an example
+So let's take...for an example,
 I'm generating a histogram.
 
 00:36:22.806 --> 00:36:26.346 A:middle
@@ -3393,7 +3134,7 @@ partial histograms
 and generate a final histogram.
 
 00:36:35.996 --> 00:36:38.006 A:middle
-Well so that means I
+Well, so that means I
 need to write the results
 
 00:36:38.006 --> 00:36:41.096 A:middle
@@ -3427,14 +3168,6 @@ how to execute kernels.
 What commands do I
 encode to send work
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:57.346 --> 00:37:01.276 A:middle
-What commands do I
-encode to send work
-
 00:37:01.276 --> 00:37:02.606 A:middle
 to the GPU to execute a kernel?
 
@@ -3442,13 +3175,13 @@ to the GPU to execute a kernel?
 And we're going to take
 a post-processing example
 
-00:37:04.606 --> 00:37:06.596 A:middle
+00:37:04.606 --> 00:37:06.566 A:middle
 so this is going to do
 some highlights, shadows,
 
-00:37:06.636 --> 00:37:08.006 A:middle
-renew the facts and
-things like that
+00:37:06.566 --> 00:37:08.006 A:middle
+vignette effects
+and things like that
 
 00:37:08.006 --> 00:37:09.476 A:middle
 and I'll actually demo
@@ -3503,7 +3236,7 @@ But remember, the number
 of work-items times number
 
 00:37:40.716 --> 00:37:43.526 A:middle
-of work-groups makeup the total
+of work-groups make up the total
 problem domain you're going
 
 00:37:43.526 --> 00:37:44.066 A:middle
@@ -3513,8 +3246,8 @@ to operate on.
 There is no such requirement
 
 00:37:45.566 --> 00:37:48.086 A:middle
-that each work-item must
-only operate on only 1 pixel;
+that each work-item must only
+operate on only one pixel;
 
 00:37:48.546 --> 00:37:50.146 A:middle
 it could actually
@@ -3522,26 +3255,21 @@ operate on many pixels.
 
 00:37:50.566 --> 00:37:52.996 A:middle
 And depending on what you
-are doing in your code --
+are doing in your code,
 
-00:37:52.996 --> 00:37:55.556 A:middle
-again that computation
-to memory ratio --
+00:37:52.996 --> 00:37:57.356 A:middle
+again that computation to memory
+ratio, you may find its better
 
-00:37:56.336 --> 00:37:59.736 A:middle
-you may find its better to
-do more work than less work.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:37:57.356 --> 00:37:59.736 A:middle
+to do more work than less work.
 
 00:38:00.326 --> 00:38:02.376 A:middle
 So when we do this, we
 actually modify this kernel.
 
 00:38:02.536 --> 00:38:04.386 A:middle
-So we have a crack
+So we had a crack
 team working on it
 
 00:38:04.896 --> 00:38:07.386 A:middle
@@ -3549,7 +3277,7 @@ and what they did
 is they changed it
 
 00:38:07.716 --> 00:38:09.306 A:middle
-to 4 pixels per work-item.
+to four pixels per work-item.
 
 00:38:10.756 --> 00:38:12.636 A:middle
 It's like...it was
@@ -3563,12 +3291,12 @@ So that's what it's
 doing; it's for...so and so
 
 00:38:19.066 --> 00:38:22.256 A:middle
-in fact each work-group is
-doing the work of 4 work-groups
+in fact each work-group is doing
+the work of four work-groups.
 
 00:38:22.256 --> 00:38:25.306 A:middle
-so we don't need to look at this
-code, but its straightforward.
+So we don't need to look at this
+code, but it's straightforward.
 
 00:38:25.306 --> 00:38:26.896 A:middle
 It's going to loop
@@ -3595,7 +3323,7 @@ And that can actually
 help...really help you tune your
 
 00:38:41.066 --> 00:38:42.936 A:middle
-code; your data parellel
+code; your data-parallel
 function that you want
 
 00:38:42.936 --> 00:38:43.916 A:middle
@@ -3622,13 +3350,6 @@ compute command encoder
 
 00:38:56.716 --> 00:38:58.096 A:middle
 but first things first.
-
-00:38:58.636 --> 00:39:00.266 A:middle
-Remember I compiled my kernel
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.636 --> 00:39:00.266 A:middle
 Remember I compiled my kernel
@@ -3676,7 +3397,7 @@ the information we compiled
 
 00:39:23.226 --> 00:39:27.606 A:middle
 from your source to Metal
-IR, in LLVM-based IR,
+IR, an LLVM-based IR,
 
 00:39:27.606 --> 00:39:28.906 A:middle
 we're going to take that
@@ -3726,10 +3447,6 @@ So in order to do that,
 I need to first set the number
 work-items in the work-group,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.056 --> 00:40:01.176 A:middle
 and how many work-groups
 there are.
@@ -3740,11 +3457,11 @@ I use a 16 by 16.
 
 00:40:04.036 --> 00:40:05.366 A:middle
 Remember they are
-2-dimensional problems;
+two-dimensional problems;
 
 00:40:05.366 --> 00:40:07.986 A:middle
 I'm going to give it
-2-dimensional work-group size.
+two-dimensional work-group size.
 
 00:40:08.436 --> 00:40:11.276 A:middle
 And so I know the
@@ -3766,7 +3483,7 @@ And now, I encode the
 command to execute the kernel.
 
 00:40:20.686 --> 00:40:22.976 A:middle
-So 2 things I specify;
+So two things I specify:
 the work-group size
 
 00:40:22.976 --> 00:40:24.736 A:middle
@@ -3822,14 +3539,6 @@ do a tune filter.
 And so this is actually...what
 it's doing is its taking your
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.276 --> 00:41:01.836 A:middle
-And so this is actually...what
-it's doing is its taking your
-
 00:41:01.836 --> 00:41:03.376 A:middle
 input image and
 applying...converting it
@@ -3862,7 +3571,7 @@ So you can see we adjusted the
 image, it's getting sharpened.
 
 00:41:19.306 --> 00:41:22.796 A:middle
-Hopefully you do see reduced of
+Hopefully you do see regions of
 the image getting sharpened, ok?
 
 00:41:22.976 --> 00:41:24.226 A:middle
@@ -3877,7 +3586,7 @@ Because in effect what you're
 doing now is you're just writing
 
 00:41:29.596 --> 00:41:32.946 A:middle
-your code, you're algorithm,
+your code, your algorithm,
 just as a set of functions.
 
 00:41:33.346 --> 00:41:34.826 A:middle
@@ -3923,16 +3632,9 @@ in Xcode, so Serhat.
 00:41:56.516 --> 00:42:03.566 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:56.516 --> 00:42:03.566 A:middle
-[ Applause ]
-
 00:42:04.066 --> 00:42:05.956 A:middle
-&gt;&gt; Well thank you Aaftab
-and hello everyone.
+&gt;&gt; Well, thank you
+Aaftab and hello everyone.
 
 00:42:07.086 --> 00:42:09.846 A:middle
 Now I'm going to show off the
@@ -3946,8 +3648,8 @@ We'll be focusing
 on some combinations
 
 00:42:15.406 --> 00:42:19.426 A:middle
-such as state setup, shadow
-completion, and performance,
+such as state setup, shader
+compilation, and performance,
 
 00:42:20.046 --> 00:42:22.866 A:middle
 and how you can use the tools
@@ -3996,14 +3698,6 @@ initialization time for my app
 and other benefits, I also
 get to see the compilers
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.496 --> 00:43:03.576 A:middle
-and other benefits, I also
-get to see the compilers
-
 00:43:03.576 --> 00:43:06.296 A:middle
 and warnings right here
 in Xcode at build time
@@ -4015,11 +3709,11 @@ as opposed to run time.
 Let's go in and fix
 this real quick.
 
-00:43:10.926 --> 00:43:15.566 A:middle
-Let's define usable
+00:43:10.926 --> 00:43:14.906 A:middle
+Let's define user
 variables and launch the app.
 
-00:43:15.956 --> 00:43:19.226 A:middle
+00:43:14.906 --> 00:43:19.226 A:middle
 Now you can imagine this offers
 a much more productive workflow
 
@@ -4032,7 +3726,7 @@ easy, all you have
 
 00:43:23.666 --> 00:43:26.026 A:middle
 to do is you add your
-dot mil shader files,
+.mil shader files,
 
 00:43:26.026 --> 00:43:30.096 A:middle
 your Xcode project, and
@@ -4084,14 +3778,6 @@ and shaders.
 With these we can reconstruct
 the frame and you can replay
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.786 --> 00:44:03.146 A:middle
-With these we can reconstruct
-the frame and you can replay
-
 00:44:03.146 --> 00:44:05.606 A:middle
 to any particular Metal
 command that we choose.
@@ -4100,7 +3786,7 @@ command that we choose.
 So this is what I was seeing
 
 00:44:08.406 --> 00:44:10.816 A:middle
-and you can see my theme
+and you can see my scene
 is completely in shadow
 
 00:44:12.106 --> 00:44:13.676 A:middle
@@ -4149,16 +3835,20 @@ that's making it a lot easier
 00:44:43.086 --> 00:44:44.256 A:middle
 for you to navigate your frame.
 
-00:44:45.436 --> 00:44:48.336 A:middle
-Well one thing to keep in mind
-here though is the order you see
+00:44:45.436 --> 00:44:47.366 A:middle
+Well one thing to keep
+in mind here though is,
 
-00:44:48.336 --> 00:44:52.136 A:middle
-here is the order that the
-GPU executes these commands
+00:44:47.366 --> 00:44:50.016 A:middle
+the order you see
+here, is the order
+
+00:44:50.016 --> 00:44:52.136 A:middle
+that the GPU executes
+these commands.
 
 00:44:52.136 --> 00:44:53.796 A:middle
-so it's a bit different
+So it's a bit different
 than CPU debugging.
 
 00:44:54.116 --> 00:44:57.906 A:middle
@@ -4166,15 +3856,7 @@ You can also see that most
 
 00:44:57.906 --> 00:45:00.046 A:middle
 of my objects here have
-human readable names,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:57.906 --> 00:45:00.046 A:middle
-of my objects here have
-human readable names,
+human-readable names,
 
 00:45:00.046 --> 00:45:01.586 A:middle
 not just draw pointer values.
@@ -4188,7 +3870,8 @@ and I highly recommend
 taking advantage of it
 
 00:45:08.076 --> 00:45:09.666 A:middle
-as it's an aid in debugging.
+as it's a great aid
+in debugging.
 
 00:45:11.136 --> 00:45:12.396 A:middle
 Within the encoders,
@@ -4201,11 +3884,11 @@ command stream using debug
 groups shown in the navigator
 as these folder icons.
 
-00:45:20.996 --> 00:45:25.646 A:middle
-Well I can do this by using
-the push and pop debug APIs
+00:45:20.996 --> 00:45:26.076 A:middle
+Well, I can do this by using the
+push and pop debug group APIs
 
-00:45:25.646 --> 00:45:28.196 A:middle
+00:45:26.236 --> 00:45:28.196 A:middle
 and the debug groups are great
 
 00:45:28.196 --> 00:45:30.866 A:middle
@@ -4227,15 +3910,15 @@ this structure debug group
 00:45:38.066 --> 00:45:41.796 A:middle
 to navigate there; there you go.
 
-00:45:42.016 --> 00:45:46.256 A:middle
+00:45:42.016 --> 00:45:44.036 A:middle
 And as I navigate my frame,
-Xcode main editor area is going
 
-00:45:46.256 --> 00:45:49.016 A:middle
-to update and show me
-all the attachments
+00:45:44.086 --> 00:45:47.036 A:middle
+Xcode's main editor
+area is going to update
 
-00:45:49.016 --> 00:45:50.066 A:middle
+00:45:47.176 --> 00:45:50.066 A:middle
+and show me all the attachments
 for the current framebuffer.
 
 00:45:50.686 --> 00:45:53.846 A:middle
@@ -4243,19 +3926,11 @@ The assistant editor is
 where I see all my textures,
 
 00:45:54.146 --> 00:45:55.766 A:middle
-buffers, and functions.
+buffers and functions.
 
 00:45:56.576 --> 00:45:59.456 A:middle
-Currently sits in bound GPU
+Currently, it's in bound GPU
 objects so it's only going
-
-00:45:59.456 --> 00:46:01.216 A:middle
-to show me the objects
-that are bound
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:59.456 --> 00:46:01.216 A:middle
 to show me the objects
@@ -4275,16 +3950,13 @@ for the color.
 00:46:09.516 --> 00:46:11.186 A:middle
 But if I look at the assistant,
 
-00:46:12.006 --> 00:46:14.376 A:middle
-I see that my shadow
-texture bound
+00:46:12.006 --> 00:46:15.316 A:middle
+I see that my shadow texture
+bound to my fragment shader,
 
-00:46:14.376 --> 00:46:16.076 A:middle
-to my fragment shader
-here labeled
-
-00:46:16.076 --> 00:46:17.056 A:middle
-as "shadow" is all black.
+00:46:15.546 --> 00:46:17.056 A:middle
+here labeled as "shadow",
+is all black.
 
 00:46:18.176 --> 00:46:22.216 A:middle
 So that explains why my scene
@@ -4294,13 +3966,13 @@ was completely in shadow,
 but it also means that my shadow
 buffer passes aren't working
 
-00:46:24.756 --> 00:46:28.876 A:middle
-properly so let's just go there
-and investigate so I'm going
+00:46:24.756 --> 00:46:27.606 A:middle
+properly, so let's just
+go there and investigate.
 
-00:46:28.876 --> 00:46:32.276 A:middle
-to just expand this and
-click on the encoder itself.
+00:46:28.476 --> 00:46:32.276 A:middle
+So I'm going to just expand this
+and click on the encoder itself.
 
 00:46:33.376 --> 00:46:35.566 A:middle
 Now looking at this
@@ -4335,10 +4007,6 @@ but if I step through my frame
 00:46:55.596 --> 00:46:58.796 A:middle
 to see my geometry,
 that looks proper.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:00.036 --> 00:47:03.646 A:middle
 So let's look at the
@@ -4403,12 +4071,9 @@ texture here is actually depth;
 the texture I was looking at
 earlier was labeled "shadow."
 
-00:47:48.686 --> 00:47:51.946 A:middle
-Now if I disclose my
-frame reference setup
-
-00:47:51.946 --> 00:47:52.946 A:middle
-that I prepared earlier,
+00:47:48.686 --> 00:47:52.946 A:middle
+Now if I disclose my framebuffer
+setup that I prepared earlier,
 
 00:47:52.946 --> 00:47:56.236 A:middle
 I can see that I already
@@ -4417,14 +4082,6 @@ have a shadow frame buffer
 00:47:56.236 --> 00:47:58.386 A:middle
 but I'm using debug
 framebuffer here.
-
-00:47:58.386 --> 00:48:01.836 A:middle
-So that explains why I
-was getting a blank shadow
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:58.386 --> 00:48:01.836 A:middle
 So that explains why I
@@ -4471,8 +4128,8 @@ fix this real quick.
 It should be shadow.
 
 00:48:31.026 --> 00:48:33.956 A:middle
-I like to stop my
-app and relaunch it
+I'd like to stop my
+app and re-launch it
 
 00:48:34.926 --> 00:48:36.636 A:middle
 and make sure everything
@@ -4482,7 +4139,7 @@ is running properly.
 [ Pause ]
 
 00:48:43.586 --> 00:48:47.686 A:middle
-All right, so my theme
+All right, so my scene
 looks great now but looking
 
 00:48:47.686 --> 00:48:49.466 A:middle
@@ -4506,15 +4163,7 @@ report.
 
 00:48:58.846 --> 00:49:02.746 A:middle
 Now I'm getting about
-35ish frames per second;
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:58.846 --> 00:49:02.746 A:middle
-Now I'm getting about
-35ish frames per second;
+35-ish frames per second;
 
 00:49:02.746 --> 00:49:04.036 A:middle
 I was getting 60 earlier.
@@ -4564,7 +4213,7 @@ but that small amount of time
 is well worth the investment
 
 00:49:34.266 --> 00:49:36.886 A:middle
-as it offers an in depth
+as it offers an in-depth
 performance analysis
 
 00:49:36.886 --> 00:49:38.716 A:middle
@@ -4590,17 +4239,13 @@ of the performance cost
 of all my render
 pipelines in the frame along
 
-00:49:54.576 --> 00:49:57.826 A:middle
+00:49:54.576 --> 00:49:57.836 A:middle
 with all the draw calls
-that use these pipelines;
+that use these pipelines.
 
-00:49:57.826 --> 00:49:59.366 A:middle
-again close so you
-don't see that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:49:57.836 --> 00:49:59.366 A:middle
+I can disclose this
+so you see that.
 
 00:50:00.466 --> 00:50:03.366 A:middle
 Another great way to look
@@ -4654,16 +4299,15 @@ more room here.
 00:50:36.596 --> 00:50:36.686 A:middle
 Oops.
 
-00:50:39.176 --> 00:50:44.346 A:middle
-Ok, now as I look at
-my code, I can see line
+00:50:39.176 --> 00:50:41.816 A:middle
+Ok, now as I look at my code,
 
-00:50:44.346 --> 00:50:47.866 A:middle
-by line profiling data
-right alongside my code here
+00:50:43.116 --> 00:50:47.636 A:middle
+I can see line-by-line profiling
+data right alongside my code
 
-00:50:47.866 --> 00:50:48.386 A:middle
-in the editor.
+00:50:47.716 --> 00:50:48.386 A:middle
+here in the editor.
 
 00:50:48.816 --> 00:50:50.336 A:middle
 And if I keep scrolling down,
@@ -4680,17 +4324,9 @@ shadow sampling loop.
 So this many samples
 is an overkill.
 
-00:50:59.636 --> 00:51:04.596 A:middle
-Let's reduce it to just a 2 by
-2 grid and Save; Command 'S'.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:59.636 --> 00:51:04.596 A:middle
-Let's reduce it to just a 2 by
-2 grid and Save; Command 'S'.
+00:50:59.636 --> 00:51:05.116 A:middle
+Let's reduce it to just a 2
+by 2 grid and Save: Command+S.
 
 00:51:05.366 --> 00:51:08.146 A:middle
 Now when I do that, my shader
@@ -4717,7 +4353,7 @@ or less unaffected; that's good.
 
 00:51:23.796 --> 00:51:26.706 A:middle
 And now I'm spending far less
-time than the expensive part
+time in the expensive part
 
 00:51:26.706 --> 00:51:28.576 A:middle
 of my shader source
@@ -4727,13 +4363,12 @@ and that's great.
 And if I scroll all the way to
 the end, this is my end result.
 
-00:51:34.776 --> 00:51:38.126 A:middle
-Now I can go ahead
-and resume my app
+00:51:34.776 --> 00:51:39.276 A:middle
+Now I can go ahead and resume
+my app and I see a nice,
 
-00:51:38.386 --> 00:51:40.596 A:middle
-and I see a nice smooth
-60 frames per second.
+00:51:39.276 --> 00:51:40.596 A:middle
+smooth 60 frames per second.
 
 00:51:40.986 --> 00:51:41.436 A:middle
 Excellent.
@@ -4757,43 +4392,31 @@ All right, so let's
 summarize, ok?
 
 00:51:56.486 --> 00:52:01.586 A:middle
-So Gokhan you know took you
-deeper into how Metal works.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:56.486 --> 00:52:01.586 A:middle
-So Gokhan you know took you
+So Gokhan, you know, took you
 deeper into how Metal works.
 
 00:52:02.056 --> 00:52:05.336 A:middle
 You know we talked about how
 you structure the application.
 
-00:52:05.336 --> 00:52:07.706 A:middle
-The descriptors and
-state objects;
+00:52:05.336 --> 00:52:08.776 A:middle
+The descriptors and state
+objects; how do you create them
 
-00:52:07.706 --> 00:52:10.576 A:middle
-how do you create them
-and when to do what.
+00:52:09.096 --> 00:52:11.796 A:middle
+and when to do what, like
+for example: things you want
 
-00:52:10.576 --> 00:52:12.996 A:middle
-Like for example; things
-you want to do once
+00:52:11.796 --> 00:52:15.656 A:middle
+to do once, like creating
+your command queue.
 
-00:52:13.436 --> 00:52:15.656 A:middle
-like creating your
-command queue.
+00:52:16.276 --> 00:52:18.576 A:middle
+Things you need to create
+whenever you need to,
 
-00:52:16.276 --> 00:52:18.296 A:middle
-Things you need to
-create whenever you need
-
-00:52:18.296 --> 00:52:22.026 A:middle
-to like resources, and things
+00:52:18.576 --> 00:52:22.026 A:middle
+like resources, and things
 you must create every frame
 
 00:52:22.156 --> 00:52:24.206 A:middle
@@ -4808,7 +4431,7 @@ Then I gave you a
 small, brief teaser
 
 00:52:34.286 --> 00:52:36.046 A:middle
-into data parellel
+into data-parallel
 computing, ok?
 
 00:52:36.196 --> 00:52:40.086 A:middle
@@ -4827,11 +4450,11 @@ So for more information,
 any questions, you know,
 
 00:52:49.186 --> 00:52:51.756 A:middle
-Philip Iliescu [phonetic] and
-Alan Shafer are evangelists;
+Philip Iliescu and Allan
+Schaffer are evangelists.
 
 00:52:51.756 --> 00:52:53.076 A:middle
-you know their emails are there.
+You know their emails are there.
 
 00:52:53.686 --> 00:52:55.416 A:middle
 And documentation
@@ -4839,15 +4462,11 @@ is on our website.
 
 00:52:55.416 --> 00:52:59.696 A:middle
 You know you can post questions,
-emails, on the developer forums.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+emails on the developer forums.
 
 00:53:00.916 --> 00:53:03.056 A:middle
-The first 2 sessions that
-happened this morning,
+The first two sessions
+that happened this morning,
 
 00:53:03.056 --> 00:53:04.266 A:middle
 so these are the ones.
@@ -4857,4 +4476,3 @@ Thank you guys.
 
 00:53:06.508 --> 00:53:08.508 A:middle
 [ Applause ]
-

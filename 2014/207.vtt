@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:13.046 --> 00:00:16.406 A:middle
 &gt;&gt; Welcome, welcome to Session
@@ -50,18 +49,11 @@ some tools that you can use
 00:00:58.836 --> 00:01:00.246 A:middle
 to verify your changes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.836 --> 00:01:00.246 A:middle
-to verify your changes.
-
 00:01:01.346 --> 00:01:04.926 A:middle
 Then in the latter half of this
 session, Chris will come up
 
-00:01:05.275 --> 00:01:09.066 A:middle
+00:01:05.276 --> 00:01:09.066 A:middle
 and give you a live demo of
 making a game accessible.
 
@@ -114,14 +106,6 @@ may have mobility limitation,
 00:01:53.436 --> 00:01:56.636 A:middle
 and may not be able to use the
 physical mouse or keyboard.
-
-00:01:57.146 --> 00:02:01.296 A:middle
-Well to achieve the
-goal of making sure
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:57.146 --> 00:02:01.296 A:middle
 Well to achieve the
@@ -184,14 +168,6 @@ article or to watch a movie.
 00:02:55.776 --> 00:02:59.066 A:middle
 It is your application that
 they're interacting with,
-
-00:02:59.366 --> 00:03:05.156 A:middle
-whether it's to play a game
-or to write a term paper.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.366 --> 00:03:05.156 A:middle
 whether it's to play a game
@@ -265,14 +241,6 @@ interact with your application.
 And that happens through a
 channel, on what we call...
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.516 --> 00:04:02.626 A:middle
-And that happens through a
-channel, on what we call...
-
 00:04:03.816 --> 00:04:05.986 A:middle
 Accessibility API.
 
@@ -284,7 +252,7 @@ to talk to you about today:
 it's this Accessibility API
 which, for OS X Yosemite,
 
-00:04:16.745 --> 00:04:19.466 A:middle
+00:04:16.746 --> 00:04:19.466 A:middle
 we created from the ground
 up -- this brand new API.
 
@@ -328,14 +296,6 @@ focus on the UIs in the middle.
 00:04:54.506 --> 00:04:58.406 A:middle
 What I see here is: a rewind,
 play, and forward button.
-
-00:04:59.096 --> 00:05:00.876 A:middle
-Well how did I come
-to that conclusion?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.096 --> 00:05:00.876 A:middle
 Well how did I come
@@ -400,14 +360,6 @@ AppKit control you're in luck,
 00:05:55.916 --> 00:05:59.236 A:middle
 because you get most of
 that accessibility for free.
-
-00:05:59.826 --> 00:06:05.186 A:middle
-By default, AppKit
-will already fill
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.826 --> 00:06:05.186 A:middle
 By default, AppKit
@@ -479,14 +431,6 @@ string that you want it to be.
 And with just that alone, now
 a VoiceOver user could be able
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.496 --> 00:07:02.986 A:middle
-And with just that alone, now
-a VoiceOver user could be able
-
 00:07:02.986 --> 00:07:04.746 A:middle
 to be perceived this
 as a Play button.
@@ -547,14 +491,6 @@ I have to do?"
 Well the good thing
 is: it's just as easy
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:56.816 --> 00:08:01.746 A:middle
-Well the good thing
-is: it's just as easy
-
 00:08:01.746 --> 00:08:03.836 A:middle
 if you use this brand new API.
 
@@ -607,15 +543,15 @@ implementation process
 so you know exactly which
 property you have to implement,
 
-00:08:34.046 --> 00:08:36.145 A:middle
+00:08:34.046 --> 00:08:36.146 A:middle
 and we have protocols
 that should cover most
 
-00:08:36.145 --> 00:08:39.216 A:middle
+00:08:36.146 --> 00:08:39.216 A:middle
 of the commonly used
 types of UIs out there.
 
-00:08:40.285 --> 00:08:42.586 A:middle
+00:08:40.286 --> 00:08:42.586 A:middle
 So how do you go about
 implementing this?
 
@@ -634,14 +570,6 @@ corresponds to the look and feel
 00:08:54.596 --> 00:08:58.596 A:middle
 of your UI; the way or
 the function of that UI.
-
-00:08:59.176 --> 00:09:02.066 A:middle
-So in our case we have the
-example I was showing you
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.176 --> 00:09:02.066 A:middle
 So in our case we have the
@@ -720,10 +648,6 @@ action of pressing that button.
 00:09:58.496 --> 00:09:59.906 A:middle
 So what's next?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.516 --> 00:10:01.616 A:middle
 There is no next step.
 
@@ -789,14 +713,6 @@ the base protocol,
 00:10:54.246 --> 00:10:57.386 A:middle
 which is what we call the
 NSAccessibilityElement protocol.
-
-00:10:57.976 --> 00:11:00.776 A:middle
-It has a few required
-methods like the frame
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:57.976 --> 00:11:00.776 A:middle
 It has a few required
@@ -872,14 +788,6 @@ implemented is simply a custom
 view where they're
 doing their own drawing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.986 --> 00:12:01.466 A:middle
-view where they're
-doing their own drawing.
-
 00:12:02.066 --> 00:12:07.976 A:middle
 So if you have something
 like this,
@@ -941,14 +849,6 @@ backing in NSView.
 00:12:54.366 --> 00:12:56.656 A:middle
 So let's see how you'd go
 about implementing this.
-
-00:12:57.326 --> 00:13:00.506 A:middle
-So for the example
-earlier with the image --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.326 --> 00:13:00.506 A:middle
 So for the example
@@ -1029,14 +929,6 @@ asking for information
 about these objects at any
 time through IPC calls.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.516 --> 00:14:01.506 A:middle
-about these objects at any
-time through IPC calls.
-
 00:14:02.256 --> 00:14:05.976 A:middle
 So as long as they're on the
 screen, cache them around.
@@ -1095,10 +987,6 @@ so, you could continue to do so.
 00:14:54.046 --> 00:14:58.166 A:middle
 The old code will continue to
 work alongside the new code.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:00.396 --> 00:15:03.426 A:middle
 So I just told you why you
@@ -1161,10 +1049,6 @@ tools you could use.
 00:15:56.866 --> 00:15:59.676 A:middle
 The first is Accessibility
 Inspector.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.556 --> 00:16:05.166 A:middle
 This is a tool that displays all
@@ -1236,19 +1120,11 @@ Accessibility Pref Pane.
 There's an Enable
 VoiceOver checkbox.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.486 --> 00:17:00.116 A:middle
-There's an Enable
-VoiceOver checkbox.
-
 00:17:00.906 --> 00:17:03.576 A:middle
 Simply check that and you
 can turn VoiceOver on.
 
-00:17:04.935 --> 00:17:07.415 A:middle
+00:17:04.936 --> 00:17:07.416 A:middle
 So the very first time
 you turn VoiceOver on,
 
@@ -1263,22 +1139,22 @@ to go through a tutorial.
 So if you just click on
 the Learn More button,
 
-00:17:15.486 --> 00:17:17.185 A:middle
+00:17:15.486 --> 00:17:17.186 A:middle
 than it will run through
 a tutorial with you.
 
-00:17:18.106 --> 00:17:20.185 A:middle
+00:17:18.106 --> 00:17:20.186 A:middle
 So I really encourage
 you to try that.
 
-00:17:20.326 --> 00:17:21.455 A:middle
+00:17:20.326 --> 00:17:21.456 A:middle
 Run through the tutorial.
 
-00:17:22.925 --> 00:17:25.986 A:middle
+00:17:22.926 --> 00:17:25.986 A:middle
 Now, VoiceOver is a
 very powerful tool,
 
-00:17:26.415 --> 00:17:28.286 A:middle
+00:17:26.416 --> 00:17:28.286 A:middle
 so it has hundreds of commands.
 
 00:17:29.186 --> 00:17:33.336 A:middle
@@ -1311,14 +1187,6 @@ automatically turn
 
 00:17:55.446 --> 00:17:56.556 A:middle
 into a VoiceOver command.
-
-00:17:57.106 --> 00:18:01.166 A:middle
-So we have "control, option,
-right arrow" to go to next,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.106 --> 00:18:01.166 A:middle
 So we have "control, option,
@@ -1399,14 +1267,6 @@ one is the table of folders;
 and also the collection
 view of images.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.416 --> 00:19:03.136 A:middle
-and also the collection
-view of images.
-
 00:19:03.256 --> 00:19:06.686 A:middle
 To be able to interact...
 
@@ -1464,13 +1324,6 @@ Thanks Patti.
 00:19:56.416 --> 00:19:58.646 A:middle
 Hi, my name is Chris, and
 I'm a software engineer
-
-00:19:58.646 --> 00:20:00.176 A:middle
-on the OS X Accessibility Team.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.646 --> 00:20:00.176 A:middle
 on the OS X Accessibility Team.
@@ -1567,14 +1420,6 @@ command to turn on VoiceOver.
 So here, two things
 have happened
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.816 --> 00:21:01.406 A:middle
-So here, two things
-have happened
-
 00:21:01.406 --> 00:21:02.576 A:middle
 when I turn VoiceOver on.
 
@@ -1650,14 +1495,6 @@ VoiceOver-focused element.
 00:21:53.436 --> 00:21:57.936 A:middle
 So now what I'd like
 to do is turn on a mode
-
-00:21:58.226 --> 00:22:00.226 A:middle
-in VoiceOver called
-Trackpad Commander.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.226 --> 00:22:00.226 A:middle
 in VoiceOver called
@@ -1756,13 +1593,6 @@ for this checkbox.
 00:22:57.396 --> 00:22:59.616 A:middle
 So this is one of the
 problems we'll have to fix.
-
-00:22:59.776 --> 00:23:00.436 A:middle
-&gt;&gt; Difficulty.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.776 --> 00:23:00.436 A:middle
 &gt;&gt; Difficulty.
@@ -1870,10 +1700,6 @@ elements and show you how
 00:23:57.966 --> 00:23:58.886 A:middle
 to make them accessible.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:03.056 --> 00:24:04.696 A:middle
 So here's my Xcode project.
 
@@ -1968,14 +1794,6 @@ out is the main menu nib.
 This is the one and only
 nib for this entire project.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:57.446 --> 00:25:00.306 A:middle
-This is the one and only
-nib for this entire project.
-
 00:25:00.756 --> 00:25:03.426 A:middle
 And this is actually where
 we're going to start.
@@ -2059,14 +1877,6 @@ decide that I want
 to do the same thing,
 but in code?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.766 --> 00:26:00.866 A:middle
-to do the same thing,
-but in code?
-
 00:26:01.286 --> 00:26:02.846 A:middle
 Well it turns out
 that's really simple too.
@@ -2120,14 +1930,6 @@ buttons, they'll be read
 00:26:53.836 --> 00:26:56.856 A:middle
 as the increase difficulty or
 the decrease difficulty buttons.
-
-00:26:57.146 --> 00:27:00.576 A:middle
-So why did we get that
-accessibility for free?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:57.146 --> 00:27:00.576 A:middle
 So why did we get that
@@ -2218,14 +2020,6 @@ extra work here.
 Well, how do I add
 accessibility to this element?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:57.276 --> 00:28:00.586 A:middle
-Well, how do I add
-accessibility to this element?
-
 00:28:01.046 --> 00:28:02.926 A:middle
 It turns out it's
 also quite simple.
@@ -2300,14 +2094,6 @@ to draw the Restart Game button.
 So the label for this is just
 going to be "restart game."
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.326 --> 00:29:01.946 A:middle
-So the label for this is just
-going to be "restart game."
-
 00:29:11.166 --> 00:29:11.576 A:middle
 That's it.
 
@@ -2377,10 +2163,6 @@ this button has been pressed."
 So I want to call that
 same, exact method.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:06.046 --> 00:30:06.466 A:middle
 And now you notice
 
@@ -2448,14 +2230,6 @@ It's an NSView subclass.
 00:30:52.396 --> 00:30:55.686 A:middle
 So I do a lot of work to make
 it look and act like a checkbox.
-
-00:30:56.646 --> 00:31:00.356 A:middle
-So in this case, I need
-to pick a protocol.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:56.646 --> 00:31:00.356 A:middle
 So in this case, I need
@@ -2538,14 +2312,6 @@ the checkbox text here.
 Great. So one of my
 warnings has gone away.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.886 --> 00:32:01.916 A:middle
-Great. So one of my
-warnings has gone away.
-
 00:32:02.256 --> 00:32:06.136 A:middle
 The next one I want to work on
 is accessibilityPerformPress.
@@ -2622,13 +2388,6 @@ hard to try to answer all
 00:32:59.266 --> 00:33:00.706 A:middle
 of these questions in one place.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.266 --> 00:33:00.706 A:middle
-of these questions in one place.
-
 00:33:01.186 --> 00:33:04.246 A:middle
 We tried to make
 NSAccessibilityProtocol file the
@@ -2699,14 +2458,6 @@ up to the top of my file.
 I see all the warnings
 have gone away.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.816 --> 00:34:01.206 A:middle
-I see all the warnings
-have gone away.
-
 00:34:01.946 --> 00:34:02.906 A:middle
 So this is all I need to do
 
@@ -2714,11 +2465,11 @@ So this is all I need to do
 to implement an accessible
 CheckBox.
 
-00:34:07.746 --> 00:34:09.565 A:middle
+00:34:07.746 --> 00:34:09.566 A:middle
 So now the entire
 right-hand side
 
-00:34:09.565 --> 00:34:13.166 A:middle
+00:34:09.566 --> 00:34:13.166 A:middle
 of our application has added
 some basic accessibility to it.
 
@@ -2734,14 +2485,14 @@ most difficult part.
 Again, I'm going to
 back into my project,
 
-00:34:22.706 --> 00:34:26.025 A:middle
+00:34:22.706 --> 00:34:26.026 A:middle
 and I have a view
 representing the board --
 
 00:34:26.136 --> 00:34:26.936 A:middle
 it's the board view.
 
-00:34:27.505 --> 00:34:30.176 A:middle
+00:34:27.506 --> 00:34:30.176 A:middle
 And here I notice:
 it's, again, an NSView.
 
@@ -2775,7 +2526,7 @@ is it's really a collection
 00:34:49.496 --> 00:34:50.946 A:middle
 of squares, right?
 
-00:34:51.315 --> 00:34:52.876 A:middle
+00:34:51.316 --> 00:34:52.876 A:middle
 Every time I interact
 with the board,
 
@@ -2790,13 +2541,6 @@ I want to get three in a row
 00:34:58.496 --> 00:34:59.976 A:middle
 to win; I want to
 block my opponent
-
-00:34:59.976 --> 00:35:00.896 A:middle
-from getting three in a row.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.976 --> 00:35:00.896 A:middle
 from getting three in a row.
@@ -2864,13 +2608,6 @@ some label to describe it.
 00:35:55.436 --> 00:35:58.526 A:middle
 So just like with all the
 other controls I'm going
-
-00:35:58.526 --> 00:36:00.316 A:middle
-to add a label here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.526 --> 00:36:00.316 A:middle
 to add a label here.
@@ -2961,14 +2698,6 @@ a column, and a delegate.
 00:36:54.346 --> 00:36:57.756 A:middle
 And it has three properties: a
 row, a column, and a delegate.
-
-00:36:57.786 --> 00:37:00.786 A:middle
-So the delegate method
--- or the delegate --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:57.786 --> 00:37:00.786 A:middle
 So the delegate method
@@ -3065,10 +2794,6 @@ need to be implemented.
 So I'm going to take
 these one at a time.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.066 --> 00:38:04.606 A:middle
 For the frame and for the
 parent, I'm just going
@@ -3154,14 +2879,6 @@ piece there; I want to play
 that square; I want
 to make my mark there.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.696 --> 00:39:01.416 A:middle
-that square; I want
-to make my mark there.
-
 00:39:02.236 --> 00:39:03.276 A:middle
 And my delegate knows how
 
@@ -3238,14 +2955,6 @@ The first thing is,
 00:39:54.976 --> 00:39:58.126 A:middle
 I'm overriding the
 accessibilityChildren array.
-
-00:39:58.166 --> 00:40:00.386 A:middle
-So, I'm the accessibility
-ChildrenGetter
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:58.166 --> 00:40:00.386 A:middle
 So, I'm the accessibility
@@ -3336,14 +3045,6 @@ frame has always been given
 
 00:40:57.636 --> 00:40:58.826 A:middle
 in screen coordinates.
-
-00:40:58.906 --> 00:41:01.116 A:middle
-And It's important for us
-because that's what we use
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:58.906 --> 00:41:01.116 A:middle
 And It's important for us
@@ -3441,13 +3142,6 @@ you want to make sure
 00:41:58.936 --> 00:42:00.396 A:middle
 that you cache these elements.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.936 --> 00:42:00.396 A:middle
-that you cache these elements.
-
 00:42:00.916 --> 00:42:04.426 A:middle
 So at any point in your
 applications lifetime
@@ -3514,14 +3208,6 @@ Inspector.
 00:42:55.036 --> 00:42:57.286 A:middle
 And you can launch it
 from the Xcode menu
-
-00:42:58.076 --> 00:43:01.316 A:middle
-under Open Developer Tool
-and Accessibility Inspector.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.076 --> 00:43:01.316 A:middle
 under Open Developer Tool
@@ -3621,14 +3307,6 @@ is that the access...
 down here is showing up
 as decreased difficulty.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:58.016 --> 00:44:01.096 A:middle
-down here is showing up
-as decreased difficulty.
-
 00:44:01.096 --> 00:44:01.636 A:middle
 So this is good.
 
@@ -3707,14 +3385,6 @@ accessibility Children.
 00:44:54.666 --> 00:44:57.336 A:middle
 And we see that it has nine
 items and they're all buttons.
-
-00:44:57.336 --> 00:45:02.146 A:middle
-So if you take a look at
-just one button, it says it's
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:57.336 --> 00:45:02.146 A:middle
 So if you take a look at
@@ -3815,13 +3485,6 @@ button.
 00:45:56.856 --> 00:45:59.146 A:middle
 &gt;&gt; The buttons are labeled,
 and they support the actions.
-
-00:45:59.186 --> 00:46:00.046 A:middle
-&gt;&gt;2. Increase difficulty.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:59.186 --> 00:46:00.046 A:middle
 &gt;&gt;2. Increase difficulty.
@@ -3928,14 +3591,6 @@ I'm just going to point out one.
 Suppose for example that
 I'm playing this game
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:59.736 --> 00:47:02.136 A:middle
-Suppose for example that
-I'm playing this game
-
 00:47:02.386 --> 00:47:04.896 A:middle
 with a user who's
 using VoiceOver
@@ -4025,14 +3680,6 @@ changes for any reason,
 I need to send this
 notification.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.106 --> 00:48:01.006 A:middle
-I need to send this
-notification.
-
 00:48:01.346 --> 00:48:02.466 A:middle
 And it's really easy to do.
 
@@ -4113,10 +3760,6 @@ as easy as possible for you
 00:48:56.236 --> 00:48:58.886 A:middle
 to add accessibility
 with our new API.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:00.016 --> 00:49:05.016 A:middle
 I should also mention that
@@ -4210,14 +3853,6 @@ that we've done.
 This is available, along
 with the Tic Tac Toe app,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:58.956 --> 00:50:01.556 A:middle
-This is available, along
-with the Tic Tac Toe app,
-
 00:50:01.556 --> 00:50:03.686 A:middle
 on developer.apple.com today.
 
@@ -4297,10 +3932,6 @@ an accessibility backing object
 00:50:55.946 --> 00:50:59.586 A:middle
 when there's no UI view for
 it, or NSView backing it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:00.206 --> 00:51:02.216 A:middle
 We'd like to encourage you
@@ -4387,14 +4018,6 @@ on the dev forums.
 If you liked this session, and
 you're interested in finding
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:59.116 --> 00:52:01.586 A:middle
-If you liked this session, and
-you're interested in finding
-
 00:52:01.586 --> 00:52:04.236 A:middle
 out how accessibility works
 on our other platforms,
@@ -4442,4 +4065,3 @@ or "-Xcompiler".
 00:52:24.016 --> 00:52:24.856 A:middle
 [2]I think she's
 saying "forUIElement".
-

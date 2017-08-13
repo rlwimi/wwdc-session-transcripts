@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.716 --> 00:00:21.846 A:middle
 &gt;&gt; Howdy. I'm Daniel Delwood
@@ -59,13 +58,6 @@ each with associated demos.
 00:00:55.666 --> 00:00:58.846 A:middle
 Hopefully, so that whether
 you're a new profiler
-
-00:00:59.066 --> 00:01:00.026 A:middle
-on our platform
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.066 --> 00:01:00.026 A:middle
 on our platform
@@ -136,14 +128,6 @@ up some of your workflows.
 And on the right we've got
 a centralized place for all
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:55.356 --> 00:02:01.756 A:middle
-And on the right we've got
-a centralized place for all
-
 00:02:01.756 --> 00:02:03.186 A:middle
 of your configuration options,
 
@@ -151,11 +135,11 @@ of your configuration options,
 so whether this is recording
 options before you run,
 
-00:02:06.106 --> 00:02:09.765 A:middle
+00:02:06.106 --> 00:02:09.766 A:middle
 viewing options, or an
 extended detail, stack traces.
 
-00:02:10.145 --> 00:02:12.586 A:middle
+00:02:10.146 --> 00:02:12.586 A:middle
 There's one place now to go and
 that's called the Inspector.
 
@@ -217,14 +201,6 @@ you can understand what's going
 
 00:02:57.756 --> 00:02:59.026 A:middle
 on with the technology.
-
-00:02:59.366 --> 00:03:02.576 A:middle
-And so Instruments has support
-for Swift, and this will run
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.366 --> 00:03:02.576 A:middle
 And so Instruments has support
@@ -304,14 +280,6 @@ objects you interact withview
 controllers, NSImages,
 managed object context,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.856 --> 00:04:02.766 A:middle
-controllers, NSImages,
-managed object context,
-
 00:04:03.246 --> 00:04:06.316 A:middle
 these are the objects that your
 code directly interact with.
@@ -372,13 +340,6 @@ the rules are documented,
 00:04:55.786 --> 00:04:59.146 A:middle
 and the key point here is
 that it's deterministic,
-
-00:04:59.506 --> 00:05:01.966 A:middle
-simple and pretty fast.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.506 --> 00:05:01.966 A:middle
 simple and pretty fast.
@@ -456,14 +417,6 @@ autoreleasepools as makes sense
 with the objective C
 code that you're using.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.256 --> 00:06:00.276 A:middle
-with the objective C
-code that you're using.
-
 00:06:02.296 --> 00:06:05.296 A:middle
 So if these are the ownership
 models what tools do we have
@@ -531,14 +484,6 @@ for them, so retains, releases,
 00:06:56.196 --> 00:06:57.686 A:middle
 and even allows you
 to pair these.
-
-00:06:58.736 --> 00:07:00.616 A:middle
-It also provides a
-lot of information
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.736 --> 00:07:00.616 A:middle
 It also provides a
@@ -624,14 +569,6 @@ which has 2 instruments,
 the Allocations and
 Leaks Instrument.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.506 --> 00:08:00.866 A:middle
-the Allocations and
-Leaks Instrument.
-
 00:08:01.236 --> 00:08:06.086 A:middle
 And for this demo I'll pull
 up the list of apps installed
@@ -674,15 +611,15 @@ want to select a process other
 00:08:36.326 --> 00:08:38.956 A:middle
 than your main app executable
 
-00:08:38.956 --> 00:08:41.275 A:middle
+00:08:38.956 --> 00:08:41.276 A:middle
 when you're profiling
 your sharing extension.
 
-00:08:42.336 --> 00:08:43.905 A:middle
+00:08:42.336 --> 00:08:43.906 A:middle
 Now for this demo
 I'm actually going
 
-00:08:43.905 --> 00:08:45.056 A:middle
+00:08:43.906 --> 00:08:45.056 A:middle
 to select a today extension,
 
 00:08:46.086 --> 00:08:49.716 A:middle
@@ -700,14 +637,6 @@ my app in the simulator,
 00:08:56.296 --> 00:08:59.146 A:middle
 and it's an app extension
 bringing in today view.
-
-00:08:59.396 --> 00:09:04.576 A:middle
-And what I have is an extension
-that allows me quick access
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.396 --> 00:09:04.576 A:middle
 And what I have is an extension
@@ -771,10 +700,6 @@ recorded, things like CFString,
 00:09:56.406 --> 00:09:59.146 A:middle
 and I can type in
 for my example, dot,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.486 --> 00:10:01.986 A:middle
 and we see four different
@@ -843,13 +768,6 @@ only to be on active at a time.
 00:10:54.006 --> 00:10:58.276 A:middle
 So this I've immediately
 identified a bug and I should go
-
-00:10:58.276 --> 00:11:00.416 A:middle
-at this point and fix it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.276 --> 00:11:00.416 A:middle
 at this point and fix it.
@@ -940,14 +858,6 @@ Generation, it creates sort
 of a baseline snapshot, and what
 this is doing is categorizing
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:56.356 --> 00:12:00.066 A:middle
-of a baseline snapshot, and what
-this is doing is categorizing
-
 00:12:00.156 --> 00:12:02.366 A:middle
 all the persistent
 memory in my application
@@ -1020,13 +930,6 @@ frame calling new game,
 00:12:58.356 --> 00:13:01.226 A:middle
 an action on my view controller.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.356 --> 00:13:01.226 A:middle
-an action on my view controller.
-
 00:13:01.716 --> 00:13:02.916 A:middle
 Let's take a look
 at that real quick.
@@ -1089,14 +992,6 @@ capture new game and, well,
 00:13:55.926 --> 00:13:58.576 A:middle
 it's probably safe to capture
 self weakly as well here.
-
-00:13:59.576 --> 00:14:04.326 A:middle
-Now Swift offers a really
-good technique for doing this,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.576 --> 00:14:04.326 A:middle
 Now Swift offers a really
@@ -1176,14 +1071,6 @@ when we're running on a system
 that you get the best
 user experience possible.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.446 --> 00:15:01.356 A:middle
-that you get the best
-user experience possible.
-
 00:15:02.046 --> 00:15:04.986 A:middle
 Now I'd like to direct
 you to two other sessions,
@@ -1251,14 +1138,6 @@ converts your type,
 00:15:55.666 --> 00:15:57.436 A:middle
 it requires that you
 use an optional type
-
-00:15:57.866 --> 00:16:00.796 A:middle
-because what it does is it
-returns the type of nil,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:57.866 --> 00:16:00.796 A:middle
 because what it does is it
@@ -1340,14 +1219,6 @@ weak type of declarations
 and then use them
 inside the block.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.796 --> 00:17:01.806 A:middle
-and then use them
-inside the block.
-
 00:17:03.926 --> 00:17:06.376 A:middle
 In Swift, like I
 showed you, it's very,
@@ -1356,19 +1227,19 @@ showed you, it's very,
 very easy using capture lists to
 quickly change the memory type
 
-00:17:12.516 --> 00:17:15.185 A:middle
+00:17:12.516 --> 00:17:15.186 A:middle
 of your variables
 within the closure,
 
-00:17:15.526 --> 00:17:17.695 A:middle
+00:17:15.526 --> 00:17:17.696 A:middle
 and so just by declaring
 the weak
 
-00:17:17.695 --> 00:17:21.366 A:middle
+00:17:17.696 --> 00:17:21.366 A:middle
 and the capture list we can
 use them and no problems.
 
-00:17:21.816 --> 00:17:23.935 A:middle
+00:17:21.816 --> 00:17:23.936 A:middle
 And Swift is also really
 powerful here in that
 
@@ -1414,14 +1285,6 @@ you about Time Profiling.
 00:17:55.676 --> 00:17:59.196 A:middle
 &gt;&gt; Time Profiler at a high level
 is a tool within Instruments
-
-00:17:59.326 --> 00:18:01.336 A:middle
-that helps you make
-your apps faster.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.326 --> 00:18:01.336 A:middle
 that helps you make
@@ -1508,14 +1371,6 @@ Time Profiler?
 Time Profiler is an instrument
 that samples stack traces
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.166 --> 00:19:00.576 A:middle
-Time Profiler is an instrument
-that samples stack traces
-
 00:19:00.576 --> 00:19:04.836 A:middle
 at pre-described intervals, and
 its goal is to give you an idea
@@ -1592,14 +1447,6 @@ some portion
 00:19:52.646 --> 00:19:56.546 A:middle
 of your app is taking too long,
 parsing a file or something
-
-00:19:56.546 --> 00:20:00.216 A:middle
-of that nature, but it's also
-fine to use Time Profiler
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:56.546 --> 00:20:00.216 A:middle
 of that nature, but it's also
@@ -1683,14 +1530,6 @@ some hot spots in there.
 00:20:54.706 --> 00:20:57.176 A:middle
 So I'm going to go ahead
 and Time Profile this app,
-
-00:20:57.526 --> 00:21:01.586 A:middle
-and to do that I am going
-to press and click and hold
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:57.526 --> 00:21:01.586 A:middle
 and to do that I am going
@@ -1782,14 +1621,6 @@ to make a couple adjustments.
 And, actually, I'm right here,
 this is, you can't quite see all
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.196 --> 00:22:03.086 A:middle
-And, actually, I'm right here,
-this is, you can't quite see all
-
 00:22:03.086 --> 00:22:05.446 A:middle
 of it, but the two changes I
 want to make and why is going
@@ -1874,13 +1705,6 @@ and get the thumbnail
 00:22:59.456 --> 00:23:00.396 A:middle
 and then get the big view.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.456 --> 00:23:00.396 A:middle
-and then get the big view.
-
 00:23:00.396 --> 00:23:02.136 A:middle
 And now I'm going to go
 ahead and click on my button,
@@ -1948,14 +1772,6 @@ hopefully far more intuitive
 
 00:23:56.206 --> 00:23:57.686 A:middle
 than it was before.
-
-00:23:57.686 --> 00:24:00.506 A:middle
-And then to actually zoom in you
-do the same thing, but you hold
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.686 --> 00:24:00.506 A:middle
 And then to actually zoom in you
@@ -2042,14 +1858,6 @@ to hide missing symbols.
 No, I'm going to choose
 hide system libraries,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.846 --> 00:25:01.096 A:middle
-No, I'm going to choose
-hide system libraries,
-
 00:25:01.686 --> 00:25:04.966 A:middle
 and this narrows it
 down to just my code.
@@ -2124,14 +1932,6 @@ this nice is I can see per
 00:25:51.356 --> 00:25:57.186 A:middle
 thread really quickly what each,
 what's the expensive calls.
-
-00:25:58.366 --> 00:26:00.936 A:middle
-So I'm here, so I'm
-spending a lot of time
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.366 --> 00:26:00.936 A:middle
 So I'm here, so I'm
@@ -2216,14 +2016,6 @@ my own face detection
 and maybe that'll be
 faster than what's provided
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.426 --> 00:27:01.216 A:middle
-and maybe that'll be
-faster than what's provided
-
 00:27:01.216 --> 00:27:03.036 A:middle
 in the kit, probably not.
 
@@ -2297,14 +2089,6 @@ a little bit here,
 
 00:27:57.616 --> 00:27:58.436 A:middle
 I want to point this out.
-
-00:27:59.076 --> 00:28:04.306 A:middle
-I'm using a mutable dictionary
-as my cache, and so instead
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.076 --> 00:28:04.306 A:middle
 I'm using a mutable dictionary
@@ -2391,14 +2175,6 @@ work is already done,
 so now there's a little
 spike, click the button, oh,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.766 --> 00:29:02.086 A:middle
-so now there's a little
-spike, click the button, oh,
-
 00:29:02.846 --> 00:29:06.496 A:middle
 scroll down here, try this
 one, oh, I love this app,
@@ -2468,14 +2244,6 @@ and making it smaller.
 00:29:50.516 --> 00:29:54.256 A:middle
 But the other thing
 I happen to know:
-
-00:29:55.536 --> 00:30:00.436 A:middle
-that I can see the CPU spikes
-and there's a few of them,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:55.536 --> 00:30:00.436 A:middle
 that I can see the CPU spikes
@@ -2572,14 +2340,6 @@ detective work to really narrow
 down where in your app
 you're seeing the stuttering
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.926 --> 00:31:01.186 A:middle
-down where in your app
-you're seeing the stuttering
-
 00:31:01.186 --> 00:31:02.826 A:middle
 or you're having the problem,
 and you're probably going
@@ -2654,13 +2414,6 @@ all this code.
 00:31:55.326 --> 00:31:58.966 A:middle
 We don't need to
 use a URL request
-
-00:31:58.966 --> 00:32:00.206 A:middle
-to load a local resource.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.966 --> 00:32:00.206 A:middle
 to load a local resource.
@@ -2748,14 +2501,6 @@ to add some code
 that actually goes through, and
 just simply touches each photo,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:56.276 --> 00:33:00.356 A:middle
-that actually goes through, and
-just simply touches each photo,
-
 00:33:00.356 --> 00:33:04.156 A:middle
 asks for its thumbnail, and that
 gets-that causes the generation
@@ -2832,18 +2577,11 @@ of Time Profiler.
 00:33:56.516 --> 00:34:02.356 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:56.516 --> 00:34:02.356 A:middle
-[ Applause ]
-
 00:34:02.856 --> 00:34:05.416 A:middle
 So to real quickly, or I
 don't know, maybe I won't be
 
-00:34:05.416 --> 00:34:08.045 A:middle
+00:34:05.416 --> 00:34:08.046 A:middle
 that quick, we'll see,
 review what we've done.
 
@@ -2851,10 +2589,10 @@ review what we've done.
 We talked about the new track
 view, you can identify and zoom
 
-00:34:11.886 --> 00:34:13.025 A:middle
+00:34:11.886 --> 00:34:13.026 A:middle
 in on the problem areas.
 
-00:34:13.536 --> 00:34:17.335 A:middle
+00:34:13.536 --> 00:34:17.336 A:middle
 You drag and select to
 apply a time range filter.
 
@@ -2862,23 +2600,23 @@ apply a time range filter.
 Shift+drag zooms in, and
 control+drag will zoom you out.
 
-00:34:22.235 --> 00:34:24.726 A:middle
+00:34:22.236 --> 00:34:24.726 A:middle
 We also talked about
 the new inspector panes.
 
-00:34:24.726 --> 00:34:27.485 A:middle
+00:34:24.726 --> 00:34:27.486 A:middle
 There are some new
 keyboard shortcuts,
 
-00:34:27.485 --> 00:34:29.315 A:middle
+00:34:27.486 --> 00:34:29.316 A:middle
 so you can quickly
 move between them.
 
-00:34:29.536 --> 00:34:31.795 A:middle
+00:34:29.536 --> 00:34:31.796 A:middle
 If you're familiar
 with a certain IDE,
 
-00:34:31.795 --> 00:34:34.786 A:middle
+00:34:31.796 --> 00:34:34.786 A:middle
 this should kind of ring a bell.
 
 00:34:34.786 --> 00:34:37.556 A:middle
@@ -2892,18 +2630,18 @@ that apply
 00:34:38.976 --> 00:34:41.186 A:middle
 to the next recording session.
 
-00:34:42.156 --> 00:34:45.335 A:middle
+00:34:42.156 --> 00:34:45.336 A:middle
 Command 2 is display settings,
 so it alters how you see things,
 
-00:34:45.335 --> 00:34:47.666 A:middle
+00:34:45.336 --> 00:34:47.666 A:middle
 either in the detail
 and extended detail
 
-00:34:47.666 --> 00:34:49.025 A:middle
+00:34:47.666 --> 00:34:49.026 A:middle
 or in the track view itself.
 
-00:34:49.025 --> 00:34:52.556 A:middle
+00:34:49.026 --> 00:34:52.556 A:middle
 And then Command 3 is
 the extended detail,
 
@@ -2917,14 +2655,6 @@ either in your detailed view,
 
 00:34:58.176 --> 00:34:59.596 A:middle
 like the Call Tree view
-
-00:34:59.916 --> 00:35:04.076 A:middle
-or in the actual
-instruments tracks itself.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.916 --> 00:35:04.076 A:middle
 or in the actual
@@ -3011,14 +2741,6 @@ It's also a great way
 to see what each thread is
 spending its time doing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:56.936 --> 00:36:00.646 A:middle
-to see what each thread is
-spending its time doing.
-
 00:36:01.856 --> 00:36:04.746 A:middle
 And then you can hide system
 libraries to help you focus
@@ -3079,14 +2801,6 @@ when you're using Time Profiler.
 00:36:52.596 --> 00:36:55.726 A:middle
 First, you should always
 Profile Release builds.
-
-00:36:55.886 --> 00:37:00.596 A:middle
-The performance characteristics
-of a debug build
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:55.886 --> 00:37:00.596 A:middle
 The performance characteristics
@@ -3164,14 +2878,6 @@ your time to run Time Profiler
 
 00:37:56.696 --> 00:37:58.826 A:middle
 in the simulator, all right?
-
-00:37:59.626 --> 00:38:01.546 A:middle
-And, with that, I'm going to
-hand it off to my colleague,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.626 --> 00:38:01.546 A:middle
 And, with that, I'm going to
@@ -3260,13 +2966,6 @@ So what does that look like?
 00:38:57.636 --> 00:38:59.586 A:middle
 The called performance
 monitoring interrupts,
-
-00:38:59.586 --> 00:39:00.986 A:middle
-or PMIs for short.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:59.586 --> 00:39:00.986 A:middle
 or PMIs for short.
@@ -3362,14 +3061,6 @@ it maybe a little bit more
 
 00:39:58.806 --> 00:39:59.586 A:middle
 of an advanced instrument,
-
-00:39:59.586 --> 00:40:00.976 A:middle
-but it's something you should
-still have in your toolbox.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:59.586 --> 00:40:00.976 A:middle
 but it's something you should
@@ -3474,14 +3165,6 @@ which is instructions per cycle.
 That's a measure of how
 much work you're doing
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.686 --> 00:41:00.596 A:middle
-That's a measure of how
-much work you're doing
-
 00:41:00.596 --> 00:41:01.856 A:middle
 in a given clock tick.
 
@@ -3569,14 +3252,6 @@ Matrix Multiplication app,
 so if your linear
 algebra is a bit hazy
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:59.546 --> 00:42:02.096 A:middle
-so if your linear
-algebra is a bit hazy
-
 00:42:02.096 --> 00:42:06.886 A:middle
 to do a Matrix Multiplication
 of a two N by N Matrices,
@@ -3655,14 +3330,6 @@ starts my Matrix Multiplication.
 00:42:56.686 --> 00:42:58.296 A:middle
 Now this is going to
 take a little while
-
-00:42:58.296 --> 00:43:01.176 A:middle
-because I'm multiplying two
-1,000 by 1,000 matrices,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.296 --> 00:43:01.176 A:middle
 because I'm multiplying two
@@ -3757,14 +3424,6 @@ as much as I could do.
 Well, we can actually
 dig a little bit deeper
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.546 --> 00:44:01.466 A:middle
-Well, we can actually
-dig a little bit deeper
-
 00:44:01.496 --> 00:44:02.976 A:middle
 if we're willing to go
 look at this assembly.
@@ -3843,13 +3502,6 @@ of stores that missed.
 00:44:59.936 --> 00:45:00.966 A:middle
 So I have those events.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.936 --> 00:45:00.966 A:middle
-So I have those events.
-
 00:45:00.966 --> 00:45:02.656 A:middle
 I'm going to create
 a formula using them.
@@ -3915,14 +3567,6 @@ start my recording again,
 00:45:55.176 --> 00:45:58.016 A:middle
 and this time I'm going
 to see the Call Tree view,
-
-00:45:58.346 --> 00:46:01.826 A:middle
-as well as the track view has a
-bunch more things being drawn,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:58.346 --> 00:46:01.826 A:middle
 as well as the track view has a
@@ -4015,14 +3659,6 @@ calculation says I should only
 probably do about 2
 million, so why is it so big?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:46:58.186 --> 00:47:01.036 A:middle
-probably do about 2
-million, so why is it so big?
-
 00:47:01.716 --> 00:47:04.136 A:middle
 Well, it turns out if
 you go online and search,
@@ -4104,14 +3740,6 @@ code, very straightforward.
 00:47:55.366 --> 00:47:58.986 A:middle
 And our L2 cache load
 number is now at 24 million,
-
-00:47:59.286 --> 00:48:02.306 A:middle
-so we went from 450
-million down to 24 million,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:59.286 --> 00:48:02.306 A:middle
 so we went from 450
@@ -4208,14 +3836,6 @@ that has that done, and if I tap
 on that version, see it
 actually finished here
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.856 --> 00:49:02.516 A:middle
-on that version, see it
-actually finished here
-
 00:49:02.516 --> 00:49:06.446 A:middle
 in about 200 milliseconds
 and it's one line of code
@@ -4293,14 +3913,6 @@ basically going to collect data
 00:49:57.416 --> 00:49:59.306 A:middle
 by default, similar
 to Time Profiler.
-
-00:49:59.616 --> 00:50:01.836 A:middle
-It's a statistical sampling
-of your application.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:59.616 --> 00:50:01.836 A:middle
 It's a statistical sampling
@@ -4411,13 +4023,6 @@ lot more quickly.
 00:50:59.966 --> 00:51:02.546 A:middle
 And be sure to use formulas,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:59.966 --> 00:51:02.546 A:middle
-And be sure to use formulas,
-
 00:51:02.586 --> 00:51:04.046 A:middle
 so you can gather
 all these raw events,
@@ -4511,14 +4116,6 @@ CGContextFillRects guy?
 Arg1 is a variable size rects
 array, and Arg2 is the count
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:58.836 --> 00:52:03.396 A:middle
-Arg1 is a variable size rects
-array, and Arg2 is the count
-
 00:52:03.396 --> 00:52:04.656 A:middle
 of how many things are in there.
 
@@ -4606,14 +4203,6 @@ Previously, if you wanted
 to make sure you got every
 single probe firing from DTrace,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:58.806 --> 00:53:01.606 A:middle
-to make sure you got every
-single probe firing from DTrace,
-
 00:53:01.606 --> 00:53:04.016 A:middle
 you might have to start
 your application as root,
@@ -4696,14 +4285,6 @@ we saw a lot of things.
 00:53:55.026 --> 00:53:58.166 A:middle
 We saw Allocations, Leaks,
 Time Profiler, Counters;
-
-00:53:58.166 --> 00:54:01.706 A:middle
-so there's a lot of tools in the
-toolbox, and you can use them
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:58.166 --> 00:54:01.706 A:middle
 so there's a lot of tools in the
@@ -4799,14 +4380,6 @@ questions, as well.
 There's a few related
 sessions, and we saw some stuff
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:54:57.706 --> 00:55:02.776 A:middle
-There's a few related
-sessions, and we saw some stuff
-
 00:55:02.776 --> 00:55:05.156 A:middle
 about App Extensions
 today, so you'll see that.
@@ -4834,4 +4407,3 @@ Have a great week.
 
 00:55:16.516 --> 00:55:24.500 A:middle
 [ Applause ]
-

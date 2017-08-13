@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.516 --> 00:00:16.596 A:middle
 [ Applause ]
@@ -8,8 +7,8 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 &gt;&gt; Hello everyone.
 
 00:00:18.166 --> 00:00:20.236 A:middle
-Welcome to Introducing
-HealthKit.
+Welcome to "Introducing
+HealthKit."
 
 00:00:20.756 --> 00:00:24.776 A:middle
 My name is Justin, I'm an iOS
@@ -60,14 +59,6 @@ of their current health.
 The few apps that can share
 data have to write all sorts
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.906 --> 00:01:02.576 A:middle
-The few apps that can share
-data have to write all sorts
-
 00:01:02.576 --> 00:01:06.336 A:middle
 of custom code to do so, which
 means you spend your time
@@ -88,7 +79,7 @@ different applications have
 different needs.
 
 00:01:18.486 --> 00:01:20.306 A:middle
-The way we see it
+The way we see it,
 they can be grouped
 
 00:01:20.306 --> 00:01:22.316 A:middle
@@ -113,17 +104,17 @@ put out by health providers
 that let users sync data with
 their personal medical record.
 
-00:01:43.446 --> 00:01:46.986 A:middle
-These are three very different
-scenarios but we built HealthKit
+00:01:43.446 --> 00:01:45.716 A:middle
+These are three very
+different scenarios,
 
-00:01:46.986 --> 00:01:49.416 A:middle
-so that it can handle all
-of them and we're going
+00:01:45.916 --> 00:01:48.666 A:middle
+but we built HealthKit so that
+it can handle all of them,
 
-00:01:49.416 --> 00:01:52.746 A:middle
-to show you how it
-does that today.
+00:01:48.666 --> 00:01:52.746 A:middle
+and we're going to show
+you how it does that today.
 
 00:01:52.896 --> 00:01:55.936 A:middle
 Throughout this talk we're going
@@ -137,14 +128,6 @@ new health application
 that we're introducing
 with iOS 8.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.156 --> 00:02:01.506 A:middle
-that we're introducing
-with iOS 8.
-
 00:02:03.156 --> 00:02:04.606 A:middle
 So here's our agenda for today.
 
@@ -152,11 +135,11 @@ So here's our agenda for today.
 We're going to start
 off by walking you
 
-00:02:07.156 --> 00:02:10.765 A:middle
+00:02:07.156 --> 00:02:10.766 A:middle
 through the HealthKit API so you
 can learn how to create data,
 
-00:02:10.765 --> 00:02:14.636 A:middle
+00:02:10.766 --> 00:02:14.636 A:middle
 how to save data and how
 to ask for data as well.
 
@@ -213,10 +196,6 @@ stones in England
 or kilograms in many
 other areas.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:00.836 --> 00:03:03.826 A:middle
 We didn't want you to have to
 do unit conversion yourself
@@ -225,10 +204,10 @@ do unit conversion yourself
 so we handle unit conversion
 for you right in HealthKit.
 
-00:03:09.306 --> 00:03:12.306 A:middle
-Units are handled by HKUnit
+00:03:09.306 --> 00:03:11.706 A:middle
+Units are handled by HKUnit,
 
-00:03:14.476 --> 00:03:18.286 A:middle
+00:03:12.216 --> 00:03:18.286 A:middle
 and HKUnit represents a
 particular unit in the metric
 
@@ -236,8 +215,8 @@ particular unit in the metric
 or imperial unit system.
 
 00:03:21.246 --> 00:03:25.286 A:middle
-These can be simple such as
-grams or they can be complex
+These can be simple, such as
+grams, or they can be complex,
 
 00:03:25.346 --> 00:03:27.086 A:middle
 like milligrams per deciliter.
@@ -273,19 +252,11 @@ First, you can specify
 them explicitly in code.
 
 00:03:56.886 --> 00:03:58.616 A:middle
-Here we're creating a gram unit
+Here we're creating a gram unit,
 
 00:03:59.776 --> 00:04:01.966 A:middle
 and then we're creating
-a deciliter unit
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.776 --> 00:04:01.966 A:middle
-and then we're creating
-a deciliter unit
+a deciliter unit.
 
 00:04:02.976 --> 00:04:06.576 A:middle
 and we're combining the two to
@@ -293,10 +264,10 @@ make a grams per deciliter unit.
 
 00:04:07.816 --> 00:04:10.016 A:middle
 This works really
-well for simple units
+well for simple units,
 
 00:04:10.096 --> 00:04:12.536 A:middle
-but as you can see it
+but as you can see, it
 gets pretty unwieldy
 
 00:04:12.626 --> 00:04:14.566 A:middle
@@ -328,12 +299,12 @@ to do is create an HKQuantity.
 An HKQuantity is a double value
 relative to a particular unit.
 
-00:04:39.726 --> 00:04:42.486 A:middle
+00:04:39.726 --> 00:04:41.876 A:middle
 What's really cool about
-quantities though is
+quantities, though,
 
-00:04:42.486 --> 00:04:45.316 A:middle
-that they can be used to
+00:04:42.376 --> 00:04:45.316 A:middle
+is that they can be used to
 do unit conversion for you.
 
 00:04:46.386 --> 00:04:47.676 A:middle
@@ -347,13 +318,6 @@ a quantity of 20 grams.
 00:04:54.036 --> 00:04:57.506 A:middle
 Next we can ask for its
 double value in kilograms.
-
-00:04:58.006 --> 00:05:01.326 A:middle
-This will give us back .02.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.006 --> 00:05:01.326 A:middle
 This will give us back .02.
@@ -385,13 +349,16 @@ with a particular unit.
 00:05:20.316 --> 00:05:21.446 A:middle
 So return a BOOL.
 
-00:05:23.386 --> 00:05:26.706 A:middle
-So now that you have your
-quantity the question you should
+00:05:23.386 --> 00:05:25.666 A:middle
+So now that you have
+your quantity,
 
-00:05:26.706 --> 00:05:29.976 A:middle
-be asking yourself is what
-is this a quantity of?
+00:05:26.106 --> 00:05:28.456 A:middle
+the question you should be
+asking yourself is what is this
+
+00:05:28.456 --> 00:05:29.976 A:middle
+a quantity of?
 
 00:05:30.286 --> 00:05:31.826 A:middle
 To answer that question
@@ -418,21 +385,13 @@ are organized
 00:05:47.096 --> 00:05:48.386 A:middle
 into their own classes.
 
-00:05:49.146 --> 00:05:52.966 A:middle
+00:05:49.146 --> 00:05:52.346 A:middle
 All of these classes
-inherit from HKObject Type.
+inherit from HKObjectType.
 
 00:05:55.476 --> 00:05:58.986 A:middle
 Characteristic types are
 characteristics of the user
-
-00:05:59.186 --> 00:06:01.626 A:middle
-or traits that don't
-change over time.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.186 --> 00:06:01.626 A:middle
 or traits that don't
@@ -443,8 +402,8 @@ These are things such as their
 blood type or date of birth.
 
 00:06:07.236 --> 00:06:10.626 A:middle
-Sample types on the other
-hand are traits of the user
+Sample types, on the other
+hand, are traits of the user
 
 00:06:10.626 --> 00:06:12.106 A:middle
 that do change over time.
@@ -498,17 +457,10 @@ sleep in HealthKit.
 Let's talk about how you
 would create an instance
 
-00:06:58.696 --> 00:07:00.406 A:middle
-of an HKObject Type.
+00:06:58.696 --> 00:06:59.786 A:middle
+of an HKObjectType.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.696 --> 00:07:00.406 A:middle
-of an HKObject Type.
-
-00:07:01.056 --> 00:07:04.036 A:middle
+00:07:00.256 --> 00:07:04.036 A:middle
 Every type has its
 own type identifier.
 
@@ -571,16 +523,8 @@ category type identifier
 to quantity type for identifier,
 you're going to get back nil.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:54.236 --> 00:08:00.956 A:middle
-to quantity type for identifier,
-you're going to get back nil.
-
 00:08:01.166 --> 00:08:06.386 A:middle
-So, now we have a quantity
+So, now we have a quantity,
 and we have an object type.
 
 00:08:06.836 --> 00:08:09.156 A:middle
@@ -601,7 +545,7 @@ is pretty similar
 
 00:08:23.846 --> 00:08:26.886 A:middle
 to the hierarchy we just
-say for HKObjectType.
+saw for HKObjectType.
 
 00:08:27.936 --> 00:08:30.186 A:middle
 This is by design
@@ -615,13 +559,13 @@ closely tied together.
 Let's take a look at some
 of these different classes.
 
-00:08:37.135 --> 00:08:40.296 A:middle
+00:08:37.136 --> 00:08:40.296 A:middle
 We'll start with
 HKQuantitySample.
 
 00:08:41.206 --> 00:08:44.786 A:middle
 This is by far the most common
-kind of HK object in HealthKit.
+kind of HKObject in HealthKit.
 
 00:08:45.206 --> 00:08:47.356 A:middle
 They're how we store
@@ -639,14 +583,6 @@ the sample represents.
 They also have a quantity, which
 is the value of the sample.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:56.776 --> 00:09:00.816 A:middle
-They also have a quantity, which
-is the value of the sample.
-
 00:09:02.016 --> 00:09:04.616 A:middle
 It's important to note
 that your quantity's unit
@@ -657,7 +593,7 @@ type need to match up.
 
 00:09:07.806 --> 00:09:10.876 A:middle
 Every quantity type expects
-a certain kind of unit
+a certain kind of unit,
 
 00:09:11.096 --> 00:09:15.906 A:middle
 and if there's a mismatch here
@@ -675,7 +611,7 @@ They have a category type,
 which again describes what kind
 
 00:09:26.396 --> 00:09:29.986 A:middle
-of data the sample represents
+of data the sample represents,
 and they have a value.
 
 00:09:31.666 --> 00:09:35.336 A:middle
@@ -708,14 +644,6 @@ like we do for quantity samples.
 Both of these inherit
 from HKSample.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.356 --> 00:10:02.846 A:middle
-Both of these inherit
-from HKSample.
-
 00:10:02.926 --> 00:10:05.416 A:middle
 Remember that samples
 are the kinds of data
@@ -725,7 +653,7 @@ that can be sampled at a
 particular point in time.
 
 00:10:09.406 --> 00:10:12.446 A:middle
-To support this every
+To support this, every
 sample has both a start date
 
 00:10:12.446 --> 00:10:13.486 A:middle
@@ -735,19 +663,20 @@ and an end date.
 Why both a state date and
 end date you might ask?
 
-00:10:17.056 --> 00:10:19.156 A:middle
-Well, for some kinds of data
+00:10:17.056 --> 00:10:20.286 A:middle
+Well, for some kinds of
+data, such as your weight,
 
-00:10:19.336 --> 00:10:23.146 A:middle
-such as your weight the
-reading is pretty instantaneous
+00:10:20.976 --> 00:10:23.146 A:middle
+the reading is pretty
+instantaneous,
 
 00:10:23.186 --> 00:10:26.206 A:middle
 so your start date and end date
 should probably be the same.
 
 00:10:26.846 --> 00:10:30.356 A:middle
-For other kinds of data though
+For other kinds of data, though,
 your reading might take place
 
 00:10:30.356 --> 00:10:31.616 A:middle
@@ -781,15 +710,7 @@ All of these inherit
 from HKObject.
 
 00:10:57.436 --> 00:11:01.836 A:middle
-Every object has a UUID
-which is a unique identifier
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:57.436 --> 00:11:01.836 A:middle
-Every object has a UUID
+Every object has a UUID,
 which is a unique identifier
 
 00:11:01.836 --> 00:11:04.396 A:middle
@@ -803,9 +724,12 @@ always being the same.
 00:11:08.626 --> 00:11:10.136 A:middle
 They also have a source.
 
-00:11:10.996 --> 00:11:15.616 A:middle
-Because health information is so
-sensitive we wanted to make sure
+00:11:10.996 --> 00:11:13.726 A:middle
+Because health information
+is so sensitive,
+
+00:11:14.206 --> 00:11:15.616 A:middle
+we wanted to make sure
 
 00:11:15.616 --> 00:11:18.516 A:middle
 that every object could
@@ -813,7 +737,7 @@ identify where it came from.
 
 00:11:19.916 --> 00:11:22.666 A:middle
 Each application
-represents its own source
+represents its own source,
 
 00:11:22.986 --> 00:11:25.176 A:middle
 but sources can also
@@ -848,19 +772,11 @@ numbers and dates as values.
 
 00:11:51.436 --> 00:11:54.546 A:middle
 We give you a few
-predefined metadata keys
+predefined metadata keys,
 
 00:11:54.546 --> 00:11:58.876 A:middle
 which we think might be
-useful but we encourage you
-
-00:11:58.876 --> 00:12:01.096 A:middle
-to create your own
-metadata keys as well.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+useful, but we encourage you
 
 00:11:58.876 --> 00:12:01.096 A:middle
 to create your own
@@ -918,7 +834,7 @@ Next, we create our quantity.
 
 00:12:43.696 --> 00:12:45.896 A:middle
 Let's say this person is
-feeling pretty healthy today
+feeling pretty healthy today,
 
 00:12:46.166 --> 00:12:51.126 A:middle
 so their temperature is
@@ -937,56 +853,50 @@ their body temperature using an
 00:12:59.736 --> 00:13:00.476 A:middle
 ear thermometer.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.736 --> 00:13:00.476 A:middle
-ear thermometer.
-
 00:13:02.876 --> 00:13:06.246 A:middle
 We can then pass all of
 this to HKQuantitySamples,
 
 00:13:06.486 --> 00:13:09.666 A:middle
-quantity sample with type
-and give it a start date
+quantitySampleWithType,
+and give it a startDate
 
 00:13:09.666 --> 00:13:13.956 A:middle
-and end date of right now.
+and endDate of right now.
 
 00:13:14.266 --> 00:13:18.596 A:middle
 Now that you have your data,
 what do you actually do with it?
 
-00:13:19.106 --> 00:13:20.516 A:middle
-Well, to really do anything
+00:13:19.106 --> 00:13:21.086 A:middle
+Well, to really do
+anything with HealthKit,
 
-00:13:20.516 --> 00:13:23.966 A:middle
-with HealthKit the first thing
-you need is an HKHealthStore.
+00:13:21.186 --> 00:13:23.966 A:middle
+the first thing you need
+is an HKHealthStore.
 
 00:13:24.556 --> 00:13:27.086 A:middle
 You can think of
-your Health Store
+your HealthStore
 
 00:13:27.086 --> 00:13:28.976 A:middle
 as your link to the database.
 
-00:13:29.536 --> 00:13:33.236 A:middle
-It lets you save
-objects and as we'll find
+00:13:29.536 --> 00:13:34.596 A:middle
+It lets you save objects, and as
+we'll find out in a little bit,
 
-00:13:33.236 --> 00:13:38.396 A:middle
-out in a little bit it lets
-you ask for data as well.
+00:13:34.596 --> 00:13:38.396 A:middle
+it lets you ask for
+data as well.
 
 00:13:38.396 --> 00:13:41.566 A:middle
 Remember though that you really
-only need one Health Store.
+only need one HealthStore.
 
 00:13:42.376 --> 00:13:45.096 A:middle
-They should be long lived and
+They should be long-lived, and
 you don't really get anything
 
 00:13:45.096 --> 00:13:47.216 A:middle
@@ -1001,19 +911,11 @@ to it and you're done.
 Here's an example of us
 saving some data to HealthKit.
 
-00:13:56.356 --> 00:14:00.076 A:middle
+00:13:56.356 --> 00:13:58.086 A:middle
 First, we create
-our Health Store.
+our HealthStore.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:56.356 --> 00:14:00.076 A:middle
-First, we create
-our Health Store.
-
-00:14:00.296 --> 00:14:02.176 A:middle
+00:13:58.526 --> 00:14:02.176 A:middle
 Next, we create a
 quantity sample.
 
@@ -1021,15 +923,15 @@ quantity sample.
 We can then pass our sample
 
 00:14:05.596 --> 00:14:08.926 A:middle
-to our Health Store using
-safe object with completion
+to our HealthStore using
+save object with completion,
 
 00:14:09.836 --> 00:14:13.816 A:middle
 and voila we have officially
 saved data in HealthKit.
 
 00:14:14.386 --> 00:14:18.156 A:middle
-So, saving data is great
+So, saving data is great,
 
 00:14:18.666 --> 00:14:21.246 A:middle
 but it's not really any
@@ -1048,28 +950,28 @@ are characteristics of the user.
 
 00:14:32.206 --> 00:14:35.656 A:middle
 Because these don't change
-over time we really only care
+over time, we really only care
 
 00:14:35.656 --> 00:14:36.836 A:middle
 about the current value.
 
 00:14:36.956 --> 00:14:39.596 A:middle
 So you can just ask your
-Health Store directly.
+HealthStore directly.
 
 00:14:40.136 --> 00:14:43.836 A:middle
 Here's an example of us
-asking our Health Store
+asking our HealthStore
 
 00:14:43.926 --> 00:14:45.506 A:middle
 for the user's date of birth.
 
 00:14:46.996 --> 00:14:50.726 A:middle
 This doesn't work for everything
-though so to ask for the bulk
+though, so to ask for the bulk
 
 00:14:50.726 --> 00:14:53.166 A:middle
-of our data we're going to
+of our data, we're going to
 need something a little more
 
 00:14:53.166 --> 00:14:53.826 A:middle
@@ -1077,14 +979,6 @@ heavy duty.
 
 00:14:55.036 --> 00:14:57.286 A:middle
 This is where queries come in.
-
-00:14:57.776 --> 00:15:01.076 A:middle
-Queries provide a structured
-mechanism for you to look
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:57.776 --> 00:15:01.076 A:middle
 Queries provide a structured
@@ -1099,8 +993,8 @@ All queries inherit
 from HKQuery.
 
 00:15:07.936 --> 00:15:12.416 A:middle
-An HKQuery has a sample
-type which is what kind
+An HKQuery has a
+sampleType, which is what kind
 
 00:15:12.416 --> 00:15:14.026 A:middle
 of data is being queried for.
@@ -1121,7 +1015,7 @@ a couple of different ways.
 
 00:15:27.866 --> 00:15:30.826 A:middle
 First, you can use regular
-NS predicate constructors
+NSPredicate constructors,
 
 00:15:30.866 --> 00:15:33.656 A:middle
 which you may already
@@ -1135,11 +1029,11 @@ for every key path
 that you can use
 with predicates.
 
-00:15:38.476 --> 00:15:43.046 A:middle
+00:15:38.476 --> 00:15:43.016 A:middle
 This is a really powerful tool,
-but we wanted to make it easier
+but we wanted to make it easy
 
-00:15:43.046 --> 00:15:46.216 A:middle
+00:15:43.016 --> 00:15:46.216 A:middle
 on you to create the predicates
 that are most commonly used.
 
@@ -1152,15 +1046,11 @@ Note that these two
 methods are going
 
 00:15:53.546 --> 00:15:55.096 A:middle
-to create identical predicates
+to create identical predicates,
 
 00:15:55.276 --> 00:15:59.996 A:middle
 so you can use whichever method
 you feel more comfortable with.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.696 --> 00:16:03.456 A:middle
 Now, let's say that
@@ -1243,52 +1133,51 @@ our quantity type,
 which in this case
 is blood sugar.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:01.076 --> 00:17:03.396 A:middle
 Next we create our
 sort descriptor.
 
 00:17:04.306 --> 00:17:07.596 A:middle
-Because we want the most recent
+Because we want the most recent,
 we want to order our results
 
-00:17:07.646 --> 00:17:10.465 A:middle
+00:17:07.646 --> 00:17:10.466 A:middle
 in end date in descending order.
 
-00:17:11.665 --> 00:17:16.036 A:middle
+00:17:11.666 --> 00:17:16.036 A:middle
 When we create our sample query,
 we admit it with a sample type
 
-00:17:16.036 --> 00:17:20.175 A:middle
+00:17:16.036 --> 00:17:20.176 A:middle
 of blood sugar, a nil
 predicate because we don't want
 
-00:17:20.175 --> 00:17:23.746 A:middle
+00:17:20.176 --> 00:17:23.746 A:middle
 to filter our results,
-a limit of 1
+a limit of one
 
 00:17:23.866 --> 00:17:25.776 A:middle
 because we want the
-1 most recent
+one most recent,
 
 00:17:26.646 --> 00:17:30.446 A:middle
 and an array containing the
 sort descriptor we just created.
 
 00:17:31.026 --> 00:17:35.786 A:middle
-In our result handler because
+In our result handler, because
 we know there's only going to be
 
-00:17:35.786 --> 00:17:40.576 A:middle
-at most 1 result, we ask our
-results for the last object.
+00:17:35.786 --> 00:17:39.386 A:middle
+at most one result, we
+can just ask our results
 
-00:17:41.066 --> 00:17:46.126 A:middle
+00:17:39.516 --> 00:17:40.576 A:middle
+for the last object.
+
+00:17:41.066 --> 00:17:46.116 A:middle
 That worked pretty
-well but you realized
+well, but you realize
 
 00:17:46.176 --> 00:17:47.946 A:middle
 that every time a
@@ -1308,15 +1197,7 @@ update all by itself.
 
 00:17:58.806 --> 00:18:01.836 A:middle
 You could create some kind
-of pull mechanism to do this
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:17:58.806 --> 00:18:01.836 A:middle
-You could create some kind
-of pull mechanism to do this
+of pull mechanism to do this,
 
 00:18:01.956 --> 00:18:05.326 A:middle
 where every 30 seconds or so you
@@ -1341,8 +1222,8 @@ are very simple.
 All they do is watch for
 changes in the database.
 
-00:18:20.116 --> 00:18:24.366 A:middle
-They are a little bit different
+00:18:20.536 --> 00:18:24.366 A:middle
+They're a little bit different
 than sample queries in the sense
 
 00:18:24.416 --> 00:18:25.476 A:middle
@@ -1386,15 +1267,7 @@ an observer query.
 
 00:18:54.246 --> 00:18:57.576 A:middle
 All we do is tell it that we
-want all blood sugar readings
-
-00:18:57.986 --> 00:19:01.366 A:middle
-and our update handler will be
-called every time a new blood
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+want all blood sugar readings,
 
 00:18:57.986 --> 00:19:01.366 A:middle
 and our update handler will be
@@ -1417,30 +1290,31 @@ What it's supposed to do is take
 all the blood sugar readings
 
 00:19:18.306 --> 00:19:21.686 A:middle
-that its created and
-sync them to the Cloud.
+that it's created and
+sync them to the cloud.
 
-00:19:22.396 --> 00:19:26.116 A:middle
-You could do this using a sample
-query where every time you query
+00:19:22.396 --> 00:19:24.496 A:middle
+You could do this
+using a sample query,
 
-00:19:26.116 --> 00:19:28.656 A:middle
-for all the objects in
-the database and figure
+00:19:24.726 --> 00:19:27.896 A:middle
+where every time you query for
+all the objects in the database
 
-00:19:28.656 --> 00:19:32.516 A:middle
-out which ones you haven't seen
-yet probably using their UUID,
+00:19:28.246 --> 00:19:30.226 A:middle
+and figure out which ones
+you haven't sent yet,
 
-00:19:33.546 --> 00:19:37.616 A:middle
-but this is a lot of work and
-it would be a lot nicer if,
+00:19:30.706 --> 00:19:35.876 A:middle
+probably using their UUID,
+but this is a lot of work
 
-00:19:37.616 --> 00:19:39.976 A:middle
-and it would be a waste
+00:19:35.936 --> 00:19:38.566 A:middle
+and it would be a lot nicer
+if, and it would be a waste
+
+00:19:38.636 --> 00:19:41.696 A:middle
 to pull all of the objects
-
-00:19:39.976 --> 00:19:41.696 A:middle
 from the database just to find
 
 00:19:41.696 --> 00:19:43.956 A:middle
@@ -1466,16 +1340,8 @@ to be returned by the query.
 It also has an anchor,
 but what's an anchor?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.516 --> 00:20:04.506 A:middle
-It also has an anchor,
-but what's an anchor?
-
 00:20:05.696 --> 00:20:09.226 A:middle
-Well, behind the scenes
+Well, behind the scenes,
 every object stored
 
 00:20:09.226 --> 00:20:12.086 A:middle
@@ -1524,7 +1390,7 @@ which means you don't
 have an anchor.
 
 00:20:46.636 --> 00:20:49.266 A:middle
-In your call back, you
+In your callback, you
 will receive a new anchor,
 
 00:20:49.386 --> 00:20:50.946 A:middle
@@ -1535,27 +1401,19 @@ in subsequent queries.
 Here's an example of us creating
 an anchored object query.
 
-00:20:57.846 --> 00:21:02.926 A:middle
-At some point in time probably
-during our initializer we set
+00:20:57.846 --> 00:21:02.086 A:middle
+At some point in time,
+probably during our initializer,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:57.846 --> 00:21:02.926 A:middle
-At some point in time probably
-during our initializer we set
-
-00:21:02.926 --> 00:21:04.696 A:middle
-our last anchor to be 0.
+00:21:02.526 --> 00:21:04.696 A:middle
+we set our last anchor to be 0.
 
 00:21:06.756 --> 00:21:08.186 A:middle
 When we create our query,
 
 00:21:08.436 --> 00:21:10.716 A:middle
-we tell it we want all
-blood sugar readings
+we tell it that we want
+all blood sugar readings
 
 00:21:11.256 --> 00:21:13.856 A:middle
 that have occurred
@@ -1575,42 +1433,35 @@ then use in our next query.
 
 00:21:24.696 --> 00:21:27.306 A:middle
 Let's see how this would
-work with some actual data.
+look with some actual data.
 
 00:21:28.656 --> 00:21:31.406 A:middle
 Let's say our database
-has 3 objects in it.
+has three objects in it.
 
-00:21:31.526 --> 00:21:32.786 A:middle
-Since I haven't seen anything
+00:21:31.526 --> 00:21:33.016 A:middle
+Since I haven't seen
+anything yet,
 
-00:21:32.786 --> 00:21:35.596 A:middle
-yet we'll say my
-current anchor is 0.
+00:21:33.736 --> 00:21:35.596 A:middle
+we'll say my current
+anchor is 0.
 
 00:21:36.896 --> 00:21:40.496 A:middle
 When I run my query, I'll
-get back objects 1, 2 and 3
+get back objects 1, 2 and 3,
 
 00:21:41.046 --> 00:21:43.736 A:middle
 and my current anchor
 will now be 3.
 
 00:21:45.306 --> 00:21:50.416 A:middle
-Next, 2 objects are
+Next, two objects are
 added to the database.
 
 00:21:50.416 --> 00:21:54.196 A:middle
 When I run another query,
-I'll get back objects 4 and 5
-
-00:21:54.836 --> 00:22:01.056 A:middle
-and my current anchor
-will now be 5.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+I'll get back objects 4 and 5,
 
 00:21:54.836 --> 00:22:01.056 A:middle
 and my current anchor
@@ -1622,7 +1473,7 @@ few different queries
 
 00:22:03.986 --> 00:22:07.536 A:middle
 and some situations that they're
-useful in but we haven't talked
+useful in, but we haven't talked
 
 00:22:07.536 --> 00:22:09.446 A:middle
 about how to actually
@@ -1641,7 +1492,7 @@ query to begin running.
 
 00:22:21.376 --> 00:22:24.156 A:middle
 At any point in time
-you can call stopQuery
+you can call stopQuery,
 
 00:22:24.466 --> 00:22:27.366 A:middle
 which will kill your query
@@ -1652,42 +1503,37 @@ that haven't happened yet.
 
 00:22:30.056 --> 00:22:32.796 A:middle
 You can call stopQuery as
-many times as you want,
+many times as you want.
 
-00:22:33.126 --> 00:22:37.136 A:middle
-it doesn't matter, but you
-can only execute a query once.
+00:22:33.126 --> 00:22:33.956 A:middle
+It doesn't matter.
 
-00:22:37.636 --> 00:22:42.296 A:middle
-This is because once a query
-is stopped its callbacks are
+00:22:33.956 --> 00:22:37.136 A:middle
+But you can only
+execute a query once.
 
-00:22:42.296 --> 00:22:44.416 A:middle
-invalidated to prevent
-retained cycles.
+00:22:37.636 --> 00:22:40.776 A:middle
+This is because once
+a query is stopped,
+
+00:22:40.776 --> 00:22:44.416 A:middle
+its callbacks are invalidated
+to prevent retained cycles.
 
 00:22:45.986 --> 00:22:47.746 A:middle
-Remember, though
+Remember, though,
 that you only need
 
 00:22:47.746 --> 00:22:50.956 A:middle
-to stop long running queries
+to stop long-running queries,
 such as the observer query.
 
 00:22:51.836 --> 00:22:55.176 A:middle
 Other queries know to stop
-themselves once they received
+themselves once they've received
 
 00:22:55.296 --> 00:22:59.256 A:middle
 their initial data.
-
-00:22:59.436 --> 00:23:01.576 A:middle
-Now, all of the queries
-that we've talked
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.436 --> 00:23:01.576 A:middle
 Now, all of the queries
@@ -1714,21 +1560,21 @@ query and iterate
 
 00:23:19.456 --> 00:23:22.156 A:middle
 over all your results summing
-their quantities together
+their quantities together,
 
-00:23:22.706 --> 00:23:26.156 A:middle
-but this would be a lot of
-work and a lot of objects
+00:23:22.706 --> 00:23:26.686 A:middle
+but this would be a lot of work
+and a lot of objects in memory,
 
-00:23:26.156 --> 00:23:29.466 A:middle
-in memory considering all we
-really care about is the sum.
+00:23:27.046 --> 00:23:29.466 A:middle
+considering all we really
+care about is the sum.
 
-00:23:30.816 --> 00:23:34.456 A:middle
-To support operations like this
-statistics are a first class
+00:23:30.816 --> 00:23:32.476 A:middle
+To support operations like this,
 
-00:23:34.506 --> 00:23:37.376 A:middle
+00:23:32.896 --> 00:23:37.376 A:middle
+statistics are a first-class
 citizen in HealthKit.
 
 00:23:38.486 --> 00:23:41.346 A:middle
@@ -1737,7 +1583,7 @@ by HKStatistics.
 
 00:23:41.876 --> 00:23:47.416 A:middle
 An HKStatisticsObject is an
-aggregation of multiple kids
+aggregation of multiple kinds
 
 00:23:47.416 --> 00:23:52.856 A:middle
 of statistics such as
@@ -1751,22 +1597,13 @@ across all data or only
 for statistics that came
 from a particular source.
 
-00:23:59.866 --> 00:24:03.086 A:middle
+00:23:59.866 --> 00:24:04.416 A:middle
 Because we're talking
+about numerical analysis,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.866 --> 00:24:03.086 A:middle
-Because we're talking
-
-00:24:03.086 --> 00:24:06.546 A:middle
-about numerical analysis
-statistics are only valid
-
-00:24:06.636 --> 00:24:09.656 A:middle
-for quantity types.
+00:24:04.826 --> 00:24:09.656 A:middle
+statistics are only
+valid for quantity types.
 
 00:24:10.036 --> 00:24:13.266 A:middle
 Remember though that not
@@ -1828,14 +1665,6 @@ of calories that you've burned.
 In contrast to discrete
 types, I really don't care
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.286 --> 00:25:02.046 A:middle
-In contrast to discrete
-types, I really don't care
-
 00:25:02.046 --> 00:25:03.406 A:middle
 about an individual sample.
 
@@ -1884,8 +1713,8 @@ aggregation style property
 that will return either
 cumulative or discrete.
 
-00:25:44.686 --> 00:25:47.236 A:middle
-Back to statistics.
+00:25:44.266 --> 00:25:47.236 A:middle
+Now back to statistics.
 
 00:25:48.436 --> 00:25:51.636 A:middle
 As you may or may not
@@ -1896,16 +1725,8 @@ on large amounts of data
 can be rather expensive.
 
 00:25:56.016 --> 00:25:59.276 A:middle
-Because of this we had you
+Because of this, we had you
 tell us what you want ahead
-
-00:25:59.496 --> 00:26:03.696 A:middle
-of time using a bit mask
-of HKStatisticsOptions.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.496 --> 00:26:03.696 A:middle
 of time using a bit mask
@@ -1949,8 +1770,8 @@ from a particular source,
 but why is this important?
 
 00:26:33.366 --> 00:26:38.926 A:middle
-Let's say we have 2 sources,
-Source A and Source B.
+Let's say that we have two
+sources, Source A and Source B.
 
 00:26:39.576 --> 00:26:42.156 A:middle
 Both of these sources
@@ -1978,20 +1799,12 @@ which is also wrong.
 Because these sources were
 saving data at the same time,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.036 --> 00:27:00.096 A:middle
-Because these sources were
-saving data at the same time,
-
 00:27:00.606 --> 00:27:03.036 A:middle
 in many cases I was
 actually double counting.
 
 00:27:03.706 --> 00:27:07.826 A:middle
-To handle this we let the
+To handle this, we let the
 user specify in the health app
 
 00:27:08.266 --> 00:27:10.576 A:middle
@@ -2030,16 +1843,16 @@ new feature.
 Now it can count the user steps.
 
 00:27:34.876 --> 00:27:37.596 A:middle
-To support this you want
-to have a new screen
+To support this, you
+want to have a new screen
 
 00:27:37.596 --> 00:27:40.046 A:middle
 that shows the user their
 total steps for the day.
 
 00:27:41.746 --> 00:27:44.886 A:middle
-This is a sum so you know
-you want to use statistics
+This is a sum, so you know
+you want to use statistics,
 
 00:27:45.316 --> 00:27:47.586 A:middle
 but how do you actually
@@ -2056,16 +1869,12 @@ mask of statistics options
 00:27:57.146 --> 00:27:59.176 A:middle
 and return a statistics object.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:00.166 --> 00:28:04.346 A:middle
 So here's an example of us
 creating a statistics query.
 
 00:28:06.336 --> 00:28:08.526 A:middle
-First we get our quantity type
+First we get our quantity type,
 
 00:28:08.896 --> 00:28:13.096 A:middle
 which in this case
@@ -2083,16 +1892,16 @@ that happen today.
 We create our statistics
 options,
 
-00:28:22.986 --> 00:28:24.376 A:middle
-which in this case is sum,
+00:28:22.986 --> 00:28:26.996 A:middle
+which in this case is sum, and
+then when we create our query,
 
-00:28:25.396 --> 00:28:28.636 A:middle
-and then when we create our
-query we tell it we want all
+00:28:27.286 --> 00:28:29.836 A:middle
+we tell it we want all
+steps that happen today,
 
-00:28:28.636 --> 00:28:32.296 A:middle
-steps that happen today and
-we want to take their sum
+00:28:29.966 --> 00:28:32.296 A:middle
+and we want to take their sum,
 
 00:28:33.706 --> 00:28:35.956 A:middle
 and in our completion
@@ -2106,13 +1915,13 @@ then ask for its sum quantity.
 Well, you feel like a
 rock star right now.
 
-00:28:45.326 --> 00:28:48.156 A:middle
-Using your UI code from your
-blood sugar screen you're able
+00:28:45.326 --> 00:28:47.796 A:middle
+Using your UI code from
+your blood sugar screen,
 
-00:28:48.156 --> 00:28:50.206 A:middle
-to bust this out
-in like 5 minutes.
+00:28:47.796 --> 00:28:50.206 A:middle
+you're able to bust this
+out in like 5 minutes.
 
 00:28:50.936 --> 00:28:54.956 A:middle
 With all of that extra time you
@@ -2125,20 +1934,16 @@ daily step count throughout
 00:28:58.326 --> 00:28:59.366 A:middle
 the week.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:29:00.776 --> 00:29:01.826 A:middle
 How do you do this?
 
-00:29:02.506 --> 00:29:06.306 A:middle
-You could execute 7 statistics
-queries, 1 for each day,
+00:29:02.506 --> 00:29:05.266 A:middle
+You could execute seven
+statistics queries,
 
-00:29:07.046 --> 00:29:09.476 A:middle
-and once they all
-return use their results
+00:29:05.506 --> 00:29:09.476 A:middle
+one for each day, and once they
+all return use their results
 
 00:29:09.526 --> 00:29:11.426 A:middle
 to draw your chart.
@@ -2178,20 +1983,12 @@ of our gray boxes represents
 its own HKStatisticsObject.
 
 00:29:51.156 --> 00:29:54.156 A:middle
-We call our Delta T
-our interval components
+We call our Delta T our
+interval components,
 
 00:29:54.396 --> 00:29:56.376 A:middle
 and this is an NSDateComponents
 object.
-
-00:29:57.326 --> 00:30:00.766 A:middle
-The reason why we chose
-to use NSDateComponents is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:57.326 --> 00:30:00.766 A:middle
 The reason why we chose
@@ -2220,15 +2017,18 @@ date calculations,
 please see last year's video,
 
 00:30:19.086 --> 00:30:21.716 A:middle
-Solutions to Common Date
-and Time Challenges.
+"Solutions to Common Date
+and Time Challenges."
 
-00:30:24.116 --> 00:30:27.756 A:middle
-So, now let's say we have
-interval components of 1 day.
+00:30:24.116 --> 00:30:26.996 A:middle
+So, now let's say that we
+have an interval component
+
+00:30:27.136 --> 00:30:27.756 A:middle
+of one day.
 
 00:30:28.806 --> 00:30:32.556 A:middle
-The problem is we don't know if
+The problem is, we don't know if
 you want your day to be midnight
 
 00:30:32.616 --> 00:30:36.366 A:middle
@@ -2236,8 +2036,8 @@ to midnight, noon to noon or
 something completely different.
 
 00:30:37.686 --> 00:30:40.166 A:middle
-To handle this we have you
-give us an anchor date.
+To handle this, we have
+you give us an anchor date.
 
 00:30:41.446 --> 00:30:44.756 A:middle
 All the anchor date does is
@@ -2245,7 +2045,7 @@ tell you what the edge of one
 
 00:30:44.756 --> 00:30:47.976 A:middle
 of your time intervals
-is and that's all we need
+is, and that's all we need
 
 00:30:48.096 --> 00:30:50.416 A:middle
 to create a collection
@@ -2260,16 +2060,8 @@ Once we get your anchor date
 and your interval components,
 
 00:30:58.526 --> 00:31:01.636 A:middle
-we split up all of time in
-the series of time intervals.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.526 --> 00:31:01.636 A:middle
-we split up all of time in
-the series of time intervals.
+we split up all of time into
+a series of time intervals.
 
 00:31:02.576 --> 00:31:05.746 A:middle
 We can then group data into
@@ -2277,7 +2069,7 @@ these different time intervals
 
 00:31:06.276 --> 00:31:11.946 A:middle
 and collect statistics on
-it such as ask for it sum.
+it, such as ask for it sum.
 
 00:31:12.116 --> 00:31:15.036 A:middle
 So, this is what a
@@ -2345,15 +2137,8 @@ between two dates.
 00:31:58.566 --> 00:32:00.096 A:middle
 This will return both populated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.566 --> 00:32:00.096 A:middle
-This will return both populated
-
 00:32:00.296 --> 00:32:02.486 A:middle
-and non-populated
+and nonpopulated
 statistics objects.
 
 00:32:03.016 --> 00:32:07.976 A:middle
@@ -2365,11 +2150,11 @@ All you need to do is specify
 an anchor date of Sunday
 
 00:32:12.006 --> 00:32:14.426 A:middle
-at midnight and interval
-components
+at midnight and an
+interval component
 
 00:32:14.426 --> 00:32:18.716 A:middle
-of one day and that's about it.
+of one day, and that's about it.
 
 00:32:18.716 --> 00:32:21.866 A:middle
 So, how do you actually create
@@ -2385,7 +2170,7 @@ of statistics options,
 
 00:32:31.616 --> 00:32:35.516 A:middle
 an anchor date and an
-interval component's object
+interval components object
 
 00:32:35.626 --> 00:32:38.986 A:middle
 and give you back an
@@ -2396,7 +2181,7 @@ It's that easy.
 
 00:32:42.676 --> 00:32:45.206 A:middle
 Now I'm going to hand
-things over to Siji
+things over to Siji,
 
 00:32:45.206 --> 00:32:47.546 A:middle
 so that she can show you
@@ -2423,45 +2208,34 @@ to be here today
 to give you this quick demo.
 
 00:32:58.706 --> 00:33:01.866 A:middle
-So there are 3 things that
-you will see in this demo.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.706 --> 00:33:01.866 A:middle
-So there are 3 things that
+So there are three things that
 you will see in this demo.
 
 00:33:02.926 --> 00:33:06.366 A:middle
 First you'll see how you
 can leverage HealthKit
 
-00:33:06.366 --> 00:33:08.206 A:middle
+00:33:06.366 --> 00:33:09.756 A:middle
 to retrieve existing information
-
-00:33:08.206 --> 00:33:09.756 A:middle
-about the user from
-Health Store.
+about the user from HealthStore.
 
 00:33:10.366 --> 00:33:12.466 A:middle
 Now this information
 might have been inserted
 
 00:33:12.466 --> 00:33:14.706 A:middle
-into Health Store
+into HealthStore
 by some other app.
 
 00:33:15.336 --> 00:33:17.656 A:middle
 Second, you'll see
 how you can read
 
-00:33:17.656 --> 00:33:21.716 A:middle
+00:33:17.656 --> 00:33:20.696 A:middle
 and write your own data objects
-into Health Store, and third,
+into HealthStore, and third,
 
-00:33:21.716 --> 00:33:24.456 A:middle
+00:33:20.886 --> 00:33:24.456 A:middle
 you'll see some examples of the
 queries that Justin spoke about.
 
@@ -2473,12 +2247,12 @@ demo I'm going to walk you
 through making a
 fitness tracking app.
 
-00:33:31.216 --> 00:33:34.846 A:middle
+00:33:31.216 --> 00:33:34.866 A:middle
 The goal of this app would be
 to track your net energy burn
 
-00:33:34.846 --> 00:33:37.236 A:middle
-through a given day
+00:33:34.866 --> 00:33:37.236 A:middle
+for a given day,
 and we are going
 
 00:33:37.236 --> 00:33:40.116 A:middle
@@ -2503,7 +2277,7 @@ needs, but before we can do
 
 00:33:54.416 --> 00:33:57.336 A:middle
 that we need the user's
-permission and this is the code
+permission, and this is the code
 
 00:33:57.336 --> 00:33:59.406 A:middle
 that you will write to
@@ -2513,16 +2287,8 @@ get the user's permission.
 So first you check whether
 HealthKit is supported
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.746 --> 00:34:03.006 A:middle
-So first you check whether
-HealthKit is supported
-
 00:34:03.006 --> 00:34:06.296 A:middle
-on the current iOS device and
+on the current iOS device, and
 this is because some devices
 
 00:34:06.296 --> 00:34:08.996 A:middle
@@ -2531,11 +2297,11 @@ not support HealthKit.
 
 00:34:09.996 --> 00:34:12.126 A:middle
 Next you create an
-instance of Health Store
+instance of HealthStore
 
 00:34:12.126 --> 00:34:15.966 A:middle
-and then use Health
-Store's authorization APIs
+and then use HealthStore's
+authorization APIs
 
 00:34:16.136 --> 00:34:18.436 A:middle
 to request read and
@@ -2550,14 +2316,17 @@ Now I have already set up
 my device to be authorized,
 
 00:34:24.426 --> 00:34:27.366 A:middle
-but the first time you run
-this piece of code you're going
+but the first time you run this
+piece of code, you're going
 
-00:34:27.366 --> 00:34:30.025 A:middle
-to get this dialogue popup that
-requests permissions from you.
+00:34:27.366 --> 00:34:28.836 A:middle
+to get this dialogue sheet popup
 
-00:34:30.025 --> 00:34:33.485 A:middle
+00:34:28.836 --> 00:34:30.026 A:middle
+that requests permissions
+from you.
+
+00:34:30.026 --> 00:34:33.486 A:middle
 So now let's look at the app.
 
 00:34:35.856 --> 00:34:38.976 A:middle
@@ -2568,27 +2337,27 @@ user's specific energy burn
 calculations, let's assume
 
 00:34:40.636 --> 00:34:43.496 A:middle
-that we need some user's
-specific statistics as well.
+that we need some user-specific
+statistics as well.
 
 00:34:43.496 --> 00:34:46.246 A:middle
 For instance the user's
 age, height and weight.
 
-00:34:46.815 --> 00:34:47.926 A:middle
+00:34:46.816 --> 00:34:47.926 A:middle
 Now I've set up the app
 
-00:34:47.985 --> 00:34:50.985 A:middle
+00:34:47.986 --> 00:34:50.986 A:middle
 such that the user can enter
 these details, but it will be
 
-00:34:50.985 --> 00:34:53.556 A:middle
+00:34:50.986 --> 00:34:52.996 A:middle
 so much cooler if we can
-look at Health Store and see
+look at HealthStore and see
 
-00:34:53.556 --> 00:34:56.226 A:middle
-if these values already exist
-and if so just retrieve it
+00:34:52.996 --> 00:34:56.226 A:middle
+if these values already exist,
+and if so, just retrieve it
 
 00:34:56.226 --> 00:34:57.886 A:middle
 and display it for the
@@ -2598,24 +2367,16 @@ user's confirmation.
 So let's go and write
 code to do just that.
 
+00:35:03.056 --> 00:35:04.836 A:middle
+A quick note before that -
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:35:04.836 --> 00:35:06.796 A:middle
+I'm not doing much edit
+handling code in this demo,
 
-00:34:58.806 --> 00:35:02.406 A:middle
-So let's go and write
-code to do just that.
-
-00:35:03.056 --> 00:35:06.206 A:middle
-A quick note before that I'm not
-doing much edit handling code
-
-00:35:06.206 --> 00:35:07.666 A:middle
-in this demo but
-there is sample code
-
-00:35:07.666 --> 00:35:08.956 A:middle
-for this app uploaded online
+00:35:06.796 --> 00:35:08.956 A:middle
+but there is sample code for
+this app uploaded online,
 
 00:35:08.956 --> 00:35:10.246 A:middle
 and that will be a
@@ -2627,37 +2388,37 @@ age, we need birth date.
 
 00:35:14.976 --> 00:35:17.866 A:middle
 Birth date is a characteristic
-data type in HealthKit
+data type in HealthKit,
 
-00:35:17.866 --> 00:35:20.816 A:middle
-and Health Store has this
-convenient synchronous
+00:35:17.866 --> 00:35:20.966 A:middle
+and HealthStore has this
+convenient synchronous method
 
-00:35:20.816 --> 00:35:22.676 A:middle
-that directly access
+00:35:20.966 --> 00:35:22.676 A:middle
+that directly accesses
 user's birthday.
 
 00:35:22.676 --> 00:35:25.076 A:middle
 So let's go ahead and
-use that method here
+use that method here,
 
-00:35:25.076 --> 00:35:29.206 A:middle
-and once we have the
-birth date it's simple
+00:35:25.076 --> 00:35:28.026 A:middle
+and once we have the birth date,
 
-00:35:29.206 --> 00:35:31.006 A:middle
-to get the user's age.
+00:35:28.366 --> 00:35:31.006 A:middle
+it's simple to get
+the user's age.
 
 00:35:32.216 --> 00:35:36.206 A:middle
-Notice here I am passing
-the age completion block.
+Notice here I am passing the age
+back in the completion block.
 
 00:35:36.796 --> 00:35:38.736 A:middle
 Let's run this code and see.
 
 00:35:42.536 --> 00:35:46.926 A:middle
-Tah-dah. Age does show up
-and how this happened is
+Tah-dah. The age does show
+up, and how this happened is
 
 00:35:46.926 --> 00:35:49.066 A:middle
 because earlier today I
@@ -2671,23 +2432,16 @@ date into Health Store.
 Let's look at user
 height and weight next.
 
-00:35:56.736 --> 00:36:00.386 A:middle
-So, height and weight are
-quantity data types in HealthKit
+00:35:56.736 --> 00:35:59.576 A:middle
+So, height and weight
+are quantity data types
 
+00:35:59.796 --> 00:36:02.416 A:middle
+in HealthKit, and to
+get quantity samples
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:56.736 --> 00:36:00.386 A:middle
-So, height and weight are
-quantity data types in HealthKit
-
-00:36:00.386 --> 00:36:03.666 A:middle
-and to get quantity samples
-out of Health Store we need
-
-00:36:03.666 --> 00:36:04.776 A:middle
+00:36:02.416 --> 00:36:04.776 A:middle
+out of HealthStore, we need
 to write a sample query.
 
 00:36:05.266 --> 00:36:07.376 A:middle
@@ -2711,7 +2465,7 @@ Now I want a single most
 recent quantity sample
 
 00:36:20.496 --> 00:36:23.136 A:middle
-of a given data type and
+of a given data type, and
 so for that I'm first going
 
 00:36:23.136 --> 00:36:25.786 A:middle
@@ -2728,7 +2482,7 @@ one out of it.
 
 00:36:32.016 --> 00:36:35.016 A:middle
 I don't want to filter the
-data so my predicate is nil
+data, so my predicate is nil,
 
 00:36:35.166 --> 00:36:36.966 A:middle
 and the data type
@@ -2739,7 +2493,7 @@ in is passed into this method.
 
 00:36:38.336 --> 00:36:44.646 A:middle
 Now when this query
-returns, I get an array back
+returns, I get an array back,
 
 00:36:45.286 --> 00:36:47.736 A:middle
 and this is an array
@@ -2750,11 +2504,11 @@ In our case if there is a
 valid quantity sample existing
 
 00:36:51.686 --> 00:36:53.036 A:middle
-in Health Store,
-then you're going
+in HealthStore, then
+you're going
 
 00:36:53.036 --> 00:36:55.546 A:middle
-to get just 1 quantity
+to get just one quantity
 sample back.
 
 00:36:55.546 --> 00:36:59.036 A:middle
@@ -2763,15 +2517,7 @@ the quantity object associated
 
 00:36:59.036 --> 00:37:01.226 A:middle
 with that quantity
-sample back and then pass
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.036 --> 00:37:01.226 A:middle
-with that quantity
-sample back and then pass
+sample back, and then pass
 
 00:37:01.266 --> 00:37:02.536 A:middle
 that in this completion block.
@@ -2782,13 +2528,13 @@ code to that.
 
 00:37:07.116 --> 00:37:09.216 A:middle
 So this gets the first
-object and passes it
+object and then passes it
 
 00:37:09.216 --> 00:37:10.146 A:middle
 in the completion block.
 
-00:37:10.706 --> 00:37:13.786 A:middle
-Very important once you've
+00:37:10.696 --> 00:37:13.786 A:middle
+Now very important once you've
 written a query is please don't
 
 00:37:13.786 --> 00:37:18.126 A:middle
@@ -2808,22 +2554,24 @@ that method we just wrote.
 
 00:37:27.596 --> 00:37:32.186 A:middle
 Now user height is a quantity
-type with identifier height
+type with identifier height,
 
-00:37:32.596 --> 00:37:36.976 A:middle
-and so I pass that in and when
-the query returns I get the most
+00:37:32.596 --> 00:37:33.616 A:middle
+and so I pass that in.
 
-00:37:36.976 --> 00:37:39.546 A:middle
-recent quantity object
-and as Justin was talking
+00:37:33.686 --> 00:37:38.026 A:middle
+And when the query returns I get
+the most recent quantity object,
 
-00:37:39.546 --> 00:37:42.646 A:middle
-about earlier a quantity
-object is nothing
+00:37:38.026 --> 00:37:40.236 A:middle
+and as Justin was
+talking about earlier,
 
-00:37:42.646 --> 00:37:45.446 A:middle
+00:37:40.236 --> 00:37:44.266 A:middle
+a quantity object is nothing
 but a double value associated
+
+00:37:44.266 --> 00:37:45.446 A:middle
 with a particular unit.
 
 00:37:45.816 --> 00:37:51.596 A:middle
@@ -2834,28 +2582,20 @@ in inches and so I am going
 to specify HKUnit inchUnit.
 
 00:37:55.166 --> 00:38:00.256 A:middle
-Once I have the height
-we need to pass it back
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:55.166 --> 00:38:00.256 A:middle
-Once I have the height
+Once I have the height,
 we need to pass it back
 
 00:38:00.256 --> 00:38:03.946 A:middle
 to the view controller who
-wants it but note that queries
+wants it, but note that queries
 
 00:38:03.946 --> 00:38:07.596 A:middle
-from Health Store always are
-done anonymous background queues
+from HealthStore always are done
+on anonymous background queues,
 
 00:38:07.596 --> 00:38:10.286 A:middle
 so we need to make sure we
-switch back to the main queue
+switch back to the main queue,
 
 00:38:10.816 --> 00:38:13.176 A:middle
 and it should give
@@ -2873,14 +2613,14 @@ The only difference is
 that the identifier here is
 
 00:38:20.446 --> 00:38:24.116 A:middle
-that for body mass and the unit
-I'm interested in is pound.
+that for body mass, and the
+unit I'm interested in is pound.
 
 00:38:25.236 --> 00:38:27.486 A:middle
 Now let's run this code.
 
 00:38:28.916 --> 00:38:31.176 A:middle
-There it works, you guys.
+There, it works, you guys.
 
 00:38:31.716 --> 00:38:31.986 A:middle
 Okay.
@@ -2911,38 +2651,30 @@ chance to enter details
 about the energy consumed.
 
 00:38:52.986 --> 00:38:56.996 A:middle
-I've already setup this
+I've already set up this
 app to show a possible list
 
-00:38:56.996 --> 00:39:00.376 A:middle
-of food items consumed but
-this app doesn't do much else
+00:38:56.996 --> 00:38:58.666 A:middle
+of food items consumed,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:56.996 --> 00:39:00.376 A:middle
-of food items consumed but
-this app doesn't do much else
-
-00:39:00.376 --> 00:39:00.906 A:middle
-right now.
+00:38:58.776 --> 00:39:00.906 A:middle
+but really this app doesn't
+do much else right now.
 
 00:39:01.466 --> 00:39:05.226 A:middle
 What I want it to be able to
-do is when I select an item
+do is when I select an item,
 
-00:39:05.226 --> 00:39:07.996 A:middle
-and I want to save that item
-details into Health Store
+00:39:05.646 --> 00:39:07.996 A:middle
+I want to save that item
+details into HealthStore,
 
-00:39:07.996 --> 00:39:10.176 A:middle
-and when I come back to
-this main screen I want
+00:39:07.996 --> 00:39:09.856 A:middle
+and when I come back
+to this main screen,
 
-00:39:10.176 --> 00:39:12.826 A:middle
-to retrieve those
+00:39:09.856 --> 00:39:12.826 A:middle
+I want to retrieve those
 details and display it.
 
 00:39:12.826 --> 00:39:15.536 A:middle
@@ -2950,11 +2682,11 @@ So let's go and write
 code to do that now.
 
 00:39:15.876 --> 00:39:19.956 A:middle
-Again a quick note so food
-item is a lot more rich
+Again a quick note - so
+food item is a lot more rich
 
 00:39:20.026 --> 00:39:22.856 A:middle
-than just calories but for the
+than just calories, but for the
 purpose of this demo we're going
 
 00:39:22.856 --> 00:39:24.846 A:middle
@@ -2963,7 +2695,7 @@ the calorie information.
 
 00:39:25.426 --> 00:39:30.426 A:middle
 So, I'm going to treat each
-food item as a quantity sample
+food item as a quantity sample,
 
 00:39:30.426 --> 00:39:32.676 A:middle
 and I want to save
@@ -2976,8 +2708,11 @@ and calorie information.
 I'll save the name as metadata
 and calorie information
 
-00:39:37.476 --> 00:39:40.016 A:middle
-as quantity object associated
+00:39:37.476 --> 00:39:39.026 A:middle
+as the quantity object
+associated
+
+00:39:39.026 --> 00:39:40.016 A:middle
 with that quantity sample.
 
 00:39:40.636 --> 00:39:43.666 A:middle
@@ -2989,7 +2724,7 @@ Now the data type that I'm going
 to save this food sample as is
 
 00:39:52.056 --> 00:39:55.106 A:middle
-that of dietary calories
+that of dietary calories,
 and so let's specify that.
 
 00:39:56.026 --> 00:39:58.356 A:middle
@@ -2999,31 +2734,25 @@ just mentioned will be the
 00:39:58.356 --> 00:39:59.096 A:middle
 calorie count.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.216 --> 00:40:09.796 A:middle
-So it will be kilocalorie unit
+So it will be kilocalorie unit,
 and the double value is passed
 
 00:40:09.796 --> 00:40:14.556 A:middle
-into this method and
+into this method, and
 that's our quantity object.
 
 00:40:15.146 --> 00:40:16.826 A:middle
 Now I'm just going to
 save this food sample
 
-00:40:16.826 --> 00:40:17.916 A:middle
-with the current date and time
+00:40:16.826 --> 00:40:20.176 A:middle
+with the current date and time,
+and as I mentioned earlier,
 
-00:40:17.916 --> 00:40:22.666 A:middle
-and as I mentioned earlier the
-metadata will have the food name
-
-00:40:22.666 --> 00:40:24.046 A:middle
-associated with it.
+00:40:20.176 --> 00:40:24.046 A:middle
+the metadata will have the
+food name associated with it.
 
 00:40:24.046 --> 00:40:27.236 A:middle
 Notice here that HealthKit
@@ -3031,22 +2760,25 @@ actually provides these
 
 00:40:27.236 --> 00:40:29.946 A:middle
 convenient strings to be
-used as keys in metadata
+used as keys in metadata,
 
-00:40:29.946 --> 00:40:33.676 A:middle
-and so we're just going to use
-the food type key and that's it.
+00:40:29.946 --> 00:40:30.926 A:middle
+and so we're just going
+
+00:40:30.926 --> 00:40:33.676 A:middle
+to use the food type
+key, and that's it.
 
 00:40:33.676 --> 00:40:36.306 A:middle
 We have officially
 created our first sample.
 
 00:40:36.506 --> 00:40:38.596 A:middle
-Let's go and save
-this into the database
+Let's go and save this
+into the database,
 
 00:40:38.656 --> 00:40:43.326 A:middle
-into Health Store
+into HealthStore,
 and there, done.
 
 00:40:44.516 --> 00:40:47.546 A:middle
@@ -3063,18 +2795,10 @@ we are going to use
 
 00:40:51.776 --> 00:40:53.556 A:middle
 to get quantity samples
-out of Health Store.
+out of HealthStore.
 
 00:40:53.556 --> 00:40:55.816 A:middle
 Let's write a sample query.
-
-00:40:55.816 --> 00:41:00.866 A:middle
-The sample type I'm interested
-in is that of dietary calories
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:55.816 --> 00:41:00.866 A:middle
 The sample type I'm interested
@@ -3094,10 +2818,10 @@ were inserted in for today.
 
 00:41:11.056 --> 00:41:13.756 A:middle
 So I'll have a predicate with
-a start date and an end date
+a start date and an end date.
 
 00:41:13.756 --> 00:41:17.786 A:middle
-and start date and
+And start date and
 end date will be start
 
 00:41:17.786 --> 00:41:19.276 A:middle
@@ -3108,8 +2832,8 @@ Now I don't really care about
 the number of samples as long
 
 00:41:23.096 --> 00:41:25.396 A:middle
-as I get all of them back
-and I don't want to sort them
+as I get all of them back,
+and I don't want to sort them,
 
 00:41:25.396 --> 00:41:26.766 A:middle
 so I'm going to specify
@@ -3120,7 +2844,7 @@ Again, when this query returns,
 
 00:41:30.316 --> 00:41:33.316 A:middle
 I'm going to get all the
-quantity samples back
+quantity samples back,
 
 00:41:33.316 --> 00:41:36.196 A:middle
 and what I want to do is
@@ -3134,7 +2858,7 @@ which in our case will
 be the food item's name
 
 00:41:40.336 --> 00:41:42.756 A:middle
-and calorie information
+and calorie information,
 and I'm going
 
 00:41:42.756 --> 00:41:44.636 A:middle
@@ -3152,7 +2876,7 @@ the calorie information
 and the calorie name.
 
 00:41:51.846 --> 00:41:55.806 A:middle
-I put that into this array and
+I put that into this array, and
 once I have the array I'm going
 
 00:41:55.806 --> 00:41:57.566 A:middle
@@ -3161,10 +2885,6 @@ queue and send it back
 
 00:41:57.566 --> 00:41:59.026 A:middle
 in the completion block.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:01.256 --> 00:42:03.166 A:middle
 As always, let's not forget
@@ -3180,15 +2900,15 @@ Let's see whether this works.
 So I had oatmeal.
 
 00:42:17.356 --> 00:42:20.846 A:middle
-Yay, that worked and bananas.
+Yay, that worked, and bananas.
 
-00:42:21.356 --> 00:42:24.846 A:middle
-So, now that we have entered
-these details we can actually go
+00:42:21.356 --> 00:42:24.026 A:middle
+So, now that we have
+entered these details,
 
-00:42:24.846 --> 00:42:26.786 A:middle
-ahead and compute
-net energy burn.
+00:42:24.026 --> 00:42:26.786 A:middle
+we can actually go ahead
+and compute net energy burn.
 
 00:42:27.406 --> 00:42:29.346 A:middle
 So we're going to
@@ -3200,7 +2920,7 @@ by the total energy consumed.
 
 00:42:33.096 --> 00:42:38.466 A:middle
 So ideally the total here would
-be this total energy consumed
+be this total energy consumed,
 
 00:42:39.036 --> 00:42:41.346 A:middle
 but what about the
@@ -3211,15 +2931,16 @@ So let's assume now that I'm
 wearing this imaginary fitness
 
 00:42:44.856 --> 00:42:47.806 A:middle
-tracker device here and
+tracker device here, and
 every time I sync my iPhone
 
-00:42:47.806 --> 00:42:51.996 A:middle
-with this fitness tracker device
-it inserts active energy burn
+00:42:47.806 --> 00:42:49.316 A:middle
+with this fitness
+tracker device,
 
-00:42:51.996 --> 00:42:53.056 A:middle
-samples into Health Store.
+00:42:49.716 --> 00:42:53.056 A:middle
+it inserts active energy burn
+samples into HealthStore.
 
 00:42:54.336 --> 00:42:57.076 A:middle
 So, let's write code to
@@ -3228,86 +2949,77 @@ actually get the total of all
 00:42:57.076 --> 00:42:57.936 A:middle
 of these quantity samples.
 
+00:43:03.656 --> 00:43:05.466 A:middle
+Now I could write
+a sample query,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:03.656 --> 00:43:06.706 A:middle
-Now I could write a sample query
+00:43:05.466 --> 00:43:07.686 A:middle
 get all the quantity samples
+that I'm interested in,
 
-00:43:06.706 --> 00:43:09.346 A:middle
-that I'm interested in and
-then iteratively go over it
+00:43:07.686 --> 00:43:10.746 A:middle
+and then iteratively go over
+it and compute the values,
 
-00:43:09.346 --> 00:43:12.066 A:middle
-and compute the values,
-but really what I want
-
-00:43:12.066 --> 00:43:13.716 A:middle
-to do here is use
-a statistics query
+00:43:10.846 --> 00:43:13.716 A:middle
+but really what I want to do
+here is use a statistics query
 
 00:43:13.716 --> 00:43:15.126 A:middle
 because that's what
 this is meant to do.
 
 00:43:15.716 --> 00:43:19.546 A:middle
-So as always let's have
-a convenience method
+So as always, let's have
+a convenience method,
 
 00:43:19.546 --> 00:43:22.426 A:middle
-and let's write our
-first statistics query.
+and then in that let's write
+our first statistics query.
 
-00:43:22.996 --> 00:43:26.356 A:middle
-The quantity type that I'm
-interested in will be passed
+00:43:22.996 --> 00:43:25.746 A:middle
+The quantity type
+that I'm interested
 
-00:43:26.356 --> 00:43:29.866 A:middle
-into this method and, again,
+00:43:25.746 --> 00:43:28.746 A:middle
+in will be passed
+into this method.
 
-00:43:29.936 --> 00:43:33.396 A:middle
-the predicate will be filtering
-based on start date and end date
+00:43:28.896 --> 00:43:32.686 A:middle
+Again, the predicate will be
+filtering based on start date
 
-00:43:33.396 --> 00:43:36.826 A:middle
-because I'm interested only
-in samples that are relevant
+00:43:32.686 --> 00:43:35.146 A:middle
+and end date because I'm
+interested only in samples
 
-00:43:36.826 --> 00:43:40.516 A:middle
-for today and start date and
-end date are going to be start
+00:43:35.206 --> 00:43:39.086 A:middle
+that are relevant for
+today, and start date
 
-00:43:40.516 --> 00:43:41.806 A:middle
-of today and end of today.
+00:43:39.086 --> 00:43:41.806 A:middle
+and end date are going to be
+start of today and end of today.
 
 00:43:43.386 --> 00:43:45.236 A:middle
-This is interesting part here.
+This is the interesting
+part here.
 
 00:43:45.236 --> 00:43:48.086 A:middle
 I'm going to specify cumulative
 sum because that's the quantity
 
-00:43:48.086 --> 00:43:52.736 A:middle
-that I'm interested in and
-when this query returns note
+00:43:48.086 --> 00:43:51.916 A:middle
+that I'm interested in, and
+when this query returns,
 
-00:43:52.736 --> 00:43:55.656 A:middle
-that we are going to get
-an HKStatistics object back
+00:43:52.396 --> 00:43:55.656 A:middle
+note that we are going to get
+an HKStatistics object back,
 
 00:43:55.656 --> 00:43:58.766 A:middle
 and what I want to do is get
 the quantity object associated
-
-00:43:58.766 --> 00:44:01.116 A:middle
-with this statistics object
-back and pass it along.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:58.766 --> 00:44:01.116 A:middle
 with this statistics object
@@ -3323,17 +3035,17 @@ energy consumed with this query.
 
 00:44:13.826 --> 00:44:15.916 A:middle
 So let's call the convenience
-method that we just wrote
+method that we just wrote.
 
 00:44:16.566 --> 00:44:20.116 A:middle
-and the energy type that
+And the energy type that
 I'm interested in is
 
-00:44:20.116 --> 00:44:25.056 A:middle
+00:44:20.116 --> 00:44:25.436 A:middle
 that of dietary calories because
-that's what I saved it as.
+that's what I saved it in as.
 
-00:44:25.286 --> 00:44:27.676 A:middle
+00:44:25.436 --> 00:44:27.676 A:middle
 Finally when I get
 the quantity back,
 
@@ -3370,30 +3082,22 @@ this works.
 
 00:44:53.236 --> 00:45:02.136 A:middle
 Okay. I should see 255
-calories here and that works
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:53.236 --> 00:45:02.136 A:middle
-Okay. I should see 255
-calories here and that works
+calories here, and that works,
 
 00:45:02.206 --> 00:45:04.176 A:middle
 and now let's see
-whether syncing works
+whether syncing works,
 
-00:45:04.176 --> 00:45:07.406 A:middle
-and so I actually get my net
-energy burn and there I'm
+00:45:04.176 --> 00:45:07.186 A:middle
+and so I actually get my
+net energy burn, and there,
 
-00:45:07.406 --> 00:45:09.206 A:middle
-on track with my
-net energy burned
+00:45:07.186 --> 00:45:09.206 A:middle
+I'm on track with my
+net energy burned.
 
 00:45:09.206 --> 00:45:11.166 A:middle
-and that was my quick demo.
+And that was my quick demo.
 
 00:45:11.496 --> 00:45:13.746 A:middle
 So we saw in less than
@@ -3434,13 +3138,16 @@ into your own applications.
 Next we're going to talk through
 some HealthKit best practices.
 
-00:45:43.636 --> 00:45:47.176 A:middle
-So, before you can use HealthKit
-the first thing you need
+00:45:43.636 --> 00:45:45.806 A:middle
+So, before you can
+use HealthKit,
 
-00:45:47.176 --> 00:45:50.236 A:middle
-to do is let us know that
-you intend to use it.
+00:45:46.296 --> 00:45:48.876 A:middle
+the first thing you need
+to do is let us know
+
+00:45:48.916 --> 00:45:50.236 A:middle
+that you intend to use it.
 
 00:45:51.146 --> 00:45:53.786 A:middle
 To support this, we've
@@ -3454,19 +3161,15 @@ Xcode so that you can manage it
 in the same way you're
 used to managing things
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:46:00.006 --> 00:46:03.626 A:middle
 like Game Center or Passbook.
 
-00:46:04.216 --> 00:46:07.756 A:middle
-Once you've given your app the
-HealthKit capability the last
+00:46:04.216 --> 00:46:07.036 A:middle
+Once you've given your app
+the HealthKit capability,
 
-00:46:07.756 --> 00:46:10.126 A:middle
-thing you need is
+00:46:07.316 --> 00:46:10.126 A:middle
+the last thing you need is
 permission from the user
 
 00:46:10.126 --> 00:46:11.476 A:middle
@@ -3488,14 +3191,14 @@ to the information that they
 feel comfortable sharing.
 
 00:46:25.406 --> 00:46:28.496 A:middle
-To support this we let users
+To support this, we let users
 give your app permission
 
 00:46:28.546 --> 00:46:30.636 A:middle
 on a per object type basis.
 
 00:46:31.926 --> 00:46:35.736 A:middle
-That way if the only thing your
+That way, if the only thing your
 application needs is step data,
 
 00:46:36.136 --> 00:46:37.586 A:middle
@@ -3521,17 +3224,12 @@ A user might be totally fine
 with your application
 saving data to HealthKit
 
-00:46:53.376 --> 00:46:56.606 A:middle
-but not want it reading data
+00:46:53.376 --> 00:46:54.966 A:middle
+but might not want
+it reading data
+
+00:46:54.966 --> 00:46:56.606 A:middle
 that came from other sources.
-
-00:46:58.256 --> 00:47:00.726 A:middle
-To request access
-for a set of types,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:58.256 --> 00:47:00.726 A:middle
 To request access
@@ -3539,18 +3237,18 @@ for a set of types,
 
 00:47:00.956 --> 00:47:06.386 A:middle
 you can use HKHealthStore's
-request to authorization
+requestAuthorization
 
 00:47:06.646 --> 00:47:09.386 A:middle
-to share types, read
-types, completion.
+ToShareTypes, readTypes,
+completion.
 
 00:47:10.756 --> 00:47:13.256 A:middle
 They should be called
 before you start interacting
 
 00:47:13.256 --> 00:47:15.566 A:middle
-with your Health Store
+with your HealthStore
 so that you can ensure
 
 00:47:15.566 --> 00:47:20.326 A:middle
@@ -3559,7 +3257,7 @@ chance to grant your app access.
 
 00:47:21.086 --> 00:47:25.016 A:middle
 Once you ask for authorization
-to a new type the user is going
+to a new type, the user is going
 
 00:47:25.016 --> 00:47:27.506 A:middle
 to be presented with
@@ -3597,20 +3295,13 @@ for all types you intend
 00:47:50.206 --> 00:47:53.946 A:middle
 to use at the same time.
 
-00:47:54.156 --> 00:47:56.566 A:middle
+00:47:54.156 --> 00:47:55.796 A:middle
 Once you've requested
-authorization the next thing
+authorization,
 
-00:47:56.566 --> 00:47:59.216 A:middle
-you're probably going
-to want to do is check
-
-00:47:59.216 --> 00:48:00.556 A:middle
-if you've been granted access.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
+00:47:55.796 --> 00:47:59.216 A:middle
+the next thing you're probably
+going to want to do is check
 
 00:47:59.216 --> 00:48:00.556 A:middle
 if you've been granted access.
@@ -3627,13 +3318,13 @@ to a particular type,
 but you can't see if you've
 been granted read access.
 
-00:48:12.706 --> 00:48:15.776 A:middle
+00:48:12.706 --> 00:48:14.966 A:middle
 This is because for some
-kinds of information knowing
+kinds of information,
 
-00:48:15.776 --> 00:48:19.276 A:middle
-that the user blocked your
-app can be just as private
+00:48:15.316 --> 00:48:19.276 A:middle
+knowing that the user blocked
+your app can be just as private
 
 00:48:19.316 --> 00:48:21.806 A:middle
 as knowing the data itself.
@@ -3647,7 +3338,7 @@ from reading their blood
 sugar, it might indicate
 
 00:48:28.386 --> 00:48:30.406 A:middle
-that they're diabetic
+that they're diabetic,
 and we don't want
 
 00:48:30.406 --> 00:48:31.456 A:middle
@@ -3657,20 +3348,20 @@ to leak this information.
 You can check your
 authorization status
 
-00:48:35.606 --> 00:48:39.316 A:middle
-for a particular type using
-HKHealthStore's authorization
+00:48:35.606 --> 00:48:38.506 A:middle
+for a particular type
+using HKHealthStore's
 
-00:48:39.316 --> 00:48:44.816 A:middle
-status for type.
+00:48:38.576 --> 00:48:40.216 A:middle
+authorizationStatusForType.
 
-00:48:44.816 --> 00:48:46.946 A:middle
+00:48:44.436 --> 00:48:46.946 A:middle
 Our users are spread
 all around the world.
 
 00:48:47.926 --> 00:48:51.176 A:middle
 To be able to reach all of these
-people it's really important
+people, it's really important
 
 00:48:51.176 --> 00:48:53.286 A:middle
 that your app supports
@@ -3684,20 +3375,12 @@ a set of NSFormatters
 that let you localize
 things such as numbers,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:58.196 --> 00:49:00.596 A:middle
-that let you localize
-things such as numbers,
-
 00:49:00.776 --> 00:49:02.136 A:middle
-dates and even by count.
+dates and even byte count.
 
 00:49:03.446 --> 00:49:07.446 A:middle
 You could use a number formatter
-to localize a quantity's value
+to localize a quantity's value,
 
 00:49:07.446 --> 00:49:10.306 A:middle
 but you'd have to
@@ -3709,10 +3392,10 @@ kinds of the data that we keep
 
 00:49:15.296 --> 00:49:18.396 A:middle
 in HealthKit, we've added
-3 brand new formatters
+three brand new formatters
 
 00:49:18.396 --> 00:49:22.416 A:middle
-to foundation; NSMassFormatter,
+to foundation: NSMassFormatter,
 NSLengthFormatter
 
 00:49:22.416 --> 00:49:23.916 A:middle
@@ -3734,7 +3417,7 @@ Let's take a look at how you
 might use NSMassFormatter.
 
 00:49:37.516 --> 00:49:41.986 A:middle
-First, we create our formatter
+First, we create our formatter,
 and we tell it that it's
 
 00:49:41.986 --> 00:49:44.096 A:middle
@@ -3761,22 +3444,14 @@ value in kilograms.
 
 00:49:59.716 --> 00:50:04.066 A:middle
 We then pass this weight in
-kilograms to our formatter
+kilograms to our formatter,
 
+00:50:04.326 --> 00:50:06.096 A:middle
+and it gives us a
+localized string,
 
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:49:59.716 --> 00:50:04.066 A:middle
-We then pass this weight in
-kilograms to our formatter
-
-00:50:04.326 --> 00:50:06.956 A:middle
-and it gives us a localized
-string including the
-
-00:50:06.956 --> 00:50:07.586 A:middle
-unit string.
+00:50:06.266 --> 00:50:07.586 A:middle
+including the unit string.
 
 00:50:08.806 --> 00:50:11.796 A:middle
 Note that our formatter
@@ -3797,18 +3472,18 @@ This works great if all you're
 doing is putting a value
 
 00:50:22.326 --> 00:50:25.206 A:middle
-in a label but often
-times you need to know
+in a label, but oftentimes
+you need to know
 
 00:50:25.206 --> 00:50:28.106 A:middle
 which unit was actually used.
 
 00:50:28.726 --> 00:50:33.176 A:middle
-To support this you can pass an
-NS mass formatter unit pointer
+To support this, you can pass
+an NSMassFormatter unit pointer
 
 00:50:33.726 --> 00:50:35.736 A:middle
-to your formatter
+to your formatter,
 and it will be filled
 
 00:50:35.736 --> 00:50:38.086 A:middle
@@ -3828,29 +3503,25 @@ that HealthKit makes it
 easy for you to store
 
 00:50:50.876 --> 00:50:52.026 A:middle
-and share health data
+and share health data,
 
 00:50:52.766 --> 00:50:55.576 A:middle
 which means you can spend your
-time doing what you do best
+time doing what you do best,
 
 00:50:56.556 --> 00:50:58.916 A:middle
 keeping our users
 happy and healthy.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:01.236 --> 00:51:04.226 A:middle
-Before you go there's one thing
+Before you go, there's one thing
 that I would love for all of you
 
 00:51:04.226 --> 00:51:05.606 A:middle
 to do after this session.
 
 00:51:06.766 --> 00:51:10.386 A:middle
-Try out HealthKit for yourself,
+Try out HealthKit for yourself;
 see what you can make with it.
 
 00:51:11.376 --> 00:51:14.426 A:middle
@@ -3861,20 +3532,20 @@ you can see some examples of how
 to properly use HealthKit.
 
 00:51:17.036 --> 00:51:19.246 A:middle
-For more information
+For more information,
 you can reach out to one
 
 00:51:19.246 --> 00:51:22.596 A:middle
-of our awesome evangelists Dave
-DeLong or David Harrington.
+of our awesome evangelists,
+Dave DeLong or David Harrington.
 
-00:51:23.556 --> 00:51:27.376 A:middle
-Our sample code is already
-available on developer.apple.com
+00:51:23.556 --> 00:51:25.506 A:middle
+Our sample code is
+already available
 
-00:51:27.846 --> 00:51:29.586 A:middle
-and we encourage
-you to ask questions
+00:51:25.596 --> 00:51:29.586 A:middle
+on developer.apple.com, and we
+encourage you to ask questions
 
 00:51:29.646 --> 00:51:31.276 A:middle
 on our Apple Developer forums.
@@ -3888,7 +3559,7 @@ has already passed, but
 you should totally check it
 
 00:51:38.496 --> 00:51:41.336 A:middle
-out online and it has
+out online, and it has
 some great information
 
 00:51:41.336 --> 00:51:44.676 A:middle
@@ -3896,9 +3567,8 @@ on how Bluetooth devices are
 integrated right into HealthKit.
 
 00:51:45.616 --> 00:51:48.976 A:middle
-Thank you and everybody
+Thank you, and everybody
 have a fantastic WWDC.
 
 00:51:49.516 --> 00:51:54.500 A:middle
 [ Applause ]
-

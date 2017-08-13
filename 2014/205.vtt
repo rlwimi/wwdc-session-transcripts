@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.516 --> 00:00:19.976 A:middle
 [ Applause ]
@@ -42,14 +41,6 @@ at WWDC14, Today Extensions.
 00:00:51.826 --> 00:00:57.736 A:middle
 And then, following
 on from that,
-
-00:00:57.856 --> 00:01:00.386 A:middle
-we're going to invite our
-colleague, Guy Fullerton,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:57.856 --> 00:01:00.386 A:middle
 we're going to invite our
@@ -120,14 +111,6 @@ there with its brethren right
 00:01:53.856 --> 00:01:55.926 A:middle
 in the midst of the
 sharing extensions.
-
-00:01:56.466 --> 00:02:00.396 A:middle
-And we also support
-sharing extensions on OS X.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:56.466 --> 00:02:00.396 A:middle
 And we also support
@@ -212,14 +195,6 @@ right in that row of actions.
 Actions can be UI
 and non-UI actions,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:57.296 --> 00:03:00.066 A:middle
-Actions can be UI
-and non-UI actions,
-
 00:03:00.066 --> 00:03:01.966 A:middle
 as you saw with the Bing
 Translate Extension.
@@ -296,14 +271,6 @@ for, I believe, seven releases.
 And next I want to tell you
 about Finder Extensions.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.496 --> 00:04:03.596 A:middle
-And next I want to tell you
-about Finder Extensions.
-
 00:04:03.676 --> 00:04:05.366 A:middle
 Finder Extensions
 are really cool.
@@ -368,14 +335,6 @@ contain many different types
 
 00:04:57.696 --> 00:04:58.526 A:middle
 of extensions.
-
-00:04:58.706 --> 00:05:01.776 A:middle
-For example, it could
-contain a Today View Widget.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.706 --> 00:05:01.776 A:middle
 For example, it could
@@ -460,13 +419,6 @@ that we launch your app in.
 00:05:59.206 --> 00:06:01.066 A:middle
 It's a special purpose binary.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.206 --> 00:06:01.066 A:middle
-It's a special purpose binary.
-
 00:06:01.066 --> 00:06:03.056 A:middle
 It has its own code signature.
 
@@ -545,14 +497,6 @@ had before that involved sort
 00:06:55.576 --> 00:06:57.986 A:middle
 of contextually switching from
 one application to another
-
-00:06:57.986 --> 00:07:01.366 A:middle
-on a user's phone and reconsider
-casting this, maybe in terms
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.986 --> 00:07:01.366 A:middle
 on a user's phone and reconsider
@@ -648,14 +592,6 @@ to be spun up to serve Safari.
 Now, if the user homes
 out and goes over to mail
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.876 --> 00:08:01.536 A:middle
-Now, if the user homes
-out and goes over to mail
-
 00:08:01.536 --> 00:08:04.056 A:middle
 and launches your
 extension again-let's say,
@@ -718,10 +654,10 @@ multiple times today.
 But, UI ViewControllers
 can be exposed
 
-00:08:38.106 --> 00:08:39.525 A:middle
+00:08:38.106 --> 00:08:39.526 A:middle
 to the user in multiple ways.
 
-00:08:39.525 --> 00:08:42.066 A:middle
+00:08:39.526 --> 00:08:42.066 A:middle
 And usually since
 extensions live inside
 
@@ -747,13 +683,6 @@ Notification Center Widgets,
 00:08:55.346 --> 00:08:58.896 A:middle
 Today View Extensions are
 contained while sharing
-
-00:08:58.896 --> 00:09:00.266 A:middle
-extensions are presented.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.896 --> 00:09:00.266 A:middle
 extensions are presented.
@@ -844,14 +773,6 @@ and presents the extension.
 You'll notice that Safari is not
 directly launching the extension
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.206 --> 00:10:02.766 A:middle
-You'll notice that Safari is not
-directly launching the extension
-
 00:10:02.766 --> 00:10:03.566 A:middle
 at any point.
 
@@ -924,13 +845,6 @@ or widgets as we call them.
 00:10:57.936 --> 00:10:59.946 A:middle
 Now, we've had widgets
 in some fashion
-
-00:10:59.946 --> 00:11:02.006 A:middle
-on the system for a while now.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.946 --> 00:11:02.006 A:middle
 on the system for a while now.
@@ -1023,10 +937,6 @@ new data that comes
 in you can do your
 own custom transition.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:12:01.236 --> 00:12:04.766 A:middle
 Also, kick off your expensive
 operations as early as possible
@@ -1104,10 +1014,6 @@ will be honored automatically
 
 00:12:57.856 --> 00:12:58.926 A:middle
 in the Notification Center.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.026 --> 00:13:01.956 A:middle
 Otherwise, if you're
@@ -1199,14 +1105,6 @@ and you can do that on iOS
 with the new method
 viewWillTransitionToSize
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.216 --> 00:14:02.856 A:middle
-with the new method
-viewWillTransitionToSize
-
 00:14:02.956 --> 00:14:04.186 A:middle
 with TransitionCoordinator.
 
@@ -1283,14 +1181,6 @@ this one, as it'll ensure
 that your widget's
 content stays up to date.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.076 --> 00:15:01.346 A:middle
-that your widget's
-content stays up to date.
-
 00:15:01.896 --> 00:15:04.206 A:middle
 So, if this is implemented
 you will be passed a
@@ -1360,10 +1250,6 @@ application a little bit further
 00:15:56.816 --> 00:15:59.216 A:middle
 by adding a widget for
 the Notification Center.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:01.196 --> 00:16:03.776 A:middle
 Now, adding a widget
@@ -1445,23 +1331,15 @@ step is just making sure
 to set my preferred content
 size to, in this case,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.006 --> 00:17:00.676 A:middle
-to set my preferred content
-size to, in this case,
-
 00:17:00.676 --> 00:17:02.646 A:middle
 just the content size
 of my table view.
 
-00:17:04.076 --> 00:17:06.945 A:middle
+00:17:04.076 --> 00:17:06.946 A:middle
 So, this will make sure that
 we're initializing the state
 
-00:17:06.945 --> 00:17:09.685 A:middle
+00:17:06.946 --> 00:17:09.686 A:middle
 where we're showing a
 single post in our widget,
 
@@ -1480,7 +1358,7 @@ and an action for our button
 00:17:19.856 --> 00:17:23.096 A:middle
 to show a little bit more.
 
-00:17:23.185 --> 00:17:25.356 A:middle
+00:17:23.186 --> 00:17:25.356 A:middle
 So, the first thing we'll
 do is update our state
 
@@ -1532,14 +1410,6 @@ that our content comes
 00:17:57.376 --> 00:17:59.426 A:middle
 in in a really nice
 animated fashion.
-
-00:17:59.986 --> 00:18:03.446 A:middle
-And so to do that
-we'll implement
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.986 --> 00:18:03.446 A:middle
 And so to do that
@@ -1613,10 +1483,6 @@ the method widgetPerformUpdate
 00:18:57.896 --> 00:18:58.836 A:middle
 withCompletionHandler.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.236 --> 00:19:03.206 A:middle
 So, I'll start by getting the
 recent, most recent posts,
@@ -1686,14 +1552,6 @@ build and run for the simulator.
 I'll switch over to
 the simulator now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:54.576 --> 00:20:02.286 A:middle
-I'll switch over to
-the simulator now.
-
 00:20:02.286 --> 00:20:05.396 A:middle
 Oh, and here we have our
 ClownTown application.
@@ -1754,14 +1612,6 @@ take care of that.
 00:20:57.666 --> 00:20:59.546 A:middle
 Alright, now here's
 our More button.
-
-00:20:59.846 --> 00:21:03.876 A:middle
-If we tap that, get some new
-rows animate in nicely-wow,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.846 --> 00:21:03.876 A:middle
 If we tap that, get some new
@@ -1839,14 +1689,6 @@ called the extensionContext.
 00:21:54.736 --> 00:21:57.806 A:middle
 Now, the extensionContext is an
 object that you'll have access
-
-00:21:57.906 --> 00:22:01.026 A:middle
-to in your widget or in any
-extension that's running
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:57.906 --> 00:22:01.026 A:middle
 to in your widget or in any
@@ -1937,10 +1779,6 @@ and make sure we don't miss
 00:22:59.496 --> 00:22:59.976 A:middle
 out on those suspenders.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:23:00.516 --> 00:23:03.516 A:middle
 [ Background Sounds]
 
@@ -2019,14 +1857,6 @@ and OS X to help you do this.
 And then be sure to handle
 update requests to make sure
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.086 --> 00:24:02.176 A:middle
-And then be sure to handle
-update requests to make sure
-
 00:24:02.176 --> 00:24:06.366 A:middle
 that all of the content
 looks up to date.
@@ -2093,14 +1923,6 @@ lots of other stuff.
 00:24:56.646 --> 00:24:58.956 A:middle
 So, let's go through
 a concrete example.
-
-00:24:59.346 --> 00:25:01.206 A:middle
-Let's say I've got a
-photo blogging application
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:59.346 --> 00:25:01.206 A:middle
 Let's say I've got a
@@ -2192,14 +2014,6 @@ to do with their packaging,
 specifically the
 extensions Info.plist,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.856 --> 00:26:00.816 A:middle
-specifically the
-extensions Info.plist,
-
 00:26:01.196 --> 00:26:05.366 A:middle
 so let's talk about that.
 
@@ -2276,14 +2090,6 @@ explained through an example.
 
 00:26:55.786 --> 00:26:56.946 A:middle
 Let's say you're in photos
-
-00:26:56.946 --> 00:27:00.076 A:middle
-and you have a set-a
-trio of things selected.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:56.946 --> 00:27:00.076 A:middle
 and you have a set-a
@@ -2380,10 +2186,6 @@ Info.plist has an
 00:27:58.846 --> 00:27:59.906 A:middle
 NSExtension dictionary.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:00.446 --> 00:28:02.526 A:middle
 And within that NSExtension
 dictionary is
@@ -2476,14 +2278,6 @@ condensed rules boil
 down to a predicate
 behind the scenes,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.736 --> 00:29:00.586 A:middle
-down to a predicate
-behind the scenes,
-
 00:29:00.586 --> 00:29:02.016 A:middle
 but you don't need
 to worry about that.
@@ -2569,10 +2363,6 @@ out of that page.
 00:29:55.846 --> 00:29:59.326 A:middle
 And for those Sharing Extensions
 we have the WebPageWithMaxCount
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.036 --> 00:30:01.736 A:middle
 activation rule.
@@ -2664,14 +2454,6 @@ extension, and you can get it
 to look exactly how you
 want using your own branding
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.266 --> 00:31:00.796 A:middle
-to look exactly how you
-want using your own branding
-
 00:31:00.796 --> 00:31:02.106 A:middle
 or existing UI or whatever.
 
@@ -2749,10 +2531,6 @@ NSURLSession you're allowing the
 system to handle
 the upload for you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.666 --> 00:32:03.736 A:middle
 So, you create a background
 NSURLSessionConfiguration,
@@ -2821,14 +2599,6 @@ talked about performance
 00:32:54.436 --> 00:32:58.486 A:middle
 with request-with respect to the
 today widgets and I want to talk
-
-00:32:58.486 --> 00:33:00.096 A:middle
-about that in a little
-bit different way
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.486 --> 00:33:00.096 A:middle
 about that in a little
@@ -2908,14 +2678,6 @@ Extension real quick.
 Before going into
 the code I'm going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.076 --> 00:34:00.036 A:middle
-Before going into
-the code I'm going
-
 00:34:00.036 --> 00:34:03.356 A:middle
 to show you the Share
 Extension running so some
@@ -2934,7 +2696,7 @@ of screenshots I showed.
 00:34:08.496 --> 00:34:12.406 A:middle
 Let's pick a different one.
 
-00:34:14.315 --> 00:34:15.846 A:middle
+00:34:14.316 --> 00:34:15.846 A:middle
 Puppies-we'll do just one.
 
 00:34:15.926 --> 00:34:17.196 A:middle
@@ -2943,11 +2705,11 @@ Oh, let's not do that.
 00:34:18.436 --> 00:34:18.936 A:middle
 There we go.
 
-00:34:19.866 --> 00:34:21.525 A:middle
+00:34:19.866 --> 00:34:21.526 A:middle
 Click on the Photo
 Blog Share Extension
 
-00:34:21.525 --> 00:34:23.116 A:middle
+00:34:21.526 --> 00:34:23.116 A:middle
 and up comes the compose view.
 
 00:34:23.116 --> 00:34:26.616 A:middle
@@ -2958,11 +2720,11 @@ standard system compose sheet
 look derived from
 SLComposeService ViewController,
 
-00:34:29.376 --> 00:34:30.815 A:middle
+00:34:29.376 --> 00:34:30.816 A:middle
 and it can do a couple
 different things.
 
-00:34:30.815 --> 00:34:35.386 A:middle
+00:34:30.816 --> 00:34:35.386 A:middle
 You can type some text
 and as I'm typing text,
 
@@ -2984,7 +2746,7 @@ and the Post button disables.
 This is all happening
 more or less for free.
 
-00:34:44.966 --> 00:34:46.525 A:middle
+00:34:44.966 --> 00:34:46.526 A:middle
 You'll see some details
 when we look at the code.
 
@@ -2992,21 +2754,13 @@ when we look at the code.
 The image preview there,
 it happens for free,
 
-00:34:50.315 --> 00:34:51.656 A:middle
+00:34:50.316 --> 00:34:51.656 A:middle
 the base class will
 do that for you.
 
-00:34:52.275 --> 00:34:56.946 A:middle
+00:34:52.276 --> 00:34:56.946 A:middle
 We also, this particular
 subclass adds an audience picker
-
-00:34:57.336 --> 00:35:00.056 A:middle
-so this Photo Blog supports
-the notion of posting publicly
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.336 --> 00:35:00.056 A:middle
 so this Photo Blog supports
@@ -3093,14 +2847,6 @@ constraints for this demo app.
 00:35:54.696 --> 00:35:58.096 A:middle
 So, for purposes of showing off
 the remaining characters count
-
-00:35:58.406 --> 00:36:01.296 A:middle
-and generally updating the
-Post button, I'm going to say
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.406 --> 00:36:01.296 A:middle
 and generally updating the
@@ -3194,14 +2940,6 @@ to post it to.
 And I'm going to keep
 a configuration item
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.726 --> 00:37:01.416 A:middle
-And I'm going to keep
-a configuration item
-
 00:37:01.416 --> 00:37:03.396 A:middle
 that I'm going to talk
 about a little bit later on.
@@ -3286,14 +3024,6 @@ is the isContentValid method.
 The SLComposeService
 ViewController calls your
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.566 --> 00:38:01.106 A:middle
-The SLComposeService
-ViewController calls your
-
 00:38:01.106 --> 00:38:03.756 A:middle
 subclass' isContentValid
 method whenever it needs
@@ -3368,14 +3098,6 @@ So, next we are going to say
 00:38:57.146 --> 00:38:58.536 A:middle
 that the Post button
 should be enabled
-
-00:38:58.536 --> 00:39:01.076 A:middle
-if the user has not
-typed too much text
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:58.536 --> 00:39:01.076 A:middle
 if the user has not
@@ -3461,13 +3183,6 @@ particular Sharing Extension
 00:39:55.626 --> 00:39:59.396 A:middle
 that's allowed to do five posts
 to one social network at one go.
-
-00:39:59.926 --> 00:40:00.826 A:middle
-So, for that kind
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:59.926 --> 00:40:00.826 A:middle
 So, for that kind
@@ -3561,14 +3276,6 @@ particular item provider's data
 and we're going to want to do
 that on a background cue so as
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.766 --> 00:41:01.346 A:middle
-and we're going to want to do
-that on a background cue so as
-
 00:41:01.376 --> 00:41:03.696 A:middle
 to not disrupt the main thread.
 
@@ -3651,13 +3358,6 @@ to actually do that work.
 00:41:59.436 --> 00:42:00.816 A:middle
 Then I'm going to call a method
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:59.436 --> 00:42:00.816 A:middle
-Then I'm going to call a method
-
 00:42:00.816 --> 00:42:03.086 A:middle
 on my subclass called
 imageDataLoadDidFinish
@@ -3725,10 +3425,6 @@ to determine whether or not
 
 00:42:52.996 --> 00:42:53.976 A:middle
 to enable the Post button.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:02.166 --> 00:43:05.776 A:middle
 Okay, so, when the user
@@ -3814,10 +3510,6 @@ we stole, well, not stole,
 but code we borrowed
 from the main application
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:44:00.336 --> 00:44:03.246 A:middle
 that builds an NSURLRequest
 from the photo data
@@ -3891,14 +3583,6 @@ to implement that.
 00:44:56.746 --> 00:44:59.936 A:middle
 The base class will call your
 subclasses configuration items
-
-00:44:59.936 --> 00:45:03.406 A:middle
-method as a way to give your
-subclass a chance to supply
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:59.936 --> 00:45:03.406 A:middle
 method as a way to give your
@@ -3991,13 +3675,6 @@ grab a strong reference and do
 00:45:59.636 --> 00:46:00.566 A:middle
 that weak strong dance.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.636 --> 00:46:00.566 A:middle
-that weak strong dance.
-
 00:46:00.776 --> 00:46:03.846 A:middle
 And if our view controller
 is still around.
@@ -4082,14 +3759,6 @@ composed sheet
 00:46:54.876 --> 00:46:57.496 A:middle
 to fit your view
 controller's desired size.
-
-00:46:58.186 --> 00:47:02.926 A:middle
-And then, finally, now
-that we've implemented
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:58.186 --> 00:47:02.926 A:middle
 And then, finally, now
@@ -4187,14 +3856,6 @@ and since we only had one there,
 it restores the default
 share sheet appearance.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.566 --> 00:48:02.306 A:middle
-it restores the default
-share sheet appearance.
-
 00:48:02.906 --> 00:48:04.906 A:middle
 So, that is it.
 
@@ -4250,14 +3911,6 @@ very portable.
 00:48:54.866 --> 00:48:58.106 A:middle
 It was pretty easy for me to
 take my iOS share extension
-
-00:48:58.346 --> 00:49:01.316 A:middle
-and massage the code
-a little bit for OS X
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:58.346 --> 00:49:01.316 A:middle
 and massage the code
@@ -4336,13 +3989,6 @@ your activation rules
 00:49:55.296 --> 00:49:56.876 A:middle
 and you still need
 to do your upload
-
-00:49:56.876 --> 00:50:00.726 A:middle
-with NSURL background session.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:56.876 --> 00:50:00.726 A:middle
 with NSURL background session.
@@ -4432,14 +4078,6 @@ Extensions session where we go
 into detail on more
 share points.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:58.146 --> 00:51:00.136 A:middle
-into detail on more
-share points.
-
 00:51:00.576 --> 00:51:04.066 A:middle
 We also talk about more of
 the underlying infrastructure.
@@ -4489,4 +4127,3 @@ Thank you.
 
 00:51:27.508 --> 00:51:29.508 A:middle
 [ Applause ]
-

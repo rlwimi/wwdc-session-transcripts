@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:11.516 --> 00:00:16.206 A:middle
 [ Applause ]
@@ -65,10 +64,6 @@ talk is going to be about.
 00:00:57.706 --> 00:00:59.936 A:middle
 We're going to discuss
 scalability best practices
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.276 --> 00:01:02.946 A:middle
 to help you save on cost
@@ -150,13 +145,6 @@ done in one place in code.
 00:01:57.206 --> 00:02:00.936 A:middle
 You hardcode level 1.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.206 --> 00:02:00.936 A:middle
-You hardcode level 1.
-
 00:02:01.796 --> 00:02:04.306 A:middle
 Level 2 was a bit more
 work to make it different.
@@ -233,14 +221,6 @@ to start, the colors in code.
 
 00:02:53.456 --> 00:02:57.406 A:middle
 And what you end up with is
-
-00:02:57.406 --> 00:03:02.446 A:middle
-that you made changing art
-assets meaning changing code,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.406 --> 00:03:02.446 A:middle
 that you made changing art
@@ -329,14 +309,6 @@ touched on earlier.
 You want to separate scene
 structure from assets.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.866 --> 00:04:02.066 A:middle
-You want to separate scene
-structure from assets.
-
 00:04:02.546 --> 00:04:04.686 A:middle
 So, structure we're
 seeing might be different
@@ -418,14 +390,6 @@ showed earlier,
 let's you do visual
 feedback, visual editing,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.046 --> 00:05:00.356 A:middle
-let's you do visual
-feedback, visual editing,
-
 00:05:00.866 --> 00:05:01.806 A:middle
 feedback is immediate.
 
@@ -479,14 +443,6 @@ hammer throwing game here.
 00:05:55.436 --> 00:05:59.026 A:middle
 I just throw them at
 totem and I get a score.
-
-00:05:59.446 --> 00:06:01.796 A:middle
-I was really excited
-about making this,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.446 --> 00:06:01.796 A:middle
 I was really excited
@@ -549,14 +505,6 @@ It seems to be the same game.
 00:06:51.506 --> 00:06:54.566 A:middle
 What I have done here is I've
 used the SpriteKit template
-
-00:06:55.206 --> 00:07:01.486 A:middle
-which provides you the start of
-separating the code and assets.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:55.206 --> 00:07:01.486 A:middle
 which provides you the start of
@@ -639,14 +587,6 @@ actual game scene here.
 Notice the setupLevel1 is
 markedly smaller than it was
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:55.876 --> 00:08:01.166 A:middle
-Notice the setupLevel1 is
-markedly smaller than it was
-
 00:08:01.166 --> 00:08:02.066 A:middle
 in the previous example.
 
@@ -717,13 +657,6 @@ to attach level 1.
 00:08:56.556 --> 00:09:01.056 A:middle
 And level 1 looks like that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:08:56.556 --> 00:09:01.056 A:middle
-And level 1 looks like that.
-
 00:09:01.056 --> 00:09:03.356 A:middle
 So, I've separated out the
 structure of the theme,
@@ -784,14 +717,6 @@ taking scene file which,
 
 00:09:54.666 --> 00:09:56.246 A:middle
 in this case is MyScene.sks,
-
-00:09:57.306 --> 00:10:00.376 A:middle
-and your basic code file
-is MyScene.h and MyScene.m.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:57.306 --> 00:10:00.376 A:middle
 and your basic code file
@@ -869,14 +794,6 @@ up to iterate collaboratively.
 00:10:55.836 --> 00:10:58.246 A:middle
 Designers want to be designers,
 artists want to be artists,
-
-00:10:58.896 --> 00:11:03.846 A:middle
-coders want to be
-all of the above.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.896 --> 00:11:03.846 A:middle
 coders want to be
@@ -964,14 +881,6 @@ name that marker "hero".
 Place markers where you think
 enemies are going to start
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.686 --> 00:12:01.806 A:middle
-Place markers where you think
-enemies are going to start
-
 00:12:01.806 --> 00:12:03.816 A:middle
 out a new scene, probably
 name them "enemy".
@@ -1045,14 +954,6 @@ smoke should probably move
 
 00:12:55.536 --> 00:12:56.116 A:middle
 with the train.
-
-00:12:56.706 --> 00:13:00.746 A:middle
-And so, I've set that up as
-a parent-child relationship.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:56.706 --> 00:13:00.746 A:middle
 And so, I've set that up as
@@ -1145,14 +1046,6 @@ having the scene structure found
 on one side and the actual
 scene code on the right
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.876 --> 00:14:00.836 A:middle
-on one side and the actual
-scene code on the right
-
 00:14:00.836 --> 00:14:04.096 A:middle
 and I'm just making sure that
 my code matches what I think the
@@ -1234,14 +1127,6 @@ make sure you go super init
 or initWithCoder depending upon
 what your super class needs.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.756 --> 00:15:01.836 A:middle
-or initWithCoder depending upon
-what your super class needs.
-
 00:15:02.846 --> 00:15:04.176 A:middle
 And load up the enemy
 stats here.
@@ -1314,14 +1199,6 @@ doing this is that you want
 to have a simple way of taking
 your logical scene elements
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:58.536 --> 00:16:02.956 A:middle
-to have a simple way of taking
-your logical scene elements
-
 00:16:02.956 --> 00:16:04.476 A:middle
 and hooking them
 up to your code.
@@ -1384,26 +1261,19 @@ not just name but class.
 00:16:59.036 --> 00:17:00.896 A:middle
 So, we can go //EmitterNode,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.036 --> 00:17:00.896 A:middle
-So, we can go //EmitterNode,
-
 00:17:01.256 --> 00:17:03.686 A:middle
 we'd find all the emitter
 nodes in your scene.
 
-00:17:04.685 --> 00:17:08.046 A:middle
+00:17:04.686 --> 00:17:08.046 A:middle
 And you can also use
 blob-style partial matches,
 
-00:17:08.685 --> 00:17:11.435 A:middle
+00:17:08.686 --> 00:17:11.436 A:middle
 such as the wildcard
 here where it's anything,
 
-00:17:11.435 --> 00:17:14.556 A:middle
+00:17:11.436 --> 00:17:14.556 A:middle
 any node named starting
 with "he".
 
@@ -1415,10 +1285,10 @@ going to be your best way
 of lodging up-of linking
 up your logical scene
 
-00:17:21.516 --> 00:17:24.665 A:middle
+00:17:21.516 --> 00:17:24.666 A:middle
 with the actual game code.
 
-00:17:25.175 --> 00:17:26.806 A:middle
+00:17:25.176 --> 00:17:26.806 A:middle
 And obviously that's
 what we did.
 
@@ -1476,10 +1346,6 @@ artist has delivered them
 
 00:17:59.006 --> 00:17:59.716 A:middle
 at the right size.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.456 --> 00:18:03.246 A:middle
 Add the levels that you
@@ -1559,13 +1425,6 @@ that space that you made
 00:18:58.996 --> 00:19:00.436 A:middle
 by improving your performance.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.996 --> 00:19:00.436 A:middle
-by improving your performance.
-
 00:19:02.346 --> 00:19:05.776 A:middle
 So, I have a bunch of topics
 to go through and just
@@ -1634,14 +1493,6 @@ resources that are used
 
 00:19:56.046 --> 00:19:57.186 A:middle
 to accomplish that drawing.
-
-00:19:57.836 --> 00:20:06.696 A:middle
-Now, SpriteKit has by default
-a sibling order draw rule
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.836 --> 00:20:06.696 A:middle
 Now, SpriteKit has by default
@@ -1721,14 +1572,6 @@ It's a little draw call.
 And that's a lot of
 individual draw calls.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.926 --> 00:21:02.136 A:middle
-And that's a lot of
-individual draw calls.
-
 00:21:02.136 --> 00:21:04.466 A:middle
 It's going to take some
 time and you get the idea,
@@ -1797,13 +1640,6 @@ or anything like that.
 00:21:56.576 --> 00:21:58.556 A:middle
 It's based on something
 absolute, which is,
-
-00:21:58.996 --> 00:22:00.416 A:middle
-where is my parent in space.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.996 --> 00:22:00.416 A:middle
 where is my parent in space.
@@ -1890,14 +1726,6 @@ map generation scheme.
 And you can see that there
 is a little flower block.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.406 --> 00:23:02.166 A:middle
-And you can see that there
-is a little flower block.
-
 00:23:02.756 --> 00:23:06.646 A:middle
 And because SpriteKit
 textures are keyed off a name
@@ -1974,13 +1802,6 @@ a cache pointer somewhere
 00:23:54.066 --> 00:23:56.116 A:middle
 that it is actually the
 same texture it won't know
-
-00:23:56.266 --> 00:24:00.186 A:middle
-and it won't be able to batch.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:56.266 --> 00:24:00.186 A:middle
 and it won't be able to batch.
@@ -2070,14 +1891,6 @@ you can imagine for example
 if you had some sort of a
 misty forest scene with a layer
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.836 --> 00:25:02.246 A:middle
-if you had some sort of a
-misty forest scene with a layer
-
 00:25:02.246 --> 00:25:05.586 A:middle
 of trees and then a layer of
 creatures and then another layer
@@ -2146,14 +1959,6 @@ number of flags on the view
 00:25:54.296 --> 00:25:57.306 A:middle
 which you can turn on and off
 in order to get some insight.
-
-00:25:58.026 --> 00:26:01.496 A:middle
-There is the obvious frame
-counter, FPS, frames per second.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.026 --> 00:26:01.496 A:middle
 There is the obvious frame
@@ -2233,14 +2038,6 @@ you've got is the GL frame,
 
 00:26:57.706 --> 00:26:58.766 A:middle
 the GL frame debugger.
-
-00:26:59.316 --> 00:27:01.096 A:middle
-So, there's all kinds
-of cool gauges
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.316 --> 00:27:01.096 A:middle
 So, there's all kinds
@@ -2331,10 +2128,6 @@ And use the HUDs and profilers
 to really understand
 what the engine is doing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:01.936 --> 00:28:05.156 A:middle
 All right, next up:
 Actions and Constraints.
@@ -2402,14 +2195,6 @@ by pi apparently for one second.
 00:28:52.996 --> 00:28:55.646 A:middle
 You can chain them,
 group them, reuse them.
-
-00:28:57.056 --> 00:29:00.506 A:middle
-Here, the little airplanes that
-you might all be familiar with.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.056 --> 00:29:00.506 A:middle
 Here, the little airplanes that
@@ -2485,10 +2270,6 @@ those things as deeply
 
 00:29:57.216 --> 00:29:59.656 A:middle
 and "complexively" as you like.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.466 --> 00:30:01.646 A:middle
 Am I allowed to make up words?
@@ -2570,14 +2351,6 @@ actually new and cool.
 You can create a followpath node
 which just takes the CGPathRef.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:57.596 --> 00:31:01.966 A:middle
-You can create a followpath node
-which just takes the CGPathRef.
-
 00:31:02.516 --> 00:31:05.136 A:middle
 And if you've ever spent any
 time with Bezier's points
@@ -2646,14 +2419,6 @@ of the fact that they're copying
 00:31:54.006 --> 00:31:56.336 A:middle
 on add and that they run
 when you add it to a scene.
-
-00:31:57.156 --> 00:32:00.106 A:middle
-My example here is that
-he might have a spaceship
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:57.156 --> 00:32:00.106 A:middle
 My example here is that
@@ -2730,10 +2495,6 @@ without a hitch or stutter
 00:32:57.956 --> 00:32:59.666 A:middle
 onto the new action
 and continue on.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.366 --> 00:33:03.346 A:middle
 And finally, if my monster is
@@ -2815,14 +2576,6 @@ mentioned rigid bodies.
 That's all the things
 in your game.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.826 --> 00:34:00.906 A:middle
-That's all the things
-in your game.
-
 00:34:00.906 --> 00:34:02.816 A:middle
 They're bouncing, falling,
 rolling and sliding.
@@ -2839,7 +2592,7 @@ bodies, handling collisions
 and letting you know
 that they have occurred
 
-00:34:12.386 --> 00:34:13.255 A:middle
+00:34:12.386 --> 00:34:13.256 A:middle
 and physics fields.
 
 00:34:14.716 --> 00:34:19.666 A:middle
@@ -2853,7 +2606,7 @@ and understanding what's going
 on is the new physics
 visualizer.
 
-00:34:24.775 --> 00:34:27.996 A:middle
+00:34:24.776 --> 00:34:27.996 A:middle
 So, let's just go back
 to my gear scheme here.
 
@@ -2861,49 +2614,41 @@ to my gear scheme here.
 I'm dropping in these
 wonderful gears.
 
-00:34:30.466 --> 00:34:32.275 A:middle
+00:34:30.466 --> 00:34:32.276 A:middle
 And wait a second.
 
-00:34:33.616 --> 00:34:35.795 A:middle
+00:34:33.616 --> 00:34:35.796 A:middle
 His teeth weren't
 acting properly.
 
 00:34:36.036 --> 00:34:36.806 A:middle
 What's up with that?
 
-00:34:38.025 --> 00:34:41.356 A:middle
+00:34:38.026 --> 00:34:41.356 A:middle
 The other ones are interlocking
 but just not that one.
 
-00:34:42.216 --> 00:34:45.045 A:middle
+00:34:42.216 --> 00:34:45.046 A:middle
 So, I'll turn on the
 visualizer and you can see,
 
-00:34:45.045 --> 00:34:47.126 A:middle
+00:34:45.046 --> 00:34:47.126 A:middle
 oh, that one is a circle.
 
-00:34:47.536 --> 00:34:48.815 A:middle
+00:34:47.536 --> 00:34:48.816 A:middle
 I made a mistake somewhere.
 
-00:34:49.005 --> 00:34:52.545 A:middle
+00:34:49.006 --> 00:34:52.546 A:middle
 So, I can go either in Xcode
 and click on my thing or,
 
-00:34:52.545 --> 00:34:55.076 A:middle
+00:34:52.546 --> 00:34:55.076 A:middle
 if it's procedural, I can
 look at my code and I can find
 
 00:34:55.076 --> 00:34:57.306 A:middle
 out why did this one
 slips through the cracks.
-
-00:34:57.686 --> 00:35:01.596 A:middle
-So, this is your-- This is your
-great first line of defense
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.686 --> 00:35:01.596 A:middle
 So, this is your-- This is your
@@ -2988,14 +2733,6 @@ than objects that are static,
 like hopefully the stage
 that I'm standing on.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.396 --> 00:36:01.516 A:middle
-like hopefully the stage
-that I'm standing on.
-
 00:36:02.386 --> 00:36:08.576 A:middle
 So, if you can set an object
 to dynamic = NO, you're going
@@ -3068,14 +2805,6 @@ of complicated shapes the best.
 It's more expensive
 than the rectangle
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.876 --> 00:37:00.816 A:middle
-It's more expensive
-than the rectangle
-
 00:37:00.816 --> 00:37:02.296 A:middle
 because there's more
 edges to compute.
@@ -3140,10 +2869,6 @@ efficient side of the chart
 as much as you can,
 serve your gameplay.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:02.006 --> 00:38:02.656 A:middle
 All right.
 
@@ -3202,14 +2927,6 @@ Putting the jar back again.
 00:38:54.556 --> 00:38:57.016 A:middle
 Now, if you use a
 collision mask,
-
-00:38:57.616 --> 00:39:02.096 A:middle
-give the white marbles mask 1
-and the green marbles mask 2,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:57.616 --> 00:39:02.096 A:middle
 give the white marbles mask 1
@@ -3294,13 +3011,6 @@ these things endlessly.
 00:39:59.076 --> 00:40:00.706 A:middle
 I had to throw that slide in.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.076 --> 00:40:00.706 A:middle
-I had to throw that slide in.
-
 00:40:01.226 --> 00:40:06.236 A:middle
 Now, here's another example of
 how force fields can help you
@@ -3372,14 +3082,6 @@ Let's go back to the picture
 00:40:56.316 --> 00:40:59.376 A:middle
 of the-of movie again,
 or maybe not.
-
-00:40:59.816 --> 00:41:01.216 A:middle
-Before I show you
-that next slide,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.816 --> 00:41:01.216 A:middle
 Before I show you
@@ -3466,14 +3168,6 @@ screen and well,
 you know what the
 ship's position is.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:59.446 --> 00:42:00.846 A:middle
-you know what the
-ship's position is.
-
 00:42:01.266 --> 00:42:04.126 A:middle
 I'm calculating and I don't
 want to divide by zero
@@ -3545,13 +3239,6 @@ drawing can give you insight
 00:42:56.616 --> 00:42:59.696 A:middle
 into what's going on,
 here is, you know,
-
-00:42:59.876 --> 00:43:01.086 A:middle
-the wizard behind the curtain.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:59.876 --> 00:43:01.086 A:middle
 the wizard behind the curtain.
@@ -3635,14 +3322,6 @@ thinking and imagination.
 And the debug drawing is going
 to give you all kinds of insight
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.736 --> 00:44:02.386 A:middle
-And the debug drawing is going
-to give you all kinds of insight
-
 00:44:02.756 --> 00:44:04.896 A:middle
 into what the engine is doing
 for you behind the scenes.
@@ -3704,14 +3383,6 @@ bit more expensive.
 
 00:44:57.466 --> 00:44:58.316 A:middle
 You can use them a lot.
-
-00:44:59.346 --> 00:45:02.916 A:middle
-These have had a ton
-of love put into them
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:59.346 --> 00:45:02.916 A:middle
 These have had a ton
@@ -3786,14 +3457,6 @@ I made a fractal space pulling
 curve thing with tens of
 thousands of points in it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.486 --> 00:46:03.626 A:middle
-curve thing with tens of
-thousands of points in it
-
 00:46:04.036 --> 00:46:08.386 A:middle
 and just to kind of say
 hey, they're cheap use them.
@@ -3844,14 +3507,6 @@ Shaders are an awesome option.
 00:46:55.326 --> 00:46:59.866 A:middle
 Whenever you don't need to have
 things composited offscreen
-
-00:46:59.976 --> 00:47:02.356 A:middle
-particularly and you can
-just go ahead and draw,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:59.976 --> 00:47:02.356 A:middle
 particularly and you can
@@ -3934,13 +3589,6 @@ almost nothing.
 00:47:59.376 --> 00:48:01.656 A:middle
 You have a CI filter.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.376 --> 00:48:01.656 A:middle
-You have a CI filter.
-
 00:48:02.156 --> 00:48:03.346 A:middle
 There is the other
 variant right there.
@@ -4017,14 +3665,6 @@ per sprite, so weigh if you want
 to do that and keep the cost
 down with the bit masks.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:57.716 --> 00:49:01.866 A:middle
-to do that and keep the cost
-down with the bit masks.
-
 00:49:02.686 --> 00:49:04.486 A:middle
 Normal maps are cheap.
 
@@ -4085,14 +3725,6 @@ batching and draw order.
 00:49:53.146 --> 00:49:56.716 A:middle
 And learn about the tools to get
 insight into what's going on.
-
-00:49:58.176 --> 00:50:00.886 A:middle
-Actions and constraints
-are your window
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:58.176 --> 00:50:00.886 A:middle
 Actions and constraints
@@ -4175,13 +3807,6 @@ Schafer and Filip Iliescu
 00:50:58.906 --> 00:51:00.736 A:middle
 who are our games evangelists.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:58.906 --> 00:51:00.736 A:middle
-who are our games evangelists.
-
 00:51:01.416 --> 00:51:03.626 A:middle
 The SpriteKit programming
 guide, recently refreshed,
@@ -4211,4 +3836,3 @@ and I'll see you all later.
 
 00:51:25.508 --> 00:51:27.508 A:middle
 [ Applause ]
-

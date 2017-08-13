@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:12.626 --> 00:00:12.976 A:middle
 &gt;&gt; Welcome.
@@ -60,13 +59,6 @@ this room knows,
 00:00:55.446 --> 00:00:58.246 A:middle
 a huge portion of
 those are games.
-
-00:00:59.886 --> 00:01:01.586 A:middle
-Game Center also reinforces this
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.886 --> 00:01:01.586 A:middle
 Game Center also reinforces this
@@ -136,14 +128,6 @@ right to OpenGL or Metal,
 00:01:55.596 --> 00:01:56.956 A:middle
 you can use SpriteKit
 and SceneKit.
-
-00:01:57.466 --> 00:02:00.876 A:middle
-It'll allow you to do less
-programming and let us build
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:57.466 --> 00:02:00.876 A:middle
 It'll allow you to do less
@@ -222,14 +206,6 @@ If you look at the winners
 from the Apple Design Awards
 last night, like "Threes",
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.926 --> 00:03:03.976 A:middle
-from the Apple Design Awards
-last night, like "Threes",
-
 00:03:04.226 --> 00:03:08.656 A:middle
 "Leo's Fortune", "DEVICE 6",
 "Blek", or "Monument Valley",
@@ -293,14 +269,6 @@ Welcome to WWDC 2014 and games.
 
 00:03:58.456 --> 00:03:59.936 A:middle
 So my name is Allan Schaffer.
-
-00:03:59.936 --> 00:04:02.566 A:middle
-I'm the Game Technologies
-Evangelist at Apple.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.936 --> 00:04:02.566 A:middle
 I'm the Game Technologies
@@ -375,14 +343,6 @@ time experience in the game,
 00:04:54.366 --> 00:04:58.356 A:middle
 really streamlining
 everything that gets in the way
-
-00:04:58.356 --> 00:05:01.066 A:middle
-of the player getting into
-the game as they start.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.356 --> 00:05:01.066 A:middle
 of the player getting into
@@ -471,14 +431,6 @@ like Grand Central Dispatch,
 and so on, to move work off
 of your main thread and so,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.356 --> 00:06:02.286 A:middle
-and so on, to move work off
-of your main thread and so,
-
 00:06:02.286 --> 00:06:04.326 A:middle
 and let that continue
 asynchronously.
@@ -545,14 +497,6 @@ to be something
 
 00:06:56.406 --> 00:06:58.586 A:middle
 where it makes the player wait.
-
-00:06:59.306 --> 00:07:02.276 A:middle
-So later in the talk I'm going
-to go through a couple of things
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.306 --> 00:07:02.276 A:middle
 So later in the talk I'm going
@@ -631,10 +575,6 @@ them news or special offers
 or just whatever
 the reason may be.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.146 --> 00:08:02.516 A:middle
 Well, the first-time experience
 
@@ -673,7 +613,7 @@ It's "Paddle Mania".
 00:08:28.106 --> 00:08:30.236 A:middle
 But, so, let me be clear:
 
-00:08:30.566 --> 00:08:33.385 A:middle
+00:08:30.566 --> 00:08:33.386 A:middle
 If this is my first
 time playing the game,
 
@@ -689,7 +629,7 @@ right, to go and play.
 So if they matter, then
 now is not the time
 
-00:08:42.256 --> 00:08:43.775 A:middle
+00:08:42.256 --> 00:08:43.776 A:middle
 to ask me because I don't know.
 
 00:08:44.496 --> 00:08:47.736 A:middle
@@ -707,14 +647,6 @@ either way sort of conveys
 00:08:55.476 --> 00:08:58.886 A:middle
 to the players that it's not
 really-the experience here
-
-00:08:58.886 --> 00:09:00.446 A:middle
-hadn't really been
-thought through.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.886 --> 00:09:00.446 A:middle
 hadn't really been
@@ -796,14 +728,6 @@ know, show some restraint
 
 00:09:55.666 --> 00:09:57.296 A:middle
 when you're asking for feedback.
-
-00:09:58.626 --> 00:10:00.966 A:middle
-So that's number
-one: remove friction
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:58.626 --> 00:10:00.966 A:middle
 So that's number
@@ -896,14 +820,6 @@ different example:
 Apple Design Award Winner from
 2011, and that's "Cut the Rope".
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.446 --> 00:11:03.626 A:middle
-Apple Design Award Winner from
-2011, and that's "Cut the Rope".
-
 00:11:04.086 --> 00:11:06.046 A:middle
 So this was an awesome
 puzzle game.
@@ -990,14 +906,6 @@ another coaching tip.
 So here you cut the rope,
 the candy flows down,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.276 --> 00:12:03.126 A:middle
-So here you cut the rope,
-the candy flows down,
-
 00:12:03.126 --> 00:12:04.156 A:middle
 it goes into the bubble,
 
@@ -1068,10 +976,6 @@ that's just, you know,
 00:12:57.996 --> 00:12:59.856 A:middle
 okay fine they're showing
 me around the buttons.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.236 --> 00:13:03.306 A:middle
 But, no, if they had left
@@ -1154,14 +1058,6 @@ focus to the gameplay itself.
 So number three is to really
 tune and perfect your Core Loop.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:57.816 --> 00:14:02.116 A:middle
-So number three is to really
-tune and perfect your Core Loop.
-
 00:14:02.116 --> 00:14:04.366 A:middle
 You know, I talk to
 people all the time.
@@ -1239,14 +1135,6 @@ examples from different genres,
 
 00:14:58.576 --> 00:14:59.746 A:middle
 just to set the stage.
-
-00:14:59.746 --> 00:15:02.326 A:middle
-So, you know, here is a
-fantasy role playing game.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.746 --> 00:15:02.326 A:middle
 So, you know, here is a
@@ -1341,13 +1229,6 @@ games are the ones
 00:15:59.086 --> 00:16:01.066 A:middle
 with more than one Core Loop.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:59.086 --> 00:16:01.066 A:middle
-with more than one Core Loop.
-
 00:16:01.466 --> 00:16:03.136 A:middle
 And I'm showing these
 side by side.
@@ -1433,19 +1314,11 @@ for the developer
 to actually express the
 Core Loop, these components,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.756 --> 00:17:02.906 A:middle
-to actually express the
-Core Loop, these components,
-
-00:17:02.936 --> 00:17:06.175 A:middle
+00:17:02.936 --> 00:17:06.176 A:middle
 clearly in terms of the action,
 the reward, the expansion.
 
-00:17:07.455 --> 00:17:09.806 A:middle
+00:17:07.456 --> 00:17:09.806 A:middle
 Now, as I have been
 saying, make sure each phase
 
@@ -1511,14 +1384,6 @@ thinking it through yourself.
 00:17:56.556 --> 00:17:59.336 A:middle
 You know, if you find the
 clues, will you be able
-
-00:17:59.336 --> 00:18:02.666 A:middle
-to solve the puzzle without
-some giant leap of faith
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.336 --> 00:18:02.666 A:middle
 to solve the puzzle without
@@ -1594,14 +1459,6 @@ think you could break it
 00:18:56.806 --> 00:18:58.976 A:middle
 down into three distinct
 mechanics.
-
-00:18:59.256 --> 00:19:03.216 A:middle
-The first one is when you
-are dropping your line
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.256 --> 00:19:03.216 A:middle
 The first one is when you
@@ -1686,10 +1543,6 @@ a longer line, and so on.
 And so the game is really,
 you know, hilarious.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.046 --> 00:20:00.966 A:middle
 And if you didn't
 see it last year
@@ -1767,14 +1620,6 @@ mechanic, right.
 00:20:54.996 --> 00:20:58.166 A:middle
 And so, you know, if their game
 was based on pressing buttons
-
-00:20:58.216 --> 00:21:00.016 A:middle
-than they just overlay
-the screen,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.216 --> 00:21:00.016 A:middle
 than they just overlay
@@ -1861,14 +1706,6 @@ of the assumptions
 of that other mechanic just
 get built into the game.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:57.336 --> 00:22:00.336 A:middle
-of that other mechanic just
-get built into the game.
-
 00:22:00.336 --> 00:22:03.806 A:middle
 They become kind of implicit and
 ultimately kind of forgotten.
@@ -1940,14 +1777,6 @@ and get that to repeat.
 
 00:22:56.966 --> 00:22:58.746 A:middle
 And try to hit the dots.
-
-00:22:58.946 --> 00:23:00.416 A:middle
-By the way, I'm going
-to hang this picture
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.946 --> 00:23:00.416 A:middle
 By the way, I'm going
@@ -2034,14 +1863,6 @@ So it's taps and swipes.
 "Where's My Water": You
 guys are getting this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.406 --> 00:24:01.846 A:middle
-"Where's My Water": You
-guys are getting this.
-
 00:24:01.846 --> 00:24:06.666 A:middle
 You know, you take your finger,
 you drag a path through the dirt
@@ -2118,14 +1939,6 @@ the ones where you reach
 through the glass and touch the
 game elements themselves, right.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.776 --> 00:25:04.576 A:middle
-through the glass and touch the
-game elements themselves, right.
-
 00:25:04.886 --> 00:25:08.236 A:middle
 So it's based on touches and
 taps and gestures and swipes
@@ -2181,10 +1994,6 @@ by instantaneous feedback.
 00:25:56.376 --> 00:25:58.996 A:middle
 Okay, next is to
 foster engagement.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.226 --> 00:26:02.956 A:middle
 So, you know, this about
@@ -2257,13 +2066,6 @@ design process here is
 00:26:58.186 --> 00:27:00.266 A:middle
 profoundly fractal.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.186 --> 00:27:00.266 A:middle
-profoundly fractal.
-
 00:27:01.206 --> 00:27:05.426 A:middle
 The same patterns emerge
 at every level of detail.
@@ -2332,14 +2134,6 @@ paths of goals, I mean,
 
 00:27:55.666 --> 00:27:57.576 A:middle
 multiple paths of challenges,
-
-00:27:58.076 --> 00:28:01.936 A:middle
-and different paths
-giving different balance
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.076 --> 00:28:01.936 A:middle
 and different paths
@@ -2418,14 +2212,6 @@ see the benefit.
 Show them the benefit of
 becoming a paying player.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.806 --> 00:29:01.496 A:middle
-Show them the benefit of
-becoming a paying player.
-
 00:29:01.966 --> 00:29:05.436 A:middle
 But if you try to force them,
 then you'll lose engagement
@@ -2487,10 +2273,6 @@ the storyline, right.
 00:29:54.746 --> 00:29:59.976 A:middle
 Okay. Now, let me talk a
 bit about re engagement.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:00.146 --> 00:30:02.356 A:middle
 So providing really,
@@ -2568,14 +2350,6 @@ quickly; so have it ready.
 Have it ready to go
 so that your really,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.986 --> 00:31:01.076 A:middle
-Have it ready to go
-so that your really,
-
 00:31:01.076 --> 00:31:03.516 A:middle
 deeply engaged players can
 have something that's going
@@ -2648,10 +2422,6 @@ on the technical side.
 00:31:56.576 --> 00:31:59.866 A:middle
 And so this is number six:
 to use background transfers.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:00.356 --> 00:32:01.216 A:middle
 Huh? Okay.
@@ -2739,14 +2509,6 @@ armv7, armv7s, arm64.
 Okay. So there's a lot of
 stuff in "Paddle Mania 3000".
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:57.326 --> 00:33:01.386 A:middle
-Okay. So there's a lot of
-stuff in "Paddle Mania 3000".
-
 00:33:01.976 --> 00:33:05.266 A:middle
 And you know putting all
 that together is putting us
@@ -2824,14 +2586,6 @@ things to do this now.
 So the first step really is
 to take a good solid look
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.756 --> 00:34:02.336 A:middle
-So the first step really is
-to take a good solid look
-
 00:34:02.336 --> 00:34:05.696 A:middle
 at your game and the
 game design and determine
@@ -2839,27 +2593,27 @@ game design and determine
 00:34:05.696 --> 00:34:07.016 A:middle
 if there is some content
 
-00:34:07.016 --> 00:34:09.485 A:middle
+00:34:07.016 --> 00:34:09.486 A:middle
 that isn't really
 needed right up front.
 
-00:34:10.206 --> 00:34:12.545 A:middle
+00:34:10.206 --> 00:34:12.546 A:middle
 And games, especially
 games with any kind
 
-00:34:12.545 --> 00:34:16.485 A:middle
+00:34:12.546 --> 00:34:16.486 A:middle
 of a linear progression are
 perfect for this, right.
 
-00:34:16.795 --> 00:34:19.275 A:middle
+00:34:16.796 --> 00:34:19.276 A:middle
 You put the first couple of
 hours or whatever, you know,
 
-00:34:19.275 --> 00:34:23.226 A:middle
+00:34:19.276 --> 00:34:23.226 A:middle
 the first 20, 30 levels in
 the bundle at full quality.
 
-00:34:23.815 --> 00:34:26.696 A:middle
+00:34:23.816 --> 00:34:26.696 A:middle
 And then that's going to
 provide enough time for the user
 
@@ -2874,7 +2628,7 @@ their playing those first 20.
 00:34:32.576 --> 00:34:34.946 A:middle
 So how's this done?
 
-00:34:35.735 --> 00:34:38.966 A:middle
+00:34:35.736 --> 00:34:38.966 A:middle
 Okay. So NSURLSession is an
 API that we introduced back
 
@@ -2894,7 +2648,7 @@ for large data sets.
 So game levels, big images,
 sound files, texture atlases,
 
-00:34:52.176 --> 00:34:53.565 A:middle
+00:34:52.176 --> 00:34:53.566 A:middle
 all that kind of thing, right.
 
 00:34:54.196 --> 00:34:58.046 A:middle
@@ -2903,14 +2657,6 @@ happens outside of your process.
 
 00:34:58.046 --> 00:34:58.996 A:middle
 You just set it off.
-
-00:34:58.996 --> 00:35:01.096 A:middle
-You'll get notified
-when it's completed.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.996 --> 00:35:01.096 A:middle
 You'll get notified
@@ -2995,14 +2741,6 @@ kind of thing, but not code.
 If you're making code
 changes, that has to go back
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.616 --> 00:36:02.256 A:middle
-If you're making code
-changes, that has to go back
-
 00:36:02.256 --> 00:36:05.206 A:middle
 up through app review
 as an update to the app.
@@ -3064,14 +2802,6 @@ for breakfast, right.
 00:36:55.496 --> 00:36:59.546 A:middle
 Now, so as I get into this
 section, though, the first thing
-
-00:36:59.546 --> 00:37:02.266 A:middle
-to realize and to
-say about it is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.546 --> 00:37:02.266 A:middle
 to realize and to
@@ -3153,14 +2883,6 @@ draw; bind; draw.
 And that's how they draw their
 entire scene with one draw call
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:57.506 --> 00:38:01.656 A:middle
-And that's how they draw their
-entire scene with one draw call
-
 00:38:01.656 --> 00:38:04.786 A:middle
 for every quad, one texture
 bind for every draw call.
@@ -3222,14 +2944,6 @@ what they're doing in OpenGL.
 00:38:56.556 --> 00:38:59.286 A:middle
 But, and I'm not going to
 go deep into any of these.
-
-00:38:59.476 --> 00:39:03.426 A:middle
-But, so, more broadly,
-what you need to realize is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:59.476 --> 00:39:03.426 A:middle
 But, so, more broadly,
@@ -3309,10 +3023,6 @@ GPU utilization.
 And then over here on the
 right, the frame time,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:40:00.086 --> 00:40:03.176 A:middle
 or how much time the CPU
 is working on this frame,
@@ -3390,14 +3100,6 @@ you through all the UI.
 00:40:54.366 --> 00:40:57.426 A:middle
 But once you get to the
 view where you're looking
-
-00:40:57.426 --> 00:41:00.426 A:middle
-that your shaders, if
-I zoom that in again.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:57.426 --> 00:41:00.426 A:middle
 that your shaders, if
@@ -3484,10 +3186,6 @@ you know your way around yet,
 00:41:58.546 --> 00:41:59.606 A:middle
 just come down to the labs.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.006 --> 00:42:01.866 A:middle
 We have so many people
 down there who would love
@@ -3565,14 +3263,6 @@ entire technology stack
 from these APIs all the
 way down to the hardware,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:58.766 --> 00:43:02.836 A:middle
-from these APIs all the
-way down to the hardware,
-
 00:43:03.176 --> 00:43:06.936 A:middle
 it means that everything can
 be made very optimal in a way
@@ -3642,14 +3332,6 @@ I talked about the importance
 00:43:55.386 --> 00:43:57.476 A:middle
 of making a really
 great first impression.
-
-00:43:57.796 --> 00:44:00.176 A:middle
-But what I didn't
-really get into then was
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:43:57.796 --> 00:44:00.176 A:middle
 But what I didn't
@@ -3743,14 +3425,6 @@ Valley" example yesterday.
 And how it works is just
 the app preview just appears
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.146 --> 00:45:03.226 A:middle
-And how it works is just
-the app preview just appears
-
 00:45:03.696 --> 00:45:06.326 A:middle
 as the first image there
 along with the screenshot.
@@ -3827,14 +3501,6 @@ can do your editing.
 And then just put it
 all together and get it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.876 --> 00:46:01.626 A:middle
-And then just put it
-all together and get it
-
 00:46:01.626 --> 00:46:03.746 A:middle
 up on iTunes Connect,
 and you're ready to go.
@@ -3899,14 +3565,6 @@ and you should think globally.
 00:46:55.466 --> 00:46:57.956 A:middle
 You know, you need to think
 about the distribution
-
-00:46:57.956 --> 00:47:00.676 A:middle
-of your game as a
-global opportunity.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:57.956 --> 00:47:00.676 A:middle
 of your game as a
@@ -3985,14 +3643,6 @@ And then go through your UI.
 
 00:47:56.366 --> 00:47:57.646 A:middle
 And, of course, right.
-
-00:47:57.646 --> 00:48:00.326 A:middle
-And translate the text into
-all the different languages
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:57.646 --> 00:48:00.326 A:middle
 And translate the text into
@@ -4082,14 +3732,6 @@ resource online:
 developer.apple.com/
 internationalization.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:57.936 --> 00:49:00.696 A:middle
-developer.apple.com/
-internationalization.
-
 00:49:01.156 --> 00:49:03.876 A:middle
 So this will take you step
 by step through the process
@@ -4151,14 +3793,6 @@ set of those devices
 
 00:49:54.226 --> 00:49:55.866 A:middle
 so that you stand out.
-
-00:49:56.496 --> 00:50:00.566 A:middle
-I mean, you guys, you saw
-those demos yesterday, right,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:56.496 --> 00:50:00.566 A:middle
 I mean, you guys, you saw
@@ -4227,14 +3861,6 @@ to be looking at 7 and 8.
 00:50:54.276 --> 00:50:58.776 A:middle
 Okay. Now something, you know,
 something that we do hear
-
-00:50:58.776 --> 00:51:01.346 A:middle
-from developers, actually more
-often than you might think,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:58.776 --> 00:51:01.346 A:middle
 from developers, actually more
@@ -4318,14 +3944,6 @@ it all in pretty good depth
 when we went out for our iOS
 7 Tech Talks last November,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:58.556 --> 00:52:02.566 A:middle
-when we went out for our iOS
-7 Tech Talks last November,
-
 00:52:02.566 --> 00:52:03.056 A:middle
 December.
 
@@ -4389,14 +4007,6 @@ the entire stack.
 00:52:56.796 --> 00:52:59.056 A:middle
 Oh, my god, that's a
 lot of learning to do.
-
-00:52:59.056 --> 00:53:02.676 A:middle
-But really what I mean is
-to familiarize yourself
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:59.056 --> 00:53:02.676 A:middle
 But really what I mean is
@@ -4466,13 +4076,6 @@ etc., all 10.
 
 00:53:55.916 --> 00:53:58.856 A:middle
 So where do you go from here?
-
-00:53:59.076 --> 00:54:01.696 A:middle
-Yeah, well, go to 11.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:59.076 --> 00:54:01.696 A:middle
 Yeah, well, go to 11.
@@ -4549,10 +4152,6 @@ to Geoff for just a moment.
 
 00:54:59.076 --> 00:54:59.876 A:middle
 So thank you.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:55:06.456 --> 00:55:07.326 A:middle
 &gt;&gt; Thank you, Allan.
@@ -4641,14 +4240,6 @@ game before and say, "Hey,
 when you approach the game
 what do you need to know?"
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:55:58.666 --> 00:56:01.656 A:middle
-when you approach the game
-what do you need to know?"
-
 00:56:01.876 --> 00:56:03.996 A:middle
 It's not just like that
 came to them in an hour.
@@ -4682,4 +4273,3 @@ at the Apple Design Awards.
 00:56:21.116 --> 00:56:22.446 A:middle
 Thank you very much
 and enjoy the week.
-
