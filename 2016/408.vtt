@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:17.500 A:middle
 [ Music ]
@@ -64,19 +63,11 @@ to resist the temptation,
 Swift Playgrounds is a really
 exciting new app for iPad
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:56.376 --> 00:01:00.246 A:middle
-Swift Playgrounds is a really
-exciting new app for iPad
-
 00:01:00.616 --> 00:01:03.996 A:middle
 that allows you to program
 in Swift and brings the power
 
-00:01:04.075 --> 00:01:06.666 A:middle
+00:01:04.076 --> 00:01:06.666 A:middle
 of Swift literally to
 the tips of your fingers.
 
@@ -161,14 +152,6 @@ amazing things with it.
 And as such, we got
 a lot to show you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.386 --> 00:02:01.316 A:middle
-And as such, we got
-a lot to show you.
-
 00:02:01.316 --> 00:02:02.586 A:middle
 So we're going to break our talk
 
@@ -176,11 +159,11 @@ So we're going to break our talk
 into three different
 segments today.
 
-00:02:06.206 --> 00:02:08.735 A:middle
+00:02:06.206 --> 00:02:08.736 A:middle
 First, I'm going to ask my
 colleague Max to join me
 
-00:02:08.735 --> 00:02:11.706 A:middle
+00:02:08.736 --> 00:02:11.706 A:middle
 on stage, and he's going to
 show you how to use the app,
 
@@ -256,14 +239,6 @@ we've got the source editor.
 00:02:57.176 --> 00:02:58.406 A:middle
 On the right, we've
 got the live view.
-
-00:02:58.966 --> 00:03:00.826 A:middle
-Now the source editor is
-made up of a whole bunch
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.966 --> 00:03:00.826 A:middle
 Now the source editor is
@@ -349,14 +324,6 @@ your code being executed
 in real time, and underneath
 that, the Run My Code button,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:56.236 --> 00:04:00.666 A:middle
-in real time, and underneath
-that, the Run My Code button,
-
 00:04:02.106 --> 00:04:03.646 A:middle
 which will compile
 and execute your code.
@@ -424,14 +391,6 @@ buttons to share something
 00:04:57.326 --> 00:04:59.586 A:middle
 about your document,
 such as Record a Movie,
-
-00:04:59.646 --> 00:05:02.736 A:middle
-which takes movie of what you're
-doing, and the Take Picture,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.646 --> 00:05:02.736 A:middle
 which takes movie of what you're
@@ -528,14 +487,6 @@ something wrong with this.
 I needed to add parens
 after rectangle.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.576 --> 00:06:01.606 A:middle
-I needed to add parens
-after rectangle.
-
 00:06:02.036 --> 00:06:03.446 A:middle
 So here we provide fix-its.
 
@@ -618,10 +569,6 @@ Tapping on that brings
 00:06:57.466 --> 00:06:59.666 A:middle
 up a quick editor
 to change the value.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.306 --> 00:07:01.816 A:middle
 There's a whole bunch
@@ -719,14 +666,6 @@ source of the code.
 Now Swift Playgrounds also has a
 great keyboard for when you want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.686 --> 00:08:02.216 A:middle
-Now Swift Playgrounds also has a
-great keyboard for when you want
-
 00:08:02.216 --> 00:08:03.836 A:middle
 to do programming with
 the onscreen keyboard.
@@ -775,11 +714,11 @@ just typing Drag.
 So I'll tap on that, and we get
 this placeholder for a function.
 
-00:08:38.645 --> 00:08:41.145 A:middle
+00:08:38.646 --> 00:08:41.146 A:middle
 If I type Return, it'll
 expand the placeholder
 
-00:08:41.395 --> 00:08:42.206 A:middle
+00:08:41.396 --> 00:08:42.206 A:middle
 so we can do some coding.
 
 00:08:43.296 --> 00:08:46.386 A:middle
@@ -800,14 +739,6 @@ brace here, and tap on Hold,
 00:08:55.026 --> 00:08:58.076 A:middle
 and drag it down to encompass
 the code we were doing before.
-
-00:08:59.806 --> 00:09:00.966 A:middle
-One more thing I
-have to do though.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.806 --> 00:09:00.966 A:middle
 One more thing I
@@ -884,14 +815,6 @@ so I'm going to send it to Matt.
 00:09:54.886 --> 00:09:57.556 A:middle
 So I'm going to tap
 on the Tools menu.
-
-00:09:57.786 --> 00:10:02.426 A:middle
-You just take a picture to
-save a copy of the live view.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:57.786 --> 00:10:02.426 A:middle
 You just take a picture to
@@ -974,14 +897,6 @@ of the new environment.
 Playground Books provide
 some more building blocks
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.266 --> 00:11:01.996 A:middle
-Playground Books provide
-some more building blocks
-
 00:11:01.996 --> 00:11:04.796 A:middle
 to construct an interactive
 story in the course of something
@@ -1054,14 +969,6 @@ and definitions are gathered
 00:11:53.906 --> 00:11:55.996 A:middle
 up to provide a reference
 in one place.
-
-00:11:56.646 --> 00:12:01.176 A:middle
-A Playground page full of Swift
-code can be a bit daunting
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:56.646 --> 00:12:01.176 A:middle
 A Playground page full of Swift
@@ -1154,14 +1061,6 @@ shows up above the comments.
 And with the new
 document format,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:57.036 --> 00:13:01.316 A:middle
-And with the new
-document format,
-
 00:13:01.316 --> 00:13:05.236 A:middle
 you can configure the live
 view to be always on as soon
@@ -1237,14 +1136,6 @@ can see what they've completed
 
 00:13:57.446 --> 00:13:58.676 A:middle
 in the table of contents.
-
-00:13:59.226 --> 00:14:01.526 A:middle
-Use these Hint and
-Assessment mechanisms as a part
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.226 --> 00:14:01.526 A:middle
 Use these Hint and
@@ -1333,14 +1224,6 @@ and the references.
 Dig into all that, and even
 take apart the Playground Books
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.656 --> 00:15:00.676 A:middle
-Dig into all that, and even
-take apart the Playground Books
-
 00:15:00.676 --> 00:15:02.836 A:middle
 produced by our content
 team to learn more.
@@ -1419,14 +1302,6 @@ So let's get started.
 00:15:57.956 --> 00:15:59.486 A:middle
 Now we have here the
 document browser.
-
-00:15:59.486 --> 00:16:01.776 A:middle
-I'm going to bring up my
-Playground Book called "Talking
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.486 --> 00:16:01.776 A:middle
 I'm going to bring up my
@@ -1534,14 +1409,6 @@ out for us called
 I'll just tap Run My Code, and
 Em responds, "Who's there?"
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.746 --> 00:17:02.636 A:middle
-I'll just tap Run My Code, and
-Em responds, "Who's there?"
-
 00:17:02.846 --> 00:17:05.286 A:middle
 The code on the left
 was compiled, executed.
@@ -1550,11 +1417,11 @@ was compiled, executed.
 The special magic happened
 with the Say function,
 
-00:17:08.586 --> 00:17:10.175 A:middle
+00:17:08.586 --> 00:17:10.176 A:middle
 and the string was
 passed to the other side.
 
-00:17:10.175 --> 00:17:12.165 A:middle
+00:17:10.176 --> 00:17:12.166 A:middle
 And we'll brush away the
 magic dust here in a moment.
 
@@ -1572,14 +1439,14 @@ external keyboard to type,
 because I don't want
 to cover up the screen
 
-00:17:19.945 --> 00:17:21.056 A:middle
+00:17:19.946 --> 00:17:21.056 A:middle
 with the on-screen keyboard.
 
-00:17:21.596 --> 00:17:23.925 A:middle
+00:17:21.596 --> 00:17:23.926 A:middle
 I will send this string
 over by tapping Run My Code.
 
-00:17:24.806 --> 00:17:25.695 A:middle
+00:17:24.806 --> 00:17:25.696 A:middle
 "Boo! Who?"
 
 00:17:27.486 --> 00:17:28.876 A:middle
@@ -1623,13 +1490,6 @@ over the wire to the other side.
 00:17:54.696 --> 00:17:57.856 A:middle
 UInt, which is Swift's
 type for unsigned integer.
-
-00:17:59.656 --> 00:18:00.396 A:middle
-"UInt who?"
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.656 --> 00:18:00.396 A:middle
 "UInt who?"
@@ -1716,14 +1576,6 @@ want to have fun later,
 after the next time you
 open the Playground Book.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.776 --> 00:19:01.456 A:middle
-after the next time you
-open the Playground Book.
-
 00:19:02.346 --> 00:19:05.956 A:middle
 So this Playground Book
 is available for download
@@ -1801,10 +1653,6 @@ configuration
 
 00:19:57.966 --> 00:19:58.906 A:middle
 that make everything work.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.446 --> 00:20:02.076 A:middle
 And here's an overview
@@ -1894,14 +1742,6 @@ every page in the entire book.
 00:20:56.396 --> 00:20:59.356 A:middle
 If you choose to, you can
 scope things to just chapters
-
-00:20:59.476 --> 00:21:01.756 A:middle
-by putting a Sources and
-Resources folder in there,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.476 --> 00:21:01.756 A:middle
 by putting a Sources and
@@ -1997,14 +1837,6 @@ in the table of contents.
 We're just going to focus
 on the page manifest today,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:57.856 --> 00:22:00.046 A:middle
-We're just going to focus
-on the page manifest today,
-
 00:22:00.046 --> 00:22:03.066 A:middle
 because it has the most
 impact with what you just saw
@@ -2077,14 +1909,6 @@ the live view process has had a
 00:22:56.596 --> 00:22:59.016 A:middle
 chance to run right
 after the page opens.
-
-00:22:59.326 --> 00:23:02.376 A:middle
-And as you can see here, as soon
-as the live view process begins
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.326 --> 00:23:02.376 A:middle
 And as you can see here, as soon
@@ -2174,14 +1998,6 @@ on the right side of every line
 in the editor that
 returns a value.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.006 --> 00:24:00.486 A:middle
-in the editor that
-returns a value.
-
 00:24:01.196 --> 00:24:04.736 A:middle
 In my case, my live view does
 all the results reporting
@@ -2261,14 +2077,6 @@ instructions that are read
 00:24:56.766 --> 00:24:58.326 A:middle
 by the person going
 through the page
-
-00:24:58.596 --> 00:25:00.246 A:middle
-to understand how they're
-supposed to interact.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.596 --> 00:25:00.246 A:middle
 to understand how they're
@@ -2365,14 +2173,6 @@ editable code block,
 and they can only
 type in this spot.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.346 --> 00:26:00.226 A:middle
-and they can only
-type in this spot.
-
 00:26:01.026 --> 00:26:03.176 A:middle
 You can have as many of these
 as you want on the page.
@@ -2463,14 +2263,6 @@ authored Playgrounds before are
 familiar with XE Playground, the
 framework that gives you access
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.216 --> 00:27:02.426 A:middle
-familiar with XE Playground, the
-framework that gives you access
-
 00:27:02.426 --> 00:27:03.656 A:middle
 to the page environment.
 
@@ -2555,14 +2347,6 @@ Book document does,
 00:27:56.306 --> 00:27:58.946 A:middle
 so I'm just using these
 three lines as, like,
-
-00:27:58.946 --> 00:28:01.496 A:middle
-setup that make the
-Playground --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.946 --> 00:28:01.496 A:middle
 setup that make the
@@ -2659,14 +2443,6 @@ into the editor.
 And it can't run if there's
 a compiler error in the code
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.916 --> 00:29:02.366 A:middle
-And it can't run if there's
-a compiler error in the code
-
 00:29:02.506 --> 00:29:04.226 A:middle
 that is currently being
 typed into the editor.
@@ -2746,14 +2522,6 @@ string "knock,
 
 00:29:58.576 --> 00:29:59.686 A:middle
 knock" to the other side.
-
-00:29:59.686 --> 00:30:01.836 A:middle
-So first thing we do is
-import PlaygroundSupport.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.686 --> 00:30:01.836 A:middle
 So first thing we do is
@@ -2842,10 +2610,6 @@ and hand it over to the proxy,
 calling the send
 method passing it in.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.246 --> 00:31:05.376 A:middle
 So the Contents.swift code
 hands that string value
@@ -2930,14 +2694,6 @@ now, so we'll just use the
 if case let syntax, and then
 once we do that, if true,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.166 --> 00:32:02.256 A:middle
-if case let syntax, and then
-once we do that, if true,
-
 00:32:02.496 --> 00:32:05.316 A:middle
 the value of this enum is
 bound to the identifier text.
@@ -3012,14 +2768,6 @@ message to the other side.
 00:32:55.996 --> 00:32:57.716 A:middle
 Now, where did the
 send method come from?
-
-00:32:58.326 --> 00:33:00.846 A:middle
-Well, by declaring
-that we conform
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.326 --> 00:33:00.846 A:middle
 Well, by declaring
@@ -3115,13 +2863,6 @@ needsIndefiniteExecution
 00:33:59.796 --> 00:34:00.676 A:middle
 property to true.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.796 --> 00:34:00.676 A:middle
-property to true.
-
 00:34:02.166 --> 00:34:04.716 A:middle
 We asked for the live view
 proxy, just like we did before,
@@ -3134,14 +2875,14 @@ something that acts
 as the delegate of that proxy
 that can receive the message.
 
-00:34:09.985 --> 00:34:11.835 A:middle
+00:34:09.986 --> 00:34:11.836 A:middle
 I'm just going to make
 something up here.
 
-00:34:12.166 --> 00:34:13.565 A:middle
+00:34:12.166 --> 00:34:13.566 A:middle
 A class right in line.
 
-00:34:14.525 --> 00:34:15.516 A:middle
+00:34:14.526 --> 00:34:15.516 A:middle
 Notice that it conforms
 
 00:34:15.516 --> 00:34:18.366 A:middle
@@ -3158,7 +2899,7 @@ received method.
 00:34:23.286 --> 00:34:23.876 A:middle
 And that's it.
 
-00:34:24.255 --> 00:34:26.456 A:middle
+00:34:24.256 --> 00:34:26.456 A:middle
 This will be called
 by the live view proxy
 
@@ -3169,7 +2910,7 @@ we can take apart using the
 00:34:30.376 --> 00:34:31.596 A:middle
 if case let statement,
 
-00:34:32.005 --> 00:34:34.166 A:middle
+00:34:32.006 --> 00:34:34.166 A:middle
 and inside we do
 something with the text.
 
@@ -3194,7 +2935,7 @@ and that completes the circle.
 So now we have the
 FaceViewController.
 
-00:34:48.496 --> 00:34:49.525 A:middle
+00:34:48.496 --> 00:34:49.526 A:middle
 You tap on the face.
 
 00:34:49.846 --> 00:34:52.466 A:middle
@@ -3208,14 +2949,6 @@ proxy, where it passes it off
 00:34:55.556 --> 00:34:58.176 A:middle
 to the delegate, that
 class that we just created,
-
-00:34:58.346 --> 00:35:01.336 A:middle
-and it receives the message, and
-then you make the magic happen.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.346 --> 00:35:01.336 A:middle
 and it receives the message, and
@@ -3291,14 +3024,6 @@ it will be executed and run
 00:35:56.136 --> 00:35:58.776 A:middle
 in the separate always-on
 live view
-
-00:35:59.116 --> 00:36:01.146 A:middle
-in the process you
-see here on the right.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.116 --> 00:36:01.146 A:middle
 in the process you
@@ -3390,14 +3115,6 @@ That's by design.
 00:36:56.846 --> 00:36:59.206 A:middle
 The authored content
 is never changed
-
-00:36:59.306 --> 00:37:00.756 A:middle
-by Swift Playgrounds
-on the iPad.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.306 --> 00:37:00.756 A:middle
 by Swift Playgrounds
@@ -3495,10 +3212,6 @@ Izzy.
 00:37:59.106 --> 00:37:59.896 A:middle
 Thank you Jonathan.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:02.596 --> 00:38:03.256 A:middle
 Thank you Jonathan.
 
@@ -3569,14 +3282,6 @@ the documentation.
 
 00:38:54.826 --> 00:38:55.956 A:middle
 So if I tap Help here,
-
-00:38:56.456 --> 00:39:00.956 A:middle
-we can see that
-GKPerlinNoiseSource has features
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:56.456 --> 00:39:00.956 A:middle
 we can see that
@@ -3670,14 +3375,6 @@ So we generated our noise,
 and we want to generate
 some 3D terrain with this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.596 --> 00:40:00.976 A:middle
-and we want to generate
-some 3D terrain with this.
-
 00:40:01.196 --> 00:40:04.346 A:middle
 So what we're going to do is
 we're going to go pixel by pixel
@@ -3747,14 +3444,6 @@ function right here,
 00:40:52.806 --> 00:40:55.456 A:middle
 and just to prove to myself
 that worked, I iterated all
-
-00:40:55.456 --> 00:41:00.226 A:middle
-of the possible values of
-my bucket, of my integer,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:55.456 --> 00:41:00.226 A:middle
 of the possible values of
@@ -3833,14 +3522,6 @@ the Learn to Code playground,
 and we're going to already
 be on the page that I want.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:59.736 --> 00:42:01.836 A:middle
-and we're going to already
-be on the page that I want.
-
 00:42:02.416 --> 00:42:04.136 A:middle
 So this is the Create
 Your World page,
@@ -3899,14 +3580,6 @@ so we need to make a height,
 00:42:48.146 --> 00:42:54.826 A:middle
 and we want to call our
 bucket function on our value,
-
-00:42:56.126 --> 00:43:05.206 A:middle
-and then for our height, we
-want to place our blocks.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:56.126 --> 00:43:05.206 A:middle
 and then for our height, we
@@ -3982,14 +3655,6 @@ a block in.
 So our 0 spot seemed like a
 good place to put some water.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:57.886 --> 00:44:00.456 A:middle
-So our 0 spot seemed like a
-good place to put some water.
-
 00:44:01.406 --> 00:44:08.806 A:middle
 So if our height is less
 than 1 in our world,
@@ -4036,10 +3701,6 @@ our world has water.
 
 00:44:57.006 --> 00:44:59.646 A:middle
 So this is pretty cool.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:00.516 --> 00:45:05.996 A:middle
 [ Applause ]
@@ -4108,14 +3769,6 @@ little bit of space.
 But what we can do,
 when I run my code,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:58.236 --> 00:46:03.326 A:middle
-But what we can do,
-when I run my code,
-
 00:46:03.916 --> 00:46:10.516 A:middle
 the Sphero will light
 up and start driving.
@@ -4162,10 +3815,6 @@ out, and add some items.
 And I'm going to make
 these all colors.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:06.676 --> 00:47:09.516 A:middle
 You know, these colors right
 here seem really familiar,
@@ -4194,14 +3843,6 @@ helper back in.
 
 00:47:51.996 --> 00:47:55.936 A:middle
 Let's run this.
-
-00:47:56.076 --> 00:48:01.246 A:middle
-Now we're changing colors
-as we're driving our Sphero.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:56.076 --> 00:48:01.246 A:middle
 Now we're changing colors
@@ -4269,14 +3910,6 @@ not limited to the things
 that come in Learn to Code,
 that you can experiment
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.576 --> 00:49:02.156 A:middle
-that come in Learn to Code,
-that you can experiment
-
 00:49:02.156 --> 00:49:04.736 A:middle
 with the iOS SDK and
 interact with things
@@ -4322,4 +3955,3 @@ be interested in checking out.
 00:49:31.426 --> 00:49:37.266 A:middle
 Thank you so much everybody,
 and enjoy the rest of WWDC.
-

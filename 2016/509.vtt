@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:19.286 A:middle
 [ Music ]
@@ -56,14 +55,6 @@ useful for many other tasks.
 00:00:56.456 --> 00:00:58.776 A:middle
 Since Siri was released
 with iPhone 4S,
-
-00:00:59.166 --> 00:01:01.606 A:middle
-iOS has also featured
-keyboard dictation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.166 --> 00:01:01.606 A:middle
 iOS has also featured
@@ -146,14 +137,6 @@ button is available.
 The default audio recording
 might not make sense
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.176 --> 00:02:00.596 A:middle
-The default audio recording
-might not make sense
-
 00:02:00.596 --> 00:02:03.596 A:middle
 for your use case and you
 may want more information
@@ -223,14 +206,6 @@ languages and dialects
 
 00:02:55.616 --> 00:02:56.976 A:middle
 from Arabic to Vietnamese.
-
-00:02:57.206 --> 00:03:01.256 A:middle
-Any device which runs
-iOS 10 is supported.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:57.206 --> 00:03:01.256 A:middle
 Any device which runs
@@ -307,14 +282,6 @@ usage description
 for speech recognition
 of this will allow you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.506 --> 00:04:01.536 A:middle
-for speech recognition
-of this will allow you
-
 00:04:01.736 --> 00:04:03.936 A:middle
 to take a photo just
 by saying cheese.
@@ -338,7 +305,7 @@ familiar dialogue.
 And the user will be able
 to decide if they want
 
-00:04:19.346 --> 00:04:21.495 A:middle
+00:04:19.346 --> 00:04:21.496 A:middle
 to provide your app
 to speech recognition.
 
@@ -386,14 +353,6 @@ progress.
 00:04:56.356 --> 00:04:58.256 A:middle
 Let's see what this
 all looks like in code.
-
-00:04:59.286 --> 00:05:01.546 A:middle
-We'll assume we've already
-updated our info.plist
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.286 --> 00:05:01.546 A:middle
 We'll assume we've already
@@ -475,10 +434,6 @@ be changed later
 in the device's privacy
 settings.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:01.286 --> 00:06:04.066 A:middle
 Let's see what it looks like
 to recognize a prerecorded
@@ -541,10 +496,6 @@ file's url and give
 00:06:52.916 --> 00:06:56.976 A:middle
 that to the recognition task
 method of the recognizer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:02.046 --> 00:07:03.906 A:middle
 This method takes
@@ -616,14 +567,6 @@ instead of a file on disc.
 Here we'll use AVAudioEngine to
 get a stream of audio buffers.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.696 --> 00:08:03.316 A:middle
-Here we'll use AVAudioEngine to
-get a stream of audio buffers.
-
 00:08:04.946 --> 00:08:06.306 A:middle
 Then append them to the request.
 
@@ -657,11 +600,11 @@ We'll see why in a moment.
 When we're done recording,
 we need to inform the request
 
-00:08:32.696 --> 00:08:35.775 A:middle
+00:08:32.696 --> 00:08:35.776 A:middle
 that no more audio is coming so
 that it can finish recognition.
 
-00:08:37.025 --> 00:08:39.046 A:middle
+00:08:37.026 --> 00:08:39.046 A:middle
 Use the end audio
 method to do this.
 
@@ -669,7 +612,7 @@ method to do this.
 But what if the user
 cancels our recording
 
-00:08:42.076 --> 00:08:43.885 A:middle
+00:08:42.076 --> 00:08:43.886 A:middle
 or the audio recording
 gets interrupted?
 
@@ -695,10 +638,6 @@ started recognition.
 00:08:57.446 --> 00:08:59.856 A:middle
 This can also be done for
 prerecorded audio recognition.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:02.216 --> 00:09:04.516 A:middle
 Now just a quick talk
@@ -768,10 +707,6 @@ which is similar to that
 
 00:09:57.936 --> 00:09:58.976 A:middle
 of keyboard dictation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:02.506 --> 00:10:04.576 A:middle
 A few words about
@@ -854,10 +789,6 @@ where it's not available
 or the user doesn't
 want your app to use it.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:11:01.136 --> 00:11:02.966 A:middle
 Transparency is the best policy.
 
@@ -898,4 +829,3 @@ on Thursday.
 00:11:26.706 --> 00:11:28.976 A:middle
 Thank you for your time
 and have a great WWDC.
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:06.516 --> 00:00:18.500 A:middle
 [ Music ]
@@ -20,9 +19,12 @@ Thanks.
 And my colleagues and I
 are really excited to share
 
-00:00:34.966 --> 00:00:38.796 A:middle
-with you the new features in
-Metal in macOS Sierra and iOS X.
+00:00:34.966 --> 00:00:36.416 A:middle
+with you the new
+features in Metal
+
+00:00:36.906 --> 00:00:38.826 A:middle
+in macOS Sierra and iOS 10.
 
 00:00:39.276 --> 00:00:43.026 A:middle
 But let's begin by highlighting
@@ -50,14 +52,6 @@ the two sessions
 00:00:56.346 --> 00:00:59.296 A:middle
 that cover the new features in
 Metal, which is then followed
-
-00:00:59.296 --> 00:01:01.076 A:middle
-by another session
-where we'll talk
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.296 --> 00:01:01.076 A:middle
 by another session
@@ -149,14 +143,6 @@ All right.
 So the first thing, let's spend
 a little bit of time trying
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.026 --> 00:02:01.376 A:middle
-So the first thing, let's spend
-a little bit of time trying
-
 00:02:01.376 --> 00:02:03.766 A:middle
 to understand why we
 need tessellation.
@@ -239,14 +225,6 @@ generated do not get stored
 
 00:02:58.456 --> 00:02:59.226 A:middle
 in graphics memory.
-
-00:02:59.266 --> 00:03:00.976 A:middle
-We don't want to pay
-that bandwidth cost.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.266 --> 00:03:00.976 A:middle
 We don't want to pay
@@ -347,14 +325,6 @@ tessellation works in Metal.
 So just like we did
 with Metal, you know,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.846 --> 00:04:04.186 A:middle
-So just like we did
-with Metal, you know,
-
 00:04:04.186 --> 00:04:07.506 A:middle
 we wanted to take a clean
 sheet approach, right?
@@ -379,7 +349,7 @@ was really simple to graph,
 you know, easy to use,
 and we did not want
 
-00:04:20.366 --> 00:04:21.755 A:middle
+00:04:20.366 --> 00:04:21.756 A:middle
 to leave any performance
 on the table.
 
@@ -433,14 +403,6 @@ triangles, lines, or points.
 00:04:56.186 --> 00:04:59.016 A:middle
 With tessellation, you're
 sending what we call a patch.
-
-00:04:59.726 --> 00:05:02.916 A:middle
-And put simply, a patch is
-just a parametric surface
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.726 --> 00:05:02.916 A:middle
 And put simply, a patch is
@@ -538,14 +500,6 @@ the control-points as input --
 and decides, okay, how much
 do I need to subdivide this?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.436 --> 00:06:02.816 A:middle
-and decides, okay, how much
-do I need to subdivide this?
-
 00:06:03.146 --> 00:06:05.866 A:middle
 How many triangles do I want
 the GPU to generate, right?
@@ -627,14 +581,6 @@ list it will generate what we
 00:06:56.146 --> 00:06:58.936 A:middle
 call a parametric coordinate
 -- the U and the V value.
-
-00:06:59.296 --> 00:07:02.656 A:middle
-And it uses this along
-with the control-points
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.296 --> 00:07:02.656 A:middle
 And it uses this along
@@ -722,10 +668,6 @@ pipeline remains the same.
 We have the rasterizer and
 the fragment shader, right?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.136 --> 00:08:03.736 A:middle
 So you may ask, "Well, so I need
 to write this compute kernel
@@ -783,7 +725,7 @@ So netting you a performance win
 and I think you guys
 will like that.
 
-00:08:36.775 --> 00:08:38.506 A:middle
+00:08:36.776 --> 00:08:38.506 A:middle
 Well, actually let's
 take it a step further.
 
@@ -820,14 +762,6 @@ I can just apply a scale
 
 00:08:57.116 --> 00:08:58.456 A:middle
 and the tessellator takes that.
-
-00:08:58.456 --> 00:09:01.266 A:middle
-So really, the pipeline
-is really, really simple.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.456 --> 00:09:01.266 A:middle
 So really, the pipeline
@@ -919,14 +853,6 @@ post-tessellation vertex shader
 
 00:09:56.266 --> 00:09:57.356 A:middle
 with a vertex qualifier.
-
-00:09:57.356 --> 00:10:01.536 A:middle
-But in addition to that, you
-also specify this attribute
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:57.356 --> 00:10:01.536 A:middle
 But in addition to that, you
@@ -1026,14 +952,6 @@ in your shader.
 And if you had decoupled the
 date type, that means the layout
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.396 --> 00:11:03.026 A:middle
-And if you had decoupled the
-date type, that means the layout
-
 00:11:03.026 --> 00:11:05.246 A:middle
 and the buffers where the
 vertex inputs are coming
@@ -1108,14 +1026,6 @@ that in the next slide.
 
 00:11:57.546 --> 00:11:58.656 A:middle
 So let's look at an example.
-
-00:11:58.656 --> 00:12:00.906 A:middle
-So here I have my
-control-point data.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.656 --> 00:12:00.906 A:middle
 So here I have my
@@ -1213,14 +1123,6 @@ mode.
 You can also specify a
 max tessellation level.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.656 --> 00:13:01.696 A:middle
-You can also specify a
-max tessellation level.
-
 00:13:02.016 --> 00:13:04.926 A:middle
 And we think this is
 really, really useful
@@ -1294,14 +1196,6 @@ to call drawPrimitives
 
 00:13:56.056 --> 00:13:57.406 A:middle
 or drawIndexPrimitives.
-
-00:13:57.986 --> 00:14:00.996 A:middle
-You the specify the start
-vertex, number of vertices.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.986 --> 00:14:00.996 A:middle
 You the specify the start
@@ -1383,14 +1277,6 @@ All right?
 
 00:14:51.616 --> 00:14:55.976 A:middle
 So hold on.
-
-00:14:57.466 --> 00:15:00.386 A:middle
-So I've shown you what
-Metal tessellation is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:57.466 --> 00:15:00.386 A:middle
 So I've shown you what
@@ -1478,10 +1364,6 @@ release their support
 00:15:56.656 --> 00:15:58.836 A:middle
 in UE4 later this year, okay?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.176 --> 00:16:04.226 A:middle
 So we have UE4, we have Unity
 supporting Metal Tessellation.
@@ -1555,30 +1437,22 @@ is a technique that allows
 to control the geometric
 detail where it matters.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.066 --> 00:17:02.006 A:middle
-to control the geometric
-detail where it matters.
-
-00:17:02.226 --> 00:17:05.415 A:middle
+00:17:02.226 --> 00:17:05.416 A:middle
 So in this example we've decided
 that objects that are closer
 
-00:17:05.415 --> 00:17:06.906 A:middle
+00:17:05.416 --> 00:17:06.906 A:middle
 to the camera need more detail.
 
-00:17:07.286 --> 00:17:09.185 A:middle
+00:17:07.286 --> 00:17:09.186 A:middle
 So let's draw them with
 a lot more triangles
 
-00:17:09.185 --> 00:17:11.086 A:middle
+00:17:09.186 --> 00:17:11.086 A:middle
 versus objects further
 away do not.
 
-00:17:11.415 --> 00:17:15.836 A:middle
+00:17:11.416 --> 00:17:15.836 A:middle
 So the regions in blue represent
 regions of lowest amount
 
@@ -1594,15 +1468,15 @@ amount of tessellation.
 I can show you as I move
 the slider to the right,
 
-00:17:22.465 --> 00:17:24.425 A:middle
+00:17:22.466 --> 00:17:24.426 A:middle
 I can use that to increase
 my tessellation level
 
-00:17:24.425 --> 00:17:27.266 A:middle
+00:17:24.426 --> 00:17:27.266 A:middle
 and you can see objects
 closer will become red.
 
-00:17:27.715 --> 00:17:30.556 A:middle
+00:17:27.716 --> 00:17:30.556 A:middle
 Okay? Well, let's turn
 wire frame mode off.
 
@@ -1636,14 +1510,6 @@ the great folks at Epic
 
 00:17:56.886 --> 00:17:57.846 A:middle
 for making this happen.
-
-00:17:58.776 --> 00:18:09.646 A:middle
-So the next demo is displacement
-mapping running on Unity.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.776 --> 00:18:09.646 A:middle
 So the next demo is displacement
@@ -1731,10 +1597,6 @@ to send 3,000 triangles,
 00:18:58.426 --> 00:18:59.786 A:middle
 smaller triangles to the GPU
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.166 --> 00:19:01.526 A:middle
 and use tessellation
 to generate that.
@@ -1821,10 +1683,6 @@ All right.
 00:19:58.566 --> 00:19:58.876 A:middle
 So
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:05.306 --> 00:20:07.556 A:middle
 Metal Tessellation
 can also be used
@@ -1904,14 +1762,6 @@ All right.
 00:20:56.246 --> 00:20:58.766 A:middle
 So now you may be asking,
 "Well, what about me?
-
-00:20:59.176 --> 00:21:02.346 A:middle
-How do I move my existing
-tessellation code to Metal?"
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.176 --> 00:21:02.346 A:middle
 How do I move my existing
@@ -2020,14 +1870,6 @@ them into a kernel.
 Okay. Let's look at
 how we can do that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.746 --> 00:22:02.056 A:middle
-Okay. Let's look at
-how we can do that.
-
 00:22:02.206 --> 00:22:06.726 A:middle
 So let's look at some --
 since we have a vertex shader,
@@ -2094,13 +1936,6 @@ specify are a little different
 00:22:49.036 --> 00:22:54.106 A:middle
 because this is for
 compute, not for vertex.
-
-00:22:56.206 --> 00:23:00.106 A:middle
-And then two things to observe.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:56.206 --> 00:23:00.106 A:middle
 And then two things to observe.
@@ -2196,14 +2031,6 @@ in thread group memory,
 
 00:23:55.206 --> 00:23:57.756 A:middle
 which is this local memory
-
-00:23:57.756 --> 00:24:00.376 A:middle
-which is high-performance,
-very low-latency.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.756 --> 00:24:00.376 A:middle
 which is high-performance,
@@ -2311,14 +2138,6 @@ So I hope I have shown you
 that Metal Tessellation
 is simple and easy to use.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.916 --> 00:25:03.616 A:middle
-that Metal Tessellation
-is simple and easy to use.
-
 00:25:03.796 --> 00:25:06.696 A:middle
 We designed it from the
 ground up for performance.
@@ -2393,10 +2212,6 @@ management for greater CPU
 
 00:25:58.926 --> 00:25:59.946 A:middle
 and memory efficiency.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.876 --> 00:26:02.496 A:middle
 I'll introduce resource
@@ -2476,14 +2291,6 @@ efficiency and flexibility
 00:26:55.656 --> 00:26:59.026 A:middle
 of resource heaps is made
 possible by you taking control
-
-00:26:59.026 --> 00:27:00.926 A:middle
-over tracking resource
-dependencies
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.026 --> 00:27:00.926 A:middle
 over tracking resource
@@ -2569,14 +2376,6 @@ The cost of binding resources
 00:27:55.276 --> 00:27:57.946 A:middle
 to command encoders can also
 become a performance issue.
-
-00:27:58.836 --> 00:28:01.616 A:middle
-Metal must track each
-unique resource bound
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.836 --> 00:28:01.616 A:middle
 Metal must track each
@@ -2670,14 +2469,6 @@ of memory.
 Now, compare that
 to the MTLHeap.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.826 --> 00:29:01.996 A:middle
-Now, compare that
-to the MTLHeap.
-
 00:29:02.456 --> 00:29:04.206 A:middle
 When you use a MTLHeap
 for resource creation,
@@ -2766,14 +2557,6 @@ Let me show you how easy it is
 to sub-allocate Metal
 resources with Swift.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.096 --> 00:30:00.726 A:middle
-to sub-allocate Metal
-resources with Swift.
-
 00:30:01.256 --> 00:30:04.096 A:middle
 So like many Metal objects,
 
@@ -2849,14 +2632,6 @@ the device is not designed
 00:30:54.496 --> 00:30:58.426 A:middle
 for your game loop;
 resource heaps are.
-
-00:30:59.076 --> 00:31:03.146 A:middle
-Allocating resources of varying
-sizes can lead to fragmentation
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.076 --> 00:31:03.146 A:middle
 Allocating resources of varying
@@ -2942,14 +2717,6 @@ two nonaliasing resources.
 Compare that to this heap
 containing the same two
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.656 --> 00:32:00.656 A:middle
-Compare that to this heap
-containing the same two
-
 00:32:00.656 --> 00:32:02.526 A:middle
 resources but now
 they are aliasing.
@@ -3022,14 +2789,6 @@ the next stages the chain.
 00:32:55.686 --> 00:32:58.766 A:middle
 Now, the key takeaway
 here is that the contents
-
-00:32:58.766 --> 00:33:00.936 A:middle
-for the shadow maps and the
-post-processing textures are
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.766 --> 00:33:00.936 A:middle
 for the shadow maps and the
@@ -3112,10 +2871,6 @@ resource creation methods
 in the same sequence that their
 resources are used in a frame.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.646 --> 00:34:02.956 A:middle
 That will allow you to
 call makeAliasable --
@@ -3128,10 +2883,10 @@ interleave makeAliasable calls
 when the resource contents
 have been consumed.
 
-00:34:12.045 --> 00:34:13.096 A:middle
+00:34:12.046 --> 00:34:13.096 A:middle
 And you want to keep dynamic
 
-00:34:13.226 --> 00:34:15.005 A:middle
+00:34:13.226 --> 00:34:15.006 A:middle
 and static resources
 in separate heaps.
 
@@ -3150,25 +2905,25 @@ with each other due
 to fragmentation of
 the heap's memory.
 
-00:34:25.926 --> 00:34:28.815 A:middle
+00:34:25.926 --> 00:34:28.816 A:middle
 Next I'm going to talk about how
 to synchronize command access
 
 00:34:28.876 --> 00:34:32.496 A:middle
 to your heap resources.
 
-00:34:33.045 --> 00:34:35.746 A:middle
+00:34:33.046 --> 00:34:35.746 A:middle
 So, so far we have discussed
 fast resource creation
 
-00:34:35.815 --> 00:34:38.346 A:middle
+00:34:35.816 --> 00:34:38.346 A:middle
 with sub-allocation and
 efficient memory usage
 
 00:34:38.346 --> 00:34:39.446 A:middle
 with resource aliasing.
 
-00:34:40.025 --> 00:34:42.426 A:middle
+00:34:40.026 --> 00:34:42.426 A:middle
 But remember that resource
 heaps are fast and flexible
 
@@ -3183,7 +2938,7 @@ of heap resources.
 This is something
 you do not have to do
 
-00:34:47.396 --> 00:34:48.525 A:middle
+00:34:47.396 --> 00:34:48.526 A:middle
 with device resources.
 
 00:34:49.716 --> 00:34:52.356 A:middle
@@ -3197,10 +2952,6 @@ contents of a heap resource
 00:34:55.456 --> 00:34:59.096 A:middle
 like when a render pass stores
 new contents to a texture.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:00.346 --> 00:35:02.646 A:middle
 Metal also doesn't know when
@@ -3280,14 +3031,6 @@ before executing.
 00:35:56.676 --> 00:35:58.836 A:middle
 Okay. Let's bring back
 the previous game frame
-
-00:35:58.996 --> 00:36:00.616 A:middle
-and I will show you
-how to use fences
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.996 --> 00:36:00.616 A:middle
 and I will show you
@@ -3378,14 +3121,6 @@ that are highlighted.
 They are both updating
 the aliasing
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:58.586 --> 00:37:00.246 A:middle
-They are both updating
-the aliasing
-
 00:37:00.286 --> 00:37:01.986 A:middle
 and heap resources
 at the same time.
@@ -3455,14 +3190,6 @@ commands can wait
 00:37:53.146 --> 00:37:55.896 A:middle
 until this command has
 finished executing.
-
-00:37:56.186 --> 00:38:01.326 A:middle
-So in the next frame we would
-encode the shadow rendering.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:56.186 --> 00:38:01.326 A:middle
 So in the next frame we would
@@ -3550,14 +3277,6 @@ But you are given this control
 because you know you
 have more knowledge
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:58.526 --> 00:39:00.356 A:middle
-because you know you
-have more knowledge
-
 00:39:00.356 --> 00:39:02.366 A:middle
 about how your resources
 are used
@@ -3626,14 +3345,6 @@ a little magical,
 00:39:55.366 --> 00:39:58.146 A:middle
 but I will show you how almost
 every Metal app can use this
-
-00:39:58.146 --> 00:40:00.536 A:middle
-feature to save a
-significant amount of memory
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:58.146 --> 00:40:00.536 A:middle
 feature to save a
@@ -3718,14 +3429,6 @@ because it relies
 on the tile-based
 rendering architecture
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.326 --> 00:41:01.366 A:middle
-on the tile-based
-rendering architecture
-
 00:41:01.646 --> 00:41:03.616 A:middle
 of A7 and later GPUs.
 
@@ -3801,14 +3504,6 @@ memory allocation.
 00:41:55.866 --> 00:41:57.966 A:middle
 Next, I'll describe some
 very common scenarios
-
-00:41:57.996 --> 00:42:00.446 A:middle
-where you can apply this
-feature to your app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:57.996 --> 00:42:00.446 A:middle
 where you can apply this
@@ -3896,14 +3591,6 @@ feature are substantial.
 By making a 1080p depth
 texture memoryless,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:42:59.176 --> 00:43:02.396 A:middle
-By making a 1080p depth
-texture memoryless,
-
 00:43:02.856 --> 00:43:04.596 A:middle
 your app will save
 almost 8 megabytes.
@@ -3979,14 +3666,6 @@ what's in Metal System Trace.
 Than we'll introduce a new
 feature called GPU Override.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.846 --> 00:44:02.096 A:middle
-Than we'll introduce a new
-feature called GPU Override.
-
 00:44:03.146 --> 00:44:05.766 A:middle
 And we have some very
 exciting new features coming
@@ -4057,13 +3736,6 @@ out the last bit of performance
 00:44:59.816 --> 00:45:00.836 A:middle
 on all Metal platforms.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:59.816 --> 00:45:00.836 A:middle
-on all Metal platforms.
-
 00:45:01.516 --> 00:45:05.756 A:middle
 [ Applause ]
 
@@ -4124,14 +3796,6 @@ display scalar workloads
 00:45:52.236 --> 00:45:54.786 A:middle
 so that you can diagnose when
 you're introducing latency
-
-00:45:55.286 --> 00:46:00.966 A:middle
-by rotating or scaling
-your views.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:45:55.286 --> 00:46:00.966 A:middle
 by rotating or scaling
@@ -4209,10 +3873,6 @@ for keyboard navigation,
 you can quickly move your
 selection through your trace.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:47:01.456 --> 00:47:04.246 A:middle
 Finally, I want to introduce
 Performance Observation.
@@ -4279,14 +3939,6 @@ my colleague, Alp.
 
 00:47:57.046 --> 00:47:57.596 A:middle
 &gt;&gt; Thanks, Jose.
-
-00:47:58.856 --> 00:48:01.246 A:middle
-I have a number of great
-features to show you today.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:58.856 --> 00:48:01.246 A:middle
 I have a number of great
@@ -4365,10 +4017,6 @@ right from the Overrides menu.
 00:48:57.136 --> 00:48:59.276 A:middle
 Let's set scaling to 25%.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:02.306 --> 00:49:05.226 A:middle
 Now we have far less
 triangles but lost some
@@ -4431,14 +4079,6 @@ done and I am looking
 00:49:50.466 --> 00:49:54.566 A:middle
 for the terrain resources to
 see how we are [inaudible].
-
-00:49:57.456 --> 00:50:00.536 A:middle
-Let's switch to all GPU
-objects in Resource Center
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:57.456 --> 00:50:00.536 A:middle
 Let's switch to all GPU
@@ -4508,14 +4148,6 @@ buffer just like that.
 00:50:52.636 --> 00:50:56.406 A:middle
 In this case, I see where it
 is calculated using compute
-
-00:50:56.896 --> 00:51:01.556 A:middle
-and where it says [inaudible]
-while rendering the terrain.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:50:56.896 --> 00:51:01.556 A:middle
 and where it says [inaudible]
@@ -4592,14 +4224,6 @@ Let's use our only buffer
 All the vertex data
 has stayed nicely
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:58.026 --> 00:52:00.046 A:middle
-All the vertex data
-has stayed nicely
-
 00:52:00.096 --> 00:52:02.796 A:middle
 with the layout except
 [inaudible] Metal function
@@ -4671,14 +4295,6 @@ the data from your instances,
 tessellation factor buffers,
 and your stage in data,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:52:59.496 --> 00:53:02.556 A:middle
-tessellation factor buffers,
-and your stage in data,
-
 00:53:02.556 --> 00:53:10.276 A:middle
 then provides you a single view
 to look at all of it together.
@@ -4731,10 +4347,6 @@ providing recommendations
 00:53:56.676 --> 00:53:59.646 A:middle
 usage or storage mode
 for your resources.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:54:01.356 --> 00:54:07.116 A:middle
 You can enable this mode from
@@ -4804,10 +4416,6 @@ and additions
 00:54:57.356 --> 00:54:58.816 A:middle
 to Metal performance shaders.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:55:00.636 --> 00:55:02.546 A:middle
 For more information
 about this session,
@@ -4841,4 +4449,3 @@ and have a great WWDC.
 
 00:55:26.516 --> 00:55:29.500 A:middle
 [ Applause ]
-

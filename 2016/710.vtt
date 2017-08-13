@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:06.516 --> 00:00:18.500 A:middle
 [ Music ]
@@ -39,14 +38,6 @@ of what makes HomeKit.
 00:00:55.436 --> 00:00:59.396 A:middle
 HomeKit is a framework which
 provides a rich set of API's
-
-00:00:59.746 --> 00:01:03.966 A:middle
-that allow your applications
-to talk to different classes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.746 --> 00:01:03.966 A:middle
 that allow your applications
@@ -109,13 +100,6 @@ start communicating
 00:01:59.646 --> 00:02:01.426 A:middle
 with the HomeKit accessories.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.646 --> 00:02:01.426 A:middle
-with the HomeKit accessories.
-
 00:02:04.476 --> 00:02:08.746 A:middle
 HomeKit also supports for
 sharing of a user's home.
@@ -168,14 +152,6 @@ also revoke this control
 
 00:02:50.666 --> 00:02:55.066 A:middle
 at any point in time.
-
-00:02:55.246 --> 00:03:00.416 A:middle
-HomeKit supports a common
-protocol for all the accessories
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:55.246 --> 00:03:00.416 A:middle
 HomeKit supports a common
@@ -242,13 +218,6 @@ is either using Wi-Fi
 00:03:59.096 --> 00:04:00.486 A:middle
 or Bluetooth low energy.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.096 --> 00:04:00.486 A:middle
-or Bluetooth low energy.
-
 00:04:01.006 --> 00:04:07.916 A:middle
 When the user is away from
 their home, remote access
@@ -265,10 +234,10 @@ access gateway.
 And Apple TV then securely
 channels the communication
 
-00:04:18.796 --> 00:04:19.935 A:middle
+00:04:18.796 --> 00:04:19.936 A:middle
 between the user's device
 
-00:04:20.185 --> 00:04:25.266 A:middle
+00:04:20.186 --> 00:04:25.266 A:middle
 and their accessories,
 which are at home.
 
@@ -307,14 +276,6 @@ they cannot be decrypted.
 
 00:04:52.716 --> 00:04:53.976 A:middle
 Not even by Apple.
-
-00:04:59.816 --> 00:05:02.286 A:middle
-HomeKit provides for
-what's known in the industry
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.816 --> 00:05:02.286 A:middle
 HomeKit provides for
@@ -388,14 +349,6 @@ partners, we have a variety
 of accessories in
 the market today,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.486 --> 00:06:01.046 A:middle
-of accessories in
-the market today,
-
 00:06:01.516 --> 00:06:04.086 A:middle
 and many of our partners
 are bringing new
@@ -456,14 +409,6 @@ updates to the framework,
 and we will cover
 the details there.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:57.976 --> 00:07:02.826 A:middle
-and we will cover
-the details there.
-
 00:07:02.996 --> 00:07:07.226 A:middle
 First, on platform,
 we are really thrilled
@@ -518,14 +463,6 @@ into the system.
 Now HomeKit is also available
 directly on the control center.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.206 --> 00:08:03.346 A:middle
-Now HomeKit is also available
-directly on the control center.
-
 00:08:04.486 --> 00:08:07.486 A:middle
 So the user can configure
 their favorite accessories
@@ -558,7 +495,7 @@ all the automations
 that the user has set
 up for their home.
 
-00:08:38.515 --> 00:08:44.976 A:middle
+00:08:38.516 --> 00:08:44.976 A:middle
 [ Applause ]
 
 00:08:45.476 --> 00:08:49.946 A:middle
@@ -575,10 +512,6 @@ that all the automations now run
 00:08:56.036 --> 00:08:58.386 A:middle
 from their Apple
 TV at their homes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.816 --> 00:09:03.006 A:middle
 Apple TV also enables
@@ -634,14 +567,6 @@ It's the same set
 00:09:48.936 --> 00:09:55.296 A:middle
 of functionality is now
 also supported by the iPad.
-
-00:09:55.446 --> 00:10:00.326 A:middle
-Not only that, if
-the user has multiple
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:55.446 --> 00:10:00.326 A:middle
 Not only that, if
@@ -714,14 +639,6 @@ directly from the Apple TV.
 This also means that
 now Siri is available
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.116 --> 00:11:03.206 A:middle
-This also means that
-now Siri is available
-
 00:11:03.206 --> 00:11:04.976 A:middle
 for HomeKit on the Apple TV.
 
@@ -780,14 +697,6 @@ now also extended to the iPad.
 And, third, on tvOS, we're
 bringing the HomeKit framework.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.026 --> 00:12:02.676 A:middle
-And, third, on tvOS, we're
-bringing the HomeKit framework.
-
 00:12:03.916 --> 00:12:04.826 A:middle
 So we are really thrilled
 
@@ -833,14 +742,6 @@ and other things.
 00:12:52.756 --> 00:12:58.426 A:middle
 Next, we are really thrilled to
 bring, to bring a powerful class
-
-00:12:58.526 --> 00:13:01.116 A:middle
-of camera accessories
-to HomeKit this year.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.526 --> 00:13:01.116 A:middle
 of camera accessories
@@ -904,13 +805,6 @@ seeing are also integrated
 00:13:58.216 --> 00:14:00.176 A:middle
 with other kinds of accessories.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.216 --> 00:14:00.176 A:middle
-with other kinds of accessories.
-
 00:14:01.046 --> 00:14:03.366 A:middle
 So doorbell camera
 is popular category.
@@ -963,14 +857,6 @@ magical experiences
 
 00:14:55.616 --> 00:14:57.576 A:middle
 like rich notifications.
-
-00:14:58.226 --> 00:15:03.456 A:middle
-So, for example, now here,
-when the doorbell rings,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.226 --> 00:15:03.456 A:middle
 So, for example, now here,
@@ -1034,10 +920,6 @@ directly from the Apple Watch.
 00:15:56.196 --> 00:15:59.856 A:middle
 Next, let's look at the updates
 to the HomeKit framework.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:01.676 --> 00:16:05.636 A:middle
 So we'll start off first
@@ -1110,19 +992,11 @@ Now this will be great for you
 because now you can show
 content-sensitive controls
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.106 --> 00:17:02.816 A:middle
-because now you can show
-content-sensitive controls
-
 00:17:02.816 --> 00:17:04.866 A:middle
 about the accessory
 to your users.
 
-00:17:07.915 --> 00:17:10.886 A:middle
+00:17:07.916 --> 00:17:10.886 A:middle
 Second example is
 on linked services.
 
@@ -1141,7 +1015,7 @@ looking at these services,
 it is not clear what
 the switch controls.
 
-00:17:24.665 --> 00:17:26.476 A:middle
+00:17:24.666 --> 00:17:26.476 A:middle
 Does the switch control
 one of the outlet
 
@@ -1183,14 +1057,6 @@ relationship that the switch has
 00:17:57.036 --> 00:17:58.756 A:middle
 in controlling these
 three outlets.
-
-00:17:59.336 --> 00:18:02.136 A:middle
-So now for your users, when
-they, when they are looking
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.336 --> 00:18:02.136 A:middle
 So now for your users, when
@@ -1263,10 +1129,6 @@ for my configuration.
 Now it is possible for
 accessories to mark enumerations
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.306 --> 00:19:03.636 A:middle
 in Apple-defined characteristics
 which are not valid
@@ -1336,14 +1198,6 @@ this is informed back
 to you via the accessory
 browser's didFindNewAccessory
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:57.216 --> 00:20:01.776 A:middle
-to you via the accessory
-browser's didFindNewAccessory
-
 00:20:01.776 --> 00:20:02.666 A:middle
 delegate callback.
 
@@ -1404,14 +1258,6 @@ that are required
 00:20:52.856 --> 00:20:56.136 A:middle
 to configure the accessory
 and add it to the user's home.
-
-00:20:56.916 --> 00:21:00.246 A:middle
-So on calling this method,
-addAndSetupAccessories,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:56.916 --> 00:21:00.246 A:middle
 So on calling this method,
@@ -1497,14 +1343,6 @@ the associated service
 for this accessory,
 and, finally,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:57.986 --> 00:22:00.076 A:middle
-for this accessory,
-and, finally,
-
 00:22:00.076 --> 00:22:03.986 A:middle
 the user can also choose to
 show this accessory as part
@@ -1560,14 +1398,6 @@ and complex accessories.
 00:22:53.996 --> 00:22:56.596 A:middle
 It has many different
 controls and configurations.
-
-00:22:57.866 --> 00:23:00.956 A:middle
-So rather than exposing all the
-raw services and characteristics
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:57.866 --> 00:23:00.956 A:middle
 So rather than exposing all the
@@ -1634,14 +1464,6 @@ additional interfaces
 00:23:54.436 --> 00:23:57.436 A:middle
 that allow you to control
 different aspects of the camera.
-
-00:23:57.786 --> 00:24:00.686 A:middle
-So you can display and
-control the camera stream,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:57.786 --> 00:24:00.686 A:middle
 So you can display and
@@ -1720,14 +1542,6 @@ that the stream has started.
 Similarly, to stop the stream,
 you call the stopStream method,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.956 --> 00:25:02.336 A:middle
-Similarly, to stop the stream,
-you call the stopStream method,
-
 00:25:02.836 --> 00:25:06.326 A:middle
 and, again, using the same
 mechanism it is informed back
@@ -1788,10 +1602,6 @@ what do you want to do with it?
 00:25:56.876 --> 00:25:59.546 A:middle
 Well, you would like to
 display it in your app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.426 --> 00:26:03.326 A:middle
 How do you do that?
@@ -1861,10 +1671,6 @@ pretty simple.
 00:26:55.456 --> 00:26:57.746 A:middle
 Let's look at an example call.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:00.246 --> 00:27:03.726 A:middle
 So first we get to our
 cameraProfile on our accessory,
@@ -1932,14 +1738,6 @@ streamControl.
 00:27:53.606 --> 00:27:57.476 A:middle
 So for snapshotControl we
 have one method, takeSnapshot,
-
-00:27:57.976 --> 00:28:01.366 A:middle
-which once a snapshot
-is taken informed back
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.976 --> 00:28:01.366 A:middle
 which once a snapshot
@@ -2016,14 +1814,6 @@ we call the takeSnapshot method.
 We create a view to
 display our snapshot,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.436 --> 00:29:01.256 A:middle
-We create a view to
-display our snapshot,
-
 00:29:01.926 --> 00:29:05.536 A:middle
 and once a delegate is
 called back, it comes back
@@ -2083,13 +1873,6 @@ of this camera from your app.
 00:29:54.696 --> 00:29:58.876 A:middle
 Last, we'll look at camera
 audio control, which allows you
-
-00:29:58.876 --> 00:30:00.446 A:middle
-to control both the speaker
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.876 --> 00:30:00.446 A:middle
 to control both the speaker
@@ -2162,14 +1945,6 @@ to the tvOS framework.
 Next area on accessories,
 we're adding the popular class
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.006 --> 00:31:04.106 A:middle
-Next area on accessories,
-we're adding the popular class
-
 00:31:04.186 --> 00:31:05.646 A:middle
 of air treatment accessories.
 
@@ -2233,14 +2008,6 @@ to take advantage
 of this powerful
 class of accessories.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:53.966 --> 00:32:00.086 A:middle
-of this powerful
-class of accessories.
-
 00:32:00.086 --> 00:32:04.706 A:middle
 Now before I conclude, I want
 to leave you with this thought.
@@ -2299,10 +2066,6 @@ and make your accessories
 and applications
 accessible to everyone.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:33:02.716 --> 00:33:05.236 A:middle
 For our MFi program members,
 
@@ -2352,4 +2115,3 @@ Have a great conference.
 
 00:33:47.516 --> 00:33:56.090 A:middle
 [ Applause ]
-

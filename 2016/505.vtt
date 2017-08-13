@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:18.500 A:middle
 [ Music ]
@@ -61,15 +60,7 @@ CIImageProcessor nodes.
 So first, so a very brief
 introduction to Core Image.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.846 --> 00:01:03.396 A:middle
-So first, so a very brief
-introduction to Core Image.
-
-00:01:04.275 --> 00:01:07.696 A:middle
+00:01:04.276 --> 00:01:07.696 A:middle
 The reason for Core Image is
 that it provides a very simple,
 
@@ -145,14 +136,6 @@ it will automatically insert the
 00:01:56.856 --> 00:01:58.616 A:middle
 appropriate nodes
 into the render graph
-
-00:01:59.016 --> 00:02:01.326 A:middle
-so that it will match
-your input image
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.016 --> 00:02:01.326 A:middle
 so that it will match
@@ -241,14 +224,6 @@ Core Image has over
 They are the exact
 same filters on all
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.126 --> 00:03:00.666 A:middle
-They are the exact
-same filters on all
-
 00:03:00.666 --> 00:03:05.086 A:middle
 of our platforms;
 macOS, tvOS and iOS.
@@ -327,14 +302,6 @@ those points,
 you can specify the size
 you want it to stretch to.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.206 --> 00:04:00.606 A:middle
-you can specify the size
-you want it to stretch to.
-
 00:04:01.416 --> 00:04:02.336 A:middle
 It's very easy to use.
 
@@ -361,7 +328,7 @@ parametric data.
 So imagine you have a small
 set of colors or parameters
 
-00:04:19.875 --> 00:04:23.366 A:middle
+00:04:19.876 --> 00:04:23.366 A:middle
 and maybe it's only 6 by 7
 pixels and you want to upsample
 
@@ -413,14 +380,6 @@ of other types of algorithms.
 00:04:53.126 --> 00:04:56.396 A:middle
 In fact, in the new version
 of Photos app we use this
-
-00:04:56.396 --> 00:05:00.116 A:middle
-to improve the behavior of
-the light adjustment sliders.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:56.396 --> 00:05:00.116 A:middle
 to improve the behavior of
@@ -519,14 +478,6 @@ an interesting point.
 We're all familiar with the
 conventional pixel format
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.256 --> 00:06:01.196 A:middle
-We're all familiar with the
-conventional pixel format
-
 00:06:01.756 --> 00:06:06.516 A:middle
 of RGBA8 and it takes just
 4 bytes per pixel to store
@@ -596,14 +547,6 @@ in just 8 bytes per pixel,
 00:06:55.726 --> 00:06:59.816 A:middle
 store data that is 10 bits
 of depth and allows values
-
-00:06:59.816 --> 00:07:03.216 A:middle
-in the range of minus
-65,000 to positive 65,000.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.816 --> 00:07:03.216 A:middle
 in the range of minus
@@ -691,14 +634,6 @@ brought this to iOS.
 In talking about this, I'd like
 to discuss what is a RAW file,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.986 --> 00:08:01.536 A:middle
-In talking about this, I'd like
-to discuss what is a RAW file,
-
 00:08:02.106 --> 00:08:03.796 A:middle
 how to use the CIRAWFilter API,
 
@@ -740,11 +675,11 @@ part of a much larger image,
 of course, but in order to turn
 this data into a usable image,
 
-00:08:34.716 --> 00:08:38.015 A:middle
+00:08:34.716 --> 00:08:38.016 A:middle
 a lot of image processing
 is needed in order
 
-00:08:38.015 --> 00:08:40.385 A:middle
+00:08:38.016 --> 00:08:40.386 A:middle
 to produce a pleasing
 image for the user.
 
@@ -752,7 +687,7 @@ image for the user.
 So I want to talk a
 little bit about that.
 
-00:08:43.405 --> 00:08:46.996 A:middle
+00:08:43.406 --> 00:08:46.996 A:middle
 But the main idea here is
 that if you take the data
 
@@ -771,14 +706,6 @@ that's a TIFF or a JPEG.
 00:08:55.766 --> 00:08:58.476 A:middle
 RAW files store the
 unprocessed scene data,
-
-00:08:58.726 --> 00:09:02.266 A:middle
-and JPEG files store the
-processed output image.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.726 --> 00:09:02.266 A:middle
 and JPEG files store the
@@ -859,10 +786,6 @@ that the sensor captured
 00:09:58.506 --> 00:09:59.936 A:middle
 into the output-referred
 data for display.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.046 --> 00:10:04.296 A:middle
 And then we need to do
@@ -949,14 +872,6 @@ can get two different results,
 and some users might prefer
 one chef over another.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:57.686 --> 00:11:00.116 A:middle
-and some users might prefer
-one chef over another.
-
 00:11:00.726 --> 00:11:05.216 A:middle
 That said, there are some great
 advantages to JPEG as well.
@@ -1021,14 +936,6 @@ files such as those captured
 
 00:11:53.496 --> 00:11:54.996 A:middle
 by our own iOS devices.
-
-00:11:55.886 --> 00:12:01.736 A:middle
-The iOS devices include
-the iPhone 6S, 6S Plus, SE,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:55.886 --> 00:12:01.736 A:middle
 The iOS devices include
@@ -1104,14 +1011,6 @@ for the iOS GPU Family 2.
 00:12:57.746 --> 00:12:59.486 A:middle
 Another note on platform
 support.
-
-00:12:59.486 --> 00:13:01.636 A:middle
-We continuously add
-support for new cameras
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:59.486 --> 00:13:01.636 A:middle
 We continuously add
@@ -1194,10 +1093,6 @@ great features of RAW is
 00:13:58.046 --> 00:13:59.926 A:middle
 that you can actually
 salvage images like this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.356 --> 00:14:01.896 A:middle
 So we can go here and edit it
@@ -1282,14 +1177,6 @@ balance just a little bit
 00:14:58.396 --> 00:14:59.916 A:middle
 and I can make a much
 more pleasant image.
-
-00:14:59.916 --> 00:15:01.666 A:middle
-And again, we can zoom
-in and see the results.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:59.916 --> 00:15:01.666 A:middle
 And again, we can zoom
@@ -1381,10 +1268,6 @@ So I'll save that as well.
 Lastly, I want to demonstrate an
 image we took earlier this week
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:00.136 --> 00:16:02.446 A:middle
 out in the lobby, which
 was taken with this iPad.
@@ -1472,29 +1355,21 @@ for making this possible.
 So let me talk about the API,
 because it's not just enough
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.356 --> 00:17:01.836 A:middle
-So let me talk about the API,
-because it's not just enough
-
 00:17:01.836 --> 00:17:03.706 A:middle
 to provide a demo application.
 
-00:17:03.706 --> 00:17:05.675 A:middle
+00:17:03.706 --> 00:17:05.676 A:middle
 We want to enable your
 applications to be able
 
-00:17:05.675 --> 00:17:07.006 A:middle
+00:17:05.676 --> 00:17:07.006 A:middle
 to do this in your apps as well.
 
-00:17:07.586 --> 00:17:09.435 A:middle
+00:17:07.586 --> 00:17:09.436 A:middle
 So we have an API
 that's referred
 
-00:17:09.435 --> 00:17:11.096 A:middle
+00:17:09.436 --> 00:17:11.096 A:middle
 to as the CIRAWFilter API,
 
 00:17:11.096 --> 00:17:14.046 A:middle
@@ -1505,7 +1380,7 @@ some critical things.
 It gives your application
 a CIImage with wide-gamut,
 
-00:17:17.736 --> 00:17:20.675 A:middle
+00:17:17.736 --> 00:17:20.676 A:middle
 extended range, half-float
 precision math behind it.
 
@@ -1513,10 +1388,10 @@ precision math behind it.
 It also gives you control
 over many of the stages
 
-00:17:24.596 --> 00:17:26.185 A:middle
+00:17:24.596 --> 00:17:26.186 A:middle
 in the RAW processing pipeline,
 
-00:17:26.185 --> 00:17:27.465 A:middle
+00:17:26.186 --> 00:17:27.466 A:middle
 such as those that
 I demonstrated.
 
@@ -1563,14 +1438,6 @@ instantiated it will have
 00:17:55.316 --> 00:17:58.596 A:middle
 default values for all the
 user adjustable parameters
-
-00:17:58.856 --> 00:18:01.086 A:middle
-that you might want to
-present to your user.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.856 --> 00:18:01.086 A:middle
 that you might want to
@@ -1666,10 +1533,6 @@ adjustable sliders for exposure
 and then the user can
 make that adjustment.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.256 --> 00:19:03.216 A:middle
 You can then pass that in as a
 new value to the CIRAWFilter.
@@ -1749,10 +1612,6 @@ cache the compilation
 00:19:57.656 --> 00:19:59.606 A:middle
 of all the kernels
 that are involved.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:01.166 --> 00:20:03.566 A:middle
 However, because we're going to
@@ -1848,14 +1707,6 @@ This is also a good time
 to specify what compression
 quality you want for the JPEG.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.826 --> 00:21:03.556 A:middle
-to specify what compression
-quality you want for the JPEG.
-
 00:21:04.876 --> 00:21:07.296 A:middle
 Now, in this case this will
 produce an image that is a JPEG
@@ -1931,10 +1782,6 @@ new API for that as well
 
 00:21:58.296 --> 00:21:59.296 A:middle
 with some new options.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.176 --> 00:22:02.116 A:middle
 We have this convenience
@@ -2030,14 +1877,6 @@ can specify deferred false,
 and in that case Core Image
 will do the work of rendering
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.186 --> 00:23:02.346 A:middle
-and in that case Core Image
-will do the work of rendering
-
 00:23:02.346 --> 00:23:04.576 A:middle
 into the CGImage at the time
 this function is called.
@@ -2115,14 +1954,6 @@ into this location.
 Some notes on wide-gamut
 output that I mentioned before.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.926 --> 00:24:01.996 A:middle
-Some notes on wide-gamut
-output that I mentioned before.
-
 00:24:02.496 --> 00:24:06.156 A:middle
 The CIKernel language supports
 float precision as a language.
@@ -2185,14 +2016,6 @@ a rendered graph,
 00:24:53.766 --> 00:24:57.586 A:middle
 you should modify your CIContext
 when you create it to specify
-
-00:24:57.586 --> 00:25:00.496 A:middle
-that you want a working
-format that is RGBAh.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.586 --> 00:25:00.496 A:middle
 that you want a working
@@ -2280,14 +2103,6 @@ gigabytes of memory or more,
 we support RAW files
 up to 120 megapixels.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.416 --> 00:26:00.896 A:middle
-we support RAW files
-up to 120 megapixels.
-
 00:26:00.896 --> 00:26:01.976 A:middle
 So we're really proud to
 be able to pull that off.
@@ -2362,14 +2177,6 @@ we see what you can edit,
 and then we'll go
 step-by-step into the code
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.646 --> 00:27:02.996 A:middle
-and then we'll go
-step-by-step into the code
-
 00:27:02.996 --> 00:27:06.236 A:middle
 and see how you can get
 a Live Photo for editing,
@@ -2430,14 +2237,6 @@ can expect your users
 00:27:55.266 --> 00:27:57.606 A:middle
 to already have plenty of Live
 Photos in their Photo Library.
-
-00:27:58.976 --> 00:28:01.466 A:middle
-So what's new this
-year about Live Photos?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.976 --> 00:28:01.466 A:middle
 So what's new this
@@ -2521,14 +2320,6 @@ Things you can't do though is
 that you can't change
 the duration
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.736 --> 00:29:00.476 A:middle
-that you can't change
-the duration
-
 00:29:00.536 --> 00:29:05.196 A:middle
 or the timing of the Live Photo.
 
@@ -2596,14 +2387,6 @@ PhotoKit application,
 00:29:54.696 --> 00:29:58.336 A:middle
 you have to request the
 contentEditingInput yourself
-
-00:29:58.336 --> 00:30:01.836 A:middle
-from a PHAsset, and then
-you can check the media type
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:58.336 --> 00:30:01.836 A:middle
 from a PHAsset, and then
@@ -2690,10 +2473,6 @@ institute a new one
 from a LivePhotoEditingInput
 for a Live Photo.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:31:00.586 --> 00:31:00.876 A:middle
 All right.
 
@@ -2762,13 +2541,6 @@ look at the real case.
 00:31:53.986 --> 00:31:57.766 A:middle
 This is a Live Photo, as
 you can see in Photos,
-
-00:31:58.336 --> 00:32:01.026 A:middle
-and I can play it right there.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.336 --> 00:32:01.026 A:middle
 and I can play it right there.
@@ -2854,13 +2626,6 @@ on that crop example
 00:32:59.646 --> 00:33:01.106 A:middle
 and implement the dynamic crop.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.646 --> 00:33:01.106 A:middle
-and implement the dynamic crop.
-
 00:33:02.446 --> 00:33:04.386 A:middle
 So here's how to do it.
 
@@ -2929,10 +2694,6 @@ All right.
 So that's an example of
 a time-based adjustment.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:34:00.606 --> 00:34:02.186 A:middle
 Now let's take a look
 at something else.
@@ -2944,19 +2705,19 @@ This effect is interesting
 because it's a
 resolution-dependent effect.
 
-00:34:08.335 --> 00:34:13.835 A:middle
+00:34:08.336 --> 00:34:13.836 A:middle
 What I mean by that is that the
 way the filter parameters are
 
-00:34:13.835 --> 00:34:17.005 A:middle
+00:34:13.836 --> 00:34:17.006 A:middle
 specified, they're
 specified in pixels, right,
 
-00:34:17.005 --> 00:34:19.545 A:middle
+00:34:17.006 --> 00:34:19.546 A:middle
 which mean that you
 need to be extra careful
 
-00:34:19.545 --> 00:34:21.536 A:middle
+00:34:19.546 --> 00:34:21.536 A:middle
 when you apply these kind
 of effects to make sure
 
@@ -2975,14 +2736,14 @@ can see that the video --
 00:34:30.616 --> 00:34:32.106 A:middle
 the effect is applied
 
-00:34:32.106 --> 00:34:33.795 A:middle
+00:34:32.106 --> 00:34:33.796 A:middle
 to the video the same way
 it's applied to the photos.
 
-00:34:33.795 --> 00:34:34.286 A:middle
+00:34:33.796 --> 00:34:34.286 A:middle
 So that's great.
 
-00:34:34.585 --> 00:34:36.996 A:middle
+00:34:34.586 --> 00:34:36.996 A:middle
 So let's see how to
 do that correctly.
 
@@ -2990,7 +2751,7 @@ do that correctly.
 So in your frame processor
 you want to pay attention
 
-00:34:41.126 --> 00:34:43.565 A:middle
+00:34:41.126 --> 00:34:43.566 A:middle
 to this renderScale
 property on the frame.
 
@@ -3001,25 +2762,17 @@ the resolution
 00:34:46.326 --> 00:34:48.436 A:middle
 of the current frame compared
 
-00:34:48.436 --> 00:34:52.755 A:middle
+00:34:48.436 --> 00:34:52.756 A:middle
 to the one-to-one full-size
 still image in the Live Photo.
 
-00:34:53.545 --> 00:34:57.406 A:middle
+00:34:53.546 --> 00:34:57.406 A:middle
 So keep in mind that
 the video frames
 
 00:34:57.406 --> 00:34:59.606 A:middle
 and the photo are
 different size as well.
-
-00:34:59.606 --> 00:35:02.176 A:middle
-Right. Usually the video is
-way smaller than the photo is.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.606 --> 00:35:02.176 A:middle
 Right. Usually the video is
@@ -3083,14 +2836,6 @@ disappears from the video.
 00:35:54.126 --> 00:35:59.056 A:middle
 So this is how you would apply
 an adjustment just to the photo
-
-00:35:59.056 --> 00:36:01.676 A:middle
-and not to the video,
-and here's how to do it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.056 --> 00:36:01.676 A:middle
 and not to the video,
@@ -3171,14 +2916,6 @@ for playback and you pass
 in the target size, which is
 typically the size of your view
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:56.666 --> 00:37:01.966 A:middle
-in the target size, which is
-typically the size of your view
-
 00:37:01.966 --> 00:37:06.076 A:middle
 in pixels, and then you get
 called back asynchronously
@@ -3241,14 +2978,6 @@ Photo to that output.
 00:37:55.726 --> 00:37:59.156 A:middle
 And again, that will process
 the full resolution Live Photo
-
-00:37:59.556 --> 00:38:02.226 A:middle
-asynchronously and call
-you back on the main thread
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:59.556 --> 00:38:02.226 A:middle
 asynchronously and call
@@ -3318,10 +3047,6 @@ Live Photo extension that I'd
 
 00:38:58.326 --> 00:38:59.146 A:middle
 like to show you today.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:00.046 --> 00:39:03.656 A:middle
 So here I am in Photos and I can
@@ -3399,14 +3124,6 @@ so I can interact with this
 and I can actually press
 to play it, like this,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.156 --> 00:40:01.736 A:middle
-and I can actually press
-to play it, like this,
-
 00:40:02.106 --> 00:40:03.136 A:middle
 right in my extension.
 
@@ -3474,14 +3191,6 @@ preview a Live Photo
 00:40:53.226 --> 00:40:56.146 A:middle
 in your app using
 the LivePhotoView.
-
-00:40:57.236 --> 00:41:00.396 A:middle
-And we've seen how to
-save a Live Photo back
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:57.236 --> 00:41:00.396 A:middle
 And we've seen how to
@@ -3562,10 +3271,6 @@ Alex on stage.
 00:41:59.796 --> 00:41:59.976 A:middle
 Thank you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:42:00.516 --> 00:42:06.546 A:middle
 [ Applause ]
 
@@ -3638,14 +3343,6 @@ with writing general kernels.
 00:42:54.936 --> 00:42:57.466 A:middle
 So in the past you would
 write a general kernel,
-
-00:42:57.466 --> 00:43:02.026 A:middle
-specify some string, and then
-override the output image method
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:57.466 --> 00:43:02.026 A:middle
 specify some string, and then
@@ -3730,10 +3427,6 @@ We need to provide the extent,
 00:43:57.846 --> 00:43:59.666 A:middle
 which is the output image size
 we're going to be producing,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:00.016 --> 00:44:02.946 A:middle
 give it an input
@@ -3824,14 +3517,6 @@ to our processor block,
 which is where we have
 exactly two parameters;
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:44:58.466 --> 00:45:00.426 A:middle
-which is where we have
-exactly two parameters;
-
 00:45:00.966 --> 00:45:05.596 A:middle
 our CIImageProcessorInput
 and CIImageProcessorOutput,
@@ -3916,14 +3601,6 @@ image on the left, which,
 let's say, corresponds to some
 single channel, 8-bit data,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:57.946 --> 00:46:01.386 A:middle
-let's say, corresponds to some
-single channel, 8-bit data,
-
 00:46:02.716 --> 00:46:04.596 A:middle
 our integral image would
 be the image on the right.
@@ -3996,10 +3673,6 @@ as float, because we specified
 00:46:56.246 --> 00:46:58.036 A:middle
 that we wanted to
 write to RGBAf.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:00.366 --> 00:47:04.526 A:middle
 The next thing we do
@@ -4074,14 +3747,6 @@ called MPSImageIntegral.
 00:47:55.266 --> 00:47:59.176 A:middle
 From our CIImageProcessorOutput
 we can get the commandBuffer,
-
-00:47:59.686 --> 00:48:02.266 A:middle
-the Metal command buffer, so we
-just create an MPSImageIntegral
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:59.686 --> 00:48:02.266 A:middle
 the Metal command buffer, so we
@@ -4166,14 +3831,6 @@ this input image and we wanted
 to get the sum of those nine
 pixels, traditionally speaking,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:58.896 --> 00:49:02.336 A:middle
-to get the sum of those nine
-pixels, traditionally speaking,
-
 00:49:02.896 --> 00:49:04.116 A:middle
 this would require nine reads,
 
@@ -4249,14 +3906,6 @@ subtracted that value twice,
 
 00:49:54.996 --> 00:49:56.106 A:middle
 so we need to add it back in.
-
-00:49:57.556 --> 00:50:03.226 A:middle
-So what this means is we can
-create an arbitrarily-sized box
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:57.556 --> 00:50:03.226 A:middle
 So what this means is we can
@@ -4345,14 +3994,6 @@ transparent the pixel
 that we're currently
 trying to produce is.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:59.446 --> 00:51:00.856 A:middle
-that we're currently
-trying to produce is.
-
 00:51:01.956 --> 00:51:05.596 A:middle
 We take our four
 samples, the four corners,
@@ -4427,14 +4068,6 @@ location we had .5,
 it would give us
 a radius of 7.5.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:59.406 --> 00:52:01.506 A:middle
-it would give us
-a radius of 7.5.
-
 00:52:02.556 --> 00:52:04.856 A:middle
 We can then take those
 values and pass it
@@ -4502,14 +4135,6 @@ noticed, this is a great way
 00:52:50.596 --> 00:52:56.456 A:middle
 to reduce your memory usage,
 and it's also a way to specify
-
-00:52:56.596 --> 00:53:00.156 A:middle
-that you want a certain
-precision for a specific kernel
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:56.596 --> 00:53:00.156 A:middle
 that you want a certain
@@ -4599,10 +4224,6 @@ It's all very interactive.
 Change the radius, even
 make it go negative.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:54:01.456 --> 00:54:05.136 A:middle
 And then if we apply this
 mask image and use it inside
@@ -4680,14 +4301,6 @@ CIImage.byColorMatching
 ColorSpace(toWorking, and
 then give it a color space.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:54:59.306 --> 00:55:02.126 A:middle
-ColorSpace(toWorking, and
-then give it a color space.
-
 00:55:05.756 --> 00:55:09.676 A:middle
 Now that we've seen how to
 create the CIImageProcessor
@@ -4752,14 +4365,6 @@ and the color kernel result
 00:55:53.526 --> 00:55:56.586 A:middle
 from the radialGradient get
 fed into the variableBoxBlur.
-
-00:55:57.786 --> 00:56:02.266 A:middle
-And finally we do the color
-matching to our output display.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:55:57.786 --> 00:56:02.266 A:middle
 And finally we do the color
@@ -4845,14 +4450,6 @@ tradeoffs in between these APIs.
 And if you can write something
 inside the CIKernel language,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:56:57.856 --> 00:57:00.066 A:middle
-And if you can write something
-inside the CIKernel language,
-
 00:57:00.066 --> 00:57:00.436 A:middle
 you should.
 
@@ -4924,10 +4521,6 @@ please
 00:57:56.746 --> 00:57:58.546 A:middle
 visit developer.apple.com.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:58:01.016 --> 00:58:03.046 A:middle
 There are a few related sessions
 that may be of interest to you,
@@ -4960,4 +4553,3 @@ the rest of WWDC.
 
 00:58:20.516 --> 00:58:30.760 A:middle
 [ Applause ]
-

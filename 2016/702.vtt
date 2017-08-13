@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:19.460 A:middle
 [ Music ]
@@ -13,11 +12,11 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 00:00:29.356 --> 00:00:30.696 A:middle
 &gt;&gt; So my name is Dana DuBois.
 
-00:00:30.696 --> 00:00:32.665 A:middle
+00:00:30.696 --> 00:00:32.666 A:middle
 I'm an engineering
 manager on the team
 
-00:00:32.665 --> 00:00:33.796 A:middle
+00:00:32.666 --> 00:00:33.796 A:middle
 that writes the frameworks
 
 00:00:33.796 --> 00:00:37.216 A:middle
@@ -55,14 +54,6 @@ of business models.
 Everything from newspapers
 and magazines, games,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:55.866 --> 00:01:00.626 A:middle
-Everything from newspapers
-and magazines, games,
-
 00:01:01.156 --> 00:01:03.276 A:middle
 even dating apps
 are using StoreKit.
@@ -70,7 +61,7 @@ are using StoreKit.
 00:01:03.326 --> 00:01:05.066 A:middle
 It's really widely used.
 
-00:01:05.325 --> 00:01:09.106 A:middle
+00:01:05.326 --> 00:01:09.106 A:middle
 And we've talked about
 StoreKit a lot at WWDC,
 
@@ -148,14 +139,6 @@ you can use auto renewing
 subscriptions, but category
 will no longer be a factor.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.166 --> 00:02:01.026 A:middle
-subscriptions, but category
-will no longer be a factor.
-
 00:02:02.406 --> 00:02:05.056 A:middle
 Second, everyone's got
 to be excited about this,
@@ -227,14 +210,6 @@ that you want to reward
 00:02:54.076 --> 00:02:56.766 A:middle
 and you want to keep them using
 your subscription, but you want
-
-00:02:56.766 --> 00:03:00.276 A:middle
-to adjust the price for newer
-users, you have that power now.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:56.766 --> 00:03:00.276 A:middle
 to adjust the price for newer
@@ -319,13 +294,6 @@ yesterday at the keynote.
 00:03:56.836 --> 00:03:59.506 A:middle
 We're bringing apps, a whole
 new class of apps right
-
-00:03:59.506 --> 00:04:01.966 A:middle
-into the iMessage app, iMessage.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.506 --> 00:04:01.966 A:middle
 into the iMessage app, iMessage.
@@ -416,14 +384,6 @@ of doing that.
 This is really just about
 digital content or services.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:58.876 --> 00:05:02.036 A:middle
-This is really just about
-digital content or services.
-
 00:05:02.076 --> 00:05:06.116 A:middle
 Now when we're talking about
 digital contents or services,
@@ -500,14 +460,6 @@ or you know a racing car,
 00:05:56.066 --> 00:05:58.866 A:middle
 or a level, or if you
 have a utility app,
-
-00:05:58.866 --> 00:06:01.896 A:middle
-you might have a basic edition
-of your app and you might want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.866 --> 00:06:01.896 A:middle
 you might have a basic edition
@@ -590,13 +542,6 @@ and then we're going to dive
 00:06:56.676 --> 00:06:57.916 A:middle
 into each one and
 we're going to talk
-
-00:06:57.916 --> 00:07:00.116 A:middle
-about how to do this in Swift.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.916 --> 00:07:00.116 A:middle
 about how to do this in Swift.
@@ -684,13 +629,6 @@ information you're going
 00:07:59.706 --> 00:08:01.666 A:middle
 to show off the products.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.706 --> 00:08:01.666 A:middle
-to show off the products.
-
 00:08:01.666 --> 00:08:02.446 A:middle
 You're going to market them.
 
@@ -755,7 +693,7 @@ completed, you're going to make
 00:08:41.686 --> 00:08:42.866 A:middle
 that product available.
 
-00:08:43.285 --> 00:08:44.896 A:middle
+00:08:43.286 --> 00:08:44.896 A:middle
 Give the user what
 they paid for.
 
@@ -784,14 +722,6 @@ Real quick.
 00:08:56.656 --> 00:08:59.096 A:middle
 We're going to dive into each
 of those as we go through,
-
-00:08:59.456 --> 00:09:02.336 A:middle
-but first special note
-about the Payment Queue.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.456 --> 00:09:02.336 A:middle
 but first special note
@@ -862,10 +792,6 @@ user has clicked on a product
 00:09:57.976 --> 00:09:59.946 A:middle
 and they're managing
 state about that payment.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:00.446 --> 00:10:02.166 A:middle
 And then their app will crash,
@@ -958,14 +884,6 @@ anything in the Payment Queue
 that may have been there
 before our app launched,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.766 --> 00:11:00.746 A:middle
-that may have been there
-before our app launched,
-
 00:11:00.966 --> 00:11:02.776 A:middle
 we'll get notified
 about it right away.
@@ -1043,14 +961,6 @@ different ways of doing it,
 
 00:11:56.656 --> 00:11:58.026 A:middle
 if your app is very simple,
-
-00:11:58.436 --> 00:12:00.506 A:middle
-you might just bake
-the identifiers right
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.436 --> 00:12:00.506 A:middle
 you might just bake
@@ -1135,14 +1045,6 @@ how you are fetching
 00:12:54.446 --> 00:12:56.156 A:middle
 and preserving these
 identifiers.
-
-00:12:56.866 --> 00:13:00.586 A:middle
-Now that you have the
-identifiers you need to go
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:56.866 --> 00:13:00.586 A:middle
 Now that you have the
@@ -1234,14 +1136,6 @@ title and description.
 As I said before this is
 a global market place,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.046 --> 00:14:01.496 A:middle
-As I said before this is
-a global market place,
-
 00:14:01.496 --> 00:14:04.696 A:middle
 you're marketing your in-app
 purchases around the world.
@@ -1313,14 +1207,6 @@ price, it's very important
 00:14:52.546 --> 00:14:58.666 A:middle
 that you do the right thing when
 presenting those price strings.
-
-00:14:58.986 --> 00:15:01.396 A:middle
-When you're presenting those
-prices, you want to use
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:58.986 --> 00:15:01.396 A:middle
 When you're presenting those
@@ -1409,14 +1295,6 @@ into making the purchase itself.
 
 00:15:58.036 --> 00:15:59.996 A:middle
 And that can be done by adding
-
-00:15:59.996 --> 00:16:02.436 A:middle
-and creating an SK
-payment object
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.996 --> 00:16:02.436 A:middle
 and creating an SK
@@ -1515,37 +1393,30 @@ in a little bit,
 00:16:59.696 --> 00:17:01.106 A:middle
 and make that content available.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.696 --> 00:17:01.106 A:middle
-and make that content available.
-
-00:17:01.786 --> 00:17:04.675 A:middle
+00:17:01.786 --> 00:17:04.676 A:middle
 However, there's one other state
 I'd like to talk about as well
 
-00:17:04.915 --> 00:17:07.316 A:middle
+00:17:04.916 --> 00:17:07.316 A:middle
 and that's the deferred
 transaction state.
 
-00:17:07.986 --> 00:17:11.925 A:middle
+00:17:07.986 --> 00:17:11.926 A:middle
 Deferred was added
 back in iOS 8 and it's
 
-00:17:11.925 --> 00:17:14.316 A:middle
+00:17:11.926 --> 00:17:14.316 A:middle
 for the Ask to Buy feature.
 
-00:17:14.626 --> 00:17:16.945 A:middle
+00:17:14.626 --> 00:17:16.946 A:middle
 This was to allow
 iCloud families
 
-00:17:16.945 --> 00:17:19.685 A:middle
+00:17:16.946 --> 00:17:19.686 A:middle
 where children could
 attempt to make a purchase,
 
-00:17:19.965 --> 00:17:23.326 A:middle
+00:17:19.966 --> 00:17:23.326 A:middle
 such as an in-app purchase,
 and their parent or guardian,
 
@@ -1556,7 +1427,7 @@ to decide whether or not
 00:17:26.366 --> 00:17:27.626 A:middle
 that purchase will go through.
 
-00:17:27.965 --> 00:17:29.686 A:middle
+00:17:27.966 --> 00:17:29.686 A:middle
 The deferred state is the state
 
 00:17:29.686 --> 00:17:31.166 A:middle
@@ -1599,10 +1470,6 @@ and continue to use the game
 00:17:58.356 --> 00:17:59.906 A:middle
 or whatever it is
 they're interested in.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.226 --> 00:18:01.286 A:middle
 Because it might be hours,
@@ -1679,10 +1546,6 @@ deferred transaction in Sandbox,
 00:18:55.996 --> 00:18:59.886 A:middle
 it can be done using
 SimulatesAskToBuyInSandbox.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.246 --> 00:19:04.116 A:middle
 This is where you create your
@@ -1764,10 +1627,6 @@ all the possible errors
 00:19:56.066 --> 00:19:59.326 A:middle
 that can be returned in
 your application over time.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.106 --> 00:20:03.526 A:middle
 One thing to keep
@@ -1864,14 +1723,6 @@ The App Store and StoreKit
 for you will confirm the
 purchase with the user.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.086 --> 00:21:01.076 A:middle
-for you will confirm the
-purchase with the user.
-
 00:21:01.296 --> 00:21:02.506 A:middle
 They'll present a price.
 
@@ -1955,14 +1806,6 @@ technologies you're using
 and what level of
 security you want to use
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:57.686 --> 00:22:01.056 A:middle
-and what level of
-security you want to use
-
 00:22:01.056 --> 00:22:02.926 A:middle
 to validate your purchase.
 
@@ -2031,14 +1874,6 @@ choices you have to make.
 
 00:22:57.206 --> 00:22:59.316 A:middle
 Is this a purely client side,
-
-00:22:59.316 --> 00:23:01.446 A:middle
-right inside your
-app type of purchase?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.316 --> 00:23:01.446 A:middle
 right inside your
@@ -2113,10 +1948,6 @@ from your hosted server,
 00:23:57.676 --> 00:23:59.326 A:middle
 right into the App Store itself.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:24:01.676 --> 00:24:04.706 A:middle
 So let's get a little bit
 deeper into what the receipt is.
@@ -2187,10 +2018,6 @@ We give you an API to get it.
 We'll see what that
 looks like in a moment.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.416 --> 00:25:02.156 A:middle
 And it's a single file.
 
@@ -2259,14 +2086,6 @@ public open standard.
 00:25:53.766 --> 00:25:57.576 A:middle
 And there's a lot of
 great options out there
-
-00:25:57.576 --> 00:26:01.106 A:middle
-for verifying this, OpenSSL
-is a very common one.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:57.576 --> 00:26:01.106 A:middle
 for verifying this, OpenSSL
@@ -2359,14 +2178,6 @@ be very careful
 about checking that
 expiration date.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.806 --> 00:27:01.506 A:middle
-about checking that
-expiration date.
-
 00:27:02.506 --> 00:27:06.896 A:middle
 Just because it was issued at
 a certain time, doesn't mean
@@ -2435,14 +2246,6 @@ of gives you an idea
 00:27:54.526 --> 00:27:56.606 A:middle
 of what it looks like
 inside the receipt.
-
-00:27:57.316 --> 00:28:00.296 A:middle
-The payload of it, that ASN1
-format that I was talking
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.316 --> 00:28:00.296 A:middle
 The payload of it, that ASN1
@@ -2534,14 +2337,6 @@ sure that that receipt is
 for your application,
 use hard coded values.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.276 --> 00:29:02.436 A:middle
-for your application,
-use hard coded values.
-
 00:29:04.186 --> 00:29:07.396 A:middle
 Now that you know that this
 receipt is for your application,
@@ -2625,14 +2420,6 @@ included in the receipt.
 It allows the hash to change
 over time even if the bundle ID
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.536 --> 00:30:02.116 A:middle
-It allows the hash to change
-over time even if the bundle ID
-
 00:30:02.116 --> 00:30:03.926 A:middle
 and the device identifier
 aren't changing.
@@ -2693,14 +2480,6 @@ own values inside of it.
 
 00:30:57.296 --> 00:30:59.646 A:middle
 So what do those look like?
-
-00:30:59.776 --> 00:31:03.806 A:middle
-Well 1701, that's the
-quantity of purchases made.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.776 --> 00:31:03.806 A:middle
 Well 1701, that's the
@@ -2778,10 +2557,6 @@ app over to subscriptions,
 00:31:58.596 --> 00:31:59.996 A:middle
 that field's important to you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.366 --> 00:32:02.446 A:middle
 You're going to use that to
 kind of, you're going to use
@@ -2850,14 +2625,6 @@ treat that user as the paid user
 00:32:54.266 --> 00:32:57.206 A:middle
 that they are and not as
 the subscription user.
-
-00:32:57.576 --> 00:33:00.486 A:middle
-I think it's a really bad
-experience if the model moves
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:57.576 --> 00:33:00.486 A:middle
 I think it's a really bad
@@ -2943,14 +2710,6 @@ And you can get those back
 and should get those
 back via a StoreKit API.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:58.156 --> 00:34:01.126 A:middle
-and should get those
-back via a StoreKit API.
-
 00:34:01.126 --> 00:34:04.566 A:middle
 We can take a look at
 what that looks like.
@@ -2959,34 +2718,34 @@ what that looks like.
 It's a little different
 on IOS versus macOS.
 
-00:34:08.085 --> 00:34:11.525 A:middle
+00:34:08.086 --> 00:34:11.526 A:middle
 On iOS, the receipt
 doesn't exist or is invalid,
 
-00:34:11.525 --> 00:34:14.096 A:middle
+00:34:11.526 --> 00:34:14.096 A:middle
 you're going to want to use
 this StoreKit API to refresh it.
 
-00:34:14.876 --> 00:34:17.775 A:middle
+00:34:14.876 --> 00:34:17.776 A:middle
 But keep in mind that you're
 going to have to have network.
 
-00:34:17.775 --> 00:34:20.025 A:middle
+00:34:17.776 --> 00:34:20.026 A:middle
 We have to make a
 connection to the App Store.
 
-00:34:20.525 --> 00:34:22.176 A:middle
+00:34:20.526 --> 00:34:22.176 A:middle
 We have to validate the user.
 
-00:34:22.545 --> 00:34:23.856 A:middle
+00:34:22.546 --> 00:34:23.856 A:middle
 We've got to know
 that they're the ones
 
-00:34:23.856 --> 00:34:25.045 A:middle
+00:34:23.856 --> 00:34:25.046 A:middle
 who have actually
 bought this thing.
 
-00:34:25.045 --> 00:34:27.686 A:middle
+00:34:25.046 --> 00:34:27.686 A:middle
 So they're going to have to
 either enter in their password,
 
@@ -3004,10 +2763,10 @@ every time the app launches,
 which is really not a
 great pattern to follow,
 
-00:34:40.686 --> 00:34:41.735 A:middle
+00:34:40.686 --> 00:34:41.736 A:middle
 or if you're doing anything
 
-00:34:41.735 --> 00:34:43.826 A:middle
+00:34:41.736 --> 00:34:43.826 A:middle
 where you're checking
 the receipt is invalid
 
@@ -3015,11 +2774,11 @@ the receipt is invalid
 and then fetching it because you
 know maybe there's something,
 
-00:34:48.056 --> 00:34:50.295 A:middle
+00:34:48.056 --> 00:34:50.296 A:middle
 something doesn't look
 right, you want to be careful
 
-00:34:50.295 --> 00:34:52.616 A:middle
+00:34:50.296 --> 00:34:52.616 A:middle
 that you don't get stuck in
 a loop over and over again.
 
@@ -3033,14 +2792,6 @@ on launch.
 00:34:56.976 --> 00:34:59.076 A:middle
 Or if you keep checking
 and it's invalid
-
-00:34:59.076 --> 00:35:00.716 A:middle
-and there's something
-not quite right
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.076 --> 00:35:00.716 A:middle
 and there's something
@@ -3122,14 +2873,6 @@ validation.
 If you're doing an auto
 renewing receipt and you have,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:59.086 --> 00:36:01.476 A:middle
-If you're doing an auto
-renewing receipt and you have,
-
 00:36:01.476 --> 00:36:03.126 A:middle
 an auto renewing subscription
 
@@ -3198,14 +2941,6 @@ information about was it valid
 00:36:55.466 --> 00:36:59.256 A:middle
 or if there was some other
 state wrong with the receipt.
-
-00:36:59.326 --> 00:37:02.006 A:middle
-So again, there are
-documentation online
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.326 --> 00:37:02.006 A:middle
 So again, there are
@@ -3298,14 +3033,6 @@ technologies,
 whole bunch of different
 ways of doing that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.636 --> 00:38:00.156 A:middle
-whole bunch of different
-ways of doing that.
-
 00:38:00.156 --> 00:38:01.766 A:middle
 I want to highlight
 a few of them now.
@@ -3379,14 +3106,6 @@ executable code.
 00:38:53.896 --> 00:38:56.806 A:middle
 So all that code has to be
 right in your original binary,
-
-00:38:56.806 --> 00:39:00.056 A:middle
-but it can contain any other
-content you might want to have.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:56.806 --> 00:39:00.056 A:middle
 but it can contain any other
@@ -3468,14 +3187,6 @@ and then leaves your app,
 launches another app, and you
 have to download this content,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:58.846 --> 00:40:01.496 A:middle
-launches another app, and you
-have to download this content,
-
 00:40:01.736 --> 00:40:02.636 A:middle
 that will keep running.
 
@@ -3547,14 +3258,6 @@ is interested
 00:40:56.356 --> 00:40:59.386 A:middle
 in using hosted in-app
 purchases, you're going to want
-
-00:40:59.386 --> 00:41:03.666 A:middle
-to have a Payment Queue updated
-downloads method inside your
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.386 --> 00:41:03.666 A:middle
 to have a Payment Queue updated
@@ -3632,14 +3335,6 @@ to do self-hosting content.
 00:41:54.476 --> 00:41:57.926 A:middle
 One thing to keep in mind is
 there are background download
-
-00:41:57.926 --> 00:42:01.116 A:middle
-APIs that you should
-be using NSURL Session.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:57.926 --> 00:42:01.116 A:middle
 APIs that you should
@@ -3723,13 +3418,6 @@ to call into your delegate.
 00:42:54.826 --> 00:42:57.706 A:middle
 So you're going to want to make
 sure you create a dedicated
-
-00:42:57.956 --> 00:43:01.436 A:middle
-operation queue for that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:57.956 --> 00:43:01.436 A:middle
 operation queue for that.
@@ -3819,14 +3507,6 @@ delegate, you're going to want
 to implement handle events
 for background URL session.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:56.616 --> 00:44:00.226 A:middle
-to implement handle events
-for background URL session.
-
 00:44:00.766 --> 00:44:03.516 A:middle
 This will allow the
 operating system to wake
@@ -3909,14 +3589,6 @@ assets available,
 
 00:44:58.376 --> 00:44:59.776 A:middle
 but you're not quite done yet.
-
-00:44:59.776 --> 00:45:01.406 A:middle
-Even though you've
-made all this available
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:59.776 --> 00:45:01.406 A:middle
 Even though you've
@@ -4018,14 +3690,6 @@ you finish it.
 And if you're downloading hosted
 content, another thing to keep
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.306 --> 00:46:02.496 A:middle
-And if you're downloading hosted
-content, another thing to keep
-
 00:46:02.496 --> 00:46:04.796 A:middle
 in mind is yes you need
 to finish downloading it
@@ -4095,14 +3759,6 @@ allow the user
 00:46:51.306 --> 00:46:56.056 A:middle
 to restores non-consumable and
 auto renewing subscriptions.
-
-00:46:57.116 --> 00:47:00.446 A:middle
-Consumable and non-renewing
-subscriptions,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:57.116 --> 00:47:00.446 A:middle
 Consumable and non-renewing
@@ -4194,14 +3850,6 @@ purchased by the user.
 Or we're going to give you an
 error that something went wrong
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:58.326 --> 00:48:00.706 A:middle
-Or we're going to give you an
-error that something went wrong
-
 00:48:00.706 --> 00:48:03.056 A:middle
 and maybe you need to ask
 the user to try it again,
@@ -4288,14 +3936,6 @@ Restores are free.
 The user shouldn't get confused
 that if they do a restore
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:48:59.366 --> 00:49:02.746 A:middle
-The user shouldn't get confused
-that if they do a restore
-
 00:49:02.746 --> 00:49:05.126 A:middle
 and they're getting a password
 prompt from the App Store
@@ -4370,14 +4010,6 @@ the kind of policies.
 00:49:57.176 --> 00:49:59.106 A:middle
 I highly recommend
 that you check
-
-00:49:59.106 --> 00:50:00.966 A:middle
-out the App Review
-Policy Guidelines.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:59.106 --> 00:50:00.966 A:middle
 out the App Review
@@ -4470,14 +4102,6 @@ as you want it to.
 So just to summarize a little
 bit of what we went over today.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:57.436 --> 00:51:02.146 A:middle
-So just to summarize a little
-bit of what we went over today.
-
 00:51:03.346 --> 00:51:05.396 A:middle
 Always observe the
 Payment Queue.
@@ -4557,13 +4181,6 @@ whether you do it locally
 00:51:59.416 --> 00:52:01.196 A:middle
 or on the server.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:51:59.416 --> 00:52:01.196 A:middle
-or on the server.
-
 00:52:01.196 --> 00:52:03.436 A:middle
 What technologies that back it.
 
@@ -4636,14 +4253,6 @@ app starts up.
 00:52:53.676 --> 00:52:59.106 A:middle
 And that will incur weird you
 know possibly the user might
-
-00:52:59.106 --> 00:53:01.586 A:middle
-have to authenticate
-at certain times,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:59.106 --> 00:53:01.586 A:middle
 have to authenticate
@@ -4727,4 +4336,3 @@ Thanks a lot.
 
 00:53:57.508 --> 00:53:59.508 A:middle
 [ Applause ]
-

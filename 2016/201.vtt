@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:19.500 A:middle
 [ Music ]
@@ -38,14 +37,6 @@ about internationalization.
 
 00:00:56.496 --> 00:00:58.816 A:middle
 So as you might know,
-
-00:00:59.526 --> 00:01:03.576 A:middle
-Apple ships its products
-all over the world.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.526 --> 00:01:03.576 A:middle
 Apple ships its products
@@ -114,13 +105,6 @@ of internationalization.
 00:01:53.816 --> 00:01:57.016 A:middle
 Some fundamentals about getting
 started with localization
-
-00:01:57.936 --> 00:02:00.866 A:middle
-and internationalizing your app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:57.936 --> 00:02:00.866 A:middle
 and internationalizing your app.
@@ -194,14 +178,6 @@ having to switch the globe key
 and you'll get autocorrections
 and predictions
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:59.056 --> 00:03:01.806 A:middle
-and you'll get autocorrections
-and predictions
-
 00:03:01.806 --> 00:03:02.926 A:middle
 for both those languages.
 
@@ -264,13 +240,6 @@ depth about this here,
 00:03:55.906 --> 00:03:59.356 A:middle
 but there's a whole session
 dedicated to this on Friday.
-
-00:03:59.356 --> 00:04:00.946 A:middle
-So please check that out.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:59.356 --> 00:04:00.946 A:middle
 So please check that out.
@@ -341,10 +310,6 @@ right-to-left support
 00:04:57.476 --> 00:04:59.726 A:middle
 for languages like
 Arabic and Hebrew.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:00.036 --> 00:05:01.646 A:middle
 And macOS has been redesigned
@@ -426,14 +391,6 @@ or tab or view that has a string
 in it, you need to make
 sure that it's translated
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.576 --> 00:06:01.646 A:middle
-in it, you need to make
-sure that it's translated
-
 00:06:01.646 --> 00:06:03.656 A:middle
 into all the different languages
 you're going to be supporting.
@@ -509,14 +466,6 @@ flowing from right-to-left.
 And in this case, see how
 Arabic is using the Arabic-Indic
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:55.756 --> 00:07:00.526 A:middle
-And in this case, see how
-Arabic is using the Arabic-Indic
-
 00:07:00.526 --> 00:07:02.996 A:middle
 numbers which are different
 from those used in English.
@@ -587,14 +536,6 @@ United States actually inherits
 
 00:07:56.916 --> 00:07:58.296 A:middle
 from Latin American Spanish
-
-00:07:58.296 --> 00:08:00.106 A:middle
-which then inherits
-from base Spanish.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:58.296 --> 00:08:00.106 A:middle
 which then inherits
@@ -678,14 +619,6 @@ problem, and you don't need
 
 00:08:57.196 --> 00:08:58.346 A:middle
 to know anything about this.
-
-00:08:58.786 --> 00:09:00.116 A:middle
-So I'm going to show
-you how to do
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.786 --> 00:09:00.116 A:middle
 So I'm going to show
@@ -778,14 +711,6 @@ important to provide a comment
 to your translator because
 oftentimes words are
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.156 --> 00:10:00.616 A:middle
-to your translator because
-oftentimes words are
-
 00:10:00.616 --> 00:10:03.716 A:middle
 distinguished by which
 context they're in
@@ -868,14 +793,6 @@ set that you have.
 And again, it will match
 you to the right language.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.106 --> 00:11:00.156 A:middle
-And again, it will match
-you to the right language.
-
 00:11:01.716 --> 00:11:06.656 A:middle
 So I mentioned this Bundle's
 language matching logic multiple
@@ -948,14 +865,6 @@ implementing in your apps.
 00:11:55.136 --> 00:11:57.086 A:middle
 And definitely if you have
 code that does something
-
-00:11:57.086 --> 00:12:00.676 A:middle
-like take the language
-identifier and split it
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.086 --> 00:12:00.676 A:middle
 like take the language
@@ -1039,13 +948,6 @@ it puts the a.m.
 00:12:59.646 --> 00:13:01.196 A:middle
 /p.m. marker after the numbers,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.646 --> 00:13:01.196 A:middle
-/p.m. marker after the numbers,
-
 00:13:01.196 --> 00:13:02.996 A:middle
 which is completely
 wrong for Chinese.
@@ -1118,14 +1020,6 @@ are more styles.
 00:13:55.846 --> 00:13:58.406 A:middle
 So we have the short style
 that I just showed you.
-
-00:13:58.746 --> 00:14:00.996 A:middle
-You can also get a
-slightly longer style,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.746 --> 00:14:00.996 A:middle
 You can also get a
@@ -1211,13 +1105,6 @@ new this year, date components,
 00:14:57.226 --> 00:15:00.106 A:middle
 which will let you format, say,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.226 --> 00:15:00.106 A:middle
-which will let you format, say,
-
 00:15:00.326 --> 00:15:02.486 A:middle
 a duration like 4
 hours and 25 minutes.
@@ -1277,14 +1164,6 @@ It's actually really simple.
 00:15:56.076 --> 00:15:58.986 A:middle
 You create a
 PersonNameComponents object.
-
-00:15:59.116 --> 00:16:01.906 A:middle
-Fill it with some name
-components, and then just
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.116 --> 00:16:01.906 A:middle
 Fill it with some name
@@ -1359,19 +1238,11 @@ opposite order,
 it knows that in John Appleseed,
 John is much more likely
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.946 --> 00:17:01.666 A:middle
-it knows that in John Appleseed,
-John is much more likely
-
-00:17:01.666 --> 00:17:04.695 A:middle
+00:17:01.666 --> 00:17:04.696 A:middle
 to be the given name and
 Appleseed the family name.
 
-00:17:04.695 --> 00:17:06.266 A:middle
+00:17:04.696 --> 00:17:06.266 A:middle
 And it's still going
 to parse it correctly.
 
@@ -1379,7 +1250,7 @@ to parse it correctly.
 And of course, it supports
 multiple languages as well.
 
-00:17:14.175 --> 00:17:16.616 A:middle
+00:17:14.176 --> 00:17:16.616 A:middle
 So there are a lot
 of formatters.
 
@@ -1390,10 +1261,10 @@ I talked about Date
 and
 PersonNameComponentsFormatters
 
-00:17:23.786 --> 00:17:24.425 A:middle
+00:17:23.786 --> 00:17:24.426 A:middle
 in detail.
 
-00:17:25.195 --> 00:17:29.626 A:middle
+00:17:25.196 --> 00:17:29.626 A:middle
 The components and interval
 formatters for dates, briefly.
 
@@ -1427,14 +1298,6 @@ localized strings.
 00:17:53.136 --> 00:17:54.726 A:middle
 Which you shouldn't be
 using for these cases.
-
-00:17:56.216 --> 00:18:02.396 A:middle
-So that's all about at this
-point your whole UI is localized
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.216 --> 00:18:02.396 A:middle
 So that's all about at this
@@ -1501,14 +1364,6 @@ you should use UIStackView
 00:18:53.166 --> 00:18:58.706 A:middle
 and NSStackView as much as you
 can because these are very easy
-
-00:18:58.706 --> 00:19:01.466 A:middle
-to use APIs that leverage
-Auto Layout and make sure
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:58.706 --> 00:19:01.466 A:middle
 to use APIs that leverage
@@ -1584,14 +1439,6 @@ UI elements are things
 that you should keep in mind for
 your apps before you ask a --
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:58.106 --> 00:20:02.596 A:middle
-that you should keep in mind for
-your apps before you ask a --
-
 00:20:03.066 --> 00:20:07.726 A:middle
 you ask a translator to
 shorten a string to the point
@@ -1644,14 +1491,6 @@ the text often on both side
 00:20:52.786 --> 00:20:59.156 A:middle
 and besides being very ugly and,
 you know, just looking terrible
-
-00:20:59.156 --> 00:21:04.336 A:middle
-in that language, you often lose
-important semantic information
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.156 --> 00:21:04.336 A:middle
 in that language, you often lose
@@ -1712,14 +1551,6 @@ vertical space as English?
 
 00:21:52.506 --> 00:21:55.126 A:middle
 It looks really cramped.
-
-00:21:55.126 --> 00:22:00.546 A:middle
-And any Hindi reader will tell
-you this is really hard to read,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:55.126 --> 00:22:00.546 A:middle
 And any Hindi reader will tell
@@ -1790,14 +1621,6 @@ do something really neat,
 which is that if you have a
 language with a taller script,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.966 --> 00:23:01.716 A:middle
-which is that if you have a
-language with a taller script,
-
 00:23:02.076 --> 00:23:07.536 A:middle
 we will actually make the table
 row height larger than it is
@@ -1862,14 +1685,6 @@ implementing a completely
 
 00:23:51.976 --> 00:23:53.346 A:middle
 custom UITableViewCell.
-
-00:23:56.876 --> 00:24:01.326 A:middle
-So that's mostly what I have
-in terms of small code fixes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:56.876 --> 00:24:01.326 A:middle
 So that's mostly what I have
@@ -1949,14 +1764,6 @@ So photos has a great icon here.
 00:24:53.346 --> 00:24:58.036 A:middle
 This is a great example of an
 icon that doesn't have any words
-
-00:24:58.036 --> 00:25:02.056 A:middle
-or numbers that would tie
-it to a specific language.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:58.036 --> 00:25:02.056 A:middle
 or numbers that would tie
@@ -2044,13 +1851,6 @@ Interfaces session on Friday.
 00:25:58.466 --> 00:26:03.056 A:middle
 But the key is asset catalogues.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:58.466 --> 00:26:03.056 A:middle
-But the key is asset catalogues.
-
 00:26:03.876 --> 00:26:06.866 A:middle
 Another thing that you might
 or might not have thought
@@ -2113,10 +1913,6 @@ how it relates to the content
 
 00:26:58.786 --> 00:26:59.776 A:middle
 that the user will type.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:00.256 --> 00:27:04.766 A:middle
 For example, a very common theme
@@ -2188,10 +1984,6 @@ So that's great.
 
 00:27:58.036 --> 00:27:59.976 A:middle
 However, they have also gone
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.176 --> 00:28:03.496 A:middle
 and localized their
@@ -2270,14 +2062,6 @@ about surprise and delight.
 What you can do to go above and
 beyond to make a great product
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.296 --> 00:29:03.166 A:middle
-What you can do to go above and
-beyond to make a great product
-
 00:29:03.166 --> 00:29:07.396 A:middle
 for people in the --
 using a specific language
@@ -2341,14 +2125,6 @@ iOS does and iOS and OS X do
 because this is going to
 deliver a much richer experience
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.006 --> 00:30:02.856 A:middle
-because this is going to
-deliver a much richer experience
-
 00:30:03.006 --> 00:30:04.006 A:middle
 for those users.
 
@@ -2402,14 +2178,6 @@ iconography for your app,
 00:30:54.416 --> 00:30:56.826 A:middle
 make sure that it is
 a world-ready design
-
-00:30:56.826 --> 00:31:03.446 A:middle
-and doesn't tailor to a
-specific language too much.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:56.826 --> 00:31:03.446 A:middle
 and doesn't tailor to a
@@ -2475,10 +2243,6 @@ and for users
 00:31:56.476 --> 00:31:59.266 A:middle
 that need accessibility support.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.306 --> 00:32:00.786 A:middle
 And that's all.
 
@@ -2487,4 +2251,3 @@ Thank you very much.
 
 00:32:03.516 --> 00:32:06.500 A:middle
 [ Applause ]
-

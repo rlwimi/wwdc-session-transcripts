@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.676 --> 00:00:19.000 A:middle
 [ Music ]
@@ -17,7 +16,7 @@ Good afternoon, everyone.
 Welcome, and thank you for
 coming to this session.
 
-00:00:29.026 --> 00:00:32.735 A:middle
+00:00:29.026 --> 00:00:32.736 A:middle
 My name is Ryan Griggs, and I
 work on the Apple News team,
 
@@ -56,14 +55,6 @@ and what it's all about.
 00:00:55.836 --> 00:00:58.446 A:middle
 We'll also take a quick look
 at the app to get some context
-
-00:00:58.446 --> 00:01:01.276 A:middle
-as far as where your,
-your content
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.446 --> 00:01:01.276 A:middle
 as far as where your,
@@ -147,14 +138,6 @@ from the best publishers,
 and then personalizing
 it for you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.226 --> 00:02:00.846 A:middle
-and then personalizing
-it for you.
-
 00:02:02.426 --> 00:02:06.596 A:middle
 And so News is built right into
 iOS, which means it's available
@@ -231,14 +214,6 @@ swipe through them.
 00:02:57.526 --> 00:02:59.926 A:middle
 It's really great,
 immersive, and beautiful.
-
-00:02:59.976 --> 00:03:02.866 A:middle
-And you'll also notice, too,
-that as we scroll, this is,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.976 --> 00:03:02.866 A:middle
 And you'll also notice, too,
@@ -329,10 +304,6 @@ your content shows up.
 So News is organized
 into five separate tabs.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.746 --> 00:04:02.206 A:middle
 So first we have For You.
 
@@ -415,14 +386,6 @@ different publishers all
 
 00:04:58.126 --> 00:04:59.286 A:middle
 around a specific topic.
-
-00:04:59.286 --> 00:05:01.546 A:middle
-So you can follow
-things like sports
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.286 --> 00:05:01.546 A:middle
 So you can follow
@@ -519,14 +482,6 @@ return to to engage more deeply
 and directly specifically
 with your brand.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.556 --> 00:06:01.806 A:middle
-and directly specifically
-with your brand.
-
 00:06:03.236 --> 00:06:06.046 A:middle
 So a good example for, of
 a channel would be, like,
@@ -601,13 +556,6 @@ set up and configure options
 00:06:57.706 --> 00:06:59.606 A:middle
 for your channels to
 make sure it looks like
-
-00:06:59.606 --> 00:07:00.776 A:middle
-and works like you want it to.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.606 --> 00:07:00.776 A:middle
 and works like you want it to.
@@ -703,10 +651,6 @@ format articles.
 And so we want to be able to
 use that to get a hold of you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.096 --> 00:08:02.706 A:middle
 And also think about
 international distribution.
@@ -751,26 +695,26 @@ requires an Apple ID.
 If you don't have one already,
 then you'll be prompted
 
-00:08:30.306 --> 00:08:32.775 A:middle
+00:08:30.306 --> 00:08:32.776 A:middle
 to set one up, although I
 suspect most people here
 
-00:08:32.775 --> 00:08:33.216 A:middle
+00:08:32.776 --> 00:08:33.216 A:middle
 have one.
 
-00:08:33.716 --> 00:08:36.025 A:middle
+00:08:33.716 --> 00:08:36.026 A:middle
 And then once you've signed
 up to publish in Apple News,
 
-00:08:36.356 --> 00:08:39.525 A:middle
+00:08:36.356 --> 00:08:39.526 A:middle
 the News Publisher icon
 will show up in iCloud next
 
-00:08:39.525 --> 00:08:41.856 A:middle
+00:08:39.526 --> 00:08:41.856 A:middle
 to your other icons so you can
 get back to it really quickly.
 
-00:08:42.525 --> 00:08:44.706 A:middle
+00:08:42.526 --> 00:08:44.706 A:middle
 It's one of the great things
 about using Apple ID is
 
@@ -795,14 +739,6 @@ Publisher looks like.
 00:08:55.546 --> 00:08:58.636 A:middle
 We're not going to dive into
 it just yet, but we're going
-
-00:08:58.636 --> 00:09:00.896 A:middle
-to start up by talking about
-a few of the things you need
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.636 --> 00:09:00.896 A:middle
 to start up by talking about
@@ -888,14 +824,6 @@ the default.
 00:09:56.646 --> 00:09:59.306 A:middle
 So when users come to your
 channel or return to it,
-
-00:09:59.306 --> 00:10:00.976 A:middle
-this is what they
-will see first.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.306 --> 00:10:00.976 A:middle
 this is what they
@@ -987,14 +915,6 @@ up being really small
 in the various places
 that we use them in News,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.466 --> 00:11:00.436 A:middle
-in the various places
-that we use them in News,
-
 00:11:00.686 --> 00:11:03.526 A:middle
 and sometimes we end up just
 being a, a grey box as well
@@ -1078,14 +998,6 @@ great because the vast majority
 of our users spend time in 4U,
 and so you want to make sure
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.436 --> 00:12:01.856 A:middle
-of our users spend time in 4U,
-and so you want to make sure
-
 00:12:01.856 --> 00:12:04.236 A:middle
 that your logo looks great
 and is highly legible here.
@@ -1159,14 +1071,6 @@ and we have recommendations come
 00:12:54.956 --> 00:12:57.106 A:middle
 in the For You feed
 occasionally.
-
-00:12:57.296 --> 00:13:01.366 A:middle
-So it's a really important way
-to drive users to sign up for,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:57.296 --> 00:13:01.366 A:middle
 So it's a really important way
@@ -1248,13 +1152,6 @@ or whether to use RSS.
 00:13:54.376 --> 00:13:56.586 A:middle
 So we're going to talk
 about each of these.
-
-00:13:57.786 --> 00:14:00.236 A:middle
-Let's briefly talk about RSS.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.786 --> 00:14:00.236 A:middle
 Let's briefly talk about RSS.
@@ -1345,14 +1242,6 @@ that it pulls from your feed.
 And so this allows
 those to, those previews
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.016 --> 00:15:02.816 A:middle
-And so this allows
-those to, those previews
-
 00:15:02.816 --> 00:15:04.796 A:middle
 to load really quickly
 so we don't have
@@ -1427,14 +1316,6 @@ experience and takes away
 00:15:55.066 --> 00:15:57.666 A:middle
 from the simplicity and
 the beauty of your article.
-
-00:15:58.446 --> 00:16:01.526 A:middle
-And then Apple News
-already has built
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.446 --> 00:16:01.526 A:middle
 And then Apple News
@@ -1528,14 +1409,6 @@ then there's a field to set
 up your RSS feed, you can have
 multiple RSS feeds for sections,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.806 --> 00:17:01.036 A:middle
-up your RSS feed, you can have
-multiple RSS feeds for sections,
-
 00:17:01.186 --> 00:17:02.406 A:middle
 per section if you like.
 
@@ -1543,7 +1416,7 @@ per section if you like.
 And so this is what it looks
 like once you have it populated.
 
-00:17:05.126 --> 00:17:08.715 A:middle
+00:17:05.126 --> 00:17:08.716 A:middle
 You can reorder them, and change
 them later if you like as well.
 
@@ -1551,18 +1424,18 @@ them later if you like as well.
 And so once you're up and
 running and approved to go
 
-00:17:13.086 --> 00:17:17.935 A:middle
+00:17:13.086 --> 00:17:17.936 A:middle
 in Apple News, this is what your
 News Publisher interface will
 
-00:17:17.935 --> 00:17:18.465 A:middle
+00:17:17.936 --> 00:17:18.466 A:middle
 look like.
 
-00:17:18.746 --> 00:17:20.915 A:middle
+00:17:18.746 --> 00:17:20.916 A:middle
 You'll see we have a couple
 tabs there where you can return
 
-00:17:20.915 --> 00:17:24.386 A:middle
+00:17:20.916 --> 00:17:24.386 A:middle
 and manage your sections,
 manage your channel info, etc.
 
@@ -1615,10 +1488,6 @@ doesn't load.
 
 00:17:58.056 --> 00:17:59.846 A:middle
 We also supply rich analytics,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.836 --> 00:18:03.786 A:middle
 and we also automatically
@@ -1699,14 +1568,6 @@ text sizing.
 If you have that set in iOS
 for improved legibility,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.026 --> 00:19:02.806 A:middle
-If you have that set in iOS
-for improved legibility,
-
 00:19:03.346 --> 00:19:05.506 A:middle
 and then we're also
 very accessible.
@@ -1782,14 +1643,6 @@ through a pending state.
 00:19:55.086 --> 00:19:56.846 A:middle
 And then once you're
 ready to go,
-
-00:19:57.826 --> 00:20:01.326 A:middle
-you'll see at the top
-available in News status,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.826 --> 00:20:01.326 A:middle
 you'll see at the top
@@ -1886,13 +1739,6 @@ view articles or just viewers
 00:20:57.566 --> 00:20:58.776 A:middle
 who can only view
 the content in it.
-
-00:20:59.306 --> 00:21:00.146 A:middle
-So very powerful.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.306 --> 00:21:00.146 A:middle
 So very powerful.
@@ -1994,13 +1840,6 @@ another is Apple News API,
 00:21:58.496 --> 00:22:00.626 A:middle
 and the third is plug-ins.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.496 --> 00:22:00.626 A:middle
-and the third is plug-ins.
-
 00:22:02.046 --> 00:22:03.506 A:middle
 And so, first, let's
 talk about web authoring.
@@ -2093,14 +1932,6 @@ the article below.
 So let's start off
 by making an article.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:59.946 --> 00:23:02.486 A:middle
-So let's start off
-by making an article.
-
 00:23:02.536 --> 00:23:03.956 A:middle
 So for our header
 image, we can choose
@@ -2168,14 +1999,6 @@ rich and engaging.
 00:23:57.156 --> 00:23:59.146 A:middle
 So it's really easy to
 add a link, for example,
-
-00:23:59.146 --> 00:24:01.486 A:middle
-if we can just, let's
-go grab our link here,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.146 --> 00:24:01.486 A:middle
 if we can just, let's
@@ -2268,14 +2091,6 @@ with the colors a bit.
 You can go with a darker
 format if you'd like,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.386 --> 00:25:02.026 A:middle
-You can go with a darker
-format if you'd like,
-
 00:25:02.856 --> 00:25:06.006 A:middle
 or you can try different
 colors, but let's go with a blue
@@ -2346,14 +2161,6 @@ it's really easy to publish,
 00:25:53.496 --> 00:25:56.486 A:middle
 and this is what the articles
 will look like on your devices.
-
-00:25:56.946 --> 00:26:00.116 A:middle
-Beautiful, formatted
-perfectly for iPhone
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:56.946 --> 00:26:00.116 A:middle
 Beautiful, formatted
@@ -2457,13 +2264,6 @@ list, create, update, search,
 00:26:59.176 --> 00:27:01.436 A:middle
 and also offers plug in support.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.176 --> 00:27:01.436 A:middle
-and also offers plug in support.
-
 00:27:01.436 --> 00:27:04.266 A:middle
 So if you want to
 know more about this,
@@ -2551,14 +2351,6 @@ and very integrated.
 We also support publishing
 directly from Drupal,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:57.906 --> 00:28:00.806 A:middle
-We also support publishing
-directly from Drupal,
-
 00:28:00.806 --> 00:28:03.326 A:middle
 which is a content
 management software system
@@ -2631,14 +2423,6 @@ have them on board.
 00:28:54.276 --> 00:28:57.646 A:middle
 So integrations of these four
 platforms make it really easy
-
-00:28:57.646 --> 00:29:00.686 A:middle
-to publish into Apple News using
-the tools you already use every
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.646 --> 00:29:00.686 A:middle
 to publish into Apple News using
@@ -2724,14 +2508,6 @@ in News today.
 So we've got standard, we've got
 double, we have large ad format,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.726 --> 00:30:04.676 A:middle
-So we've got standard, we've got
-double, we have large ad format,
-
 00:30:06.156 --> 00:30:08.976 A:middle
 mrects in articles,
 interstitial.
@@ -2809,10 +2585,6 @@ if you can.
 00:30:57.596 --> 00:30:59.746 A:middle
 That's the best way to
 make money in News today.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:01.346 --> 00:31:03.906 A:middle
 Also, we also give
@@ -2898,10 +2670,6 @@ and intuitive tool.
 00:31:57.606 --> 00:31:59.536 A:middle
 Next, analytics and insight.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:00.106 --> 00:32:03.576 A:middle
 So we offer powerful
 analytics tools in News.
@@ -2982,14 +2750,6 @@ articles in a given channel,
 00:32:54.006 --> 00:32:56.166 A:middle
 which you can sort
 by several vectors.
-
-00:32:57.806 --> 00:33:01.776 A:middle
-And here's a chart for,
-for a specific article,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:57.806 --> 00:33:01.776 A:middle
 And here's a chart for,
@@ -3077,14 +2837,6 @@ that is in a minute, too.
 And, in addition, we have a link
 at the end of the presentation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.856 --> 00:34:02.466 A:middle
-And, in addition, we have a link
-at the end of the presentation
-
 00:34:02.466 --> 00:34:04.356 A:middle
 to our Marketing
 Guidelines page.
@@ -3109,11 +2861,11 @@ get the link to your channel,
 you just go into News Publisher
 under the channel info tab,
 
-00:34:18.426 --> 00:34:20.085 A:middle
+00:34:18.426 --> 00:34:20.086 A:middle
 see that there's a
 shared link link.
 
-00:34:20.315 --> 00:34:22.886 A:middle
+00:34:20.316 --> 00:34:22.886 A:middle
 So you click on that, and
 it brings up a dialogue
 
@@ -3121,19 +2873,19 @@ it brings up a dialogue
 where you can just
 copy your link
 
-00:34:24.266 --> 00:34:25.485 A:middle
+00:34:24.266 --> 00:34:25.486 A:middle
 and then share it
 with the world.
 
-00:34:27.126 --> 00:34:30.335 A:middle
+00:34:27.126 --> 00:34:30.336 A:middle
 So we also have a
 promoted articles features,
 
-00:34:30.916 --> 00:34:33.025 A:middle
+00:34:30.916 --> 00:34:33.026 A:middle
 and so what this does is
 when you promote an article,
 
-00:34:33.025 --> 00:34:35.896 A:middle
+00:34:33.026 --> 00:34:35.896 A:middle
 it will ensure that every user
 sees that article at the top
 
@@ -3145,11 +2897,11 @@ they visit it.
 And then when they come back,
 that article will start to move
 
-00:34:40.326 --> 00:34:43.045 A:middle
+00:34:40.326 --> 00:34:43.046 A:middle
 down as you deliver more
 articles, but it will ensure
 
-00:34:43.045 --> 00:34:45.795 A:middle
+00:34:43.046 --> 00:34:45.796 A:middle
 that everyone sees it at the top
 of your channel at least once.
 
@@ -3157,7 +2909,7 @@ of your channel at least once.
 And it also, make sure it
 appears in the more from section
 
-00:34:50.076 --> 00:34:52.565 A:middle
+00:34:50.076 --> 00:34:52.566 A:middle
 at the bottom of articles
 that you delivered.
 
@@ -3167,14 +2919,6 @@ three articles per section.
 
 00:34:57.746 --> 00:34:58.976 A:middle
 It's really easy to promote.
-
-00:34:58.976 --> 00:35:03.756 A:middle
-You just click on the little
-star next to an article,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.976 --> 00:35:03.756 A:middle
 You just click on the little
@@ -3251,14 +2995,6 @@ to your original web page.
 
 00:35:56.676 --> 00:35:57.876 A:middle
 So it's a great way to make sure
-
-00:35:57.876 --> 00:36:00.546 A:middle
-that users can read your
-articles no matter what platform
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:57.876 --> 00:36:00.546 A:middle
 that users can read your
@@ -3352,14 +3088,6 @@ and be creative.
 There are so many interesting
 cool tools you can use.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.676 --> 00:37:02.546 A:middle
-There are so many interesting
-cool tools you can use.
-
 00:37:02.796 --> 00:37:05.156 A:middle
 Dig around in the documentation,
 and see what else you can do.
@@ -3445,10 +3173,6 @@ have otherwise found.
 So a few places we do
 this are in top stories,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:38:00.516 --> 00:38:03.826 A:middle
 in our new Featured
 Story section in iOS 10,
@@ -3519,14 +3243,6 @@ News Format articles.
 So I can't recommend this
 session highly enough.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:59.516 --> 00:39:01.996 A:middle
-So I can't recommend this
-session highly enough.
-
 00:39:02.056 --> 00:39:05.026 A:middle
 Casey and Dan will help
 you make standout stories
@@ -3548,4 +3264,3 @@ having a great time at WWDC.
 
 00:39:13.516 --> 00:39:16.000 A:middle
 [ Applause ]
-

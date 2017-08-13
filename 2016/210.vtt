@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:20.516 A:middle
 [ Music ]
@@ -65,14 +64,6 @@ a little bit differently
 
 00:00:58.986 --> 00:00:59.686 A:middle
 than scrolling on iOS.
-
-00:00:59.686 --> 00:01:01.546 A:middle
-And we'll show you how
-you really take control
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:59.686 --> 00:01:01.546 A:middle
 And we'll show you how
@@ -171,14 +162,6 @@ designing the interaction model
 for your application,
 keep in mind
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.386 --> 00:02:00.746 A:middle
-for your application,
-keep in mind
-
 00:02:00.746 --> 00:02:03.446 A:middle
 that not every input device can
 generate every kind of event.
@@ -194,7 +177,7 @@ to navigate to your application.
 And game controllers can't
 generate touch events.
 
-00:02:10.145 --> 00:02:12.776 A:middle
+00:02:10.146 --> 00:02:12.776 A:middle
 So you might not want to use
 touch events as the only way
 
@@ -272,14 +255,6 @@ their remote.
 00:02:55.286 --> 00:02:58.356 A:middle
 And so we bucket these into
 two different categories.
-
-00:02:58.356 --> 00:03:00.346 A:middle
-We say the ones on iOS
-are direct touches,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.356 --> 00:03:00.346 A:middle
 We say the ones on iOS
@@ -389,14 +364,6 @@ or anything like that.
 We'd really rather
 that applications stick
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.166 --> 00:04:01.186 A:middle
-We'd really rather
-that applications stick
-
 00:04:01.186 --> 00:04:05.386 A:middle
 to the focus interaction
 model that we have created.
@@ -496,13 +463,6 @@ have to implement it.
 00:04:57.696 --> 00:04:59.706 A:middle
 There's one thing to
 know about these methods,
-
-00:04:59.846 --> 00:05:01.306 A:middle
-which is that press events
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.846 --> 00:05:01.306 A:middle
 which is that press events
@@ -615,13 +575,6 @@ we use the A button
 00:05:58.646 --> 00:06:01.636 A:middle
 to generate this press type.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.646 --> 00:06:01.636 A:middle
-to generate this press type.
-
 00:06:01.856 --> 00:06:03.306 A:middle
 Another really common
 press type you'll encounter
@@ -725,14 +678,6 @@ that can be generated.
 00:06:56.216 --> 00:06:59.766 A:middle
 On the Apple remote we use
 the four directional buttons.
-
-00:06:59.766 --> 00:07:02.506 A:middle
-On game controllers there is
-lots of ways to get these.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.766 --> 00:07:02.506 A:middle
 On game controllers there is
@@ -846,10 +791,6 @@ of taps required.
 So now I am listening for a
 double tap on the Select button.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:01.766 --> 00:08:04.466 A:middle
 Okay, let's talk about
 one button in particular,
@@ -903,7 +844,7 @@ if that's not possible.
 And we can think that
 this is so important,
 
-00:08:29.966 --> 00:08:32.635 A:middle
+00:08:29.966 --> 00:08:32.636 A:middle
 that this is something that App
 Review looks for specifically.
 
@@ -915,11 +856,11 @@ can't be exited
 by pressing the Menu button,
 you might fail App Review.
 
-00:08:36.866 --> 00:08:39.535 A:middle
+00:08:36.866 --> 00:08:39.536 A:middle
 And we don't want
 that to happen.
 
-00:08:39.535 --> 00:08:41.826 A:middle
+00:08:39.536 --> 00:08:41.826 A:middle
 So how does this work?
 
 00:08:41.826 --> 00:08:44.636 A:middle
@@ -949,14 +890,6 @@ needs to go all the way
 00:08:56.896 --> 00:08:59.186 A:middle
 up the responder chain if you
 are received by UIApplication.
-
-00:08:59.396 --> 00:09:01.726 A:middle
-If that doesn't happen, your
-application won't resign.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.396 --> 00:09:01.726 A:middle
 If that doesn't happen, your
@@ -1077,14 +1010,6 @@ gestureRecognizerShouldBegin.
 And you can implement this,
 and then for every press
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.086 --> 00:10:01.226 A:middle
-And you can implement this,
-and then for every press
-
 00:10:01.226 --> 00:10:02.756 A:middle
 of the Menu button you
 get the opportunity
@@ -1196,14 +1121,6 @@ InteractionEnabled
 to false during your game
 play, then pressing, say,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:56.736 --> 00:11:00.746 A:middle
-to false during your game
-play, then pressing, say,
-
 00:11:00.746 --> 00:11:03.186 A:middle
 the Menu button won't
 instantly exit your application.
@@ -1297,10 +1214,6 @@ received and helps them
 00:11:57.106 --> 00:11:59.356 A:middle
 to anticipate focus
 movement before it happens.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:00.746 --> 00:12:02.076 A:middle
 And they're animated.
@@ -1414,14 +1327,6 @@ have a pressed-in state.
 And so this is slightly
 different
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.746 --> 00:13:00.906 A:middle
-And so this is slightly
-different
-
 00:13:00.906 --> 00:13:02.646 A:middle
 than the normal default state,
 
@@ -1522,14 +1427,6 @@ underneath of a movie poster.
 00:13:56.186 --> 00:13:58.796 A:middle
 And you can constrain
 those using Auto Layouts.
-
-00:13:58.796 --> 00:14:00.656 A:middle
-So, you know, if I have
-this ImageView here,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.796 --> 00:14:00.656 A:middle
 So, you know, if I have
@@ -1638,14 +1535,6 @@ is currently focused.
 And if you do that you should
 really use the coordination API
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:57.846 --> 00:15:00.626 A:middle
-And if you do that you should
-really use the coordination API
-
 00:15:00.626 --> 00:15:03.366 A:middle
 that we expose on the focus
 update context to make sure
@@ -1738,10 +1627,6 @@ ViewController subclass here.
 And we are going to
 drag out a button --
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:03.146 --> 00:16:09.286 A:middle
 into the canvas and inspect
 it to give it an image.
@@ -1800,14 +1685,6 @@ and see how it behaves.
 Now I am using the
 tvOS simulator here,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.926 --> 00:17:00.296 A:middle
-Now I am using the
-tvOS simulator here,
-
 00:17:00.296 --> 00:17:02.186 A:middle
 but I have paired a
 Siri remote with Mac
@@ -1823,7 +1700,7 @@ is going to work.
 And my finger is pressing
 down on the Select button,
 
-00:17:11.695 --> 00:17:13.996 A:middle
+00:17:11.696 --> 00:17:13.996 A:middle
 but it's just doing this
 darkening effect and sort
 
@@ -1835,17 +1712,17 @@ of smooshing in.
 And when I move my
 finger on the digitizer,
 
-00:17:17.796 --> 00:17:19.195 A:middle
+00:17:17.796 --> 00:17:19.196 A:middle
 it doesn't react to my touch.
 
-00:17:19.695 --> 00:17:20.556 A:middle
+00:17:19.696 --> 00:17:20.556 A:middle
 So let's make that better.
 
 00:17:22.326 --> 00:17:26.486 A:middle
 To do that, I am going to
 open up the Assistant Editor
 
-00:17:26.695 --> 00:17:30.766 A:middle
+00:17:26.696 --> 00:17:30.766 A:middle
 for our ViewController
 subclass and drag
 
@@ -1866,14 +1743,6 @@ property that Justin told us
 00:17:49.496 --> 00:17:53.596 A:middle
 about adjustsImage
 WhenAncestorFocused.
-
-00:17:56.156 --> 00:18:00.236 A:middle
-And now if I build and
-run, you should see
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.156 --> 00:18:00.236 A:middle
 And now if I build and
@@ -1958,14 +1827,6 @@ want a cell width of 250 points.
 And I know, based on my designs,
 I'll need 450 points vertically
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.546 --> 00:19:02.176 A:middle
-And I know, based on my designs,
-I'll need 450 points vertically
-
 00:19:02.326 --> 00:19:03.736 A:middle
 for the content of the cells.
 
@@ -2028,13 +1889,6 @@ to lay out these views.
 00:19:55.876 --> 00:19:59.396 A:middle
 We want the ImageView to hug
 the top left and right edges.
-
-00:19:59.966 --> 00:20:01.356 A:middle
-And we happen to know that all
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.966 --> 00:20:01.356 A:middle
 And we happen to know that all
@@ -2105,14 +1959,6 @@ the ImageView on our poster.
 00:20:55.986 --> 00:20:57.926 A:middle
 So we'll just hook
 those up and the label.
-
-00:20:57.926 --> 00:21:02.376 A:middle
-Now we'll take a quick look at
-our CollectionViewController.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:57.926 --> 00:21:02.376 A:middle
 Now we'll take a quick look at
@@ -2190,14 +2036,6 @@ overlapping on the bottom.
 They are not responding to
 the change in the focus size.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.766 --> 00:22:03.006 A:middle
-They are not responding to
-the change in the focus size.
-
 00:22:03.006 --> 00:22:06.186 A:middle
 So to do something about
 that, we are going to open
@@ -2237,10 +2075,6 @@ up in awakeFromNib
 
 00:22:48.036 --> 00:22:50.596 A:middle
 to be the labels.topAnchor
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.356 --> 00:23:06.686 A:middle
 relative to the imageView's
@@ -2283,10 +2117,6 @@ addCoordinatedAnimations.
 00:23:49.986 --> 00:23:54.636 A:middle
 And inside there, we'll
 call layoutIfNeeded.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:02.046 --> 00:24:04.946 A:middle
 And that'll be enough that
@@ -2358,14 +2188,6 @@ gears a little bit now
 
 00:24:55.456 --> 00:24:56.756 A:middle
 and talk about scrolling.
-
-00:24:57.296 --> 00:25:00.766 A:middle
-So scrolling on tvOS is a bit
-different than scrolling on iOS.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.296 --> 00:25:00.766 A:middle
 So scrolling on tvOS is a bit
@@ -2481,14 +2303,6 @@ targetContentOffset.
 And the final parameter there,
 the targetContentOffset,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.556 --> 00:26:02.046 A:middle
-And the final parameter there,
-the targetContentOffset,
-
 00:26:02.046 --> 00:26:03.786 A:middle
 is a pointer to a CGPoint.
 
@@ -2592,14 +2406,6 @@ PageViewController.
 00:26:56.126 --> 00:26:58.916 A:middle
 There are other cases where you
 have a lot of scrolling text.
-
-00:26:58.916 --> 00:27:00.146 A:middle
-So it's another good
-place where you might want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:58.916 --> 00:27:00.146 A:middle
 So it's another good
@@ -2718,13 +2524,6 @@ indirect touches.
 00:27:58.726 --> 00:28:00.076 A:middle
 And we are getting
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.726 --> 00:28:00.076 A:middle
-And we are getting
-
 00:28:00.076 --> 00:28:01.496 A:middle
 that directionalPressGesture
 Recognizer,
@@ -2816,14 +2615,6 @@ the app context.
 When I present my
 ViewController,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:57.646 --> 00:29:00.646 A:middle
-When I present my
-ViewController,
-
 00:29:00.756 --> 00:29:02.396 A:middle
 we can see along the bottom edge
 
@@ -2907,13 +2698,6 @@ and down with the Siri remote.
 00:29:59.456 --> 00:30:01.006 A:middle
 Great direct manipulation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.456 --> 00:30:01.006 A:middle
-Great direct manipulation.
-
 00:30:01.996 --> 00:30:03.356 A:middle
 The other thing any good terms
 
@@ -2982,14 +2766,6 @@ my ViewController.
 00:30:55.496 --> 00:30:57.846 A:middle
 And we are going to
 disable isSelectable.
-
-00:30:58.276 --> 00:31:00.686 A:middle
-We don't actually
-want the TextView
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.276 --> 00:31:00.686 A:middle
 We don't actually
@@ -3072,14 +2848,6 @@ easy to support on tvOS.
 Let's head back to my view
 controller, and we are going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:58.036 --> 00:32:00.526 A:middle
-Let's head back to my view
-controller, and we are going
-
 00:32:00.526 --> 00:32:02.616 A:middle
 to grab the
 directionalPressGesture
@@ -3156,10 +2924,6 @@ and conditions in your apps.
 
 00:32:56.816 --> 00:32:57.556 A:middle
 Back to Justin [applause].
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:33:00.046 --> 00:33:00.426 A:middle
 &gt;&gt; All right, let's move
@@ -3278,14 +3042,6 @@ to roll your own keyboard.
 Really stick to the
 system keyboard
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.196 --> 00:34:00.506 A:middle
-Really stick to the
-system keyboard
-
 00:34:00.506 --> 00:34:02.456 A:middle
 so that users can enjoy
 all these great features
@@ -3305,15 +3061,15 @@ system keyboard.
 And one way that you can
 customize it is to add some
 
-00:34:10.126 --> 00:34:11.585 A:middle
+00:34:10.126 --> 00:34:11.586 A:middle
 of your own views
 to the keyboard
 
-00:34:11.585 --> 00:34:12.795 A:middle
+00:34:11.586 --> 00:34:12.796 A:middle
 that will appear
 alongside of it.
 
-00:34:12.795 --> 00:34:15.686 A:middle
+00:34:12.796 --> 00:34:15.686 A:middle
 And you can use some API
 that's on UIResponder
 
@@ -3376,25 +3132,17 @@ keyboard itself be dark
 when it presents itself, but the
 text field would also be dark
 
-00:34:50.646 --> 00:34:51.815 A:middle
+00:34:50.646 --> 00:34:51.816 A:middle
 as it's sitting there
 on the screen.
 
-00:34:52.545 --> 00:34:54.896 A:middle
+00:34:52.546 --> 00:34:54.896 A:middle
 Well now in tvOS 10 we have
 this new appearance API.
 
 00:34:54.896 --> 00:34:57.596 A:middle
 And so the entire system can
 respond to light or to dark.
-
-00:34:57.876 --> 00:35:00.226 A:middle
-And so now what we
-do on tvOS 10 is
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.876 --> 00:35:00.226 A:middle
 And so now what we
@@ -3506,10 +3254,6 @@ ViewController.
 And I'll show you a code sample
 of that, just a few slides.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:00.176 --> 00:36:04.206 A:middle
 You provide your own custom view
 controller for search results.
@@ -3617,13 +3361,6 @@ system apps on tvOS.
 00:36:59.666 --> 00:37:01.176 A:middle
 And that is text input.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.666 --> 00:37:01.176 A:middle
-And that is text input.
-
 00:37:01.556 --> 00:37:03.586 A:middle
 So in summary, one of the
 things that we want you
@@ -3725,4 +3462,3 @@ Thank you.
 
 00:37:51.508 --> 00:37:53.508 A:middle
 [ Applause ]
-

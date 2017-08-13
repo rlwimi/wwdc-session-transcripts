@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:19.500 A:middle
 [ Music ]
@@ -35,10 +34,6 @@ Apple TV's first WWDC.
 
 00:00:58.476 --> 00:00:59.686 A:middle
 Yeah. Right.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.516 --> 00:01:02.546 A:middle
 [ Applause ]
@@ -105,14 +100,6 @@ multiple people can experience
 00:01:56.436 --> 00:01:59.746 A:middle
 at the same time, which
 makes the experience
-
-00:01:59.746 --> 00:02:04.356 A:middle
-at Apple TV unique from the rest
-of our devices, because most
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:59.746 --> 00:02:04.356 A:middle
 at Apple TV unique from the rest
@@ -193,10 +180,6 @@ of the TV.
 And how to design
 your app for distance.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:00.206 --> 00:03:02.636 A:middle
 And how to design your app
 to work well with the remote.
@@ -267,14 +250,6 @@ unintentional cropping.
 So, keep your apps
 main content away
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.276 --> 00:04:00.856 A:middle
-So, keep your apps
-main content away
-
 00:04:00.856 --> 00:04:02.076 A:middle
 from the edges of the screen.
 
@@ -295,7 +270,7 @@ Those are the basics.
 So, now we can talk about
 the first key factor
 
-00:04:17.696 --> 00:04:20.875 A:middle
+00:04:17.696 --> 00:04:20.876 A:middle
 that makes the TV unique and
 how it impacts your designs.
 
@@ -341,14 +316,6 @@ need to be larger
 00:04:55.286 --> 00:04:57.426 A:middle
 so they can be easily
 seen from across the room.
-
-00:04:59.686 --> 00:05:01.426 A:middle
-Now, I know it may
-feel unnatural
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.686 --> 00:05:01.426 A:middle
 Now, I know it may
@@ -427,10 +394,6 @@ available,
 and they're all highly
 customizable.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:06:00.556 --> 00:06:03.676 A:middle
 You have control over
 the layout, size,
@@ -500,14 +463,6 @@ size isn't the only thing
 00:06:54.216 --> 00:06:56.216 A:middle
 that you can do for
 text on screen.
-
-00:06:57.236 --> 00:07:00.706 A:middle
-You can also use a heavier font
-weight to increase legibility.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.236 --> 00:07:00.706 A:middle
 You can also use a heavier font
@@ -585,14 +540,6 @@ of this font.
 Both of which were designed for
 high legibility on a big screen.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.256 --> 00:08:01.826 A:middle
-Both of which were designed for
-high legibility on a big screen.
-
 00:08:02.626 --> 00:08:05.726 A:middle
 There's San Francisco text
 and San Francisco display.
@@ -631,7 +578,7 @@ great in most apps.
 But, if you need to
 use a custom font,
 
-00:08:32.056 --> 00:08:35.285 A:middle
+00:08:32.056 --> 00:08:35.286 A:middle
 make sure that it respects
 accessibility settings,
 
@@ -639,7 +586,7 @@ accessibility settings,
 and it's legible
 from a distance.
 
-00:08:38.785 --> 00:08:44.145 A:middle
+00:08:38.786 --> 00:08:44.146 A:middle
 So, for example, in Badland they
 use a custom font that fits well
 
@@ -664,10 +611,6 @@ with San Francisco,
 00:08:56.266 --> 00:08:59.916 A:middle
 because above all text on
 screen must be legible.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.556 --> 00:09:05.236 A:middle
 So, I've only touched
@@ -736,14 +679,6 @@ hierarchy, keep it simple.
 00:09:55.216 --> 00:09:58.316 A:middle
 Let people jump immediately
 into your apps experience.
-
-00:09:59.046 --> 00:10:01.726 A:middle
-Too many choices or options
-can easily overwhelm,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.046 --> 00:10:01.726 A:middle
 Too many choices or options
@@ -823,14 +758,6 @@ designing for Apple TV,
 remember on average
 there's a 10 foot distance
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:57.526 --> 00:11:00.046 A:middle
-remember on average
-there's a 10 foot distance
-
 00:11:00.046 --> 00:11:01.486 A:middle
 between you and the screen.
 
@@ -899,14 +826,6 @@ And you can ask yourself,
 00:11:55.196 --> 00:11:57.766 A:middle
 can you see everything
 clearly from 10 feet away?
-
-00:11:57.766 --> 00:12:01.576 A:middle
-And is it easy to jump
-into your apps experience.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.766 --> 00:12:01.576 A:middle
 And is it easy to jump
@@ -984,14 +903,6 @@ second key factor that you need
 to consider when
 designing for tvOS.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.426 --> 00:13:02.226 A:middle
-to consider when
-designing for tvOS.
-
 00:13:03.776 --> 00:13:07.876 A:middle
 So, as I mentioned, the rest
 of our devices, where you look
@@ -1057,14 +968,6 @@ where you can swipe.
 00:13:55.636 --> 00:13:58.466 A:middle
 And that's going to move focus
 up, down, left, and right.
-
-00:13:58.966 --> 00:14:01.176 A:middle
-And that's typically used
-for scrolling on screen.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.966 --> 00:14:01.176 A:middle
 And that's typically used
@@ -1145,14 +1048,6 @@ and use it in landscape mode.
 Siri, home, and the volume
 buttons are all reserved
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.106 --> 00:15:01.226 A:middle
-Siri, home, and the volume
-buttons are all reserved
-
 00:15:01.226 --> 00:15:01.876 A:middle
 for the system.
 
@@ -1222,14 +1117,6 @@ include a place on this menu
 
 00:15:57.776 --> 00:15:58.886 A:middle
 to exit out of the game.
-
-00:15:59.686 --> 00:16:01.606 A:middle
-So, in this case
-it's the map icon.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:59.686 --> 00:16:01.606 A:middle
 So, in this case
@@ -1309,23 +1196,15 @@ that your app allows people
 to navigate through the Apple TV
 UI in addition to play the game.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.496 --> 00:17:03.396 A:middle
-to navigate through the Apple TV
-UI in addition to play the game.
-
 00:17:04.736 --> 00:17:07.006 A:middle
 And you should always
 gracefully inform people
 
-00:17:07.006 --> 00:17:10.445 A:middle
+00:17:07.006 --> 00:17:10.446 A:middle
 if a controller is required,
 or if one is not connected,
 
-00:17:11.566 --> 00:17:16.205 A:middle
+00:17:11.566 --> 00:17:16.206 A:middle
 because your app can be
 launched at any time.
 
@@ -1344,7 +1223,7 @@ with every single Apple TV.
 And a controller is
 an optional purchase.
 
-00:17:26.915 --> 00:17:30.016 A:middle
+00:17:26.916 --> 00:17:30.016 A:middle
 So, if you go controller
 only, you could be missing
 
@@ -1381,14 +1260,6 @@ game controllers,
 00:17:55.326 --> 00:17:57.746 A:middle
 people will stay connect
 to your apps experience.
-
-00:17:59.256 --> 00:18:02.516 A:middle
-So, what do all of these
-devices control on screen?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.256 --> 00:18:02.516 A:middle
 So, what do all of these
@@ -1464,14 +1335,6 @@ navigating onscreen.
 And this helps aid
 in navigation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.216 --> 00:19:02.046 A:middle
-And this helps aid
-in navigation.
-
 00:19:04.076 --> 00:19:06.386 A:middle
 This focus model is used
 throughout the system.
@@ -1526,14 +1389,6 @@ Apple TV, you should design
 
 00:19:53.166 --> 00:19:56.976 A:middle
 with focus and parallax in mind.
-
-00:19:57.066 --> 00:20:00.306 A:middle
-You can create some pretty cool
-effects with image layering,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.066 --> 00:20:00.306 A:middle
 You can create some pretty cool
@@ -1611,10 +1466,6 @@ remote, it's most important
 that you don't break people's
 connection with what's onscreen.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:21:00.496 --> 00:21:06.816 A:middle
 So, that's designing
 for the remote on tvOS.
@@ -1682,14 +1533,6 @@ control has been adjusted
 00:21:55.766 --> 00:21:57.906 A:middle
 to some degree for
 dark appearance.
-
-00:21:58.456 --> 00:22:00.266 A:middle
-This include place
-holder images,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.456 --> 00:22:00.266 A:middle
 This include place
@@ -1763,14 +1606,6 @@ UIKit based app
 that could be made accessible
 for very little effort.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.766 --> 00:23:01.336 A:middle
-that could be made accessible
-for very little effort.
-
 00:23:01.806 --> 00:23:04.576 A:middle
 So, I encourage you to check out
 these sessions to learn more.
@@ -1834,14 +1669,6 @@ that you want to do.
 00:23:56.226 --> 00:23:58.406 A:middle
 It has a great well
 spaced layout.
-
-00:23:58.906 --> 00:24:02.546 A:middle
-It's very easy to navigate and
-find exactly what you're looking
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:58.906 --> 00:24:02.546 A:middle
 It's very easy to navigate and
@@ -1914,14 +1741,6 @@ Talks and the resources today.
 
 00:24:50.486 --> 00:24:52.906 A:middle
 So, that is Zova.
-
-00:24:53.806 --> 00:25:00.206 A:middle
-This next app that I want to
-show you is called, Reuters TV.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:53.806 --> 00:25:00.206 A:middle
 This next app that I want to
@@ -2000,14 +1819,6 @@ you're watching the news.
 If you wanted to swipe up
 to reveal that playlist,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.916 --> 00:26:02.496 A:middle
-If you wanted to swipe up
-to reveal that playlist,
-
 00:26:02.496 --> 00:26:04.746 A:middle
 you can jump to stories that
 you are more interested in.
@@ -2079,14 +1890,6 @@ completely different reason.
 So, let's just say that I
 downloaded Chameleon Run
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.006 --> 00:27:00.796 A:middle
-So, let's just say that I
-downloaded Chameleon Run
-
 00:27:00.796 --> 00:27:04.106 A:middle
 from the app store, and I've
 never launched this game before.
@@ -2145,10 +1948,6 @@ learn at the exact same time.
 
 00:27:58.426 --> 00:27:59.836 A:middle
 And that is fantastic.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:00.816 --> 00:28:02.816 A:middle
 So, let's just fast forward
@@ -2223,13 +2022,6 @@ And that's Chameleon Run.
 
 00:28:55.436 --> 00:28:57.966 A:middle
 This final app is unique.
-
-00:28:58.616 --> 00:29:00.476 A:middle
-And it is called, Late Shift.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.616 --> 00:29:00.476 A:middle
 And it is called, Late Shift.
@@ -2310,10 +2102,6 @@ to see emerging
 00:29:57.386 --> 00:29:58.856 A:middle
 in apps on the Apple TV.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:30:01.566 --> 00:30:06.676 A:middle
 So, we just took a look at
 a workout app, a news app,
@@ -2383,14 +2171,6 @@ of change for the TV.
 And the TV deserves
 your fresh prospective,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.016 --> 00:31:00.596 A:middle
-And the TV deserves
-your fresh prospective,
-
 00:31:01.676 --> 00:31:04.886 A:middle
 because you can create
 something powerful and new
@@ -2453,4 +2233,3 @@ Have a great conference.
 
 00:31:52.516 --> 00:31:56.500 A:middle
 [ Applause ]
-

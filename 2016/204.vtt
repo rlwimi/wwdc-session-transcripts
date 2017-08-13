@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:06.516 --> 00:00:18.500 A:middle
 [ Music ]
@@ -41,14 +40,6 @@ three main types of content.
 00:00:55.576 --> 00:00:58.476 A:middle
 Number one, they can
 provide interactive messages.
-
-00:00:58.926 --> 00:01:00.746 A:middle
-Interactive messages
-are a type of message
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.926 --> 00:01:00.746 A:middle
 Interactive messages
@@ -122,15 +113,7 @@ always supported, like photos,
 videos, text, links, et cetera.
 
 00:01:57.626 --> 00:02:01.106 A:middle
-Also in iOS X we will
-have a Messages App Store.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:57.626 --> 00:02:01.106 A:middle
-Also in iOS X we will
+Also in iOS 10 we will
 have a Messages App Store.
 
 00:02:01.736 --> 00:02:03.806 A:middle
@@ -213,10 +196,6 @@ with the application
 00:02:58.816 --> 00:02:59.946 A:middle
 from which the Sticker was sent.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:03:00.576 --> 00:03:02.776 A:middle
 And then I can download
 the application and use it
@@ -290,17 +269,9 @@ for your users.
 Now let's talk about
 supportive platforms.
 
-00:03:58.116 --> 00:04:00.706 A:middle
+00:03:58.116 --> 00:04:00.726 A:middle
 iMessage apps will
-only run on iOS X.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.116 --> 00:04:00.706 A:middle
-iMessage apps will
-only run on iOS X.
+only run on iOS 10.
 
 00:04:02.466 --> 00:04:05.756 A:middle
 However, the content that your
@@ -380,10 +351,6 @@ Then we're going to talk
 about creating a
 Sticker Pack application.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:05:00.206 --> 00:05:04.266 A:middle
 Next we are going to go into
 details of Sticker file formats
@@ -429,9 +396,9 @@ at 1:40 p.m. Messages framework,
 Messages framework
 is the new framework
 
-00:05:34.306 --> 00:05:36.266 A:middle
+00:05:34.306 --> 00:05:36.286 A:middle
 that we are introducing
-in iOS X.
+in iOS 10.
 
 00:05:37.056 --> 00:05:38.986 A:middle
 Messages framework
@@ -463,13 +430,6 @@ to lay out its UI.
 00:05:55.896 --> 00:05:59.496 A:middle
 Once your application has
 presented its UI your users are
-
-00:05:59.496 --> 00:06:01.206 A:middle
-ready to interact with it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:59.496 --> 00:06:01.206 A:middle
 ready to interact with it.
@@ -539,14 +499,6 @@ take a look at this WWDC talk
 00:06:50.936 --> 00:06:56.406 A:middle
 from 2014 that introduces
 extensions in iOS and OS X.
-
-00:06:58.196 --> 00:07:01.826 A:middle
-So as I just mentioned, iMessage
-apps are extensions, however,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.196 --> 00:07:01.826 A:middle
 So as I just mentioned, iMessage
@@ -640,14 +592,6 @@ and the Messages App Store.
 I would like to mention that if
 you do not provide a containing
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.766 --> 00:08:03.106 A:middle
-I would like to mention that if
-you do not provide a containing
-
 00:08:03.106 --> 00:08:05.916 A:middle
 application, you still
 have to provide an icon
@@ -690,15 +634,15 @@ Stickers inline just
 like any other iMessage
 your users already send.
 
-00:08:33.515 --> 00:08:36.626 A:middle
+00:08:33.516 --> 00:08:36.626 A:middle
 Or your users, not
 your Stickers,
 
-00:08:36.876 --> 00:08:40.155 A:middle
+00:08:36.876 --> 00:08:40.156 A:middle
 or your users can drag Stickers
 out of their applications
 
-00:08:40.326 --> 00:08:42.275 A:middle
+00:08:40.326 --> 00:08:42.276 A:middle
 and attach them to
 other Message bubbles.
 
@@ -717,14 +661,6 @@ mean to you?
 00:08:53.116 --> 00:08:55.766 A:middle
 Stickers are basically images
 that your application provides.
-
-00:08:57.256 --> 00:09:00.186 A:middle
-These images can be animated
-or they can be static.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.256 --> 00:09:00.186 A:middle
 These images can be animated
@@ -811,14 +747,6 @@ to create a new Xcode project.
 And under the Title of
 Application I'm going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.706 --> 00:10:03.986 A:middle
-And under the Title of
-Application I'm going
-
 00:10:03.986 --> 00:10:05.916 A:middle
 to select Sticker
 Pack Application.
@@ -890,10 +818,6 @@ other is the iMessage App Icon.
 
 00:10:57.826 --> 00:10:59.136 A:middle
 I click on Sticker Pack.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:00.036 --> 00:11:03.136 A:middle
 And, as you can see it says I do
@@ -971,14 +895,6 @@ New Sticker Sequence.
 00:11:54.516 --> 00:11:57.616 A:middle
 So when you create a new Sticker
 sequence Xcode expects you
-
-00:11:57.616 --> 00:12:00.446 A:middle
-to provide the individual
-frames of the Sticker
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.616 --> 00:12:00.446 A:middle
 to provide the individual
@@ -1066,14 +982,6 @@ how it looks like.
 I'm going to go here
 and test my application
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.726 --> 00:13:01.956 A:middle
-I'm going to go here
-and test my application
-
 00:13:01.956 --> 00:13:02.906 A:middle
 against the simulator.
 
@@ -1146,14 +1054,6 @@ just talking to myself so.
 00:13:54.836 --> 00:13:56.776 A:middle
 As you can see, this
 is my message here.
-
-00:13:56.866 --> 00:14:00.676 A:middle
-Great. Now let me see
-what my app looks like.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:56.866 --> 00:14:00.676 A:middle
 Great. Now let me see
@@ -1244,14 +1144,6 @@ me go back to Xcode.
 And I'm going to click
 Go To The Top right here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.826 --> 00:15:03.276 A:middle
-And I'm going to click
-Go To The Top right here.
-
 00:15:03.906 --> 00:15:06.666 A:middle
 And as you can see,
 there's a drop-down menu
@@ -1332,14 +1224,6 @@ and for your app icons.
 I also showed you how to use
 the tool built into Xcode
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:57.166 --> 00:16:00.356 A:middle
-I also showed you how to use
-the tool built into Xcode
-
 00:16:00.566 --> 00:16:03.876 A:middle
 to create an APNG Sticker
 using the individual frames
@@ -1415,14 +1299,6 @@ if not for all of your Stickers.
 Let's try to understand why
 we have that recommendation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.396 --> 00:17:00.826 A:middle
-Let's try to understand why
-we have that recommendation
-
 00:17:00.826 --> 00:17:02.506 A:middle
 by taking a look at
 these screenshots.
@@ -1435,7 +1311,7 @@ which look nearly identical
 but there's a subtle
 difference between them.
 
-00:17:09.286 --> 00:17:10.965 A:middle
+00:17:09.286 --> 00:17:10.966 A:middle
 And so let me zoom in
 to show what that is.
 
@@ -1493,14 +1369,6 @@ transparency that well.
 00:17:55.376 --> 00:17:58.016 A:middle
 And if you were to compare
 the transparency properties
-
-00:17:58.016 --> 00:18:02.196 A:middle
-of JPEGs, JPEGs in fact do not
-handle transparency at all.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.016 --> 00:18:02.196 A:middle
 of JPEGs, JPEGs in fact do not
@@ -1573,13 +1441,6 @@ For regular it is 136 by
 00:18:56.226 --> 00:18:58.906 A:middle
 For large the maximum
 supported dimension is 206
-
-00:18:59.376 --> 00:19:01.376 A:middle
-by 206 points at 3x the scale.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:59.376 --> 00:19:01.376 A:middle
 by 206 points at 3x the scale.
@@ -1666,10 +1527,6 @@ Thank you.
 
 00:19:58.656 --> 00:19:59.466 A:middle
 &gt;&gt; Thank you, Bhaskar.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.026 --> 00:20:02.576 A:middle
 My name is Lily and I'm an
@@ -1766,14 +1623,6 @@ fun Stickers using the camera.
 And finally your application
 can utilize In-app purchases,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.596 --> 00:21:03.986 A:middle
-And finally your application
-can utilize In-app purchases,
-
 00:21:04.286 --> 00:21:06.176 A:middle
 allowing your users
 to unlock Stickers.
@@ -1861,14 +1710,6 @@ use nature assets.
 And we'll go ahead and
 create this project
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.736 --> 00:22:01.846 A:middle
-And we'll go ahead and
-create this project
-
 00:22:01.846 --> 00:22:03.746 A:middle
 and we'll put it on our desktop.
 
@@ -1941,14 +1782,6 @@ and then press Delete.
 00:22:55.676 --> 00:22:58.376 A:middle
 Great. So let's take a
 look at Messages framework.
-
-00:22:59.346 --> 00:23:03.106 A:middle
-If we click here we have an
-MSStickerBrowserViewController.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.346 --> 00:23:03.106 A:middle
 If we click here we have an
@@ -2038,14 +1871,6 @@ ViewController.
 Great. So I'm going to go
 ahead and import UIKit.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:57.316 --> 00:24:04.036 A:middle
-Great. So I'm going to go
-ahead and import UIKit.
-
 00:24:04.806 --> 00:24:08.956 A:middle
 And then I'll go ahead
 and import Messages.
@@ -2123,14 +1948,6 @@ add assets to our bundle.
 I'm going to click Add Files
 and then go to my desktop
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.676 --> 00:25:02.916 A:middle
-I'm going to click Add Files
-and then go to my desktop
-
 00:25:03.316 --> 00:25:05.946 A:middle
 and choose these assets here.
 
@@ -2199,10 +2016,6 @@ NatureStickerBrowser
 00:25:53.876 --> 00:25:57.556 A:middle
 ViewController, and we'll
 instantiate it, and viewDidLoad.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:00.836 --> 00:26:04.756 A:middle
 Great. So now we instantiated
@@ -2286,14 +2099,6 @@ So let's go ahead and do that.
 So I'm going to return the
 Stickers count and I'm going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.176 --> 00:27:02.956 A:middle
-So I'm going to return the
-Stickers count and I'm going
-
 00:27:02.956 --> 00:27:07.036 A:middle
 to return a Sticker
 out of given index.
@@ -2352,14 +2157,6 @@ your Sticker applications.
 
 00:27:57.946 --> 00:27:59.106 A:middle
 So let's go back to the slides.
-
-00:27:59.916 --> 00:28:01.496 A:middle
-So to recap what
-we just went over,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.916 --> 00:28:01.496 A:middle
 So to recap what
@@ -2456,14 +2253,6 @@ MSStickerBrowserViewController
 does, we can do so by
 using these two classes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.366 --> 00:29:01.866 A:middle
-does, we can do so by
-using these two classes.
-
 00:29:02.516 --> 00:29:05.266 A:middle
 On the example I have behind
 me we have an application.
@@ -2550,14 +2339,6 @@ like this.
 
 00:29:55.386 --> 00:29:56.796 A:middle
 So let's go into another demo.
-
-00:29:56.796 --> 00:30:01.776 A:middle
-So I'm going to open up an
-application I already have.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:56.796 --> 00:30:01.776 A:middle
 So I'm going to open up an
@@ -2652,14 +2433,6 @@ have a Sticker and,
 in order to handle animations
 of your animated Stickers,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.806 --> 00:31:03.176 A:middle
-in order to handle animations
-of your animated Stickers,
-
 00:31:03.476 --> 00:31:06.766 A:middle
 we would have to call
 startAnimating and stopAnimating
@@ -2730,14 +2503,6 @@ start and stopAnimating
 
 00:31:57.816 --> 00:31:59.086 A:middle
 to control these animations.
-
-00:31:59.366 --> 00:32:02.096 A:middle
-When we're going to display
-our Sticker we're going to want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.366 --> 00:32:02.096 A:middle
 When we're going to display
@@ -2821,14 +2586,6 @@ our application.
 00:32:54.706 --> 00:32:57.026 A:middle
 So we'll do that in viewDidLoad
 and then we'll present it.
-
-00:32:57.026 --> 00:33:01.486 A:middle
-When the user taps the
-Add icon we'll want
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:57.026 --> 00:33:01.486 A:middle
 When the user taps the
@@ -2933,14 +2690,6 @@ click on the App Drawer.
 And we're going to
 click on Sticker Picker
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.996 --> 00:34:01.826 A:middle
-And we're going to
-click on Sticker Picker
-
 00:34:04.436 --> 00:34:09.556 A:middle
 and wait for it to load.
 
@@ -2948,23 +2697,23 @@ and wait for it to load.
 Great. So now we can go
 ahead and add a Sticker.
 
-00:34:12.746 --> 00:34:16.235 A:middle
+00:34:12.746 --> 00:34:16.236 A:middle
 And I'm going to choose
 this cute panda right here.
 
-00:34:16.235 --> 00:34:18.985 A:middle
+00:34:16.236 --> 00:34:18.986 A:middle
 And we'll see it
 also animating here.
 
-00:34:18.985 --> 00:34:20.565 A:middle
+00:34:18.986 --> 00:34:20.566 A:middle
 And then we can send
 our Stickers.
 
-00:34:21.996 --> 00:34:25.795 A:middle
+00:34:21.996 --> 00:34:25.796 A:middle
 So to recap what we just
 went over, we introduced,
 
-00:34:26.045 --> 00:34:28.866 A:middle
+00:34:26.046 --> 00:34:28.866 A:middle
 we showed you how to create
 a Sticker application using a
 
@@ -3009,14 +2758,6 @@ so please keep that in mind
 
 00:34:55.696 --> 00:34:56.916 A:middle
 on designing your application.
-
-00:34:58.676 --> 00:35:01.836 A:middle
-Bhaskar talked about the Sticker
-File Formats that we used
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.676 --> 00:35:01.836 A:middle
 Bhaskar talked about the Sticker
@@ -3112,4 +2853,3 @@ of the conference.
 
 00:35:55.016 --> 00:35:57.000 A:middle
 [ Applause ]
-

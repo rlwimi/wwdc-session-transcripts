@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:18.500 A:middle
 [ Music ]
@@ -36,13 +35,6 @@ with advancements in UI,
 00:00:53.356 --> 00:00:56.826 A:middle
 our debugging tools began
 to look more like this.
-
-00:00:58.976 --> 00:01:00.386 A:middle
-But fast-forward to today,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.976 --> 00:01:00.386 A:middle
 But fast-forward to today,
@@ -123,19 +115,15 @@ about a new feature of Xcode --
 00:01:58.306 --> 00:01:59.826 A:middle
 a visual memory graph debugger.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:03.916 --> 00:02:05.936 A:middle
 Let's get started by
 talking about issues.
 
-00:02:08.936 --> 00:02:10.765 A:middle
+00:02:08.936 --> 00:02:10.766 A:middle
 We all know that
 build time issues
 
-00:02:10.765 --> 00:02:12.456 A:middle
+00:02:10.766 --> 00:02:12.456 A:middle
 such as compiler
 warnings, errors,
 
@@ -191,14 +179,6 @@ issues detected by the tools
 00:02:55.316 --> 00:02:58.276 A:middle
 at runtime to the
 same status in the UI
-
-00:02:58.276 --> 00:03:00.576 A:middle
-as traditional build
-time issues.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.276 --> 00:03:00.576 A:middle
 as traditional build
@@ -282,14 +262,6 @@ graph debugger,
 which we'll talk a lot more
 about in a few moments,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.256 --> 00:04:01.146 A:middle
-which we'll talk a lot more
-about in a few moments,
-
 00:04:01.146 --> 00:04:03.916 A:middle
 is able to automatically
 detect leaked memory
@@ -359,14 +331,6 @@ becoming more visual.
 Only in the last couple of
 years for debugging UI issues,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:04:56.146 --> 00:05:01.046 A:middle
-Only in the last couple of
-years for debugging UI issues,
-
 00:05:01.046 --> 00:05:04.196 A:middle
 we've gone from having
 to read debug output
@@ -429,13 +393,6 @@ debugging -- can you guess?
 
 00:05:54.316 --> 00:05:54.756 A:middle
 Better than ever.
-
-00:05:55.516 --> 00:06:02.546 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:55.516 --> 00:06:02.546 A:middle
 [ Applause ]
@@ -511,14 +468,6 @@ by class names,
 00:06:56.656 --> 00:06:58.786 A:middle
 and that will include
 super class names.
-
-00:06:58.916 --> 00:07:02.796 A:middle
-For example, if you filter by
-UI label, you'll get back all
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.916 --> 00:07:02.796 A:middle
 For example, if you filter by
@@ -601,13 +550,6 @@ at runtime.
 00:07:57.516 --> 00:08:01.636 A:middle
 [ Applause ]
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.516 --> 00:08:01.636 A:middle
-[ Applause ]
-
 00:08:02.136 --> 00:08:03.266 A:middle
 So how does this work?
 
@@ -686,13 +628,6 @@ at runtime.
 
 00:08:54.776 --> 00:08:56.266 A:middle
 And I'd love to give you a demo.
-
-00:08:59.416 --> 00:09:00.636 A:middle
-So I have an iPhone here,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.416 --> 00:09:00.636 A:middle
 So I have an iPhone here,
@@ -790,13 +725,6 @@ hierarchy and all the layouts.
 00:09:59.986 --> 00:10:00.826 A:middle
 So let's do that now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.986 --> 00:10:00.826 A:middle
-So let's do that now.
-
 00:10:01.916 --> 00:10:05.226 A:middle
 If I return to Xcode,
 down on the bottom,
@@ -884,14 +812,6 @@ out one on top of the other.
 
 00:10:58.336 --> 00:10:59.296 A:middle
 So we've got a layout issue.
-
-00:10:59.796 --> 00:11:03.106 A:middle
-Now our traditional workflow
-would be to inspect each
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.796 --> 00:11:03.106 A:middle
 Now our traditional workflow
@@ -989,14 +909,6 @@ are missing.
 Let's have a look
 at the next view.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:59.456 --> 00:12:01.496 A:middle
-Let's have a look
-at the next view.
-
 00:12:02.306 --> 00:12:04.656 A:middle
 That has the same issue --
 vertical position is ambiguous.
@@ -1089,14 +1001,6 @@ section paragraphs, and images.
 And the code lays these
 out top-to-bottom.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.286 --> 00:13:00.996 A:middle
-And the code lays these
-out top-to-bottom.
-
 00:13:01.576 --> 00:13:03.896 A:middle
 So for each part, we fix
 the view and we add it
@@ -1182,10 +1086,6 @@ of this variable.
 
 00:13:58.366 --> 00:13:59.996 A:middle
 We see it's defined at the top.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:14:00.206 --> 00:14:02.606 A:middle
 It's set to "nil" before
@@ -1284,10 +1184,6 @@ of the code that we needed to.
 Now that our application is
 running, I can tap How To Play.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:15:00.006 --> 00:15:02.076 A:middle
 And there, it looks much better.
 
@@ -1340,7 +1236,7 @@ Xcode's view debugger
 supports debugging UIs
 
 00:15:43.146 --> 00:15:45.486 A:middle
-on macOS, iOS, and tvOS.
+on Mac OS, iOS, and tvOS.
 
 00:15:46.186 --> 00:15:47.816 A:middle
 Give it a try with your
@@ -1363,10 +1259,6 @@ machines and frame rate issues.
 
 00:15:59.006 --> 00:15:59.256 A:middle
 Thanks.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:00.516 --> 00:16:04.546 A:middle
 [ Applause ]
@@ -1456,10 +1348,6 @@ And within a state machine,
 you provide discrete
 behavior for each state.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.276 --> 00:17:02.866 A:middle
 This could be something
 as simple as an animation
@@ -1479,21 +1367,21 @@ machine will transition
 00:17:10.886 --> 00:17:12.276 A:middle
 from one state to another.
 
-00:17:13.915 --> 00:17:16.336 A:middle
+00:17:13.916 --> 00:17:16.336 A:middle
 Once assembled, state
 machines can produce remarkably
 
 00:17:16.336 --> 00:17:17.556 A:middle
 sophisticated behavior.
 
-00:17:17.806 --> 00:17:21.205 A:middle
+00:17:17.806 --> 00:17:21.206 A:middle
 However, they can quickly become
 difficult to visualize in code
 
-00:17:21.455 --> 00:17:22.996 A:middle
+00:17:21.456 --> 00:17:22.996 A:middle
 as they expand in complexity.
 
-00:17:23.455 --> 00:17:25.546 A:middle
+00:17:23.456 --> 00:17:25.546 A:middle
 And simple state machines
 can quickly evolve
 
@@ -1543,14 +1431,6 @@ what's happening
 
 00:17:55.206 --> 00:17:56.356 A:middle
 within your state machines.
-
-00:17:56.926 --> 00:18:01.446 A:middle
-So, now, let's shift our
-focus over to performance.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:56.926 --> 00:18:01.446 A:middle
 So, now, let's shift our
@@ -1646,14 +1526,6 @@ exactly how much time is spent
 rendering, or running
 your update loop,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.086 --> 00:19:01.276 A:middle
-rendering, or running
-your update loop,
-
 00:19:01.276 --> 00:19:02.926 A:middle
 or evaluating actions
 and physics,
@@ -1715,14 +1587,6 @@ our computer into good robots.
 00:19:57.136 --> 00:19:59.616 A:middle
 And to do this, I have
 a beam that can zap them
-
-00:19:59.616 --> 00:20:02.096 A:middle
-and reconfigure them
-into good robots.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.616 --> 00:20:02.096 A:middle
 and reconfigure them
@@ -1809,14 +1673,6 @@ and we can Quick Look it.
 00:20:54.196 --> 00:20:57.396 A:middle
 And from here, we can see
 the entire state machine.
-
-00:20:58.126 --> 00:21:00.416 A:middle
-In blue, we see the
-current state that we're in,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:58.126 --> 00:21:00.416 A:middle
 In blue, we see the
@@ -1919,10 +1775,6 @@ has addressed the issue
 00:21:58.876 --> 00:21:59.556 A:middle
 that we were seeing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:00.816 --> 00:22:02.866 A:middle
 Now when we transition
 to the FiringState
@@ -2010,14 +1862,6 @@ our client update,
 00:22:55.856 --> 00:22:58.426 A:middle
 and we've got a good amount of
 wiggle room of CPU idle time.
-
-00:22:58.986 --> 00:23:02.236 A:middle
-So I'll go into our game
-and move to the right here
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.986 --> 00:23:02.236 A:middle
 So I'll go into our game
@@ -2115,13 +1959,6 @@ within our game.
 00:23:59.526 --> 00:24:00.746 A:middle
 We could have a single action
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.526 --> 00:24:00.746 A:middle
-We could have a single action
-
 00:24:00.746 --> 00:24:03.426 A:middle
 within our scene that's taking
 an exceedingly large amount
@@ -2192,14 +2029,6 @@ your applications better.
 00:24:54.186 --> 00:24:57.216 A:middle
 So just as the view debugger
 understands your view hierarchy,
-
-00:24:57.216 --> 00:25:00.496 A:middle
-the memory graph debugger helps
-you understand your memory
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.216 --> 00:25:00.496 A:middle
 the memory graph debugger helps
@@ -2293,14 +2122,6 @@ from a global location
 in your application that goes
 all the way down to your object?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.996 --> 00:26:03.906 A:middle
-in your application that goes
-all the way down to your object?
-
 00:26:05.136 --> 00:26:07.156 A:middle
 Now, at any point in
 this investigation,
@@ -2382,10 +2203,6 @@ that are probably
 at fault here in
 our application.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:27:00.036 --> 00:27:01.446 A:middle
 So I'm just going to jump right
 
@@ -2462,10 +2279,6 @@ me the answer to the question
 of why this object
 is still around.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:00.116 --> 00:28:02.296 A:middle
 In this case, it's showing
 me a root analysis graph
@@ -2535,14 +2348,6 @@ so I can jump to there.
 00:28:52.446 --> 00:28:57.876 A:middle
 I can go ahead and collapse this
 stack trace and jump to my code.
-
-00:28:58.016 --> 00:29:02.036 A:middle
-And here, we see I've got this
-function -- refreshHurtAction.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:58.016 --> 00:29:02.036 A:middle
 And here, we see I've got this
@@ -2618,14 +2423,6 @@ to some issues.
 
 00:29:55.376 --> 00:29:56.606 A:middle
 So I can click on that.
-
-00:29:56.606 --> 00:30:00.336 A:middle
-And now I'm taken to the
-new Runtime Issues Navigator
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:56.606 --> 00:30:00.336 A:middle
 And now I'm taken to the
@@ -2709,14 +2506,6 @@ completion block.
 I'm even using a capture
 list for "unowned self".
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:58.596 --> 00:31:01.516 A:middle
-I'm even using a capture
-list for "unowned self".
-
 00:31:02.096 --> 00:31:04.756 A:middle
 But the graph showed me that
 "self" wasn't the problem.
@@ -2788,13 +2577,6 @@ graph debugger will help you
 
 00:31:57.736 --> 00:31:58.836 A:middle
 in your investigations as well.
-
-00:31:59.516 --> 00:32:05.996 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.516 --> 00:32:05.996 A:middle
 [ Applause ]
@@ -2882,14 +2664,6 @@ that should no longer be there.
 For unreferenced
 memory or leaked memory,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:58.466 --> 00:33:00.806 A:middle
-For unreferenced
-memory or leaked memory,
-
 00:33:01.196 --> 00:33:02.586 A:middle
 that's when you see
 the cycles view.
@@ -2958,14 +2732,6 @@ a Live Allocations Only Mode.
 And so this has a lower
 overhead, and it also allows you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:56.246 --> 00:34:00.986 A:middle
-And so this has a lower
-overhead, and it also allows you
-
 00:34:01.056 --> 00:34:03.616 A:middle
 to get this rich information
 while you're memory
@@ -2977,25 +2743,25 @@ graph debugging.
 So this will set the "lite"
 flag to MallocStackLogging
 
-00:34:09.525 --> 00:34:10.985 A:middle
+00:34:09.526 --> 00:34:10.986 A:middle
 in target environment.
 
-00:34:13.436 --> 00:34:17.005 A:middle
+00:34:13.436 --> 00:34:17.006 A:middle
 So one other thing
 that you may enjoy
 
-00:34:17.005 --> 00:34:18.906 A:middle
+00:34:17.006 --> 00:34:18.906 A:middle
 about memory graph debugging is
 
 00:34:18.956 --> 00:34:21.386 A:middle
 that we've introduced a
 .memgraph file format.
 
-00:34:21.876 --> 00:34:24.005 A:middle
+00:34:21.876 --> 00:34:24.006 A:middle
 Now, sometimes you'll
 be debugging an issue
 
-00:34:24.005 --> 00:34:26.956 A:middle
+00:34:24.006 --> 00:34:26.956 A:middle
 and you won't have the time
 to really dive into it.
 
@@ -3003,7 +2769,7 @@ to really dive into it.
 And so you may want to save
 this off or have other engineers
 
-00:34:30.056 --> 00:34:31.545 A:middle
+00:34:30.056 --> 00:34:31.546 A:middle
 on your team take
 a look as well.
 
@@ -3022,7 +2788,7 @@ is save out all
 of the connectivity information
 and heap information,
 
-00:34:42.005 --> 00:34:43.496 A:middle
+00:34:42.006 --> 00:34:43.496 A:middle
 as well as some VM statistics
 
 00:34:43.496 --> 00:34:45.686 A:middle
@@ -3044,14 +2810,6 @@ no process in the debugger.
 00:34:55.216 --> 00:34:59.326 A:middle
 So you can't get back traces,
 or Quick Look or PO the objects.
-
-00:34:59.326 --> 00:35:00.996 A:middle
-But it's still a very
-powerful technique
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.326 --> 00:35:00.996 A:middle
 But it's still a very
@@ -3122,14 +2880,6 @@ that you see in the graph.
 00:35:54.486 --> 00:35:59.136 A:middle
 Now these references will show
 up gray for being unknown.
-
-00:35:59.206 --> 00:36:01.156 A:middle
-They may be valid
-references, they may not.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:59.206 --> 00:36:01.156 A:middle
 They may be valid
@@ -3213,13 +2963,6 @@ or Thread Sanitizer.
 00:36:59.716 --> 00:37:01.516 A:middle
 So this is a lot of information.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:59.716 --> 00:37:01.516 A:middle
-So this is a lot of information.
-
 00:37:02.316 --> 00:37:04.386 A:middle
 Where is a great place to get
 started with your application?
@@ -3289,14 +3032,6 @@ about things
 like the better visual debugging
 with the view debugger,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:56.306 --> 00:38:00.146 A:middle
-like the better visual debugging
-with the view debugger,
-
 00:38:00.416 --> 00:38:03.746 A:middle
 with FPS gauge, and
 memory graph debugging.
@@ -3310,4 +3045,3 @@ and solve a lot of issues.
 
 00:38:09.516 --> 00:38:12.500 A:middle
 [ Applause ]
-

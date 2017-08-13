@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:17.500 A:middle
 [ Music ]
@@ -45,10 +44,6 @@ use your app,
 00:00:56.966 --> 00:00:59.956 A:middle
 you have to consider how
 diverse their perspectives are.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:01.506 --> 00:01:05.176 A:middle
 Some people are just learning
@@ -120,14 +115,6 @@ team to do the right thing.
 And here are some statistics
 that will persuade them
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.386 --> 00:02:02.796 A:middle
-And here are some statistics
-that will persuade them
-
 00:02:03.006 --> 00:02:05.736 A:middle
 to make inclusiveness
 a high level feature.
@@ -183,10 +170,6 @@ designs that work for them is
 00:02:57.396 --> 00:02:59.506 A:middle
 at the heart of the
 user experience.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.646 --> 00:03:04.286 A:middle
 So, how can you make
@@ -259,10 +242,6 @@ cultural sensitivities
 00:03:56.986 --> 00:03:57.966 A:middle
 around iconography.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:04.376 --> 00:04:08.386 A:middle
 So first, we'll talk about
 the need impactful typography
@@ -320,14 +299,6 @@ and before you know it,
 
 00:04:55.546 --> 00:04:57.236 A:middle
 you have so many good options.
-
-00:04:57.626 --> 00:05:00.736 A:middle
-And at this stage, it's
-an excellent opportunity
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.626 --> 00:05:00.736 A:middle
 And at this stage, it's
@@ -400,14 +371,6 @@ having two to three levels
 00:05:54.716 --> 00:05:57.286 A:middle
 of change will be
 more inclusive just
-
-00:05:57.286 --> 00:06:00.216 A:middle
-in case a treatment isn't
-applicable in certain languages.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:57.286 --> 00:06:00.216 A:middle
 in case a treatment isn't
@@ -491,14 +454,6 @@ not be familiar
 with all ten writing
 systems that are used
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.986 --> 00:07:01.476 A:middle
-with all ten writing
-systems that are used
-
 00:07:01.476 --> 00:07:04.906 A:middle
 in over forty languages or
 localizations that we ship.
@@ -571,14 +526,6 @@ hierarchy or emphasis.
 In the next consideration,
 I would like to talk
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:57.706 --> 00:08:01.506 A:middle
-In the next consideration,
-I would like to talk
-
 00:08:01.506 --> 00:08:05.306 A:middle
 about is using larger text sizes
 because they are more universal
@@ -628,11 +575,11 @@ be good for reading content.
 Let's look at a non-Latin
 writing system like Chinese.
 
-00:08:38.785 --> 00:08:41.535 A:middle
+00:08:38.786 --> 00:08:41.536 A:middle
 It gets harder to read
 at a higher number
 
-00:08:41.655 --> 00:08:45.816 A:middle
+00:08:41.656 --> 00:08:45.816 A:middle
 because rendering dense writing
 systems too small can reduce the
 
@@ -650,14 +597,6 @@ blend together.
 00:08:52.436 --> 00:08:57.156 A:middle
 You want people to read their
 content easily and effortlessly.
-
-00:08:57.596 --> 00:09:01.206 A:middle
-So leaning toward larger font
-sizes will make the content more
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.596 --> 00:09:01.206 A:middle
 So leaning toward larger font
@@ -733,14 +672,6 @@ be cut off if clip
 
 00:09:55.486 --> 00:09:57.316 A:middle
 to bounds is true for the label.
-
-00:09:57.616 --> 00:10:00.976 A:middle
-This should be off,
-because this is bad.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:57.616 --> 00:10:00.976 A:middle
 This should be off,
@@ -826,14 +757,6 @@ make further make these spaces
 between labels increase
 dynamically
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.966 --> 00:11:01.346 A:middle
-between labels increase
-dynamically
-
 00:11:01.346 --> 00:11:02.836 A:middle
 to accommodate dynamic type.
 
@@ -898,14 +821,6 @@ and layout considerations.
 00:11:53.726 --> 00:11:55.696 A:middle
 But now, let's talk
 about dynamic layouts.
-
-00:11:56.396 --> 00:12:01.506 A:middle
-We've talked about the
-appearance of words from all
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:56.396 --> 00:12:01.506 A:middle
 We've talked about the
@@ -988,14 +903,6 @@ three times longer or more.
 A seemingly concise English
 phrase may be two times longer
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:56.606 --> 00:13:01.316 A:middle
-A seemingly concise English
-phrase may be two times longer
-
 00:13:01.316 --> 00:13:02.316 A:middle
 in another language.
 
@@ -1059,13 +966,6 @@ layouts need to be overspecified
 00:13:55.896 --> 00:13:58.096 A:middle
 for what you aren't
 seeing in the language
-
-00:13:58.096 --> 00:14:00.156 A:middle
-that you are designing in.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.096 --> 00:14:00.156 A:middle
 that you are designing in.
@@ -1153,14 +1053,6 @@ and that's Dynamic Type.
 This feature might be one of
 the most important features
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.676 --> 00:15:03.146 A:middle
-This feature might be one of
-the most important features
-
 00:15:03.146 --> 00:15:05.906 A:middle
 that you could add to your
 app if you haven't already.
@@ -1220,14 +1112,6 @@ And here is Ulysses.
 00:15:51.426 --> 00:15:54.286 A:middle
 They do a great job scaling
 their UIs dynamically.
-
-00:15:58.326 --> 00:16:01.456 A:middle
-So, how do I specify a
-design to be dynamic?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.326 --> 00:16:01.456 A:middle
 So, how do I specify a
@@ -1304,13 +1188,6 @@ are the sizes
 00:16:59.556 --> 00:17:02.196 A:middle
 that the fonts will appear at.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.556 --> 00:17:02.196 A:middle
-that the fonts will appear at.
-
 00:17:02.376 --> 00:17:05.826 A:middle
 You can see how the font sizes
 get smaller and larger, both up
@@ -1330,7 +1207,7 @@ And here's an iOS
 And I'm going to show you some
 behind-the-scenes information
 
-00:17:16.086 --> 00:17:18.915 A:middle
+00:17:16.086 --> 00:17:18.916 A:middle
 about how to use text styles
 to make this design dynamic.
 
@@ -1338,7 +1215,7 @@ to make this design dynamic.
 First, you will need to assign
 a text style to each text area.
 
-00:17:24.675 --> 00:17:28.256 A:middle
+00:17:24.676 --> 00:17:28.256 A:middle
 The sender and the subject
 are the most important labels
 
@@ -1376,13 +1253,6 @@ APIs, you'll use these values
 00:17:54.466 --> 00:17:58.406 A:middle
 to create a ratio to scale
 the spaces proportionately
-
-00:17:58.696 --> 00:18:00.906 A:middle
-to the font size as it changes.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.696 --> 00:18:00.906 A:middle
 to the font size as it changes.
@@ -1461,10 +1331,6 @@ mail message screen,
 growing from large to
 extra, extra large.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.626 --> 00:19:03.686 A:middle
 There's also another legibility
 feature that you will get
@@ -1536,10 +1402,6 @@ And now, so the margins adjust
 when the text size
 setting changes.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:20:00.976 --> 00:20:03.856 A:middle
 This way, the line
 length remains favorable
@@ -1609,14 +1471,6 @@ playback controls.
 00:20:56.706 --> 00:20:59.916 A:middle
 Video progress sliders
 still increase from the left
-
-00:20:59.916 --> 00:21:03.616 A:middle
-to the right and rewind always
-points the triangles facing left
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:59.916 --> 00:21:03.616 A:middle
 to the right and rewind always
@@ -1693,10 +1547,6 @@ of the images follows the steps.
 00:21:56.676 --> 00:21:59.666 A:middle
 However, we should not
 mirror the checkmark
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.066 --> 00:22:03.606 A:middle
 because checkmarks
@@ -1777,14 +1627,6 @@ the Dynamic Type settings
 and Making Apps Adaptive, Part
 2, will give you a summary
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:58.136 --> 00:23:02.036 A:middle
-and Making Apps Adaptive, Part
-2, will give you a summary
-
 00:23:02.036 --> 00:23:05.496 A:middle
 of the new Dynamic Type
 APIs and What's New
@@ -1854,14 +1696,6 @@ So first let's talk about blue.
 00:23:57.626 --> 00:23:59.496 A:middle
 Why does everybody
 like blue so much?
-
-00:23:59.556 --> 00:24:03.656 A:middle
-I mean, blue has a short
-wavelength on the spectrum
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.556 --> 00:24:03.656 A:middle
 I mean, blue has a short
@@ -1938,10 +1772,6 @@ on Saint Patrick's Day
 and is also known throughout
 the world as a lucky color.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:01.976 --> 00:25:04.776 A:middle
 Green is also a universal
 color for safety.
@@ -2007,14 +1837,6 @@ market uses red to mean gains
 
 00:25:56.936 --> 00:25:58.276 A:middle
 and green to mean losses.
-
-00:25:58.976 --> 00:26:04.416 A:middle
-And the next color consideration
-is color blindness.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:58.976 --> 00:26:04.416 A:middle
 And the next color consideration
@@ -2091,14 +1913,6 @@ blind, you may not be able
 to tell the difference from
 the orange flagging dot
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:57.766 --> 00:27:00.796 A:middle
-to tell the difference from
-the orange flagging dot
-
 00:27:00.796 --> 00:27:02.086 A:middle
 with the blue and red dot.
 
@@ -2164,14 +1978,6 @@ section, you'll be able
 00:27:54.636 --> 00:27:57.956 A:middle
 to download a helpful tool
 to calculate color contrast
-
-00:27:57.956 --> 00:28:02.166 A:middle
-by using RGB values and it
-will also tell you if you're
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.956 --> 00:28:02.166 A:middle
 by using RGB values and it
@@ -2252,14 +2058,6 @@ small text sizes.
 When font sizes are small
 and have low contrast,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:58.176 --> 00:29:01.886 A:middle
-When font sizes are small
-and have low contrast,
-
 00:29:02.096 --> 00:29:05.196 A:middle
 your eyes can't distinguish
 the shape of the letter forms
@@ -2327,14 +2125,6 @@ on an orange button is a
 00:29:55.206 --> 00:29:58.686 A:middle
 And black text on an
 orange button is 9.6 to 1.
-
-00:29:59.196 --> 00:30:03.056 A:middle
-So in this particular example,
-choose black on orange.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.196 --> 00:30:03.056 A:middle
 So in this particular example,
@@ -2413,14 +2203,6 @@ and values shape the message.
 For example, to be -- in
 order to be multicultural,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.176 --> 00:31:01.936 A:middle
-For example, to be -- in
-order to be multicultural,
-
 00:31:02.246 --> 00:31:05.646 A:middle
 the International Red Cross
 has three official symbols
@@ -2491,14 +2273,6 @@ of a palm for better clarity
 
 00:31:57.716 --> 00:31:59.606 A:middle
 in a glyph, but an open,
-
-00:31:59.746 --> 00:32:02.996 A:middle
-facing palm is actually
-offensive in some countries.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.746 --> 00:32:02.996 A:middle
 facing palm is actually
@@ -2581,14 +2355,6 @@ about icons and glyphs,
 iconography can conflict
 with cultural norms
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.076 --> 00:33:01.866 A:middle
-iconography can conflict
-with cultural norms
-
 00:33:02.036 --> 00:33:04.116 A:middle
 or symbols can have
 different meanings entirely.
@@ -2662,13 +2428,6 @@ in their language?
 00:33:59.246 --> 00:34:01.266 A:middle
 Is everything easy to read?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.246 --> 00:34:01.266 A:middle
-Is everything easy to read?
-
 00:34:01.266 --> 00:34:03.756 A:middle
 And then I want you
 to ask yourself,
@@ -2676,15 +2435,15 @@ to ask yourself,
 00:34:04.066 --> 00:34:05.906 A:middle
 "How can you be more inclusive?"
 
-00:34:06.426 --> 00:34:11.505 A:middle
+00:34:06.426 --> 00:34:11.506 A:middle
 So to watch this talk again,
 please check out this address
 
-00:34:11.505 --> 00:34:13.775 A:middle
+00:34:11.506 --> 00:34:13.776 A:middle
 and to also find
 related resources
 
-00:34:13.775 --> 00:34:15.085 A:middle
+00:34:13.776 --> 00:34:15.086 A:middle
 for what I discussed today.
 
 00:34:15.516 --> 00:34:16.926 A:middle
@@ -2694,7 +2453,7 @@ And it also has a link
 to the completely redesigned
 iOS Human Interface Guidelines.
 
-00:34:21.536 --> 00:34:24.755 A:middle
+00:34:21.536 --> 00:34:24.756 A:middle
 It has been migrated to
 a new visual layout style
 
@@ -2709,14 +2468,14 @@ for designing great apps.
 It's also been updated
 to include guidance
 
-00:34:32.206 --> 00:34:34.576 A:middle
-on the new features in iOS X.
+00:34:32.206 --> 00:34:34.506 A:middle
+on the new features in iOS 10.
 
 00:34:36.076 --> 00:34:39.186 A:middle
 Be sure to check out these
 great related sessions happening
 
-00:34:39.186 --> 00:34:39.795 A:middle
+00:34:39.186 --> 00:34:39.796 A:middle
 all week.
 
 00:34:40.076 --> 00:34:42.346 A:middle
@@ -2731,7 +2490,7 @@ has additional great design
 information about
 typography and fonts.
 
-00:34:48.485 --> 00:34:49.616 A:middle
+00:34:48.486 --> 00:34:49.616 A:middle
 The Auditing Your Apps
 
 00:34:49.616 --> 00:34:51.966 A:middle
@@ -2742,17 +2501,9 @@ highlights the new tool
 for previewing your
 dynamic type.
 
-00:34:54.025 --> 00:34:58.296 A:middle
+00:34:54.026 --> 00:34:58.296 A:middle
 And Making Apps Adaptive, Part
 2 will go over layout guides,
-
-00:34:58.296 --> 00:35:01.916 A:middle
-readable content guides, assets
-and appearance customization.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:58.296 --> 00:35:01.916 A:middle
 readable content guides, assets
@@ -2780,4 +2531,3 @@ images with asset catalog.
 00:35:15.276 --> 00:35:16.976 A:middle
 Thank you and have
 a great conference.
-

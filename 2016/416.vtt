@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:18.500 A:middle
 [ Music ]
@@ -57,19 +56,11 @@ you want to take
 into account the
 modeling implications
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:59.776 --> 00:01:01.956 A:middle
-into account the
-modeling implications
-
 00:01:02.156 --> 00:01:04.616 A:middle
 of Swift's different
 abstraction mechanisms.
 
-00:01:04.965 --> 00:01:07.516 A:middle
+00:01:04.966 --> 00:01:07.516 A:middle
 Are value or reference
 semantics more appropriate?
 
@@ -149,14 +140,6 @@ We're going to begin
 00:01:55.976 --> 00:01:58.586 A:middle
 by identifying the different
 dimensions you want to take
-
-00:01:58.586 --> 00:02:01.196 A:middle
-into account when evaluating
-your different abstraction
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.586 --> 00:02:01.196 A:middle
 into account when evaluating
@@ -266,14 +249,6 @@ mechanism,
 you should be asking
 yourself, "Is my instance going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:57.656 --> 00:03:00.276 A:middle
-you should be asking
-yourself, "Is my instance going
-
 00:03:00.276 --> 00:03:02.696 A:middle
 to be allocated on
 the stack or the heap?
@@ -367,14 +342,6 @@ the end of the stack.
 And this means, when we call
 into a function -- or, rather --
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.246 --> 00:04:00.896 A:middle
-And this means, when we call
-into a function -- or, rather --
-
 00:04:01.136 --> 00:04:01.876 A:middle
 that pointer at the end
 
@@ -397,19 +364,19 @@ stack pointer to make space.
 And when we've finished
 executing our function,
 
-00:04:14.296 --> 00:04:16.815 A:middle
+00:04:14.296 --> 00:04:16.816 A:middle
 we can trivially
 deallocate that memory just
 
-00:04:16.815 --> 00:04:18.846 A:middle
+00:04:16.816 --> 00:04:18.846 A:middle
 by incrementing the
 stack pointer back up to
 
-00:04:18.875 --> 00:04:20.685 A:middle
+00:04:18.876 --> 00:04:20.686 A:middle
 where it was before we
 called this function.
 
-00:04:21.255 --> 00:04:23.916 A:middle
+00:04:21.256 --> 00:04:23.916 A:middle
 Now, if you're not that familiar
 with the stack or stack pointer,
 
@@ -469,14 +436,6 @@ into the appropriate position.
 00:04:58.286 --> 00:04:59.936 A:middle
 So, clearly, there's
 more involved here
-
-00:04:59.936 --> 00:05:02.846 A:middle
-than just assigning an integer
-like we had with the stack.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.936 --> 00:05:02.846 A:middle
 than just assigning an integer
@@ -576,13 +535,6 @@ and our point2 instance.
 00:05:59.116 --> 00:06:00.556 A:middle
 And because point is a struct,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.116 --> 00:06:00.556 A:middle
-And because point is a struct,
-
 00:06:00.856 --> 00:06:04.216 A:middle
 the x and y properties are
 stored in line on the stack.
@@ -661,14 +613,6 @@ All right.
 00:06:57.496 --> 00:06:59.186 A:middle
 So, when we enter this
 function, just like before,
-
-00:06:59.186 --> 00:07:00.486 A:middle
-we're allocating
-memory on the stack.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:59.186 --> 00:07:00.486 A:middle
 we're allocating
@@ -767,14 +711,6 @@ to copy the reference.
 So, point1 and point2
 are actually referring
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.546 --> 00:08:00.756 A:middle
-So, point1 and point2
-are actually referring
-
 00:08:00.756 --> 00:08:02.996 A:middle
 to the same exact instance
 of point on the heap.
@@ -830,14 +766,14 @@ require a heap allocation.
 Because classes are
 allocated on the heap
 
-00:08:37.256 --> 00:08:38.535 A:middle
+00:08:37.256 --> 00:08:38.536 A:middle
 and have reference semantics,
 
-00:08:39.015 --> 00:08:42.086 A:middle
+00:08:39.016 --> 00:08:42.086 A:middle
 classes have some
 powerful characteristics
 
-00:08:42.086 --> 00:08:43.905 A:middle
+00:08:42.086 --> 00:08:43.906 A:middle
 like identity and
 indirect storage.
 
@@ -858,14 +794,6 @@ of state like classes are.
 
 00:08:57.176 --> 00:08:58.216 A:middle
 So, let's see how we can apply
-
-00:08:58.216 --> 00:09:00.566 A:middle
-that to improve the
-performance of some Swift code.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.216 --> 00:09:00.566 A:middle
 that to improve the
@@ -956,14 +884,6 @@ a key, which is a string.
 00:09:55.756 --> 00:09:58.216 A:middle
 Now, there's a couple
 things not to like here.
-
-00:09:59.256 --> 00:10:02.156 A:middle
-String isn't particularly
-a strong type for this key.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.256 --> 00:10:02.156 A:middle
 String isn't particularly
@@ -1061,14 +981,6 @@ our next dimension
 of performance, reference
 counting.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.766 --> 00:11:02.316 A:middle
-of performance, reference
-counting.
-
 00:11:03.576 --> 00:11:05.866 A:middle
 So, I glossed over a
 detail when we were talking
@@ -1152,14 +1064,6 @@ or removed to any heap instance
 00:11:57.416 --> 00:11:59.656 A:middle
 on multiple threads at the
 same time, we actually have
-
-00:11:59.656 --> 00:12:02.086 A:middle
-to atomically increment and
-decrement the reference count.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.656 --> 00:12:02.086 A:middle
 to atomically increment and
@@ -1252,14 +1156,6 @@ and so Swift has added a call
 to atomically increment
 the reference count
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.136 --> 00:13:01.316 A:middle
-to atomically increment
-the reference count
-
 00:13:01.576 --> 00:13:02.566 A:middle
 of our point instance.
 
@@ -1345,14 +1241,6 @@ which contains text which is
 00:13:55.746 --> 00:13:58.176 A:middle
 of type String and
 font of type UIFont.
-
-00:13:58.626 --> 00:14:01.296 A:middle
-String, as we heard earlier,
-actually stores its --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:58.626 --> 00:14:01.296 A:middle
 String, as we heard earlier,
@@ -1461,14 +1349,6 @@ counting overhead proportional
 to the number of
 references that they contain.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.366 --> 00:15:01.076 A:middle
-to the number of
-references that they contain.
-
 00:15:01.596 --> 00:15:03.976 A:middle
 So, if they have more than
 one reference, they're going
@@ -1552,14 +1432,6 @@ going to abort out of this.
 
 00:15:58.036 --> 00:15:58.796 A:middle
 Otherwise, we're going
-
-00:15:58.796 --> 00:16:03.376 A:middle
-to initialize our fileURL,
-uuid, and mimeType.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.796 --> 00:16:03.376 A:middle
 to initialize our fileURL,
@@ -1654,15 +1526,11 @@ I can only put a uuid.
 00:16:59.046 --> 00:16:59.776 A:middle
 That's fantastic.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.336 --> 00:17:02.856 A:middle
 Let's take a look at
 mimeType and let's look
 
-00:17:02.856 --> 00:17:04.695 A:middle
+00:17:02.856 --> 00:17:04.696 A:middle
 at how I've implemented
 this isMimeType check.
 
@@ -1670,7 +1538,7 @@ this isMimeType check.
 I'm actually only
 supporting a closed set
 
-00:17:07.526 --> 00:17:10.945 A:middle
+00:17:07.526 --> 00:17:10.946 A:middle
 of mimeTypes today,
 JPG, PNG, GIF.
 
@@ -1682,26 +1550,26 @@ great abstraction mechanism
 for representing a
 fixed set of things.
 
-00:17:16.756 --> 00:17:17.715 A:middle
+00:17:16.756 --> 00:17:17.716 A:middle
 And that's an enumeration.
 
-00:17:18.266 --> 00:17:19.685 A:middle
+00:17:18.266 --> 00:17:19.686 A:middle
 So, I'm going to take
 that switch statement,
 
-00:17:19.945 --> 00:17:21.546 A:middle
+00:17:19.946 --> 00:17:21.546 A:middle
 put it inside a failable
 initializer
 
-00:17:21.796 --> 00:17:24.445 A:middle
+00:17:21.796 --> 00:17:24.446 A:middle
 and map those mimeTypes
 to an appropriate --
 
-00:17:24.445 --> 00:17:26.296 A:middle
+00:17:24.446 --> 00:17:26.296 A:middle
 to the appropriate
 case in my enum.
 
-00:17:26.665 --> 00:17:29.336 A:middle
+00:17:26.666 --> 00:17:29.336 A:middle
 So, now I've got more type
 safety with this mimeType enum
 
@@ -1750,14 +1618,6 @@ uuid and mimeType field
 00:17:56.196 --> 00:17:58.826 A:middle
 and we're not paying nearly as
 much reference counting overhead
-
-00:17:58.856 --> 00:18:00.946 A:middle
-because uuid and
-mimeType don't need
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.856 --> 00:18:00.946 A:middle
 because uuid and
@@ -1866,14 +1726,6 @@ synchronization overhead
 like we had with reference
 counting and heap allocation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:59.056 --> 00:19:02.006 A:middle
-like we had with reference
-counting and heap allocation.
-
 00:19:02.506 --> 00:19:06.056 A:middle
 But this dynamic dispatch blocks
 the visibility of the compiler
@@ -1952,10 +1804,6 @@ of drawAPoint.
 00:19:57.476 --> 00:19:59.686 A:middle
 And then it's going to take
 our point.draw method and,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:20:00.036 --> 00:20:02.196 A:middle
 because that's a static
@@ -2061,14 +1909,6 @@ thing at all?
 Well, one of the reasons is it
 enables really powerful things
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:57.946 --> 00:21:00.966 A:middle
-Well, one of the reasons is it
-enables really powerful things
-
 00:21:01.296 --> 00:21:02.726 A:middle
 like polymorphism.
 
@@ -2150,14 +1990,6 @@ be a point, it could be a line.
 
 00:21:57.346 --> 00:21:58.366 A:middle
 They are different code paths.
-
-00:21:58.636 --> 00:22:00.166 A:middle
-So, how does it determine
-which one to call?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:58.636 --> 00:22:00.166 A:middle
 So, how does it determine
@@ -2256,10 +2088,6 @@ require dynamic dispatch.
 00:22:57.596 --> 00:22:59.986 A:middle
 If you never intend for
 a class to be subclassed,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.466 --> 00:23:03.896 A:middle
 you can mark it as final to
@@ -2364,14 +2192,6 @@ our performance.
 And if you're new to
 Swift or you're working
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.696 --> 00:24:01.496 A:middle
-And if you're new to
-Swift or you're working
-
 00:24:01.496 --> 00:24:03.456 A:middle
 in a code base that's been
 ported from objective C
@@ -2457,10 +2277,6 @@ protocol types.
 Instead of a drawable
 abstract base class,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:25:00.146 --> 00:25:04.116 A:middle
 we now have protocol drawable
 that declares the draw method.
@@ -2529,14 +2345,6 @@ that Kyle just showed us.
 So, how does Swift dispatch
 to the correct method?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:25:59.416 --> 00:26:03.036 A:middle
-So, how does Swift dispatch
-to the correct method?
-
 00:26:03.736 --> 00:26:06.006 A:middle
 While it's going over
 the array in this case.
@@ -2600,10 +2408,6 @@ at fixed offsets in the array.
 
 00:26:58.136 --> 00:26:59.000 A:middle
 So, how does that work?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:02.046 --> 00:27:03.156 A:middle
 The answer to this question is
@@ -2677,14 +2481,6 @@ So, how does it do that?
 Hmmm. The answer to this, again,
 is a table based mechanism.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:56.576 --> 00:28:00.806 A:middle
-Hmmm. The answer to this, again,
-is a table based mechanism.
-
 00:28:01.356 --> 00:28:03.826 A:middle
 In this case, we call it
 the Value Witness Table.
@@ -2753,10 +2549,6 @@ do the correct thing and copy it
 00:28:56.706 --> 00:28:59.966 A:middle
 into the valueBuffer
 allocated in the heap.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:00.956 --> 00:29:05.636 A:middle
 OK. Program continues and we
@@ -2838,14 +2630,6 @@ to our protocol witness table?
 Well, it is, again, referenced
 in the existential container.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:56.976 --> 00:30:00.816 A:middle
-Well, it is, again, referenced
-in the existential container.
-
 00:30:02.076 --> 00:30:03.396 A:middle
 So, we've seen the mechanics
 
@@ -2905,14 +2689,6 @@ this example.
 00:30:54.656 --> 00:30:57.816 A:middle
 And so for the existential
 container, I have a struct
-
-00:30:58.386 --> 00:31:03.736 A:middle
-that has three words storage
-for valueBuffer and a reference
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:58.386 --> 00:31:03.736 A:middle
 that has three words storage
@@ -2981,14 +2757,6 @@ the local existential container.
 Next, it will call a
 value witness function
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:57.796 --> 00:32:02.276 A:middle
-Next, it will call a
-value witness function
-
 00:32:02.606 --> 00:32:05.696 A:middle
 to allocate a buffer if
 necessary and copy the value.
@@ -3052,13 +2820,6 @@ expects the address
 
 00:32:55.696 --> 00:32:57.566 A:middle
 of our value as its input.
-
-00:32:58.096 --> 00:33:01.626 A:middle
-And note that depending
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.096 --> 00:33:01.626 A:middle
 And note that depending
@@ -3134,13 +2895,6 @@ existential container created
 00:33:59.456 --> 00:34:00.906 A:middle
 on the stack for us.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.456 --> 00:34:00.906 A:middle
-on the stack for us.
-
 00:34:01.956 --> 00:34:05.006 A:middle
 OK. That was a lot of work.
 
@@ -3148,11 +2902,11 @@ OK. That was a lot of work.
 Right? There is one thing
 I want you to take away
 
-00:34:09.616 --> 00:34:15.085 A:middle
+00:34:09.616 --> 00:34:15.086 A:middle
 from this is this work is what
 enables combining value types
 
-00:34:15.085 --> 00:34:19.376 A:middle
+00:34:15.086 --> 00:34:19.376 A:middle
 such as struct Line and struct
 Point together with protocols
 
@@ -3175,28 +2929,20 @@ this is a good price to pay
 and compares to using
 classes like in the example
 
-00:34:39.856 --> 00:34:42.775 A:middle
+00:34:39.856 --> 00:34:42.776 A:middle
 that Kyle showed us
 because classes also go
 
-00:34:42.775 --> 00:34:45.456 A:middle
+00:34:42.776 --> 00:34:45.456 A:middle
 through a V-Table and they
 have the additional overhead
 
-00:34:46.085 --> 00:34:49.295 A:middle
+00:34:46.086 --> 00:34:49.296 A:middle
 of reference counting.
 
-00:34:51.025 --> 00:34:55.616 A:middle
+00:34:51.026 --> 00:34:55.616 A:middle
 OK. So, we've seen how
 local variables are copied
-
-00:34:55.996 --> 00:35:00.976 A:middle
-and how method dispatch works
-for values of protocol type.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:55.996 --> 00:35:00.976 A:middle
 and how method dispatch works
@@ -3263,14 +3009,6 @@ storing a differently typed
 
 00:35:55.906 --> 00:35:58.266 A:middle
 value later in the program.
-
-00:35:58.616 --> 00:36:01.486 A:middle
-So, the program goes and stores
-a Line to the second element.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:58.616 --> 00:36:01.486 A:middle
 So, the program goes and stores
@@ -3343,14 +3081,6 @@ reference is basically one word.
 So, if we implemented our Line
 instead with a class, the --
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:56.496 --> 00:37:03.086 A:middle
-So, if we implemented our Line
-instead with a class, the --
-
 00:37:03.086 --> 00:37:05.606 A:middle
 and class is a reference
 semantics so they're stored
@@ -3411,10 +3141,6 @@ called copy and write
 00:37:57.406 --> 00:37:59.056 A:middle
 that allows us to
 work around this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:00.216 --> 00:38:04.466 A:middle
 So, before we write
@@ -3485,10 +3211,6 @@ modify, mutate our value,
 we first check the
 reference count.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:39:00.176 --> 00:39:01.216 A:middle
 Is it greater than one?
 
@@ -3550,10 +3272,6 @@ to the line storage are copied.
 
 00:39:54.456 --> 00:39:57.000 A:middle
 When we come to copy our Line --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:00.116 --> 00:40:01.896 A:middle
 Again, only the references
@@ -3621,14 +3339,6 @@ dynamic dispatch, which allows
 for dynamically polymorph
 behavior.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.286 --> 00:41:01.000 A:middle
-for dynamically polymorph
-behavior.
-
 00:41:03.456 --> 00:41:04.786 A:middle
 Compare this with large values.
 
@@ -3680,14 +3390,6 @@ It's a good trade off to make.
 00:41:53.836 --> 00:41:58.116 A:middle
 OK. So, we went back
 -- so, to summarize,
-
-00:41:58.116 --> 00:42:02.456 A:middle
-protocol types provide a
-dynamic form of polymorphism.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:41:58.116 --> 00:42:02.456 A:middle
 protocol types provide a
@@ -3759,13 +3461,6 @@ would use it on a Point.
 
 00:42:55.976 --> 00:42:56.886 A:middle
 And we thought, "Hmm.
-
-00:42:57.456 --> 00:43:00.256 A:middle
-Could we use generic code here?"
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:57.456 --> 00:43:00.256 A:middle
 Could we use generic code here?"
@@ -3844,14 +3539,6 @@ a generic parameter T.
 And then our program
 creates a point
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.066 --> 00:44:00.916 A:middle
-And then our program
-creates a point
-
 00:44:01.316 --> 00:44:03.206 A:middle
 and passes this point
 to the function foo.
@@ -3915,14 +3602,6 @@ this under the hood.
 00:44:53.706 --> 00:44:56.496 A:middle
 Again, coming back to
 our drawACopy function.
-
-00:44:58.646 --> 00:45:05.146 A:middle
-In this example,
-we pass a point.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:58.646 --> 00:45:05.146 A:middle
 In this example,
@@ -4002,14 +3681,6 @@ variable for the parameter,
 Swift will use the
 value witness table
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:58.906 --> 00:46:01.216 A:middle
-Swift will use the
-value witness table
-
 00:46:01.496 --> 00:46:04.476 A:middle
 to allocate potentially any
 necessary buffers on the heap
@@ -4071,14 +3742,6 @@ are, again, stored on the heap
 00:46:57.216 --> 00:46:59.296 A:middle
 and we store a pointer
 to that memory inside
-
-00:46:59.296 --> 00:47:01.176 A:middle
-of the local existential
-container.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:46:59.296 --> 00:47:01.176 A:middle
 of the local existential
@@ -4157,14 +3820,6 @@ that is of type Point
 and the code inside of
 that function is, again,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.076 --> 00:48:03.026 A:middle
-and the code inside of
-that function is, again,
-
 00:48:03.026 --> 00:48:04.786 A:middle
 specific to that type.
 
@@ -4232,14 +3887,6 @@ call can basically reduce
 00:48:53.436 --> 00:48:55.746 A:middle
 to this one line and,
 as Kyle showed us,
-
-00:48:55.746 --> 00:49:00.156 A:middle
-this can be even further reduced
-to the implementation of draw.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:48:55.746 --> 00:49:00.156 A:middle
 this can be even further reduced
@@ -4319,10 +3966,6 @@ walk back to its initialization,
 and see that it has been
 initialized to a Point.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:50:01.816 --> 00:50:03.826 A:middle
 Swift also needs to
 have the definition
@@ -4394,10 +4037,6 @@ definition of the Point file
 00:50:58.136 --> 00:50:59.966 A:middle
 and optimization can take place.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:51:00.806 --> 00:51:04.936 A:middle
 Because this so greatly improves
 the optimization opportunity,
@@ -4447,10 +4086,6 @@ When we looked at this program,
 00:51:54.746 --> 00:51:59.366 A:middle
 we realized that we could
 use a generic type here.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:00.736 --> 00:52:05.236 A:middle
 So, if we define our pair to
@@ -4511,14 +4146,6 @@ of the enclosing type.
 00:52:53.966 --> 00:52:56.546 A:middle
 So, when we create
 a pair of Lines,
-
-00:52:57.946 --> 00:53:01.026 A:middle
-the memory for the Line will
-actually be allocated inline
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:52:57.946 --> 00:53:01.026 A:middle
 the memory for the Line will
@@ -4586,14 +4213,6 @@ is essentially
 00:53:55.106 --> 00:53:58.566 A:middle
 as if you had written this
 function in terms of a struct.
-
-00:53:58.936 --> 00:54:02.076 A:middle
-No heap allocation is
-necessary when we copy values
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:58.936 --> 00:54:02.076 A:middle
 No heap allocation is
@@ -4670,14 +4289,6 @@ contain any references.
 However, we get to
 share one implementation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:54:57.866 --> 00:55:01.066 A:middle
-However, we get to
-share one implementation
-
 00:55:01.986 --> 00:55:05.356 A:middle
 across all potential
 call-sites through the use
@@ -4735,13 +4346,6 @@ and, again, we get the power
 00:55:54.726 --> 00:55:57.926 A:middle
 of dynamic dispatch, which
 means we can share one generic
-
-00:55:57.926 --> 00:56:01.000 A:middle
-implementation across our code.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:55:57.926 --> 00:56:01.000 A:middle
 implementation across our code.
@@ -4815,10 +4419,6 @@ how to reduce the cost
 00:56:58.876 --> 00:57:00.000 A:middle
 of reference counting.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:57:03.046 --> 00:57:06.806 A:middle
 If parts of your program can be
 expressed using a more static
@@ -4878,14 +4478,6 @@ work around this.
 OK. So, here's some related
 sessions about modeling
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:57:58.836 --> 00:58:03.226 A:middle
-OK. So, here's some related
-sessions about modeling
-
 00:58:03.846 --> 00:58:04.966 A:middle
 and about performance.
 
@@ -4905,4 +4497,3 @@ Thank you.
 
 00:58:12.508 --> 00:58:14.508 A:middle
 [ Applause ]
-

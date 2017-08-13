@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:17.500 A:middle
 [ Music ]
@@ -41,14 +40,6 @@ for taking photos in iOS 10.
 00:00:50.796 --> 00:00:55.526 A:middle
 This output supports Capturing
 Live Photos, RAW + DNG,
-
-00:00:56.866 --> 00:01:01.356 A:middle
-Wide Color Content, and
-Preview or Thumbnail Images.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:56.866 --> 00:01:01.356 A:middle
 Wide Color Content, and
@@ -122,14 +113,6 @@ immutable data.
 
 00:01:56.106 --> 00:01:58.136 A:middle
 It uses a separate object
-
-00:01:58.136 --> 00:02:00.216 A:middle
-to encapsulate per
-photo settings
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:58.136 --> 00:02:00.216 A:middle
 to encapsulate per
@@ -210,14 +193,6 @@ in auto flash mode,
 meaning the flash
 should only be used
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:58.326 --> 00:03:00.336 A:middle
-meaning the flash
-should only be used
-
 00:03:00.336 --> 00:03:01.856 A:middle
 if the situation requires it.
 
@@ -291,14 +266,6 @@ Image Stabilization.
 Still Image Stabilization is
 a multi-image fusion capture
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.166 --> 00:04:02.186 A:middle
-Still Image Stabilization is
-a multi-image fusion capture
-
 00:04:02.446 --> 00:04:06.156 A:middle
 that blends differently
 exposed images to reduce blur
@@ -321,11 +288,11 @@ more in the dark.
 It's just that the camera
 needs to expose longer
 
-00:04:17.896 --> 00:04:21.125 A:middle
+00:04:17.896 --> 00:04:21.126 A:middle
 to gather the same number of
 photons requiring the shooter
 
-00:04:21.125 --> 00:04:22.786 A:middle
+00:04:21.126 --> 00:04:22.786 A:middle
 to be very, very steady.
 
 00:04:23.506 --> 00:04:25.726 A:middle
@@ -379,14 +346,6 @@ Image Stabilization
 
 00:04:56.336 --> 00:04:57.996 A:middle
 to SIS for brevity.
-
-00:04:58.806 --> 00:05:01.206 A:middle
-The blue bar represents
-the light levels
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.806 --> 00:05:01.206 A:middle
 The blue bar represents
@@ -470,14 +429,6 @@ scene or a flash scene?
 In AVCapturePhotoOutput we've
 addressed this ambiguity
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:56.476 --> 00:06:01.446 A:middle
-In AVCapturePhotoOutput we've
-addressed this ambiguity
-
 00:06:01.446 --> 00:06:04.406 A:middle
 with a specific API for
 Scene Monitoring called
@@ -546,14 +497,6 @@ overlapping range between SIS
 00:06:53.506 --> 00:06:57.276 A:middle
 and flash, the photoOutput
 reports that it's an SIS scene.
-
-00:06:58.256 --> 00:07:01.146 A:middle
-Next, I assign this object
-as the photo settings
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:58.256 --> 00:07:01.146 A:middle
 Next, I assign this object
@@ -637,14 +580,6 @@ observe the two isScene
 properties and get
 appropriate answers.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.826 --> 00:08:02.056 A:middle
-properties and get
-appropriate answers.
-
 00:08:03.496 --> 00:08:05.406 A:middle
 Be aware, though that
 if your photo settings
@@ -683,18 +618,18 @@ to enable Scene Monitoring.
 But if you do, monitor
 what you intend to capture.
 
-00:08:31.996 --> 00:08:35.135 A:middle
+00:08:31.996 --> 00:08:35.136 A:middle
 For example, if you intend
 to capture using Auto Flash
 
-00:08:35.135 --> 00:08:38.405 A:middle
+00:08:35.136 --> 00:08:38.406 A:middle
 but not SIS, then monitor
 with flash node set
 
-00:08:38.405 --> 00:08:40.956 A:middle
+00:08:38.406 --> 00:08:40.956 A:middle
 to auto and auto SIS off.
 
-00:08:41.506 --> 00:08:43.785 A:middle
+00:08:41.506 --> 00:08:43.786 A:middle
 Doing otherwise will
 likely confuse your user,
 
@@ -718,10 +653,6 @@ the Basics topic,
 00:08:56.716 --> 00:08:59.026 A:middle
 Resource Preparation
 and Reclamation.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:00.936 --> 00:09:04.066 A:middle
 To understand the need for
@@ -796,14 +727,6 @@ with settings and delegate,
 the photo output delivers just
 one result or set of results.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:56.896 --> 00:10:00.456 A:middle
-the photo output delivers just
-one result or set of results.
-
 00:10:02.086 --> 00:10:03.506 A:middle
 Unlike the streaming outputs,
 
@@ -870,14 +793,6 @@ requires multiple buffers
 
 00:10:56.696 --> 00:10:57.426 A:middle
 for fusion.
-
-00:10:59.086 --> 00:11:01.366 A:middle
-RAW capture requires
-very large buffers.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:59.086 --> 00:11:01.366 A:middle
 RAW capture requires
@@ -959,14 +874,6 @@ to capture a photo
 with your requested feature
 set, we might miss the shot,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:11:58.446 --> 00:12:01.316 A:middle
-with your requested feature
-set, we might miss the shot,
-
 00:12:01.556 --> 00:12:03.376 A:middle
 while allocating
 resources on-demand.
@@ -1039,14 +946,6 @@ resources if there are any.
 And by passing an empty array,
 you can reclaim everything.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.336 --> 00:13:02.806 A:middle
-And by passing an empty array,
-you can reclaim everything.
-
 00:13:03.386 --> 00:13:07.976 A:middle
 It calls you back when all
 resources are prepared.
@@ -1107,14 +1006,6 @@ begin/commitConfiguration
 
 00:13:57.886 --> 00:13:59.266 A:middle
 deferred work semantics.
-
-00:13:59.826 --> 00:14:02.286 A:middle
-That is, if you call
-beginConfiguration
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.826 --> 00:14:02.286 A:middle
 That is, if you call
@@ -1195,14 +1086,6 @@ with another set of settings,
 your first completion
 handler fires immediately
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.966 --> 00:15:01.316 A:middle
-your first completion
-handler fires immediately
-
 00:15:01.556 --> 00:15:03.306 A:middle
 with prepared set to false.
 
@@ -1272,10 +1155,6 @@ Capture or Bracketed Capture
 
 00:15:56.836 --> 00:15:58.746 A:middle
 on or off in your app.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:16:01.186 --> 00:16:04.276 A:middle
 Not all AVCapturePhotoOutput
@@ -1357,30 +1236,22 @@ you can take stills with
 or without high res
 capture enabled
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.646 --> 00:17:01.506 A:middle
-or without high res
-capture enabled
-
 00:17:01.876 --> 00:17:04.386 A:middle
 without causing an
 expensive graph rebuild.
 
-00:17:06.226 --> 00:17:09.415 A:middle
+00:17:06.226 --> 00:17:09.416 A:middle
 Similarly, LivePhotoCapture
 involves delivering a movie
 
-00:17:09.415 --> 00:17:11.406 A:middle
+00:17:09.416 --> 00:17:11.406 A:middle
 asset as well as a still image.
 
-00:17:11.935 --> 00:17:14.116 A:middle
+00:17:11.936 --> 00:17:14.116 A:middle
 The movie contains
 samples from the past,
 
-00:17:14.685 --> 00:17:17.356 A:middle
+00:17:14.686 --> 00:17:17.356 A:middle
 1.5 seconds before
 your capture request.
 
@@ -1432,14 +1303,6 @@ in iOS 10.
 00:17:54.586 --> 00:17:57.406 A:middle
 Let's review Apple's Privacy
 Policy with respect to media.
-
-00:17:57.946 --> 00:18:01.816 A:middle
-Photos and videos on a user's
-iOS device are personal,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:57.946 --> 00:18:01.816 A:middle
 Photos and videos on a user's
@@ -1516,14 +1379,6 @@ use the camera for.
 Likewise, apps linked against
 iOS 10 must provide a reason
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:57.586 --> 00:19:01.906 A:middle
-Likewise, apps linked against
-iOS 10 must provide a reason
-
 00:19:01.906 --> 00:19:03.666 A:middle
 string for using the microphone.
 
@@ -1594,13 +1449,6 @@ allows fine control
 00:19:59.826 --> 00:20:01.196 A:middle
 of scene monitoring behavior.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.826 --> 00:20:01.196 A:middle
-of scene monitoring behavior.
-
 00:20:02.266 --> 00:20:04.786 A:middle
 It also allows on-demand
 resource allocation
@@ -1641,4 +1489,3 @@ happy photo capture.
 
 00:20:34.836 --> 00:20:35.906 A:middle
 Enjoy the rest of the show.
-

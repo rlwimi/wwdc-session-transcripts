@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:20.546 A:middle
 [ Music ]
@@ -60,14 +59,6 @@ than just showing iOS
 
 00:00:56.806 --> 00:00:57.936 A:middle
 on the car's display.
-
-00:00:58.526 --> 00:01:00.126 A:middle
-CarPlay is thoughtfully
-integrated
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.526 --> 00:01:00.126 A:middle
 CarPlay is thoughtfully
@@ -149,19 +140,11 @@ setting, and safer to use.
 It works with what you
 already have in your vehicle.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:59.196 --> 00:02:01.526 A:middle
-It works with what you
-already have in your vehicle.
-
 00:02:01.916 --> 00:02:03.936 A:middle
 It's comfortable to use
 in that environment.
 
-00:02:06.766 --> 00:02:09.645 A:middle
+00:02:06.766 --> 00:02:09.646 A:middle
 Now let's talk about how
 CarPlay works in detail.
 
@@ -214,14 +197,6 @@ communication protocols are used
 00:02:56.196 --> 00:02:58.166 A:middle
 for setup and location
 information.
-
-00:02:58.596 --> 00:03:02.246 A:middle
-An H264 video stream showing
-the Home screen is sent
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:58.596 --> 00:03:02.246 A:middle
 An H264 video stream showing
@@ -296,14 +271,6 @@ were shown,
 audio from the native system,
 like FM radio, could play.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:54.376 --> 00:04:00.186 A:middle
-audio from the native system,
-like FM radio, could play.
-
 00:04:00.546 --> 00:04:04.156 A:middle
 Let's see what happens if Siri
 is then launched using the
@@ -363,14 +330,6 @@ communication protocol.
 00:04:52.456 --> 00:04:57.696 A:middle
 Information from vehicle sensors
 is sent over iAP2 as is audio,
-
-00:04:57.876 --> 00:05:00.076 A:middle
-telephony, and turn-by-turn
-metadata.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:57.876 --> 00:05:00.076 A:middle
 telephony, and turn-by-turn
@@ -443,14 +402,6 @@ each of these in detail.
 We want to make sure you
 understand the requirements
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.606 --> 00:06:01.326 A:middle
-We want to make sure you
-understand the requirements
-
 00:06:01.326 --> 00:06:04.576 A:middle
 before you begin to design a
 system so that you can be sure
@@ -510,10 +461,6 @@ and high resolution screens.
 00:06:54.096 --> 00:06:58.196 A:middle
 Without this, icons on the 720
 screens would be much smaller.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:07:00.976 --> 00:07:03.986 A:middle
 If you do have a display with
@@ -585,10 +532,6 @@ to the CarPlay experience.
 Let's talk about the car's
 audio system and microphones.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:08:00.576 --> 00:08:02.156 A:middle
 CarPlay audio is separated
 
@@ -647,14 +590,6 @@ in your vehicles.
 00:08:55.496 --> 00:08:58.126 A:middle
 The CarPlay UI can be
 controlled by a touchscreen
-
-00:08:58.126 --> 00:09:02.106 A:middle
-on the head unit, by knobs
-and buttons, or by a touchpad.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.126 --> 00:09:02.106 A:middle
 on the head unit, by knobs
@@ -725,14 +660,6 @@ milliseconds touch latency.
 This is how list scrolling
 using a swipe gesture
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.856 --> 00:10:00.706 A:middle
-This is how list scrolling
-using a swipe gesture
-
 00:10:00.706 --> 00:10:02.776 A:middle
 that tracks the touch
 input works
@@ -790,14 +717,6 @@ select, and back events.
 This is the minimum set
 of supported features
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.426 --> 00:11:04.286 A:middle
-This is the minimum set
-of supported features
-
 00:11:04.286 --> 00:11:06.706 A:middle
 for a knob that's used
 as a primary interface.
@@ -842,14 +761,6 @@ are optional.
 00:11:56.386 --> 00:11:58.726 A:middle
 The CarPlay UI will
 automatically change
-
-00:11:58.726 --> 00:12:01.506 A:middle
-to match the user inputs
-available in the vehicle.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.726 --> 00:12:01.506 A:middle
 to match the user inputs
@@ -919,10 +830,6 @@ information from the vehicle
 00:12:57.726 --> 00:12:59.676 A:middle
 so that the map's
 app works well.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:00.276 --> 00:13:03.186 A:middle
 Speed and GNSS information
@@ -1006,14 +913,6 @@ phone will be in a pocket, bag,
 or somewhere where the phone
 itself has poor reception.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:59.406 --> 00:14:02.166 A:middle
-or somewhere where the phone
-itself has poor reception.
-
 00:14:05.576 --> 00:14:07.136 A:middle
 What are the requirements
 
@@ -1087,14 +986,6 @@ support CarPlay,
 you'll need to properly
 label the ports.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.846 --> 00:15:01.566 A:middle
-you'll need to properly
-label the ports.
-
 00:15:05.116 --> 00:15:07.586 A:middle
 Wireless CarPlay is
 supported in iOS 9.
@@ -1149,14 +1040,6 @@ is required.
 
 00:15:56.896 --> 00:15:58.446 A:middle
 The Bluetooth subsystem needs
-
-00:15:58.446 --> 00:16:00.566 A:middle
-to support the communication
-protocol.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.446 --> 00:16:00.566 A:middle
 to support the communication
@@ -1240,23 +1123,15 @@ elements are part of CarPlay
 and which elements are part
 of your car's user interface,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.826 --> 00:17:02.116 A:middle
-and which elements are part
-of your car's user interface,
-
 00:17:03.666 --> 00:17:05.486 A:middle
 then every interaction
 becomes more challenging.
 
-00:17:07.826 --> 00:17:10.715 A:middle
+00:17:07.826 --> 00:17:10.716 A:middle
 Also, your car's native user
 interface may include icons
 
-00:17:10.715 --> 00:17:12.356 A:middle
+00:17:10.716 --> 00:17:12.356 A:middle
 that resemble or have
 similar functions
 
@@ -1304,14 +1179,6 @@ that CarPlay is started
 00:17:55.656 --> 00:17:58.246 A:middle
 and creates a strong association
 between the act of connecting
-
-00:17:58.976 --> 00:18:00.666 A:middle
-and the familiar
-appearance of CarPlay.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.976 --> 00:18:00.666 A:middle
 and the familiar
@@ -1399,10 +1266,6 @@ Notice that I'm using CarPlay,
 and it's showing on
 the car's display.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:19:00.766 --> 00:19:04.736 A:middle
 Now if I disconnect, CarPlay
 ends, and the car falls back
@@ -1465,14 +1328,6 @@ thing shown, it should remain
 
 00:19:55.526 --> 00:19:56.816 A:middle
 in the car's user interface.
-
-00:19:57.766 --> 00:20:00.166 A:middle
-But even if CarPlay was not
-the last thing on the screen,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.766 --> 00:20:00.166 A:middle
 But even if CarPlay was not
@@ -1547,14 +1402,6 @@ when iPhone is disconnected.
 And they also show the
 Apple CarPlay button
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.216 --> 00:21:00.686 A:middle
-And they also show the
-Apple CarPlay button
-
 00:21:00.686 --> 00:21:02.716 A:middle
 in an enabled state
 when CarPlay is active
@@ -1618,10 +1465,6 @@ with backgrounds.
 And, finally, there's
 a color background.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:06.336 --> 00:22:08.346 A:middle
 Let's talk about how
 media sources are handled
@@ -1683,10 +1526,6 @@ media is playing,
 00:22:55.376 --> 00:22:57.596 A:middle
 and the user disconnects iPhone,
 they should just hear silence.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:02.336 --> 00:23:04.226 A:middle
 The hardware buttons in
@@ -1767,14 +1606,6 @@ apps within CarPlay.
 &gt;&gt; Now let's talk about
 apps that work in CarPlay.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:59.256 --> 00:24:01.656 A:middle
-&gt;&gt; Now let's talk about
-apps that work in CarPlay.
-
 00:24:04.546 --> 00:24:06.696 A:middle
 Apps supported by
 CarPlay will appear
@@ -1850,14 +1681,6 @@ in iOS 10
 to make the audio apps
 experience even better.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:56.286 --> 00:25:00.746 A:middle
-to make the audio apps
-experience even better.
-
 00:25:00.846 --> 00:25:04.336 A:middle
 New in iOS 10 is support for
 tabs, which make it easier
@@ -1918,13 +1741,6 @@ playback controls.
 00:25:56.886 --> 00:25:59.676 A:middle
 Now let's talk about that
 next category, apps written
-
-00:25:59.676 --> 00:26:01.236 A:middle
-to work in specific vehicles.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.676 --> 00:26:01.236 A:middle
 to work in specific vehicles.
@@ -1996,13 +1812,6 @@ protocol name as the app.
 00:26:57.966 --> 00:26:59.836 A:middle
 A protocol name supported
 by the head unit
-
-00:26:59.836 --> 00:27:02.086 A:middle
-and the app need to match.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.836 --> 00:27:02.086 A:middle
 and the app need to match.
@@ -2079,14 +1888,6 @@ session must also be supported,
 and external accessory protocol
 CarPlay must be set to true.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:59.966 --> 00:28:04.246 A:middle
-and external accessory protocol
-CarPlay must be set to true.
-
 00:28:05.296 --> 00:28:08.136 A:middle
 If the car supports
 wireless and wired CarPlay,
@@ -2152,14 +1953,6 @@ from automakers.
 We have a new category of
 apps supported in CarPlay
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:57.506 --> 00:29:00.166 A:middle
-We have a new category of
-apps supported in CarPlay
-
 00:29:00.166 --> 00:29:02.326 A:middle
 and iOS10, messaging apps.
 
@@ -2218,4 +2011,3 @@ that may interest you.
 
 00:29:52.126 --> 00:29:53.066 A:middle
 Thank you for watching.
-

@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:17.500 A:middle
 [ Music ]
@@ -43,10 +42,6 @@ them and dive into more details.
 00:00:57.506 --> 00:00:59.056 A:middle
 And we even have
 a very good demo.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:01:00.686 --> 00:01:03.636 A:middle
 So let's begin.
@@ -105,14 +100,6 @@ app's content to technologies
 such as CloudKit and
 on-demand resources.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:56.276 --> 00:02:00.076 A:middle
-such as CloudKit and
-on-demand resources.
-
 00:02:02.016 --> 00:02:04.516 A:middle
 CloudKit is your interface
 
@@ -165,14 +152,6 @@ and still take advantage
 
 00:02:53.346 --> 00:02:55.116 A:middle
 of the security and efficiency.
-
-00:02:55.706 --> 00:03:02.916 A:middle
-Now, traditionally customers
-had to download an entire app
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:55.706 --> 00:03:02.916 A:middle
 Now, traditionally customers
@@ -243,10 +222,6 @@ when they're needed,
 00:03:55.826 --> 00:03:58.376 A:middle
 minimizing further wait time.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:04:00.436 --> 00:04:06.406 A:middle
 And also, applications can
 be very large, in fact,
@@ -258,7 +233,7 @@ traditionally agreeable.
 00:04:10.696 --> 00:04:15.096 A:middle
 Let's take a look at this.
 
-00:04:15.326 --> 00:04:17.555 A:middle
+00:04:15.326 --> 00:04:17.556 A:middle
 Every app has a main app bundle
 
 00:04:17.906 --> 00:04:20.086 A:middle
@@ -302,14 +277,6 @@ additional sets of assets packs
 00:04:56.676 --> 00:04:59.406 A:middle
 to be downloaded
 immediately after the install.
-
-00:04:59.466 --> 00:05:03.406 A:middle
-And this is called
-prefetch tags.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.466 --> 00:05:03.406 A:middle
 And this is called
@@ -367,14 +334,6 @@ up to four gigabytes,
 
 00:05:53.886 --> 00:05:56.886 A:middle
 using the rest of the allowance.
-
-00:05:58.216 --> 00:06:01.276 A:middle
-So, for example, if
-you spent 500 megabytes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.216 --> 00:06:01.276 A:middle
 So, for example, if
@@ -447,14 +406,6 @@ a whopping 20.2 gigabytes.
 And this is not just a big
 number, but a big number
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.626 --> 00:07:01.666 A:middle
-And this is not just a big
-number, but a big number
-
 00:07:01.666 --> 00:07:04.346 A:middle
 that does not feel to the
 customers heavy or tedious
@@ -510,14 +461,6 @@ and creates a virtual window
 to the space right
 in your living room.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.536 --> 00:08:01.636 A:middle
-to the space right
-in your living room.
-
 00:08:03.076 --> 00:08:07.196 A:middle
 It has over one gigabyte of
 super high-quality content.
@@ -540,7 +483,7 @@ seen from the Cupola module.
 00:08:24.516 --> 00:08:27.206 A:middle
 [ Applause ]
 
-00:08:27.706 --> 00:08:32.015 A:middle
+00:08:27.706 --> 00:08:32.016 A:middle
 Now, let's take a look at
 how we interact with the TV.
 
@@ -570,14 +513,6 @@ on the other side of the room
 00:08:54.226 --> 00:08:57.796 A:middle
 and our action is on the
 remote right in our hand.
-
-00:08:58.586 --> 00:09:02.396 A:middle
-There's no direct
-connection between the two.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:58.586 --> 00:09:02.396 A:middle
 There's no direct
@@ -628,14 +563,6 @@ a new parallax effect.
 00:09:55.486 --> 00:09:58.766 A:middle
 The parallax effect gives you
 a sense of where your focus is
-
-00:09:59.586 --> 00:10:02.586 A:middle
-and also the feeling that you
-are connected with the screen.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:09:59.586 --> 00:10:02.586 A:middle
 and also the feeling that you
@@ -698,14 +625,6 @@ take a look at the Home screen.
 The Home screen is where
 this 10-foot experience is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.156 --> 00:11:01.546 A:middle
-The Home screen is where
-this 10-foot experience is
-
 00:11:01.626 --> 00:11:02.486 A:middle
 best illustrated.
 
@@ -750,14 +669,6 @@ we highly recommend
 
 00:11:56.536 --> 00:11:57.416 A:middle
 that you take advantage
-
-00:11:57.416 --> 00:12:00.956 A:middle
-of it beyond providing
-a placeholder image.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:57.416 --> 00:12:00.956 A:middle
 of it beyond providing
@@ -820,14 +731,6 @@ introducing auto download.
 So apps downloaded on iOS will
 be automatically downloaded
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:58.466 --> 00:13:02.326 A:middle
-So apps downloaded on iOS will
-be automatically downloaded
-
 00:13:02.326 --> 00:13:06.826 A:middle
 to the TV just like that.
 
@@ -879,14 +782,6 @@ developing a game,
 00:13:54.416 --> 00:13:57.156 A:middle
 you'd be excited to learn
 that all the game technologies
-
-00:13:57.156 --> 00:14:02.056 A:middle
-that you love are all
-available on tvOS: Game Center,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.156 --> 00:14:02.056 A:middle
 that you love are all
@@ -953,14 +848,6 @@ the Movies app.
 And that's right, the App Store
 itself is built using TVMLKit.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.976 --> 00:15:05.716 A:middle
-And that's right, the App Store
-itself is built using TVMLKit.
-
 00:15:05.966 --> 00:15:13.606 A:middle
 And all of the developer tools
 on iOS that helped you fine-tune
@@ -1001,14 +888,6 @@ thanks to native support
 
 00:15:56.616 --> 00:15:57.536 A:middle
 from the focus engine.
-
-00:15:58.376 --> 00:16:02.396 A:middle
-Your movement and navigation
-will feel more natural
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.376 --> 00:16:02.396 A:middle
 Your movement and navigation
@@ -1065,14 +944,6 @@ the Union, up to four of them.
 You now have an option
 to require the use
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:57.976 --> 00:17:01.316 A:middle
-You now have an option
-to require the use
-
 00:17:01.316 --> 00:17:02.976 A:middle
 of MFI-based game controllers,
 
@@ -1091,11 +962,11 @@ ReplayKit to the TV.
 Using ReplayKit, players can
 record their gameplays locally
 
-00:17:19.116 --> 00:17:23.705 A:middle
+00:17:19.116 --> 00:17:23.706 A:middle
 on device and share it
 with friends via AirDrop.
 
-00:17:24.925 --> 00:17:28.886 A:middle
+00:17:24.926 --> 00:17:28.886 A:middle
 But that's not all; game
 players can now broadcast their
 
@@ -1122,14 +993,6 @@ from iOS.
 00:17:53.756 --> 00:17:58.666 A:middle
 We're also shipping a brand
 new Apple TV remote app.
-
-00:17:58.966 --> 00:18:02.626 A:middle
-And finally, users can set
-their system appearance
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.966 --> 00:18:02.626 A:middle
 And finally, users can set
@@ -1192,14 +1055,6 @@ you check out TVMLKit.
 TVMLKit is an incredibly
 rich framework.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.596 --> 00:19:01.916 A:middle
-TVMLKit is an incredibly
-rich framework.
-
 00:19:02.876 --> 00:19:08.186 A:middle
 And if your skillset already
 includes JavaScript and XML,
@@ -1253,13 +1108,6 @@ like to hand it
 00:19:55.066 --> 00:19:56.436 A:middle
 over to my colleague,
 Marshall Huss.
-
-00:19:57.516 --> 00:20:04.646 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:57.516 --> 00:20:04.646 A:middle
 [ Applause ]
@@ -1339,10 +1187,6 @@ their navigation bar
 
 00:20:57.956 --> 00:20:59.196 A:middle
 that looks like this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.126 --> 00:21:03.536 A:middle
 When that user taps that
@@ -1433,14 +1277,6 @@ for remote notifications
 so you can use Apple's
 Push Notification service
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:58.906 --> 00:22:01.556 A:middle
-so you can use Apple's
-Push Notification service
-
 00:22:01.866 --> 00:22:03.136 A:middle
 to send remote notifications.
 
@@ -1521,14 +1357,6 @@ to go back to the app
 00:22:56.676 --> 00:22:59.286 A:middle
 and see what they have is
 new, they can open the app.
-
-00:22:59.466 --> 00:23:02.286 A:middle
-And then we deliver that last
-notification so you can go
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.466 --> 00:23:02.286 A:middle
 And then we deliver that last
@@ -1622,14 +1450,6 @@ which has a lot of windows.
 Or the user may change
 it based on time of day.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:57.886 --> 00:24:00.436 A:middle
-Or the user may change
-it based on time of day.
-
 00:24:01.056 --> 00:24:03.676 A:middle
 So it's important in order
 to respect your user's choice
@@ -1692,10 +1512,6 @@ propagate that through your app.
 00:24:55.406 --> 00:24:59.966 A:middle
 If you create new projects
 in Xcode 8 for tvOS,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:00.026 --> 00:25:01.666 A:middle
 this will actually
@@ -1772,14 +1588,6 @@ view controllers.
 00:25:53.386 --> 00:25:56.806 A:middle
 Now in Interface Builder
 you can specify colors right
-
-00:25:56.806 --> 00:26:00.726 A:middle
-in the inspector
-for light and dark.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:56.806 --> 00:26:00.726 A:middle
 in the inspector
@@ -1863,14 +1671,6 @@ for the dark appearance.
 But one caveat is if you
 ever set the text color,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:59.016 --> 00:27:01.466 A:middle
-But one caveat is if you
-ever set the text color,
-
 00:27:01.756 --> 00:27:03.696 A:middle
 then you're responsible
 for updating that color
@@ -1943,14 +1743,6 @@ of refactorring,
 00:27:55.156 --> 00:27:57.316 A:middle
 we can vend a TraitCollection
 for both light and dark.
-
-00:27:57.646 --> 00:28:01.026 A:middle
-And using the appearance
-proxy API's we can set a color
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:57.646 --> 00:28:01.026 A:middle
 And using the appearance
@@ -2036,13 +1828,6 @@ of this is if you wanted
 00:28:59.246 --> 00:29:00.776 A:middle
 to override TraitCollections.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:28:59.246 --> 00:29:00.776 A:middle
-to override TraitCollections.
-
 00:29:00.776 --> 00:29:02.996 A:middle
 And this might be the case
 that if you want your app
@@ -2120,14 +1905,6 @@ UIViewController.
 We can add a property that has
 the style that we might want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.936 --> 00:30:01.816 A:middle
-We can add a property that has
-the style that we might want
-
 00:30:01.816 --> 00:30:03.466 A:middle
 to set in our
 ChildViewControllers.
@@ -2180,13 +1957,6 @@ up to show you what it takes
 
 00:30:44.866 --> 00:30:46.746 A:middle
 to update your app for tvOS 10.
-
-00:30:48.516 --> 00:31:03.186 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:48.516 --> 00:31:03.186 A:middle
 [ Applause ]
@@ -2261,10 +2031,6 @@ add the new User Interface Style
 00:31:52.306 --> 00:31:53.836 A:middle
 key to our Info.plist.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:32:01.456 --> 00:32:06.166 A:middle
 We'll set the value to
 automatic and rerun our app.
@@ -2335,14 +2101,6 @@ existing project,
 00:32:53.476 --> 00:32:57.606 A:middle
 we need to enable the trait
 variations feature in Xcode 8.
-
-00:32:58.176 --> 00:33:02.146 A:middle
-So to do that, we'll go to
-the File Inspector and click
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:58.176 --> 00:33:02.146 A:middle
 So to do that, we'll go to
@@ -2433,27 +2191,19 @@ our background colors.
 In our AppDelegate we're
 setting the background color
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.276 --> 00:34:04.926 A:middle
-In our AppDelegate we're
-setting the background color
-
 00:34:04.926 --> 00:34:07.176 A:middle
 of our CollectionViewCell
 using the appearance proxy.
 
-00:34:08.016 --> 00:34:09.295 A:middle
+00:34:08.016 --> 00:34:09.296 A:middle
 Now, we want the
 background color
 
-00:34:09.485 --> 00:34:11.406 A:middle
+00:34:09.486 --> 00:34:11.406 A:middle
 to change based on
 specific traits.
 
-00:34:11.485 --> 00:34:13.916 A:middle
+00:34:11.486 --> 00:34:13.916 A:middle
 So we need to use a
 trait-specific appearance proxy.
 
@@ -2469,7 +2219,7 @@ UITraitCollection
 with a UserInterfaceStyle
 of light.
 
-00:34:26.916 --> 00:34:29.335 A:middle
+00:34:26.916 --> 00:34:29.336 A:middle
 Then we'll replace our
 generic appearance proxy
 
@@ -2477,25 +2227,25 @@ generic appearance proxy
 with a trait-specific
 appearance proxy.
 
-00:34:32.146 --> 00:34:34.235 A:middle
+00:34:32.146 --> 00:34:34.236 A:middle
 So for TraitCollection,
 and we'll pass
 
-00:34:34.235 --> 00:34:35.786 A:middle
+00:34:34.236 --> 00:34:35.786 A:middle
 in the TraitCollection
 we just created.
 
 00:34:36.206 --> 00:34:39.206 A:middle
 We'll do the same for dark
 
-00:34:39.505 --> 00:34:41.116 A:middle
+00:34:39.506 --> 00:34:41.116 A:middle
 and specify a different
 background color.
 
-00:34:42.396 --> 00:34:43.485 A:middle
+00:34:42.396 --> 00:34:43.486 A:middle
 Now, because we can't view this
 
-00:34:43.485 --> 00:34:45.356 A:middle
+00:34:43.486 --> 00:34:45.356 A:middle
 in Interface Builder,
 we'll rerun our app.
 
@@ -2503,24 +2253,16 @@ we'll rerun our app.
 We've added a keyboard
 shortcut, so you can switch --
 
-00:34:49.525 --> 00:34:50.936 A:middle
+00:34:49.526 --> 00:34:50.936 A:middle
 quickly switch between the light
 
 00:34:50.936 --> 00:34:53.416 A:middle
 and dark appearances
 within the simulator.
 
-00:34:54.735 --> 00:34:56.626 A:middle
+00:34:54.736 --> 00:34:56.626 A:middle
 To do that, we'll
 hit Command Shift D
-
-00:34:57.236 --> 00:35:00.096 A:middle
-to switch the light appearance
-and then Command Shift D
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.236 --> 00:35:00.096 A:middle
 to switch the light appearance
@@ -2603,10 +2345,6 @@ we'll just leave it in there.
 Let's run our app,
 see how it looks now.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:00.796 --> 00:36:03.726 A:middle
 Okay. That looks much better.
 
@@ -2676,14 +2414,6 @@ services, and frameworks
 that you already know so it's
 really easy to get started.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:36:57.146 --> 00:37:01.976 A:middle
-that you already know so it's
-really easy to get started.
-
 00:37:02.086 --> 00:37:05.166 A:middle
 And focus-based interaction,
 layered images
@@ -2745,14 +2475,6 @@ sessions this week.
 And the Apple TV
 Tech Talk videos
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:58.846 --> 00:38:03.526 A:middle
-And the Apple TV
-Tech Talk videos
-
 00:38:03.526 --> 00:38:06.316 A:middle
 from earlier this
 year are very useful
@@ -2788,4 +2510,3 @@ of the conference.
 
 00:38:27.508 --> 00:38:29.508 A:middle
 [ Applause ]
-

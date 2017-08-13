@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:17.500 A:middle
 [ Music ]
@@ -49,14 +48,6 @@ and jump right into an agenda
 00:00:54.726 --> 00:00:57.526 A:middle
 and show you some of the
 things we're going to look at.
-
-00:00:58.256 --> 00:01:02.626 A:middle
-The NSURLSession API provides
-really a rich set of classes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.256 --> 00:01:02.626 A:middle
 The NSURLSession API provides
@@ -137,23 +128,15 @@ apps even more incredible.
 Now, let's start by looking at
 the highest level APIs available
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:56.086 --> 00:02:02.946 A:middle
-Now, let's start by looking at
-the highest level APIs available
-
 00:02:02.946 --> 00:02:05.686 A:middle
 to applications across
 all of Apple's platforms.
 
-00:02:06.956 --> 00:02:09.235 A:middle
+00:02:06.956 --> 00:02:09.236 A:middle
 For many years, Foundation
 provided the
 
-00:02:09.235 --> 00:02:10.816 A:middle
+00:02:09.236 --> 00:02:10.816 A:middle
 NSURLConnection API.
 
 00:02:11.656 --> 00:02:15.346 A:middle
@@ -221,14 +204,6 @@ very minimal maintenance.
 But prior to the official
 deprecation at WWDC 2013,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:02:57.506 --> 00:03:02.346 A:middle
-But prior to the official
-deprecation at WWDC 2013,
-
 00:03:02.806 --> 00:03:06.396 A:middle
 we introduced NSURLSession
 as the replacement API
@@ -290,14 +265,6 @@ NSURLSession API
 and recommending that
 your apps use this API.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:57.856 --> 00:04:00.756 A:middle
-and recommending that
-your apps use this API.
-
 00:04:01.726 --> 00:04:04.206 A:middle
 So what really makes
 NSURLSession worthy
@@ -312,11 +279,11 @@ we continue our great support
 00:04:09.756 --> 00:04:13.936 A:middle
 for the HTTP/1.1 protocol.
 
-00:04:13.936 --> 00:04:16.315 A:middle
+00:04:13.936 --> 00:04:16.316 A:middle
 We also have support
 for the SPDY protocol.
 
-00:04:16.745 --> 00:04:20.136 A:middle
+00:04:16.746 --> 00:04:20.136 A:middle
 Now, we don't recommend that
 you build new Web services based
 
@@ -361,14 +328,6 @@ between apps and Web processes.
 00:04:56.876 --> 00:04:59.506 A:middle
 One of the most important
 aspects of ATS is
-
-00:04:59.856 --> 00:05:03.166 A:middle
-that your apps must
-use the HTTPS protocol.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.856 --> 00:05:03.166 A:middle
 that your apps must
@@ -443,14 +402,6 @@ authentication challenges,
 all these things are
 built into NSURLSession.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:59.876 --> 00:06:02.036 A:middle
-all these things are
-built into NSURLSession.
-
 00:06:02.036 --> 00:06:05.536 A:middle
 And last but not
 least, configuration.
@@ -516,14 +467,6 @@ and maximum versions of TLS
 
 00:06:54.856 --> 00:06:56.806 A:middle
 that your app wants to support.
-
-00:06:57.246 --> 00:07:02.666 A:middle
-We default the minimum TLS to
-1.0 and the maximum TLS to 1.2.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.246 --> 00:07:02.666 A:middle
 We default the minimum TLS to
@@ -605,14 +548,6 @@ ephemeral cache,
 persistent cache that's
 used between app launches.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:59.826 --> 00:08:02.746 A:middle
-persistent cache that's
-used between app launches.
-
 00:08:03.316 --> 00:08:04.996 A:middle
 This is a place to
 set that policy.
@@ -650,14 +585,14 @@ and request time-outs
 so that your app can handle
 error conditions in the network.
 
-00:08:32.145 --> 00:08:36.635 A:middle
+00:08:32.146 --> 00:08:36.636 A:middle
 Now, I expect many of
 you have some exposure
 
-00:08:36.635 --> 00:08:38.006 A:middle
+00:08:36.636 --> 00:08:38.006 A:middle
 to NSURLSession API.
 
-00:08:38.385 --> 00:08:40.296 A:middle
+00:08:38.386 --> 00:08:40.296 A:middle
 If not, really, go
 ahead and look back
 
@@ -682,14 +617,6 @@ look at how NSURLSession works
 
 00:08:55.286 --> 00:08:56.526 A:middle
 from a code perspective.
-
-00:08:57.806 --> 00:09:00.486 A:middle
-So very simply, the first
-thing we do is we're going
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.806 --> 00:09:00.486 A:middle
 So very simply, the first
@@ -777,14 +704,6 @@ finished loading
 and the requested
 resource is returned to us.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:59.196 --> 00:10:02.746 A:middle
-and the requested
-resource is returned to us.
-
 00:10:04.296 --> 00:10:07.856 A:middle
 Now always, don't forget, make
 sure you call task.resume.
@@ -854,14 +773,6 @@ many tasks.
 So of course, you can
 have multiple sessions.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.566 --> 00:11:01.296 A:middle
-So of course, you can
-have multiple sessions.
-
 00:11:01.756 --> 00:11:05.936 A:middle
 But avoid the one-session
 to one-task model.
@@ -926,13 +837,6 @@ some of its features.
 00:11:55.866 --> 00:11:58.956 A:middle
 One of the great features
 of HTTP/2 is multiplexing
-
-00:11:58.956 --> 00:12:00.356 A:middle
-and concurrency support.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.956 --> 00:12:00.356 A:middle
 and concurrency support.
@@ -1010,13 +914,6 @@ feature that we have
 00:12:59.856 --> 00:13:02.196 A:middle
 to take a look at of HTTP/2.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.856 --> 00:13:02.196 A:middle
-to take a look at of HTTP/2.
-
 00:13:02.896 --> 00:13:06.176 A:middle
 Today we're introducing
 support in NSURLSession
@@ -1079,14 +976,6 @@ Push HTTP/2 requires today.
 00:13:57.976 --> 00:13:59.896 A:middle
 Now, I want to bring to
 your attention something
-
-00:13:59.896 --> 00:14:03.396 A:middle
-that the server obviously
-has to support this protocol,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:59.896 --> 00:14:03.396 A:middle
 that the server obviously
@@ -1169,14 +1058,6 @@ for our application.
 So, first our app is
 going to resume a task.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:58.996 --> 00:15:02.396 A:middle
-So, first our app is
-going to resume a task.
-
 00:15:02.896 --> 00:15:06.976 A:middle
 And that task is going
 to request index.html.
@@ -1252,14 +1133,6 @@ background.jpg.
 Our application is now finished
 with its network loading.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:15:56.456 --> 00:16:01.386 A:middle
-Our application is now finished
-with its network loading.
-
 00:16:01.836 --> 00:16:03.216 A:middle
 And we look at the graph,
 
@@ -1323,19 +1196,11 @@ from the original request.
 When our application
 resumes the second task
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:58.496 --> 00:17:02.016 A:middle
-When our application
-resumes the second task
-
 00:17:02.496 --> 00:17:06.896 A:middle
 and requests style.css we get
 an almost immediate response.
 
-00:17:07.185 --> 00:17:10.185 A:middle
+00:17:07.186 --> 00:17:10.186 A:middle
 And this is because Server
 Push gave us the data before we
 
@@ -1350,11 +1215,11 @@ notice that the accumulated time
 for style.css is substantially
 shorter when compared
 
-00:17:20.136 --> 00:17:24.455 A:middle
+00:17:20.136 --> 00:17:24.456 A:middle
 to the HTTP/1.1 needed to
 load the exact same resource.
 
-00:17:24.455 --> 00:17:29.406 A:middle
+00:17:24.456 --> 00:17:29.406 A:middle
 Now the app makes
 some final task resume
 
@@ -1393,14 +1258,6 @@ improved performance is
 00:17:56.046 --> 00:17:59.776 A:middle
 that with Server Push we were
 able to save the latency cost
-
-00:17:59.776 --> 00:18:03.386 A:middle
-of network round trips needed
-when requesting resources.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.776 --> 00:18:03.386 A:middle
 of network round trips needed
@@ -1463,10 +1320,6 @@ most popular picture
 
 00:18:58.316 --> 00:18:59.786 A:middle
 for a certain photographer.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:00.386 --> 00:19:01.836 A:middle
 View the individual pictures.
@@ -1541,14 +1394,6 @@ and now I'm going to switch
 to this mode, as Jeff explained
 previously, the requesting
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:19:59.616 --> 00:20:05.156 A:middle
-to this mode, as Jeff explained
-previously, the requesting
-
 00:20:05.156 --> 00:20:08.546 A:middle
 of the initial document
 will trigger the push
@@ -1604,10 +1449,6 @@ Well, let me show you that.
 00:20:55.626 --> 00:20:59.836 A:middle
 Now the demo application is
 going to provide the results.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:00.456 --> 00:21:01.886 A:middle
 It's the bottom of
@@ -1673,10 +1514,6 @@ loads side by side.
 00:21:56.736 --> 00:21:57.976 A:middle
 Well, let me show you that.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:22:07.356 --> 00:22:11.876 A:middle
 So, you can see when the Server
 Push user is already viewing the
@@ -1734,13 +1571,6 @@ Have a great conference.
 
 00:22:56.696 --> 00:22:58.956 A:middle
 And now, back to Jeff.
-
-00:22:59.516 --> 00:23:03.666 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:59.516 --> 00:23:03.666 A:middle
 [ Applause ]
@@ -1809,14 +1639,6 @@ loves statistics?
 
 00:23:57.846 --> 00:23:59.046 A:middle
 We have any statistic people?
-
-00:23:59.046 --> 00:24:00.496 A:middle
-We got some folks
-that love statistics?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.046 --> 00:24:00.496 A:middle
 We got some folks
@@ -1919,14 +1741,6 @@ you better understanding
 of what your networking is doing
 inside of your application.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:59.156 --> 00:25:02.486 A:middle
-of what your networking is doing
-inside of your application.
-
 00:25:04.116 --> 00:25:07.546 A:middle
 Currently, network
 statistics is supported in iOS,
@@ -1994,14 +1808,6 @@ the statistics are collected
 
 00:25:58.336 --> 00:25:59.776 A:middle
 and are ready to be delivered
-
-00:25:59.776 --> 00:26:01.926 A:middle
-to your
-didFinishCollectingMetrics
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:59.776 --> 00:26:01.926 A:middle
 to your
@@ -2086,14 +1892,6 @@ that Request and Response.
 There's two properties here
 called Request" and "Response.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.376 --> 00:27:02.986 A:middle
-There's two properties here
-called Request" and "Response.
-
 00:27:03.676 --> 00:27:05.096 A:middle
 And they really allow you
 
@@ -2159,13 +1957,6 @@ gathered or collected.
 
 00:27:55.596 --> 00:27:59.166 A:middle
 And the isReusedConnection.
-
-00:27:59.166 --> 00:28:00.976 A:middle
-This property is set to Yes
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:59.166 --> 00:28:00.976 A:middle
 This property is set to Yes
@@ -2242,14 +2033,6 @@ transaction has to do
 00:28:53.886 --> 00:28:56.386 A:middle
 with connection establishment
 and transmission.
-
-00:28:57.576 --> 00:29:01.226 A:middle
-Now, the first group of
-metrics measure time related
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.576 --> 00:29:01.226 A:middle
 Now, the first group of
@@ -2343,14 +2126,6 @@ a resource.
 A fetch could be satisfied
 from a local cache,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.706 --> 00:30:01.016 A:middle
-A fetch could be satisfied
-from a local cache,
-
 00:30:01.426 --> 00:30:03.796 A:middle
 or possibly resource
 that was origin loaded.
@@ -2421,14 +2196,6 @@ going to need a TLS handshake.
 00:30:57.006 --> 00:30:58.606 A:middle
 So we've got a statistic
 for that.
-
-00:30:59.186 --> 00:31:01.526 A:middle
-The secureConnectionStart
-metric,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:59.186 --> 00:31:01.526 A:middle
 The secureConnectionStart
@@ -2515,14 +2282,6 @@ HTTP header began transmission.
 requestEnd is the time
 when the last byte
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:57.886 --> 00:32:00.676 A:middle
-requestEnd is the time
-when the last byte
-
 00:32:00.676 --> 00:32:02.736 A:middle
 of the request was
 written to the network.
@@ -2598,14 +2357,6 @@ So just be aware of that
 00:32:57.446 --> 00:32:58.946 A:middle
 as you're looking
 at these statistics.
-
-00:32:59.496 --> 00:33:03.776 A:middle
-Now, you might be asking,
-"Okay, this is really cool.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:59.496 --> 00:33:03.776 A:middle
 Now, you might be asking,
@@ -2701,14 +2452,6 @@ of it.
 Now, we're going to create a
 default configuration object.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.786 --> 00:34:02.336 A:middle
-Now, we're going to create a
-default configuration object.
-
 00:34:02.336 --> 00:34:03.726 A:middle
 We take all the defaults just
 
@@ -2739,7 +2482,7 @@ I recreate an NSURLSession
 00:34:27.826 --> 00:34:29.226 A:middle
 with that configuration object.
 
-00:34:29.226 --> 00:34:32.565 A:middle
+00:34:29.226 --> 00:34:32.566 A:middle
 But here I'm calling
 NSURLSession's init function
 
@@ -2747,7 +2490,7 @@ NSURLSession's init function
 that takes additional
 parameters.
 
-00:34:34.676 --> 00:34:38.005 A:middle
+00:34:34.676 --> 00:34:38.006 A:middle
 And namely, those are the
 instantiated instant delegate
 
@@ -2774,14 +2517,6 @@ this server's root Web page.
 00:34:54.076 --> 00:34:56.906 A:middle
 And here I'm using,
 again, the dataTask method.
-
-00:34:57.526 --> 00:35:00.936 A:middle
-And this requires a
-closure as a parameter.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:57.526 --> 00:35:00.936 A:middle
 And this requires a
@@ -2865,14 +2600,6 @@ debugging and development
 to be able to get, you
 know, fix your apps
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:58.826 --> 00:36:00.456 A:middle
-to be able to get, you
-know, fix your apps
-
 00:36:00.456 --> 00:36:03.136 A:middle
 and make your apps work
 the best that they can be.
@@ -2947,14 +2674,6 @@ used interchangeably.
 00:36:55.226 --> 00:36:58.996 A:middle
 TLS makes use of ciphers
 to achieve this protection.
-
-00:36:59.096 --> 00:37:01.226 A:middle
-Ciphers scramble
-data on one side --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:59.096 --> 00:37:01.226 A:middle
 Ciphers scramble
@@ -3042,14 +2761,6 @@ kind of test this theory out.
 There is a command line
 tool on macOS called nscurl.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.316 --> 00:38:02.786 A:middle
-There is a command line
-tool on macOS called nscurl.
-
 00:38:02.786 --> 00:38:07.236 A:middle
 And this could be used to test
 for RC4-only ciphers on servers
@@ -3125,14 +2836,6 @@ within our application.
 00:38:57.166 --> 00:38:58.556 A:middle
 So I hope you get
 the point here.
-
-00:38:59.056 --> 00:39:01.976 A:middle
-The RC4 cipher is no longer
-supported on our platforms.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:38:59.056 --> 00:39:01.976 A:middle
 The RC4 cipher is no longer
@@ -3220,14 +2923,6 @@ Now, this requires that certs
 that your app receives must
 support these certificate
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:39:59.796 --> 00:40:03.366 A:middle
-that your app receives must
-support these certificate
-
 00:40:03.366 --> 00:40:05.166 A:middle
 transparency feature.
 
@@ -3300,14 +2995,6 @@ to perform even better.
 
 00:40:56.536 --> 00:40:58.826 A:middle
 I introduced Network Statistics.
-
-00:40:59.456 --> 00:41:02.596 A:middle
-Now you can introspect your
-application network behavior
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:40:59.456 --> 00:41:02.596 A:middle
 Now you can introspect your
@@ -3392,4 +3079,3 @@ Thank you.
 
 00:41:54.508 --> 00:41:56.508 A:middle
 [ Applause ]
-

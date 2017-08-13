@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:18.500 A:middle
 [ Music ]
@@ -10,7 +9,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 00:00:30.076 --> 00:00:30.686 A:middle
 &gt;&gt; Good afternoon.
 
-00:00:32.375 --> 00:00:33.746 A:middle
+00:00:32.376 --> 00:00:33.746 A:middle
 My name is Bruce Nilo.
 
 00:00:33.836 --> 00:00:36.456 A:middle
@@ -36,13 +35,6 @@ going to make it even easier
 00:00:51.806 --> 00:00:54.876 A:middle
 for you to create natural,
 and smooth-feeling,
-
-00:00:54.946 --> 00:01:00.046 A:middle
-and responsive applications.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:54.946 --> 00:01:00.046 A:middle
 and responsive applications.
@@ -115,14 +107,6 @@ in UIKit basically are there
 to -- well, they exist
 in a way that allows you
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.476 --> 00:02:02.736 A:middle
-to -- well, they exist
-in a way that allows you
-
 00:02:02.736 --> 00:02:04.786 A:middle
 to create a dynamic context
 
@@ -130,7 +114,7 @@ to create a dynamic context
 by which you can update
 the properties of a view
 
-00:02:08.306 --> 00:02:10.175 A:middle
+00:02:08.306 --> 00:02:10.176 A:middle
 that can be animated over time.
 
 00:02:13.066 --> 00:02:17.766 A:middle
@@ -190,10 +174,6 @@ means that's the value
 00:02:57.916 --> 00:02:59.876 A:middle
 that you're actually
 seeing animate.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:03:00.316 --> 00:03:03.466 A:middle
 Whereas the solid shape is going
@@ -267,14 +247,6 @@ meaning when you just started --
 the progress of the value
 that you're animating is
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.856 --> 00:04:01.346 A:middle
-the progress of the value
-that you're animating is
-
 00:04:01.346 --> 00:04:03.366 A:middle
 in fact the start value.
 
@@ -296,7 +268,7 @@ And it's really easy to see this
 with this exaggerated
 ease-in timing function.
 
-00:04:19.755 --> 00:04:22.806 A:middle
+00:04:19.756 --> 00:04:22.806 A:middle
 You'll notice that, halfway
 through the animation,
 
@@ -341,14 +313,6 @@ gives you four timing functions.
 00:04:55.696 --> 00:04:58.596 A:middle
 These are specific instances
 of cubic Bézier functions.
-
-00:04:58.596 --> 00:05:00.766 A:middle
-There's the identity
-function we saw before.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.596 --> 00:05:00.766 A:middle
 There's the identity
@@ -414,14 +378,6 @@ simple application
 00:05:48.986 --> 00:05:53.966 A:middle
 where we're animating a
 square from left to right.
-
-00:05:54.466 --> 00:06:00.046 A:middle
-And we're graphing effectively
-the position of the square
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:54.466 --> 00:06:00.046 A:middle
 And we're graphing effectively
@@ -515,14 +471,6 @@ smooth either.
 The velocity changes
 rather abruptly.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:58.546 --> 00:07:01.056 A:middle
-The velocity changes
-rather abruptly.
-
 00:07:02.056 --> 00:07:07.536 A:middle
 In iOS 8, we made a significant
 change where animations
@@ -597,14 +545,6 @@ Go backwards."
 We're going to introduce
 a whole new plethora
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.496 --> 00:08:00.596 A:middle
-We're going to introduce
-a whole new plethora
-
 00:08:00.596 --> 00:08:03.856 A:middle
 of timing functions, not just
 the four that we had before
@@ -670,14 +610,6 @@ specifying the timing function
 00:08:54.886 --> 00:08:57.416 A:middle
 that you want that
 animation to use.
-
-00:08:57.506 --> 00:09:00.176 A:middle
-We provide two new
-concrete classes for these.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.506 --> 00:09:00.176 A:middle
 We provide two new
@@ -759,10 +691,6 @@ that you can observe and set.
 For example, you can set
 the fractionComplete.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:10:00.046 --> 00:10:01.536 A:middle
 You can tell an animation
 to start.
@@ -840,14 +768,6 @@ possibilities in terms
 of how you can reverse
 an animation.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:58.716 --> 00:11:00.416 A:middle
-of how you can reverse
-an animation.
-
 00:11:02.066 --> 00:11:03.086 A:middle
 Finally, we're going
 
@@ -917,14 +837,6 @@ to orange.
 00:11:53.116 --> 00:11:55.276 A:middle
 And then you can start
 it whenever you want to.
-
-00:11:56.586 --> 00:12:00.006 A:middle
-OK, it's kind of verbose
-compared to the old API,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:56.586 --> 00:12:00.006 A:middle
 OK, it's kind of verbose
@@ -1015,14 +927,6 @@ tell the animator to pause.
 I can tell it that I
 want it to continue again
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:59.446 --> 00:13:01.506 A:middle
-I can tell it that I
-want it to continue again
-
 00:13:01.506 --> 00:13:02.786 A:middle
 in the opposite direction.
 
@@ -1103,14 +1007,6 @@ solid in the center.
 00:13:53.656 --> 00:13:57.336 A:middle
 We've effectively promoted what
 you're seeing on the screen
-
-00:13:57.376 --> 00:14:01.126 A:middle
-to the actual model value that's
-in the view that's animating.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.376 --> 00:14:01.126 A:middle
 to the actual model value that's
@@ -1203,14 +1099,6 @@ a lot of possibilities.
 For example, imagine
 you're pausing this circle
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.966 --> 00:15:03.026 A:middle
-For example, imagine
-you're pausing this circle
-
 00:15:03.186 --> 00:15:05.756 A:middle
 or you're stopping this
 circle when you touch it,
@@ -1272,14 +1160,6 @@ recognizers on the square and on
 
 00:15:54.246 --> 00:15:56.036 A:middle
 that little green progress bar.
-
-00:15:56.966 --> 00:16:00.646 A:middle
-And we can scrub
-that progress bar.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:56.966 --> 00:16:00.646 A:middle
 And we can scrub
@@ -1362,10 +1242,6 @@ both the animator
 and the progress bar
 as fractionComplete.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:17:00.566 --> 00:17:07.806 A:middle
 OK. So, what's going
 on with this graph?
@@ -1385,7 +1261,7 @@ going to go back to this kind
 of exaggerated ease-in
 curve again.
 
-00:17:20.415 --> 00:17:24.086 A:middle
+00:17:20.416 --> 00:17:24.086 A:middle
 So let's say this time,
 50% of the way in,
 
@@ -1430,14 +1306,6 @@ the perceived position
 00:17:56.626 --> 00:17:58.346 A:middle
 of the view that
 we're animating.
-
-00:17:58.866 --> 00:18:02.276 A:middle
-So, in fact, what happens
-is we kind of map time back
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:58.866 --> 00:18:02.276 A:middle
 So, in fact, what happens
@@ -1515,14 +1383,6 @@ You can also reverse on the fly.
 Which means that, as the
 animation is running,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.116 --> 00:19:00.096 A:middle
-Which means that, as the
-animation is running,
-
 00:19:00.096 --> 00:19:01.286 A:middle
 you can tell it to reverse.
 
@@ -1591,14 +1451,6 @@ target you just specified.
 00:19:51.856 --> 00:19:57.126 A:middle
 OK, there's some
 interesting timing objects
-
-00:19:58.736 --> 00:20:01.476 A:middle
-that we've made available
-to you.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.736 --> 00:20:01.476 A:middle
 that we've made available
@@ -1680,13 +1532,6 @@ UISpringTimingParameter object
 00:20:59.636 --> 00:21:01.556 A:middle
 with no arguments, you're going
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:59.636 --> 00:21:01.556 A:middle
-with no arguments, you're going
-
 00:21:01.556 --> 00:21:03.946 A:middle
 to get a critically-damped
 spring animation,
@@ -1763,10 +1608,6 @@ velocity is now a vector.
 
 00:21:58.416 --> 00:21:59.736 A:middle
 It's not a scaler.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:00.726 --> 00:22:03.076 A:middle
 Most of the time, we're
@@ -1847,10 +1688,6 @@ the x and y components.
 
 00:22:58.906 --> 00:22:59.916 A:middle
 It's really easy to do that.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:00.516 --> 00:23:06.586 A:middle
 [ Applause ]
@@ -1933,14 +1770,6 @@ of that protocol.
 00:23:57.226 --> 00:23:58.776 A:middle
 And this will become
 clear in a second.
-
-00:23:59.546 --> 00:24:01.486 A:middle
-But let's remember why
-we want to do this.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:23:59.546 --> 00:24:01.486 A:middle
 But let's remember why
@@ -2038,14 +1867,6 @@ information you need
 to actually animate
 a transition.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:24:58.806 --> 00:25:00.876 A:middle
-to actually animate
-a transition.
-
 00:25:01.126 --> 00:25:03.196 A:middle
 And we're going to
 call animateTransition,
@@ -2123,10 +1944,6 @@ all you need to do
 00:25:58.186 --> 00:25:59.726 A:middle
 to implement animateTransition.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:01.266 --> 00:26:03.056 A:middle
 However, we kind of advise
 
@@ -2200,13 +2017,6 @@ before
 00:26:57.146 --> 00:26:59.866 A:middle
 where if you implemented
 UIPercentDriven
-
-00:26:59.866 --> 00:27:00.876 A:middle
-InteractiveTransition,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:26:59.866 --> 00:27:00.876 A:middle
 InteractiveTransition,
@@ -2290,14 +2100,6 @@ Not too difficult.
 We did have to extend some other
 objects in these protocols.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:27:58.086 --> 00:28:04.826 A:middle
-We did have to extend some other
-objects in these protocols.
-
 00:28:04.826 --> 00:28:07.096 A:middle
 For example, context
 transitioning now has
@@ -2360,13 +2162,6 @@ controls that behavior.
 
 00:28:54.216 --> 00:28:57.246 A:middle
 Finally, we have UIPercentDriven
-
-00:28:57.686 --> 00:29:00.156 A:middle
-InteractiveTransition updated.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:57.686 --> 00:29:00.156 A:middle
 InteractiveTransition updated.
@@ -2450,14 +2245,6 @@ demo application here.
 
 00:29:57.816 --> 00:29:59.776 A:middle
 We've got an application
-
-00:29:59.776 --> 00:30:02.846 A:middle
-that utilizes the
-UIViewPropertyAnimator
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:29:59.776 --> 00:30:02.846 A:middle
 that utilizes the
@@ -2559,14 +2346,6 @@ interactively, move around,
 and then let it finish
 in an animated fashion.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.076 --> 00:31:01.116 A:middle
-and then let it finish
-in an animated fashion.
-
 00:31:01.856 --> 00:31:03.556 A:middle
 So I want to show you
 how we've accomplished
@@ -2651,13 +2430,6 @@ to be an interactive transition.
 00:31:56.806 --> 00:31:58.996 A:middle
 So let's look at
 UIViewController
-
-00:31:58.996 --> 00:32:00.046 A:middle
-InteractiveTransitioning.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:58.996 --> 00:32:00.046 A:middle
 InteractiveTransitioning.
@@ -2759,13 +2531,6 @@ startInteractiveTransition
 00:32:59.746 --> 00:33:01.216 A:middle
 as opposed to animateTransition.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.746 --> 00:33:01.216 A:middle
-as opposed to animateTransition.
-
 00:33:01.776 --> 00:33:03.906 A:middle
 But the new interruptible
 animator API
@@ -2863,14 +2628,6 @@ later on.
 And it'll pass in a completion
 closure as well to help clean
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:57.046 --> 00:34:00.096 A:middle
-And it'll pass in a completion
-closure as well to help clean
-
 00:34:00.096 --> 00:34:01.396 A:middle
 up some of those
 background views.
@@ -2914,7 +2671,7 @@ that were passed to us.
 But the important thing
 here is we're going to call
 
-00:34:25.376 --> 00:34:27.985 A:middle
+00:34:25.376 --> 00:34:27.986 A:middle
 to the transition context
 when this animator ends
 
@@ -2942,33 +2699,29 @@ we're supposed to pass through.
 00:34:39.966 --> 00:34:41.936 A:middle
 So we pass "yes" to that API.
 
-00:34:41.936 --> 00:34:44.025 A:middle
+00:34:41.936 --> 00:34:44.026 A:middle
 That means we're going
 to end the transition.
 
-00:34:44.025 --> 00:34:46.335 A:middle
+00:34:44.026 --> 00:34:46.336 A:middle
 If we pass "no", it means we're
 going to cancel the transition.
 
-00:34:47.036 --> 00:34:48.755 A:middle
+00:34:47.036 --> 00:34:48.756 A:middle
 So before I go a
 little bit further
 
-00:34:48.755 --> 00:34:52.505 A:middle
+00:34:48.756 --> 00:34:52.506 A:middle
 in the transition animator
 helper object here,
 
-00:34:52.815 --> 00:34:54.976 A:middle
+00:34:52.816 --> 00:34:54.976 A:middle
 I want to show you a few
 more features in the demo app
 
 00:34:54.976 --> 00:34:56.976 A:middle
 that are made possible by
 using UIViewPropertyAnimator.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:35:02.246 --> 00:35:05.936 A:middle
 So if we go back to the demo,
@@ -3074,10 +2827,6 @@ we're going to describe
 when we look at this
 next piece of code.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:36:05.096 --> 00:36:07.176 A:middle
 So I've broken that down in
 this sample application here
@@ -3169,14 +2918,6 @@ our chrome, the visual effect
 00:36:57.286 --> 00:36:58.726 A:middle
 in the background
 -- it's as simple
-
-00:36:58.726 --> 00:37:01.016 A:middle
-as setting the fractionComplete
-on this transition animator.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.726 --> 00:37:01.016 A:middle
 as setting the fractionComplete
@@ -3291,13 +3032,6 @@ to the animated phase.
 00:37:59.646 --> 00:38:00.566 A:middle
 And then we just animate.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:37:59.646 --> 00:38:00.566 A:middle
-And then we just animate.
-
 00:38:00.676 --> 00:38:02.526 A:middle
 So let's look at the
 animation method here.
@@ -3400,14 +3134,6 @@ to be in an inactive state.
 So all we need to do is start
 that transition animator
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:58.886 --> 00:39:00.916 A:middle
-So all we need to do is start
-that transition animator
-
 00:39:00.916 --> 00:39:02.516 A:middle
 and we're off to
 the animation phase.
@@ -3500,14 +3226,6 @@ pauseAnimation step here.
 00:39:55.026 --> 00:39:58.286 A:middle
 And this is when it's
 animating and we paused.
-
-00:39:58.416 --> 00:40:00.006 A:middle
-We put our finger down
-on the image view.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:58.416 --> 00:40:00.006 A:middle
 We put our finger down
@@ -3609,13 +3327,6 @@ that more natural-feeling
 00:40:59.576 --> 00:41:01.156 A:middle
 and a little bit more lively.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:59.576 --> 00:41:01.156 A:middle
-and a little bit more lively.
-
 00:41:01.886 --> 00:41:04.686 A:middle
 So if we look at changing
 that timing to a spring,
@@ -3705,14 +3416,6 @@ Rather, it'll be computed based
 on the properties we've
 provided in the spring timing.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:58.776 --> 00:42:00.836 A:middle
-on the properties we've
-provided in the spring timing.
-
 00:42:01.436 --> 00:42:04.476 A:middle
 And because of that, we have
 animation duration helper
@@ -3783,14 +3486,6 @@ hit test our views.
 00:42:55.556 --> 00:42:58.216 A:middle
 If it was "false", we would
 just be swallowing all touches.
-
-00:42:58.836 --> 00:43:01.876 A:middle
-We have this property called
-isManualHitTestingEnabled
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.836 --> 00:43:01.876 A:middle
 We have this property called
@@ -3876,14 +3571,6 @@ so far has been working.
 Now this doesn't
 work all the time.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:58.896 --> 00:44:00.436 A:middle
-Now this doesn't
-work all the time.
-
 00:44:00.436 --> 00:44:02.586 A:middle
 If you have deep view
 hierarchies and so forth,
@@ -3962,13 +3649,6 @@ animations, too.
 
 00:44:54.516 --> 00:44:58.546 A:middle
 [ Applause ]
-
-00:44:59.046 --> 00:45:00.096 A:middle
-There's one last thing.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:59.046 --> 00:45:00.096 A:middle
 There's one last thing.
@@ -4059,13 +3739,5 @@ I encourage you to go see those.
 00:45:59.896 --> 00:46:00.816 A:middle
 Thank you.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:59.896 --> 00:46:00.816 A:middle
-Thank you.
-
 00:46:01.516 --> 00:46:06.500 A:middle
 [ Applause ]
-

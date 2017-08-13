@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:08.516 --> 00:00:17.500 A:middle
 [ Music ]
@@ -60,18 +59,10 @@ the AV Foundation framework,
 which is our lowest level
 and most powerful framework
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:00:58.306 --> 00:01:01.336 A:middle
-which is our lowest level
-and most powerful framework
-
 00:01:01.336 --> 00:01:02.446 A:middle
 for accessing the camera.
 
-00:01:02.446 --> 00:01:05.025 A:middle
+00:01:02.446 --> 00:01:05.026 A:middle
 AV Foundation is broad and deep.
 
 00:01:05.316 --> 00:01:08.016 A:middle
@@ -145,10 +136,6 @@ vivid images in wide color.
 00:01:58.976 --> 00:01:59.676 A:middle
 Let's get started.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:02:00.476 --> 00:02:01.436 A:middle
 Here's a quick refresher
 
@@ -163,7 +150,7 @@ capture universe is
 00:02:06.216 --> 00:02:07.636 A:middle
 the AVCaptureSession.
 
-00:02:08.106 --> 00:02:10.795 A:middle
+00:02:08.106 --> 00:02:10.796 A:middle
 This is the object you tell
 it to start or stop running.
 
@@ -230,14 +217,6 @@ new CaptureOutput in iOS 10.
 00:02:56.696 --> 00:02:58.966 A:middle
 And it's called the
 AVCapturePhotoOutput,
-
-00:02:59.406 --> 00:03:01.936 A:middle
-emphasizing the fact that
-our photos are much more
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.406 --> 00:03:01.936 A:middle
 emphasizing the fact that
@@ -322,14 +301,6 @@ features are supported,
 such as is
 LivePhotoCaptureSupported?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:58.196 --> 00:04:00.626 A:middle
-such as is
-LivePhotoCaptureSupported?
-
 00:04:01.346 --> 00:04:04.536 A:middle
 It has a smaller set of writable
 properties that let you opt
@@ -350,11 +321,11 @@ specify them upfront.
 One such is
 HighResolutionCapture.
 
-00:04:16.286 --> 00:04:18.995 A:middle
+00:04:16.286 --> 00:04:18.996 A:middle
 If you ever intend to capture
 high-resolution photos,
 
-00:04:18.995 --> 00:04:23.486 A:middle
+00:04:18.996 --> 00:04:23.486 A:middle
 such as five-megapixel
 selfies on the iPhone 6s,
 
@@ -412,14 +383,6 @@ the settings that pertain
 00:04:55.356 --> 00:04:57.946 A:middle
 to one single photo
 capture request.
-
-00:04:58.136 --> 00:05:01.666 A:middle
-Think of it like the
-list of options to choose
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:58.136 --> 00:05:01.666 A:middle
 Think of it like the
@@ -503,14 +466,6 @@ settings getting out of sync
 00:05:55.496 --> 00:05:58.456 A:middle
 because they are not properties
 of the AVCapturePhotoOutput,
-
-00:05:58.656 --> 00:06:00.816 A:middle
-but rather, a per-settings
-object.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:05:58.656 --> 00:06:00.816 A:middle
 but rather, a per-settings
@@ -604,14 +559,6 @@ stabilization.
 I shortened still image
 stabilization to SIS
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:06:59.566 --> 00:07:01.996 A:middle
-I shortened still image
-stabilization to SIS
-
 00:07:01.996 --> 00:07:03.876 A:middle
 so it would fit on
 the slide better.
@@ -700,14 +647,6 @@ resolved to off.
 So clearly we're in a
 very low light situation
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.106 --> 00:08:00.136 A:middle
-So clearly we're in a
-very low light situation
-
 00:08:00.136 --> 00:08:01.116 A:middle
 such as this conference room.
 
@@ -754,7 +693,7 @@ Then some time has to pass
 because the image
 is being processed,
 
-00:08:31.046 --> 00:08:32.765 A:middle
+00:08:31.046 --> 00:08:32.766 A:middle
 applying all the features
 that you asked for.
 
@@ -762,11 +701,11 @@ that you asked for.
 And when the photo
 is finally ready,
 
-00:08:35.186 --> 00:08:37.515 A:middle
+00:08:35.186 --> 00:08:37.516 A:middle
 you get the
 didProcessingPhotoSampleBuffer
 
-00:08:37.515 --> 00:08:40.726 A:middle
+00:08:37.516 --> 00:08:40.726 A:middle
 callback, along with an
 ImageSampleBuffer you've been
 
@@ -799,14 +738,6 @@ packages have been delivered.
 00:08:57.236 --> 00:08:59.076 A:middle
 A pleasure doing business
 with you over and out.
-
-00:08:59.796 --> 00:09:02.886 A:middle
-This is a good time to clean up
-any of your per-photo storage.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:59.796 --> 00:09:02.886 A:middle
 This is a good time to clean up
@@ -898,14 +829,6 @@ to initiate photo captures
 with various
 AVCapturePhotoSettings features.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:57.846 --> 00:10:00.446 A:middle
-with various
-AVCapturePhotoSettings features.
-
 00:10:01.236 --> 00:10:03.676 A:middle
 Okay, the first one,
 takeHighResolutionPhoto,
@@ -984,14 +907,6 @@ there that you had
 00:10:55.986 --> 00:10:58.866 A:middle
 to access two different objects
 in order to set settings.
-
-00:10:58.996 --> 00:11:01.686 A:middle
-Here, it's all part of
-one single atomic object.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:10:58.996 --> 00:11:01.686 A:middle
 Here, it's all part of
@@ -1079,13 +994,6 @@ This is kind of a nice feature.
 00:11:56.666 --> 00:11:58.696 A:middle
 It tells you the dimensions
 of the photo you're going
-
-00:11:58.696 --> 00:12:00.106 A:middle
-to get before you get it.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:58.696 --> 00:12:00.106 A:middle
 to get before you get it.
@@ -1178,14 +1086,6 @@ for doing a bracketed capture.
 When you create one of
 these you specify an array
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:12:57.286 --> 00:13:01.046 A:middle
-When you create one of
-these you specify an array
-
 00:13:01.286 --> 00:13:03.496 A:middle
 of AVCapture BracketedStill
 ImageSettings.
@@ -1262,14 +1162,6 @@ over to it right away.
 00:13:52.936 --> 00:13:56.766 A:middle
 And so we're deprecating in iOS
 10 the AVCaptureStillImageOutput
-
-00:13:57.126 --> 00:14:00.436 A:middle
-and all of the flash-related
-properties of AVCaptureDevice,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:13:57.126 --> 00:14:00.436 A:middle
 and all of the flash-related
@@ -1361,14 +1253,6 @@ Photos is that they appreciate
 in value the further
 you get from the memory.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.656 --> 00:15:02.016 A:middle
-in value the further
-you get from the memory.
-
 00:15:02.806 --> 00:15:05.306 A:middle
 So, in this picture, this
 is a great still image
@@ -1453,10 +1337,6 @@ surprise reveal live photo,
 but unfortunately,
 my kids are too.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:16:06.426 --> 00:16:08.406 A:middle
 A three-second window
 is just way too tempting
@@ -1540,14 +1420,6 @@ Let me emphasize that again.
 Live Photos get all
 the great secret sauce
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:59.916 --> 00:17:02.316 A:middle
-Live Photos get all
-the great secret sauce
-
 00:17:02.316 --> 00:17:04.086 A:middle
 that Apple's non-Live Photos do,
 
@@ -1555,7 +1427,7 @@ that Apple's non-Live Photos do,
 so you are not sacrificing
 anything by turning it on.
 
-00:17:08.965 --> 00:17:11.935 A:middle
+00:17:08.966 --> 00:17:11.936 A:middle
 Also a big deal was the idea
 of frictionless capture.
 
@@ -1563,7 +1435,7 @@ of frictionless capture.
 That means there's
 nothing new to learn.
 
-00:17:14.435 --> 00:17:16.566 A:middle
+00:17:14.436 --> 00:17:16.566 A:middle
 You take photos the same
 way you always have.
 
@@ -1575,7 +1447,7 @@ frame the shot, push a button,
 nothing additional
 to think about.
 
-00:17:23.516 --> 00:17:25.685 A:middle
+00:17:23.516 --> 00:17:25.686 A:middle
 A Live Photo is also
 a memory, though.
 
@@ -1622,14 +1494,6 @@ movement towards your shoes
 
 00:17:58.556 --> 00:17:59.276 A:middle
 or your pockets.
-
-00:17:59.546 --> 00:18:01.726 A:middle
-So now we'll auto trim them
-and get rid of the parts
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:17:59.546 --> 00:18:01.726 A:middle
 So now we'll auto trim them
@@ -1724,14 +1588,6 @@ of top level movie metadata
 that pairs it with
 the JPEG's metadata
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.136 --> 00:19:00.496 A:middle
-that pairs it with
-the JPEG's metadata
-
 00:19:00.756 --> 00:19:03.686 A:middle
 and that's called the
 QuickTime content identifier.
@@ -1815,14 +1671,6 @@ AVCaptureMovieOutput
 00:19:57.136 --> 00:19:58.876 A:middle
 and Live Photos at
 the same time.
-
-00:19:59.156 --> 00:20:00.546 A:middle
-So if you have a
-movie file output
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:59.156 --> 00:20:00.546 A:middle
 So if you have a
@@ -1913,14 +1761,6 @@ resolved dimensions.
 See that? Now, in addition
 to just the photo dimensions,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:58.796 --> 00:21:01.316 A:middle
-See that? Now, in addition
-to just the photo dimensions,
-
 00:21:01.316 --> 00:21:03.916 A:middle
 you also know what dimensions
 the Live Photo is going to be.
@@ -2004,13 +1844,6 @@ didFinishProcessing
 00:21:59.386 --> 00:22:01.336 A:middle
 LivePhotoTo MovieFileAtURL.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:21:59.386 --> 00:22:01.336 A:middle
-LivePhotoTo MovieFileAtURL.
-
 00:22:01.896 --> 00:22:04.416 A:middle
 That is a required callback,
 if you're doing Live Photos.
@@ -2087,13 +1920,6 @@ when you're doing Live Photos.
 00:22:56.136 --> 00:22:58.706 A:middle
 LivePhotoCapture is an
 example of the kind of capture
-
-00:22:58.706 --> 00:23:00.436 A:middle
-that delivers multiple assets.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:22:58.706 --> 00:23:00.436 A:middle
 that delivers multiple assets.
@@ -2188,14 +2014,6 @@ of the photo still image time.
 When you swipe between
 them, these particular kinds
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.436 --> 00:24:01.316 A:middle
-When you swipe between
-them, these particular kinds
-
 00:24:01.316 --> 00:24:03.546 A:middle
 of assets have a little bit
 of movement in the photos app.
@@ -2266,14 +2084,6 @@ is on or off.
 
 00:24:56.036 --> 00:24:57.546 A:middle
 And you can switch cameras.
-
-00:24:57.806 --> 00:25:00.006 A:middle
-I'm going to try to do the
-difficult doughnut selfie.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.806 --> 00:25:00.006 A:middle
 I'm going to try to do the
@@ -2364,13 +2174,6 @@ in the middle -- so, nice.
 00:25:55.176 --> 00:25:55.976 A:middle
 You can now edit
 your Live Photos.
-
-00:25:56.516 --> 00:26:03.306 A:middle
-[ Applause ]
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:25:56.516 --> 00:26:03.306 A:middle
 [ Applause ]
@@ -2467,14 +2270,6 @@ Live Photo here
 and then they play an
 obnoxious foghorn sound here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:58.416 --> 00:27:01.906 A:middle
-and then they play an
-obnoxious foghorn sound here.
-
 00:27:02.006 --> 00:27:05.696 A:middle
 And then after it's done
 playing they take another Live
@@ -2556,10 +2351,6 @@ So let's talk about support.
 Where do we support
 LivePhotoCapture?
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:28:00.466 --> 00:28:04.346 A:middle
 We support it on all the recent
 iOS devices, and the easy way
@@ -2625,14 +2416,6 @@ as they are to the other colors.
 00:28:52.256 --> 00:28:54.766 A:middle
 The bottom layer here is
 known as the sensor array.
-
-00:28:55.966 --> 00:29:00.686 A:middle
-Now what actually gets stored
-in a RAW file is the intensity
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:55.966 --> 00:29:00.686 A:middle
 Now what actually gets stored
@@ -2723,14 +2506,6 @@ the same ingredients,
 you might get a slightly
 different tasting cake.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:59.006 --> 00:30:01.976 A:middle
-you might get a slightly
-different tasting cake.
-
 00:30:02.396 --> 00:30:04.786 A:middle
 But there are also some
 huge advantages to RAW.
@@ -2804,14 +2579,6 @@ involved when you choose RAW
 00:30:51.856 --> 00:30:56.086 A:middle
 and that JPEGs are still
 a very attractive option.
-
-00:30:56.086 --> 00:31:00.846 A:middle
-JPEGs are the cake, the lovingly
-baked Apple cake, just for you,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:30:56.086 --> 00:31:00.846 A:middle
 JPEGs are the cake, the lovingly
@@ -2903,14 +2670,6 @@ the order of the reds,
 greens and blues in
 the checkerboard.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:31:59.216 --> 00:32:00.846 A:middle
-greens and blues in
-the checkerboard.
-
 00:32:02.266 --> 00:32:05.196 A:middle
 How do you capture RAW
 with AVCapturePhotoOutput?
@@ -2979,14 +2738,6 @@ to be supported by the hardware.
 00:32:52.666 --> 00:32:57.046 A:middle
 Now also important is that
 in these RAW settings,
-
-00:32:57.686 --> 00:33:02.306 A:middle
-SIS has no meaning because
-it's not a multiple image
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:32:57.686 --> 00:33:02.306 A:middle
 SIS has no meaning because
@@ -3068,14 +2819,6 @@ like on DSLR cameras,
 mirrorless cameras, a workflow
 where you can get both RAW
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:33:59.626 --> 00:34:03.036 A:middle
-mirrorless cameras, a workflow
-where you can get both RAW
-
 00:34:03.036 --> 00:34:04.956 A:middle
 and JPEG simultaneously.
 
@@ -3091,7 +2834,7 @@ RAW and JPEG is kind
 of a professional feature,
 kind of a big deal.
 
-00:34:11.255 --> 00:34:14.916 A:middle
+00:34:11.256 --> 00:34:14.916 A:middle
 So you can get RAW
 plus a processed image.
 
@@ -3099,7 +2842,7 @@ plus a processed image.
 It doesn't have to be a
 JPEG, it could be BGRA, 420.
 
-00:34:18.775 --> 00:34:22.005 A:middle
+00:34:18.776 --> 00:34:22.006 A:middle
 The processed image is
 delivered to the other callback,
 
@@ -3111,11 +2854,11 @@ SampleBuffer callback,
 and the RAW is delivered to
 the one with RAW in the name.
 
-00:34:30.246 --> 00:34:33.255 A:middle
+00:34:30.246 --> 00:34:33.256 A:middle
 RAW plus processed
 brackets are supported,
 
-00:34:33.255 --> 00:34:34.606 A:middle
+00:34:33.256 --> 00:34:34.606 A:middle
 so see if you can wrap
 your head around that.
 
@@ -3131,7 +2874,7 @@ RAW plus JPEG.
 So if I'm doing a
 bracket of three,
 
-00:34:40.246 --> 00:34:42.565 A:middle
+00:34:40.246 --> 00:34:42.566 A:middle
 I'm going to get three
 RAWs and three JPEGs.
 
@@ -3142,7 +2885,7 @@ stabilization,
 00:34:46.676 --> 00:34:47.916 A:middle
 though, is not supported.
 
-00:34:49.525 --> 00:34:53.076 A:middle
+00:34:49.526 --> 00:34:53.076 A:middle
 Okay, so to capture RAW plus
 JPEG, as you might expect,
 
@@ -3150,17 +2893,9 @@ JPEG, as you might expect,
 there's yet another constructor
 of AVCapturePhotoSettings.
 
-00:34:56.835 --> 00:34:59.806 A:middle
+00:34:56.836 --> 00:34:59.806 A:middle
 In this one, you specify
 both the RAW pixel format
-
-00:34:59.806 --> 00:35:02.126 A:middle
-and the processed
-format that you want.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:34:59.806 --> 00:35:02.126 A:middle
 and the processed
@@ -3234,14 +2969,6 @@ to interpret those ingredients.
 So DNGs opened by one third
 party app might look different
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:35:56.916 --> 00:36:00.866 A:middle
-So DNGs opened by one third
-party app might look different
-
 00:36:00.866 --> 00:36:03.686 A:middle
 than DNGs opened
 in a different app.
@@ -3303,14 +3030,6 @@ exposure, white balance,
 00:36:54.306 --> 00:36:57.536 A:middle
 and you can manually
 or auto control those.
-
-00:36:58.046 --> 00:37:02.046 A:middle
-And then there's a new thing
-in the HUD on the left side
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:36:58.046 --> 00:37:02.046 A:middle
 And then there's a new thing
@@ -3382,14 +3101,6 @@ are being done in post
 
 00:37:55.856 --> 00:37:57.106 A:middle
 and are completely reversible.
-
-00:37:57.586 --> 00:38:00.596 A:middle
-You can also look and see
-what it looks like with
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:37:57.586 --> 00:38:00.596 A:middle
 You can also look and see
@@ -3467,14 +3178,6 @@ also known as thumbnails.
 Photography apps commonly
 take pictures and want
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:38:57.746 --> 00:39:01.296 A:middle
-Photography apps commonly
-take pictures and want
-
 00:39:01.296 --> 00:39:03.396 A:middle
 to quickly show a
 preview of the results,
@@ -3544,14 +3247,6 @@ want to store on disk.
 00:39:55.896 --> 00:39:59.466 A:middle
 That's what you want to
 survive, but you also want
-
-00:39:59.466 --> 00:40:00.976 A:middle
-to get a preview on
-screen really fast.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:39:59.466 --> 00:40:00.976 A:middle
 to get a preview on
@@ -3643,13 +3338,6 @@ a good preview size would be
 00:40:58.866 --> 00:41:00.206 A:middle
 for this current platform,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:40:58.866 --> 00:41:00.206 A:middle
-for this current platform,
-
 00:41:00.456 --> 00:41:02.866 A:middle
 the PhotoOutput can pick a
 good default size for you.
@@ -3723,14 +3411,6 @@ exactly the aspect ratio
 of the image that
 you're getting.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:41:59.826 --> 00:42:00.936 A:middle
-of the image that
-you're getting.
-
 00:42:01.406 --> 00:42:03.826 A:middle
 Here I just specified
 160 by 160.
@@ -3789,14 +3469,6 @@ aspect ratio appropriate
 00:42:52.156 --> 00:42:58.886 A:middle
 for the 12-megapixel
 photo that you want.
-
-00:42:58.886 --> 00:43:02.956 A:middle
-When the didFinish
-ProcessingPhoto SampleBuffer
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:42:58.886 --> 00:43:02.956 A:middle
 When the didFinish
@@ -3873,14 +3545,6 @@ it's going to be viewed.
 Some apps can handle
 looking at the DNG bits,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:43:59.646 --> 00:44:05.786 A:middle
-Some apps can handle
-looking at the DNG bits,
-
 00:44:05.816 --> 00:44:07.196 A:middle
 the RAW bits, and some can't.
 
@@ -3936,14 +3600,6 @@ strikingly vivid reds
 00:44:53.476 --> 00:44:57.406 A:middle
 and yellows and deeply
 saturated cyans and greens.
-
-00:44:58.446 --> 00:45:01.476 A:middle
-To take advantage of the
-display's extended color range,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:44:58.446 --> 00:45:01.476 A:middle
 To take advantage of the
@@ -4026,14 +3682,6 @@ standards, so standard RGB.
 It's based on an
 international spec ITU 709.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:45:57.716 --> 00:46:01.616 A:middle
-It's based on an
-international spec ITU 709.
-
 00:46:02.346 --> 00:46:06.956 A:middle
 It has a gamma of roughly
 2.2 and a white point
@@ -4086,10 +3734,6 @@ in gamma and white point.
 00:46:55.686 --> 00:46:59.776 A:middle
 The gamma and white point
 are identical to sRGBs.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:47:00.866 --> 00:47:02.046 A:middle
 Why would we do that?
@@ -4176,14 +3820,6 @@ super-imposed on top
 of the other, so you can see
 sRGB inside and Display P3
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:47:59.726 --> 00:48:03.136 A:middle
-of the other, so you can see
-sRGB inside and Display P3
-
 00:48:03.136 --> 00:48:05.006 A:middle
 on the outside, and
 you get a feel
@@ -4258,10 +3894,6 @@ Foundation represents a camera
 00:48:59.336 --> 00:48:59.806 A:middle
 or a mic.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:49:00.786 --> 00:49:03.706 A:middle
 Each AVCaptureDevice
 has a format property.
@@ -4321,13 +3953,6 @@ but in the API, it's referred
 00:49:51.496 --> 00:49:57.346 A:middle
 to as P3 D65, the d
 standing for display and 65
-
-00:49:57.346 --> 00:50:01.346 A:middle
-for the 6500 Kelvin white point.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:49:57.346 --> 00:50:01.346 A:middle
 for the 6500 Kelvin white point.
@@ -4407,14 +4032,6 @@ directly and that's
 because AVCaptureSession
 will try to do it
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:50:58.986 --> 00:51:01.346 A:middle
-because AVCaptureSession
-will try to do it
-
 00:51:01.346 --> 00:51:02.246 A:middle
 for you automatically.
 
@@ -4485,14 +4102,6 @@ There are some caveats here.
 00:51:56.216 --> 00:51:58.786 A:middle
 Like, if you start adding
 other outputs to your session,
-
-00:51:59.096 --> 00:52:01.336 A:middle
-maybe it's not as clear
-what you're trying to do.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:51:59.096 --> 00:52:01.336 A:middle
 maybe it's not as clear
@@ -4577,10 +4186,6 @@ format yourself
 to a format that's
 supports wide color.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:53:00.156 --> 00:53:03.656 A:middle
 And then you would set the
 activeColorSpace to P3.
@@ -4652,14 +4257,6 @@ services are not color-aware.
 00:53:53.586 --> 00:53:59.046 A:middle
 So if you store a wide Display
 P3 movie and then you try
-
-00:53:59.046 --> 00:54:01.456 A:middle
-to play it back with
-some service,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:53:59.046 --> 00:54:01.456 A:middle
 to play it back with
@@ -4742,14 +4339,6 @@ they are color-aware these days.
 iCloud Photo Library
 is one of them.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:54:58.636 --> 00:55:00.516 A:middle
-iCloud Photo Library
-is one of them.
-
 00:55:00.696 --> 00:55:05.086 A:middle
 It can intelligently convert
 your images to sRGB on devices
@@ -4815,14 +4404,6 @@ specific table-based ICC profile
 00:55:53.236 --> 00:55:56.556 A:middle
 that's specific to
 that particular JPEG.
-
-00:55:57.306 --> 00:56:00.496 A:middle
-And what's nice about it is
-if it's rendered by someone
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:55:57.306 --> 00:56:00.496 A:middle
 And what's nice about it is
@@ -4896,13 +4477,6 @@ Live Photos support wide color.
 00:56:59.386 --> 00:57:01.066 A:middle
 Both the still and the movie.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:56:59.386 --> 00:57:01.066 A:middle
-Both the still and the movie.
-
 00:57:01.266 --> 00:57:02.446 A:middle
 These are special movies.
 
@@ -4971,14 +4545,6 @@ just iPad Pro.
 00:57:55.066 --> 00:57:59.456 A:middle
 As I just said, you can learn
 more on wide color, in general,
-
-00:57:59.456 --> 00:58:01.906 A:middle
-not just sharing but
-all about wide color.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:57:59.456 --> 00:58:01.906 A:middle
 not just sharing but
@@ -5061,14 +4627,6 @@ And then an unrelated topic,
 changes to camera
 privacy policy in iOS 10.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:58:56.886 --> 00:59:00.046 A:middle
-changes to camera
-privacy policy in iOS 10.
-
 00:59:00.046 --> 00:59:01.436 A:middle
 So please take a
 look at that video.
@@ -5129,4 +4687,3 @@ and thank you for coming.
 
 00:59:33.508 --> 00:59:35.508 A:middle
 [ Applause ]
-

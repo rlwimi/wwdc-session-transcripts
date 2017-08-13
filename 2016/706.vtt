@@ -1,5 +1,4 @@
 WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:07.516 --> 00:00:18.500 A:middle
 [ Music ]
@@ -17,7 +16,7 @@ X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 Thanks for coming out to hear
 about what's new in security.
 
-00:00:32.485 --> 00:00:33.756 A:middle
+00:00:32.486 --> 00:00:33.756 A:middle
 My name's Lucia Ballard
 
 00:00:33.756 --> 00:00:36.486 A:middle
@@ -54,13 +53,6 @@ of security on our system.
 00:00:56.626 --> 00:00:58.596 A:middle
 Here we're going to dive a
 little more into the details.
-
-00:00:58.596 --> 00:01:00.976 A:middle
-So, here's what's on deck.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:00:58.596 --> 00:01:00.976 A:middle
 So, here's what's on deck.
@@ -142,14 +134,6 @@ loading across the network,
 you should provide
 confidentiality
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:01:58.736 --> 00:02:00.326 A:middle
-you should provide
-confidentiality
-
 00:02:00.326 --> 00:02:02.176 A:middle
 and data integrity
 to your users.
@@ -205,14 +189,6 @@ only one that's fully resistant
 00:02:55.706 --> 00:02:59.416 A:middle
 to all the vulnerabilities that
 we know about, like BEAST attack
-
-00:02:59.666 --> 00:03:02.756 A:middle
-or the POODLE attack, or other
-exploits with these scary names.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:02:59.666 --> 00:03:02.756 A:middle
 or the POODLE attack, or other
@@ -294,14 +270,6 @@ up for particular domains
 that you knew couldn't
 move to TLS that fast.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:03:59.176 --> 00:04:02.826 A:middle
-that you knew couldn't
-move to TLS that fast.
-
 00:04:03.036 --> 00:04:04.436 A:middle
 Now I'm wondering
 how many people
@@ -321,10 +289,10 @@ about it for a while."
 Well, now is the
 time to revisit it
 
-00:04:14.266 --> 00:04:16.305 A:middle
+00:04:14.266 --> 00:04:16.306 A:middle
 because this year we're starting
 
-00:04:16.305 --> 00:04:19.266 A:middle
+00:04:16.306 --> 00:04:19.266 A:middle
 to enforce App Transport
 Security at the App Store.
 
@@ -377,13 +345,6 @@ without any justification.
 00:04:56.186 --> 00:04:59.936 A:middle
 So for example, if you have a
 partner server you're working
-
-00:04:59.936 --> 00:05:02.156 A:middle
-with and you don't have control
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:04:59.936 --> 00:05:02.156 A:middle
 with and you don't have control
@@ -456,13 +417,6 @@ you can just set this key
 00:05:58.706 --> 00:06:01.836 A:middle
 in your app's Info.plist.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:05:58.706 --> 00:06:01.836 A:middle
-in your app's Info.plist.
-
 00:06:01.836 --> 00:06:07.246 A:middle
 NSAllowsAarbitraryLoads
 inWebContentKey and then all
@@ -531,14 +485,6 @@ moved too far for both
 00:06:56.186 --> 00:06:57.996 A:middle
 of these technologies
 and no longer think
-
-00:06:57.996 --> 00:07:00.586 A:middle
-that they provide effective
-security for our users.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:06:57.996 --> 00:07:00.586 A:middle
 that they provide effective
@@ -617,13 +563,6 @@ loads using strong TLS,
 00:07:58.976 --> 00:08:01.246 A:middle
 but strong TLS is not enough.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:07:58.976 --> 00:08:01.246 A:middle
-but strong TLS is not enough.
-
 00:08:02.616 --> 00:08:05.456 A:middle
 You also need to have
 confidence that the certificate
@@ -663,21 +602,21 @@ work today.
 So, if you're connecting
 to a server,
 
-00:08:34.676 --> 00:08:37.285 A:middle
+00:08:34.676 --> 00:08:37.286 A:middle
 that server has had
 a certificate issued
 
-00:08:37.285 --> 00:08:38.606 A:middle
+00:08:37.286 --> 00:08:38.606 A:middle
 from a certificate authority.
 
 00:08:38.856 --> 00:08:40.686 A:middle
 That authority validates
 the host name
 
-00:08:40.686 --> 00:08:42.515 A:middle
+00:08:40.686 --> 00:08:42.516 A:middle
 and says, "Yep, sounds good.
 
-00:08:42.515 --> 00:08:44.096 A:middle
+00:08:42.516 --> 00:08:44.096 A:middle
 You are in fact example.com.
 
 00:08:44.096 --> 00:08:45.556 A:middle
@@ -691,14 +630,6 @@ sends that certificate over.
 00:08:53.056 --> 00:08:56.116 A:middle
 But this is not always
 a perfect mechanism.
-
-00:08:57.386 --> 00:09:00.336 A:middle
-If there's an attacker who
-manages to get a certificate
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:08:57.386 --> 00:09:00.336 A:middle
 If there's an attacker who
@@ -789,14 +720,6 @@ in the TLS handshake,
 or it can be delivered
 by OCSP stapling,
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:09:58.466 --> 00:10:00.676 A:middle
-or it can be delivered
-by OCSP stapling,
-
 00:10:00.676 --> 00:10:04.536 A:middle
 which I'll talk more
 about in a minute.
@@ -873,14 +796,6 @@ and the client can reject it.
 Alternatively, if they are using
 a certificate authority that's
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:10:59.986 --> 00:11:03.946 A:middle
-Alternatively, if they are using
-a certificate authority that's
-
 00:11:03.946 --> 00:11:07.926 A:middle
 participating, then that
 tainted certificate gets logged
@@ -943,14 +858,6 @@ from at least two logs.
 00:11:55.816 --> 00:11:59.576 A:middle
 These logs -- we're adding
 new logs as we qualify them,
-
-00:11:59.736 --> 00:12:01.406 A:middle
-but basically if your
-certificate works
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:11:59.736 --> 00:12:01.406 A:middle
 but basically if your
@@ -1034,13 +941,6 @@ of problems with it.
 00:12:55.546 --> 00:12:58.656 A:middle
 So, as a refresher,
 this is how OCSP works.
-
-00:12:58.656 --> 00:13:00.336 A:middle
-We have the same set up, right?
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:12:58.656 --> 00:13:00.336 A:middle
 We have the same set up, right?
@@ -1137,14 +1037,6 @@ a lot of these concerns.
 So, here's basically
 how it works.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:13:58.906 --> 00:14:00.566 A:middle
-So, here's basically
-how it works.
-
 00:14:01.506 --> 00:14:03.006 A:middle
 Instead of the client asking,
 
@@ -1229,14 +1121,6 @@ together in the same handshake.
 And, like I said, OCSP
 stapling is widely supported
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:14:59.506 --> 00:15:03.896 A:middle
-And, like I said, OCSP
-stapling is widely supported
-
 00:15:03.896 --> 00:15:06.966 A:middle
 across many operating systems
 and is backwards compatible,
@@ -1298,14 +1182,6 @@ full loop and know
 
 00:15:56.636 --> 00:15:57.906 A:middle
 that you can have confidence
-
-00:15:58.126 --> 00:16:00.416 A:middle
-in making secured connections
-back to your servers.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:15:58.126 --> 00:16:00.416 A:middle
 in making secured connections
@@ -1376,19 +1252,11 @@ moving forward with SecKey.
 We've also tied this into a
 new kit called CryptoTokenKit.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:16:56.836 --> 00:17:00.866 A:middle
-We've also tied this into a
-new kit called CryptoTokenKit.
-
-00:17:01.796 --> 00:17:05.425 A:middle
+00:17:01.796 --> 00:17:05.426 A:middle
 CryptoTokenKit is system support
 for cryptographic devices
 
-00:17:05.425 --> 00:17:08.796 A:middle
+00:17:05.426 --> 00:17:08.796 A:middle
 so that smart cards you might
 be using to prove your identity
 
@@ -1404,15 +1272,15 @@ box integration with these
 and they can integrate
 into system surfaces.
 
-00:17:18.646 --> 00:17:23.195 A:middle
+00:17:18.646 --> 00:17:23.196 A:middle
 So, that means the Token content
 is available in the keychain,
 
-00:17:23.195 --> 00:17:27.236 A:middle
+00:17:23.196 --> 00:17:27.236 A:middle
 as you would expect, and the
 Token operations are available
 
-00:17:27.425 --> 00:17:28.706 A:middle
+00:17:27.426 --> 00:17:28.706 A:middle
 using the SecKey API.
 
 00:17:29.996 --> 00:17:31.676 A:middle
@@ -1453,10 +1321,6 @@ Trusted Engineering Team.
 00:17:57.206 --> 00:17:59.846 A:middle
 So, I'm going to talk about
 what's new in security,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:18:00.516 --> 00:18:02.526 A:middle
 but first of all I
@@ -1531,14 +1395,6 @@ way to get your apps.
 You can also get apps that are
 assigned with Developer ID.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:18:58.366 --> 00:19:03.366 A:middle
-You can also get apps that are
-assigned with Developer ID.
-
 00:19:05.996 --> 00:19:09.606 A:middle
 You can also use Xcode
 to build your own apps
@@ -1586,14 +1442,6 @@ specially by Gatekeeper.
 00:19:54.596 --> 00:19:58.566 A:middle
 There are actually some improved
 flows in Xcode 8 that allow you
-
-00:19:58.566 --> 00:20:00.446 A:middle
-to properly export
-your Developer ID
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:19:58.566 --> 00:20:00.446 A:middle
 to properly export
@@ -1665,14 +1513,6 @@ to do all of this.
 So, you can start iCloud
 Development testing today.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:20:57.176 --> 00:21:00.066 A:middle
-So, you can start iCloud
-Development testing today.
-
 00:21:00.626 --> 00:21:01.976 A:middle
 That's using the Xcode 8 tools.
 
@@ -1734,14 +1574,6 @@ to run on your machine.
 
 00:21:55.626 --> 00:21:59.206 A:middle
 And there is a Preference Panel.
-
-00:21:59.566 --> 00:22:01.586 A:middle
-And on that Preference
-Panel, in El Capitan,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:21:59.566 --> 00:22:01.586 A:middle
 And on that Preference
@@ -1817,14 +1649,6 @@ in a later seed build.
 I also want to say that we
 haven't actually changed the way
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:22:57.266 --> 00:23:01.076 A:middle
-I also want to say that we
-haven't actually changed the way
-
 00:23:01.076 --> 00:23:02.846 A:middle
 that this underlying
 mechanism works and the way
@@ -1892,13 +1716,6 @@ resources that they reach
 00:23:58.896 --> 00:24:01.236 A:middle
 out to may not be signed
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:23:58.896 --> 00:24:01.236 A:middle
-out to may not be signed
-
 00:24:02.026 --> 00:24:04.246 A:middle
 and they can be code
 or code equivalent.
@@ -1953,14 +1770,6 @@ it's loading these potentially
 
 00:24:55.696 --> 00:24:56.456 A:middle
 dangerous things.
-
-00:24:57.296 --> 00:25:00.296 A:middle
-And you'll notice that the
-app, with its green border,
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:24:57.296 --> 00:25:00.296 A:middle
 And you'll notice that the
@@ -2040,10 +1849,6 @@ and those things are apps
 that are delivered
 from the Mac App Store.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
 00:26:00.716 --> 00:26:04.136 A:middle
 And that is the best
 way to get apps.
@@ -2107,14 +1912,6 @@ combination of pulling resources
 from here and there, you can
 also be affected by this.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:26:56.606 --> 00:27:00.966 A:middle
-from here and there, you can
-also be affected by this.
-
 00:27:07.386 --> 00:27:08.976 A:middle
 So, I -- we need your
 help with this problem.
@@ -2164,14 +1961,6 @@ release of El Capitan,
 00:27:52.436 --> 00:27:54.916 A:middle
 or any of the later
 release of OS X.
-
-00:27:58.066 --> 00:28:01.636 A:middle
-You can use the cosigning
-tool to sign the app --
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:27:58.066 --> 00:28:01.636 A:middle
 You can use the cosigning
@@ -2244,14 +2033,6 @@ signature before you release it.
 00:28:57.426 --> 00:28:59.056 A:middle
 Alternatively if you
 have a complex set
-
-00:28:59.056 --> 00:29:02.086 A:middle
-up you can use a signed
-Apple Installer Package.
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:28:59.056 --> 00:29:02.086 A:middle
 up you can use a signed
@@ -2332,13 +2113,6 @@ the code signature,
 00:29:58.776 --> 00:30:00.856 A:middle
 and when Gatekeeper comes
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:29:58.776 --> 00:30:00.856 A:middle
-and when Gatekeeper comes
-
 00:30:00.856 --> 00:30:02.936 A:middle
 to verify your app
 it will get grumpy.
@@ -2398,13 +2172,6 @@ and it applies to apps that are
 00:30:59.286 --> 00:31:00.826 A:middle
 on unsigned disk images.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:30:59.286 --> 00:31:00.826 A:middle
-on unsigned disk images.
-
 00:31:00.826 --> 00:31:05.976 A:middle
 So, let me describe exactly how
 this mechanism is going to work.
@@ -2450,14 +2217,6 @@ So there are some situations
 00:31:56.286 --> 00:31:58.556 A:middle
 where this relocation
 does not happen.
-
-00:31:59.206 --> 00:32:02.596 A:middle
-If the user explicitly
-moves the app
-
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
 
 00:31:59.206 --> 00:32:02.596 A:middle
 If the user explicitly
@@ -2526,14 +2285,5 @@ that things that are valid.
 So, more information about
 this talk can be found here.
 
-
-WEBVTT
-X-TIMESTAMP-MAP=MPEGTS:181083,LOCAL:00:00:00.000
-
-00:32:59.896 --> 00:33:01.946 A:middle
-So, more information about
-this talk can be found here.
-
 00:33:02.516 --> 00:33:05.500 A:middle
 [ Applause ]
-
